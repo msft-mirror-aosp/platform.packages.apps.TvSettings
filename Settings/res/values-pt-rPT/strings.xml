@@ -666,4 +666,8 @@
     <string name="capturing_bugreport" msgid="3291125403411239592">"A capturar o relatório de erro"</string>
     <string name="available_virtual_keyboard_category" msgid="6566257204210337817">"Teclados virtuais disponíveis"</string>
     <string name="manage_keyboards" msgid="1905379263117016795">"Gerir teclados"</string>
+    <string name="app_permission_summary_allowed" msgid="1618833359547333078">"Permitida"</string>
+    <string name="app_permission_summary_not_allowed" msgid="3667663331476577913">"Não permitida"</string>
+    <string name="usage_access" msgid="1914242907684452328">"Acesso de utilização"</string>
+    <string name="usage_access_description" msgid="6290001769893747651">"O acesso de utilização permite a uma aplicação monitorizar que outras aplicações está a utilizar e com que frequência, bem como o operador e as definições de idioma, entre outros detalhes."</string>
 </resources>
