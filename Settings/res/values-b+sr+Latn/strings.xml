@@ -24,6 +24,7 @@
     <string name="header_category_preferences" msgid="175105555164713972">"Podešavanja"</string>
     <string name="header_category_accessories" msgid="823295909353025991">"Daljinski upravljač i dodatna oprema"</string>
     <string name="header_category_personal" msgid="8893959635328775096">"Lično"</string>
+    <string name="accounts_category_title" msgid="7591072907146317425">"Nalozi"</string>
     <string name="add_account" msgid="4098060223200619258">"Dodaj nalog"</string>
     <string name="account_header_remove_account" msgid="3288957118207682685">"Uklanjanje naloga"</string>
     <string name="account_sync" msgid="773808124331714965">"Izaberite sinhron. aplikacije"</string>
@@ -35,7 +36,7 @@
     <string name="account_remove_failed" msgid="980654375770693544">"Nije moguće ukloniti nalog"</string>
     <!-- no translation found for sync_item_title (2716687595867726981) -->
     <skip />
-    <string name="sync_one_time_sync" msgid="4948432419012834219">"Dodirnite da biste sinhronizovali odmah<xliff:g id="LAST_SYNC_TIME">
+    <string name="sync_one_time_sync" msgid="3575080833667908804">"Sinhronizuj odmah<xliff:g id="LAST_SYNC_TIME">
 %1$s</xliff:g>"</string>
     <string name="sync_failed" msgid="5514824149810480551">"Sinhronizacija nije uspela"</string>
     <string name="sync_active" msgid="6891115263481154378">"Sinhronizacija je aktivna"</string>
@@ -43,14 +44,15 @@
     <string name="connectivity_wifi" msgid="489974791299647708">"Wi-Fi"</string>
     <string name="connectivity_ethernet" msgid="2182407318634700320">"Eternet"</string>
     <string name="wifi_setting_always_scan" msgid="8883713018717323351">"Skeniranje je uvek dostupno"</string>
-    <string name="wifi_setting_always_scan_context" msgid="5588180043357910712">"Dozvolite Google-ovoj usluzi lokacije i drugim aplikacijama da skeniraju mreže, čak i kada je Wi-Fi isključen"</string>
+    <string name="wifi_setting_always_scan_context" msgid="398651204440349752">"Dozvolite Google-ovoj usluzi lociranja i drugim aplikacijama da traže mreže, čak i kada je Wi-Fi isključen"</string>
     <string name="wifi_setting_enable_wifi" msgid="9214100840401870408">"Wi-Fi"</string>
-    <string name="device_daydream" msgid="4933581408059561077">"Sanjarenje"</string>
+    <string name="device_daydream" msgid="3354366974209179614">"Čuvar ekrana"</string>
     <string name="device_display" msgid="101455384386372747">"Prikaz"</string>
+    <string name="device_sound" msgid="9214182566287657481">"Zvuk"</string>
+    <string name="device_surround_sound" msgid="6272196310566546860">"Zvučni sistem"</string>
     <string name="device_sound_effects" msgid="7793281745920228622">"Sistemski zvuci"</string>
     <string name="device_apps" msgid="9180435229638772838">"Aplikacije"</string>
     <string name="device_storage_reset" msgid="1425978936501134425">"Skladištenje i resetovanje"</string>
-    <string name="device_storage" msgid="5536683600091277826">"Skladišni prostor"</string>
     <string name="device_backup_restore" msgid="5627523987587511884">"Pravljenje rezervne kopije i vraćanje"</string>
     <string name="device_reset" msgid="2827002349560023125">"Resetovanje na fabrička podešavanja"</string>
     <string name="device_calibration" msgid="8632962533376605191">"Kalibracija"</string>
@@ -70,6 +72,8 @@
     <string name="accessory_battery" msgid="7021788232835772126">"Baterija <xliff:g id="PERCENTAGE">%1$d</xliff:g>%%"</string>
     <string name="accessory_unpairing" msgid="7568241162181184667">"Opozivanje uparivanja uređaja…"</string>
     <string name="accessory_connected" msgid="2156489304110030393">"Povezano je"</string>
+    <string name="accessory_change_name" msgid="8958916008739792785">"Promeni naziv"</string>
+    <string name="accessory_change_name_title" msgid="4630819456923061184">"Unesite novi naziv za ovu dodatnu opremu"</string>
     <string name="accessories_add_title" msgid="6940361421891873321">"Pretražuju se pom.uređaji…"</string>
     <string name="accessories_add_bluetooth_inst" msgid="5892952745770640383">"Pre nego što uparite Bluetooth uređaje, proverite da li su u režimu uparivanja"</string>
     <string name="accessories_autopair_msg" msgid="8618829246837821752">"Pronađen je uređaj i automatski će se upariti za <xliff:g id="COUNTDOWN">%1$s</xliff:g> sekunde(i)"</string>
@@ -89,6 +93,7 @@
     <string name="system_keyboard" msgid="7680159735294672514">"Tastatura"</string>
     <string name="system_home" msgid="2858989138172296012">"Početni ekran"</string>
     <string name="system_search" msgid="2837264654143247611">"Pretraži"</string>
+    <string name="system_google" msgid="8560404305602209622">"Google"</string>
     <string name="system_security" msgid="8230080273993484407">"Bezbednost i ograničenja"</string>
     <string name="system_speech" msgid="8128688499687306982">"Govor"</string>
     <string name="system_inputs" msgid="2413907183796651102">"Ulazi"</string>
@@ -96,6 +101,7 @@
     <string name="system_developer_options" msgid="3237985523474863638">"Opcije za programera"</string>
     <string name="accessibility_none" msgid="3441648940134070004">"Ništa"</string>
     <string name="system_diagnostic" msgid="7269638365915225701">"Korišćenje i dijagnostika"</string>
+    <string name="tutorials" msgid="3731493987558093244">"Vodiči"</string>
     <string name="about_system_update" msgid="7282772247661356586">"Ažuriranje sistema"</string>
     <string name="about_preference" msgid="4131396784531360434">"Osnovni podaci"</string>
     <string name="device_name" msgid="2670488158531273028">"Naziv uređaja"</string>
@@ -193,7 +199,7 @@
     <string name="title_wifi_proxy_settings_invalid" msgid="7380479044141040849">"Podešavanja proksija nisu važeća"</string>
     <string name="title_wifi_ip_settings_invalid" msgid="7228948551397955678">"Podešavanja za IP nisu važeća"</string>
     <string name="title_wifi_known_network" msgid="819998498700202436">"<xliff:g id="SSID">%1$s</xliff:g> je sačuvana mreža"</string>
-    <string name="wifi_action_try_again" msgid="3308643222864163092">"Pokušaj ponovo"</string>
+    <string name="wifi_action_try_again" msgid="3308643222864163092">"Probaj ponovo"</string>
     <string name="wifi_action_view_available_networks" msgid="560074338908947419">"Prikaži dostupne mreže"</string>
     <string name="wifi_connecting" msgid="1299861268647323455">"Povezivanje sa <xliff:g id="SSID">%1$s</xliff:g>"</string>
     <string name="wifi_saving" msgid="1269061570772019215">"Čuvanje konfiguracije za <xliff:g id="SSID">%1$s</xliff:g>"</string>
@@ -215,27 +221,27 @@
     <string name="wifi_ip_settings_invalid_gateway" msgid="3292444764474145026">"Unesite važeću adresu mrežnog prolaza"</string>
     <string name="wifi_ip_settings_invalid_dns" msgid="6172189835428184828">"Unesite važeću adresu DNS servera"</string>
     <string name="wifi_ip_settings_invalid_network_prefix_length" msgid="6209978918929182270">"Unesite dužinu prefiksa mreže od 0 do 32 znaka"</string>
-    <string name="wifi_ip_address_hint" msgid="1895267564692073689">"Unesite važeću IP adresu.\nPrimer: 192.168.1.128"</string>
-    <string name="wifi_dns1_hint" msgid="214345156394229347">"Unesite važeću IP adresu ili ostavite polje prazno.\nPrimer: 8.8.8.8"</string>
-    <string name="wifi_dns2_hint" msgid="1075709328208368894">"Unesite važeću IP adresu ili ostavite polje prazno.\nPrimer: 8.8.4.4"</string>
-    <string name="wifi_gateway_hint" msgid="7687219682024189028">"Unesite važeću IP adresu ili ostavite polje prazno.\nPrimer: 192.168.1.1"</string>
-    <string name="wifi_network_prefix_length_hint" msgid="332915798888599682">"Unesite važeću dužinu prefiksa mreže.\nPrimer: 24"</string>
+    <string name="wifi_ip_address_description" msgid="6548838784556001283">"Unesite važeću IP adresu.\nPrimer: <xliff:g id="ID_1">192.168.1.128</xliff:g>"</string>
+    <string name="wifi_dns1_description" msgid="2463500547232077393">"Unesite važeću IP adresu ili ostavite prazno.\nPrimer: <xliff:g id="ID_1">8.8.8.8</xliff:g>"</string>
+    <string name="wifi_dns2_description" msgid="8005473174044015359">"Unesite važeću IP adresu ili ostavite prazno.\nPrimer: <xliff:g id="ID_1">8.8.4.4</xliff:g>"</string>
+    <string name="wifi_gateway_description" msgid="4773751224452216231">"Unesite važeću IP adresu ili ostavite prazno.\nPrimer: <xliff:g id="ID_1">192.168.1.1</xliff:g>"</string>
+    <string name="wifi_network_prefix_length_description" msgid="4849589333293194414">"Unesite važeću dužinu prefiksa mreže.\nPrimer: <xliff:g id="ID_1">24</xliff:g>"</string>
     <string name="proxy_error_invalid_host" msgid="3660415920668138953">"Ime hosta nije važeće"</string>
     <string name="proxy_error_invalid_exclusion_list" msgid="4921547051724987804">"Ova lista izuzimanja nije važeća. Unesite listu izuzetih domena razdvojenih zarezima."</string>
     <string name="proxy_error_empty_port" msgid="6835658067776408062">"Polje za port ne može da bude prazno"</string>
     <string name="proxy_error_empty_host_set_port" msgid="4428793978424303244">"Ako je polje za host prazno, ostavite polje za port prazno"</string>
     <string name="proxy_error_invalid_port" msgid="1434922103959603993">"Port nije važeći"</string>
     <string name="proxy_warning_limited_support" msgid="6160239282535986523">"Pregledač koristi HTTP proksi, ali druge aplikacije ne smeju da ga koriste"</string>
-    <string name="proxy_port_hint" msgid="8532733797275927007">"Unesite važeći port.\nPrimer: 8080"</string>
-    <string name="proxy_exclusionlist_hint" msgid="86175095050438325">"Unesite listu izuzetih domena razdvojenih zarezom ili ostavite prazno.\nPrimer: example.com,mycomp.test.com,localhost"</string>
-    <string name="proxy_hostname_hint" msgid="3719688422767210803">"Unesite važeće ime hosta.\nPrimer: proxy.example.com"</string>
+    <string name="proxy_port_description" msgid="6791098212244367568">"Unesite važeći port.\nPrimer: <xliff:g id="ID_1">8080</xliff:g>"</string>
+    <string name="proxy_exclusionlist_description" msgid="6020640103462473072">"Unesite listu izuzetih domena razdvojenih zarezima ili ostavite prazno.\nPrimer: <xliff:g id="ID_1">example.com,mycomp.test.com,localhost</xliff:g>"</string>
+    <string name="proxy_hostname_description" msgid="5824391500254472447">"Unesite važeće ime hosta.\nPrimer: <xliff:g id="ID_1">proxy.example.com</xliff:g>"</string>
     <string name="wifi_summary_title_connected" msgid="8329216588732277139">"Povezani ste na mrežu"</string>
     <string name="wifi_summary_title_not_connected" msgid="3799548944869386251">"Mreža nije povezana"</string>
     <string name="wifi_summary_description_connected_to_wifi_network" msgid="7583498018733069053">"Već ste povezani sa mrežom <xliff:g id="SSID">%1$s</xliff:g>. Želite li da se povežete sa nekom drugom mrežom?"</string>
     <string name="wifi_summary_unknown_network" msgid="7903601448928422642">"nepoznatom mrežom"</string>
     <string name="title_ok" msgid="1021329453788761592">"Potvrdi"</string>
     <string name="title_cancel" msgid="4846143417666038604">"Otkaži"</string>
-    <string name="storage_title" msgid="2132026108559493394">"Skladišni prostor"</string>
+    <string name="storage_title" msgid="2132026108559493394">"Memorijski prostor"</string>
     <string name="storage_available" msgid="1241005580092138871">"Dostupno"</string>
     <string name="storage_size" msgid="8958530823208352781">"Ukupan prostor: <xliff:g id="TOTAL_SPACE">%1$s</xliff:g>"</string>
     <string name="storage_calculating_size" msgid="2644732407412520565">"Proračunavanje..."</string>
@@ -247,10 +253,14 @@
     <string name="storage_media_cache_usage" msgid="5906737163212649904">"Keširani podaci"</string>
     <string name="storage_eject" msgid="113476702798691558">"Izbaci"</string>
     <string name="storage_format" msgid="3759273736493279595">"Obriši i formatiraj"</string>
+    <string name="storage_format_as_private" msgid="4169495230765116075">"Obriši i formatiraj kao memoriju uređaja"</string>
+    <string name="storage_format_as_public" msgid="8568317076021814054">"Obriši i formatiraj kao prenosivu memoriju"</string>
     <string name="storage_format_for_private" msgid="7095270113028182032">"Formatiraj kao memorijski uređaj"</string>
     <string name="storage_not_connected" msgid="6378589497819596096">"Nije povezano"</string>
-    <string name="storage_migrate" msgid="658894157418304023">"Prenesi podatke"</string>
-    <string name="storage_forget" msgid="8541387048014779836">"Zaboravi ovu internu memoriju"</string>
+    <string name="storage_migrate" msgid="1304058078948715456">"Prenesi podatke u ovaj memorijski prostor"</string>
+    <string name="storage_migrate_away" msgid="3410590501311323877">"Prenesite podatke u neki drugi memorijski prostor"</string>
+    <string name="storage_no_apps" msgid="579118619398668670">"Nema aplikacija za pravljenje rezervnih kopija"</string>
+    <string name="storage_forget" msgid="8731986045697320463">"Zaboravi memoriju ovog uređaja"</string>
     <string name="storage_forget_wall_of_text" msgid="8953451024930539678">"Da biste koristili aplikacije ili podatke koje ovaj disk sadrži, umetnite ga ponovo. Kao drugo rešenje, možete da izaberete da zaboravite ovu memoriju ako disk nije dostupan.\n\nAko izaberete Zaboravi, svi podaci koje disk sadrži će zauvek biti izgubljeni.\n\nMožete ponovo da instalirate aplikacije kasnije, ali podaci uskladišteni na ovom disku će biti izgubljeni."</string>
     <string name="storage_device_storage_section" msgid="7797805634316822741">"Memorija uređaja"</string>
     <string name="storage_removable_storage_section" msgid="3264955106565590076">"Prenosiva memorija"</string>
@@ -263,12 +273,13 @@
     <string name="storage_unmount_failure_cant_find" msgid="240731723168567217">"Nismo uspeli da pronađemo disk za izbacivanje"</string>
     <string name="storage_format_success" msgid="6252068844653804319">"Uređaj <xliff:g id="NAME">%1$s</xliff:g> je formatiran"</string>
     <string name="storage_format_failure" msgid="7336977074523932399">"Formatiranje nije uspelo: <xliff:g id="NAME">%1$s</xliff:g>"</string>
-    <string name="storage_wizard_format_as_private_title" msgid="1433086533563409114">"Formatirajte kao internu memoriju"</string>
+    <string name="storage_wizard_format_as_private_title" msgid="1887035626526247913">"Formatirajte kao memoriju uređaja"</string>
     <string name="storage_wizard_format_as_private_description" msgid="5814513630861655168">"Za ovo je potrebno da se USB disk formatira da bi bio bezbedan. Posle bezbednog formatiranja ovaj disk će funkcionisati samo na ovom uređaju. Formatiranjem se brišu svi podaci koji su trenutno uskladišteni na disku. Da ne biste izgubili podatke, razmislite o tome da napravite njihovu rezervnu kopiju."</string>
     <string name="storage_wizard_format_as_public_title" msgid="977475385015522171">"Obrišite i formatirajte"</string>
-    <string name="storage_wizard_format_as_public_description" msgid="8591201523650249337">"Posle formatiranja možete da koristite ovaj USB disk na drugim uređajima. Svi podaci će biti obrisani. Razmislite o tome da prvo napravite rezervnu kopiju tako što ćete premestiti aplikacije u neku drugu internu memoriju."</string>
+    <string name="storage_wizard_format_as_public_description" msgid="184405877453834449">"Posle formatiranja možete da koristite ovaj USB disk na drugim uređajima. Svi podaci će biti obrisani. Razmislite o tome da prvo napravite rezervnu kopiju tako što ćete premestiti aplikacije u neku drugu memoriju uređaja."</string>
     <string name="storage_wizard_format_progress_title" msgid="143911640282435570">"USB disk se formatira…"</string>
     <string name="storage_wizard_format_progress_description" msgid="5320980721352781920">"Ovo može malo da potraje. Ne uklanjajte disk."</string>
+    <string name="storage_wizard_migrate_choose_title" msgid="4247584708563925746">"Izaberite memorijski prostor za prenos podataka"</string>
     <string name="storage_wizard_migrate_confirm_title" msgid="369820166257265495">"Prenesite podatke na uređaj <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="storage_wizard_migrate_confirm_description" msgid="2916497196106413598">"Prenesite slike, datoteke i podatke aplikacija na uređaj <xliff:g id="NAME">%1$s</xliff:g>. To može da potraje nekoliko minuta. Neke aplikacije neće funkcionisati ispravno tokom prenosa."</string>
     <string name="storage_wizard_migrate_confirm_action_move_now" msgid="512504294066473542">"Prenesi odmah"</string>
@@ -284,29 +295,30 @@
     <string name="storage_wizard_back_up_apps_title" msgid="452805102278225533">"Aplikacije koje se čuvaju na uređaju <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="storage_wizard_back_up_apps_and_data_title" msgid="1738767666148200795">"Aplikacije i podaci koji se čuvaju na uređaju <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="storage_wizard_back_up_apps_space_available" msgid="7209210725057470544">"Dostupno je <xliff:g id="SIZE">%1$s</xliff:g>"</string>
-    <string name="storage_wizard_eject_internal_title" msgid="3717872796166039893">"Izvadite internu memoriju"</string>
-    <string name="storage_wizard_eject_internal_description" msgid="6107781224687080575">"Aplikacije u memoriji ovog uređaja će prestati da funkcionišu kada ga izvadite. Ovaj USB disk je formatiran tako da funkcioniše samo na ovom uređaju. Neće funkcionisati ni na jednom drugom uređaju."</string>
-    <string name="sotrage_wizard_eject_progress_title" msgid="8034235439954334978">"<xliff:g id="NAME">%1$s</xliff:g> se izbacuje…"</string>
-    <string name="storage_wizard_move_app_title" msgid="37057801779891287">"Skladišni prostor u upotrebi"</string>
+    <string name="storage_wizard_eject_private_title" msgid="2844023177159233031">"Izbacite memoriju uređaja"</string>
+    <string name="storage_wizard_eject_private_description" msgid="8966427719795472538">"Aplikacije u memoriji ovog uređaja će prestati da funkcionišu kada ga izvadite. Ovaj USB disk je formatiran tako da funkcioniše samo na ovom uređaju. Neće funkcionisati ni na jednom drugom uređaju."</string>
+    <string name="storage_wizard_eject_progress_title" msgid="8823133087157003820">"Izbacuje se <xliff:g id="NAME">%1$s</xliff:g>…"</string>
+    <string name="storage_wizard_move_app_title" msgid="37057801779891287">"Memorijski prostor u upotrebi"</string>
     <string name="storage_wizard_move_app_progress_title" msgid="7807062446517628864">"Premešta se <xliff:g id="NAME">%1$s</xliff:g>..."</string>
     <string name="storage_wizard_move_app_progress_description" msgid="3693104566187904724">"Ne vadite disk tokom premeštanja.\nAplikacija <xliff:g id="APPNAME">%1$s</xliff:g> na ovom uređaju neće biti dostupna dok ne završite premeštanje."</string>
-    <string name="storage_wizard_forget_confirm_title" msgid="1183642893909026951">"Želite li da zaboravite internu memoriju?"</string>
+    <string name="storage_wizard_forget_confirm_title" msgid="4321200084208420221">"Želite li da zaboravite memoriju uređaja?"</string>
     <string name="storage_wizard_forget_confirm_description" msgid="4264263982217111372">"Svi podaci uskladišteni na ovom disku će biti zauvek izgubljeni ako izaberete „Zaboravi“. Želite li da nastavite?"</string>
     <string name="storage_wizard_forget_action" msgid="2532812620271112355">"Zaboravi"</string>
     <string name="storage_new_title" msgid="3098495209500607438">"USB disk je priključen"</string>
     <string name="storage_new_action_browse" msgid="9041125660441839453">"Pregledaj"</string>
-    <string name="storage_new_action_adopt" msgid="1903427557119380415">"Podesi kao internu memoriju"</string>
+    <string name="storage_new_action_adopt" msgid="880224317112988974">"Podesi kao memoriju uređaja"</string>
     <string name="storage_new_action_format_public" msgid="5604328981214071670">"Podesi kao prenosivu memoriju"</string>
     <string name="storage_new_action_eject" msgid="4069294152676217949">"Izbaci"</string>
     <string name="storage_missing_title" msgid="2803464623922381858">"Disk <xliff:g id="NAME">%1$s</xliff:g> je uklonjen"</string>
     <string name="storage_missing_description" msgid="8400374014342069781">"Neke aplikacije neće biti dostupne ili neće funkcionisati kako treba dok se disk ne poveže ponovo."</string>
-    <string name="insufficient_storage" msgid="5670157010939153746">"Nema dovoljno skladišnog prostora."</string>
+    <string name="insufficient_storage" msgid="5670157010939153746">"Nema dovoljno memorijskog prostora."</string>
     <string name="does_not_exist" msgid="4553235698171937217">"Aplikacija ne postoji."</string>
     <string name="app_forward_locked" msgid="6078781450044847966">"Aplikacija je zaštićena od kopiranja."</string>
     <string name="invalid_location" msgid="5269044848535157307">"Lokacija za instaliranje nije važeća."</string>
     <string name="system_package" msgid="9200255718634512790">"Nije moguće instalirati ažuriranja sistema na spoljašnjim medijima."</string>
+    <string name="move_error_device_admin" msgid="2060627704270836951">"Administrator uređaja ne može da se instalira na spoljnim medijumima."</string>
     <string name="learn_more_action" msgid="7015991954404958779">"Saznajte više"</string>
-    <string name="wifi_wps_retry_scan" msgid="6171190323753080808">"Pokušaj ponovo"</string>
+    <string name="wifi_wps_retry_scan" msgid="6171190323753080808">"Probaj ponovo"</string>
     <string name="wifi_wps_title" msgid="1872305810119408482">"Pretraga WPS rutera…"</string>
     <string name="wifi_wps_instructions" msgid="3618110962669110034">"Pritisnite dugme Zaštićeno podešavanje Wi-Fi-ja na ruteru.\nMožda je navedeno kao „WPS“ ili ima simbol sa leve strane."</string>
     <string name="wifi_wps_onstart_pin" msgid="594985182235834825">"Unesite PIN <xliff:g id="NUMBER">%1$s</xliff:g> na Wi-Fi ruteru"</string>
@@ -330,7 +342,7 @@
   </string-array>
   <string-array name="auto_date_time_ts_entries">
     <item msgid="8463479794795616025">"Koristi vreme mreže"</item>
-    <item msgid="2475903014233987786">"Koristi vreme transportnog strima"</item>
+    <item msgid="2475903014233987786">"Koristi vreme prevoznog strima"</item>
     <item msgid="150957081326946463">"Isključi"</item>
   </string-array>
     <string name="system_location" msgid="502463575930545806">"Lokacija"</string>
@@ -357,6 +369,10 @@
     <string name="system_services" msgid="7230571820151215779">"Usluge"</string>
     <string name="accessibility_service_settings" msgid="322888335240595695">"Podešavanja usluge"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="4970438261747914408">"Tekst visokog kontrasta"</string>
+    <string name="accessibility_shortcut" msgid="6726361991387558828">"Prečica za pristupačnost"</string>
+    <string name="accessibility_shortcut_enable" msgid="1801656084705223078">"Omogući prečicu za pristupačnost"</string>
+    <string name="accessibility_shortcut_service" msgid="1978686501861996601">"Usluga prečice"</string>
+    <string name="accessibility_shortcut_description" msgid="3241203131630578108">"Kada je uključena, pritiskom na Početna i Izaberi na 3 sekunde pokrećete funkciju pristupačnosti."</string>
     <string name="accessibility_captions" msgid="6133896463407851079">"Titl"</string>
     <string name="accessibility_captions_description" msgid="4290317621720499628">"Podešavanja za postavljanje teksta opcionalnog titla preko video snimka"</string>
     <string name="captions_display" msgid="735692527287125548">"Ekran"</string>
@@ -364,7 +380,8 @@
     <string name="captions_display_off" msgid="496953007835201523">"Isključi"</string>
     <string name="display_options" msgid="5504549024985225774">"Opcije prikaza"</string>
     <string name="captions_configure" msgid="5537548915977371014">"Konfiguriši"</string>
-    <string name="captions_lanaguage" msgid="3291057448460880449">"Jezik"</string>
+    <string name="captions_language" msgid="2835554055388996343">"Jezik"</string>
+    <string name="captions_language_default" msgid="8113979489252033676">"Podrazumevano"</string>
     <string name="captions_textsize" msgid="4828195509546070971">"Veličina teksta"</string>
     <string name="captions_captionstyle" msgid="7423638523487868230">"Stil titla"</string>
     <string name="captions_customoptions" msgid="2699780648112330911">"Prilagođene opcije"</string>
@@ -372,12 +389,19 @@
     <string name="captions_textcolor" msgid="3233568269335050287">"Boja teksta"</string>
     <string name="captions_edgetype" msgid="841331274533086103">"Tip ivice"</string>
     <string name="captions_edgecolor" msgid="845125757332620884">"Boja ivice"</string>
+    <string name="captions_backgroundshow" msgid="9177987321551275698">"Prikaži pozadinu"</string>
     <string name="captions_backgroundcolor" msgid="448518890988125453">"Boja pozadine"</string>
     <string name="captions_backgroundopacity" msgid="2643722493273126220">"Neprozirnost pozadine"</string>
     <string name="captioning_preview_text" msgid="72080729155950127">"Titl će izgledati ovako"</string>
     <string name="captions_textopacity" msgid="5536765490446288641">"Neprozirnost teksta"</string>
+    <string name="captions_windowshow" msgid="5716898740522196707">"Prikaži prozor"</string>
     <string name="captions_windowcolor" msgid="8986165172260903279">"Boja prozora"</string>
     <string name="captions_windowopacity" msgid="2784473496224936703">"Neprozirnost prozora"</string>
+    <string name="captions_style_0" msgid="2068865433439146533">"Belo na crnoj pozadini"</string>
+    <string name="captions_style_1" msgid="8878565905353923498">"Crno na beloj pozadini"</string>
+    <string name="captions_style_2" msgid="1486695984924671199">"Žuto na crnoj pozadini"</string>
+    <string name="captions_style_3" msgid="3217829874170162074">"Žuto na plavoj pozadini"</string>
+    <string name="captions_style_custom" msgid="3645114505000714364">"Prilagođeno"</string>
     <string name="color_white" msgid="65537523012024751">"Bela"</string>
     <string name="color_black" msgid="8804213372565106403">"Crna"</string>
     <string name="color_red" msgid="5630553203246525989">"Crvena"</string>
@@ -434,7 +458,6 @@
     <string name="system_transition_animation_scale" msgid="2964817709721784757">"Razmera animacije prelaza"</string>
     <string name="system_animator_duration_scale" msgid="7413512458963984521">"Animator razmera trajanja"</string>
     <string name="system_strict_mode_enabled" msgid="5728680397806673270">"Omogućen je strogi režim"</string>
-    <string name="system_show_cpu_usage" msgid="4797599582027671138">"Prikaži korišćenje procesora"</string>
     <string name="system_profile_gpu_rendering" msgid="3438771015102629799">"Prikazivanje profila pomoću GPU-a"</string>
     <string name="system_enable_traces" msgid="4038210655699986482">"Omogući tragove"</string>
     <string name="system_dont_keep_activities" msgid="7906911077198718958">"Ne čuvaj aktivnosti"</string>
@@ -452,7 +475,6 @@
     <string name="system_desc_show_gpu_overdraw" msgid="8204945204510618865">"Najbolje ka najgorem: plavo, zeleno, svetlocrveno, crveno"</string>
     <string name="system_desc_show_surface_updates" msgid="8177734845253807688">"Osvetli sve površine prozora kada se ažuriraju"</string>
     <string name="system_desc_strict_mode_enabled" msgid="4647420860235689510">"Ekran treperi kod dugih operacija aplik. na glav. niti"</string>
-    <string name="system_desc_show_cpu_usage" msgid="6151280238151381703">"Element postavljen preko ekrana koji prikazuje trenutnu upotrebu procesora"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="2836283129486718887">"Meri vreme prikazivanja u adb shell dumpsys gfxinfo"</string>
     <string name="action_on_title" msgid="6852389884236870765">"Uključi"</string>
     <string name="action_off_title" msgid="3157728958166559966">"Isključi"</string>
@@ -462,6 +484,7 @@
     <string name="disagree" msgid="9170636026862400981">"Ne prihvatam"</string>
     <string name="security_unknown_sources_title" msgid="769762478057744545">"Nepoznati izvori"</string>
     <string name="security_unknown_sources_desc" msgid="7197053279914817124">"Dozvoljava instalaciju aplikacija iz izvora koji nisu Google Play prodavnica"</string>
+    <string name="security_unknown_sources_confirm_title" msgid="1249752174105198821">"Dozvolite nepoznate izvore"</string>
     <string name="security_unknown_sources_confirm_desc" msgid="7167350583097191925">"Uređaj i lični podaci su podložniji napadu aplikacija iz nepoznatih izvora. Prihvatate da ste isključivo odgovorni za bilo kakvu štetu na uređaju ili gubitak podataka koji mogu da nastanu usled korišćenja tih aplikacija."</string>
     <string name="security_verify_apps_title" msgid="5787946958632254988">"Verifikovanje aplikacija"</string>
     <string name="security_verify_apps_desc" msgid="1456317893117818733">"Zabranjuje instaliranje aplikacija koje mogu da budu štetne ili upozorava pre instaliranja"</string>
@@ -520,29 +543,30 @@
     <string name="inputs_game" msgid="1114086481110094757">"Konzola za igre"</string>
     <string name="inputs_aux" msgid="5704676433978730340">"Pomoćni ulaz"</string>
     <string name="inputs_custom_name" msgid="5584925321693432362">"Prilagođeno ime"</string>
+    <string name="inputs_custom_name_description_fmt" msgid="7123031859468901866">"Unesite naziv za ulaz <xliff:g id="INPUT">%1$s</xliff:g>."</string>
     <string name="inputs_hide" msgid="1575971556150395486">"Skriven"</string>
-    <string name="inputs_hide_desc" msgid="8172670556559886526">"Ne prikazuje se pri menjanju ulaza"</string>
-    <string name="inputs_custom_title" msgid="374036983231176581">"Prilagođeno ime:"</string>
+    <string name="inputs_show" msgid="5069718540369447778">"Prikaži ovaj ulaz"</string>
+    <string name="input_header_names" msgid="6958427658951236078">"Naziv"</string>
     <string name="inputs_hdmi_control" msgid="2462240356665628563">"Kontrola HDMI-ja"</string>
     <string name="inputs_hdmi_control_desc" msgid="2300590479729796132">"Dozvoli TV-u da kontroliše HDMI uređaje"</string>
     <string name="inputs_device_auto_off" msgid="7510049770946999285">"Automatski isključi uređaj"</string>
     <string name="inputs_device_auto_off_desc" msgid="2679638131351116942">"Isključivanje HDMI uređaja pomoću TV-a"</string>
     <string name="inputs_tv_auto_on" msgid="2627932269256793797">"Automatski uključi TV"</string>
     <string name="inputs_tv_auto_on_desc" msgid="7658625130577708249">"Uključi TV pomoću HDMI uređaja"</string>
-    <plurals name="inputs_header_connected_input" formatted="false" msgid="4694899943180976672">
-      <item quantity="one">POVEZANI ULAZI</item>
-      <item quantity="few">POVEZANI ULAZI</item>
-      <item quantity="other">POVEZANI ULAZI</item>
+    <plurals name="inputs_header_connected_input" formatted="false" msgid="3158173055262045630">
+      <item quantity="one">Povezani ulazi</item>
+      <item quantity="few">Povezani ulazi</item>
+      <item quantity="other">Povezani ulazi</item>
     </plurals>
-    <plurals name="inputs_header_standby_input" formatted="false" msgid="1903575597797993135">
-      <item quantity="one">ULAZI U REŽIMU PRIPRAVNOSTI</item>
-      <item quantity="few">ULAZI U REŽIMU PRIPRAVNOSTI</item>
-      <item quantity="other">ULAZI U REŽIMU PRIPRAVNOSTI</item>
+    <plurals name="inputs_header_standby_input" formatted="false" msgid="8614849472167217134">
+      <item quantity="one">Ulazi u režimu pripravnosti</item>
+      <item quantity="few">Ulazi u režimu pripravnosti</item>
+      <item quantity="other">Ulazi u režimu pripravnosti</item>
     </plurals>
-    <plurals name="inputs_header_disconnected_input" formatted="false" msgid="2979766871256996256">
-      <item quantity="one">NEPOVEZANI ULAZI</item>
-      <item quantity="few">NEPOVEZANI ULAZI</item>
-      <item quantity="other">NEPOVEZANI ULAZI</item>
+    <plurals name="inputs_header_disconnected_input" formatted="false" msgid="1092697966171944243">
+      <item quantity="one">Nepovezani ulazi</item>
+      <item quantity="few">Nepovezani ulazi</item>
+      <item quantity="other">Nepovezani ulazi</item>
     </plurals>
     <string name="user_add_profile_item_summary" msgid="2946168478936086933">"Ograničite pristup aplikacijama i drugom sadržaju na nalogu"</string>
     <string name="user_new_profile_name" msgid="336521054830056189">"Ograničeni profil"</string>
@@ -554,6 +578,7 @@
     <string name="restricted_profile_switch_to" msgid="1926433350907032138">"Uđi u ograničeni profil"</string>
     <string name="restricted_profile_switch_out" msgid="1893784095623209495">"Izađi iz ograničenog profila"</string>
     <string name="restricted_profile_delete_title" msgid="3445944923018324707">"Izbriši ograničeni profil"</string>
+    <string name="restricted_profile_create_title" msgid="1392190365829029390">"Napravite profil sa ograničenim pristupom"</string>
     <string name="restricted_profile_configure_title" msgid="4684188123147519620">"Podešavanja"</string>
     <string name="restricted_profile_configure_apps_title" msgid="11507255932348492">"Dozvoljene aplikacije"</string>
     <plurals name="restricted_profile_configure_apps_description" formatted="false" msgid="1138147479259808487">
@@ -574,25 +599,24 @@
     <string name="pin_enter_new_pin" msgid="4788218421265924211">"Podesite novi PIN"</string>
     <string name="pin_enter_again" msgid="1510456697040826496">"Ponovo unesite novi PIN"</string>
     <string name="pin_enter_old_pin" msgid="851029058127630869">"Unesite stari PIN"</string>
-    <string name="pin_enter_wrong_seconds" msgid="7541208202846169755">"Uneli ste pogrešan PIN 5 puta.\nPokušajte ponovo za <xliff:g id="RELATIVE_TIME_SPAN">%1$d</xliff:g> sek."</string>
-    <string name="pin_toast_wrong" msgid="4628358195224633248">"Pogrešan PIN. Pokušajte ponovo"</string>
-    <string name="pin_toast_not_match" msgid="5886041789737632996">"Pokušajte ponovo, PIN se ne podudara"</string>
+    <string name="pin_enter_wrong_seconds" msgid="7541208202846169755">"Uneli ste pogrešan PIN 5 puta.\nProbajte ponovo za <xliff:g id="RELATIVE_TIME_SPAN">%1$d</xliff:g> sek."</string>
+    <string name="pin_toast_wrong" msgid="4628358195224633248">"Pogrešan PIN. Probajte ponovo"</string>
+    <string name="pin_toast_not_match" msgid="5886041789737632996">"Probajte ponovo, PIN se ne podudara"</string>
     <string name="wifi_setup_input_password" msgid="1596168874369038536">"Unesite lozinku za <xliff:g id="SSID">%1$s</xliff:g>"</string>
-    <string name="wifi_setup_connection_success" msgid="6262755735033937164">"Veza je uspostavljena."</string>
-    <string name="wifi_setup_save_success" msgid="4829154865874318015">"Sačuvano."</string>
+    <string name="wifi_setup_connection_success" msgid="3846993789166071184">"Veza je uspostavljena"</string>
+    <string name="wifi_setup_save_success" msgid="4785799603638549254">"Sačuvano je"</string>
     <string name="device_apps_app_management_version" msgid="2267065043941006486">"Verzija <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="8009823973422120839">"Otvoreno"</string>
     <string name="device_apps_app_management_force_stop" msgid="9195433885986760867">"Prinudno zaustavi"</string>
     <string name="device_apps_app_management_force_stop_desc" msgid="3616902338964109665">"Ako prinudno zaustavite aplikaciju, možda će se ponašati neočekivano."</string>
     <string name="device_apps_app_management_uninstall" msgid="531427430753359746">"Deinstaliraj"</string>
-    <string name="device_apps_app_management_uninstall_desc" msgid="1104982472633576960">"Želite li da deinstalirate ovu aplikaciju?"</string>
     <string name="device_apps_app_management_uninstall_updates" msgid="5151008748970915803">"Deinstalirajte ažuriranja"</string>
     <string name="device_apps_app_management_uninstall_updates_desc" msgid="9165160845303755321">"Sva ažuriranja ove Android sistemske aplikacije biće deinstalirana."</string>
     <string name="device_apps_app_management_disable" msgid="6136528600052941589">"Onemogući"</string>
     <string name="device_apps_app_management_disable_desc" msgid="1295507373252301108">"Želite li da onemogućite ovu aplikaciju?"</string>
     <string name="device_apps_app_management_enable" msgid="3246823119203444608">"Omogući"</string>
     <string name="device_apps_app_management_enable_desc" msgid="7490219375247065314">"Želite li da omogućite ovu aplikaciju?"</string>
-    <string name="device_apps_app_management_storage_used" msgid="4611351576179140634">"Skladišni prostor u upotrebi"</string>
+    <string name="device_apps_app_management_storage_used" msgid="4611351576179140634">"Memorijski prostor u upotrebi"</string>
     <string name="device_apps_app_management_storage_used_desc" msgid="1529188874944834661">"Koristi se <xliff:g id="SIZE">%1$s</xliff:g> <xliff:g id="VOLUME">%2$s</xliff:g>"</string>
     <string name="device_apps_app_management_clear_data" msgid="4439114679323274127">"Obriši podatke"</string>
     <string name="device_apps_app_management_clear_data_desc" msgid="4832124568689052441">"Svi podaci ove aplikacije biće trajno izbrisani.\nTo obuhvata sve datoteke, podešavanja, naloge, baze podataka itd."</string>
@@ -602,17 +626,18 @@
     <string name="device_apps_app_management_clear_cache" msgid="5392413180421013865">"Obriši keš"</string>
     <string name="device_apps_app_management_notifications" msgid="7291960671957440729">"Obaveštenja"</string>
     <string name="device_apps_app_management_permissions" msgid="1829808830974726081">"Dozvole"</string>
+    <string name="device_apps_app_management_not_available" msgid="1249731776661207047">"Aplikacija nije dostupna"</string>
     <string name="settings_ok" msgid="3321630456511355983">"Potvrdi"</string>
     <string name="settings_cancel" msgid="304280412158061225">"Otkaži"</string>
     <string name="settings_on" msgid="6892236264945435013">"Uključeno"</string>
     <string name="settings_off" msgid="449272161738237637">"Isključeno"</string>
-    <string name="device_daydreams_none" msgid="7364189761517824834">"Nijedno"</string>
-    <string name="device_daydreams_select" msgid="3691552535056569158">"Sanjarenje"</string>
+    <string name="device_daydreams_none" msgid="2767107052779579259">"Isključite ekran"</string>
+    <string name="device_daydreams_select" msgid="2112338101206187695">"Čuvar ekrana"</string>
     <string name="device_daydreams_test" msgid="9038920213402659591">"Pokreni odmah"</string>
-    <string name="device_daydreams_sleep" msgid="8766795993034660366">"Kada treba aktivirati Sanjarenje"</string>
-    <string name="device_daydreams_sleep_description" msgid="5269460120567642259">"Sanjarenje počinje posle ovog perioda neaktivnosti. Ako nikakvo Sanjarenje nije izabrano, ekran se isključuje."</string>
+    <string name="device_daydreams_sleep" msgid="7676938708373592766">"Kada se pokreće"</string>
+    <string name="device_daydreams_sleep_description" msgid="7655223016581708511">"Čuvar ekrana se pokreće posle ovog perioda neaktivnosti. Ako nikakav čuvar ekrana nije izabran, ekran se isključuje."</string>
     <string name="device_daydreams_sleep_summary" msgid="7361113408939289262">"Posle <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> neaktivnosti"</string>
-    <string name="device_daydreams_screen_off" msgid="5002473979169042970">"Kada treba aktivirati spavanje"</string>
+    <string name="device_daydreams_screen_off" msgid="1765925964376076171">"Prebaci uređaj u režim spavanja"</string>
     <string name="device_daydreams_screen_off_description" msgid="4181262365345306243">"Ekran se isključuje posle ovog perioda neaktivnosti."</string>
     <string name="backup_configure_account_default_summary" msgid="5619226302157702967">"Trenutno nijedan nalog ne čuva rezervne kopije podataka"</string>
     <string name="backup_erase_dialog_title" msgid="3720907811680819429"></string>
@@ -625,17 +650,14 @@
     <string name="confirm_factory_reset_description" msgid="1049842658625287303">"Želite li da izbrišete sve lične podatke i preuzete aplikacije? Ne možete da opozovete ovu radnju!"</string>
     <string name="confirm_factory_reset_device" msgid="8923287482399582268">"Izbriši sve"</string>
     <string name="select_device_name_title" msgid="5165800500130943604">"Izaberite naziv za <xliff:g id="DEVICEMODEL">%1$s</xliff:g>"</string>
-    <string name="select_device_name_description" msgid="2697127827643821315">"Naziv će vam pomoći da prepoznate <xliff:g id="DEVICEMODEL">%1$s</xliff:g> kada mu pristupate sa drugih uređaja, poput telefona, tableta ili računara."</string>
+    <string name="select_device_name_description" msgid="6890879006777364213">"Dajte naziv uređaju <xliff:g id="DEVICEMODEL">%1$s</xliff:g> da biste mogli da ga identifikujete pri prebacivanju ili povezivanju sa drugim uređajima."</string>
   <string-array name="rooms">
-    <item msgid="7085399612393981553">"Dnevna soba"</item>
-    <item msgid="3722089849939477581">"Soba za zabavu"</item>
-    <item msgid="6108590585438763574">"Dnevni boravak"</item>
-    <item msgid="2581035245390468625">"Trpezarija"</item>
-    <item msgid="3127487827308695324">"Radna soba"</item>
-    <item msgid="6172018430592195063">"Spavaća soba"</item>
-    <item msgid="8120010459866284578">"Kuhinja"</item>
+    <item msgid="9056203990862307284">"Android TV"</item>
+    <item msgid="7449352861592960712">"TV u dnevnoj sobi"</item>
+    <item msgid="8122798759665439456">"TV u sobi za porodicu"</item>
+    <item msgid="1389347662738182100">"TV u spavaćoj sobi"</item>
   </string-array>
-    <string name="custom_room" msgid="8991561978321502549">"Unesite prilagođen naziv..."</string>
+    <string name="custom_room" msgid="8655516733933892458">"Unesite prilagođeni naziv…"</string>
     <string name="device_rename_title" msgid="2629557295786267185">"Preimenujte <xliff:g id="DEVICEMODEL">%1$s</xliff:g>"</string>
     <string name="device_rename_description" msgid="2461752788563877107">"<xliff:g id="DEVICEMODEL">%1$s</xliff:g> trenutno ima naziv „<xliff:g id="DEVICENAME">%2$s</xliff:g>“"</string>
     <string name="change_setting" msgid="2047402388786162246">"Promeni"</string>
@@ -647,4 +669,10 @@
     <string name="security_patch" msgid="2131617390189164481">"Nivo bezbednosne zakrpe za Android"</string>
     <string name="choose_application" msgid="5662960665577780353">"Izaberite aplikaciju"</string>
     <string name="experimental_preference" msgid="1137673985823581797">"(Eksperimentalno)"</string>
+    <string name="reboot_safemode_action" msgid="8129550438717110406">"Restartuj sistem u bezbednom režimu"</string>
+    <string name="reboot_safemode_confirm" msgid="3329475617645192086">"Želite li da restartujete sistem u bezbednom režimu?"</string>
+    <string name="reboot_safemode_desc" msgid="5031024337104679492">"Ovo će onemogućiti sve instalirane aplikacije nezavisnih proizvođača. One će biti vraćene kada ponovo restartujete sistem."</string>
+    <string name="capturing_bugreport" msgid="3291125403411239592">"Izveštaj o grešci se pravi"</string>
+    <string name="available_virtual_keyboard_category" msgid="6566257204210337817">"Dostupne virtuelne tastature"</string>
+    <string name="manage_keyboards" msgid="1905379263117016795">"Upravljajte tastaturama"</string>
 </resources>

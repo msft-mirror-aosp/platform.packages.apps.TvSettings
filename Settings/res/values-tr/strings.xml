@@ -44,7 +44,7 @@
     <string name="connectivity_wifi" msgid="489974791299647708">"Kablosuz"</string>
     <string name="connectivity_ethernet" msgid="2182407318634700320">"Ethernet"</string>
     <string name="wifi_setting_always_scan" msgid="8883713018717323351">"Tarama her zaman kullanılabilir"</string>
-    <string name="wifi_setting_always_scan_context" msgid="5588180043357910712">"Kablosuz özelliği kapalıyken dahi Google\'ın konum hizmetinin ve diğer uygulamaların ağları taramasına izin verin"</string>
+    <string name="wifi_setting_always_scan_context" msgid="398651204440349752">"Kablosuz özelliği kapalıyken dahi Google\'ın konum hizmetinin ve diğer uygulamaların ağları taramasına izin ver"</string>
     <string name="wifi_setting_enable_wifi" msgid="9214100840401870408">"Kablosuz"</string>
     <string name="device_daydream" msgid="3354366974209179614">"Ekran koruyucu"</string>
     <string name="device_display" msgid="101455384386372747">"Görünüm"</string>
@@ -72,6 +72,8 @@
     <string name="accessory_battery" msgid="7021788232835772126">"Pil %%<xliff:g id="PERCENTAGE">%1$d</xliff:g>"</string>
     <string name="accessory_unpairing" msgid="7568241162181184667">"Cihazın eşleşmesi sonlandırılıyor…"</string>
     <string name="accessory_connected" msgid="2156489304110030393">"Bağlandı"</string>
+    <string name="accessory_change_name" msgid="8958916008739792785">"Adı değiştir"</string>
+    <string name="accessory_change_name_title" msgid="4630819456923061184">"Bu aksesuar için yeni bir ad belirtin"</string>
     <string name="accessories_add_title" msgid="6940361421891873321">"Aksesuarlar aranıyor…"</string>
     <string name="accessories_add_bluetooth_inst" msgid="5892952745770640383">"Bluetooth cihazlarınızı eşleştirmeden önce, cihazların eşleşme modunda olduklarından emin olun"</string>
     <string name="accessories_autopair_msg" msgid="8618829246837821752">"Bir cihaz bulundu ve <xliff:g id="COUNTDOWN">%1$s</xliff:g> saniye içinde otomatik olarak eşleştirilecek"</string>
@@ -91,6 +93,7 @@
     <string name="system_keyboard" msgid="7680159735294672514">"Klavye"</string>
     <string name="system_home" msgid="2858989138172296012">"Ana ekran"</string>
     <string name="system_search" msgid="2837264654143247611">"Arama"</string>
+    <string name="system_google" msgid="8560404305602209622">"Google"</string>
     <string name="system_security" msgid="8230080273993484407">"Güvenlik ve kısıtlamalar"</string>
     <string name="system_speech" msgid="8128688499687306982">"Konuşma"</string>
     <string name="system_inputs" msgid="2413907183796651102">"Girişler"</string>
@@ -98,6 +101,7 @@
     <string name="system_developer_options" msgid="3237985523474863638">"Geliştirici seçenekleri"</string>
     <string name="accessibility_none" msgid="3441648940134070004">"Yok"</string>
     <string name="system_diagnostic" msgid="7269638365915225701">"Kullanım ve Teşhis"</string>
+    <string name="tutorials" msgid="3731493987558093244">"Eğiticiler"</string>
     <string name="about_system_update" msgid="7282772247661356586">"Sistem güncellemesi"</string>
     <string name="about_preference" msgid="4131396784531360434">"Hakkında"</string>
     <string name="device_name" msgid="2670488158531273028">"Cihaz adı"</string>
@@ -180,7 +184,7 @@
     <string name="title_wifi_could_not_connect_timeout" msgid="5158184646985406394">"<xliff:g id="SSID">%1$s</xliff:g> bulunamadı"</string>
     <string name="title_wifi_could_not_connect_authentication_failure" msgid="4836595650380723944">"Kablosuz ağ şifresi geçerli değil"</string>
     <string name="title_wifi_could_not_connect_ap_reject" msgid="328274688839033015">"Kablosuz ağ, bağlantıyı kabul etmedi"</string>
-    <string name="title_wifi_advanced_options" msgid="5389467736846644832">"<xliff:g id="SSID">%1$s</xliff:g> Proxy ve IP Ayarları Yapılandırılsın mı?"</string>
+    <string name="title_wifi_advanced_options" msgid="5389467736846644832">"<xliff:g id="SSID">%1$s</xliff:g> Proxy ve IP Ayarları yapılandırılsın mı?"</string>
     <string name="title_wifi_proxy_settings" msgid="7728120764469991303">"Proxy ayarları"</string>
     <string name="title_wifi_proxy_hostname" msgid="4655634673840885248">"Proxy ana bilgisayar adı:"</string>
     <string name="title_wifi_proxy_port" msgid="9194893429116021337">"Proxy bağlantı noktası:"</string>
@@ -220,7 +224,7 @@
     <string name="wifi_dns1_description" msgid="2463500547232077393">"Geçerli bir IP adresi girin veya boş bırakın.\nÖrnek: <xliff:g id="ID_1">8.8.8.8</xliff:g>"</string>
     <string name="wifi_dns2_description" msgid="8005473174044015359">"Geçerli bir IP adresi girin veya boş bırakın.\nÖrnek: <xliff:g id="ID_1">8.8.4.4</xliff:g>"</string>
     <string name="wifi_gateway_description" msgid="4773751224452216231">"Geçerli bir IP adresi girin veya boş bırakın.\nÖrnek: <xliff:g id="ID_1">192.168.1.1</xliff:g>"</string>
-    <string name="wifi_network_prefix_length_description" msgid="4849589333293194414">"Geçerli bir ağ önek uzunluğu girin.\nÖrnek: <xliff:g id="ID_1">24</xliff:g>"</string>
+    <string name="wifi_network_prefix_length_description" msgid="4849589333293194414">"Geçerli bir ağ öneki uzunluğu girin.\nÖrnek: <xliff:g id="ID_1">24</xliff:g>"</string>
     <string name="proxy_error_invalid_host" msgid="3660415920668138953">"Ana bilgisayar adı geçerli değil"</string>
     <string name="proxy_error_invalid_exclusion_list" msgid="4921547051724987804">"Bu hariç tutma listesi geçerli değil. Hariç tutulan alan adlarının virgülle ayrılmış listesini girin."</string>
     <string name="proxy_error_empty_port" msgid="6835658067776408062">"Bağlantı noktası alanı boş olamaz"</string>
@@ -301,7 +305,7 @@
     <string name="storage_wizard_forget_action" msgid="2532812620271112355">"Unut"</string>
     <string name="storage_new_title" msgid="3098495209500607438">"USB sürücüsü bağlandı"</string>
     <string name="storage_new_action_browse" msgid="9041125660441839453">"Göz at"</string>
-    <string name="storage_new_action_adopt" msgid="880224317112988974">"Depolama cihazı olarak kur"</string>
+    <string name="storage_new_action_adopt" msgid="880224317112988974">"Cihaz depolama alanı olarak kur"</string>
     <string name="storage_new_action_format_public" msgid="5604328981214071670">"Kaldırılabilir depolama olarak kur"</string>
     <string name="storage_new_action_eject" msgid="4069294152676217949">"Çıkar"</string>
     <string name="storage_missing_title" msgid="2803464623922381858">"<xliff:g id="NAME">%1$s</xliff:g> kaldırıldı"</string>
@@ -364,6 +368,10 @@
     <string name="system_services" msgid="7230571820151215779">"Hizmetler"</string>
     <string name="accessibility_service_settings" msgid="322888335240595695">"Hizmet ayarları"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="4970438261747914408">"Yüksek kontrastlı metin"</string>
+    <string name="accessibility_shortcut" msgid="6726361991387558828">"Erişilebilirlik kısayolu"</string>
+    <string name="accessibility_shortcut_enable" msgid="1801656084705223078">"Erişilebilirlik kısayolunu etkinleştir"</string>
+    <string name="accessibility_shortcut_service" msgid="1978686501861996601">"Kısayol hizmeti"</string>
+    <string name="accessibility_shortcut_description" msgid="3241203131630578108">"Kısayol etkinken, ana sayfa ve seç düğmelerinin ikisini birden üç saniye boyunca basılı tutarak bir erişilebilirlik özelliğini etkinleştirebilirsiniz."</string>
     <string name="accessibility_captions" msgid="6133896463407851079">"Altyazılar"</string>
     <string name="accessibility_captions_description" msgid="4290317621720499628">"Video üzerinde altyazı metni yer paylaşımı için ayarlar"</string>
     <string name="captions_display" msgid="735692527287125548">"Görüntüleme"</string>
@@ -372,6 +380,7 @@
     <string name="display_options" msgid="5504549024985225774">"Görüntüleme seçenekleri"</string>
     <string name="captions_configure" msgid="5537548915977371014">"Yapılandır"</string>
     <string name="captions_language" msgid="2835554055388996343">"Dil"</string>
+    <string name="captions_language_default" msgid="8113979489252033676">"Varsayılan"</string>
     <string name="captions_textsize" msgid="4828195509546070971">"Metin boyutu"</string>
     <string name="captions_captionstyle" msgid="7423638523487868230">"Altyazı stili"</string>
     <string name="captions_customoptions" msgid="2699780648112330911">"Özel seçenekler"</string>
@@ -596,7 +605,6 @@
     <string name="device_apps_app_management_force_stop" msgid="9195433885986760867">"Zorla durdur"</string>
     <string name="device_apps_app_management_force_stop_desc" msgid="3616902338964109665">"Uygulamayı zorla durdurursanız hatalı davranabilir."</string>
     <string name="device_apps_app_management_uninstall" msgid="531427430753359746">"Yüklemeyi kaldır"</string>
-    <string name="device_apps_app_management_uninstall_desc" msgid="1104982472633576960">"Bu uygulamanın yüklemesini kaldırmak istiyor musunuz?"</string>
     <string name="device_apps_app_management_uninstall_updates" msgid="5151008748970915803">"Güncellemelerin yüklemesini kaldır"</string>
     <string name="device_apps_app_management_uninstall_updates_desc" msgid="9165160845303755321">"Bu Android sistem uygulaması ile ilgili tüm güncellemelerin yüklemesi kaldırılacak."</string>
     <string name="device_apps_app_management_disable" msgid="6136528600052941589">"Devre dışı bırak"</string>
@@ -613,6 +621,7 @@
     <string name="device_apps_app_management_clear_cache" msgid="5392413180421013865">"Önbelleği temizle"</string>
     <string name="device_apps_app_management_notifications" msgid="7291960671957440729">"Bildirimler"</string>
     <string name="device_apps_app_management_permissions" msgid="1829808830974726081">"İzinler"</string>
+    <string name="device_apps_app_management_not_available" msgid="1249731776661207047">"Uygulama kullanılamıyor"</string>
     <string name="settings_ok" msgid="3321630456511355983">"Tamam"</string>
     <string name="settings_cancel" msgid="304280412158061225">"İptal"</string>
     <string name="settings_on" msgid="6892236264945435013">"Açık"</string>
@@ -632,21 +641,18 @@
     <string name="privacy_backup_account" msgid="9059939814827165020">"Yedeklenecek hesap"</string>
     <string name="privacy_automatic_restore" msgid="1409885318093199628">"Otomatik geri yükle"</string>
     <string name="factory_reset_device" msgid="7422459553658815011">"Cihazı sıfırla"</string>
-    <string name="factory_reset_description" msgid="5381170999141355891">"Bu işlem, cihazınızın dahili depolamasındaki verilerin tümünü silecektir. Silinecek verilere şunlar dahildir: Google Hesabınız, sistem ve uygulama verilerinizle bunların ayarları ve indirilen uygulamalarınız"</string>
+    <string name="factory_reset_description" msgid="5381170999141355891">"Bu işlem, cihazınızın dahili depolamasındaki verilerin tümünü silecektir. Silinecek verilere şunlar dahildir: Google Hesabınız, sistem ve uygulama verilerinizle bunların ayarları ve indirilen uygulamalarınız."</string>
     <string name="confirm_factory_reset_description" msgid="1049842658625287303">"Kişisel bilgilerinizin tümünü ve indirilen uygulamaların hepsini silmek istiyor musunuz? Bu işlem geri döndürülemez!"</string>
     <string name="confirm_factory_reset_device" msgid="8923287482399582268">"Her şeyi sil"</string>
     <string name="select_device_name_title" msgid="5165800500130943604">"<xliff:g id="DEVICEMODEL">%1$s</xliff:g> cihazınız için bir ad seçin"</string>
-    <string name="select_device_name_description" msgid="2697127827643821315">"Cihazınıza ad vermek; telefon, tablet veya bilgisayar gibi diğer cihazlardan erişildiğinde <xliff:g id="DEVICEMODEL">%1$s</xliff:g> cihazınızı tanımlamanıza yardımcı olur."</string>
+    <string name="select_device_name_description" msgid="6890879006777364213">"Yayın sırasında veya diğer cihazlardan bağlanırken <xliff:g id="DEVICEMODEL">%1$s</xliff:g> cihazınızı tanımlamanıza yardımcı olacak bir ad belirleyin."</string>
   <string-array name="rooms">
-    <item msgid="7085399612393981553">"Misafir Odası"</item>
-    <item msgid="3722089849939477581">"Medya Odası"</item>
-    <item msgid="6108590585438763574">"Oturma Odası"</item>
-    <item msgid="2581035245390468625">"Yemek Odası"</item>
-    <item msgid="3127487827308695324">"Çalışma Odası"</item>
-    <item msgid="6172018430592195063">"Yatak Odası"</item>
-    <item msgid="8120010459866284578">"Mutfak"</item>
+    <item msgid="9056203990862307284">"Android TV"</item>
+    <item msgid="7449352861592960712">"Oturma Odasındaki TV"</item>
+    <item msgid="8122798759665439456">"Aile Odasındaki TV"</item>
+    <item msgid="1389347662738182100">"Yatak Odasındaki TV"</item>
   </string-array>
-    <string name="custom_room" msgid="8991561978321502549">"Özel Bir Ad Girin…"</string>
+    <string name="custom_room" msgid="8655516733933892458">"Özel bir ad girin…"</string>
     <string name="device_rename_title" msgid="2629557295786267185">"<xliff:g id="DEVICEMODEL">%1$s</xliff:g> cihazın adını değiştirin"</string>
     <string name="device_rename_description" msgid="2461752788563877107">"Bu <xliff:g id="DEVICEMODEL">%1$s</xliff:g> cihaz şu anda \"<xliff:g id="DEVICENAME">%2$s</xliff:g>\" olarak adlandırılmıştır."</string>
     <string name="change_setting" msgid="2047402388786162246">"Değiştir"</string>
@@ -661,4 +667,11 @@
     <string name="reboot_safemode_action" msgid="8129550438717110406">"Güvenli modda yeniden aç"</string>
     <string name="reboot_safemode_confirm" msgid="3329475617645192086">"Güvenli modda yeniden açılmasını ister misiniz?"</string>
     <string name="reboot_safemode_desc" msgid="5031024337104679492">"Bu işlem, yüklediğiniz tüm üçüncü taraf uygulamaları devre dışı bırakır. Daha sonra tekrar açtığınızda bu uygulamalar geri yüklenir."</string>
+    <string name="capturing_bugreport" msgid="3291125403411239592">"Hata raporu alınıyor"</string>
+    <string name="available_virtual_keyboard_category" msgid="6566257204210337817">"Kullanılabilir sanal klavyeler"</string>
+    <string name="manage_keyboards" msgid="1905379263117016795">"Klavyeleri yönet"</string>
+    <string name="app_permission_summary_allowed" msgid="1618833359547333078">"İzin veriliyor"</string>
+    <string name="app_permission_summary_not_allowed" msgid="3667663331476577913">"İzin verilmiyor"</string>
+    <string name="usage_access" msgid="1914242907684452328">"Kullanım erişimi"</string>
+    <string name="usage_access_description" msgid="6290001769893747651">"Kullanım erişimi; bir uygulamanın, başka hangi uygulamaları ne sıklıkta kullandığınızı, ayrıca operatörünüzü, dil ayarlarınızı ve diğer ayrıntıları takip etmesine izin verir."</string>
 </resources>
