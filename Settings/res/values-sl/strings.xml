@@ -426,7 +426,7 @@
     <string name="captions_language" msgid="2835554055388996343">"Jezik"</string>
     <string name="captions_language_default" msgid="8113979489252033676">"Privzeto"</string>
     <string name="captions_textsize" msgid="4828195509546070971">"Velikost besedila"</string>
-    <string name="captions_captionstyle" msgid="7423638523487868230">"Slog napisov"</string>
+    <string name="captions_captionstyle" msgid="7423638523487868230">"Slog podnapisov"</string>
     <string name="captions_customoptions" msgid="2699780648112330911">"Možnosti po meri"</string>
     <string name="captions_fontfamily" msgid="6840670778173003604">"Skupina pisav"</string>
     <string name="captions_textcolor" msgid="3233568269335050287">"Barva besedila"</string>
@@ -661,7 +661,7 @@
     <string name="device_apps_app_management_open" msgid="8009823973422120839">"Odpiranje"</string>
     <string name="device_apps_app_management_force_stop" msgid="9195433885986760867">"Vsili ustavitev"</string>
     <string name="device_apps_app_management_force_stop_desc" msgid="3616902338964109665">"Če boste aplikacijo prisilno ustavili, morda ne bo pravilno delovala."</string>
-    <string name="device_apps_app_management_uninstall" msgid="531427430753359746">"Odstrani"</string>
+    <string name="device_apps_app_management_uninstall" msgid="531427430753359746">"Odmesti"</string>
     <string name="device_apps_app_management_uninstall_updates" msgid="5151008748970915803">"Odstrani posodobitve"</string>
     <string name="device_apps_app_management_uninstall_updates_desc" msgid="9165160845303755321">"Vse posodobitve te aplikacije sistema Android bodo odstranjene."</string>
     <string name="device_apps_app_management_disable" msgid="6136528600052941589">"Onemogoči"</string>
