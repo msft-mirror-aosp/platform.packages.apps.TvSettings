@@ -105,7 +105,7 @@ public class AccessoriesFragment extends SettingsPreferenceFragment {
                 preference = new Preference(themedContext);
                 preference.setKey(key);
             }
-            final String deviceName = device.getAlias();
+            final String deviceName = device.getAliasName();
             preference.setTitle(deviceName);
             preference.setSummary(desc);
             final int deviceImgId = AccessoryUtils.getImageIdForDevice(device);

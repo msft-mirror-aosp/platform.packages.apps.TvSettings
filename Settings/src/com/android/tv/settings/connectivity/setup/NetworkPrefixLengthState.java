@@ -113,7 +113,7 @@ public class NetworkPrefixLengthState implements State {
                 title = mAdvancedOptionsFlowInfo.get(AdvancedOptionsFlowInfo.NETWORK_PREFIX_LENGTH);
             } else if (mAdvancedOptionsFlowInfo.getInitialLinkAddress() != null) {
                 title =  Integer.toString(
-                        mAdvancedOptionsFlowInfo.getInitialLinkAddress().getPrefixLength());
+                        mAdvancedOptionsFlowInfo.getInitialLinkAddress().getNetworkPrefixLength());
             }
 
             Context context = getActivity();
