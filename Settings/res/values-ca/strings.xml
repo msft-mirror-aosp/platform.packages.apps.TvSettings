@@ -52,6 +52,8 @@
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Imatge i so"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Ajuda i suggeriments"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"Privadesa"</string>
+    <string name="privacy_device_settings_category" msgid="5018334603278648524">"Configuració del dispositiu"</string>
+    <string name="privacy_app_settings_category" msgid="858250971978879266">"Configuració de l\'aplicació"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Ubicació, Ús i diagnòstic, Anuncis"</string>
     <string name="add_account" msgid="7386223854837017129">"Afegeix un compte"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Suprimeix el compte"</string>
@@ -524,7 +526,7 @@
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Mostra totes les ANR"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Desactiva el repòs"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Utilitza només per al contingut DRM"</string>
-    <string name="system_desc_hdmi_optimization" msgid="5695603795556335912">"Optimitza la pantalla per obtenir la millor resolució o el millor percentatge de fotogrames per segon. Això només afecta les pantalles Ultra HD. Si canvies aquesta opció, el dispositiu es reiniciarà."</string>
+    <string name="system_desc_hdmi_optimization" msgid="5695603795556335912">"Optimitza la pantalla per obtenir la màxima resolució o la màxima freqüència d\'imatge. Això només afecta les pantalles Ultra HD. Si canvies aquesta opció, el dispositiu es reiniciarà."</string>
     <string name="system_desc_bt_hci_log" msgid="2592649923221658103">"Activa el registre de cerca HCI de Bluetooth"</string>
     <string name="system_desc_usb_debugging" msgid="5672275208185222785">"Mode de depuració quan l\'USB està connectat"</string>
     <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"L\'aplicació depurada espera que es connecti el depurador abans d\'executar-se"</string>

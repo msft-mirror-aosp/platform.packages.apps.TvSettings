@@ -52,6 +52,8 @@
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Ekrani dhe tingulli"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Ndihmë dhe komente"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"Privatësia"</string>
+    <string name="privacy_device_settings_category" msgid="5018334603278648524">"Cilësimet e pajisjes"</string>
+    <string name="privacy_app_settings_category" msgid="858250971978879266">"Cilësimet e aplikacionit"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Vendndodhja, përdorimi dhe diagnostikimi, reklamat"</string>
     <string name="add_account" msgid="7386223854837017129">"Shto një llogari"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Hiq llogarinë"</string>
@@ -498,7 +500,7 @@
     <string name="system_always_check" msgid="384870282800221580">"Kontrollo gjithmonë"</string>
     <string name="system_bt_hci_log" msgid="1891838112637932603">"Regjistrimi i Bluetooth HCI"</string>
     <string name="system_email_address" msgid="3725494874473757217">"Adresa e email-it"</string>
-    <string name="system_usb_debugging" msgid="2158285492172755923">"Korrigjimi i USB-së"</string>
+    <string name="system_usb_debugging" msgid="2158285492172755923">"Korrigjimi përmes USB-së"</string>
     <string name="system_allow_mock_locations" msgid="2483106887711851466">"Lejo vendndodhje të simuluara"</string>
     <string name="system_select_debug_app" msgid="6200987902307533721">"Zgjidh aplikacionin e korrigjimit"</string>
     <string name="system_wait_for_debugger" msgid="5715878008542589060">"Prit për korrigjuesin"</string>

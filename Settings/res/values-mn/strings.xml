@@ -52,10 +52,12 @@
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Дэлгэц болон дуу чимээ"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Тусламж болон санал хүсэлт"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"Нууцлал"</string>
+    <string name="privacy_device_settings_category" msgid="5018334603278648524">"Төхөөрөмжийн тохиргоо"</string>
+    <string name="privacy_app_settings_category" msgid="858250971978879266">"Аппын тохиргоо"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Байршил, Ашиглалт болон оношилгоо, Зар"</string>
     <string name="add_account" msgid="7386223854837017129">"Аккаунт нэмэх"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Бүртгэлийг хасах"</string>
-    <string name="account_sync" msgid="4315295293211313989">"Синк хийгдсэн програмыг сонгоно уу"</string>
+    <string name="account_sync" msgid="4315295293211313989">"Синк хийгдсэн программыг сонгоно уу"</string>
     <string name="sync_now" msgid="4335217984374620551">"Одоо синк хийх"</string>
     <string name="sync_in_progress" msgid="8081367667406185785">"Синк хийж байна…"</string>
     <string name="last_synced" msgid="8371967816955123864">"Хамгийн сүүлд синк хийгдсэн <xliff:g id="TIME">%1$s</xliff:g>"</string>
@@ -509,7 +511,7 @@
     <string name="system_show_touches" msgid="8244331695139748286">"Хүрэлтүүдийг харуулах"</string>
     <string name="system_pointer_location" msgid="8724050865245555084">"Чиглүүлэгчийн байршил"</string>
     <string name="system_show_layout_bounds" msgid="8803080672553699649">"Байршлын хүрээг харуулах"</string>
-    <string name="system_show_gpu_view_updates" msgid="1625918928089365222">"GPU харагдацын шинэчлэлтүүдийг харуулах"</string>
+    <string name="system_show_gpu_view_updates" msgid="1625918928089365222">"GPU харагдцын шинэчлэлтүүдийг харуулах"</string>
     <string name="system_show_hardware_layer" msgid="5833664339844452290">"Төхөөрөмж давхаргыг харуулах"</string>
     <string name="system_show_gpu_overdraw" msgid="5073007513540516704">"GPU хэтрүүлэлтийг харуулах"</string>
     <string name="system_show_surface_updates" msgid="7680759813613585278">"Гадаргын шинэчлэлтүүдийг харуулах"</string>
@@ -714,7 +716,7 @@
     <string name="select_device_name_title" msgid="3045019448327493634">"<xliff:g id="DEVICEMODEL">%1$s</xliff:g>-дээ нэр сонгоорой"</string>
     <string name="select_device_name_description" msgid="8528185095614986580">"Төхөөрөмжөө нэрлэнэ үү. Ингэснээр бусад төхөөрөмжөөс дамжуулах эсвэл холбогдох үед төхөөрөмжөө танихад хялбар болно."</string>
   <string-array name="rooms">
-    <item msgid="6590829789532602097">"Андройд ТV"</item>
+    <item msgid="6590829789532602097">"Android TV"</item>
     <item msgid="1140506340411482365">"Зочны өрөөний ТВ"</item>
     <item msgid="6448060889026244632">"Гэр бүлийн өрөөний ТВ"</item>
     <item msgid="3336274213215419228">"Унтлагын өрөөний ТВ"</item>
@@ -751,7 +753,7 @@
     <string name="high_power_system" msgid="6263052626979462255">"Батарейны хэрэглээг оновчлох боломжгүй байна"</string>
     <string name="manage_notification_access_title" msgid="8659254371564990084">"Мэдэгдлийн хандалт"</string>
     <string name="no_notification_listeners" msgid="5119406452675724448">"Суулгасан аппаас мэдэгдлийн хандалт хүссэн апп алга."</string>
-    <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"Эдгээр апп харилцагчийн нэр, таны хүлээж авдаг зурвасын текст зэрэг хувийн мэдээлэл бүхий бүх мэдэгдлийг унших боломжтой болно. Түүнчлэн эдгээр нь мэдэгдлийг хаах эсвэл үйлдэл хийх товчлуураа өдөөх боломжтой."</string>
+    <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"Эдгээр апп харилцагчийн нэр, таны хүлээж авдаг мессежийн текст зэрэг хувийн мэдээлэл бүхий бүх мэдэгдлийг унших боломжтой болно. Түүнчлэн эдгээр нь мэдэгдлийг хаах эсвэл үйлдэл хийх товчлуураа өдөөх боломжтой."</string>
     <string name="directory_access" msgid="7338555825237012006">"Лавлахын хандалт"</string>
     <string name="directory_access_description" msgid="3630855858552422012">"Эдгээр апп зарим лавлахад хандах зөвшөөрөлтэй байна."</string>
     <string name="directory_on_volume" msgid="5628089584970521703">"<xliff:g id="VOLUME">%1$s</xliff:g> (<xliff:g id="DIRECTORY">%2$s</xliff:g>)"</string>

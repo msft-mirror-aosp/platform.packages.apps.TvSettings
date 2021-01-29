@@ -52,6 +52,8 @@
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"डिस्प्ले तथा ध्वनि"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"मद्दत र प्रतिक्रिया"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"गोपनीयता"</string>
+    <string name="privacy_device_settings_category" msgid="5018334603278648524">"यन्त्रका सेटिङहरू"</string>
+    <string name="privacy_app_settings_category" msgid="858250971978879266">"एपका सेटिङहरू"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"स्थान, प्रयोग र निदान, विज्ञापनहरू"</string>
     <string name="add_account" msgid="7386223854837017129">"खाता थप्नुहोस्"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"खाता हटाउनुहोस्"</string>
@@ -74,7 +76,7 @@
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"कुनै पनि नेटवर्क जडान गरिएको छैन"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi निष्क्रिय पारियो"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"स्क्यानिङ सधै उपलब्ध छ"</string>
-    <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi निष्क्रिय हुँदा पनि Google को स्थान सेवा र अन्य अनुप्रयोगहरूलाई नेटवर्कहरू स्क्यान गर्न दिनुहोस्"</string>
+    <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi निष्क्रिय हुँदा पनि Google को स्थान सेवा र अन्य एपहरूलाई नेटवर्कहरू स्क्यान गर्न दिनुहोस्"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"नेटवर्कमा जडान गर्नुहोस्"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"हालै खोलिएका एपहरू"</string>
@@ -129,7 +131,7 @@
     <string name="accessory_change_name" msgid="6493717176878500683">"नाम परिवर्तन गर्नुहोस्"</string>
     <string name="accessory_change_name_title" msgid="451188562035392238">"यस सहायक उपकरणको कुनै नयाँ नाम प्रविष्टि गर्नुहोस्"</string>
     <string name="accessories_add_title" msgid="7704824893011194433">"चीजहरूको लागि खोजी कार्य गर्दै..."</string>
-    <string name="accessories_add_bluetooth_inst" msgid="5109947637581187896">"तपाईँको ब्लुटुथ उपकरण जोडी गर्नु अघि, तिनीहरूलाई पेयरीङ मोडमा बनाउन निश्चित गर्नुहोस्"</string>
+    <string name="accessories_add_bluetooth_inst" msgid="5109947637581187896">"तपाईँको ब्लुटुथ उपकरण जोडी गर्नुअघि, तिनीहरूलाई पेयरीङ मोडमा बनाउन निश्चित गर्नुहोस्"</string>
     <string name="accessories_autopair_msg" msgid="2501824457418285019">"उपकरण फेला परेको थिएन र स्वचालित रूपमा <xliff:g id="COUNTDOWN">%1$s</xliff:g> सेकेन्डमा पेयर हुने छ"</string>
     <string name="error_action_not_supported" msgid="5377532621386080296">"यो कार्य समर्थित छैन"</string>
     <string name="bluetooth_pairing_request" msgid="6120176967230348092">"ब्लुटुथ जोडा बाँध्ने अनुरोध"</string>
@@ -345,7 +347,7 @@
     <string name="storage_wizard_format_as_private_title" msgid="7985715762649933211">"यन्त्रको भण्डारणको रूपमा फर्म्याट गर्नुहोस्"</string>
     <string name="storage_wizard_format_as_private_description" msgid="6143406934742456154">"यो यसलाई सुरक्षित बनाउन USB ड्राइभ फर्म्याट गर्न आवश्यक छ। सुरक्षित तरिकाले फर्म्याट गरेपछि मात्र यो ड्राइभले यस यन्त्रसँग काम गर्छ। फर्म्याट गर्दा ड्राइभमा हाल भण्डारण गरिएका सबै डेटा मेटाउँछ। डेटा हराउनेबाट जोगिन, यसलाई ब्याक अप गर्ने विचार गर्नुहोस्।"</string>
     <string name="storage_wizard_format_as_public_title" msgid="3546915348149438389">"ढाँचा मेटाउनुहोस्"</string>
-    <string name="storage_wizard_format_as_public_description" msgid="5849129772499352597">"फर्म्याट गरेपछि, तपाईं यो USB ड्राइभलाई अन्य यन्त्रहरूमा प्रयोग गर्न सक्नुहुन्छ। सबै डेटा मेटिनेछन्। पहिले अनुप्रयोगहरूलाई अन्य यन्त्रको भण्डारणमा सारेर ब्याक अप गर्ने बारे विचार गर्नुहोस्।"</string>
+    <string name="storage_wizard_format_as_public_description" msgid="5849129772499352597">"फर्म्याट गरेपछि, तपाईं यो USB ड्राइभलाई अन्य यन्त्रहरूमा प्रयोग गर्न सक्नुहुन्छ। सबै डेटा मेटिनेछन्। पहिले एपहरूलाई अन्य यन्त्रको भण्डारणमा सारेर ब्याक अप गर्ने बारे विचार गर्नुहोस्।"</string>
     <string name="storage_wizard_format_progress_title" msgid="3875906251546380271">"USB ड्राइभ फर्म्याट गरिँदै..."</string>
     <string name="storage_wizard_format_progress_description" msgid="292229747129805538">"यसलाई एक क्षण लाग्न सक्छ। कृपया ड्राइभ नहटाउनुहोस्।"</string>
     <string name="storage_wizard_migrate_choose_title" msgid="8743036821605231654">"डेटालाई माइग्रेट गरिने भण्डारण छनोट गर्नुहोस्"</string>
@@ -405,7 +407,7 @@
     <item msgid="5501503537181350884">"निष्क्रिय"</item>
   </string-array>
     <string name="system_location" msgid="4057295363709016511">"स्थान"</string>
-    <string name="system_desc_location" msgid="1680134126100535031">"तपाईंको अनुमतिबाट अनुप्रयोगहरूलाई तपाईंको स्थान जानकारीको उपयोग गर्न दिनुहोस्।"</string>
+    <string name="system_desc_location" msgid="1680134126100535031">"तपाईंको अनुमतिबाट एपहरूलाई तपाईंको स्थान जानकारीको उपयोग गर्न दिनुहोस्।"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"स्थान सहमति"</string>
     <string name="location_mode_title" msgid="728244518174115443">"मोड"</string>
     <string name="location_category_recent_location_requests" msgid="4541924383164183490">"हालका स्थान अनुरोधहरू"</string>
@@ -465,7 +467,7 @@
     <string name="color_black" msgid="2631818627391955149">"कालो"</string>
     <string name="color_red" msgid="1899020130465926495">"रातो"</string>
     <string name="color_green" msgid="7546929005626106667">"हरियो"</string>
-    <string name="color_blue" msgid="7681690245150985958">"नीलो"</string>
+    <string name="color_blue" msgid="7681690245150985958">"निलो"</string>
     <string name="color_cyan" msgid="3172130225116530998">"सायन"</string>
     <string name="color_yellow" msgid="3519470952904560404">"पहेंलो"</string>
     <string name="color_magenta" msgid="2377854703399624607">"म्याgeन्टा"</string>
@@ -531,7 +533,7 @@
     <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"क्लिप सीमा, मार्जिन, इत्यादि देखाउनुहोस्।"</string>
     <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"GPU को साथ कोरिएको बेला विन्डोहरू भित्र फ्ल्यास दृश्यहरू"</string>
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"फ्ल्यास हार्डवेयर तहहरू अपडेट हुँदा हरिया हुन्छन्"</string>
-    <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"सबभन्दा राम्रादेखि खराबसम्म: नीलो, हरियो, हल्का रातो, रातो"</string>
+    <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"सबभन्दा राम्रादेखि खराबसम्म: निलो, हरियो, हल्का रातो, रातो"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"तिनीहरू अपडेट हुँदा पुरै विन्डो सतहहरूमा फ्यास गर्नुहोस्"</string>
     <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"मुख्य थ्रेडमा लामा कार्यहरू अनुप्रयोगले सञ्चालन गर्दा स्क्रिनमा फ्ल्यास गर्नुहोस्"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"adb shell dumpsys gfxinfo मा रेन्डर गर्ने समय मापन गर्नुहोस्"</string>
@@ -544,7 +546,7 @@
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"अज्ञात स्रोतहरू"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Play स्टोर भन्दा अन्य स्रोतहरूबाट अनुप्रयोगहरूको स्थापनालाई अनुमति दिनुहोस्"</string>
     <string name="security_unknown_sources_confirm_title" msgid="4600896691987804985">"अज्ञात स्रोतहरूलाई अनुमति दिनुहोस्"</string>
-    <string name="security_unknown_sources_confirm_desc" msgid="7883820068140189584">"तपाईंको उपकरण र व्यक्तिगत डेटा अज्ञात स्रोतको एपहरूद्वारा आक्रमण गर्न बढि असुरक्षित छन्। तपाईंको उपकरणमा वा यी एपहरू प्रयोगबाट डेटा हराउन परिणाम वा कुनै पनि नोक्सानीका लागि तपाईं आफैं जिम्मेदार हुनुहुन्छ भन्ने कुरामा सहमत हुनुहुन्छ।"</string>
+    <string name="security_unknown_sources_confirm_desc" msgid="7883820068140189584">"तपाईंको उपकरण र व्यक्तिगत डेटा अज्ञात स्रोतको एपहरूद्वारा आक्रमण गर्न बढी असुरक्षित छन्। तपाईंको उपकरणमा वा यी एपहरू प्रयोगबाट डेटा हराउन परिणाम वा कुनै पनि नोक्सानीका लागि तपाईं आफैं जिम्मेदार हुनुहुन्छ भन्ने कुरामा सहमत हुनुहुन्छ।"</string>
     <string name="system_hdcp_checking_never" msgid="3251512398865365135">"कहिले पनि होइन"</string>
     <string name="system_hdcp_checking_drm" msgid="2159124883496899278">"DRM सामग्रीको लागि"</string>
     <string name="system_hdcp_checking_always" msgid="5868177105455148262">"सधैं"</string>
@@ -641,7 +643,7 @@
     <string name="restricted_profile_configure_title" msgid="3327502517511010296">"सेटिङहरू"</string>
     <string name="restricted_profile_configure_apps_title" msgid="2244201859522056827">"अनुमति दिएका एपहरू"</string>
     <plurals name="restricted_profile_configure_apps_description" formatted="false" msgid="7923692208224457728">
-      <item quantity="other">%d अनुप्रयोगहरूलाई अनुमति दिइयो</item>
+      <item quantity="other">%d एपहरूलाई अनुमति दिइयो</item>
       <item quantity="one">1 एपलाई अनुमति दिइयो</item>
     </plurals>
     <string name="restricted_profile_allowed" msgid="970921490464867884">"अनुमति गरिएको"</string>
@@ -714,10 +716,10 @@
     <string name="select_device_name_title" msgid="3045019448327493634">"आफ्नो <xliff:g id="DEVICEMODEL">%1$s</xliff:g> को लागि नाम छनौट गर्नुहोस्"</string>
     <string name="select_device_name_description" msgid="8528185095614986580">"अन्य यन्त्रहरूबाट तपाईंको यन्त्रमा casting वा जडान गर्दा पहिचान गर्नमा मद्दत गर्नका लागि यसलाई कुनै नाम दिनुहोस्।"</string>
   <string-array name="rooms">
-    <item msgid="6590829789532602097">"Android TV"</item>
-    <item msgid="1140506340411482365">"बैठक कोठाको TV"</item>
-    <item msgid="6448060889026244632">"पारिवारिक कोठाको TV"</item>
-    <item msgid="3336274213215419228">"सुत्ने कोठाको TV"</item>
+    <item msgid="6590829789532602097">"Android टिभी"</item>
+    <item msgid="1140506340411482365">"बैठक कोठाको टिभी"</item>
+    <item msgid="6448060889026244632">"पारिवारिक कोठाको टिभी"</item>
+    <item msgid="3336274213215419228">"सुत्ने कोठाको टिभी"</item>
   </string-array>
     <string name="custom_room" msgid="6798144004583173563">"आफू अनुकूल नाम प्रविष्टि गर्नुहोस्…"</string>
     <string name="device_rename_title" msgid="9070021379000499270">"यस <xliff:g id="DEVICEMODEL">%1$s</xliff:g> को पुनः नामाकरण गर्नुहोस्"</string>
@@ -728,14 +730,14 @@
     <string name="keep_settings" msgid="703474489210093961">"परिवर्तन नगर्नुहोस्"</string>
     <string name="apps_permissions" msgid="7876407267050498394">"अनुमतिहरू"</string>
     <string name="device_apps_permissions" msgid="8421323706003063878">"एप अनुमतिहरू"</string>
-    <string name="app_permissions_group_summary" msgid="6818210080117761117">"<xliff:g id="COUNT_1">%2$d</xliff:g> को <xliff:g id="COUNT_0">%1$d</xliff:g> अनुप्रयोगहरूलाई अनुमति छ"</string>
+    <string name="app_permissions_group_summary" msgid="6818210080117761117">"<xliff:g id="COUNT_1">%2$d</xliff:g> को <xliff:g id="COUNT_0">%1$d</xliff:g> एपहरूलाई अनुमति छ"</string>
     <string name="bluetooth_permission_request" msgid="7788089036741496993">"ब्लुटुथ अनुमति अनुरोध"</string>
     <string name="security_patch" msgid="5468261708915367254">"Android सुरक्षा प्याच चरण"</string>
     <string name="choose_application" msgid="2375936782103669988">"एप छनोट गर्नुहोस्"</string>
     <string name="experimental_preference" msgid="3982593252210557436">"(प्रयोगात्मक)"</string>
     <string name="reboot_safemode_action" msgid="2862127510492131128">"सुरक्षित मोडमा पुनःबुट गर्नुहोस्"</string>
     <string name="reboot_safemode_confirm" msgid="5745977150299953603">"तपाईं सुरक्षित मोडमा पुनःबुट गर्न चाहनुहुन्छ?"</string>
-    <string name="reboot_safemode_desc" msgid="2919933461408942799">"यसले तपाईँले स्थापना गरेका सबै तेस्रो पक्षीय अनुप्रयोगहरूलाई असक्षम गर्ने छ। तपाईँले पुनःबुट गरेप‍छि तिनीहरूलाई पुनर्स्थापित गरिनेछ।"</string>
+    <string name="reboot_safemode_desc" msgid="2919933461408942799">"यसले तपाईँले स्थापना गरेका सबै तेस्रो पक्षीय एपहरूलाई असक्षम गर्ने छ। तपाईँले पुनःबुट गरेप‍छि तिनीहरूलाई पुनर्स्थापित गरिनेछ।"</string>
     <string name="capturing_bugreport" msgid="832512801903486821">"बग रिपोर्ट समावेश गर्दै"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"उपलब्ध भर्चुअल किबोर्ड"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"किबोर्डहरूको व्यवस्थापन गर्नुहोस्"</string>
