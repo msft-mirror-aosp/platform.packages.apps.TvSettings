@@ -410,7 +410,7 @@
     <string name="system_desc_location" msgid="1680134126100535031">"Рұқсат сұраған қолданбаларға орныңыз туралы ақпаратты пайдалануға рұқсат ету"</string>
     <string name="system_network_location_confirm" msgid="7128162421781085332">"Орынды анықтауға келісім"</string>
     <string name="location_mode_title" msgid="728244518174115443">"Режим"</string>
-    <string name="location_category_recent_location_requests" msgid="4541924383164183490">"Соңғы орналасу сұраулары"</string>
+    <string name="location_category_recent_location_requests" msgid="4541924383164183490">"Соңғы орынды анықтау сұраулары"</string>
     <string name="location_no_recent_apps" msgid="7033474075806435793">"Жуықта ешбір қолданба орынды сұрамаған"</string>
     <string name="location_high_battery_use" msgid="5325556609027887602">"Батареяны пайдалану жоғары"</string>
     <string name="location_low_battery_use" msgid="728585923412018253">"Төмен деңгейде батарея пайдалану"</string>
@@ -782,7 +782,7 @@
     <string name="empty_audio_duration_title" msgid="9024377320171450683">"Бос аудионың ұзақтығы"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Аудионы жазуды бастау мүмкін болмады."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Аудио жазылмады."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Data Saver"</string>
+    <string name="title_data_saver" msgid="7500278996154002792">"Трафикті үнемдеу"</string>
     <string name="summary_data_saver" msgid="6793558728898207405">"Мобильдік интернетті азырақ пайдалану үшін бейне сапасын автоматты реттеу"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Дерек трафигі және ескертулер"</string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"Әрекетке рұқсат етілмеген"</string>
