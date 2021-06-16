@@ -30,7 +30,7 @@
     <string name="header_category_preferences" msgid="3738388885555798797">"प्राथमिकताहरू"</string>
     <string name="header_category_accessories" msgid="8310540329290988415">"रिमोट र amp; एसेसरिज"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"व्यक्तिगत"</string>
-    <string name="connect_to_network" msgid="4133686359319492392">"नेटवर्कमा जडान गर्नुहोस्"</string>
+    <string name="connect_to_network" msgid="4133686359319492392">"नेटवर्कमा कनेक्ट गर्नुहोस्"</string>
     <string name="add_an_account" msgid="2601275122685226096">"खाता थप्नुहोस्"</string>
     <string name="accounts_category_title" msgid="7286858931427579845">"खाता र साइन इनका गर्ने कार्यहरू"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"कुन पनि खाता छैन"</string>
@@ -76,9 +76,9 @@
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"कुनै पनि नेटवर्क जडान गरिएको छैन"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi निष्क्रिय पारियो"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"स्क्यानिङ सधै उपलब्ध छ"</string>
-    <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi अफ हुँदा पनि Google को स्थान सेवा र अन्य एपहरूलाई नेटवर्क खोज्न दिनुहोस्"</string>
+    <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi अफ हुँदा पनि Google को लोकेसन सर्भिस र अन्य एपहरूलाई नेटवर्क खोज्न दिनुहोस्"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
-    <string name="connectivity_hint_message" msgid="5638304246522516583">"नेटवर्कमा जडान गर्नुहोस्"</string>
+    <string name="connectivity_hint_message" msgid="5638304246522516583">"नेटवर्कमा कनेक्ट गर्नुहोस्"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"हालै खोलिएका एपहरू"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"सबै एपहरू हेर्नुहोस्"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"अनुमति"</string>
@@ -149,7 +149,7 @@
     <string name="system_date_time" msgid="6938588387002473344">"मिति र समय"</string>
     <string name="system_language" msgid="5516099388471974346">"भाषा"</string>
     <string name="system_keyboard" msgid="1514460705385401872">"किबोर्ड"</string>
-    <string name="system_keyboard_autofill" msgid="8530944165814838255">"किबोर्ड तथा स्वतः अटोफिल सेवा"</string>
+    <string name="system_keyboard_autofill" msgid="8530944165814838255">"किबोर्ड तथा अटोफिल सेवा"</string>
     <string name="system_autofill" msgid="6983989261108020046">"स्वतः भरण"</string>
     <string name="system_home" msgid="2149349845791104094">"गृह स्क्रिन"</string>
     <string name="system_search" msgid="3170169128257586925">"खोजी गर्नुहोस्"</string>
@@ -222,7 +222,7 @@
     <string name="title_random_mac_settings" msgid="6685812569356353378">"गोपनीयता"</string>
   <string-array name="random_mac_settings_entries">
     <item msgid="3457228452595715533">"क्रमरहित MAC प्रयोग गरियोस् (डिफल्ट)"</item>
-    <item msgid="2490415280467390067">"डिभाइसको MAC प्रयोग गर्नुहोस्"</item>
+    <item msgid="2490415280467390067">"डिभाइसको MAC प्रयोग गरियोस्"</item>
   </string-array>
     <string name="mac_address_not_available" msgid="2992935344891853369">"उपलब्ध छैन"</string>
     <string name="mac_address_ephemeral_summary" msgid="3284374877361772531">"क्रमरहित MAC"</string>
@@ -267,7 +267,7 @@
     <string name="wifi_action_view_available_networks" msgid="609561604257828342">"उपलब्ध नेटवर्कहरू अवलोकन गर्नुहोस्"</string>
     <string name="wifi_connecting" msgid="4234341255109283018">"<xliff:g id="SSID">%1$s</xliff:g> सँग जडान गर्दै"</string>
     <string name="wifi_saving" msgid="320653339670641708">"<xliff:g id="SSID">%1$s</xliff:g> को लागि कन्फिगरेसन सुरक्षित गर्दै"</string>
-    <string name="wifi_connect" msgid="2206086690065242121">"जडान गर्नुहोस्"</string>
+    <string name="wifi_connect" msgid="2206086690065242121">"कनेक्ट गर्नुहोस्"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"सञ्जाल बिर्सनुहोस्"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"यसले यो नेटवर्कमा सुरक्षित भएका पासवर्ड सहित जडान गर्न प्रयोग हुने जानकरीलाई क्लियर गर्दछ।"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"ठिक छ"</string>
@@ -411,16 +411,16 @@
     <string name="system_network_location_confirm" msgid="7128162421781085332">"स्थान सहमति"</string>
     <string name="location_mode_title" msgid="728244518174115443">"मोड"</string>
     <string name="location_category_recent_location_requests" msgid="4541924383164183490">"हालका स्थान अनुरोधहरू"</string>
-    <string name="location_no_recent_apps" msgid="7033474075806435793">"अहिले कुनै पनि एपहरूले स्थानको जानकारी मागेका छैनन्"</string>
+    <string name="location_no_recent_apps" msgid="7033474075806435793">"अहिले कुनै पनि एपहरूले लोकेसन मागेका छैनन्"</string>
     <string name="location_high_battery_use" msgid="5325556609027887602">"उच्च ब्याट्री प्रयोग"</string>
     <string name="location_low_battery_use" msgid="728585923412018253">"कम ब्याट्री प्रयोग"</string>
     <string name="location_mode_wifi_description" msgid="84697248707903061">"स्थान अनुमान गर्न Wi‑Fi प्रयोग गर्नुहोस्"</string>
     <string name="location_status" msgid="3037321737386011224">"स्थान अवस्था"</string>
-    <string name="location_services" msgid="551503779736382878">"स्थान सेवाहरू"</string>
+    <string name="location_services" msgid="551503779736382878">"लोकेसन सर्भिसहरू"</string>
     <string name="on" msgid="4899322147062342542">"सक्रिय गर्नुहोस्"</string>
     <string name="off" msgid="3127416478888499352">"बन्द गर्नुहोस्"</string>
-    <string name="google_location_services_title" msgid="6304196603522909239">"Google स्थान सेवाहरू"</string>
-    <string name="third_party_location_services_title" msgid="2826218400381676508">"तेस्रो पक्ष स्थान सेवाहरू"</string>
+    <string name="google_location_services_title" msgid="6304196603522909239">"Google लोकेसन सर्भिसहरू"</string>
+    <string name="third_party_location_services_title" msgid="2826218400381676508">"तेस्रो पक्ष लोकेसन सर्भिसहरू"</string>
     <string name="location_reporting" msgid="3552501333650895634">"स्थान रिपोर्ट गर्दै"</string>
     <string name="location_history" msgid="4055660203090513120">"स्थानसम्बन्धी इतिहास"</string>
     <string name="location_reporting_desc" msgid="1580018652781674608">"Google ले उत्पादनहरूमा यो सुविधा प्रयोग गर्दछ जस्तै Google Now र Google Maps । स्थान रिपोर्टिङ खोल्दै यो सुविधा स्टोर प्रयोग गर्ने तपाईंको  Google  खाता सन्दर्भमा आफ्नो उपकरणको सबै भन्दा भर्खरैको स्थान डेटाको प्रयोग गर्ने कुनै पनि Google उत्पादनले दिन्छ।"</string>
@@ -485,7 +485,7 @@
     <string name="system_play_sample" msgid="3934369914309865584">"नमूना प्ले गर्नुहोस्"</string>
     <string name="system_install_voice_data" msgid="8016395777968958673">"आवाज डेटा स्थापना गर्नुहोस्"</string>
     <string name="system_general" msgid="687760148454147771">"सामान्य"</string>
-    <string name="system_debugging" msgid="1576324426385458481">"डिबग गरिँदै"</string>
+    <string name="system_debugging" msgid="1576324426385458481">"डिबग गरिँदै छ"</string>
     <string name="system_input" msgid="4457152980514604873">"इनपुट"</string>
     <string name="system_drawing" msgid="5802739024643871942">"रेखाचित्र"</string>
     <string name="system_monitoring" msgid="7997260748312620855">"अनुगमन गर्दै"</string>
@@ -522,7 +522,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"प्रोफाइल GPU रेन्डर गर्दै"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"ट्रेस सक्षम पार्नुहोस्"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"गतिविधि नराखियोस्"</string>
-    <string name="system_background_process_limit" msgid="1985373407150771045">"ब्याकग्राउन्ड प्रक्रियाको सीमा सीमा"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"ब्याकग्राउन्ड प्रक्रियाको सीमा"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"सबै ANRs देखाउनुहोस्"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"स्वप्न मोड अक्षम पार्नुहोस्"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"DRM सामग्रीको लागि मात्र प्रयोग गर्नुहोस्"</string>
@@ -530,7 +530,7 @@
     <string name="system_desc_bt_hci_log" msgid="2592649923221658103">"ब्लुटुथ HCI स्नूप लगइन गर्ने सक्षम पार्नुहोस्"</string>
     <string name="system_desc_usb_debugging" msgid="5672275208185222785">"USB कनेक्ट गरिएको बेलामा डिबग मोड"</string>
     <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"डिबग भएको एप चल्नुअघि डिबगरलाई पर्खिन्छ"</string>
-    <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"क्लिप सीमा, मार्जिन, इत्यादि देखाउनुहोस्।"</string>
+    <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"क्लिप सीमा, मार्जिन, इत्यादि देखाइयोस्।"</string>
     <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"GPU को साथ कोरिएको बेला विन्डोहरू भित्र फ्ल्यास दृश्यहरू"</string>
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"हार्डवेयर लेयर अपडेट हुँदा ती लेयर हरिया देखिऊन्"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"सबभन्दा राम्रादेखि खराबसम्म: निलो, हरियो, हल्का रातो, रातो"</string>
@@ -697,7 +697,7 @@
     <string name="device_daydreams_test" msgid="7828275397550076567">"अब सुरु"</string>
     <string name="device_daydreams_sleep" msgid="6847770718407377357">"सुरु गर्ने समय"</string>
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"यस निष्क्रियताको अवधि पछि स्क्रिन सेभर सुरु हुन्छ। यदि कुनै पनि स्क्रिन सेभरलाई चयन गरिएको छैन भने प्रदर्शन अफ हुन्छ।"</string>
-    <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"<xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> को निष्क्रियता पछि"</string>
+    <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"<xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> को निष्क्रियतापछि"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"डिस्प्ले निष्क्रिय पार्नुहोस्"</string>
     <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"<xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> पछि"</string>
     <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"यसपछि डिस्प्ले निष्क्रिय पार्नु…"</string>
@@ -757,7 +757,7 @@
     <string name="directory_access" msgid="7338555825237012006">"निर्देशिकामाथिको पहुँच"</string>
     <string name="directory_access_description" msgid="3630855858552422012">"यी अनुप्रयोगहरूसँग केही निर्देशिकाहरूमाथि पहुँच राख्ने अनुमति छ।"</string>
     <string name="directory_on_volume" msgid="5628089584970521703">"<xliff:g id="VOLUME">%1$s</xliff:g> (<xliff:g id="DIRECTORY">%2$s</xliff:g>)"</string>
-    <string name="system_alert_window_settings" msgid="5790572489650085051">"अरू एपमाथि देखाउनुहोस्"</string>
+    <string name="system_alert_window_settings" msgid="5790572489650085051">"अरू एपमाथि देखाइयोस्"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"अन्य एपको माथिपट्टि देखिने अनुमति दिनु…"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"कुनै एपलाई आफूले प्रयोग गरिरहेका अन्य एपमाथि देखिन अनुमति दिनुहोस्। यस कार्यले तपाईंले गर्ने ती अनुप्रयोगहरूको प्रयोगमा हस्तक्षेप गर्न वा तिनीहरू देखा पर्ने वा तिनीहरूले काम गर्ने तरिकालाई परिवर्तन गर्न सक्छ।"</string>
     <string name="write_system_settings" msgid="4284654265954461890">"प्रणालीसम्बन्धी सेटिङहरू परिमार्जन गर्नुहोस्"</string>
@@ -766,7 +766,7 @@
     <string name="write_settings_on" msgid="71675710746513956">"छ"</string>
     <string name="write_settings_off" msgid="6730113471695092167">"छैन"</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Picture-in-picture"</string>
-    <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Picture-in-picture लाई अनुमति दिनुहोस्"</string>
+    <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Picture-in-picture लाई अनुमति दिइयोस्"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"स्थापना गरिएको कुनै पनि अनुप्रयोगले Picture-in-picture मोडलाई समर्थन गर्दैन"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"यो एप खुला रहेको अवस्थामा वा तपाईंले यसलाई छाडेपछि (उदाहरणका लागि, भिडियो हेर्ने कार्य जारी राख्न) यस एपलाई picture-in-picture विन्डो सिर्जना गर्ने अनुमति दिनुहोस्। यो विन्डो तपाईंले प्रयोग गरिरहनुभएका अन्य एपहरूको माथि देखिन्छ।"</string>
     <string name="special_access" msgid="21806055758289916">"एपलाई विशेष पहुँच"</string>
