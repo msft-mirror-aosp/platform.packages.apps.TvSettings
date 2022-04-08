@@ -322,7 +322,7 @@
     <string name="storage_music_usage" msgid="5362871290115089474">"Audio"</string>
     <string name="storage_media_misc_usage" msgid="3404230292054880339">"Vari"</string>
     <string name="storage_media_cache_usage" msgid="6397941751551207630">"Dati memorizzati nella cache"</string>
-    <string name="storage_eject" msgid="3268870873944951902">"Rimuovi"</string>
+    <string name="storage_eject" msgid="3268870873944951902">"Espelli"</string>
     <string name="storage_format" msgid="1068977713279648756">"Resetta e formatta"</string>
     <string name="storage_format_as_private" msgid="77945551149326052">"Resetta e formatta come memoria dispositivo"</string>
     <string name="storage_format_as_public" msgid="6745112917895223463">"Resetta e formatta come archivio rimovibile"</string>
@@ -586,7 +586,7 @@
     <string name="title_current_autofill_service" msgid="9029001041887283153">"Compilazione automatica attuale"</string>
     <string name="title_select_autofill_service" msgid="696559582725756848">"Seleziona il servizio di compilazione automatica"</string>
     <string name="autofill_none" msgid="1615056985649424207">"Nessuno"</string>
-    <string name="autofill_confirmation_message" msgid="3840267789160192558">"&lt;b&gt;Verifica che questa app sia attendibile&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Il servizio Password&gt;%1$s&lt;/xliff:g&gt; si basa sui dati visualizzati sullo schermo per stabilire quali possono essere compilati automaticamente."</string>
+    <string name="autofill_confirmation_message" msgid="3840267789160192558">"&lt;b&gt;Verifica che questa app sia attendibile&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Il servizio Password&gt;%1$s&lt;/xliff:g&gt; usa ciò che appare sullo schermo per stabilire quali contenuti possono essere compilati automaticamente."</string>
     <string name="computing_size" msgid="8623916230485437579">"Elaborazione in corso..."</string>
     <string name="title_select_wifi_network" msgid="935820896444071617">"Seleziona la tua rete Wi-Fi"</string>
     <string name="accessories_wifi_display_rename_device" msgid="8803397194143132061">"Rinomina"</string>
@@ -769,7 +769,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Consenti Picture in picture"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Nessuna app installata supporta la modalità Picture in picture"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Consenti alle app di creare una finestra Picture in picture quando l\'app è aperta o dopo l\'uscita (ad esempio, per continuare a guardare un video). Questa finestra viene visualizzata sopra le altre app in uso."</string>
-    <string name="special_access" msgid="21806055758289916">"Accesso speciale alle app"</string>
+    <string name="special_access" msgid="21806055758289916">"Accesso speciale per le app"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Audio"</string>
     <string name="record_audio" msgid="5035689290259575229">"Registra audio"</string>

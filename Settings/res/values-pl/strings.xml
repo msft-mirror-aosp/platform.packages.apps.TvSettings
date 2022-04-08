@@ -197,7 +197,7 @@
     <string name="additional_system_update_settings_list_item_title" msgid="1839534735929143986">"Dodatkowe aktualizacje systemu"</string>
     <string name="device_status" msgid="8266002761193692207">"Stan"</string>
     <string name="device_status_summary" msgid="3270932829412434985">"Sieć, numery seryjne i inne informacje"</string>
-    <string name="manual" msgid="5683935624321864999">"Instrukcja"</string>
+    <string name="manual" msgid="5683935624321864999">"Ręcznie"</string>
     <string name="regulatory_information" msgid="9107675969694713391">"Informacje prawne"</string>
     <string name="device_feedback" msgid="4871903271442960465">"Prześlij opinię o tym urządzeniu"</string>
     <string name="fcc_equipment_id" msgid="6731077083927000108">"Identyfikator sprzętu"</string>
@@ -510,17 +510,17 @@
     <string name="system_allow_mock_locations" msgid="2483106887711851466">"Pozorowanie lokalizacji"</string>
     <string name="system_select_debug_app" msgid="6200987902307533721">"Wybierz aplikację do debugowania"</string>
     <string name="system_wait_for_debugger" msgid="5715878008542589060">"Poczekaj na debugera"</string>
-    <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"Zweryfikuj aplikacje przez USB"</string>
-    <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"Sprawdź, czy aplikacje zainstalowane przez ADB/ADT nie zachowują się w szkodliwy sposób"</string>
+    <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"Weryfikuj aplikacje przez USB"</string>
+    <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"Sprawdzaj, czy aplikacje zainstalowane przez ADB/ADT nie zachowują się w szkodliwy sposób"</string>
     <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"Szczegółówe rejestrowanie Wi-Fi"</string>
     <string name="system_desc_wifi_verbose_logging" msgid="3537578245428327314">"Włącz szczegółowy zapis danych o Wi-Fi"</string>
     <string name="system_show_touches" msgid="8244331695139748286">"Pokaż dotknięcia"</string>
     <string name="system_pointer_location" msgid="8724050865245555084">"Lokalizacja wskaźnika"</string>
-    <string name="system_show_layout_bounds" msgid="8803080672553699649">"Pokaż granice układu"</string>
+    <string name="system_show_layout_bounds" msgid="8803080672553699649">"Pokazuj granice układu"</string>
     <string name="system_show_gpu_view_updates" msgid="1625918928089365222">"Pokaż zmiany widoku z GPU"</string>
     <string name="system_show_hardware_layer" msgid="5833664339844452290">"Pokaż warstwę sprzętową"</string>
     <string name="system_show_gpu_overdraw" msgid="5073007513540516704">"Pokaż przerysowywanie GPU"</string>
-    <string name="system_show_surface_updates" msgid="7680759813613585278">"Pokaż zmiany powierzchni"</string>
+    <string name="system_show_surface_updates" msgid="7680759813613585278">"Pokazuj zmiany powierzchni"</string>
     <string name="system_window_animation_scale" msgid="685477540250939659">"Skala animacji okna"</string>
     <string name="system_transition_animation_scale" msgid="7266380208347453619">"Skala animacji przejścia"</string>
     <string name="system_animator_duration_scale" msgid="3829445237130423625">"Skala długości animacji"</string>
@@ -536,7 +536,7 @@
     <string name="system_desc_bt_hci_log" msgid="2592649923221658103">"Włącz zapisywanie w dzienniku snoopingu interfejsu HCI Bluetooth"</string>
     <string name="system_desc_usb_debugging" msgid="5672275208185222785">"Tryb debugowania, gdy podłączone jest USB"</string>
     <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"Debugowana aplikacja czeka na przyłączenie debugera."</string>
-    <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"Pokaż granice przycięcia, marginesy itd."</string>
+    <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"Pokazuj granice przycięcia, marginesy itd."</string>
     <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"Podświetlaj elementy w oknach, jeśli są rysowane przez GPU"</string>
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"Podświetlaj aktualizowane warstwy sprzętowe na zielono"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"Najlepszy-najg.: nieb., ziel., jasnoczerw., czerw."</string>
@@ -709,7 +709,7 @@
     <string name="device_daydreams_none" msgid="3405655350757277348">"Wyłącz ekran"</string>
     <string name="device_daydreams_select" msgid="7203264446482623438">"Wygaszacz ekranu"</string>
     <string name="device_daydreams_test" msgid="7828275397550076567">"Włącz teraz"</string>
-    <string name="device_daydreams_sleep" msgid="6847770718407377357">"Włącz wygaszacz"</string>
+    <string name="device_daydreams_sleep" msgid="6847770718407377357">"Kiedy włączać"</string>
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"Wygaszacz ekranu włączy się po tym okresie braku aktywności. Jeśli nie wybierzesz wygaszacza, ekran po prostu się wyłączy."</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"Po <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> braku aktywności"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Wyłączaj ekran"</string>
@@ -725,7 +725,7 @@
     <string name="privacy_automatic_restore" msgid="7117805818589418118">"Autoprzywracanie"</string>
     <string name="factory_reset_device" msgid="6509900821515094361">"Zresetuj urządzenie"</string>
     <string name="factory_reset_description" msgid="4448783644897046471">"Spowoduje to wymazanie wszystkich danych z pamięci wewnętrznej Twojego urządzenia, w tym konta Google, ustawień i danych aplikacji i systemu, a także pobranych aplikacji"</string>
-    <string name="confirm_factory_reset_description" msgid="1337483463207721713">"Wykasować z tego urządzenia wszystkie Twoje dane osobowe i pobrane aplikacje? Nie można tego cofnąć."</string>
+    <string name="confirm_factory_reset_description" msgid="1337483463207721713">"Wymazać wszystkie Twoje informacje osobiste i pobrane aplikacje? Nie można tego cofnąć."</string>
     <string name="confirm_factory_reset_device" msgid="4308646529880718465">"Wymaż wszystko"</string>
     <string name="select_device_name_title" msgid="3045019448327493634">"Wybierz nazwę urządzenia <xliff:g id="DEVICEMODEL">%1$s</xliff:g>"</string>
     <string name="select_device_name_description" msgid="8528185095614986580">"Nadaj nazwę swojemu urządzeniu, by móc je łatwo rozpoznać podczas przesyłania treści lub łączenia się z innych urządzeń."</string>
