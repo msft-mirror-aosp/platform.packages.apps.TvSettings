@@ -590,9 +590,13 @@
     <string name="microphone" msgid="7893752847683941214">"マイク"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"マイクへのアクセス"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"マイクへのアプリのアクセス"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"マイクへのアクセスがブロックされています"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"ブロックを解除するには、デバイスのプライバシー スイッチをマイクオンの位置に移動し、マイクへのアクセスを許可してください。"</string>
     <string name="camera" msgid="1226671478936288283">"カメラ"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"カメラへのアクセス"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"カメラへのアプリのアクセス"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"カメラへのアクセスがブロックされています"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"ブロックを解除するには、デバイスのプライバシー スイッチをカメラオンの位置に移動し、カメラへのアクセスを許可してください。"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"マイクへのアクセス: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"ON にすると、権限を持つすべてのアプリとサービスがこのデバイスのマイクにアクセスできるようになります。\n\nカスタムのプロトコルが設定されたオーディオ周辺機器はこの設定の影響を受けません。"</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"カメラへのアクセス: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -664,8 +668,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"シアン"</string>
     <string name="color_yellow" msgid="3519470952904560404">"黄"</string>
     <string name="color_magenta" msgid="2377854703399624607">"マゼンタ"</string>
-    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"音声による説明"</string>
-    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"音声による説明付きの音声トラックをデフォルトで選択"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"音声による説明"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"対応する映画や番組で画面に表示されている内容の説明が読み上げられます"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"有効にする"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"設定"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g>を利用しますか？"</string>
@@ -867,7 +871,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"サードパーティのソース"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"権限"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"アプリを利用できません"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"権限を削除して空き容量を増やす"</string>
     <string name="unused_apps" msgid="5539166745483454543">"使用されていないアプリ"</string>
     <string name="settings_ok" msgid="5950888975075541964">"OK"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"確認"</string>
@@ -960,6 +963,9 @@
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"ピクチャー イン ピクチャーに対応したアプリはインストールされていません"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"このアプリを開いている間や、アプリを離れた後にピクチャー イン ピクチャー ウィンドウを表示させることを許可します。このウィンドウにより、再生中の動画などを、使用中の他のアプリの上に重ねて表示できます。"</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"アラームの設定や日時が決まっているアクションのスケジュールをアプリに許可します。これによりアプリがバックグラウンドで実行できるようになるため、消費電力が増えることがあります。\n\nこの権限が OFF の場合、アプリで設定された既存のアラームと時間ベースのイベントは機能しなくなります。"</string>
+    <string name="turn_screen_on_title" msgid="5293798529284629011">"画面を ON にする"</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"画面を ON にすることを許可する"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"画面を ON にすることをアプリに許可します。許可すると、ユーザーからの明示的インテントを必要とせずに、アプリがいつでも画面を ON にできるようになります。"</string>
     <string name="special_access" msgid="21806055758289916">"特別なアプリアクセス"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>、<xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"音声"</string>

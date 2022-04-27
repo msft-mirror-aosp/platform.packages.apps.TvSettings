@@ -590,9 +590,13 @@
     <string name="microphone" msgid="7893752847683941214">"Mikrofon"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Mikrofona giriş"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Mikrofona tətbiqin girişi"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Mikrofona giriş blok edilib"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Blokdan çıxarmaq üçün cihazınızda məxfilik açarını \"mikrofon aktivdir\" vəziyyətinə keçirərək mikrofona giriş icazəsi verin."</string>
     <string name="camera" msgid="1226671478936288283">"Kamera"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Kameraya giriş"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Kameraya tətbiqin girişi"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Kameraya giriş blok edilib"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Blokdan çıxarmaq üçün cihazınızda məxfilik açarını \"kamera aktivdir\" vəziyyətinə keçirərək kameraya giriş icazəsi verin."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofona giriş: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"Aktiv edildikdə, icazəsi olan bütün tətbiqlər və xidmətlər bu cihazdakı istənilən mikrofona giriş edə bilər.\n\nFərdi protokolu olan audio köməkçi cihazları bu ayardan təsirlənməyəcəkdir."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Kameraya giriş: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -664,8 +668,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"Mavi"</string>
     <string name="color_yellow" msgid="3519470952904560404">"Sarı"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Çəhrayı qırmızı"</string>
-    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"Audio Təsviri"</string>
-    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"Defolt olaraq audio təsviri olan audio treki seçin"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Audio təsviri"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Dəstəklənən film və şoularda ekranda baş verənlərin təsvirini eşidin"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Aktivləşdirin"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfiqurasiya"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> xidmətindən istifadə edilsin?"</string>
@@ -867,7 +871,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Üçüncü Tərəf Mənbəyi"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"İcazələr"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Tətbiq əlçatan deyil"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"İcazələri silin və yer boşaldın"</string>
     <string name="unused_apps" msgid="5539166745483454543">"İstifadə olunmayan tətbiqlər"</string>
     <string name="settings_ok" msgid="5950888975075541964">"OK"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Təsdiq edin"</string>
@@ -960,6 +963,9 @@
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Quraşdırılmış tətbiqlərdən heç biri Şəkil-içində-şəkil funksiyasını dəstəkləmir"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Tətbiq açıq olanda və ya tətbiqdən çıxdıqdan sonra (məsələn, videoya baxmağa davam etmək üçün) bu tətbiqə şəkil içində şəkil pəncərəsi yaratmağa icazə versəniz, bu pəncərə digər tətbiqlərin üzərində görünəcək."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Tətbiqlərə siqnallar ayarlamağa və vaxta əsaslanan əməliyyatları planlaşdırmağa icazə verin. Bu, tətbiqlərin arxa fonda işləməsinə imkan verir ki, nəticədə daha çox enerji istifadə edilə bilər.\n\nBu icazə deaktiv olsa, bu tətbiq tərəfindən planlaşdırılan mövcud siqnallar və vaxta əsaslanan tədbirlər işləməyəcəkdir."</string>
+    <string name="turn_screen_on_title" msgid="5293798529284629011">"Ekranı aktiv etmək"</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"Ekranı aktiv etməyə icazə verin"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Tətbiqin ekranı aktiv etməsinə icazə verin. İcazə verilərsə, tətbiq istənilən vaxt sizə soruşmadan ekranı aktiv edə bilər."</string>
     <string name="special_access" msgid="21806055758289916">"Xüsusi tətbiq girişi"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Audio"</string>

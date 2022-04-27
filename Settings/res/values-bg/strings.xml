@@ -257,7 +257,7 @@
     <string name="system_inputs_devices" msgid="2158421111699829399">"Входове и устройства"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"Управление на домашното кино"</string>
     <string name="system_accessibility" msgid="3081009195560501010">"Достъпност"</string>
-    <string name="system_developer_options" msgid="8480844257066475479">"Опции на програмиста"</string>
+    <string name="system_developer_options" msgid="8480844257066475479">"Опции за програмисти"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"Няма"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"Употреба и диагностика"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"Няма приложения за администриране на устройството"</string>
@@ -590,9 +590,13 @@
     <string name="microphone" msgid="7893752847683941214">"Микрофон"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Достъп до микрофона"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Достъп на приложенията до микрофона"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Достъпът до микрофона е блокиран"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"За да го отблокирате, преместете превключвателя за поверителността на устройството си във включено положение за микрофона, за да разрешите достъпа до него."</string>
     <string name="camera" msgid="1226671478936288283">"Камера"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Достъп до камерата"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Достъп на приложенията до камерата"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Достъпът до камерата е блокиран"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"За да я отблокирате, преместете превключвателя за поверителността на устройството си във включено положение за камерата, за да разрешите достъпа до нея."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Достъп до микрофона: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"Когато настройката е включена, всички приложения и услуги, които имат разрешение, ще получат достъп до всички микрофони на това устройство.\n\nПериферните аудиоустройства с персонализиран протокол няма да бъдат засегнати от тази настройка."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Достъп до камерата: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -664,8 +668,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"Синьо-зелен"</string>
     <string name="color_yellow" msgid="3519470952904560404">"Жълт"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Пурпурен"</string>
-    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"Аудиоописание"</string>
-    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"Изберете аудиозапис с аудиоописание по подразбиране"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Аудиоописание"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Чуйте описание на случващото се на екрана в поддържаните филми и предавания"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Активиране"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Конфигурация"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Да се използва ли „<xliff:g id="SERVICE">%1$s</xliff:g>“?"</string>
@@ -867,7 +871,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Източник на трета страна"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Разрешения"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Приложението не е налице"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"Премахване на разреш. и освоб. на място"</string>
     <string name="unused_apps" msgid="5539166745483454543">"Неизползвани приложения"</string>
     <string name="settings_ok" msgid="5950888975075541964">"ОК"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Потвърждаване"</string>
@@ -960,6 +963,9 @@
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Никое от инсталираните приложения не поддържа режим „Картина в картината“"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Разрешаване на приложенията да създават прозорец в режима „Картина в картината“, докато приложението е отворено или след като излезете от него (например за да продължите да гледате видеоклип). Съответният прозорец ще се показва върху другите приложения, които използвате."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Разрешаване на приложенията да задават будилници и да насрочват действия, ограничени във времето. Това им позволява да работят на заден план, което може да доведе до по-висок разход на енергия.\n\nАко разрешението е изключено, съществуващите будилници и събитията въз основа на времето, насрочени от приложението, няма да работят."</string>
+    <string name="turn_screen_on_title" msgid="5293798529284629011">"Включване на екрана"</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"Разрешаване на включването на екрана"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Разрешете на дадено приложение да включва екрана. Ако го направите, то може да включва екрана по всяко време без явното ви намерение."</string>
     <string name="special_access" msgid="21806055758289916">"Специален достъп за приложението"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Аудио"</string>

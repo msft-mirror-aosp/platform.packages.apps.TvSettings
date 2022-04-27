@@ -590,9 +590,13 @@
     <string name="microphone" msgid="7893752847683941214">"Microphone"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Microphone access"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"App access to microphone"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Microphone access blocked"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"To unblock, move the privacy switch on your device to the microphone \'on position\' to allow microphone access."</string>
     <string name="camera" msgid="1226671478936288283">"camera"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Camera access"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"App access to camera"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Camera access blocked"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"To unblock, move the privacy switch on your device to the camera\'s \'on position\' to allow camera access."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Microphone access: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"When turned on, all apps and services with permission can access any microphone on this device.\n\nAudio peripherals with a custom protocol will not be affected by this setting."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Camera access: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -664,8 +668,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"Cyan"</string>
     <string name="color_yellow" msgid="3519470952904560404">"Yellow"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Magenta"</string>
-    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"Audio description"</string>
-    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"Select audio soundtrack with audio description by default"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Audio description"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Hear a description of what’s happening on screen in supported movies and shows"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Enable"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Configuration"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Use <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
@@ -867,7 +871,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Third-party source"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Permissions"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Application unavailable"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"Remove permissions and free up space"</string>
     <string name="unused_apps" msgid="5539166745483454543">"Unused apps"</string>
     <string name="settings_ok" msgid="5950888975075541964">"OK"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Confirm"</string>
@@ -960,6 +963,9 @@
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"No installed apps support picture-in-picture"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Allow apps to create a picture-in-picture window while the app is open or after you leave it (for example, to continue watching a video). This window displays on top of other apps that you\'re using."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Allow apps to set alarms and schedule time-sensitive actions. This lets the apps run in the background, which may use more power.\n\nIf this permission is off, existing alarms and time-based events scheduled by the app won’t work."</string>
+    <string name="turn_screen_on_title" msgid="5293798529284629011">"Turn screen on"</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"Allow turning the screen on"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Allow an app to turn the screen on. If granted, the app may turn on the screen at any time without your explicit intent."</string>
     <string name="special_access" msgid="21806055758289916">"Special app access"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Audio"</string>

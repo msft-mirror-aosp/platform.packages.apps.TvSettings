@@ -95,7 +95,7 @@
     <string name="all_apps_title" msgid="3717294436135280133">"Бардык колдонмолор"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Тутум колдонмолорун көрсөтүү"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Орнотулган колдонмолор"</string>
-    <string name="all_apps_other" msgid="4420174882983813158">"Тутум колдонмолору"</string>
+    <string name="all_apps_other" msgid="4420174882983813158">"Системанын колдонмолору"</string>
     <string name="all_apps_disabled" msgid="2776041242863791053">"Өчүрүлгөн колдонмолор"</string>
     <string name="device_daydream" msgid="2631191946958113220">"Көшөгө"</string>
     <string name="device_display" msgid="244634591698925025">"Көрсөтүү"</string>
@@ -319,7 +319,7 @@
     <string name="tutorials" msgid="7880770425872110455">"Үйрөткүчтөр"</string>
     <string name="about_system_update" msgid="7421264399111367755">"Системанын жаңыртуусу"</string>
     <string name="system_update_description" msgid="998883510488461766">"Муну менен тутум программасы эң акыркы версияга жаңырат. Түзмөгүңүз өчүп күйөт."</string>
-    <string name="system_update_content_description" msgid="5702888187682876466">"Тутумду жаңыртуу. Муну менен тутум программасы эң акыркы версияга жаңырат. Түзмөгүңүз өчүп күйөт."</string>
+    <string name="system_update_content_description" msgid="5702888187682876466">"Системаны жаңыртуу. Муну менен тутум программасы эң акыркы версияга жаңырат. Түзмөгүңүз өчүп күйөт."</string>
     <string name="about_preference" msgid="9112690446998150670">"Түзмөк жөнүндө"</string>
     <string name="device_name" msgid="566626587332817733">"Түзмөктүн аталышы"</string>
     <string name="restart_button_label" msgid="911750765086382990">"Өчүрүп күйгүзүү"</string>
@@ -370,7 +370,7 @@
     <string name="copyright_title" msgid="5879660711078649518">"Автордук укук"</string>
     <string name="license_title" msgid="4032466200355435641">"Уруксаттама"</string>
     <string name="terms_title" msgid="192888187310800678">"Пайдалануу шарттары"</string>
-    <string name="webview_license_title" msgid="5370270485188947540">"WebView тутум уруксаттамасы"</string>
+    <string name="webview_license_title" msgid="5370270485188947540">"System WebView уруксаттамасы"</string>
     <string name="consumer_information_title" msgid="7729729568416672733">"Кардарга арналган маалымат"</string>
     <string name="consumer_information_message" msgid="205236637689468764">"Android TV кызматындагы мазмун колдонмолорду иштеп чыгуучулар жана киностудиялар сыяктуу үчүнчү тарапттагы өнөктөштөр тарабынан камсыздалат. Көбүрөөк маалымат алуу үчүн "<a href="g.co/tv/androidtvinfo">"g.co/tv/androidtvinfo"</a>" бөлүмүнө өтүңүз"</string>
     <string name="consumer_information_button_ok" msgid="6979480064600038080">"Макул"</string>
@@ -590,9 +590,13 @@
     <string name="microphone" msgid="7893752847683941214">"Микрофон"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Микрофонду колдонуу"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Колдонмолордун микрофонду пайдалануу мүмкүнчүлүгү"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Микрофонду колдонуу мүмкүнчүлүгү бөгөттөлгөн"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Бөгөттөн чыгаруу үчүн түзмөктүн купуялык которгучун \"Микрофон күйүк\" абалына которуп, микрофонду колдонууга уруксат бериңиз."</string>
     <string name="camera" msgid="1226671478936288283">"Камера"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Камераны колдонуу"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Колдонмолордун камераны пайдалануу мүмкүнчүлүгү"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Камераны колдонуу мүмкүнчүлүгү бөгөттөлгөн"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Бөгөттөн чыгаруу үчүн түзмөктүн купуялык которгучун \"Камера күйүк\" абалына которуп, камераны колдонууга уруксат бериңиз."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Микрофонду колдонуу: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"Бул параметр күйгүзүлсө, уруксаты бар колдонмолордун жана кызматтардын баары бул түзмөктөгү микрофондорду пайдалана алат.\n\nЫңгайлаштырылган протоколу бар аудио түзмөктүн көмөкчү жабдыктарына бул жөндөө таасирин тийгизбейт."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Камераны колдонуу: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -664,8 +668,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"Көгүш"</string>
     <string name="color_yellow" msgid="3519470952904560404">"Сары"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Маджента"</string>
-    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"Аудио коштомо"</string>
-    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"Аудио коштомо демейки шартта түзүлгөн тректи тандоо"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Аудио коштомо"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Көркөм тасмалардын жана сериалдардын коштомо жазуулары аркылуу экранда эмне болуп жатканын биле аласыз"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Иштетүү"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Конфигурация"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> колдоносузбу?"</string>
@@ -867,7 +871,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Үчүнчү тараптын булагы"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Уруксаттар"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Колдонмо жеткиликсиз"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"Уруксаттарды өчүрүп, орун бошотуу"</string>
     <string name="unused_apps" msgid="5539166745483454543">"Колдонулбаган колдонмолор"</string>
     <string name="settings_ok" msgid="5950888975075541964">"OK"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Ырастоо"</string>
@@ -887,7 +890,7 @@
     <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"Мультимедианы ойнотуу учурунда"</string>
     <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"Кубатты үнөмдөгүч жөндөөсүн ырастаңыз"</string>
     <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"Батареянын кубатын көбүрөөк сарптай турган <xliff:g id="SLEEP_TIME">%1$s</xliff:g> деп коюлган жаңы жөндөөнү ырастаңыз."</string>
-    <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Дайындардын камдык көчүрмөсүн сактап жаткан каттоо эсеби жок"</string>
+    <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Дайындардын камдык көчүрмөсүн сактап жаткан аккаунт жок"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"Wi-Fi сырсөздөрүнүн, кыстармалардын жана башка жөндөөлөрдүн, ошондой эле колдонмолордун дайындарынын камдык көчүрмөлөрүн сактоо аракети токтотулуп, Google серверлериндеги бардык көчүрмөлөр өчүрүлсүнбү?"</string>
     <string name="privacy_backup_data" msgid="3604057980102997914">"Дайындарымдын камдык көчүрмөсүн сактоо"</string>
@@ -960,6 +963,9 @@
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Орнотулган колдонмолордун бири да сүрөт ичиндеги сүрөт функциясын колдобойт"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Колдонмо ачылып турганда же андан чыгып кеткенде (мисалы, видео көрүүнү улантуу үчүн), колдонмодо сүрөт ичиндеги сүрөт терезеси пайда болушу мүмкүн. Мындай терезе башка колдонмолордун үстүнөн көрүнөт."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Колдонмолорго ойготкучтарды коюуга жана башка аракеттерди графикке киргизүүгө уруксат берүү. Ушуну менен колдонмолор фондо иштеп, көбүрөөк кубат сарпталышы мүмкүн.\n\nЭгер бул уруксат өчүрүлсө, колдонмодогу ойготкучтар жана графикке киргизилген башка аракеттер иштебейт."</string>
+    <string name="turn_screen_on_title" msgid="5293798529284629011">"Экранды күйгүзүү"</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"Экранды күйгүзүүгө уруксат берүү"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Колдонмого экранды күйгүзүүгө уруксат бериңиз. Уруксат берилсе, колдонмо экранды каалаган убакта сизден уруксат сурабастан күйгүзүшү мүмкүн."</string>
     <string name="special_access" msgid="21806055758289916">"Атайын мүмкүнчүлүк"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Аудио"</string>

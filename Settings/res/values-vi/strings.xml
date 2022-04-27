@@ -590,9 +590,13 @@
     <string name="microphone" msgid="7893752847683941214">"Micrô"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Quyền truy cập vào micrô"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Quyền truy cập của ứng dụng vào micrô"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Đã chặn quyền truy cập micrô"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Để bỏ chặn, hãy chuyển nút quyền riêng tư trên thiết bị sang vị trí bật micrô để cho phép truy cập micrô."</string>
     <string name="camera" msgid="1226671478936288283">"Máy ảnh"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Quyền truy cập vào máy ảnh"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Quyền truy cập của ứng dụng vào máy ảnh"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Đã chặn quyền truy cập máy ảnh"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Để bỏ chặn, hãy chuyển nút quyền riêng tư trên thiết bị sang vị trí bật máy ảnh để cho phép truy cập máy ảnh."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Quyền truy cập vào micrô: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"Khi bạn bật chế độ này, tất cả các ứng dụng và dịch vụ có quyền đều có thể truy cập vào micrô trên thiết bị này.\n\nCác thiết bị âm thanh ngoại vi có giao thức tùy chỉnh sẽ không chịu ảnh hưởng của chế độ cài đặt này."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Quyền truy cập vào máy ảnh: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -664,8 +668,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"Lục lam"</string>
     <string name="color_yellow" msgid="3519470952904560404">"Vàng"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Đỏ tươi"</string>
-    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"Mô tả bằng âm thanh"</string>
-    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"Chọn bản nhạc có mô tả bằng âm thanh theo mặc định"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Mô tả bằng âm thanh"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Nghe mô tả về những gì đang diễn ra trên màn hình trong các bộ phim và chương trình được hỗ trợ"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Bật"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Cấu hình"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Sử dụng <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
@@ -867,7 +871,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Nguồn của bên thứ ba"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Quyền"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Ứng dụng không khả dụng"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"Xóa quyền và giải phóng dung lượng"</string>
     <string name="unused_apps" msgid="5539166745483454543">"Ứng dụng không dùng đến"</string>
     <string name="settings_ok" msgid="5950888975075541964">"OK"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Xác nhận"</string>
@@ -960,6 +963,9 @@
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Không có ứng dụng đã cài đặt nào hỗ trợ chế độ Hình trong hình"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Cho phép ứng dụng tạo cửa sổ hình trong hình khi ứng dụng đang mở hoặc sau khi bạn rời khỏi ứng dụng đó (chẳng hạn như để tiếp tục xem video). Cửa sổ này sẽ hiển thị trên các ứng dụng khác mà bạn đang sử dụng."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Cho phép các ứng dụng đặt chuông báo và lên lịch cho các thao tác cần chính xác về thời gian. Chế độ này cho phép ứng dụng chạy ở chế độ nền và có thể tiêu tốn nhiều điện hơn.\n\nNếu bạn không cấp quyền này, các chuông báo và sự kiện mà ứng dụng đã đặt lịch sẽ không hoạt động."</string>
+    <string name="turn_screen_on_title" msgid="5293798529284629011">"Bật màn hình"</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"Cho phép bật màn hình"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Cho phép ứng dụng bật màn hình. Nếu được phép, ứng dụng có thể bật màn hình bất kỳ lúc nào kể cả khi bạn không có ý định như vậy."</string>
     <string name="special_access" msgid="21806055758289916">"Quyền truy cập đặc biệt"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Âm thanh"</string>

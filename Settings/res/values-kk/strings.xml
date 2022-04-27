@@ -590,9 +590,13 @@
     <string name="microphone" msgid="7893752847683941214">"Микрофон"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Микрофонды пайдалану"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Қолданбаның микрофонды пайдалану рұқсаты"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Микрофонды пайдалану рұқсаты бөгелді"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Бөгеуді алу үшін құрылғыдағы құпиялылық ауыстырғышын микрофонға жылжытыңыз, оның қалпы микрофонды пайдалануға мүмкіндік беруі тиіс."</string>
     <string name="camera" msgid="1226671478936288283">"Камера"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Камераны пайдалану рұқсаты"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Қолданбаның камераны пайдалану рұқсаты"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Камераны пайдалану рұқсаты бөгелді"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Бөгеуді алу үшін құрылғыдағы құпиялылық ауыстырғышын камераға жылжытыңыз, оның қалпы камераны пайдалануға мүмкіндік беруі тиіс."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Микрофонды пайдалану: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"Бұл параметр қосулы болса, рұқсат берілген барлық қолданба мен қызмет осы құрылғыдағы кез келген микрофонды пайдалана алады.\n\nБұл параметр аудиожүйенің арнаулы протоколды перифериялық құрылғыларына әсер етпейді."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Камераны пайдалану рұқсаты: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -664,8 +668,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"Көкшіл"</string>
     <string name="color_yellow" msgid="3519470952904560404">"Сары"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Қызылкүрең"</string>
-    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"Аудио сипаттама"</string>
-    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"Аудио сипаттамасы бар саундтректі әдепкісінше таңдау"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Аудио сипаттама"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Қолдау көрсетілетін фильмдер мен сериалдарда экрандағы әрекеттің аудио сипаттамасын есту"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Қосу"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Конфигурация"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> қызметін пайдалану керек пе?"</string>
@@ -867,7 +871,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Үшінші тарап дереккөзі"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Рұқсаттар"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Қолданба қолжетімді емес"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"Рұқсаттарды өшіру және орын босату"</string>
     <string name="unused_apps" msgid="5539166745483454543">"Пайдаланылмайтын қолданбалар"</string>
     <string name="settings_ok" msgid="5950888975075541964">"Жарайды"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Растау"</string>
@@ -960,6 +963,9 @@
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Орнатылған қолданбалардың ешқайсысы \"суреттегі сурет\" режимін қолдамайды"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Қолданба ашық болғанда не одан шыққанда (мысалы, бейнені әрі қарай көру үшін), қолданбаларға \"суреттегі сурет\" терезесін ашуға мүмкіндік береді. Бұл терезе ашылған басқа қолданбалардың үстінен шығады."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Қолданбаларға оятқыштарды орнатуға және уақытқа қатысты басқа да әрекеттерді жоспарлауға рұқсат береді. Мұндайда қолданба фондық режимде жұмыс істейді, сондықтан қуат шығыны артуы мүмкін.\n\nБұл рұқсат өшірулі болса, осы қолданбада жоспарланған ағымдағы оятқыштар мен уақытқа негізделген іс-шаралар жұмыс істемейді."</string>
+    <string name="turn_screen_on_title" msgid="5293798529284629011">"Экранды қосу"</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"Экранды қосуға рұқсат беру"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Қолданбаның экранды қосуына рұқсат береді. Рұқсат берілсе, қолданба кез келген уақытта экранды өздігінен қосуы мүмкін."</string>
     <string name="special_access" msgid="21806055758289916">"Арнайы рұқсат"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Аудио"</string>

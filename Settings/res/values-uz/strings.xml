@@ -590,9 +590,13 @@
     <string name="microphone" msgid="7893752847683941214">"Mikrofon"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Mikrofonga ruxsat"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Mikrofonga ruxsati bor ilovalar"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Mikrofonga kirish taqiqlangan"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Mikrofonga kirish uchun qurilmangizdagi maxfiylik tugmachasini suring va mikrofonni yoqing"</string>
     <string name="camera" msgid="1226671478936288283">"Kamera"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Kameraga ruxsat"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Kameraga ruxsati bor ilovalar"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Kameraga kirish taqiqlangan"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Kameraga kirish uchun qurilmangizdagi maxfiylik tugmachasini suring va kamerani yoqing"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofonga ruxsat: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"Yoqilsa, barcha ilova va xizmatlar bu qurilmadagi mikrofondan foydalana oladi.\n\nAudio jihozlar maxsus protokoldan foydalanadi va bu sozlama tomonidan bezovta qilinmaydi."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Kameraga ruxsat: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -664,8 +668,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"Zangori"</string>
     <string name="color_yellow" msgid="3519470952904560404">"Sariq"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Pushtirang"</string>
-    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"Audio tavsif"</string>
-    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"Birlamchi holatda izohli saundtrek bilan tanlansin"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Audio tavsif"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Sozlamaga mos film va seriallarda ekrandagi hodisalar tavsifini eshitish"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Yoqish"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfiguratsiya"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g>dan foydalanilsinmi?"</string>
@@ -867,7 +871,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Tashqi manba"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Ruxsatlar"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Ilova mavjud emas"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"Ruxsatlarni olib tashlash va joy tozalash"</string>
     <string name="unused_apps" msgid="5539166745483454543">"Ishlatilmagan ilovalar"</string>
     <string name="settings_ok" msgid="5950888975075541964">"OK"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Tasdiqlash"</string>
@@ -960,6 +963,9 @@
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Oʻrnatilgan ilovalar Tasvir ustida tasvir rejimi bilan mos emas"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Ilovalar ochiqligida yoki uni qoldirib ketganingizda (masalan, video tomosha qilishni davom ettirish uchun) bu ilova Tasvir ustida tasvir rejimida ishlashiga ruxsat bering. Bu oyna boshqa ishlatilayotgan ilovalar ustida ochiladi."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Ilovalarga signal oʻrnatish va vaqtga asoslangan amallarni rejalashtirishga ruxsat berish. Bunda ilovalarga orqa fonda ishlashiga imkon beriladi, shu sababli batareya ortiqcha sarflanishi mumkin.\n\nAgar bu ruxsat oʻchirilsa, ushbu ilova tomonidan rejalashtirilgan mavjud signallar va vaqtga asoslangan tadbirlar ishlamaydi."</string>
+    <string name="turn_screen_on_title" msgid="5293798529284629011">"Ekranni yoqish"</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"Ekranni yoqishga ruxsat"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Ilovaga ekranni yoqishga ruxsat berish. Ruxsat berilsa, ilova istalgan vaqt ruxsatingizsiz ekranni yoqishi mumkin."</string>
     <string name="special_access" msgid="21806055758289916">"Maxsus ruxsatlar"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Audio"</string>
