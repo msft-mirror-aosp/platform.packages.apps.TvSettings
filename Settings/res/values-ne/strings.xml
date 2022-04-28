@@ -22,9 +22,9 @@
     <string name="launcher_restricted_profile_app_name" msgid="3324091425480935205">"प्रतिबन्धित प्रोफाइल"</string>
     <string name="general_action_yes" msgid="1303080504548165355">"अँ"</string>
     <string name="general_action_no" msgid="674735073031386948">"अहँ"</string>
-    <string name="action_on_title" msgid="1074972820237738324">"सक्रिय गर्नुहोस्"</string>
+    <string name="action_on_title" msgid="1074972820237738324">"अन गर्नुहोस्"</string>
     <string name="action_off_title" msgid="3598665702863436597">"बन्द गर्नुहोस्"</string>
-    <string name="action_on_description" msgid="9146557891514835767">"सक्रिय गर्नुहोस्"</string>
+    <string name="action_on_description" msgid="9146557891514835767">"अन गर्नुहोस्"</string>
     <string name="action_off_description" msgid="1368039592272701910">"बन्द गर्नुहोस्"</string>
     <string name="agree" msgid="8155497436593889753">"सहमत"</string>
     <string name="disagree" msgid="7402998517682194430">"असहमत"</string>
@@ -590,9 +590,13 @@
     <string name="microphone" msgid="7893752847683941214">"माइक्रोफोन"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"माइक्रोफोन प्रयोग गर्ने अनुमति"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"एपलाई दिइएको माइक्रोफोन प्रयोग गर्ने अनुमति"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"माइक्रोफोन प्रयोग गर्ने अनुमति ब्लक गरिएको छ"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"अनब्लक गर्नका लागि माइक्रोफोन प्रयोग गर्ने अनुमति दिनु पर्ने हुन्छ। उक्त अनुमति दिन डिभाइसको \"गोपनीयता\" स्विचमा गई सेटिङ बदलेर \"माइक्रोफोन अन छ\" बनाउनुहोस्।"</string>
     <string name="camera" msgid="1226671478936288283">"क्यामेरा"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"क्यामेरा प्रयोग गर्ने अनुमति"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"एपलाई क्यामेरा प्रयोग गर्ने अनुमति"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"क्यामेरा प्रयोग गर्ने अनुमति ब्लक गरिएको छ"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"अनब्लक गर्नका लागि क्यामेरा प्रयोग गर्ने अनुमति दिनु पर्ने हुन्छ। उक्त अनुमति दिन डिभाइसको \"गोपनीयता\" स्विचमा गई सेटिङ बदलेर \"क्यामेरा अन छ\" बनाउनुहोस्।"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"माइक्रोफोन प्रयोग गर्ने अनुमति: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"यो सेटिङ अन गरिएका बेला क्यामेरा प्रयोग गर्ने अनुमति दिइएका सबै एप तथा सेवाहरूले यो डिभाइसमा भएको जुनसुकै माइक्रोफोन प्रयोग गर्न पाउँछन्।\n\nप्रयोगकर्ताको आवश्यकताअनुसारको प्रोटोकल भएका अडियोसम्बन्धी सहायक डिभाइसहरूमा भने यो सेटिङ लागू हुँदैन।"</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"क्यामेरा प्रयोग गर्ने अनुमति: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -610,7 +614,7 @@
     <string name="location_mode_wifi_description" msgid="84697248707903061">"स्थान अनुमान गर्न Wi‑Fi प्रयोग गर्नुहोस्"</string>
     <string name="location_status" msgid="3037321737386011224">"स्थान अवस्था"</string>
     <string name="location_services" msgid="551503779736382878">"लोकेसन सर्भिसहरू"</string>
-    <string name="on" msgid="4899322147062342542">"सक्रिय गर्नुहोस्"</string>
+    <string name="on" msgid="4899322147062342542">"अन गर्नुहोस्"</string>
     <string name="off" msgid="3127416478888499352">"बन्द गर्नुहोस्"</string>
     <string name="google_location_services_title" msgid="6304196603522909239">"Google लोकेसन सर्भिसहरू"</string>
     <string name="third_party_location_services_title" msgid="2826218400381676508">"तेस्रो पक्ष लोकेसन सर्भिसहरू"</string>
@@ -630,7 +634,7 @@
     <string name="accessibility_captions" msgid="3411554568812306549">"क्याप्सन"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"भिडियोमा मिलेका क्याप्सन पाठ ओभरलेका लागि सेटिङ्"</string>
     <string name="captions_display" msgid="2598662495450633375">"प्रदर्शन गर्नुहोस्"</string>
-    <string name="captions_display_on" msgid="480438033345455728">"सक्रिय गर्नुहोस्"</string>
+    <string name="captions_display_on" msgid="480438033345455728">"अन गर्नुहोस्"</string>
     <string name="captions_display_off" msgid="87881163874948539">"बन्द गर्नुहोस्"</string>
     <string name="display_options" msgid="2645282080948371603">"विकल्पहरू प्रदर्शन गर्नुहोस्"</string>
     <string name="captions_configure" msgid="711991018642931958">"कन्फिगर गर्नुहोस्"</string>
@@ -666,11 +670,11 @@
     <string name="color_magenta" msgid="2377854703399624607">"म्याgeन्टा"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"अडियोको वर्णन"</string>
     <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"यो सुविधा भएका चलचित्र र सोहरू प्ले भइरहेका बेला स्क्रिनमा के भइरहेको छ भन्ने कुरा वर्णन गरिएको अडियो सुन्नुहोस्"</string>
-    <string name="system_accessibility_status" msgid="8504842254080682515">"सक्रिय गर्नुहोस्"</string>
+    <string name="system_accessibility_status" msgid="8504842254080682515">"अन गर्नुहोस्"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"कन्फिगरेसन"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g>प्रयोग गर्ने ?"</string>
     <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> ले पासवर्ड बाहेकका तपाईंले टाइप गर्ने सबै पाठ संकलन गर्न सक्छ। यसले क्रेडिट कार्ड नम्बर जस्ता व्यक्तिगत डेटा समावेस गर्दछ।"</string>
-    <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"<xliff:g id="SERVICE">%1$s</xliff:g>बन्द गर्नुहुन्छ?"</string>
+    <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"<xliff:g id="SERVICE">%1$s</xliff:g> बन्द गर्ने हो?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"OK चयन गर्दा <xliff:g id="SERVICE">%1$s</xliff:g> बन्द हुनेछ ।"</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Text to speech"</string>
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"इन्जिन कन्फिगुरेसन"</string>
@@ -683,7 +687,7 @@
     <string name="system_debugging" msgid="1576324426385458481">"डिबग गरिँदै छ"</string>
     <string name="system_input" msgid="4457152980514604873">"इनपुट"</string>
     <string name="system_drawing" msgid="5802739024643871942">"रेखाचित्र"</string>
-    <string name="system_monitoring" msgid="7997260748312620855">"अनुगमन गर्दै"</string>
+    <string name="system_monitoring" msgid="7997260748312620855">"अनुगमन गरिँदै छ"</string>
     <string name="system_apps" msgid="8481888654606868074">"एपहरू"</string>
     <string name="system_stay_awake" msgid="5935117574414511413">"डिस्प्ले अफ नहोस्"</string>
     <string name="keep_screen_on_summary" msgid="4680661166009970792">"स्क्रिन कहिल्यै स्लिप मोडमा जाने छैन"</string>
@@ -776,7 +780,7 @@
     <string name="title_current_autofill_service" msgid="9029001041887283153">"हालको अटोफिल सेवा"</string>
     <string name="title_select_autofill_service" msgid="696559582725756848">"अटोफिल सेवा"</string>
     <string name="autofill_none" msgid="1615056985649424207">"कुनै पनि होइन"</string>
-    <string name="autofill_confirmation_message" msgid="3840267789160192558">"&lt;b&gt;तपाईं यो एपमाथि भरोसा गर्नुहुन्छ भन्ने कुरा पक्का गर्नुहोस्&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Password service&gt;%1$s&lt;/xliff:g&gt; यस एपले स्वतः भर्न सकिने कुराहरूको निर्धारण गर्न तपाईंको स्क्रिनमा भएका वस्तुहरूको प्रयोग गर्छ।"</string>
+    <string name="autofill_confirmation_message" msgid="3840267789160192558">"&lt;b&gt;तपाईं यो एपमाथि भरोसा गर्नुहुन्छ भन्ने कुरा पक्का गर्नुहोस्&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Password service&gt;%1$s&lt;/xliff:g&gt; यस एपले अटोफिल गर्न सकिने कुराहरूको निर्धारण गर्न तपाईंको स्क्रिनमा भएका वस्तुहरूको प्रयोग गर्छ।"</string>
     <string name="computing_size" msgid="8623916230485437579">"कम्प्युटिङ ..."</string>
     <string name="title_select_wifi_network" msgid="935820896444071617">"तपाईँको Wi-Fi नेटवर्क चयन गर्नुहोस्"</string>
     <string name="accessories_wifi_display_rename_device" msgid="8803397194143132061">"पुनःनामाकरण गर्नुहोस्"</string>
@@ -867,7 +871,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"तेस्रो पक्षीय स्रोत"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"अनुमतिहरू"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"एप उपलब्ध छैन"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"अनुमति रद्द गरियोस् र ठाउँ खाली गरियोस्"</string>
     <string name="unused_apps" msgid="5539166745483454543">"प्रयोग नगरिएका एपहरू"</string>
     <string name="settings_ok" msgid="5950888975075541964">"ठिक छ"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"पुष्टि गर्नुहोस्"</string>
