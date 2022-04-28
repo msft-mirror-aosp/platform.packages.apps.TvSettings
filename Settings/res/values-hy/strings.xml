@@ -590,9 +590,13 @@
     <string name="microphone" msgid="7893752847683941214">"Խոսափող"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Խոսափողի հասանելիություն"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Խոսափողի հասանելիությունը հավելվածներին"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Խոսափողի օգտագործումն արգելափակված է"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Արգելահանելու համար սարքում գաղտնիության փոխանջատիչը տեղափոխեք խոսափողի օգտագործման թույլտվության դիրք։"</string>
     <string name="camera" msgid="1226671478936288283">"Տեսախցիկ"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Տեսախցիկի հասանելիություն"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Տեսախցիկի հասանելիությունը հավելվածներին"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Տեսախցիկի օգտագործումն արգելափակված է"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Արգելահանելու համար սարքում գաղտնիության փոխանջատիչը տեղափոխեք տեսախցիկի օգտագործման թույլտվության դիրք։"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Խոսափողի հասանելիություն՝ <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"Երբ այս կարգավորումը միացված է, բոլոր հավելվածերն ու ծառայությունները, որոնք ունեն թույլտվություն, կարող են օգտագործել խոսափողն այս սարքում։\n\nԱյս կարգավորումը չի ազդում անհատականացված հաղորդակարգով արտաքին աուդիո սարքերի վրա։"</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Տեսախցիկի հասանելիություն՝ <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -604,7 +608,7 @@
     <string name="system_network_location_confirm" msgid="7128162421781085332">"Տեղադրության մասին տվյալների հավաքում"</string>
     <string name="location_mode_title" msgid="728244518174115443">"Ռեժիմ"</string>
     <string name="location_category_recent_location_requests" msgid="4541924383164183490">"Տեղադրության վերջին հարցումներ"</string>
-    <string name="location_no_recent_apps" msgid="7033474075806435793">"Վերջին ժամանակաշրջանում հավելվածները տեղադրության հարցում չեն արել"</string>
+    <string name="location_no_recent_apps" msgid="7033474075806435793">"Վերջերս ոչ մի հավելված տեղադրության հարցում չի արել"</string>
     <string name="location_high_battery_use" msgid="5325556609027887602">"Մարտկոցի լիցքի բարձր ծախսում"</string>
     <string name="location_low_battery_use" msgid="728585923412018253">"Մարտկոցի լիցքի ցածր ծախսում"</string>
     <string name="location_mode_wifi_description" msgid="84697248707903061">"Տեղադրությունը որոշել Wi-Fi-ի օգնությամբ"</string>
@@ -615,7 +619,7 @@
     <string name="google_location_services_title" msgid="6304196603522909239">"Google-ի տեղորոշման ծառայություններ"</string>
     <string name="third_party_location_services_title" msgid="2826218400381676508">"Տեղորոշման կողմնակի ծառայություններ"</string>
     <string name="location_reporting" msgid="3552501333650895634">"Տեղադրության ծանուցում"</string>
-    <string name="location_history" msgid="4055660203090513120">"Տեղադրության պատմություն"</string>
+    <string name="location_history" msgid="4055660203090513120">"Տեղադրությունների պատմություն"</string>
     <string name="location_reporting_desc" msgid="1580018652781674608">"Այս հատկությունն օգտագործվում է այնպիսի արտադրանքներում, ինչպիսիք եք Google Now-ն և Google Քարտեզները: Այս հատկությունն օգտագործող Google-ի ցանկացած արտադրանք կարեղ է պահել և օգտագործել ձեր սարքի ամենավերջին տեղադրության տվյալները:"</string>
     <string name="location_history_desc" msgid="926674012916014270">"Երբ տեղադրության պատմությունը միացված է հաշվի համար, Google-ը կարող է պահել ձեր սարքի տեղադրության տվյալները, որպեսզի ձեր ծրագրերը կարողանան այն օգտագործել:\n\nՕրինակ՝ Google Քարտեզները կարող են երթուղիներ ցույց տալ, իսկ Google Now-ն կտեղեկացնի ձեզ խցանումների մասին։\n\nԴուք կարող եք անջատել Տեղադրության պատմությունը ցանկացած պահի, սակայն դրա տվյալները չեն ջնջվի: Ձեր Տեղադրության պատմությունը դիտելու և կառավարելու համար այցելեք՝ maps.google.com/locationhistory."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"Ջնջել տեղադրության պատմությունը"</string>
@@ -623,7 +627,7 @@
     <string name="system_services" msgid="5754310941186053151">"Ծառայություններ"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Ծառայության կարգավորումներ"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Բարձր կոնտրաստի տեքստ"</string>
-    <string name="accessibility_shortcut" msgid="5856158637840030531">"Մատչելիության դյուրանցում"</string>
+    <string name="accessibility_shortcut" msgid="5856158637840030531">"Հատուկ գործառույթների դյուրանցում"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Միացնել մատչելիության դյուրացումը"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Դյուրանցման ծառայություն"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Եթե դյուրանցումը միացված է, ապա հետ և ներքև կոճակները միասին 3 վայրկյան սեղմած պահելով կարող եք գործարկել մատչելիության գործառույթը:"</string>
@@ -774,7 +778,7 @@
     <string name="title_configure" msgid="846802387014612210">"Կազմաձևել"</string>
     <string name="desc_configure_keyboard" msgid="3474279140150468141">"Ստեղնաշարի կարգավորումներ"</string>
     <string name="title_current_autofill_service" msgid="9029001041887283153">"Ինքնալրացման ընթացիկ ծառայությունը"</string>
-    <string name="title_select_autofill_service" msgid="696559582725756848">"Ընտրեք ինքնալցման ծառայությունը"</string>
+    <string name="title_select_autofill_service" msgid="696559582725756848">"Ընտրեք ինքնալրացման ծառայությունը"</string>
     <string name="autofill_none" msgid="1615056985649424207">"Ոչ մեկը"</string>
     <string name="autofill_confirmation_message" msgid="3840267789160192558">"&lt;b&gt;Համոզվեք, որ վստահում եք այս հավելվածին&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Password service&gt;%1$s&lt;/xliff:g&gt; ծառայությունն օգտագործում է էկրանի բովանդակությունը՝ որոշելու, թե ինչը կարող է ինքնալցվել:"</string>
     <string name="computing_size" msgid="8623916230485437579">"Հաշվարկվում է…"</string>
@@ -867,7 +871,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Կողմնակի աղբյուր"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Թույլտվություններ"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Հավելվածն անհասանելի է"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"Հեռացնել թույլտվությունները և տարածք ազատել"</string>
     <string name="unused_apps" msgid="5539166745483454543">"Չօգտագործվող հավելվածներ"</string>
     <string name="settings_ok" msgid="5950888975075541964">"Հաստատել"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Հաստատել"</string>
