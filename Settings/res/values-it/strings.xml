@@ -571,7 +571,7 @@
     <string name="system_set_time" msgid="7179243042276057341">"Imposta ora"</string>
     <string name="system_set_time_zone" msgid="6471564469883225195">"Imposta fuso orario"</string>
     <string name="desc_set_time_zone" msgid="4926392006501180047">"<xliff:g id="OFFSET">%1$s</xliff:g>, <xliff:g id="NAME">%2$s</xliff:g>"</string>
-    <string name="system_set_time_format" msgid="902518158066450918">"Usa formato 24 ore"</string>
+    <string name="system_set_time_format" msgid="902518158066450918">"Usa il formato 24 ore"</string>
     <string name="desc_set_time_format" msgid="8688587526768572230">"<xliff:g id="STATE">%1$s</xliff:g> (<xliff:g id="SAMPLE">%2$s</xliff:g>)"</string>
     <string name="system_auto_date_time" msgid="8458199433555868708">"Data e ora automatiche"</string>
   <string-array name="auto_date_time_entries">
@@ -590,17 +590,13 @@
     <string name="microphone" msgid="7893752847683941214">"Microfono"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Accesso al microfono"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Accesso delle app al microfono"</string>
-    <!-- no translation found for microphone_physical_privacy_enabled_title (6135130916399886772) -->
-    <skip />
-    <!-- no translation found for microphone_physical_privacy_enabled_text (401238365312924088) -->
-    <skip />
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Accesso al microfono bloccato"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Per sbloccarlo, sposta l\'interruttore per la privacy del dispositivo sulla posizione del microfono attivo."</string>
     <string name="camera" msgid="1226671478936288283">"Videocamera"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Accesso alla videocamera"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Accesso delle app alla videocamera"</string>
-    <!-- no translation found for camera_physical_privacy_enabled_title (1944155695921165511) -->
-    <skip />
-    <!-- no translation found for camera_physical_privacy_enabled_text (6692088634676282779) -->
-    <skip />
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Accesso alla fotocamera bloccato"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Per sbloccarlo, sposta l\'interruttore per la privacy del dispositivo sulla posizione della fotocamera attiva."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Accesso al microfono: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"Se attivi questa opzione, tutte le app e tutti i servizi autorizzati possono accedere a qualsiasi microfono su questo dispositivo.\n\nQuesta impostazione non verrà applicata per periferiche audio con un protocollo personalizzato."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Accesso alla videocamera: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -689,7 +685,7 @@
     <string name="system_install_voice_data" msgid="8016395777968958673">"Installa dati vocali"</string>
     <string name="system_general" msgid="687760148454147771">"Generali"</string>
     <string name="system_debugging" msgid="1576324426385458481">"Debug"</string>
-    <string name="system_input" msgid="4457152980514604873">"Input"</string>
+    <string name="system_input" msgid="4457152980514604873">"Immissione"</string>
     <string name="system_drawing" msgid="5802739024643871942">"Disegno"</string>
     <string name="system_monitoring" msgid="7997260748312620855">"Monitoraggio"</string>
     <string name="system_apps" msgid="8481888654606868074">"App"</string>
@@ -875,7 +871,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Licenze open source di terze parti"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Autorizzazioni"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"App non disponibile"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"Rimuovi autorizzazioni e libera spazio"</string>
     <string name="unused_apps" msgid="5539166745483454543">"App inutilizzate"</string>
     <string name="settings_ok" msgid="5950888975075541964">"OK"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Conferma"</string>
