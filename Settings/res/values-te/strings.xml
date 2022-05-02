@@ -62,13 +62,13 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"యాప్ సెట్టింగ్‌లు"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"లొకేషన్, వినియోగం &amp; సమస్య విశ్లేషణ, యాడ్‌లు"</string>
     <string name="add_account" msgid="7386223854837017129">"ఖాతాను జోడించు"</string>
-    <string name="account_header_remove_account" msgid="8573697553061331373">"ఖాతాను తీసివేయి"</string>
+    <string name="account_header_remove_account" msgid="8573697553061331373">"ఖాతాను తీసివేయండి"</string>
     <string name="account_sync" msgid="4315295293211313989">"సింక్ అయిన యాప్‌లను ఎంచుకోండి"</string>
     <string name="sync_now" msgid="4335217984374620551">"ఇప్పుడే సింక్ చేయి"</string>
     <string name="sync_in_progress" msgid="8081367667406185785">"సమకాలీకరించబడుతోంది..."</string>
     <string name="last_synced" msgid="8371967816955123864">"చివ‌ర‌గా సింక్ అయింది <xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="sync_disabled" msgid="6652778349371079140">"నిలిపివేయబడింది"</string>
-    <string name="account_remove" msgid="8456848988853890155">"ఖాతాను తీసివేయి"</string>
+    <string name="account_remove" msgid="8456848988853890155">"ఖాతాను తీసివేయండి"</string>
     <string name="account_remove_failed" msgid="5654411101098531690">"ఖాతాను తీసివేయడం సాధ్యపడదు"</string>
     <!-- no translation found for sync_item_title (5884138264243772176) -->
     <skip />
@@ -256,7 +256,7 @@
     <string name="system_inputs" msgid="5552840337357572096">"ఇన్‌పుట్‌లు"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"ఇన్‌పుట్‌లు &amp; పరికరాలు"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"హోమ్ థియేటర్ నియంత్రణ"</string>
-    <string name="system_accessibility" msgid="3081009195560501010">"యాక్సెస్‌ సామర్థ్యం"</string>
+    <string name="system_accessibility" msgid="3081009195560501010">"యాక్సెసిబిలిటీ"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"డెవలపర్ ఎంపికలు"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"ఏదీ లేదు"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"వినియోగం &amp; విశ్లేషణలు"</string>
@@ -358,8 +358,8 @@
     <string name="oem_lock_info_message" msgid="2165887409937351689">"దయచేసి పరికర రక్షణ ఫీచర్‌ని ప్రారంభించడానికి పరికరాన్ని మళ్లీ ప్రారంభించండి."</string>
     <string name="automatic_storage_manager_freed_bytes" msgid="1654574152815129396">"మొత్తం <xliff:g id="SIZE">%1$s</xliff:g> అందుబాటులో ఉంచబడింది\n\nచివరిగా <xliff:g id="DATE">%2$s</xliff:g>న అమలు చేయబడింది"</string>
     <string name="fcc_equipment_id" msgid="6731077083927000108">"ఉపకరణ ID"</string>
-    <string name="baseband_version" msgid="5618116741093274294">"బేస్‌బ్యాండ్ సంస్కరణ"</string>
-    <string name="kernel_version" msgid="7265509054070001542">"కెర్నల్ సంస్కరణ"</string>
+    <string name="baseband_version" msgid="5618116741093274294">"బేస్‌బ్యాండ్ వెర్షన్‌"</string>
+    <string name="kernel_version" msgid="7265509054070001542">"కెర్నల్ వెర్షన్‌"</string>
     <string name="status_unavailable" msgid="2033933928980193334">"అందుబాటులో లేదు"</string>
     <string name="device_status_title" msgid="9051569510258883673">"స్టేటస్‌"</string>
     <string name="battery_status_title" msgid="8850166742025222210">"బ్యాటరీ స్టేటస్‌"</string>
@@ -590,17 +590,13 @@
     <string name="microphone" msgid="7893752847683941214">"మైక్రోఫోన్"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"మైక్రోఫోన్ యాక్సెస్"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"మైక్రోఫోన్‌కు యాప్ యాక్సెస్"</string>
-    <!-- no translation found for microphone_physical_privacy_enabled_title (6135130916399886772) -->
-    <skip />
-    <!-- no translation found for microphone_physical_privacy_enabled_text (401238365312924088) -->
-    <skip />
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"మైక్రోఫోన్ యాక్సెస్ బ్లాక్ చేయబడింది"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"అన్‌బ్లాక్ చేయడానికి, మైక్రోఫోన్ యాక్సెస్‌ను అనుమతించడానికి మీ పరికరంలోని గోప్యతా స్విచ్‌ను మైక్రోఫోన్‌ను ఆన్ చేయండి స్థానానికి తరలించండి."</string>
     <string name="camera" msgid="1226671478936288283">"కెమెరా"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"కెమెరా యాక్సెస్"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"కెమెరాకు యాప్ యాక్సెస్"</string>
-    <!-- no translation found for camera_physical_privacy_enabled_title (1944155695921165511) -->
-    <skip />
-    <!-- no translation found for camera_physical_privacy_enabled_text (6692088634676282779) -->
-    <skip />
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"కెమెరా యాక్సెస్ బ్లాక్ చేయబడింది"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"అన్‌బ్లాక్ చేయడానికి, కెమెరా యాక్సెస్‌ను అనుమతించడానికి మీ పరికరంలోని గోప్యతా స్విచ్‌ను కెమెరాను ఆన్ చేయండి స్థానంలోకి తరలించండి."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"మైక్రోఫోన్ యాక్సెస్: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"ఆన్ చేసినప్పుడు, అన్ని యాప్‌లు, సర్వీస్‌లు అనుమతితో ఈ పరికరంలోని ఏదైనా మైక్రోఫోన్‌ను యాక్సెస్ చేయగలవు.\n\nఅనుకూల ప్రోటోకాల్‌తో ఆడియో పెరిఫెరల్‌లు ఈ సెట్టింగ్ ద్వారా ప్రభావితం కావు."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"కెమెరా యాక్సెస్: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -628,7 +624,7 @@
     <string name="location_history_desc" msgid="926674012916014270">"ఈ ఖాతాకు లొకేషన్ హిస్టరీని ఆన్ చేసినప్పుడు, మీ యాప్‌లు ఉపయోగించడం కోసం Google మీ పరికరం లొకేషన్ డేటాను స్టోర్ చేస్తుంది.\n\nఉదాహరణకు, Google Maps మీకు దిశలను అందించగలదు అలాగే Google Now రోజువారీ ప్రయాణ మార్గంలోని రద్దీ గురించి మీకు తెలియజేయగలదు.\n\nమీరు లొకేషన్ హిస్టరీని ఎప్పుడైనా ఆఫ్ చేయవచ్చు, అయితే అలా చేయడం వలన హిస్టరీ ఏదీ తొలగించబడదు. మీ లొకేషన్ హిస్టరీని చూడటానికి, మేనేజ్ చేయడానికి, maps.google.com/locationhistoryని సందర్శించండి."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"లొకేషన్ హిస్టరీని తొలగించండి"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"ఇది ఈ Google ఖాతా కోసం ఈ పరికరంలో స్టోర్ చేయబడిన మొత్తం లొకేషన్ హిస్టరీని తొలగిస్తుంది. మీరు ఈ తొలగింపును రద్దు చేయలేరు. Google Nowతో సహా కొన్ని యాప్‌లు పని చేయకుండా ఆపివేయబడతాయి."</string>
-    <string name="system_services" msgid="5754310941186053151">"సేవలు"</string>
+    <string name="system_services" msgid="5754310941186053151">"స‌ర్వీస్‌లు"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"సేవా సెట్టింగ్‌లు"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"అధిక కాంట్రాస్ట్ టెక్స్ట్"</string>
     <string name="accessibility_shortcut" msgid="5856158637840030531">"యాక్సెసిబిలిటీ షార్ట్‌కట్"</string>
@@ -659,10 +655,10 @@
     <string name="captions_windowshow" msgid="6002072054703167886">"విండోను చూపండి"</string>
     <string name="captions_windowcolor" msgid="7460430328878876648">"విండో రంగు"</string>
     <string name="captions_windowopacity" msgid="8645082670322789314">"విండో అపారదర్శకత"</string>
-    <string name="captions_style_0" msgid="169414884289770256">"నలుపు నేపథ్యంలో తెలుపు రంగు"</string>
-    <string name="captions_style_1" msgid="8236052739817535538">"తెలుపు నేపథ్యంలో నలుపు రంగు"</string>
-    <string name="captions_style_2" msgid="456353889540431910">"నలుపు నేపథ్యంలో పసుపు రంగు"</string>
-    <string name="captions_style_3" msgid="3860050153620761166">"నీలి నేపథ్యంలో పసుపు రంగు"</string>
+    <string name="captions_style_0" msgid="169414884289770256">"నలుపు బ్యాక్‌గ్రౌండ్‌లో తెలుపు రంగు"</string>
+    <string name="captions_style_1" msgid="8236052739817535538">"తెలుపు బ్యాక్‌గ్రౌండ్‌లో నలుపు రంగు"</string>
+    <string name="captions_style_2" msgid="456353889540431910">"నలుపు బ్యాక్‌గ్రౌండ్‌లో పసుపు రంగు"</string>
+    <string name="captions_style_3" msgid="3860050153620761166">"నీలి బ్యాక్‌గ్రౌండ్‌లో పసుపు రంగు"</string>
     <string name="captions_style_custom" msgid="9062905566459387931">"అనుకూలం"</string>
     <string name="color_white" msgid="4188877187457167678">"తెలుపు రంగు"</string>
     <string name="color_black" msgid="2631818627391955149">"నలుపు"</string>
@@ -673,7 +669,7 @@
     <string name="color_yellow" msgid="3519470952904560404">"పసుపు రంగు"</string>
     <string name="color_magenta" msgid="2377854703399624607">"మెజెంటా రంగు"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"ఆడియో వివరణ"</string>
-    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"సపోర్ట్ ఉన్న సినిమాలు, షోలలో స్క్రీన్‌పై ఏమి జరుగుతుందో అనే వివరణను వినండి"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"సపోర్ట్ ఉన్న సినిమాల్లో, షోలలో స్క్రీన్‌పై ఏమి జరుగుతోంది అన్న‌ వివరణను వినండి"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"ఎనేబుల్ చేయండి"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"కాన్ఫిగరేషన్"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"\'<xliff:g id="SERVICE">%1$s</xliff:g>\'ను ఉపయోగించాలా?"</string>
@@ -718,10 +714,10 @@
     <string name="system_show_gpu_view_updates" msgid="1625918928089365222">"GPU వీక్షణ అప్‌డేట్‌లను చూపు"</string>
     <string name="system_show_hardware_layer" msgid="5833664339844452290">"హార్డ్‌వేర్ లేయర్‌ని చూపండి"</string>
     <string name="system_show_gpu_overdraw" msgid="5073007513540516704">"GPU అతివ్యాప్తిని చూపు"</string>
-    <string name="system_show_surface_updates" msgid="7680759813613585278">"ఉపరితల అప్‌డేట్‌లను చూపండి"</string>
-    <string name="system_window_animation_scale" msgid="685477540250939659">"విండో యానిమేషన్ ప్రమాణం"</string>
-    <string name="system_transition_animation_scale" msgid="7266380208347453619">"పరివర్తన యానిమేషన్ ప్రమాణం"</string>
-    <string name="system_animator_duration_scale" msgid="3829445237130423625">"యానిమేటర్ వ్యవధి ప్రమాణం"</string>
+    <string name="system_show_surface_updates" msgid="7680759813613585278">"సర్‌ఫేస్‌ అప్‌డేట్‌లను చూపు"</string>
+    <string name="system_window_animation_scale" msgid="685477540250939659">"విండో యానిమేషన్ స్కేల్"</string>
+    <string name="system_transition_animation_scale" msgid="7266380208347453619">"ట్రాన్సిషన్ యానిమేషన్ స్కేల్"</string>
+    <string name="system_animator_duration_scale" msgid="3829445237130423625">"యానిమేటర్ వ్యవధి స్కేల్"</string>
     <string name="system_strict_mode_enabled" msgid="7392183793064579588">"ఖచ్చితమైన మోడ్ ప్రారంభించబడింది"</string>
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"ప్రొఫైల్ GPU అమలు"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"ట్రేస్‌లను ప్రారంభించు"</string>
@@ -733,12 +729,12 @@
     <string name="system_desc_hdmi_optimization" msgid="5695603795556335912">"డిస్‌ప్లేని గరిష్ట రిజల్యూషన్‌కి లేదా ఫ్రేమ్‌రేట్‌కి అనుకూలపరచండి. ఇది కేవలం అల్ట్రా HD డిస్‌ప్లే‌లను మాత్రమే ప్రభావితం చేస్తుంది. ఈ సెట్టింగ్‌ను మార్చడం వలన మీ పరికరం పునఃప్రారంభమవుతుంది."</string>
     <string name="system_desc_bt_hci_log" msgid="2592649923221658103">"బ్లూటూత్ HCI స్నూప్ లాగింగ్‌ను ప్రారంభించు"</string>
     <string name="system_desc_usb_debugging" msgid="5672275208185222785">"USB కనెక్ట్ అయినప్పుడు డీబగ్ మోడ్"</string>
-    <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"డీబగ్ చేయబడిన యాప్‌ అమలు కావడానికి ముందు జోడించాల్సిన డీబగ్గర్ కోసం నిరీక్షిస్తుంది"</string>
+    <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"డీబగ్ చేయబడిన యాప్‌, ఎగ్జిక్యూట్ కావడానికి ముందు జోడించాల్సిన డీబగ్గర్ కోసం వేచి ఉంటుంది"</string>
     <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"క్లిప్ సరిహద్దులు, అంచులు మొ. చూపండి"</string>
     <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"GPUతో గీసినప్పుడు విండోల లోపల వీక్షణలను ఫ్లాష్ చేయండి"</string>
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"హార్డ్‌వేర్ లేయర్‌లు నవీకరించబడినప్పుడు వాటిని ఆకుపచ్చ రంగులో ఫ్లాష్ చేసి చూపండి"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"ఉత్తమం నుండి అధమం వరకు: నీలి రంగు, ఆకుపచ్చ రంగు, లేత ఎరుపు రంగు, ఎరుపు రంగు"</string>
-    <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"పూర్తి విండో ఉపరితలాలు నవీకరించబడినప్పుడు వాటిని ఫ్లాష్ చేసి చూపండి"</string>
+    <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"పూర్తి విండో సర్‌ఫేస్‌లు అప్‌డేట్‌ అయినప్పుడు వాటిని ఫ్లాష్ చేయండి"</string>
     <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"యాప్‌లు ప్రధాన థ్రెడ్‌లో సుదీర్ఘ చర్యలు అమలు చేస్తున్నప్పుడు స్క్రీన్‌ను ఫ్లాష్ చేసి చూపండి"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"adb shell dumpsys gfxinfoలో అమలు చేసే సమయాన్ని గణించండి"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"తెలియని మూలాలు"</string>
@@ -758,7 +754,7 @@
   <string-array name="animation_scale_entries">
     <item msgid="5408992662476056082">"యానిమేషన్ ఆఫ్‌లో ఉంది"</item>
     <item msgid="6818290063799857019">"యానిమేషన్ ప్రమాణం .5x"</item>
-    <item msgid="8257959452691080724">"యానిమేషన్ ప్రమాణం 1x"</item>
+    <item msgid="8257959452691080724">"యానిమేషన్ స్కేల్ 1x"</item>
     <item msgid="4781052272686018414">"యానిమేషన్ ప్రమాణం 1.5x"</item>
     <item msgid="2272016945160227610">"యానిమేషన్ ప్రమాణం 2x"</item>
     <item msgid="5015441793276576312">"యానిమేషన్ ప్రమాణం 5x"</item>
@@ -852,7 +848,7 @@
     <string name="label_done_key" msgid="8576286462300373440">"పూర్తయింది"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"విజయవంతంగా కనెక్ట్ చేయబడింది"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"విజయవంతంగా సేవ్ చేయబడింది"</string>
-    <string name="device_apps_app_management_version" msgid="2119174719194899740">"సంస్కరణ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
+    <string name="device_apps_app_management_version" msgid="2119174719194899740">"వెర్షన్‌ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"తెరువు"</string>
     <string name="device_apps_app_management_force_stop" msgid="4454221309989640309">"నిర్బంధ ఆపివేత"</string>
     <string name="device_apps_app_management_force_stop_desc" msgid="1980972142863114899">"మీరు యాప్‌ను నిర్బంధంగా ఆపివేస్తే, అది సరిగ్గా పని చేయకపోవచ్చు."</string>
@@ -875,7 +871,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"థర్డ్-పార్టీ సోర్స్"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"అనుమతులు"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"యాప్‌ అందుబాటులో లేదు"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"అనుమతులను తీసివేసి స్పేస్‌ను ఖాళీ చేయండి"</string>
     <string name="unused_apps" msgid="5539166745483454543">"ఉపయోగించని యాప్‌లు"</string>
     <string name="settings_ok" msgid="5950888975075541964">"సరే"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"నిర్ధారించండి"</string>
