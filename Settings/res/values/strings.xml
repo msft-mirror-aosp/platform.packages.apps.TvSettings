@@ -467,6 +467,8 @@
     <!-- Ok button title for dialog that is shown when user changes the resolution.
      [CHAR LIMIT=50]-->
     <string name="resolution_selection_dialog_ok">OK</string>
+    <!-- Unit of refresh rate Hz. [CHAR LIMIT=15]-->
+    <string name="resolution_selection_hz">Hz</string>
 
     <!-- Title of dialog asking user to confirm before clearing all caches. [CHAR LIMIT=48] -->
     <string name="device_storage_clear_cache_title">Clear cached data?</string>
@@ -2583,4 +2585,7 @@
     <string name="font_sans_serif_light" translatable="false">sans-serif-light</string>
     <string name="font_sans_serif_thin" translatable="false">sans-serif-thin</string>
     <string name="font_sans_serif_condensed" translatable="false">sans-serif-condensed</string>
+
+    <!-- Adb wireless pairing device dialog ethernet pairing code label [CHAR LIMIT=60] -->
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label">Ethernet pairing code</string>
 </resources>

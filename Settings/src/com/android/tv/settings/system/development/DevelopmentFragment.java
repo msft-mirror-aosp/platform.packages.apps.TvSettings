@@ -35,12 +35,21 @@ import android.content.IntentFilter;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
+import android.database.ContentObserver;
 import android.hardware.usb.UsbManager;
+import android.net.ConnectivityManager;
+import android.net.Network;
+import android.net.NetworkCapabilities;
+import android.net.NetworkInfo;
+import android.net.NetworkRequest;
+import android.net.Uri;
 import android.net.wifi.WifiManager;
 import android.os.BatteryManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.IBinder;
+import android.os.Looper;
 import android.os.Parcel;
 import android.os.RemoteException;
 import android.os.ServiceManager;
@@ -173,6 +182,8 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
 
     private static final String STATE_SHOWING_DIALOG_KEY = "showing_dialog_key";
 
+    private static final String TOGGLE_ADB_WIRELESS_KEY = "toggle_adb_wireless";
+
     private String mPendingDialogKey;
 
     private IWindowManager mWindowManager;
@@ -253,6 +264,8 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
 
     private SwitchPreference mForceResizable;
 
+    private Preference mWirelessDebugging;
+
     private final ArrayList<Preference> mAllPrefs = new ArrayList<>();
 
     private final ArrayList<SwitchPreference> mResetSwitchPrefs
@@ -264,9 +277,15 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
 
     private AudioDebug mAudioDebug;
 
+    private ConnectivityManager mConnectivityManager;
+
     public static DevelopmentFragment newInstance() {
         return new DevelopmentFragment();
     }
+
+    private final Handler mHandler = new Handler(Looper.getMainLooper());
+    private final NetworkCallback mNetworkCallback = new NetworkCallback();
+    private ContentObserver mToggleContentObserver;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -289,6 +308,19 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         mAudioDebug = new AudioDebug(getActivity(),
                 (boolean successful) -> onAudioRecorded(successful),
                 (AudioMetrics.Data data) -> updateAudioRecordingMetrics(data));
+
+        mConnectivityManager = getContext().getSystemService(ConnectivityManager.class);
+
+        mToggleContentObserver = new ContentObserver(new Handler(Looper.myLooper())) {
+            @Override
+            public void onChange(boolean selfChange, Uri uri) {
+                updateWirelessDebuggingPreference();
+            }
+        };
+        mContentResolver.registerContentObserver(
+                Settings.Global.getUriFor(Settings.Global.ADB_WIFI_ENABLED),
+                false,
+                mToggleContentObserver);
 
         super.onCreate(icicle);
     }
@@ -445,6 +477,8 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
             removePreference(KEY_COLOR_MODE);
             mColorModePreference = null;
         }
+
+        mWirelessDebugging = findPreference(TOGGLE_ADB_WIRELESS_KEY);
     }
 
     private void removePreference(String key) {
@@ -564,6 +598,13 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
             recreateDialogForKey(mPendingDialogKey);
             mPendingDialogKey = null;
         }
+
+        mConnectivityManager.registerNetworkCallback(
+                new NetworkRequest.Builder()
+                        .addTransportType(NetworkCapabilities.TRANSPORT_WIFI)
+                        .addTransportType(NetworkCapabilities.TRANSPORT_ETHERNET)
+                        .build(),
+                mNetworkCallback);
     }
 
     @Override
@@ -574,6 +615,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         }
 
         mAudioDebug.cancelRecording();
+        mConnectivityManager.unregisterNetworkCallback(mNetworkCallback);
     }
 
     @Override
@@ -604,6 +646,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
     public void onDestroy() {
         super.onDestroy();
         dismissDialogs();
+        mContentResolver.unregisterContentObserver(mToggleContentObserver);
     }
 
     void updateSwitchPreference(SwitchPreference switchPreference, boolean value) {
@@ -1794,6 +1837,43 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
             return context.getPackageManager().getPackageInfo(packageName, 0) != null;
         } catch (PackageManager.NameNotFoundException e) {
             return false;
+        }
+    }
+
+    private void updateWirelessDebuggingPreference() {
+        if (mWirelessDebugging == null) {
+            return;
+        }
+
+        if (!isNetworkConnected()) {
+            mWirelessDebugging.setSummary(R.string.connectivity_summary_no_network_connected);
+        } else {
+            boolean enabled = Settings.Global.getInt(mContentResolver,
+                    Settings.Global.ADB_WIFI_ENABLED, 1) != 0;
+            if (enabled) {
+                mWirelessDebugging.setSummary(R.string.enabled);
+            } else {
+                mWirelessDebugging.setSummary(R.string.disabled);
+            }
+        }
+    }
+
+    private boolean isNetworkConnected() {
+        NetworkInfo activeNetworkInfo = mConnectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
+    }
+
+    private class NetworkCallback extends ConnectivityManager.NetworkCallback {
+        @Override
+        public void onAvailable(Network network) {
+            super.onAvailable(network);
+            mHandler.post(() -> updateWirelessDebuggingPreference());
+        }
+
+        @Override
+        public void onLost(Network network) {
+            super.onLost(network);
+            mHandler.post(() -> updateWirelessDebuggingPreference());
         }
     }
 }
