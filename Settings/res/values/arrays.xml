@@ -176,7 +176,6 @@
         <item>@color/captioning_color_555555</item>
         <item>@color/captioning_color_5555AA</item>
         <item>@color/captioning_color_5555FF</item>
-        <item>@color/captioning_color_5555FF</item>
         <item>@color/captioning_color_55AA00</item>
         <item>@color/captioning_color_55AA55</item>
         <item>@color/captioning_color_55AAAA</item>
@@ -231,18 +230,20 @@
         <item>FFFFFFFF</item>
     </string-array>
 
-    <!-- List entries for controlling surround sound passthrough setting -->
-    <string-array name="surround_sound_entries" translatable="false">
-        <item>@string/surround_sound_auto_summary</item>
-        <item>@string/surround_sound_none_summary</item>
-        <item>@string/surround_sound_manual_summary</item>
+    <!-- Titles for font scale preference. [CHAR LIMIT=35] -->
+    <string-array name="font_scale_entries">
+        <item>Small</item>
+        <item>Default</item>
+        <item>Large</item>
+        <item>Largest</item>
     </string-array>
 
-    <!-- Entry values for surround sound preference -->
-    <string-array name="surround_sound_entry_values" translatable="false">
-        <item>auto</item>
-        <item>never</item>
-        <item>manual</item>
+    <!-- Values for font scale preference. [CHAR LIMIT=35] -->
+    <string-array name="font_scale_entry_values" translatable="false">
+        <item>0.85</item>
+        <item>1.0</item>
+        <item>1.15</item>
+        <item>1.30</item>
     </string-array>
 
     <!-- Blacklist packages which should be seen as system apps in "All apps" page -->

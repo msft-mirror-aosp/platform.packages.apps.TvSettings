@@ -16,10 +16,12 @@
 
 package com.android.tv.settings;
 
-import android.app.Activity;
-import android.app.Fragment;
-import android.content.SharedPreferences;
+import static com.android.tv.settings.library.overlay.FlavorUtils.ALL_FLAVORS_MASK;
+
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.transition.Scene;
 import android.transition.Slide;
 import android.transition.Transition;
@@ -30,28 +32,157 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 
 import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
 
-import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
-import com.android.settingslib.core.instrumentation.SharedPreferencesLogger;
-import com.android.tv.settings.overlay.FeatureFactory;
+import com.android.tv.settings.compat.PreferenceControllerFragmentCompat;
+import com.android.tv.settings.library.ManagerUtil;
+import com.android.tv.settings.library.PreferenceCompat;
+import com.android.tv.settings.library.SettingsManager;
+import com.android.tv.settings.library.State;
+import com.android.tv.settings.library.UIUpdateCallback;
+import com.android.tv.settings.library.overlay.FlavorUtils;
 
-public abstract class TvSettingsActivity extends Activity {
+import java.util.List;
+
+public abstract class TvSettingsActivity extends FragmentActivity implements HasSettingsManager {
     private static final String TAG = "TvSettingsActivity";
 
     private static final String SETTINGS_FRAGMENT_TAG =
             "com.android.tv.settings.MainSettings.SETTINGS_FRAGMENT";
 
+    private static final int UI_UPDATE_DELAY_MS = 200;
+    private static final int REQUEST_CODE_STARTUP_VERIFICATION = 1;
+
+    public SettingsManager mSettingsManager;
+    private Handler mHandler = new Handler(Looper.getMainLooper());
+
+    private final UIUpdateCallback mUIUpdateCallback =
+            new UIUpdateCallback() {
+                @Override
+                public void notifyUpdate(
+                        int state, PreferenceCompat preference) {
+                    // Delay the  preference updates if there is no visible fragment yet, this
+                    // could happen when a configuration change has occurred.
+                    if (getVisibleFragment() == null) {
+                        mHandler.postDelayed(() -> {
+                            notifyUpdate(state, preference);
+                        }, UI_UPDATE_DELAY_MS);
+                        return;
+                    }
+                    getVisibleFragment().getChildFragmentManager().getFragments().stream()
+                            .filter(
+                                    fragment ->
+                                            fragment instanceof PreferenceControllerFragmentCompat
+                                                    &&
+                                                    ((PreferenceControllerFragmentCompat) fragment)
+                                                            .getStateIdentifier() == state)
+
+                            .forEach(
+                                    fragment ->
+                                            ((PreferenceControllerFragmentCompat) fragment)
+                                                    .updatePref(preference));
+                }
+
+                @Override
+                public void notifyUpdateAll(
+                        int state, List<PreferenceCompat> preferences) {
+                    // Delay the  preference updates if there is no visible fragment yet, this
+                    // could happen when a configuration change has occurred.
+                    if (getVisibleFragment() == null) {
+                        mHandler.postDelayed(() -> {
+                            notifyUpdateAll(state, preferences);
+                        }, UI_UPDATE_DELAY_MS);
+                        return;
+                    }
+                    getVisibleFragment().getChildFragmentManager().getFragments().stream()
+                            .filter(
+                                    fragment ->
+                                            fragment instanceof PreferenceControllerFragmentCompat
+                                                    &&
+                                                    ((PreferenceControllerFragmentCompat) fragment)
+                                                            .getStateIdentifier() == state)
+                            .forEach(
+                                    fragment ->
+                                            ((PreferenceControllerFragmentCompat) fragment)
+                                                    .updateAllPref(preferences));
+                }
+
+                @Override
+                public void notifyUpdateScreenTitle(int state, String title) {
+                    // Delay the  preference updates if there is no visible fragment yet, this
+                    // could happen when a configuration change has occurred.
+                    if (getVisibleFragment() == null) {
+                        mHandler.postDelayed(() -> {
+                            notifyUpdateScreenTitle(state, title);
+                        }, UI_UPDATE_DELAY_MS);
+                        return;
+                    }
+                    getVisibleFragment().getChildFragmentManager().getFragments().stream()
+                            .filter(
+                                    fragment ->
+                                            fragment instanceof PreferenceControllerFragmentCompat
+                                                    &&
+                                                    ((PreferenceControllerFragmentCompat) fragment)
+                                                            .getStateIdentifier() == state)
+                            .forEach(
+                                    fragment ->
+                                            ((PreferenceControllerFragmentCompat) fragment)
+                                                    .updateScreenTitle(title));
+                }
+
+                @Override
+                public void notifyNavigateBackward(int state) {
+
+                }
+
+                @Override
+                public void notifyNavigateForward(int state) {
+
+                }
+            };
+
+    public Fragment getVisibleFragment() {
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        List<Fragment> fragments = fragmentManager.getFragments();
+        if (fragments != null) {
+            for (Fragment fragment : fragments) {
+                if (fragment != null && fragment.isVisible()) {
+                    return fragment;
+                }
+            }
+        }
+        return null;
+    }
+
+    @Override
+    public SettingsManager getSettingsManager() {
+        return mSettingsManager;
+    }
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if ((FlavorUtils.getFlavor(this) & getAvailableFlavors()) == 0) {
+            Log.w(TAG, "Activity is not supported in current flavor");
+            finish();
+        }
         if (savedInstanceState == null) {
-
             final Fragment fragment = createSettingsFragment();
             if (fragment == null) {
                 return;
             }
-            if (FeatureFactory.getFactory(this).isTwoPanelLayout()) {
-                getFragmentManager().beginTransaction()
+            if (isStartupVerificationRequired()) {
+                if (FlavorUtils.getFeatureFactory(this)
+                        .getStartupVerificationFeatureProvider()
+                        .startStartupVerificationActivityForResult(
+                                this, REQUEST_CODE_STARTUP_VERIFICATION)) {
+                    return;
+                }
+            }
+            if (FlavorUtils.isTwoPanel(this)) {
+                getSupportFragmentManager().beginTransaction()
                         .setCustomAnimations(android.R.animator.fade_in,
                                 android.R.animator.fade_out)
                         .add(android.R.id.content, fragment, SETTINGS_FRAGMENT_TAG)
@@ -72,7 +203,7 @@ public abstract class TvSettingsActivity extends Activity {
                                     Log.d(TAG, "Got torn down before adding fragment");
                                     return;
                                 }
-                                getFragmentManager().beginTransaction()
+                                getSupportFragmentManager().beginTransaction()
                                         .add(android.R.id.content, fragment,
                                                 SETTINGS_FRAGMENT_TAG)
                                         .commitNow();
@@ -93,8 +224,9 @@ public abstract class TvSettingsActivity extends Activity {
 
     @Override
     public void finish() {
-        final Fragment fragment = getFragmentManager().findFragmentByTag(SETTINGS_FRAGMENT_TAG);
-        if (FeatureFactory.getFactory(this).isTwoPanelLayout()) {
+        final Fragment fragment = getSupportFragmentManager().findFragmentByTag(
+                SETTINGS_FRAGMENT_TAG);
+        if (FlavorUtils.isTwoPanel(this)) {
             super.finish();
             return;
         }
@@ -102,7 +234,7 @@ public abstract class TvSettingsActivity extends Activity {
         if (isResumed() && fragment != null) {
             final ViewGroup root = findViewById(android.R.id.content);
             final Scene scene = new Scene(root);
-            scene.setEnterAction(() -> getFragmentManager().beginTransaction()
+            scene.setEnterAction(() -> getSupportFragmentManager().beginTransaction()
                     .remove(fragment)
                     .commitNow());
             final Slide slide = new Slide(Gravity.END);
@@ -140,20 +272,68 @@ public abstract class TvSettingsActivity extends Activity {
 
     protected abstract Fragment createSettingsFragment();
 
-    private String getMetricsTag() {
-        String tag = getClass().getName();
-        if (tag.startsWith("com.android.tv.settings.")) {
-            tag = tag.replace("com.android.tv.settings.", "");
-        }
-        return tag;
+    /**
+     * Subclass may override this to return true to indicate that the Activity may only be started
+     * after some verification. Example: in special mode, we need to challenge the user with re-auth
+     * before launching account settings.
+     *
+     * This only works in certain flavors as we do not have features requiring the startup
+     * verification in classic flavor or ordinary two panel flavor.
+     */
+    protected boolean isStartupVerificationRequired() {
+        return false;
+    }
+
+    /** Subclass may override this to specify the flavor, in which the activity is available. */
+    protected int getAvailableFlavors() {
+        return ALL_FLAVORS_MASK;
     }
 
     @Override
-    public SharedPreferences getSharedPreferences(String name, int mode) {
-        if (name.equals(getPackageName() + "_preferences")) {
-            return new SharedPreferencesLogger(this, getMetricsTag(),
-                    new MetricsFeatureProvider());
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (mSettingsManager != null && ManagerUtil.getStateIdentifier(requestCode) != -1) {
+            int stateIdentifier = ManagerUtil.getStateIdentifier(requestCode);
+            getVisibleFragment().getChildFragmentManager().getFragments().stream().filter(
+                    fragment ->
+                            fragment instanceof PreferenceControllerFragmentCompat
+                                    && ((PreferenceControllerFragmentCompat) fragment)
+                                        .getStateIdentifier() == stateIdentifier)
+                    .findAny().ifPresent(fragment -> {
+                        State state = ((PreferenceControllerFragmentCompat) fragment).getState();
+                        if (state != null) {
+                            mSettingsManager.onActivityResult(state, requestCode, resultCode, data);
+                        }
+                    });
+        } else if (requestCode == REQUEST_CODE_STARTUP_VERIFICATION) {
+            if (resultCode == RESULT_OK) {
+                Log.v(TAG, "Startup verification succeeded.");
+                if (FlavorUtils.getFlavor(this) == FlavorUtils.FLAVOR_X
+                        || FlavorUtils.getFlavor(this) == FlavorUtils.FLAVOR_VENDOR) {
+                    if (createSettingsFragment() == null) {
+                        Log.e(TAG, "Fragment is null.");
+                        finish();
+                        return;
+                    }
+                    getSupportFragmentManager().beginTransaction()
+                            .setCustomAnimations(
+                                    android.R.animator.fade_in, android.R.animator.fade_out)
+                            .add(
+                                    android.R.id.content,
+                                    createSettingsFragment(),
+                                    SETTINGS_FRAGMENT_TAG)
+                            .commitNow();
+                }
+            } else {
+                Log.v(TAG, "Startup verification cancelled or failed.");
+                finish();
+            }
         }
-        return super.getSharedPreferences(name, mode);
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        mHandler.removeCallbacksAndMessages(null);
     }
 }
