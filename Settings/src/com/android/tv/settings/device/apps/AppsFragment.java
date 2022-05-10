@@ -16,6 +16,9 @@
 
 package com.android.tv.settings.device.apps;
 
+import static android.provider.DeviceConfig.NAMESPACE_APP_HIBERNATION;
+
+import static com.android.tv.settings.library.util.LibUtils.PROPERTY_APP_HIBERNATION_ENABLED;
 import static com.android.tv.settings.util.InstrumentationUtils.logEntrySelected;
 
 import android.app.Activity;
@@ -23,15 +26,19 @@ import android.app.Application;
 import android.app.tvsettings.TvSettingsEnums;
 import android.content.Context;
 import android.os.Bundle;
+import android.provider.DeviceConfig;
 import android.text.TextUtils;
 
 import androidx.annotation.Keep;
+import androidx.annotation.Nullable;
 import androidx.preference.Preference;
 
-import com.android.internal.logging.nano.MetricsProto;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.tv.settings.PreferenceControllerFragment;
 import com.android.tv.settings.R;
+import com.android.tv.settings.library.overlay.FlavorUtils;
+import com.android.tv.settings.library.util.SliceUtils;
+import com.android.tv.twopanelsettings.slices.SlicePreference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,6 +50,11 @@ import java.util.List;
 public class AppsFragment extends PreferenceControllerFragment {
 
     private static final String KEY_PERMISSIONS = "Permissions";
+    private static final String KEY_SECURITY = "security";
+    private static final String KEY_OVERLAY_SECURITY = "overlay_security";
+    private static final String KEY_UPDATE = "update";
+    private static final String TOP_LEVEL_SLICE_URI = "top_level_settings_slice_uri";
+    private static final String KEY_HIBERNATED_APPS = "see_unused_apps";
 
     public static void prepareArgs(Bundle b, String volumeUuid, String volumeName) {
         b.putString(AppsActivity.EXTRA_VOLUME_UUID, volumeUuid);
@@ -70,11 +82,86 @@ public class AppsFragment extends PreferenceControllerFragment {
                     return false;
                 }
         );
+        final Preference securityPreference = findPreference(KEY_SECURITY);
+        final Preference overlaySecuritySlicePreference = findPreference(KEY_OVERLAY_SECURITY);
+        final Preference updateSlicePreference = findPreference(KEY_UPDATE);
+        final Preference hibernatedAppsPreference = findPreference(KEY_HIBERNATED_APPS);
+        if (FlavorUtils.getFeatureFactory(getContext()).getBasicModeFeatureProvider()
+                .isBasicMode(getContext())) {
+            showSecurityPreference(securityPreference, overlaySecuritySlicePreference);
+            if (updateSlicePreference != null) {
+                updateSlicePreference.setVisible(false);
+            }
+        } else {
+            if (isOverlaySecuritySlicePreferenceEnabled(overlaySecuritySlicePreference)) {
+                showOverlaySecuritySlicePreference(
+                        overlaySecuritySlicePreference, securityPreference);
+            } else {
+                showSecurityPreference(securityPreference, overlaySecuritySlicePreference);
+            }
+            if (updateSlicePreference != null) {
+                updateSlicePreference.setVisible(
+                        isUpdateSlicePreferenceEnabled(updateSlicePreference));
+            }
+        }
+        if (hibernatedAppsPreference != null) {
+            hibernatedAppsPreference.setVisible(isHibernationEnabled());
+        }
+    }
+
+    private boolean isOverlaySecuritySlicePreferenceEnabled(
+            @Nullable Preference overlaySecuritySlicePreference) {
+        return overlaySecuritySlicePreference instanceof SlicePreference
+                && SliceUtils.isSettingsSliceEnabled(getContext(),
+                        ((SlicePreference) overlaySecuritySlicePreference).getUri(),
+                                TOP_LEVEL_SLICE_URI);
+    }
+
+    private void showOverlaySecuritySlicePreference(
+            @Nullable Preference overlaySecuritySlicePreference,
+            @Nullable Preference securityPreference) {
+        if (overlaySecuritySlicePreference != null) {
+            overlaySecuritySlicePreference.setVisible(true);
+        }
+        if (securityPreference != null) {
+            securityPreference.setVisible(false);
+        }
+    }
+
+    private void showSecurityPreference(
+            @Nullable Preference securityPreference,
+            @Nullable Preference overlaySecuritySlicePreference) {
+        if (securityPreference != null) {
+            securityPreference.setVisible(true);
+        }
+        if (overlaySecuritySlicePreference != null) {
+            overlaySecuritySlicePreference.setVisible(false);
+        }
+    }
+
+    private boolean isUpdateSlicePreferenceEnabled(
+            @Nullable Preference updateSlicePreference) {
+        return updateSlicePreference instanceof SlicePreference
+                && SliceUtils.isSettingsSliceEnabled(
+                        getContext(),
+                        ((SlicePreference) updateSlicePreference).getUri(),
+                                TOP_LEVEL_SLICE_URI);
+    }
+
+    private static boolean isHibernationEnabled() {
+        return DeviceConfig.getBoolean(
+                NAMESPACE_APP_HIBERNATION, PROPERTY_APP_HIBERNATION_ENABLED, false);
     }
 
     @Override
     protected int getPreferenceScreenResId() {
-        return R.xml.apps;
+        switch (FlavorUtils.getFlavor(getContext())) {
+            case FlavorUtils.FLAVOR_X:
+            case FlavorUtils.FLAVOR_VENDOR:
+                return R.xml.apps_x;
+            default:
+                return R.xml.apps;
+        }
     }
 
     @Override
@@ -84,11 +171,6 @@ public class AppsFragment extends PreferenceControllerFragment {
         List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(new RecentAppsPreferenceController(getContext(), app));
         return controllers;
-    }
-
-    @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SETTINGS_APP_NOTIF_CATEGORY;
     }
 
     @Override
