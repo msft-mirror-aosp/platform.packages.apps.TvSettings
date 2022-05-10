@@ -16,12 +16,12 @@
 
 package com.android.tv.settings.autofill;
 
-import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.fragment.app.Fragment;
+
 import com.android.tv.settings.TvSettingsActivity;
-import com.android.tv.settings.overlay.FeatureFactory;
 
 /**
  * Activity pick current autofill service
@@ -43,7 +43,8 @@ public class AutofillPickerActivity extends TvSettingsActivity {
 
     @Override
     protected Fragment createSettingsFragment() {
-        return FeatureFactory.getFactory(this).getSettingsFragmentProvider()
+        return com.android.tv.settings.overlay.FlavorUtils.getFeatureFactory(
+                this).getSettingsFragmentProvider()
                 .newSettingsFragment(AutofillPickerFragment.class.getName(), null);
     }
 }

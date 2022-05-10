@@ -16,6 +16,10 @@
 
 package com.android.tv.settings.system.development;
 
+import static android.view.CrossWindowBlurListeners.CROSS_WINDOW_BLUR_SUPPORTED;
+
+import static com.android.tv.settings.library.overlay.FlavorUtils.X_EXPERIENCE_FLAVORS_MASK;
+
 import android.Manifest;
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -31,12 +35,21 @@ import android.content.IntentFilter;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
+import android.database.ContentObserver;
 import android.hardware.usb.UsbManager;
+import android.net.ConnectivityManager;
+import android.net.Network;
+import android.net.NetworkCapabilities;
+import android.net.NetworkInfo;
+import android.net.NetworkRequest;
+import android.net.Uri;
 import android.net.wifi.WifiManager;
 import android.os.BatteryManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.IBinder;
+import android.os.Looper;
 import android.os.Parcel;
 import android.os.RemoteException;
 import android.os.ServiceManager;
@@ -44,11 +57,11 @@ import android.os.StrictMode;
 import android.os.SystemProperties;
 import android.os.UserManager;
 import android.provider.Settings;
-import android.service.persistentdata.PersistentDataBlockManager;
 import android.sysprop.AdbProperties;
 import android.sysprop.DisplayProperties;
 import android.text.TextUtils;
 import android.util.Log;
+import android.util.Pair;
 import android.view.IWindowManager;
 import android.view.LayoutInflater;
 import android.view.ThreadedRenderer;
@@ -64,15 +77,16 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
 import com.android.internal.app.LocalePicker;
-import com.android.internal.logging.nano.MetricsProto;
 import com.android.settingslib.core.ConfirmationDialogController;
 import com.android.settingslib.development.DevelopmentSettingsEnabler;
 import com.android.settingslib.development.SystemPropPoker;
 import com.android.tv.settings.R;
+import com.android.tv.settings.RestrictedPreferenceAdapter;
 import com.android.tv.settings.SettingsPreferenceFragment;
-import com.android.tv.settings.system.development.audio.AudioDebug;
-import com.android.tv.settings.system.development.audio.AudioMetrics;
-import com.android.tv.settings.system.development.audio.AudioReaderException;
+import com.android.tv.settings.library.system.development.audio.AudioDebug;
+import com.android.tv.settings.library.system.development.audio.AudioMetrics;
+import com.android.tv.settings.library.system.development.audio.AudioReaderException;
+import com.android.tv.settings.library.overlay.FlavorUtils;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -106,7 +120,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
     private static final String WAIT_FOR_DEBUGGER_KEY = "wait_for_debugger";
     private static final String MOCK_LOCATION_APP_KEY = "mock_location_app";
     private static final String VERIFY_APPS_OVER_USB_KEY = "verify_apps_over_usb";
-    private static final String DEBUG_VIEW_ATTRIBUTES =  "debug_view_attributes";
+    private static final String DEBUG_VIEW_ATTRIBUTES = "debug_view_attributes";
     private static final String FORCE_ALLOW_ON_EXTERNAL_KEY = "force_allow_on_external";
     private static final String STRICT_MODE_KEY = "strict_mode";
     private static final String POINTER_LOCATION_KEY = "pointer_location";
@@ -129,6 +143,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
     private static final String DEBUG_HW_OVERDRAW_KEY = "debug_hw_overdraw";
     private static final String DEBUG_LAYOUT_KEY = "debug_layout";
     private static final String FORCE_RTL_LAYOUT_KEY = "force_rtl_layout_all_locales";
+    private static final String WINDOW_BLURS_KEY = "window_blurs";
     private static final String WINDOW_ANIMATION_SCALE_KEY = "window_animation_scale";
     private static final String TRANSITION_ANIMATION_SCALE_KEY = "transition_animation_scale";
     private static final String ANIMATOR_DURATION_SCALE_KEY = "animator_duration_scale";
@@ -156,18 +171,18 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
 
     private static final String TERMINAL_APP_PACKAGE = "com.android.terminal";
 
-    private static final String KEY_CONVERT_FBE = "convert_to_file_encryption";
-
     private static final int RESULT_DEBUG_APP = 1000;
     private static final int RESULT_MOCK_LOCATION_APP = 1001;
 
     private static final String PERSISTENT_DATA_BLOCK_PROP = "ro.frp.pst";
 
-    private static String DEFAULT_LOG_RING_BUFFER_SIZE_IN_BYTES = "262144"; // 256K
+    private static final String DEFAULT_LOG_RING_BUFFER_SIZE_IN_BYTES = "262144"; // 256K
 
-    private static final int[] MOCK_LOCATION_APP_OPS = new int[] {AppOpsManager.OP_MOCK_LOCATION};
+    private static final int[] MOCK_LOCATION_APP_OPS = new int[]{AppOpsManager.OP_MOCK_LOCATION};
 
     private static final String STATE_SHOWING_DIALOG_KEY = "showing_dialog_key";
+
+    private static final String TOGGLE_ADB_WIRELESS_KEY = "toggle_adb_wireless";
 
     private String mPendingDialogKey;
 
@@ -188,7 +203,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
     private Preference mBugreport;
     private SwitchPreference mKeepScreenOn;
     private ListPreference mBtHciSnoopLog;
-    private SwitchPreference mEnableOemUnlock;
+    private OemUnlockPreferenceController mEnableOemUnlock;
     private SwitchPreference mDebugViewAttributes;
     private SwitchPreference mForceAllowOnExternal;
 
@@ -215,10 +230,11 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
     private SwitchPreference mShowHwLayersUpdates;
     private SwitchPreference mDebugLayout;
     private SwitchPreference mForceRtlLayout;
+    private SwitchPreference mWindowBlurs;
     private ListPreference mDebugHwOverdraw;
     private LogdSizePreferenceController mLogdSizeController;
     private LogpersistPreferenceController mLogpersistController;
-    private ListPreference mUsbConfiguration;
+    private RestrictedPreferenceAdapter<ListPreference> mUsbConfiguration;
     private ListPreference mTrackFrameTime;
     private ListPreference mShowNonRectClip;
     private ListPreference mWindowAnimationScale;
@@ -248,6 +264,8 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
 
     private SwitchPreference mForceResizable;
 
+    private Preference mWirelessDebugging;
+
     private final ArrayList<Preference> mAllPrefs = new ArrayList<>();
 
     private final ArrayList<SwitchPreference> mResetSwitchPrefs
@@ -259,14 +277,15 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
 
     private AudioDebug mAudioDebug;
 
+    private ConnectivityManager mConnectivityManager;
+
     public static DevelopmentFragment newInstance() {
         return new DevelopmentFragment();
     }
 
-    @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.DEVELOPMENT;
-    }
+    private final Handler mHandler = new Handler(Looper.getMainLooper());
+    private final NetworkCallback mNetworkCallback = new NetworkCallback();
+    private ContentObserver mToggleContentObserver;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -290,13 +309,27 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
                 (boolean successful) -> onAudioRecorded(successful),
                 (AudioMetrics.Data data) -> updateAudioRecordingMetrics(data));
 
+        mConnectivityManager = getContext().getSystemService(ConnectivityManager.class);
+
+        mToggleContentObserver = new ContentObserver(new Handler(Looper.myLooper())) {
+            @Override
+            public void onChange(boolean selfChange, Uri uri) {
+                updateWirelessDebuggingPreference();
+            }
+        };
+        mContentResolver.registerContentObserver(
+                Settings.Global.getUriFor(Settings.Global.ADB_WIFI_ENABLED),
+                false,
+                mToggleContentObserver);
+
         super.onCreate(icicle);
     }
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         mLogdSizeController = new LogdSizePreferenceController(getActivity());
-        mLogpersistController = new LogpersistPreferenceController(getActivity(), getLifecycle());
+        mLogpersistController = new LogpersistPreferenceController(getActivity(),
+                getSettingsLifecycle());
 
         if (!mUm.isAdminUser()
                 || mUm.hasUserRestriction(UserManager.DISALLOW_DEBUGGING_FEATURES)
@@ -334,16 +367,17 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         }
 
         mBugreport = findPreference(BUGREPORT);
+        if (!showBugReportPreference()) {
+            removePreference(mBugreport);
+        }
+
         mLogdSizeController.displayPreference(preferenceScreen);
         mLogpersistController.displayPreference(preferenceScreen);
 
         mKeepScreenOn = findAndInitSwitchPref(KEEP_SCREEN_ON);
         mBtHciSnoopLog = addListPreference(BT_HCI_SNOOP_LOG);
-        mEnableOemUnlock = findAndInitSwitchPref(ENABLE_OEM_UNLOCK);
-        if (!showEnableOemUnlockPreference()) {
-            removePreference(mEnableOemUnlock);
-            mEnableOemUnlock = null;
-        }
+        mEnableOemUnlock = new OemUnlockPreferenceController(
+                getActivity(), findAndInitSwitchPref(ENABLE_OEM_UNLOCK));
 
         // TODO: implement UI for TV
         removePreference(RUNNING_APPS);
@@ -389,11 +423,15 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         mShowHwLayersUpdates = findAndInitSwitchPref(SHOW_HW_LAYERS_UPDATES_KEY);
         mDebugLayout = findAndInitSwitchPref(DEBUG_LAYOUT_KEY);
         mForceRtlLayout = findAndInitSwitchPref(FORCE_RTL_LAYOUT_KEY);
+        mWindowBlurs = findAndInitSwitchPref(WINDOW_BLURS_KEY);
         mDebugHwOverdraw = addListPreference(DEBUG_HW_OVERDRAW_KEY);
         mWifiDisplayCertification = findAndInitSwitchPref(WIFI_DISPLAY_CERTIFICATION_KEY);
         mWifiVerboseLogging = findAndInitSwitchPref(WIFI_VERBOSE_LOGGING_KEY);
         mMobileDataAlwaysOn = findAndInitSwitchPref(MOBILE_DATA_ALWAYS_ON);
-        mUsbConfiguration = addListPreference(USB_CONFIGURATION_KEY);
+        mUsbConfiguration = addListRestrictedPreference(USB_CONFIGURATION_KEY,
+                UserManager.DISALLOW_USB_FILE_TRANSFER);
+        // Only show those functions that are available
+        listOnlySettableUsbConfigurationValues();
 
         mWindowAnimationScale = addListPreference(WINDOW_ANIMATION_SCALE_KEY);
         mTransitionAnimationScale = addListPreference(TRANSITION_ANIMATION_SCALE_KEY);
@@ -433,35 +471,14 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
             removePreferenceForProduction(hdcpChecking);
         }
 
-        // TODO: implement UI for TV
-        removePreference(KEY_CONVERT_FBE);
-/*
-        // Please import android.sysprop.CryptoProperties when you uncomment this block.
-        PreferenceScreen convertFbePreference =
-                (PreferenceScreen) findPreference(KEY_CONVERT_FBE);
-
-        try {
-            IBinder service = ServiceManager.getService("mount");
-            IMountService mountService = IMountService.Stub.asInterface(service);
-            if (!mountService.isConvertibleToFBE()) {
-                removePreference(KEY_CONVERT_FBE);
-            } else if (CryptoProperties.type().orElse(CryptoProperties.type_values.NONE) ==
-                       CryptoProperties.type_values.FILE) {
-                convertFbePreference.setEnabled(false);
-                convertFbePreference.setSummary(getResources()
-                        .getString(R.string.convert_to_file_encryption_done));
-            }
-        } catch(RemoteException e) {
-            removePreference(KEY_CONVERT_FBE);
-        }
-*/
-
         mColorModePreference = (ColorModePreference) findPreference(KEY_COLOR_MODE);
         mColorModePreference.updateCurrentAndSupported();
         if (mColorModePreference.getColorModeCount() < 2) {
             removePreference(KEY_COLOR_MODE);
             mColorModePreference = null;
         }
+
+        mWirelessDebugging = findPreference(TOGGLE_ADB_WIRELESS_KEY);
     }
 
     private void removePreference(String key) {
@@ -476,6 +493,16 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         mAllPrefs.add(pref);
         pref.setOnPreferenceChangeListener(this);
         return pref;
+    }
+
+    private RestrictedPreferenceAdapter<ListPreference> addListRestrictedPreference(String prefKey,
+            String userRestriction) {
+        final ListPreference pref = (ListPreference) findPreference(prefKey);
+        pref.setOnPreferenceChangeListener(this);
+        final RestrictedPreferenceAdapter<ListPreference> restrictedListPref =
+                RestrictedPreferenceAdapter.adapt(pref, userRestriction);
+        mAllPrefs.add(restrictedListPref.getOriginalPreference());
+        return restrictedListPref;
     }
 
     private void disableForUser(Preference pref) {
@@ -571,6 +598,13 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
             recreateDialogForKey(mPendingDialogKey);
             mPendingDialogKey = null;
         }
+
+        mConnectivityManager.registerNetworkCallback(
+                new NetworkRequest.Builder()
+                        .addTransportType(NetworkCapabilities.TRANSPORT_WIFI)
+                        .addTransportType(NetworkCapabilities.TRANSPORT_ETHERNET)
+                        .build(),
+                mNetworkCallback);
     }
 
     @Override
@@ -581,6 +615,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         }
 
         mAudioDebug.cancelRecording();
+        mConnectivityManager.unregisterNetworkCallback(mNetworkCallback);
     }
 
     @Override
@@ -611,6 +646,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
     public void onDestroy() {
         super.onDestroy();
         dismissDialogs();
+        mContentResolver.unregisterContentObserver(mToggleContentObserver);
     }
 
     void updateSwitchPreference(SwitchPreference switchPreference, boolean value) {
@@ -631,10 +667,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         }
         updateSwitchPreference(mKeepScreenOn, Settings.Global.getInt(cr,
                 Settings.Global.STAY_ON_WHILE_PLUGGED_IN, 0) != 0);
-        if (mEnableOemUnlock != null) {
-            updateSwitchPreference(mEnableOemUnlock, isOemUnlockEnabled(getActivity()));
-            mEnableOemUnlock.setEnabled(isOemUnlockAllowed());
-        }
+        mEnableOemUnlock.updateState();
         updateSwitchPreference(mDebugViewAttributes, Settings.Global.getInt(cr,
                 Settings.Global.DEBUG_VIEW_ATTRIBUTES, 0) != 0);
         updateSwitchPreference(mForceAllowOnExternal, Settings.Global.getInt(cr,
@@ -664,6 +697,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         updateVerifyAppsOverUsbOptions();
         updateBugreportOptions();
         updateForceRtlOptions();
+        updateWindowBlursOptions();
         mLogdSizeController.updateLogdSizeValues();
         mLogpersistController.updateLogpersistValues();
         updateWifiDisplayCertificationOptions();
@@ -870,7 +904,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
     private void updateVerifyAppsOverUsbOptions() {
         updateSwitchPreference(mVerifyAppsOverUsb,
                 Settings.Global.getInt(mContentResolver,
-                Settings.Global.PACKAGE_VERIFIER_INCLUDE_ADB, 1) != 0);
+                        Settings.Global.PACKAGE_VERIFIER_INCLUDE_ADB, 1) != 0);
         mVerifyAppsOverUsb.setEnabled(enableVerifierSetting());
     }
 
@@ -900,8 +934,8 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         return !SystemProperties.get(PERSISTENT_DATA_BLOCK_PROP).equals("");
     }
 
-    private boolean isOemUnlockAllowed() {
-        return !mUm.hasUserRestriction(UserManager.DISALLOW_OEM_UNLOCK);
+    private boolean showBugReportPreference() {
+        return (FlavorUtils.getFlavor(getContext()) & X_EXPERIENCE_FLAVORS_MASK) == 0;
     }
 
     private void updateBugreportOptions() {
@@ -923,7 +957,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
     public static void captureBugReport(Activity activity) {
         Toast.makeText(activity, R.string.capturing_bugreport, Toast.LENGTH_SHORT).show();
         try {
-            ActivityManager.getService().requestFullBugReport();
+            ActivityManager.getService().requestInteractiveBugReport();
         } catch (RemoteException e) {
             Log.e(TAG, "Error taking bugreport", e);
         }
@@ -1179,7 +1213,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
 
     /**
      * @return <code>true</code> if the color space preference is currently
-     *         controlled by development settings
+     * controlled by development settings
      */
     private boolean usingDevelopmentColorSpace() {
         final boolean enabled = Settings.Secure.getInt(
@@ -1189,10 +1223,8 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
                     mContentResolver, Settings.Secure.ACCESSIBILITY_DISPLAY_DALTONIZER,
                     AccessibilityManager.DALTONIZER_DISABLED));
             final int index = mSimulateColorSpace.findIndexOfValue(mode);
-            if (index >= 0) {
-                // We're using a mode controlled by developer preferences.
-                return true;
-            }
+            // We're using a mode controlled by developer preferences.
+            return index >= 0;
         }
         return false;
     }
@@ -1275,7 +1307,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
     private void updateForceResizableOptions() {
         updateSwitchPreference(mForceResizable,
                 Settings.Global.getInt(mContentResolver,
-                Settings.Global.DEVELOPMENT_FORCE_RESIZABLE_ACTIVITIES, 0) != 0);
+                        Settings.Global.DEVELOPMENT_FORCE_RESIZABLE_ACTIVITIES, 0) != 0);
     }
 
     private void writeForceResizableOptions() {
@@ -1297,6 +1329,22 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         DisplayProperties.debug_force_rtl(value);
         LocalePicker.updateLocale(
                 getActivity().getResources().getConfiguration().getLocales().get(0));
+    }
+
+    private void updateWindowBlursOptions() {
+        if (!CROSS_WINDOW_BLUR_SUPPORTED) {
+            mWindowBlurs.setVisible(false);
+        } else {
+            updateSwitchPreference(mWindowBlurs,
+                    Settings.Global.getInt(mContentResolver,
+                            Settings.Global.DISABLE_WINDOW_BLURS, 0) == 0);
+        }
+    }
+
+    private void writeWindowBlursOptions() {
+        boolean value = mWindowBlurs.isChecked();
+        Settings.Global.putInt(mContentResolver,
+                Settings.Global.DISABLE_WINDOW_BLURS, value ? 0 : 1);
     }
 
     private void updateWifiDisplayCertificationOptions() {
@@ -1331,23 +1379,62 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
                 mMobileDataAlwaysOn.isChecked() ? 1 : 0);
     }
 
-    private void updateUsbConfigurationValues() {
-        if (mUsbConfiguration != null) {
-            UsbManager manager = (UsbManager) getActivity().getSystemService(Context.USB_SERVICE);
+    private void listOnlySettableUsbConfigurationValues() {
+        final UsbManager manager = (UsbManager) getActivity().getSystemService(Context.USB_SERVICE);
+        mUsbConfiguration.updatePreference(p -> p.setVisible(manager != null));
+        if (manager != null) {
+            final List<Pair<String, String>> usbConfigurationValueTitlePairs =
+                    getSettableUsbConfigurationValueTitlePairs();
+            final String[] usbConfigurationValues = usbConfigurationValueTitlePairs.stream()
+                    .map(usbConfigurationValueTitlePair -> usbConfigurationValueTitlePair.first)
+                    .toArray(String[]::new);
+            final String[] usbConfigurationTitles = usbConfigurationValueTitlePairs.stream()
+                    .map(usbConfigurationValueTitlePair -> usbConfigurationValueTitlePair.second)
+                    .toArray(String[]::new);
+            mUsbConfiguration.updatePreference(listPreference -> {
+                listPreference.setEntryValues(usbConfigurationValues);
+                listPreference.setEntries(usbConfigurationTitles);
+            });
+        }
+    }
 
-            String[] values = getResources().getStringArray(R.array.usb_configuration_values);
-            String[] titles = getResources().getStringArray(R.array.usb_configuration_titles);
+    private List<Pair<String, String>> getSettableUsbConfigurationValueTitlePairs() {
+        final String[] values = getResources().getStringArray(R.array.usb_configuration_values);
+        final String[] titles = getResources().getStringArray(R.array.usb_configuration_titles);
+        final List<Pair<String, String>> settableUsbConfigurationValueTitlePairs =
+                new ArrayList<>();
+        for (int i = 0; i < values.length; i++) {
+            if (UsbManager.areSettableFunctions(UsbManager.usbFunctionsFromString(values[i]))) {
+                settableUsbConfigurationValueTitlePairs.add(Pair.create(values[i], titles[i]));
+            }
+        }
+        return settableUsbConfigurationValueTitlePairs;
+    }
+
+    private void updateUsbConfigurationValues() {
+        final UsbManager manager = (UsbManager) getActivity().getSystemService(Context.USB_SERVICE);
+        if (mUsbConfiguration == null) {
+            return;
+        }
+        mUsbConfiguration.updatePreference(p -> p.setVisible(manager != null));
+        if (manager != null) {
+            final List<Pair<String, String>> usbConfigurationValueTitlePairs =
+                    getSettableUsbConfigurationValueTitlePairs();
             int index = 0;
             long functions = manager.getCurrentFunctions();
-            for (int i = 0; i < titles.length; i++) {
-                if ((functions & UsbManager.usbFunctionsFromString(values[i])) != 0) {
+            for (int i = 0; i < usbConfigurationValueTitlePairs.size(); i++) {
+                if ((functions & UsbManager.usbFunctionsFromString(
+                        usbConfigurationValueTitlePairs.get(i).first)) != 0) {
                     index = i;
                     break;
                 }
             }
-            mUsbConfiguration.setValue(values[index]);
-            mUsbConfiguration.setSummary(titles[index]);
-            mUsbConfiguration.setOnPreferenceChangeListener(this);
+            final int updateIndex = index;
+            mUsbConfiguration.updatePreference(listPreference -> {
+                listPreference.setValue(usbConfigurationValueTitlePairs.get(updateIndex).first);
+                listPreference.setSummary(usbConfigurationValueTitlePairs.get(updateIndex).second);
+                listPreference.setOnPreferenceChangeListener(this);
+            });
         }
     }
 
@@ -1378,7 +1465,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
                 mHaveDebugSettings = true;
             }
             CharSequence[] values = pref.getEntryValues();
-            for (int i=0; i<values.length; i++) {
+            for (int i = 0; i < values.length; i++) {
                 float val = Float.parseFloat(values[i].toString());
                 if (scale <= val) {
                     pref.setValueIndex(i);
@@ -1386,7 +1473,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
                     return;
                 }
             }
-            pref.setValueIndex(values.length-1);
+            pref.setValueIndex(values.length - 1);
             pref.setSummary(pref.getEntries()[0]);
         } catch (RemoteException e) {
             // ignore
@@ -1430,7 +1517,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
 
     private void writeOverlayDisplayDevicesOptions(Object newValue) {
         Settings.Global.putString(mContentResolver, Settings.Global.OVERLAY_DISPLAY_DEVICES,
-                (String)newValue);
+                (String) newValue);
         updateOverlayDisplayDevicesOptions();
     }
 
@@ -1459,7 +1546,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         try {
             int limit = ActivityManager.getService().getProcessLimit();
             CharSequence[] values = mAppProcessLimit.getEntryValues();
-            for (int i=0; i<values.length; i++) {
+            for (int i = 0; i < values.length; i++) {
                 int val = Integer.parseInt(values[i].toString());
                 if (val >= limit) {
                     if (i != 0) {
@@ -1499,8 +1586,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
 
     @Override
     public void onOemUnlockConfirm() {
-        mEnableOemUnlock.setChecked(true);
-        setOemUnlockEnabled(getActivity(), true);
+        mEnableOemUnlock.onOemUnlockConfirm();
         updateAllOptions();
     }
 
@@ -1579,14 +1665,10 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
                     mKeepScreenOn.isChecked() ?
                             (BatteryManager.BATTERY_PLUGGED_AC | BatteryManager.BATTERY_PLUGGED_USB)
                             : 0);
-        } else if (preference == mEnableOemUnlock) {
-            if (mEnableOemUnlock.isChecked()) {
-                // Pass to super to launch the dialog, then uncheck until the dialog
-                // result comes back
+        } else if (preference == mEnableOemUnlock.getPreference()) {
+            if (!mEnableOemUnlock.onPreferenceClick()) {
+                // Pass to super to launch the confirmation dialog.
                 super.onPreferenceTreeClick(preference);
-                mEnableOemUnlock.setChecked(false);
-            } else {
-                setOemUnlockEnabled(getActivity(), false);
             }
         } else if (preference == mMockLocationAppPref) {
             Intent intent = new Intent(getActivity(), AppPicker.class);
@@ -1631,6 +1713,8 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
             writeDebugLayoutOptions();
         } else if (preference == mForceRtlLayout) {
             writeForceRtlOptions();
+        } else if (preference == mWindowBlurs) {
+            writeWindowBlursOptions();
         } else if (preference == mWifiDisplayCertification) {
             writeWifiDisplayCertificationOptions();
         } else if (preference == mWifiVerboseLogging) {
@@ -1661,7 +1745,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
             updateHdcpValues();
             SystemPropPoker.getInstance().poke();
             return true;
-        } else if (preference == mUsbConfiguration) {
+        } else if (preference == mUsbConfiguration.getOriginalPreference()) {
             writeUsbConfigurationOption(newValue);
             return true;
         } else if (preference == mWindowAnimationScale) {
@@ -1704,6 +1788,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
     /**
      * Iterates through preference controllers that show confirmation dialogs and returns the
      * preference key for the first currently showing dialog. Ideally there should only ever be one.
+     *
      * @return Preference key, or null if no dialog is showing
      */
     private String getKeyForShowingDialog() {
@@ -1721,6 +1806,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
 
     /**
      * Re-show the dialog we lost previously
+     *
      * @param preferenceKey Key for the preference the dialog is for
      */
     private void recreateDialogForKey(String preferenceKey) {
@@ -1739,7 +1825,7 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         mLogpersistController.dismissConfirmationDialog();
     }
 
-    private BroadcastReceiver mUsbReceiver = new BroadcastReceiver() {
+    private final BroadcastReceiver mUsbReceiver = new BroadcastReceiver() {
         @Override
         public void onReceive(Context context, Intent intent) {
             updateUsbConfigurationValues();
@@ -1754,26 +1840,40 @@ public class DevelopmentFragment extends SettingsPreferenceFragment
         }
     }
 
-    /**
-     * Returns whether or not this device is able to be OEM unlocked.
-     */
-    static boolean isOemUnlockEnabled(Context context) {
-        PersistentDataBlockManager manager =(PersistentDataBlockManager)
-                context.getSystemService(Context.PERSISTENT_DATA_BLOCK_SERVICE);
-        return manager.getOemUnlockEnabled();
+    private void updateWirelessDebuggingPreference() {
+        if (mWirelessDebugging == null) {
+            return;
+        }
+
+        if (!isNetworkConnected()) {
+            mWirelessDebugging.setSummary(R.string.connectivity_summary_no_network_connected);
+        } else {
+            boolean enabled = Settings.Global.getInt(mContentResolver,
+                    Settings.Global.ADB_WIFI_ENABLED, 1) != 0;
+            if (enabled) {
+                mWirelessDebugging.setSummary(R.string.enabled);
+            } else {
+                mWirelessDebugging.setSummary(R.string.disabled);
+            }
+        }
     }
 
-    /**
-     * Allows enabling or disabling OEM unlock on this device. OEM unlocked
-     * devices allow users to flash other OSes to them.
-     */
-    static void setOemUnlockEnabled(Context context, boolean enabled) {
-        try {
-            PersistentDataBlockManager manager = (PersistentDataBlockManager)
-                    context.getSystemService(Context.PERSISTENT_DATA_BLOCK_SERVICE);
-            manager.setOemUnlockEnabled(enabled);
-        } catch (SecurityException e) {
-            Log.e(TAG, "Fail to set oem unlock.", e);
+    private boolean isNetworkConnected() {
+        NetworkInfo activeNetworkInfo = mConnectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isConnected();
+    }
+
+    private class NetworkCallback extends ConnectivityManager.NetworkCallback {
+        @Override
+        public void onAvailable(Network network) {
+            super.onAvailable(network);
+            mHandler.post(() -> updateWirelessDebuggingPreference());
+        }
+
+        @Override
+        public void onLost(Network network) {
+            super.onLost(network);
+            mHandler.post(() -> updateWirelessDebuggingPreference());
         }
     }
 }
