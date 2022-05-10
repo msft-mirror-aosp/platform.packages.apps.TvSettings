@@ -16,9 +16,7 @@
 
 package com.android.tv.settings;
 
-import android.app.Fragment;
-
-import com.android.tv.settings.overlay.FeatureFactory;
+import androidx.fragment.app.Fragment;
 
 /**
  * Main settings which loads up the top level headers.
@@ -27,7 +25,13 @@ public class MainSettings extends TvSettingsActivity {
 
     @Override
     protected Fragment createSettingsFragment() {
-        return FeatureFactory.getFactory(this).getSettingsFragmentProvider()
-            .newSettingsFragment(MainFragment.class.getName(), null);
+        return com.android.tv.settings.overlay.FlavorUtils.getFeatureFactory(
+                this).getSettingsFragmentProvider()
+                .newSettingsFragment(MainFragment.class.getName(), null);
+    }
+
+    @Override
+    protected boolean isStartupVerificationRequired() {
+        return true;
     }
 }
