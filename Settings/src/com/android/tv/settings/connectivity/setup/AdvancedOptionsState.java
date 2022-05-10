@@ -17,6 +17,7 @@
 package com.android.tv.settings.connectivity.setup;
 
 import android.content.Context;
+import android.net.wifi.WifiConfiguration;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -28,6 +29,7 @@ import androidx.lifecycle.ViewModelProviders;
 import com.android.tv.settings.R;
 import com.android.tv.settings.connectivity.util.State;
 import com.android.tv.settings.connectivity.util.StateMachine;
+import com.android.tv.settings.library.network.WifiHelper;
 
 import java.util.List;
 
@@ -44,6 +46,14 @@ public class AdvancedOptionsState implements State {
 
     @Override
     public void processForward() {
+        if (isNetworkLockedDown()) {
+            StateMachine stateMachine = ViewModelProviders
+                    .of(mActivity)
+                    .get(StateMachine.class);
+            stateMachine.getListener().onComplete(StateMachine.ADVANCED_FLOW_COMPLETE);
+            return;
+        }
+
         mFragment = new AdvancedOptionsFragment();
         FragmentChangeListener listener = (FragmentChangeListener) mActivity;
         if (listener != null) {
@@ -58,6 +68,14 @@ public class AdvancedOptionsState implements State {
         if (listener != null) {
             listener.onFragmentChange(mFragment, false);
         }
+    }
+
+    private boolean isNetworkLockedDown() {
+        UserChoiceInfo userChoiceInfo = ViewModelProviders
+                .of(mActivity)
+                .get(UserChoiceInfo.class);
+        WifiConfiguration wifiConfiguration = userChoiceInfo.getWifiConfiguration();
+        return WifiHelper.isNetworkLockedDown(mActivity, wifiConfiguration);
     }
 
     @Override
