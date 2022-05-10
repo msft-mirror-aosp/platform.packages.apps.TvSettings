@@ -16,19 +16,25 @@
 
 package com.android.tv.settings.device;
 
+import static com.android.tv.settings.library.overlay.FlavorUtils.FLAVOR_CLASSIC;
+import static com.android.tv.settings.library.overlay.FlavorUtils.FLAVOR_TWO_PANEL;
+import static com.android.tv.settings.library.overlay.FlavorUtils.FLAVOR_VENDOR;
+import static com.android.tv.settings.library.overlay.FlavorUtils.FLAVOR_X;
 import static com.android.tv.settings.util.InstrumentationUtils.logEntrySelected;
+import static com.android.tv.settings.util.InstrumentationUtils.logToggleInteracted;
 
-import android.app.Fragment;
 import android.app.tvsettings.TvSettingsEnums;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.content.res.Resources;
+import android.media.AudioManager;
 import android.media.tv.TvInputInfo;
 import android.media.tv.TvInputManager;
 import android.os.Bundle;
 import android.os.UserHandle;
+import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -38,21 +44,27 @@ import android.view.inputmethod.InputMethodInfo;
 
 import androidx.annotation.Keep;
 import androidx.annotation.VisibleForTesting;
-import androidx.leanback.preference.LeanbackSettingsFragment;
+import androidx.fragment.app.Fragment;
+import androidx.leanback.preference.LeanbackSettingsFragmentCompat;
 import androidx.preference.Preference;
+import androidx.preference.TwoStatePreference;
 
-import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
-import com.android.settingslib.applications.DefaultAppInfo;
 import com.android.settingslib.development.DevelopmentSettingsEnabler;
 import com.android.tv.settings.LongClickPreference;
 import com.android.tv.settings.MainFragment;
 import com.android.tv.settings.R;
 import com.android.tv.settings.SettingsPreferenceFragment;
 import com.android.tv.settings.about.RebootConfirmFragment;
-import com.android.tv.settings.autofill.AutofillHelper;
-import com.android.tv.settings.inputmethod.InputMethodHelper;
+import com.android.tv.settings.library.overlay.FlavorUtils;
+import com.android.tv.settings.library.settingslib.AutofillHelper;
+import com.android.tv.settings.library.settingslib.DefaultAppInfo;
+import com.android.tv.settings.library.settingslib.InputMethodHelper;
+import com.android.tv.settings.library.util.SliceUtils;
+import com.android.tv.settings.privacy.PrivacyToggle;
+import com.android.tv.settings.privacy.SensorFragment;
 import com.android.tv.settings.system.SecurityFragment;
 import com.android.tv.twopanelsettings.TwoPanelSettingsFragment;
+import com.android.tv.twopanelsettings.slices.SlicePreference;
 
 import java.util.List;
 
@@ -66,28 +78,57 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
     static final String KEY_DEVELOPER = "developer";
     @VisibleForTesting
     static final String KEY_CAST_SETTINGS = "cast";
+    private static final String KEY_CAST_SETTINGS_SLICE = "cast_settings";
     @VisibleForTesting
     static final String KEY_KEYBOARD = "keyboard";
     private static final String TAG = "DeviceFragment";
     private static final String KEY_USAGE = "usageAndDiag";
     private static final String KEY_INPUTS = "inputs";
     private static final String KEY_SOUNDS = "sound_effects";
+    private static final String KEY_SOUNDS_SWITCH = "sound_effects_switch";
     private static final String KEY_GOOGLE_SETTINGS = "google_settings";
     private static final String KEY_HOME_SETTINGS = "home";
     private static final String KEY_REBOOT = "reboot";
+    private static final String KEY_MIC = "microphone";
+    private static final String KEY_CAMERA = "camera";
+    private static final String KEY_FASTPAIR_SETTINGS_SLICE = "fastpair_slice";
+    private static final String KEY_OVERLAY_INTERNAL_SETTINGS_SLICE = "overlay_internal";
+    private static final String KEY_ASSISTANT_BROADCAST = "assistant_broadcast";
+    private static final String RES_TOP_LEVEL_ASSISTANT_SLICE_URI = "top_level_assistant_slice_uri";
 
     private Preference mSoundsPref;
+    private TwoStatePreference mSoundsSwitchPref;
     private boolean mInputSettingNeeded;
     private PackageManager mPm;
+    private AudioManager mAudioManager;
+
+    private int getPreferenceScreenResId() {
+        if (isRestricted()) {
+            return R.xml.device_restricted;
+        }
+        switch (FlavorUtils.getFlavor(getContext())) {
+            case FLAVOR_CLASSIC:
+                return R.xml.device;
+            case FLAVOR_TWO_PANEL:
+                return R.xml.device_two_panel;
+            case FLAVOR_X:
+                return R.xml.device_x;
+            case FLAVOR_VENDOR:
+                return R.xml.device_vendor;
+            default:
+                return R.xml.device;
+        }
+    }
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
-        if (isRestricted()) {
-            setPreferencesFromResource(R.xml.device_restricted, null);
-        } else {
-            setPreferencesFromResource(R.xml.device, null);
-        }
+        setPreferencesFromResource(getPreferenceScreenResId(), null);
         mSoundsPref = findPreference(KEY_SOUNDS);
+        mSoundsSwitchPref = findPreference(KEY_SOUNDS_SWITCH);
+        if (mSoundsSwitchPref != null) {
+            mSoundsSwitchPref.setChecked(getSoundEffectsEnabled());
+        }
+
         final Preference inputPref = findPreference(KEY_INPUTS);
         if (inputPref != null) {
             inputPref.setVisible(mInputSettingNeeded);
@@ -95,6 +136,19 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
         final LongClickPreference restartPref = findPreference(KEY_REBOOT);
         if (restartPref != null) {
             restartPref.setLongClickListener(this);
+        }
+
+        PrivacyToggle.MIC_TOGGLE.preparePreferenceWithSensorFragment(getContext(),
+                findPreference(KEY_MIC), SensorFragment.TOGGLE_EXTRA);
+        PrivacyToggle.CAMERA_TOGGLE.preparePreferenceWithSensorFragment(getContext(),
+                findPreference(KEY_CAMERA), SensorFragment.TOGGLE_EXTRA);
+
+        final Preference assistantBroadcastPreference = findPreference(KEY_ASSISTANT_BROADCAST);
+        if (assistantBroadcastPreference != null && SliceUtils.isSettingsSliceEnabled(
+                getContext(),
+                ((SlicePreference) assistantBroadcastPreference).getUri(),
+                RES_TOP_LEVEL_ASSISTANT_SLICE_URI)) {
+            assistantBroadcastPreference.setVisible(true);
         }
     }
 
@@ -109,6 +163,7 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
                 }
             }
         }
+        mAudioManager = getContext().getSystemService(AudioManager.class);
         super.onCreate(savedInstanceState);
     }
 
@@ -125,6 +180,8 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
         updateSounds();
         updateGoogleSettings();
         updateCastSettings();
+        updateInternalSettings();
+        updateFastpairSettings();
         updateKeyboardAutofillSettings();
         hideIfIntentUnhandled(findPreference(KEY_HOME_SETTINGS));
         hideIfIntentUnhandled(findPreference(KEY_CAST_SETTINGS));
@@ -147,6 +204,13 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
             case KEY_REBOOT:
                 logEntrySelected(TvSettingsEnums.SYSTEM_REBOOT);
                 break;
+            case KEY_SOUNDS_SWITCH:
+                if (mSoundsSwitchPref != null) {
+                    logToggleInteracted(TvSettingsEnums.DISPLAY_SOUND_SYSTEM_SOUNDS,
+                            mSoundsSwitchPref.isChecked());
+                    setSoundEffectsEnabled(mSoundsSwitchPref.isChecked());
+                }
+                break;
         }
         return super.onPreferenceTreeClick(preference);
     }
@@ -156,8 +220,8 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
         if (TextUtils.equals(preference.getKey(), KEY_REBOOT)) {
             logEntrySelected(TvSettingsEnums.SYSTEM_REBOOT);
             Fragment fragment = getCallbackFragment();
-            if (fragment instanceof LeanbackSettingsFragment) {
-                ((LeanbackSettingsFragment) fragment).startImmersiveFragment(
+            if (fragment instanceof LeanbackSettingsFragmentCompat) {
+                ((LeanbackSettingsFragmentCompat) fragment).startImmersiveFragment(
                         RebootConfirmFragment.newInstance(true /* safeMode */));
                 return true;
             } else if (fragment instanceof TwoPanelSettingsFragment) {
@@ -169,9 +233,19 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
         return false;
     }
 
-    @Override
-    public int getMetricsCategory() {
-        return MetricsEvent.SETTINGS_TV_DEVICE_CATEGORY;
+    public boolean getSoundEffectsEnabled() {
+        return Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.SOUND_EFFECTS_ENABLED, 1) != 0;
+    }
+
+    private void setSoundEffectsEnabled(boolean enabled) {
+        if (enabled) {
+            mAudioManager.loadSoundEffects();
+        } else {
+            mAudioManager.unloadSoundEffects();
+        }
+        Settings.System.putInt(getActivity().getContentResolver(),
+                Settings.System.SOUND_EFFECTS_ENABLED, enabled ? 1 : 0);
     }
 
     private void hideIfIntentUnhandled(Preference preference) {
@@ -227,6 +301,7 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
     @VisibleForTesting
     void updateCastSettings() {
         final Preference castPref = findPreference(KEY_CAST_SETTINGS);
+        final SlicePreference castSlicePref = findPreference(KEY_CAST_SETTINGS_SLICE);
         if (castPref != null) {
             final ResolveInfo info = MainFragment.systemIntentIsHandled(
                     getContext(), castPref.getIntent());
@@ -241,6 +316,34 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
                     Log.e(TAG, "Cast settings icon not found", e);
                 }
                 castPref.setTitle(info.activityInfo.loadLabel(getContext().getPackageManager()));
+            }
+        }
+        if (castSlicePref != null) {
+            if (!SliceUtils.isSliceProviderValid(getContext(), castSlicePref.getUri())
+                    || FlavorUtils.getFeatureFactory(getContext()).getBasicModeFeatureProvider()
+                    .isBasicMode(getContext())) {
+                castSlicePref.setVisible(false);
+            }
+        }
+    }
+
+    private void updateInternalSettings() {
+        final SlicePreference internalSlicePref = findPreference(
+                KEY_OVERLAY_INTERNAL_SETTINGS_SLICE);
+        if (internalSlicePref != null) {
+            internalSlicePref.setVisible(
+                    SliceUtils.isSliceProviderValid(getContext(), internalSlicePref.getUri())
+                            && SliceUtils.isSettingsSliceEnabled(getContext(),
+                            internalSlicePref.getUri(), null));
+        }
+    }
+
+    @VisibleForTesting
+    void updateFastpairSettings() {
+        final SlicePreference fastpairSlicePref = findPreference(KEY_FASTPAIR_SETTINGS_SLICE);
+        if (fastpairSlicePref != null) {
+            if (SliceUtils.isSliceProviderValid(getContext(), fastpairSlicePref.getUri())) {
+                fastpairSlicePref.setVisible(true);
             }
         }
     }

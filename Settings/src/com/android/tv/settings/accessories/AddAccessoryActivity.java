@@ -16,8 +16,6 @@
 
 package com.android.tv.settings.accessories;
 
-import android.app.Activity;
-import android.app.FragmentManager;
 import android.bluetooth.BluetoothDevice;
 import android.content.Intent;
 import android.hardware.hdmi.HdmiControlManager;
@@ -27,6 +25,8 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.os.SystemClock;
+import android.os.UserHandle;
+import android.os.UserManager;
 import android.transition.TransitionManager;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -35,25 +35,26 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 
 import androidx.annotation.NonNull;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
 
+import com.android.settingslib.RestrictedLockUtils;
+import com.android.settingslib.RestrictedLockUtilsInternal;
 import com.android.tv.settings.R;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Activity for detecting and adding (pairing) new bluetooth devices.
  */
-public class AddAccessoryActivity extends Activity implements BluetoothDevicePairer.EventListener {
+public class AddAccessoryActivity extends FragmentActivity
+        implements BluetoothDevicePairer.EventListener {
 
     private static final boolean DEBUG = false;
     private static final String TAG = "AddAccessoryActivity";
-
-    private static final String ACTION_CONNECT_INPUT =
-            "com.google.android.intent.action.CONNECT_INPUT";
-
-    private static final String INTENT_EXTRA_NO_INPUT_MODE = "no_input_mode";
 
     private static final String SAVED_STATE_PREFERENCE_FRAGMENT =
             "AddAccessoryActivity.PREFERENCE_FRAGMENT";
@@ -63,6 +64,11 @@ public class AddAccessoryActivity extends Activity implements BluetoothDevicePai
             "AddAccessoryActivity.BLUETOOTH_DEVICES";
 
     private static final String ADDRESS_NONE = "NONE";
+
+    public static final String ACTION_CONNECT_INPUT =
+            "com.google.android.intent.action.CONNECT_INPUT";
+
+    public static final String INTENT_EXTRA_NO_INPUT_MODE = "no_input_mode";
 
     private static final int AUTOPAIR_COUNT = 10;
 
@@ -95,6 +101,7 @@ public class AddAccessoryActivity extends Activity implements BluetoothDevicePai
     private boolean mPairingSuccess = false;
     private boolean mPairingBluetooth = false;
     private List<BluetoothDevice> mBluetoothDevices;
+    List<BluetoothDevice> mA11yAnnouncedDevices = new ArrayList<>();
     private String mCancelledAddress = ADDRESS_NONE;
     private String mCurrentTargetAddress = ADDRESS_NONE;
     private String mCurrentTargetStatus = "";
@@ -186,6 +193,22 @@ public class AddAccessoryActivity extends Activity implements BluetoothDevicePai
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        RestrictedLockUtils.EnforcedAdmin admin =
+                RestrictedLockUtilsInternal.checkIfRestrictionEnforced(this,
+                        UserManager.DISALLOW_CONFIG_BLUETOOTH, UserHandle.myUserId());
+        if (admin != null) {
+            RestrictedLockUtils.sendShowAdminSupportDetailsIntent(this, admin);
+            finish();
+            return;
+        }
+
+        // Normally, we set contentDescription for View elements in resource files for Talkback to
+        // announce when the element is being focused. However, this Activity is special as users
+        // may not have a connected remote control so we need to make an accessibility announcement
+        // when the Activity is launched. As the description is flexible, we construct it in runtime
+        // instead of setting the label for this Activity in the AndroidManifest.xml.
+        setTitle(getInitialAccessibilityAnnouncement());
+
         setContentView(R.layout.lb_dialog_fragment);
 
         mMsgHandler.setActivity(this);
@@ -202,7 +225,7 @@ public class AddAccessoryActivity extends Activity implements BluetoothDevicePai
                     savedInstanceState.getParcelableArrayList(SAVED_STATE_BLUETOOTH_DEVICES);
         }
 
-        final FragmentManager fm = getFragmentManager();
+        final FragmentManager fm = getSupportFragmentManager();
         if (savedInstanceState == null) {
             mPreferenceFragment = AddAccessoryPreferenceFragment.newInstance();
             mContentFragment = AddAccessoryContentFragment.newInstance();
@@ -232,9 +255,9 @@ public class AddAccessoryActivity extends Activity implements BluetoothDevicePai
     @Override
     protected void onSaveInstanceState(@NonNull Bundle outState) {
         super.onSaveInstanceState(outState);
-        getFragmentManager().putFragment(outState,
+        getSupportFragmentManager().putFragment(outState,
                 SAVED_STATE_PREFERENCE_FRAGMENT, mPreferenceFragment);
-        getFragmentManager().putFragment(outState,
+        getSupportFragmentManager().putFragment(outState,
                 SAVED_STATE_CONTENT_FRAGMENT, mContentFragment);
         outState.putParcelableList(SAVED_STATE_BLUETOOTH_DEVICES, mBluetoothDevices);
     }
@@ -313,7 +336,7 @@ public class AddAccessoryActivity extends Activity implements BluetoothDevicePai
         if (ACTION_CONNECT_INPUT.equals(intent.getAction()) &&
                 (intent.getFlags() & Intent.FLAG_ACTIVITY_BROUGHT_TO_FRONT) == 0) {
 
-            KeyEvent event = intent.getParcelableExtra(Intent.EXTRA_KEY_EVENT);
+            KeyEvent event = intent.getParcelableExtra(Intent.EXTRA_KEY_EVENT, KeyEvent.class);
             if (event != null && event.getKeyCode() == KeyEvent.KEYCODE_PAIRING) {
                 if (event.getAction() == KeyEvent.ACTION_UP) {
                     onHwKeyEvent(false);
@@ -572,6 +595,9 @@ public class AddAccessoryActivity extends Activity implements BluetoothDevicePai
                 case BluetoothDevicePairer.STATUS_ERROR:
                     state = "BluetoothDevicePairer.STATUS_ERROR";
                     break;
+                case BluetoothDevicePairer.STATUS_SUCCEED_BREDRMOUSE:
+                    state = "BluetoothDevicePairer.STATUS_SUCCEED_BREDRMOUSE";
+                    break;
             }
             long time = mBluetoothPairer.getNextStageTime() - SystemClock.elapsedRealtime();
             Log.d(TAG, "Update received, number of devices:" + numDevices + " state: " +
@@ -580,6 +606,7 @@ public class AddAccessoryActivity extends Activity implements BluetoothDevicePai
 
         mBluetoothDevices.clear();
         mBluetoothDevices.addAll(mBluetoothPairer.getAvailableDevices());
+        announceNewDevicesForA11y();
 
         cancelTimeout();
 
@@ -638,11 +665,44 @@ public class AddAccessoryActivity extends Activity implements BluetoothDevicePai
                     clearDeviceList();
                 }
                 break;
+            case BluetoothDevicePairer.STATUS_SUCCEED_BREDRMOUSE:
+                // Pairing complete
+                mCurrentTargetStatus = getString(R.string.accessory_state_paired);
+                mMsgHandler.sendEmptyMessage(MSG_UPDATE_VIEW);
+                mMsgHandler.sendEmptyMessageDelayed(MSG_PAIRING_COMPLETE,
+                        DONE_MESSAGE_TIMEOUT);
+                mDone = true;
+                // Done, return here and just wait for the message
+                // to close the activity
+                return;
         }
 
         mCurrentTargetAddress = address;
         mCurrentTargetStatus = getMessageForStatus(status);
         mMsgHandler.sendEmptyMessage(MSG_UPDATE_VIEW);
+    }
+
+    /**
+     * Announce device names as they become visible.
+     */
+    private void announceNewDevicesForA11y() {
+        Log.d(TAG, "announceNewDevicesForA11y");
+
+        // Filter out the already announced devices from the visible list
+        List<BluetoothDevice> newDevicesToAnnounce =
+                mBluetoothDevices
+                        .stream()
+                        .filter(device-> !mA11yAnnouncedDevices.contains(device))
+                        .collect(Collectors.toList());
+
+        // Create announcement string
+        StringBuilder sb = new StringBuilder();
+        for (BluetoothDevice device : newDevicesToAnnounce) {
+            sb.append(device.getName()).append(" ");
+        }
+        getWindow().getDecorView().setAccessibilityPaneTitle(sb.toString());
+
+        mA11yAnnouncedDevices = new ArrayList<>(mBluetoothDevices);
     }
 
     private void clearDeviceList() {
@@ -679,6 +739,22 @@ public class AddAccessoryActivity extends Activity implements BluetoothDevicePai
             return;
         }
         client.oneTouchPlay(callback);
+    }
+
+    /**
+     * @return String containing text to be announced when the Activity is visible to the users
+     * when Talkback is on.
+     */
+    private String getInitialAccessibilityAnnouncement() {
+        StringBuilder sb =
+                new StringBuilder(getString(R.string.accessories_add_accessibility_title));
+        sb.append(getString(R.string.accessories_add_title));
+        sb.append(getString(R.string.accessories_add_bluetooth_inst));
+        String extra = AddAccessoryContentFragment.getExtraInstructionContentDescription(this);
+        if (extra != null) {
+            sb.append(extra);
+        }
+        return sb.toString();
     }
 
     List<BluetoothDevice> getBluetoothDevices() {
