@@ -26,20 +26,23 @@ import android.net.wifi.WifiConfiguration;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
-import androidx.leanback.app.GuidedStepFragment;
+import androidx.leanback.app.GuidedStepSupportFragment;
 import androidx.leanback.widget.GuidanceStylist;
 import androidx.leanback.widget.GuidedAction;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 
-import com.android.internal.logging.nano.MetricsProto;
-import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
+import com.android.settingslib.RestrictedLockUtils;
+import com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
+import com.android.settingslib.RestrictedPreference;
 import com.android.settingslib.wifi.AccessPoint;
 import com.android.tv.settings.R;
 import com.android.tv.settings.SettingsPreferenceFragment;
+import com.android.tv.settings.library.network.WifiHelper;
 
 import java.util.List;
 
@@ -68,9 +71,9 @@ public class WifiDetailsFragment extends SettingsPreferenceFragment
     private Preference mMacAddressPref;
     private Preference mSignalStrengthPref;
     private ListPreference mRandomMacPref;
-    private Preference mProxySettingsPref;
-    private Preference mIpSettingsPref;
-    private Preference mForgetNetworkPref;
+    private RestrictedPreference mProxySettingsPref;
+    private RestrictedPreference mIpSettingsPref;
+    private RestrictedPreference mForgetNetworkPref;
 
     private ConnectivityListener mConnectivityListener;
     private AccessPoint mAccessPoint;
@@ -82,13 +85,10 @@ public class WifiDetailsFragment extends SettingsPreferenceFragment
     }
 
     @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.WIFI_NETWORK_DETAILS;
-    }
-
-    @Override
     public void onCreate(Bundle savedInstanceState) {
-        mConnectivityListener = new ConnectivityListener(getContext(), this, getLifecycle());
+        mConnectivityListener = new ConnectivityListener(
+                getContext(), this, getSettingsLifecycle());
+
         mAccessPoint = new AccessPoint(getContext(),
                 getArguments().getBundle(ARG_ACCESS_POINT_STATE));
         super.onCreate(savedInstanceState);
@@ -116,7 +116,7 @@ public class WifiDetailsFragment extends SettingsPreferenceFragment
         mIpAddressPref = findPreference(KEY_IP_ADDRESS);
         mMacAddressPref = findPreference(KEY_MAC_ADDRESS);
         mSignalStrengthPref = findPreference(KEY_SIGNAL_STRENGTH);
-        mRandomMacPref = (ListPreference) findPreference(KEY_RANDOM_MAC);
+        mRandomMacPref = findPreference(KEY_RANDOM_MAC);
         mProxySettingsPref = findPreference(KEY_PROXY_SETTINGS);
         mIpSettingsPref = findPreference(KEY_IP_SETTINGS);
         mForgetNetworkPref = findPreference(KEY_FORGET_NETWORK);
@@ -175,13 +175,14 @@ public class WifiDetailsFragment extends SettingsPreferenceFragment
             ProxySettings proxySettings = wifiConfiguration.getIpConfiguration().getProxySettings();
             mProxySettingsPref.setSummary(proxySettings == ProxySettings.NONE
                     ? R.string.wifi_action_proxy_none : R.string.wifi_action_proxy_manual);
-            mProxySettingsPref.setIntent(EditProxySettingsActivity.createIntent(getContext(),
+            mProxySettingsPref.setIntent(EditProxySettingsActivity.createWifiIntent(getContext(),
                     networkId));
 
             IpAssignment ipAssignment = wifiConfiguration.getIpConfiguration().getIpAssignment();
             mIpSettingsPref.setSummary(ipAssignment == IpAssignment.STATIC
-                            ? R.string.wifi_action_static : R.string.wifi_action_dhcp);
-            mIpSettingsPref.setIntent(EditIpSettingsActivity.createIntent(getContext(), networkId));
+                    ? R.string.wifi_action_static : R.string.wifi_action_dhcp);
+            mIpSettingsPref.setIntent(EditIpSettingsActivity.createWifiIntent(getContext(),
+                    networkId));
 
             mForgetNetworkPref.setFragment(ForgetNetworkConfirmFragment.class.getName());
             ForgetNetworkConfirmFragment.prepareArgs(mForgetNetworkPref.getExtras(), mAccessPoint);
@@ -205,6 +206,24 @@ public class WifiDetailsFragment extends SettingsPreferenceFragment
                     logEntrySelected(TvSettingsEnums.NETWORK_AP_INFO_FORGET_NETWORK);
                     return false;
                 });
+
+        boolean canModifyNetwork = !WifiHelper.isNetworkLockedDown(
+                getContext(), wifiConfiguration);
+        if (canModifyNetwork) {
+            mProxySettingsPref.setDisabledByAdmin(null);
+            mIpSettingsPref.setDisabledByAdmin(null);
+            mForgetNetworkPref.setDisabledByAdmin(null);
+
+            mProxySettingsPref.setEnabled(true);
+            mIpSettingsPref.setEnabled(true);
+            mForgetNetworkPref.setEnabled(true);
+        } else {
+            EnforcedAdmin admin = RestrictedLockUtils.getProfileOrDeviceOwner(getContext(),
+                    UserHandle.of(UserHandle.myUserId()));
+            mProxySettingsPref.setDisabledByAdmin(admin);
+            mIpSettingsPref.setDisabledByAdmin(admin);
+            mForgetNetworkPref.setDisabledByAdmin(admin);
+        }
     }
 
     private String getSignalStrength() {
@@ -265,10 +284,9 @@ public class WifiDetailsFragment extends SettingsPreferenceFragment
         return TvSettingsEnums.NETWORK_AP_INFO;
     }
 
-    public static class ForgetNetworkConfirmFragment extends GuidedStepFragment {
+    public static class ForgetNetworkConfirmFragment extends GuidedStepSupportFragment {
 
         private AccessPoint mAccessPoint;
-        private final MetricsFeatureProvider mMetricsFeatureProvider = new MetricsFeatureProvider();
 
         public static void prepareArgs(@NonNull Bundle args, AccessPoint accessPoint) {
             final Bundle apBundle = new Bundle();
@@ -311,8 +329,6 @@ public class WifiDetailsFragment extends SettingsPreferenceFragment
                 WifiManager wifiManager =
                         (WifiManager) getContext().getSystemService(Context.WIFI_SERVICE);
                 wifiManager.forget(mAccessPoint.getConfig().networkId, null);
-                mMetricsFeatureProvider.action(
-                        getContext(), MetricsProto.MetricsEvent.ACTION_WIFI_FORGET);
             }
             getFragmentManager().popBackStack();
         }
