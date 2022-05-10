@@ -16,10 +16,9 @@
 
 package com.android.tv.settings.about;
 
-import android.app.Fragment;
+import androidx.fragment.app.Fragment;
 
 import com.android.tv.settings.TvSettingsActivity;
-import com.android.tv.settings.overlay.FeatureFactory;
 
 /**
  * Activity which shows the build / model / legal info / etc.
@@ -28,7 +27,8 @@ public class AboutActivity extends TvSettingsActivity {
 
     @Override
     protected Fragment createSettingsFragment() {
-        return FeatureFactory.getFactory(this).getSettingsFragmentProvider()
-            .newSettingsFragment(AboutFragment.class.getName(), null);
+        return com.android.tv.settings.overlay.FlavorUtils.getFeatureFactory(
+                this).getSettingsFragmentProvider()
+                .newSettingsFragment(AboutFragment.class.getName(), null);
     }
 }

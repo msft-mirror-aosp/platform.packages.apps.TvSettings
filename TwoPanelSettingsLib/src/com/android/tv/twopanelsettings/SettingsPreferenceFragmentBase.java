@@ -16,16 +16,20 @@
 
 package com.android.tv.twopanelsettings;
 
-import androidx.leanback.preference.LeanbackPreferenceFragment;
+import android.os.Bundle;
+import android.view.View;
+
+import androidx.annotation.NonNull;
+import androidx.leanback.preference.LeanbackPreferenceFragmentCompat;
 
 /**
  * Child preference fragment should extend this class to make two panel settings functionality work,
  * otherwise preview panel would not show up.
  */
-public abstract class SettingsPreferenceFragmentBase extends LeanbackPreferenceFragment {
+public abstract class SettingsPreferenceFragmentBase extends LeanbackPreferenceFragmentCompat {
     @Override
-    public void onResume() {
-        super.onResume();
+    public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
         if (getCallbackFragment() instanceof TwoPanelSettingsFragment) {
             TwoPanelSettingsFragment parentFragment =
                     (TwoPanelSettingsFragment) getCallbackFragment();
@@ -34,8 +38,8 @@ public abstract class SettingsPreferenceFragmentBase extends LeanbackPreferenceF
     }
 
     @Override
-    public void onPause() {
-        super.onPause();
+    public void onDestroyView() {
+        super.onDestroyView();
         if (getCallbackFragment() instanceof TwoPanelSettingsFragment) {
             TwoPanelSettingsFragment parentFragment =
                     (TwoPanelSettingsFragment) getCallbackFragment();
