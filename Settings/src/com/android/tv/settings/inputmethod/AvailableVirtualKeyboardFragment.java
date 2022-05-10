@@ -31,14 +31,14 @@ import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.UserHandle;
 import android.view.inputmethod.InputMethodInfo;
 import android.view.inputmethod.InputMethodManager;
 
 import androidx.annotation.Keep;
 import androidx.preference.PreferenceScreen;
 
-import com.android.internal.logging.nano.MetricsProto;
-import com.android.settingslib.inputmethod.InputMethodAndSubtypeUtil;
+import com.android.settingslib.inputmethod.InputMethodAndSubtypeUtilCompat;
 import com.android.settingslib.inputmethod.InputMethodPreference;
 import com.android.settingslib.inputmethod.InputMethodSettingValuesWrapper;
 import com.android.tv.settings.R;
@@ -84,7 +84,7 @@ public final class AvailableVirtualKeyboardFragment extends SettingsPreferenceFr
     public void onSaveInputMethodPreference(final InputMethodPreference pref) {
         final boolean hasHardwareKeyboard = getResources().getConfiguration().keyboard
                 == Configuration.KEYBOARD_QWERTY;
-        InputMethodAndSubtypeUtil.saveInputMethodSubtypeList(this,
+        InputMethodAndSubtypeUtilCompat.saveInputMethodSubtypeList(this,
                 getContext().getContentResolver(), mImm.getInputMethodList(), hasHardwareKeyboard);
         // Update input method settings and preference list.
         mInputMethodSettingValues.refreshAllInputMethodAndSubtypes();
@@ -153,7 +153,7 @@ public final class AvailableVirtualKeyboardFragment extends SettingsPreferenceFr
             final boolean isAllowedByOrganization = permittedList == null
                     || permittedList.contains(imi.getPackageName());
             final InputMethodPreference pref = new InputMethodPreference(
-                    context, imi, true, isAllowedByOrganization, this);
+                    context, imi, isAllowedByOrganization, this, UserHandle.myUserId());
             // TODO: Update the icon container in leanback_preference.xml to use LinearLayout.
             // This is a workaround to avoid the crash. b/146654624
             pref.setIconSize(0);
@@ -167,14 +167,9 @@ public final class AvailableVirtualKeyboardFragment extends SettingsPreferenceFr
             final InputMethodPreference pref = mInputMethodPreferenceList.get(i);
             pref.setOrder(i);
             getPreferenceScreen().addPreference(pref);
-            InputMethodAndSubtypeUtil.removeUnnecessaryNonPersistentPreference(pref);
+            InputMethodAndSubtypeUtilCompat.removeUnnecessaryNonPersistentPreference(pref);
             pref.updatePreferenceViews();
         }
-    }
-
-    @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.ENABLE_VIRTUAL_KEYBOARDS;
     }
 
     @Override

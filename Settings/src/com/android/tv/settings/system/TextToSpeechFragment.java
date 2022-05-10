@@ -37,7 +37,6 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 
-import com.android.internal.logging.nano.MetricsProto;
 import com.android.tv.settings.R;
 import com.android.tv.settings.SettingsPreferenceFragment;
 
@@ -254,6 +253,9 @@ public class TextToSpeechFragment extends SettingsPreferenceFragment implements
      * Called when the TTS engine is initialized.
      */
     public void onInitEngine(int status) {
+        if (mTts == null) {
+            return;
+        }
         if (status == TextToSpeech.SUCCESS) {
             if (DBG) Log.d(TAG, "TTS engine for settings screen initialized.");
             checkDefaultLocale();
@@ -626,11 +628,6 @@ public class TextToSpeechFragment extends SettingsPreferenceFragment implements
     public void setCurrentKey(String key) {
         mCurrentEngine = key;
         updateDefaultEngine(mCurrentEngine);
-    }
-
-    @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.TTS_TEXT_TO_SPEECH;
     }
 
     @Override

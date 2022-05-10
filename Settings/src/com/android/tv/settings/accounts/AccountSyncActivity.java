@@ -18,12 +18,12 @@ package com.android.tv.settings.accounts;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
-import android.app.Fragment;
 import android.os.Bundle;
 import android.text.TextUtils;
 
+import androidx.fragment.app.Fragment;
+
 import com.android.tv.settings.TvSettingsActivity;
-import com.android.tv.settings.overlay.FeatureFactory;
 
 /**
  * Displays the sync settings for a given account.
@@ -46,8 +46,9 @@ public class AccountSyncActivity extends TvSettingsActivity {
                 }
             }
         }
-        return FeatureFactory.getFactory(this).getSettingsFragmentProvider()
-            .newSettingsFragment(AccountSyncFragment.class.getName(), getArguments(account));
+        return com.android.tv.settings.overlay.FlavorUtils.getFeatureFactory(
+                this).getSettingsFragmentProvider()
+                .newSettingsFragment(AccountSyncFragment.class.getName(), getArguments(account));
     }
 
     private Bundle getArguments(Account account) {

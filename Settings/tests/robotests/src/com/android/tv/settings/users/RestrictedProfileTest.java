@@ -31,6 +31,8 @@ import android.content.pm.UserInfo;
 import android.os.UserHandle;
 import android.os.UserManager;
 
+import com.android.tv.settings.library.users.RestrictedProfileModel;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -64,13 +66,13 @@ public class RestrictedProfileTest {
     @Test
     public void testGetUser_isSelf() {
         setCurrentUser(mProfileInfo);
-        assertThat(newRpm().getUser()).isSameAs(mProfileInfo);
+        assertThat(newRpm().getUser()).isSameInstanceAs(mProfileInfo);
     }
 
     @Test
     public void testGetUser_isChild() {
         setCurrentUser(mOwnerInfo).addOtherUsers(mProfileInfo);
-        assertThat(newRpm().getUser()).isSameAs(mProfileInfo);
+        assertThat(newRpm().getUser()).isSameInstanceAs(mProfileInfo);
     }
 
     @Test
