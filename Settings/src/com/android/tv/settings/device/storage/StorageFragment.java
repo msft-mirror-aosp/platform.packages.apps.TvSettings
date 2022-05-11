@@ -31,12 +31,12 @@ import android.util.Log;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
-import com.android.internal.logging.nano.MetricsProto;
 import com.android.settingslib.deviceinfo.StorageMeasurement;
 import com.android.tv.settings.R;
 import com.android.tv.settings.SettingsPreferenceFragment;
 import com.android.tv.settings.device.apps.AppsFragment;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 
@@ -232,7 +232,12 @@ public class StorageFragment extends SettingsPreferenceFragment {
         final long downloadsSize = totalValues(details.mediaSize.get(currentUser),
                 Environment.DIRECTORY_DOWNLOADS);
 
-        mAvailablePref.setSize(details.availSize);
+        try {
+            mAvailablePref.setSize(mStorageManager.getAllocatableBytes(
+                    StorageManager.convert(mVolumeInfo.fsUuid)));
+        } catch (IOException e) {
+            mAvailablePref.setSize(details.availSize);
+        }
         mAppsUsagePref.setSize(details.appsSize.get(currentUser));
         mDcimUsagePref.setSize(dcimSize);
         mMusicUsagePref.setSize(musicSize);
@@ -277,11 +282,6 @@ public class StorageFragment extends SettingsPreferenceFragment {
                 }
             }
         }
-    }
-
-    @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SETTINGS_STORAGE_CATEGORY;
     }
 
     @Override

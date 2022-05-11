@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2017 The Android Open Source Project
+ * Copyright (C) 2021 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -53,9 +53,16 @@ public final class WifiConfigHelper {
             "$|^(\\*)?\\.?[" + HC + "]+(\\-[" + HC + "]+)*(\\.[" + HC + "]+(\\-[" + HC + "]+)*)*$";
     private static final Pattern EXCLUSION_PATTERN;
 
+    private static final String BYPASS_PROXY_EXCLUDE_REGEX =
+            "[a-zA-Z0-9*]+(\\-[a-zA-Z0-9*]+)*(\\.[a-zA-Z0-9*]+(\\-[a-zA-Z0-9*]+)*)*";
+    private static final String BYPASS_PROXY_EXCLUDE_LIST_REGEXP = "^$|^"
+            + BYPASS_PROXY_EXCLUDE_REGEX + "(," + BYPASS_PROXY_EXCLUDE_REGEX + ")*$";
+    private static final Pattern BYPASS_PROXY_EXCLUSION_PATTERN;
+
     static {
         HOSTNAME_PATTERN = Pattern.compile(HOSTNAME_REGEXP);
         EXCLUSION_PATTERN = Pattern.compile(EXCLUSION_REGEXP);
+        BYPASS_PROXY_EXCLUSION_PATTERN = Pattern.compile(BYPASS_PROXY_EXCLUDE_LIST_REGEXP);
     }
 
     private WifiConfigHelper() {
@@ -100,17 +107,44 @@ public final class WifiConfigHelper {
     /**
      * validate syntax of hostname and port entries
      *
+     * @param hostname host name to be used
+     * @param port port to be used
+     * @param exclList what should be accepted as input
      * @return 0 on success, string resource ID on failure
      */
     public static int validate(String hostname, String port, String exclList) {
+        return validate(hostname, port, exclList, false);
+    }
+
+    /**
+     * validate syntax of hostname and port entries
+     *
+     * @param hostname host name to be used
+     * @param port port to be used
+     * @param exclList what should be accepted as input
+     * @param forProxyCheck if extra check for bypass proxy should be done
+     * @return 0 on success, string resource ID on failure
+     */
+    public static int validate(String hostname, String port, String exclList,
+                               boolean forProxyCheck) {
+        if (DEBUG) {
+            Log.i(TAG, "validate, hostname: " + hostname + ", for proxy=" + forProxyCheck);
+        }
         Matcher match = HOSTNAME_PATTERN.matcher(hostname);
         String[] exclListArray = exclList.split(",");
 
         if (!match.matches()) return R.string.proxy_error_invalid_host;
 
         for (String excl : exclListArray) {
-            Matcher m = EXCLUSION_PATTERN.matcher(excl);
-            if (!m.matches()) return R.string.proxy_error_invalid_exclusion_list;
+            Matcher m;
+            if (forProxyCheck) {
+                m = BYPASS_PROXY_EXCLUSION_PATTERN.matcher(excl);
+            } else {
+                m = EXCLUSION_PATTERN.matcher(excl);
+            }
+            if (!m.matches()) {
+                return R.string.proxy_error_invalid_exclusion_list;
+            }
         }
 
         if (hostname.length() > 0 && port.length() == 0) {
@@ -136,7 +170,7 @@ public final class WifiConfigHelper {
 
     /**
      * Get {@link WifiConfiguration} based upon the {@link WifiManager} and networkId.
-     * @param wifiManager
+     *
      * @param networkId the id of the network.
      * @return the {@link WifiConfiguration} of the specified network.
      */
@@ -220,6 +254,7 @@ public final class WifiConfigHelper {
 
                 // If the SSID and the security match, that's our network.
                 String configuredSsid = WifiInfo.sanitizeSsid(configuredNetwork.SSID);
+
                 if (TextUtils.equals(configuredSsid, ssid)) {
                     int configuredSecurity = WifiSecurityUtil.getSecurity(configuredNetwork);
                     if (configuredSecurity == security) {
