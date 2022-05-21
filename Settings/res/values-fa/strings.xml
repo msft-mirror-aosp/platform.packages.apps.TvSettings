@@ -185,8 +185,7 @@
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"«تأیید» را انتخاب کنید تا ازاین‌پس از %1$s استفاده شود."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"لغو"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"تأیید"</string>
-    <!-- no translation found for resolution_selection_hz (4425902505388495637) -->
-    <skip />
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"هرتز"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"اطلاعات در حافظه پنهان پاک شود؟"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"اطلاعات در حافظه پنهان همه برنامه‌ها پاک می‌شود."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -209,11 +208,11 @@
     <string name="accessories_autopair_msg" msgid="2501824457418285019">"دستگاهی یافت شد و به‌طور خودکار بعد از <xliff:g id="COUNTDOWN">%1$s</xliff:g> ثانیه مرتبط می‌شود"</string>
     <string name="error_action_not_supported" msgid="5377532621386080296">"این عملکرد پشتیبانی نمی‌شود"</string>
     <string name="bluetooth_pairing_request" msgid="6120176967230348092">"درخواست مرتبط‌سازی با بلوتوث"</string>
-    <string name="bluetooth_confirm_passkey_msg" msgid="7397401633869153520">"برای مرتبط کردن با &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;، مطمئن شوید این کلیدواژه را نشان می‌دهد: &lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;"</string>
+    <string name="bluetooth_confirm_passkey_msg" msgid="7397401633869153520">"برای مرتبط‌سازی با &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;، مطمئن شوید این گذرکلید را نشان می‌دهد: &lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;"</string>
     <string name="bluetooth_incoming_pairing_msg" msgid="8587851808387685613">"از: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;با این دستگاه مرتبط شود؟"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="6934651048757228432">"برای مرتبط‌سازی با: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;&lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt; را در آن تایپ کنید و سپس Return یا Enter را فشار دهید."</string>
     <string name="bluetooth_enter_pin_msg" msgid="8905524093007140634">"برای مرتبط‌سازی با: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;،‏ &lt;br&gt;پین لازم برای این دستگاه را تایپ کنید:"</string>
-    <string name="bluetooth_enter_passkey_msg" msgid="889584097447402492">"برای مرتبط‌سازی با: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;،‏ &lt;br&gt;کلیدواژه درخواستی برای دستگاه را تایپ کنید:"</string>
+    <string name="bluetooth_enter_passkey_msg" msgid="889584097447402492">"برای مرتبط‌سازی با: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;،‏ &lt;br&gt;گذرکلید درخواستی برای دستگاه را تایپ کنید:"</string>
     <string name="bluetooth_pin_values_hint" msgid="6237371515577342950">"معمولاً ۰۰۰۰ یا ۱۲۳۴"</string>
     <string name="bluetooth_pair" msgid="2410285813728786067">"مرتبط‌سازی"</string>
     <string name="bluetooth_cancel" msgid="4415185529332987034">"لغو"</string>
@@ -1034,4 +1033,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"برق و انرژی"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"عملکرد تلویزیون هنگام روشن بودن"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"بازنشاندن"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"کد مرتبط‌سازی اترنت"</string>
 </resources>
