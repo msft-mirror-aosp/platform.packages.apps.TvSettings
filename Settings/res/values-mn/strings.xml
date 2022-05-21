@@ -185,6 +185,7 @@
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Одооноос %1$s-г ашиглахын тулд OK-г сонгоно уу."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Цуцлах"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"Гц"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Кеш хийгдсэн өгөгдлийг арилгах уу?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Бүх програмд зориулан кеш хийгдсэн өгөгдлийг арилгах болно."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -488,7 +489,7 @@
     <string name="storage_calculating_size" msgid="5716281278843281044">"Тооцоолж байна…"</string>
     <string name="storage_apps_usage" msgid="8659915575274468924">"Апп"</string>
     <string name="storage_downloads_usage" msgid="8429196848359517158">"Татан авалтууд"</string>
-    <string name="storage_dcim_usage" msgid="1890098882753254745">"Зураг &amp; видео"</string>
+    <string name="storage_dcim_usage" msgid="1890098882753254745">"Зураг, видео"</string>
     <string name="storage_music_usage" msgid="5362871290115089474">"Аудио"</string>
     <string name="storage_media_misc_usage" msgid="3404230292054880339">"Янз бүрийн."</string>
     <string name="storage_media_cache_usage" msgid="6397941751551207630">"Кеш хийгдсэн өгөгдөл"</string>
@@ -590,9 +591,13 @@
     <string name="microphone" msgid="7893752847683941214">"Микрофон"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Микрофоны хандалт"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Микрофоны аппын хандалт"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Микрофоны хандалтыг блоклосон"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Блокоос гаргахын тулд төхөөрөмжийнхөө нууцлалын сэлгүүрийг микрофон асаалттай байрлалд зөөж микрофонд хандахыг зөвшөөрнө үү."</string>
     <string name="camera" msgid="1226671478936288283">"Камер"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Камерын хандалт"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Камерын аппын хандалт"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Камерын хандалтыг блоклосон"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Блокоос гаргахын тулд төхөөрөмжийнхөө нууцлалын сэлгүүрийг камер асаалттай байрлалд зөөж камерт хандахыг зөвшөөрнө үү."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Микрофоны хандалт: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"Асаасан үед зөвшөөрөлтэй бүх апп болон үйлчилгээ энэ төхөөрөмж дээрх дурын микрофонд хандаж болно.\n\nЗахиалгат протоколтой аудионы нэмэлт хэрэгслүүдэд энэ тохиргоо нөлөөлөхгүй."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Камерын хандалт: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -867,7 +872,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Гуравдагч талын эх сурвалж"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Зөвшөөрлүүд"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Апп боломжгүй байна"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"Зөвшөөрөл хасаж, сул зай гаргах"</string>
     <string name="unused_apps" msgid="5539166745483454543">"Ашиглаагүй апп"</string>
     <string name="settings_ok" msgid="5950888975075541964">"OK"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Баталгаажуулах"</string>
@@ -1029,4 +1033,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Тэжээл болон эрчим хүч"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Асаалттай үеийн төлөв"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Шинэчлэх"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Этернэт хослуулах код"</string>
 </resources>

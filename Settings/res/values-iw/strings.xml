@@ -185,6 +185,7 @@
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"בוחרים באפשרות \'אישור\' כדי להשתמש ברזולוציה %1$s מעכשיו והלאה."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"ביטול"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"אישור"</string>
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"הרץ (Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"האם לנקות נתונים בקובץ שמור?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"פעולה זו תנקה נתונים בקובץ שמור, לכל האפליקציות."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -590,9 +591,13 @@
     <string name="microphone" msgid="7893752847683941214">"מיקרופון"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"גישה למיקרופון"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"גישה של אפליקציות למיקרופון"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"הגישה למיקרופון חסומה"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"כדי לבטל את החסימה ולאפשר גישה למיקרופון, צריך להעביר את מתג הפרטיות במכשיר למצב \'המיקרופון פועל\'."</string>
     <string name="camera" msgid="1226671478936288283">"מצלמה"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"גישה למצלמה"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"גישה של אפליקציות למצלמה"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"הגישה למצלמה חסומה"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"כדי לבטל את החסימה ולאפשר גישה למצלמה, צריך להעביר את מתג הפרטיות במכשיר למצב \'המצלמה פועלת\'."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"סטטוס הגישה למיקרופון: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"כשההגדרה מופעלת, לכל האפליקציות והשירותים יש גישה לכל מיקרופון במכשיר הזה.\n\nההגדרה לא תשפיע על ציוד אודיו היקפי של עם פרוטוקול בהתאמה אישית."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"סטטוס הגישה למצלמה: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -867,7 +872,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"מקור של צד שלישי"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"אישורים"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"האפליקציה אינה זמינה"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"הסרת הרשאות ופינוי נפח אחסון"</string>
     <string name="unused_apps" msgid="5539166745483454543">"אפליקציות שמזמן לא השתמשת בהן"</string>
     <string name="settings_ok" msgid="5950888975075541964">"אישור"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"אישור"</string>
@@ -1029,4 +1033,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"עוצמה ואנרגיה"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"התנהגות בהפעלה"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"איפוס"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"קוד התאמה לאתרנט"</string>
 </resources>

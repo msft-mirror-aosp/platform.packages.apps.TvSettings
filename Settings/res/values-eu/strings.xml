@@ -185,6 +185,7 @@
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Hemendik aurrera %1$s erabiltzeko, hautatu Ados."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Utzi"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Ados"</string>
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Cacheko datuak garbitu nahi dituzu?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Aplikazio guztien cacheko datuak garbituko dira."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -385,7 +386,7 @@
     <string name="title_signal_strength" msgid="5047116893338315998">"Seinalearen indarra"</string>
     <string name="title_random_mac_settings" msgid="6685812569356353378">"Pribatutasuna"</string>
   <string-array name="random_mac_settings_entries">
-    <item msgid="3457228452595715533">"Erabili ausaz aukeratutako MAC helbidea (lehenetsia)"</item>
+    <item msgid="3457228452595715533">"Ausaz aukeratutako MAC helbide bat (lehenetsia)"</item>
     <item msgid="2490415280467390067">"Erabili gailuaren MAC helbidea"</item>
   </string-array>
     <string name="mac_address_not_available" msgid="2992935344891853369">"Ez dago erabilgarri"</string>
@@ -424,8 +425,8 @@
     <string name="title_wifi_ip_address" msgid="5505806431042689276">"IP helbidea:"</string>
     <string name="title_wifi_gateway" msgid="4496416267930824360">"Atebidea:"</string>
     <string name="title_wifi_network_prefix_length" msgid="3200370297772096824">"Sare-aurrizkiaren luzera:"</string>
-    <string name="title_wifi_dns1" msgid="1585965227665007553">"DNS 1:"</string>
-    <string name="title_wifi_dns2" msgid="4563319371301555072">"DNS 2:"</string>
+    <string name="title_wifi_dns1" msgid="1585965227665007553">"1. DNSa:"</string>
+    <string name="title_wifi_dns2" msgid="4563319371301555072">"2. DNSa:"</string>
     <string name="title_wifi_proxy_settings_invalid" msgid="7698883245005941665">"Proxy-ezarpenak ez dira baliozkoak"</string>
     <string name="title_wifi_ip_settings_invalid" msgid="7283801973512992014">"IParen ezarpenak ez dira baliozkoak"</string>
     <string name="title_wifi_known_network" msgid="6162483884727898697">"<xliff:g id="SSID">%1$s</xliff:g> gordetako sareetan dago"</string>
@@ -466,7 +467,7 @@
     <string name="proxy_error_empty_port" msgid="692020249267351015">"Ataka eremuak ezin du hutsik egon"</string>
     <string name="proxy_error_empty_host_set_port" msgid="5347712018244852847">"Ostalaria eremua hutsik badago, utzi Ataka eremua hutsik"</string>
     <string name="proxy_error_invalid_port" msgid="5307010810664745294">"Atakak ez du balio"</string>
-    <string name="proxy_warning_limited_support" msgid="4220553563487968684">"Arakatzaileak HTTP proxya erabiltzen du; beste aplikazioek, ordea, agian ezingo dute erabili."</string>
+    <string name="proxy_warning_limited_support" msgid="4220553563487968684">"Arakatzaileak HTTP proxya erabiltzen du; beste aplikazioek, ordea, agian ez dute erabiliko."</string>
     <string name="proxy_port_description" msgid="6486205863098427787">"Idatzi balio duen ataka bat.\nAdibidez: <xliff:g id="ID_1">8080</xliff:g>"</string>
     <string name="proxy_exclusionlist_description" msgid="5105504899364188296">"Idatzi kanpo utzitako domeinuen zerrenda bat komaz bereizita, edo utzi hutsik.\nAdibidez: <xliff:g id="ID_1">example.com,mycomp.test.com,localhost</xliff:g>"</string>
     <string name="proxy_hostname_description" msgid="5520200112290557199">"Idatzi balio duen ostalari-izen bat.\nAdibidez: <xliff:g id="ID_1">proxy.example.com</xliff:g>"</string>
@@ -590,9 +591,13 @@
     <string name="microphone" msgid="7893752847683941214">"Mikrofonoa"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Mikrofonoa atzitzeko baimena"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Aplikazioen mikrofono-atzitzeak"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Mikrofonorako sarbidea blokeatuta dago"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Hura desblokeatzeko, ezarri gailuaren pribatutasun-etengailua mikrofonoa aktibatuta egon dadin, kamerarako sarbidea emateko."</string>
     <string name="camera" msgid="1226671478936288283">"Kamera"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Kamera atzitzeko baimena"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Aplikazioen kamera-atzitzeak"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Kamerarako sarbidea blokeatuta dago"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Hura desblokeatzeko, ezarri gailuaren pribatutasun-etengailua kamera aktibatuta egon dadin, kamerarako sarbidea emateko."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofonoa atzitzeko baimena: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"Aktibatuta dagoenean, gailu honetako edozein mikrofono atzitu ahalko dute horretarako baimena daukaten aplikazio eta zerbitzu guztiek.\n\nEzarpen honek ez die eragingo protokolo pertsonalizatu bat daukaten audio-gailu periferikoei."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Kamera atzitzeko baimena: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -665,7 +670,7 @@
     <string name="color_yellow" msgid="3519470952904560404">"Horia"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Magenta"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Audio-azalpena"</string>
-    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Entzun pantailan agertzen denaren azalpen bat film eta telesaio bateragarriak ikusi bitartean"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Entzun pantailan agertzen denaren azalpen bat film eta saio bateragarriak ikusi bitartean"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Gaitu"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfigurazioa"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> erabili?"</string>
@@ -750,7 +755,7 @@
   <string-array name="animation_scale_entries">
     <item msgid="5408992662476056082">"Animazioa desaktibatuta"</item>
     <item msgid="6818290063799857019">"Animazio-eskala: 0,5x"</item>
-    <item msgid="8257959452691080724">"Animazio-eskala: 1x"</item>
+    <item msgid="8257959452691080724">"Animazio-eskala: 1×"</item>
     <item msgid="4781052272686018414">"Animazio-eskala: 1,5x"</item>
     <item msgid="2272016945160227610">"Animazio-eskala: 2x"</item>
     <item msgid="5015441793276576312">"Animazio-eskala: 5x"</item>
@@ -867,7 +872,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Hirugarrenen kode irekiko lizentziak"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Baimenak"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Aplikazioa ez dago erabilgarri"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"Kendu baimenak eta egin tokia"</string>
     <string name="unused_apps" msgid="5539166745483454543">"Erabiltzen ez diren aplikazioak"</string>
     <string name="settings_ok" msgid="5950888975075541964">"Ados"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Berretsi"</string>
@@ -952,7 +956,7 @@
     <string name="write_settings_description" msgid="7382397926674265937">"Baimen honekin, sistemaren ezarpenak alda ditzakete aplikazioek."</string>
     <string name="write_settings_on" msgid="71675710746513956">"Bai"</string>
     <string name="write_settings_off" msgid="6730113471695092167">"Ez"</string>
-    <string name="manage_external_storage_title" msgid="8139593207533811077">"Fitxategi orotarako sarbidea"</string>
+    <string name="manage_external_storage_title" msgid="8139593207533811077">"Fitxategi guztietarako sarbidea"</string>
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"Eman fitxategi guztiak kudeatzeko baimena"</string>
     <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Eman gailuko edo konektatutako biltegiratze-unitateetako fitxategiak irakurtzeko, aldatzeko eta ezabatzeko baimena aplikazioari. Baimena emanez gero, baliteke aplikazioak fitxategiak atzitzea zuk jakin ez arren."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Pantaila txiki gainjarria"</string>
@@ -1029,4 +1033,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Potentzia eta energia"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Piztean izan beharreko portaera"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Berrezarri"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet bidez parekatzeko kodea"</string>
 </resources>

@@ -182,9 +182,10 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"Çözünürlük"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Otomatik"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"Çözünürlük değiştirildi"</string>
-    <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Bundan sonra %1$s çözünürlüğünü kullanmak için Tamam\'ı seçin."</string>
+    <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Bundan sonra %1$s çözünürlüğü kullanmak için Tamam\'ı seçin."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"İptal"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Tamam"</string>
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Önbelleğe alınan veriler silinsin mi?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Bu, tüm uygulamaların önbellek verilerini siler."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -466,7 +467,7 @@
     <string name="proxy_error_empty_port" msgid="692020249267351015">"Bağlantı noktası alanı boş olamaz"</string>
     <string name="proxy_error_empty_host_set_port" msgid="5347712018244852847">"Ana bilgisayar alanı boşsa bağlantı noktası alanını da boş bırakın"</string>
     <string name="proxy_error_invalid_port" msgid="5307010810664745294">"Bağlantı noktası geçerli değil"</string>
-    <string name="proxy_warning_limited_support" msgid="4220553563487968684">"HTTP proxy, tarayıcı tarafından kullanılır ancak diğer uygulamalar tarafından kullanılamayabilir"</string>
+    <string name="proxy_warning_limited_support" msgid="4220553563487968684">"HTTP proxy, tarayıcı tarafından kullanılır ancak diğer uygulamalar tarafından kullanılmayabilir"</string>
     <string name="proxy_port_description" msgid="6486205863098427787">"Geçerli bir bağlantı noktası girin.\nÖrnek: <xliff:g id="ID_1">8080</xliff:g>"</string>
     <string name="proxy_exclusionlist_description" msgid="5105504899364188296">"Hariç tutulan alan adlarının virgülle ayrılmış listesini girin veya boş bırakın.\nÖrnek: <xliff:g id="ID_1">example.com,mycomp.test.com,localhost</xliff:g>"</string>
     <string name="proxy_hostname_description" msgid="5520200112290557199">"Geçerli bir ana bilgisayar adı girin.\nÖrnek: <xliff:g id="ID_1">proxy.example.com</xliff:g>"</string>
@@ -590,9 +591,13 @@
     <string name="microphone" msgid="7893752847683941214">"Mikrofon"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Mikrofon erişimi"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Uygulamanın mikrofona erişimi"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Mikrofon erişimi engellendi"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Engeli kaldırıp mikrofon erişimine izin vermek için cihazınızdaki gizlilik anahtarını mikrofon açık konumuna getirin."</string>
     <string name="camera" msgid="1226671478936288283">"Kamera"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Kamera erişimi"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Uygulamanın kameraya erişimi"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Kamera erişimi engellendi"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Engeli kaldırıp kamera erişimine izin vermek için cihazınızdaki gizlilik anahtarını kamera açık konumuna getirin."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofon Erişimi: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"Bu seçenek açıldığında izni olan tüm uygulamalar ve hizmetler, bu cihazdaki herhangi bir mikrofona erişebilir.\n\nÖzel bir protokole sahip ses çevre birimleri bu ayardan etkilenmez."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Kamera Erişimi: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -665,7 +670,7 @@
     <string name="color_yellow" msgid="3519470952904560404">"Sarı"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Macenta"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Sesli açıklama"</string>
-    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Desteklenen filmlerde ve dizilerde ekranda neler olduğuna dair açıklamaları dinleyin"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Desteklenen filmlerde ve programlarda ekranda neler olduğuyla ilgili açıklamaları dinleyin"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Etkinleştir"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Yapılandırma"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> kullanılsın mı?"</string>
@@ -867,7 +872,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Üçüncü Taraf Kaynak"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"İzinler"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Uygulama kullanılamıyor"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"İzinleri kaldır ve yer aç"</string>
     <string name="unused_apps" msgid="5539166745483454543">"Kullanılmayan uygulamalar"</string>
     <string name="settings_ok" msgid="5950888975075541964">"Tamam"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Onayla"</string>
@@ -1029,4 +1033,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Güç ve Enerji"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Açılış davranışı"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Sıfırla"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet eşleme kodu"</string>
 </resources>

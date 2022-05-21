@@ -185,6 +185,7 @@
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"ជ្រើសរើស \"យល់ព្រម\" ដើម្បីប្រើ %1$s ចាប់ពីពេល​នេះតទៅ។"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"បោះបង់"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"យល់ព្រម"</string>
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"ជម្រះទិន្នន័យក្នុងឃ្លាំងសម្ងាត់?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"វានឹងជម្រះទិន្នន័យឃ្លាំងសម្រាប់កម្មវិធីទាំងអស់។"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -590,9 +591,13 @@
     <string name="microphone" msgid="7893752847683941214">"មីក្រូហ្វូន"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"ការចូលប្រើ​មីក្រូហ្វូន"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"ការចូលប្រើមីក្រូហ្វូន​ពីកម្មវិធី"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"បានទប់ស្កាត់​ការចូលប្រើ​មីក្រូហ្វូន"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"ដើម្បីឈប់​ទប់ស្កាត់ សូមប្ដូរប៊ូតុងបិទបើក​ឯកជនភាព​នៅលើឧបករណ៍​របស់អ្នក​ទៅទីតាំងបើកមីក្រូហ្វូន ដើម្បីអនុញ្ញាតឱ្យ​ចូលប្រើ​មីក្រូហ្វូន។"</string>
     <string name="camera" msgid="1226671478936288283">"កាមេរ៉ា"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"ការចូលប្រើ​កាមេរ៉ា"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"ការចូលប្រើកាមេរ៉ា​ពីកម្មវិធី"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"បានទប់ស្កាត់​ការចូលប្រើកាមេរ៉ា"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"ដើម្បីឈប់​ទប់ស្កាត់ សូមប្ដូរ​ប៊ូតុងបិទបើកឯកជនភាព​នៅលើ​ឧបករណ៍របស់អ្នក​ទៅទីតាំងបើក​កាមេរ៉ា ដើម្បីអនុញ្ញាតឱ្យ​ចូលប្រើ​កាមេរ៉ា។"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"ការចូលប្រើ​មីក្រូហ្វូន៖ <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"នៅពេលបើក នោះសេវាកម្ម និងកម្មវិធីទាំងអស់ដែលមានការអនុញ្ញាតអាចចូលប្រើមីក្រូហ្វូនណាក៏បាននៅលើឧបករណ៍នេះ។\n\nការកំណត់នេះនឹងមិនប៉ះពាល់ដល់ឧបករណ៍សំឡេងដែលភ្ជាប់ពីខាងក្រៅដែលប្រើប្រូតូកូលផ្ទាល់ខ្លួនទេ។"</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"ការចូលប្រើ​កាមេរ៉ា៖ <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -665,7 +670,7 @@
     <string name="color_yellow" msgid="3519470952904560404">"លឿង"</string>
     <string name="color_magenta" msgid="2377854703399624607">"ស្វាយ​ខ្ចី"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"ការពណ៌នាជាសំឡេង"</string>
-    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"ស្ដាប់ការពណ៌នាអំពីអ្វីដែលបានកើតឡើងនៅលើអេក្រង់ក្នុងភាពយន្ត និងកម្មវិធីដែលអាចប្រើបាន"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"ស្ដាប់ការពណ៌នាអំពីអ្វីដែលកំពុងកើតឡើងនៅលើអេក្រង់ក្នុងភាពយន្ត និងកម្មវិធីទូរទស្សន៍ដែល​មានការពណ៌នាជាសំឡេង"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"បើកដំណើរការ"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"ការ​កំណត់​រចនា​សម្ព័ន្ធ"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"ប្រើ <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
@@ -676,7 +681,7 @@
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"ការកំណត់រចនាសម្ព័ន្ធម៉ាស៊ីន"</string>
     <string name="system_speak_passwords" msgid="8556036524146404052">"និយាយ​ពាក្យ​សម្ងាត់"</string>
     <string name="system_preferred_engine" msgid="3545505072652708443">"ម៉ាស៊ីន​ដែល​ចង់ប្រើ"</string>
-    <string name="system_speech_rate" msgid="6553204071403872669">"កម្រិត​ការ​និយាយ"</string>
+    <string name="system_speech_rate" msgid="6553204071403872669">"ល្បឿននិយាយ"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"លេង​គំរូ"</string>
     <string name="system_install_voice_data" msgid="8016395777968958673">"ដំឡើង​ទិន្នន័យ​​ជា​សំឡេង"</string>
     <string name="system_general" msgid="687760148454147771">"ទូទៅ"</string>
@@ -848,7 +853,7 @@
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"បើក"</string>
     <string name="device_apps_app_management_force_stop" msgid="4454221309989640309">"បង្ខំឲ្យបញ្ឈប់"</string>
     <string name="device_apps_app_management_force_stop_desc" msgid="1980972142863114899">"ប្រសិនបើអ្នកបង្ខំឲ្យបញ្ឈប់កម្មវិធីនេះ វាអាចដំណើរការមិនប្រក្រតី"</string>
-    <string name="device_apps_app_management_uninstall" msgid="4171103696233332967">"លុបការដំឡើង"</string>
+    <string name="device_apps_app_management_uninstall" msgid="4171103696233332967">"លុប"</string>
     <string name="device_apps_app_management_uninstall_updates" msgid="5647988075828648951">"លុបបច្ចុប្បន្នភាព"</string>
     <string name="device_apps_app_management_uninstall_updates_desc" msgid="4508586498292236706">"បច្ចុប្បន្នភាពទាំងអស់ចំពោះប្រព័ន្ធ Android នេះនឹងត្រូវបានលុប។"</string>
     <string name="device_apps_app_management_disable" msgid="819003297535493633">"បិទដំណើរការ"</string>
@@ -856,7 +861,7 @@
     <string name="device_apps_app_management_enable" msgid="9173340340253029114">"បើកដំណើរការ"</string>
     <string name="device_apps_app_management_enable_desc" msgid="8686291003061136476">"តើអ្នកចង់បើកដំណើរការកម្មវិធីនេះទេ?"</string>
     <string name="device_apps_app_management_storage_used" msgid="6725789557993296433">"ឧបករណ៍ផ្ទុកដែលបានប្រើ"</string>
-    <string name="device_apps_app_management_storage_used_desc" msgid="8928632612101487179">"បានប្រើអស់<xliff:g id="SIZE">%1$s</xliff:g> នៅក្នុង <xliff:g id="VOLUME">%2$s</xliff:g>"</string>
+    <string name="device_apps_app_management_storage_used_desc" msgid="8928632612101487179">"បានប្រើអស់ <xliff:g id="SIZE">%1$s</xliff:g> នៅក្នុង​<xliff:g id="VOLUME">%2$s</xliff:g>"</string>
     <string name="device_apps_app_management_clear_data" msgid="7305471678286735600">"សម្អាត​ទិន្នន័យ"</string>
     <string name="device_apps_app_management_clear_data_desc" msgid="170972356946852847">"ទិន្នន័យរបស់កម្មវិធីនេះទាំងអស់នឹងត្រូវបានលុបជាអចិន្ត្រៃយ៍។\n រួមមានឯកសារ ការកំណត់ គណនី និងមូលដ្ឋានទិន្នន័យទាំងអស់ ។ល។"</string>
     <string name="device_apps_app_management_clear_default" msgid="4566187319647111484">"សម្អាត​លំនាំដើម"</string>
@@ -867,7 +872,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"ប្រភព​ភាគី​ទីបី"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"ការអនុញ្ញាត"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"កម្មវិធីមិនអាចប្រើបានទេ"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"ដក​ការអនុញ្ញាតចេញ និងបង្កើន​ទំហំផ្ទុក"</string>
     <string name="unused_apps" msgid="5539166745483454543">"កម្មវិធី​ដែលមិន​ប្រើ"</string>
     <string name="settings_ok" msgid="5950888975075541964">"យល់ព្រម"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"បញ្ជាក់"</string>
@@ -1029,4 +1033,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"កម្លាំង និង​ថាមពល"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"សកម្មភាព​នៅពេល​បើក"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"កំណត់​ឡើងវិញ"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"កូដផ្គូផ្គងអ៊ីសឺរណិត"</string>
 </resources>
