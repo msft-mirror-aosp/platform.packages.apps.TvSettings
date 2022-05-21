@@ -185,6 +185,7 @@
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Kies OK om %1$s van nou af te gebruik."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Kanselleer"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Moet gekaste data uitgevee word?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Sal gekaste data vir alle programme uitvee."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -590,9 +591,13 @@
     <string name="microphone" msgid="7893752847683941214">"Mikrofoon"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Mikrofoontoegang"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Programtoegang tot mikrofoon"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Mikrofoontoegang is geblokkeer"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Om te deblokkeer, moet jy die privaatheidskakelaar op jou toestel na die Mikrofoon Aan-posisie beweeg om mikrofoontoegang toe te laat."</string>
     <string name="camera" msgid="1226671478936288283">"Kamera"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Kameratoegang"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Programtoegang tot kamera"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Kameratoegang is geblokkeer"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Om te deblokkeer, moet jy die privaatheidskakelaar op jou toestel na die Kamera Aan-posisie beweeg om kameratoegang toe te laat."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofoontoegang: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"Wanneer dit aangeskakel is, sal alle programme en dienste met toestemming toegang tot enige mikrofoon op hierdie toestel hê.\n\nOudio-randtoestelle met \'n gepasmaakte protokol sal nie deur hierdie instelling geraak word nie."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Kameratoegang: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -622,7 +627,7 @@
     <string name="delete_location_history_desc" msgid="4035229731487113147">"Dit sal alle ligginggeskiedenis vir hierdie Google-rekening wat vanaf hierdie toestel gestoor is, uitvee. Jy kan nie hierdie uitvee ontdoen nie. Sommige programme, insluitend Google Now, sal ophou werk."</string>
     <string name="system_services" msgid="5754310941186053151">"Dienste"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Diensinstellings"</string>
-    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Hoëkontras-teks"</string>
+    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Hoëkontrasteks"</string>
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Toeganklikheid-kortpad"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Aktiveer toeganklikheidskortpad"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Kortpaddiens"</string>
@@ -661,7 +666,7 @@
     <string name="color_red" msgid="1899020130465926495">"Rooi"</string>
     <string name="color_green" msgid="7546929005626106667">"Groen"</string>
     <string name="color_blue" msgid="7681690245150985958">"Blou"</string>
-    <string name="color_cyan" msgid="3172130225116530998">"Groen-blou"</string>
+    <string name="color_cyan" msgid="3172130225116530998">"Siaan"</string>
     <string name="color_yellow" msgid="3519470952904560404">"Geel"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Magenta"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Oudiobeskrywing"</string>
@@ -867,7 +872,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Derdepartybron"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Toestemmings"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Program is nie beskikbaar nie"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"Verwyder toestemmings en maak spasie oop"</string>
     <string name="unused_apps" msgid="5539166745483454543">"Ongebruikte programme"</string>
     <string name="settings_ok" msgid="5950888975075541964">"OK"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Bevestig"</string>
@@ -1029,4 +1033,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Krag en energie"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Aanskakelgedrag"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Stel terug"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-saambindkode"</string>
 </resources>

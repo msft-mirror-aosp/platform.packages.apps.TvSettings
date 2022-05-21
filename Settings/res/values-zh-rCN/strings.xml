@@ -185,6 +185,7 @@
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"选择“确定”，即可立即开始使用%1$s。"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"取消"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"确定"</string>
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"要清除缓存的数据吗？"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"此操作会清除所有应用的缓存数据。"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -590,9 +591,13 @@
     <string name="microphone" msgid="7893752847683941214">"麦克风"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"麦克风使用权限"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"应用的麦克风使用权限"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"已禁用麦克风使用权限"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"若要取消禁用，请将设备上的隐私保护开关移到“麦克风已启用”位置，以允许使用麦克风。"</string>
     <string name="camera" msgid="1226671478936288283">"摄像头"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"摄像头使用权限"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"应用的摄像头使用权限"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"已禁用摄像头使用权限"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"若要取消禁用，请将设备上的隐私保护开关移到“摄像头已启用”位置，以允许使用摄像头。"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"麦克风使用权限：<xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"开启后，具有权限的所有应用和服务均可使用此设备上的任何麦克风。\n\n此设置将不会影响采用自定义协议的音频外围设备。"</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"摄像头使用权限：<xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -623,8 +628,8 @@
     <string name="system_services" msgid="5754310941186053151">"服务"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"服务设置"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"高对比度文字"</string>
-    <string name="accessibility_shortcut" msgid="5856158637840030531">"无障碍功能快捷方式"</string>
-    <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"启用无障碍功能快捷方式"</string>
+    <string name="accessibility_shortcut" msgid="5856158637840030531">"无障碍快捷方式"</string>
+    <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"启用无障碍快捷方式"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"快捷方式服务"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"开启这项快捷方式后，同时按下返回和向下按钮 3 秒钟即可启动无障碍功能。"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"字幕"</string>
@@ -665,7 +670,7 @@
     <string name="color_yellow" msgid="3519470952904560404">"黄色"</string>
     <string name="color_magenta" msgid="2377854703399624607">"紫红色"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"语音描述"</string>
-    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"在支持的影视节目中听到对屏幕上正在发生的情节的描述"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"听取有关当前屏幕画面内容的语音说明（仅限支持该设置的电影或电视节目）"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"启用"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"配置"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"要使用<xliff:g id="SERVICE">%1$s</xliff:g>吗？"</string>
@@ -867,7 +872,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"第三方源代码"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"权限"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"无法使用应用"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"撤消权限并释放空间"</string>
     <string name="unused_apps" msgid="5539166745483454543">"未使用的应用"</string>
     <string name="settings_ok" msgid="5950888975075541964">"确定"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"确认"</string>
@@ -953,7 +957,7 @@
     <string name="write_settings_on" msgid="71675710746513956">"是"</string>
     <string name="write_settings_off" msgid="6730113471695092167">"否"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"所有文件访问权限"</string>
-    <string name="permit_manage_external_storage" msgid="1776899171934627417">"授予所有文件的管理权限"</string>
+    <string name="permit_manage_external_storage" msgid="1776899171934627417">"授予管理所有文件的权限"</string>
     <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"允许此应用读取、修改和删除此设备或任何已连接存储卷上的所有文件。如果您授予该权限，应用无需明确通知您即可访问文件。"</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"画中画"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"允许进入画中画模式"</string>
@@ -1029,4 +1033,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"开关和电源"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"开机行为"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"重置"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"以太网配对码"</string>
 </resources>

@@ -185,6 +185,7 @@
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Pilih OK untuk menggunakan %1$s mulai sekarang."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Batal"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Padam bersih data cache?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Ini akan memadam bersih data cache semua apl."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -590,9 +591,13 @@
     <string name="microphone" msgid="7893752847683941214">"Mikrofon"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Akses mikrofon"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Akses apl kepada mikrofon"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Akses mikrofon disekat"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Untuk menyahsekat mikrofon, gerakkan suis privasi pada peranti anda kepada kedudukan \"mikrofon hidup\" untuk membenarkan akses mikrofon."</string>
     <string name="camera" msgid="1226671478936288283">"Kamera"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Akses kamera"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Akses apl kepada kamera"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Akses kamera disekat"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Untuk menyahsekat kamera, gerakkan suis privasi pada peranti anda kepada kedudukan \"kamera hidup\" untuk membenarkan akses kamera."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Akses Mikrofon: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"Apabila dihidupkan, semua apl dan perkhidmatan yang mempunyai kebenaran boleh mengakses sebarang mikrofon pada peranti ini.\n\nPersisian audio dengan protokol tersuai tidak akan terjejas dengan tetapan ini."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Akses Kamera: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -867,7 +872,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Sumber Pihak Ketiga"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Kebenaran"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Aplikasi tidak tersedia"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"Alih keluar kebenaran dan kosongkan ruang"</string>
     <string name="unused_apps" msgid="5539166745483454543">"Apl yang tidak digunakan"</string>
     <string name="settings_ok" msgid="5950888975075541964">"OK"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Sahkan"</string>
@@ -1029,4 +1033,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Kuasa &amp; Tenaga"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Gelagat kuasa dihidupkan"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Tetapkan semula"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Kod berpasangan Ethernet"</string>
 </resources>

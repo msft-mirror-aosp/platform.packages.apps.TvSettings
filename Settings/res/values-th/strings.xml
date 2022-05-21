@@ -182,9 +182,10 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"ความละเอียด"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"อัตโนมัติ"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"เปลี่ยนความละเอียดแล้ว"</string>
-    <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"เลือก \"ตกลง\" เพื่อใช้ %1$s นับจากนี้ไป"</string>
+    <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"เลือก \"ตกลง\" เพื่อเริ่มใช้ %1$s"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"ยกเลิก"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ตกลง"</string>
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"ล้างข้อมูลในแคชไหม"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"การทำงานนี้จะล้างข้อมูลในแคชของแอปทั้งหมด"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -256,8 +257,8 @@
     <string name="system_inputs" msgid="5552840337357572096">"อินพุต"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"อินพุตและอุปกรณ์"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"ตัวควบคุมชุดโฮมเธียเตอร์"</string>
-    <string name="system_accessibility" msgid="3081009195560501010">"การเข้าถึง"</string>
-    <string name="system_developer_options" msgid="8480844257066475479">"ตัวเลือกสำหรับนักพัฒนาซอฟต์แวร์"</string>
+    <string name="system_accessibility" msgid="3081009195560501010">"การช่วยเหลือพิเศษ"</string>
+    <string name="system_developer_options" msgid="8480844257066475479">"ตัวเลือกสำหรับนักพัฒนาแอป"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"ไม่มี"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"การใช้งานและการวินิจฉัย"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"ไม่มีแอปผู้ดูแลระบบอุปกรณ์พร้อมใช้งาน"</string>
@@ -590,9 +591,13 @@
     <string name="microphone" msgid="7893752847683941214">"ไมโครโฟน"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"สิทธิ์เข้าถึงไมโครโฟน"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"สิทธิ์เข้าถึงไมโครโฟนของแอป"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"การเข้าถึงไมโครโฟนถูกบล็อก"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"หากต้องการเลิกบล็อก ให้สลับสวิตช์ความเป็นส่วนตัวบนอุปกรณ์ไปที่ตำแหน่งเปิดไมโครโฟน เพื่อให้สิทธิ์การเข้าถึงไมโครโฟน"</string>
     <string name="camera" msgid="1226671478936288283">"กล้อง"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"สิทธิ์เข้าถึงกล้อง"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"สิทธิ์เข้าถึงกล้องของแอป"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"การเข้าถึงกล้องถูกบล็อก"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"หากต้องการเลิกบล็อก ให้สลับสวิตช์ความเป็นส่วนตัวบนอุปกรณ์ไปที่ตำแหน่งเปิดกล้อง เพื่อให้สิทธิ์การเข้าถึงกล้อง"</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"สิทธิ์เข้าถึงไมโครโฟน: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"เมื่อเปิดไว้ แอปและบริการทั้งหมดที่มีสิทธิ์จะเข้าถึงไมโครโฟนในอุปกรณ์นี้ได้\n\nอุปกรณ์ต่อพ่วงเสียงโดยมีโปรโตคอลที่กำหนดเองจะไม่ได้รับผลกระทบจากการตั้งค่านี้"</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"สิทธิ์เข้าถึงกล้อง: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -623,7 +628,7 @@
     <string name="system_services" msgid="5754310941186053151">"บริการ"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"การตั้งค่าบริการ"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ข้อความคอนทราสต์สูง"</string>
-    <string name="accessibility_shortcut" msgid="5856158637840030531">"ทางลัดสำหรับการเข้าถึง"</string>
+    <string name="accessibility_shortcut" msgid="5856158637840030531">"ทางลัดสำหรับการช่วยเหลือพิเศษ"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"เปิดใช้ทางลัดการเข้าถึง"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"บริการทางลัด"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"เมื่อทางลัดเปิดอยู่ ให้กดปุ่มกลับและปุ่มลงค้างไว้ 3 วินาทีเพื่อเริ่มฟีเจอร์การเข้าถึง"</string>
@@ -867,7 +872,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"แหล่งที่มาของบุคคลที่สาม"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"สิทธิ์"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"แอปพลิเคชันไม่สามารถใช้งานได้"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"นำสิทธิ์ออกและเพิ่มพื้นที่ว่าง"</string>
     <string name="unused_apps" msgid="5539166745483454543">"แอปที่ไม่ได้ใช้"</string>
     <string name="settings_ok" msgid="5950888975075541964">"ตกลง"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"ยืนยัน"</string>
@@ -930,7 +934,7 @@
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"ได้รับอนุญาต"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"ไม่อนุญาต"</string>
     <string name="usage_access" msgid="8402350645248312782">"การเข้าถึงการใช้งาน"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"การเข้าถึงการใช้งานทำให้แอปสามารถติดตามว่าคุณกำลังใช้แอปอื่นใดอยู่ ความถี่ในการใช้ รวมทั้งผู้ให้บริการ การตั้งค่าภาษา และรายละเอียดอื่นๆ"</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"การเข้าถึงการใช้งานทำให้แอปสามารถติดตามว่าคุณกำลังใช้​แอปอื่นใดอยู่ ความถี่ในการใช้ รวมทั้งผู้ให้บริการ การตั้งค่าภาษา และรายละเอียดอื่นๆ"</string>
     <string name="high_power_apps" msgid="5841073958519976562">"การเพิ่มประสิทธิภาพพลังงาน"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"เพิ่มประสิทธิภาพการใช้พลังงานของแอป"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"ไม่มีแอปที่ต้องการเพิ่มประสิทธิภาพ"</string>
@@ -954,7 +958,7 @@
     <string name="write_settings_off" msgid="6730113471695092167">"ไม่"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"การเข้าถึงไฟล์ทั้งหมด"</string>
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"อนุญาตให้เข้าถึงเพื่อจัดการไฟล์ทั้งหมด"</string>
-    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"อนุญาตให้แอปนี้อ่าน แก้ไข และลบไฟล์ทั้งหมดในอุปกรณ์นี้หรือวอลุ่มของพื้นที่เก็บข้อมูลใดๆ ที่เชื่อมต่อ หากได้รับอนุญาต แอปอาจเข้าถึงไฟล์ได้โดยที่คุณไม่ทราบอย่างชัดแจ้ง"</string>
+    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"อนุญาตให้แอปนี้อ่าน แก้ไข และลบไฟล์ทั้งหมดในอุปกรณ์นี้หรือวอลุ่มของพื้นที่เก็บข้อมูลใดๆ ที่เชื่อมต่อ หากได้รับอนุญาต ​แอปอาจเข้าถึงไฟล์ได้โดยที่คุณไม่ทราบอย่างชัดแจ้ง"</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"การแสดงภาพซ้อนภาพ"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"อนุญาตการแสดงภาพซ้อนภาพ"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"แอปที่ติดตั้งอยู่ไม่รองรับการแสดงภาพซ้อนภาพ"</string>
@@ -1029,4 +1033,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"กำลังไฟฟ้าและพลังงาน"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"ลักษณะการทำงานเมื่อเปิดเครื่อง"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"รีเซ็ต"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"รหัสการจับคู่อีเทอร์เน็ต"</string>
 </resources>

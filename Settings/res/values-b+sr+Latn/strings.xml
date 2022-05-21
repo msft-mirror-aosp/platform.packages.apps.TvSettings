@@ -185,6 +185,7 @@
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Izaberite Potvrdi da biste koristili %1$s od sada."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Otkaži"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Potvrdi"</string>
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Želite li da obrišete keširane podatke?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Biće obrisani keširani podaci za sve aplikacije."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -590,9 +591,13 @@
     <string name="microphone" msgid="7893752847683941214">"Mikrofon"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Pristup mikrofonu"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Pristup aplikacije mikrofonu"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Pristup mikrofonu je blokiran"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Da biste odblokirali, pomerite prekidač za privatnost na uređaju na poziciju uključeno za mikrofon kako biste omogućili pristup mikrofonu."</string>
     <string name="camera" msgid="1226671478936288283">"Kamera"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Pristup kameri"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Pristup aplikacije kameri"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Pristup kameri je blokiran"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Da biste odblokirali, pomerite prekidač za privatnost na uređaju na poziciju uključeno za kameru kako biste omogućili pristup kameri."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Pristup mikrofonu: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"Kada je uključeno, sve aplikacije i usluge sa dozvolom mogu da pristupaju svakom mikrofonu na ovom uređaju.\n\nOvo podešavanje ne utiče na periferne audio uređaje sa prilagođenim protokolom."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Pristup kameri: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -651,8 +656,8 @@
     <string name="captions_windowshow" msgid="6002072054703167886">"Prikaži prozor"</string>
     <string name="captions_windowcolor" msgid="7460430328878876648">"Boja prozora"</string>
     <string name="captions_windowopacity" msgid="8645082670322789314">"Neprozirnost prozora"</string>
-    <string name="captions_style_0" msgid="169414884289770256">"Belo na crnoj pozadini"</string>
-    <string name="captions_style_1" msgid="8236052739817535538">"Crno na beloj pozadini"</string>
+    <string name="captions_style_0" msgid="169414884289770256">"Belo na crnom"</string>
+    <string name="captions_style_1" msgid="8236052739817535538">"Crno na belom"</string>
     <string name="captions_style_2" msgid="456353889540431910">"Žuto na crnoj pozadini"</string>
     <string name="captions_style_3" msgid="3860050153620761166">"Žuto na plavoj pozadini"</string>
     <string name="captions_style_custom" msgid="9062905566459387931">"Prilagođeno"</string>
@@ -803,8 +808,8 @@
     <string name="input_header_names" msgid="5903234218909970550">"Naziv"</string>
     <string name="inputs_hdmi_control" msgid="650355636965841054">"Kontrola HDMI-ja"</string>
     <string name="inputs_hdmi_control_desc" msgid="306769914209526682">"Dozvoli TV-u da kontroliše HDMI uređaje"</string>
-    <string name="inputs_device_auto_off" msgid="2659766884754402352">"Automatski isključi uređaj"</string>
-    <string name="inputs_device_auto_off_desc" msgid="1164897242719608201">"Isključivanje HDMI uređaja pomoću TV-a"</string>
+    <string name="inputs_device_auto_off" msgid="2659766884754402352">"Automatski ugasi uređaj"</string>
+    <string name="inputs_device_auto_off_desc" msgid="1164897242719608201">"Gašenje HDMI uređaja pomoću TV-a"</string>
     <string name="inputs_tv_auto_on" msgid="544848340484583318">"Automatski uključi TV"</string>
     <string name="inputs_tv_auto_on_desc" msgid="3640723210479925817">"Uključi TV pomoću HDMI uređaja"</string>
     <string name="inputs_header_connected_input" msgid="4323324944548164849">"{count,plural, =1{Povezani ulaz}one{Povezani ulazi}few{Povezani ulazi}other{Povezani ulazi}}"</string>
@@ -867,7 +872,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Nezavisni izvor"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Dozvole"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Aplikacija nije dostupna"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"Ukloni dozvole i oslobodi prostor"</string>
     <string name="unused_apps" msgid="5539166745483454543">"Aplikacije koje se ne koriste"</string>
     <string name="settings_ok" msgid="5950888975075541964">"Potvrdi"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Potvrdi"</string>
@@ -1029,4 +1033,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Napajanje i energija"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Ponašanje pri uključivanju"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Resetuj"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Kôd za uparivanje za eternet"</string>
 </resources>

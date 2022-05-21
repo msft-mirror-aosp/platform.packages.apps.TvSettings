@@ -185,6 +185,7 @@
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Izberite »V redu«, če želite od zdaj naprej uporabljati %1$s."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Prekliči"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"V redu"</string>
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Želite izbrisati predpomnjene podatke?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Izbrisali boste predpomn. pod. vseh aplikacij."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -590,9 +591,13 @@
     <string name="microphone" msgid="7893752847683941214">"Mikrofon"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Dostop do mikrofona"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Dostop aplikacije do mikrofona"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Dostop do mikrofona je blokiran"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Če želite odblokirati, dovolite dostop do mikrofona tako, da pri njem premaknete stikalo za zasebnost v napravi v vklopljen položaj."</string>
     <string name="camera" msgid="1226671478936288283">"Fotoaparat"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"Dostop do fotoaparata"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Dostop aplikacije do fotoaparata"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Dostop do kamere je blokiran"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Če želite odblokirati, dovolite dostop do kamere tako, da pri njej premaknete stikalo za zasebnost v napravi v vklopljen položaj."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Dostop do mikrofona: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="4699624900513326055">"Ko je v vklopljenem položaju, lahko vse aplikacije in storitve z dovoljenjem dostopajo do poljubnega mikrofona v tej napravi.\n\nTa nastavitev ne vpliva na zunanje zvočne naprave s protokolom po meri."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"Dostop do fotoaparata: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
@@ -867,7 +872,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Vir tretje osebe"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Dovoljenja"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Aplikacija ni na voljo"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"Odstrani dovoljenja in sprosti prostor"</string>
     <string name="unused_apps" msgid="5539166745483454543">"Neuporabljene aplikacije"</string>
     <string name="settings_ok" msgid="5950888975075541964">"V redu"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Potrdi"</string>
@@ -1029,4 +1033,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Napajanje in energija"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Delovanje ob vklopu"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Ponastavi"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Koda za seznanjanje za ethernet"</string>
 </resources>
