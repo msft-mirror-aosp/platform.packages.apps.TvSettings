@@ -71,6 +71,8 @@
     <uses-permission android:name="com.google.android.assistant.READ_HOTWORD_STATE"/>
     <uses-permission android:name="com.google.android.assistant.WRITE_HOTWORD_STATE"/>
     <uses-permission android:name="android.permission.MANAGE_SLICE_PERMISSIONS"/>
+    <uses-permission android:name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
+    <uses-permission android:name="android.permission.SET_UNRESTRICTED_KEEP_CLEAR_AREAS"/>
 
     <application
          android:name=".TvSettingsApplication"
@@ -161,6 +163,7 @@
             android:configChanges="keyboard|keyboardHidden|navigation"
             android:excludeFromRecents="true"
             android:exported="true"
+            android:permission="android.permission.NETWORK_SETTINGS"
             android:theme="@style/Theme.SettingsConnectivity" >
             <intent-filter>
                 <action android:name="com.android.settings.wifi.action.WIFI_CONNECTION_SETTINGS"/>
@@ -660,6 +663,19 @@
                 <action android:name="android.settings.REQUEST_SET_AUTOFILL_SERVICE"/>
                 <category android:name="android.intent.category.DEFAULT"/>
                 <data android:scheme="package"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".system.AppLanguageActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation|locale"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:theme="@style/TvSettingsActivityTheme">
+            <intent-filter>
+                <action android:name="android.settings.APP_LOCALE_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="package" />
             </intent-filter>
         </activity>
 
@@ -1253,6 +1269,14 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <receiver
+            android:name=".GlobalKeyReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.GLOBAL_BUTTON"/>
+            </intent-filter>
+        </receiver>
 
     </application>
 

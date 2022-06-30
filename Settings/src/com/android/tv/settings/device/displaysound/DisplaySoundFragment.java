@@ -34,6 +34,7 @@ import android.text.TextUtils;
 import android.view.Display;
 
 import androidx.annotation.Keep;
+import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.TwoStatePreference;
 
@@ -103,7 +104,7 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment implements
         updateCecPreference();
         updateDefaultAudioOutputSettings();
 
-        mDisplayManager = getContext().getSystemService(DisplayManager.class);
+        mDisplayManager = getDisplayManager();
         Display display = mDisplayManager.getDisplay(Display.DEFAULT_DISPLAY);
         if (display.getSystemPreferredDisplayMode() != null) {
             mDisplayManager.registerDisplayListener(this, null);
@@ -167,7 +168,9 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment implements
         if (defaultAudioOutputSlicePref != null) {
             defaultAudioOutputSlicePref.setVisible(
                     SliceUtils.isSliceProviderValid(getContext(),
-                        defaultAudioOutputSlicePref.getUri()));
+                        defaultAudioOutputSlicePref.getUri())
+                    && SliceUtils.isSettingsSliceEnabled(getContext(),
+                        defaultAudioOutputSlicePref.getUri(), null));
         }
     }
 
@@ -190,6 +193,11 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment implements
                     ResolutionSelectionUtils.modeToString(newMode, getContext()));
             mCurrentMode = newMode;
         }
+    }
+
+    @VisibleForTesting
+    DisplayManager getDisplayManager() {
+        return getContext().getSystemService(DisplayManager.class);
     }
 
     private void updateResolutionTitleDescription(String summary) {
