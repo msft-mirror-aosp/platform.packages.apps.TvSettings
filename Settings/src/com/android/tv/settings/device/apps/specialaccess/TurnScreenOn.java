@@ -20,6 +20,7 @@ import android.Manifest;
 import android.app.ActivityManager;
 import android.app.AppOpsManager;
 import android.app.tvsettings.TvSettingsEnums;
+import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.UserHandle;
@@ -35,6 +36,9 @@ import androidx.preference.TwoStatePreference;
 import com.android.settingslib.applications.ApplicationsState;
 import com.android.tv.settings.R;
 import com.android.tv.settings.SettingsPreferenceFragment;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * Fragment for managing which apps are allowed to turn the screen on
@@ -57,16 +61,15 @@ public class TurnScreenOn extends SettingsPreferenceFragment
                 }
 
                 @Override
-                public boolean filterApp(ApplicationsState.AppEntry info) {
-                    info.extraInfo = mAppOpsManager.checkOpNoThrow(AppOpsManager.OP_TURN_SCREEN_ON,
-                            info.info.uid, info.info.packageName) == AppOpsManager.MODE_ALLOWED;
-                    return !ManageAppOp.shouldIgnorePackage(
-                            getContext(),
-                            info.info.packageName, /* customizedIgnoredPackagesArray= */ 0)
-                            && !info.info.isPrivilegedApp()
+                public boolean filterApp(ApplicationsState.AppEntry entry) {
+                    entry.extraInfo = mAppOpsManager.checkOpNoThrow(AppOpsManager.OP_TURN_SCREEN_ON,
+                            entry.info.uid, entry.info.packageName) == AppOpsManager.MODE_ALLOWED;
+                    return !ManageAppOp.shouldIgnorePackage(getContext(), entry.info.packageName,
+                            /* customizedIgnoredPackagesArray= */ 0)
+                            && !entry.info.isPrivilegedApp()
                             && ActivityManager.getCurrentUser() == UserHandle.getUserId(
-                            info.info.uid)
-                            && checkPackageHasWakeLockPermission(info.info.packageName);
+                                    entry.info.uid)
+                            && hasTurnScreenOnPermission(entry.info);
                 }
             });
 
@@ -89,9 +92,9 @@ public class TurnScreenOn extends SettingsPreferenceFragment
         mManageApplicationsController.updateAppList();
     }
 
-    private boolean checkPackageHasWakeLockPermission(String packageName) {
-        return getContext().getPackageManager().checkPermission(Manifest.permission.WAKE_LOCK,
-                packageName) == PackageManager.PERMISSION_GRANTED;
+    private boolean hasTurnScreenOnPermission(ApplicationInfo appInfo) {
+        return getContext().getPackageManager().checkPermission(Manifest.permission.TURN_SCREEN_ON,
+                appInfo.packageName) == PackageManager.PERMISSION_GRANTED;
     }
 
     @NonNull
@@ -100,28 +103,39 @@ public class TurnScreenOn extends SettingsPreferenceFragment
             ApplicationsState.AppEntry entry) {
         final TwoStatePreference switchPref = (SwitchPreference) preference;
         switchPref.setTitle(entry.label);
-        switchPref.setKey(entry.info.packageName);
+        switchPref.setKey("package:" + entry.info.uid + ":" + entry.info.packageName);
         switchPref.setIcon(entry.icon);
         switchPref.setChecked((Boolean) entry.extraInfo);
         switchPref.setOnPreferenceChangeListener((pref, newValue) -> {
-            int newMode =
-                    (Boolean) newValue ? AppOpsManager.MODE_ALLOWED : AppOpsManager.MODE_ERRORED;
-            if (DEBUG) {
-                Log.d(TAG, "setting OP_TURN_SCREEN_ON to " + newMode
-                        + ", uid=" + entry.info.uid
-                        + ", packageName=" + entry.info.packageName
-                        + ", userId=" + UserHandle.getUserId(entry.info.uid)
-                        + ", currentUser=" + ActivityManager.getCurrentUser());
-            }
-            mAppOpsManager.setMode(AppOpsManager.OP_TURN_SCREEN_ON,
-                    entry.info.uid,
-                    entry.info.packageName,
-                    newMode);
+            findEntriesUsingPackageName(entry.info.packageName)
+                    .forEach(packageEntry -> setTurnScreenOnMode(packageEntry, (Boolean) newValue));
             return true;
         });
         switchPref.setSummaryOn(R.string.app_permission_summary_allowed);
         switchPref.setSummaryOff(R.string.app_permission_summary_not_allowed);
         return switchPref;
+    }
+
+    private void setTurnScreenOnMode(ApplicationsState.AppEntry entry, boolean newValue) {
+        int newMode =
+                (Boolean) newValue ? AppOpsManager.MODE_ALLOWED : AppOpsManager.MODE_ERRORED;
+        if (DEBUG) {
+            Log.d(TAG, "setting OP_TURN_SCREEN_ON to " + newMode
+                    + ", uid=" + entry.info.uid
+                    + ", packageName=" + entry.info.packageName
+                    + ", userId=" + UserHandle.getUserId(entry.info.uid)
+                    + ", currentUser=" + ActivityManager.getCurrentUser());
+        }
+        mAppOpsManager.setMode(AppOpsManager.OP_TURN_SCREEN_ON,
+                entry.info.uid,
+                entry.info.packageName,
+                newMode);
+    }
+
+    private List<ApplicationsState.AppEntry> findEntriesUsingPackageName(String packageName) {
+        return mManageApplicationsController.getApps().stream()
+                .filter(entry -> entry.info.packageName.equals(packageName))
+                .collect(Collectors.toList());
     }
 
     @NonNull
