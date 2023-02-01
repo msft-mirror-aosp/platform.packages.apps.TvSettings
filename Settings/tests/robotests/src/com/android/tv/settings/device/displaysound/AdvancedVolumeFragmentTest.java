@@ -26,6 +26,7 @@ import static com.google.common.truth.Truth.assertThat;
 
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.spy;
+import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 
 import android.media.AudioFormat;
@@ -60,7 +61,8 @@ import java.util.stream.IntStream;
 @RunWith(RobolectricTestRunner.class)
 public class AdvancedVolumeFragmentTest {
 
-    @Spy private AudioManager mAudioManager;
+    @Spy
+    private AudioManager mAudioManager;
 
     @Before
     public void setUp() {
@@ -125,7 +127,7 @@ public class AdvancedVolumeFragmentTest {
 
         ArgumentCaptor<Integer> audioFormat = ArgumentCaptor.forClass(Integer.class);
         ArgumentCaptor<Boolean> formatEnabled = ArgumentCaptor.forClass(Boolean.class);
-        verify(mAudioManager).setSurroundFormatEnabled(
+        verify(mAudioManager, times(4)).setSurroundFormatEnabled(
                 audioFormat.capture(), formatEnabled.capture());
         assertThat(audioFormat.getValue()).isEqualTo(AudioFormat.ENCODING_DTS);
         assertThat(formatEnabled.getValue()).isTrue();
@@ -153,10 +155,104 @@ public class AdvancedVolumeFragmentTest {
 
         ArgumentCaptor<Integer> audioFormat = ArgumentCaptor.forClass(Integer.class);
         ArgumentCaptor<Boolean> formatEnabled = ArgumentCaptor.forClass(Boolean.class);
-        verify(mAudioManager).setSurroundFormatEnabled(
+        verify(mAudioManager, times(4)).setSurroundFormatEnabled(
                 audioFormat.capture(), formatEnabled.capture());
         assertThat(audioFormat.getValue()).isEqualTo(AudioFormat.ENCODING_DTS);
         assertThat(formatEnabled.getValue()).isFalse();
+    }
+
+    @Test
+    public void testOnPreferenceTreeClick_withDTSFormatsDisabled_disablesFormatInAudioManager() {
+        Map<Integer, Boolean> formats = ImmutableMap.of(
+                AudioFormat.ENCODING_DTS_HD, true,
+                AudioFormat.ENCODING_DTS_HD_MA, true,
+                AudioFormat.ENCODING_DTS_UHD_P1, true,
+                AudioFormat.ENCODING_DTS_UHD_P2, true);
+        List<Integer> reportedFormats = Arrays.asList(
+                AudioFormat.ENCODING_DTS_HD,
+                AudioFormat.ENCODING_DTS_HD_MA,
+                AudioFormat.ENCODING_DTS_UHD_P1,
+                AudioFormat.ENCODING_DTS_UHD_P2);
+        AdvancedVolumeFragment fragment =
+                createAdvancedVolumeFragmentWithAudioManagerReturning(formats, reportedFormats);
+
+        Preference preference = fragment.findPreference(KEY_SURROUND_SOUND_MANUAL);
+        fragment.onPreferenceTreeClick(preference);
+
+        SwitchPreference pref = (SwitchPreference) fragment.findPreference(
+                KEY_SURROUND_SOUND_FORMAT_PREFIX + AudioFormat.ENCODING_DTS_HD);
+        pref.setChecked(false);
+        fragment.onPreferenceTreeClick(pref);
+
+        pref = (SwitchPreference) fragment.findPreference(
+                KEY_SURROUND_SOUND_FORMAT_PREFIX + AudioFormat.ENCODING_DTS_UHD_P1);
+        pref.setChecked(false);
+        fragment.onPreferenceTreeClick(pref);
+
+        ArgumentCaptor<Integer> audioFormat = ArgumentCaptor.forClass(Integer.class);
+        ArgumentCaptor<Boolean> formatEnabled = ArgumentCaptor.forClass(Boolean.class);
+        verify(mAudioManager, times(8)).setSurroundFormatEnabled(
+                audioFormat.capture(), formatEnabled.capture());
+        List<Integer> expectedFormats = Arrays.asList(
+                AudioFormat.ENCODING_DTS_HD,
+                AudioFormat.ENCODING_DTS_HD_MA,
+                AudioFormat.ENCODING_DTS_UHD_P1,
+                AudioFormat.ENCODING_DTS_UHD_P2,
+                AudioFormat.ENCODING_DTS_HD,
+                AudioFormat.ENCODING_DTS_HD_MA,
+                AudioFormat.ENCODING_DTS_UHD_P1,
+                AudioFormat.ENCODING_DTS_UHD_P2);
+        List<Boolean> expectedValues = Arrays.asList(
+                true, true, true, true, false, false, false, false);
+        assertThat(audioFormat.getAllValues()).containsExactlyElementsIn(expectedFormats);
+        assertThat(formatEnabled.getAllValues()).containsExactlyElementsIn(expectedValues);
+    }
+
+    @Test
+    public void testOnPreferenceTreeClick_withDTSFormatsEnabled_enablesFormatInAudioManager() {
+        Map<Integer, Boolean> formats = ImmutableMap.of(
+                AudioFormat.ENCODING_DTS_HD, false,
+                AudioFormat.ENCODING_DTS_HD_MA, false,
+                AudioFormat.ENCODING_DTS_UHD_P1, false,
+                AudioFormat.ENCODING_DTS_UHD_P2, false);
+        List<Integer> reportedFormats = Arrays.asList(
+                AudioFormat.ENCODING_DTS_HD,
+                AudioFormat.ENCODING_DTS_HD_MA,
+                AudioFormat.ENCODING_DTS_UHD_P1,
+                AudioFormat.ENCODING_DTS_UHD_P2);
+        AdvancedVolumeFragment fragment =
+                createAdvancedVolumeFragmentWithAudioManagerReturning(formats, reportedFormats);
+
+        Preference preference = fragment.findPreference(KEY_SURROUND_SOUND_MANUAL);
+        fragment.onPreferenceTreeClick(preference);
+
+        SwitchPreference pref = (SwitchPreference) fragment.findPreference(
+                KEY_SURROUND_SOUND_FORMAT_PREFIX + AudioFormat.ENCODING_DTS_HD);
+        pref.setChecked(true);
+        fragment.onPreferenceTreeClick(pref);
+
+        pref = (SwitchPreference) fragment.findPreference(
+                KEY_SURROUND_SOUND_FORMAT_PREFIX + AudioFormat.ENCODING_DTS_UHD_P1);
+        pref.setChecked(true);
+        fragment.onPreferenceTreeClick(pref);
+
+        ArgumentCaptor<Integer> audioFormat = ArgumentCaptor.forClass(Integer.class);
+        ArgumentCaptor<Boolean> formatEnabled = ArgumentCaptor.forClass(Boolean.class);
+        verify(mAudioManager, times(8)).setSurroundFormatEnabled(
+                audioFormat.capture(), formatEnabled.capture());
+        List<Integer> expectedFormats = Arrays.asList(
+                AudioFormat.ENCODING_DTS_HD,
+                AudioFormat.ENCODING_DTS_HD_MA,
+                AudioFormat.ENCODING_DTS_UHD_P1,
+                AudioFormat.ENCODING_DTS_UHD_P2,
+                AudioFormat.ENCODING_DTS_HD,
+                AudioFormat.ENCODING_DTS_HD_MA,
+                AudioFormat.ENCODING_DTS_UHD_P1,
+                AudioFormat.ENCODING_DTS_UHD_P2);
+        List<Boolean> expectedValues = Arrays.asList(
+                true, true, true, true, true, true, true, true);
+        assertThat(audioFormat.getAllValues()).containsExactlyElementsIn(expectedFormats);
+        assertThat(formatEnabled.getAllValues()).containsExactlyElementsIn(expectedValues);
     }
 
     @Test

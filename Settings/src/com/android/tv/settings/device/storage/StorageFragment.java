@@ -18,6 +18,7 @@ package com.android.tv.settings.device.storage;
 
 import static com.android.tv.settings.util.InstrumentationUtils.logEntrySelected;
 
+import android.annotation.SuppressLint;
 import android.app.ActivityManager;
 import android.app.tvsettings.TvSettingsEnums;
 import android.content.pm.PackageManager;
@@ -35,8 +36,9 @@ import com.android.settingslib.deviceinfo.StorageMeasurement;
 import com.android.tv.settings.R;
 import com.android.tv.settings.SettingsPreferenceFragment;
 import com.android.tv.settings.device.apps.AppsFragment;
+import com.android.tv.twopanelsettings.TwoPanelSettingsFragment;
 
-import java.io.File;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 
@@ -107,7 +109,7 @@ public class StorageFragment extends SettingsPreferenceFragment {
         mVolumeInfo = mStorageManager.findVolumeById(
                 getArguments().getString(VolumeInfo.EXTRA_VOLUME_ID));
         if (mVolumeInfo == null || !mVolumeInfo.isMountedReadable()) {
-            getFragmentManager().popBackStack();
+            navigateBack();
         } else {
             refresh();
         }
@@ -232,23 +234,18 @@ public class StorageFragment extends SettingsPreferenceFragment {
         final long downloadsSize = totalValues(details.mediaSize.get(currentUser),
                 Environment.DIRECTORY_DOWNLOADS);
 
-        mAvailablePref.setSize(Math.max(0L, details.availSize - cachePartitionSize()));
+        try {
+            mAvailablePref.setSize(mStorageManager.getAllocatableBytes(
+                    StorageManager.convert(mVolumeInfo.fsUuid)));
+        } catch (IOException e) {
+            mAvailablePref.setSize(details.availSize);
+        }
         mAppsUsagePref.setSize(details.appsSize.get(currentUser));
         mDcimUsagePref.setSize(dcimSize);
         mMusicUsagePref.setSize(musicSize);
         mDownloadsUsagePref.setSize(downloadsSize);
         mCacheUsagePref.setSize(details.cacheSize);
         mMiscUsagePref.setSize(details.miscSize.get(currentUser));
-    }
-
-    private static long cachePartitionSize() {
-        File cache = new File("/cache");
-        try {
-            return cache.getUsableSpace();
-        } catch (SecurityException e) {
-            Log.w(TAG, "Cannot determine cache partition size.", e);
-            return 0;
-        }
     }
 
     private static long totalValues(HashMap<String, Long> map, String... keys) {
@@ -283,7 +280,7 @@ public class StorageFragment extends SettingsPreferenceFragment {
                 if (mVolumeInfo.isMountedReadable()) {
                     refresh();
                 } else {
-                    getFragmentManager().popBackStack();
+                    navigateBack();
                 }
             }
         }
@@ -292,5 +289,18 @@ public class StorageFragment extends SettingsPreferenceFragment {
     @Override
     protected int getPageId() {
         return TvSettingsEnums.SYSTEM_STORAGE_INTERNAL_STORAGE;
+    }
+
+    @SuppressLint("RestrictedApi")
+    private void navigateBack() {
+        if (getCallbackFragment() instanceof TwoPanelSettingsFragment) {
+            TwoPanelSettingsFragment parentFragment =
+                    (TwoPanelSettingsFragment) getCallbackFragment();
+            if (parentFragment.isFragmentInTheMainPanel(this)) {
+                parentFragment.navigateBack();
+            }
+        } else {
+            getFragmentManager().popBackStack();
+        }
     }
 }

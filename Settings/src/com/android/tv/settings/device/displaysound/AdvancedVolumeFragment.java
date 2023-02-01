@@ -16,7 +16,7 @@
 
 package com.android.tv.settings.device.displaysound;
 
-import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_CLASSIC;
+import static com.android.tv.settings.library.overlay.FlavorUtils.FLAVOR_CLASSIC;
 import static com.android.tv.settings.util.InstrumentationUtils.logEntrySelected;
 import static com.android.tv.settings.util.InstrumentationUtils.logToggleInteracted;
 
@@ -40,7 +40,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.tv.settings.PreferenceControllerFragment;
 import com.android.tv.settings.R;
 import com.android.tv.settings.RadioPreference;
-import com.android.tv.settings.overlay.FlavorUtils;
+import com.android.tv.settings.library.overlay.FlavorUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -67,7 +67,7 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment {
     static final int[] SURROUND_SOUND_DISPLAY_ORDER = {
             AudioFormat.ENCODING_AC3, AudioFormat.ENCODING_E_AC3, AudioFormat.ENCODING_DOLBY_TRUEHD,
             AudioFormat.ENCODING_E_AC3_JOC, AudioFormat.ENCODING_DOLBY_MAT,
-            AudioFormat.ENCODING_DTS, AudioFormat.ENCODING_DTS_HD, AudioFormat.ENCODING_DTS_UHD,
+            AudioFormat.ENCODING_DTS, AudioFormat.ENCODING_DTS_HD, AudioFormat.ENCODING_DTS_UHD_P1,
             AudioFormat.ENCODING_DRA
     };
 
@@ -86,6 +86,17 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment {
         mAudioManager = getAudioManager();
         mFormats = mAudioManager.getSurroundFormats();
         mReportedFormats = mAudioManager.getReportedSurroundFormats();
+
+        // For the first time, when the user has never changed the surround sound setting, enable
+        // all the surround sound formats supported by android and audio device, and disable the
+        // formats supported by Android device, but not by audio device.
+        String formatString = Settings.Global.getString(getContext().getContentResolver(),
+                Settings.Global.ENCODED_SURROUND_OUTPUT_ENABLED_FORMATS);
+        if (formatString == null) {
+            for (int format : mFormats.keySet()) {
+                mAudioManager.setSurroundFormatEnabled(format, mReportedFormats.contains(format));
+            }
+        }
         super.onAttach(context);
     }
 
@@ -348,7 +359,7 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment {
                 return R.string.surround_sound_format_dts;
             case AudioFormat.ENCODING_DTS_HD:
                 return R.string.surround_sound_format_dts_hd;
-            case AudioFormat.ENCODING_DTS_UHD:
+            case AudioFormat.ENCODING_DTS_UHD_P1:
                 return R.string.surround_sound_format_dts_uhd;
             case AudioFormat.ENCODING_DOLBY_TRUEHD:
                 return R.string.surround_sound_format_dolby_truehd;
@@ -390,7 +401,7 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment {
     }
 
     private int getEntryId(int formatId) {
-        switch(formatId) {
+        switch (formatId) {
             case AudioFormat.ENCODING_AC4:
                 return TvSettingsEnums.DISPLAY_SOUND_ADVANCED_SOUNDS_DAC4;
             case AudioFormat.ENCODING_E_AC3_JOC:
@@ -403,7 +414,7 @@ public class AdvancedVolumeFragment extends PreferenceControllerFragment {
                 return TvSettingsEnums.DISPLAY_SOUND_ADVANCED_SOUNDS_DTS;
             case AudioFormat.ENCODING_DTS_HD:
                 return TvSettingsEnums.DISPLAY_SOUND_ADVANCED_SOUNDS_DTSHD;
-            case AudioFormat.ENCODING_DTS_UHD:
+            case AudioFormat.ENCODING_DTS_UHD_P1:
                 return TvSettingsEnums.DISPLAY_SOUND_ADVANCED_SOUNDS_DTSUHD;
             case AudioFormat.ENCODING_AAC_LC:
                 return TvSettingsEnums.DISPLAY_SOUND_ADVANCED_SOUNDS_AAC;

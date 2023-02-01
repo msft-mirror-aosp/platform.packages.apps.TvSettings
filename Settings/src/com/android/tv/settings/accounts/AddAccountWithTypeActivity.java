@@ -31,7 +31,7 @@ import android.util.Log;
 
 import androidx.fragment.app.FragmentActivity;
 
-import com.android.tv.settings.overlay.FlavorUtils;
+import com.android.tv.settings.library.overlay.FlavorUtils;
 
 import java.io.IOException;
 
@@ -93,6 +93,7 @@ public class AddAccountWithTypeActivity extends FragmentActivity {
         }
     }
 
+    @SuppressWarnings("MissingSuperCall") // TODO: fix me
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         // User selected an account type, so kick off the add account flow for that.
