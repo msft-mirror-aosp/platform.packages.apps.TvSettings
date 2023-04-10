@@ -112,9 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Varundamine ja taastamine"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Tehase andmetele lähtestamine"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Kalibreerimine"</string>
-    <!-- no translation found for device_energy_saver (5560942970290949739) -->
-    <skip />
-    <string name="device_eco_settings" msgid="8478430139722946388">"Ökonoomse režiimi seaded"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Väljalülitustaimer"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Seadke taimerid, et lülitada teler välja ja säästa energiat"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Seadmed"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Vormingute valimine"</string>
@@ -152,11 +151,48 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Täpsemad heliseaded"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Luba mängurežiim"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Vastendamine sisu dünaamilise ulatusega"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Selle valiku lubamise korral vahetab süsteem vastavalt sisule erineva dünaamilise ulatuse vormingute vahel. See võib vormingu vahetamise ajal põhjustada ekraani mustaks muutumist.\n\nTäiendavate dünaamilise ulatuse valikute nägemiseks klõpsake valikul „Täpsemad kuvaseaded“."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Eelistatud dünaamiline ulatus"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Süsteemieelistusega konvertimine"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Lubab süsteemil vormingu konvertimist hallata"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Kui see valik on tehtud, määrab süsteem sobiliku dünaamilise vahemiku, mis ekraanile saadetakse, ja konverdib sisu vastavalt vajadusele sellesse dünaamilisse vahemikku."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Vastendab alati sisu vorminguga"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Konvertimise jõustamine"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Jõustab konvertimise eelistatud vormingule"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Jõustage konvertimine eelistatud vormingule. Konvertimise jõustamine võib mõjutada teisi kuvarežiimi või HDR-vormingu seadeid."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Alati SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Alati <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Kas soovite jõustada HDR-väljundi?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Vaikimisi jõustatakse konvertimise tüübiks <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Teie ekraan töötab 1080p ja 60 Hz eraldusvõimega. See valik ei ühildu teie ekraaniga, kui see töötab 4K ja 60 Hz eraldusvõimega."</string>
+    <!-- no translation found for dynamic_range_selection_force_dv_title (8070148109262327094) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_dv_summary (1052851029985095562) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10_title (1221688206945051384) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10_summary (7784573527636502784) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hlg_title (3976190987768712696) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hlg_summary (5371949016689544001) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10plus_title (1305556000063625735) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10plus_summary (918038386222537401) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_sdr_title (1063579223517652945) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_sdr_summary (2874771365465898941) -->
+    <skip />
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Vastenda sisu kaadrisagedusega"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Sujuv"</string>
+    <!-- no translation found for match_content_frame_rate_seamless (5577846750811067585) -->
+    <skip />
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Kui rakendus seda taotleb, vastendab teie seade väljundi vaadatava sisu algse kaadrisagedusega AINULT siis, kui teie teler on sujuvaks üleviimiseks suuteline."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Teie ühendatud ekraan ei toeta värskendussageduse sujuvat üleviimist. Sellel valikul ei ole mõju, kui te ei võta kasutusele ekraani, mis seda funktsiooni toetab."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Mittesujuv"</string>
+    <!-- no translation found for match_content_frame_rate_non_seamless (2702658727234710031) -->
+    <skip />
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Kui rakendus seda taotleb, vastendab teie seade väljundi vaadatava sisu algse kaadrisagedusega. Seetõttu võib ekraanikuva video taasesitusest väljumisel või sellele lülitumisel hetkeks tühi olla."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Mitte kunagi"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Isegi kui rakendus seda taotleb, ei ürita teie seade mitte kunagi väljundit vaadatava sisu algse kaadrisagedusega vastendada."</string>
@@ -173,6 +209,7 @@
     <string name="hdr_format_selection_manual_desc" msgid="8865649615882146772">"Valige vormingud käsitsi saadaolevate vormingute hulgast"</string>
     <string name="hdr_format_supported_title" msgid="1458594819224612431">"TOETATAVAD VORMINGUD"</string>
     <string name="hdr_format_unsupported_title" msgid="715318408107924941">"TOETAMATA VORMINGUD"</string>
+    <string name="hdr_format_sdr" msgid="7211377112392255102">"SDR"</string>
     <string name="hdr_format_hdr10" msgid="8063543267227491062">"HDR10"</string>
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
@@ -188,7 +225,10 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"Eraldusvõime"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Automaatne"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"Eraldusvõimet muudeti"</string>
+    <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Kas määrata eraldusvõimeks %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Valige OK, et edaspidi kasutada eraldusvõimet %1$s."</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Visionit režiimis %1$s ei toetata ja see on menüüs „Täpsemad kuvaseaded“ keelatud"</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"See režiim toetab valikut %1$s. Mõnes teleris peate võib-olla sisse lülitama täiustatud HDMI, et lubada rohkem HDR-vorminguid. Vaadake oma teleri seadetest, kas seda toetatakse."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Tühista"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
@@ -313,6 +353,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Seda seadet haldab teie organisatsioon."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Seda seadet haldab <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"Lisateave"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Kaamerarakendus}other{Kaamerarakendused}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Kalendrirakendus"</string>
@@ -923,21 +965,17 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Lülita ekraan välja"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <!-- no translation found for device_energy_saver_confirmation_title (8080594690804254206) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_confirmation_message (7789453187001013951) -->
-    <skip />
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"Kinnitage toite ja energia seade"</string>
+    <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"Jättes teleri pikaks ajaks sisselülitatuks, võib see suurendada energiatarbimist"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Keelake energiasäästja seade"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Kinnitage, et vältida vaatamise ajal ekraani väljalülitumist. See võib suurendada energiakasutust."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Passiivne"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Vaatamisel"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Teleri automaatne väljalülitamine"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Lülita teler automaatselt välja, kui see on inaktiivne"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Lülita teler automaatselt välja, kui seda vaadatakse"</string>
-    <!-- no translation found for device_energy_saver_validation_sleep (7490897287741107840) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_validation_attentive (1461105528087097435) -->
-    <skip />
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Lülita automaatselt välja"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Lülita passiivsuse korral automaatselt välja"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Lülita vaatamise ajal automaatselt välja"</string>
+    <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"Taimer „Passiivne“ peab olema lühem kui taimer „Vaatamisel“"</string>
+    <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"Taimer „Vaatamisel“ peab olema pikem kui taimer „Passiivne“"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Ooterežiimis võrguühenduse piiramine"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Kasutab ooterežiimis vähem energiat"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Teie teleri ühendus võrguga võidakse ooterežiimis katkestada (v.a automaatsete värskenduste saamiseks). See võib vähendada teie teleri energiakasutust, kui tähendab ka seda, et te ei saa ooterežiimis võib-olla kasutada funktsioone, nagu Ülekandmine ja Google\'i assistent."</string>
@@ -1091,4 +1129,9 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Käitumine sisselülitamisel"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Lähtesta"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Etherneti sidumiskood"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Energiarežiimid"</string>
+    <string name="energy_modes_summary" msgid="7196407759836930799">"Parandage energiatõhusust, kui telerit ei kasutata"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Lubab järgmised."</string>
+    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Pange tähele, et see režiim võib suurendada seadme energiatarbimist."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Luba režiim „<xliff:g id="ENERGYMODENAME">%s</xliff:g>”"</string>
 </resources>

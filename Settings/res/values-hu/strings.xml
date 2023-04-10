@@ -112,9 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Biztonsági mentés és visszaállítás"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Gyári adatok visszaállítása"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrálás"</string>
-    <!-- no translation found for device_energy_saver (5560942970290949739) -->
-    <skip />
-    <string name="device_eco_settings" msgid="8478430139722946388">"Eco beállítások"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Kikapcsolási időzítő"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Beállíthat időzítőket a TV kikapcsolásához és az energiamegtakarítás érdekében."</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Eszközök"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Formátumok kiválasztása"</string>
@@ -152,11 +151,48 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Speciális hangbeállítások"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Játékmód engedélyezése"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Tartalom dinamikatartományának használata"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Ha bekapcsolja ezt a beállítást, a rendszer a tartalmaknak megfelelően vált a különböző formátumú dinamikatartományok között. Formátumváltáskor fekete képernyő jelenhet meg.\n\nA dinamikatartománnyal kapcsolatos további lehetőségekért kattintson a Speciális kijelzőbeállítások elemre."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Preferált dinamikatartomány"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Rendszer által előnyben részesített konverzió"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"A rendszer kezelheti a formátumátalakítást"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"A beállítás kijelölésével a rendszer határozza majd meg a kijelzőre továbbítandó megfelelő dinamikus tartományt, majd szükség szerint erre a dinamikus tartományra alakítja át a tartalmat."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Mindig egyezteti a tartalom formátumát"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Konverzió kikényszerítése"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"A kívánt formátumra kényszeríti ki a konverziót"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"A kívánt formátumra kényszerítheti ki a konverziót. A konverzió kikényszerítése hatást gyakorolhat a megjelenítési mód vagy a HDR formátum beállításaira."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Mindig SDR szabványra"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Mindig erre: <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Szeretné kikényszeríteni a HDR-kimenetet?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"A rendszer alapértelmezés szerint a következőre kényszeríti a konverziót: <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"A kijelző felbontása 1080p 60 Hz lesz. A beállítás nem kompatibilis a 4k 60 Hz felbontású kijelzőn."</string>
+    <!-- no translation found for dynamic_range_selection_force_dv_title (8070148109262327094) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_dv_summary (1052851029985095562) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10_title (1221688206945051384) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10_summary (7784573527636502784) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hlg_title (3976190987768712696) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hlg_summary (5371949016689544001) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10plus_title (1305556000063625735) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10plus_summary (918038386222537401) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_sdr_title (1063579223517652945) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_sdr_summary (2874771365465898941) -->
+    <skip />
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Tartalom képkocka-sebességének egyeztetése"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Zökkenőmentes"</string>
+    <!-- no translation found for match_content_frame_rate_seamless (5577846750811067585) -->
+    <skip />
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Ha az alkalmazás engedélyt kér rá, az eszköze az éppen nézett tartalom eredeti képkockasebességéhez igazítja a kimenetet, de CSAK akkor, ha a tévéje képes a zökkenőmentes átmenetre."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"A csatlakoztatott kijelző nem támogatja a zökkenőmentes frissítési gyakoriságú átvitelt. A beállítás csak akkor lép érvénybe, ha a funkciót támogató kijelzőre vált."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Nem zökkenőmentes"</string>
+    <!-- no translation found for match_content_frame_rate_non_seamless (2702658727234710031) -->
+    <skip />
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Ha az alkalmazás engedélyt kér rá, az eszköze az éppen nézett tartalom eredeti képkockasebességéhez igazítja a kimenetet. Ennek következtében előfordulhat, hogy képernyője egy másodpercre elsötétül, amikor elindul vagy véget ér a videólejátszás."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Soha"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Még ha az alkalmazás engedélyt kér is rá, az eszköze akkor sem fogja megpróbálni az éppen nézett tartalom eredeti képkockasebességéhez igazítani a kimenetet."</string>
@@ -173,6 +209,7 @@
     <string name="hdr_format_selection_manual_desc" msgid="8865649615882146772">"Formátumok kézi kiválasztása a listából"</string>
     <string name="hdr_format_supported_title" msgid="1458594819224612431">"TÁMOGATOTT FORMÁTUMOK"</string>
     <string name="hdr_format_unsupported_title" msgid="715318408107924941">"NEM TÁMOGATOTT FORMÁTUMOK"</string>
+    <string name="hdr_format_sdr" msgid="7211377112392255102">"SDR"</string>
     <string name="hdr_format_hdr10" msgid="8063543267227491062">"HDR10"</string>
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
@@ -188,7 +225,10 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"Felbontás"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Automatikus"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"A felbontás megváltozott"</string>
+    <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Módosítja a felbontást a következőre: %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Válassza az OK gombot, ha mostantól a(z) %1$s felbontást szeretné használni."</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"A Dolby Vision nem támogatott itt: %1$s, a rendszer pedig letiltja ezt a módot a „Speciális kijelzőbeállítások” között."</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Ez a mód támogatja a következőt: %1$s. Egyes tévék esetében előfordulhat, hogy a további HDR-formátumok engedélyezéséhez be kell kapcsolnia a javított HDMI lehetőséget. Ellenőrizze a tévé beállításai között, hogy a funkció támogatott-e."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Mégse"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
@@ -313,6 +353,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Az eszközt az Ön szervezete kezeli."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Az eszközt a következő szervezet kezeli: <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"További információ"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Kameraalkalmazás}other{Kameraalkalmazások}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Naptáralkalmazás"</string>
@@ -923,21 +965,17 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"A kijelző kikapcsolása"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <!-- no translation found for device_energy_saver_confirmation_title (8080594690804254206) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_confirmation_message (7789453187001013951) -->
-    <skip />
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"Áramellátással és energiával kapcsolatos beállítás megerősítése"</string>
+    <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"Ha hosszabb ideig bekapcsolva hagyja a tévét, az növelheti az energiafelhasználást"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Energiatakarékos beállítás kikapcsolása"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Erősítse meg, hogy nem szeretné, ha a kijelző nézés közben kikapcsoljon. Ez megnövekedett energiafelhasználással járhat."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Inaktivitás esetén"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Lejátszás közben"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"A TV automatikus kikapcsolása"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"A TV automatikus kikapcsolása, miközben inaktív"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"A TV automatikus kikapcsolása, miközben nézi"</string>
-    <!-- no translation found for device_energy_saver_validation_sleep (7490897287741107840) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_validation_attentive (1461105528087097435) -->
-    <skip />
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Automatikus kikapcsolás"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Automatikus kikapcsolás, amikor inaktív"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Automatikus kikapcsolás tartalomlejátszás közben"</string>
+    <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"Az „Inaktivitás esetén” időzítő nem lehet hosszabb a „Lejátszás közben” időzítőnél"</string>
+    <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"A „Lejátszás közben” időzítő nem lehet rövidebb az „Inaktivitás esetén” időzítőnél"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Hálózat korlátozása készenléti módban"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Kevesebb energiát fogyaszt készenléti módban"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Tévéjé lecsatlakozik a hálózatról készenléti állapotban, és csak automatikus frissítéseket fogad. Ezzel csökkentheti tévéje energiafogyasztását, viszont így előfordulhat, hogy készenléti módban nem használhat majd olyan funkciókat, mint az átküldés vagy a Google Segéd."</string>
@@ -1091,4 +1129,9 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Bekapcsolási viselkedés"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Visszaállítás"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-hálózat párosítókódja"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Energiamódok"</string>
+    <string name="energy_modes_summary" msgid="7196407759836930799">"Növeli az energiahatékonyságot, amikor nincs használatban a tévé"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Engedélyezi a következőket:"</string>
+    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Vegye figyelembe, hogy ez az üzemmód növelheti az eszköz energiafogyasztását."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"A következő engedélyezése: „<xliff:g id="ENERGYMODENAME">%s</xliff:g>”"</string>
 </resources>

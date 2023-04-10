@@ -112,9 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Прављење резервне копије и враћање"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Ресетовање на фабричка подешавања"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Калибрација"</string>
-    <!-- no translation found for device_energy_saver (5560942970290949739) -->
-    <skip />
-    <string name="device_eco_settings" msgid="8478430139722946388">"Еко подешавања"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Тајмер за искључивање"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Подесите тајмере за искључивање ТВ-а и уштеду енергије"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Уређаји"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Изаберите формате"</string>
@@ -152,11 +151,48 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Напредна подешавања звука"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Дозволи режим за игре"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Користи исти динамички опсег садржаја"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Када омогућите ову опцију, систем ће мењати формат динамичког опсега ради подударања са садржајем. То може да изазове црни екран током промене формата.\n\nКликните на Напредна подешавања екрана за више опција динамичког опсега."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Жељени динамички опсег"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Системска конверзија"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Омогућава систему да управља конверзијом формата"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Када је ова опција изабрана, систем одређује одговарајући динамички опсег који ће послати на екран и према потреби ће конвертовати садржај у тај динамички опсег."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Увек се подудара с форматом садржаја"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Наметни конверзију"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Намеће се конверзија у жељени формат"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Намеће конверзију у жељени формат. Наметање конверзије може да утиче на друга подешавања у режим приказа или HDR формат."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Увек у SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Увек у <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Желите да наметнете HDR излаз?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Подразумевано наметнуће се конверзија у <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Резолуција екрана биће 1080 пиксела на 60 Hz. Та опција није компатибилна са вашим екраном резолуције 4K на 60 Hz."</string>
+    <!-- no translation found for dynamic_range_selection_force_dv_title (8070148109262327094) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_dv_summary (1052851029985095562) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10_title (1221688206945051384) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10_summary (7784573527636502784) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hlg_title (3976190987768712696) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hlg_summary (5371949016689544001) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10plus_title (1305556000063625735) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10plus_summary (918038386222537401) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_sdr_title (1063579223517652945) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_sdr_summary (2874771365465898941) -->
+    <skip />
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Користи брзину кадрова садржаја"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Неприметно"</string>
+    <!-- no translation found for match_content_frame_rate_seamless (5577846750811067585) -->
+    <skip />
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Ако апликација то тражи, уређај ће усклађивати брзину кадрова садржаја који приказује са оригиналном брзином кадрова садржаја који гледате САМО под условом да ТВ може да обави неприметан прелаз."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Повезани екран не подржава неприметне промене учесталости освежавања. Ова опција неће имати ефекта ако не пређете на екран који је подржава."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Није неприметно"</string>
+    <!-- no translation found for match_content_frame_rate_non_seamless (2702658727234710031) -->
+    <skip />
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Ако апликација то тражи, уређај ће усклађивати брзину кадрова садржаја који приказује са оригиналном брзином кадрова садржаја који гледате. Због тога ће екран можда накратко бити празан када заустављате или почињете репродукцију видеа."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Никад"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Чак и ако апликација то тражи, уређај никада неће покушавати да усклади брзину кадрова садржаја који приказује са оригиналном брзином кадрова садржаја који гледате."</string>
@@ -173,6 +209,7 @@
     <string name="hdr_format_selection_manual_desc" msgid="8865649615882146772">"Ручно одаберите неке од доступних формата"</string>
     <string name="hdr_format_supported_title" msgid="1458594819224612431">"ПОДРЖАНИ ФОРМАТИ"</string>
     <string name="hdr_format_unsupported_title" msgid="715318408107924941">"НЕПОДРЖАНИ ФОРМАТИ"</string>
+    <string name="hdr_format_sdr" msgid="7211377112392255102">"SDR"</string>
     <string name="hdr_format_hdr10" msgid="8063543267227491062">"HDR10"</string>
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
@@ -188,7 +225,10 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"Резолуција"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Аутоматски"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"Резолуција је промењена"</string>
+    <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Желите да промените резолуцију у %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Изаберите Потврди да бисте користили %1$s од сада."</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolbi Vision није подржан на %1$s и биће онемогућен у „Напредним подешавањима приказа“"</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Овај режим подржава %1$s. На неким телевизорима ћете можда морати да укључите побољшан HDMI да бисте омогућили више HDR формата. Проверите подешавања ТВ-а да бисте видели да ли је то подржано."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Откажи"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Потврди"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
@@ -313,6 +353,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Овим уређајем управља организација."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Овим уређајем управља <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"Сазнајте више"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Апликација за камеру}one{Апликације за камеру}few{Апликације за камеру}other{Апликације за камеру}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Апликација Календар"</string>
@@ -923,21 +965,17 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Искључи екран"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <!-- no translation found for device_energy_saver_confirmation_title (8080594690804254206) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_confirmation_message (7789453187001013951) -->
-    <skip />
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"Потврдите подешавање напајања и енергије"</string>
+    <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"Ако ТВ дуго остане укључен, то може да повећа потрошњу енергије"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Онемогућите подешавање уштеде енергије"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Потврдите да бисте спречили да се екран искључује док гледате, што може да изазове повећану потрошњу енергије."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Током неактивности"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Током гледања"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Аутоматски искључи ТВ"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Аутоматско искључивање ТВ-а при неактивности"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Аутоматско искључивање ТВ-а при гледању"</string>
-    <!-- no translation found for device_energy_saver_validation_sleep (7490897287741107840) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_validation_attentive (1461105528087097435) -->
-    <skip />
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Аутоматски искључи"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Аутоматски искључи током неактивности"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Аутоматски искључи током гледања"</string>
+    <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"Тајмер „Током неактивности“ мора да буде краћи од тајмера „Током гледања“"</string>
+    <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"Тајмер „Током гледања“ мора да буде дужи од тајмера „Током неактивности“"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Ограничи мрежну везу у режиму мировања"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Користи мање енергије у режиму мировања"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Веза између ТВ-а и мреже ће се прекинути у режиму мировања, осим за добијање аутоматских ажурирања. То може да смањи потрошњу енергије ТВ-а, али такође значи да нећете моћи да користите функције као што су Пребацивање и Google помоћник у режиму мировања."</string>
@@ -1091,4 +1129,9 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Понашање при укључивању"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Ресетуј"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Кôд за упаривање за етернет"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Режими потрошње енергије"</string>
+    <string name="energy_modes_summary" msgid="7196407759836930799">"Побољшајте ефикасност енергије када се ТВ не користи"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Омогућава:"</string>
+    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Имајте на уму да овај режим може да повећа потрошњу енергије на уређају."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Омогућите режим <xliff:g id="ENERGYMODENAME">%s</xliff:g>"</string>
 </resources>

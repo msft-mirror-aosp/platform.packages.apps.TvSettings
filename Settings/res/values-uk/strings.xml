@@ -53,7 +53,7 @@
     <string name="sound_category_title" msgid="7899816751041939518">"Звук"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"Додатки"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"Параметри пристрою"</string>
-    <string name="accessibility_category_title" msgid="1552664829936369592">"Спеціальні можливості"</string>
+    <string name="accessibility_category_title" msgid="1552664829936369592">"Доступність"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"Пульти дистанційного керування й аксесуари"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Зображення та звук"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Довідка й відгуки"</string>
@@ -112,9 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Резервне копіювання й відновлення"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Відновлення заводських налаштувань"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Калібрування"</string>
-    <!-- no translation found for device_energy_saver (5560942970290949739) -->
-    <skip />
-    <string name="device_eco_settings" msgid="8478430139722946388">"Налаштування режиму \"Еко\""</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Таймер вимкнення"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Встановлюйте таймери вимкнення телевізора, щоб заощаджувати електроенергію"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Пристрої"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Вибрати формати"</string>
@@ -152,11 +151,48 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Додаткові налаштування звуку"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Дозволити режим гри"</string>
-    <string name="match_content_frame_rate_title" msgid="153291168560947689">"Відповідно до частоти кадрів контенту"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Плавний перехід"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Враховувати динамічний діапазон контенту"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Якщо цю опцію ввімкнено, система перемикатиметься між різними форматами динамічного діапазону з урахуванням контенту. Під час перемикання формату екран може ставати чорним.\n\nЩоб переглянути інші опції динамічного діапазону, натисніть \"Додаткові налаштування екрана\"."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Бажаний динамічний діапазон"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Системна конвертація"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Дозвольте системі керувати конвертацією формату"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Якщо ви виберете цю опцію, система визначатиме відповідний динамічний діапазон, який передаватиметься на ваш екран, і за потреби конвертуватиме контент у цей динамічний діапазон."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Завжди відповідає формату контенту"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Примусова конвертація"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Відео примусово конвертуватиметься в потрібний формат"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Відео примусово конвертуватиметься в потрібний формат. Примусова конвертація може впливати на інші параметри режиму відображення або формату HDR."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Завжди в SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Завжди в <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Здійснювати примусову конвертацію у формат форматі HDR?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"За умовчанням контент конвертуватиметься у формат <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Ваш екран працюватиме з роздільною здатністю 1080p 60 Гц. Ця опція не підтримується, якщо екран працює з роздільною здатністю 4K 60 Гц."</string>
+    <!-- no translation found for dynamic_range_selection_force_dv_title (8070148109262327094) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_dv_summary (1052851029985095562) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10_title (1221688206945051384) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10_summary (7784573527636502784) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hlg_title (3976190987768712696) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hlg_summary (5371949016689544001) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10plus_title (1305556000063625735) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10plus_summary (918038386222537401) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_sdr_title (1063579223517652945) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_sdr_summary (2874771365465898941) -->
+    <skip />
+    <string name="match_content_frame_rate_title" msgid="153291168560947689">"Допасування до частоти кадрів контенту"</string>
+    <!-- no translation found for match_content_frame_rate_seamless (5577846750811067585) -->
+    <skip />
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Якщо цього вимагає додаток, пристрій відтворюватиме зображення без зміни частоти кадрів, ЛИШЕ якщо телевізор може виконати плавний перехід."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Підключений екран не підтримує плавну зміну частоти оновлення. Вибір цієї опції не дасть результату, якщо ви не використовуватимете екран, який підтримує цю функцію."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Без плавного переходу"</string>
+    <!-- no translation found for match_content_frame_rate_non_seamless (2702658727234710031) -->
+    <skip />
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Якщо цього вимагає додаток, пристрій відтворюватиме зображення без зміни частоти кадрів. Через це зображення на екрані може на секунду зникати, коли ви вмикаєте або вимикаєте відтворення відео."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Ніколи"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Навіть якщо цього вимагає додаток, пристрій ніколи не намагатиметься відтворювати зображення без зміни частоти кадрів."</string>
@@ -173,6 +209,7 @@
     <string name="hdr_format_selection_manual_desc" msgid="8865649615882146772">"Вибирати формат вручну зі списку доступних"</string>
     <string name="hdr_format_supported_title" msgid="1458594819224612431">"ПІДТРИМУВАНІ ФОРМАТИ"</string>
     <string name="hdr_format_unsupported_title" msgid="715318408107924941">"НЕПІДТРИМУВАНІ ФОРМАТИ"</string>
+    <string name="hdr_format_sdr" msgid="7211377112392255102">"SDR"</string>
     <string name="hdr_format_hdr10" msgid="8063543267227491062">"HDR10"</string>
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
@@ -188,7 +225,10 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"Роздільна здатність"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Автоматично"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"Роздільну здатність змінено"</string>
+    <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Змінити роздільну здатність на %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Натисніть OK, щоб надалі використовувати роздільну здатність %1$s."</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Формат Dolby Vision не підтримується в режимі %1$s. Його буде вимкнено в меню \"Додаткові налаштування екрана\"."</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Цей режим підтримує %1$s. Можливо, на деяких телевізорах потрібно ввімкнути розширені параметри HDMI, щоб використовувати інші формати HDR. Це можна перевірити в налаштуваннях телевізора."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Скасувати"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Гц"</string>
@@ -313,6 +353,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Цим пристроєм керує адміністратор вашої організації."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Цим пристроєм керує <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"Докладніше"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Додаток для камери}one{Додатки для камери}few{Додатки для камери}many{Додатки для камери}other{Додатки для камери}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Додаток для календарів"</string>
@@ -464,9 +506,9 @@
     <string name="wifi_ip_settings_invalid_dns" msgid="5111100342560120360">"Введіть дійсну DNS-адресу"</string>
     <string name="wifi_ip_settings_invalid_network_prefix_length" msgid="2726889303835927777">"Введіть довжину префікса мережі від 0 до 32"</string>
     <string name="wifi_ip_address_description" msgid="7109677764979198618">"Введіть дійсну IP-адресу.\nПриклад: <xliff:g id="ID_1">192.168.1.128</xliff:g>"</string>
-    <string name="wifi_dns1_description" msgid="2287252520192279195">"Введіть дійсну IP-адресу або залишіть поле порожнім.\nПриклад: <xliff:g id="ID_1">8.8.8.8</xliff:g>"</string>
-    <string name="wifi_dns2_description" msgid="6495565714252833784">"Введіть дійсну IP-адресу або залишіть поле порожнім.\nПриклад: <xliff:g id="ID_1">8.8.4.4</xliff:g>"</string>
-    <string name="wifi_gateway_description" msgid="8902481147103929271">"Введіть дійсну IP-адресу або залишіть поле порожнім.\nПриклад: <xliff:g id="ID_1">192.168.1.1</xliff:g>"</string>
+    <string name="wifi_dns1_description" msgid="2287252520192279195">"Введіть дійсну IP-адресу або залиште поле порожнім.\nПриклад: <xliff:g id="ID_1">8.8.8.8</xliff:g>"</string>
+    <string name="wifi_dns2_description" msgid="6495565714252833784">"Введіть дійсну IP-адресу або залиште поле порожнім.\nПриклад: <xliff:g id="ID_1">8.8.4.4</xliff:g>"</string>
+    <string name="wifi_gateway_description" msgid="8902481147103929271">"Введіть дійсну IP-адресу або залиште поле порожнім.\nПриклад: <xliff:g id="ID_1">192.168.1.1</xliff:g>"</string>
     <string name="wifi_network_prefix_length_description" msgid="2670994968279018896">"Введіть префікс мережі дійсної довжини.\nПриклад: <xliff:g id="ID_1">24</xliff:g>"</string>
     <string name="proxy_error_invalid_host" msgid="5629893736174170157">"Ім’я хосту недійсне"</string>
     <string name="proxy_error_invalid_exclusion_list" msgid="1762079966901078116">"Список виключень недійсний. Введіть список виключених доменів через кому."</string>
@@ -475,7 +517,7 @@
     <string name="proxy_error_invalid_port" msgid="5307010810664745294">"Порт недійсний"</string>
     <string name="proxy_warning_limited_support" msgid="4220553563487968684">"Проксі-сервер HTTP використовується веб-переглядачем, але недоступний для інших додатків"</string>
     <string name="proxy_port_description" msgid="6486205863098427787">"Введіть дійсний номер порту.\nПриклад: <xliff:g id="ID_1">8080</xliff:g>"</string>
-    <string name="proxy_exclusionlist_description" msgid="5105504899364188296">"Введіть виключені домени через кому або залишіть поле порожнім.\nПриклад: <xliff:g id="ID_1">example.com,mycomp.test.com,localhost</xliff:g>"</string>
+    <string name="proxy_exclusionlist_description" msgid="5105504899364188296">"Введіть виключені домени через кому або залиште поле порожнім.\nПриклад: <xliff:g id="ID_1">example.com,mycomp.test.com,localhost</xliff:g>"</string>
     <string name="proxy_hostname_description" msgid="5520200112290557199">"Введіть дійсне ім’я хосту.\nПриклад: <xliff:g id="ID_1">proxy.example.com</xliff:g>"</string>
     <string name="title_wifi_eap_method" msgid="4351752615786996226">"Виберіть метод EAP для мережі <xliff:g id="SSID">%1$s</xliff:g>"</string>
     <string name="title_wifi_phase2_authentication" msgid="1167205033305931574">"Виберіть другий етап автентифікації для мережі <xliff:g id="SSID">%1$s</xliff:g>"</string>
@@ -923,21 +965,17 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Вимикати екран"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <!-- no translation found for device_energy_saver_confirmation_title (8080594690804254206) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_confirmation_message (7789453187001013951) -->
-    <skip />
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"Підтвердьте налаштування живлення й енергії"</string>
+    <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"Якщо телевізор залишатиметься ввімкненим упродовж тривалого часу, може використовуватися більше електроенергії"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Вимкнути налаштування енергозбереження"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Підтвердьте, що дисплей не має вимикатися під час перегляду (це може збільшити споживання енергії)."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Якщо немає взаємодії"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Під час перегляду"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Автоматично вимикати телевізор"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Автоматично вимикати телевізор, коли він неактивний"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Автоматично вимикати телевізор під час перегляду"</string>
-    <!-- no translation found for device_energy_saver_validation_sleep (7490897287741107840) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_validation_attentive (1461105528087097435) -->
-    <skip />
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Автоматично вимикати"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Автоматично вимикати, коли пристрій неактивний"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Автоматично вимикати під час перегляду"</string>
+    <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"Період на таймері \"Якщо немає взаємодії\" має бути коротшим, ніж на таймері \"Під час перегляду\""</string>
+    <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"Період на таймері \"Під час перегляду\" має бути довшим, ніж на таймері \"Якщо немає взаємодії\""</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Очікування: обмежити з’єднання з мережею"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Зменште споживання електроенергії в режимі очікування"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"У режимі очікування ваш телевізор підключатиметься до мережі, лише щоб отримати автоматичні оновлення. Завдяки цьому телевізор споживатиме менше електроенергії, однак ви, імовірно, не зможете користуватися такими функціями, як Google Cast і Google Асистент, у режимі очікування."</string>
@@ -1091,4 +1129,9 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Поведінка під час увімкнення"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Скидання"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Код підключення Ethernet"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Режими енергоспоживання"</string>
+    <string name="energy_modes_summary" msgid="7196407759836930799">"Покращуйте енергоефективність у періоди, коли телевізор не використовується"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Функції, що вмикаються"</string>
+    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Зверніть увагу, що в цьому режимі може збільшитися енергоспоживання пристрою."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Увімкнути режим \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
 </resources>

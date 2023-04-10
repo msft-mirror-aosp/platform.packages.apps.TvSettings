@@ -112,9 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Babeskopiak eta leheneratzea"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Berrezarri jatorrizko datuak"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrazioa"</string>
-    <!-- no translation found for device_energy_saver (5560942970290949739) -->
-    <skip />
-    <string name="device_eco_settings" msgid="8478430139722946388">"Eko moduaren ezarpenak"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Itzaltzeko tenporizadorea"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Ezarri tenporizadoreak telebista itzaltzeko eta energia aurrezteko moduan"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Gailuak"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Hautatu formatuak"</string>
@@ -152,11 +151,48 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Soinuaren ezarpen aurreratuak"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Eman jokatzeko modua erabiltzeko baimena"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Bat etorri edukiaren tarte dinamikoarekin"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Aukera hau gaitzean, sistema tarte dinamikoko formatu batetik bestera aldatuko da edukiarekin bat etortzeko. Ondorioz, baliteke pantaila beltz jartzea formatu batetik bestera aldatu bitartean.\n\nTarte dinamikoen aukera gehiago ikusteko, sakatu pantailaren ezarpen aurreratuak."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Tarte dinamiko hobetsia"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Sistemak hobetsitako bihurketa"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Utzi sistemari formatuaren bihurketa kudeatzen"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Aukera hau hautatzean, sistemak zehaztuko du tarte dinamiko egokia hura pantailara bidaltzeko eta edukia tarte dinamiko horretara bihurtzeko, beharrezkoa bada."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Beti dator bat edukiaren formatuarekin"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Behartu bihurketa"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Bihurketa hobetsitako formatura behartzen du"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Behartu bihurketa hobetsitako formatura. Baliteke bihurketa behartzeak bistaratzeko moduaren edo HDR formatuaren beste ezarpen batzuei eragitea."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Beti SDR formatura"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Beti <xliff:g id="HDR_TYPE">%s</xliff:g> formatura"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"HDR formaturako irteera behartu nahi duzu?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Modu lehenetsian, <xliff:g id="HDR_TYPE">%s</xliff:g> formatura behartuko da bihurketa."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Zure pantailak 1080p bereizmena izango du (60 Hz). Aukera hori ez da bateragarria pantailarekin pantailak 4K bereizmena badu (60 Hz)."</string>
+    <!-- no translation found for dynamic_range_selection_force_dv_title (8070148109262327094) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_dv_summary (1052851029985095562) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10_title (1221688206945051384) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10_summary (7784573527636502784) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hlg_title (3976190987768712696) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hlg_summary (5371949016689544001) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10plus_title (1305556000063625735) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10plus_summary (918038386222537401) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_sdr_title (1063579223517652945) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_sdr_summary (2874771365465898941) -->
+    <skip />
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Bat etorri edukiaren irudi-abiadurarekin"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Zuzenekoa"</string>
+    <!-- no translation found for match_content_frame_rate_seamless (5577846750811067585) -->
+    <skip />
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Aplikazioak eskatzen badu eta telebistak zuzeneko trantsizio bat egin badezake SOILIK bat-etorraraziko du gailuak bere irteera ikusten ari zaren edukiaren jatorrizko irudi-abiadurarekin."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Konektatu duzun pantailak ez ditu onartzen etenik gabeko trantsizioak freskatze-abiaduran. Aukera honek ez du eraginik izango hura onartzen duen pantaila bat erabiltzen ez baduzu."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Ez-zuzenekoa"</string>
+    <!-- no translation found for match_content_frame_rate_non_seamless (2702658727234710031) -->
+    <skip />
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Aplikazioak eskatzen badu, ikusten ari zaren edukiaren jatorrizko irudi-abiadurarekin bat-etorraraziko du gailuak bere irteera. Ondorioz, baliteke segundo batez pantailan ezer ez agertzea bideoa erreproduzitzen duzunean edo erreproduzitzeari uzten diozunean."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Inoiz ez"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Aplikazioak eskatu arren, gailuak ez du bat-etorraraziko bere irteera ikusten ari zaren edukiaren jatorrizko irudi-abiadurarekin."</string>
@@ -173,6 +209,7 @@
     <string name="hdr_format_selection_manual_desc" msgid="8865649615882146772">"Hautatu formatuak eskuz, erabilgarri daudenen artean"</string>
     <string name="hdr_format_supported_title" msgid="1458594819224612431">"ONARTZEN DIREN FORMATUAK"</string>
     <string name="hdr_format_unsupported_title" msgid="715318408107924941">"ONARTZEN EZ DIREN FORMATUAK"</string>
+    <string name="hdr_format_sdr" msgid="7211377112392255102">"SDR"</string>
     <string name="hdr_format_hdr10" msgid="8063543267227491062">"HDR10"</string>
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
@@ -188,7 +225,10 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"Bereizmena"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Automatikoa"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"Aldatu da bereizmena"</string>
+    <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"%1$s ezarri nahi duzu bereizmen gisa?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Hemendik aurrera %1$s erabiltzeko, hautatu Ados."</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision-ek ez du %1$s modua onartzen eta pantailaren ezarpen aurreratuetan desgaituko da"</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Moduak hauek onartzen ditu: %1$s. Telebista batzuetan, baliteke HDMI hobetua aktibatu behar izatea HDR formatu gehiago gaitzeko. Aukera hori duzun jakiteko, ikusi telebistaren ezarpenak."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Utzi"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Ados"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
@@ -313,6 +353,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Zure erakundeak kudeatzen du gailua."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"<xliff:g id="ORGANIZATION_NAME">%s</xliff:g> erakundeak kudeatzen du gailu hau."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"Lortu informazio gehiago"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Kamera-aplikazioa}other{Kamera-aplikazioak}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Egutegi-aplikazioa"</string>
@@ -595,23 +637,23 @@
     <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"Ez dute atzitu azkenaldian"</string>
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"Ikusi guztiak"</string>
     <string name="microphone" msgid="7893752847683941214">"Mikrofonoa"</string>
-    <string name="mic_toggle_title" msgid="7193417007060235665">"Mikrofonoa atzitzeko baimena"</string>
+    <string name="mic_toggle_title" msgid="7193417007060235665">"Mikrofonoa erabiltzeko baimena"</string>
     <string name="mic_remote_toggle_title" msgid="7153283895012570080">"Urruneko kontrolagailuaren mikrofonorako sarbidea"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"Aplikazioen mikrofono-atzitzeak"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Mikrofonorako sarbidea blokeatuta dago"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Hura desblokeatzeko, ezarri gailuaren pribatutasun-etengailua mikrofonoa aktibatuta egon dadin, kamerarako sarbidea emateko."</string>
     <string name="camera" msgid="1226671478936288283">"Kamera"</string>
-    <string name="camera_toggle_title" msgid="5566469574224956142">"Kamera atzitzeko baimena"</string>
+    <string name="camera_toggle_title" msgid="5566469574224956142">"Kamera erabiltzeko baimena"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Aplikazioen kamera-atzitzeak"</string>
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Kamerarako sarbidea blokeatuta dago"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Hura desblokeatzeko, ezarri gailuaren pribatutasun-etengailua kamera aktibatuta egon dadin, kamerarako sarbidea emateko."</string>
-    <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofonoa atzitzeko baimena: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofonoa erabiltzeko baimena: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="mic_toggle_info_content" msgid="3187791167208947239">"Aktibatuta dagoenean, mikrofonoa erabiltzeko baimena duten aplikazio eta zerbitzu guztiek hura atzitu ahal izango dute.\n\nDesaktibatuta dagoenean, aldiz, ezein aplikaziok edo zerbitzuk ezingo du atzitu mikrofonoa. Alabaina, baliteke Google-ren Laguntzailea zerbitzuarekin hitz egin ahal izatea halere. Horretarako, sakatu urruneko kontrolagailuaren botoia (Laguntzailea atzitzeko balio duena).\n\nBaliteke telebistarekin komunikatzeko protokolo pertsonalizatuak erabiltzen dituzten audio-gailuek ezarpenaren eragina ez jasatea."</string>
     <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Urruneko kontrolagailuaren mikrofonoa gaituta dago"</string>
     <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google-ren Laguntzailea zerbitzuak urruneko kontrolagailuaren mikrofonoa atzi dezake. Laguntzailea zerbitzuarekin hitz egiteko, sakatu urruneko kontrolagailuaren botoia (Google-ren Laguntzailea atzitzeko balio duena)."</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Urruneko kontrolagailuaren mikrofonoa desgaituta dago"</string>
     <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"Ezingo duzu hitz egin Google-ren Laguntzailea zerbitzuarekin urruneko kontrolagailua erabilita. Google-ren Laguntzailea atzitzeko botoia erabili ahal izateko, gaitu mikrofonorako sarbidea."</string>
-    <string name="camera_toggle_info_title" msgid="3871317082313736088">"Kamera atzitzeko baimena: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="camera_toggle_info_title" msgid="3871317082313736088">"Kamera erabiltzeko baimena: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"Aktibatuta dagoenean, gailu honetako edozein kamera atzitu ahalko dute horretarako baimena daukaten aplikazio eta zerbitzu guztiek.\n\nEzarpen honek ez die eragingo protokolo pertsonalizatu bat daukaten kamera periferikoei."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"aktibatuta"</string>
     <string name="sensor_toggle_info_off" msgid="7546772458177469821">"desaktibatuta"</string>
@@ -923,21 +965,17 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Itzali pantaila"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <!-- no translation found for device_energy_saver_confirmation_title (8080594690804254206) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_confirmation_message (7789453187001013951) -->
-    <skip />
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"Berretsi piztu eta itzaltzearen eta kontsumoaren ezarpenak"</string>
+    <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"Telebista denbora luzez piztuta utziz gero argindar gehiago gastatuko du."</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Desgaitu energia-aurreztailea moduaren ezarpena"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Berretsi pantaila itzaltzea eragozteko multimedia-edukia ikusi bitartean (baliteke energia gehiago kontsumitzea modu horrek)."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Inaktibo dagoenean"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Zerbait ikusi bitartean"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Itzali telebista automatikoki"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Itzali telebista automatikoki inaktibo dagoenean"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Itzali telebista automatikoki ikusten ari zarenean"</string>
-    <!-- no translation found for device_energy_saver_validation_sleep (7490897287741107840) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_validation_attentive (1461105528087097435) -->
-    <skip />
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Desaktibatu automatikoki"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Desaktibatu automatikoki inaktibo dagoenean"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Desaktibatu automatikoki ikusi bitartean"</string>
+    <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"\"Inaktibo dagoenean\" izeneko tenporizadoreak \"Zerbait ikusi bitartean\" izenekoak baino laburragoa izan behar du"</string>
+    <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"\"Zerbait ikusi bitartean\" izeneko tenporizadoreak \"Inaktibo dagoenean\" izenekoak baino luzeagoa izan behar du"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Mugatu sarerako konexioak egonean moduan"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Energia gutxiago kontsumitzen du egonean moduan"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"Egonean moduan, telebista ez da sarera konektatuta egongo eguneratze automatikoak jasotzeko ez bada. Horrela energia gutxiago kontsumituko du, baina ezingo dituzu erabili funtzioetako batzuk; esate baterako Cast eta Google Laguntzailea."</string>
@@ -1015,7 +1053,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Eman pantaila txiki gainjarria erabiltzeko baimena"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Ez dago instalatuta pantaila txiki gainjarriarekin bateragarria den aplikaziorik"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Eman pantaila txiki gainjarri bat sortzeko baimena aplikazioei, aplikazioa irekita dagoenean nahiz hartatik irtetean (adibidez, bideoak ikusten jarraitzeko). Erabiltzen ari zaren beste aplikazioen gaienean erakutsiko da leiho hori."</string>
-    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Eman alarmak ezartzeko eta orduaren araberako beste ekintza batzuk programatzeko baimena aplikazioei. Hala, aplikazioek atzeko planoan funtzionatuko dute, eta litekeena da bateria gehiago kontsumitzea.\n\nEz baduzu ematen baimen hori, ez dute funtzionatuko aplikazio horien bidez programatutako alarmek eta orduaren araberako ekintzek."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Eman alarmak ezartzeko eta orduaren araberako beste ekintza batzuk programatzeko baimena aplikazioei. Hala, aplikazioek atzeko planoan funtzionatuko dute, eta litekeena da bateria gehiago kontsumitzea.\n\nBaimen hori ematen ez baduzu, ez dute funtzionatuko aplikazio horien bidez programatutako alarmek eta orduaren araberako ekintzek."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Piztu pantaila"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Eman pantaila pizteko baimena"</string>
     <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Eman pantaila pizteko baimena aplikazioei. Baimena emanez gero, aplikazioek edonoiz piztu ahal izango dute pantaila, zuk halako asmorik izan ez arren."</string>
@@ -1091,4 +1129,9 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Piztean izan beharreko portaera"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Berrezarri"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet bidez parekatzeko kodea"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Energia moduak"</string>
+    <string name="energy_modes_summary" msgid="7196407759836930799">"Hobetu energiaren eraginkortasuna telebista erabiltzen ari ez zarenean"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Hauek gaitzen ditu:"</string>
+    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Kontuan izan agian modu honek gailuaren energia-kontsumoa handituko duela."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Gaitu <xliff:g id="ENERGYMODENAME">%s</xliff:g>"</string>
 </resources>

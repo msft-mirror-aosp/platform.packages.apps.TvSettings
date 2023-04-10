@@ -246,9 +246,9 @@
     <!-- Preference which sets the device's display calibration. [CHAR LIMIT=50] -->
     <string name="device_calibration">Calibration</string>
     <!-- Preference which changes energy saver settings. [CHAR LIMIT=50] -->
-    <string name="device_energy_saver">Power &amp; Energy</string>
-    <!-- Preference which changes eco settings. [CHAR LIMIT=50] -->
-    <string name="device_eco_settings">Eco settings</string>
+    <string name="device_energy_saver">Shut-Off Timer</string>
+    <!-- Summary of the preference which changes energy saver settings. [CHAR LIMIT=80] -->
+    <string name="device_energy_saver_summary">Set timers to turn TV off and save energy</string>
     <!-- Preference which shows internal settings. [CHAR LIMIT=50] -->
     <string name="overlay_internal_slice_title"/>
     <string name="overlay_internal_slice_uri" translatable="false"/>
@@ -360,11 +360,98 @@
     <string name="advanced_sound_settings_title">Advanced sound settings</string>
     <!-- Title for preference to allow game mode for display. [CHAR LIMIT=50] -->
     <string name="game_mode_title">Allow game mode</string>
+    <!-- Title for preference for disabling/enabling HDR conversion. [CHAR LIMIT=120] -->
+    <string name="match_content_dynamic_range_title">Match content dynamic range</string>
+    <!-- Summary for preference for disabling/enabling HDR conversion. [CHAR LIMIT=500] -->
+    <string name="match_content_dynamic_range_summary">When enabling this option, the system will
+        switch between different dynamic range formats to match the content. This may cause a black
+        screen during a format switch.\n\nClick Advanced Display settings for more dynamic range
+        options.
+    </string>
+    <!-- Title for preference for HDR conversion. [CHAR LIMIT=120] -->
+    <string name="preferred_dynamic_range_title">Preferred dynamic range</string>
+    <!-- Title for preference for HDR conversion - System-Preferred/Auto. [CHAR LIMIT=120] -->
+    <string name="preferred_dynamic_range_selection_system_title">System-preferred conversion
+            </string>
+    <!-- Description for preference for HDR conversion - System-Preferred/Auto. [CHAR LIMIT=300] -->
+    <string name="preferred_dynamic_range_selection_system_desc">Let\'s the system manage the format
+        conversion
+    </string>
+    <!-- Summary for preference for HDR conversion - System-Preferred/Auto. [CHAR LIMIT=500] -->
+    <string name="preferred_dynamic_range_selection_system_summary">When this option is selected,
+        the system will determine a suitable dynamic range to be sent to your display and convert
+        content to this dynamic range as needed.
+    </string>
+    <!-- Description for preference for HDR conversion - Passthrough/No conversion. [CHAR LIMIT=300] -->
+    <string name="preferred_dynamic_range_selection_passthrough_desc">Always matches content\'s
+        format</string>
+    <!-- Title for preference for HDR conversion - Force/Manual. [CHAR LIMIT=120] -->
+    <string name="preferred_dynamic_range_selection_force_title">Force conversion</string>
+    <!-- Description for preference for HDR conversion - Force/Manual. [CHAR LIMIT=300] -->
+    <string name="preferred_dynamic_range_selection_force_desc">Forces conversion to preferred
+        format</string>
+    <!-- Summary for preference for HDR conversion - Force/Manual. [CHAR LIMIT=500] -->
+    <string name="preferred_dynamic_range_selection_force_summary">Force conversion to
+        a preferred format. Forcing conversion may affect other settings in Display Mode or HDR
+        Format.
+    </string>
+    <!-- Title for preference for SDR conversion in case of force dynamic range. [CHAR LIMIT=120] -->
+    <string name="preferred_dynamic_range_selection_force_sdr_title">Always to SDR</string>
+    <!-- Title for preference for an HDR conversion in case of force dynamic range. [CHAR LIMIT=120] -->
+    <string name="preferred_dynamic_range_selection_force_hdr_title">Always to
+        <xliff:g id="hdr_type" example="Dolby Vision">%s</xliff:g></string>
+    <!-- Dialog title for HDR conversion in case of force dynamic range. [CHAR LIMIT=120] -->
+    <string name="preferred_dynamic_range_force_dialog_title">Do you want to force the HDR
+        output?</string>
+    <!-- Dialog description for HDR conversion in case of force dynamic range. [CHAR LIMIT=300] -->
+    <string name="preferred_dynamic_range_force_dialog_desc">By default the conversion will be
+        forced to <xliff:g id="hdr_type" example="Dolby Vision">%s</xliff:g>.</string>
+    <!-- Dialog description for HDR conversion in case of force dynamic range. [CHAR LIMIT=300] -->
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue">Your display will run at
+        1080p 60Hz resolution. This option is not compatible with your display when running at the
+        4k 60Hz resolution.</string>
+    <!-- Title for preference for HDR conversion force [CHAR LIMIT=200] -->
+    <string name="dynamic_range_selection_force_dv_title">Always force conversion to Dolby Vision
+    </string>
+    <!-- Summary for preference for HDR conversion force - DV [CHAR LIMIT=500] -->
+    <string name="dynamic_range_selection_force_dv_summary">If Dolby Vision is disabled in HDR
+        Formats in the Advanced Display Settings, forcing conversion to Dolby Vision will re-enable
+        it.
+    </string>
+    <!-- Title for preference for HDR conversion force - HDR 10[CHAR LIMIT=200] -->
+    <string name="dynamic_range_selection_force_hdr10_title">Always force conversion to HDR10
+    </string>
+    <!-- Summary for preference for HDR conversion force - HDR 10 [CHAR LIMIT=500] -->
+    <string name="dynamic_range_selection_force_hdr10_summary">If HDR10 is disabled in HDR
+        Formats in the Advanced Display Settings, forcing conversion to HDR10 will re-enable it.
+    </string>
+    <!-- Title for preference for HDR conversion force - HLG [CHAR LIMIT=200] -->
+    <string name="dynamic_range_selection_force_hlg_title">Always force conversion to HLG
+    </string>
+    <!-- Summary for preference for HDR conversion force - HLG [CHAR LIMIT=500] -->
+    <string name="dynamic_range_selection_force_hlg_summary">If HLG is disabled in HDR
+        Formats in the Advanced Display Settings, forcing conversion to HLG will re-enable it.
+    </string>
+    <!-- Title for preference for HDR conversion force - HDR10+ [CHAR LIMIT=200] -->
+    <string name="dynamic_range_selection_force_hdr10plus_title">Always force conversion to HDR10+
+    </string>
+    <!-- Summary for preference for HDR conversion force - DV [CHAR LIMIT=500] -->
+    <string name="dynamic_range_selection_force_hdr10plus_summary">If HDR10+ is disabled in HDR
+        Formats in the Advanced Display Settings, forcing conversion to HDR10+ will re-enable it.
+    </string>
+    <!-- Title for preference for HDR conversion force - SDR [CHAR LIMIT=200] -->
+    <string name="dynamic_range_selection_force_sdr_title">Always force conversion to SDR
+    </string>
+    <!-- Summary for preference for HDR conversion force - SRD [CHAR LIMIT=500] -->
+    <string name="dynamic_range_selection_force_sdr_summary">Forcing conversion to SDR will disable all
+        formats in the HDR Formats in Advanced Display Settings.
+    </string>
+
     <!-- Title for preference for forcing a display's frame
     rate to match the content's frame rate. [CHAR LIMIT=60] -->
     <string name="match_content_frame_rate_title">Match content frame rate</string>
     <!-- Default preference for a display's frame rate to match the content's frame rate. [CHAR LIMIT=80] -->
-    <string name="match_content_frame_rate_seamless">Seamless</string>
+    <string name="match_content_frame_rate_seamless">Seamless-only</string>
     <!-- Summary for default preference for a display's frame rate to match the content's frame rate. [CHAR LIMIT=250] -->
     <string name="match_content_frame_rate_seamless_summary">If the app requests it, your device
         will match its output to the original frame rate of the content you’re watching,
@@ -374,7 +461,7 @@
         does not support seamless refresh rate transitions. This option will have no effect unless
         you change to a display that supports it.</string>
     <!-- Preference to force a display's frame rate to always match the content's frame rate. [CHAR LIMIT=80] -->
-    <string name="match_content_frame_rate_non_seamless">Non-seamless</string>
+    <string name="match_content_frame_rate_non_seamless">Always</string>
     <!-- Summary for preference to force a display's frame rate to always match the content's frame rate. [CHAR LIMIT=250] -->
     <string name="match_content_frame_rate_non_seamless_summary">If the app requests it, your
         device will match its output to the original frame rate of the content you’re watching.
@@ -2257,11 +2344,11 @@
     <!-- Energy saver choice for configuring the time before the device goes to full sleep due to user inattentiveness even if the system is holding wakelocks. [CHAR LIMIT=60] -->
     <string name="device_energy_saver_attentive_timeout">When watching</string>
     <!-- Energy saver settings screen category [CHAR LIMIT=100] -->
-    <string name="device_energy_saver_category_title">Automatically turn off TV</string>
+    <string name="device_energy_saver_category_title">Automatically turn off</string>
     <!-- Energy saver dialog title for configuring the time before the device goes to full sleep after a period of inactivity. [CHAR LIMIT=NONE] -->
-    <string name="device_energy_saver_sleep_timeout_dialog_title">Automatically turn off TV when inactive</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title">Automatically turn off when inactive</string>
     <!-- Energy saver dialog title for configuring the time before the device goes to full even if system is holding wakelocks. [CHAR LIMIT=NONE] -->
-    <string name="device_energy_saver_attentive_timeout_dialog_title">Automatically turn off TV when watching</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title">Automatically turn off when watching</string>
     <!-- Energy saver dialog confirmation error message when sleep timer is longer than inattentive timer. [CHAR LIMIT=NONE] -->
     <string name="device_energy_saver_validation_sleep">\"When inactive\" timer must be shorter than \"When watching\" timer</string>
     <!-- Energy saver dialog confirmation error message when inattentive timer is shorter than sleep timer. [CHAR LIMIT=NONE] -->
@@ -2721,8 +2808,6 @@
     <!-- Title of power on behavior item [CHAR LIMIT=60] -->
     <string name="power_on_behavior">Power on behavior</string>
     <string name="power_boot_resume_slice_uri" translatable="false" />
-    <!-- Slice Uri for Eco settings [CHAR LIMIT=NONE] -->
-    <string name="eco_settings_slice_uri" translatable="false">content://com.android.tv.settings.device.sliceprovider/eco_settings</string>
     <!-- Title of the Reset section, which lets user select from factory reset or other reset related operations. [CHAR LIMIT=60] -->
     <string name="reset_options_title">Reset</string>
 
@@ -2733,4 +2818,15 @@
 
     <!-- Adb wireless pairing device dialog ethernet pairing code label [CHAR LIMIT=60] -->
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label">Ethernet pairing code</string>
+
+    <!-- Title for energy modes preference -->
+    <string name="energy_modes">Energy Modes</string>
+    <!-- Title for energy mode selection confirmation dialog -->
+    <string name="energy_modes_summary">Improve energy efficiency when TV is not in use</string>
+    <!-- Header for list of features enabled in the selected energy mode -->
+    <string name="energy_mode_enables">Enables:</string>
+    <!-- Warning that selecting a higher energy mode may increase power consumption -->
+    <string name="energy_mode_eco_hint">Note that this mode may increase the power consumption of the device.</string>
+    <!-- Title for energy mode selection confirmation dialog -->
+    <string name="energy_modes_confirmation_title">Enable \"<xliff:g id="energyModeName" example="Essential network features">%s</xliff:g>\"</string>
 </resources>

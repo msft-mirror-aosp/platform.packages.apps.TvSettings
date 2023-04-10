@@ -112,9 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Резервное копирование и восстановление"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Сброс настроек"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Калибровка"</string>
-    <!-- no translation found for device_energy_saver (5560942970290949739) -->
-    <skip />
-    <string name="device_eco_settings" msgid="8478430139722946388">"Настройки экономичного режима"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Таймер отключения устройства"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Отключайте телевизор с помощью таймера, чтобы экономить энергию"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Устройства"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Выбор форматов"</string>
@@ -152,12 +151,49 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Расширенные настройки звука"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Разрешить игровой режим"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Приводить в соответствие с динамическим диапазоном контента"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Если включить этот параметр, устройство будет переключаться на формат динамического диапазона, который используется в контенте. Во время смены формата экран может погаснуть.\n\nДополнительные параметры динамического диапазона находятся в разделе \"Расширенные настройки экрана\"."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Предпочтительный динамический диапазон"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Автоматическая настройка формата"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Формат автоматически выбирается системой"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Если включить этот параметр, то при необходимости система будет определять динамический диапазон, подходящий для вашего экрана, и выводить контент в этом диапазоне."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Выбор формата по параметрам контента"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Принудительное изменение формата"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Принудительно устанавливается предпочтительный формат"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Принудительно устанавливается предпочтительный формат. Это может повлиять на другие настройки в режиме отображения или при использовании формата HDR."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Всегда в формате SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Всегда в формате <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Выводить контент принудительно в формате HDR?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Формат контента будет принудительно меняться на <xliff:g id="HDR_TYPE">%s</xliff:g> по умолчанию."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Разрешение вашего экрана составит 1080 пкс, а частота обновления – 60 Гц. Эта функция не поддерживается на устройствах с разрешением 4K и частотой обновления 60 ГЦ."</string>
+    <!-- no translation found for dynamic_range_selection_force_dv_title (8070148109262327094) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_dv_summary (1052851029985095562) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10_title (1221688206945051384) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10_summary (7784573527636502784) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hlg_title (3976190987768712696) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hlg_summary (5371949016689544001) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10plus_title (1305556000063625735) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10plus_summary (918038386222537401) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_sdr_title (1063579223517652945) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_sdr_summary (2874771365465898941) -->
+    <skip />
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Использовать частоту кадров контента"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Согласовывать частоту кадров"</string>
+    <!-- no translation found for match_content_frame_rate_seamless (5577846750811067585) -->
+    <skip />
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Устройство переключит формат вывода изображения в соответствии с исходной частотой кадров воспроизводимого видео, если поступит соответствующий запрос от приложения, но ТОЛЬКО при условии, что телевизор может осуществить плавный переход."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Подключенный экран не поддерживает плавные переходы частоты обновления. Чтобы этот параметр работал, замените экран на совместимый."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Не согласовывать частоту кадров"</string>
-    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Устройство переключит формат вывода изображения в соответствии с исходной частотой кадров видео, если поступит соответствующий запрос от приложения. При этом в начале воспроизведения видео или после его просмотра экран может ненадолго погаснуть."</string>
+    <!-- no translation found for match_content_frame_rate_non_seamless (2702658727234710031) -->
+    <skip />
+    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Если поступит запрос от приложения, устройство установит для экрана частоту обновления, соответствующую исходной частоте кадров в контенте, который вы смотрите. Из-за этого в начале и в конце воспроизведения видео экран может на секунду погаснуть."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Никогда"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Устройство не будет переключать формат вывода изображения в соответствии с исходной частотой кадров воспроизводимого видео, даже если поступит соответствующий запрос от приложения."</string>
     <string name="font_scale_settings_title" msgid="4114019544800225980">"Масштабирование текста"</string>
@@ -173,6 +209,7 @@
     <string name="hdr_format_selection_manual_desc" msgid="8865649615882146772">"Выбрать форматы вручную из списка доступных"</string>
     <string name="hdr_format_supported_title" msgid="1458594819224612431">"ПОДДЕРЖИВАЕМЫЕ ФОРМАТЫ"</string>
     <string name="hdr_format_unsupported_title" msgid="715318408107924941">"НЕПОДДЕРЖИВАЕМЫЕ ФОРМАТЫ"</string>
+    <string name="hdr_format_sdr" msgid="7211377112392255102">"SDR"</string>
     <string name="hdr_format_hdr10" msgid="8063543267227491062">"HDR10"</string>
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
@@ -188,7 +225,10 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"Разрешение"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"Автоматически"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"Разрешение изменено"</string>
+    <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Изменить разрешение на %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Нажмите ОК, чтобы использовать разрешение %1$s."</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Формат Dolby Vision не поддерживается в режиме %1$s и будет отключен в расширенных настройках экрана."</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Этот режим поддерживает %1$s. На некоторых телевизорах нужно включить расширенный формат HDMI, чтобы поддерживалось больше форматов HDR. Проверьте наличие этой функции в настройках телевизора."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Отмена"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ОК"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Гц"</string>
@@ -313,6 +353,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Этим устройством управляет ваша организация."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Этим устройством управляет <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"Подробнее"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Приложение камеры}one{Приложения камеры}few{Приложения камеры}many{Приложения камеры}other{Приложения камеры}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Календарь"</string>
@@ -923,21 +965,17 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"Выключать экран"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <!-- no translation found for device_energy_saver_confirmation_title (8080594690804254206) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_confirmation_message (7789453187001013951) -->
-    <skip />
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"Подтвердите настройки питания и энергопотребления"</string>
+    <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"Если оставить телевизор включенным на долгое время, энергопотребление может увеличиться."</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"Отключите параметр энергосбережения"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Подтвердите изменение, чтобы предотвратить отключение экрана во время просмотра. Возможно, это повлечет увеличение расхода энергии."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"При бездействии"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"При просмотре"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Автоматическое отключение телевизора"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Автоматическое отключение телевизора, если отсутствуют действия"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Автоматическое отключение телевизора при просмотре"</string>
-    <!-- no translation found for device_energy_saver_validation_sleep (7490897287741107840) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_validation_attentive (1461105528087097435) -->
-    <skip />
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Автоматическое отключение"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Автоматическое отключение, если отсутствуют действия"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Автоматическое отключение при просмотре"</string>
+    <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"У таймера \"При бездействии\" значение должно быть меньше, чем у таймера \"При просмотре\""</string>
+    <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"У таймера \"При просмотре\" значение должно быть больше, чем у таймера \"При бездействии\""</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Ограничение сети в режиме ожидания"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Сокращает расход энергии в режиме ожидания"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"В режиме ожидания телевизор отключится от сети, если не запланировано автоматических обновлений системы. Это может уменьшить энергопотребление, но некоторые функции (например, Google Cast и Ассистент) станут недоступны."</string>
@@ -1015,7 +1053,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Картинка в картинке"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Установленные приложения не поддерживают режим \"Картинка в картинке\"."</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Когда приложение открыто или когда вы выходите из него, оно может создавать окно \"Картинка в картинке\". Так вы можете, например, продолжить просмотр видео. Это окно отображается поверх остальных приложений."</string>
-    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Если вы разрешите приложениям устанавливать будильники и планировать на определенное время действия, то эти приложения будут работать в фоновом режиме. В таком случае заряд батареи может расходоваться быстрее.\n\nЕсли отключить эту настройку, текущие будильники и созданные приложением мероприятия перестанут запускаться."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Вы можете разрешить приложениям устанавливать будильники и планировать запуск действий в определенное время. В этом случае они будут работать в фоновом режиме и быстрее расходовать заряд батареи.\n\nЕсли отключить это разрешение, текущие будильники и созданные приложениями события перестанут запускаться."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Включение экрана"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Разрешить приложению включать экран"</string>
     <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Приложение сможет в любое время включать экран без явного согласия с вашей стороны"</string>
@@ -1091,4 +1129,9 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Состояние при включении"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Сброс"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Код подключения к Ethernet"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Режимы энергопотребления"</string>
+    <string name="energy_modes_summary" msgid="7196407759836930799">"Когда телевизор не используется, он будет эффективнее потреблять электроэнергию."</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Функции, которые будут включены:"</string>
+    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Обратите внимание, что этот режим может увеличить энергопотребление устройства."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Включить режим \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\"?"</string>
 </resources>

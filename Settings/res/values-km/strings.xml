@@ -112,9 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"បម្រុងទុក និងស្ដារ"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"កំណត់ទិន្នន័យដូចចេញពីរោងចក្រ"</string>
     <string name="device_calibration" msgid="2907914144048739705">"ការ​ក្រិត​តាម​ខ្នាត"</string>
-    <!-- no translation found for device_energy_saver (5560942970290949739) -->
-    <skip />
-    <string name="device_eco_settings" msgid="8478430139722946388">"ការកំណត់​អេកូ"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"កម្មវិធីកំណត់ម៉ោង​ដែលបិទ"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"កំណត់កម្មវិធីកំណត់ម៉ោង ដើម្បីបិទទូរទស្សន៍ និងសន្សំសំចៃថាមពល"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ឧបករណ៍"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"ជ្រើសរើស​ទម្រង់"</string>
@@ -152,14 +151,51 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"ការកំណត់​សំឡេង​កម្រិតខ្ពស់"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"អនុញ្ញាត​មុខងារ​ហ្គេម"</string>
-    <string name="match_content_frame_rate_title" msgid="153291168560947689">"ផ្គូផ្គង​អត្រាស៊ុម​របស់ខ្លឹមសារ"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"រលូន"</string>
-    <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"ប្រសិនបើកម្មវិធីស្នើសុំវា ឧបករណ៍​របស់អ្នក​នឹងផ្គូផ្គង​លទ្ធផល​របស់វា​ជាមួយ​អត្រាស៊ុមដើម​នៃខ្លឹមសារ​ដែលអ្នក​កំពុងមើល​ លុះត្រាតែទូរទស្សន៍របស់អ្នកអាចធ្វើចលនាផ្លាស់ប្ដូរដោយរលូនប៉ុណ្ណោះ។"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"ផ្គូផ្គងកម្រិតឌីណាមិកខ្លឹមសារ"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"នៅពេលបើក​ជម្រើសនេះ ប្រព័ន្ធនឹងប្ដូររវាង​ទម្រង់កម្រិត​ឌីណាមិកផ្សេងៗ ដើម្បីឱ្យត្រូវគ្នានឹង​ខ្លឹមសារ។ ការធ្វើបែបនេះ​អាចបណ្ដាលឱ្យ​អេក្រង់ពណ៌ខ្មៅ ក្នុងអំឡុងពេល​ប្ដូរទម្រង់។\n\nចុច​ការកំណត់​ផ្ទាំងអេក្រង់កម្រិតខ្ពស់ ដើម្បីទទួលបាន​ជម្រើសកម្រិតឌីណាមិក​ច្រើនទៀត។"</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"កម្រិតឌីណាមិក​ដែលចង់បាន"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"ការបំប្លែងជាអាទិភាពនៃប្រព័ន្ធ"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"សូមឱ្យប្រព័ន្ធគ្រប់គ្រងការបំប្លែងទម្រង់"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"នៅពេលជម្រើសនេះត្រូវបានជ្រើសរើស ប្រព័ន្ធនឹងកំណត់ចន្លោះឌីណាមិកសមរម្យមួយដែលត្រូវបានផ្ញើទៅកាន់ផ្ទាំងអេក្រង់របស់អ្នក ហើយបំប្លែងខ្លឹមសារទៅជា​ចន្លោះឌីណាមិកនេះតាមតម្រូវការ។"</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ត្រូវគ្នានឹងទម្រង់ខ្លឹមសារជានិច្ច"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"បង្ខំការបំប្លែង"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"បង្ខំការបំប្លែងទៅជាទម្រង់ដែលពេញចិត្ត"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"បង្ខំការបំប្លែងទៅជាទម្រង់ដែលពេញចិត្ត។ ការបង្ខំការបំប្លែងអាចប៉ះពាល់ដល់ការកំណត់ផ្សេងទៀតនៅក្នុងមុខងារផ្ទាំងអេក្រង់ ឬទម្រង់ HDR។"</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"ទៅជា SDR ជានិច្ច"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"ទៅជា <xliff:g id="HDR_TYPE">%s</xliff:g> ជានិច្ច"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"តើអ្នកចង់បង្ខំធាតុចេញកម្រិត HDR មែនទេ?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"តាមលំនាំដើម កា​របំប្លែងនឹងត្រូវបានបង្ខំឱ្យទៅជា <xliff:g id="HDR_TYPE">%s</xliff:g>។"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"ផ្ទាំងអេក្រង់របស់អ្នកនឹងដំណើរការក្នុងកម្រិតគុណភាព 1080p 60Hz។ ជម្រើសនេះមិនត្រូវគ្នាជាមួយផ្ទាំងអេក្រង់របស់អ្នកទេ នៅពេលដំណើរការក្នុងកម្រិតគុណភាព 4k 60Hz។"</string>
+    <!-- no translation found for dynamic_range_selection_force_dv_title (8070148109262327094) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_dv_summary (1052851029985095562) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10_title (1221688206945051384) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10_summary (7784573527636502784) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hlg_title (3976190987768712696) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hlg_summary (5371949016689544001) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10plus_title (1305556000063625735) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_hdr10plus_summary (918038386222537401) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_sdr_title (1063579223517652945) -->
+    <skip />
+    <!-- no translation found for dynamic_range_selection_force_sdr_summary (2874771365465898941) -->
+    <skip />
+    <string name="match_content_frame_rate_title" msgid="153291168560947689">"ផ្គូផ្គង​អត្រាហ្វ្រេមរបស់ខ្លឹមសារ"</string>
+    <!-- no translation found for match_content_frame_rate_seamless (5577846750811067585) -->
+    <skip />
+    <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"ប្រសិនបើកម្មវិធីស្នើសុំវា ឧបករណ៍​របស់អ្នក​នឹងផ្គូផ្គង​ធាតុចេញ​របស់វា​ជាមួយ​អត្រាហ្វ្រេមដើម​នៃខ្លឹមសារ​ដែលអ្នក​កំពុងមើល​ លុះត្រាតែទូរទស្សន៍របស់អ្នកអាចដើរយ៉ាងរលូនប៉ុណ្ណោះ។"</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"ផ្ទាំងអេក្រង់ដែលបានភ្ជាប់របស់អ្នកមិនអាចភ្ជាប់ឈុតឆាកក្នុងអត្រាផ្ទុកឡើងវិញដ៏រលូនបានទេ។ ជម្រើសនេះនឹងមិនមានប្រសិទ្ធភាពឡើយ ប្រសិនបើអ្នកមិនប្ដូរទៅប្រើផ្ទាំងអេក្រង់ដែលអាចភ្ជាប់ឈុតឆាកក្នុងអត្រាផ្ទុកឡើងវិញដ៏រលូនទេ។"</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"មិនរលូន"</string>
-    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"ប្រសិនបើកម្មវិធីស្នើសុំវា ឧបករណ៍​របស់អ្នក​នឹងផ្គូផ្គង​លទ្ធផល​របស់វា​ជាមួយ​អត្រាស៊ុមដើម​នៃខ្លឹមសារ​ដែលអ្នក​កំពុងមើល​។ ការធ្វើបែបនេះអាចបណ្ដាលឱ្យអេក្រង់របស់អ្នកងងឹតមួយភ្លែត នៅពេលចាកចេញ ឬចូលចាក់វីដេអូ។"</string>
+    <!-- no translation found for match_content_frame_rate_non_seamless (2702658727234710031) -->
+    <skip />
+    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"ប្រសិនបើកម្មវិធីស្នើសុំវា ឧបករណ៍​របស់អ្នក​នឹងផ្គូផ្គង​ធាតុចេញ​របស់វា​ជាមួយ​អត្រាហ្វ្រេមដើម​នៃខ្លឹមសារ​ដែលអ្នក​កំពុងមើល​។ ការធ្វើបែបនេះអាចបណ្ដាលឱ្យអេក្រង់របស់អ្នកងងឹតមួយភ្លែត នៅពេលចាកចេញ ឬចូលចាក់វីដេអូ។"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"កុំឱ្យសោះ"</string>
-    <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"ទោះបីជាកម្មវិធីស្នើសុំវាក៏ដោយ ឧបករណ៍​របស់អ្នក​នឹងមិនព្យាយាមផ្គូផ្គង​លទ្ធផល​របស់វា​ជាមួយ​អត្រាស៊ុមដើម​នៃខ្លឹមសារ​ដែលអ្នក​កំពុងមើលទេ។"</string>
+    <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"ទោះបីកម្មវិធីស្នើសុំវាក៏ដោយ ឧបករណ៍​របស់អ្នក​នឹងមិនព្យាយាមផ្គូផ្គង​ធាតុចេញ​របស់វា​ជាមួយ​អត្រាហ្វ្រេមដើម​នៃខ្លឹមសារ​ដែលអ្នក​កំពុងមើលទេ។"</string>
     <string name="font_scale_settings_title" msgid="4114019544800225980">"ការប្ដូរទំហំអក្សរ"</string>
     <string name="font_scale_item_detail" msgid="1558315053348778805">"ប្ដូរទំហំទៅ <xliff:g id="SCALE">%1$d</xliff:g>%%"</string>
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"អត្ថបទគំរូ"</string>
@@ -173,6 +209,7 @@
     <string name="hdr_format_selection_manual_desc" msgid="8865649615882146772">"ជ្រើសរើសទម្រង់ដោយផ្ទាល់ដៃពីទម្រង់ដែលអាចប្រើបាន"</string>
     <string name="hdr_format_supported_title" msgid="1458594819224612431">"ទម្រង់​ដែល​អាចប្រើបាន"</string>
     <string name="hdr_format_unsupported_title" msgid="715318408107924941">"ទម្រង់ដែលមិនអាចប្រើបាន"</string>
+    <string name="hdr_format_sdr" msgid="7211377112392255102">"SDR"</string>
     <string name="hdr_format_hdr10" msgid="8063543267227491062">"HDR10"</string>
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
@@ -188,7 +225,10 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"កម្រិតច្បាស់"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"ស្វ័យប្រវត្តិ"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"កម្រិតច្បាស់ត្រូវបានផ្លាស់ប្ដូរ"</string>
+    <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"ប្ដូរកម្រិតគុណភាពទៅ %1$s ឬ?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"ជ្រើសរើស \"យល់ព្រម\" ដើម្បីប្រើ %1$s ចាប់ពីពេល​នេះតទៅ។"</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision មិនអាចប្រើបាននៅ %1$s ទេ ហើយនឹងត្រូវបានបិទនៅក្នុង \"ការកំណត់ការបង្ហាញកម្រិតខ្ពស់\""</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"មុខងារនេះអាចប្រើ %1$s បាន។ នៅលើទូរទស្សន៍មួយចំនួន អ្នកប្រហែលជាត្រូវបើក HDMI ដែលបានធ្វើឱ្យប្រសើរឡើង ដើម្បីបើកទម្រង់ HDR ច្រើនទៀត។ ពិនិត្យមើលការកំណត់ទូរទស្សន៍របស់អ្នក ដើម្បីមើលថាតើមុខងារនេះអាចប្រើបានដែរឬអត់។"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"បោះបង់"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"យល់ព្រម"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
@@ -313,6 +353,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"ឧបករណ៍​នេះ​ស្ថិត​ក្រោម​ការ​គ្រប់គ្រង​របស់ស្ថាប័ន​​អ្នក។"</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"ឧបករណ៍​នេះ​ស្ថិត​ក្រោម​ការ​គ្រប់គ្រង​របស់ <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> ។"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"ស្វែងយល់បន្ថែម"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{កម្មវិធី​កាមេរ៉ា}other{កម្មវិធី​កាមេរ៉ា}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"កម្មវិធីប្រតិទិន"</string>
@@ -923,21 +965,17 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"បិទ​ផ្ទាំង​អេក្រង់"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <!-- no translation found for device_energy_saver_confirmation_title (8080594690804254206) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_confirmation_message (7789453187001013951) -->
-    <skip />
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"បញ្ជាក់ការកំណត់កម្លាំង និងថាមពល"</string>
+    <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"ការទុកឱ្យទូរទស្សន៍របស់អ្នកបើករយៈពេលយូរ អាចបង្កើនការប្រើប្រាស់ថាមពល"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"បិទការកំណត់កម្មវិធីសន្សំសំចៃថាមពល"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"សូមបញ្ជាក់ ដើម្បីទប់ស្កាត់កុំឱ្យបិទការបង្ហាញខណៈពេលកំពុងមើល ដែលអាចនឹងធ្វើឱ្យការប្រើប្រាស់ថាមពលមានការកើនឡើង។"</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"ពេលអសកម្ម"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"ពេលកំពុងមើល"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"បិទទូរទស្សន៍ដោយស្វ័យប្រវត្តិ"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"បិទទូរទស្សន៍ដោយស្វ័យប្រវត្តិនៅពេលអសកម្ម"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"បិទទូរទស្សន៍ដោយស្វ័យប្រវត្តិនៅពេលកំពុងមើល"</string>
-    <!-- no translation found for device_energy_saver_validation_sleep (7490897287741107840) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_validation_attentive (1461105528087097435) -->
-    <skip />
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"បិទដោយស្វ័យប្រវត្តិ"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"បិទដោយស្វ័យប្រវត្តិនៅពេលអសកម្ម"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"បិទដោយស្វ័យប្រវត្តិនៅពេលកំពុងមើល"</string>
+    <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"កម្មវិធីកំណត់ម៉ោងសម្រាប់ \"ពេលអសកម្ម\" ត្រូវតែខ្លីជាងកម្មវិធីកំណត់ម៉ោងសម្រាប់ \"ពេលកំពុងមើល\""</string>
+    <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"កម្មវិធីកំណត់ម៉ោងសម្រាប់ \"ពេលកំពុងមើល\" ត្រូវតែវែងជាងកម្មវិធីកំណត់ម៉ោងសម្រាប់ \"ពេលអសកម្ម\""</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"ដាក់កំហិតការតភ្ជាប់បណ្ដាញក្នុងមុខងារសម្ងំ"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"ប្រើ​ថាមពលតិចជាង​នៅក្នុង​មុខងារសម្ងំ"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"ទូរទស្សន៍របស់អ្នក​នឹងត្រូវផ្ដាច់ចេញពីបណ្ដាញរបស់អ្នក នៅពេលស្ថិតនៅក្នុង​មុខងារសម្ងំ លើកលែង​ចំពោះការទទួលការដំឡើងកំណែ​ដោយស្វ័យប្រវត្តិ។ ការធ្វើបែបនេះ​អាចបន្ថយការប្រើប្រាស់​ថាមពល​របស់ទូរទស្សន៍អ្នក ប៉ុន្តែក៏មានន័យថា អ្នកមិនអាចប្រើ​មុខងារដូចជា Cast និង Google Assistant នៅពេលស្ថិតក្នុង​មុខងារសម្ងំ​ផងដែរ។"</string>
@@ -1091,4 +1129,9 @@
     <string name="power_on_behavior" msgid="927607372303160716">"សកម្មភាព​នៅពេល​បើក"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"កំណត់​ឡើងវិញ"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"កូដផ្គូផ្គងអ៊ីសឺរណិត"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"មុខងារថាមពល"</string>
+    <string name="energy_modes_summary" msgid="7196407759836930799">"បង្កើនប្រសិទ្ធភាពថាមពល នៅពេលមិនប្រើទូរទស្សន៍"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"បើក៖"</string>
+    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"សូមកត់ចំណាំថា មុខងារនេះអាចបង្កើនការប្រើប្រាស់ថាមពលរបស់ឧបករណ៍។"</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"បើក \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
 </resources>
