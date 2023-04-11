@@ -112,10 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"גיבוי ושחזור"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"איפוס לנתוני היצרן"</string>
     <string name="device_calibration" msgid="2907914144048739705">"כיול"</string>
-    <!-- no translation found for device_energy_saver (6611757996220443028) -->
-    <skip />
-    <!-- no translation found for device_energy_saver_summary (5306058475316008429) -->
-    <skip />
+    <string name="device_energy_saver" msgid="6611757996220443028">"טיימר לכיבוי"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"הגדרת טיימרים לכיבוי הטלוויזיה ולחיסכון באנרגיה"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"מכשירים"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"בחירת פורמטים"</string>
@@ -168,11 +166,21 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"רוצה לאלץ את פלט ה-HDR?"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"כברירת מחדל ההמרה תיאלץ לפעול במצב <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"התצוגה תפעל ברזולוציית 1080p ‏ 60Hz. האפשרות הזו לא תואמת לתצוגה שלך כשהיא פועלת ברזולוציית 4k‏ 60Hz."</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"תמיד לאלץ המרה לפורמט Dolby Vision"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"אם התכונה Dolby Vision מושבתת בקטע \'פורמטים של איכות HDR\' בהגדרות התצוגה המתקדמות, אילוץ ההמרה לפורמט Dolby Vision יפעיל את התכונה מחדש."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"תמיד לאלץ המרה לפורמט HDR10"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"אם התכונה HDR10 מושבתת בקטע \'פורמטים של איכות HDR\' בהגדרות התצוגה המתקדמות, אילוץ ההמרה לפורמט HDR10 יפעיל את התכונה מחדש."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"תמיד לאלץ המרה לפורמט HLG"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"אם התכונה HLG מושבתת בקטע \'פורמטים של איכות HDR\' בהגדרות התצוגה המתקדמות, אילוץ ההמרה לפורמט HLG יפעיל את התכונה מחדש."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"תמיד לאלץ המרה לפורמט HDR10+‎"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"אם התכונה HDR10+‎ מושבתת בקטע \'פורמטים של איכות HDR\' בהגדרות התצוגה המתקדמות, אילוץ ההמרה לפורמט HDR10+‎ יפעיל את התכונה מחדש."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"תמיד לאלץ המרה לפורמט SDR"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"אילוץ ההמרה לפורמט SDR ישבית את כל הפורמטים בקטע \'פורמטים של איכות HDR\' בהגדרות התצוגה המתקדמות."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"התאמת התוכן לקצב הפריימים"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"שינוי חלק של קצב הפריימים"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"שינוי חלק של קצב הפריימים בלבד"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"המכשיר ישנה את קצב הפריימים של המסך בהתאם לקצב הפריימים המקורי של התוכן בעקבות בקשה של האפליקציה רק אם הטלוויזיה יכולה לבצע את השינוי בצורה חלקה."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"המסך המחובר שלך לא תומך במעברים עם קצב רענון חלק. לאפשרות זו לא תהיה השפעה אלא אם עוברים למסך שתומך בה."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"שינוי לא-חלק של קצב הפריימים"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"תמיד"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"המכשיר ישנה את קצב הפריימים של המסך בהתאם לקצב הפריימים המקורי של התוכן אם האפליקציה תבקש זאת. במקרה כזה, ייתכן שהמסך יואפל לרגע לפני תחילת הסרטון ובסופו."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"אף פעם"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"המכשיר אף פעם לא ינסה לשנות את קצב הפריימים של המסך כדי להתאים אותו לקצב הפריימים המקורי של התוכן, גם אם האפליקציה תבקש זאת."</string>
@@ -1109,4 +1117,9 @@
     <string name="power_on_behavior" msgid="927607372303160716">"התנהגות בהפעלה"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"איפוס"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"קוד התאמה לאתרנט"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"מצבי אנרגיה"</string>
+    <string name="energy_modes_summary" msgid="7196407759836930799">"שיפור החיסכון באנרגיה כשהטלוויזיה לא בשימוש"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"תכונות מופעלות:"</string>
+    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"יש לשים לב שהמצב הזה עשוי להגדיל את צריכת החשמל של המכשיר."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"הפעלת מצב \'<xliff:g id="ENERGYMODENAME">%s</xliff:g>\'"</string>
 </resources>
