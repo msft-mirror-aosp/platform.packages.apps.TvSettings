@@ -112,8 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"ब्याकअप र पुनर्स्थापना गर्नुहोस्"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"कारखाना डेटा रिसेट"</string>
     <string name="device_calibration" msgid="2907914144048739705">"क्यालिब्रेसन"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"बिजुली तथा ऊर्जा"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"इको सेटिङ"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"अफ गर्ने टाइमर"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"टिभी अफ गर्ने टाइमर सेट गर्नुहोस् र बिजुली बचत गर्नुहोस्"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"डिभाइसहरू"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"ढाँचाहरू चयन गर्नुहोस्"</string>
@@ -151,17 +151,38 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"ध्वनिसम्बन्धी उन्नत सेटिङ"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"गेम मोडलाई अनुमति दिनुहोस्"</string>
-    <!-- no translation found for match_content_dynamic_range_title (2794980556561655838) -->
-    <skip />
-    <!-- no translation found for match_content_dynamic_range_summary (2255683926227355398) -->
-    <skip />
-    <!-- no translation found for preferred_dynamic_range_title (5064883672337010588) -->
-    <skip />
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"सामग्रीको डायनामिक रेन्जसँग मिल्दोजुल्दो बनाउनुहोस्"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"तपाईंले यो विकल्प अन गर्नुभयो भने सिस्टमले सामग्रीसँग मिल्दाजुल्दा परिणामहरू देखाउने प्रयोजनका लागि डायनामिक रेन्जका विभिन्न फर्म्याटहरू अदलबदल गर्ने छ। तपाईंले यो विकल्प अन गर्नुभएका खण्डमा फर्म्याट अदलबदल गर्ने क्रममा स्क्रिन कालो हुन सक्छ।\n\nडायनामिक रेन्जका थप विकल्पहरू प्राप्त गर्न \"डिस्प्लेसम्बन्धी उन्नत सेटिङ\" मा क्लिक गर्नुहोस्।"</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"रोजाइको डायनामिक रेन्ज"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"सिस्टमका अनुसार फर्म्याट बदलियोस्"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"फर्म्याट रूपान्तरण गर्ने काम सिस्टमलाई जिम्मा दिइयोस्"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"यो विकल्प चयन गरिएका बेला सिस्टमले तपाईंको डिस्प्लेमा कुन डायनामिक रेन्ज पठाउन उपयुक्त हुन्छ भन्ने कुरा निर्धारण गर्छ र सामग्रीलाई आवश्यकताअनुसार रूपान्तरण गरी उक्त डायनामिक रेन्ज बनाउँछ।"</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"सधैँ सामग्रीको फर्म्याटसँग मिल्ने फर्म्याट प्रयोग गरियोस्"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"जबरजस्ती रूपान्तरण गरियोस्"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"यसले चाहेको फर्म्याटमा जबरजस्ती रूपान्तरण गर्छ"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"चाहेको फर्म्याटमा जबरजस्ती रूपान्तरण गरियोस्। जबरजस्ती रूपान्तरण गर्दा डिस्प्ले मोड वा HDR फर्म्याटका अन्य सेटिङ प्रभावित हुन सक्छन्।"</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"सधैँ SDR मा देखाइयोस्"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"सधैँ <xliff:g id="HDR_TYPE">%s</xliff:g> मा देखाइयोस्"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"तपाईं आउटपुट जबरजस्ती रूपान्तरण गरी HDR बनाउन चाहनुहुन्छ?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"आउटपुट जबरजस्ती स्वतः रूपान्तरण गरी <xliff:g id="HDR_TYPE">%s</xliff:g> बनाइने छ।"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"तपाईंको डिस्प्ले १०८० पिक्सेल ६० हर्ज रिजोल्युसनमा चल्ने छ। तपाईंको डिस्प्ले ४k ६० हर्ज रिजोल्युसनमा चलिरहेका बेला यो विकल्प प्रयोग गर्न मिल्दैन।"</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"हालको रिजोल्युसनमा Dolby Vision प्रयोग गर्न मिल्दैन। तपाईंले म्यानुअल रूपमा Dolby Vision अन गर्नुभयो भने तपाईंको डिस्प्लेको रिजोल्युसन बदलेर १०८० पिक्सेल ६० हर्ज बनाइने छ"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"रिजोल्युसन बदलेर १०८० पिक्सेल ६० हर्ज बनाउने हो?"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"HDR फर्म्याटहरू जबरजस्ती रूपान्तरण गरी सधैँ Dolby Vision बनाइयोस्"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"डिस्प्लेसम्बन्धी उन्नत सेटिङको \"HDR फर्म्याटहरू\" खण्डमा Dolby Vision अफ गरिएको छ भने HDR फर्म्याट जबरजस्ती रूपान्तरण गरी Dolby Vision बनाइँदा यो पुनः अन हुने छ।"</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"HDR फर्म्याटहरू जबरजस्ती रूपान्तरण गरी HDR10 बनाइयोस्"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"डिस्प्लेसम्बन्धी उन्नत सेटिङको \"HDR फर्म्याटहरू\" खण्डमा HDR10 अफ गरिएको छ भने HDR फर्म्याट जबरजस्ती रूपान्तरण गरी HDR10 बनाइँदा यो पुनः अन हुने छ।"</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"HDR फर्म्याटहरू जबरजस्ती रूपान्तरण गरी सधैँ HLG बनाइयोस्"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"डिस्प्लेसम्बन्धी उन्नत सेटिङको \"HDR फर्म्याटहरू\" खण्डमा HLG अफ गरिएको छ भने HDR फर्म्याट जबरजस्ती रूपान्तरण गरी HLG बनाइँदा यो पुनः अन हुने छ।"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"HDR फर्म्याटहरू जबरजस्ती रूपान्तरण गरी सधैँ HDR10+ बनाइयोस्"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"डिस्प्लेसम्बन्धी उन्नत सेटिङको \"HDR फर्म्याटहरू\" खण्डमा HDR10+ अफ गरिएको छ भने HDR फर्म्याट जबरजस्ती रूपान्तरण गरी HDR10+ बनाइँदा यो पुनः अन हुने छ।"</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"HDR फर्म्याटहरू जबरजस्ती रूपान्तरण गरी सधैँ SDR बनाइयोस्"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"HDR फर्म्याट जबरजस्ती रूपान्तरण गरी SDR बनाइयो भने  डिस्प्लेसम्बन्धी उन्नत सेटिङको \"HDR फर्म्याटहरू\" खण्डमा सबै फर्म्याटहरू अफ हुने छन्।"</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"सामग्रीको फ्रेम रेटसँग मिल्दोजुल्दो बनाउनुहोस्"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"डिस्प्लेको फ्रेम रेट सामग्रीको फ्रेम रेटका आधारमा निर्धारण नगरियोस्"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"निर्बाध रूपमा मात्र"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"एपले डिस्प्लेको फ्रेम रेट सामग्रीको फ्रेम रेटका आधारमा निर्धारण गर्न अनुरोध गरेका खण्डमा तपाईंको यन्त्रले यसको आउटपुट तपाईंले हेरिरहनुभएको सामग्रीको मूल फ्रेम रेटअनुसार निर्धारण गर्ने छ। तर यसका निम्ति तपाईंको टिभीमा निर्बाध रूपमा फ्रेम रेट बदल्न सक्ने सुविधा उपलब्ध हुनु पर्छ।"</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"तपाईंले जोड्नुभएको डिस्प्लेमा सहज तरिकाले रिफ्रेस रेट ट्रान्जिसन गर्ने सुविधा प्रयोग गर्न मिल्दैन। तपाईंले अहिलेको डिस्प्ले बदलेर यो सुविधा प्रयोग गर्न मिल्ने डिस्प्ले नजोडेसम्म यो विकल्पले काम गर्ने छैन।"</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"डिस्प्लेको फ्रेम रेट सामग्रीको फ्रेम रेटका आधारमा निर्धारण गरियोस्"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"सधैँ"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"एपले डिस्प्लेको फ्रेम रेट सामग्रीको फ्रेम रेटका आधारमा निर्धारण गर्ने अनुरोध गरेका खण्डमा तपाईंको यन्त्रले यसको आउटपुट तपाईंले हेरिरहनुभएको सामग्रीको मूल फ्रेम रेटका आधारमा निर्धारण गर्ने छ। यसले गर्दा भिडियो प्ले गर्न थाल्दा वा उक्त भिडियोबाट बाहिरिँदा स्क्रिन खाली देखिन सक्छ।"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"कहिल्यै पनि होइन"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"एपले डिस्प्लेको फ्रेम रेट सामग्रीको फ्रेम रेटका आधारमा निर्धारण गर्न अनुरोध गरेका खण्डमा पनि तपाईंको यन्त्रले कहिल्यै पनि यसको आउटपुट तपाईंले हेरिरहनुभएको सामग्रीको मूल फ्रेम रेटका आधारमा निर्धारण गर्ने प्रयास गर्ने छैन।"</string>
@@ -201,7 +222,8 @@
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"रद्द गर्नुहोस्"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ठिक छ"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"हर्ज"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> हर्ज)"</string>
+    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
+    <skip />
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"केस गरिएको डेटा हटाउने हो?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"यसले सबै अनुप्रयोगहरूको लागि केस गरिएको डेटा हटाउँछ।"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -276,10 +298,10 @@
     <string name="system_developer_options" msgid="8480844257066475479">"विकासकर्ताका विकल्पहरू"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"कुनै पनि होइन"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"उपयोग र निदान"</string>
-    <string name="no_device_admins" msgid="4628974717150185625">"डिभाइसका एडमिन एपहरू उपलब्ध छैनन्"</string>
+    <string name="no_device_admins" msgid="4628974717150185625">"डिभाइसका एड्मिन एपहरू उपलब्ध छैनन्"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"एडमिनले अफ गरेको छ"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"उपलब्ध छैन"</string>
-    <string name="manage_device_admin" msgid="5714217234035017983">"डिभाइसका एडमिन एपहरू"</string>
+    <string name="manage_device_admin" msgid="5714217234035017983">"डिभाइसका एड्मिन एपहरू"</string>
     <string name="number_of_device_admins_none" msgid="2734299122299837459">"कुनै सक्रिय एपहरू छैनन्"</string>
     <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"प्रशासक, इन्क्रिप्सन नीति वा प्रामाणिक भण्डारणद्वारा असक्षम पारिएको छ"</string>
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"व्यवस्थित गरिएको यन्त्रको जानकारी"</string>
@@ -1066,7 +1088,7 @@
     <string name="remove_device_admin" msgid="2623866073546295104">"यो डिभाइसको एडमिन एप डिएक्टिभेट गर्नुहोस्"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"एपको स्थापना रद्द गर्नुहोस्"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"निष्क्रिय पार्नुहोस् तथा स्थापना रद्द गर्नुहोस्"</string>
-    <string name="select_device_admin_msg" msgid="8475934459999710332">"डिभाइसका एडमिन एपहरू"</string>
+    <string name="select_device_admin_msg" msgid="8475934459999710332">"डिभाइसका एड्मिन एपहरू"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"डिभाइसको एडमिन एप एक्टिभेट गर्ने हो?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"यो डिभाइसको एडमिन एप एक्टिभेट गर्नुहोस्"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"तपाईंले यो एडमिन एप एक्टिभेट गर्नुभयो भने <xliff:g id="APP_NAME">%1$s</xliff:g> ले निम्न कार्य गर्ने अनुमति पाउने छ:"</string>
@@ -1098,4 +1120,9 @@
     <string name="power_on_behavior" msgid="927607372303160716">"पावर अन हुँदा देखिने मोड"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"रिसेट गर्नुहोस्"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"इथरनेट कनेक्सन कोड"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"इनर्जी मोड"</string>
+    <string name="energy_modes_summary" msgid="7196407759836930799">"टिभी प्रयोग नगरिएका बेला ऊर्जाको खपतमा सुधार गर्नुहोस्"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"निम्न सुविधाहरू सक्षम गर्छ:"</string>
+    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"तपाईंले यो मोड प्रयोग गर्नुभयो भने तपाईंको डिभाइसले ऊर्जाको प्रयोग बढाउन सक्छ भन्ने कुरा याद राख्नुहोस्।"</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" अन गर्नुहोस्"</string>
 </resources>

@@ -23,13 +23,13 @@
     <string name="general_action_yes" msgid="1303080504548165355">"Ha"</string>
     <string name="general_action_no" msgid="674735073031386948">"Yoʻq"</string>
     <string name="action_on_title" msgid="1074972820237738324">"YONIQ"</string>
-    <string name="action_off_title" msgid="3598665702863436597">"Yoqilmagan"</string>
+    <string name="action_off_title" msgid="3598665702863436597">"Oʻchiq"</string>
     <string name="action_on_description" msgid="9146557891514835767">"YONIQ"</string>
-    <string name="action_off_description" msgid="1368039592272701910">"Yoqilmagan"</string>
+    <string name="action_off_description" msgid="1368039592272701910">"Oʻchiq"</string>
     <string name="agree" msgid="8155497436593889753">"Roziman"</string>
     <string name="disagree" msgid="7402998517682194430">"Rozi emasman"</string>
     <string name="enabled" msgid="5127188665060746381">"Yoniq"</string>
-    <string name="disabled" msgid="4589065923272201387">"Yoqilmagan"</string>
+    <string name="disabled" msgid="4589065923272201387">"Oʻchiq"</string>
     <string name="unavailable" msgid="1610732303812180196">"Ishlamaydi"</string>
     <string name="allow" msgid="6982558814345894019">"Ruxsat"</string>
     <string name="deny" msgid="8291577308813053917">"Rad etish"</string>
@@ -53,7 +53,7 @@
     <string name="sound_category_title" msgid="7899816751041939518">"Tovush"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"Ilovalar"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"Qurilma parametrlari"</string>
-    <string name="accessibility_category_title" msgid="1552664829936369592">"Maxsus imkoniyatlar"</string>
+    <string name="accessibility_category_title" msgid="1552664829936369592">"Qulayliklar"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"Pultlar va aksessuarlar"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Displey va tovush"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Yordam/fikr-mulohaza"</string>
@@ -112,8 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Zaxiralash va qayta tiklash"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Zavod sozlamalarini tiklash"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrlash"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"Quvvat va energiya"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"Eco sozlamalari"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Oʻchirish taymeri"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Televizorni oʻchirish va quvvatni tejash uchun taymerni sozlang"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Qurilmalar"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Formatlarni tanlang"</string>
@@ -154,11 +154,35 @@
     <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Mos kontent dinamik diapazoni"</string>
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Bu parametr yoqilsa, tizim tasvir formatini kontentga moslab almashtiradi. Mos kelmagan formatda qora ekran chiqishi mumkin.\n\nYanada mos formatlarni koʻrish uchun Kengaytirilgan ekran sozlamalari ustiga bosing."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Afzal dinamik diapazon"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Tizim asosli oʻgirish"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Formatga oʻgirishni tizim boshqaradi"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Bu parametr tanlanganda, tizim displeyingizga yuboriladigan mos dinamik diapazonni aniqlaydi va zarur vaqtda kontentni ushbu dinamik diapazonga oʻgiradi."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Doim kontent formatiga mos keladi"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Majburiy oʻgirish"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Mos formatga oʻgirishga majbur qiladi"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Majburan mos formatga oʻgiriladi. Majburiy oʻgirish Displey rejimi yoki HDR formatidagi boshqa sozlamalarga taʼsir qilishi mumkin."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Doim SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Doim <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"HDR chiqish bilan ochilsinmi?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Standart holatda <xliff:g id="HDR_TYPE">%s</xliff:g> sifatida oʻgiriladi."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Displeyingiz 1080p 60Hz aniqlik darajasida ishlaydi. Bu parametr 4K 60Hz aniqlik darajasida ishlayotganda displeyingizga mos kelmaydi."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision joriy aniqlik darajasida ishlamaydi. Dolby Vision funksiyasini qoʻlda yoqsangiz, displeyingiz aniqlik darajasi 1080p 60Hz ga oʻzgaradi."</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Aniqlik darajasi 1080p 60Hz ga oʻzgartirilsinmi?"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Doimiy Dolby Vision rejimi"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Kengaytirilgan ekran sozlamalaridagi HDR formatlarda Dolby Vision yoqilmagan boʻlsa, doimiy Dolby Vision rejimida u qayta yoqiladi."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Doimiy HDR10 rejimi"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"Kengaytirilgan ekran sozlamalaridagi HDR formatlarda HDR10 yoqilmagan boʻlsa, doimiy HDR10 rejimida u qayta yoqiladi."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"Doimiy HGL rejimi"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"Kengaytirilgan ekran sozlamalaridagi HDR formatlarda HGL yoqilmagan boʻlsa, doimiy HGL rejimida u qayta yoqiladi."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"Doimiy HDR10+ rejimi"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Kengaytirilgan ekran sozlamalaridagi HDR formatlarda HDR10+ yoqilmagan boʻlsa, doimiy HDR10+ rejimida u qayta yoqiladi."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Doimiy SDR rejimi"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"Kengaytirilgan ekran sozlamalaridagi HDR formatlarda SDR yoqilmagan boʻlsa, doimiy SDR rejimida u qayta yoqiladi."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Kontent kadr almashish tezligini moslash"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Kadr almashish tezligiga rozilik bildirish"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Faqat uzluksiz"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Ilova talab qilsa, ijrodagi kontent kadr almashish tezligi formatini qurilmaning oʻzi avtomatik sozlaydi. Faqat televizoringiz ravon oʻtishni taʼminlay olsa."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Ulangan displeyda uzluksiz yangilanish chastotasidagi oʻtish effektlari ishlamaydi. Mos displey ulanmaguncha bu parametr hech qanday oʻzgarish bermaydi."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Kadr almashish tezligiga rozi emasman"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Har doim"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Ilova talab qilsa, ijrodagi kontent kadr almashish tezligi formatini qurilmaning oʻzi avtomatik sozlaydi. Bunday holda video ijrosi boshida yoki tomoshadan keyin ekran qisqa vaqt oʻchishi mumkin."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Hech qachon"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Ilova talab qilsa ham, ijrodagi kontent kadr almashish tezligi formatini qurilmaning oʻzi avtomatik sozlaydi."</string>
@@ -198,7 +222,8 @@
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Bekor qilish"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
+    <skip />
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Kesh tozalansinmi?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Barcha ilovalarning keshi o‘chirib tashlanadi."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -1095,4 +1120,9 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Birlamchi ekran"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Tiklash"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet ulanish kodi"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Quvvat sarfi rejimlari"</string>
+    <string name="energy_modes_summary" msgid="7196407759836930799">"Televizor ishlatilmaganda quvvat tejalishini oshirish"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Ishga tushadi:"</string>
+    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Eslatma: bu rejim qurilmada quvvat sarfini oshirishi mumkin."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"“<xliff:g id="ENERGYMODENAME">%s</xliff:g>” rejimini yoqish"</string>
 </resources>

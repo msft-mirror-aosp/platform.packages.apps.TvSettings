@@ -56,14 +56,14 @@
     <string name="accessibility_category_title" msgid="1552664829936369592">"Accessibility"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"Remotes &amp; accessories"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Display &amp; Sound"</string>
-    <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Help &amp; Feedback"</string>
+    <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Help and feedback"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"Privacy"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Device Settings"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Account Settings"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Payment &amp; Purchases"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"App Settings"</string>
-    <string name="privacy_category_summary" msgid="3534434883380511043">"Location, Usage &amp; Diagnostics, Ads"</string>
+    <string name="privacy_category_summary" msgid="3534434883380511043">"Location, usage and diagnostics, ads"</string>
     <string name="add_account" msgid="7386223854837017129">"Add account"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Remove account"</string>
     <string name="account_sync" msgid="4315295293211313989">"Choose synced apps"</string>
@@ -112,8 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Backup &amp; Restore"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Factory data reset"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Calibration"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"Power &amp; Energy"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"Eco settings"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Shut-Off Timer"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Set timers to turn TV off and save energy"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Devices"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Select formats"</string>
@@ -154,11 +154,35 @@
     <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Match content dynamic range"</string>
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"When enabling this option, the system will switch between different dynamic range formats to match the content. This may cause a black screen during a format switch.\n\nClick Advanced Display settings for more dynamic range options."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Preferred dynamic range"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"System-preferred conversion"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Let\'s the system manage the format conversion"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"When this option is selected, the system will determine a suitable dynamic range to be sent to your display and convert content to this dynamic range as needed."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Always matches content\'s format"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Force conversion"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Forces conversion to preferred format"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Force conversion to a preferred format. Forcing conversion may affect other settings in Display Mode or HDR Format."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Always to SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Always to <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Do you want to force the HDR output?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"By default the conversion will be forced to <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Your display will run at 1080p 60Hz resolution. This option is not compatible with your display when running at the 4k 60Hz resolution."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision is not supported at the current resolution. If you enable Dolby Vision manually, the resolution of your display will be changed to 1080p 60Hz"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Change resolution to 1080p 60Hz?"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Always force conversion to Dolby Vision"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"If Dolby Vision is disabled in HDR Formats in the Advanced Display Settings, forcing conversion to Dolby Vision will re-enable it."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Always force conversion to HDR10"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"If HDR10 is disabled in HDR Formats in the Advanced Display Settings, forcing conversion to HDR10 will re-enable it."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"Always force conversion to HLG"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"If HLG is disabled in HDR Formats in the Advanced Display Settings, forcing conversion to HLG will re-enable it."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"Always force conversion to HDR10+"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"If HDR10+ is disabled in HDR Formats in the Advanced Display Settings, forcing conversion to HDR10+ will re-enable it."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Always force conversion to SDR"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"Forcing conversion to SDR will disable all formats in the HDR Formats in Advanced Display Settings."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Match content frame rate"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Seamless"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Seamless-only"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"If the app requests it, your device will match its output to the original frame rate of the content you’re watching, ONLY if your TV can perform a seamless transition."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Your connected display does not support seamless refresh rate transitions. This option will have no effect unless you change to a display that supports it."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Non-seamless"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Always"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"If the app requests it, your device will match its output to the original frame rate of the content you’re watching. This may cause your screen to go blank for a second when exiting or entering a video playback."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Never"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Even if the app requests it, your device will never try to match its output to the original frame rate of the content you’re watching."</string>
@@ -198,7 +222,7 @@
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Cancel"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Clear cached data?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"This will clear cached data for all apps."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -272,7 +296,7 @@
     <string name="system_home_theater_control" msgid="6228949628173590310">"Home theater control"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"Developer options"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"None"</string>
-    <string name="system_diagnostic" msgid="1654842813331919958">"Usage &amp; diagnostics"</string>
+    <string name="system_diagnostic" msgid="1654842813331919958">"Usage and diagnostics"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"No device admin apps available"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"Disabled by admin"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"Not available"</string>
@@ -503,7 +527,7 @@
     <string name="storage_calculating_size" msgid="5716281278843281044">"Calculating…"</string>
     <string name="storage_apps_usage" msgid="8659915575274468924">"Apps"</string>
     <string name="storage_downloads_usage" msgid="8429196848359517158">"Downloads"</string>
-    <string name="storage_dcim_usage" msgid="1890098882753254745">"Photos &amp; Videos"</string>
+    <string name="storage_dcim_usage" msgid="1890098882753254745">"Photos and videos"</string>
     <string name="storage_music_usage" msgid="5362871290115089474">"Audio"</string>
     <string name="storage_media_misc_usage" msgid="3404230292054880339">"Misc."</string>
     <string name="storage_media_cache_usage" msgid="6397941751551207630">"Cached data"</string>
@@ -1095,4 +1119,9 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Power on behavior"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Reset"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet pairing code"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Energy Modes"</string>
+    <string name="energy_modes_summary" msgid="7196407759836930799">"Improve energy efficiency when TV is not in use"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Enables:"</string>
+    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Note that this mode may increase the power consumption of the device."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Enable \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
 </resources>

@@ -112,8 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"બૅકઅપ લો અને રિસ્ટોર કરો"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"ફેક્ટરી ડેટા રીસેટ"</string>
     <string name="device_calibration" msgid="2907914144048739705">"કેલિબ્રેશન"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"પાવર અને ઊર્જા"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"ઇકો સેટિંગ"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"બંધ કરવા માટેનું ટાઇમર"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"ટીવી બંધ કરવા અને ઊર્જા બચાવવા માટે ટાઇમર સેટ કરો"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ડિવાઇસ"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"ફૉર્મેટ પસંદ કરો"</string>
@@ -151,17 +151,40 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"વિગતવાર સાઉન્ડ સેટિંગ"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"ગેમ મોડની મંજૂરી આપો"</string>
-    <!-- no translation found for match_content_dynamic_range_title (2794980556561655838) -->
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"કન્ટેન્ટની ડાઇનૅમિક શ્રેણી સાથે મેળ કરો"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"આ વિકલ્પ ચાલુ કરતી વખતે, કન્ટેન્ટ સાથે મેળ કરવા માટે સિસ્ટમ, ડાઇનૅમિક શ્રેણીના વિવિધ ફૉર્મેટ વચ્ચે સ્વિચ કરશે. આના કારણે ફૉર્મેટ સ્વિચ કરતી વખતે કાળી સ્ક્રીન જોવા મળી શકે છે.\n\nડાઇનૅમિક શ્રેણીના વધુ વિકલ્પો માટે, વિગતવાર ડિસ્પ્લે સેટિંગ પર ક્લિક કરો."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"પસંદ કરેલી ડાઇનૅમિક શ્રેણી"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"સિસ્ટમ દ્વારા પસંદ કરાયેલું રૂપાંતરણ"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"સિસ્ટમને ફૉર્મેટનું રૂપાંતરણ મેનેજ કરવા દો"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"જ્યારે આ વિકલ્પ પસંદ કરેલો હોય, ત્યારે સિસ્ટમ તમારા ડિસ્પ્લે પર મોકલવા માટેની અનુકૂળ ડાયનૅમિક રેંજ નક્કી કરશે અને કન્ટેન્ટને જરૂર મુજબ આ ડાયનૅમિક રેંજમાં રૂપાંતરિત કરશે."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"હંમેશાં કન્ટેન્ટના ફૉર્મેટ સાથે મેળ કરે છે"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"રૂપાંતરણ ફરજિયાત લાગુ કરવું"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"પસંદગીના ફૉર્મેટમાં રૂપાંતરણ ફરજિયાત લાગુ કરવામાં આવે છે"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"પસંદગીના ફૉર્મેટમાં રૂપાંતરણ ફરજિયાત લાગુ કરો રૂપાંતરણને ફરજિયાત લાગુ કરવાથી ડિસ્પ્લે મોડ અથવા HDR ફૉર્મેટના અન્ય સેટિંગ પર અસર પડી શકે છે."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"હંમેશાં SDRમાં"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"હંમેશાં <xliff:g id="HDR_TYPE">%s</xliff:g>માં"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"શું તમે HDR આઉટપુટને ફરજિયાત લાગુ કરવા માગો છો?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"ડિફૉલ્ટ તરીકે રૂપાંતરણને <xliff:g id="HDR_TYPE">%s</xliff:g>માં ફરજિયાત લાગુ કરવામાં આવશે."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"તમારા ડિસ્પ્લેને 1080p 60Hz રિઝોલ્યુશન પર ચલાવવામાં આવશે. જ્યારે તમારા ડિસ્પ્લેને 4k 60Hz રિઝોલ્યુશન પર ચલાવવામાં આવી રહ્યું હોય ત્યારે આ વિકલ્પ તેની સાથે સુસંગત હોતો નથી."</string>
+    <!-- no translation found for selection_dolby_vision_not_supported_sidebar (8994591316574824115) -->
     <skip />
-    <!-- no translation found for match_content_dynamic_range_summary (2255683926227355398) -->
+    <!-- no translation found for manual_dolby_vision_format_on_4k60_title (4172263676512376500) -->
     <skip />
-    <!-- no translation found for preferred_dynamic_range_title (5064883672337010588) -->
-    <skip />
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Dolby Vision માટે, હંમેશાં ફરજિયાત રીતે રૂપાંતરણ કરો"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"જો ડિસ્પ્લેના વિગતવાર સેટિંગમાં Dolby Visionને HDR ફૉર્મેટ માટે બંધ કરવામાં આવ્યું હોય, તો Dolby Visionમાં ફરજિયાત રીતે રૂપાંતરણ કરવા પર તે ફરીથી ચાલુ થઈ જશે."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"HDR10 માટે, હંમેશાં ફરજિયાત રીતે રૂપાંતરણ કરો"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"જો ડિસ્પ્લેના વિગતવાર સેટિંગમાં HDR10ને HDR ફૉર્મેટ માટે બંધ કરવામાં આવ્યું હોય, તો HDR10માં ફરજિયાત રીતે રૂપાંતરણ કરવા પર તે ફરીથી ચાલુ થઈ જશે."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"HLG માટે, હંમેશાં ફરજિયાત રીતે રૂપાંતરણ કરો"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"જો ડિસ્પ્લેના વિગતવાર સેટિંગમાં HLGને HDR ફૉર્મેટ માટે બંધ કરવામાં આવ્યું હોય, તો HLGમાં ફરજિયાત રીતે રૂપાંતરણ કરવા પર તે ફરીથી ચાલુ થઈ જશે."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"HDR10+ માટે, હંમેશાં ફરજિયાત રીતે રૂપાંતરણ કરો"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"જો ડિસ્પ્લેના વિગતવાર સેટિંગમાં HDR10+ને HDR ફૉર્મેટ માટે બંધ કરવામાં આવ્યું હોય, તો HDR10+માં ફરજિયાત રીતે રૂપાંતરણ કરવા પર તે ફરીથી ચાલુ થઈ જશે."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"SDR માટે, હંમેશાં ફરજિયાત રીતે રૂપાંતરણ કરો"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"SDRમાં ફરજિયાત રીતે રૂપાંતરણ કરવાથી, ડિસ્પ્લેના વિગતવાર સેટિંગમાં HDR ફૉર્મેટમાંના બધા રૂપાંતરણો બંધ થઈ જશે."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"કન્ટેન્ટની ફ્રેમ રેટ સાથે મેળ કરો"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"ખામીરહિત"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"માત્ર વિક્ષેપરહિત"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"જો ઍપ તેની વિનંતી કરે, તો તમારું ડિવાઇસ તમે જોઈ રહ્યાં છો તે કન્ટેન્ટના ઑરિજિનલ ફ્રેમ રેટ સાથે, જો તમારું ટીવી ખામીરહિત સંચાર કરી શકે તો જ તેના આઉટપુટનો મેળ કરશે."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"તમારું કનેક્ટેડ ડિસ્પ્લે વિક્ષેપરહિત રિફ્રેશ થવાના રેટના ટ્રાન્ઝિશનને સપોર્ટ આપતું નથી. જ્યાં સુધી તમે તેને સપોર્ટ આપતા ડિસ્પ્લેમાં ન બદલો, ત્યાં સુધી આ વિકલ્પની કોઈ અસર થશે નહીં."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"બિન-ખામીરહિત"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"હંમેશાં"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"જો ઍપ તેની વિનંતી કરે, તો તમારું ડિવાઇસ તમે જોઈ રહ્યાં છો તે કન્ટેન્ટના ઑરિજિનલ ફ્રેમ રેટ સાથે તેના આઉટપુટનો મેળ કરશે. આના લીધે, જ્યારે તમે વીડિયો પ્લેબૅક ચાલુ અથવા બંધ કરો, ત્યારે તમારી સ્ક્રીન પર થોડી સેકન્ડ માટે કંઈપણ ન દેખાય તેવું બની શકે છે."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"ક્યારેય નહીં"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"જો ઍપ તેની વિનંતી કરે, તો પણ તમારું ડિવાઇસ તમે જોઈ રહ્યાં છો તે કન્ટેન્ટના ઑરિજિનલ ફ્રેમ રેટ સાથે તેના આઉટપુટનો મેળ કરવાનો ક્યારેય પ્રયાસ કરશે નહીં."</string>
@@ -201,7 +224,8 @@
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"રદ કરો"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ઓકે"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
+    <skip />
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"કૅશ કરેલ ડેટા સાફ કરીએ?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"આ તમામ ઍપ્લિકેશનોનો કેશ્ડ ડેટા સાફ કરશે."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -1098,4 +1122,9 @@
     <string name="power_on_behavior" msgid="927607372303160716">"પાવર ચાલુ હોય ત્યારની વર્તણૂક"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"રીસેટ કરો"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ઇથરનેટનો જોડાણ કરવાનો કોડ"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"ઊર્જા મોડ"</string>
+    <string name="energy_modes_summary" msgid="7196407759836930799">"જ્યારે ટીવી ઉપયોગમાં ન હોય ત્યારે ઊર્જાની કાર્યક્ષમતાને બહેતર બનાવે છે"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"આ ચાલુ કરે છે:"</string>
+    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"નોંધ કરો કે આ મોડ ડિવાઇસના પાવર વપરાશમાં વધારો કરી શકે છે."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" ચાલુ કરો"</string>
 </resources>

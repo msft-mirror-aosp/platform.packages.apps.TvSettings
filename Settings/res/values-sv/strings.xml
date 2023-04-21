@@ -112,8 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Säkerhetskopiera och återställ"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Återställ standardinställningarna"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrering"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"Ström och energi"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"Eko-inställningar"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Avstängningstimer"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Ställ in timers för att stänga av tv:n och sänka energiförbrukningen"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Enheter"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Välj format"</string>
@@ -151,17 +151,40 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Avancerade ljudinställningar"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Tillåt spelläge"</string>
-    <!-- no translation found for match_content_dynamic_range_title (2794980556561655838) -->
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Matcha innehållets dynamiska omfång"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"När du aktiverar det här alternativet byter systemet mellan olika format för dynamiskt omfång för att matcha innehållet. Du kan se en svart skärm under formatbytet.\n\nKlicka på Avancerade skärminställningar för att se fler alternativ för dynamiskt omfång."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Önskat dynamiskt omfång"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Systemföredragen konvertering"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Låter systemet hantera formatkonverteringen"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"När det här alternativet är valt bestämmer systemet ett passande dynamiskt intervall som skickas till din skärm för att konvertera innehåll till detta dynamiska intervall efter behov."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Matchar alltid innehållets format"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Tvångskonvertera"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Tvångskonverterar till önskat format"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Tvångskonvertera till önskat format. Tvångskonverterar du kan det påverka andra inställningar för skärmläget eller HDR-format."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Alltid till SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Alltid till <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Vill du tvångskonvertera HDR-utmatningen?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Som standard tvångskonverteras den till <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Din skärm kommer att köras med upplösningen 1080p 60 Hz. Det här alternativet är inte kompatibelt med din skärm när den körs med upplösningen 4K 60 Hz."</string>
+    <!-- no translation found for selection_dolby_vision_not_supported_sidebar (8994591316574824115) -->
     <skip />
-    <!-- no translation found for match_content_dynamic_range_summary (2255683926227355398) -->
+    <!-- no translation found for manual_dolby_vision_format_on_4k60_title (4172263676512376500) -->
     <skip />
-    <!-- no translation found for preferred_dynamic_range_title (5064883672337010588) -->
-    <skip />
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Tvångskonvertera alltid till Dolby Vision"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Om du tvångskonverterar till Dolby Vision när det är inaktiverat i HDR Formats i avancerade skärminställningar återaktiveras Dolby Vision."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Tvångskonvertera alltid till HDR10"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"Om du tvångskonverterar till HDR10 när det är inaktiverat i HDR Formats i avancerade skärminställningar återaktiveras HDR10."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"Tvångskonvertera alltid till HLG"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"Om du tvångskonverterar till HLG när det är inaktiverat i HDR Formats i avancerade skärminställningar återaktiveras HLG."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"Tvångskonvertera alltid till HDR10+"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Om du tvångskonverterar till HDR10+ när det är inaktiverat i HDR Formats i avancerade skärminställningar återaktiveras HDR10+."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Tvångskonvertera alltid till SDR"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"Om du tvångskonverterar till SDR inaktiveras alla format i HDR Formats i avancerade skärminställningar."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Matcha innehållets bildfrekvens"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Sömlöst"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Endast sömlös"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Om appen begär det matchar enheten utdatan med den ursprungliga bildfrekvensen av det du tittar på, ENDAST om tv:n har stöd för sömlös övergång."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Din anslutna skärm har inte stöd för sömlösa övergångar mellan uppdateringsfrekvenser. Det här alternativet har ingen effekt såvida du inte byter till en kompatibel skärm."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Inte sömlöst"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Alltid"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Om appen begär det matchar enheten utdatan med den ursprungliga bildfrekvensen av det du tittar på. Detta kan leda till att skärmen blir svart i någon sekund när du avslutar eller startar videouppspelning."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Aldrig"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Enheten försöker aldrig matcha utdatan med den ursprungliga bildfrekvensen av det du tittar på, även om appen begär det."</string>
@@ -201,7 +224,8 @@
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Avbryt"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
+    <skip />
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Vill du ta bort cachelagrad data?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Cachelagrad data tas bort i alla appar."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -1098,4 +1122,9 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Beteende när tv:n slås på"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Återställ"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-kopplingskod"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Energilägen"</string>
+    <string name="energy_modes_summary" msgid="7196407759836930799">"Förbättra energieffektiviteten när tv:n inte används"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Aktiverar följande:"</string>
+    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Tänk på att det här läget kan öka enhetens energiförbrukning."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Aktivera <xliff:g id="ENERGYMODENAME">%s</xliff:g>"</string>
 </resources>
