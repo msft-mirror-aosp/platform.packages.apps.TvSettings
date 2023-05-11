@@ -21,9 +21,14 @@ import static android.view.Display.HdrCapabilities.HDR_TYPE_HDR10;
 import static android.view.Display.HdrCapabilities.HDR_TYPE_HDR10_PLUS;
 import static android.view.Display.HdrCapabilities.HDR_TYPE_HLG;
 
+import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.createAlertDialog;
+import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.doesCurrentModeNotSupportDvBecauseLimitedTo4k30;
+import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.enableHdrType;
+import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.findMode1080p60;
 import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_CLASSIC;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.hardware.display.DisplayManager;
 import android.hardware.display.HdrConversionMode;
 import android.os.Bundle;
@@ -39,6 +44,8 @@ import com.android.tv.settings.RadioPreference;
 import com.android.tv.settings.SettingsPreferenceFragment;
 import com.android.tv.settings.overlay.FlavorUtils;
 
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Set;
 
 /**
@@ -66,8 +73,30 @@ public class PreferredDynamicRangeForceFragment extends SettingsPreferenceFragme
     @Override
     public void onAttach(Context context) {
         mDisplayManager = getDisplayManager();
-        mHdrTypes = mDisplayManager.getSupportedHdrOutputTypes();
+        mHdrTypes = getIntersectingDeviceAndDisplayHdrTypes();
         super.onAttach(context);
+    }
+
+    private int[] getIntersectingDeviceAndDisplayHdrTypes() {
+        Set<Integer> displaySupportedHdrTypes = new HashSet<>();
+        Display display = mDisplayManager.getDisplay(Display.DEFAULT_DISPLAY);
+        Arrays.stream(display.getSupportedModes()).forEach(mode -> Arrays.stream(
+                mode.getSupportedHdrTypes()).forEach(displaySupportedHdrTypes::add));
+
+        int[] deviceSupportedHdrOutputTypes = mDisplayManager.getSupportedHdrOutputTypes();
+        Set<Integer> intersectingHdrTypes = new HashSet<>();
+        for (Integer hdrType : deviceSupportedHdrOutputTypes) {
+            if (displaySupportedHdrTypes.contains(hdrType)) {
+                intersectingHdrTypes.add(hdrType);
+            }
+        }
+
+        int[] mergedArray = new int[intersectingHdrTypes.size()];
+        int index = 0;
+        for (Integer hdrType : intersectingHdrTypes) {
+            mergedArray[index++] = hdrType;
+        }
+        return mergedArray;
     }
 
     @Override
@@ -85,22 +114,26 @@ public class PreferredDynamicRangeForceFragment extends SettingsPreferenceFragme
         }
 
         if (preference instanceof RadioPreference) {
-            selectRadioPreference(preference);
             if (key.equals(KEY_DYNAMIC_RANGE_SELECTION_SDR)) {
                 mDisplayManager.setHdrConversionMode(
                         new HdrConversionMode(HdrConversionMode.HDR_CONVERSION_FORCE));
                 mDisplayManager.setAreUserDisabledHdrTypesAllowed(false);
                 mDisplayManager.setUserDisabledHdrTypes(getDeviceSupportedHdrTypes());
+                selectRadioPreference(preference);
             } else if (key.contains(KEY_HDR_FORMAT_PREFIX)) {
                 String hdrType = key.substring(KEY_HDR_FORMAT_PREFIX.length());
-                // Enable the particular HDR type in Format Selection menu, if it is chosen
-                // as force conversion type and is disabled.
-                Set<Integer> disabledHdrTypes = PreferredDynamicRangeUtils.toSet(
-                            mDisplayManager.getUserDisabledHdrTypes());
-                mDisplayManager.setUserDisabledHdrTypes(
-                        PreferredDynamicRangeUtils.toArray(disabledHdrTypes));
-                mDisplayManager.setHdrConversionMode(new HdrConversionMode(
-                        HdrConversionMode.HDR_CONVERSION_FORCE, Integer.parseInt(hdrType)));
+                int preferredHdrOutputType = Integer.parseInt(hdrType);
+
+                final Display display = mDisplayManager.getDisplay(Display.DEFAULT_DISPLAY);
+                if (preferredHdrOutputType == HDR_TYPE_DOLBY_VISION
+                        && doesCurrentModeNotSupportDvBecauseLimitedTo4k30(display)) {
+                    askUserBeforeForcingToDvAndChangingTo1080p60(display, preference);
+                } else {
+                    mDisplayManager.setHdrConversionMode(new HdrConversionMode(
+                            HdrConversionMode.HDR_CONVERSION_FORCE, preferredHdrOutputType));
+                    enableHdrType(mDisplayManager, preferredHdrOutputType);
+                    selectRadioPreference(preference);
+                }
             }
         }
         return super.onPreferenceTreeClick(preference);
@@ -145,6 +178,29 @@ public class PreferredDynamicRangeForceFragment extends SettingsPreferenceFragme
             pref = findPreference(KEY_HDR_FORMAT_PREFIX + selectedHdrType);
         }
         selectRadioPreference(pref);
+    }
+
+    private void askUserBeforeForcingToDvAndChangingTo1080p60(Display display,
+            Preference preference) {
+        String title = getResources().getString(
+                R.string.preferred_dynamic_range_force_dialog_title);
+        String dialogDescription = getResources().getString(
+                R.string.preferred_dynamic_range_force_dialog_desc_4k30_issue);
+        DialogInterface.OnClickListener onOkClicked = (dialog, which) -> {
+            mDisplayManager.setGlobalUserPreferredDisplayMode(findMode1080p60(display));
+            mDisplayManager.setHdrConversionMode(new HdrConversionMode(
+                    HdrConversionMode.HDR_CONVERSION_FORCE, HDR_TYPE_DOLBY_VISION));
+            selectRadioPreference(preference);
+            enableHdrType(mDisplayManager, HDR_TYPE_DOLBY_VISION);
+            dialog.dismiss();
+        };
+
+        DialogInterface.OnClickListener onCancelClicked = (dialog, which) -> {
+            ((RadioPreference) preference).setChecked(false);
+            dialog.dismiss();
+        };
+        createAlertDialog(getContext(), title, dialogDescription, onOkClicked, onCancelClicked)
+                .show();
     }
 
     /**
