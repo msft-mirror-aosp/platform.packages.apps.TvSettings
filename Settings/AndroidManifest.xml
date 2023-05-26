@@ -95,7 +95,7 @@
             android:exported="true"
             android:label="@string/settings_app_name"
             android:theme="@style/TvSettingsActivityTheme">
-            <intent-filter>
+            <intent-filter android:priority="1">
                 <action android:name="android.intent.action.MAIN"/>
                 <action android:name="android.settings.SETTINGS"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -722,7 +722,7 @@
             android:showWhenLocked="true"
             android:taskAffinity=""
             android:turnScreenOn="true">
-            <intent-filter>
+            <intent-filter android:priority="1">
                 <action android:name="com.google.android.intent.action.CONNECT_INPUT"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
@@ -1246,15 +1246,6 @@
             android:exported="false">
         </receiver>
 
-        <provider
-            android:name=".device.EcoSettingsSliceProvider"
-            android:authorities="com.android.tv.settings.device.sliceprovider"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
-                <category android:name="android.app.slice.category.SLICE"/>
-            </intent-filter>
-        </provider>
         <activity
             android:name=".device.LimitNetworkInStandbyConfirmationDialogActivity"
             android:theme="@style/Transparent"
@@ -1312,6 +1303,35 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
+        <service android:name=".device.eco.EnergyModesStatsLogJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <provider
+            android:name=".device.eco.EnergyModesContentProvider"
+            android:authorities="com.android.tv.settings.device.eco.energymodes"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.tv.settings.ENERGY_MODES_PROVIDER"/>
+            </intent-filter>
+        </provider>
+
+        <activity
+            android:name=".device.eco.EnergyModesActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:theme="@style/TvSettingsActivityTheme">
+            <intent-filter android:priority="1" >
+                <action android:name="com.google.android.tv.settings.energymodes"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".device.eco.EnergyModeConfirmationActivity"
+            android:theme="@style/Theme.Reset"
+            android:configChanges="keyboard|keyboardHidden|navigation"
+            android:excludeFromRecents="true" />
 
         <receiver
             android:name=".GlobalKeyReceiver"

@@ -112,8 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Copia de seguranza e restauración"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Restablecemento dos datos de fábrica"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Calibración"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"Acendido e enerxía"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"Configuración do modo Eco"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Temporizador de apagado"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Configura os temporizadores para apagar a televisión e aforrar enerxía"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Dispositivos"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Seleccionar formatos"</string>
@@ -151,17 +151,38 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Configuración avanzada do son"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Permitir modo de xogo"</string>
-    <!-- no translation found for match_content_dynamic_range_title (2794980556561655838) -->
-    <skip />
-    <!-- no translation found for match_content_dynamic_range_summary (2255683926227355398) -->
-    <skip />
-    <!-- no translation found for preferred_dynamic_range_title (5064883672337010588) -->
-    <skip />
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Adaptar o rango dinámico ao contido"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Ao activar esta opción, o sistema cambiará entre os diferentes formatos de rango dinámico para adaptarse ao contido. A pantalla pode escurecerse durante o cambio de formato.\n\nFai clic na configuración avanzada da pantalla para ver máis opcións de rango dinámico."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Rango dinámico preferido"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversión preferida polo sistema"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Permítelle ao sistema xestionar a conversión de formatos"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Ao seleccionar esta opción, o sistema determinará un rango dinámico axeitado para a túa pantalla e converterá o contido a dito rango se é necesario."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Coincide sempre co formato do contido"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forzar conversión"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Forza a conversión ao formato preferido"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Forza a conversión a un formato preferido. É posible que forzar a conversión afecte a outras opcións de configuración do modo de visualización ou do formato HDR."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Sempre a SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Sempre a <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Queres forzar a saída HDR?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"De forma predeterminada, forzarase a conversión a <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"A pantalla terá unha resolución de 1080p e 60 Hz. Esta opción non é compatible coa túa pantalla cando se executa a unha resolución 4K de 60 Hz."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision non é compatible coa resolución actual. Se activas Dolby Vision de forma manual, a resolución da pantalla cambiarase a 1080p 60 Hz"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Queres cambiar a resolución a 1080p 60 Hz?"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Forzar sempre conversión a Dolby Vision"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Se o formato Dolby Vision está desactivado en Formatos HDR, en Configuración avanzada da pantalla, volverase activar ao forzar a conversión a Dolby Vision."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Forzar sempre conversión a HDR10"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"Se o formato HDR10 está desactivado en Formatos HDR, en Configuración avanzada da pantalla, volverase activar ao forzar a conversión a HDR10."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"Forzar sempre conversión a HLG"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"Se o formato HLG está desactivado en Formatos HDR, en Configuración avanzada da pantalla, volverase activar ao forzar a conversión a HLG."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"Forzar sempre conversión a HDR10+"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Se o formato HDR10+ está desactivado en Formatos HDR, en Configuración avanzada da pantalla, volverase activar ao forzar a conversión a HDR10+."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Forzar sempre conversión a SDR"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"Ao forzar a conversión a SDR, desactivaranse todos os formatos dispoñibles en Formatos HDR, en Configuración avanzada da pantalla."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Facer coincidir cos fps do contido"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Non facer coincidir"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Só non facer coincidir"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Se a aplicación o solicita, o dispositivo fará que a saída coincida cos fotogramas por segundo orixinais do contido que esteas vendo, pero só se a televisión permite que se realice a transición sen complicacións."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"A pantalla conectada non é compatible coas transicións de frecuencia de actualización fluídas. Esta opción non terá efecto a menos que cambies a unha pantalla que sexa compatible."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Facer coincidir"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Sempre"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Se a aplicación o solicita, o dispositivo fará que a saída coincida cos fotogramas por segundo orixinais do contido que esteas vendo. Ten en conta que a pantalla pode quedar sen imaxe durante un segundo ao iniciar ou deter a reprodución de vídeos."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Nunca"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Aínda que a aplicación o solicite, o dispositivo nunca tentará facer que a saída coincida cos fotogramas por segundo orixinais do contido que esteas vendo."</string>
@@ -197,11 +218,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Queres cambiar a resolución a %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Se queres utilizar %1$s a partir de agora, selecciona Aceptar."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision non é compatible con %1$s e desactivarase en Configuración avanzada da pantalla"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Este modo é compatible con %1$s. Nalgunhas televisións, é posible que necesites activar o HDMI mellorado para habilitar máis formatos HDR. Comproba a configuración da televisión para ver se é compatible."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Este modo é compatible con: %1$s\nNalgunhas televisións, é posible que necesites activar o HDMI mellorado para habilitar máis formatos HDR. Comproba a configuración da televisión para ver se é compatible."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Cancelar"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Aceptar"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Queres borrar os datos da caché?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Isto borrará datos da caché para as aplicacións"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -322,8 +343,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Este dispositivo está xestionado pola túa organización."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Este dispositivo está xestionado por <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Máis información"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Aplicación de cámara}other{Aplicacións de cámara}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Aplicación do calendario"</string>
@@ -1098,4 +1118,9 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Comportamento do acendido"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Restablecemento"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Código de vinculación de Ethernet"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Modos de enerxía"</string>
+    <string name="energy_modes_summary" msgid="7196407759836930799">"Mellora a eficiencia enerxética cando non se está usando a televisión"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Activa as seguintes funcións:"</string>
+    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Ten en conta que este modo pode aumentar o consumo de enerxía do dispositivo."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Activar o modo <xliff:g id="ENERGYMODENAME">%s</xliff:g>"</string>
 </resources>
