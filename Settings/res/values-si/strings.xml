@@ -31,6 +31,8 @@
     <string name="enabled" msgid="5127188665060746381">"සබලයි"</string>
     <string name="disabled" msgid="4589065923272201387">"අබලයි"</string>
     <string name="unavailable" msgid="1610732303812180196">"ලබා ගත නොහැකිය"</string>
+    <string name="allow" msgid="6982558814345894019">"ඉඩ දෙන්න"</string>
+    <string name="deny" msgid="8291577308813053917">"ප්‍රතික්ෂේප කරන්න"</string>
     <string name="header_category_suggestions" msgid="106077820663753645">"යෝජනා"</string>
     <string name="header_category_quick_settings" msgid="3785334008768367890">"ඉක්මන් සැකසීම්"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"පොදු සැකසීම්"</string>
@@ -45,21 +47,14 @@
     <string name="add_an_account" msgid="2601275122685226096">"ගිණුමක් එක් කරන්න"</string>
     <string name="accounts_category_title" msgid="7286858931427579845">"ගිණුම් සහ පුරනය වීම"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"ගිණුම් නොමැත"</string>
-    <plurals name="accounts_category_summary" formatted="false" msgid="1711483230329281167">
-      <item quantity="one">ගිණුම් <xliff:g id="ACCOUNTS_NUMBER_1">%1$d</xliff:g></item>
-      <item quantity="other">ගිණුම් <xliff:g id="ACCOUNTS_NUMBER_1">%1$d</xliff:g></item>
-    </plurals>
+    <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{ගිණුම් #}one{ගිණුම් #}other{ගිණුම් #}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"මාධ්‍ය සේවා, සහකරු, ගෙවීම්"</string>
     <string name="connectivity_network_category_title" msgid="8226264889892008114">"ජාලය සහ අන්තර්ජාලය"</string>
     <string name="sound_category_title" msgid="7899816751041939518">"හඬ"</string>
     <string name="applications_category_title" msgid="7112019490898586223">"යෙදුම්"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"උපාංග අභිරුචි"</string>
+    <string name="accessibility_category_title" msgid="1552664829936369592">"ප්‍රවේශ්‍යතාව"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"දුරස්ථ පාලක සහ අමතර උපාංග"</string>
-    <string name="remotes_and_accessories_category_summary_no_bluetooth_device" msgid="3604712105359656700">"සම්බන්ධිත බ්ලූටූත් උපාංග නොමැත"</string>
-    <plurals name="remotes_and_accessories_category_summary" formatted="false" msgid="5219926550837712529">
-      <item quantity="one">ආයිත්තම් <xliff:g id="ACCESSORIES_NUMBER_1">%1$d</xliff:g></item>
-      <item quantity="other">ආයිත්තම් <xliff:g id="ACCESSORIES_NUMBER_1">%1$d</xliff:g></item>
-    </plurals>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"සංදර්ශකය හා ශබ්දය"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"උදවු සහ ප්‍රතිපෝෂණය"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"පෞද්ගලිකත්වය"</string>
@@ -117,7 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"උපස්ථය සහ ප්‍රතිසාධනය"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"කර්මාන්ත ශාලා දත්ත යළි සැකසීම"</string>
     <string name="device_calibration" msgid="2907914144048739705">"ක්‍රමාංකණය"</string>
-    <string name="device_energy_saver" msgid="1105023232841036991">"බලශක්ති සුරැකුම"</string>
+    <string name="device_energy_saver" msgid="5560942970290949739">"බලය සහ බලශක්තිය"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"පරිසර සැකසීම්"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"උපාංග"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"ආකෘති තෝරන්න"</string>
@@ -126,7 +122,7 @@
     <string name="surround_sound_format_e_ac3" msgid="6923129088903887242">"ඩොල්බි ඩිජිටල් ප්ලස්"</string>
     <string name="surround_sound_format_dts" msgid="8331816247117135587">"DTS"</string>
     <string name="surround_sound_format_dts_hd" msgid="4268947520371740146">"DTS-HD"</string>
-    <string name="surround_sound_format_dts_uhd" msgid="2844983210044263719">"DTS-UHD"</string>
+    <string name="surround_sound_format_dts_uhd" msgid="4340749818133578788">"DTS:X"</string>
     <string name="surround_sound_format_dolby_mat" msgid="3029804841912462928">"Dolby TrueHD සහිත Dolby Atmos"</string>
     <string name="surround_sound_format_dolby_truehd" msgid="5113046743572967088">"Dolby TrueHD"</string>
     <string name="surround_sound_format_e_ac3_joc" msgid="3360344066462262996">"Dolby Digital Plus සහිත Dolby Atmos"</string>
@@ -158,6 +154,7 @@
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"අන්තර්ගත රාමු අනුපාතය ගළපන්න"</string>
     <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"සුමට"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"යෙදුම එය ඉල්ලුවහොත්, ඔබගේ උපාංගය එහි ප්‍රතිදානය ඔබ නරඹන අන්තර්ගතයේ මුල් රාමු අනුපාතයට, ඔබගේ TV හට සුමට සංක්‍රමනයක් සිදු කළ හැකි නම් පමණක් ගළපනු ඇත."</string>
+    <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"ඔබේ සම්බන්ධිත සංදර්ශකය බාධාවකින් තොරව නැවුම් කිරීමේ අනුපාත සංක්‍රාන්ති වෙත සහාය නොදක්වයි. ඔබ එයට සහාය දක්වන සංදර්ශකයකට වෙනස් වන්නේ නම් මිස මෙම විකල්පය කිසිදු බලපෑමක් ඇති නොකරනු ඇත."</string>
     <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"සුමට නොවන"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"යෙදුම එය ඉල්ලුවහොත්, ඔබගේ උපාංගය එහි ප්‍රතිදානය ඔබ නරඹන අන්තර්ගතයේ මුල් රාමු අනුපාතයට ගළපනු ඇත. වීඩියෝ පසුධාවනයකින් පිටවන විට හෝ ඇතුළු වන විට තත්පරයකට ඔබගේ තිරය හිස් වීමට මෙය හේතු විය හැකිය."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"කවදාවත් නෑ"</string>
@@ -175,6 +172,7 @@
     <string name="hdr_format_selection_manual_desc" msgid="8865649615882146772">"ලබා ගත හැකි ආකෘතිවලින් හස්තීයව ආකෘති තෝරන්න"</string>
     <string name="hdr_format_supported_title" msgid="1458594819224612431">"සහාය දක්වන ආකෘති"</string>
     <string name="hdr_format_unsupported_title" msgid="715318408107924941">"සහාය නොදක්වන ආකෘති"</string>
+    <string name="hdr_format_sdr" msgid="7211377112392255102">"SDR"</string>
     <string name="hdr_format_hdr10" msgid="8063543267227491062">"HDR10"</string>
     <string name="hdr_format_hlg" msgid="454510079939620321">"HLG"</string>
     <string name="hdr_format_hdr10plus" msgid="4371652089162162876">"HDR10+"</string>
@@ -190,9 +188,14 @@
     <string name="resolution_selection_title" msgid="2873993320284587853">"විභේදනය"</string>
     <string name="resolution_selection_auto_title" msgid="4738671207331027385">"ස්වයංක්‍රිය"</string>
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"විභේදනය වෙනස් කර ඇත"</string>
+    <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"විභේදනය %1$s ලෙස මාරු කරන්නද?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"දැන් සිට %1$s භාවිත කිරීමට හරි තෝරන්න."</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"%1$s තුළ Dolby Vision හට සහය නොදැක්වේ, එය \"උසස් සංදර්ශන සැකසීම්\" තුළ අබල කරනු ලැබේ"</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"මෙම ප්‍රකාරය %1$s හට සහය දක්වයි. සමහර රූපවාහිනිවල, තවත් HDR ආකෘති සබල කිරීමට ඔබට වැඩිදියුණු කළ HDMI සක්‍රීය කිරීමට අවශ්‍ය වේවි. මෙයට සහය දැක්වෙන්නේද යන්න බැලීමට ඔබේ රූපවාහිනී සැකසීම් පරීක්‍ෂා කරන්න."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"අවලංගු කරන්න"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"හරි"</string>
+    <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"හැඹිලිගත කළ දත්ත හිස් කරන්න ද?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"මෙය සියලුම යෙදුම් සඳහා හැඹිලිගත කළ දත්ත හිස් කරනු ඇත."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -264,7 +267,6 @@
     <string name="system_inputs" msgid="5552840337357572096">"ආදාන"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"ආදාන සහ උපාංග"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"ගෘහස්ත සිනමා පාලනය"</string>
-    <string name="system_accessibility" msgid="3081009195560501010">"ප්‍රවේශ්‍යතාව"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"වර්ධක විකල්ප"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"කිසිවක් නැත"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"භාවිතය සහ නිර්ණයාත්මක"</string>
@@ -273,10 +275,6 @@
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"නොමැත"</string>
     <string name="manage_device_admin" msgid="5714217234035017983">"උපාංග පරිපාලක යෙදුම්"</string>
     <string name="number_of_device_admins_none" msgid="2734299122299837459">"ක්‍රියාකාරී යෙදුම් නොමැත"</string>
-    <plurals name="number_of_device_admins" formatted="false" msgid="5825543996501454373">
-      <item quantity="one">සක්‍රිය යෙදුම් <xliff:g id="COUNT_1">%d</xliff:g></item>
-      <item quantity="other">සක්‍රිය යෙදුම් <xliff:g id="COUNT_1">%d</xliff:g></item>
-    </plurals>
     <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"පරිපාලකයා, සංකේතන ප්‍රතිපත්තිය, හෝ අක්තපත්‍ර ආචයනය මඟින් අබල කර ඇත"</string>
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"කළමනාකරණය කළ උපාංග තොරතුරු"</string>
     <string name="enterprise_privacy_settings_summary_generic" msgid="5719549523275019419">"ඔබගේ සංවිධානය විසින් වෙනස් කිරීම් සහ සැකසීම් කළමනාකරණය කරනු ලැබේ"</string>
@@ -294,18 +292,12 @@
     <string name="enterprise_privacy_none" msgid="6660670916934417519">"කිසිවක් නැත"</string>
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="7244796629052581085">"ස්ථාපනය කළ යෙදුම්"</string>
     <string name="enterprise_privacy_apps_count_estimation_info" msgid="3875568975752197381">"යෙදුම් ගණන ඇස්තමේන්තු කර ඇත. එයට Play Store වෙතින් පිටත ස්ථාපනය කර ඇති යෙදුම් අඩංගු නොවිය හැකිය."</string>
-    <plurals name="enterprise_privacy_number_packages_lower_bound" formatted="false" msgid="3891649682522079620">
-      <item quantity="one">අඩුම වශයෙන් යෙදුම් <xliff:g id="COUNT_1">%d</xliff:g></item>
-      <item quantity="other">අඩුම වශයෙන් යෙදුම් <xliff:g id="COUNT_1">%d</xliff:g></item>
-    </plurals>
+    <string name="enterprise_privacy_number_packages_lower_bound" msgid="4518330667109848939">"{count,plural, =1{අඩුම වශයෙන් යෙදුම් #}one{අඩුම වශයෙන් යෙදුම් #}other{අඩුම වශයෙන් යෙදුම් #}}"</string>
     <string name="enterprise_privacy_location_access" msgid="8978502415647245748">"ස්ථාන අවසර"</string>
     <string name="enterprise_privacy_microphone_access" msgid="3746238027890585248">"මයික්‍රොෆෝන අවසර"</string>
     <string name="enterprise_privacy_camera_access" msgid="6258493631976121930">"කැමරා අවසර"</string>
     <string name="enterprise_privacy_enterprise_set_default_apps" msgid="5538330175901952288">"පෙරනිමි යෙදුම්"</string>
-    <plurals name="enterprise_privacy_number_packages" formatted="false" msgid="1652060324792116347">
-      <item quantity="one">යෙදුම් <xliff:g id="COUNT_1">%d</xliff:g></item>
-      <item quantity="other">යෙදුම් <xliff:g id="COUNT_1">%d</xliff:g></item>
-    </plurals>
+    <string name="enterprise_privacy_number_packages" msgid="6256222390430349008">"{count,plural, =1{යෙදුම් #}one{යෙදුම් #}other{යෙදුම් #}}"</string>
     <string name="enterprise_privacy_input_method" msgid="5814752394251833058">"පෙරනිමි යතුරු පුවරුව"</string>
     <string name="enterprise_privacy_input_method_name" msgid="1088874503312671318">"<xliff:g id="APP_LABEL">%s</xliff:g> වෙත සකසන්න"</string>
     <string name="enterprise_privacy_always_on_vpn_device" msgid="8845550514448914237">"සැම විට ක්‍රියාත්මක VPN ක්‍රියාත්මකයි"</string>
@@ -315,37 +307,24 @@
     <string name="enterprise_privacy_ca_certs_device" msgid="975646846291012452">"විශ්වාසි අක්තපත්‍ර"</string>
     <string name="enterprise_privacy_ca_certs_personal" msgid="7641368559306519707">"ඔබගේ පුද්ගලික පැතිකඩෙහි විශ්වාසී අක්තපත්‍ර"</string>
     <string name="enterprise_privacy_ca_certs_work" msgid="2905939250974399645">"ඔබගේ වැඩ පැතිකඩෙහි විශ්වාසී අක්තපත්‍ර"</string>
-    <plurals name="enterprise_privacy_number_ca_certs" formatted="false" msgid="4861211387981268796">
-      <item quantity="one">අඩුම වශයෙන් CA සහතික <xliff:g id="COUNT_1">%d</xliff:g>ක්</item>
-      <item quantity="other">අඩුම වශයෙන් CA සහතික <xliff:g id="COUNT_1">%d</xliff:g>ක්</item>
-    </plurals>
+    <string name="enterprise_privacy_number_ca_certs" msgid="5918439861975410142">"{count,plural, =1{CA සහතික #}one{CA සහතික #}other{CA සහතික #}}"</string>
     <string name="enterprise_privacy_lock_device" msgid="3140624232334033641">"පරිපාලකට උපාංගය අගුලු දැමීමට සහ මුරපදය යළි සැකසීමට හැකිය"</string>
     <string name="enterprise_privacy_wipe_device" msgid="1714271125636510031">"පරිපාලකට සියලු උපාංග දත්ත මැකීමට හැකිය"</string>
     <string name="enterprise_privacy_failed_password_wipe_device" msgid="8272298134556250600">"සියලු උපාංග දත්ත මකාදැමීමට පෙර අසාර්ථක මුරපද උත්සහ"</string>
     <string name="enterprise_privacy_failed_password_wipe_work" msgid="1184137458404844014">"කාර්යාල පැතිකඩ දත්ත මකාදැමීමට පෙර අසාර්ථක මුරපද උත්සහ"</string>
-    <plurals name="enterprise_privacy_number_failed_password_wipe" formatted="false" msgid="8317320334895448341">
-      <item quantity="one">උත්සාහයන් <xliff:g id="COUNT_1">%d</xliff:g></item>
-      <item quantity="other">උත්සාහයන් <xliff:g id="COUNT_1">%d</xliff:g></item>
-    </plurals>
+    <string name="enterprise_privacy_number_failed_password_wipe" msgid="277415009661470768">"{count,plural, =1{උත්සාහයන් #}one{උත්සාහයන් #}other{උත්සාහයන් #}}"</string>
     <string name="do_disclosure_generic" msgid="8390478119591845948">"මෙම උපාංගය ඔබගේ සංවිධානය විසින් කළමනාකරණය කරනු ලැබේ."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"මෙම උපාංගය <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> මගින් කළමනාකරණය කෙරේ"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"තව දැන ගන්න"</string>
-    <plurals name="default_camera_app_title" formatted="false" msgid="3870902175441923391">
-      <item quantity="one">කැමරා යෙදුම්</item>
-      <item quantity="other">කැමරා යෙදුම්</item>
-    </plurals>
+    <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{කැමරා යෙදුම}one{කැමරා යෙදුම්}other{කැමරා යෙදුම්}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"දින දර්ශන යෙදුම"</string>
     <string name="default_contacts_app_title" msgid="7792041146751261191">"සම්බන්ධතා යෙදුම"</string>
-    <plurals name="default_email_app_title" formatted="false" msgid="5601238555065668402">
-      <item quantity="one">ඉ-තැපැල් සේවාලාභී යෙදුම්</item>
-      <item quantity="other">ඉ-තැපැල් සේවාලාභී යෙදුම්</item>
-    </plurals>
+    <string name="default_email_app_title" msgid="3712283056326496555">"{count,plural, =1{ඉ-තැපැල් සේවාලාභී යෙදුම}one{ඉ-තැපැල් සේවාලාභී යෙදුම්}other{ඉ-තැපැල් සේවාලාභී යෙදුම්}}"</string>
     <string name="default_map_app_title" msgid="9051013257374474801">"සිතියම් යෙදුම"</string>
-    <plurals name="default_phone_app_title" formatted="false" msgid="1573981201056870719">
-      <item quantity="one">දුරකථන යෙදුම්</item>
-      <item quantity="other">දුරකථන යෙදුම්</item>
-    </plurals>
+    <string name="default_phone_app_title" msgid="4833449131501871644">"{count,plural, =1{දුරකථන යෙදුම}one{දුරකථන යෙදුම්}other{දුරකථන යෙදුම්}}"</string>
     <string name="default_browser_title" msgid="3612813200586492159">"බ්‍රව්සර යෙදුම"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
@@ -364,10 +343,7 @@
     <string name="about_version" msgid="6223547403835399861">"Android TV OS අනුවාදය"</string>
     <string name="about_serial" msgid="3432319328808745459">"අනුක්‍රමාංකය"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV OS තැනුම"</string>
-    <plurals name="show_dev_countdown" formatted="false" msgid="523455736684670250">
-      <item quantity="one">සංවර්ධකයෙක් වීමට පියවර <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> ක් ඇතින් ඔබ දැන් සිටියි.</item>
-      <item quantity="other">සංවර්ධකයෙක් වීමට පියවර <xliff:g id="STEP_COUNT_1">%1$d</xliff:g> ක් ඇතින් ඔබ දැන් සිටියි.</item>
-    </plurals>
+    <string name="show_dev_countdown" msgid="4064986225625409361">"{count,plural, =1{ඔබට දැන් සංවර්ධකයෙක් වීමට ඇත්තේ පියවර #කි}one{ඔබට දැන් සංවර්ධකයෙක් වීමට ඇත්තේ පියවර #කි}other{ඔබට දැන් සංවර්ධකයෙක් වීමට ඇත්තේ පියවර #කි}}"</string>
     <string name="about_ads" msgid="7662896442040086522">"දැන්වීම්"</string>
     <string name="ads_description" msgid="8081069475265061074">"ප්‍රචාරණ ID යළි සැකසීම වැනි දැන්වීම් සැකසීම් කළම."</string>
     <string name="ads_content_description" msgid="1006489792324920289">"වෙළඳ දැන්වීම්, ප්‍රචාරණ ID යළි සැකසීම වැනි, ඔබගේ වෙළඳ දැන්වීම් සැකසීම් කළමනාකරණය කරයි."</string>
@@ -381,23 +357,7 @@
     <string name="additional_system_update_settings_list_item_title" msgid="1839534735929143986">"අමතර පද්ධති යාවත්කාල කිරීම්"</string>
     <string name="ssl_ca_cert_warning" msgid="7836390021162211069">"ඇතැම් විට ජාලය නිරීක්ෂණය විය හැක"</string>
     <string name="done_button" msgid="616159688526431451">"අවසන්"</string>
-    <plurals name="ssl_ca_cert_dialog_title" formatted="false" msgid="8222753634330561111">
-      <item quantity="one">සහතික විශ්වාස කරන්න හෝ ඉවත් කරන්න</item>
-      <item quantity="other">සහතික විශ්වාස කරන්න හෝ ඉවත් කරන්න</item>
-    </plurals>
-    <plurals name="ssl_ca_cert_info_message_device_owner" formatted="false" msgid="6128536570911468907">
-      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> ඔබගේ උපාංගයෙහි සහතික අධිකාරීන් ස්ථාපනය කර ඇත, එය ඔවුන්ට ඉ-තැපැල්, යෙදුම් සහ ආරක්ෂිත වෙබ් අඩවි ඇතුළු, කාර්යාල ජාල ක්‍රියාකාරකම් නිරීක්ෂණය කිරීමට ඉඩ දිය හැකිය.\n\nමෙම සහතික පිළිබඳ වැඩිදුර තොරතුරු සඳහා, ඔබගේ පරිපාලක අමතන්න.</item>
-      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> ඔබගේ උපාංගයෙහි සහතික අධිකාරීන් ස්ථාපනය කර ඇත, එය ඔවුන්ට ඉ-තැපැල්, යෙදුම් සහ ආරක්ෂිත වෙබ් අඩවි ඇතුළු, කාර්යාල ජාල ක්‍රියාකාරකම් නිරීක්ෂණය කිරීමට ඉඩ දිය හැකිය.\n\nමෙම සහතික පිළිබඳ වැඩිදුර තොරතුරු සඳහා, ඔබගේ පරිපාලක අමතන්න.</item>
-    </plurals>
-    <plurals name="ssl_ca_cert_info_message" formatted="false" msgid="5828471957724016946">
-      <item quantity="one"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> ඔබගේ කාර්යාල පැතිකඩ සඳහා සහතික අධිකාරීන් ස්ථාපනය කර ඇත, එය ඔවුන්ට ඉ-තැපැල්, යෙදුම් සහ ආරක්ෂිත වෙබ් අඩවි ඇතුළු, කාර්යාල ජාල ක්‍රියාකාරකම් නිරීක්ෂණය කිරීමට ඉඩ දිය හැකිය.\n\nමෙම සහතික පිළිබඳ වැඩිදුර තොරතුරු සඳහා, ඔබගේ පරිපාලක අමතන්න.</item>
-      <item quantity="other"><xliff:g id="MANAGING_DOMAIN_1">%s</xliff:g> ඔබගේ කාර්යාල පැතිකඩ සඳහා සහතික අධිකාරීන් ස්ථාපනය කර ඇත, එය ඔවුන්ට ඉ-තැපැල්, යෙදුම් සහ ආරක්ෂිත වෙබ් අඩවි ඇතුළු, කාර්යාල ජාල ක්‍රියාකාරකම් නිරීක්ෂණය කිරීමට ඉඩ දිය හැකිය.\n\nමෙම සහතික පිළිබඳ වැඩිදුර තොරතුරු සඳහා, ඔබගේ පරිපාලක අමතන්න.</item>
-    </plurals>
-    <string name="ssl_ca_cert_warning_message" msgid="4837017382712096218">"ඊ-තැපැල්, යෙදුම්, සහ ආරක්ෂිත වෙබ් අඩවි ඇතුලත්ව ඔබේ ජාල ක්‍රියාකාරකම්, අධීක්ෂණය කිරීමට තෙවන පාර්ශවයට ඇත.\n\nඔබගේ උපාංගයේ ස්ථාපිත විශ්වාසී අක්තපත්‍ර මෙය සිදුවීම කරයි."</string>
-    <plurals name="ssl_ca_cert_settings_button" formatted="false" msgid="196409967946912560">
-      <item quantity="one">සහතික පරීක්ෂා කරන්න</item>
-      <item quantity="other">සහතික පරීක්ෂා කරන්න</item>
-    </plurals>
+    <string name="sl_ca_cert_dialog_title" msgid="5104377991202801698">"{count,plural, =1{සහතිකය විශ්වාස කරන්න හෝ ඉවත් කරන්න}one{සහතික විශ්වාස කරන්න හෝ ඉවත් කරන්න}other{සහතික විශ්වාස කරන්න හෝ ඉවත් කරන්න}}"</string>
     <string name="device_status" msgid="8266002761193692207">"තත්ත්වය"</string>
     <string name="device_status_summary" msgid="3270932829412434985">"ජාලය, අනුක්‍රමික අංක සහ වෙනත් තොරතුරු"</string>
     <string name="manual" msgid="5683935624321864999">"අත්පොත"</string>
@@ -641,12 +601,21 @@
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"සියල්ල බලන්න"</string>
     <string name="microphone" msgid="7893752847683941214">"මයික්‍රෆෝනය"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"මයික්‍රෆෝන ප්‍රවේශය"</string>
+    <string name="mic_remote_toggle_title" msgid="7153283895012570080">"ඔබේ දුරස්ථ පාලකයේ මයික්‍රෆෝන ප්‍රවේශය"</string>
     <string name="open_mic_permissions" msgid="8121871594807641073">"මයික්‍රෆෝනයට යෙදුම් ප්‍රවේශය"</string>
+    <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"මයික්‍රෆෝන ප්‍රවේශය අවහිර කර ඇත"</string>
+    <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"අවහිර කිරීම ඉවත් කිරීමට, මයික්‍රෆෝන ප්‍රවේශයට ඉඩ දීම සඳහා ඔබගේ උපාංගයේ පෞද්ගලිකත්ව ස්විචය මයික්‍රෆෝනය තිබෙන ස්ථානයට ගෙන යන්න."</string>
     <string name="camera" msgid="1226671478936288283">"කැමරාව"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"කැමරා ප්‍රවේශය"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"කැමරාවට යෙදුම් ප්‍රවේශය"</string>
+    <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"කැමරා ප්‍රවේශය අවහිර කර ඇත"</string>
+    <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"අවහිර කිරීම ඉවත් කිරීමට, කැමරා ප්‍රවේශයට ඉඩ දීම සඳහා ඔබගේ උපාංගයේ පෞද්ගලිකත්ව ස්විචය කැමරාව තිබෙන ස්ථානයට ගෙන යන්න."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"මයික්‍රෆෝන ප්‍රවේශය: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="4699624900513326055">"ක්‍රියාත්මක විට, අවසරය ඇති සියලු යෙදුම් සහ සේවා මෙම උපාංගයේ ඕනෑම මයික්‍රෆෝනයකට ප්‍රවේශ විය හැකිය.\n\nඅභිරුචි ප්‍රොටොකෝලයක් සහිත ශ්‍රව්‍ය උපාංගවලට මෙම සැකසීම මගින් බලපෑමක් ඇති නොවනු ඇත."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"ක්‍රියාත්මක කළ විට, මයික්‍රෆෝනය භාවිත කිරීමට අවසර දී ඇති සියලු යෙදුම් සහ සේවාවලට එයට ප්‍රවේශ වීමට හැකි වනු ඇත.\n\nක්‍රියාවිරහිත කළ විට, කිසිදු යෙදුම් හෝ සේවාවකට මයික්‍රෆෝනය වෙත ප්‍රවේශ වීමට නොහැකි වනු ඇත. නමුත් ඔබට තවමත් ඔබේ දුරස්ථ පාලකයේ සහායක බොත්තම එබීමෙන් ඔබේ Google සහායකට කතා කිරීමට හැකි වේ.\n\nරූපවාහිනිය සමග සන්නිවේදනය කිරීම සඳහා අභිරුචි ප්‍රොටෝකෝල භාවිතා කරන ශ්‍රව්‍ය උපාංග මෙම සැකසීමෙන් බල නොපායි."</string>
+    <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"මයික්‍රෆෝනය දුරස්ථ පාලකයෙහි සබල කර ඇත"</string>
+    <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google සහායකට ඔබේ දුරස්ථ පාලකයේ ඇති මයික්‍රෆෝනය වෙත ප්‍රවේශ විය හැක. ඔබේ දුරස්ථ පාලකයෙහි ඇති Google සහායක බොත්තම එබීමෙන් ඔබට ඔබේ සහායකට කතා කිරීමට හැකි වනු ඇත."</string>
+    <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"දුරස්ථ පාලකයෙහි මයික්‍රෆෝනය අබල කර ඇත"</string>
+    <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"ඔබට ඔබේ දුරස්ථ පාලකය භාවිතයෙන් ඔබේ Google සහායකට කතා කිරීමට නොහැකි වනු ඇත. Google සහායක බොත්තම භාවිතා කිරීමට හැකි වීමට නම්, මයික්‍රෆෝන ප්‍රවේශය සබල කරන්න."</string>
     <string name="camera_toggle_info_title" msgid="3871317082313736088">"කැමරා ප්‍රවේශය: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"ක්‍රියාත්මක විට, අවසරය ඇති සියලු යෙදුම් සහ සේවා මෙම උපාංගයේ ඕනෑම කැමරාවකට ප්‍රවේශ විය හැකිය.\n\nඅභිරුචි ප්‍රොටොකෝලයක් සහිත කැමරා උපාංගවලට මෙම සැකසීම මගින් බලපෑමක් ඇති නොවනු ඇත."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"ක්‍රියාත්මකයි"</string>
@@ -672,9 +641,34 @@
     <string name="location_history_desc" msgid="926674012916014270">"මෙම ගිණුම සඳහා ස්ථාන ඉතිහාසය සක්‍රිය කර ඇති විට, ඔබගේ යෙදුම මඟින් භාවිතා කිරීම සඳහා ඔබගේ උපාංගයේ ස්ථාන දත්ත Google ට ආචය කළ හැක.\n\nඋදාහරණයක් ලෙස, ඔබට දිශාවන් ලබාදීමට Google සිතියම් වලට සහ Google Now වලට විශාල තදබදය පිළිබඳ දැනුම් දෙයි.\n\nඕනෑම වේලාව ඔබට ස්ථාන ඉතිහාසය අක්‍රිය කළ හැක, නමුත් එසේ කිරීමෙන් එය මැකෙන්නේ නැත. ඔබගේ ස්ථාන ඉතිහාසය බලන්න සහ කළමනාකරණය කරනය කිරීමට, maps.google.com/locationhistory වෙත පැමිණෙන්න."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"ස්ථානයේ ඉතිහාසය මකන්න"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"මෙම Google ගිණුම සඳහා මෙම උපාංගයේ ආචිත කරන ලද සියලුම ස්ථාන ඉතිහාසය මෙය මකවී. මෙම මැකීම ඔබට අස් කළ නොහැක. Google Now ඇතුළත්ව ඇතැම් යෙදුම්, වැඩ කිරීම නැවතී."</string>
-    <string name="system_services" msgid="5754310941186053151">"සේවා"</string>
+    <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"තිර කියවන"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"සංදර්ශකය"</string>
+    <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"අන්තර්ක්‍රියා පාලන"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"ශ්‍රව්‍ය සහ තිරය මත පෙළ"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"අත්හදා බැලීම"</string>
+    <string name="accessibility_services_category_title" msgid="8813843874978910442">"සේවා"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"සේවා සැකසුම්"</string>
+    <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ඉහළම විභේදනයක් ඇති පෙළ"</string>
+    <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"තදකුරු පෙළ"</string>
+    <string name="accessibility_color_correction" msgid="6765093204922184119">"වර්ණ නිවැරදි කිරීම"</string>
+    <string name="color_correction_usage" msgid="4160611639548748657">"වර්ණ නිවැරදි කිරීම භාවිතා කරන්න"</string>
+    <string name="color_correction_color_mode" msgid="5081377780734779169">"වර්ණ ප්‍රකාරය"</string>
+    <string name="color_correction_mode_deuteranomaly" msgid="1513793544554228224">"වර්ණ අන්ධතාව"</string>
+    <string name="color_correction_mode_deuteranomaly_summary" msgid="5991561481464520986">"රතු-කොළ"</string>
+    <string name="color_correction_mode_protanomaly" msgid="8105793166015115037">"වර්ණ දුර්වලතාව"</string>
+    <string name="color_correction_mode_protanomaly_summary" msgid="3247619910784115563">"රතු-කොළ"</string>
+    <string name="color_correction_mode_tritanomaly" msgid="757769418392736089">"වර්ණ අන්ධතාව"</string>
+    <string name="color_correction_mode_tritanomaly_summary" msgid="137712354510881252">"නිල්-කහ"</string>
+    <string name="color_correction_mode_grayscale" msgid="2592973844160514484">"අළු පරිමාණය"</string>
+    <string name="palette_color_red" msgid="507196433434979086">"රතු"</string>
+    <string name="palette_color_orange" msgid="6209196069366109835">"තැඹිලි"</string>
+    <string name="palette_color_yellow" msgid="298466132578870590">"කහ"</string>
+    <string name="palette_color_green" msgid="4904783063036825668">"කොළ"</string>
+    <string name="palette_color_cyan" msgid="3212217287628948203">"සියන්"</string>
+    <string name="palette_color_blue" msgid="8836682634988540630">"නිල්"</string>
+    <string name="palette_color_purple" msgid="2123828754639683555">"දම්"</string>
+    <string name="palette_color_gray" msgid="4014534773994261194">"අළු"</string>
     <string name="accessibility_shortcut" msgid="5856158637840030531">"ප්‍රවේශ්‍යතා කෙටි මග"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ප්‍රවේශ්‍යතා කෙටි මග සබල කරන්න"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"කෙටි මං සේවා"</string>
@@ -716,8 +710,8 @@
     <string name="color_cyan" msgid="3172130225116530998">"මයුර නිල්"</string>
     <string name="color_yellow" msgid="3519470952904560404">"කහ"</string>
     <string name="color_magenta" msgid="2377854703399624607">"දම්පාට තද රතු"</string>
-    <string name="accessibility_toggle_audio_description_preference_title" msgid="7745131783977112530">"ශ්‍රව්‍ය විස්තරය"</string>
-    <string name="accessibility_audio_description_summary" msgid="7101676957482726702">"පෙරනිමියෙන් ශ්‍රව්‍ය විස්තරය සහිත ශ්‍රව්‍ය හඬ ඛණ්ඩය තෝරන්න"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"ශ්‍රව්‍ය විස්තරය"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"සහාය දක්වන චිත්‍රපට සහ සංදර්ශනවල තිරය මත සිදු වන දේ පිළිබඳ විස්තරයක් අසන්න"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"සබල කරන්න"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"වින්‍යාසය"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> භාවිත කරන්න ද?"</string>
@@ -738,6 +732,7 @@
     <string name="system_monitoring" msgid="7997260748312620855">"නිරීක්ෂණය"</string>
     <string name="system_apps" msgid="8481888654606868074">"යෙදුම්"</string>
     <string name="system_stay_awake" msgid="5935117574414511413">"අවදියෙන් සිටින්න"</string>
+    <string name="keep_screen_on_summary" msgid="4680661166009970792">"තිරය කිසිදා නිද්‍රාවට පත් නොවනු ඇත"</string>
     <string name="system_hdcp_checking" msgid="3757586362130048838">"HDCP පරික්ෂාව"</string>
     <string name="system_hdmi_optimization" msgid="4122753440620724144">"HDMI ප්‍රශස්තිකරණය"</string>
     <string name="system_reboot_confirm" msgid="7035370306447878560">"දැන් නැවත අරඹන්න ද?"</string>
@@ -858,18 +853,9 @@
     <string name="inputs_device_auto_off_desc" msgid="1164897242719608201">"රූපවාහිනීය සමඟ HDMI උපාංග වල බලය අක්‍රිය කර ඇත"</string>
     <string name="inputs_tv_auto_on" msgid="544848340484583318">"රූපවාහිනීයේ ස්වයංක්‍රීය බලය සක්‍රිය"</string>
     <string name="inputs_tv_auto_on_desc" msgid="3640723210479925817">"HDMI උපාංගය සමඟ රූපවාහිනීයේ බලය සක්‍රිය කරන්න"</string>
-    <plurals name="inputs_header_connected_input" formatted="false" msgid="1179814566738084315">
-      <item quantity="one">සම්බන්ධිත ආදාන</item>
-      <item quantity="other">සම්බන්ධිත ආදාන</item>
-    </plurals>
-    <plurals name="inputs_header_standby_input" formatted="false" msgid="1205685426052294376">
-      <item quantity="one">සූදානම්ව ඇති ආදාන</item>
-      <item quantity="other">සූදානම්ව ඇති ආදාන</item>
-    </plurals>
-    <plurals name="inputs_header_disconnected_input" formatted="false" msgid="8405783081133938537">
-      <item quantity="one">සම්බන්ධිත නැති ආදාන</item>
-      <item quantity="other">සම්බන්ධිත නැති ආදාන</item>
-    </plurals>
+    <string name="inputs_header_connected_input" msgid="4323324944548164849">"{count,plural, =1{සම්බන්ධිත ආදානය}one{සම්බන්ධිත ආදාන}other{සම්බන්ධිත ආදාන}}"</string>
+    <string name="inputs_header_standby_input" msgid="600117963181008144">"{count,plural, =1{සූදානම්ව ඇති ආදානය}one{සූදානම්ව ඇති ආදාන}other{සූදානම්ව ඇති ආදාන}}"</string>
+    <string name="inputs_header_disconnected_input" msgid="3852361100151289264">"{count,plural, =1{සම්බන්ධිත නැති ආදානය}one{සම්බන්ධිත නැති ආදාන}other{සම්බන්ධිත නැති ආදාන}}"</string>
     <string name="user_add_profile_item_summary" msgid="3211866291940617804">"ඔබගේ ගිණුම තුළ යෙදුම් සහ අන්තර්ගත වෙත පිවිසීම සීමා කරන්න"</string>
     <string name="user_new_profile_name" msgid="6637593067318708353">"සීමා කළ පැතිකඩ"</string>
     <string name="user_restrictions_controlled_by" msgid="8124926446168030445">"<xliff:g id="APP">%1$s</xliff:g> මඟින් පාලනය කරන ලදී"</string>
@@ -883,10 +869,6 @@
     <string name="restricted_profile_create_title" msgid="700322590579894058">"සීමා කළ පැතිකඩක් සෑදීම"</string>
     <string name="restricted_profile_configure_title" msgid="3327502517511010296">"සැකසීම්"</string>
     <string name="restricted_profile_configure_apps_title" msgid="2244201859522056827">"යෙදුම් වලට ඉඩ දෙන්න"</string>
-    <plurals name="restricted_profile_configure_apps_description" formatted="false" msgid="7923692208224457728">
-      <item quantity="one">යෙදුම් %d කට ඉඩ දෙන ලදි</item>
-      <item quantity="other">යෙදුම් %d කට ඉඩ දෙන ලදි</item>
-    </plurals>
     <string name="restricted_profile_allowed" msgid="970921490464867884">"අවසරලත්"</string>
     <string name="restricted_profile_not_allowed" msgid="8184983064118036268">"අවසර නැත"</string>
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"අභිරුචිකරණ කළ සීමා කීරීම"</string>
@@ -931,7 +913,6 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"තෙවන පාර්ශ්ව මූලාශ්‍රය"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"අවසර"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"යෙදුම ලබා ගත නොහැකිය"</string>
-    <string name="unused_apps_switch" msgid="6174734963758039346">"අවසර ඉවත් කරන්න සහ ඉඩ හිස් කරන්න"</string>
     <string name="unused_apps" msgid="5539166745483454543">"භාවිත නොකළ යෙදුම්"</string>
     <string name="settings_ok" msgid="5950888975075541964">"හරි"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"තහවුරු කරන්න"</string>
@@ -945,12 +926,24 @@
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"මෙම අක්‍රිය කාලයට පසුව තිර සුරැකුම ආරම්භ වේ. තිර සුරැකුමක් තෝරා නැති නම්, සංදර්ශකය ක්‍රියාවිරහිත කෙරේ."</string>
     <string name="device_daydreams_sleep_summary" msgid="3081688734381995693">"අක්‍රිය <xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> පසු"</string>
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"සංදර්ශකය ක්‍රියා විරහිත කරන්න"</string>
-    <string name="device_energy_saver_screen_off_description" msgid="4469679706899396071">"<xliff:g id="SLEEP_DESCRIPTION">%1$s</xliff:g> පසුව"</string>
-    <string name="device_energy_saver_screen_off_dialog_title" msgid="4092476553760123309">"සංදර්ශකය ක්‍රියාවිරහිත කරන්න"</string>
-    <string name="device_energy_saver_allow_turning_screen_off" msgid="3832490233158066073">"තිරය ක්‍රියා විරහිත කිරීමට ඉඩ දෙන්න"</string>
-    <string name="device_energy_saver_allow_turning_screen_off_description" msgid="6369746832941270786">"මාධ්‍ය පසුධාවනය අතරතුර"</string>
-    <string name="device_energy_saver_confirmation_title" msgid="3888708298070409591">"ශක්ති සුරැකුම් සැකසීම තහවුරු කරන්න"</string>
-    <string name="device_energy_saver_confirmation_text" msgid="3157546670441493125">"කරුණාකර වැඩි වූ ශක්ති භාවිතය සඳහා හැකියාව තිබෙන <xliff:g id="SLEEP_TIME">%1$s</xliff:g> වෙත නව සැකසීම තහවුරු කරන්න."</string>
+    <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
+    <skip />
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"බල සහ ශක්ති සැකසීම තහවුරු කරන්න"</string>
+    <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"ඔබේ රූපවාහිනිය දිගු කාලයක් ක්‍රියාත්මකව තැබීමෙන් බලශක්ති භාවිතය වැඩි විය හැක"</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"බලශක්ති සුරැකුම් සැකසීම අබල කරන්න"</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"බලශක්ති භාවිතය වැඩි කිරීමට හැකියාව ඇති, බලමින් සිටින අතරේ සංදර්ශකය ක්‍රියාවිරහිත වීම වැළැක්වීමට තහවුරු කරන්න."</string>
+    <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"අක්‍රිය විට"</string>
+    <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"නරඹන විට"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"රූපවාහිනිය ස්වයංක්‍රීයව ක්‍රියාවිරහිත කරන්න"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"අක්‍රිය විට රූපවාහිනිය ස්වයංක්‍රීයව ක්‍රියාවිරහිත කරන්න"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"රූපවාහිනිය නරඹන විට ස්වයංක්‍රීයව ක්‍රියා විරහිත කරන්න"</string>
+    <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"\"අක්‍රිය විට\" ටයිමරය \"නරඹන විට\" ටයිමරයට වඩා කෙටි විය යුතු වේ"</string>
+    <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"\"නරඹන විට\" ටයිමරය \"අක්‍රිය විට\" ටයිමරයට වඩා දිගු විය යුතු වේ"</string>
+    <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"පොරොත්තුවෙන් ජාල සබැඳුම සීමා කරන්න"</string>
+    <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"පොරොත්තු ප්‍රකාරයේ අඩු බලශක්තියක් භාවිතා කරයි"</string>
+    <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"ස්වයංක්‍රීය යාවත්කාලීන ලැබීමට හැර, පොරොත්තු ප්‍රකාරයේ දී ඔබේ රූපවාහිනිය ඔබේ ජාලයෙන් විසන්ධි වනු ඇත. මෙය ඔබේ රූපවාහිනියේ බලශක්ති භාවිතය අඩු කළ හැකි නමුත්, එයින් අදහස් වන්නේ ඔබට පොරොත්තුවෙන් සිටින අතරේ විකාශය සහ Google සහායක වැනි කාර්යයන් භාවිතා කිරීමට ද නොහැකි විය හැකි බවයි."</string>
+    <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"පොරොත්තුවෙන් ජාල සබැඳුමට ඉඩ දෙන්න"</string>
+    <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"පොරොත්තුවෙන් ජාල සබැඳුමට ඉඩ දීම පොරොත්තු බලශක්ති භාවිතය වැඩි කරනු ඇත."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"දැනට කිසිම ගිණුමක් උපස්ථ කළ දත්ත ගබඩා නොකරයි."</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"ඔබේ Wi-Fi මුරපද, පිටුසන්, වෙනත් සැකසීම්, සහ යෙදුම් දත්ත උපස්ථ කිරීම නවත්වා සහ Google සේවාදායක මත ඇති සියලු පිටපත් මකා දමන්නද?"</string>
@@ -1024,6 +1017,9 @@
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"පින්තූරය-තුළ-පින්තූරය සඳහා ස්ථාපනය කළ යෙදුම් සහාය නොදක්වයි"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"මෙම යෙදුම විවෘතව තිබෙන අතරතුර හෝ එයින් ඉවත් වන විට පින්තූරය-තුළ-පින්තූරය කවුළුවක් සැදීමට ඉඩ දෙන්න (උදාහරණයකට, වීඩියෝව දිගටම බැලීමට). මෙම කවුළුව ඔබ භාවිතා කරන අනෙක් යෙදුම් උඩින් පෙන්වයි."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"එලාම සැකසීමට සහ කාල සංවේදී ක්‍රියා කාල සටහන්ගත කිරීමට යෙදුම්වලට ඉඩ දෙන්න. මෙය පසුබිමේ ධාවනය වීමට යෙදුම්වලට ඉඩ දෙයි, එය වැඩි බලය වැඩියෙන් භාවිත කළ හැකිය.\n\nමෙම අවසරය ක්‍රියාවිරහිත නම්, යෙදුම මඟින් සැලසුම් කර ඇති තිබෙන එලාම සහ වේලාව පදනම් කර ගත් සිදුවීම් ක්‍රියා නොකරනු ඇත."</string>
+    <string name="turn_screen_on_title" msgid="5293798529284629011">"තිරය ක්‍රියාත්මක කරන්න"</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"තිරය ක්‍රියාත්මක කිරීමට ඉඩ දෙන්න"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"යෙදුමකට තිරය ක්‍රියාත්මක කිරීමට ඉඩ දෙන්න. ඉඩ දුනහොත්, යෙදුම ඔබගේ පැහැදිලි අභිප්‍රායෙන් තොරව ඕනෑම වේලාවක තිරය ක්‍රියාත්මක කළ හැකිය."</string>
     <string name="special_access" msgid="21806055758289916">"විශේෂ යෙදුම් ප්‍රවේශය"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"ශ්‍රව්‍ය"</string>
@@ -1035,12 +1031,17 @@
     <string name="time_to_start_read_title" msgid="6565449163802837806">"කියවීම ඇරඹීමට කාලය"</string>
     <string name="time_to_valid_audio_title" msgid="7246101824813414348">"ශ්‍රව්‍ය දත්ත වලංගු කිරීමට කාලය"</string>
     <string name="empty_audio_duration_title" msgid="9024377320171450683">"හිස් ශ්‍රව්‍ය කාල සීමාව"</string>
+    <string name="record_audio_source_title" msgid="9087784503276397929">"පටිගත කළ ශ්‍රව්‍ය මූලාශ්‍රය"</string>
+    <string name="record_audio_source_dialog_title" msgid="6556408220589197097">"මීළඟ පටිගත කිරීමට පටිගත කළ ශ්‍රව්‍ය මූලාශ්‍රය තෝර."</string>
+    <string name="recorded_microphones_title" msgid="5466988146086215426">"පටිගත කළ මයික්‍රෆෝනය(න්)"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"ශ්‍රව්‍ය පටිගත කිරීම ඇරඹීමට අසමත් විය."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ශ්‍රව්‍ය පටිගත කිරීම අසමත් විය."</string>
     <string name="title_data_saver" msgid="7500278996154002792">"දත්ත සුරැකුම"</string>
     <string name="summary_data_saver" msgid="6793558728898207405">"ජංගම දත්ත අඩුවෙන් භාවිත කිරීමට වීඩියෝ ගුණත්වය ස්වයංක්‍රීයව ගළපන්න"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"දත්ත භාවිතය සහ ඇඟවීම්"</string>
-    <string name="data_saver_header_info" msgid="239820871940156510">"ඔබට Wi-Fi, ඊතර්නෙට් හෝ ඔබේ දුරකථනයෙහි හොට්ස්පොට් සමග අන්තර්ජාලයට සම්බන්ධ විය හැක. වැඩිදුර උදවු සඳහා, "<b>"g.co/network"</b>" වෙත පිවිසෙන්න."</string>
+    <string name="data_saver_header_info" msgid="2706725187498535785">"ඔබට Wi-Fi, ඊතර්නෙට් හෝ ඔබගේ දුරකථනයෙහි හොට්ස්පොට් සමග අන්තර්ජාලයට සම්බන්ධ විය හැකිය."</string>
+    <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"වෙනත් බ්ලූටූත් උපාංගවලට දෘශ්‍යමාන කරන්න ද?"</string>
+    <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"යෙදුමකට ඔබේ රූපවාහිනිය තත්පර <xliff:g id="TIMEOUT">%1$d</xliff:g>ක් සඳහා වෙනත් බ්ලූටූත් උපාංගවලට දෘශ්‍යමාන කිරීමට අවශ්‍යයි."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
     <string name="disabled_by_policy_title" msgid="2220484346213756472">"ක්‍රියාවට ඉඩ නොදේ"</string>
     <string name="disabled_by_policy_title_adjust_volume" msgid="4229779946666263271">"හඬ පරිමාව වෙනස් කළ නොහැකිය"</string>
@@ -1090,4 +1091,5 @@
     <string name="power_and_energy" msgid="4638182439670702556">"බලය සහ ශක්තිය"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"බලය ක්‍රියාත්මක කිරීමේ චර්යාව"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"යළි සකසන්න"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ඊතර්නෙට් යුගලන කේතය"</string>
 </resources>
