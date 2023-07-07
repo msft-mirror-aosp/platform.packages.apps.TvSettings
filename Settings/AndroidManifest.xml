@@ -1304,8 +1304,17 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".device.eco.EnergyModesService"
-            android:exported="true" />
+        <service android:name=".device.eco.EnergyModesStatsLogJobService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <provider
+            android:name=".device.eco.EnergyModesContentProvider"
+            android:authorities="com.android.tv.settings.device.eco.energymodes"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.android.tv.settings.ENERGY_MODES_PROVIDER"/>
+            </intent-filter>
+        </provider>
 
         <activity
             android:name=".device.eco.EnergyModesActivity"
