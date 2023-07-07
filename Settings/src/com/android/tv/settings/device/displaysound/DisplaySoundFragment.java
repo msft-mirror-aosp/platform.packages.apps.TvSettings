@@ -16,6 +16,8 @@
 
 package com.android.tv.settings.device.displaysound;
 
+import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.getMatchContentDynamicRangeStatus;
+import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.setMatchContentDynamicRangeStatus;
 import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_CLASSIC;
 import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_TWO_PANEL;
 import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_VENDOR;
@@ -122,10 +124,6 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment implements
             removePreference(dynamicRangePreference);
             return;
         }
-        if (dynamicRangePreference != null) {
-            dynamicRangePreference.setChecked(
-                    PreferredDynamicRangeUtils.getMatchContentDynamicRangeStatus(mDisplayManager));
-        }
         // Do not show sidebar info texts in case of 1 panel settings.
         if (FlavorUtils.getFlavor(getContext()) != FLAVOR_CLASSIC) {
             createInfoFragments();
@@ -133,10 +131,22 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment implements
     }
 
     @Override
+    public void onDestroy() {
+        super.onDestroy();
+        mDisplayManager.unregisterDisplayListener(this);
+    }
+
+
+    @Override
     public void onResume() {
         super.onResume();
         // Update the subtitle of CEC setting when navigating back to this page.
         updateCecPreference();
+
+        SwitchPreference dynamicRangePreference = findPreference(KEY_DYNAMIC_RANGE);
+        if (dynamicRangePreference != null) {
+            dynamicRangePreference.setChecked(getMatchContentDynamicRangeStatus(mDisplayManager));
+        }
     }
 
     @Override
@@ -148,8 +158,7 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment implements
         }
         if (TextUtils.equals(preference.getKey(), KEY_DYNAMIC_RANGE)) {
             final SwitchPreference dynamicPref = (SwitchPreference) preference;
-            PreferredDynamicRangeUtils.setMatchContentDynamicRangeStatus(mDisplayManager,
-                    dynamicPref.isChecked());
+            setMatchContentDynamicRangeStatus(mDisplayManager, dynamicPref.isChecked());
         }
         return super.onPreferenceTreeClick(preference);
     }
