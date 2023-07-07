@@ -41,7 +41,7 @@
     <string name="hotwording_summary" msgid="2170375928302175449">"ಯಾವುದೇ ಸಮಯದಲ್ಲಿ Google Assistant ಜೊತೆಗೆ ಮಾತನಾಡಿ"</string>
     <string name="header_category_device" msgid="3023893663454705969">"ಸಾಧನ"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"ಪ್ರಾಶಸ್ತ್ಯಗಳು"</string>
-    <string name="header_category_accessories" msgid="6479803330480847199">"ರಿಮೋಟ್ ಮತ್ತು ಆ್ಯಕ್ಸೆಸರಿಗಳು"</string>
+    <string name="header_category_accessories" msgid="6479803330480847199">"ರಿಮೋಟ್ &amp; ಪರಿಕರಗಳು"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"ವೈಯಕ್ತಿಕ"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಿಸಿ"</string>
     <string name="add_an_account" msgid="2601275122685226096">"ಖಾತೆಯನ್ನು ಸೇರಿಸಿ"</string>
@@ -54,7 +54,7 @@
     <string name="applications_category_title" msgid="7112019490898586223">"ಅಪ್ಲಿಕೇಶನ್‌ಗಳು"</string>
     <string name="device_pref_category_title" msgid="8292572846154873762">"ಸಾಧನದ ಪ್ರಾಶಸ್ತ್ಯಗಳು"</string>
     <string name="accessibility_category_title" msgid="1552664829936369592">"ಆ್ಯಕ್ಸೆಸ್ಸಿಬಿಲಿಟಿ"</string>
-    <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"ರಿಮೋಟ್‌ಗಳು ಮತ್ತು ಆ್ಯಕ್ಸೆಸರಿಗಳು"</string>
+    <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"ರಿಮೋಟ್‌ಗಳು ಮತ್ತು ಪರಿಕರಗಳು"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"ಡಿಸ್‌ಪ್ಲೇ ಮತ್ತು ಧ್ವನಿ"</string>
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"ಸಹಾಯ ಮತ್ತು ಪ್ರತಿಕ್ರಿಯೆ"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"ಗೌಪ್ಯತೆ"</string>
@@ -112,8 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"ಬ್ಯಾಕಪ್ ಮಾಡಿ &amp; ಮರುಸ್ಥಾಪಿಸಿ"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"ಫ್ಯಾಕ್ಟರಿ ಡೇಟಾ ರಿಸೆಟ್"</string>
     <string name="device_calibration" msgid="2907914144048739705">"ಕ್ಯಾಲಿಬರೇಶನ್"</string>
-    <string name="device_energy_saver" msgid="6611757996220443028">"ಶಟ್-ಆಫ್ ಟೈಮರ್"</string>
-    <string name="device_energy_saver_summary" msgid="5306058475316008429">"ಟಿವಿಯನ್ನು ಆಫ್ ಮಾಡಲು ಮತ್ತು ಶಕ್ತಿಯನ್ನು ಉಳಿಸಲು ಟೈಮರ್‌ಗಳನ್ನು ಸೆಟ್ ಮಾಡಿ"</string>
+    <string name="device_energy_saver" msgid="5560942970290949739">"ವಿದ್ಯುತ್ ಮತ್ತು ಎನರ್ಜಿ"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"ಪರಿಸರ-ಸ್ನೇಹಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ಸಾಧನಗಳು"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"ಸ್ವರೂಪಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿ"</string>
@@ -151,41 +151,12 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"ಸುಧಾರಿತ ಧ್ವನಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"ಗೇಮ್ ಮೋಡ್‌ಗೆ ಅನುಮತಿಸಿ"</string>
-    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"ಹೊಂದಾಣಿಕೆಯಾಗುವ ವಿಷಯದ ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿ"</string>
-    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"ಈ ಆಯ್ಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವಾಗ, ಸಿಸ್ಟಂ ವಿಷಯವನ್ನು ಹೊಂದಾಣಿಕೆ ಮಾಡಲು ವಿಭಿನ್ನ ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿಯ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳ ನಡುವೆ ಬದಲಿಸುತ್ತದೆ. ಇದು ಫಾರ್ಮ್ಯಾಟ್ ಬದಲಾವಣೆ ಸಮಯದಲ್ಲಿ ಬ್ಲ್ಯಾಕ್ ಸ್ಕ್ರೀನ್‌ಗೆ ಕಾರಣವಾಗಬಹುದು.\n\nಇನ್ನಷ್ಟು ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿಯ ಆಯ್ಕೆಗಳಿಗಾಗಿ ಸುಧಾರಿತ ಡಿಸ್‌ಪ್ಲೇ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ."</string>
-    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"ಆದ್ಯತೆಯ ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿ"</string>
-    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"ಸಿಸ್ಟಂ-ಆದ್ಯತೆಯ ಪರಿವರ್ತನೆ"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"ಫಾರ್ಮ್ಯಾಟ್ ಪರಿವರ್ತನೆಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನಿರ್ವಹಿಸಿ"</string>
-    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"ಈ ಆಯ್ಕೆಯನ್ನು ಆರಿಸುವುದರಿಂದ ಡಿಸ್‌ಪ್ಲೇಗೆ ಕಳುಹಿಸಲು ಸೂಕ್ತವಾದ ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನಿರ್ಧರಿಸುತ್ತದೆ ಮತ್ತು ಅಗತ್ಯವಿದ್ದರೆ ಆ ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿಗೆ ವಿಷಯವನ್ನು ಪರಿವರ್ತಿಸುತ್ತದೆ."</string>
-    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ಯಾವಾಗಲೂ ವಿಷಯದ ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ"</string>
-    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"ಒತ್ತಾಯದ ಪರಿವರ್ತನೆ"</string>
-    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"ಆದ್ಯತೆಯ ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಪರಿವರ್ತನೆಯನ್ನು ಒತ್ತಾಯಿಸುತ್ತದೆ"</string>
-    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"ಆದ್ಯತೆಯ ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಪರಿವರ್ತನೆಯನ್ನು ಒತ್ತಾಯಿಸುತ್ತದೆ. ಒತ್ತಾಯದ ಪರಿವರ್ತನೆಯು ಡಿಸ್‌ಪ್ಲೇ ಮೋಡ್ ಅಥವಾ HDR ಫಾರ್ಮ್ಯಾಟ್‌ನಲ್ಲಿನ ಇತರ ಸೆಟ್ಟಿಂಗ್‌ಗಳ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಬಹುದು."</string>
-    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"ಯಾವಾಗಲೂ SDR ಗೆ"</string>
-    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"ಯಾವಾಗಲೂ <xliff:g id="HDR_TYPE">%s</xliff:g> ಗೆ"</string>
-    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"ನೀವು HDR ಔಟ್‌ಪುಟ್ ಅನ್ನು ಒತ್ತಾಯಿಸಲು ಬಯಸುತ್ತೀರಾ?"</string>
-    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"ಡಿಫಾಲ್ಟ್ ಆಗಿ <xliff:g id="HDR_TYPE">%s</xliff:g> ಗೆ ಪರಿವರ್ತಿಸಲು ಒತ್ತಾಯಿಸಲಾಗುತ್ತದೆ."</string>
-    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"ನಿಮ್ಮ ಡಿಸ್‌ಪ್ಲೇ 1080p 60 Hz ರೆಸಲ್ಯೂಶನ್‌ನಲ್ಲಿ ರನ್ ಆಗುತ್ತದೆ. 4k 60Hz ರೆಸಲ್ಯೂಶನ್‌ನಲ್ಲಿ ರನ್ ಆಗುವಾಗ ಈ ಆಯ್ಕೆಯು ನಿಮ್ಮ ಡಿಸ್‌ಪ್ಲೇ ಜೊತೆಗೆ ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ."</string>
-    <!-- no translation found for selection_dolby_vision_not_supported_sidebar (8994591316574824115) -->
-    <skip />
-    <!-- no translation found for manual_dolby_vision_format_on_4k60_title (4172263676512376500) -->
-    <skip />
-    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"ಯಾವಾಗಲೂ Dolby Vision ಗೆ ಬಲವಂತವಾಗಿ ಪರಿವರ್ತಿಸಿ"</string>
-    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"ಸುಧಾರಿತ ಡಿಸ್‌ಪ್ಲೇ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿರುವ HDR ಫಾರ್ಮ್ಯಾಟ್‌ಗಳಲ್ಲಿ Dolby Vision ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ್ದರೆ, Dolby ಗೆ ಬಲವಂತವಾಗಿ ಪರಿವರ್ತಿಸುವುದರಿಂದ ಅದು ಮರು-ಸಕ್ರಿಯಗೊಳ್ಳುತ್ತದೆ."</string>
-    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"ಯಾವಾಗಲೂ HDR10 ಗೆ ಬಲವಂತವಾಗಿ ಪರಿವರ್ತಿಸಿ"</string>
-    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"ಸುಧಾರಿತ ಡಿಸ್‌ಪ್ಲೇ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿರುವ HDR ಫಾರ್ಮ್ಯಾಟ್‌ಗಳಲ್ಲಿ HDR10 ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ್ದರೆ, HDR10 ಗೆ ಬಲವಂತವಾಗಿ ಪರಿವರ್ತಿಸುವುದರಿಂದ ಅದು ಮರು-ಸಕ್ರಿಯಗೊಳ್ಳುತ್ತದೆ."</string>
-    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"ಯಾವಾಗಲೂ HLG ಗೆ ಬಲವಂತವಾಗಿ ಪರಿವರ್ತಿಸಿ"</string>
-    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"ಸುಧಾರಿತ ಡಿಸ್‌ಪ್ಲೇ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿರುವ HDR ಫಾರ್ಮ್ಯಾಟ್‌ಗಳಲ್ಲಿ HLG ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ್ದರೆ, HLG ಗೆ ಬಲವಂತವಾಗಿ ಪರಿವರ್ತಿಸುವುದರಿಂದ ಅದು ಮರು-ಸಕ್ರಿಯಗೊಳ್ಳುತ್ತದೆ."</string>
-    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"ಯಾವಾಗಲೂ HDR10+ ಗೆ ಬಲವಂತವಾಗಿ ಪರಿವರ್ತಿಸಿ"</string>
-    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"ಸುಧಾರಿತ ಡಿಸ್‌ಪ್ಲೇ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿರುವ HDR ಫಾರ್ಮ್ಯಾಟ್‌ಗಳಲ್ಲಿ HDR10+ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ್ದರೆ, HDR10+ ಗೆ ಬಲವಂತವಾಗಿ ಪರಿವರ್ತಿಸುವುದರಿಂದ ಅದು ಮರು-ಸಕ್ರಿಯಗೊಳ್ಳುತ್ತದೆ."</string>
-    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"ಯಾವಾಗಲೂ SDR ಗೆ ಬಲವಂತವಾಗಿ ಪರಿವರ್ತಿಸಿ"</string>
-    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"SDR ಗೆ ಬಲವಂತವಾಗಿ ಪರಿವರ್ತಿಸುವುದರಿಂದ, ಸುಧಾರಿತ ಡಿಸ್‌ಪ್ಲೇ ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿನ HDR ಫಾರ್ಮ್ಯಾಟ್‌ಗಳಲ್ಲಿರುವ ಎಲ್ಲಾ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳು ನಿಷ್ಕ್ರಿಯಗೊಳ್ಳುತ್ತವೆ."</string>
-    <string name="match_content_frame_rate_title" msgid="153291168560947689">"ಕಂಟೆಂಟ್‌ ಫ್ರೇಮ್ ರೇಟ್ ಅನ್ನು ಮ್ಯಾಚ್‌ ಮಾಡಿ"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"ಸೀಮ್‌ಲೆಸ್ ಮಾತ್ರ"</string>
+    <string name="match_content_frame_rate_title" msgid="153291168560947689">"ವಿಷಯ ಫ್ರೇಮ್ ರೇಟ್ ಅನ್ನು ಹೊಂದಿಸಿ"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"ತಡೆರಹಿತ"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"ಆ್ಯಪ್ ಅದನ್ನು ವಿನಂತಿಸಿದರೆ, ನಿಮ್ಮ ಟಿವಿ ತಡೆರಹಿತ ಪರಿವರ್ತನೆ ಮಾಡಲು ಸಾಧ್ಯವಾದರೆ ಮಾತ್ರ, ನಿಮ್ಮ ಸಾಧನವು ಅದರ ಔಟ್‌ಪುಟ್ ಅನ್ನು ನೀವು ವೀಕ್ಷಿಸುತ್ತಿರುವ ವಿಷಯದ ಮೂಲ ಫ್ರೇಮ್ ರೇಟ್‌ಗೆ ಮಾತ್ರ ಹೊಂದಿಸುತ್ತದೆ."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"ನಿಮ್ಮ ಕನೆಕ್ಟ್ ಮಾಡಿದ ಡಿಸ್‌ಪ್ಲೇ ತಡೆರಹಿತ ರಿಫ್ರೆಶ್ ರೇಟ್ ಪರಿವರ್ತನೆಗಳನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ. ನೀವು ಅದನ್ನು ಬೆಂಬಲಿಸುವ ಡಿಸ್‌ಪ್ಲೇಗೆ ಬದಲಾಯಿಸದ ಹೊರತು ಈ ಆಯ್ಕೆಯು ಯಾವುದೇ ಪರಿಣಾಮವನ್ನು ಬೀರುವುದಿಲ್ಲ."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"ಯಾವಾಗಲೂ"</string>
-    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"ಆ್ಯಪ್ ಅದನ್ನು ವಿನಂತಿಸಿದರೆ, ನಿಮ್ಮ ಸಾಧನವು ಅದರ ಔಟ್‌ಪುಟ್ ಅನ್ನು ನೀವು ವೀಕ್ಷಿಸುತ್ತಿರುವ ಕಂಟೆಂಟ್‌ನ ಮೂಲ ಫ್ರೇಮ್ ರೇಟ್‌ಗೆ ಮ್ಯಾಚ್‌ ಮಾಡುತ್ತದೆ. ವೀಡಿಯೊ ಪ್ಲೇಬ್ಯಾಕ್‌ನಿಂದ ನಿರ್ಗಮಿಸುವಾಗ ಅಥವಾ ಪ್ರವೇಶಿಸುವಾಗ ಇದು ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಒಂದು ಸೆಕೆಂಡ್‌ವರೆಗೆ ನಿಷ್ಕ್ರಿಯವಾಗಲು ಕಾರಣವಾಗಬಹುದು."</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"ತಡೆರಹಿತವಲ್ಲದ"</string>
+    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"ಆ್ಯಪ್ ಅದನ್ನು ವಿನಂತಿಸಿದರೆ, ನಿಮ್ಮ ಸಾಧನವು ಅದರ ಔಟ್‌ಪುಟ್ ಅನ್ನು ನೀವು ವೀಕ್ಷಿಸುತ್ತಿರುವ ವಿಷಯದ ಮೂಲ ಫ್ರೇಮ್ ರೇಟ್‌ಗೆ ಹೊಂದಿಸುತ್ತದೆ. ವೀಡಿಯೊ ಪ್ಲೇಬ್ಯಾಕ್‌ನಿಂದ ನಿರ್ಗಮಿಸುವಾಗ ಅಥವಾ ಪ್ರವೇಶಿಸುವಾಗ ಇದು ನಿಮ್ಮ ಸ್ಕ್ರೀನ್ ಒಂದು ಸೆಕೆಂಡ್‌ಗೆ ನಿಷ್ಕ್ರಿಯವಾಗಲು ಕಾರಣವಾಗಬಹುದು."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"ಎಂದಿಗೂ ಇಲ್ಲ"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"ಆ್ಯಪ್ ಅದನ್ನು ವಿನಂತಿಸಿದರೂ ಸಹ, ನಿಮ್ಮ ಸಾಧನವು ಅದರ ಔಟ್‌ಪುಟ್ ಅನ್ನು ನೀವು ವೀಕ್ಷಿಸುತ್ತಿರುವ ವಿಷಯದ ಮೂಲ ಫ್ರೇಮ್ ರೇಟ್‌ಗೆ ಹೊಂದಿಸಲು ಎಂದಿಗೂ ಪ್ರಯತ್ನಿಸುವುದಿಲ್ಲ."</string>
     <string name="font_scale_settings_title" msgid="4114019544800225980">"ಪಠ್ಯ ಸ್ಕೇಲಿಂಗ್"</string>
@@ -224,8 +195,7 @@
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"ರದ್ದುಗೊಳಿಸಿ"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ಸರಿ"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
-    <skip />
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"ಸಂಗ್ರಹ ಡೇಟಾವನ್ನು ತೆರುವುಗೊಳಿಸುವುದೇ?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"ಎಲ್ಲ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಸಂಗ್ರಹ ಡೇಟಾವನ್ನು ಇದು ತೆರುವುಗೊಳಿಸುತ್ತದೆ."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -258,12 +228,12 @@
     <string name="bluetooth_cancel" msgid="4415185529332987034">"ರದ್ದುಮಾಡಿ"</string>
     <string name="bluetooth_device_connected_toast" msgid="1896195197089204806">"%1$s ಅನ್ನು ಕನೆಕ್ಟ್ ಮಾಡಲಾಗಿದೆ"</string>
     <string name="bluetooth_device_disconnected_toast" msgid="7459239447363156499">"%1$s ಅನ್ನು ಡಿಸ್‌ಕನೆಕ್ಟ್ ಮಾಡಲಾಗಿದೆ"</string>
-    <string name="connected_devices_slice_pref_title" msgid="6761921505544005991">"ರಿಮೋಟ್‌ಗಳು ಮತ್ತು ಆ್ಯಕ್ಸೆಸರಿಗಳು"</string>
+    <string name="connected_devices_slice_pref_title" msgid="6761921505544005991">"ರಿಮೋಟ್‌ಗಳು ಮತ್ತು ಪರಿಕರಗಳು"</string>
     <string name="bluetooth_toggle_title" msgid="3808904783456336104">"ಬ್ಲೂಟೂತ್"</string>
     <string name="bluetooth_toggle_confirmation_dialog_title" msgid="3906746631391295717">"ಬ್ಲೂಟೂತ್ ಆಫ್ ಮಾಡಿ"</string>
     <string name="bluetooth_toggle_confirmation_dialog_summary" msgid="9017044450625172698">"ಬ್ಲೂಟೂತ್ ಆಫ್ ಆಗಿರುವಾಗ, ನಿಮ್ಮ ರಿಮೋಟ್‌ನಿಂದ Google Assistant ಅನ್ನು ಪ್ರವೇಶಿಸಲು ನಿಮಗೆ ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ."</string>
     <string name="bluetooth_pair_accessory" msgid="5508750142754420984">"ಪರಿಕರವನ್ನು ಜೋಡಿಸಿ"</string>
-    <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"ಆ್ಯಕ್ಸೆಸರಿಗಳು"</string>
+    <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"ಪರಿಕರಗಳು"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"ರಿಮೋಟ್ ನಿಯಂತ್ರಣ"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"ರಿಮೋಟ್ ನಿಯಂತ್ರಣದ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
     <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"ರಿಮೋಟ್ ಬಟನ್‌ಗಳನ್ನು ಸೆಟಪ್ ಮಾಡಿ"</string>
@@ -700,7 +670,7 @@
     <string name="palette_color_purple" msgid="2123828754639683555">"ನೇರಳೆ"</string>
     <string name="palette_color_gray" msgid="4014534773994261194">"ಬೂದು"</string>
     <string name="accessibility_shortcut" msgid="5856158637840030531">"ಪ್ರವೇಶ ಶಾರ್ಟ್‌ಕಟ್‌"</string>
-    <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ಆ್ಯಕ್ಸೆಸಿಬಿಲಿಟಿ ಶಾರ್ಟ್‌ಕಟ್‌ ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
+    <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ಪ್ರವೇಶಿಸುವಿಕೆ ಶಾರ್ಟ್‌ಕಟ್‌ ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ಶಾರ್ಟ್‌ಕಟ್ ಸೇವೆ"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"ಶಾರ್ಟ್‌ಕಟ್ ಆನ್ ಆಗಿರುವಾಗ, 3 ಸೆಕೆಂಡ್‌ಗಳ ಕಾಲ ಹಿಂದಿನ ಮತ್ತು ಕೆಳಗಿನ ಬಟನ್‌ಗಳನ್ನು ಒತ್ತುವುದು ಪ್ರವೇಶ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಆರಂಭಿಸುತ್ತದೆ."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"ಶೀರ್ಷಿಕೆಗಳು"</string>
@@ -964,9 +934,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"ವೀಕ್ಷಿಸುವಾಗ ಡಿಸ್‌ಪ್ಲೇ ಆಫ್ ಆಗುವುದನ್ನು ತಡೆಯಲು ಖಚಿತಪಡಿಸಿ ಏಕೆಂದರೆ ಅದು ಹೆಚ್ಚಿನ ಶಕ್ತಿಯನ್ನು ಬಳಸಬಹುದು."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"ನಿಷ್ಕ್ರಿಯವಾಗಿರುವಾಗ"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"ವೀಕ್ಷಿಸುತ್ತಿರುವಾಗ"</string>
-    <string name="device_energy_saver_category_title" msgid="170076161677525986">"ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆಫ್ ಮಾಡಿ"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"ನಿಷ್ಕ್ರಿಯವಾಗಿರುವಾಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆಫ್ ಮಾಡಿ"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"ವೀಕ್ಷಿಸುವಾಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆಫ್ ಮಾಡಿ"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"ಟಿವಿಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆಫ್ ಮಾಡಿ"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"ನಿಷ್ಕ್ರಿಯವಾಗಿರುವಾಗ ಟಿವಿಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆಫ್ ಮಾಡಿ"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"ವೀಕ್ಷಿಸುವಾಗ ಟಿವಿಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಆಫ್ ಮಾಡಿ"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"\"ನಿಷ್ಕ್ರಿಯವಾಗಿರುವಾಗ\" ಎಂಬ ಟೈಮರ್ \"ವೀಕ್ಷಿಸುತ್ತಿರುವಾಗ\" ಎಂಬ ಟೈಮರ್‌ಗಿಂತ ಕಡಿಮೆಯಿರಬೇಕು"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"\"ವೀಕ್ಷಿಸುತ್ತಿರುವಾಗ\" ಎಂಬ ಟೈಮರ್, \"ನಿಷ್ಕ್ರಿಯವಾಗಿರುವಾಗ\" ಎಂಬ ಟೈಮರ್‌ಗಿಂತ ಹೆಚ್ಚಿರಬೇಕು"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"ಸ್ಟ್ಯಾಂಡ್‌ಬೈ ಮೋಡ್‌ನಲ್ಲಿ ನೆಟ್‌ವರ್ಕ್ ಕನೆಕ್ಷನ್ ಅನ್ನು ಮಿತಿಗೊಳಿಸಿ"</string>
@@ -1032,7 +1002,7 @@
     <string name="directory_access_description" msgid="3630855858552422012">"ಕೆಲವು ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಪ್ರವೇಶಿಸಲು ಈ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಅನುಮತಿ ಇದೆ."</string>
     <string name="directory_on_volume" msgid="5628089584970521703">"<xliff:g id="VOLUME">%1$s</xliff:g> (<xliff:g id="DIRECTORY">%2$s</xliff:g>)"</string>
     <string name="system_alert_window_settings" msgid="5790572489650085051">"ಇತರ ಅಪ್ಲಿಕೇಶನ್ ಮೇಲೆ ಡಿಸ್‌ಪ್ಲೇ"</string>
-    <string name="permit_draw_overlay" msgid="5312730681030266735">"‍ಇತರ ಆ್ಯಪ್ ಮೇಲೆ ಡಿಸ್‌ಪ್ಲೇ ಮಾಡಲು ಅನುಮತಿಸಿ"</string>
+    <string name="permit_draw_overlay" msgid="5312730681030266735">"‍ಇತರ ಅಪ್ಲಿಕೇಶನ್ ಮೇಲೆ ಡಿಸ್‌ಪ್ಲೇ ಮಾಡಲು ಅನುಮತಿಸಿ"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"ನೀವು ಬಳಸುತ್ತಿರುವ ಇತರ ಅಪ್ಲಿಕೇಶನ್‌ಗಳ ಮೇಲೆ ಪ್ರದರ್ಶಿಸಲು ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಅನುಮತಿ ನೀಡಿ. ನೀವು ಆ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಬಳಸುವುದರ ಮೇಲೆ ಇದು ಪರಿಣಾಮ ಬೀರಬಹುದು ಅಥವಾ ಅವು ಕಾಣಿಸುವ ಅಥವಾ ವರ್ತಿಸುವ ರೀತಿಯನ್ನು ಬದಲಾಯಿಸಬಹುದು."</string>
     <string name="write_system_settings" msgid="4284654265954461890">"ಸಿಸ್ಟಂ ಸೆಟ್ಟಿಂಗ್‍ಗಳನ್ನು ಮಾರ್ಪಡಿಸಿ"</string>
     <string name="write_settings_title" msgid="2361816483383105754">"ಸಿಸ್ಟಂ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಮಾರ್ಪಡಿಸಬಹುದು"</string>
@@ -1046,7 +1016,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"ಚಿತ್ರದಲ್ಲಿ ಚಿತ್ರಕ್ಕೆ ಅನುಮತಿಸಿ"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"ಯಾವುದೇ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿದ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಚಿತ್ರದಲ್ಲಿ ಚಿತ್ರವನ್ನು ಬೆಂಬಲಿಸುತ್ತಿಲ್ಲ"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"ಅಪ್ಲಿಕೇಶನ್ ತೆರೆದೇ ಇರುವಾಗ ಅಥವಾ ನೀವು ಈ ಅಪ್ಲಿಕೇಶನ್ ತೊರೆದ ಬಳಿಕ (ಉದಾಹರಣೆಗೆ, ವೀಡಿಯೊ ವೀಕ್ಷಿಸುವುದನ್ನು ಮುಂದುವರಿಸಲು), ಚಿತ್ರದಲ್ಲಿ ಚಿತ್ರ ವಿಂಡೋ ರಚಿಸಲು ಈ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಗೆ ಅನುಮತಿ ನೀಡಿ. ನೀವು ಬಳಸುತ್ತಿರುವ ಇತರ ಅಪ್ಲಿಕೇಶನ್‌ಗಳ ಮೇಲೆ ಈ ವಿಂಡೋ ಡಿಸ್‌ಪ್ಲೇ ಆಗುತ್ತದೆ."</string>
-    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"ಅಲಾರಂಗಳನ್ನು ಸೆಟ್ ಮಾಡಲು ಮತ್ತು ಸಮಯ-ಸೂಕ್ಷ್ಮ ಈವೆಂಟ್‌ಗಳನ್ನು ನಿಗದಿಪಡಿಸಲು ಆ್ಯಪ್‌ಗಳಿಗೆ ಅನುಮತಿಸಿ. ಇದು ಹಿನ್ನೆಲೆಯಲ್ಲಿ ರನ್ ಆಗಲು ಆ್ಯಪ್‌ಗಳಿಗೆ ಅನುಮತಿಸುತ್ತದೆ, ಆದ್ದರಿಂದ ಹೆಚ್ಚಿನ ಪವರ್ ಬಳಕೆಯಾಗಬಹುದು.\n\nಈ ಅನುಮತಿ ಆಫ್ ಆಗಿದ್ದರೆ, ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಅಲಾರಂಗಳು ಮತ್ತು ಈ ಆ್ಯಪ್ ನಿಗದಿಪಡಿಸಿದ ಸಮಯಾಧಾರಿತ ಈವೆಂಟ್‌ಗಳು ಕೆಲಸ ಮಾಡುವುದಿಲ್ಲ."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"ಅಲಾರಂಗಳನ್ನು ಸೆಟ್ ಮಾಡಲು ಮತ್ತು ಸಮಯ-ಸೂಕ್ಷ್ಮ ಈವೆಂಟ್‌ಗಳನ್ನು ನಿಗದಿಪಡಿಸಲು ಆ್ಯಪ್‌ಗಳಿಗೆ ಅನುಮತಿಸಿ. ಇದು ಹಿನ್ನೆಲೆಯಲ್ಲಿ ರನ್ ಆಗಲು ಆ್ಯಪ್‌ಗಳಿಗೆ ಅನುಮತಿಸುತ್ತದೆ, ಅದರಿಂದ ಹೆಚ್ಚಿನ ಪವರ್ ಬಳಕೆಯಾಗಬಹುದು.\n\nಈ ಅನುಮತಿ ಆಫ್ ಆಗಿದ್ದರೆ, ಅಸ್ತಿತ್ವದಲ್ಲಿರುವ ಅಲಾರಂಗಳು ಮತ್ತು ಈ ಆ್ಯಪ್ ನಿಗದಿಪಡಿಸಿದ ಸಮಯ-ಸೂಕ್ಷ್ಮ ಈವೆಂಟ್‌ಗಳು ಕೆಲಸ ಮಾಡುವುದಿಲ್ಲ."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"ಸ್ಕ್ರೀನ್ ಅನ್ನು ಆನ್ ಮಾಡಿ"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"ಸ್ಕ್ರೀನ್ ಅನ್ನು ಆನ್ ಮಾಡಲು ಅನುಮತಿಸಿ"</string>
     <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"ಸ್ಕ್ರೀನ್ ಅನ್ನು ಆನ್ ಮಾಡಲು ಆ್ಯಪ್‌ಗೆ ಅನುಮತಿಸಿ. ಅನುಮತಿಸಿದರೆ, ನಿಮ್ಮ ಅಗತ್ಯವಿಲ್ಲದಿದ್ದಾಗಲೂ ಆ್ಯಪ್ ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ಸ್ಕ್ರೀನ್ ಅನ್ನು ಆನ್ ಮಾಡಬಹುದು."</string>
@@ -1122,9 +1092,4 @@
     <string name="power_on_behavior" msgid="927607372303160716">"ಪವರ್ ಆನ್ ನಡವಳಿಕೆ"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"ಮರುಹೊಂದಿಸಿ"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ಇಥರ್ನೆಟ್ ಜೋಡಣೆ ಕೋಡ್‌"</string>
-    <string name="energy_modes" msgid="1331693860386361744">"ವಿದ್ಯುತ್ ಮೋಡ್‌ಗಳು"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"ಟಿವಿ ಬಳಕೆಯಲ್ಲಿ ಇಲ್ಲದಿದ್ದಾಗ ವಿದ್ಯುತ್ ದಕ್ಷತೆಯನ್ನು ಸುಧಾರಿಸಿ"</string>
-    <string name="energy_mode_enables" msgid="357960364751477627">"ಇವುಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"ಈ ಮೋಡ್, ಸಾಧನದ ವಿದ್ಯುತ್ ಬಳಕೆಯನ್ನು ಹೆಚ್ಚಿಸಬಹುದು ಎಂಬುದನ್ನು ಗಮನಿಸಿ."</string>
-    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
 </resources>

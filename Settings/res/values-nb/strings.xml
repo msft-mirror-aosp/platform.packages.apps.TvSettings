@@ -112,8 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Sikkerhetskopiering og gjenoppretting"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Tilbakestilling til fabrikkstandard"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrering"</string>
-    <string name="device_energy_saver" msgid="6611757996220443028">"Nedtelling for avslåing"</string>
-    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Angi nedtellinger for å slå av TV-en og spare strøm"</string>
+    <string name="device_energy_saver" msgid="5560942970290949739">"Strøm og energi"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"Eco-innstillinger"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Enheter"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Velg formater"</string>
@@ -151,40 +151,11 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Avanserte lydinnstillinger"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Tillat spillmodus"</string>
-    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Match innholdets dynamiske omfang"</string>
-    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Hvis du slår på dette alternativet, bytter systemet mellom ulike formater for dynamisk omfang for å matche innholdet. Dette kan føre til at skjermen blir svart når formatet byttes.\n\nKlikk på Avanserte skjerminnstillinger for å se flere alternativer for dynamisk omfang."</string>
-    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Foretrukket dynamisk omfang"</string>
-    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Systemforetrukket konvertering"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"La systemet administrere formatkonverteringen"</string>
-    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Når dette alternativet er valgt, fastslår systemet et egnet dynamisk område som sendes til skjermen, og konverterer innhold til dette dynamiske området etter behov."</string>
-    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Matcher alltid formatet til innholdet"</string>
-    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Tving konvertering"</string>
-    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Tvinger konvertering til foretrukket format"</string>
-    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Tving konvertering til et foretrukket format. Tvunget konvertering kan påvirke andre innstillinger i visningsmodus eller HDR-format."</string>
-    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Alltid til SDR"</string>
-    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Alltid til <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
-    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Vil du tvinge HDR-utdata?"</string>
-    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Som standard blir konverteringen tvunget til <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
-    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Skjermen kjøres med 1080p-oppløsning og 60 Hz. Dette alternativet er ikke kompatibelt med skjermen når den kjører med 4k-oppløsning og 60 Hz."</string>
-    <!-- no translation found for selection_dolby_vision_not_supported_sidebar (8994591316574824115) -->
-    <skip />
-    <!-- no translation found for manual_dolby_vision_format_on_4k60_title (4172263676512376500) -->
-    <skip />
-    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Tving alltid konvertering til Dolby Vision"</string>
-    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Hvis Dolby Vision er deaktivert i HDR-formater i Avanserte skjerminnstillinger og du tvinger konvertering til Dolby Vision, aktiveres det igjen."</string>
-    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Tving alltid konvertering til HDR10"</string>
-    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"Hvis HDR10 er deaktivert i HDR-formater i Avanserte skjerminnstillinger og du tvinger konvertering til HDR10, aktiveres det igjen."</string>
-    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"Tving alltid konvertering til HLG"</string>
-    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"Hvis HLG er deaktivert i HDR-formater i Avanserte skjerminnstillinger og du tvinger konvertering til HLG, aktiveres det igjen."</string>
-    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"Tving alltid konvertering til HDR10+"</string>
-    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Hvis HDR10+ er deaktivert i HDR-formater i Avanserte skjerminnstillinger og du tvinger konvertering til HDR10+, aktiveres det igjen."</string>
-    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Tving alltid konvertering til SDR"</string>
-    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"Hvis du tvinger konvertering til SDR, deaktiveres alle formatene i HDR-formatene i Avanserte skjerminnstillinger."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Match innholdets bildefrekvens"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Bare sømløs"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Sømløs"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Hvis appen ber om det, kommer enheten til å matche utgangen til den opprinnelige bildefrekvensen til innholdet du ser på, men BARE hvis TV-en kan utføre sømløs overgang."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Den tilkoblede skjermen støtter ikke sømløse overganger av oppdateringsfrekvens. Dette alternativet har ingen effekt med mindre du bytter til en skjerm som støtter det."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Alltid"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Ikke-sømløs"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Hvis appen ber om det, kommer enheten til å matche utgangen til den opprinnelige bildefrekvensen til innholdet du ser på. Dette kan føre til at skjermen blir tom i et øyeblikk når du avslutter eller starter videoavspilling."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Aldri"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Selv om appen ber om det, kommer enheten aldri til å prøve å matche utgangen til den opprinnelige bildefrekvensen til innholdet du ser på."</string>
@@ -224,8 +195,7 @@
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Avbryt"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
-    <skip />
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Vil du slette bufrede data?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Dette sletter bufrede data for alle apper."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -479,7 +449,7 @@
     <string name="wifi_connect" msgid="2206086690065242121">"Koble til"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"Glem nettverket"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"Dette sletter informasjonen som brukes til å koble til dette nettverket, inkludert lagrede passord"</string>
-    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Koble til et wifi-nettverk ved å skanne QR-koden fra en mobiltelefon og følge veiledningen.\n \n Fra en "<b>"Android-telefon"</b>" går du til Innstillinger -&gt; Nettverk og internett -&gt; Wifi -&gt; Velg et wifi-nettverk -&gt; Avansert -&gt; Legg til en enhet og skanner QR-koden."</string>
+    <string name="wifi_scan_qr_code_description" msgid="6620444691131671132">" Koble til et Wifi-nettverk ved å skanne QR-koden fra en mobiltelefon og følge veiledningen.\n \n Fra en "<b>"Android-telefon"</b>" går du til Innstillinger -&gt; Nettverk og internett -&gt; Wifi -&gt; Velg et Wifi-nettverk -&gt; Avansert -&gt; Legg til en enhet og skanner QR-koden."</string>
     <string name="wifi_scan_qr_code_back_description" msgid="8830716278283379280">"Trykk på tilbakeknappen for å avbryte"</string>
     <string name="wifi_action_ok" msgid="6257483288047397880">"OK"</string>
     <string name="wifi_setup_action_dont_change_network" msgid="2999582059217623090">"Fortsett"</string>
@@ -964,9 +934,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Du må bekrefte dette for å unngå at skjermen slår seg av mens du ser på noe. Dette kan føre til at det brukes mer strøm."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Når enheten er inaktiv"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Når du ser på noe"</string>
-    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Slå av automatisk"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Slå av automatisk når enheten er inaktiv"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Slå av automatisk når du ser på noe"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Slå TV-en av automatisk"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Slå TV-en av automatisk når den er inaktiv"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Slå TV-en av automatisk når du ser på noe"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"«Når enheten er inaktiv»-tiden må være kortere enn «Når du ser på noe»-tiden"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"«Når du ser på noe»-tiden må være lengre enn «Når enheten er inaktiv»-tiden"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Begrens nettverkstilkobling i hvilemodus"</string>
@@ -1122,9 +1092,4 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Funksjonalitet ved oppstart"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Tilbakestill"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Tilkoblingskode for Ethernet"</string>
-    <string name="energy_modes" msgid="1331693860386361744">"Strømmoduser"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Gjør strømeffektiviteten bedre når TV-en ikke er i bruk"</string>
-    <string name="energy_mode_enables" msgid="357960364751477627">"Aktiverer følgende:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Vær oppmerksom på at denne modusen kan øke strømforbruket på enheten."</string>
-    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Slå på «<xliff:g id="ENERGYMODENAME">%s</xliff:g>»"</string>
 </resources>

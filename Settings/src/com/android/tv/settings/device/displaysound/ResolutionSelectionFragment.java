@@ -169,7 +169,8 @@ public class ResolutionSelectionFragment extends PreferenceControllerFragment {
                         mode.getPhysicalWidth(), mode.getPhysicalHeight()),
                 ResolutionSelectionUtils.getRefreshRateString(mode.getRefreshRate()));
 
-        String summary = mode.getPhysicalWidth() + " x " + mode.getPhysicalHeight();
+        String summary = ResolutionSelectionUtils.getResolutionSummary(mode.getPhysicalWidth(),
+                mode.getPhysicalHeight());
         RadioPreference pref = new RadioPreference(getContext());
         pref.setTitle(title);
         pref.setSummary(summary);
@@ -297,7 +298,7 @@ public class ResolutionSelectionFragment extends PreferenceControllerFragment {
 
                 @Override
                 public void onFinish() {
-                    if (((AlertDialog) dialog1).isShowing() && isActivityEnable()) {
+                    if (((AlertDialog) dialog1).isShowing()) {
                         setUserPreferredMode(previousMode);
                         dialog1.dismiss();
                     }
@@ -317,11 +318,6 @@ public class ResolutionSelectionFragment extends PreferenceControllerFragment {
             mDisplayManager.setHdrConversionMode(systemHdrConversionMode);
             selectForceHdrConversion(mDisplayManager);
         }
-    }
-
-    public boolean isActivityEnable(){
-        return getActivity()!=null && !getActivity().isDestroyed()
-                && !getActivity().isFinishing()&& isAdded();
     }
 
     private String titleForNewMode(String resolutionString,
