@@ -112,8 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"백업 및 복원"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"초기화"</string>
     <string name="device_calibration" msgid="2907914144048739705">"보정"</string>
-    <string name="device_energy_saver" msgid="6611757996220443028">"전원 끄기 타이머"</string>
-    <string name="device_energy_saver_summary" msgid="5306058475316008429">"TV 전원을 끄는 타이머를 설정하여 에너지를 절약합니다."</string>
+    <string name="device_energy_saver" msgid="5560942970290949739">"전원 및 에너지"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"절전 설정"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"기기"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"형식 선택"</string>
@@ -151,40 +151,13 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"고급 소리 설정"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"게임 모드 허용"</string>
-    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"다이내믹 레인지 콘텐츠와 맞춤"</string>
-    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"이 옵션을 사용 설정하면 시스템에서 콘텐츠에 맞추어 다이내믹 레인지 형식을 전환합니다. 형식을 전환하는 중 검은색 화면이 표시될 수 있습니다.\n\n고급 디스플레이 설정을 클릭하여 더 많은 다이내믹 레인지 옵션을 확인하세요."</string>
-    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"선호하는 다이내믹 레인지"</string>
-    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"시스템 선호 전환"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"시스템에서 형식 전환을 관리하도록 함"</string>
-    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"이 옵션이 선택되면 시스템에서 디스플레이에 전송할 적절한 동적 범위를 결정하고 필요에 따라 콘텐츠를 이 동적 범위로 전환합니다."</string>
-    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"항상 콘텐츠 형식에 맞춤"</string>
-    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"강제 전환"</string>
-    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"원하는 형식으로 강제로 전환됩니다."</string>
-    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"원하는 형식으로 강제로 전환됩니다. 강제로 전환하면 디스플레이 모드 또는 HDR 형식의 다른 설정에 영향을 미칠 수도 있습니다."</string>
-    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"항상 SDR로 전환"</string>
-    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"항상 <xliff:g id="HDR_TYPE">%s</xliff:g> 형식으로 전환"</string>
-    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"강제로 HDR을 출력하시겠습니까?"</string>
-    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"기본적으로 <xliff:g id="HDR_TYPE">%s</xliff:g> 형식으로 강제 전환됩니다."</string>
-    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"디스플레이가 1,080p 60Hz 해상도에서 실행됩니다. 이 옵션은 4k 60Hz에서 실행될 때 내 디스플레이와 호환되지 않습니다."</string>
-    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"현재 해상도에서는 Dolby Vision이 지원되지 않습니다. Dolby Vision을 수동으로 사용 설정하면 디스플레이 해상도가 1080p 60Hz로 변경됩니다."</string>
-    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"해상도를 1080p 60Hz로 변경하시겠습니까?"</string>
-    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"항상 Dolby Vision으로 강제 전환"</string>
-    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"고급 디스플레이 설정의 HDR 포맷에서 Dolby Vision이 사용 중지되어 있을 때 Dolby Vision으로 강제 전환하면 다시 사용 설정됩니다."</string>
-    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"항상 HDR10으로 강제 전환"</string>
-    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"고급 디스플레이 설정의 HDR 포맷에서 HDR10이 사용 중지되어 있을 때 HDR10으로 강제 전환하면 다시 사용 설정됩니다."</string>
-    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"항상 HLG로 강제 전환"</string>
-    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"고급 디스플레이 설정의 HDR 포맷에서 HLG가 사용 중지되어 있을 때 HLG로 강제 전환하면 다시 사용 설정됩니다."</string>
-    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"항상 HDR10+로 강제 전환"</string>
-    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"고급 디스플레이 설정의 HDR 포맷에서 HDR10+가 사용 중지되어 있을 때 HDR10+로 강제 전환하면 다시 사용 설정됩니다."</string>
-    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"항상 SDR로 강제 전환"</string>
-    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"SDR로 강제 전환하면 고급 디스플레이 설정의 HDR 포맷에서 모든 포맷이 사용 중지됩니다."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"콘텐츠 프레임 속도 일치시키기"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"자동만"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"원활한 전환 사용"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"앱에서 요청하면 TV에서 원활한 전환을 실행할 수 있는 경우에만 기기에서 시청 중인 콘텐츠의 원래 프레임 속도에 출력을 맞춥니다."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"연결된 디스플레이에서 원활한 화면 재생 빈도 전환을 지원하지 않습니다. 이를 지원하는 디스플레이로 변경하지 않는 한 이 옵션은 아무런 영향을 미치지 않습니다."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"항상"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"원활한 전환 사용 안함"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"앱에서 요청할 경우 기기에서 시청 중인 콘텐츠의 원래 프레임 속도에 출력을 맞춥니다. 이로 인해 동영상 재생을 실행하거나 중지할 때 잠시 화면에 아무 내용도 나타나지 않을 수 있습니다."</string>
-    <string name="match_content_frame_rate_never" msgid="1678354793095148423">"콘텐츠 프레임 속도에 맞추지 않음"</string>
+    <string name="match_content_frame_rate_never" msgid="1678354793095148423">"사용 안함"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"앱에서 요청하더라도 기기에서는 시청 중인 콘텐츠의 원래 프레임 속도에 출력을 맞추려고 하지 않습니다."</string>
     <string name="font_scale_settings_title" msgid="4114019544800225980">"텍스트 크기 조정"</string>
     <string name="font_scale_item_detail" msgid="1558315053348778805">"<xliff:g id="SCALE">%1$d</xliff:g>%%로 크기 조정"</string>
@@ -218,11 +191,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"해상도를 %1$s(으)로 변경하시겠습니까?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"지금부터 %1$s 해상도를 사용하려면 확인을 선택하세요."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision은 %1$s에서 지원되지 않으므로 \'고급 디스플레이 설정\'에서 사용 중지됩니다."</string>
-    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"이 모드에서 지원하는 형식: %1$s\n일부 TV에서 더 많은 HDR 형식을 사용하려면 향상된 HDMI를 사용 설정해야 할 수 있습니다. TV 설정에서 지원 여부를 확인하세요."</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"이 모드는 %1$s 유형을 지원합니다. 일부 TV에서 더 많은 HDR 형식을 사용하려면 향상된 HDMI를 사용 설정해야 할 수 있습니다. TV 설정에서 지원 여부를 확인하세요."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"취소"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"확인"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g>(<xliff:g id="REFRESH_RATE">%2$s</xliff:g>Hz)"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g>(<xliff:g id="REFRESH_RATE">%2$s</xliff:g>Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"캐시된 데이터를 지우시겠습니까?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"모든 앱의 캐시된 데이터가 지워집니다."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -343,7 +316,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"조직에서 관리하는 기기입니다."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"<xliff:g id="ORGANIZATION_NAME">%s</xliff:g>에서 관리하는 기기입니다."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"자세히 알아보기"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{카메라 앱}other{카메라 앱}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"캘린더 앱"</string>
@@ -960,9 +934,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"영상을 보는 동안 화면이 꺼지지 않도록 설정합니다. 설정하지 않으면 에너지 사용량이 증가할 수 있습니다."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"절전 모드 시"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"시청 시"</string>
-    <string name="device_energy_saver_category_title" msgid="170076161677525986">"자동 사용 중지"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"사용하지 않을 때 자동 사용 중지"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"시청 중에 자동 사용 중지"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"자동으로 TV 끄기"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"사용 중이 아닐 때 자동으로 TV 끄기"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"시청 중에 자동으로 TV 끄기"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"\'절전 모드 시\' 타이머 시간은 \'시청 시\' 타이머 시간보다 짧아야 합니다."</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"\'시청 시\' 타이머 시간은 \'절전 모드 시\' 타이머 시간보다 길어야 합니다."</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"대기 모드에서 네트워크 연결 제한"</string>
@@ -1118,9 +1092,4 @@
     <string name="power_on_behavior" msgid="927607372303160716">"전원이 켜질 때 동작"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"초기화"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"이더넷 페어링 코드"</string>
-    <string name="energy_modes" msgid="1331693860386361744">"에너지 모드"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"TV를 사용하지 않는 동안 에너지 효율 향상"</string>
-    <string name="energy_mode_enables" msgid="357960364751477627">"사용 설정된 기능:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"이 모드로 인해 기기의 전력 소비량이 증가할 수 있습니다."</string>
-    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\'<xliff:g id="ENERGYMODENAME">%s</xliff:g>\' 사용 설정"</string>
 </resources>

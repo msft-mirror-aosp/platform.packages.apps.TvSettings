@@ -112,8 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"バックアップと復元"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"データの初期化"</string>
     <string name="device_calibration" msgid="2907914144048739705">"キャリブレーション"</string>
-    <string name="device_energy_saver" msgid="6611757996220443028">"シャットダウン タイマー"</string>
-    <string name="device_energy_saver_summary" msgid="5306058475316008429">"テレビの電源を切るタイマーを設定し、節電します"</string>
+    <string name="device_energy_saver" msgid="5560942970290949739">"電源と省エネ設定"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"エコ設定"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"デバイス"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"形式の選択"</string>
@@ -151,38 +151,11 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"音の詳細設定"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"ゲームモードを有効にする"</string>
-    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"コンテンツのダイナミック レンジと一致"</string>
-    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"このオプションを有効にすると、コンテンツに合わせてダイナミック レンジの形式が切り替わります。切り替え中に画面が黒くなることがあります。\n\nその他のダイナミック レンジ オプションを設定するには、[ディスプレイの詳細設定] をクリックしてください。"</string>
-    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"優先されるダイナミック レンジ"</string>
-    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"システム設定の変換"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"形式の変換を自動で管理できます"</string>
-    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"このオプションを選択すると、ディスプレイに送信する適切なダイナミック レンジが自動的に判断され、必要に応じてそのダイナミック レンジにコンテンツが変換されます。"</string>
-    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"コンテンツの形式と常に一致します"</string>
-    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"強制変換"</string>
-    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"ご希望の形式に強制変換されます"</string>
-    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"ご希望の形式に強制変換されます。強制変換は、表示モードや HDR 形式のその他の設定に影響することがあります。"</string>
-    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"常に SDR に変換する"</string>
-    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"常に <xliff:g id="HDR_TYPE">%s</xliff:g> に変換する"</string>
-    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"HDR 出力に強制しますか？"</string>
-    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"デフォルトでは、<xliff:g id="HDR_TYPE">%s</xliff:g>に強制変換されます。"</string>
-    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"ディスプレイの解像度は 1080p 60Hz になります。このオプションは、解像度が 4K 60Hz のディスプレイには対応していません。"</string>
-    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"ドルビー ビジョンは現在の解像度ではサポートされていません。ドルビー ビジョンを手動で有効にした場合、ディスプレイの解像度が 1080p 60 Hz に変更されます"</string>
-    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"解像度を 1080p 60 Hz に変更しますか？"</string>
-    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"常にドルビー ビジョンに強制変換する"</string>
-    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"[ディスプレイの詳細設定] で HDR 形式のドルビー ビジョンが無効になっている場合、ドルビー ビジョンに強制変換すると、ドルビー ビジョンが有効になります。"</string>
-    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"常に HDR10 に強制変換する"</string>
-    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"[ディスプレイの詳細設定] で HDR 形式の HDR10 が無効になっている場合、HDR10 に強制変換すると、HDR10 が有効になります。"</string>
-    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"常に HLG に強制変換する"</string>
-    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"[ディスプレイの詳細設定] で HDR 形式の HLG が無効になっている場合、HLG に強制変換すると、HLG が有効になります。"</string>
-    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"常に HDR10+ に強制変換する"</string>
-    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"[ディスプレイの詳細設定] で HDR 形式の HDR10+ が無効になっている場合、HDR10+ に強制変換すると、HDR10+ が有効になります。"</string>
-    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"常に SDR に強制変換する"</string>
-    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"SDR に強制変換すると、[ディスプレイの詳細設定] で HDR 形式のすべての形式が無効になります。"</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"コンテンツのフレームレートを合わせる"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"シームレスのみ"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"シームレス"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"視聴中のテレビでシームレスな移行が可能である場合に限り、アプリからリクエストがあった場合、デバイスは、再生しているコンテンツのオリジナルのフレームレートに出力を合わせます。"</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"接続済みのディスプレイがリフレッシュ レートのシームレスな移行をサポートしていません。対応のディスプレイに変更しない限り、このオプションは機能しません。"</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"常時"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"非シームレス"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"アプリからリクエストがあった場合、デバイスは、再生しているコンテンツのオリジナルのフレームレートに出力を合わせます。そのため、動画再生の開始時または終了時に画面が一瞬空白になる場合があります。"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"なし"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"アプリからリクエストがあっても、デバイスでは、再生しているコンテンツのオリジナルのフレームレートに出力を合わせることはありません。"</string>
@@ -218,11 +191,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"解像度を %1$s に変更しますか？"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"これから %1$s を使用するには、[OK] を選択してください。"</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"ドルビー ビジョンは %1$s ではサポートされていないため、[ディスプレイの詳細設定] で無効になります"</string>
-    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"このモードは以下をサポートしています: %1$s\nテレビによっては、拡張 HDMI を ON にして他の HDR 形式を有効にする必要があります。テレビの設定で、この機能に対応しているかどうかをご確認ください。"</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"このモードは %1$s をサポートしています。テレビによっては、拡張 HDMI を ON にして他の HDR 形式を有効にする必要があります。テレビの設定で、この機能に対応しているかどうかをご確認ください。"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"キャンセル"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g>（<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz）"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g>（<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz）"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"キャッシュデータを削除しますか？"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"すべてのアプリのキャッシュデータが削除されます。"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -343,7 +316,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"このデバイスは組織によって管理されています。"</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"このデバイスは <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> により管理されています。"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
+    <string name="word_separator" msgid="3175619900852797955">"、"</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"詳細"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{カメラアプリ}other{カメラアプリ}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"カレンダー アプリ"</string>
@@ -894,7 +868,7 @@
     <string name="restricted_profile_delete_title" msgid="7153982195273379506">"制限付きプロファイルを削除"</string>
     <string name="restricted_profile_create_title" msgid="700322590579894058">"制限付きプロファイルの作成"</string>
     <string name="restricted_profile_configure_title" msgid="3327502517511010296">"設定"</string>
-    <string name="restricted_profile_configure_apps_title" msgid="2244201859522056827">"許可されているアプリ"</string>
+    <string name="restricted_profile_configure_apps_title" msgid="2244201859522056827">"許可されたアプリ"</string>
     <string name="restricted_profile_allowed" msgid="970921490464867884">"許可済み"</string>
     <string name="restricted_profile_not_allowed" msgid="8184983064118036268">"許可しない"</string>
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"制限をカスタマイズ"</string>
@@ -960,9 +934,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"エネルギーの使用が増える可能性あがるため、再生中にディスプレイがオフにならないよう、設定をご確認ください。"</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"動作していないとき"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"視聴しているとき"</string>
-    <string name="device_energy_saver_category_title" msgid="170076161677525986">"自動的に OFF にする"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"動作していないときに自動的に OFF にする"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"再生時に自動的に OFF にする"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"テレビを自動的に OFF にする"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"使用していないときにテレビを自動的に OFF にする"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"視聴時にテレビを自動的に OFF にする"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"[動作していないとき] タイマーは [視聴しているとき] タイマーより短くしてください"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"[視聴しているとき] タイマーは [動作していないとき] タイマーより長くしてください"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"スタンバイ時のネットワーク接続を制限"</string>
@@ -1118,9 +1092,4 @@
     <string name="power_on_behavior" msgid="927607372303160716">"電源オン時の画面"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"リセット"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"イーサネット ペア設定コード"</string>
-    <string name="energy_modes" msgid="1331693860386361744">"エネルギー モード"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"テレビを使用していないときにエネルギー効率を向上させます"</string>
-    <string name="energy_mode_enables" msgid="357960364751477627">"有効になる機能:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"このモードにより、デバイスの電力消費量が増える場合があります。"</string>
-    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"「<xliff:g id="ENERGYMODENAME">%s</xliff:g>」の有効化"</string>
 </resources>

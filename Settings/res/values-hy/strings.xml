@@ -91,7 +91,7 @@
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Միացեք ցանցին"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Ցանցի դիագնոստիկա"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Վերջերս օգտագործված հավելվածներ"</string>
-    <string name="apps_see_all_apps" msgid="2002886135933443688">"Տեսնել բոլոր հավելվածները"</string>
+    <string name="apps_see_all_apps" msgid="2002886135933443688">"Դիտել բոլոր հավելվածները"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Թույլտվություններ"</string>
     <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
     <string name="update_slice_title" msgid="6553763903108611747"></string>
@@ -112,8 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Պահուստավորում և վերականգնում"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Վերակայել բոլոր տվյալները"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Չափաբերում"</string>
-    <string name="device_energy_saver" msgid="6611757996220443028">"Անջատման ժամաչափ"</string>
-    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Սահմանեք ժամաչափեր՝ հեռուստացույցն անջատելու և էներգիա խնայելու համար"</string>
+    <string name="device_energy_saver" msgid="5560942970290949739">"Սնուցում և էներգիա"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"Էկո ռեժիմի կարգավորումներ"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Սարքեր"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Ընտրեք ձևաչափերը"</string>
@@ -151,38 +151,11 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Ձայնի լրացուցիչ կարգավորումներ"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Թույլատրեք խաղային ռեժիմը"</string>
-    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Համապատասխանեցնել բովանդակության դինամիկ դիապազոնը"</string>
-    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Երբ այս պարամետրը միացված է, համակարգը փոխարկաբար կօգտագործի դինամիկ դիապազոնի տարբեր ձևաչափեր՝ բովանդակությանը համապատասխանելու համար։ Ձևաչափի փոփոխման ժամանակ էկրանը կարող է սևանալ։\n\nԴինամիկ դիապազոնի այլ տարբերակներ տեսնելու համար անցեք էկրանի լրացուցիչ կարգավորումներ։"</string>
-    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Նախընտրելի դինամիկ դիապազոն"</string>
-    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Ձևաչափի ավտոմատ կարգավորում"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Թող համակարգը կառավարի ձևաչափի փոխարկումը"</string>
-    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Եթե միացնեք այս պարամետրը, համակարգը կորոշի ձեր էկրանին համապատասխան դինամիկ դիապազոնը և, անհրաժեշտության դեպքում, կցուցադրի բովանդակությունը այդ դիապազոնում։"</string>
-    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Միշտ համապատասխանում է բովանդակության ձևաչափին"</string>
-    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Հարկադիր փոխակերպում"</string>
-    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Տեսանյութը հարկադրաբար կվերածվի անհրաժեշտ ձևաչափի"</string>
-    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Տեսանյութը հարկադրաբար կվերածվի անհրաժեշտ ձևաչափի։ Ձևաչափի հարկադիր փոխակերպումը կարող է ազդել ցուցադրման ռեժիմի կամ HDR ձևաչափի այլ կարգավորումների վրա։"</string>
-    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Միշտ SDR ձևաչափով"</string>
-    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Միշտ <xliff:g id="HDR_TYPE">%s</xliff:g> ձևաչափով"</string>
-    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Հարկադրաբար վերածե՞լ HDR ձևաչափի"</string>
-    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Ըստ կանխադրման՝ բովանդակությունը հարկադրաբար կվերածվի <xliff:g id="HDR_TYPE">%s</xliff:g> ձևաչափի։"</string>
-    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Ձեր էկրանի լուծաչափը կլինի 1080 պիքսել, իսկ թարմացման արագությունը՝ 60 Հց։ Այս գործառույթը չի աջակցվում 4K լուծաչափով և թարմացման 60 Հց արագությամբ սարքերում։"</string>
-    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision-ը չի աջակցվում ընթացիկ լուծաչափով։ Եթե ձեռքով միացնեք Dolby Vision-ը, ձեր էկրանի լուծաչափը կդառնա 1080p 60 Հց։"</string>
-    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Դարձնե՞լ լուծաչափը 1080p 60 Հց"</string>
-    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Միշտ հարկադրաբար փոխակերպել Dolby Vision ձևաչափի"</string>
-    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Եթե Էկրանի լրացուցիչ կարգավորումների «HDR ձևաչափեր» ընտրացանկում Dolby Vision-ն անջատված է, հարկադրաբար փոխակերպումը Dolby Vision-ի նորից կմիացնի այն։"</string>
-    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Միշտ հարկադրաբար փոխակերպել HDR10 ձևաչափի"</string>
-    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"Եթե Էկրանի լրացուցիչ կարգավորումների «HDR ձևաչափեր» ընտրացանկում HDR10-ն անջատված է, հարկադրաբար փոխակերպումը HDR10-ի նորից կմիացնի այն։"</string>
-    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"Միշտ հարկադրաբար փոխակերպել HLG ձևաչափի"</string>
-    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"Եթե Էկրանի լրացուցիչ կարգավորումների «HDR ձևաչափեր» ընտրացանկում HLG-ն անջատված է, հարկադրաբար փոխակերպումը HLG-ի նորից կմիացնի այն։"</string>
-    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"Միշտ հարկադրաբար փոխակերպել HDR10+ ձևաչափի"</string>
-    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Եթե Էկրանի լրացուցիչ կարգավորումների «HDR ձևաչափեր» ընտրացանկում HDR10+ն անջատված է, հարկադրաբար փոխակերպումը HDR10+ի նորից կմիացնի այն։"</string>
-    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Միշտ հարկադրաբար փոխակերպել SDR ձևաչափի"</string>
-    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"Հարկադրաբար փոխակերպումը SDR-ի կանջատի Էկրանի լրացուցիչ կարգավորումների «HDR ձևաչափեր» ընտրացանկի բոլոր ձևաչափերը։"</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Համապատասխանեցնել բովանդակության կադրերի հաճախականությունը"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Միայն աննկատ"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Սահուն"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Երբ հավելվածը պահանջում է, սարքը կհամապատասխանեցնի իր հաճախականությունը նվագարկվող տեսանյութի կադրերի հաճախականությանը ՄԻԱՅՆ ԱՅՆ ԴԵՊՔՈՒՄ, եթե ձեր հեռուստացույցն աջակցում է սահուն անցում։"</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Ձեր միացված էկրանը չի աջակցում թարմացման հաճախականության սահուն անցումներ։ Այս կարգավորումը չի գործի, մինչև որ չանցնեք այն աջակցող էկրանի։"</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Միշտ"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Ոչ սահուն"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Երբ հավելվածը պահանջում է, սարքը կհամապատասխանեցնի իր հաճախականությունը նվագարկվող տեսանյութի կադրերի հաճախականությանը։ Տեսանյութի նվագարկման սկզբում և վերջում էկրանը մի պահ կարող է սպիտակել։"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Երբեք"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Նույնիսկ երբ հավելվածը պահանջում է, սարքը չի համապատասխանեցնի իր հաճախականությունը նվագարկվող տեսանյութի կադրերի հաճախականությանը։"</string>
@@ -218,11 +191,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Դարձնե՞լ լուծաչափը %1$s"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Սեղմեք «Եղավ»՝ %1$s լուծաչափն այս պահից սկսած օգտագործելու համար։"</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision-ը չի աջակցվում %1$s ռեժիմում և կանջատվի էկրանի ընդլայնված կարգավորումներում։"</string>
-    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Այս ռեժիմն աջակցում է հետևյալ ձևաչափերը՝ %1$s\nՀնարավոր է՝ որոշ հեռուստացույցներում անհրաժեշտ լինի միացնել ընդլայնված HDMI ձևաչափը, որպեսզի ավելի շատ HDR ձևաչափեր համատեղելի լինեն։ Ստուգեք հեռուստացույցի կարգավորումներում՝ արդյոք այս գործառույթն աջակցվում է։"</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Այս ռեժիմն աջակցում է %1$s ձևաչափերը։ Որոշ հեռուստացույցներում, հնարավոր է, անհրաժեշտ լինի միացնել ընդլայնված HDMI ձևաչափը, որպեսզի ավելի շատ HDR ձևաչափեր համատեղելի լինեն։ Ստուգեք հեռուստացույցի կարգավորումներում՝ արդյոք այս գործառույթն աջակցվում է։"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Չեղարկել"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Եղավ"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Հց"</string>
-    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Հց)"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Հց)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Ջնջե՞լ քեշավորված տվյալները:"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Սա կմաքրի բոլոր ծրագրերի քեշավորված տվյալները:"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -343,7 +316,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Այս սարքի կառավարիչը ձեր կազմակերպությունն է։"</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Այս սարքի կառավարիչն է <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> կազմակերպությունը։"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="hdr_capability" msgid="3331021013422460270">"– %1$s"</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"Մանրամասն"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Տեսախցիկի հավելված}one{Տեսախցիկի հավելված}other{Տեսախցիկի հավելվածներ}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Օրացույցի հավելված"</string>
@@ -783,8 +757,8 @@
     <string name="system_show_hardware_layer" msgid="5833664339844452290">"Ցույց տալ սարքաշարի մակարդակը"</string>
     <string name="system_show_gpu_overdraw" msgid="5073007513540516704">"Ցույց տալ GPU ավելցուկը"</string>
     <string name="system_show_surface_updates" msgid="7680759813613585278">"Ցույց տալ մակերեսի թարմացումները"</string>
-    <string name="system_window_animation_scale" msgid="685477540250939659">"Պատուհանի շարժապատկեր"</string>
-    <string name="system_transition_animation_scale" msgid="7266380208347453619">"Անցումների շարժապատկեր"</string>
+    <string name="system_window_animation_scale" msgid="685477540250939659">"Պատուհանի շարժապատկերի սանդղակ"</string>
+    <string name="system_transition_animation_scale" msgid="7266380208347453619">"Անցումային շարժական սանդղակ"</string>
     <string name="system_animator_duration_scale" msgid="3829445237130423625">"Շարժանկարի տևողության սանդղակ"</string>
     <string name="system_strict_mode_enabled" msgid="7392183793064579588">"Խիստ ռեժիմն ակտիվացված է"</string>
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"GPU պրոֆիլի ցուցադրում"</string>
@@ -960,9 +934,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Խնդրում ենք հաստատել, որպեսզի էկրանը չանջատվի դիտման ժամանակ (կարող է ավելի շատ էներգիա սպառվել)։"</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Երբ ակտիվ չէ"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Դիտելու ժամանակ"</string>
-    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Ավտոմատ անջատում"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Ավտոմատ անջատում ոչ ակտիվ լինելու դեպքում"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Ավտոմատ անջատում դիտման ժամանակ"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Հեռուստացույցի ավտոմատ անջատում"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Հեռուստացույցի ավտոմատ անջատում ոչ ակտիվ լինելու դեպքում"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Հեռուստացույցի ավտոմատ անջատում դիտելու ընթացքում"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"«Անգործունության ժամանակ» ժամաչափը պետք է «Դիտելու ժամանակ» ժամաչափից ավելի կարճ լինի"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"«Դիտելու ժամանակ» ժամաչափը պետք է «Անգործունության ժամանակ» ժամաչափից ավելի երկար լինի"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Սահմանափակեք կապը սպասման ռեժիմում"</string>
@@ -1118,9 +1092,4 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Կարգավիճակը միացման ժամանակ"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Վերակայել"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-ի զուգակցման կոդ"</string>
-    <string name="energy_modes" msgid="1331693860386361744">"Էներգիայի սպառման ռեժիմներ"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Օպտիմալացնել էներգիայի սպառումը, երբ հեռուստացույցը չի օգտագործվում"</string>
-    <string name="energy_mode_enables" msgid="357960364751477627">"Միացնում է՝"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Նկատի ունեցեք, որ այս ռեժիմը կարող է մեծացնել սարքի կողմից էներգիայի ծախսը։"</string>
-    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Միացնել «<xliff:g id="ENERGYMODENAME">%s</xliff:g>» ռեժիմը"</string>
 </resources>

@@ -112,8 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Резервно копие и възстановяване"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Възстановяване на фабричните настройки"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Калибриране"</string>
-    <string name="device_energy_saver" msgid="6611757996220443028">"Таймер за изключване"</string>
-    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Задайте таймери за изключване на телевизора и пестете електроенергия"</string>
+    <string name="device_energy_saver" msgid="5560942970290949739">"Включване и захранване"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"Настройки за икономичния режим"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Устройства"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Избиране на формати"</string>
@@ -151,39 +151,12 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"CEC за HDMI"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Разширени настройки за звука"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Разрешаване на режима на игра"</string>
-    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Намиране на съответствие на динамичния обхват на съдържанието"</string>
-    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Когато активирате тази опция, системата ще премине през различните формати за динамичен обхват, за да намери съответствие за съдържанието. По време на превключването екранът може да стане черен.\n\nЗа още опции за динамичен обхват кликнете върху разширените настройки за дисплея."</string>
-    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Предпочитан динамичен обхват"</string>
-    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Предпочитано от системата преобразуване"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Преобразуването на формата да се управлява от системата"</string>
-    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Когато е избрана тази опция, системата ще определя подходящ динамичен обхват за сигнала към екрана ви и при необходимост ще преобразува съдържанието към този динамичен обхват."</string>
-    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Винаги съответства на формата на съдържанието"</string>
-    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Принудително преобразуване"</string>
-    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Принудително преобразуване към предпочитания формат"</string>
-    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Принудително преобразуване към предпочитан формат. Принудителното преобразуване може да засегне други настройки в „Режим на показване“ или в секцията за HDR форматите."</string>
-    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Винаги към SDR"</string>
-    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Винаги към <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
-    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Искате ли принудително да се зададе изходящ HDR формат?"</string>
-    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"По подразбиране преобразуването принудително ще бъде към <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
-    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Екранът ви ще работи с разделителна способност 1080p (60 Hz). Тази опция не е съвместима с екрана ви, когато работи с разделителна способност 4K (60 Hz)."</string>
-    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Режимът Dolby Vision не се поддържа при текущата разделителна способност. Ако го активирате ръчно, разделителната способност на екрана ви ще бъде променена на 1080p (60 Hz)"</string>
-    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Искате ли да промените разделителната способност на 1080p (60 Hz)?"</string>
-    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Винаги да се преобразува в Dolby Vision"</string>
-    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Ако форматът Dolby Vision е деактивиран в списъка с HDR формати в разширените настройки за дисплея, той ще бъде активиран при принудително преобразуване в Dolby Vision."</string>
-    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Винаги да се преобразува в HDR10"</string>
-    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"Ако форматът HDR10 е деактивиран в списъка с HDR формати в разширените настройки за дисплея, той ще бъде активиран при принудително преобразуване в HDR10."</string>
-    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"Принудително преобразуване в HLG"</string>
-    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"Ако форматът HLG е деактивиран в списъка с HDR формати в разширените настройки за дисплея, той ще бъде активиран при принудително преобразуване в HLG."</string>
-    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"Винаги да се преобразува в HDR10+"</string>
-    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Ако форматът HDR10+ е деактивиран в списъка с HDR формати в разширените настройки за дисплея, той ще бъде активиран при принудително преобразуване в HDR10+."</string>
-    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Винаги да се преобразува в SDR"</string>
-    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"Принудителното преобразуване в SDR ще деактивира всички HDR формати в разширените настройки за дисплея."</string>
-    <string name="match_content_frame_rate_title" msgid="153291168560947689">"Съответствие със скоростта на кадрите на съдържанието"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Изцяло без прекъсвания"</string>
+    <string name="match_content_frame_rate_title" msgid="153291168560947689">"Намиране на съответствие на скоростта на кадрите на съдърж."</string>
+    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Безпроблемно"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Ако приложението поиска това, устройството ви ще намери съответствие между изхода си и оригиналната скорост на кадрите на съдържанието, което гледате, САМО ако телевизорът ви може да извърши безпроблемен преход."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Свързаният ви екран не поддържа функцията за автоматична промяна на честотата на опресняване. Тя няма да има ефект, освен ако не преминете към екран, който я поддържа."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Винаги"</string>
-    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Ако прилож. поиска това, у-вото ви ще намери съответствие между изходните си данни и оригиналната скорост на кадрите на съдърж., което гледате. Екранът може да остане празен за секунда при приключ./стартиране на възпроизвеждането на видеосъдържание."</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Небезпроблемно"</string>
+    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Ако прилож. поиска това, у-вото ви ще намери съответствие между изхода си и оригиналната скорост на кадрите на съдърж., което гледате. Възможно е екранът ви да остане празен за секунда при приключ./стартиране на възпроизвеждането на видеосъдържание."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Никога"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Дори ако приложението поиска това, устройството ви никога няма да опита да намери съответствие между изхода си и оригиналната скорост на кадрите на съдържанието, което гледате."</string>
     <string name="font_scale_settings_title" msgid="4114019544800225980">"Промяна на мащаба на текста"</string>
@@ -218,11 +191,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Искате ли да промените разделителната способност на %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Изберете OK, за да използвате %1$s занапред."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Режимът Dolby Vision не се поддържа при %1$s и ще бъде деактивиран в „Разширени настройки за дисплея“"</string>
-    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Този режим поддържа: %1$s\nНа някои телевизори може да се наложи да включите подобрения HDMI режим, за да активирате още HDR формати. Проверете дали той се поддържа в настройките на телевизора."</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Този режим поддържа %1$s. На някои телевизори може да се наложи да включите подобрения HDMI режим, за да активирате още HDR формати. Проверете дали той се поддържа в настройките на телевизора."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Отказ"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Да се изчистят ли кешираните данни?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Това ще изчисти кешираните данни за всички прил."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -343,7 +316,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Това устройство се управлява от организацията ви."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Това устройство се управлява от <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="hdr_capability" msgid="3331021013422460270">"– %1$s"</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"Научете повече"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Приложение за камера}other{Приложения за камера}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Приложение за календар"</string>
@@ -960,9 +934,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Моля, потвърдете, за да предотвратите изключването на екрана, докато гледате, което може да доведе до по-голям разход на енергия."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"При неактивност"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"При гледане"</string>
-    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Автоматично изключване"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Автоматично изключване при неактивност"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Автоматично изключване при гледане"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Автоматично изключване на телевизора"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Автоматично изключване на телевизора при неактивност"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Автоматично изключване на телевизора при гледане"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"Времето на таймера „При неактивност“ трябва да бъде по-кратко от това на таймера „При гледане“"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"Времето на таймера „При гледане“ трябва да бъде по-дълго от това на таймера „При неактивност“"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Огранич. на връзката с мрежата в режим на готовност"</string>
@@ -1118,9 +1092,4 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Поведение при включване"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Нулиране"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Код за сдвояване с Ethernet"</string>
-    <string name="energy_modes" msgid="1331693860386361744">"Енергийни режими"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Подобряване на енергийната ефективност, когато телевизорът не се използва"</string>
-    <string name="energy_mode_enables" msgid="357960364751477627">"Активира:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Имайте предвид, че този режим може да увеличи консумацията на енергия на устройството."</string>
-    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Активиране на „<xliff:g id="ENERGYMODENAME">%s</xliff:g>“"</string>
 </resources>

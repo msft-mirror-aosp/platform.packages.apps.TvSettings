@@ -112,8 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Yedekleme ve Geri Yükleme"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Fabrika verilerine sıfırla"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrasyon"</string>
-    <string name="device_energy_saver" msgid="6611757996220443028">"Kapatma Zamanlayıcısı"</string>
-    <string name="device_energy_saver_summary" msgid="5306058475316008429">"TV\'yi kapatıp enerji tasarrufu yapmak için zamanlayıcılar ayarlayın"</string>
+    <string name="device_energy_saver" msgid="5560942970290949739">"Güç ve Enerji"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"Eko ayarları"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Cihazlar"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Biçimleri seçin"</string>
@@ -151,38 +151,11 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Gelişmiş ses ayarları"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Oyun moduna izin verin"</string>
-    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"İçerik dinamik aralığını eşleştir"</string>
-    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Bu seçenek etkinleştirildiğinde sistem içeriği eşleştirmek için farklı dinamik aralık biçimleri arasında geçiş yapar. Biçim değiştirme sırasında siyah ekran görünmesine neden olabilir.\n\nDiğer dinamik aralık seçenekleri için Gelişmiş Ekran ayarlarını tıklayın."</string>
-    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Tercih edilen dinamik aralık"</string>
-    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Sistem tarafından tercih edilen dönüştürme"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Biçim dönüştürme işlemini sisteme bırakır"</string>
-    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Bu seçenek belirlenirse sistem, ekranınıza gönderilecek uygun bir dinamik aralık belirler ve gerektiğinde içeriği bu dinamik aralığa dönüştürür."</string>
-    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Her zaman içeriğin biçimiyle uyumludur"</string>
-    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Zorunlu dönüştürme"</string>
-    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Tercih edilen biçime dönüştürmeyi zorunlu kılar"</string>
-    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Tercih edilen biçime dönüştürmeyi zorunlu kılar. Dönüştürmenin zorunlu kılınması, görüntü modundaki veya HDR biçimindeki diğer ayarları etkileyebilir."</string>
-    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Her zaman SDR\'ye"</string>
-    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Her zaman <xliff:g id="HDR_TYPE">%s</xliff:g> biçimine"</string>
-    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"HDR çıkışını zorunlu kılmak istiyor musunuz?"</string>
-    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Varsayılan olarak, <xliff:g id="HDR_TYPE">%s</xliff:g> biçimine dönüştürme zorunlu kılınır."</string>
-    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Ekranınız, 1080p 60 Hz çözünürlükte çalışır. Bu seçenek, 4K 60 Hz çözünürlükte çalışırken ekranınızla uyumlu değildir."</string>
-    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision mevcut çözünürlükte desteklenmez. Dolby Vision\'ı manuel olarak etkinleştirirseniz ekranınızın çözünürlüğü 1080p 60 Hz olarak değiştirilir."</string>
-    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Çözünürlük 1080p 60 Hz olarak değiştirilsin mi?"</string>
-    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Dolby Vision\'a dönüştürmeyi her zaman zorunlu kılar"</string>
-    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Dolby Vision, Gelişmiş Ekran Ayarları\'ndaki HDR Biçimleri bölümünde devre dışı bırakılmışsa Dolby Vision\'a dönüştürmeyi zorunlu kıldığınızda yeniden etkinleştirilir."</string>
-    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"HDR10\'a dönüştürmeyi her zaman zorunlu kılar"</string>
-    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"HDR10, Gelişmiş Ekran Ayarları\'ndaki HDR Biçimleri bölümünde devre dışı bırakılmışsa HDR10\'a dönüştürmeyi zorunlu kıldığınızda yeniden etkinleştirilir."</string>
-    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"HLG\'ye dönüştürmeyi her zaman zorunlu kılar"</string>
-    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"HLG, Gelişmiş Ekran Ayarları\'ndaki HDR Biçimleri bölümünde devre dışı bırakılmışsa HLG\'ye dönüştürmeyi zorunlu kıldığınızda yeniden etkinleştirilir."</string>
-    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"HDR10+\'a dönüştürmeyi her zaman zorunlu kılar"</string>
-    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"HDR10+, Gelişmiş Ekran Ayarları\'ndaki HDR Biçimleri bölümünde devre dışı bırakılmışsa HDR10+\'a dönüştürmeyi zorunlu kıldığınızda yeniden etkinleştirilir."</string>
-    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"SDR\'ye dönüştürmeyi her zaman zorunlu kılar"</string>
-    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"SDR\'ye dönüştürmeyi zorunlu kıldığınızda Gelişmiş Ekran Ayarları\'ndaki HDR Biçimleri bölümünde yer alan tüm biçimler devre dışı bırakılır."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"İçerik kare hızıyla eşleştir"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Yalnızca kesintisiz"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Kesintisiz"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Uygulama isterse cihazınız, çıkışını, YALNIZCA TV\'niz kusursuz geçiş gerçekleştirebiliyorsa izlediğiniz içeriğin orijinal kare hızıyla eşleştirir."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Bağlı ekranınız, kesintisiz yenileme hızı geçişlerini desteklemiyor. Destekleyen bir ekrana geçmediğiniz sürece bu seçeneğin hiçbir etkisi yoktur."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Her zaman"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Kesintisiz değil"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Uygulama isterse cihazınız, çıkışını, izlediğiniz içeriğin orijinal kare hızıyla eşleştirir. Bu, video oynatma işleminden çıkarken veya girerken kısa bir an boş ekran görüntülenmesine yol açabilir."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Hiçbir zaman"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Uygulama istese bile cihazınız, çıkışını, hiçbir zaman izlediğiniz içeriğin orijinal kare hızıyla eşleştirmeye çalışmaz."</string>
@@ -218,11 +191,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Çözünürlük %1$s olarak değiştirilsin mi?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Bundan sonra %1$s çözünürlüğü kullanmak için Tamam\'ı seçin."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision, %1$s çözünürlükte desteklenmez ve \"Gelişmiş Ekran Ayarları\"nda devre dışı bırakılır"</string>
-    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Bu modda %1$s desteklenir\nBazı TV\'lerde daha fazla HDR biçimini etkinleştirmek için Gelişmiş HDMI\'yı açmanız gerekebilir. Bunun desteklenip desteklenmediğini görmek için televizyon ayarlarınızı kontrol edin."</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Bu modda %1$s desteklenir. Bazı televizyonlarda daha fazla HDR biçimini etkinleştirmek için gelişmiş HDMI\'yı açmanız gerekebilir. Bunun desteklenip desteklenmediğini görmek için televizyon ayarlarınızı kontrol edin."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"İptal"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Tamam"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Önbelleğe alınan veriler silinsin mi?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Bu, tüm uygulamaların önbellek verilerini siler."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -343,7 +316,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Bu cihaz kuruluşunuz tarafından yönetiliyor."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Bu cihaz <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> tarafından yönetiliyor."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"Daha fazla bilgi"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Kamera uygulaması}other{Kamera uygulamaları}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Takvim uygulaması"</string>
@@ -960,9 +934,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Enerji kullanımını artırma ihtimali olduğu için lütfen izleme sırasında ekranın kapatılmasını devre dışı bıraktığınızı onaylayın."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Etkin değilken"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"İzlerken"</string>
-    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Otomatik olarak kapat"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Devre dışıyken otomatik olarak kapat"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"İzlerken otomatik olarak kapat"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"TV\'yi otomatik olarak kapat"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"TV\'yi etkin olmadığında otomatik olarak kapat"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"TV\'yi izlerken otomatik olarak kapat"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"\"Etkin değilken\" zamanlayıcısı, \"İzlerken\" zamanlayıcısından kısa olmalıdır"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"\"İzlerken\" zamanlayıcısı, \"Etkin değilken\" zamanlayıcısından uzun olmalıdır"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Beklemedeyken ağ bağlantısını sınırlama"</string>
@@ -1043,7 +1017,7 @@
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Yüklü uygulamalardan hiçbiri pencere içinde pencere özelliğini desteklemiyor"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Uygulamaların, uygulama açıkken veya uygulamadan çıktıktan sonra (örneğin, video izlemeye devam etmek için) pencere içinde pencere oluşturmasına izin verir. Bu pencere, kullandığınız diğer uygulamaların üzerinde gösterilir."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Uygulamaların alarmlar kurup zamana bağlı işlemler programlamasına izin verir. Bu izin, uygulamaların arka planda çalışmasına olanak sağlayarak daha fazla pil harcanmasına neden olabilir.\n\nBu izin verilmezse bu uygulama tarafından programlanmış mevcut alarmlar ve zamana bağlı etkinlikler çalışmaz."</string>
-    <string name="turn_screen_on_title" msgid="5293798529284629011">"Ekranı açma"</string>
+    <string name="turn_screen_on_title" msgid="5293798529284629011">"Ekranı aç"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Ekranı açmaya izin ver"</string>
     <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Bir uygulamanın ekranı açmasına izin verin. İzin verildiğinde, uygulama sizin belirgin niyetiniz olmadan istediği zaman ekranı açabilir."</string>
     <string name="special_access" msgid="21806055758289916">"Özel uygulama erişimi"</string>
@@ -1118,9 +1092,4 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Açılış davranışı"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Sıfırla"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet eşleme kodu"</string>
-    <string name="energy_modes" msgid="1331693860386361744">"Enerji Modları"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"TV kullanılmazken enerji verimliliğini artırın"</string>
-    <string name="energy_mode_enables" msgid="357960364751477627">"Şunları etkinleştirir:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Bu modun, cihazın güç tüketimini artırabileceğini unutmayın."</string>
-    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" modunu etkinleştir"</string>
 </resources>

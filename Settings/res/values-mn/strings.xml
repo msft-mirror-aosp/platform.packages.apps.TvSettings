@@ -112,8 +112,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Нөөцлөх &amp; сэргээх"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Үйлдвэрээс гарсан төлөвт"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Тааруулалт"</string>
-    <string name="device_energy_saver" msgid="6611757996220443028">"Цаг хэмжигчийг унтраах"</string>
-    <string name="device_energy_saver_summary" msgid="5306058475316008429">"ТВ-ийг унтраах болон эрчим хүч хэмнэхийн тулд цаг хэмжигч тохируулна уу"</string>
+    <string name="device_energy_saver" msgid="5560942970290949739">"Цэнэг болон Эрчим хүч"</string>
+    <string name="device_eco_settings" msgid="8478430139722946388">"Эко тохиргоо"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Төхөөрөмжүүд"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Формат сонгох"</string>
@@ -151,38 +151,11 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Нарийвчилсан дууны тохиргоо"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Тоглоомын горимыг зөвшөөрөх"</string>
-    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Контентын динамик мужийг тааруулах"</string>
-    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Энэ сонголтыг идэвхжүүлэх үед систем контенттой тааруулахын тулд динамикийн мужийн өөр өөр форматын хооронд сэлгэнэ. Энэ нь формат сэлгэх үед дэлгэцийг хар болгоход хүргэж магадгүй.\n\nДинамик мужийн бусад сонголт авах бол Дэлгэцийн дэвшилтэт тохиргоог товшино уу."</string>
-    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Сонгосон динамик муж"</string>
-    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Системийн сонгосон хувиралт"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Системд форматын хувиралтыг удирдахыг зөвшөөрнө үү"</string>
-    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Энэ сонголтыг сонгосон үед систем таны дэлгэц рүү илгээх тохирох динамик мужийг тодорхойлж, шаардлагатай бол контентыг энэ динамик муж руу хувиргана."</string>
-    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Үргэлж контентын форматтай таруулна"</string>
-    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Хувиралтыг хүчлэх"</string>
-    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Хувиралтыг сонгосон формат руу хүчилнэ"</string>
-    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Хувиралтыг сонгосон формат рүү хүчилнэ. Хувиралтыг хүчлэх нь Дэлгэцийн горим эсвэл HDR форматын бусад тохиргоонд нөлөөлж магадгүй."</string>
-    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Үргэлж SDR"</string>
-    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Үргэлж <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
-    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Та HDR гаралтыг хүчлэхийг хүсэж байна уу?"</string>
-    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Өгөгдмөлөөр хувиралтыг <xliff:g id="HDR_TYPE">%s</xliff:g> болгож хүчилнэ."</string>
-    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Таны дэлгэц 1080p 60Hz нягтралтайгаар ажиллана. Таны дэлгэц 4000 60Hz нягтралтайгаар ажиллаж байгаа үед энэ сонголт тохиромжгүй."</string>
-    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision-г одоогийн нягтралд дэмждэггүй. Хэрэв та Dolby Vision-г гар аргаар идэвхжүүлбэл таны дэлгэцийн нягтралыг 1080p 60Hz болгож өөрчилнө"</string>
-    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Нягтралыг 1080p 60Hz болгож өөрчлөх үү?"</string>
-    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Хувиралтыг үргэлж Dolby Vision рүү хүчлэх"</string>
-    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Хэрэв Дэлгэцийн нарийвчилсан тохиргооны HDR форматууд Dolby Vision-г идэвхгүй болгосон бол хувиралтыг Dolby Vision рүү хүчлэх нь үүнийг дахин идэвхжүүлнэ."</string>
-    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Хувиралтыг үргэлж HDR10 руу хүчлэх"</string>
-    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"Хэрэв Дэлгэцийн нарийвчилсан тохиргооны HDR форматууд HDR10-ыг идэвхгүй болгосон бол хувиралтыг HDR10 руу хүчлэх нь үүнийг дахин идэвхжүүлнэ."</string>
-    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"Хувиралтыг үргэлж HLG руу хүчлэх"</string>
-    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"Хэрэв Дэлгэцийн нарийвчилсан тохиргооны HDR форматууд HLG-г идэвхгүй болгосон бол хувиралтыг HLG руу хүчлэх нь үүнийг дахин идэвхжүүлнэ."</string>
-    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"Хувиралтыг үргэлж HDR10+ руу хүчлэх"</string>
-    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Хэрэв Дэлгэцийн нарийвчилсан тохиргооны HDR форматууд HDR10+-г идэвхгүй болгосон бол хувиралтыг HDR10+ руу хүчлэх нь үүнийг дахин идэвхжүүлнэ."</string>
-    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Хувиралтыг үргэлж SDR руу хүчлэх"</string>
-    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"Хувиралтыг SDR руу хүчлэх нь Дэлгэцийн нарийвчилсан тохиргоонд HDR форматууд дахь бүх форматыг идэвхгүй болгоно."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Контентын фрэймийн хурдыг тааруулах"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Зөвхөн саадгүй"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Саадгүй"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Хэрэв апп ингэх хүсэлт тавьсан бол таны төхөөрөмж ЗӨВХӨН таны ТВ саадгүй шилжилт гүйцэтгэх боломжтой тохиолдолд гаралтаа таны үзэж буй контентын эх фрэймийн хурдтай тааруулна."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Таны холбогдсон дэлгэц нь сэргээх хурдны тасралтгүй шилжилтийг дэмждэггүй. Хэрэв та үүнийг дэмждэг дэлгэц рүү шилжихгүй бол энэ сонголт ямар ч нөлөө үзүүлэхгүй."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Үргэлж"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Саадгүй бус"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Апп ингэх хүсэлт тавьсан тохиолдолд таны төхөөрөмж гаралтаа таны үзэж буй контентын эх фрэймийн хурдтай тааруулна. Энэ нь видеог дахин тоглуулах явцаас гарах эсвэл үүнд орох үед таны дэлгэцийг секундийн турш хоосон болгож болно."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Хэзээ ч үгүй"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Апп ингэх хүсэлт тавьсан байлаа ч таны төхөөрөмж гаралтаа таны үзэж буй контентын эх фрэймийн хурдтай тааруулах гэж хэзээ ч оролдохгүй."</string>
@@ -218,11 +191,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Нягтралыг %1$s болгож өөрчлөх үү?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Одооноос %1$s-г ашиглахын тулд OK-г сонгоно уу."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision нь %1$s дээр дэмжигдээгүй бөгөөд \"Дэлгэцийн нарийвчилсан тохиргоо\" хэсэгт идэвхгүй болно."</string>
-    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Энэ горим дараахыг дэмждэг: %1$s\nЗарим ТВ-д та бусад HDR форматыг идэвхжүүлэхийн тулд сайжруулсан HDMI-г асаах шаардлагатай байж магадгүй. Үүнийг дэмждэг эсэхийг харахын тулд ТВ-ийн тохиргоогоо шалгана уу."</string>
+    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Энэ горим %1$s-г дэмждэг. Зарим ТВ дээр илүү олон HDR форматыг идэвхжүүлэхийн тулд сайжруулсан HDMI-г асаах шаардлагатай байж магадгүй. Үүнийг дэмжиж байгаа эсэхийг харахын тулд ТВ-н тохиргоогоо шалгана уу."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Цуцлах"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Гц"</string>
-    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Гц)"</string>
+    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Гц)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Кеш хийгдсэн өгөгдлийг арилгах уу?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Бүх програмд зориулан кеш хийгдсэн өгөгдлийг арилгах болно."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -343,7 +316,8 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Энэ төхөөрөмжийг таны байгууллага удирдаж байна."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Энэ төхөөрөмжийг <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> удирддаг"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
+    <string name="word_separator" msgid="3175619900852797955">","</string>
+    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
     <string name="learn_more" msgid="820336467414665686">"Дэлгэрэнгүй үзэх"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Камерын апп}other{Камерын аппууд}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Хуанлины апп"</string>
@@ -960,9 +934,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Үзэж байх явцад дэлгэц унтрахаас сэргийлэхийн тулд баталгаажуулна уу. Энэ нь эрчим хүчний хэрэглээг нэмэгдүүлэх магадлалтай."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Идэвхгүй үед"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Үзэж байх үед"</string>
-    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Автоматаар унтраах"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Идэвхгүй үед автоматаар унтраах"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Үзэж байх үед автоматаар унтраах"</string>
+    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Зурагт автоматаар унтраах"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Идэвхгүй үед зурагтыг автоматаар унтраах"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Зурагт үзэж байхад автоматаар унтраах"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"\"Идэвхгүй үеийн\" цаг хэмжигч нь \"Үзэх үеийн\" цаг хэмжигчээс богино байх ёстой"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"\"Үзэх үеийн\" цаг хэмжигч нь \"Идэвхгүй үеийн\" цаг хэмжигчээс урт байх ёстой"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Зогсолтод сүлжээний холболтыг хязгаарлах"</string>
@@ -1118,9 +1092,4 @@
     <string name="power_on_behavior" msgid="927607372303160716">"Асаалттай үеийн төлөв"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Шинэчлэх"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Этернэт хослуулах код"</string>
-    <string name="energy_modes" msgid="1331693860386361744">"Эрчим хүчний горимууд"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"ТВ-ийг ашиглаагүй үед эрчим хүчний үр ашигтай байдлыг сайжруулах"</string>
-    <string name="energy_mode_enables" msgid="357960364751477627">"Идэвхжүүлнэ:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Энэ горим нь төхөөрөмжийн эрчим хүч зарцуулалтыг нэмэгдүүлж болохыг анхаарна уу."</string>
-    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\"-г идэвхжүүлэх"</string>
 </resources>
