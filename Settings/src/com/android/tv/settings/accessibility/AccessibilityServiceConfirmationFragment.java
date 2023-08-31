@@ -21,12 +21,14 @@ import android.content.Context;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.leanback.app.GuidedStepSupportFragment;
 import androidx.leanback.widget.GuidanceStylist;
 import androidx.leanback.widget.GuidedAction;
 
 import com.android.tv.settings.R;
+import com.android.tv.settings.util.OverlayWindowBlocker;
 
 import java.util.List;
 
@@ -81,25 +83,39 @@ public class AccessibilityServiceConfirmationFragment extends GuidedStepSupportF
         args.putBoolean(ARG_ENABLING, enabling);
     }
 
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        new OverlayWindowBlocker(this, /* isMainPanel= */ true);
+    }
+
     @NonNull
     @Override
     public GuidanceStylist.Guidance onCreateGuidance(Bundle savedInstanceState) {
         final CharSequence label = getArguments().getCharSequence(ARG_LABEL);
+        String sanitizedLabel = label.toString()
+                .replace("\t", "")
+                .replace("\r", "")
+                .replace("\n", "")
+                .codePoints().limit(32)
+                .collect(StringBuilder::new, StringBuilder::appendCodePoint, StringBuilder::append)
+                .toString();
+
         if (getArguments().getBoolean(ARG_ENABLING)) {
             return new GuidanceStylist.Guidance(
                     getString(R.string.system_accessibility_service_on_confirm_title,
-                            label),
+                            sanitizedLabel),
                     getString(R.string.system_accessibility_service_on_confirm_desc,
-                            label),
+                            sanitizedLabel),
                     null,
                     getActivity().getDrawable(R.drawable.ic_accessibility_new_132dp)
             );
         } else {
             return new GuidanceStylist.Guidance(
                     getString(R.string.system_accessibility_service_off_confirm_title,
-                            label),
+                            sanitizedLabel),
                     getString(R.string.system_accessibility_service_off_confirm_desc,
-                            label),
+                            sanitizedLabel),
                     null,
                     getActivity().getDrawable(R.drawable.ic_accessibility_new_132dp)
             );
