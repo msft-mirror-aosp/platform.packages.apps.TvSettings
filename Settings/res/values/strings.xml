@@ -2683,6 +2683,8 @@
     <string name="advanced_color_format_slice_uri" translatable="false"/>
     <!-- Slice uri for Dolby Vision Mode in Advanced display settings -->
     <string name="advanced_dolby_vision_mode_slice_uri" translatable="false"/>
+    <!-- Slice uri for extended audio settings in Display & Sound settings -->
+    <string name="audio_ext_uri" translatable="false"/>
 
     <!-- Slice uri for general information -->
     <string name="general_info_slice_uri" translatable="false"/>
