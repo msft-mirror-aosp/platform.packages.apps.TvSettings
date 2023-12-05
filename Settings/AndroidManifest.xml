@@ -75,6 +75,12 @@
     <uses-permission android:name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
     <uses-permission android:name="android.permission.SET_UNRESTRICTED_KEEP_CLEAR_AREAS"/>
 
+    <!-- Permissions for reading network change related data. -->
+    <permission
+        android:name="com.android.settings.connectivity.READ_NETWORK_CHANGE_DATA"
+        android:protectionLevel="signature|knownSigner"
+        android:knownCerts="@array/network_change_signatures"/>
+
     <application
          android:name=".TvSettingsApplication"
          android:allowClearUserData="false"
@@ -211,6 +217,15 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
+
+        <!-- The other application needs to define the similar custom permission in its manifest
+        to be able to READ network change data -->
+        <provider
+            android:name=".connectivity.NetworkChangeContentProvider"
+            android:authorities="com.android.settings.connectivity.networkchangedetection"
+            android:exported="true"
+            android:readPermission="com.android.settings.connectivity.READ_NETWORK_CHANGE_DATA" >
+        </provider>
 
         <!-- AccountSliceActivity is just here to facilitate the activity-alias below to eliminate
              the risk of repackaging. -->
