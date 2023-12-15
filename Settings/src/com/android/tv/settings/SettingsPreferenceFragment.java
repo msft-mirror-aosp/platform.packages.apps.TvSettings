@@ -54,7 +54,6 @@ import androidx.preference.PreferenceViewHolder;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.settingslib.core.lifecycle.Lifecycle;
-import com.android.tv.settings.library.instrumentation.InstrumentedPreferenceFragment;
 import com.android.tv.settings.overlay.FlavorUtils;
 import com.android.tv.settings.util.SettingsPreferenceUtil;
 import com.android.tv.settings.widget.SettingsViewModel;
@@ -67,7 +66,7 @@ import java.util.Collections;
  * A {@link LeanbackPreferenceFragmentCompat} that has hooks to observe fragment lifecycle events
  * and allow for instrumentation.
  */
-public abstract class SettingsPreferenceFragment extends InstrumentedPreferenceFragment
+public abstract class SettingsPreferenceFragment extends LeanbackPreferenceFragmentCompat
         implements LifecycleOwner,
         TwoPanelSettingsFragment.PreviewableComponentCallback {
     private final Lifecycle mLifecycle = new Lifecycle(this);
