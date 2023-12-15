@@ -902,6 +902,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Personnaliser les restrictions"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Veuillez patienter…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Modifier le NIP"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Créer un profil limité"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Déjà créé"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Ignorer"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Créer un NIP"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Activer le profil limité?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Aucun profil limité"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Déjà saisi"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Cette application peut accéder à vos comptes. Contrôlée par <xliff:g id="APP">%1$s</xliff:g>."</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Entrez le NIP pour regarder cette chaîne"</string>
