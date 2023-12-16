@@ -903,6 +903,20 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Tilpas begrænsninger"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Et øjeblik..."</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Skift pinkode"</string>
+    <!-- no translation found for restricted_profile_create_preference_screen (3263536648469645089) -->
+    <skip />
+    <!-- no translation found for restricted_profile_already_created_placeholder (8619544048199836920) -->
+    <skip />
+    <!-- no translation found for restricted_profile_skip_action (4674562040162193593) -->
+    <skip />
+    <!-- no translation found for restricted_profile_create_pin_action (1883036507880250231) -->
+    <skip />
+    <!-- no translation found for restricted_profile_enter_preference_screen (676246260867597333) -->
+    <skip />
+    <!-- no translation found for restricted_profile_enter_not_found_placeholder (2270969471829375976) -->
+    <skip />
+    <!-- no translation found for restricted_profile_enter_already_entered_placeholder (6178278708529027598) -->
+    <skip />
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Denne app har adgang til dine konti. Administreres af <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Angiv pinkode for at se denne kanal"</string>
@@ -1080,7 +1094,7 @@
     <string name="disabled_by_policy_title_screen_capture" msgid="5774035841010091253">"Screenshots er ikke tilladt"</string>
     <string name="disabled_by_policy_title_suspend_packages" msgid="6500185610058872758">"Denne app kan ikke åbnes"</string>
     <string name="default_admin_support_msg" msgid="7913455019068370350">"Kontakt din it-administrator, hvis du har spørgsmål"</string>
-    <string name="admin_support_more_info" msgid="9053232166115098434">"Mere info"</string>
+    <string name="admin_support_more_info" msgid="9053232166115098434">"Flere oplysninger"</string>
     <string name="admin_profile_owner_message" msgid="5729169873349157622">"Din administrator kan overvåge og administrere apps og data, der er knyttet til din arbejdsprofil, herunder indstillinger, tilladelser, virksomhedsadgang, netværksaktivitet og enhedens lokationsoplysninger."</string>
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"Din administrator kan overvåge og administrere apps og data, der er knyttet til denne bruger, herunder indstillinger, tilladelser, virksomhedsadgang, netværksaktivitet og enhedens lokationsoplysninger."</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"Din administrator kan overvåge og administrere apps og data, der er knyttet til denne enhed, herunder indstillinger, tilladelser, virksomhedsadgang, netværksaktivitet og enhedens lokationsoplysninger."</string>
@@ -1128,16 +1142,9 @@
     <string name="energy_mode_enables" msgid="357960364751477627">"Aktiverer:"</string>
     <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Vær opmærksom på, at denne tilstand kan øge energiforbruget på enheden."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Aktivér \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
-    <!-- no translation found for settings_fmr_title (3356455339626081028) -->
-    <skip />
-    <!-- no translation found for settings_fmr_description (8669366029891758802) -->
-    <skip />
-    <!-- no translation found for fmr_slice_description (8183342618333484686) -->
-    <skip />
-    <!-- no translation found for fmr_suppress_title (5642106670219418681) -->
-    <skip />
-    <!-- no translation found for fmr_suppress_subtitle (2113742483641123411) -->
-    <skip />
-    <!-- no translation found for fmr_play_sound (3881261379694049728) -->
-    <skip />
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Find min fjernbetjening"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Afspil en lyd for at finde din fjernbetjening til Google TV, hvis den er blevet væk"</string>
+    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Tryk på knappen på bagsiden af din Google TV-enhed for at afspille en lyd på din fjernbetjening i 30 sekunder. Dette virker kun på understøttede Google TV-fjernbetjeninger.\n\nTryk på en vilkårlig knap på fjernbetjeningen for at stoppe lyden."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Når Find min fjernbetjening er aktiveret, kan du afspille en lyd for at finde din fjernbetjening til Google TV, hvis den er blevet væk."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Afspil lyd"</string>
 </resources>

@@ -902,6 +902,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"התאם אישית את ההגבלות"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"המתן מספר רגעים…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"שנה את מספר ה-PIN"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"ליצור פרופיל מוגבל?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"הפרופיל כבר נוצר"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"דילוג"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"יצירת קוד אימות"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"להיכנס אל הפרופיל המוגבל?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"לא נמצא פרופיל מוגבל"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"כבר נכנסת"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"האפליקציה הזו יכולה לגשת אל החשבונות שלך. בשליטה של <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"הזן מספר PIN לצפייה בערוץ הזה"</string>
@@ -1127,16 +1134,9 @@
     <string name="energy_mode_enables" msgid="357960364751477627">"תכונות מופעלות:"</string>
     <string name="energy_mode_eco_hint" msgid="1461517905015359947">"חשוב לדעת: המצב הזה עשוי להגדיל את צריכת החשמל של המכשיר."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"הפעלת מצב \'<xliff:g id="ENERGYMODENAME">%s</xliff:g>\'"</string>
-    <!-- no translation found for settings_fmr_title (3356455339626081028) -->
-    <skip />
-    <!-- no translation found for settings_fmr_description (8669366029891758802) -->
-    <skip />
-    <!-- no translation found for fmr_slice_description (8183342618333484686) -->
-    <skip />
-    <!-- no translation found for fmr_suppress_title (5642106670219418681) -->
-    <skip />
-    <!-- no translation found for fmr_suppress_subtitle (2113742483641123411) -->
-    <skip />
-    <!-- no translation found for fmr_play_sound (3881261379694049728) -->
-    <skip />
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"איפה השלט שלי"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ניתן להשמיע צליל כדי לאתר שלט רחוק של Google TV שאבד"</string>
+    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"לוחצים על הלחצן בחלק האחורי של Google TV כדי להשמיע צליל בשלט הרחוק למשך 30 שניות. הפעולה הזו עובדת רק בשלטים רחוקים נתמכים של Google TV.‏\n\nכדי להפסיק את הצליל, לוחצים על לחצן כלשהו בשלט."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"כשהתכונה \'איפה השלט שלי\' מופעלת, אפשר להשמיע צליל כדי לאתר שלט רחוק של Google TV שאבד."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"השמעת צליל"</string>
 </resources>

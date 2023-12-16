@@ -902,6 +902,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Personalizar restricciones"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Un momento…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Cambiar PIN"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"¿Crear perfil restringido?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Ya creado"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Omitir"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Crear PIN"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"¿Acceder a perfil restringido?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Sin perfiles restringidos"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Ya se ingresó"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Esta app puede acceder a tus cuentas. Controlada por <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Ingresa el PIN para mirar este canal"</string>
@@ -1127,16 +1134,9 @@
     <string name="energy_mode_enables" msgid="357960364751477627">"Habilita lo siguiente:"</string>
     <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Ten en cuenta que este modo podría aumentar el consumo de energía del dispositivo."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Habilitar \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
-    <!-- no translation found for settings_fmr_title (3356455339626081028) -->
-    <skip />
-    <!-- no translation found for settings_fmr_description (8669366029891758802) -->
-    <skip />
-    <!-- no translation found for fmr_slice_description (8183342618333484686) -->
-    <skip />
-    <!-- no translation found for fmr_suppress_title (5642106670219418681) -->
-    <skip />
-    <!-- no translation found for fmr_suppress_subtitle (2113742483641123411) -->
-    <skip />
-    <!-- no translation found for fmr_play_sound (3881261379694049728) -->
-    <skip />
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Buscar mi control remoto"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Reproduce un sonido para ubicar el control remoto de Google TV si se pierde"</string>
+    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Presiona el botón de la parte posterior de tu Google TV para reproducir un sonido en el control remoto durante 30 segundos. Esta acción solo funciona en controles remotos de Google TV compatibles.\n\nPara detener el sonido, presiona cualquier botón del control remoto."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Si habilitas Buscar mi control remoto, podrás reproducir un sonido para ubicar el control remoto de Google TV."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reproducir sonido"</string>
 </resources>

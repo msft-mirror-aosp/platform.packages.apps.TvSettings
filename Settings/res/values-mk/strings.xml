@@ -902,6 +902,20 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Приспособи ограничувања"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Само момент…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Промени PIN"</string>
+    <!-- no translation found for restricted_profile_create_preference_screen (3263536648469645089) -->
+    <skip />
+    <!-- no translation found for restricted_profile_already_created_placeholder (8619544048199836920) -->
+    <skip />
+    <!-- no translation found for restricted_profile_skip_action (4674562040162193593) -->
+    <skip />
+    <!-- no translation found for restricted_profile_create_pin_action (1883036507880250231) -->
+    <skip />
+    <!-- no translation found for restricted_profile_enter_preference_screen (676246260867597333) -->
+    <skip />
+    <!-- no translation found for restricted_profile_enter_not_found_placeholder (2270969471829375976) -->
+    <skip />
+    <!-- no translation found for restricted_profile_enter_already_entered_placeholder (6178278708529027598) -->
+    <skip />
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Оваа апликација може да пристапува до вашите сметки. Контролирано од <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Внесете PIN за да го гледате овој канал"</string>
@@ -1127,16 +1141,9 @@
     <string name="energy_mode_enables" msgid="357960364751477627">"Овозможува:"</string>
     <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Имајте предвид дека овој режим може да ја зголеми потрошувачката на енергија на уредот."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Да се овозможи „<xliff:g id="ENERGYMODENAME">%s</xliff:g>“?"</string>
-    <!-- no translation found for settings_fmr_title (3356455339626081028) -->
-    <skip />
-    <!-- no translation found for settings_fmr_description (8669366029891758802) -->
-    <skip />
-    <!-- no translation found for fmr_slice_description (8183342618333484686) -->
-    <skip />
-    <!-- no translation found for fmr_suppress_title (5642106670219418681) -->
-    <skip />
-    <!-- no translation found for fmr_suppress_subtitle (2113742483641123411) -->
-    <skip />
-    <!-- no translation found for fmr_play_sound (3881261379694049728) -->
-    <skip />
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Најди го мојот далечински управувач"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Репродуцирајте звук за да го лоцирате далечинскиот управувач на Google TV ако е изгубен"</string>
+    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Притиснете го копчето на задниот дел од вашиот Google TV за да се репродуцира звук на далечинскиот управувач 30 секунди. Ова функционира само со поддржани далечински управувачи на Google TV.\n\nЗа да го сопрете звукот, притиснете некое копче на далечинскиот управувач."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Кога е овозможена „Најди го мојот далечински управувач“, може да репродуцирате звук за да го лоцирате далечинскиот управувач на Google TV ако е изгубен."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Репродуцирај звук"</string>
 </resources>
