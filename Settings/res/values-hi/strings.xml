@@ -773,7 +773,7 @@
     <string name="system_usb_debugging" msgid="2158285492172755923">"USB डीबग करना"</string>
     <string name="system_allow_mock_locations" msgid="2483106887711851466">"कृत्रिम स्‍थानों को अनुमति दें"</string>
     <string name="system_select_debug_app" msgid="6200987902307533721">"डीबग ऐप्स  चुनें"</string>
-    <string name="system_wait_for_debugger" msgid="5715878008542589060">"डीबगर की प्रतीक्षा करें"</string>
+    <string name="system_wait_for_debugger" msgid="5715878008542589060">"डीबगर की इंतज़ार करें"</string>
     <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"USB पर ऐप्स  सत्यापित करें"</string>
     <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"ADB/ADT के ज़रिए इंस्टॉल किए गए ऐप्लिकेशन नुकसानदेह व्यवहार के लिए जाँचें"</string>
     <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"वाई-फ़ाई अत्यधिक शब्द प्रवेश"</string>
@@ -902,20 +902,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"प्रतिबंधों को कस्टमाइज़ करें"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"एक क्षण रुकें…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"पिन बदलें"</string>
-    <!-- no translation found for restricted_profile_create_preference_screen (3263536648469645089) -->
-    <skip />
-    <!-- no translation found for restricted_profile_already_created_placeholder (8619544048199836920) -->
-    <skip />
-    <!-- no translation found for restricted_profile_skip_action (4674562040162193593) -->
-    <skip />
-    <!-- no translation found for restricted_profile_create_pin_action (1883036507880250231) -->
-    <skip />
-    <!-- no translation found for restricted_profile_enter_preference_screen (676246260867597333) -->
-    <skip />
-    <!-- no translation found for restricted_profile_enter_not_found_placeholder (2270969471829375976) -->
-    <skip />
-    <!-- no translation found for restricted_profile_enter_already_entered_placeholder (6178278708529027598) -->
-    <skip />
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"प्रतिबंधित प्रोफ़ाइल बनाएं?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"पहले से बनी हुई है"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"अभी नहीं"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"पिन बनाएं"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"प्रतिबंधित प्रोफ़ाइल पर जाएं?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"प्रतिबंधित प्रोफ़ाइल नहीं मिली"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"पहले से मौजूद है"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"यह ऐप आपके खातों को ऐक्सेस कर सकता है. <xliff:g id="APP">%1$s</xliff:g> के द्वारा नियंत्रित है"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"यह चैनल देखने के लिए पिन डालें"</string>

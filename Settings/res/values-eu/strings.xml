@@ -84,7 +84,7 @@
     <string name="connectivity_ethernet" msgid="4270588618633681766">"Etherneta"</string>
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet bidez konektatu da"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Ez dago konektatuta sarerik"</string>
-    <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Desaktibatuta dago Wi-Fi konexioa"</string>
+    <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Desaktibatuta dago wifi-konexioa"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Bilaketa beti erabilgarri"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Utzi Google-ren kokapen-zerbitzuari eta beste aplikazioei sareak bilatzen, wifi-konexioa desaktibatuta egon arren"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Bilaketa beti erabilgarri: utzi Google-ren kokapen-zerbitzuari eta beste aplikazioei sareak bilatzen, wifi-konexioa desaktibatuta egon arren."</string>
@@ -902,20 +902,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Murrizketa pertsonalizatuak"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Unetxo bat…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Aldatu PINa"</string>
-    <!-- no translation found for restricted_profile_create_preference_screen (3263536648469645089) -->
-    <skip />
-    <!-- no translation found for restricted_profile_already_created_placeholder (8619544048199836920) -->
-    <skip />
-    <!-- no translation found for restricted_profile_skip_action (4674562040162193593) -->
-    <skip />
-    <!-- no translation found for restricted_profile_create_pin_action (1883036507880250231) -->
-    <skip />
-    <!-- no translation found for restricted_profile_enter_preference_screen (676246260867597333) -->
-    <skip />
-    <!-- no translation found for restricted_profile_enter_not_found_placeholder (2270969471829375976) -->
-    <skip />
-    <!-- no translation found for restricted_profile_enter_already_entered_placeholder (6178278708529027598) -->
-    <skip />
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Profil murriztua sortu nahi duzu?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Sortu da jada"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Saltatu"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Sortu PINa"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Profil murriztua sartu nahi duzu?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Ez dago profil murrizturik"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Sartu da jada"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Aplikazio honek zure kontuak atzi ditzake. <xliff:g id="APP">%1$s</xliff:g> aplikazioak kontrolatzen du."</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Kanal hau ikusi nahi baduzu, idatzi PINa."</string>

@@ -634,7 +634,7 @@
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Đã chặn quyền truy cập micrô"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Để bỏ chặn, hãy chuyển nút quyền riêng tư trên thiết bị sang vị trí bật micrô để cho phép truy cập micrô."</string>
     <string name="camera" msgid="1226671478936288283">"Máy ảnh"</string>
-    <string name="camera_toggle_title" msgid="5566469574224956142">"Quyền truy cập vào máy ảnh"</string>
+    <string name="camera_toggle_title" msgid="5566469574224956142">"Quyền truy cập camera"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Quyền truy cập của ứng dụng vào máy ảnh"</string>
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Đã chặn quyền truy cập máy ảnh"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Để bỏ chặn, hãy chuyển nút quyền riêng tư trên thiết bị sang vị trí bật máy ảnh để cho phép truy cập máy ảnh."</string>
@@ -902,20 +902,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Tùy chỉnh các hạn chế"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Một lúc nữa..."</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Thay đổi mã pin"</string>
-    <!-- no translation found for restricted_profile_create_preference_screen (3263536648469645089) -->
-    <skip />
-    <!-- no translation found for restricted_profile_already_created_placeholder (8619544048199836920) -->
-    <skip />
-    <!-- no translation found for restricted_profile_skip_action (4674562040162193593) -->
-    <skip />
-    <!-- no translation found for restricted_profile_create_pin_action (1883036507880250231) -->
-    <skip />
-    <!-- no translation found for restricted_profile_enter_preference_screen (676246260867597333) -->
-    <skip />
-    <!-- no translation found for restricted_profile_enter_not_found_placeholder (2270969471829375976) -->
-    <skip />
-    <!-- no translation found for restricted_profile_enter_already_entered_placeholder (6178278708529027598) -->
-    <skip />
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Tạo hồ sơ bị hạn chế?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Đã tạo"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Bỏ qua"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Tạo mã PIN"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Nhập hồ sơ bị hạn chế?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Không có hồ sơ bị hạn chế"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Đã nhập"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Ứng dụng này có thể truy cập tài khoản của bạn. Do <xliff:g id="APP">%1$s</xliff:g> kiểm soát"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Nhập mã PIN để xem kênh này"</string>
