@@ -902,20 +902,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"سفارشی کردن محدودیت‌ها"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"یک لحظه..."</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"تغییر پین"</string>
-    <!-- no translation found for restricted_profile_create_preference_screen (3263536648469645089) -->
-    <skip />
-    <!-- no translation found for restricted_profile_already_created_placeholder (8619544048199836920) -->
-    <skip />
-    <!-- no translation found for restricted_profile_skip_action (4674562040162193593) -->
-    <skip />
-    <!-- no translation found for restricted_profile_create_pin_action (1883036507880250231) -->
-    <skip />
-    <!-- no translation found for restricted_profile_enter_preference_screen (676246260867597333) -->
-    <skip />
-    <!-- no translation found for restricted_profile_enter_not_found_placeholder (2270969471829375976) -->
-    <skip />
-    <!-- no translation found for restricted_profile_enter_already_entered_placeholder (6178278708529027598) -->
-    <skip />
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"نمایه محدودشده ایجاد شود؟"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"قبلاً ایجاد شده است"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"رد شدن"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"ایجاد پین"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"به نمایه محدودشده وارد شوید؟"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"نمایه محدودشده‌ای وجود ندارد"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"قبلاً وارد شده است"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"این برنامه می‌تواند به حساب‌های شما دسترسی داشته باشد. تحت کنترل <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"برای مشاهده این کانال، پین را وارد کنید"</string>
@@ -1141,9 +1134,9 @@
     <string name="energy_mode_enables" msgid="357960364751477627">"این حالت را فعال می‌کند:"</string>
     <string name="energy_mode_eco_hint" msgid="1461517905015359947">"توجه داشته باشید که ممکن است این حالت مصرف برق دستگاه را افزایش دهد."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"فعال کردن «<xliff:g id="ENERGYMODENAME">%s</xliff:g>»"</string>
-    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"پیدا کردن کنترل از دور"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"پیدا کردن کنترل از راه دور"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"اگر کنترل از دور Google TV در جای خودش نباشد، برای پیدا کردن آن، صدایی پخش می‌شود"</string>
     <string name="find_my_remote_slice_description" msgid="7288029543560257872">"دکمه پشت Google TV را فشار دهید تا صدایی به‌مدت ۳۰ ثانیه در کنترل از دور پخش شود. این روش فقط در کنترل از دورهای پشتیبانی‌شده Google TV کار می‌کند.\n\nبرای متوقف کردن صدا، یکی از دکمه‌های روی کنترل از دور را فشار دهید."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"وقتی «پیدا کردن کنترل از دور» فعال باشد، اگر کنترل از دور Google TV در جای خودش نباشد، می‌توانید با پخش صدا آن را پیدا کنید."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"وقتی «پیدا کردن کنترل از راه دور» فعال باشد، اگر کنترل از راه دور Google TV در جای خودش نباشد، می‌توانید با پخش صدا آن را پیدا کنید."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"پخش صدا"</string>
 </resources>
