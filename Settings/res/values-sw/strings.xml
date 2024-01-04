@@ -252,7 +252,7 @@
     <string name="bluetooth_enter_pin_msg" msgid="8905524093007140634">"Ili kuoanisha: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;Chapa PIN inayohitajika ya kifaa:"</string>
     <string name="bluetooth_enter_passkey_msg" msgid="889584097447402492">"Ili kuoanisha na: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;Chapa nenosiri linalohitajika la kifaa:"</string>
     <string name="bluetooth_pin_values_hint" msgid="6237371515577342950">"Kwa kawaida 0000 au 1234"</string>
-    <string name="bluetooth_pair" msgid="2410285813728786067">"Oanisha"</string>
+    <string name="bluetooth_pair" msgid="2410285813728786067">"Unganisha"</string>
     <string name="bluetooth_cancel" msgid="4415185529332987034">"Ghairi"</string>
     <string name="bluetooth_device_connected_toast" msgid="1896195197089204806">"%1$s imeunganishwa"</string>
     <string name="bluetooth_device_disconnected_toast" msgid="7459239447363156499">"%1$s imetenganishwa"</string>
@@ -260,7 +260,7 @@
     <string name="bluetooth_toggle_title" msgid="3808904783456336104">"Bluetooth"</string>
     <string name="bluetooth_toggle_confirmation_dialog_title" msgid="3906746631391295717">"Zima Bluetooth"</string>
     <string name="bluetooth_toggle_confirmation_dialog_summary" msgid="9017044450625172698">"Hutaweza kufikia programu ya Mratibu wa Google kwenye kidhibiti chako cha mbali ukiwa umezima Bluetooth."</string>
-    <string name="bluetooth_pair_accessory" msgid="5508750142754420984">"Oanisha kifaa cha ziada"</string>
+    <string name="bluetooth_pair_accessory" msgid="5508750142754420984">"Unganisha kifuasi"</string>
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Vifaa vya ziada"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Kidhibiti cha Mbali"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Mipangilio ya kidhibiti cha mbali"</string>

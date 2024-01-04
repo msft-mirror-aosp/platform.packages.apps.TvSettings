@@ -852,7 +852,7 @@
     <string name="autofill_none" msgid="1615056985649424207">"Ingen"</string>
     <string name="autofill_confirmation_message" msgid="3840267789160192558">"&lt;b&gt;Stoler du på dennne appen?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Passordtjeneste&gt;%1$s&lt;/xliff:g&gt; bruker det som er på skjermen, til å fastslå hva som kan fylles ut automatisk."</string>
     <string name="computing_size" msgid="8623916230485437579">"Beregner ..."</string>
-    <string name="title_select_wifi_network" msgid="935820896444071617">"Velg Wifi-nettverk"</string>
+    <string name="title_select_wifi_network" msgid="935820896444071617">"Velg wifi-nettverk"</string>
     <string name="accessories_wifi_display_rename_device" msgid="8803397194143132061">"Gi nytt navn"</string>
     <string name="accessories_wifi_display_enable" msgid="2385467074170316302">"Wifi-skjerm"</string>
     <string name="accessories_wifi_display_pin_required" msgid="5434960694140426664">"PIN-kode kreves"</string>
