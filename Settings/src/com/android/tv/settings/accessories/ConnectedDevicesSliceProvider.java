@@ -261,7 +261,8 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
         if (Flags.enableTvMediaOutputDialog()
                 && cachedDevice != null && !cachedDevice.isBusy()
                 && AccessoryUtils.isConnected(device) && cachedDevice.isConnected()
-                && AccessoryUtils.isBluetoothHeadset(device)) {
+                && (AccessoryUtils.isBluetoothHeadset(device)
+                || AccessoryUtils.hasAudioProfile(cachedDevice))) {
             boolean isActive = AccessoryUtils.isActiveAudioOutput(device);
 
             Intent intent = new Intent(ACTION_TOGGLE_CHANGED);
