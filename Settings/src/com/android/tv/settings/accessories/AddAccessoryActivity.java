@@ -67,6 +67,8 @@ public class AddAccessoryActivity extends FragmentActivity
 
     public static final String ACTION_CONNECT_INPUT =
             "com.google.android.intent.action.CONNECT_INPUT";
+    public static final String ACTION_PAIRING_MENU_STATE_CHANGE =
+            "com.android.tv.settings.accessories.PAIR_MENU_STATE_CHANGE";
 
     public static final String INTENT_EXTRA_NO_INPUT_MODE = "no_input_mode";
 
@@ -270,6 +272,11 @@ public class AddAccessoryActivity extends FragmentActivity
     @Override
     protected void onStart() {
         super.onStart();
+        sendBroadcast(new Intent(ACTION_PAIRING_MENU_STATE_CHANGE)
+                              .setFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES
+                                        | Intent.FLAG_RECEIVER_FOREGROUND
+                                        | Intent.FLAG_RECEIVER_INCLUDE_BACKGROUND)
+                              .putExtra("state", "start"));
         Log.d(TAG, "onStart() mPairingInBackground = " + mPairingInBackground);
 
         // Only do the following if we are not coming back to this activity from
@@ -305,6 +312,11 @@ public class AddAccessoryActivity extends FragmentActivity
     @Override
     public void onStop() {
         Log.d(TAG, "onStop()");
+        sendBroadcast(new Intent(ACTION_PAIRING_MENU_STATE_CHANGE)
+                              .setFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES
+                                        | Intent.FLAG_RECEIVER_FOREGROUND
+                                        | Intent.FLAG_RECEIVER_INCLUDE_BACKGROUND)
+                              .putExtra("state", "stop"));
         if (!mPairingBluetooth) {
             stopBluetoothPairer();
             mMsgHandler.removeCallbacksAndMessages(null);
