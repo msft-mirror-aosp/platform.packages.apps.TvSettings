@@ -634,6 +634,8 @@
     <string name="accessory_change_name">Change name</string>
     <!-- Title of dialog for renaming the bluetooth accessory [CHAR LIMIT=50] -->
     <string name="accessory_change_name_title">Enter a new name for this accessory</string>
+    <!-- Package to send menu state changes to and names of parameters -->
+    <string name="accessory_menu_state_broadcast_package" translatable="false"/>
 
     <!-- Remote and Accessories -->
     <skip />

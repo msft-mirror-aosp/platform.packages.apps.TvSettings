@@ -94,6 +94,10 @@ public class AddAccessoryActivity extends FragmentActivity
     private static final int TIME_TO_START_AUTOPAIR_COUNT = 5000;
     private static final int EXIT_TIMEOUT_MILLIS = 90 * 1000;
 
+    private static final String STATE_NAME = "state";
+    private static final String STATE_VALUE_START = "start";
+    private static final String STATE_VALUE_STOP = "stop";
+
     private AddAccessoryPreferenceFragment mPreferenceFragment;
     private AddAccessoryContentFragment mContentFragment;
 
@@ -272,11 +276,7 @@ public class AddAccessoryActivity extends FragmentActivity
     @Override
     protected void onStart() {
         super.onStart();
-        sendBroadcast(new Intent(ACTION_PAIRING_MENU_STATE_CHANGE)
-                              .setFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES
-                                        | Intent.FLAG_RECEIVER_FOREGROUND
-                                        | Intent.FLAG_RECEIVER_INCLUDE_BACKGROUND)
-                              .putExtra("state", "start"));
+        sendStateChangeBroadcast(/* start= */ true);
         Log.d(TAG, "onStart() mPairingInBackground = " + mPairingInBackground);
 
         // Only do the following if we are not coming back to this activity from
@@ -312,11 +312,7 @@ public class AddAccessoryActivity extends FragmentActivity
     @Override
     public void onStop() {
         Log.d(TAG, "onStop()");
-        sendBroadcast(new Intent(ACTION_PAIRING_MENU_STATE_CHANGE)
-                              .setFlags(Intent.FLAG_INCLUDE_STOPPED_PACKAGES
-                                        | Intent.FLAG_RECEIVER_FOREGROUND
-                                        | Intent.FLAG_RECEIVER_INCLUDE_BACKGROUND)
-                              .putExtra("state", "stop"));
+        sendStateChangeBroadcast(/* start= */ false);
         if (!mPairingBluetooth) {
             stopBluetoothPairer();
             mMsgHandler.removeCallbacksAndMessages(null);
@@ -764,6 +760,24 @@ public class AddAccessoryActivity extends FragmentActivity
             return;
         }
         client.oneTouchPlay(callback);
+    }
+
+    private void sendStateChangeBroadcast(boolean start) {
+        final String target_package =
+                getResources().getString(R.string.accessory_menu_state_broadcast_package);
+        final String state_value = start ? STATE_VALUE_START : STATE_VALUE_STOP;
+        if (target_package.isEmpty()) {
+            return;
+        }
+        sendBroadcastAsUser(
+                new Intent(ACTION_PAIRING_MENU_STATE_CHANGE)
+                        .setPackage(target_package)
+                        .setFlags(
+                                Intent.FLAG_INCLUDE_STOPPED_PACKAGES
+                                        | Intent.FLAG_RECEIVER_FOREGROUND
+                                        | Intent.FLAG_RECEIVER_INCLUDE_BACKGROUND)
+                        .putExtra(STATE_NAME, state_value),
+                UserHandle.SYSTEM);
     }
 
     /**
