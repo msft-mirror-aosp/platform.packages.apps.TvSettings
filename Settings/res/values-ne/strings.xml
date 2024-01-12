@@ -239,7 +239,7 @@
     <string name="accessory_unpairing" msgid="2529195578082286563">"उपकरण पेयर विच्छेद गर्दै..."</string>
     <string name="accessory_connected" msgid="5229574480869175180">"जोडिएको"</string>
     <string name="accessory_change_name" msgid="6493717176878500683">"नाम परिवर्तन गर्नुहोस्"</string>
-    <string name="accessory_change_name_title" msgid="451188562035392238">"यस सहायक उपकरणको कुनै नयाँ नाम प्रविष्टि गर्नुहोस्"</string>
+    <string name="accessory_change_name_title" msgid="451188562035392238">"यस सहायक उपकरणको कुनै नयाँ नाम हाल्नुहोस्"</string>
     <string name="accessories_add_accessibility_title" msgid="1300294413423909579">"ब्लुटुथबाट सहायक उपकरणसँग जोडा बनाउने प्रक्रिया।"</string>
     <string name="accessories_add_title" msgid="7704824893011194433">"चीजहरूको लागि खोजिँदै छ..."</string>
     <string name="accessories_add_bluetooth_inst" msgid="2508151218328384366">"ब्लुटुथ चल्ने यन्त्रहरूसँग जोडा बनाउनुअघि ती यन्त्रहरूमा जोडा बनाउने मोड अन गरिएको छ भन्ने कुरा सुनिश्चित गर्नुहोस्।"</string>
@@ -431,7 +431,7 @@
     <string name="mac_address_not_available" msgid="2992935344891853369">"उपलब्ध छैन"</string>
     <string name="mac_address_ephemeral_summary" msgid="3284374877361772531">"क्रमरहित MAC"</string>
     <string name="title_ip_address" msgid="705842159484772807">"IP एड्रेस"</string>
-    <string name="title_ssid" msgid="255328048344188682">"Wi-Fi नेटवर्कको नाम प्रविष्टि गर्नुहोस्"</string>
+    <string name="title_ssid" msgid="255328048344188682">"Wi-Fi नेटवर्कको नाम हाल्नुहोस्"</string>
     <string name="title_internet_connection" msgid="7502414094881828069">"इन्टरनेट जडान"</string>
     <string name="connected" msgid="4981532275162345997">"जोडिएको"</string>
     <string name="not_connected" msgid="475810896484271663">"जडित छैन"</string>
@@ -871,7 +871,7 @@
     <string name="inputs_game" msgid="4762255172943107070">"खेल कन्सोल"</string>
     <string name="inputs_aux" msgid="5331442342029867329">"Aux"</string>
     <string name="inputs_custom_name" msgid="2649826613531559538">"अनुकूल नाम"</string>
-    <string name="inputs_custom_name_description_fmt" msgid="2879134265596928298">"<xliff:g id="INPUT">%1$s</xliff:g> इनपुटका लागि नाम प्रविष्टि गर्नुहोस् ।"</string>
+    <string name="inputs_custom_name_description_fmt" msgid="2879134265596928298">"<xliff:g id="INPUT">%1$s</xliff:g> इनपुटका लागि नाम हाल्नुहोस् ।"</string>
     <string name="inputs_hide" msgid="9223355763198742416">"लुकेको"</string>
     <string name="inputs_show" msgid="2937435050499142756">"यो इनपुट देखाउनुहोस्"</string>
     <string name="input_header_names" msgid="5903234218909970550">"नाम"</string>
@@ -999,7 +999,7 @@
     <item msgid="6448060889026244632">"पारिवारिक कोठाको टिभी"</item>
     <item msgid="3336274213215419228">"सुत्ने कोठाको टिभी"</item>
   </string-array>
-    <string name="custom_room" msgid="6798144004583173563">"आफू अनुकूल नाम प्रविष्टि गर्नुहोस्…"</string>
+    <string name="custom_room" msgid="6798144004583173563">"आफू अनुकूल नाम हाल्नुहोस्…"</string>
     <string name="device_rename_title" msgid="9070021379000499270">"यस <xliff:g id="DEVICEMODEL">%1$s</xliff:g> को पुनः नामाकरण गर्नुहोस्"</string>
     <string name="device_rename_description" msgid="1973894029492915135">"यो <xliff:g id="DEVICEMODEL">%1$s</xliff:g> को हालको नाम \"<xliff:g id="DEVICENAME">%2$s</xliff:g>\" छ"</string>
     <string name="device_name_suggestion_title" msgid="3986220212759193742">"आफ्नो डिभाइसको नाम सेट गर्नुहोस्"</string>
