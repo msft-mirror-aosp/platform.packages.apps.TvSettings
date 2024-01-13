@@ -250,7 +250,7 @@
     <string name="bluetooth_incoming_pairing_msg" msgid="8587851808387685613">"Igorlea: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;Gailu honekin parekatu nahi duzu?"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="6934651048757228432">"Gailu honekin parekatzeko: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt;Idatzi hau bertan: &lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;Ondoren, sakatu Itzuli edo Sartu."</string>
     <string name="bluetooth_enter_pin_msg" msgid="8905524093007140634">"Gailu honekin parekatzeko: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;Idatzi gailuaren PINa:"</string>
-    <string name="bluetooth_enter_passkey_msg" msgid="889584097447402492">"Honekin parekatzeko: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;Idatzi gailuaren derrigorrezko pasakodea:"</string>
+    <string name="bluetooth_enter_passkey_msg" msgid="889584097447402492">"Honekin parekatzeko: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;Idatzi gailuaren nahitaezko pasakodea:"</string>
     <string name="bluetooth_pin_values_hint" msgid="6237371515577342950">"0000 edo 1234 izan ohi da"</string>
     <string name="bluetooth_pair" msgid="2410285813728786067">"Parekatu"</string>
     <string name="bluetooth_cancel" msgid="4415185529332987034">"Utzi"</string>

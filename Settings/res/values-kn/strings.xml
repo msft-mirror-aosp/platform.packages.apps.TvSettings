@@ -924,7 +924,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ಮುಂದುವರಿಸಲು <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ಆಯ್ಕೆ ಮಾಡಿ."</string>
     <string name="label_done_key" msgid="8576286462300373440">"ಮುಗಿದಿದೆ"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"ಯಶಸ್ವಿಯಾಗಿ ಸಂಪರ್ಕಗೊಳಿಸಲಾಗಿದೆ"</string>
-    <string name="wifi_setup_save_success" msgid="6862510218032734919">"ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ"</string>
+    <string name="wifi_setup_save_success" msgid="6862510218032734919">"ಯಶಸ್ವಿಯಾಗಿ ಸೇವ್ ಮಾಡಲಾಗಿದೆ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ಆವೃತ್ತಿ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ತೆರೆ"</string>
     <string name="device_apps_app_management_force_stop" msgid="4454221309989640309">"ಫೋರ್ಸ್ ಸ್ಟಾಪ್"</string>
