@@ -278,7 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Forbundet"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Afbrudt"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Du har ikke tilladelse til at ændre Bluetooth-indstillinger."</string>
-    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Brug som lydoutput på fjernsyn"</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Brug til tv-lyd"</string>
     <string name="send_feedback" msgid="936698637869795473">"Giv feedback"</string>
     <string name="launch_help" msgid="2607478763131952469">"Hjælp"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
