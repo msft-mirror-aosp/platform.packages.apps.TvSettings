@@ -628,12 +628,22 @@ public class MainFragment extends PreferenceControllerFragment implements
         btChangeFilter.addAction(BluetoothDevice.ACTION_ACL_DISCONNECTED);
         btChangeFilter.addAction(BluetoothAdapter.ACTION_STATE_CHANGED);
         getContext().registerReceiver(mBCMReceiver, btChangeFilter);
+        if(mConnectivityListenerLite != null) {
+            mConnectivityListenerLite.setListener(this::updateConnectivityType);
+        }
+        mConnectivityListenerOptional.ifPresent(
+                connectivityListener -> connectivityListener.setListener(this::updateConnectivity));
     }
 
     @Override
     public void onStop() {
-        super.onStop();
         getContext().unregisterReceiver(mBCMReceiver);
+        if(mConnectivityListenerLite != null) {
+            mConnectivityListenerLite.setListener(null);
+        }
+        mConnectivityListenerOptional.ifPresent(
+                connectivityListener -> connectivityListener.setListener(null));
+        super.onStop();
     }
 
     @Override
