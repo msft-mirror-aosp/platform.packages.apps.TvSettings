@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="network_change_signatures" translatable="false">
+        <!-- Added allowed signatures in system overlay-->
+        <item>@string/network_change_signatures_prod</item>
+        <!-- Added allowed signatures in system overlay-->
+        <item>@string/network_change_signatures_debug</item>
+    </string-array>
+</resources>
