@@ -98,7 +98,7 @@ public class WifiConnectionActivity extends InstrumentedActivity implements
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        NetworkChangeStateManager.getInstance().setIsNetworkStateKnown(false);
         final UserManager userManager = UserManager.get(this);
         if (userManager.hasUserRestriction(UserManager.DISALLOW_CONFIG_WIFI)) {
             EnforcedAdmin admin = RestrictedLockUtilsInternal.checkIfRestrictionEnforced(this,
