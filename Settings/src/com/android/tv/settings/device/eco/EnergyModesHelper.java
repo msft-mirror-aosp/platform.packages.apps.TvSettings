@@ -33,6 +33,7 @@ import android.text.TextUtils;
 import android.util.ArraySet;
 
 import com.android.tv.settings.R;
+import com.android.tv.settings.overlay.FlavorUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -227,6 +228,10 @@ public final class EnergyModesHelper {
      * If false, energy modes are not supported.
      */
     public static boolean isLowPowerStandbySupported(Context context) {
+        if (FlavorUtils.getFeatureFactory(context).getBasicModeFeatureProvider()
+                .isBasicMode(context)) {
+            return false; // Basic mode does no background processing during standby.
+        }
         final PowerManager powerManager = context.getSystemService(PowerManager.class);
         return powerManager.isLowPowerStandbySupported();
     }
