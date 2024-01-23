@@ -174,7 +174,7 @@ public final class EnergyModesHelper {
             R.array.energy_mode_moderate_baseAllowedFeatures,
             R.array.energy_mode_moderate_vendorAllowedFeatures,
             MODE_LOW_ENERGY,
-            R.string.energy_mode_moderate_all_low_features);
+            R.string.energy_mode_critical_features);
 
     public static EnergyMode MODE_HIGH_ENERGY = new EnergyMode(
             R.string.energy_mode_high_identifier,
@@ -196,7 +196,7 @@ public final class EnergyModesHelper {
             R.array.energy_mode_high_baseAllowedFeatures,
             R.array.energy_mode_high_vendorAllowedFeatures,
             MODE_MODERATE_ENERGY,
-            R.string.energy_mode_moderate_all_moderate_features);
+            R.string.energy_mode_critical_features);
 
     public static EnergyMode MODE_UNRESTRICTED = new EnergyMode(
             R.string.energy_mode_unrestricted_identifier,
@@ -212,7 +212,7 @@ public final class EnergyModesHelper {
             R.string.energy_mode_high_eco_hint,
             R.drawable.ic_bolt,
             0, 0, 0, 0, 0, 0, null,
-            R.string.energy_mode_moderate_all_moderate_features);
+            R.string.energy_mode_critical_features);
 
     public static EnergyMode[] ENERGY_MODES = new EnergyMode[] {
             MODE_LOW_ENERGY, MODE_MODERATE_ENERGY, MODE_HIGH_ENERGY, MODE_UNRESTRICTED };
