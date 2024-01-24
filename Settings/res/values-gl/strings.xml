@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Restablecemento"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Código de vinculación de Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Modos de enerxía"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Mellora a eficiencia enerxética cando non se está usando a televisión"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"Activa as seguintes funcións:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Ten en conta que este modo pode aumentar o consumo de enerxía do dispositivo."</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Activar o modo <xliff:g id="ENERGYMODENAME">%s</xliff:g>"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Localizar o mando a distancia"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Se non dás atopado o mando a distancia de Google TV, fai que emita un son para localizalo"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Preme o botón situado na parte traseira do dispositivo Google TV para que se reproduza un son no mando a distancia durante 30 segundos. Esta acción só se pode levar a cabo con mandos a distancia de Google TV que admitan esta opción.\n\nPreme calquera botón do mando para que deixe de soar."</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Cando está activada a opción Localizar o mando a distancia, podes facer que se reproduza un son para atopar o mando a distancia de Google TV se non sabes onde está."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reproducir son"</string>
 </resources>

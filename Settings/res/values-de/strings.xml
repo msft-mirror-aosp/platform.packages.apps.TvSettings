@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Zurücksetzen"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-Kopplungscode"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Energiemodi"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Stromverbrauch verringern, wenn Fernseher nicht verwendet wird"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"Aktiviert:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Beachte, dass der Stromverbrauch des Geräts in diesem Modus höher sein kann."</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"„<xliff:g id="ENERGYMODENAME">%s</xliff:g>“ aktivieren?"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Fernbedienung finden"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Du kannst auf deiner Google TV-Fernbedienung einen Ton wiedergeben lassen, wenn du sie verlegt hast"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Drück die Taste auf der Rückseite deines Google TV, um 30 Sekunden lang einen Ton auf deiner Fernbedienung wiedergeben zu lassen. Dafür ist eine Fernbedienung erforderlich, die Google TV unterstützt.\n\nDrücke zum Beenden der Wiedergabe eine beliebige Taste auf deiner Fernbedienung."</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Wenn die Funktion „Fernbedienung finden“ aktiviert ist, kannst du einen Ton abspielen, um deine Google TV-Fernbedienung wiederzufinden, wenn du sie verlegt hast."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Ton wiedergeben lassen"</string>
 </resources>

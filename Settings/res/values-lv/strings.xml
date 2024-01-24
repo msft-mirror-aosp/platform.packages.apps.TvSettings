@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Atiestatīšana"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Tīkla Ethernet kods savienošanai pārī"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Enerģijas patēriņa režīmi"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Energoefektivitātes uzlabošana, kad televizors netiek lietots"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"Tiek iespējotas šādas funkcijas:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Ņemiet vērā, ka, izmantojot šo režīmu, var tikt palielināts ierīces enerģijas patēriņš."</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Režīma “<xliff:g id="ENERGYMODENAME">%s</xliff:g>” iespējošana"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Tālvadības ierīces atrašana"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Atskaņojiet signālu, lai atrastu savu Google TV tālvadības ierīci, ja tā ir pazudusi."</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Nospiediet pogu Google TV ierīces aizmugurē, lai 30 sekundes atskaņotu tālvadības ierīces signālu. Tas darbojas tikai atbalstītās Google TV tālvadības ierīcēs.\n\nLai apturētu signāla atskaņošanu, nospiediet jebkuru tālvadības ierīces pogu."</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kad ir iespējota funkcija “Atrast tālvadības ierīci”, varat atskaņot signālu, lai atrastu savu Google TV tālvadības ierīci, ja tā ir pazudusi."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Atskaņot signālu"</string>
 </resources>

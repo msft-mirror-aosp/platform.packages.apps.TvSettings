@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Visszaállítás"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-hálózat párosítókódja"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Energiamódok"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Növeli az energiahatékonyságot, amikor nincs használatban a tévé"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"Engedélyezi a következőket:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Vegye figyelembe, hogy ez az üzemmód növelheti az eszköz energiafogyasztását."</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"A következő engedélyezése: „<xliff:g id="ENERGYMODENAME">%s</xliff:g>”"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Távirányító-kereső"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Hang lejátszásával megkeresheti a Google TV távirányítóját, ha nem találja"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"A Google TV Streamer hátoldalán lévő gombot lenyomva 30 másodpercen át hangot ad ki a távirányító. Ez csak a támogatott Google TV-távirányítóknál működik.\n\nA hanglejátszás leállításához nyomja meg bármelyik gombot a távirányítón."</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Amikor engedélyezve van a Távirányító-kereső, és nem találja a Google TV-távirányítót, az eszközön való hanglejátszással megkeresheti."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Hang lejátszása"</string>
 </resources>

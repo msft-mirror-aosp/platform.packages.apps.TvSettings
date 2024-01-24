@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"I-reset"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Code ng pagpapares ng Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Mga Energy Mode"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Pahusayin ang efficiency ng kuryente kapag hindi ginagamit ang TV"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"Ine-enable ang:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Tandaang posibleng mapataas ng mode na ito ang paggamit ng kuryente ng device."</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"I-enable ang \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Hanapin ang remote ko"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Mag-play ng tunog para mahanap ang remote ng iyong Google TV kung nawawala ito"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Pindutin ang button sa likod ng iyong Google TV para mag-play ng tunog sa iyong remote sa loob ng 30 segundo. Gumagana lang ito sa mga sinusuportahang remote control ng Google TV.\n\nPara itigil ang tunog, pumindot ng kahit anong button sa iyong remote."</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kapag naka-enable ang Hanapin ang remote ko, puwede kang mag-play ng tunog para mahanap ang iyong Google TV remote kung nawawala ito."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"I-play ang tunog"</string>
 </resources>
