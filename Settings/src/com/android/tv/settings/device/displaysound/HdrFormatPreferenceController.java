@@ -110,6 +110,7 @@ public class HdrFormatPreferenceController extends AbstractPreferenceController 
     private void onPreferenceClicked(SwitchPreference preference) {
         final boolean enabled = preference.isChecked();
 
+        boolean resetHdrConversion = false;
         if (enabled) {
             Display display = mDisplayManager.getDisplay(Display.DEFAULT_DISPLAY);
             if (mHdrType == HDR_TYPE_DOLBY_VISION
@@ -117,6 +118,11 @@ public class HdrFormatPreferenceController extends AbstractPreferenceController 
                 enableDvAndChangeTo1080p60(display, preference);
             } else {
                 enableHdrType(mDisplayManager, mHdrType);
+            }
+            // If using AUTO conversion, the system may prefer the newly enabled type
+            if (mDisplayManager.getHdrConversionMode().getConversionMode()
+                    == HdrConversionMode.HDR_CONVERSION_SYSTEM) {
+                resetHdrConversion = true;
             }
         } else {
             disableHdrType(mDisplayManager, mHdrType);
@@ -127,11 +133,14 @@ public class HdrFormatPreferenceController extends AbstractPreferenceController 
             // setUserDisabledHdrTypes
             // mHdrType is selected by user by using FORCE. Change the preferred strategy to AUTO
             // and mHdrType is no longer permissible coz of setUserDisabledHdrTypes
-            if (mDisplayManager.getHdrConversionMode().getPreferredHdrOutputType()
-                    == mHdrType) {
-                mDisplayManager.setHdrConversionMode(
-                        new HdrConversionMode(HdrConversionMode.HDR_CONVERSION_SYSTEM));
+            if (mDisplayManager.getHdrConversionMode().getPreferredHdrOutputType() == mHdrType) {
+                resetHdrConversion = true;
             }
+        }
+
+        if (resetHdrConversion) {
+            mDisplayManager.setHdrConversionMode(
+                    new HdrConversionMode(HdrConversionMode.HDR_CONVERSION_SYSTEM));
         }
     }
 
