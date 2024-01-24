@@ -1144,6 +1144,14 @@
     <string name="connected">Connected</string>
     <!-- Not connected [CHAR LIMIT=50] -->
     <string name="not_connected">Not connected</string>
+    <!-- No internet access [CHAR LIMIT=50] -->
+    <string name="wifi_no_internet">No Internet</string>
+    <!-- Saved network [CHAR LIMIT=50] -->
+    <string name="wifi_saved">Saved</string>
+    <!-- Network with bad password [CHAR LIMIT=50] -->
+    <string name="wifi_bad_password">Wrong password</string>
+    <!-- Network with captive portal [CHAR LIMIT=50] -->
+    <string name="wifi_captive_portal">Sign-in required</string>
 
     <!-- Wifi setting headers [CHAR LIMIT=50] -->
     <string name="wifi_setting_header_other_options">Other options</string>
