@@ -2863,11 +2863,11 @@
     <!-- Title for energy modes preference -->
     <string name="energy_modes">Energy Modes</string>
     <!-- Title for energy mode selection confirmation dialog -->
-    <string name="energy_modes_summary">Improve energy efficiency when TV is not in use</string>
+    <string name="energy_modes_summary">These settings affect the device when not in use</string>
     <!-- Header for list of features enabled in the selected energy mode -->
     <string name="energy_mode_enables">Enables:</string>
     <!-- Warning that selecting a higher energy mode may increase power consumption -->
-    <string name="energy_mode_eco_hint">Note that this mode may increase the power consumption of the device.</string>
+    <string name="energy_mode_eco_hint">Power consumption may increase with the number of TV features you enable.</string>
     <!-- Title for energy mode selection confirmation dialog -->
     <string name="energy_modes_confirmation_title">Enable \"<xliff:g id="energyModeName" example="Essential network features">%s</xliff:g>\"</string>
 

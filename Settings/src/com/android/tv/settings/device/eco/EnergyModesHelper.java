@@ -33,6 +33,7 @@ import android.text.TextUtils;
 import android.util.ArraySet;
 
 import com.android.tv.settings.R;
+import com.android.tv.settings.overlay.FlavorUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -174,7 +175,7 @@ public final class EnergyModesHelper {
             R.array.energy_mode_moderate_baseAllowedFeatures,
             R.array.energy_mode_moderate_vendorAllowedFeatures,
             MODE_LOW_ENERGY,
-            R.string.energy_mode_moderate_all_low_features);
+            R.string.energy_mode_critical_features);
 
     public static EnergyMode MODE_HIGH_ENERGY = new EnergyMode(
             R.string.energy_mode_high_identifier,
@@ -196,7 +197,7 @@ public final class EnergyModesHelper {
             R.array.energy_mode_high_baseAllowedFeatures,
             R.array.energy_mode_high_vendorAllowedFeatures,
             MODE_MODERATE_ENERGY,
-            R.string.energy_mode_moderate_all_moderate_features);
+            R.string.energy_mode_critical_features);
 
     public static EnergyMode MODE_UNRESTRICTED = new EnergyMode(
             R.string.energy_mode_unrestricted_identifier,
@@ -212,7 +213,7 @@ public final class EnergyModesHelper {
             R.string.energy_mode_high_eco_hint,
             R.drawable.ic_bolt,
             0, 0, 0, 0, 0, 0, null,
-            R.string.energy_mode_moderate_all_moderate_features);
+            R.string.energy_mode_critical_features);
 
     public static EnergyMode[] ENERGY_MODES = new EnergyMode[] {
             MODE_LOW_ENERGY, MODE_MODERATE_ENERGY, MODE_HIGH_ENERGY, MODE_UNRESTRICTED };
@@ -227,6 +228,10 @@ public final class EnergyModesHelper {
      * If false, energy modes are not supported.
      */
     public static boolean isLowPowerStandbySupported(Context context) {
+        if (FlavorUtils.getFeatureFactory(context).getBasicModeFeatureProvider()
+                .isBasicMode(context)) {
+            return false; // Basic mode does no background processing during standby.
+        }
         final PowerManager powerManager = context.getSystemService(PowerManager.class);
         return powerManager.isLowPowerStandbySupported();
     }
