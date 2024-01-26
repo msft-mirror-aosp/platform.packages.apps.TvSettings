@@ -1303,6 +1303,15 @@
         </receiver>
 
         <receiver
+            android:name=".connectivity.EthernetDetectionReceiver"
+            android:exported="false"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.android.settings.connectivity.ETHERNET_DETECTED"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver
             android:name=".PreBootCompleteReceiver"
             android:enabled="true"
             android:exported="true">
