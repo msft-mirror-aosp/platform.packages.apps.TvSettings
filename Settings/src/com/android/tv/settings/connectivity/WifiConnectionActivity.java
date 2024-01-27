@@ -45,6 +45,7 @@ import com.android.tv.settings.connectivity.util.StateMachine;
 import com.android.tv.settings.core.instrumentation.InstrumentedActivity;
 import com.android.tv.settings.library.network.AccessPoint;
 import com.android.tv.settings.library.util.DataBinder;
+import com.android.wifitrackerlib.WifiEntry;
 
 /**
  * Add a wifi network where we already know the ssid/security; normal post-install settings.
@@ -53,26 +54,15 @@ public class WifiConnectionActivity extends InstrumentedActivity implements
         State.FragmentChangeListener {
     private static final String TAG = "WifiConnectionActivity";
 
-    private static final String EXTRA_WIFI_SSID = "wifi_ssid";
-    private static final String EXTRA_WIFI_SECURITY_NAME = "wifi_security_name";
     private static final String EXTRA_WIFI_ENTRY = "wifi_entry";
 
-    public static Intent createIntent(Context context, AccessPoint result, int security) {
+    public static Intent createIntent(Context context, AccessPoint result) {
         Bundle bundle = new Bundle();
-        bundle.putString(EXTRA_WIFI_SSID, result.getSsidStr());
-        bundle.putInt(EXTRA_WIFI_SECURITY_NAME, security);
         bundle.putBinder(EXTRA_WIFI_ENTRY, DataBinder.with(result.getWifiEntry()));
         return new Intent(context, WifiConnectionActivity.class)
                 .putExtras(bundle);
     }
 
-    public static Intent createIntent(Context context, AccessPoint result) {
-        final int security = result.getSecurity();
-        return createIntent(context, result, security);
-    }
-
-    private WifiConfiguration mConfiguration;
-    private int mWifiSecurity;
     private StateMachine mStateMachine;
     private State mConnectFailureState;
     private State mConnectState;
@@ -176,26 +166,25 @@ public class WifiConnectionActivity extends InstrumentedActivity implements
                 mFinishState
         );
 
-        mWifiSecurity = getIntent().getIntExtra(EXTRA_WIFI_SECURITY_NAME, 0);
-        mConfiguration = WifiConfigHelper.getConfiguration(
-                this, getIntent().getStringExtra(EXTRA_WIFI_SSID), mWifiSecurity);
+        WifiEntry wifiEntry = DataBinder.getData(
+                getIntent().getExtras().getBinder(EXTRA_WIFI_ENTRY));
 
         AdvancedWifiOptionsFlow.createFlow(
                 this, false, true, null,
                 mOptionsOrConnectState, mConnectState, AdvancedWifiOptionsFlow.START_DEFAULT_PAGE);
         UserChoiceInfo userChoiceInfo =
                     ViewModelProviders.of(this).get(UserChoiceInfo.class);
-        userChoiceInfo.setWifiConfiguration(mConfiguration);
-        userChoiceInfo.setWifiSecurity(mWifiSecurity);
-        userChoiceInfo.setWifiEntry(DataBinder.getData(
-                getIntent().getExtras().getBinder(EXTRA_WIFI_ENTRY)));
+        userChoiceInfo.setWifiEntry(wifiEntry);
+        userChoiceInfo.setWifiConfiguration(
+                wifiEntry.isSaved()
+                ? wifiEntry.getWifiConfiguration()
+                : WifiConfigHelper.getConfiguration(wifiEntry.getSsid(),
+                        wifiEntry.getSecurity()));
+        userChoiceInfo.setWifiSecurity(wifiEntry.getSecurity());
 
-        WifiConfiguration.NetworkSelectionStatus networkStatus =
-                mConfiguration.getNetworkSelectionStatus();
-        if (networkStatus.getNetworkSelectionDisableReason()
-                == WifiConfiguration.NetworkSelectionStatus.DISABLED_BY_WRONG_PASSWORD) {
+        if (wifiEntry.shouldEditBeforeConnect()) {
             mStateMachine.setStartState(mEnterPasswordState);
-        } else if (WifiConfigHelper.isNetworkSaved(mConfiguration)) {
+        } else if (wifiEntry.isSaved()) {
             mStateMachine.setStartState(mKnownNetworkState);
         } else {
             mStateMachine.setStartState(mAddStartState);

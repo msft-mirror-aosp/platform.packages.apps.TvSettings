@@ -443,7 +443,14 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
             }
             newPrefMap.put(accessPoint.getWifiEntry(), restrictedPref);
 
-            if (accessPoint.isActive() && !isCaptivePortal(accessPoint)) {
+            if (isCaptivePortal(accessPoint)) {
+                pref.setFragment(null);
+                pref.setIntent(null);
+                pref.setOnPreferenceClickListener(preference -> {
+                    accessPoint.getWifiEntry().signIn(null);
+                    return true;
+                });
+            } else if (accessPoint.isActive()) {
                 pref.setFragment(WifiDetailsFragment.class.getName());
                 // No need to track entry selection as new page will be focused
                 pref.setOnPreferenceClickListener(preference -> false);
@@ -461,7 +468,7 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
             pref.setVisible(!restrictedPref.isRestricted(UserManager.DISALLOW_CONFIG_WIFI)
                     || accessPoint.isSaved());
             pref.setOrder(index++);
-            pref.setSummary(accessPoint.isActive()? R.string.connected : R.string.not_connected);
+            pref.setSummary(WifiUtils.getConnectionStatus(accessPoint.getWifiEntry()));
             restrictedPref.updatePreference();
 
             Preference restrictedChild = restrictedPref.getPreference();
@@ -492,12 +499,7 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
     }
 
     private boolean isCaptivePortal(AccessPoint accessPoint) {
-        if (accessPoint.getWifiEntry().getConnectedState() != WifiEntry.CONNECTED_STATE_CONNECTED) {
-            return false;
-        }
-        NetworkCapabilities nc = mConnectivityManager.getNetworkCapabilities(
-                mWifiManager.getCurrentNetwork());
-        return nc != null && nc.hasCapability(NetworkCapabilities.NET_CAPABILITY_CAPTIVE_PORTAL);
+        return accessPoint.getWifiEntry().canSignIn();
     }
 
     private Intent makeNetworkDiagnosticsIntent() {
