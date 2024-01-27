@@ -16,15 +16,17 @@
 
 package com.android.tv.settings.connectivity.setup;
 
+import static android.net.wifi.WifiConfiguration.NetworkSelectionStatus.DISABLED_AUTHENTICATION_FAILURE;
+import static android.net.wifi.WifiConfiguration.NetworkSelectionStatus.DISABLED_AUTHENTICATION_NO_CREDENTIALS;
+import static android.net.wifi.WifiConfiguration.NetworkSelectionStatus.DISABLED_BY_WRONG_PASSWORD;
+import static android.net.wifi.WifiConfiguration.NetworkSelectionStatus.NETWORK_SELECTION_ENABLED;
 import static com.android.wifitrackerlib.WifiEntry.ConnectCallback.CONNECT_STATUS_SUCCESS;
 
 import android.annotation.Nullable;
 import android.content.Context;
 import android.net.ConnectivityManager;
-import android.net.Network;
-import android.net.NetworkInfo;
 import android.net.wifi.WifiConfiguration;
-import android.net.wifi.WifiInfo;
+import android.net.wifi.WifiConfiguration.NetworkSelectionStatus;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
 import android.os.Handler;
@@ -154,7 +156,6 @@ public class ConnectState implements State {
                     getContext().getString(R.string.wifi_connecting,
                             WifiSecurityHelper.getSsid(getActivity())));
             mSaveComplete = !needsSave();
-            mWifiManager.disconnect();
             proceedDependOnNetworkState();
             return view;
         }
@@ -210,26 +211,32 @@ public class ConnectState implements State {
 
         @Nullable
         private WifiEntry getEntryForNetworkId(int networkId) {
+            WifiEntry result = null;
             for (AccessPoint accessPoint : mConnectivityListener.getAvailableNetworks()) {
                 if (accessPoint.getConfig() != null
                         && accessPoint.getConfig().networkId == networkId) {
-                    return accessPoint.getWifiEntry();
+                    result = accessPoint.getWifiEntry();
+                } else if (accessPoint.getWifiEntry().canDisconnect()) {
+                    accessPoint.getWifiEntry().disconnect(null);
                 }
             }
-            return null;
+            return result;
         }
 
         @Nullable
         private WifiEntry getEntryForConfiguration() {
+            WifiEntry result = null;
             for (AccessPoint accessPoint : mConnectivityListener.getAvailableNetworks()) {
                 if (AccessPoint.convertToQuotedString(accessPoint.getSsidStr())
                         .equals(mWifiConfiguration.SSID)
                         && accessPoint.getWifiEntry().getSecurityTypes()
-                        .contains(mUserChoiceInfo.getWifiSecurity())) {
-                    return accessPoint.getWifiEntry();
+                        .contains(WifiSecurityHelper.getSecurity(getActivity()))) {
+                    result = accessPoint.getWifiEntry();
+                } else if (accessPoint.getWifiEntry().canDisconnect()) {
+                    accessPoint.getWifiEntry().disconnect(null);
                 }
             }
-            return null;
+            return result;
         }
 
         private void startConnect(WifiEntry wifiEntry) {
@@ -261,13 +268,25 @@ public class ConnectState implements State {
                     return;
                 }
 
-                switch (configuration.getNetworkSelectionStatus()
-                        .getNetworkSelectionDisableReason()) {
-                    case WifiConfiguration.NetworkSelectionStatus.DISABLED_AUTHENTICATION_FAILURE:
-                    case WifiConfiguration.NetworkSelectionStatus.DISABLED_BY_WRONG_PASSWORD:
+                NetworkSelectionStatus networkSelectionStatus =
+                        configuration.getNetworkSelectionStatus();
+                if (networkSelectionStatus.getNetworkSelectionStatus() != NETWORK_SELECTION_ENABLED
+                        || !networkSelectionStatus.hasEverConnected()) {
+                    if (networkSelectionStatus.getDisableReasonCounter(
+                            DISABLED_AUTHENTICATION_FAILURE) > 0
+                            || networkSelectionStatus.getDisableReasonCounter(
+                            DISABLED_BY_WRONG_PASSWORD) > 0
+                            || networkSelectionStatus.getDisableReasonCounter(
+                            DISABLED_AUTHENTICATION_NO_CREDENTIALS) > 0) {
                         mUserChoiceInfo.setConnectionFailedStatus(
                                 UserChoiceInfo.ConnectionFailedStatus.AUTHENTICATION);
-                        break;
+                        notifyListener(StateMachine.RESULT_FAILURE);
+                        return;
+                    }
+                }
+
+                switch (configuration.getNetworkSelectionStatus()
+                        .getNetworkSelectionDisableReason()) {
                     case WifiConfiguration.NetworkSelectionStatus.DISABLED_ASSOCIATION_REJECTION:
                         mUserChoiceInfo.setConnectionFailedStatus(
                                 UserChoiceInfo.ConnectionFailedStatus.REJECTED);
@@ -315,40 +334,8 @@ public class ConnectState implements State {
             }
         }
 
-        private NetworkInfo getActiveWifiNetworkInfo() {
-            Network[] networks = mConnectivityManager.getAllNetworks();
-
-            for (Network network : networks) {
-                NetworkInfo networkInfo = mConnectivityManager.getNetworkInfo(network);
-                if (networkInfo.isConnected()
-                        && networkInfo.getType() == ConnectivityManager.TYPE_WIFI) {
-                    return networkInfo;
-                }
-            }
-            return null;
-        }
-
         private boolean isNetworkConnected() {
-            NetworkInfo netInfo = getActiveWifiNetworkInfo();
-            if (netInfo == null) {
-                if (DEBUG) Log.d(TAG, "NetworkInfo is null; network is not connected");
-                return false;
-            }
-
-            if (DEBUG) Log.d(TAG, "NetworkInfo: " + netInfo.toString());
-            if (netInfo.isConnected() && netInfo.getType() == ConnectivityManager.TYPE_WIFI) {
-                WifiInfo currentConnection = mWifiManager.getConnectionInfo();
-                if (DEBUG) {
-                    Log.d(TAG, "Connected to "
-                            + ((currentConnection == null)
-                            ? "nothing" : currentConnection.getSSID()));
-                }
-                return currentConnection != null
-                        && currentConnection.getSSID().equals(mWifiConfiguration.SSID);
-            } else {
-                if (DEBUG) Log.d(TAG, "Network is not connected");
-            }
-            return false;
+            return mConnectSucceeded;
         }
 
         private void postTimeout() {
