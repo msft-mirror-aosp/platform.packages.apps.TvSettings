@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"යළි සකසන්න"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ඊතර්නෙට් යුගලන කේතය"</string>
     <string name="energy_modes" msgid="1331693860386361744">"බලශක්ති ප්‍රකාර"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"රූපවාහිනිය භාවිතයේ නොමැති විට බලශක්ති කාර්යක්ෂමතාව වැඩි දියුණු කරන්න"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"සබල කරයි:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"මෙම ප්‍රකාරය උපාංගයෙහි බලශක්ති පරිභෝජනය වැඩි කළ හැකි බව සලකන්න."</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" සබල කරන්න"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"මගේ දුරස්ථ පාලකය සොයා ගන්න"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ඔබේ Google TV දුරස්ථ පාලකය අස්ථානගත වී ඇත්නම් එය සොයා ගැනීමට හඬක් වාදනය කරන්න"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"තත්පර 30ක් ඔබේ දුරස්ථ පාලකයේ ශබ්දයක් වාදනය කිරීමට ඔබේ Google TV හි පිටුපස ඇති බොත්තම ඔබන්න. මෙය ක්‍රියා කරන්නේ සහාය දක්වන Google TV දුරස්ථ පාලක සමග පමණි.\n\nශබ්දය නැවැත්වීම සඳහා, ඔබේ දුරස්ථ පාලකයෙහි ඕනෑම බොත්තමක් ඔබන්න."</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"මගේ දුරස්ථය සොයා ගැනීම සබල කර ඇති විට, ඔබේ Google TV දුරස්ථ පාලකය අස්ථානගත වී ඇත්නම් එය සොයා ගැනීමට ඔබට ශබ්දයක් වාදනය කළ හැක."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"හඩ වාදනය කරන්න"</string>
 </resources>

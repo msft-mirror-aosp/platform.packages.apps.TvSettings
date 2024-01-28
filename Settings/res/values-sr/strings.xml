@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Ресетуј"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Кôд за упаривање за етернет"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Режими потрошње енергије"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Побољшајте ефикасност енергије када се ТВ не користи"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"Омогућава:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Имајте на уму да овај режим може да повећа потрошњу енергије на уређају."</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Омогућите режим <xliff:g id="ENERGYMODENAME">%s</xliff:g>"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Пронађи мој даљински"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Пустите звук да бисте лоцирали даљински за Google TV ако сте га затурили"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Притисните дугме на полеђини Google TV-а да бисте на даљинском пустили звук од 30 секунди. То ради само на подржаним даљинским управљачима за Google TV.\n\nДа бисте зауставили овај звук, притисните било које дугме на даљинском."</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Када је омогућена функција Пронађи мој даљински, можете да пустите звук да бисте лоцирали даљински управљач за Google TV ако сте га затурили."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Пусти звук"</string>
 </resources>

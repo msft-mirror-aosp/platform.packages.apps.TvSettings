@@ -60,7 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Persónuvernd"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Stillingar tækis"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Reikningsstillingar"</string>
-    <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google hjálpari"</string>
+    <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google-hjálpari"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Greiðsla og kaup"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Forritsstillingar"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Staðsetning, notkun og greining, auglýsingar"</string>
@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Endurstilla"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-pörunarkóði"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Orkustillingar"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Bæta orkunotkun þegar sjónvarpið er ekki í notkun"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"Virkjar:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Athugaðu að þessi stilling kann að auka orkunotkun tækisins."</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Kveikja á „<xliff:g id="ENERGYMODENAME">%s</xliff:g>“"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Finna fjarstýringuna mína"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Spilaðu hljóð til að finna Google TV-fjarstýringuna ef hún týnist"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Ýttu á hnappinn aftan á Google TV til að spila hljóð í fjarstýringunni í 30 sekúndur. Þetta virkar aðeins í studdum Google TV-fjarstýringum.\n\nÝttu á hvaða hnapp sem er á fjarstýringunni til að stöðva hljóðið."</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Þegar kveikt er á „Finna fjarstýringuna mína“ geturðu spilað hljóð til að finna Google TV-fjarstýringuna ef hún týnist."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spila hljóð"</string>
 </resources>

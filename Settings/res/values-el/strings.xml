@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Επαναφορά"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Κωδικός σύζευξης Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Λειτουργίες ενέργειας"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Βελτίωση της ενεργειακής αποδοτικότητας όταν η τηλεόραση δεν χρησιμοποιείται"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"Ενεργοποιεί:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Έχετε υπόψη ότι η συγκεκριμένη λειτουργία μπορεί να αυξήσει την κατανάλωση ενέργειας της συσκευής."</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Ενεργοποίηση <xliff:g id="ENERGYMODENAME">%s</xliff:g>"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Εύρεση τηλεχειριστηρίου"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Αναπαράγετε ήχο για να εντοπίσετε το τηλεχειριστήριο του Google TV, σε περίπτωση που το έχετε χάσει"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Πατήστε το κουμπί στο πίσω μέρος του Google TV για την αναπαραγωγή ενός ήχου στο τηλεχειριστήριο για 30 δευτερόλεπτα. Αυτό έχει αποτέλεσμα μόνο σε υποστηριζόμενα τηλεχειριστήρια Google TV.\n\nΓια να διακόψετε τον ήχο, πατήστε ένα κουμπί στο τηλεχειριστήριο."</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Όταν είναι ενεργή η Εύρεση τηλεχειριστηρίου, μπορείτε να αναπαράγετε έναν ήχο για να εντοπίσετε το τηλεχειριστήριο του Google TV σε περίπτωση που το έχετε χάσει."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Αναπαραγωγή ήχου"</string>
 </resources>

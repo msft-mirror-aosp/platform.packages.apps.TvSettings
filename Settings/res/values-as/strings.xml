@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"ৰিছেট কৰক"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ইথাৰনেট পেয়াৰ কৰাৰ ক’ড"</string>
     <string name="energy_modes" msgid="1331693860386361744">"শক্তি ম’ড"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"টিভি ব্যৱহাৰ নকৰা সময়ত শক্তিৰ সামৰ্থ্য উন্নত কৰক"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"সক্ষম কৰা সুবিধাসমূহ:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"মন কৰিব যে এই ম’ডটোৰ ফলত ডিভাইচটোৱে অধিক শক্তি ব্যয় কৰিব পাৰে।"</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" সক্ষম কৰক"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"মোৰ ৰিম’ট বিচাৰক"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"আপোনাৰ Google TV ৰিম’টটো হেৰালে সেইটো বিচাৰিবলৈ কোনো ধ্বনি প্লে’ কৰক"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"আপোনাৰ ৰিম’টত ৩০ ছেকেণ্ডৰ বাবে কোনো ধ্বনি প্লে’ কৰিবলৈ আপোনাৰ Google TVৰ পিছফালে থকা বুটামটোত টিপক। এইটোৱে কেৱল সমৰ্থিত Google TV ৰিম’ট কণ্ট্ৰ’লৰ জৰিয়তেহে কাম কৰে।\n\nধ্বনিটো বন্ধ কৰিবলৈ আপোনাৰ ৰিম’টটোত যিকোনো বুটাম টিপক।"</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"মোৰ ৰিম’ট বিচাৰক সক্ষম কৰিলে, আপোনাৰ Google TVৰ ৰিম’টটো সঠিক স্থানত নাথাকিলে সেইটোৰ অৱস্থান জানিবলৈ আপুনি এটা ধ্বনি প্লে’ কৰিব পাৰে।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ধ্বনি প্লে’ কৰক"</string>
 </resources>

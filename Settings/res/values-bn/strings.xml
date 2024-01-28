@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"রিসেট করুন"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ইথারনেট পেয়ারিং কোড"</string>
     <string name="energy_modes" msgid="1331693860386361744">"পাওয়ার মোড"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"টিভি ব্যবহার না করাকালীন পাওয়ার সাশ্রয় করার ক্ষমতা উন্নত করুন"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"চালু করে:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"মনে রাখবেন যে এই মোড ডিভাইসের শক্তি খরচ বাড়াতে পারে।"</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" চালু করুন"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"আমার রিমোট খুঁজুন"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"আপনার Google TV-এর রিমোট হারিয়ে গেলে, সেটি খুঁজতে সাউন্ড চালান"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"আপনার রিমোটে ৩০ সেকেন্ডের জন্য সাউন্ড চালাতে আপনার Google TV-এর পিছনের বোতাম প্রেস করুন। এটি শুধুমাত্র মানানসই Google TV রিমোট কন্ট্রোলের সাথে কাজ করে।\n\nসাউন্ড বন্ধ করতে, আপনার রিমোটের যেকোনও বোতাম প্রেস করুন।"</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'আমার রিমোট খুঁজুন\' সুবিধা চালু থাকাকালীন, আপনার Google TV-এর রিমোট হারিয়ে গেলে, সেটি খুঁজে পেতে সাউন্ড চালাতে পারবেন।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"সাউন্ড চালান"</string>
 </resources>

@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Resetează"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Codul de conectare prin Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Moduri de energie"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Îmbunătățește eficiența energetică atunci când televizorul nu este folosit"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"Activează:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Reține că acest mod poate mări consumul de energie al dispozitivului."</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Activează <xliff:g id="ENERGYMODENAME">%s</xliff:g>"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Găsește-mi telecomanda"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Redă un sunet ca să-ți găsești telecomanda Google TV dacă ai pierdut-o"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Apasă butonul de pe spatele dispozitivului Google TV ca să redai un sunet pe telecomandă timp de 30 de secunde. Opțiunea funcționează numai pentru telecomenzile Google TV acceptate.\n\nCa să oprești sunetul, apasă orice buton de pe telecomandă."</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Când se activează funcția Găsește-mi telecomanda, poți reda un sunet ca să-ți găsești telecomanda Google TV dacă ai pierdut-o."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Redă sunetul"</string>
 </resources>

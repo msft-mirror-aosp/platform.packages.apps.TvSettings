@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"ಮರುಹೊಂದಿಸಿ"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ಇಥರ್ನೆಟ್ ಜೋಡಣೆ ಕೋಡ್‌"</string>
     <string name="energy_modes" msgid="1331693860386361744">"ವಿದ್ಯುತ್ ಮೋಡ್‌ಗಳು"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"ಟಿವಿ ಬಳಕೆಯಲ್ಲಿ ಇಲ್ಲದಿದ್ದಾಗ ವಿದ್ಯುತ್ ದಕ್ಷತೆಯನ್ನು ಸುಧಾರಿಸಿ"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"ಇವುಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುತ್ತದೆ:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"ಈ ಮೋಡ್, ಸಾಧನದ ವಿದ್ಯುತ್ ಬಳಕೆಯನ್ನು ಹೆಚ್ಚಿಸಬಹುದು ಎಂಬುದನ್ನು ಗಮನಿಸಿ."</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ನನ್ನ ರಿಮೋಟ್ ಅನ್ನು ಹುಡುಕಿ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ನಿಮ್ಮ Google TV ರಿಮೋಟ್ ಕಳೆದುಹೋದರೆ ಅದನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಿ"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"30 ಸೆಕೆಂಡ್‌ಗಳ ಕಾಲ ನಿಮ್ಮ ರಿಮೋಟ್‌ನಲ್ಲಿ ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಲು ನಿಮ್ಮ Google TV ಯ ಹಿಂಭಾಗದಲ್ಲಿರುವ ಬಟನ್ ಅನ್ನು ಒತ್ತಿರಿ. ಇದು ಬೆಂಬಲಿತ Google TV ರಿಮೋಟ್ ಕಂಟ್ರೋಲ್‌ಗಳಲ್ಲಿ ಮಾತ್ರ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.\n\nಸೌಂಡ್ ಅನ್ನು ನಿಲ್ಲಿಸಲು, ನಿಮ್ಮ ರಿಮೋಟ್‌ನಲ್ಲಿರುವ ಯಾವುದೇ ಬಟನ್ ಅನ್ನು ಒತ್ತಿರಿ."</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"ನನ್ನ ರಿಮೋಟ್ ಅನ್ನು ಹುಡುಕಿ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ, ನಿಮ್ಮ Google TV ರಿಮೋಟ್ ಕಳೆದುಹೋದರೆ ಅದನ್ನು ಪತ್ತೆಹಚ್ಚಲು ನೀವು ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಬಹುದು."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಿ"</string>
 </resources>
