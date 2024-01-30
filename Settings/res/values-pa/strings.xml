@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"ਰੀਸੈੱਟ ਕਰੋ"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ਈਥਰਨੈੱਟ ਜੋੜਾਬੱਧਕਰਨ ਕੋਡ"</string>
     <string name="energy_modes" msgid="1331693860386361744">"ਊਰਜਾ ਮੋਡ"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"ਟੀਵੀ ਦੇ ਵਰਤੋਂ ਵਿੱਚ ਨਾ ਹੋਣ \'ਤੇ ਊਰਜਾ ਦੀ ਸਮਰੱਥਾ ਨੂੰ ਵਧਾਓ"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"ਚਾਲੂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"ਨੋਟ ਕਰੋ ਕਿ ਇਹ ਮੋਡ ਡੀਵਾਈਸ ਦੀ ਪਾਵਰ ਖਪਤ ਨੂੰ ਵਧਾ ਸਕਦਾ ਹੈ।"</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" ਨੂੰ ਚਾਲੂ ਕਰੋ"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ਮੇਰਾ ਰਿਮੋਟ ਲੱਭੋ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ਜੇ ਤੁਹਾਡੇ Google TV ਦਾ ਰਿਮੋਟ ਗੁਆਚ ਗਿਆ ਹੈ, ਤਾਂ ਇਸਨੂੰ ਲੱਭਣ ਲਈ ਕੋਈ ਧੁਨੀ ਵਜਾਓ"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"30 ਸਕਿੰਟਾਂ ਲਈ ਆਪਣੇ ਰਿਮੋਟ \'ਤੇ ਧੁਨੀ ਵਜਾਉਣ ਲਈ ਆਪਣੇ Google TV ਦੇ ਪਿੱਛੇ ਦਿੱਤੇ ਬਟਨ ਨੂੰ ਦਬਾਓ। ਇਹ ਸਿਰਫ਼ ਸਮਰਥਿਤ Google TV ਰਿਮੋਟ ਕੰਟਰੋਲਾਂ ਨਾਲ ਕੰਮ ਕਰਦੀ ਹੈ।\n\nਧੁਨੀ ਨੂੰ ਰੋਕਣ ਲਈ, ਆਪਣੇ ਰਿਮੋਟ \'ਤੇ ਕਿਸੇ ਵੀ ਬਟਨ ਨੂੰ ਦਬਾਓ।"</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'ਮੇਰਾ ਰਿਮੋਟ ਲੱਭੋ\' ਸੁਵਿਧਾ ਚਾਲੂ ਹੋਣ \'ਤੇ, ਜੇ ਤੁਹਾਡੇ Google TV ਦਾ ਰਿਮੋਟ ਗੁਆਚ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਤੁਸੀਂ ਆਪਣੇ ਰਿਮੋਟ ਨੂੰ ਲੱਭਣ ਲਈ ਇੱਕ ਧੁਨੀ ਵਜਾ ਸਕਦੇ ਹੋ।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ਧੁਨੀ ਵਜਾਓ"</string>
 </resources>

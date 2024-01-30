@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"ຣີເຊັດ"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ລະ​ຫັດ​ການ​ຈັບ​ຄູ່ອີເທີເນັດ"</string>
     <string name="energy_modes" msgid="1331693860386361744">"ໂໝດພະລັງງານ"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"ປັບປຸງປະສິດທິພາບການໃຊ້ພະລັງງານເມື່ອບໍ່ໄດ້ໃຊ້ໂທລະທັດ"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"ເປີດການນຳໃຊ້:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"ກະລຸນາຮັບຊາບວ່າໂໝດນີ້ອາດເຮັດໃຫ້ອຸປະກອນໃຊ້ພະລັງງານຫຼາຍຂຶ້ນ."</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"ເປີດການນຳໃຊ້ \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ຊອກຫາຣີໂໝດຂອງຂ້ອຍ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ຫຼິ້ນສຽງເພື່ອຊອກຫາຣີໂໝດ Google TV ຂອງທ່ານຫາກວາງໄວ້ຜິດບ່ອນ"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"ກົດປຸ່ມຢູ່ດ້ານຫຼັງຂອງ Google TV ຂອງທ່ານເພື່ອຫຼິ້ນສຽງຢູ່ຣີໂໝດຂອງທ່ານເປັນເວລາ 30 ວິນາທີ. ສິ່ງນີ້ໃຊ້ໄດ້ກັບຣີໂໝດຂອງ Google TV ທີ່ຮອງຮັບເທົ່ານັ້ນ.\n\nເພື່ອຢຸດສຽງ, ໃຫ້ກົດປຸ່ມໃດກໍໄດ້ຢູ່ຣີໂໝດຂອງທ່ານ."</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"ເມື່ອເປີດການນຳໃຊ້ຊອກຫາຣີໂໝດຂອງຂ້ອຍ, ທ່ານສາມາດຫຼິ້ນສຽງເພື່ອຊອກຫາຣີໂໝດ Google TV ຂອງທ່ານໄດ້ຫາກວາງໄວ້ຜິດບ່ອນ."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ຫຼິ້ນສຽງ"</string>
 </resources>

@@ -1130,13 +1130,16 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Resetuj"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Kôd za uparivanje za eternet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Režimi potrošnje energije"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Poboljšajte efikasnost energije kada se TV ne koristi"</string>
+    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
+    <skip />
     <string name="energy_mode_enables" msgid="357960364751477627">"Omogućava:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Imajte na umu da ovaj režim može da poveća potrošnju energije na uređaju."</string>
+    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
+    <skip />
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Omogućite režim <xliff:g id="ENERGYMODENAME">%s</xliff:g>"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Pronađi moj daljinski"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Pustite zvuk da biste locirali daljinski za Google TV ako ste ga zaturili"</string>
-    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Pritisnite dugme na poleđini Google TV-a da biste na daljinskom pustili zvuk od 30 sekundi. To radi samo na podržanim daljinskim upravljačima za Google TV.\n\nDa biste zaustavili ovaj zvuk, pritisnite bilo koje dugme na daljinskom."</string>
+    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
+    <skip />
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kada je omogućena funkcija Pronađi moj daljinski, možete da pustite zvuk da biste locirali daljinski upravljač za Google TV ako ste ga zaturili."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Pusti zvuk"</string>
 </resources>
