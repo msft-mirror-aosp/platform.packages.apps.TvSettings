@@ -2801,10 +2801,6 @@
     <!-- Bluetooth settings screen, text that appears in heading bar when scanning for devices -->
     <string name="progress_scanning">Searching</string>
 
-    <!-- All information about NetworkChangeContentProvider to be overlaid -->
-    <string name="network_change_signatures_prod" translatable="false"/>
-    <string name="network_change_signatures_debug" translatable="false"/>
-
     <!-- Message of a dialog shown to inform that the account intent is not available. [CHAR LIMIT=100] -->
     <string name="add_account_intent_not_available_dialog_message">Failed to retrieve add account intent from authenticator.</string>
     <!-- Message of a dialog shown to inform that the account type is not available or failed to add account. [CHAR LIMIT=100] -->
