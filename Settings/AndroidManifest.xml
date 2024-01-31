@@ -78,8 +78,7 @@
     <!-- Permissions for reading network change related data. -->
     <permission
         android:name="com.android.settings.connectivity.READ_NETWORK_CHANGE_DATA"
-        android:protectionLevel="signature|knownSigner"
-        android:knownCerts="@array/network_change_signatures"/>
+        android:protectionLevel="signature|preinstalled" />
 
     <application
          android:name=".TvSettingsApplication"
