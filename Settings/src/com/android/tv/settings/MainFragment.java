@@ -199,11 +199,6 @@ public class MainFragment extends PreferenceControllerFragment implements
         mSuggestionQuickSettingPrefsContainer.showOrHideQuickSettings();
         updateAccountPref();
         updateAccessoryPref();
-        if (isWifiScanOptimisationEnabled()) {
-            mConnectivityListenerLite.handleConnectivityChange();
-        } else {
-            updateConnectivity();
-        }
         updateBasicModeSuggestion();
         updateChannelsAndInputs();
         return super.onCreateView(inflater, container, savedInstanceState);
@@ -633,6 +628,16 @@ public class MainFragment extends PreferenceControllerFragment implements
         }
         mConnectivityListenerOptional.ifPresent(
                 connectivityListener -> connectivityListener.setListener(this::updateConnectivity));
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (isWifiScanOptimisationEnabled()) {
+            mConnectivityListenerLite.handleConnectivityChange();
+        } else {
+            updateConnectivity();
+        }
     }
 
     @Override
