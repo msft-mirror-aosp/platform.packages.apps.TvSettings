@@ -148,6 +148,20 @@ public class TextToSpeechFragment extends SettingsPreferenceFragment implements
         }
     };
 
+    private final UtteranceProgressListener mUtteranceProgressListener =
+            new UtteranceProgressListener() {
+        @Override
+        public void onStart(String utteranceId) {}
+
+        @Override
+        public void onDone(String utteranceId) {}
+
+        @Override
+        public void onError(String utteranceId) {
+            Log.e(TAG, "Error while trying to synthesize sample text");
+        }
+    };
+
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.tts_settings);
@@ -175,8 +189,13 @@ public class TextToSpeechFragment extends SettingsPreferenceFragment implements
         mTts = new TextToSpeech(getActivity().getApplicationContext(), mInitListener);
         mEnginesHelper = new TtsEngines(getActivity().getApplicationContext());
 
-        setTtsUtteranceProgressListener();
         initSettings();
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        setTtsUtteranceProgressListener();
     }
 
     @Override
@@ -193,22 +212,10 @@ public class TextToSpeechFragment extends SettingsPreferenceFragment implements
         }
     }
 
-    private void setTtsUtteranceProgressListener() {
-        if (mTts == null) {
-            return;
-        }
-        mTts.setOnUtteranceProgressListener(new UtteranceProgressListener() {
-            @Override
-            public void onStart(String utteranceId) {}
-
-            @Override
-            public void onDone(String utteranceId) {}
-
-            @Override
-            public void onError(String utteranceId) {
-                Log.e(TAG, "Error while trying to synthesize sample text");
-            }
-        });
+    @Override
+    public void onStop() {
+        mTts.setOnUtteranceProgressListener(null);
+        super.onStop();
     }
 
     @Override
@@ -218,6 +225,13 @@ public class TextToSpeechFragment extends SettingsPreferenceFragment implements
             mTts.shutdown();
             mTts = null;
         }
+    }
+
+    private void setTtsUtteranceProgressListener() {
+        if (mTts == null) {
+            return;
+        }
+        mTts.setOnUtteranceProgressListener(mUtteranceProgressListener);
     }
 
     private void initSettings() {
