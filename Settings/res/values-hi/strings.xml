@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"इंटरनेट कनेक्शन"</string>
     <string name="connected" msgid="4981532275162345997">"कनेक्ट है"</string>
     <string name="not_connected" msgid="475810896484271663">"कनेक्ट नहीं है"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"इंटरनेट नहीं है"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"सेव किया गया"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"गलत पासवर्ड"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"साइन-इन करने की ज़रूरत है"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"दूसरे विकल्प"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"सभी देखें"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"कम देखें"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"रीसेट करें"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ईथरनेट से जोड़ने का कोड"</string>
     <string name="energy_modes" msgid="1331693860386361744">"एनर्जी मोड"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"डिवाइस का इस्तेमाल न होने पर, ये सेटिंग डिवाइस पर असर डालती हैं"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"चालू करता है:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"टीवी की ज़्यादा सुविधाएं चालू होने पर बिजली की खपत बढ़ सकती है."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" को चालू करें"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"मेरा रिमोट ढूंढें"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV रिमोट खो जाने पर, उसका पता लगाने के लिए साउंड चलाएं"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"आपके Google TV पर एक ऐसा बटन होता है जिसे दबाने से रिमोट पर 30 सेकंड के लिए आवाज़ चलाई जा सकती है. ऐसा सिर्फ़ उन Google TV के रिमोट कंट्रोल पर किया जा सकता है जिन पर यह सुविधा काम करती है.\n\nसाउंड बंद करने के लिए, रिमोट के किसी भी बटन को दबाएं."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"अगर \'मेरा रिमोट ढूंढें\' सुविधा चालू है, तो Google TV रिमोट खो जाने पर उसका पता लगाने के लिए साउंड चलाया जा सकता है."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"साउंड चलाएं"</string>
 </resources>

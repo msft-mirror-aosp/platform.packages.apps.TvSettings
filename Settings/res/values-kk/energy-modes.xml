@@ -16,33 +16,23 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- no translation found for energy_mode_critical_features (6833711255772666427) -->
-    <skip />
-    <!-- no translation found for energy_mode_low_title (5700567801191430606) -->
-    <skip />
-    <!-- no translation found for energy_mode_low_subtitle (7660632849388740009) -->
-    <skip />
-    <!-- no translation found for energy_mode_low_info (3931173640626998821) -->
-    <skip />
+    <string name="energy_mode_critical_features" msgid="6833711255772666427">"Маңызды өзгерістер және функциялар"</string>
+    <string name="energy_mode_low_title" msgid="5700567801191430606">"Төмен"</string>
+    <string name="energy_mode_low_subtitle" msgid="7660632849388740009">"Күту режимі"</string>
+    <string name="energy_mode_low_info" msgid="3931173640626998821">"Күту режимі: теледидар өшірулі тұрғанда, желі байланысы да өшеді."</string>
     <!-- no translation found for energy_mode_low_features:0 (6461352788741946449) -->
     <string name="energy_mode_low_eco_hint" msgid="2421460758847643655"></string>
-    <!-- no translation found for energy_mode_moderate_title (8612259261851051150) -->
-    <skip />
-    <!-- no translation found for energy_mode_moderate_subtitle (5565533500130453270) -->
-    <skip />
-    <!-- no translation found for energy_mode_moderate_info (3188005033276283994) -->
-    <skip />
+    <string name="energy_mode_moderate_title" msgid="8612259261851051150">"Оңтайландырылған"</string>
+    <string name="energy_mode_moderate_subtitle" msgid="5565533500130453270">"Желілік күту режимі"</string>
+    <string name="energy_mode_moderate_info" msgid="3188005033276283994">"Желілік күту режимі: теледидарды желі арқылы ояту үшін функцияларды іске қосады."</string>
   <string-array name="energy_mode_moderate_features">
     <item msgid="2654586107956150296">"[Insert feature 1]"</item>
     <item msgid="8724721267222341891">"[Insert feature 2]"</item>
   </string-array>
     <string name="energy_mode_moderate_eco_hint" msgid="252189162446856286"></string>
-    <!-- no translation found for energy_mode_high_title (7596672058005896920) -->
-    <skip />
-    <!-- no translation found for energy_mode_high_subtitle (5994284096495805422) -->
-    <skip />
-    <!-- no translation found for energy_mode_high_info (8805447042714350186) -->
-    <skip />
+    <string name="energy_mode_high_title" msgid="7596672058005896920">"Жоғары"</string>
+    <string name="energy_mode_high_subtitle" msgid="5994284096495805422">"Тұрақты байланыс"</string>
+    <string name="energy_mode_high_info" msgid="8805447042714350186">"Тұрақты байланыс режимі: теледидар өшірулі тұрғанда, желі функцияларын іске қосады."</string>
   <string-array name="energy_mode_high_features">
     <item msgid="3018897868803319747">"[Insert feature 1]"</item>
     <item msgid="170760143032597722">"[Insert feature 2]"</item>

@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Sambungan Internet"</string>
     <string name="connected" msgid="4981532275162345997">"Disambungkan"</string>
     <string name="not_connected" msgid="475810896484271663">"Tidak bersambung"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Tiada Internet"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Disimpan"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Kata laluan salah"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Log masuk diperlukan"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Pilihan lain"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Lihat semua"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Lihat kurang lagi"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Tetapkan semula"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Kod berpasangan Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Mod Tenaga"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Tetapan ini mempengaruhi peranti apabila tidak digunakan"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Mendayakan:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Penggunaan kuasa mungkin meningkat bergantung pada bilangan ciri TV yang anda dayakan."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Dayakan \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Cari alat kawalan jauh saya"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Mainkan bunyi untuk mengesan alat kawalan jauh Google TV anda sekiranya tersalah letak"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Terdapat butang pada Google TV anda yang anda boleh tekan untuk memainkan bunyi pada alat kawalan jauh anda selama 30 saat. Kaedah ini hanya berfungsi dengan alat kawalan jauh Google TV yang disokong.\n\nUntuk menghentikan bunyi, tekan mana-mana butang pada alat kawalan jauh anda."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Apabila Cari alat kawalan jauh saya dihidupkan, anda boleh memainkan bunyi untuk mengesan alat kawalan jauh Google TV anda sekiranya tersalah letak."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Mainkan bunyi"</string>
 </resources>

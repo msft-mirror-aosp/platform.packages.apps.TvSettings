@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Conexão de Internet"</string>
     <string name="connected" msgid="4981532275162345997">"Conectado"</string>
     <string name="not_connected" msgid="475810896484271663">"Não conectado"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Sem Internet"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Salvo"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Senha incorreta"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"É necessário fazer login"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Outras opções"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Ver tudo"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Ver menos"</string>
@@ -1054,7 +1060,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Permitir que apps definam alarmes e programem ações. Essa opção autoriza a execução de apps em segundo plano, o que pode consumir mais bateria.\n\nSe a permissão for desativada, os alarmes e eventos programados pelo app não funcionarão."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Ligar tela"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Permitir que a tela seja ligada"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Permitir que um app ligue a tela. Se permitido, o app vai poder ligar a tela a qualquer momento sem uma intent explícita."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Permitir que um app ative a tela. Com sua autorização, o app vai poder ligar a tela a qualquer momento, sem você pedir."</string>
     <string name="special_access" msgid="21806055758289916">"Acesso especial para apps"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Áudio"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Reiniciar"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Código de pareamento Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Modos de energia"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Essas configurações afetam o dispositivo quando ele não está em uso"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Ativa:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"O consumo de energia pode aumentar com o número de recursos ativados da TV."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Ativar \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Encontrar meu controle remoto"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Toque um som para localizar o controle remoto do Google TV caso ele esteja perdido"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Há um botão no Google TV que você pode pressionar para tocar um som no controle remoto por 30 segundos. Isso só funciona com controles remotos do Google TV compatíveis.\n\nPara interromper o som, pressione qualquer botão no controle."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Quando o recurso Encontrar meu controle remoto estiver ativado, você poderá tocar um som para localizar o controle remoto do Google TV se ele estiver perdido."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Tocar som"</string>
 </resources>

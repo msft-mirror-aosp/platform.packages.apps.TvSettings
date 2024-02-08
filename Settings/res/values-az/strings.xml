@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"İnternet bağlantısı"</string>
     <string name="connected" msgid="4981532275162345997">"Qoşulu"</string>
     <string name="not_connected" msgid="475810896484271663">"Qoşulu deyil"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"İnternet yoxdur"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Yadda saxlandı"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Yanlış parol"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Giriş tələb olunur"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Digər seçimlər"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Hamısına baxın"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Daha azına baxın"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Sıfırlayın"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet qoşulma kodu"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Enerji rejimləri"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Bu ayarlar cihaz istifadə edilmədikdə ona təsir edə bilər"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Aktivləşdirir:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Aktivləşdirdiyiniz TV funksiyalarının sayına görə enerji istehlakı arta bilər."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" rejiminin aktivləşdirilməsi"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Pultumu tapın"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV pultu itibsə, tapmaq üçün səs oxudun"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV-də 30 saniyə pultda səs oxutmaq üçün düymə var. Bu, yalnız dəstəklənən Google TV pultları ilə işləyir.\n\nSəsi dayandırmaq üçün pultun hər hansı düyməsinə basın."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Pultumu tapın funksiyası aktiv olduqda Google TV pultunu tapmaq üçün səs oxuda bilərsiniz."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Səs oxudun"</string>
 </resources>
