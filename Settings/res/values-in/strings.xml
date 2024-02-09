@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Koneksi internet"</string>
     <string name="connected" msgid="4981532275162345997">"Terhubung"</string>
     <string name="not_connected" msgid="475810896484271663">"Tidak terhubung"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Tidak ada internet"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Disimpan"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Sandi salah"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Perlu login"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Opsi lain"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Lihat semua"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Lihat lebih sedikit"</string>
@@ -750,7 +756,7 @@
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"Konfigurasi mesin"</string>
     <string name="system_speak_passwords" msgid="8556036524146404052">"Ucapkan sandi"</string>
     <string name="system_preferred_engine" msgid="3545505072652708443">"Mesin yang dipilih"</string>
-    <string name="system_speech_rate" msgid="6553204071403872669">"Kecepatan ucapan"</string>
+    <string name="system_speech_rate" msgid="6553204071403872669">"Kecepatan bicara"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"Mainkan sampel"</string>
     <string name="system_install_voice_data" msgid="8016395777968958673">"Instal data suara"</string>
     <string name="system_general" msgid="687760148454147771">"Umum"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Reset"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Kode penyambungan ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Mode Energi"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Setelan ini memengaruhi perangkat saat tidak digunakan"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Mengaktifkan:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Penggunaan daya dapat bertambah seiring dengan jumlah fitur TV yang Anda aktifkan."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Aktifkan \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Temukan remote saya"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Memutar suara untuk menemukan lokasi remote Google TV jika Anda lupa tempat menaruhnya"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Terdapat tombol di Google TV yang dapat Anda tekan untuk memutar suara di remote Anda selama 30 detik. Fitur ini hanya berfungsi pada remote control Google TV yang didukung.\n\nUntuk mematikan suara, tekan tombol apa pun di remote."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Saat Temukan remote saya diaktifkan, Anda dapat memutar suara untuk menemukan lokasi remote Google TV jika Anda lupa tempat menaruhnya."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Putar suara"</string>
 </resources>

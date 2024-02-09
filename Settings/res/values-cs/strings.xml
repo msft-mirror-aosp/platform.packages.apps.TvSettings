@@ -435,6 +435,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Internetové připojení"</string>
     <string name="connected" msgid="4981532275162345997">"Připojeno"</string>
     <string name="not_connected" msgid="475810896484271663">"Nepřipojeno"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Nejste připojeni k internetu"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Uloženo"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Nesprávné heslo"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"Heslo sítě Wi-Fi je moc krátké"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Je vyžadováno přihlášení"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Další možnosti"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Zobrazit vše"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Zobrazit méně"</string>
@@ -1130,16 +1135,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Obnovit"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Párovací kód pro ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Energetické režimy"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Tato nastavení ovlivňují zařízení, když ho nikdo nepoužívá"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Zapne tyto funkce:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Pokud povolíte více funkcí televize, může se spotřeba energie zvýšit."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Zapnout režim <xliff:g id="ENERGYMODENAME">%s</xliff:g>"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Vyhledání dálkového ovládání"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Pokud někam založíte dálkové ovládání ke Google TV, najděte ho podle zvuku"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na televizi Google TV je tlačítko, po jehož stisknutí se bude na dálkovém ovládání 30 sekund přehrávat zvuk. Funguje to jen s podporovaným dálkovým ovládáním Google TV.\n\nZvuk vypnete stisknutím libovolného tlačítka na dálkovém ovládání."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Pokud je aktivováno vyhledávání dálkového ovládání, můžete si nechat přehrát zvuk, abyste našli dálkové ovládání Google TV, když nevíte, kde je."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Přehrát zvuk"</string>
 </resources>

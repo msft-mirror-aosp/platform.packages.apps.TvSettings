@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Uxhumano lwe-intanethi"</string>
     <string name="connected" msgid="4981532275162345997">"Ixhunyiwe"</string>
     <string name="not_connected" msgid="475810896484271663">"Akuxhunyiwe"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Ayikho i-Inthanethi"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Ilondoloziwe"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Iphasiwedi engalungile"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Kudingeka ukungena ngemvume"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Okunye okukhethwa kukho"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Buka konke"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Bona okumbalwa"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Setha kabusha"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ikhodi yokubhangqa ye-Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Amamodi Amandla"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Lawa masethingi athinta idivayisi uma ingasetshenziswa"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Inika amandla:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Ukusetshenziswa kwamandla kungase kukhuphuke ngenani lezakhi ze-TV ozinika amandla."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Nika amandla okuthi \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Thola irimothi yami"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Dlala umsindo ukuze uthole irimothi yakho ye-Google TV uma ibekwe kabi"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Kunenkinobho ku-Google TV yakho ongayicindezela ukuze udlale umsindo kurimothi yakho imizuzwana engu-30. Lokhu kusebenza kuphela ngezilawuli-kude ezisekelwayo ze-Google TV.\n\nUkuze umise umsindo, cindezela noma iyiphi inkinobho kurimothi yakho."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Uma okuthi Thola irimothi yami kunikwe amandla, ungadlala umsindo ukuze uthole irimothi yakho ye-Google TV uma ibekwe kabi."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Dlala umsindo"</string>
 </resources>
