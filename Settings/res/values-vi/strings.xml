@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Kết nối Internet"</string>
     <string name="connected" msgid="4981532275162345997">"Đã kết nối"</string>
     <string name="not_connected" msgid="475810896484271663">"Chưa kết nối"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Không có Internet"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Đã lưu"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Mật khẩu sai"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Cần đăng nhập"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Tùy chọn khác"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Xem tất cả"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Ẩn bớt"</string>
@@ -938,7 +944,7 @@
     <string name="device_apps_app_management_enable_desc" msgid="8686291003061136476">"Bạn có muốn bật ứng dụng này không?"</string>
     <string name="device_apps_app_management_storage_used" msgid="6725789557993296433">"Bộ nhớ đã sử dụng"</string>
     <string name="device_apps_app_management_storage_used_desc" msgid="8928632612101487179">"Đã sử dụng <xliff:g id="SIZE">%1$s</xliff:g> trong <xliff:g id="VOLUME">%2$s</xliff:g>"</string>
-    <string name="device_apps_app_management_clear_data" msgid="7305471678286735600">"Xóa dữ liệu"</string>
+    <string name="device_apps_app_management_clear_data" msgid="7305471678286735600">"Xoá dữ liệu"</string>
     <string name="device_apps_app_management_clear_data_desc" msgid="170972356946852847">"Tất cả dữ liệu của ứng dụng này sẽ bị xóa vĩnh viễn, bao gồm tất cả các tệp, các tùy chọn cài đặt, tài khoản, cơ sở dữ liệu, v.v.\n"</string>
     <string name="device_apps_app_management_clear_default" msgid="4566187319647111484">"Xoá các cài đặt mặc định"</string>
     <string name="device_apps_app_management_clear_default_set" msgid="1649974109123107390">"Đặt khởi chạy ƯD này cho một số tác vụ"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Đặt lại"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Mã ghép nối Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Chế độ năng lượng"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Các chế độ cài đặt này có ảnh hưởng đến thiết bị khi bạn không dùng thiết bị"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Các tính năng sẽ bật:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Mức tiêu thụ điện có thể tăng theo số lượng tính năng bật trên TV."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Bật \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Tìm điều khiển từ xa"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Phát chuông báo để tìm điều khiển từ xa Google TV khi bạn không nhớ chỗ để"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Trên Google TV có nút nhấn để phát chuông báo trên điều khiển từ xa trong vòng 30 giây. Tính năng này chỉ hoạt động với các loại điều khiển từ xa được hỗ trợ của Google TV.\n\nNếu bạn muốn dừng chuông báo, hãy nhấn nút bất kỳ trên điều khiển từ xa."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Khi tính năng Tìm điều khiển từ xa đã bật, bạn có thể phát chuông báo để tìm điều khiển từ xa của Google TV nếu bạn không nhớ chỗ để."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Phát chuông báo"</string>
 </resources>

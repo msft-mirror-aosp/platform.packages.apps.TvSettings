@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"ഇന്റർനെറ്റ് കണക്ഷൻ"</string>
     <string name="connected" msgid="4981532275162345997">"കണക്‌റ്റുചെയ്‌തു"</string>
     <string name="not_connected" msgid="475810896484271663">"കണ‌ക്റ്റുചെയ്‌തിട്ടില്ല"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"ഇന്റർനെറ്റ് ഇല്ല"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"സംരക്ഷിച്ചു"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"പാസ്‌വേഡ് തെറ്റാണ്"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"സൈൻ-ഇൻ ചെയ്യേണ്ടതുണ്ട്"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"മറ്റ് ഓപ്‌ഷനുകൾ"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"എല്ലാം കാണുക"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"കുറച്ച് കാണുക"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"റീസെറ്റ് ചെയ്യുക"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ഇതർനെറ്റ് ജോടിയാക്കൽ കോഡ്"</string>
     <string name="energy_modes" msgid="1331693860386361744">"ഊർജ്ജ മോഡുകൾ"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"ഉപയോഗത്തിലില്ലാത്തപ്പോൾ ഈ ക്രമീകരണങ്ങൾ ഉപകരണത്തെ ബാധിക്കുന്നു"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"പ്രവർത്തനക്ഷമമാക്കുന്നു:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"നിങ്ങൾ പ്രവർത്തനക്ഷമമാക്കുന്ന ടിവി ഫീച്ചറുകളുടെ എണ്ണം അനുസരിച്ച് വൈദ്യുതി ഉപഭോഗം വർദ്ധിച്ചേക്കാം."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" പ്രവർത്തനക്ഷമമാക്കുക"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"എന്റെ റിമോട്ട് കണ്ടെത്തൂ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"നിങ്ങളുടെ Google TV റിമോട്ട് എവിടെയെങ്കിലും വച്ച് മറന്നെങ്കിൽ അത് കണ്ടെത്താൻ ഒരു ശബ്ദം പ്ലേ ചെയ്യുക"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"നിങ്ങളുടെ റിമോട്ടിൽ 30 സെക്കൻഡ് നേരത്തേക്ക് ശബ്‌ദം പ്ലേ ചെയ്യാൻ നിങ്ങളുടെ Google TV-യിൽ ഒരു ബട്ടൺ ഉണ്ട്. പിന്തുണയുള്ള Google TV റിമോട്ട് കൺട്രോളുകളിൽ മാത്രമേ ഇത് പ്രവർത്തിക്കൂ.\n\nശബ്ദം നിർത്താൻ, നിങ്ങളുടെ റിമോട്ടിലെ ഏതെങ്കിലും ബട്ടൺ അമർത്തുക."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'എന്റെ റിമോട്ട് കണ്ടെത്തുക\' പ്രവർത്തനക്ഷമമാക്കിയിരിക്കുമ്പോൾ, Google TV റിമോട്ട് എവിടെയെങ്കിലും വച്ച് മറന്നെങ്കിൽ അത് കണ്ടെത്താൻ ഒരു ശബ്ദം പ്ലേ ചെയ്യാം."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ശബ്‌ദം പ്ലേ ചെയ്യുക"</string>
 </resources>

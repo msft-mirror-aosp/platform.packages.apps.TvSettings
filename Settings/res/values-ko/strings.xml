@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"인터넷 연결"</string>
     <string name="connected" msgid="4981532275162345997">"연결됨"</string>
     <string name="not_connected" msgid="475810896484271663">"연결되지 않음"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"인터넷 연결 없음"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"저장됨"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"잘못된 비밀번호"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"로그인 필요"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"기타 옵션"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"모두 보기"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"간략히 보기"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"초기화"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"이더넷 페어링 코드"</string>
     <string name="energy_modes" msgid="1331693860386361744">"에너지 모드"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"다음 설정은 사용 중이지 않은 기기에 영향을 줍니다"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"사용 설정되는 기능:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"사용 설정하는 TV 기능의 수에 따라 전력 소비량이 증가할 수 있습니다."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\'<xliff:g id="ENERGYMODENAME">%s</xliff:g>\' 사용 설정"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"내 리모컨 찾기"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV 리모컨을 잃어버린 경우 소리를 재생하여 위치 찾기"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV에 있는 버튼을 누르면 리모컨에서 30초 동안 소리가 울립니다. 이 기능은 지원되는 Google TV 리모컨에서만 작동합니다.\n\n소리 재생을 중지하려면 리모컨의 아무 버튼이나 누르세요."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"내 리모컨 찾기를 사용 설정하면 리모컨을 어디 두었는지 찾을 수 없을 때 소리를 재생하여 Google TV 리모컨을 찾을 수 있습니다."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"소리 재생"</string>
 </resources>

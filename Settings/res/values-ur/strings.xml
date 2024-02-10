@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"انٹرنیٹ کنکشن"</string>
     <string name="connected" msgid="4981532275162345997">"مربوط ہے"</string>
     <string name="not_connected" msgid="475810896484271663">"غیر منسلک"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"انٹرنیٹ نہیں ہے"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"محفوظ ہے"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"غلط پاس ورڈ"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"سائن ان درکار ہے"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"دیگر اختیارات"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"سبھی دیکھیں"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"کم ملاحظہ کریں"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"ری سیٹ کریں"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ایتھرنیٹ سے جوڑا بنانے کا کوڈ"</string>
     <string name="energy_modes" msgid="1331693860386361744">"توانائی کی وضعیں"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"یہ ترتیبات استعمال میں نہ ہونے پر آلہ کو متاثر کرتی ہیں"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"فعال کرتا ہے:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"آپ کے فعال کردہ TV خصوصیات کی تعداد کے ساتھ بجلی کی کھپت بڑھ سکتی ہے۔"</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" کو فعال کریں"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"میرا ریموٹ تلاش کریں"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"اگر آپ کا Google TV کا ریموٹ گم ہو گیا ہے تو اس کا پتا لگانے کے لیے آواز چلائیں"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"آپ کے Google TV پر ایک بٹن ہے جسے آپ 30 سیکنڈ تک اپنے ریموٹ پر آواز چلانے کے لیے دبا سکتے ہیں۔ یہ صرف تعاون یافتہ Google TV کے ریموٹ کنٹرولز کے ساتھ کام کرتا ہے۔\n\nآواز کو روکنے کے لیے، اپنے ریموٹ پر موجود کسی بھی بٹن کو دبائیں۔"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"میرا ریموٹ تلاش کریں فعال ہونے پر اگر آپ کا Google TV ریموٹ کہیں گم ہو جائے تو آپ اس کو تلاش کرنے کے لئے آواز چلا سکتے ہیں۔"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"آواز چلائیں"</string>
 </resources>

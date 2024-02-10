@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"ការ​តភ្ជាប់​អ៊ីនធឺណិត"</string>
     <string name="connected" msgid="4981532275162345997">"បាន​ត​ភ្ជាប់"</string>
     <string name="not_connected" msgid="475810896484271663">"មិន​បាន​តភ្ជាប់"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"គ្មាន​អ៊ីនធឺណិត"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"បាន​រក្សាទុក"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"ពាក្យសម្ងាត់មិនត្រឹមត្រូវ"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"តម្រូវឱ្យ​ចូលគណនី"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"ជម្រើស​ផ្សេង​ៗ"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"​មើល​ទាំង​អស់"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"មើលតិចជាងមុន"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"កំណត់​ឡើងវិញ"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"កូដផ្គូផ្គងអ៊ីសឺរណិត"</string>
     <string name="energy_modes" msgid="1331693860386361744">"មុខងារថាមពល"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"ការកំណត់​ទាំងនេះ​ប៉ះពាល់ដល់​ឧបករណ៍ នៅពេល​ដែលមិន​ស្ថិតក្នុងការ​ប្រើប្រាស់"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"បើក៖"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"ការប្រើប្រាស់​ថាមពល​អាចកើនឡើង​ដោយសារ​ចំនួន​មុខងារ​ទូរទស្សន៍​ដែលអ្នកបើក។"</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"បើក \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ស្វែងរកឧបករណ៍​បញ្ជាពីចម្ងាយរបស់ខ្ញុំ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ចាក់សំឡេងណាមួយ ដើម្បីកំណត់ទីតាំងឧបករណ៍​បញ្ជាពីចម្ងាយសម្រាប់ Google TV របស់អ្នក ប្រសិនបើបាត់ឧបករណ៍នោះ"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"មានប៊ូតុង​នៅលើ Google TV របស់អ្នក​ដែលអ្នកអាច​ចុចដើម្បីចាក់​សំឡេង​នៅលើ​ឧបករណ៍​បញ្ជាពីចម្ងាយ​របស់អ្នក​រយៈពេល 30 វិនាទី។ សកម្មភាពនេះដំណើរការតែជាមួយនឹងឧបករណ៍​​បញ្ជា​ Google TV ពី​ចម្ងាយដែលអាចប្រើបានប៉ុណ្ណោះ។\n\nដើម្បីបញ្ឈប់សំឡេង សូមចុចប៊ូតុងណាមួយលើឧបករណ៍​បញ្ជាពីចម្ងាយរបស់អ្នក។"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"នៅពេលបើក \"រកឧបករណ៍​បញ្ជាពីចម្ងាយរបស់ខ្ញុំ\" អ្នកអាចចាក់សំឡេងណាមួយ ដើម្បីកំណត់ទីតាំងឧបករណ៍​បញ្ជាពីចម្ងាយសម្រាប់ Google TV របស់អ្នក ប្រសិនបើបាត់ឧបករណ៍នោះ។"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ចាក់​សំឡេង"</string>
 </resources>

@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"इंटरनेट कनेक्शन"</string>
     <string name="connected" msgid="4981532275162345997">"कनेक्ट केलेले"</string>
     <string name="not_connected" msgid="475810896484271663">"कनेक्ट केले नाही"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"इंटरनेट नाही"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"सेव्ह केलेले"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"चुकीचा पासवर्ड"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"साइन-इन करणे आवश्यक आहे"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"इतर पर्याय"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"सर्व पहा"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"थोडे पहा"</string>
@@ -963,10 +969,10 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"डिस्प्ले बंद करा"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"पॉवर आणि ऊर्जेसंबंधित सेटिंग कंफर्म करा"</string>
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"पॉवर आणि ऊर्जेसंबंधित सेटिंग कन्फर्म करा"</string>
     <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"तुमच्या टीव्ही बराच काळ सुरू ठेवल्यामुळे ऊर्जेचा वापर वाढू शकतो"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"एनर्जी सेव्‍हर सेटिंग बंद करा"</string>
-    <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"कृपया पाहात असताना डिस्प्ले बंद होण्यापासून रोखण्यासाठी कंफर्म करा, ज्यामध्ये ऊर्जा वापर वाढण्याची शक्यता आहे."</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"कृपया पाहात असताना डिस्प्ले बंद होण्यापासून रोखण्यासाठी कन्फर्म करा, ज्यामध्ये ऊर्जा वापर वाढण्याची शक्यता आहे."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"इनॅक्टिव्ह असताना"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"पाहत असताना"</string>
     <string name="device_energy_saver_category_title" msgid="170076161677525986">"आपोआप बंद होते"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"रीसेट करा"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"इथरनेट पेअरिंग कोड"</string>
     <string name="energy_modes" msgid="1331693860386361744">"ऊर्जेचे मोड"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"डिव्हाइस वापरात नसताना या सेटिंग्जचा त्यावर परिणाम होतो"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"सुरू करते:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"तुम्ही सुरू केलेल्या टीव्ही वैशिष्ट्यांच्या संख्येनुसार विजेचा वापर वाढू शकतो."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" सुरू करा"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"माझा रिमोट शोधा"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"तुमचा Google TV रिमोट हरवला असल्यास, तो शोधण्यासाठी आवाज प्ले करा"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"तुमच्या Google TV वर एक बटण आहे, जे तुम्ही तुमच्या रिमोटवर ३० सेकंदांसाठी आवाज प्ले करण्यासाठी प्रेस करू शकता. हे फक्त सपोर्ट असलेल्या Google TV रिमोट कंट्रोलसह काम करते.\n\nआवाज थांबवण्यासाठी, तुमच्या रिमोटवरील कोणतेही बटण प्रेस करा."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"माझा रिमोट शोधा सुरू असते, तेव्हा तुमचा Google TV रिमोट हरवला असल्यास, तो शोधण्यासाठी तुम्ही आवाज प्ले करू शकता."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"आवाज प्ले करा"</string>
 </resources>

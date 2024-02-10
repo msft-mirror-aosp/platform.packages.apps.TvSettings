@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"ઇન્ટરનેટ કનેક્શન"</string>
     <string name="connected" msgid="4981532275162345997">"કનેક્ટ કર્યુ"</string>
     <string name="not_connected" msgid="475810896484271663">"કનેક્ટ થયેલ નથી"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"ઇન્ટરનેટ ઍક્સેસ નથી"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"સાચવેલું"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"ખોટો પાસવર્ડ"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"સાઇન ઇન આવશ્યક છે"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"અન્ય વિકલ્પો"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"બધું જુઓ"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"ઓછી જુઓ"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"રીસેટ કરો"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ઇથરનેટનો જોડાણ કરવાનો કોડ"</string>
     <string name="energy_modes" msgid="1331693860386361744">"ઊર્જા મોડ"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"જ્યારે ડિવાઇસ ઉપયોગમાં ન હોય ત્યારે આ સેટિંગ તેને અસર કરે છે"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"આ ચાલુ કરે છે:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"તમે ચાલુ કરો છો તે ટીવી સુવિધાઓની સંખ્યા સાથે પાવરનો વપરાશ વધી શકે છે."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" ચાલુ કરો"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"મારું રિમોટ શોધો"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"જો Google TVનું તમારું રિમોટ ખોવાઈ ગયું હોય, તો તેને શોધવા માટે સાઉન્ડ વગાડો"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"તમારા Google TV પર એક બટન છે જેને તમે તમારા રિમોટ પર 30 સેકન્ડ માટે સાઉન્ડ ચલાવવા માટે પુશ કરી શકો છો. આ Google TVના માત્ર સપોર્ટેડ રિમોટ કન્ટ્રોલ સાથે કામ કરે છે.\n\nસાઉન્ડ બંધ કરવા માટે, તમારા રિમોટ પરનું કોઈપણ બટન દબાવો."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'મારું રિમોટ શોધો\' સુવિધા ચાલુ કરેલી હોય, ત્યારે જો Google TVનું તમારું રિમોટ ખોવાઈ ગયું હોય, તો તમે તેને શોધવા માટે કોઈ સાઉન્ડ વગાડી શકો છો."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"સાઉન્ડ વગાડો"</string>
 </resources>

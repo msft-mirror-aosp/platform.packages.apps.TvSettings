@@ -39,6 +39,7 @@ import androidx.preference.PreferenceCategory;
 
 import com.android.tv.settings.R;
 import com.android.tv.settings.SettingsPreferenceFragment;
+import com.android.tv.twopanelsettings.TwoPanelSettingsFragment;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -54,7 +55,8 @@ import java.util.Set;
 @Keep
 public class TextToSpeechFragment extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, Preference.OnPreferenceClickListener,
-        TtsEnginePreference.RadioButtonGroupState {
+        TtsEnginePreference.RadioButtonGroupState,
+        TwoPanelSettingsFragment.NavigationCallback {
     private static final String TAG = "TextToSpeechSettings";
     private static final boolean DBG = false;
 
@@ -260,7 +262,24 @@ public class TextToSpeechFragment extends SettingsPreferenceFragment implements
             mEnginePreferenceCategory.addPreference(enginePref);
         }
 
+        if (!(getCallbackFragment() instanceof TwoPanelSettingsFragment)) {
+            checkVoiceData(mCurrentEngine);
+        }
+    }
+
+    @Override
+    public void onNavigateToPreview() {
         checkVoiceData(mCurrentEngine);
+    }
+
+    @Override
+    public void onNavigateBack() {
+        // Do nothing.
+    }
+
+    @Override
+    public boolean canNavigateBackOnDPAD() {
+        return true;
     }
 
     /**
@@ -297,9 +316,7 @@ public class TextToSpeechFragment extends SettingsPreferenceFragment implements
         }
 
         mTts.setLanguage(defaultLocale);
-        if (evaluateDefaultLocale() && mSampleText == null) {
-            getSampleText();
-        }
+        evaluateDefaultLocale();
     }
 
     private boolean evaluateDefaultLocale() {
@@ -422,7 +439,7 @@ public class TextToSpeechFragment extends SettingsPreferenceFragment implements
     }
 
     private void onSampleTextReceived(int resultCode, Intent data) {
-        String sample = getDefaultSampleString();
+        String sample = null;
 
         if (resultCode == TextToSpeech.LANG_AVAILABLE && data != null) {
             if (data.getStringExtra("sampleText") != null) {
@@ -432,16 +449,19 @@ public class TextToSpeechFragment extends SettingsPreferenceFragment implements
         } else {
             if (DBG) Log.d(TAG, "Using default sample text :" + sample);
         }
-
-        mSampleText = sample;
-        if (mSampleText != null) {
-            updateWidgetState(true);
-        } else {
-            Log.e(TAG, "Did not have a sample string for the requested language. Using default");
+        if (sample == null) {
+            sample = getDefaultSampleString();
         }
+        mSampleText = sample;
+        // The sample text is only requested (and thus received) when calling speakSampleText().
+        // We need to call the method again if the text was previously not available.
+        speakSampleText();
     }
 
     private void speakSampleText() {
+        if (mSampleText == null && evaluateDefaultLocale()) {
+            getSampleText();
+        }
         final boolean networkRequired = isNetworkRequiredForSynthesis();
         if (!networkRequired ||
                 mTts.isLanguageAvailable(mCurrentDefaultLocale) >= TextToSpeech.LANG_AVAILABLE) {
@@ -614,9 +634,7 @@ public class TextToSpeechFragment extends SettingsPreferenceFragment implements
             // Set mAvailableStrLocals to empty list
             mAvailableStrLocals = new ArrayList<>();
         }
-        if (evaluateDefaultLocale()) {
-            getSampleText();
-        }
+        evaluateDefaultLocale();
 
         final TextToSpeech.EngineInfo engineInfo = mEnginesHelper.getEngineInfo(engine);
         TtsEngineSettingsFragment.prepareArgs(mEngineSettingsPref.getExtras(),

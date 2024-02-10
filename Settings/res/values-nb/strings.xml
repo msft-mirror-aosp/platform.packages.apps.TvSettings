@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Internett-forbindelse"</string>
     <string name="connected" msgid="4981532275162345997">"Tilkoblet"</string>
     <string name="not_connected" msgid="475810896484271663">"Ikke tilkoblet"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Ingen internettilkobling"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Lagret"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Feil passord"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Du må logge på"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Andre alternativer"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Se alle"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Se færre"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Tilbakestill"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Tilkoblingskode for Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Strømmoduser"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Disse innstillingene påvirker enheten når den ikke er i bruk"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Aktiverer følgende:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Strømforbruket kan øke basert på hvor mange TV-funksjoner du aktiverer."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Slå på «<xliff:g id="ENERGYMODENAME">%s</xliff:g>»"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Finn fjernkontrollen min"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Spill av en lyd for å finne Google TV-fjernkontrollen hvis du ikke finner den"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV har en knapp du kan trykke på for å spille av en lyd på fjernkontrollen i 30 sekunder. Dette fungerer bare med støttede Google TV-fjernkontroller.\n\nFor å stoppe lyden, trykk på en knapp på fjernkontrollen."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Når Finn fjernkontrollen min er slått på, kan du spille av en lyd for å finne Google TV-fjernkontrollen din hvis du ikke finner den."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spill av lyd"</string>
 </resources>
