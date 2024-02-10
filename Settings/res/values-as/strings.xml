@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"ইণ্টাৰনেট সংযোগ"</string>
     <string name="connected" msgid="4981532275162345997">"সংযোগ কৰা হ’ল"</string>
     <string name="not_connected" msgid="475810896484271663">"সংযোগ হোৱা নাই"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"ইণ্টাৰনেট নাই"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"ছেভ কৰা হৈছে"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"ভুল পাছৱৰ্ড"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"ছাইন-ইন কৰাৰ প্ৰয়োজন"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"অন্য বিকল্পসমূহ"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"সকলো চাওক"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"কম সংখ্যক চাওক"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"ৰিছেট কৰক"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ইথাৰনেট পেয়াৰ কৰাৰ ক’ড"</string>
     <string name="energy_modes" msgid="1331693860386361744">"শক্তি ম’ড"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"এই ছেটিংসমূহে ডিভাইচটো ব্যৱহাৰ হৈ নথকা অৱস্থাত প্ৰভাৱ পেলায়"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"সক্ষম কৰা সুবিধাসমূহ:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"আপুনি সক্ষম কৰা টিভিৰ সুবিধাসমূহৰ সমান্তৰালভাৱে শক্তিৰ খৰচ বৃদ্ধি পাব পাৰে।"</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" সক্ষম কৰক"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"মোৰ ৰিম’ট বিচাৰক"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"আপোনাৰ Google TV ৰিম’টটো হেৰালে সেইটো বিচাৰিবলৈ কোনো ধ্বনি প্লে’ কৰক"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"আপোনাৰ Google TVত এটা বুটাম আছে, যিটো আপুনি নিজৰ ৰিম’টত ৩০ ছেকেণ্ডৰ বাবে এটা ধ্বনি প্লে’ কৰিবলৈ টিপিব পাৰে। এইটোৱে কেৱল সমৰ্থিত Google TV ৰিম’ট কণ্ট্ৰ’লৰ জৰিয়তেহে কাম কৰে।\n\nধ্বনিটো বন্ধ কৰিবলৈ আপোনাৰ ৰিম’টটোত যিকোনো বুটাম টিপক।"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"মোৰ ৰিম’ট বিচাৰক সক্ষম কৰিলে, আপোনাৰ Google TVৰ ৰিম’টটো সঠিক স্থানত নাথাকিলে সেইটোৰ অৱস্থান জানিবলৈ আপুনি এটা ধ্বনি প্লে’ কৰিব পাৰে।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ধ্বনি প্লে’ কৰক"</string>
 </resources>

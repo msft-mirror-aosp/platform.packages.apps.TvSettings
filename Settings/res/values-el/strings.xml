@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Σύνδεση στο διαδίκτυο"</string>
     <string name="connected" msgid="4981532275162345997">"Συνδέθηκε"</string>
     <string name="not_connected" msgid="475810896484271663">"Δεν συνδέθηκε"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Χωρίς σύνδεση στο διαδίκτυο"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Αποθηκεύτηκε"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Λανθασμένος κωδικός πρόσβασης"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Απαιτείται σύνδεση"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Άλλες επιλογές"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Εμφάνιση όλων"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Εμφάνιση λιγότερων"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Επαναφορά"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Κωδικός σύζευξης Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Λειτουργίες ενέργειας"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Αυτές οι ρυθμίσεις επηρεάζουν τη συσκευή όταν δεν είναι σε χρήση"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Ενεργοποιεί:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Η κατανάλωση ενέργειας ενδέχεται να αυξηθεί με τον αριθμό των λειτουργιών τηλεόρασης που ενεργοποιείτε."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Ενεργοποίηση <xliff:g id="ENERGYMODENAME">%s</xliff:g>"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Εύρεση τηλεχειριστηρίου"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Αναπαράγετε ήχο για να εντοπίσετε το τηλεχειριστήριο του Google TV, σε περίπτωση που το έχετε χάσει"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Υπάρχει ένα κουμπί στο Google TV που μπορείτε να πατήσετε για την αναπαραγωγή ενός ήχου στο τηλεχειριστήριο για 30 δευτερόλεπτα. Αυτό έχει αποτέλεσμα μόνο σε υποστηριζόμενα τηλεχειριστήρια Google TV.\n\nΓια να διακόψετε τον ήχο, πατήστε ένα κουμπί στο τηλεχειριστήριο."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Όταν είναι ενεργή η Εύρεση τηλεχειριστηρίου, μπορείτε να αναπαράγετε έναν ήχο για να εντοπίσετε το τηλεχειριστήριο του Google TV σε περίπτωση που το έχετε χάσει."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Αναπαραγωγή ήχου"</string>
 </resources>

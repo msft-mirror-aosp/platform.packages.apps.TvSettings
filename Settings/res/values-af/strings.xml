@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Internetverbinding"</string>
     <string name="connected" msgid="4981532275162345997">"Gekoppel"</string>
     <string name="not_connected" msgid="475810896484271663">"Nie gekoppel nie"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Geen internet nie"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Gestoor"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Verkeerde wagwoord"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Aanmelding nodig"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Ander opsies"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Sien alles"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Sien minder"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Stel terug"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-saambindkode"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Energiemodusse"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Hierdie instellings affekteer die toestel wanneer dit nie gebruik word nie"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Aktiveer:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Kragverbruik kan verhoog volgens die aantal TV-kenmerke wat jy aktiveer."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Aktiveer “<xliff:g id="ENERGYMODENAME">%s</xliff:g>”"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Soek my afstandbeheerder"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Speel ’n klank om jou Google TV-afstandbeheerder te kry as dit soek is"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Daar is ’n knoppie op jou Google TV wat jy kan druk om vir 30 sekondes ’n klank op jou afstandbeheerder te speel. Dit werk net met ondersteunde Google TV-afstandbeheerders.\n\nDruk enige knoppie op jou afstandbeheerder om die klank te stop."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"As Soek my afstandbeheerder geaktiveer is, kan jy ’n klank speel om jou Google TV se afstandbeheerder op te spoor indien dit misplaas is."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Speel klank"</string>
 </resources>
