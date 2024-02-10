@@ -264,7 +264,7 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Tilbehør"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Fjernbetjening"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Indstillinger for fjernbetjeningen"</string>
-    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Konfigurer fjernbetjeningsknapper"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Konfigurer fjern­betjenings­knapper"</string>
     <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Styr lydstyrke, afbryderknap og indgangskilde på fjernsyn, modtagere og soundbars"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Opret forbindelse"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Opret forbindelse til %1$s"</string>
@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Internetforbindelse"</string>
     <string name="connected" msgid="4981532275162345997">"Forbundet"</string>
     <string name="not_connected" msgid="475810896484271663">"Ikke tilsluttet"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Ingen internetadgang"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Gemt"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Forkert adgangskode"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Login er påkrævet"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Andre valgmuligheder"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Se alle"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Se færre"</string>
@@ -1022,8 +1028,8 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"Administrer tastaturer"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Tilladt"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Ikke tilladt"</string>
-    <string name="usage_access" msgid="8402350645248312782">"Adgang til telefonbrug"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"Med adgang til telefonbrug kan en app se, hvilke andre apps du anvender og hvor ofte, samt dit mobilselskab, dine sprogindstillinger og andre oplysninger."</string>
+    <string name="usage_access" msgid="8402350645248312782">"Adgang til brug"</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"Med adgang til brug kan en app se, hvilke andre apps du anvender og hvor ofte, samt dit mobilselskab, dine sprogindstillinger og andre oplysninger."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Energioptimering"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Optimer energiforbruget for apps"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"Ingen apps skal optimeres"</string>
@@ -1046,7 +1052,7 @@
     <string name="write_settings_on" msgid="71675710746513956">"Ja"</string>
     <string name="write_settings_off" msgid="6730113471695092167">"Nej"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Adgang til alle filer"</string>
-    <string name="permit_manage_external_storage" msgid="1776899171934627417">"Tillad administrationsadgang til alle filer"</string>
+    <string name="permit_manage_external_storage" msgid="1776899171934627417">"Tillad admin­istrations­adgang til alle filer"</string>
     <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Giv denne app tilladelse til at læse, ændre og slette alle filer på denne enhed eller andre tilsluttede lagringsløsninger. Hvis du giver tilladelse til dette, kan appen få adgang til dine filer, uden du specifikt bliver gjort opmærksom på det."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Integreret billede"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Tillad integreret billede"</string>
@@ -1131,16 +1137,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Nulstil"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-parringskode"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Energitilstande"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Disse indstillinger påvirker enheden, når den ikke er i brug"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Aktiverer:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Antallet af aktiverede funktioner på fjernsynet kan øge strømforbruget."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Aktivér \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Find min fjernbetjening"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Afspil en lyd for at finde din fjernbetjening til Google TV, hvis den er blevet væk"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Der er en knap på dit Google TV, som du kan trykke på for at afspille en lyd på din fjernbetjening i 30 sekunder. Dette virker kun på understøttede Google TV-fjernbetjeninger.\n\nTryk på en vilkårlig knap på fjernbetjeningen for at stoppe lyden."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Når Find min fjernbetjening er aktiveret, kan du afspille en lyd for at finde din fjernbetjening til Google TV, hvis den er blevet væk."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Afspil lyd"</string>
 </resources>

@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Connexion Internet"</string>
     <string name="connected" msgid="4981532275162345997">"Connecté"</string>
     <string name="not_connected" msgid="475810896484271663">"Non connecté"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Aucune connexion Internet"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Enregistré"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Mot de passe incorrect"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Connexion obligatoire"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Autres options"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Tout afficher"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Moins de résultats"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Réinitialiser"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Code d\'association Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Modes de consommation d\'énergie"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Ces paramètres ont une incidence sur l\'appareil lorsqu\'il n\'est pas utilisé"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Active :"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"La consommation d\'énergie peut augmenter en fonction du nombre de fonctionnalités du téléviseur que vous activez."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Activer « <xliff:g id="ENERGYMODENAME">%s</xliff:g> »"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Localiser ma télécommande"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Faites jouer un son pour localiser votre télécommande Google TV si elle est égarée"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Un bouton sur votre Google TV vous permet d\'émettre un son sur votre télécommande pendant 30 secondes. Cette action ne fonctionne qu\'avec les télécommandes prises en charge par Google TV.\n\nPour couper le son, appuyez sur n\'importe quel bouton de votre télécommande."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Quand la fonctionnalité Localiser ma télécommande est activée, vous pouvez faire jouer un son pour localiser votre télécommande Google TV si elle est égarée."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Faire jouer un son"</string>
 </resources>

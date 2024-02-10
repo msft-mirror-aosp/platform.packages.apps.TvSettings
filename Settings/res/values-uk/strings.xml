@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"З’єднання з Інтернетом"</string>
     <string name="connected" msgid="4981532275162345997">"З’єднано"</string>
     <string name="not_connected" msgid="475810896484271663">"Не з’єднано"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Немає Інтернету"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Збережено"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Неправильний пароль"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Потрібно ввійти"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Інші варіанти"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Показати все"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Показати менше"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Скидання"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Код підключення Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Режими енергоспоживання"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Ці налаштування впливають на пристрій, коли він не використовується"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Функції, що вмикаються"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Енергоспоживання може підвищуватися залежно від кількості функцій, які ви вмикаєте на телевізорі."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Увімкнути режим \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Знайти пульт"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Якщо ви загубили пульт Google TV, відтворіть на ньому звуковий сигнал, щоб швидше знайти"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"На пристрої Google TV є кнопка, яку можна натиснути, щоб на пульті дистанційного керування протягом 30 секунд відтворювався звуковий сигнал. Ця функція працює лише з підтримуваними пультами ДК для Google TV.\n\nЩоб вимкнути звуковий сигнал, натисніть будь-яку кнопку на пульті."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Увімкнувши функцію \"Знайти пульт\", ви зможете відтворити звуковий сигнал на пульті Google TV, якщо загубили його."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Відтворити звуковий сигнал"</string>
 </resources>

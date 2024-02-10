@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"互联网连接"</string>
     <string name="connected" msgid="4981532275162345997">"已连接"</string>
     <string name="not_connected" msgid="475810896484271663">"未连接"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"未连接到互联网"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"已保存"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"密码错误"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"需要登录"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"其他选项"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"查看全部"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"隐藏部分"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"重置"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"以太网配对码"</string>
     <string name="energy_modes" msgid="1331693860386361744">"能耗模式"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"这些设置会在您未使用设备时影响设备"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"此模式会启用下列功能："</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"您启用的电视功能数量越多，耗电量可能会越高。"</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"启用“<xliff:g id="ENERGYMODENAME">%s</xliff:g>”"</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"查找我的遥控器"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"让忘记放在何处的 Google TV 遥控器响铃，以便找到它"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV 上有一个按钮，按下后遥控器会响铃 30 秒钟。此操作仅对支持的 Google TV 遥控器有效。\n\n若要停止响铃，请按下遥控器上的任意按钮。"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"当“查找我的遥控器”处于启用状态时，您可让找不到的 Google TV 遥控器响铃，从而定位它。"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"响铃"</string>
 </resources>

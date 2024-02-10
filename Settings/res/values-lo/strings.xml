@@ -435,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"​ການ​ເຊື່ອມ​ຕໍ່​ອິນ​ເຕີ​ເນັດ"</string>
     <string name="connected" msgid="4981532275162345997">"ເຊື່ອມ​ຕໍ່ແລ້ວ"</string>
     <string name="not_connected" msgid="475810896484271663">"ບໍ່ໄດ້ເຊື່ອມຕໍ່"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"ບໍ່ມີອິນເຕີເນັດ"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"ບັນທຶກແລ້ວ"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"ຕ້ອງເຂົ້າສູ່ລະບົບກ່ອນ"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"ໂຕເລືອກ​ອື່ນໆ"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"ເບິ່ງ​ທັງ​ໝົດ"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"ເບິ່ງໜ້ອຍລົງ"</string>
@@ -1130,16 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"ຣີເຊັດ"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ລະ​ຫັດ​ການ​ຈັບ​ຄູ່ອີເທີເນັດ"</string>
     <string name="energy_modes" msgid="1331693860386361744">"ໂໝດພະລັງງານ"</string>
-    <!-- no translation found for energy_modes_summary (2324906343309484649) -->
-    <skip />
+    <string name="energy_modes_summary" msgid="2324906343309484649">"ການຕັ້ງຄ່າເຫຼົ່ານີ້ມີຜົນກະທົບຕໍ່ອຸປະກອນເມື່ອບໍ່ໄດ້ໃຊ້"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"ເປີດການນຳໃຊ້:"</string>
-    <!-- no translation found for energy_mode_eco_hint (5280058011809503514) -->
-    <skip />
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"ການໃຊ້ພະລັງງານອາດຈະເພີ່ມຂຶ້ນຕາມຈໍານວນຄຸນສົມບັດໂທລະທັດທີ່ທ່ານເປີດການນຳໃຊ້."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"ເປີດການນຳໃຊ້ \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ຊອກຫາຣີໂໝດຂອງຂ້ອຍ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ຫຼິ້ນສຽງເພື່ອຊອກຫາຣີໂໝດ Google TV ຂອງທ່ານຫາກວາງໄວ້ຜິດບ່ອນ"</string>
-    <!-- no translation found for find_my_remote_slice_description (313598681990933215) -->
-    <skip />
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"ມີປຸ່ມຢູ່ Google TV ຂອງທ່ານທີ່ທ່ານສາມາດກົດເພື່ອຫຼິ້ນສຽງຢູ່ຣີໂໝດຂອງທ່ານເປັນເວລາ 30 ວິນາທີ. ສິ່ງນີ້ໃຊ້ໄດ້ກັບຣີໂໝດຂອງ Google TV ທີ່ຮອງຮັບເທົ່ານັ້ນ.\n\nເພື່ອຢຸດສຽງ, ໃຫ້ກົດປຸ່ມໃດກໍໄດ້ຢູ່ຣີໂໝດຂອງທ່ານ."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"ເມື່ອເປີດການນຳໃຊ້ຊອກຫາຣີໂໝດຂອງຂ້ອຍ, ທ່ານສາມາດຫຼິ້ນສຽງເພື່ອຊອກຫາຣີໂໝດ Google TV ຂອງທ່ານໄດ້ຫາກວາງໄວ້ຜິດບ່ອນ."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ຫຼິ້ນສຽງ"</string>
 </resources>
