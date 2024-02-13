@@ -35,14 +35,4 @@ public class BasicModeFeatureProviderImpl implements BasicModeFeatureProvider {
     public void startBasicModeExitActivity(@NonNull Activity activity) {
         // no-op
     }
-
-    @Override
-    public void startBasicModeInternetBlock(@NonNull Activity activity) {
-        // no-op
-    }
-
-    @Override
-    public boolean isStoreDemoMode(@NonNull Context context) {
-        return false;
-    }
 }
