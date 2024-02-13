@@ -974,10 +974,6 @@
     <string name="about_license_activity_unavailable">License data is unavailable</string>
     <!-- Preference which shows model. [CHAR LIMIT=50] -->
     <string name="about_model">Model</string>
-    <!-- Preference which shows the current device mode. [CHAR LIMIT=100] -->
-    <string name="device_mode">Device Mode</string>
-    <!-- Description of the current usage of the device indicating it is in a demo mode. [CHAR LIMIT=100] -->
-    <string name="store_demo_mode">Store Demo</string>
     <!-- Preference which shows version. [CHAR LIMIT=50] -->
     <string name="about_version">Android TV OS version</string>
     <!-- Preference which shows serial number. [CHAR LIMIT=50] -->
@@ -2824,7 +2820,6 @@
     <string name="basic_mode_exit_package" translatable="false" />
     <string name="basic_mode_exit_component" translatable="false" />
     <string name="basic_mode_exit_data" translatable="false" />
-    <string name="basic_mode_exit_internet" translatable="false" />
     <string name="basic_mode_suggestion_category_title" translatable="false" />
     <string name="basic_mode_exit_preference_title" translatable="false" />
     <string name="basic_mode_exit_preference_subtitle" translatable="false" />
