@@ -29,12 +29,13 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.net.ConnectivityManager;
-import android.net.NetworkCapabilities;
 import android.net.NetworkInfo;
 import android.net.wifi.WifiManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.SystemClock;
+import android.os.SystemProperties;
 import android.os.UserManager;
 import android.provider.Settings;
 import android.util.ArrayMap;
@@ -51,6 +52,7 @@ import com.android.tv.settings.MainFragment;
 import com.android.tv.settings.R;
 import com.android.tv.settings.RestrictedPreferenceAdapter;
 import com.android.tv.settings.SettingsPreferenceFragment;
+import com.android.tv.settings.basic.BasicModeFeatureProvider;
 import com.android.tv.settings.library.network.AccessPoint;
 import com.android.tv.settings.overlay.FlavorUtils;
 import com.android.tv.settings.util.SliceUtils;
@@ -112,7 +114,6 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
     private Preference mEthernetStatusPref;
     private Preference mEthernetProxyPref;
     private Preference mEthernetDhcpPref;
-    private PreferenceCategory mWifiOther;
     private Map<WifiEntry, RestrictedPreferenceAdapter<TvAccessPointPreference>> mPrefMap =
             Collections.emptyMap();
 
@@ -195,7 +196,6 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
         mAddPref = (RestrictedPreference) findPreference(KEY_WIFI_ADD);
         mAddEasyConnectPref = (RestrictedPreference) findPreference(KEY_WIFI_ADD_EASYCONNECT);
         mAlwaysScan = (TwoStatePreference) findPreference(KEY_WIFI_ALWAYS_SCAN);
-        mWifiOther = (PreferenceCategory) findPreference(KEY_WIFI_OTHER);
 
         mEthernetCategory = (PreferenceCategory) findPreference(KEY_ETHERNET);
         mEthernetStatusPref = findPreference(KEY_ETHERNET_STATUS);
@@ -272,7 +272,22 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
         }
         switch (preference.getKey()) {
             case KEY_WIFI_ENABLE:
-                mConnectivityListener.setWifiEnabled(mEnableWifiPref.isChecked());
+                BasicModeFeatureProvider provider = FlavorUtils.getFeatureFactory(
+                        getContext()).getBasicModeFeatureProvider();
+                if (mEnableWifiPref.isChecked() &&
+                        Settings.Global.getInt(
+                                getContext().getContentResolver(), Settings.Global.ADB_ENABLED, 0)
+                                != 1 && SystemProperties.getInt(
+                        "ro.product.first_api_level", Build.VERSION.SDK_INT)
+                        >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE && provider.isBasicMode(
+                        getContext())
+                        && !provider.isStoreDemoMode(getContext())) {
+                    // WiFi turned ON + not developer + launched on U+ + basic mode.
+                    // Prevent WiFi connection by launching dialog instead.
+                    provider.startBasicModeInternetBlock(getActivity());
+                } else {
+                    mConnectivityListener.setWifiEnabled(mEnableWifiPref.isChecked());
+                }
                 logToggleInteracted(
                         TvSettingsEnums.NETWORK_WIFI_ON_OFF, mEnableWifiPref.isChecked());
                 return true;
@@ -473,7 +488,7 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
 
             Preference restrictedChild = restrictedPref.getPreference();
             if (restrictedChild.getParent() != null &&
-                restrictedChild.getParent() != mWifiNetworksCategory) {
+                    restrictedChild.getParent() != mWifiNetworksCategory) {
                 // Remove first if added to parent from old fragment.
                 restrictedChild.getParent().removePreference(restrictedChild);
             }
