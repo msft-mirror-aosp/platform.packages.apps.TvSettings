@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ऐप्लिकेशन सेटिंग"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"जगह, इस्तेमाल और गड़बड़ी की जानकारी, विज्ञापन"</string>
     <string name="add_account" msgid="7386223854837017129">"खाता जोड़ें"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"खाते की जानकारी नहीं है"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"खाता निकालें"</string>
     <string name="account_sync" msgid="4315295293211313989">"सिंक किए गए ऐप्लिकेशन चुनें"</string>
     <string name="sync_now" msgid="4335217984374620551">"अभी सिंक करें"</string>
@@ -191,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"सैंपल टेक्स्ट"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"द वंडरफुल विज़र्ड ऑफ़ ऑज़"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"चैप्टर 11: द वंडरफुल एमरल्ड सिटी ऑफ़ ऑज़"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"हरे रंग का चश्मा पहनने के बावजूद, डॉरथी और उसके दोस्त इस अद्भुत शहर की चकाचौंध देखकर हैरान थे. हरे रंग के संगमरमर से बने खूबसूरत घर, सड़कों के किनारे कतार में खड़े थे और उन पर चमचमाते पन्ने जड़े हुए थे. वे उसी हरे रंग के संगमरमर से बने फ़ुटपाथ पर चलने लगे. जहां ब्लॉक आपस में जुड़ रहे थे वहां पन्ने की कतारें थीं, जो बारीकी से सेट की गई थीं और सूरज की रोशनी में चमचमा रही थीं. खिड़कियों के शीशे हरे रंग के थे; यहां तक कि शहर के ऊपर छाए आसमान में भी हरे रंग की झलक थी और सूरज की किरणें भी हरी थीं. \n\nवहां बहुत से लोग घूम रहे थे, जिनमें महिलाएं, पुरुष, और बच्चे शामिल थे. उन सभी ने हरे रंग के कपड़े पहने हुए थे और उनकी त्वचा भी हरे रंग की थी. उन्होंने डॉरथी और उसके अजीबोगरीब दोस्तों की ओर अचरज भरी नज़रों से देखा. जब बच्चों ने शेर को देखा, तो वे सभी अपनी-अपनी मां के पीछे जाकर छिप गए, लेकिन किसी ने भी उनसे बात नहीं की. सड़क पर कई दुकानें थीं और डॉरथी ने देखा कि उन दुकानों में सब कुछ हरा था. हरी कैंडी और हरे पॉपकॉर्न बिक रहे थे. साथ ही, हरे जूते, हरी टोपियां, और सभी तरह के कपड़े भी हरे रंग के थे. एक जगह पर, एक व्यक्ति हरे रंग वाला नींबू का शरबत बेच रहा था. डॉरथी ने देखा कि शरबत खरीदने के लिए बच्चों ने हरे रंग के सिक्के दिए. \n\nवहां घोड़ा या किसी भी तरह का कोई जानवर नहीं था; लोग हरे रंग की छोटी-छोटी गाड़ियों में सामान इधर-उधर ले जा रहे थे, जिन्हें वे धक्का देकर चला रहे थे. हर कोई खुश, संतुष्ट, और समृद्ध नज़र आ रहा था."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"हरे रंग का चश्मा पहनने के बावजूद, डॉरथी और उसके दोस्त इस अद्भुत शहर की चकाचौंध देखकर हैरान थे. सड़कों के किनारे कतार में, हरे रंग के संगमरमर से बने खूबसूरत घर थे और उनमें चमचमाते संगमरमर से बने पन्ने जड़े हुए थे. वे उसी हरे रंग के संगमरमर से बने फ़ुटपाथ पर चलने लगे. जहां ब्लॉक आपस में जुड़ रहे थे वहां पन्ने की कतारें थीं. वे बारीकी से सेट की गई थीं और सूरज की रोशनी में चमचमा रही थीं. खिड़कियों के शीशे हरे रंग के थे; यहां तक कि शहर के ऊपर छाए आसमान में भी हरे रंग की झलक थी और सूरज की किरणें भी हरी थीं. \n\nवहां बहुत से लोग घूम रहे थे. इनमें महिलाएं, पुरुष, और बच्चे शामिल थे. उन सभी ने हरे रंग के कपड़े पहने थे और उनकी त्वचा भी हरे रंग की थी. उन्होंने डॉरथी और उसके अजीबोगरीब दोस्तों की ओर अचरज भरी नज़रों से देखा. जब बच्चों ने शेर को देखा, तो वे सभी अपनी-अपनी मां के पीछे जाकर छिप गए, लेकिन किसी ने भी उनसे बात नहीं की. सड़क पर कई दुकानें थीं और डॉरथी ने देखा कि उन दुकानों में सब कुछ हरा था. हरी कैंडी और हरे पॉपकॉर्न बिक रहे थे. साथ ही, हरे जूते, हरी टोपियां, और सभी तरह के कपड़े भी हरे रंग के थे. एक जगह पर, एक व्यक्ति हरे रंग वाला नींबू का शरबत बेच रहा था. डॉरथी ने देखा कि शरबत खरीदने के लिए बच्चों ने हरे रंग के सिक्के दिए. \n\nवहां घोड़ा या किसी भी तरह का कोई जानवर नहीं था; लोग हरे रंग की छोटी-छोटी गाड़ियों में सामान इधर-उधर ले जा रहे थे, जिन्हें वे धक्का देकर चला रहे थे. हर कोई खुश, संतुष्ट, और समृद्ध नज़र आ रहा था."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"फ़ॉर्मैट चुनें"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"अपने-आप"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"मैन्युअल तौर पर चुनें"</string>
@@ -277,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"कनेक्ट हो गया"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"डिसकनेक्ट हो गया"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"आपको ब्लूटूथ सेटिंग में बदलाव करने की अनुमति नहीं है."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"टीवी पर ऑडियो चलाने के लिए इस्तेमाल करें"</string>
     <string name="send_feedback" msgid="936698637869795473">"सुझाव भेजें"</string>
     <string name="launch_help" msgid="2607478763131952469">"सहायता केंद्र"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -433,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"इंटरनेट कनेक्शन"</string>
     <string name="connected" msgid="4981532275162345997">"कनेक्ट है"</string>
     <string name="not_connected" msgid="475810896484271663">"कनेक्ट नहीं है"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"इंटरनेट नहीं है"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"सेव किया गया"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"गलत पासवर्ड"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"साइन-इन करने की ज़रूरत है"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"दूसरे विकल्प"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"सभी देखें"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"कम देखें"</string>
@@ -741,7 +749,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"चालू करें"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"कॉन्फ़िगरेशन"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> का उपयोग करें?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"पासवर्ड को छोड़कर, <xliff:g id="SERVICE">%1$s</xliff:g>   लिखा गया सभी लेख एकत्रित कर सकती है. इसमें व्‍यक्तिगत डेटा, जैसे क्रेडिट कार्ड नंबर शामिल हैं."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> सेवा आपकी स्क्रीन को पढ़ने, दूसरे ऐप्लिकेशन पर कॉन्टेंट को दिखाने, ऐप्लिकेशन या हार्डवेयर सेंसर के साथ आपकी बातचीत को ट्रैक करने के साथ-साथ, आपकी ओर से ऐप्लिकेशन से इंटरैक्ट कर पाएगी."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"<xliff:g id="SERVICE">%1$s</xliff:g> को रोकें?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"ठीक चुनने से <xliff:g id="SERVICE">%1$s</xliff:g> बंद हो जाएगी."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"लिखाई को बोली में बदलना"</string>
@@ -771,7 +779,7 @@
     <string name="system_usb_debugging" msgid="2158285492172755923">"USB डीबग करना"</string>
     <string name="system_allow_mock_locations" msgid="2483106887711851466">"कृत्रिम स्‍थानों को अनुमति दें"</string>
     <string name="system_select_debug_app" msgid="6200987902307533721">"डीबग ऐप्स  चुनें"</string>
-    <string name="system_wait_for_debugger" msgid="5715878008542589060">"डीबगर की प्रतीक्षा करें"</string>
+    <string name="system_wait_for_debugger" msgid="5715878008542589060">"डीबगर की इंतज़ार करें"</string>
     <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"USB पर ऐप्स  सत्यापित करें"</string>
     <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"ADB/ADT के ज़रिए इंस्टॉल किए गए ऐप्लिकेशन नुकसानदेह व्यवहार के लिए जाँचें"</string>
     <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"वाई-फ़ाई अत्यधिक शब्द प्रवेश"</string>
@@ -900,6 +908,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"प्रतिबंधों को कस्टमाइज़ करें"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"एक क्षण रुकें…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"पिन बदलें"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"प्रतिबंधित प्रोफ़ाइल बनाएं?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"पहले से बनी हुई है"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"अभी नहीं"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"पिन बनाएं"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"प्रतिबंधित प्रोफ़ाइल पर जाएं?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"प्रतिबंधित प्रोफ़ाइल नहीं मिली"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"पहले से मौजूद है"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"यह ऐप आपके खातों को ऐक्सेस कर सकता है. <xliff:g id="APP">%1$s</xliff:g> के द्वारा नियंत्रित है"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"यह चैनल देखने के लिए पिन डालें"</string>
@@ -1106,6 +1121,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"कनेक्ट हो गया"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"सभी दिखाएं"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"खोज की जा रही है"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"पुष्टि करने वाले से खाता जोड़ने का इंटेंट वापस नहीं लाया जा सका."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"खाता जोड़ा नहीं जा सका या खाता टाइप उपलब्ध नहीं है."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"चैनल और इनपुट"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"चैनल, बाहरी इनपुट"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"चैनल"</string>
@@ -1114,13 +1131,18 @@
     <string name="picture_settings_title" msgid="7643193630924322697">"तस्वीर"</string>
     <string name="screen_settings_title" msgid="7806908869190824434">"स्क्रीन"</string>
     <string name="sound_settings_title" msgid="9149367966117889465">"आवाज़"</string>
-    <string name="power_and_energy" msgid="4638182439670702556">"पावर और ऊर्जा"</string>
+    <string name="power_and_energy" msgid="4638182439670702556">"पावर और एनर्जी"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"टीवी के चालू होने पर दिखने वाली स्क्रीन"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"रीसेट करें"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ईथरनेट से जोड़ने का कोड"</string>
     <string name="energy_modes" msgid="1331693860386361744">"एनर्जी मोड"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"टीवी इस्तेमाल में नहीं होने पर, ऊर्जा की क्षमता में सुधार करता है"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"डिवाइस का इस्तेमाल न होने पर, ये सेटिंग डिवाइस पर असर डालती हैं"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"चालू करता है:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"ध्यान दें कि यह मोड डिवाइस की बिजली खपत बढ़ा सकता है."</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"टीवी की ज़्यादा सुविधाएं चालू होने पर बिजली की खपत बढ़ सकती है."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" को चालू करें"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"मेरा रिमोट ढूंढें"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV रिमोट खो जाने पर, उसका पता लगाने के लिए साउंड चलाएं"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"आपके Google TV पर एक ऐसा बटन होता है जिसे दबाने से रिमोट पर 30 सेकंड के लिए आवाज़ चलाई जा सकती है. ऐसा सिर्फ़ उन Google TV के रिमोट कंट्रोल पर किया जा सकता है जिन पर यह सुविधा काम करती है.\n\nसाउंड बंद करने के लिए, रिमोट के किसी भी बटन को दबाएं."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"अगर \'मेरा रिमोट ढूंढें\' सुविधा चालू है, तो Google TV रिमोट खो जाने पर उसका पता लगाने के लिए साउंड चलाया जा सकता है."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"साउंड चलाएं"</string>
 </resources>

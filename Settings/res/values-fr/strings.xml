@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Paramètres des applications"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Localisation, utilisation et diagnostics, annonces"</string>
     <string name="add_account" msgid="7386223854837017129">"Ajouter un compte"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Compte inconnu"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Supprimer le compte"</string>
     <string name="account_sync" msgid="4315295293211313989">"Sélectionner les applis synchronisées"</string>
     <string name="sync_now" msgid="4335217984374620551">"Synchroniser"</string>
@@ -191,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Exemple de texte"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Le Magicien d\'Oz"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Chapitre 11 : La merveilleuse cité d\'émeraude"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Malgré leurs lunettes vertes, Dorothée et ses amis, au début, furent éblouis par l\'éclat de la Cité merveilleuse. Les rues étaient bordées de maisons splendides, toutes de marbre vert et incrustées d\'émeraudes étincelantes. Ils marchaient sur une chaussée du même marbre, et la jointure des dalles était sertie de rangs serrés d\'émeraudes qui resplendissaient au soleil. Les carreaux aux fenêtres étaient verts, le ciel au-dessus de la Cité avait une teinte verte, et le soleil lui-même lançait des rayons verts. \n\nBeaucoup de gens déambulaient dans les rues, hommes, femmes et enfants ; tous étaient vêtus de vert et avaient le teint verdâtre. Étonnés, ils dévisageaient Dorothée et son étrange escorte, les enfants couraient se cacher derrière leurs mères à la vue du Lion ; mais personne ne leur adressait la parole. Il y avait de nombreuses boutiques et Dorothée remarqua que tout y était vert à l\'intérieur. Tout ce qu\'on y vendait était vert : le sucre candi et le pop-corn, les souliers, les chapeaux et les habits. Dans une boutique, un homme vendait de la limonade verte et Dorothée vit que les enfants payaient avec des sous verts. \n\nIl semblait n\'y avoir ni chevaux, ni animaux d\'aucune espèce ; les hommes transportaient diverses choses dans de petites charrettes vertes qu\'ils poussaient devant eux. Tout le monde avait un air heureux et satisfait, et chacun respirait la prospérité."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Malgré leurs lunettes vertes, Dorothée et ses amis furent d\'abord éblouis par l\'éclat de la Cité merveilleuse. Les rues étaient bordées de splendides maisons, toutes de marbre vert et incrustées d\'émeraudes étincelantes. Ils marchaient sur une chaussée du même marbre, et la jointure des dalles était sertie de rangs serrés d\'émeraudes qui brillaient au soleil. Les carreaux aux fenêtres étaient verts, le ciel au-dessus de la Cité avait une teinte verte, et le soleil lui-même lançait des rayons verts. \n\nDes gens déambulaient dans les rues, hommes, femmes et enfants ; ils étaient tous vêtus de vert et avaient le teint verdâtre. Étonnés, ils dévisageaient Dorothée et son escorte, les enfants couraient se cacher derrière leurs mères à la vue du Lion ; mais personne ne leur parlait. Dorothée remarqua que tout était vert à l\'intérieur des nombreuses boutiques. Tout ce qu\'on y vendait était vert : le sucre candi, le pop-corn, les souliers, les chapeaux et les vêtements. Dans une boutique, un homme vendait de la limonade verte et Dorothée vit que les enfants payaient avec de l\'argent vert. \n\nIl semblait n\'y avoir ni chevaux, ni animaux d\'aucune sorte ; les hommes transportaient des choses dans de petites charrettes vertes. Tout le monde avait l\'air heureux et satisfait, et chacun respirait la prospérité."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Sélection du format"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automatique"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manuelle"</string>
@@ -277,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Connecté"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Déconnecté"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Vous n\'êtes pas autorisé à modifier les paramètres Bluetooth."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Utiliser pour l\'audio TV"</string>
     <string name="send_feedback" msgid="936698637869795473">"Envoyer des commentaires"</string>
     <string name="launch_help" msgid="2607478763131952469">"Centre d’aide"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -371,7 +373,7 @@
     <string name="about_build" msgid="8467840394761634575">"Build Android TV"</string>
     <string name="show_dev_countdown" msgid="4064986225625409361">"{count,plural, =1{Plus que # étape pour devenir développeur}one{Plus que # étape pour devenir développeur}other{Plus que # étapes pour devenir développeur}}"</string>
     <string name="about_ads" msgid="7662896442040086522">"Annonces"</string>
-    <string name="ads_description" msgid="8081069475265061074">"Gérez paramètres annonces, modifiez identifiant publicitaire."</string>
+    <string name="ads_description" msgid="8081069475265061074">"Gérez les paramètres des annonces, modifiez votre identifiant publicitaire."</string>
     <string name="ads_content_description" msgid="1006489792324920289">"Annonces, Gérez les paramètres des annonces, modifiez par exemple votre identifiant publicitaire."</string>
     <string name="show_dev_on" msgid="612741433124106067">"Vous êtes désormais développeur !"</string>
     <string name="show_dev_already" msgid="1522591284776449818">"Inutile, vous êtes déjà développeur."</string>
@@ -423,7 +425,7 @@
     <string name="title_signal_strength" msgid="5047116893338315998">"Intensité du signal"</string>
     <string name="title_random_mac_settings" msgid="6685812569356353378">"Confidentialité"</string>
   <string-array name="random_mac_settings_entries">
-    <item msgid="3457228452595715533">"Utiliser MAC aléatoire (par défaut)"</item>
+    <item msgid="3457228452595715533">"Utiliser une adresse MAC aléatoire (par défaut)"</item>
     <item msgid="2490415280467390067">"Utiliser MAC de l\'appareil"</item>
   </string-array>
     <string name="mac_address_not_available" msgid="2992935344891853369">"Indisponible"</string>
@@ -433,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Connexion Internet"</string>
     <string name="connected" msgid="4981532275162345997">"Connecté"</string>
     <string name="not_connected" msgid="475810896484271663">"Non connecté"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Aucun accès à Internet"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Enregistré"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Mot de passe incorrect"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Veuillez vous connecter"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Autres options"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Tout afficher"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Moins"</string>
@@ -698,7 +706,7 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Raccourci d\'accessibilité"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Activer le raccourci d\'accessibilité"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Service associé au raccourci"</string>
-    <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Lorsque le raccourci est activé, vous pouvez appuyer sur le bouton \"Précédent\" et le bouton \"Volume -\" pendant trois secondes pour lancer une fonctionnalité d\'accessibilité."</string>
+    <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Lorsque le raccourci est activé, vous pouvez appuyer sur le bouton Retour et le bouton Bas pendant trois secondes pour lancer une fonctionnalité d\'accessibilité."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Sous-titres"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Paramètres de superposition du texte des sous-titres sur la vidéo"</string>
     <string name="captions_display" msgid="2598662495450633375">"Afficher"</string>
@@ -741,7 +749,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Activer"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Configuration"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Utiliser <xliff:g id="SERVICE">%1$s</xliff:g> ?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> peut recueillir la totalité du texte que vous saisissez, y compris les données personnelles telles que le numéro de votre carte de paiement, à l\'exception des mots de passe."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> pourra lire votre écran, afficher du contenu par-dessus d\'autres applis, suivre vos interactions avec des applis ou des capteurs matériels et interagir avec des applis en votre nom."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Interrompre <xliff:g id="SERVICE">%1$s</xliff:g> ?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Appuyez sur \"OK\" pour interrompre <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Synthèse vocale"</string>
@@ -900,6 +908,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Personnaliser les restrictions"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Veuillez patienter…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Modifier le code d\'accès"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Créer un profil limité ?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Déjà créé"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Passer"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Créer un code"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Saisir le profil limité ?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Aucun profil limité"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Déjà saisi"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Cette application peut accéder à vos comptes. Contrôlée par <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Saisir le code d\'accès pour regarder cette chaîne"</string>
@@ -1106,6 +1121,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Connexion réussie"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Tout afficher"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Recherche en cours"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Échec de la récupération de l\'intent d\'ajout de compte auprès de l\'authentificateur."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Échec de l\'ajout du compte, ou le type de compte n\'est pas disponible."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Chaînes et entrées"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Chaînes, entrées externes"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Chaînes"</string>
@@ -1119,8 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Réinitialiser"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Code d\'association Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Modes d\'énergie"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Améliorer l\'efficacité énergétique lorsque le téléviseur n\'est pas utilisé"</string>
-    <string name="energy_mode_enables" msgid="357960364751477627">"Activations :"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Notez que ce mode peut augmenter la consommation d\'énergie de l\'appareil."</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Ces paramètres affectent l\'appareil lorsqu\'il n\'est pas utilisé"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Fonctionnalités activées :"</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"La consommation d\'énergie peut augmenter selon le nombre de fonctionnalités TV que vous activez."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Activer \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Trouver ma télécommande"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Émettre un son pour localiser votre télécommande Google TV si vous l\'avez égarée"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Votre Google TV comporte un bouton sur lequel appuyer pour que votre télécommande émette un son pendant 30 secondes. Cela ne fonctionne que sur les télécommandes Google TV compatibles.\n\nPour arrêter le son, appuyez sur n\'importe quel bouton de la télécommande."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Lorsque \"Trouver ma télécommande\" est activé, vous pouvez émettre un son pour localiser votre télécommande Google TV si vous l\'avez égarée."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Émettre un son"</string>
 </resources>

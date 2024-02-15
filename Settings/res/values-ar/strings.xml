@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"إعدادات التطبيق"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"الموقع الجغرافي والاستخدام وبيانات التشخيص والإعلانات"</string>
     <string name="add_account" msgid="7386223854837017129">"إضافة حساب"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"حساب غير معروف"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"إزالة الحساب"</string>
     <string name="account_sync" msgid="4315295293211313989">"اختر التطبيقات المتزامنة"</string>
     <string name="sync_now" msgid="4335217984374620551">"المزامنة الآن"</string>
@@ -191,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"نموذج نص"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"ساحر أوز العجيب (The Wonderful Wizard of Oz)"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"الفصل ۱۱: مدينة أوز الزمرّدية العجيبة (The Wonderful Emerald City of Oz)"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"على الرغم من احتماء دورثي ورفاقها خلف نظارات خضراء، انبهرت عيونهم للوهلة الأولى بتوهج المدينة العجيبة وتألقها. كانت المنازل الرائعة أمامهم متراصة على الشوارع ومصممة جميعها من الرخام الأخضر المرصع بالزمرّد البرّاق. ساروا على رصيف من الرخام الأخضر نفسه حيث تلتقي المباني الضخمة على صفوف من الزمرد المتلألئ تحت أشعة الشمس الساطعة. كانت ألواح النوافذ الزجاجية خضراء هي أيضًا، حتى أنّ السماء وأشعة الشمس تلوّنت بالأخضر الفاتح. \n\nرأوا الكثير من الرجال والنساء والأطفال يجوبون الشوارع وجميعهم في ثياب خضراء فوق بشرة تميل إلى الأخضر. نظروا إلى دورثي ورفاقها الغريبين بتعجب، في حين أنّ الأطفال اختبأوا وراء أمهاتهم خائفين من الأسد، ولكن لم يتحدث معهم أحد. اصطفّت في الشارع المتاجر الخضراء ولاحظت دورثي أنّ كل ما فيها كان أخضر، من الحلوى الخضراء والفشار الأخضر إلى الأحذية والقبعات والملابس الخضراء. وفي أحد الأركان، وقف رجل يبيع الليموناضة الخضراء ورأت دورثي أنّ الأطفال كانوا يشترون العصير منه بعملة خضراء هي أيضًا. \n\nخلت الشوارع من الأحصنة أو أي نوع آخر من الحيوانات، وكان الرجال ينقلون أمتعتهم في عربات خضراء صغيرة يدفعونها أمامهم. وبدت ملامح السعادة والارتياح على وجوه الجميع."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"على الرغم من احتماء \"دورثي\" ورفاقها خلف نظارات خضراء، انبهرت عيونهم للوهلة الأولى بتوهج المدينة العجيبة وتألقها. كانت المنازل الرائعة أمامهم متراصة على الشوارع ومصممة جميعها من الرخام الأخضر المرصع بالزمرّد البرّاق. ساروا على رصيف من الرخام الأخضر نفسه حيث تلتقي المباني الضخمة على صفوف من الزمرد المتلألئ تحت أشعة الشمس الساطعة. كانت ألواح النوافذ الزجاجية خضراء هي أيضًا، حتى أنّ السماء وأشعة الشمس تلوّنت بالأخضر الفاتح. \n\nرأوا الكثير من الرجال والنساء والأطفال يجوبون الشوارع وجميعهم في ثياب خضراء فوق بشرة تميل إلى الأخضر. نظروا إلى \"دورثي\" ورفاقها الغريبين بتعجب، في حين أنّ الأطفال اختبأوا وراء أمهاتهم خائفين من الأسد، ولكن لم يتحدث معهم أحد. اصطفّت في الشارع المتاجر الخضراء ولاحظت \"دورثي\" أنّ كل ما فيها كان أخضر، من الحلوى الخضراء والفشار الأخضر إلى الأحذية والقبعات والملابس الخضراء. وفي أحد الأركان، وقف رجل يبيع الليموناضة الخضراء ورأت \"دورثي\" أنّ الأطفال كانوا يشترون العصير منه بعملة خضراء هي أيضًا. \n\nخلت الشوارع من الأحصنة أو أي نوع آخر من الحيوانات، وكان الرجال ينقلون أمتعتهم في عربات خضراء صغيرة يدفعونها أمامهم. وبدت ملامح السعادة والارتياح على وجوه الجميع."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"اختيار الصيغة"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"تلقائي"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"يدوي"</string>
@@ -277,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"متّصل"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"غير متّصل"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"ليست لديك أذونات لتغيير إعدادات بلوتوث."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"استخدام البلوتوث لصوت التلفزيون"</string>
     <string name="send_feedback" msgid="936698637869795473">"إرسال ملاحظات"</string>
     <string name="launch_help" msgid="2607478763131952469">"مركز المساعدة"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -433,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"اتصال الإنترنت"</string>
     <string name="connected" msgid="4981532275162345997">"متصل"</string>
     <string name="not_connected" msgid="475810896484271663">"غير متصل"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"لا يتوفّر اتصال بالإنترنت"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"شبكة محفوظة"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"كلمة مرور غير صحيحة"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"تسجيل الدخول مطلوب"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"خيارات أخرى"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"عرض الكل"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"عرض أقل"</string>
@@ -741,7 +749,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"تفعيل"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"الإعداد"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"هل تريد استخدام <xliff:g id="SERVICE">%1$s</xliff:g>؟"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"يمكن لخدمة \"<xliff:g id="SERVICE">%1$s</xliff:g>\" جمع كل النصوص التي تكتبها، بما في ذلك البيانات الشخصية مثل أرقام بطاقات الائتمان، مع استثناء كلمات المرور."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"ستتمكن خدمة \"<xliff:g id="SERVICE">%1$s</xliff:g>\" من قراءة شاشتك، وعرض المحتوى عبر التطبيقات الأخرى، وتتبُّع تفاعلاتك مع التطبيقات أو أدوات الاستشعار في الأجهزة، والتفاعل مع التطبيقات نيابةً عنك."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"هل تريد إيقاف خدمة <xliff:g id="SERVICE">%1$s</xliff:g>؟"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"يؤدي النقر على \"حسنًا\" إلى إيقاف <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"تحويل النص إلى الكلام"</string>
@@ -900,6 +908,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"تخصيص القيود"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"يُرجى الانتظار لحظة…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"تغيير رقم التعريف الشخصي"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"هل تريد إنشاء ملف شخصي محدود؟"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"سبق أن تم إنشاء الملف الشخصي."</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"التخطّي"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"إنشاء رقم تعريف شخصي"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"هل تريد إدخال ملف شخصي محدود؟"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"ما مِن ملفات شخصية محدودة."</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"سبق أن تم إدخال الملف الشخصي."</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"يمكن لهذا التطبيق الدخول إلى حساباتك. يتم التحكم فيه بواسطة <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"أدخل رقم التعريف الشخصي لمشاهدة هذه القناة"</string>
@@ -1046,7 +1061,7 @@
     <string name="turn_screen_on_title" msgid="5293798529284629011">"تشغيل الشاشة"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"السماح بتشغيل الشاشة"</string>
     <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"يمكنك السماح لأحد التطبيقات بتشغيل الشاشة. في حال منح الإذن، قد يشغِّل التطبيق الشاشة في أي وقت بدون نية صريحة منك."</string>
-    <string name="special_access" msgid="21806055758289916">"وصول خاص إلى التطبيقات"</string>
+    <string name="special_access" msgid="21806055758289916">"أذونات خاصة للتطبيقات"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>، <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"الصوت"</string>
     <string name="record_audio" msgid="5035689290259575229">"تسجيل الصوت"</string>
@@ -1106,6 +1121,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"تم الاتصال."</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"عرض الكل"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"البحث"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"تعذّر استرداد هدف إضافة الحساب من برنامج المصادقة."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"تعذّرت إضافة الحساب أو قد يكون نوع الحساب غير متاح."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"القنوات ومصادر الإدخال"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"القنوات، مصادر الإدخال الخارجية"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"القنوات"</string>
@@ -1119,8 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"إعادة الضبط"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"رمز إقران شبكة إيثرنت"</string>
     <string name="energy_modes" msgid="1331693860386361744">"أوضاع استهلاك الطاقة"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"تحسين استهلاك الطاقة عندما يكون التلفزيون غير مستخدَم"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"تؤثِّر هذه الإعدادات في الجهاز عندما يكون غير مُستخدَم"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"يفعِّل هذا الوضع الميزات التالية:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"ملاحظة: قد يؤدي استخدام هذا الوضع إلى زيادة استهلاك طاقة الجهاز."</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"قد تؤدي زيادة عدد ميزات التلفزيون المفعَّلة إلى زيادة استهلاك الطاقة."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"تفعيل وضع \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"العثور على جهاز التحكّم عن بُعد"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"يمكنك تشغيل صوت لتحديد موقع جهاز التحكّم في Google TV عن بُعد إذا لم يكن في مكانه."</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"يتوفّر زرّ في Google TV يمكنك الضغط عليه لتشغيل صوت على جهاز التحكّم عن بُعد لمدة 30 ثانية. لا تعمل هذه الميزة إلا مع أجهزة التحكّم عن بُعد المتوافقة مع Google TV.\n\nلإيقاف الصوت، اضغط على أي زرّ على جهاز التحكّم عن بُعد."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"عندما تكون ميزة \"العثور على جهاز التحكّم عن بُعد\" مفعَّلة، يمكنك تشغيل صوت لتحديد موقع جهاز التحكّم في Google TV عن بُعد إذا لم يكن في مكانه."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"تشغيل الصوت"</string>
 </resources>

@@ -37,6 +37,8 @@ import android.os.Handler;
 import android.os.SystemClock;
 import android.os.UserManager;
 import android.provider.Settings;
+import android.util.ArrayMap;
+import android.view.View;
 
 import androidx.annotation.Keep;
 import androidx.preference.Preference;
@@ -45,19 +47,25 @@ import androidx.preference.PreferenceManager;
 import androidx.preference.TwoStatePreference;
 
 import com.android.settingslib.RestrictedPreference;
-import com.android.settingslib.wifi.AccessPoint;
 import com.android.tv.settings.MainFragment;
 import com.android.tv.settings.R;
 import com.android.tv.settings.RestrictedPreferenceAdapter;
 import com.android.tv.settings.SettingsPreferenceFragment;
+import com.android.tv.settings.library.network.AccessPoint;
 import com.android.tv.settings.overlay.FlavorUtils;
 import com.android.tv.settings.util.SliceUtils;
+import com.android.tv.settings.widget.AccessPointPreference;
 import com.android.tv.settings.widget.CustomContentDescriptionSwitchPreference;
 import com.android.tv.settings.widget.TvAccessPointPreference;
 import com.android.tv.twopanelsettings.slices.SlicePreference;
+import com.android.wifitrackerlib.WifiEntry;
 
+import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Collections;
 import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -105,6 +113,8 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
     private Preference mEthernetProxyPref;
     private Preference mEthernetDhcpPref;
     private PreferenceCategory mWifiOther;
+    private Map<WifiEntry, RestrictedPreferenceAdapter<TvAccessPointPreference>> mPrefMap =
+            Collections.emptyMap();
 
     private final Handler mHandler = new Handler();
     private long mNoWifiUpdateBeforeMillis;
@@ -120,6 +130,8 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
     public static NetworkFragment newInstance() {
         return new NetworkFragment();
     }
+
+    private final List<AccessPoint> mCurrentAccessPoints = new ArrayList<>();
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -143,16 +155,19 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
     }
 
     @Override
-    public void onDestroy() {
-        super.onDestroy();
-    }
-
-    @Override
     public void onResume() {
         super.onResume();
         // There doesn't seem to be an API to listen to everything this could cover, so
         // tickle it here and hope for the best.
         updateConnectivity();
+    }
+
+
+    @Override
+    public void onStop() {
+        mConnectivityListener.setListener(null);
+        clearCurrentAccessPoints();
+        super.onStop();
     }
 
     private int getPreferenceScreenResId() {
@@ -215,7 +230,18 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
         }
 
         final UserManager userManager = UserManager.get(getContext());
-        if (userManager.hasUserRestriction(UserManager.DISALLOW_CONFIG_WIFI)) {
+
+        mAddPref.checkRestrictionAndSetDisabled(UserManager.DISALLOW_CONFIG_WIFI);
+        mAddEasyConnectPref.checkRestrictionAndSetDisabled(UserManager.DISALLOW_CONFIG_WIFI);
+
+        if (!mAddPref.isDisabledByAdmin()) {
+            mAddPref.checkRestrictionAndSetDisabled(UserManager.DISALLOW_ADD_WIFI_CONFIG);
+            mAddEasyConnectPref.checkRestrictionAndSetDisabled(
+                    UserManager.DISALLOW_ADD_WIFI_CONFIG);
+        }
+
+        if (userManager.hasUserRestriction(UserManager.DISALLOW_CONFIG_WIFI)
+                || userManager.hasUserRestriction(UserManager.DISALLOW_ADD_WIFI_CONFIG)) {
             mAddPref.setFragment(null);
             mAddEasyConnectPref.setFragment(null);
 
@@ -252,8 +278,13 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
                 return true;
             case KEY_WIFI_COLLAPSE:
                 final boolean collapse = !mWifiNetworksCategory.isCollapsed();
-                mCollapsePref.setTitle(collapse
+                View collapsePrefView = getListView().getChildAt(mCollapsePref.getOrder());
+                String wifiCollapseTitle = getContext().getString(collapse
                         ? R.string.wifi_setting_see_all : R.string.wifi_setting_see_fewer);
+                mCollapsePref.setTitle(wifiCollapseTitle);
+                if (collapsePrefView != null) {
+                    collapsePrefView.setAccessibilityPaneTitle(wifiCollapseTitle);
+                }
                 mWifiNetworksCategory.setCollapsed(collapse);
                 logEntrySelected(
                         collapse
@@ -385,25 +416,41 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
         }
 
         final Context themedContext = getPreferenceManager().getContext();
-        final Collection<AccessPoint> accessPoints = mConnectivityListener.getAvailableNetworks();
+        final Collection<AccessPoint> newAccessPoints =
+                mConnectivityListener.getAvailableNetworks();
         int index = 0;
 
-        for (final AccessPoint accessPoint : accessPoints) {
+        final Map<WifiEntry, RestrictedPreferenceAdapter<TvAccessPointPreference>> newPrefMap =
+                new ArrayMap<>();
+        for (final AccessPoint accessPoint : newAccessPoints) {
             accessPoint.setListener(this);
             RestrictedPreferenceAdapter<TvAccessPointPreference> restrictedPref =
-                    (RestrictedPreferenceAdapter<TvAccessPointPreference>) accessPoint.getTag();
+                    mPrefMap.get(accessPoint.getWifiEntry());
             Preference pref;
             if (restrictedPref == null) {
                 pref = new TvAccessPointPreference(accessPoint, themedContext, mUserBadgeCache,
                         false);
+                List<String> userRestrictions = new ArrayList<>();
+                userRestrictions.add(UserManager.DISALLOW_CONFIG_WIFI);
+                userRestrictions.add(UserManager.DISALLOW_ADD_WIFI_CONFIG);
                 restrictedPref = new RestrictedPreferenceAdapter(themedContext, pref,
-                        UserManager.DISALLOW_CONFIG_WIFI);
-                accessPoint.setTag(restrictedPref);
+                        userRestrictions);
+                restrictedPref.setApSaved(accessPoint.isSaved());
             } else {
+                restrictedPref.setApSaved(accessPoint.isSaved());
                 toRemove.remove(restrictedPref.getPreference());
                 pref = restrictedPref.getOriginalPreference();
             }
-            if (accessPoint.isActive() && !isCaptivePortal(accessPoint)) {
+            newPrefMap.put(accessPoint.getWifiEntry(), restrictedPref);
+
+            if (isCaptivePortal(accessPoint)) {
+                pref.setFragment(null);
+                pref.setIntent(null);
+                pref.setOnPreferenceClickListener(preference -> {
+                    accessPoint.getWifiEntry().signIn(null);
+                    return true;
+                });
+            } else if (accessPoint.isActive()) {
                 pref.setFragment(WifiDetailsFragment.class.getName());
                 // No need to track entry selection as new page will be focused
                 pref.setOnPreferenceClickListener(preference -> false);
@@ -418,12 +465,19 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
                             return false;
                         });
             }
-            pref.setVisible(!restrictedPref.isRestricted() || accessPoint.isSaved());
+            pref.setVisible(!restrictedPref.isRestricted(UserManager.DISALLOW_CONFIG_WIFI)
+                    || accessPoint.isSaved());
             pref.setOrder(index++);
+            pref.setSummary(WifiUtils.getConnectionStatus(accessPoint.getWifiEntry()));
             restrictedPref.updatePreference();
 
-            // Double-adding is harmless
-            mWifiNetworksCategory.addPreference(restrictedPref.getPreference());
+            Preference restrictedChild = restrictedPref.getPreference();
+            if (restrictedChild.getParent() != null &&
+                restrictedChild.getParent() != mWifiNetworksCategory) {
+                // Remove first if added to parent from old fragment.
+                restrictedChild.getParent().removePreference(restrictedChild);
+            }
+            mWifiNetworksCategory.addPreference(restrictedChild);
         }
 
         for (final Preference preference : toRemove) {
@@ -431,15 +485,21 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
         }
 
         mCollapsePref.setVisible(mWifiNetworksCategory.shouldShowCollapsePref());
+        mPrefMap = newPrefMap;
+
+        clearCurrentAccessPoints();
+        mCurrentAccessPoints.addAll(newAccessPoints);
+    }
+
+    private void clearCurrentAccessPoints() {
+        for (AccessPoint accessPoint : mCurrentAccessPoints) {
+            accessPoint.setListener(null);
+        }
+        mCurrentAccessPoints.clear();
     }
 
     private boolean isCaptivePortal(AccessPoint accessPoint) {
-        if (accessPoint.getDetailedState() != NetworkInfo.DetailedState.CONNECTED) {
-            return false;
-        }
-        NetworkCapabilities nc = mConnectivityManager.getNetworkCapabilities(
-                mWifiManager.getCurrentNetwork());
-        return nc != null && nc.hasCapability(NetworkCapabilities.NET_CAPABILITY_CAPTIVE_PORTAL);
+        return accessPoint.getWifiEntry().canSignIn();
     }
 
     private Intent makeNetworkDiagnosticsIntent() {
@@ -469,15 +529,15 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
     @Override
     public void onAccessPointChanged(AccessPoint accessPoint) {
         RestrictedPreferenceAdapter<TvAccessPointPreference> restrictedPref =
-                (RestrictedPreferenceAdapter<TvAccessPointPreference>) accessPoint.getTag();
-        restrictedPref.updatePreference(pref -> pref.refresh());
+                mPrefMap.get(accessPoint.getWifiEntry());
+        restrictedPref.updatePreference(AccessPointPreference::refresh);
     }
 
     @Override
     public void onLevelChanged(AccessPoint accessPoint) {
         RestrictedPreferenceAdapter<TvAccessPointPreference> restrictedPref =
-                (RestrictedPreferenceAdapter<TvAccessPointPreference>) accessPoint.getTag();
-        restrictedPref.updatePreference(pref -> pref.onLevelChanged());
+                mPrefMap.get(accessPoint.getWifiEntry());
+        restrictedPref.updatePreference(AccessPointPreference::onLevelChanged);
     }
 
     @Override

@@ -16,24 +16,23 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="energy_mode_low_title" msgid="2408371934616917432">"அத்தியாவசிய நெட்வொர்க் அம்சங்கள்"</string>
-    <string name="energy_mode_low_subtitle" msgid="3541491740634993554">"குறைவான மின்சார உபயோகம்"</string>
-    <string name="energy_mode_low_info" msgid="7336221780506353827">"டிவி உபயோகத்தில் இல்லாதபோது நெட்வொர்க் இணைப்பை முடக்கும்."</string>
-  <string-array name="energy_mode_low_features">
-    <item msgid="4976202876230149030">"முக்கிய அறிவிப்புகளும் செயல்பாடுகளும்"</item>
-  </string-array>
+    <string name="energy_mode_critical_features" msgid="6833711255772666427">"முக்கியப் புதுப்பிப்புகள் &amp; அம்சங்கள்"</string>
+    <string name="energy_mode_low_title" msgid="5700567801191430606">"குறைவு"</string>
+    <string name="energy_mode_low_subtitle" msgid="7660632849388740009">"காத்திருப்புப் பயன்முறை"</string>
+    <string name="energy_mode_low_info" msgid="3931173640626998821">"காத்திருப்புப் பயன்முறை — டிவி உபயோகத்தில் இல்லாதபோது நெட்வொர்க் இணைப்பு முடக்கப்பட்டிருக்கும்"</string>
+    <!-- no translation found for energy_mode_low_features:0 (6461352788741946449) -->
     <string name="energy_mode_low_eco_hint" msgid="2421460758847643655"></string>
-    <string name="energy_mode_moderate_title" msgid="6131212898797802584">"பரிந்துரைக்கப்படும் நெட்வொர்க் அம்சங்கள்"</string>
-    <string name="energy_mode_moderate_subtitle" msgid="8452759001885415587">"மேம்படுத்தப்பட்ட மின்சார உபயோகம்"</string>
-    <string name="energy_mode_moderate_info" msgid="8606735947366228051">"நெட்வொர்க் வழியாக டிவியை எழுப்பும் அம்சங்களை இயக்கும் (நெட்வொர்க் மின்சாரச் சேமிப்பு)."</string>
+    <string name="energy_mode_moderate_title" msgid="8612259261851051150">"நடுநிலை"</string>
+    <string name="energy_mode_moderate_subtitle" msgid="5565533500130453270">"நெட்வொர்க் காத்திருப்புப் பயன்முறை"</string>
+    <string name="energy_mode_moderate_info" msgid="3188005033276283994">"நெட்வொர்க் காத்திருப்புப் பயன்முறை — நெட்வொர்க் மூலமாக டிவியை இயக்க அம்சங்களை இயக்குகிறது"</string>
   <string-array name="energy_mode_moderate_features">
     <item msgid="2654586107956150296">"[Insert feature 1]"</item>
     <item msgid="8724721267222341891">"[Insert feature 2]"</item>
   </string-array>
     <string name="energy_mode_moderate_eco_hint" msgid="252189162446856286"></string>
-    <string name="energy_mode_high_title" msgid="4428472238583662129">"கூடுதல் நெட்வொர்க் அம்சங்கள்"</string>
-    <string name="energy_mode_high_subtitle" msgid="3146607061198429672">"அதிக மின்சார உபயோகம்"</string>
-    <string name="energy_mode_high_info" msgid="3151321275701804406">"பரிந்துரைக்கப்படும் அம்சங்கள் மட்டுமின்றி, டிவி உபயோகத்தில் இல்லாதபோது கூடுதல் அம்சங்களை இந்த விருப்பத்தேர்வு இயக்கும். இது மின்சார உபயோகத்தை அதிகரிக்கக்கூடும்."</string>
+    <string name="energy_mode_high_title" msgid="7596672058005896920">"அதிகம்"</string>
+    <string name="energy_mode_high_subtitle" msgid="5994284096495805422">"எப்போதும் இணைக்கப்பட்டிருக்கும்"</string>
+    <string name="energy_mode_high_info" msgid="8805447042714350186">"எப்போதும் இணைக்கப்பட்டிருக்கும் — டிவி உபயோகத்தில் இல்லாதபோது நெட்வொர்க் அம்சங்களை இயக்குகிறது"</string>
   <string-array name="energy_mode_high_features">
     <item msgid="3018897868803319747">"[Insert feature 1]"</item>
     <item msgid="170760143032597722">"[Insert feature 2]"</item>

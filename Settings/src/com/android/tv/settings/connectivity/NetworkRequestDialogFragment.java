@@ -49,9 +49,9 @@ import androidx.appcompat.app.AlertDialog;
 import com.android.settingslib.Utils;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.ObservableDialogFragment;
-import com.android.settingslib.wifi.AccessPoint;
-import com.android.settingslib.wifi.WifiTracker;
-import com.android.settingslib.wifi.WifiTrackerFactory;
+import com.android.tv.settings.library.network.AccessPoint;
+import com.android.tv.settings.library.network.WifiTracker;
+import com.android.tv.settings.library.network.WifiTrackerFactory;
 import com.android.tv.settings.R;
 import com.android.tv.settings.connectivity.NetworkRequestErrorDialogFragment.ERROR_DIALOG_TYPE;
 
@@ -201,16 +201,14 @@ public class NetworkRequestDialogFragment extends ObservableDialogFragment imple
             final AccessPoint selectedAccessPoint = accessPointList.get(which);
             WifiConfiguration wifiConfig = selectedAccessPoint.getConfig();
             if (wifiConfig == null) {
-                wifiConfig = WifiUtils.getWifiConfig(selectedAccessPoint, /* scanResult */
-                        null, /* password */ null);
+                wifiConfig = WifiConfigHelper.getConfiguration(
+                        selectedAccessPoint.getSsidStr(),
+                        selectedAccessPoint.getSecurity());
             }
 
-            if (wifiConfig != null) {
-                mUserSelectionCallback.select(wifiConfig);
-
-                mWaitingConnectCallback = true;
-                updateConnectButton(false);
-            }
+            mUserSelectionCallback.select(wifiConfig);
+            mWaitingConnectCallback = true;
+            updateConnectButton(false);
         }
     }
 

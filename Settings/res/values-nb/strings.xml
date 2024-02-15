@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Appinnstillinger"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Posisjon, bruk og diagnostikk, annonser"</string>
     <string name="add_account" msgid="7386223854837017129">"Legg til konto"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Ukjent konto"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Fjern konto"</string>
     <string name="account_sync" msgid="4315295293211313989">"Velg synkroniserte apper"</string>
     <string name="sync_now" msgid="4335217984374620551">"Synkroniser nå"</string>
@@ -191,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Eksempeltekst"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Trollmannen fra Oz"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Kapittel 11: Den vidunderlige smaragdbyen Oz"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Selv om øynene deres var beskyttet av de grønne brillene, ble Dorothy og vennene hennes overveldet ved synet av denne vidunderlige byen. Langs gatene sto vakre hus bygget av grønn marmor og prydet med skinnende smaragder overalt. De gikk langs et fortau laget av den samme grønne marmoren, og der steinene møttes, var det rader av smaragder som glitret i lyset fra solen. Vindusrutene var av grønt glass, og selv himmelen hadde et grønt skjær over seg. Til og med solstrålene var grønne. \n\nDet var mange mennesker som gikk rundt i byen, både menn, kvinner og barn. Alle var kledd i grønne klær og hadde grønnlig hud. De så undrende på Dorothy og det brokete selskapet hennes. Barna løp og gjemte seg bak mødrene sine da de så Løven, men ingen sa noe til dem. Butikkene i gatene var alle fylt med grønne varer. Grønt godteri og grønt popkorn var til salgs, og det var også utstilt grønne sko, grønne hatter og grønne klær i alle mulige varianter. I én av butikkene solgte en mann grønn limonade, og Dorothy kunne se at barna betalte med grønne mynter. \n\nDet var ingen hester eller andre dyr å se i byen – mennene bar ting i små, grønne vogner som de dyttet foran seg. Alle virket glade, tilfredse og velstående."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Selv om øynene deres var beskyttet av de grønne brillene, ble Dorothy og vennene hennes overveldet ved synet av denne vidunderlige byen. Langs gatene sto vakre hus bygget av grønn marmor og prydet med skinnende smaragder overalt. De gikk langs et fortau laget av den samme grønne marmoren, og der steinene møttes, var det rader av smaragder som glitret i lyset fra solen. Vindusrutene var av grønt glass, og selv himmelen hadde et grønt skjær over seg. Til og med solstrålene var grønne. \n\nDet var mange mennesker som gikk rundt i byen, både menn, kvinner og barn. Alle var kledd i grønne klær og hadde grønnlig hud. De så undrende på Dorothy og det brokete selskapet hennes. Barna løp og gjemte seg bak mødrene sine da de så Løven, men ingen sa noe til dem. Butikkene i gatene var alle fylt med grønne varer. Grønt godteri og grønt popkorn var til salgs, og det var også utstilt grønne sko, grønne hatter og grønne klær i alle mulige varianter. I én av butikkene solgte en mann grønn limonade, og Dorothy kunne se at barna betalte med grønne mynter. \n\nDet var ingen hester eller andre dyr å se i byen – mennene bar ting i små, grønne vogner som de dyttet foran seg. Alle virket glade, tilfredse og velstående."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Valg av format"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automatisk"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manuelt"</string>
@@ -277,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Tilkoblet"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Frakoblet"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Du har ikke tillatelse til å endre Bluetooth-innstillingene."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Bruk til TV-lyd"</string>
     <string name="send_feedback" msgid="936698637869795473">"Send tilbakemelding"</string>
     <string name="launch_help" msgid="2607478763131952469">"Brukerstøtte"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -433,6 +435,12 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Internett-forbindelse"</string>
     <string name="connected" msgid="4981532275162345997">"Tilkoblet"</string>
     <string name="not_connected" msgid="475810896484271663">"Ikke tilkoblet"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Ingen internettilkobling"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Lagret"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Feil passord"</string>
+    <!-- no translation found for wifi_short_password (7658809378390032385) -->
+    <skip />
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Du må logge på"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Andre alternativer"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Se alle"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Se færre"</string>
@@ -741,7 +749,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Aktivér"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfigurasjon"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Vil du bruke <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> kan samle inn all teksten du skriver, bortsett fra passord. Dette omfatter også personlige data som kredittkortnumre."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> kan lese innholdet på skjermen og skjerminnhold via andre apper, spore interaksjoner med apper eller maskinvaresensorer og bruke apper på vegne av deg."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Vil du stoppe <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Hvis du velger OK, stopper <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Tekst til tale"</string>
@@ -850,7 +858,7 @@
     <string name="autofill_none" msgid="1615056985649424207">"Ingen"</string>
     <string name="autofill_confirmation_message" msgid="3840267789160192558">"&lt;b&gt;Stoler du på dennne appen?&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Passordtjeneste&gt;%1$s&lt;/xliff:g&gt; bruker det som er på skjermen, til å fastslå hva som kan fylles ut automatisk."</string>
     <string name="computing_size" msgid="8623916230485437579">"Beregner ..."</string>
-    <string name="title_select_wifi_network" msgid="935820896444071617">"Velg Wifi-nettverk"</string>
+    <string name="title_select_wifi_network" msgid="935820896444071617">"Velg wifi-nettverk"</string>
     <string name="accessories_wifi_display_rename_device" msgid="8803397194143132061">"Gi nytt navn"</string>
     <string name="accessories_wifi_display_enable" msgid="2385467074170316302">"Wifi-skjerm"</string>
     <string name="accessories_wifi_display_pin_required" msgid="5434960694140426664">"PIN-kode kreves"</string>
@@ -900,6 +908,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Tilpass begrensninger"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Et øyeblikk …"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Endre PIN-kode"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Opprette en begrenset profil?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Allerede opprettet"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Hopp over"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Opprett en PIN-kode"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Åpne den begrensede profilen?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Ingen begrenset profil"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Allerede åpnet"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Denne appen har tilgang til kontoene dine. Kontrollert av <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Skriv inn PIN-koden for å se på denne kanalen"</string>
@@ -1106,6 +1121,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Tilkoblingen var vellykket"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Vis alle"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Søker"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Kunne ikke hente intensjonen om å legge til en konto fra autentiseringsprogrammet."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Kunne ikke legge til kontoen, eller kontotypen er ikke tilgjengelig."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Kanaler og innganger"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Kanaler, eksterne innganger"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Kanaler"</string>
@@ -1119,8 +1136,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Tilbakestill"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Tilkoblingskode for Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Strømmoduser"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Gjør strømeffektiviteten bedre når TV-en ikke er i bruk"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Disse innstillingene påvirker enheten når den ikke er i bruk"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Aktiverer følgende:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Vær oppmerksom på at denne modusen kan øke strømforbruket på enheten."</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Strømforbruket kan øke basert på hvor mange TV-funksjoner du aktiverer."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Slå på «<xliff:g id="ENERGYMODENAME">%s</xliff:g>»"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Finn fjernkontrollen min"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Spill av en lyd for å finne Google TV-fjernkontrollen hvis du ikke finner den"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV har en knapp du kan trykke på for å spille av en lyd på fjernkontrollen i 30 sekunder. Dette fungerer bare med støttede Google TV-fjernkontroller.\n\nFor å stoppe lyden, trykk på en knapp på fjernkontrollen."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Når Finn fjernkontrollen min er slått på, kan du spille av en lyd for å finne Google TV-fjernkontrollen din hvis du ikke finner den."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spill av lyd"</string>
 </resources>
