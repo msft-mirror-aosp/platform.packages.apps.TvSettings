@@ -438,8 +438,7 @@
     <string name="wifi_no_internet" msgid="27421689535934864">"Ayikho i-Inthanethi"</string>
     <string name="wifi_saved" msgid="4354792774811431829">"Ilondoloziwe"</string>
     <string name="wifi_bad_password" msgid="8686375382346768922">"Iphasiwedi engalungile"</string>
-    <!-- no translation found for wifi_short_password (7658809378390032385) -->
-    <skip />
+    <string name="wifi_short_password" msgid="7658809378390032385">"Iphasiwedi ye-Wi-Fi ifushane kakhulu"</string>
     <string name="wifi_captive_portal" msgid="8262150024660339529">"Kudingeka ukungena ngemvume"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Okunye okukhethwa kukho"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Buka konke"</string>
