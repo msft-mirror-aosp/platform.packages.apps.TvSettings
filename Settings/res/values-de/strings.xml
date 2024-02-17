@@ -438,8 +438,7 @@
     <string name="wifi_no_internet" msgid="27421689535934864">"Kein Internet"</string>
     <string name="wifi_saved" msgid="4354792774811431829">"Gespeichert"</string>
     <string name="wifi_bad_password" msgid="8686375382346768922">"Falsches Passwort"</string>
-    <!-- no translation found for wifi_short_password (7658809378390032385) -->
-    <skip />
+    <string name="wifi_short_password" msgid="7658809378390032385">"WLAN-Passwort ist zu kurz"</string>
     <string name="wifi_captive_portal" msgid="8262150024660339529">"Anmeldung erforderlich"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Weitere Optionen"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Alle anzeigen"</string>
@@ -703,7 +702,7 @@
     <string name="palette_color_blue" msgid="8836682634988540630">"Blau"</string>
     <string name="palette_color_purple" msgid="2123828754639683555">"Lila"</string>
     <string name="palette_color_gray" msgid="4014534773994261194">"Grau"</string>
-    <string name="accessibility_shortcut" msgid="5856158637840030531">"Bedienungshilfe-Kurzbefehl"</string>
+    <string name="accessibility_shortcut" msgid="5856158637840030531">"Bedienungshilfe-\\nKurzbefehl"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Kurzbefehl für Bedienungshilfen aktivieren"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Verknüpfter Dienst"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Wenn die Tastenkombination aktiviert ist, kannst du die Bedienungshilfe starten, indem du die Zurück-Taste und die Nach-Unten-Taste drei Sekunden lang gedrückt hältst."</string>
@@ -725,7 +724,7 @@
     <string name="captions_edgecolor" msgid="2779925179084237336">"Rahmenfarbe"</string>
     <string name="captions_backgroundshow" msgid="1080183686470477645">"Hintergrund anzeigen"</string>
     <string name="captions_backgroundcolor" msgid="2056944109914399253">"Hintergrundfarbe"</string>
-    <string name="captions_backgroundopacity" msgid="1850126438162000027">"Hintergrund­­­transparenz"</string>
+    <string name="captions_backgroundopacity" msgid="1850126438162000027">"Hintergrund­deck­kraft"</string>
     <string name="captioning_preview_text" msgid="3034147586392743237">"Untertitel sehen so aus."</string>
     <string name="captions_textopacity" msgid="6055602491649526307">"Textdeckkraft"</string>
     <string name="captions_windowshow" msgid="6002072054703167886">"Fenster anzeigen"</string>
@@ -756,7 +755,7 @@
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"Modulkonfiguration"</string>
     <string name="system_speak_passwords" msgid="8556036524146404052">"Passwörter aussprechen"</string>
     <string name="system_preferred_engine" msgid="3545505072652708443">"Bevorzugtes Modul"</string>
-    <string name="system_speech_rate" msgid="6553204071403872669">"Sprechgeschwindig¬keit"</string>
+    <string name="system_speech_rate" msgid="6553204071403872669">"Sprechgeschwindig­keit"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"Beispiel abspielen"</string>
     <string name="system_install_voice_data" msgid="8016395777968958673">"Sprachdaten installieren"</string>
     <string name="system_general" msgid="687760148454147771">"Allgemein"</string>

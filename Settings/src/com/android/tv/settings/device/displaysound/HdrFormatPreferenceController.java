@@ -119,20 +119,20 @@ public class HdrFormatPreferenceController extends AbstractPreferenceController 
             } else {
                 enableHdrType(mDisplayManager, mHdrType);
             }
-            // If using AUTO conversion, the system may prefer the newly enabled type
+            // If using SYSTEM conversion, the system may prefer the newly enabled type
             if (mDisplayManager.getHdrConversionMode().getConversionMode()
                     == HdrConversionMode.HDR_CONVERSION_SYSTEM) {
                 resetHdrConversion = true;
             }
         } else {
             disableHdrType(mDisplayManager, mHdrType);
-            // If HDR output type is mHdrType, change the HDR output type. This can happen in 2
-            // cases:
-            // mHdrType is selected by implementation in case of AUTO - re-calling
-            // setHdrConversionMode will handle this as mHdrType is no longer permissible coz of
-            // setUserDisabledHdrTypes
-            // mHdrType is selected by user by using FORCE. Change the preferred strategy to AUTO
-            // and mHdrType is no longer permissible coz of setUserDisabledHdrTypes
+            // If the disabled HDR type is mHdrType, the current HDR output type, then the HDR
+            // conversion settings must be updated. This can happen in 2 cases:
+            //   1. mHdrType was selected by the OEM implementation of SYSTEM conversion (default)
+            //   2. mHdrType was selected by the user via FORCE
+            // Setting the HdrConversionMode to SYSTEM will handle both cases. The type is no longer
+            // allowed due to disableHdrType's call to setUserDisabledHdrTypes and SYSTEM conversion
+            // will choose an output type that is still allowed.
             if (mDisplayManager.getHdrConversionMode().getPreferredHdrOutputType() == mHdrType) {
                 resetHdrConversion = true;
             }
