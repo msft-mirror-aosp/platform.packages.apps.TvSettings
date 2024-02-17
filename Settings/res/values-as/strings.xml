@@ -438,8 +438,7 @@
     <string name="wifi_no_internet" msgid="27421689535934864">"ইণ্টাৰনেট নাই"</string>
     <string name="wifi_saved" msgid="4354792774811431829">"ছেভ কৰা হৈছে"</string>
     <string name="wifi_bad_password" msgid="8686375382346768922">"ভুল পাছৱৰ্ড"</string>
-    <!-- no translation found for wifi_short_password (7658809378390032385) -->
-    <skip />
+    <string name="wifi_short_password" msgid="7658809378390032385">"ৱাই-ফাইৰ পাছৱৰ্ডটো বেছি চুটি"</string>
     <string name="wifi_captive_portal" msgid="8262150024660339529">"ছাইন-ইন কৰাৰ প্ৰয়োজন"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"অন্য বিকল্পসমূহ"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"সকলো চাওক"</string>
