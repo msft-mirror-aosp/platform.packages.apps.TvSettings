@@ -438,8 +438,7 @@
     <string name="wifi_no_internet" msgid="27421689535934864">"Нема интернет"</string>
     <string name="wifi_saved" msgid="4354792774811431829">"Зачувано"</string>
     <string name="wifi_bad_password" msgid="8686375382346768922">"Погрешна лозинка"</string>
-    <!-- no translation found for wifi_short_password (7658809378390032385) -->
-    <skip />
+    <string name="wifi_short_password" msgid="7658809378390032385">"Лозинката за Wi-Fi е премногу кратка"</string>
     <string name="wifi_captive_portal" msgid="8262150024660339529">"Потребно е да се најавите"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Други опции"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Погледни ги сите"</string>

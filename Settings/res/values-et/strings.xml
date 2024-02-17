@@ -438,8 +438,7 @@
     <string name="wifi_no_internet" msgid="27421689535934864">"Internetiühendus puudub"</string>
     <string name="wifi_saved" msgid="4354792774811431829">"Salvestatud"</string>
     <string name="wifi_bad_password" msgid="8686375382346768922">"Vale parool"</string>
-    <!-- no translation found for wifi_short_password (7658809378390032385) -->
-    <skip />
+    <string name="wifi_short_password" msgid="7658809378390032385">"WiFi-võrgu parool on liiga lühike"</string>
     <string name="wifi_captive_portal" msgid="8262150024660339529">"Peate sisse logima"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Muud valikud"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Kuva kõik"</string>

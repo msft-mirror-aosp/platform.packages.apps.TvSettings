@@ -438,8 +438,7 @@
     <string name="wifi_no_internet" msgid="27421689535934864">"इन्टरनेट छैन"</string>
     <string name="wifi_saved" msgid="4354792774811431829">"सेभ गरिएको"</string>
     <string name="wifi_bad_password" msgid="8686375382346768922">"पासवर्ड गलत भयो"</string>
-    <!-- no translation found for wifi_short_password (7658809378390032385) -->
-    <skip />
+    <string name="wifi_short_password" msgid="7658809378390032385">"Wi-Fi को पासवर्ड अत्यन्तै छोटो भयो"</string>
     <string name="wifi_captive_portal" msgid="8262150024660339529">"साइन इन गर्नु पर्ने हुन्छ"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"अन्य विकल्पहरू"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"सबै हेर्नुहोस्"</string>

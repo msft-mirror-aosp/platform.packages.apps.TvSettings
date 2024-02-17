@@ -438,8 +438,7 @@
     <string name="wifi_no_internet" msgid="27421689535934864">"ఇంటర్నెట్ లేదు"</string>
     <string name="wifi_saved" msgid="4354792774811431829">"సేవ్ చేయబడింది"</string>
     <string name="wifi_bad_password" msgid="8686375382346768922">"పాస్‌వర్డ్ తప్పు"</string>
-    <!-- no translation found for wifi_short_password (7658809378390032385) -->
-    <skip />
+    <string name="wifi_short_password" msgid="7658809378390032385">"Wi-Fi పాస్‌వర్డ్ చాలా చిన్నదిగా ఉంది"</string>
     <string name="wifi_captive_portal" msgid="8262150024660339529">"సైన్ ఇన్ అవసరం"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"ఇతర ఆప్షన్‌లు"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"అన్నీ చూడండి"</string>
