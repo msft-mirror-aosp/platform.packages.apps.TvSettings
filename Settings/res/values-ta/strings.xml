@@ -438,8 +438,7 @@
     <string name="wifi_no_internet" msgid="27421689535934864">"இணைய இணைப்பு இல்லை"</string>
     <string name="wifi_saved" msgid="4354792774811431829">"சேமிக்கப்பட்டது"</string>
     <string name="wifi_bad_password" msgid="8686375382346768922">"தவறான கடவுச்சொல்"</string>
-    <!-- no translation found for wifi_short_password (7658809378390032385) -->
-    <skip />
+    <string name="wifi_short_password" msgid="7658809378390032385">"வைஃபை கடவுச்சொல் மிகவும் சிறியதாக உள்ளது"</string>
     <string name="wifi_captive_portal" msgid="8262150024660339529">"உள்நுழைவு தேவை"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"பிற வசதிகள்"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"எல்லாம் காட்டு"</string>

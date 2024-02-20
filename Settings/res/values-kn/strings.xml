@@ -438,8 +438,7 @@
     <string name="wifi_no_internet" msgid="27421689535934864">"ಇಂಟರ್ನೆಟ್ ಇಲ್ಲ"</string>
     <string name="wifi_saved" msgid="4354792774811431829">"ಸೇವ್ ಮಾಡಲಾಗಿದೆ"</string>
     <string name="wifi_bad_password" msgid="8686375382346768922">"ತಪ್ಪಾದ ಪಾಸ್‌ವರ್ಡ್‌"</string>
-    <!-- no translation found for wifi_short_password (7658809378390032385) -->
-    <skip />
+    <string name="wifi_short_password" msgid="7658809378390032385">"ವೈ-ಫೈ ಪಾಸ್‌ವರ್ಡ್ ತುಂಬಾ ಚಿಕ್ಕದಾಗಿದೆ"</string>
     <string name="wifi_captive_portal" msgid="8262150024660339529">"ಸೈನ್-ಇನ್ ಅಗತ್ಯವಿದೆ"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"ಇತರ ಆಯ್ಕೆಗಳು"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"ಎಲ್ಲವನ್ನೂ ನೋಡಿ"</string>

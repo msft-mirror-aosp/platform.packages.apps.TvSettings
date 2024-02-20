@@ -438,8 +438,7 @@
     <string name="wifi_no_internet" msgid="27421689535934864">"Ei internetyhteyttä"</string>
     <string name="wifi_saved" msgid="4354792774811431829">"Tallennettu"</string>
     <string name="wifi_bad_password" msgid="8686375382346768922">"Väärä salasana"</string>
-    <!-- no translation found for wifi_short_password (7658809378390032385) -->
-    <skip />
+    <string name="wifi_short_password" msgid="7658809378390032385">"Wi-Fi-verkon salasana on liian lyhyt"</string>
     <string name="wifi_captive_portal" msgid="8262150024660339529">"Kirjautuminen vaaditaan"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Muut vaihtoehdot"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Näytä kaikki"</string>
@@ -631,7 +630,7 @@
   </string-array>
     <string name="sensor_toggle_description" msgid="7415801459994303159">"Kaikki sovellukset ja palvelut"</string>
     <string name="recently_accessed_by_category" msgid="6841705864715653428">"Käyttänyt äskettäin:"</string>
-    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"Ei viimeaikaista käyttöä"</string>
+    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"Ei viimeaikaista pääsyä"</string>
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"Näytä kaikki"</string>
     <string name="microphone" msgid="7893752847683941214">"Mikrofoni"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Pääsy mikrofoniin"</string>
@@ -678,7 +677,7 @@
     <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Näytönlukuohjelmat"</string>
     <string name="accessibility_display_category_title" msgid="593444602101558017">"Näyttö"</string>
     <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"Laitteen käyttöapu"</string>
-    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Ääni ja näyttöteksti"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Audio ja näyttöteksti"</string>
     <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"Kokeellinen"</string>
     <string name="accessibility_services_category_title" msgid="8813843874978910442">"Palvelut"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Palveluasetukset"</string>
@@ -706,7 +705,7 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Saavutettavuustilan pikanäppäin"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Ota saavutettavuustilan pikanäppäin käyttöön"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Pikanäppäinpalvelu"</string>
-    <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kun pikanäppäin on käytössä, voit käynnistää saavutettavuusominaisuuden pitämällä Takaisin- ja Alas-näppäimiä painettuina kolmen sekunnin ajan."</string>
+    <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kun pikanäppäin on päällä, voit käynnistää saavutettavuusominaisuuden pitämällä Takaisin- ja Alas-näppäimiä painettuina kolmen sekunnin ajan."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Tekstitykset"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Videon päällä näytettävän tekstityksen asetukset"</string>
     <string name="captions_display" msgid="2598662495450633375">"Näyttö"</string>
@@ -976,7 +975,7 @@
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Ei-aktiivisena"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Katseltaessa"</string>
     <string name="device_energy_saver_category_title" msgid="170076161677525986">"Laita automaattisesti pois päältä"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Laita pois päältä automaattisesti kun laite ei ole aktiivinen"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Laita pois päältä automaattisesti kun laite on ei-aktiivisena"</string>
     <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Laita pois päältä automaattisesti katselun aikana"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"\"Ei-aktiivisena\"-ajastimessa keston täytyy olla lyhyempi kuin \"Katseltaessa\"-ajastimessa"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"\"Katseltaessa\"-ajastimessa keston täytyy olla pidempi kuin \"Ei-aktiivisena\"-ajastimessa"</string>
@@ -1027,15 +1026,15 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"Näppäimistöjen hallinnointi"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Sallittu"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Ei sallittu"</string>
-    <string name="usage_access" msgid="8402350645248312782">"Pääsyoikeus käyttötietoihin"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"Pääsyoikeus käyttötietoihin antaa sovellukselle luvan seurata, mitä muita sovelluksia käytät ja kuinka usein, sekä nähdä operaattorisi, kieliasetuksesi ja muita tietoja."</string>
+    <string name="usage_access" msgid="8402350645248312782">"Pääsy käyttötietoihin"</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"Pääsy käyttötietoihin antaa sovellukselle luvan seurata, mitä muita sovelluksia käytät ja kuinka usein, sekä nähdä operaattorisi, kieliasetuksesi ja muita tietoja."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Virrankäytön optimointi"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Optimoi sovellusten virrankäyttö"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"Ei optimointia tarvitsevia sovelluksia"</string>
     <string name="high_power_on" msgid="3120162683093360951">"Ei optimoida"</string>
     <string name="high_power_off" msgid="3588854600942236231">"Virrankäyttöä optimoidaan"</string>
     <string name="high_power_system" msgid="6263052626979462255">"Virrankäytön optimointi ei käytettävissä"</string>
-    <string name="manage_notification_access_title" msgid="8659254371564990084">"Pääsyoikeus ilmoituksiin"</string>
+    <string name="manage_notification_access_title" msgid="8659254371564990084">"Pääsy ilmoituksiin"</string>
     <string name="no_notification_listeners" msgid="5119406452675724448">"Yksikään asennettu sovellus ei ole pyytänyt ilmoituksien käyttöoikeutta."</string>
     <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"Nämä sovellukset voivat lukea kaikki ilmoitukset ja niiden sisältämät henkilökohtaiset tiedot, kuten yhteystietojen nimet ja viestien sisällön. Ne voivat myös hylätä ilmoituksia ja käyttää niiden toimintopainikkeita."</string>
     <string name="default_notification_access_package_summary" msgid="1354775994781420222">"Järjestelmän edellytys"</string>
@@ -1046,7 +1045,7 @@
     <string name="permit_draw_overlay" msgid="5312730681030266735">"Salli näkyminen muiden päällä"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"Anna sovelluksen näkyä muiden avoimien sovellusten päällä. Se voi häiritä muiden sovellusten käyttöä tai muuttaa niiden ulkoasua tai käyttäytymistä."</string>
     <string name="write_system_settings" msgid="4284654265954461890">"Järjestelmäasetusten muokkaus"</string>
-    <string name="write_settings_title" msgid="2361816483383105754">"Järjestelmäasetusten muokkaus"</string>
+    <string name="write_settings_title" msgid="2361816483383105754">"Voi muokata järjestelmäasetuksia"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"Tämä käyttöoikeus antaa sovelluksen muokata järjestelmäasetuksia."</string>
     <string name="write_settings_on" msgid="71675710746513956">"Kyllä"</string>
     <string name="write_settings_off" msgid="6730113471695092167">"Ei"</string>
@@ -1080,7 +1079,7 @@
     <string name="title_data_saver" msgid="7500278996154002792">"Data Saver"</string>
     <string name="summary_data_saver" msgid="6793558728898207405">"Säädä videoiden laatua automaattisesti mobiilidatan käytön vähentämiseksi"</string>
     <string name="title_data_alert" msgid="8262081890052682475">"Datan käyttö ja ilmoitukset"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Voit yhdistää verkkoon langattomasti, Ethernetillä tai puhelimesi hotspotilla."</string>
+    <string name="data_saver_header_info" msgid="2706725187498535785">"Voit yhdistää internetiin Wi-Fi-verkolla, Ethernetillä tai puhelimesi hotspotilla."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Näytetäänkö laite muille Bluetooth-laitteille?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Sovellus haluaa määrittää, että TV:si on muiden Bluetooth-laitteiden löydettävissä <xliff:g id="TIMEOUT">%1$d</xliff:g> sekunnin ajan."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
