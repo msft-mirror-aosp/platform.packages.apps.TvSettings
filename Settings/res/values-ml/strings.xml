@@ -368,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google ലീഗൽ"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"ലൈസൻസ് ഡാറ്റ ലഭ്യമല്ല"</string>
     <string name="about_model" msgid="9164284529291439296">"മോഡല്‍"</string>
+    <string name="device_mode" msgid="7258350575590118152">"ഉപകരണ മോഡ്"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"സ്‌റ്റോർ ഡെമോ"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV OS പതിപ്പ്"</string>
     <string name="about_serial" msgid="3432319328808745459">"സീരിയല്‍ നമ്പര്‍"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV OS ബിൽഡ്"</string>
@@ -1076,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"റെക്കോർഡ് ചെയ്ത മൈക്രോഫോൺ(കൾ)"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"ഓഡിയോ റെക്കോർഡിംഗ് ആരംഭിക്കാനായില്ല."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ഓഡിയോ റെക്കോർഡിംഗ് ചെയ്യാനായില്ല."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"ഡാറ്റ സേവർ"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"കുറഞ്ഞ മൊബെെൽ ഡാറ്റ ഉപയോഗിക്കുന്നതിന്, വീഡിയോ നിലവാരം സ്വയമേവ ക്രമീകരിക്കുക"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"ഡാറ്റാ ഉപയോഗവും മുന്നറിയിപ്പുകളും"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"വെെഫെെ, ഇതർനെറ്റ്, അല്ലെങ്കിൽ ഫോണിന്റെ ഹോട്ട്‌സ്‌പോട്ട് ഉപയോഗിച്ച് ഇന്റർനെറ്റിലേക്ക് കണക്റ്റ് ചെയ്യാം."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"മറ്റ് Bluetooth ഉപകരണങ്ങൾക്ക് ദൃശ്യമാക്കണോ?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"ഒരു ആപ്പ് <xliff:g id="TIMEOUT">%1$d</xliff:g> സെക്കൻഡ് സമയത്തേക്ക് നിങ്ങളുടെ ടിവി മറ്റ് Bluetooth ഉപകരണങ്ങൾക്ക് ദൃശ്യമാക്കാൻ താൽപ്പര്യപ്പെടുന്നു."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>

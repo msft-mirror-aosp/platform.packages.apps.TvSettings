@@ -368,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Chính sách pháp lý của Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Hiện không có dữ liệu về giấy phép"</string>
     <string name="about_model" msgid="9164284529291439296">"Kiểu máy"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Chế độ thiết bị"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Bản minh hoạ cửa hàng"</string>
     <string name="about_version" msgid="6223547403835399861">"Phiên bản hệ điều hành Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"Số sê-ri"</string>
     <string name="about_build" msgid="8467840394761634575">"Bản dựng hệ điều hành Android TV"</string>
@@ -810,7 +812,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"Lớp phần cứng flash có màu xanh khi chúng cập nhật"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"Từ tốt nhất đến tồi nhất: lam, lục, đỏ tươi, đỏ"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"Chuyển nhanh toàn bộ các giao diện cửa sổ khi các giao diện này cập nhật"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Màn hình nháy khi ứng dụng thực hiện các hoạt động dài trên luồng chính"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Nhấp nháy màn hình khi ứng dụng thực hiện các hoạt động dài trên luồng chính"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"Đo thời gian kết xuất trong adb shell dumpsys gfxinfo"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"Nguồn không xác định"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Cho phép cài đặt ứng dụng từ những nguồn khác ngoài Cửa hàng Play"</string>
@@ -1076,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"(Các) micrô ghi âm"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Không bắt đầu ghi âm được."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Không ghi âm được."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Trình tiết kiệm dữ liệu"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Tự động điều chỉnh chất lượng video để tiết kiệm dữ liệu di động"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Mức sử dụng dữ liệu và thông báo"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Bạn có thể kết nối Internet qua Wi-Fi, cáp Ethernet hoặc điểm phát sóng của điện thoại."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Đặt ở chế độ hiển thị với các thiết bị Bluetooth khác?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Một ứng dụng muốn đặt TV của bạn ở chế độ hiển thị với các thiết bị Bluetooth khác trong <xliff:g id="TIMEOUT">%1$d</xliff:g> giây."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>

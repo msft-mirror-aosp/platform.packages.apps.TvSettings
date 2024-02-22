@@ -16,11 +16,13 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="energy_mode_critical_features" msgid="6833711255772666427">"មុខងារ និង​ការដំឡើងកំណែ​សំខាន់ខ្លាំង"</string>
     <string name="energy_mode_low_title" msgid="5700567801191430606">"ទាប"</string>
     <string name="energy_mode_low_subtitle" msgid="7660632849388740009">"សម្ងំ"</string>
     <string name="energy_mode_low_info" msgid="3931173640626998821">"សម្ងំ — ការតភ្ជាប់​បណ្ដាញ​ត្រូវបានបិទ នៅពេលដែល​ទូរទស្សន៍​មិនស្ថិត​ក្នុងការប្រើប្រាស់"</string>
-    <!-- no translation found for energy_mode_low_features:0 (6461352788741946449) -->
+  <string-array name="energy_mode_low_features">
+    <item msgid="4002284890471636101">"[បញ្ចូលមុខងារទី 1]"</item>
+    <item msgid="7072772341455731040">"[បញ្ចូលមុខងារទី 2]"</item>
+  </string-array>
     <string name="energy_mode_low_eco_hint" msgid="2421460758847643655"></string>
     <string name="energy_mode_moderate_title" msgid="8612259261851051150">"បានបង្កើន​ប្រសិទ្ធភាព"</string>
     <string name="energy_mode_moderate_subtitle" msgid="5565533500130453270">"សម្ងំ​ភ្ជាប់"</string>

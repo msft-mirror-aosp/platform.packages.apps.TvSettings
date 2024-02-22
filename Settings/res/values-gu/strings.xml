@@ -368,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google કાનૂની"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"લાઇસન્સ ડેટા અનુપલબ્ધ છે"</string>
     <string name="about_model" msgid="9164284529291439296">"મૉડલ"</string>
+    <string name="device_mode" msgid="7258350575590118152">"ડિવાઇસ મોડ"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"સ્ટોરનો ડેમો"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV OS વર્ઝન"</string>
     <string name="about_serial" msgid="3432319328808745459">"અનુક્રમ ક્રમાંક"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV OS બિલ્ડ"</string>
@@ -1076,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"રેકોર્ડેડ માઇક્રોફોન"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"ઑડિયો રેકોર્ડિંગ શરૂ કરવાનું નિષ્ફળ રહ્યું."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ઑડિયો રેકોર્ડ કરવાનું નિષ્ફળ રહ્યું."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"ડેટા સેવર"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"મોબાઇલ ડેટાનો ઓછો ઉપયોગ કરવા માટે વીડિયો ક્વૉલિટી ઑટોમૅટિક રીતે ગોઠવો"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"ડેટા વપરાશ અને અલર્ટ"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"તમે વાઇ-ફાઇ, ઇથરનેટ કેબલ અથવા તમારા ફોનના હૉટસ્પૉટ વડે ઇન્ટરનેટ સાથે કનેક્ટ કરી શકો છો."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"શું અન્ય બ્લૂટૂથ ડિવાઇસને બતાવીએ?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"કોઈ ઍપ તમારા ટીવીને <xliff:g id="TIMEOUT">%1$d</xliff:g> સેકન્ડ માટે અન્ય બ્લૂટૂથ ડિવાઇસ પર બતાવવા માગે છે."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
