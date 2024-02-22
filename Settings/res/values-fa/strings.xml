@@ -368,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"شرایط حقوقی Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"داده مجوز در دسترس نیست"</string>
     <string name="about_model" msgid="9164284529291439296">"مدل"</string>
+    <string name="device_mode" msgid="7258350575590118152">"حالت دستگاه"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"نسخه نمایشی فروشگاه"</string>
     <string name="about_version" msgid="6223547403835399861">"نسخه «سیستم‌عامل Android TV»"</string>
     <string name="about_serial" msgid="3432319328808745459">"شماره سریال"</string>
     <string name="about_build" msgid="8467840394761634575">"ساخت «سیستم‌عامل Android TV»"</string>
@@ -1076,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"میکروفون(های) ضبط‌شده"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"ضبط صدا شروع نشد."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ضبط صدا انجام نشد."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"صرفه‌جویی داده"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"کیفیت ویدیو به‌طور خودکار تنظیم شود تا داده تلفن همراه کمتری مصرف شود"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"مصرف داده و هشدارها"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"می‌توانید بااستفاده از Wi-Fi، اترنت، یا نقطه اتصال تلفنتان به اینترنت متصل شوید."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"برای دستگاه‌های بلوتوث دیگر قابل‌مشاهده شود؟"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"برنامه‌ای می‌خواهد تلویزیون شما را برای دستگاه‌های بلوتوث دیگر به مدت <xliff:g id="TIMEOUT">%1$d</xliff:g> ثانیه قابل‌مشاهده کند."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
