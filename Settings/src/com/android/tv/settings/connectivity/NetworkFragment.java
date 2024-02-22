@@ -89,11 +89,8 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
     private static final String KEY_ETHERNET_STATUS = "ethernet_status";
     private static final String KEY_ETHERNET_PROXY = "ethernet_proxy";
     private static final String KEY_ETHERNET_DHCP = "ethernet_dhcp";
-    private static final String KEY_DATA_SAVER_SLICE = "data_saver_slice";
-    private static final String KEY_DATA_ALERT_SLICE = "data_alert_slice";
     private static final String KEY_NETWORK_DIAGNOSTICS = "network_diagnostics";
 
-    private static final String ACTION_DATA_ALERT_SETTINGS = "android.settings.DATA_ALERT_SETTINGS";
     private static final int INITIAL_UPDATE_DELAY = 500;
 
     private static final String NETWORK_DIAGNOSTICS_ACTION =
@@ -206,20 +203,6 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
             mEnableWifiPref.setVisible(false);
         }
 
-        updateVisibilityForDataSaver();
-        Preference dataSaverSlicePref = findPreference(KEY_DATA_SAVER_SLICE);
-        Preference dataAlertSlicePref = findPreference(KEY_DATA_ALERT_SLICE);
-        Intent i = getActivity().getIntent();
-        if (i != null && i.getAction() != null) {
-            if (i.getAction().equals(Settings.ACTION_DATA_SAVER_SETTINGS)
-                    && dataSaverSlicePref.isVisible()) {
-                mHandler.post(() -> scrollToPreference(dataSaverSlicePref));
-            } else if (i.getAction().equals(ACTION_DATA_ALERT_SETTINGS)
-                    && dataAlertSlicePref.isVisible()) {
-                mHandler.post(() -> scrollToPreference(dataAlertSlicePref));
-            }
-        }
-
         Preference networkDiagnosticsPref = findPreference(KEY_NETWORK_DIAGNOSTICS);
         Intent networkDiagnosticsIntent = makeNetworkDiagnosticsIntent();
         if (networkDiagnosticsIntent != null) {
@@ -252,17 +235,6 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
                 mAddEasyConnectPref.setEnabled(false);
             }
         }
-    }
-
-    private void updateVisibilityForDataSaver() {
-        Preference dataSaverSlicePref = findPreference(KEY_DATA_SAVER_SLICE);
-        Preference dataAlertSlicePref = findPreference(KEY_DATA_ALERT_SLICE);
-        boolean isDataSaverVisible = isConnected() && SliceUtils.isSliceProviderValid(
-                getContext(), ((SlicePreference) dataSaverSlicePref).getUri());
-        boolean isDataAlertVisible = isConnected() && SliceUtils.isSliceProviderValid(
-                getContext(), ((SlicePreference) dataAlertSlicePref).getUri());
-        dataSaverSlicePref.setVisible(isDataSaverVisible);
-        dataAlertSlicePref.setVisible(isDataAlertVisible);
     }
 
     @Override
@@ -401,8 +373,6 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
                     ? R.string.connected : R.string.not_connected);
             mEthernetStatusPref.setSummary(mConnectivityListener.getEthernetIpAddress());
         }
-
-        updateVisibilityForDataSaver();
     }
 
     private void updateWifiList() {
