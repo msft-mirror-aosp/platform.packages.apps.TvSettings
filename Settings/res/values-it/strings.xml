@@ -368,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Note legali Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Dati di licenza non disponibili"</string>
     <string name="about_model" msgid="9164284529291439296">"Modello"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Modalità dispositivo"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Demo in negozio"</string>
     <string name="about_version" msgid="6223547403835399861">"Versione sistema operativo Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"Numero di serie"</string>
     <string name="about_build" msgid="8467840394761634575">"Build sistema operativo Android TV"</string>
@@ -1076,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Microfoni registrati"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Impossibile avviare la registrazione dell\'audio."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Registrazione audio non riuscita."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Risparmio dati"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Regola automaticamente la qualità video per usare meno dati mobili"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Utilizzo dei dati e avvisi"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Puoi connetterti a Internet tramite una rete Wi-Fi, un cavo Ethernet o l\'hotspot del telefono."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Rendere visibile agli altri dispositivi Bluetooth?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Un\'app chiede di rendere la tua TV visibile ad altri dispositivi Bluetooth per <xliff:g id="TIMEOUT">%1$d</xliff:g> secondi."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
