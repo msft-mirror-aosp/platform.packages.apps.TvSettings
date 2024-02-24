@@ -368,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"معلومات قانونية من Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"بيانات الترخيص غير متاحة"</string>
     <string name="about_model" msgid="9164284529291439296">"الطراز"</string>
+    <string name="device_mode" msgid="7258350575590118152">"وضع الجهاز"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"وضع العرض التوضيحي بالمتجر"</string>
     <string name="about_version" msgid="6223547403835399861">"نسخة نظام تشغيل Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"الرقم المسلسل"</string>
     <string name="about_build" msgid="8467840394761634575">"إصدار نظام تشغيل Android TV"</string>
@@ -1076,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"الميكروفون (الميكروفونات) المستخدمة في التسجيل"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"تعذّر بدء تسجيل الصوت."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"تعذّر تسجيل الصوت."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"توفير البيانات"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"ضبط جودة الفيديو تلقائيًا لتقليل استخدام بيانات الجوّال"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"التنبيهات واستخدام البيانات"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"يمكنك الاتصال بالإنترنت باستخدام شبكة Wi-Fi أو إيثرنت أو نقطة اتصال هاتفك."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"هل تريد جعله مرئيًا للأجهزة الأخرى التي تتضمّن بلوتوث؟"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"يريد أحد التطبيقات أن يكون تلفزيونك مرئيًا للأجهزة الأخرى التي تتضمّن بلوتوث لمدة <xliff:g id="TIMEOUT">%1$d</xliff:g> ثانية."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>

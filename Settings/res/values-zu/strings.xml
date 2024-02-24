@@ -368,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Ezomthetho ze-Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Idatha yelayisense ayitholakali"</string>
     <string name="about_model" msgid="9164284529291439296">"Imodeli"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Imodi yedivayisi"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"I-demo Yesitolo"</string>
     <string name="about_version" msgid="6223547403835399861">"Inguqulo ye-Android TV OS"</string>
     <string name="about_serial" msgid="3432319328808745459">"Inombolo yomkhiqizo"</string>
     <string name="about_build" msgid="8467840394761634575">"Umakhiwo we-Android TV OS"</string>
@@ -1076,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Amamakrofoni arekhodiwe"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Yehlulekile ukuqalisa ukurekhoda umsindo."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Ukurekhoda komsindo kwehlulekile."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Iseva yedatha"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Lungisa ngokuzenzakalela ikhwalithi yevidiyo ukuze usebenzise idatha encane yeselula"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Ukusetshenziswa kwedatha nezexwayiso"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Ungaxhuma ku-inthanethi nge-Wi-Fi, i-Ethernet, noma i-hotspot yefoni yakho."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Kwenze kubonakale kwamanye amadivayisi we-Bluetooth?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"I-app ifuna ukwenza iTV yakho ibonakale kwamanye amadivayisi e-Bluetooth kumasekhondi angu-<xliff:g id="TIMEOUT">%1$d</xliff:g>."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>

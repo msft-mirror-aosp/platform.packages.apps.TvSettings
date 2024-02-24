@@ -368,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google से जुड़ी कानूनी जानकारी"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"लाइसेंस डेटा अनुपलब्ध है"</string>
     <string name="about_model" msgid="9164284529291439296">"मॉडल"</string>
+    <string name="device_mode" msgid="7258350575590118152">"डिवाइस मोड"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"स्टोर डेमो"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV का ओएस वर्शन"</string>
     <string name="about_serial" msgid="3432319328808745459">"सीरियल नंबर"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV के ओएस बिल्ड का वर्शन"</string>
@@ -1076,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"रिकॉर्डिंग में इस्तेमाल माइक्रोफ़ोन"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"ऑडियो की रिकॉर्डिंग शुरू नहीं हो पाई."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ऑडियो की रिकॉर्डिंग नहीं हो पाई."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"डेटा बचाने की सेटिंग"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"मोबाइल डेटा बचाने के लिए, वीडियो क्वालिटी को अपने-आप एडजस्ट होने दें"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"डेटा खर्च और सूचनाएं"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"वाई-फ़ाई, ईथरनेट या फ़ोन के हॉटस्पॉट का इस्तेमाल करके, इंटरनेट से कनेक्ट किया जा सकता है."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"क्या आपको अन्य ब्लूटूथ डिवाइसों को इसे दिखाना है?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"एक ऐप्लिकेशन आपके टीवी को <xliff:g id="TIMEOUT">%1$d</xliff:g> सेकंड के लिए अन्य ब्लूटूथ डिवाइसों को दिखाना चाहता है."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
