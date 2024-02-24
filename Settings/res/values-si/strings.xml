@@ -368,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google නීතිමය"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"බලපත්‍ර දත්ත ලබාගත නොහැක"</string>
     <string name="about_model" msgid="9164284529291439296">"අනුකෘතිය"</string>
+    <string name="device_mode" msgid="7258350575590118152">"උපාංග ප්‍රකාරය"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"ගබඩා ආදර්ශනය"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV OS අනුවාදය"</string>
     <string name="about_serial" msgid="3432319328808745459">"අනුක්‍රමාංකය"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV OS තැනුම"</string>
@@ -1076,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"පටිගත කළ මයික්‍රෆෝනය(න්)"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"ශ්‍රව්‍ය පටිගත කිරීම ඇරඹීමට අසමත් විය."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ශ්‍රව්‍ය පටිගත කිරීම අසමත් විය."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"දත්ත සුරැකුම"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"ජංගම දත්ත අඩුවෙන් භාවිත කිරීමට වීඩියෝ ගුණත්වය ස්වයංක්‍රීයව ගළපන්න"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"දත්ත භාවිතය සහ ඇඟවීම්"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"ඔබට Wi-Fi, ඊතර්නෙට් හෝ ඔබගේ දුරකථනයෙහි හොට්ස්පොට් සමග අන්තර්ජාලයට සම්බන්ධ විය හැකිය."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"වෙනත් බ්ලූටූත් උපාංගවලට දෘශ්‍යමාන කරන්න ද?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"යෙදුමකට ඔබේ රූපවාහිනිය තත්පර <xliff:g id="TIMEOUT">%1$d</xliff:g>ක් සඳහා වෙනත් බ්ලූටූත් උපාංගවලට දෘශ්‍යමාන කිරීමට අවශ්‍යයි."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>

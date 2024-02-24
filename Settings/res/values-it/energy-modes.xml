@@ -16,11 +16,13 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="energy_mode_critical_features" msgid="6833711255772666427">"Aggiornamenti e funzionalità critici"</string>
     <string name="energy_mode_low_title" msgid="5700567801191430606">"Bassa"</string>
     <string name="energy_mode_low_subtitle" msgid="7660632849388740009">"Standby"</string>
     <string name="energy_mode_low_info" msgid="3931173640626998821">"Standby - La connessione di rete è disattivata quando la TV non è in uso"</string>
-    <!-- no translation found for energy_mode_low_features:0 (6461352788741946449) -->
+  <string-array name="energy_mode_low_features">
+    <item msgid="4002284890471636101">"[Inserisci funzionalità 1]"</item>
+    <item msgid="7072772341455731040">"[Inserisci funzionalità 2]"</item>
+  </string-array>
     <string name="energy_mode_low_eco_hint" msgid="2421460758847643655"></string>
     <string name="energy_mode_moderate_title" msgid="8612259261851051150">"Ottimizzata"</string>
     <string name="energy_mode_moderate_subtitle" msgid="5565533500130453270">"Standby connesso"</string>

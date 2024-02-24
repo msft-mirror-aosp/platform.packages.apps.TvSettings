@@ -368,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Googleৰ আইনী পৃষ্ঠা"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"অনুজ্ঞাপত্ৰৰ ডেটা নাই"</string>
     <string name="about_model" msgid="9164284529291439296">"মডেল"</string>
+    <string name="device_mode" msgid="7258350575590118152">"ডিভাইচ ম’ড"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"ষ্ট’ৰ ডেম’"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV OS সংস্কৰণ"</string>
     <string name="about_serial" msgid="3432319328808745459">"ক্ৰমাংক"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV OS বিল্ড"</string>
@@ -1076,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"ৰেকর্ড কৰা মাইক্ৰ’ফ’ন(সমূহ)"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"অডিঅ\' ৰেকৰ্ড আৰম্ভ কৰাত বিফল হ\'ল।"</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"অডিঅ\' ৰেকৰ্ড কৰাত বিফল হ\'ল।"</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"ডেটা সঞ্চয়কাৰী"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"কম ম’বাইল ডেটা ব্যৱহাৰ কৰিবলৈ স্বয়ংক্ৰিয়ভাৱে ভিডিঅ’ৰ গুণগত মান মিলাওক"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"ডেটাৰ ব্যৱহাৰ আৰু সতৰ্কবাৰ্তাসমূহ"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"আপুনি ৱাই-ফাই, ইথাৰনেট অথবা আপোনাৰ ফ’নৰ হটস্পটৰ জৰিয়তে ইণ্টাৰনেটৰ সৈতে সংযুক্ত হ’ব পাৰে।"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"অন্য ব্লুটুথ ডিভাইচে দেখা পোৱা কৰিবনে?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"এটা এপে আপোনাৰ টিভিটো <xliff:g id="TIMEOUT">%1$d</xliff:g> ছেকেণ্ডৰ বাবে অন্য ব্লুটুথ ডিভাইচে দেখা পোৱা কৰিব বিচাৰিছে।"</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
