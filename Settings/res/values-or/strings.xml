@@ -368,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google ଲିଗାଲ୍‌"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"ଲାଇସେନ୍ସ ଡାଟା ଉପଲବ୍ଧ ନାହିଁ"</string>
     <string name="about_model" msgid="9164284529291439296">"ମଡେଲ୍‌"</string>
+    <string name="device_mode" msgid="7258350575590118152">"ଡିଭାଇସ ମୋଡ"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"ଷ୍ଟୋର ଡେମୋ"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV OS ସଂସ୍କରଣ"</string>
     <string name="about_serial" msgid="3432319328808745459">"କ୍ରମିକ ସଂଖ୍ୟା"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV OS ବିଲ୍ଡ"</string>
@@ -1076,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"ରେକର୍ଡ କରାଯାଇଥିବା ମାଇକ୍ରୋଫୋନ(ଗୁଡ଼ିକ)"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"ଅଡିଓ ରେକର୍ଡିଂ ଆରମ୍ଭ କରିବାରେ ବିଫଳ ହୋଇଛି।"</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ଅଡିଓ ରେକର୍ଡିଂ ବିଫଳ ହୋଇଛି।"</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"ଡାଟା ସେଭର୍"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"ମୋବାଇଲ୍ ଡାଟା କମ୍ ବ୍ୟବହାର କରିବାକୁ ଭିଡିଓ ଗୁଣବତ୍ତାକୁ ସ୍ୱଚାଳିତ ଭାବେ ଆଡ୍‌ଜଷ୍ଟ କରନ୍ତୁ"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"ଡାଟା ବ୍ୟବହାର ଏବଂ ଆଲର୍ଟଗୁଡ଼ିକ"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"ଆପଣ ୱାଇ-ଫାଇ, ଇଥରନେଟ କିମ୍ବା ଆପଣଙ୍କ ଫୋନର ହଟସ୍ପଟ ସହ ଇଣ୍ଟରନେଟକୁ ସଂଯୋଗ କରିପାରିବେ।"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"ଅନ୍ୟ ବ୍ଲୁଟୁଥ ଡିଭାଇସଗୁଡ଼ିକୁ ଦୃଶ୍ୟମାନ କରିବେ?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"ଏକ ଆପ ଆପଣଙ୍କ ଟିଭିକୁ <xliff:g id="TIMEOUT">%1$d</xliff:g> ସେକେଣ୍ଡ ପାଇଁ ଅନ୍ୟ ବ୍ଲୁଟୁଥ ଡିଭାଇସଗୁଡ଼ିକରେ ଦୃଶ୍ୟମାନ କରିବାକୁ ଚାହେଁ।"</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
