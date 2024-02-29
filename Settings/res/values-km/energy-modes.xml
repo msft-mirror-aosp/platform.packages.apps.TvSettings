@@ -20,8 +20,8 @@
     <string name="energy_mode_low_subtitle" msgid="7660632849388740009">"សម្ងំ"</string>
     <string name="energy_mode_low_info" msgid="3931173640626998821">"សម្ងំ — ការតភ្ជាប់​បណ្ដាញ​ត្រូវបានបិទ នៅពេលដែល​ទូរទស្សន៍​មិនស្ថិត​ក្នុងការប្រើប្រាស់"</string>
   <string-array name="energy_mode_low_features">
-    <item msgid="4002284890471636101">"[បញ្ចូលមុខងារទី 1]"</item>
-    <item msgid="7072772341455731040">"[បញ្ចូលមុខងារទី 2]"</item>
+    <item msgid="4002284890471636101">"[Insert feature 1]"</item>
+    <item msgid="7072772341455731040">"[Insert feature 2]"</item>
   </string-array>
     <string name="energy_mode_low_eco_hint" msgid="2421460758847643655"></string>
     <string name="energy_mode_moderate_title" msgid="8612259261851051150">"បានបង្កើន​ប្រសិទ្ធភាព"</string>
