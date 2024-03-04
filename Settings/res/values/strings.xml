@@ -2894,4 +2894,12 @@
     <string name="find_my_remote_integration_title" translatable="false">@string/settings_find_my_remote_title</string>
     <string name="find_my_remote_integration_hint">When Find my remote is enabled, you can play a sound to locate your Google TV remote if it\'s misplaced.</string>
     <string name="find_my_remote_play_sound">Play sound</string>
+
+    <!-- Title for preference which when clicked lets the user configure volume change -->
+    <string name="volume_change_settings_title">%1$s volume</string>
+    <!-- Subtitle for volume change during unselect -->
+    <string name="volume_change_subtitle_unselect">You can control the Assistant volume on %1$s speaker</string>
+    <!-- Subtitle for volume change during select -->
+    <string name="volume_change_subtitle_select">Only affects volume on %1$s , not on TV</string>
+
 </resources>
