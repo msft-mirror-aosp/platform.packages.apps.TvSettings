@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"এপৰ ছেটিংসমূহ"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"অৱস্থান, ব্যৱহাৰ আৰু ডায়েগন’ষ্টিক্স, বিজ্ঞাপন"</string>
     <string name="add_account" msgid="7386223854837017129">"একাউণ্ট যোগ কৰক"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"অজ্ঞাত একাউণ্ট"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"একাউণ্ট আঁতৰাওক"</string>
     <string name="account_sync" msgid="4315295293211313989">"ছিংক কৰা এপ্‌বোৰ বাছনি কৰক"</string>
     <string name="sync_now" msgid="4335217984374620551">"এতিয়া ছিংক কৰক"</string>
@@ -191,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"পাঠৰ নমুনা"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"অষ্ট্ৰেলিয়াৰ বিস্ময়কৰ যাদুকৰ"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"অধ্যায় ১১: অষ্ট্ৰেলিয়াৰ বিস্ময়কৰ পান্নাৰ মহানগৰ"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"ডৰথী আৰু তেওঁৰ বন্ধুসকলে যদিও সেউজীয়া চশমা পিন্ধি আছিল, বিস্ময়কৰ মহানগৰখনৰ চালে চকু ছাট মৰা ৰূপ দেখি প্ৰথমে তেওঁলোক স্তম্ভিত হৈ পৰিছিল। ৰাস্তাৰ দুয়োফাল সেউজীয়া মাৰ্বলৰ দ্বাৰা সজা আৰু চিকমিক মুকুতাখচিত শাৰী শাৰী ঘৰেৰে ভৰি আছিল। তেওঁলোকে সূৰ্যৰ পোহৰত উজলি উঠা পান্নাবোৰৰ সহায়ত শাৰী শাৰীকৈ যোৰা লগোৱা সেউজীয়া মাৰ্বলেৰে নিৰ্মিত ফুটপাথেৰে খোজ কাঢ়িছিল। খিৰিকিৰ পাল্লাবোৰ সেউজীয়া কাঁচেৰে তৈয়াৰী আছিল, আনকি মহানগৰখনৰ ওপৰৰ আকাশখনো সেউজীয়া আভাৰে ভৰা আছিল আৰু সূৰ্যৰ ৰশ্মিও সেউজীয়া ৰঙৰ আছিল। \n\nতাত সেউজীয়া পোছাক পৰিহিত বহুতো পুৰুষ, মহিলা আৰু শিশুৱে খোজকাঢ়ি আছিল আৰু তেওঁলোকৰ গাৰ ছালৰ বৰণো সেউজীয়া আছিল। তেওঁলোকে ডৰথী আৰু তেওঁৰ সমনীয়াসকলৰ অদ্ভুত দলটোক বিস্ময়ভৰা চকুৰে চালে আৰু শিশুহঁতে সিংহ দেখা পাই দৌৰি গৈ মাকহতঁৰ পাছত লুকাল গৈ, কিন্তু কোনেও তেওঁলোকৰ সৈতে কথা নাপাতিলে। পথত বহুতো দোকান আছিল আৰু ডৰথীয়ে দেখা পালে যে তাত থকা সকলো বস্তুৱেই সেউজীয়া আছিল। সেই দোকানবোৰত সেউজীয়া কেণ্ডী, সেউজীয়া পপকৰ্ন, সেউজীয়া জোতা, সেউজীয়া টুপী আৰু সেউজীয়া ৰঙৰ সকলো ধৰণৰ কাপোৰ বিক্ৰীৰ বাবে ৰখা হৈছিল। এঠাইত মানুহ এজনে সেউজীয়া নেমু চৰবত বিক্ৰী কৰি আছিল আৰু ডৰথীয়ে দেখিলে যে শিশুসকলে চৰবত কিনোঁতে দিয়া মুদ্ৰাবোৰৰ ৰঙো সেউজীয়া আছিল। \n\nতাত ঘোঁৰা অথবা অন্য কোনো ধৰণৰ জন্তু দেখা পোৱা নগৈছিল; পুৰুষসকলে সেউজীয়া ৰঙৰ ঠেলাত বস্তুবোৰ কঢ়িয়াইছিল। সকলোকে সুখী, সন্তুষ্ট আৰু সমৃদ্ধ দেখা গৈছিল।"</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"ডৰথী আৰু তেওঁৰ বন্ধুসকলে যদিও সেউজীয়া চশমা পিন্ধি আছিল, বিস্ময়কৰ মহানগৰখনৰ চালে চকু ৰোৱা ৰূপ দেখি প্ৰথমে তেওঁলোক স্তম্ভিত হৈ পৰিছিল। ৰাস্তাৰ দুয়োফাল সেউজীয়া মাৰ্বলৰ দ্বাৰা সজা আৰু চিকমিক মুকুতাখচিত শাৰী শাৰী ঘৰেৰে ভৰি আছিল। তেওঁলোকে সূৰ্যৰ পোহৰত উজলি উঠা পান্নাবোৰৰ সহায়ত শাৰী শাৰীকৈ যোৰা লগোৱা সেউজীয়া মাৰ্বলেৰে নিৰ্মিত ফুটপাথেৰে খোজ কাঢ়িছিল। খিৰিকিৰ পাল্লাবোৰ সেউজীয়া কাঁচেৰে তৈয়াৰী আছিল, আনকি মহানগৰখনৰ ওপৰৰ আকাশখনো সেউজীয়া আভাৰে ভৰা আছিল আৰু সূৰ্যৰ ৰশ্মিও সেউজীয়া ৰঙৰ আছিল। \n\nতাত সেউজীয়া পোছাক পৰিহিত বহুতো পুৰুষ, মহিলা আৰু শিশুৱে খোজকাঢ়ি আছিল আৰু তেওঁলোকৰ গাৰ ছালৰ বৰণো সেউজীয়া আছিল। তেওঁলোকে ডৰথী আৰু তেওঁৰ সমনীয়াসকলৰ অদ্ভুত দলটোক বিস্ময়ভৰা চকুৰে চালে আৰু শিশুহঁতে সিংহটো দেখা পাই দৌৰি গৈ মাকহঁতৰ পিছফালে লুকালগৈ; কিন্তু কোনেও তেওঁলোকৰ সৈতে কথা নাপাতিলে। পথত বহুতো দোকান আছিল আৰু ডৰথীয়ে দেখা পালে যে তাত থকা সকলো বস্তুৱেই সেউজীয়া আছিল। সেই দোকানবোৰত সেউজীয়া কেণ্ডী, সেউজীয়া পপকৰ্ন, সেউজীয়া জোতা, সেউজীয়া টুপী আৰু সেউজীয়া ৰঙৰ সকলো ধৰণৰ কাপোৰ বিক্ৰীৰ বাবে ৰখা হৈছিল। এঠাইত মানুহ এজনে সেউজীয়া নেমু চৰবত বিক্ৰী কৰি আছিল আৰু ডৰথীয়ে দেখিলে যে শিশুসকলে চৰবত কিনোতে দিয়া মুদ্ৰাবোৰৰ ৰঙো সেউজীয়া আছিল। \n\nতাত ঘোঁৰা অথবা অন্য কোনো ধৰণৰ জন্তু দেখা পোৱা নগৈছিল; পুৰুষসকলে সেউজীয়া ৰঙৰ ঠেলাত বস্তুবোৰ কঢ়িয়াইছিল। সকলোকে সুখী, সন্তুষ্ট আৰু সমৃদ্ধ দেখা গৈছিল।"</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"ফৰ্মেটৰ বাছনি"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"স্বয়ংক্ৰিয়"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"মেনুৱেল"</string>
@@ -218,12 +219,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"ৰিজ’লিউশ্বন %1$sলৈ সলনি কৰিবনে?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"এতিয়াৰ পৰা %1$s ব্যৱহাৰ কৰিবলৈ ঠিক আছে বাছনি কৰক।"</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"%1$sত Dolby Vision সমৰ্থিত নহয় আৰু সেইটো \"উচ্চখাপৰ ডিছপ্লে’ৰ ছেটিঙ\"ত অক্ষম কৰা হ’ব"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"এই ম’ডটোৱে %1$s সমৰ্থন কৰে। আপুনি কিছুমান টিভিত অধিক HDR ফৰ্মেট সক্ষম কৰিবলৈ উন্নত HDMI অন কৰিব লগা হ’ব পাৰে। এইটো সমৰ্থিত হয়নে নহয় চাবলৈ আপোনাৰ টিভিৰ ছেটিং পৰীক্ষা কৰক।"</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"এই ম\'ডটোৱে সমর্থন কৰে:%1$s\nআপুনি কিছুমান টিভিত অধিক HDR ফৰ্মেট সক্ষম কৰিবলৈ উন্নত HDMI অন কৰিব লগা হ’ব পাৰে। এইটো সমৰ্থিত হয়নে নহয় চাবলৈ আপোনাৰ টিভিৰ ছেটিং পৰীক্ষা কৰক।"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"বাতিল কৰক"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ঠিক আছে"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"হাৰ্টজ"</string>
-    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
-    <skip />
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> হাৰ্টজ)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"কেশ্ব কৰা ডেটা মচিবনে?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"এই কাৰ্যই সকলো এপৰ কেশ্ব ডেটা পৰিষ্কাৰ কৰিব।"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -278,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"সংযোগ কৰা হ’ল"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"সংযোগ বিচ্ছিন্ন কৰা হ\'ল"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"ব্লুটুথ ছেটিংসমূহ সলনি কৰিবলৈ আপোনাৰ অনুমতি নাই৷"</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"টিভি অডিঅ’ৰ বাবে ব্যৱহাৰ কৰক"</string>
     <string name="send_feedback" msgid="936698637869795473">"মতামত পঠিয়াওক"</string>
     <string name="launch_help" msgid="2607478763131952469">"সহায় কেন্দ্ৰ"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -344,8 +345,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"এই ডিভাইচটো আপোনাৰ প্ৰতিষ্ঠানৰ দ্বাৰা পৰিচালিত৷"</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"এই ডিভাইচটো <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>ৰ দ্বাৰা পৰিচালিত।"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"অধিক জানক"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{কেমেৰা এপ্}one{কেমেৰা এপ্}other{কেমেৰা এপ্}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"কেলণ্ডাৰ এপ্"</string>
@@ -375,8 +375,8 @@
     <string name="about_ads" msgid="7662896442040086522">"বিজ্ঞাপনসমূহ"</string>
     <string name="ads_description" msgid="8081069475265061074">"আপোনাৰ বিজ্ঞাপন ID ৰিছেট কৰাৰ দৰে নিজৰ বিজ্ঞাপনৰ ছেটিং পৰিচালনা কৰক।"</string>
     <string name="ads_content_description" msgid="1006489792324920289">"বিজ্ঞাপন, আপোনাৰ বিজ্ঞাপনৰ আইডি ৰিছেট কৰাৰ দৰে নিজৰ বিজ্ঞাপনৰ ছেটিং পৰিচালনা কৰক।"</string>
-    <string name="show_dev_on" msgid="612741433124106067">"এতিয়া আপুনি এজন বিকাশকৰ্তা!"</string>
-    <string name="show_dev_already" msgid="1522591284776449818">"কোনো প্ৰয়োজন নাই, আপুনি ইতিমধ্যে এজন ডেভেলপাৰ।"</string>
+    <string name="show_dev_on" msgid="612741433124106067">"এতিয়া আপুনি এগৰাকী বিকাশকৰ্তা!"</string>
+    <string name="show_dev_already" msgid="1522591284776449818">"কোনো প্ৰয়োজন নাই, আপুনি ইতিমধ্যে এগৰাকী ডেভেলপাৰ।"</string>
     <string name="device_info_default" msgid="2374506935205518448">"অজ্ঞাত"</string>
     <string name="selinux_status" msgid="1146662734953021410">"SELinuxৰ স্থিতি"</string>
     <string name="selinux_status_disabled" msgid="4027105362332795142">"নিষ্ক্ৰিয়"</string>
@@ -743,7 +743,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"সক্ষম কৰক"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"কনফিগাৰেশ্বন"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> ব্যৱহাৰ কৰিব নেকি?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g>য়ে পাছৱৰ্ডৰ বাহিৰে, আপুনি লিখা সকলো পাঠ বাৰ্তা সংগ্ৰহ কৰিব পাৰে। ইয়াত ব্যক্তিগত তথ্য যেনে ক্ৰেডিট কাৰ্ডৰ নাম্বাৰো অন্তৰ্ভুক্ত হয়।"</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g>এ আপোনাৰ স্ক্ৰীনত থকা সমল পঢ়িব, অন্য এপৰ ওপৰত সমল প্ৰদৰ্শন কৰিব, আপুনি এপ্ অথবা হাৰ্ডৱেৰ ছেন্সৰসমূহৰ সৈতে কৰা ভাব-বিনিময় ট্ৰেক কৰিব আৰু আপোনাৰ হৈ এপৰ সৈতে ভাব-বিনিময় কৰিব পাৰিব।"</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"<xliff:g id="SERVICE">%1$s</xliff:g> বন্ধ কৰিবনে?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"ঠিক আছে বাছনি কৰিলে <xliff:g id="SERVICE">%1$s</xliff:g> বন্ধ হ\'ব।"</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"পাঠৰ পৰা কথন"</string>
@@ -764,7 +764,7 @@
     <string name="system_hdcp_checking" msgid="3757586362130048838">"HDCP পৰীক্ষণ"</string>
     <string name="system_hdmi_optimization" msgid="4122753440620724144">"HDMI অপ্টিমাইজেশ্বন"</string>
     <string name="system_reboot_confirm" msgid="7035370306447878560">"এতিয়া ৰিষ্টার্ট কৰিবনে?"</string>
-    <string name="system_desc_reboot_confirm" msgid="1567738857421128179">"এই ছেটিং আপডেইট কৰিবলৈ, আপোনাৰ ডিভাইচটো পুনৰ আৰম্ভ কৰিব লাগিব"</string>
+    <string name="system_desc_reboot_confirm" msgid="1567738857421128179">"এই ছেটিং আপডে’ট কৰিবলৈ, আপোনাৰ ডিভাইচটো পুনৰ আৰম্ভ কৰিব লাগিব"</string>
     <string name="system_never_check" msgid="2860070727606369055">"কেতিয়াও পৰীক্ষা নকৰিব"</string>
     <string name="system_check_for_drm_content_only" msgid="6667617772587997533">"কেৱল ডিআৰএম সমলৰ বাবে পৰীক্ষা কৰক"</string>
     <string name="system_always_check" msgid="384870282800221580">"সদায় পৰীক্ষা কৰক"</string>
@@ -784,7 +784,7 @@
     <string name="system_show_gpu_view_updates" msgid="1625918928089365222">"জিপিইউ দৰ্শনৰ আপডেইটসমূহ দেখুৱাওক"</string>
     <string name="system_show_hardware_layer" msgid="5833664339844452290">"হাৰ্ডৱেৰ লেয়াৰ দেখুৱাওক"</string>
     <string name="system_show_gpu_overdraw" msgid="5073007513540516704">"জিপিইউ অভাৰড্ৰ\' দেখুৱাওক"</string>
-    <string name="system_show_surface_updates" msgid="7680759813613585278">"পৃষ্ঠভাগৰ আপডেইট দেখুৱাওক"</string>
+    <string name="system_show_surface_updates" msgid="7680759813613585278">"পৃষ্ঠভাগৰ আপডে’ট দেখুৱাওক"</string>
     <string name="system_window_animation_scale" msgid="685477540250939659">"ৱিণ্ড\' এনিমেশ্বন স্কেল"</string>
     <string name="system_transition_animation_scale" msgid="7266380208347453619">"ট্ৰাঞ্জিশ্বন এনিমেশ্বন স্কেল"</string>
     <string name="system_animator_duration_scale" msgid="3829445237130423625">"এনিমেটৰ ব্যৱধানৰ স্কেল"</string>
@@ -804,7 +804,7 @@
     <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"জিপিইউৰ জৰিয়তে অঁকাৰ সময়ত ৱিণ্ড’ৰ ভিতৰত ফ্লাশ্ব দৰ্শন"</string>
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"আপডে\'ট হওঁতে হাৰ্ডৱেৰ লেয়াৰ সেউজীয়া ৰঙেৰে ফ্লাশ্ব কৰক"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"উৎকৃষ্টৰ পৰা নিকৃষ্টলৈ: নীলা, সেউজীয়া, পাতল ৰঙা, ৰঙা"</string>
-    <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"আপডেইট হওতে গোটেই ৱিণ্ড পৃষ্ঠাসমূহ ফ্লাশ্ব কৰক"</string>
+    <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"আপডে’ট হওতে গোটেই ৱিণ্ড পৃষ্ঠাসমূহ ফ্লাশ্ব কৰক"</string>
     <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"যেতিয়া এপসমূহে মুখ্য থ্ৰেডত দীঘলীয়া কাৰ্যকলাপ চলাই, তেতিয়া স্ক্ৰীন ফ্লাশ্ব কৰক"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"adb shell dumpsys gfxinfoত ৰেণ্ডাৰিং সময় জোখক"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"অজ্ঞাত উৎসবোৰ"</string>
@@ -1108,6 +1108,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"সংযোগ সফল হৈছে"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"সকলো দেখুৱাওক"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"সন্ধান কৰি থকা হৈছে"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"বিশ্বাসযোগ্যতা প্ৰমাণকাৰীৰ পৰা একাউণ্ট যোগ দিয়াৰ উদ্দেশ্যৰ বিষয়ে জানিব পৰা নগ’ল।"</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"একাউণ্ট যোগ দিব পৰা নগ’ল অথবা একাউণ্টৰ ধৰণটো উপলব্ধ নহয়।"</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"চেনেল আৰু ইনপুট"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"চেনেল, বাহ্যিক ইনপুট"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"চেনেল"</string>
@@ -1125,4 +1127,9 @@
     <string name="energy_mode_enables" msgid="357960364751477627">"সক্ষম কৰা সুবিধাসমূহ:"</string>
     <string name="energy_mode_eco_hint" msgid="1461517905015359947">"মন কৰিব যে এই ম’ডটোৰ ফলত ডিভাইচটোৱে অধিক শক্তি ব্যয় কৰিব পাৰে।"</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" সক্ষম কৰক"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"মোৰ ৰিম’ট বিচাৰক"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"আপোনাৰ Google TV ৰিম’টটো হেৰালে সেইটো বিচাৰিবলৈ কোনো ধ্বনি প্লে’ কৰক"</string>
+    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"আপোনাৰ ৰিম’টত ৩০ ছেকেণ্ডৰ বাবে কোনো ধ্বনি প্লে’ কৰিবলৈ আপোনাৰ Google TVৰ পিছফালে থকা বুটামটোত টিপক। এইটোৱে কেৱল সমৰ্থিত Google TV ৰিম’ট কণ্ট্ৰ’লৰ জৰিয়তেহে কাম কৰে।\n\nধ্বনিটো বন্ধ কৰিবলৈ আপোনাৰ ৰিম’টটোত যিকোনো বুটাম টিপক।"</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"মোৰ ৰিম’ট বিচাৰক সক্ষম কৰিলে, আপোনাৰ Google TVৰ ৰিম’টটো সঠিক স্থানত নাথাকিলে সেইটোৰ অৱস্থান জানিবলৈ আপুনি এটা ধ্বনি প্লে’ কৰিব পাৰে।"</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ধ্বনি প্লে’ কৰক"</string>
 </resources>

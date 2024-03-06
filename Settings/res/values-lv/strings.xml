@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Lietotnes iestatījumi"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Atrašanās vieta, lietojums un diagnostika, reklāmas"</string>
     <string name="add_account" msgid="7386223854837017129">"Pievienot kontu"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Nezināms konts"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Konta noņemšana"</string>
     <string name="account_sync" msgid="4315295293211313989">"Izvēlieties sinhr. lietotnes"</string>
     <string name="sync_now" msgid="4335217984374620551">"Sinhronizēt tūlīt"</string>
@@ -166,10 +167,8 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Vai veikt piespiedu konvertēšanu uz HDR formātu?"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Pēc noklusējuma tiks veikta piespiedu konvertēšana uz šo formātu: <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Displejā tiks lietota 1080p, 60Hz izšķirtspēja. Šī opcija nav saderīga ar displeju, ja tajā tiek izmantota 4K, 60Hz izšķirtspēja."</string>
-    <!-- no translation found for selection_dolby_vision_not_supported_sidebar (8994591316574824115) -->
-    <skip />
-    <!-- no translation found for manual_dolby_vision_format_on_4k60_title (4172263676512376500) -->
-    <skip />
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Tehnoloģija Dolby Vision netiek atbalstīta pašreizējā izšķirtspējā. Ja manuāli iespējosiet Dolby Vision, jūsu displeja izšķirtspēja tiks mainīta uz 1080p (60 Hz)."</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Vai mainīt izšķirtspēju uz 1080p (60 Hz)?"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Vienmēr veikt piespiedu konvertēšanu formātā Dolby Vision"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Ja sadaļas “Displeja papildiestatījumi” HDR formātu sarakstā ir atspējots formāts Dolby Vision, tad, veicot piespiedu konvertēšanu formātā Dolby Vision, tas tiks iespējots."</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Vienmēr veikt piespiedu konvertēšanu formātā HDR10"</string>
@@ -193,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Teksta paraugs"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Brīnumainais burvis no Oza zemes"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"11. nodaļa: Oza zemes brīnumainā Smaragda pilsēta"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Pat raugoties caur zaļajām brillēm, kas sargāja acis, Dorotija un viņas draugi sākotnēji apžilba no brīnišķīgās pilsētas spožuma. Ielas greznoja skaisti zaļa marmora nami, viscaur izgreznoti ar vizuļojošu smaragdu. Ielas bija izklātas ar tāda paša zaļa marmora bruģi, kura bluķu spraugās bija iestrādātas cieši kopā saliktu smaragdu rindas, kas laistījās saules gaismā. Logos bija zaļa stikla rūtis; pat debesīm virs pilsētas bija zaļa nokrāsa, un arī saules stari šķita zaļi. \n\nIelās bija daudz ļaužu — gan vīrieši, gan sievietes, gan bērni —, un visi bija tērpušies zaļās drēbēs, un tiem bija zaļgana āda. Cilvēki ar izbrīnu uzlūkoja Dorotiju un viņas savādos pavadoņus, un, ieraugot Gļēvo Lauvu, bērni bēga un slēpās aiz savām mātēm. Taču neviens viņus neuzrunāja. Visapkārt bija daudz veikalu, un Dorotija ievēroja, ka arī tajos viss ir zaļš. Tika piedāvātas gan zaļas ledenes un zaļi kukurūzas našķi, gan zaļas kurpes, zaļas cepures un visu veidu zaļas drēbes. Kāds vīrs tirgoja zaļu limonādi, un Dorotija redzēja, ka bērni to pērk, maksājot ar zaļiem penijiem. \n\nNekur nemanīja nevienu zirgu vai citu dzīvnieku; vīri pārvadāja lietas mazos zaļos ratiņos, kurus tie ejot stūma pa priekšu. Visi šķita laimīgi, apmierināti un pārtikuši."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Pat raugoties caur zaļajām brillēm, kas sargāja acis, Dorotija un viņas draugi sākotnēji apžilba no brīnišķīgās pilsētas spožuma. Ielas greznoja skaisti zaļa marmora nami, viscaur izrotāti ar vizuļojošu smaragdu. Ielas bija izklātas ar tāda paša zaļa marmora bruģi, kura bluķu spraugās bija iestrādātas cieši kopā saliktu smaragdu rindas, kas laistījās saules gaismā. Logos bija zaļa stikla rūtis; pat debesīm virs pilsētas bija zaļa nokrāsa, un arī saules stari šķita zaļi. \n\nIelās bija daudz ļaužu — gan vīrieši, gan sievietes, gan bērni —, un visi bija tērpušies zaļās drēbēs, un tiem bija zaļgana āda. Cilvēki ar izbrīnu uzlūkoja Dorotiju un viņas savādos pavadoņus, un, ieraugot Bailīgo Lauvu, bērni bēga un slēpās aiz savām mātēm. Taču neviens viņus neuzrunāja. Visapkārt bija daudz veikalu, un Dorotija ievēroja, ka arī tajos viss ir zaļš. Tika piedāvātas gan zaļas ledenes un zaļi kukurūzas našķi, gan zaļas kurpes, zaļas cepures un visu veidu zaļas drēbes. Kāds vīrs tirgoja zaļu limonādi, un Dorotija redzēja, ka bērni to pērk, maksājot ar zaļiem penijiem. \n\nNekur nemanīja nevienu zirgu vai citu dzīvnieku; vīri pārvadāja lietas mazos zaļos ratiņos, kurus tie ejot stūma pa priekšu. Visi šķita laimīgi, apmierināti un pārtikuši."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Formāta atlase"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automātiski"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manuāli"</string>
@@ -220,12 +219,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Vai mainīt izšķirtspēju uz %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Atlasiet “Labi”, lai turpmāk izmantotu šādu izšķirtspēju: %1$s."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Tehnoloģija Dolby Vision netiek atbalstīta režīmā %1$s, un tā būs atspējota displeja papildiestatījumos"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Šis režīms atbalsta %1$s. Dažos televizoros, iespējams, būs jāieslēdz uzlabotais HDMI, lai iespējotu vairāk HDR formātu. Pārbaudiet sava televizora iestatījumus, lai uzzinātu, vai tas tiek atbalstīts."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Šis režīms atbalsta: %1$s\nDažos televizoros, iespējams, būs jāieslēdz uzlabotais HDMI, lai iespējotu vairāk HDR formātu. Pārbaudiet sava televizora iestatījumus, lai uzzinātu, vai tas tiek atbalstīts."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Atcelt"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Labi"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
-    <skip />
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Vai dzēst kešatmiņā ievietotos datus?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Tiks dzēsti kešatmiņā ievietotie lietotņu dati."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -280,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Izveidots savienojums"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Savienojums pārtraukts"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Jums nav atļaujas mainīt Bluetooth iestatījumus."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Izmantot TV audio izvadei"</string>
     <string name="send_feedback" msgid="936698637869795473">"Sūtīt atsauksmes"</string>
     <string name="launch_help" msgid="2607478763131952469">"Palīdzības centrs"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -346,8 +345,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Šo ierīci pārvalda jūsu organizācija."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Šo ierīci pārvalda <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Uzzināt vairāk"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Kameras lietotne}zero{Kameras lietotnes}one{Kameras lietotnes}other{Kameras lietotnes}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Kalendāra lietotne"</string>
@@ -745,7 +743,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Iespējot"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfigurācija"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Izmantot <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"Pakalpojumā <xliff:g id="SERVICE">%1$s</xliff:g> var tikt vākts viss jūsu ievadītais teksts, izņemot paroles. Tas attiecas arī uz personas datiem, piemēram, kredītkartes numuru."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"Pakalpojums <xliff:g id="SERVICE">%1$s</xliff:g> varēs nolasīt jūsu ekrānā redzamo saturu, attēlot saturu pāri citām lietotnēm, izsekot jūsu mijiedarbību ar lietotnēm vai aparatūras sensoriem un mijiedarboties ar lietotnēm jūsu vārdā."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Vai apturēt pakalpojuma <xliff:g id="SERVICE">%1$s</xliff:g> darbību?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Atlasot “Labi”, pakalpojuma <xliff:g id="SERVICE">%1$s</xliff:g> darbība tiks pārtraukta."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Teksta pārvēršana runā"</string>
@@ -1110,6 +1108,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Savienojums sekmīgi izveidots."</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Rādīt visu"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Notiek meklēšana"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Neizdevās no autentifikatora izgūt konta pievienošanas nolūku."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Neizdevās pievienot kontu, vai arī attiecīgais konta veids nav pieejams."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Kanāli un ieejas"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Kanāli, ārējās ieejas"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Kanāli"</string>
@@ -1127,4 +1127,9 @@
     <string name="energy_mode_enables" msgid="357960364751477627">"Tiek iespējotas šādas funkcijas:"</string>
     <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Ņemiet vērā, ka, izmantojot šo režīmu, var tikt palielināts ierīces enerģijas patēriņš."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Režīma “<xliff:g id="ENERGYMODENAME">%s</xliff:g>” iespējošana"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Tālvadības ierīces atrašana"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Atskaņojiet signālu, lai atrastu savu Google TV tālvadības ierīci, ja tā ir pazudusi."</string>
+    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Nospiediet pogu Google TV ierīces aizmugurē, lai 30 sekundes atskaņotu tālvadības ierīces signālu. Tas darbojas tikai atbalstītās Google TV tālvadības ierīcēs.\n\nLai apturētu signāla atskaņošanu, nospiediet jebkuru tālvadības ierīces pogu."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kad ir iespējota funkcija “Atrast tālvadības ierīci”, varat atskaņot signālu, lai atrastu savu Google TV tālvadības ierīci, ja tā ir pazudusi."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Atskaņot signālu"</string>
 </resources>
