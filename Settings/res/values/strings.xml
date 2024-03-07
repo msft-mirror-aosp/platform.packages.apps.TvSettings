@@ -2900,6 +2900,6 @@
     <!-- Subtitle for volume change during unselect -->
     <string name="volume_change_subtitle_unselect">You can control the Assistant volume on %1$s speaker</string>
     <!-- Subtitle for volume change during select -->
-    <string name="volume_change_subtitle_select">Only affects volume on %1$s , not on TV</string>
+    <string name="volume_change_subtitle_select">Only affects volume on %1$s device , not on TV</string>
 
 </resources>

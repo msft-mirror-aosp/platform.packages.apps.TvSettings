@@ -43,6 +43,7 @@ import androidx.preference.TwoStatePreference;
 
 import com.android.tv.settings.R;
 import com.android.tv.settings.SettingsPreferenceFragment;
+import com.android.tv.settings.name.DeviceManager;
 import com.android.tv.settings.overlay.FlavorUtils;
 import com.android.tv.settings.util.ResolutionSelectionUtils;
 import com.android.tv.settings.util.SliceUtils;
@@ -64,8 +65,11 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment implements
     private static final String KEY_RESOLUTION_TITLE = "resolution_selection";
     private static final String KEY_DYNAMIC_RANGE = "match_content_dynamic_range";
 
+    private static final String VOLUME_CHANGE = "volume_change";
+
     private AudioManager mAudioManager;
     private HdmiControlManager mHdmiControlManager;
+    private String mCurrentDeviceName;
 
     private Display.Mode mCurrentMode = null;
     private DisplayManager mDisplayManager;
@@ -104,10 +108,12 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment implements
         setPreferencesFromResource(getPreferenceScreenResId(), null);
 
         final TwoStatePreference soundPref = findPreference(KEY_SOUND_EFFECTS);
+        mCurrentDeviceName = DeviceManager.getDeviceName(getActivity());
         soundPref.setChecked(getSoundEffectsEnabled());
         soundPref.setVisible(false);
         updateCecPreference();
         updateDefaultAudioOutputSettings();
+        updateVolumeChangePreference();
 
         mDisplayManager = getDisplayManager();
         Display display = mDisplayManager.getDisplay(Display.DEFAULT_DISPLAY);
@@ -203,6 +209,17 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment implements
                     && SliceUtils.isSettingsSliceEnabled(getContext(),
                         defaultAudioOutputSlicePref.getUri(), null));
         }
+    }
+
+    private void updateVolumeChangePreference() {
+        Preference volumeChangePreference = findPreference(VOLUME_CHANGE);
+        String volumeChangeTitle = String.format(
+                getContext().getResources().getString(R.string.volume_change_settings_title),
+                mCurrentDeviceName
+        );
+        volumeChangePreference.setTitle(volumeChangeTitle);
+        volumeChangePreference.setVisible(getContext().getResources()
+                .getBoolean(R.bool.config_volume_change));
     }
 
     @Override

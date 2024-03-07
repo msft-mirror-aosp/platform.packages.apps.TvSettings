@@ -170,4 +170,7 @@
         strings/connected_devices_slice_uri is empty.
     -->
     <bool name="config_find_my_remote_integration_enabled">false</bool>
+
+    <!-- True if the device has a built in speaker. -->
+    <bool name="config_volume_change">false</bool>
 </resources>
