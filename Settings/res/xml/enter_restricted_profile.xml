@@ -26,10 +26,10 @@
         android:title="@string/restricted_profile_enter_already_entered_placeholder"
         android:enabled="false" />
     <Preference
-        android:key="restricted_profile_skip"
-        android:title="@string/restricted_profile_skip_action" />
-    <Preference
         android:key="restricted_profile_enter"
         android:title="@string/restricted_profile_switch_to" />
+    <Preference
+        android:key="restricted_profile_skip"
+        android:title="@string/restricted_profile_skip_action" />
 
 </PreferenceScreen>

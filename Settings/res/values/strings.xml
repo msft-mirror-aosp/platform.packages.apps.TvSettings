@@ -1770,6 +1770,14 @@
     <string name="accessibility_shortcut_service">Shortcut service</string>
     <!-- Description for the accessibility shortcut [CHAR LIMIT=NONE] -->
     <string name="accessibility_shortcut_description">When the shortcut is on, you can press both the back and down buttons for 3 seconds to start an accessibility feature.</string>
+    <!-- Title for accessibility timeout [CHAR LIMIT=50] -->
+    <string name="accessibility_timeout">Time to take action</string>
+    <!-- Title for accessibility timeout [CHAR LIMIT=50] -->
+    <string name="accessibility_timeout_detailed">Time to take action (Accessibility timeout)</string>
+    <!-- Title for accessibility timeout info [CHAR LIMIT=50] -->
+    <string name="accessibility_timeout_info_title">Timing</string>
+    <!-- Description for accessibility timeout info [CHAR LIMIT=50] -->
+    <string name="accessibility_timeout_info_description">This timing preference isn\'t supported by all apps.</string>
     <!-- Title and description for accessibility captions setting [CHAR LIMIT=50] -->
     <string name="accessibility_captions">Captions</string>
     <!-- Title and description for accessibility captions description [CHAR LIMIT=NONE] -->

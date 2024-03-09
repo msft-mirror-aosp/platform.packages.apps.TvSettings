@@ -66,6 +66,10 @@
             android:key="accessibility_shortcut"
             android:title="@string/accessibility_shortcut"
             android:fragment="com.android.tv.settings.accessibility.AccessibilityShortcutFragment" />
+        <Preference
+            android:key="accessibility_timeout"
+            android:title="@string/accessibility_timeout_detailed"
+            android:fragment="com.android.tv.settings.accessibility.AccessibilityTimeoutFragment" />
     </PreferenceCategory>
 
     <PreferenceCategory
