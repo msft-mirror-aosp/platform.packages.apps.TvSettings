@@ -2841,6 +2841,8 @@
     <string name="external_inputs_settings_title">External inputs</string>
     <!-- Summary for vendor sample "Display & Sound" settings [CHAR LIMIT=60] -->
     <string name="display_and_sound_vendor_summary">Picture, screen, sound</string>
+    <!-- Slice uri for "Display & Sound" settings -->
+    <string name="display_and_sound_slice_uri" translatable="false"></string>
     <!-- Title for "Picture" settings [CHAR LIMIT=60] -->
     <string name="picture_settings_title">Picture</string>
     <!-- Intent action for vendor picture activity -->
