@@ -2841,6 +2841,8 @@
     <string name="external_inputs_settings_title">External inputs</string>
     <!-- Summary for vendor sample "Display & Sound" settings [CHAR LIMIT=60] -->
     <string name="display_and_sound_vendor_summary">Picture, screen, sound</string>
+    <!-- Slice uri for "Display & Sound" settings -->
+    <string name="display_and_sound_slice_uri" translatable="false"></string>
     <!-- Title for "Picture" settings [CHAR LIMIT=60] -->
     <string name="picture_settings_title">Picture</string>
     <!-- Intent action for vendor picture activity -->
@@ -2858,6 +2860,10 @@
     <string name="power_boot_resume_slice_uri" translatable="false" />
     <!-- Title of the Reset section, which lets user select from factory reset or other reset related operations. [CHAR LIMIT=60] -->
     <string name="reset_options_title">Reset</string>
+    <!-- Slice uri for "Television" settings -->
+    <string name="system_tv_slice_uri" translatable="false"></string>
+    <!-- Title for "Television" settings [CHAR LIMIT=60] -->
+    <string name="system_tv_title">Television</string>
 
     <string name="font_sans_serif" translatable="false">sans-serif</string>
     <string name="font_sans_serif_light" translatable="false">sans-serif-light</string>

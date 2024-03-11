@@ -118,6 +118,7 @@ public class MainFragment extends PreferenceControllerFragment implements
     static final String KEY_PRIVACY = "privacy";
     @VisibleForTesting
     static final String KEY_DISPLAY_AND_SOUND = "display_and_sound";
+    private static final String KEY_DISPLAY_AND_SOUND_SLICE = "display_and_sound_slice";
     private static final String KEY_CHANNELS_AND_INPUTS = "channels_and_inputs";
     private static final String KEY_CHANNELS_AND_INPUTS_SLICE = "channels_and_inputs_slice";
 
@@ -267,6 +268,7 @@ public class MainFragment extends PreferenceControllerFragment implements
         }
         mSuggestionQuickSettingPrefsContainer.onCreatePreferences();
         updateSoundSettings();
+        updateDisplayAndSound();
     }
 
     @VisibleForTesting
@@ -609,6 +611,21 @@ public class MainFragment extends PreferenceControllerFragment implements
             channelsAndInputsSlicePreference.setVisible(true);
             if (channelsAndInputsPreference != null) {
                 channelsAndInputsPreference.setVisible(false);
+            }
+        }
+    }
+
+    private void updateDisplayAndSound() {
+        Preference displayAndSoundPreference = findPreference(KEY_DISPLAY_AND_SOUND);
+        SlicePreference displayAndSoundSlicePreference =
+                (SlicePreference) findPreference(KEY_DISPLAY_AND_SOUND_SLICE);
+        if (displayAndSoundSlicePreference != null
+                && FlavorUtils.isTwoPanel(getContext())
+                && SliceUtils.isSliceProviderValid(
+                getContext(), displayAndSoundSlicePreference.getUri())) {
+            displayAndSoundSlicePreference.setVisible(true);
+            if (displayAndSoundPreference != null) {
+                displayAndSoundPreference.setVisible(false);
             }
         }
     }
