@@ -1770,6 +1770,14 @@
     <string name="accessibility_shortcut_service">Shortcut service</string>
     <!-- Description for the accessibility shortcut [CHAR LIMIT=NONE] -->
     <string name="accessibility_shortcut_description">When the shortcut is on, you can press both the back and down buttons for 3 seconds to start an accessibility feature.</string>
+    <!-- Title for accessibility timeout [CHAR LIMIT=50] -->
+    <string name="accessibility_timeout">Time to take action</string>
+    <!-- Title for accessibility timeout [CHAR LIMIT=50] -->
+    <string name="accessibility_timeout_detailed">Time to take action (Accessibility timeout)</string>
+    <!-- Title for accessibility timeout info [CHAR LIMIT=50] -->
+    <string name="accessibility_timeout_info_title">Timing</string>
+    <!-- Description for accessibility timeout info [CHAR LIMIT=50] -->
+    <string name="accessibility_timeout_info_description">This timing preference isn\'t supported by all apps.</string>
     <!-- Title and description for accessibility captions setting [CHAR LIMIT=50] -->
     <string name="accessibility_captions">Captions</string>
     <!-- Title and description for accessibility captions description [CHAR LIMIT=NONE] -->
@@ -2833,6 +2841,8 @@
     <string name="external_inputs_settings_title">External inputs</string>
     <!-- Summary for vendor sample "Display & Sound" settings [CHAR LIMIT=60] -->
     <string name="display_and_sound_vendor_summary">Picture, screen, sound</string>
+    <!-- Slice uri for "Display & Sound" settings -->
+    <string name="display_and_sound_slice_uri" translatable="false"></string>
     <!-- Title for "Picture" settings [CHAR LIMIT=60] -->
     <string name="picture_settings_title">Picture</string>
     <!-- Intent action for vendor picture activity -->
@@ -2850,6 +2860,10 @@
     <string name="power_boot_resume_slice_uri" translatable="false" />
     <!-- Title of the Reset section, which lets user select from factory reset or other reset related operations. [CHAR LIMIT=60] -->
     <string name="reset_options_title">Reset</string>
+    <!-- Slice uri for "Television" settings -->
+    <string name="system_tv_slice_uri" translatable="false"></string>
+    <!-- Title for "Television" settings [CHAR LIMIT=60] -->
+    <string name="system_tv_title">Television</string>
 
     <string name="font_sans_serif" translatable="false">sans-serif</string>
     <string name="font_sans_serif_light" translatable="false">sans-serif-light</string>

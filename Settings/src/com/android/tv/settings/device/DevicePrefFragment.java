@@ -102,6 +102,7 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
     private static final String KEY_ENERGY_SAVER = "energysaver";
     private static final String KEY_POWER_AND_ENERGY = "power_and_energy";
     private static final String RES_TOP_LEVEL_ASSISTANT_SLICE_URI = "top_level_assistant_slice_uri";
+    private static final String KEY_SYSTEM_TV_SLICE = "menu_system_tv";
 
     private Preference mSoundsPref;
     private TwoStatePreference mSoundsSwitchPref;
@@ -199,6 +200,7 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
         updateKeyboardAutofillSettings();
         updateAmbientSettings();
         updatePowerAndEnergySettings();
+        updateSystemTvSettings();
         hideIfIntentUnhandled(findPreference(KEY_HOME_SETTINGS));
         hideIfIntentUnhandled(findPreference(KEY_CAST_SETTINGS));
         hideIfIntentUnhandled(findPreference(KEY_USAGE));
@@ -423,6 +425,15 @@ public class DevicePrefFragment extends SettingsPreferenceFragment implements
                 !PowerAndEnergyFragment.hasOnlyEnergySaverPreference(getContext());
         powerAndEnergyPref.setVisible(showPowerAndEnergy);
         energySaverPref.setVisible(!showPowerAndEnergy);
+    }
+
+    private void updateSystemTvSettings() {
+        final SlicePreference systemTvSlicePref = findPreference(KEY_SYSTEM_TV_SLICE);
+        if (systemTvSlicePref != null) {
+            if (SliceUtils.isSliceProviderValid(getContext(), systemTvSlicePref.getUri())) {
+                systemTvSlicePref.setVisible(true);
+            }
+        }
     }
 
     @Override
