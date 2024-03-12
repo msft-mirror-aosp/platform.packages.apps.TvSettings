@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"App-Einstellungen"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Standort, Nutzung &amp; Diagnose, Werbung"</string>
     <string name="add_account" msgid="7386223854837017129">"Konto hinzufügen"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Unbekanntes Konto"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Konto entfernen"</string>
     <string name="account_sync" msgid="4315295293211313989">"Synchronisierte Apps auswählen"</string>
     <string name="sync_now" msgid="4335217984374620551">"Jetzt synchronisieren"</string>
@@ -156,7 +157,7 @@
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Bevorzugter dynamischer Bereich"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Vom System bevorzugte Umwandlung"</string>
     <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Die Umwandlung von Formaten wird vom System verwaltet"</string>
-    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Wenn diese Option ausgewählt wird, ermittelt das System einen geeigneten dynamischen Bereich, das an dein Display gesendet wird, und wandelt Inhalte nach Bedarf in diesen dynamischen Bereich um."</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Wenn diese Option ausgewählt wird, ermittelt das System einen geeigneten dynamischen Bereich, der an dein Display gesendet wird, und wandelt Inhalte nach Bedarf in diesen dynamischen Bereich um."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Das Format des Inhalts wird nicht verändert"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Umwandlung erzwingen"</string>
     <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Erzwingt die Umwandlung in ein bevorzugtes Format"</string>
@@ -191,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Beispieltext"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Der Zauberer von Oz"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Kapitel 11: Die wundervolle Smaragdstadt von Oz"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Obwohl ihre Augen durch die grünen Gläser der Brillen geschützt waren, wurden Dorothy und ihren Freunden vom Glanz und vom Schimmer der wundervollen Stadt beinahe schwindelig. Prächtige Häuser aus grünem Marmor, die mit Smaragden besetzt waren, säumten die Straßen. Auch das Straßenpflaster bestand aus feinstem grünem Marmor und die Fugen waren mit glitzernden Smaragden bestückt. Sie funkelten und leuchteten in der Sonne. Die Fensterscheiben der Häuser bestanden aus grünem Glas, der Himmel über der Stadt schimmerte hellgrün, und sogar die Strahlen der Sonne wirkten leicht grünlich. \n\nIn der Stadt gab es viel Leben. Männer, Frauen und Kinder liefen geschäftig durch die Straßen. Alle waren grün gekleidet und trugen eine grüne Brille. Ihre Haut schien leicht grün zu sein und sie sahen Dorothy und ihre Freunde mit großen verwunderten Augen an. Als die Kinder den Löwen sahen, rannten sie davon, um sich hinter ihren Müttern zu verstecken. Niemand richtete das Wort an die Wanderer. Es gab auch viele Geschäfte in der Smaragdstadt und sogar die Auslagen der Läden waren grün. Da gab es grüne Bonbons, grünes Popcorn, grüne Schuhe, grüne Hüte und viele grüne Kleider. Ein Mann verkaufte grüne Limonade und Dorothy sah die Kinder mit grünem Geld dafür bezahlen. \n\nPferde oder andere Tiere konnte Dorothy nirgendwo entdecken. Dafür begegneten ihnen immer wieder Männer, die auf ihren kleinen grünen Karren Lasten durch die Stadt schoben. Alle schienen glücklich und zufrieden zu sein."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Obwohl ihre Augen durch die grünen Gläser der Brillen geschützt waren, wurden Dorothy und ihren Freunden vom Glanz und vom Schimmer der wundervollen Stadt beinahe schwindelig. Prächtige Häuser aus grünem Marmor, die mit Smaragden besetzt waren, säumten die Straßen. Auch das Straßenpflaster bestand aus feinstem grünem Marmor und die Fugen waren mit glitzernden Smaragden bestückt. Sie funkelten und leuchteten in der Sonne. Die Fensterscheiben der Häuser bestanden aus grünem Glas, der Himmel über der Stadt schimmerte hellgrün, und sogar die Strahlen der Sonne wirkten leicht grünlich.\n\nIn der Stadt gab es viel Leben. Männer, Frauen und Kinder liefen geschäftig durch die Straßen. Alle waren grün gekleidet und trugen eine grüne Brille. Ihre Haut schien leicht grün zu sein und sie sahen Dorothy und ihre Freunde mit großen verwunderten Augen an. Als die Kinder den Löwen sahen, rannten sie davon, um sich hinter ihren Müttern zu verstecken. Niemand richtete das Wort an die Wanderer. Es gab auch viele Geschäfte in der Smaragdstadt und sogar die Auslagen der Läden waren grün. Da gab es grüne Bonbons, grünes Popcorn, grüne Schuhe, grüne Hüte und viele grüne Kleider. Ein Mann verkaufte grüne Limonade und Dorothy sah die Kinder mit grünem Geld dafür bezahlen.\n\nPferde oder andere Tiere konnte Dorothy nirgendwo entdecken. Dafür begegneten ihnen immer wieder Männer, die auf ihren kleinen grünen Karren Lasten durch die Stadt schoben. Alle schienen glücklich und zufrieden zu sein."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Formatauswahl"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automatisch"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manuell"</string>
@@ -218,12 +219,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Auflösung in %1$s ändern?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Wähle „OK“ aus, um die neue Auflösung %1$s von jetzt an zu verwenden"</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision wird für %1$s nicht unterstützt und in den erweiterten Displayeinstellungen deaktiviert."</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Dieser Modus unterstützt %1$s. Auf einigen Fernsehern musst du möglicherweise erweitertes HDMI aktivieren, um weitere HDR-Formate aktivieren zu können. Sieh in den Einstellungen deines Fernsehers nach, ob dies unterstützt wird."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Dieser Modus unterstützt: %1$s\nUm weitere HDR-Formate nutzen zu können, musst du auf einigen Fernsehern möglicherweise erweitertes HDMI aktivieren. Sieh in den Einstellungen deines Fernsehers nach, ob dies unterstützt wird."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Abbrechen"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
-    <skip />
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Daten im Cache löschen?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Daten im Cache werden für alle Apps gelöscht."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -278,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Verbunden"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Nicht verbunden"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Du bist nicht zur Änderung der Bluetooth-Einstellungen berechtigt."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Für TV-Audio verwenden"</string>
     <string name="send_feedback" msgid="936698637869795473">"Feedback geben"</string>
     <string name="launch_help" msgid="2607478763131952469">"Hilfe"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -344,8 +345,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Dieses Gerät wird von deiner Organisation verwaltet."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Dieses Gerät wird von <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> verwaltet."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"– %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Weitere Informationen"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Kamera-App}other{Kamera-Apps}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Kalender-App"</string>
@@ -743,7 +743,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Aktivieren"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfiguration"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> verwenden?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> kann den gesamten eingegebenen Text erfassen, einschließlich personenbezogener Daten wie Kreditkartennummern, jedoch keine Passwörter."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> darf deinen Bildschirm lesen, andere Apps mit Inhalten überdecken, deine Interaktionen mit Apps oder Hardwaresensoren verfolgen und in deinem Namen mit Apps interagieren."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"<xliff:g id="SERVICE">%1$s</xliff:g> beenden?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Durch Auswählen von „OK“ wird <xliff:g id="SERVICE">%1$s</xliff:g> beendet."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Sprachausgabe"</string>
@@ -1108,6 +1108,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Verbindung hergestellt"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Alle anzeigen"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Wird gesucht"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Intent zum Hinzufügen des Kontos konnte nicht vom Authenticator abgerufen werden."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Das Konto konnte nicht hinzugefügt werden oder der Kontotyp ist nicht verfügbar."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Kanäle &amp; Eingänge"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Kanäle, externe Eingänge"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Kanäle"</string>
@@ -1125,4 +1127,9 @@
     <string name="energy_mode_enables" msgid="357960364751477627">"Aktiviert:"</string>
     <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Beachte, dass der Stromverbrauch des Geräts in diesem Modus höher sein kann."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"„<xliff:g id="ENERGYMODENAME">%s</xliff:g>“ aktivieren?"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Fernbedienung finden"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Du kannst auf deiner Google TV-Fernbedienung einen Ton wiedergeben lassen, wenn du sie verlegt hast"</string>
+    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Drück die Taste auf der Rückseite deines Google TV, um 30 Sekunden lang einen Ton auf deiner Fernbedienung wiedergeben zu lassen. Dafür ist eine Fernbedienung erforderlich, die Google TV unterstützt.\n\nDrücke zum Beenden der Wiedergabe eine beliebige Taste auf deiner Fernbedienung."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Wenn die Funktion „Fernbedienung finden“ aktiviert ist, kannst du einen Ton abspielen, um deine Google TV-Fernbedienung wiederzufinden, wenn du sie verlegt hast."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Ton wiedergeben lassen"</string>
 </resources>

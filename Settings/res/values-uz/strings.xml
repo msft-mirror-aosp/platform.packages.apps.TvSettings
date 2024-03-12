@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Ilova sozlamalari"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Joylashuv, foydalanish statistikasi va diagnostika, reklamalar"</string>
     <string name="add_account" msgid="7386223854837017129">"Hisob kiritish"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Notanish hisob"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Hisobni olib tashlash"</string>
     <string name="account_sync" msgid="4315295293211313989">"Sinxronadigan ilovalarni tanlang"</string>
     <string name="sync_now" msgid="4335217984374620551">"Hozir sinxronlash"</string>
@@ -191,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Namunaviy matn"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Oz mamlakati sehrgari"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"11-bob: Oz mamlakatining zumrad shahri"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Yashil koʻzoynak taqishgan boʻlishiga qaramasdan, bu ajoyib shaharning jilosi Doroti va uning doʻstlarining koʻzlarini qamashtirardi. Koʻchalarda yashil marmardan qurilgan va yorqin zumradlar bilan bezalgan goʻzal uylar tizilib turar edi. Ular yurib borayotgan yashil marmarli yoʻlakdagi zumradlar quyosh nurida jilolanardi. Uylar derazalari ham yashil oynadan qilingan edi. Hattoki shahar osmoni ham yashil tusda boʻlib, quyosh nurlari ham yashil edi. \n\nAtrofda yashil libos kiygan erkaklar, ayollar va bolalar yurishardi, ularning terisining rangi ham yashilsifat edi. Ular bir soʻz demay Doroti va uning gʻalati doʻstlariga hayratlanib boqishardi, bolalar bahaybat sherdan qoʻrqqanlaridan yugurib onalarini ortiga qochishardi. Doroti koʻrdiki, koʻchada koʻp doʻkonlar boʻlib, ulardagi barcha narsalar yashil rangda edi: yashil shirinliklar va bodroq, yashil poyabzal va bosh kiyimlar, yashil liboslar va barcha turdagi paltolar. Bir joydagi sotuvchidan bolalar yashil tangaga yashil limonad sotib olishar edi. \n\nOtlar va boshqa turdagi hayvonlar koʻrinmas edi. Odamlarlar oʻzlari surib yurgan yashil aravachalarida narsalarini olib yurishardi. Zumrad shahar aholisi baxtli va mamnun edi."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Yashil koʻzoynak taqishgan boʻlishiga qaramasdan, bu ajoyib shaharning jilosi Doroti va uning doʻstlarining koʻzlarini qamashtirardi.         Koʻchalarda yashil marmardan qurilgan va yorqin zumradlar bilan bezalgan goʻzal uylar tizilib turar edi.         Ular yurib borayotgan yashil marmarli yoʻlakdagi zumradlar quyosh nurida jilolanardi.         Uylar derazalari ham yashil oynadan qilingan edi. Hattoki shahar osmoni ham yashil tusda boʻlib, quyosh nurlari ham yashil edi.         \n\nAtrofda yashil libos kiygan erkaklar, ayollar va bolalar yurishardi, ularning terisi ham yam-yashil edi.         Ular bir soʻz demay Doroti va uning gʻalati doʻstlariga hayratlanib boqishardi, bolalar bahaybat sherdan qoʻrqib yugurib onalarining ortiga qochishardi.         Doroti koʻchada doʻkonlar koʻp ekani, ulardagi barcha narsalar yashil rangda ekanini koʻrdi: yashil shirinliklar va bodroq, yashil poyabzal va bosh kiyimlar, yashil liboslar va barcha turdagi paltolar.         Bir joydagi sotuvchidan bolalar yashil tangaga yashil limonad sotib olishar edi. Otlar va boshqa turdagi hayvonlar koʻrinmas edi.         \n\nOdamlar oʻzlari surib yurgan yashil aravachalarida narsalarini olib yurishardi.         Zumrad shahar aholisi baxtli va mamnun edi."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Format tanlash"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Avtomatik"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Oddiy usulda"</string>
@@ -218,17 +219,16 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Tiniqlik %1$s sifatiga almashsinmi?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Hozirdan %1$s ishlatish uchun OK tugmasini bosing."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision %1$s rejimida ishlamaydi va “Kengaytirilgan ekran sozlamalari” bandida faolsizlantiriladi"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Bu rejim %1$s tiniqlikda ishlaydi. Ayrim televizorlarda boshqa HDR formatlarini Kengaytirilgan HDMI yoniqligida tanlash mumkin. Buning ishlashini televizor sozlamalari orqali tekshirish mumkin."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Bu rejimida ishlaydi: %1$s\nAyrim televizorlarda boshqa HDR formatlarini Kengaytirilgan HDMI yoniqligida tanlash mumkin. Buning ishlashini televizor sozlamalari orqali tekshirish mumkin."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Bekor qilish"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
-    <skip />
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Kesh tozalansinmi?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Barcha ilovalarning keshi o‘chirib tashlanadi."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"Aksessuarni qo‘shish"</string>
-    <string name="accessory_state_pairing" msgid="15908899628218319">"Ulanmoqda…"</string>
+    <string name="accessory_state_pairing" msgid="15908899628218319">"Juftlanmoqda…"</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"Ulanmoqda…"</string>
     <string name="accessory_state_error" msgid="8353621828816824428">"Ulanib bo‘lmadi"</string>
     <string name="accessory_state_canceled" msgid="4794837663402063770">"Bekor qilindi"</string>
@@ -278,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Ulandi"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Uzildi"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Sizda Bluetooth sozlamalarini o‘zgartirish uchun ruxsat yo‘q."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"TV audiosi uchun foydalanish"</string>
     <string name="send_feedback" msgid="936698637869795473">"Fikr-mulohaza yuborish"</string>
     <string name="launch_help" msgid="2607478763131952469">"Yordam markazi"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -344,8 +345,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Bu – tashkilotingiz tomonidan boshqariladigan qurilma."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Bu – <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> tomonidan boshqariladigan qurilma."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"– %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Batafsil"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Kamera uchun ilova}other{Kamera uchun ilovalar}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Taqvim ilovasi"</string>
@@ -657,7 +657,7 @@
     <string name="location_high_battery_use" msgid="5325556609027887602">"Yuqori batareya sarfi"</string>
     <string name="location_low_battery_use" msgid="728585923412018253">"Batareya sarfi kam"</string>
     <string name="location_mode_wifi_description" msgid="84697248707903061">"Joyni hisoblash uchun Wi‑Fi dan foydalanish"</string>
-    <string name="location_status" msgid="3037321737386011224">"Joylashuv holati"</string>
+    <string name="location_status" msgid="3037321737386011224">"Joylashuv axboroti"</string>
     <string name="location_services" msgid="551503779736382878">"Joylashuv axboroti xizmatlari"</string>
     <string name="on" msgid="4899322147062342542">"Yoniq"</string>
     <string name="off" msgid="3127416478888499352">"O‘chiq"</string>
@@ -680,7 +680,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Yuqori kontrastli matn"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Qalin matn"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Ranglarni tuzatish"</string>
-    <string name="color_correction_usage" msgid="4160611639548748657">"Rangni tuzatishdan foydalanish"</string>
+    <string name="color_correction_usage" msgid="4160611639548748657">"Ranglarni tuzatish"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Rangli rejim"</string>
     <string name="color_correction_mode_deuteranomaly" msgid="1513793544554228224">"Deyteranomaliya"</string>
     <string name="color_correction_mode_deuteranomaly_summary" msgid="5991561481464520986">"Qizil/yashil"</string>
@@ -743,7 +743,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Yoqish"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfiguratsiya"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g>dan foydalanilsinmi?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> parollardan boshqa siz kiritadgina barcha matnni to‘plashi mumkin. Bu kredit karta raqamlari kabi shaxsiy ma’lumotlarni o‘z ichiga oladi."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> ekraningizni oʻqiy oladi, kontentni boshqa ilovalar ustidan koʻrsata oladi, ilovalar yoki apparat sensorlari bilan oʻzaro munosabatlaringizni kuzata oladi va nomingizdan ilovalar bilan oʻzaro aloqada boʻladi."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"<xliff:g id="SERVICE">%1$s</xliff:g> xizmati to‘xtatilsinmi?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"OK ni tanlash <xliff:g id="SERVICE">%1$s</xliff:g> ni to‘xtatadi."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Matndan nutqqa"</string>
@@ -1108,6 +1108,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Muvaffaqiyatli ulandi"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Hammasi"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Qidirilmoqda"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Autentifikatordan hisob kiritish intenti olinmadi."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Hisob kiritilmadi yoki bunday hisob turi ishlamaydi."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Kanallar va manbalar"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Kanallar, tashqi manbalar"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Kanallar"</string>
@@ -1125,4 +1127,9 @@
     <string name="energy_mode_enables" msgid="357960364751477627">"Ishga tushadi:"</string>
     <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Eslatma: bu rejim qurilmada quvvat sarfini oshirishi mumkin."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"“<xliff:g id="ENERGYMODENAME">%s</xliff:g>” rejimini yoqish"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Pultimni top"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV pulti joyida boʻlmasa, uni topish uchun jiringlating"</string>
+    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Pultingizni 30 soniya jiringlatish uchun Google TV orqasidagi tugmani bosing. Bu faqat Google TV pultlarida ishlaydi.\n\nTovushni toʻxtatish uchun pultdagi istalgan tugmani bosing."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Pultimni top funksiyasi yoniq boʻlsa, yoʻqolgan Google TV pultini ovozli signal orqali topish mumkin."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Jiringlatish"</string>
 </resources>

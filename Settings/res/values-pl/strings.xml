@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Ustawienia aplikacji"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Lokalizacja, użytkowanie i diagnostyka, reklamy"</string>
     <string name="add_account" msgid="7386223854837017129">"Dodaj konto"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Nieznane konto"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Usuń konto"</string>
     <string name="account_sync" msgid="4315295293211313989">"Wybierz synchronizowane aplikacje"</string>
     <string name="sync_now" msgid="4335217984374620551">"Synchronizuj teraz"</string>
@@ -156,7 +157,7 @@
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Preferowany zakres dynamiczny"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Konwersja preferowana przez system"</string>
     <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Zezwalaj systemowi na zarządzanie konwersją formatu"</string>
-    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Po wybraniu tej opcji odpowiedni to system będzie określać zakres dynamiczny wysyłany do wyświetlacza. W razie potrzeby treść zostanie przekonwertowana na ten zakres."</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Po wybraniu tej opcji to system będzie określać odpowiedni zakres dynamiczny wysyłany do wyświetlacza. W razie potrzeby treść zostanie przekonwertowana na ten zakres."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Zawsze zgodnie z formatem treści"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Wymuszaj konwersję"</string>
     <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Wymusza konwersję na preferowany format"</string>
@@ -191,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Przykładowy tekst"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Czarnoksiężnik z Krainy Oz"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Rozdział 11: Szmaragdowe Miasto"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Mimo że Dorotka i jej przyjaciele mieli na nosach ochronne zielone okulary, odruchowo zmrużyli oczy, gdy pierwszy raz ujrzeli lśniące wspaniale Szmaragdowe Miasto. Wzdłuż ulic stały równo piękne domy z zielonego marmuru, wysadzane połyskującymi szmaragdami. Chodniki wykonane były z tego samego budulca, a w spojeniach płyt skrzyły się w słońcu całe rzędy osadzonych ciasno szmaragdów. Szyby w oknach były z zielonego szkła. Nawet niebo nad Miastem i promienie słońca miały zielonkawe zabarwienie. \n\nWokół kręciło się mnóstwo ludzi – mężczyzn, kobiet i dzieci – ubranych na zielono. Również ich skóra miała zielony odcień. Patrzyli na Dorotkę i jej barwną kompanię wielkimi, zdziwionymi oczami, a dzieci na widok Lwa uciekały i chowały się za swoimi mamami. Nikt jednak nie odezwał się do nich nawet słowem. Przy ulicy nie brakowało różnych sklepów i Dorotka zauważyła, że cały ich asortyment był zielony: zielone cukierki, zielona prażona kukurydza, zielone buty, zielone kapelusze, wszelkiego rodzaju zielone ubrania. Przy jednym ze stoisk jakiś pan sprzedawał zieloną lemoniadę, za którą dzieci płaciły – jak dostrzegła Dorotka – zielonymi monetami. \n\nNigdzie nie było widać ani koni, ani żadnych innych zwierząt. Do transportu używano zielonych wózeczków, które mieszkańcy pchali przed sobą. Wszyscy wydawali się szczęśliwi, radośni i zadowoleni z życia."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Mimo że Dorotka i jej przyjaciele mieli na nosach ochronne zielone okulary, odruchowo zmrużyli oczy, gdy pierwszy raz ujrzeli lśniące wspaniale Szmaragdowe Miasto. Wzdłuż ulic stały równo piękne domy z zielonego marmuru, wysadzane połyskującymi szmaragdami. Chodniki wykonane były z tego samego budulca, a w spojeniach płyt skrzyły się w słońcu całe rzędy osadzonych ciasno szmaragdów. Szyby w oknach były z zielonego szkła. Nawet niebo nad Miastem i promienie słońca miały zielonkawe zabarwienie. \n\nWokół kręciło się mnóstwo ludzi – mężczyzn, kobiet i dzieci – ubranych na zielono. Również ich skóra miała zielony odcień. Patrzyli na Dorotkę i jej barwną kompanię wielkimi, zdziwionymi oczami, a dzieci na widok Lwa uciekały i chowały się za swoimi mamami. Nikt jednak nie odezwał się do nich nawet słowem. Przy ulicy nie brakowało różnych sklepów i Dorotka zauważyła, że cały ich asortyment był zielony: zielone cukierki, zielona prażona kukurydza, zielone buty, zielone kapelusze, wszelkiego rodzaju zielone ubrania. Przy jednym ze stoisk jakiś pan sprzedawał zieloną lemoniadę, za którą dzieci płaciły – jak dostrzegła Dorotka – zielonymi monetami. \n\nNigdzie nie było widać ani koni, ani żadnych innych zwierząt. Do transportu używano zielonych wózeczków, które mieszkańcy pchali przed sobą. Wszyscy wydawali się szczęśliwi, radośni i zadowoleni z życia."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Wybór formatu"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automatycznie"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Ręcznie"</string>
@@ -218,12 +219,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Zmienić rozdzielczość na %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Kliknij OK, aby od teraz używać rozdzielczości %1$s."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Format Dolby Vision nie jest obsługiwany w trybie %1$s i zostanie wyłączony w „Zaawansowanych ustawieniach wyświetlacza”"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Ten tryb obsługuje: %1$s. W niektórych telewizorach żeby korzystać z dodatkowych formatów HDR, może być konieczne włączenie rozszerzonego trybu HDMI. Sprawdź w ustawieniach telewizora, czy ta funkcja jest obsługiwana."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Ten tryb obsługuje: %1$s\nNa niektórych telewizorach, żeby korzystać z dodatkowych formatów HDR, może być konieczne włączenie rozszerzonego trybu HDMI. Sprawdź w ustawieniach telewizora, czy ta funkcja jest obsługiwana."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Anuluj"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
-    <skip />
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Wyczyścić dane z pamięci podręcznej?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Usuwasz dane z pamięci podr. wszystkich aplikacji."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -278,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Połączono"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Rozłączono"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Nie masz uprawnień, by zmienić ustawienia Bluetootha."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Używaj do dźwięku z telewizora"</string>
     <string name="send_feedback" msgid="936698637869795473">"Prześlij opinię"</string>
     <string name="launch_help" msgid="2607478763131952469">"Centrum pomocy"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -344,8 +345,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Tym urządzeniem zarządza Twoja organizacja."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Tym urządzeniem zarządza <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">"  "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"– %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Więcej informacji"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Aplikacja aparatu}few{Aplikacje aparatu}many{Aplikacje aparatu}other{Aplikacje aparatu}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Aplikacja kalendarza"</string>
@@ -743,7 +743,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Włącz"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfiguracja"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Użyć <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> może gromadzić cały wpisywany tekst z wyjątkiem haseł. Dotyczy to także danych osobistych, np. numerów kart kredytowych."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> może odczytywać zawartość ekranu, wyświetlać treść nad innymi aplikacjami, śledzić Twoje interakcje z aplikacjami lub czujnikami sprzętowymi oraz wchodzić w interakcje z aplikacjami w Twoim imieniu."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Zatrzymać <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Wybierając OK, zatrzymasz <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Przetwarzanie tekstu na mowę"</string>
@@ -759,7 +759,7 @@
     <string name="system_drawing" msgid="5802739024643871942">"Rysowanie"</string>
     <string name="system_monitoring" msgid="7997260748312620855">"Monitorowanie"</string>
     <string name="system_apps" msgid="8481888654606868074">"Aplikacje"</string>
-    <string name="system_stay_awake" msgid="5935117574414511413">"Pozostaw włączony ekran"</string>
+    <string name="system_stay_awake" msgid="5935117574414511413">"Nie usypiaj"</string>
     <string name="keep_screen_on_summary" msgid="4680661166009970792">"Ekran nigdy nie będzie usypiany"</string>
     <string name="system_hdcp_checking" msgid="3757586362130048838">"Sprawdzanie HDCP"</string>
     <string name="system_hdmi_optimization" msgid="4122753440620724144">"Optymalizacja HDMI"</string>
@@ -773,7 +773,7 @@
     <string name="system_usb_debugging" msgid="2158285492172755923">"Debugowanie USB"</string>
     <string name="system_allow_mock_locations" msgid="2483106887711851466">"Pozorowanie lokalizacji"</string>
     <string name="system_select_debug_app" msgid="6200987902307533721">"Wybierz aplikację do debugowania"</string>
-    <string name="system_wait_for_debugger" msgid="5715878008542589060">"Poczekaj na debugera"</string>
+    <string name="system_wait_for_debugger" msgid="5715878008542589060">"Czekaj na debugera"</string>
     <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"Weryfikuj aplikacje przez USB"</string>
     <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"Sprawdzaj, czy aplikacje zainstalowane przez ADB/ADT nie zachowują się w szkodliwy sposób"</string>
     <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"Szczegółówe rejestrowanie Wi-Fi"</string>
@@ -1108,6 +1108,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Połączono"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Pokaż wszystko"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Szukam"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Nie udało się pobrać intencji dodawania konta z mechanizmu uwierzytelniającego."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Nie udało się dodać konta lub typ konta jest niedostępny."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Kanały i wejścia"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Kanały, wejścia zewnętrzne"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Kanały"</string>
@@ -1125,4 +1127,9 @@
     <string name="energy_mode_enables" msgid="357960364751477627">"Włącza:"</string>
     <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Uwaga: ten tryb może powodować większe zużycie energii na urządzeniu."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Włącz tryb „<xliff:g id="ENERGYMODENAME">%s</xliff:g>”"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Znajdź pilota"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Włącz dźwięk, aby znaleźć zgubionego pilota do Google TV"</string>
+    <string name="find_my_remote_slice_description" msgid="7288029543560257872">"Naciśnij przycisk z tyłu Google TV, aby na 30 sekund włączyć dźwięk na pilocie. Działa to tylko w przypadku obsługiwanych pilotów do Google TV.\n\nAby wyłączyć dźwięk, naciśnij dowolny przycisk na pilocie."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Gdy funkcja Znajdź pilota jest włączona, możesz włączyć dźwięk, aby znaleźć zgubionego pilota do Google TV."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Włącz dźwięk"</string>
 </resources>
