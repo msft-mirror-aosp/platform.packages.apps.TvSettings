@@ -17,9 +17,10 @@
 package com.android.tv.settings.util;
 
 import android.app.slice.SliceManager;
-import android.content.ContentProviderClient;
 import android.content.Context;
+import android.content.pm.ProviderInfo;
 import android.net.Uri;
+import android.text.TextUtils;
 import android.util.Log;
 
 import java.util.Collection;
@@ -34,18 +35,19 @@ public final class SliceUtils {
     /**
      * Check if slice provider exists.
      */
-    public static boolean isSliceProviderValid(Context context, String uri) {
-        if (uri == null) {
+    public static boolean isSliceProviderValid(Context context, String stringUri) {
+        if (TextUtils.isEmpty(stringUri)) {
             return false;
         }
-        ContentProviderClient client =
-                context.getContentResolver().acquireContentProviderClient(Uri.parse(uri));
-        if (client != null) {
-            client.close();
-            return true;
-        } else {
+        Uri uri = Uri.parse(stringUri);
+        ProviderInfo providerInfo =
+                context.getPackageManager()
+                        .resolveContentProvider(uri.getAuthority(), /* flags= */ 0);
+        if (providerInfo == null) {
+            Log.i(TAG, "Slice Provider not found for: " + stringUri);
             return false;
         }
+        return true;
     }
 
     /**
