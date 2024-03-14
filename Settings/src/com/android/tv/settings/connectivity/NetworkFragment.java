@@ -365,9 +365,10 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
             mEthernetStatusPref.setTitle(ethernetConnected
                     ? R.string.connected : R.string.not_connected);
             mEthernetStatusPref.setSummary(mConnectivityListener.getEthernetIpAddress());
-            mEnableWifiPref.setSummary(ethernetConnected ?
-                    getString(R.string.unplug_ethernet_to_use_wifi) : null);
         }
+
+        mEnableWifiPref.setSummary(ethernetConnected ?
+                getString(R.string.unplug_ethernet_to_use_wifi) : null);
     }
 
     private void updateWifiList() {
