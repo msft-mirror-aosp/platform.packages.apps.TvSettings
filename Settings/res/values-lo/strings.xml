@@ -85,6 +85,8 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ເຊື່ອມຕໍ່ອີເທີເນັດແລ້ວ"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"ບໍ່ໄດ້ເຊື່ອມຕໍ່ເຄືອຂ່າຍ"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"ປິດ Wi-Fi ແລ້ວ"</string>
+    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
+    <skip />
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"ມີ​ການ​ສະ​ແກນ​ຢູ່​ສະ​ເໝີ"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"ໃຫ້ບໍລິການສະຖານທີ່ຂອງ Google ແລະ ແອັບອື່ນໆສະແກນເຄືອຂ່າຍໄດ້, ເຖິງແມ່ນວ່າ Wi-Fi ຈະປິດກໍຕາມ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ສາມາດສະແກນໄດ້ທຸກເມື່ອ, ໃຫ້ບໍລິການສະຖານທີ່ຂອງ Google ແລະ ແອັບອື່ນໆສະແກນຫາເຄືອຂ່າຍ, ເຖິງແມ່ນວ່າຈະປິດ Wi-Fi ຢູ່ກໍຕາມ"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ເປີດໃຊ້ປຸ່ມລັດການຊ່ວຍເຂົ້າເຖິງ"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ບໍລິການປຸ່ມທາງລັດ"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"ເມື່ອເປີດປຸ່ມລັດແລ້ວ, ທ່ານສາມາດກົດປຸ່ມກັບຄືນ ແລະ ປຸ່ມລົງພ້ອມກັນຄ້າງໄວ້ 3 ວິນາທີເພື່ອເປັນການເປີດຄຸນສົມບັດຊ່ວຍເຂົ້າເຖິງ"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"ເວລາດຳເນີນການ"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"ເວລາດຳເນີນການ (ໄລຍະໝົດເວລາການຊ່ວຍເຂົ້າເຖິງ)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"ຊ່ວງເວລາ"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"ບາງແອັບບໍ່ຮອງຮັບຄ່າກຳນົດໄລຍະເວລານີ້."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"ຄຳບັນຍາຍ"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"​ການ​ຕັ້ງ​ຄ່າ​ສຳ​ລັບ​ຂໍ້​ຄວາມ​ຄຳ​ບັນ​ຍາຍ​ຢູ່​ເທິງວິ​ດີ​ໂອ"</string>
     <string name="captions_display" msgid="2598662495450633375">"ການສະແດງຜົນ"</string>
@@ -1131,6 +1137,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"ການເປີດປິດ ແລະ ພະລັງງານ"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"ພຶດຕິກຳການເປີດ"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"ຣີເຊັດ"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"ໂທລະທັດ"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ລະ​ຫັດ​ການ​ຈັບ​ຄູ່ອີເທີເນັດ"</string>
     <string name="energy_modes" msgid="1331693860386361744">"ໂໝດພະລັງງານ"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"ການຕັ້ງຄ່າເຫຼົ່ານີ້ມີຜົນກະທົບຕໍ່ອຸປະກອນເມື່ອບໍ່ໄດ້ໃຊ້"</string>
