@@ -79,12 +79,22 @@ public class PrivacyFragment extends SettingsPreferenceFragment {
         PrivacyToggle.CAMERA_TOGGLE.preparePreferenceWithSensorFragment(getContext(),
                 findPreference(KEY_CAMERA), SensorFragment.TOGGLE_EXTRA);
 
+        adsPreference.setOnPreferenceClickListener(preference -> {
+            Intent intent = new Intent();
+            intent.setAction("com.google.android.gms.settings.ADS_PRIVACY");
+            startActivity(intent);
+            return true;
+        });
+        if (adsPreference instanceof CustomContentDescriptionPreference) {
+            ((CustomContentDescriptionPreference) adsPreference).setContentDescription(
+                    getResources().getString(R.string.ads_content_description));
+        }
+
         if (FlavorUtils.getFeatureFactory(getContext()).getBasicModeFeatureProvider()
                 .isBasicMode(getContext())) {
             accountPrefCategory.setVisible(false);
             assistantSlicePreference.setVisible(false);
             purchasesSlicePreference.setVisible(false);
-            adsPreference.setVisible(false);
             showSecurityPreference(securityPreference, overlaySecuritySlicePreference);
             if (updateSlicePreference != null) {
                 updateSlicePreference.setVisible(false);
@@ -103,16 +113,6 @@ public class PrivacyFragment extends SettingsPreferenceFragment {
         }
         accountPrefCategory.setVisible(
                 assistantSlicePreference.isVisible() || purchasesSlicePreference.isVisible());
-        findPreference(KEY_ADS).setOnPreferenceClickListener(preference -> {
-            Intent intent = new Intent();
-            intent.setAction("com.google.android.gms.settings.ADS_PRIVACY");
-            startActivity(intent);
-            return true;
-        });
-        if (adsPreference instanceof CustomContentDescriptionPreference) {
-            ((CustomContentDescriptionPreference) adsPreference).setContentDescription(
-                    getResources().getString(R.string.ads_content_description));
-        }
         if (isOverlaySecuritySlicePreferenceEnabled(overlaySecuritySlicePreference)) {
             showOverlaySecuritySlicePreference(
                     overlaySecuritySlicePreference, securityPreference);
