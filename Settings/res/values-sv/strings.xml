@@ -375,8 +375,8 @@
     <string name="about_build" msgid="8467840394761634575">"Underversion av Android TV:s operativsystem"</string>
     <string name="show_dev_countdown" msgid="4064986225625409361">"{count,plural, =1{Nu är du # steg från att bli utvecklare}other{Nu är du # steg från att bli utvecklare}}"</string>
     <string name="about_ads" msgid="7662896442040086522">"Annonser"</string>
-    <string name="ads_description" msgid="8081069475265061074">"Hantera annonsinställningarna, t.ex. återställning av reklam-id."</string>
-    <string name="ads_content_description" msgid="1006489792324920289">"Annonser: Hantera annonsinställningarna, t.ex. återställning av reklam-id."</string>
+    <string name="ads_description" msgid="8081069475265061074">"Hantera annonsinställningarna, t.ex. återställning av annonserings-id."</string>
+    <string name="ads_content_description" msgid="1006489792324920289">"Annonser: Hantera annonsinställningarna, t.ex. återställning av annonserings-id."</string>
     <string name="show_dev_on" msgid="612741433124106067">"Nu är du en utvecklare!"</string>
     <string name="show_dev_already" msgid="1522591284776449818">"Det behövs inte. Du är redan utvecklare."</string>
     <string name="device_info_default" msgid="2374506935205518448">"Okänt"</string>
