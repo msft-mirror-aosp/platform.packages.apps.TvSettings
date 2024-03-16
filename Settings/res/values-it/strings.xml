@@ -85,6 +85,8 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Rete Ethernet connessa"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Nessuna rete collegata"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Il Wi-Fi è disattivato"</string>
+    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
+    <skip />
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Scansione sempre disponibile"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Consenti al servizio di geolocalizzazione di Google e ad altre app di eseguire la scansione delle reti, anche quando il Wi-Fi non è attivo"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Scansione sempre disponibile, Consenti al servizio di geolocalizzazione di Google e ad altre app di cercare reti, anche quando il Wi-Fi non è attivo"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Abilita scorciatoia Accessibilità"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Servizio scorciatoia"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Quando è attiva la scorciatoia, premi i pulsanti indietro e giù per 3 secondi per avviare una funzione di accessibilità."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Tempo per agire"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Tempo per agire (timeout Accessibilità)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Durata"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Preferenza di tempo non supportata da ogni app."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Sottotitoli"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Impostazioni per la sovrapposizione del testo dei sottotitoli sul video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Visualizzazione"</string>
@@ -1131,6 +1137,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Alimentazione ed energia"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Comportamento all\'accensione"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Reimposta"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televisione"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Codice di accoppiamento Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Modalità di energia"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Queste impostazioni incidono sul dispositivo quando non è in uso"</string>

@@ -85,6 +85,8 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Připojeno přes ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Žádné připojení k síti"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi je vypnuta"</string>
+    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
+    <skip />
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Vyhledávání je vždy k dispozici"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Povolit službě určování polohy Google a ostatním aplikacím hledat sítě, i když je síť Wi-Fi vypnutá"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Vždy aktivní vyhledávání: Povolit službě určování polohy Google a ostatním aplikacím hledat sítě, i když je síť Wi-Fi vypnutá"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Aktivovat zkratku přístupnosti"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Služba ovládaná zkratkou"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Když je tato zkratka zapnutá, můžete funkci přístupnosti spustit tím, že na tři sekundy podržíte tlačítko zpět a dolů."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Čas na akci"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Čas na provedení akce (vypršení platnosti)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Načasování"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Tuto časovou předvolbu podporují jen některé aplikace."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Titulky"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Nastavení překryvné vrstvy s textem skrytých titulků ve videu"</string>
     <string name="captions_display" msgid="2598662495450633375">"Zobrazení"</string>
@@ -1131,6 +1137,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Výkon a energie"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Chování po zapnutí"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Obnovit"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televize"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Párovací kód pro ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Energetické režimy"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Tato nastavení ovlivňují zařízení, když ho nikdo nepoužívá"</string>

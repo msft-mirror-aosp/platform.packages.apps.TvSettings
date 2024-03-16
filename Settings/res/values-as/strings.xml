@@ -85,6 +85,8 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ইথাৰনেট সংযোগ কৰা হ’ল"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"ইণ্টাৰনেট সংযোগ নাই"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"ৱাই-ফাই অফ কৰা হ’ল"</string>
+    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
+    <skip />
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"স্কেনিং সদায় উপলব্ধ"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"ৱাই-ফাই অফ থকা সময়তো Googleৰ অৱস্থান সেৱা আৰু অন্য়ান্য এপবোৰক নেটৱৰ্ক বিচাৰি স্কেন কৰিবলৈ দিয়ক"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"স্কেন কৰাৰ সুবিধাটো সদায় উপলব্ধ, ৱাই-ফাই অফ থকা সময়তো Googleৰ অৱস্থান সেৱা আৰু অন্য এপক নেটৱৰ্ক বিচাৰি স্কেন কৰিবলৈ দিয়ক"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"সাধ্য সুবিধাৰ শ্বৰ্টকাট সক্ষম কৰক"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"শ্বৰ্টকাট সেৱা"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"শ্বৰ্টকাট অন হৈ থকাৰ সময়ত, আপুনি সাধ্য় সুবিধাসমূহ আৰম্ভ কৰিবলৈ বেক আৰু ডাউন দুয়োটা বুটাম ৩ ছেকেণ্ডৰ বাবে হেঁচি ৰাখিব পাৰে৷"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"কাৰ্যব্যৱস্থা গ্ৰহণ কৰাৰ সময়"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"কাৰ্য কৰাৰ সময় (সাধ্য সুবিধাৰ সময় উকলিব)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"সময়"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"এই সময়ৰ অগ্ৰাধিকাৰসমূহ আটাইবোৰ এপে সমৰ্থন নকৰে।"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"কেপশ্বনসমূহ"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ভিডিঅ\'ত ক্ল\'জ্ড কেপশ্বনিং পাঠ অভাৰলে\'ৰ ছেটিংসমূহ"</string>
     <string name="captions_display" msgid="2598662495450633375">"ডিছপ্লে’"</string>
@@ -1131,6 +1137,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"ক্ষমতা আৰু শক্তি"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"আৰম্ভ হওঁতে প্ৰদৰ্শিত হোৱা কাৰ্যকলাপ"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"ৰিছেট কৰক"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"টেলিভিশ্বন"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ইথাৰনেট পেয়াৰ কৰাৰ ক’ড"</string>
     <string name="energy_modes" msgid="1331693860386361744">"শক্তি ম’ড"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"এই ছেটিংসমূহে ডিভাইচটো ব্যৱহাৰ হৈ নথকা অৱস্থাত প্ৰভাৱ পেলায়"</string>

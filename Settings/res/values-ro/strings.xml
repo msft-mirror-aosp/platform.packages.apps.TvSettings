@@ -85,6 +85,8 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet conectat"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Nicio rețea conectată"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi este dezactivat"</string>
+    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
+    <skip />
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Scanare mereu disponibilă"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Permite serviciului de localizare Google și altor aplicații să caute rețele, chiar dacă rețeaua Wi-Fi este dezactivată"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Scanare mereu disponibilă, Permite Serviciului de localizare Google și altor aplicații să caute rețele, chiar dacă funcția Wi-Fi este dezactivată"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Activează comanda rapidă pentru accesibilitate"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Serviciul comenzii rapide"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Când comanda rapidă este activată, dacă apeși ambele butoane înapoi și în jos timp de 3 secunde, vei lansa o funcție de accesibilitate."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Timp de reacție"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Timp de reacție (timp limită de accesibilitate)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Timp"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Această preferință pentru durată nu e acceptată de toate aplicațiile"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Subtitrări"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Setări pentru suprapunerea textului subtitrării pe videoclip"</string>
     <string name="captions_display" msgid="2598662495450633375">"Afișare"</string>
@@ -1131,6 +1137,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Alimentare și energie"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Comportament la pornire"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Resetează"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televiziune"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Codul de conectare prin Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Moduri de energie"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Aceste setări afectează dispozitivul când nu este în uz"</string>

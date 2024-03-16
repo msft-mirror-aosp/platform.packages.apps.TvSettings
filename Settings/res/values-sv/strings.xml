@@ -85,6 +85,8 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet har anslutits"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Inget nätverk har anslutits"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"wifi är inaktiverat"</string>
+    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
+    <skip />
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Nätverkssökning alltid tillgänglig"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Tillåt att Googles platstjänst och andra appar söker efter nätverk, även när wifi inte har aktiverats"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Nätverkssökning alltid tillgänglig: Tillåt att Googles platstjänst och andra appar söker efter nätverk, även när wifi inte har aktiverats"</string>
@@ -375,8 +377,8 @@
     <string name="about_build" msgid="8467840394761634575">"Underversion av Android TV:s operativsystem"</string>
     <string name="show_dev_countdown" msgid="4064986225625409361">"{count,plural, =1{Nu är du # steg från att bli utvecklare}other{Nu är du # steg från att bli utvecklare}}"</string>
     <string name="about_ads" msgid="7662896442040086522">"Annonser"</string>
-    <string name="ads_description" msgid="8081069475265061074">"Hantera annonsinställningarna, t.ex. återställning av reklam-id."</string>
-    <string name="ads_content_description" msgid="1006489792324920289">"Annonser: Hantera annonsinställningarna, t.ex. återställning av reklam-id."</string>
+    <string name="ads_description" msgid="8081069475265061074">"Hantera annonsinställningarna, t.ex. återställning av annonserings-id."</string>
+    <string name="ads_content_description" msgid="1006489792324920289">"Annonser: Hantera annonsinställningarna, t.ex. återställning av annonserings-id."</string>
     <string name="show_dev_on" msgid="612741433124106067">"Nu är du en utvecklare!"</string>
     <string name="show_dev_already" msgid="1522591284776449818">"Det behövs inte. Du är redan utvecklare."</string>
     <string name="device_info_default" msgid="2374506935205518448">"Okänt"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Använd Aktivera tillgänglighet snabbt"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Tjänst för kortkommando"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"När kortkommandot är aktiverat kan du starta en tillgänglighetsfunktion genom att hålla tillbaka- och nedåtknapparna nedtryckta samtidigt i tre sekunder."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Väntetid för åtgärd"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Väntetid för åtgärd (tillgänglighetstidsgräns)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Tid"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Tidsinställningen stöds inte i alla appar."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Textning"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Inställningar för textning i video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Visa"</string>
@@ -1131,6 +1137,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Ström och energi"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Beteende när tv:n slås på"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Återställ"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Tv"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-kopplingskod"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Energilägen"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Dessa inställningar kan påverka enheten när den inte används"</string>
