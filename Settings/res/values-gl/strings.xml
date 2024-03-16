@@ -857,7 +857,7 @@
     <string name="title_current_autofill_service" msgid="9029001041887283153">"Servizo de autocompletar actual"</string>
     <string name="title_select_autofill_service" msgid="696559582725756848">"Seleccionar Servizo de autocompletar"</string>
     <string name="autofill_none" msgid="1615056985649424207">"Ningún servizo"</string>
-    <string name="autofill_confirmation_message" msgid="3840267789160192558">"&lt;b&gt;Asegúrate de que confías nesta aplicación&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Servizo de contrasinais&gt;%1$s&lt;/xliff:g&gt; utiliza o contido da pantalla para determinar o texto que se pode autocompletar."</string>
+    <string name="autofill_confirmation_message" msgid="3840267789160192558">"&lt;b&gt;Asegúrate de que confías nesta aplicación&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Password service&gt;%1$s&lt;/xliff:g&gt; utiliza o contido da pantalla para determinar o texto que se pode autocompletar."</string>
     <string name="computing_size" msgid="8623916230485437579">"Calculando…"</string>
     <string name="title_select_wifi_network" msgid="935820896444071617">"Selecciona a túa rede wifi"</string>
     <string name="accessories_wifi_display_rename_device" msgid="8803397194143132061">"Cambiar nome"</string>

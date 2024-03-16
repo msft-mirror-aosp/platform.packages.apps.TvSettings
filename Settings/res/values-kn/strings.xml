@@ -319,7 +319,7 @@
     <string name="enterprise_privacy_bug_reports" msgid="2393617117911211486">"ಅತ್ಯಂತ ಇತ್ತೀಚಿನ ಬಗ್ ವರದಿ"</string>
     <string name="enterprise_privacy_security_logs" msgid="2573545327989145361">"ಅತ್ಯಂತ ಇತ್ತೀಚಿನ ಭದ್ರತಾ ಲಾಗ್"</string>
     <string name="enterprise_privacy_none" msgid="6660670916934417519">"ಯಾವುದೂ ಅಲ್ಲ"</string>
-    <string name="enterprise_privacy_enterprise_installed_packages" msgid="7244796629052581085">"ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಸ್ಥಾಪಿಸಲಾಗಿದೆ"</string>
+    <string name="enterprise_privacy_enterprise_installed_packages" msgid="7244796629052581085">"ಆ್ಯಪ್‌ಗಳನ್ನು ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ"</string>
     <string name="enterprise_privacy_apps_count_estimation_info" msgid="3875568975752197381">"ಆ್ಯಪ್‌ಗಳ ಸಂಖ್ಯೆಯನ್ನು ಅಂದಾಜು ಮಾಡಲಾಗಿದೆ. Play ಸ್ಟೋರ್‌ನಲ್ಲಿರುವುದನ್ನು ಹೊರತುಪಡಿಸಿ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿರುವ ಆ್ಯಪ್‌ಗಳು ಇದರಲ್ಲಿ ಒಳಗೊಂಡಿಲ್ಲದೇ ಇರಬಹುದು."</string>
     <string name="enterprise_privacy_number_packages_lower_bound" msgid="4518330667109848939">"{count,plural, =1{ಕನಿಷ್ಠ # ಆ್ಯಪ್}one{ಕನಿಷ್ಠ # ಆ್ಯಪ್‌ಗಳು}other{ಕನಿಷ್ಠ # ಆ್ಯಪ್‌ಗಳು}}"</string>
     <string name="enterprise_privacy_location_access" msgid="8978502415647245748">"ಸ್ಥಳದ ಅನುಮತಿಗಳು"</string>

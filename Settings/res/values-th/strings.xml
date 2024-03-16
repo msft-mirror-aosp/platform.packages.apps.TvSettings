@@ -101,7 +101,7 @@
     <string name="all_apps_installed" msgid="8217778476185598971">"แอปที่ติดตั้ง"</string>
     <string name="all_apps_other" msgid="4420174882983813158">"แอประบบ"</string>
     <string name="all_apps_disabled" msgid="2776041242863791053">"แอปที่ปิดใช้"</string>
-    <string name="device_daydream" msgid="2631191946958113220">"โปรแกรมรักษาหน้าจอ"</string>
+    <string name="device_daydream" msgid="2631191946958113220">"โหมดภาพพักหน้าจอ"</string>
     <string name="device_display" msgid="244634591698925025">"จอแสดงผล"</string>
     <string name="device_display_sound" msgid="7399153506435649193">"การแสดงผลและเสียง"</string>
     <string name="device_sound" msgid="8616320533559404963">"เสียง"</string>
@@ -962,7 +962,7 @@
     <string name="settings_on" msgid="7734010120323404333">"เปิด"</string>
     <string name="settings_off" msgid="4060451657850476369">"ปิด"</string>
     <string name="device_daydreams_none" msgid="3405655350757277348">"ปิดหน้าจอ"</string>
-    <string name="device_daydreams_select" msgid="7203264446482623438">"โปรแกรมรักษาหน้าจอ"</string>
+    <string name="device_daydreams_select" msgid="7203264446482623438">"โหมดภาพพักหน้าจอ"</string>
     <string name="device_daydreams_test" msgid="7828275397550076567">"เริ่มเลย"</string>
     <string name="device_daydreams_sleep" msgid="6847770718407377357">"เริ่มใช้งานเมื่อใด"</string>
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"โปรแกรมรักษาหน้าจอจะเริ่มทำงานหลังจากไม่มีการใช้งานตามระยะเวลานี้ หากไม่ได้เลือกโปรแกรมรักษาหน้าจอไว้ จอแสดงผลจะปิดลง"</string>
