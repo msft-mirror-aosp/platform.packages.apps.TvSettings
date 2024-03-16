@@ -85,6 +85,8 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"इथरनेट जडान गरियो"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"कुनै पनि नेटवर्क जडान गरिएको छैन"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi निष्क्रिय पारियो"</string>
+    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
+    <skip />
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"स्क्यानिङ सधै उपलब्ध छ"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi अफ हुँदा पनि Google को लोकेसन सर्भिस र अन्य एपहरूलाई नेटवर्क खोज्न दिनुहोस्"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"नेटवर्क खोज्ने सुविधा सधैँ उपलब्ध हुन्छ, Google को लोकेसन सर्भिस र अन्य एपहरूलाई Wi-Fi नेटवर्क खोज्न दिनुहोस्। ती सेवाले Wi-Fi अफ भएका बेलामा पनि नेटवर्क खोज्न सक्छन्"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"पहुँचको सर्टकटलाई सक्षम पार्नुहोस्"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"सर्टकट सम्बन्धी सेवा"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"सर्टकट सक्रिय हुँदा, तपाईं पहुँचसम्बन्धी कुनै सुविधा सुरु गर्न पछाडि र तल नामक दुवै बटनहरूलाई ३ सेकेन्डसम्म थिची राख्न सक्नुहुन्छ।"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"कारबाही गर्ने समय"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"कारबाही गर्ने समय (एक्सेसिबिलिटी टाइम आउट)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"समय"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"सबै एपहरूमा समयावधिसम्बन्धी यो प्राथमिकता लागू गर्न मिल्दैन।"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"क्याप्सन"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"भिडियोमा मिलेका क्याप्सन पाठ ओभरलेका लागि सेटिङ्"</string>
     <string name="captions_display" msgid="2598662495450633375">"प्रदर्शन गर्नुहोस्"</string>
@@ -1131,6 +1137,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"पावर तथा इनर्जी"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"पावर अन हुँदा देखिने मोड"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"रिसेट गर्नुहोस्"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"टेलिभिजन"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"इथरनेट कनेक्सन कोड"</string>
     <string name="energy_modes" msgid="1331693860386361744">"इनर्जी मोड"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"यी सेटिङ डिभाइस प्रयोग नगरेका बेलामा लागू हुन्छन्"</string>

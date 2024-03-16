@@ -85,6 +85,8 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ایتھرنیٹ سے منسلک ہے"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"کسی نیٹ ورک سے منسلک نہیں ہے"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi آف ہے"</string>
+    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
+    <skip />
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"اسکین کرنا ہمیشہ دستیاب رہے"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"‫Google کی مقام کی سروس اور دوسری ایپس کو Wi-Fi آف ہونے پر بھی نیٹ ورکس اسکین کرنے دیں"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"اسکیننگ ہمیشہ دستیاب ہے، Google کی مقام کی سروس اور دوسری ایپس کو Wi-Fi آف ہونے پر بھی نیٹ ورکس اسکین کرنے دیں"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ایکسیسبیلٹی شارٹ کٹ کو فعال کریں"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"شارٹ کٹ سروس"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"شارٹ کٹ آن ہونے پر، ایکسیسبیلٹی خصوصیت شروع کرنے کے لیے آپ ییچھے اور نیچے کے دونوں بٹنز کو 3 سیکنڈ تک دبا سکتے ہیں۔"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"کارروائی کرنے کا وقت"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"کارروائی کرنے کا وقت (ایکسیسبیلٹی ٹائم آؤٹ)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"ٹائمنگ"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"وقت کی اس ترجیح کو سبھی ایپس سپورٹ نہیں کرتی ہیں۔"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"کیپشنز"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ویڈیو پر سب ٹائٹلز ٹیسکٹ اوورلے کیلئے ترتیبات"</string>
     <string name="captions_display" msgid="2598662495450633375">"ڈسپلے"</string>
@@ -1131,6 +1137,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"پاور اور توانائی"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"برتاؤ پر پاور"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"ری سیٹ کریں"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"ٹیلی ویژن"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ایتھرنیٹ سے جوڑا بنانے کا کوڈ"</string>
     <string name="energy_modes" msgid="1331693860386361744">"توانائی کی وضعیں"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"یہ ترتیبات استعمال میں نہ ہونے پر آلہ کو متاثر کرتی ہیں"</string>
