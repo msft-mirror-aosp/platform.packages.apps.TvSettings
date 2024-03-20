@@ -378,7 +378,7 @@
     <string name="preferred_dynamic_range_selection_system_title">System-preferred conversion
             </string>
     <!-- Description for preference for HDR conversion - System-Preferred/Auto. [CHAR LIMIT=300] -->
-    <string name="preferred_dynamic_range_selection_system_desc">Let\'s the system manage the format
+    <string name="preferred_dynamic_range_selection_system_desc">Lets the system manage the format
         conversion
     </string>
     <!-- Summary for preference for HDR conversion - System-Preferred/Auto. [CHAR LIMIT=500] -->
