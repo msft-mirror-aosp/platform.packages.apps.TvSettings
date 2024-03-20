@@ -13,6 +13,9 @@ genrule {
 // This is needed to provide TvSettingsStatsLog as a library for TwoPanelSettingsOverlay makefile.
 java_library {
     name: "statslog-tvsettings",
+    libs: [
+        "androidx.annotation_annotation",
+    ],
     srcs: [
         ":statslog-tvsettings-java-gen",
     ],
