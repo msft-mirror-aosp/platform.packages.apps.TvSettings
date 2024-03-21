@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Conexión Ethernet establecida"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"No hay ninguna red conectada"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"La conexión Wi‑Fi está desactivada"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Desconecta el cable Ethernet para usar el Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Búsqueda siempre disponible"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Permite que el servicio de ubicación de Google y otras aplicaciones busquen redes aunque la conexión Wi-Fi esté desactivada"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Búsqueda siempre disponible, Permite que el servicio de ubicación de Google y otras aplicaciones busquen redes aunque la conexión Wi-Fi esté desactivada"</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Al habilitar esta opción, el sistema cambiará entre los diferentes formatos de rango dinámico para adaptarse al contenido. La pantalla puede quedarse en negro durante el cambio de formato.\n\nHaz clic en Ajustes avanzados de la pantalla para ver más opciones de rango dinámico."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Rango dinámico preferido"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversión preferida por el sistema"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Permite que el sistema gestione la conversión del formato"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Al seleccionar esta opción, el sistema determinará un rango dinámico adecuado para que se envíe a tu pantalla y convertirá el contenido en dicho rango dinámico según sea necesario."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Siempre coincide con el formato del contenido"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forzar conversión"</string>

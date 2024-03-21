@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"इथरनेट कनेक्ट केले आहे"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"कोणतेही नेटवर्क कनेक्ट केले नाही"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"वाय-फाय बंद केले आहे"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"वाय-फाय वापरण्यासाठी इथरनेट अनप्लग करा"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"स्कॅनिंग नेहमी उपलब्‍ध"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Google ची स्थान सेवा आणि इतर ॲप्सना नेटवर्कसाठी स्कॅन करू द्या, वाय-फाय बंद असतानादेखील."</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"स्कॅनिंग कायम उपलब्ध, वाय-फाय बंद असतानादेखील Google ची स्थान सेवा आणि इतर ॲप्सना नेटवर्कसाठी स्कॅन करू द्या"</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"हा पर्याय सुरू करताना, आशयाशी जुळण्यासाठी सिस्टीम वेगवेगळ्या डायनॅमिक रेंज फॉरमॅट दरम्यान स्विच करेल. यामुळे फॉरमॅट स्विचच्या वेळी स्क्रीन काळी होऊ शकते.\n\nआणखी डायनॅमिक रेंज पर्यायांसाठी प्रगत डिस्प्ले सेटिंग्जवर क्लिक करा."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"प्राधान्य असलेली डायनॅमिक रेंज"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"सिस्टीमचे प्राधान्य असलेले रूपांतर"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"सिस्टीमला फॉरमॅट रूपांतराचे व्यवस्थापन करू देते"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"हा पर्याय निवडला जातो, तेव्हा सिस्टीम तुमच्या डिस्प्लेवर पाठवण्‍यासाठी योग्य डायनॅमिक रेंज निर्धारित करेल आणि आवश्यकतेनुसार या डायनॅमिक रेंजमध्ये आशय रूपांतरित करेल."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"आशयाच्या फॉरमॅटशी नेहमी जुळते"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"सक्तीचे रूपांतर"</string>
