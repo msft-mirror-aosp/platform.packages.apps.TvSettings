@@ -80,7 +80,7 @@
 %1$s</xliff:g>"</string>
     <string name="sync_failed" msgid="2998289556481804047">"Kon nie sinkroniseer nie"</string>
     <string name="sync_active" msgid="1621239982176888680">"Sinkronisering is aktief"</string>
-    <string name="connectivity_wifi" msgid="1138689464484009184">"Wi-Fi"</string>
+    <string name="connectivity_wifi" msgid="1138689464484009184">"Wi-fi"</string>
     <string name="connectivity_ethernet" msgid="4270588618633681766">"Ethernet"</string>
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet is gekoppel"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Geen netwerk is gekoppel nie"</string>
@@ -88,7 +88,7 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Skandering altyd beskikbaar"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Laat Google se liggingdiens en ander programme netwerke soek, selfs wanneer Wi-Fi af is"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Skandering altyd beskikbaar: Laat Google se liggingdiens en ander programme netwerke soek, selfs wanneer Wi-Fi af is"</string>
-    <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
+    <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Koppel aan netwerk"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Netwerkdiagnostiek"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Programme wat onlangs oopgemaak is"</string>

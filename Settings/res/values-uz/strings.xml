@@ -275,7 +275,7 @@
     <string name="bluetooth_forget_action_title" msgid="2351140076684719196">"Olib tashlash"</string>
     <string name="bluetooth_forget_confirm" msgid="5175414848391021666">"Olib tashlash: %1$s"</string>
     <string name="bluetooth_serial_number_label" msgid="6639294603220209971">"Bluetooth manzili"</string>
-    <string name="bluetooth_connected_status" msgid="8629393539370085418">"Ulandi"</string>
+    <string name="bluetooth_connected_status" msgid="8629393539370085418">"Ulangan"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Uzildi"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Sizda Bluetooth sozlamalarini o‘zgartirish uchun ruxsat yo‘q."</string>
     <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"TV audiosi uchun foydalanish"</string>
