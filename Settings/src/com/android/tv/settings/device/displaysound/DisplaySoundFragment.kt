@@ -126,7 +126,7 @@ class DisplaySoundFragment : SettingsPreferenceFragment(), DisplayManager.Displa
         } else if (TextUtils.equals(preference.key, KEY_DYNAMIC_RANGE)) {
             val dynamicPref = preference as SwitchPreference
             DisplaySoundUtils
-                    .setMatchContentDynamicRangeStatus(mDisplayManager, dynamicPref.isChecked)
+                    .setMatchContentDynamicRangeStatus(context, mDisplayManager, dynamicPref.isChecked)
         }
         return super.onPreferenceTreeClick(preference)
     }

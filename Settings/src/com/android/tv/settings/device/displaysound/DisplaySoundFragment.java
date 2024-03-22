@@ -165,7 +165,8 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment implements
         }
         if (TextUtils.equals(preference.getKey(), KEY_DYNAMIC_RANGE)) {
             final SwitchPreference dynamicPref = (SwitchPreference) preference;
-            setMatchContentDynamicRangeStatus(mDisplayManager, dynamicPref.isChecked());
+            setMatchContentDynamicRangeStatus(
+                    getContext(), mDisplayManager, dynamicPref.isChecked());
         }
         return super.onPreferenceTreeClick(preference);
     }

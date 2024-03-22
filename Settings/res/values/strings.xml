@@ -564,6 +564,8 @@
         [CHAR LIMIT=250]-->
     <string name="hdr_enabled_format_info_clicked">To disable, change the
         format selection to Manual.</string>
+    <!-- Package to send HDR settings change broadcasts to -->
+    <string name="hdr_settings_changed_broadcast_package" translatable="false"/>
 
     <!-- Title for preference for Resolution selection. [CHAR LIMIT=50] -->
     <string name="resolution_selection_title">Resolution</string>
