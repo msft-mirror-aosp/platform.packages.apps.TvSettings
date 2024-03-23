@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet je povezan"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Nema povezanih mreža"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"WiFi je isključen"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Isključite Ethernet da koristite WiFi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Skeniranje je uvijek dostupno"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Dozvolite Googleovim uslugama lokacije i drugim aplikacijama da skeniraju mreže, čak i kada je WiFi isključen"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Skeniranje je uvijek dostupno, Omogućavanje Googleovoj usluzi lokacije i drugim aplikacijama da skeniraju mreže, čak i kada je WiFi isključen"</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Kada omogućite ovu opciju, sistem će izmjenjivati različite formate dinamičkog raspona da se podudara sa sadržajem. Ovo može uzrokovati crni ekran tokom promjene formata.\n\nKliknite na Napredne postavke ekrana za više opcija dinamičkog raspona."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Preferirani dinamički raspon"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Konverzija prema preferenciji sistema"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Omogućava sistemu da upravlja konverzijom formata"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Kada je ova opcija odabrana, sistem će utvrditi prikladni dinamički raspon koji će se slati na ekran i konvertirati sadržaj u ovaj dinamički raspon prema potrebi."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Uvijek se podudara s formatom sadržaja"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Prisilno izvrši konverziju"</string>

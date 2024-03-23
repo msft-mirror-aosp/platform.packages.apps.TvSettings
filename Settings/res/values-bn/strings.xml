@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ইথারনেট কানেক্ট করা হয়েছে"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"কোনও নেটওয়ার্কে কানেক্ট করা নেই"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"ওয়াই-ফাই বন্ধ আছে"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"ওয়াই-ফাই ব্যবহার করতে ইথারনেট আনপ্লাগ করুন"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"স্ক্যান করা সর্বদা উপলভ্য"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Google লোকেশন পরিষেবা এবং অন্যান্য অ্যাপকে নেটওয়ার্কের জন্য স্ক্যান করতে দিন, এমনকি ওয়াই-ফাই বন্ধ থাকা সত্ত্বেও"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"স্ক্যান করার সুবিধা সব সময় চালু রাখা, Google-এর লোকেশন ভিত্তিক পরিষেবা এবং অন্যান্য অ্যাপকে উপলভ্য নেটওয়ার্ক স্ক্যান করতে দিন, এমনকি ওয়াই-ফাই বন্ধ থাকলেও"</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"এই বিকল্প চালু করলে, কন্টেন্টের সাথে মানানসই ফলাফল দেখানোর জন্য সিস্টেমটি বিভিন্ন ডায়নামিক রেঞ্জ ফর্ম্যাটের মধ্যে পরিবর্তিত হবে। কোনও ফর্ম্যাটে পরিবর্তন করার সময়, সিস্টেমের স্ক্রিন কালো হয়ে যেতে পারে।\n\nডায়নামিক রেঞ্জের আরও বিকল্প দেখতে, \'অ্যাডভান্স ডিসপ্লে\' সেটিংসে ক্লিক করুন।"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"পছন্দের ডায়নামিক রেঞ্জ"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"সিস্টেমের সাথে মানানসই কনভার্সন"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"সিস্টেমকে ফর্ম্যাট কনভার্সন ম্যানেজ করতে দিন"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"এই বিকল্পটি বেছে নেওয়া হলে, সিস্টেমটি আপনার ডিসপ্লেতে পাঠানোর জন্য উপযুক্ত ডায়নামিক রেঞ্জ নির্ধারণ করবে এবং প্রয়োজন অনুসারে এই ডায়নামিক রেঞ্জে কন্টেন্ট কনভার্ট করবে।"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"সবসময় কন্টেন্ট ফর্ম্যাটের সাথে ম্যাচ করে"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"ফোর্স কনভার্সন চালু করুন"</string>
