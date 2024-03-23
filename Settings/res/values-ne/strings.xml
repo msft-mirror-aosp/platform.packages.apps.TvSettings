@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"इथरनेट जडान गरियो"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"कुनै पनि नेटवर्क जडान गरिएको छैन"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi निष्क्रिय पारियो"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Wi-Fi प्रयोग गर्न इथरनेट केबल हटाउनुहोस्"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"स्क्यानिङ सधै उपलब्ध छ"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi अफ हुँदा पनि Google को लोकेसन सर्भिस र अन्य एपहरूलाई नेटवर्क खोज्न दिनुहोस्"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"नेटवर्क खोज्ने सुविधा सधैँ उपलब्ध हुन्छ, Google को लोकेसन सर्भिस र अन्य एपहरूलाई Wi-Fi नेटवर्क खोज्न दिनुहोस्। ती सेवाले Wi-Fi अफ भएका बेलामा पनि नेटवर्क खोज्न सक्छन्"</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"तपाईंले यो विकल्प अन गर्नुभयो भने सिस्टमले सामग्रीसँग मिल्दाजुल्दा परिणामहरू देखाउने प्रयोजनका लागि डायनामिक रेन्जका विभिन्न फर्म्याटहरू अदलबदल गर्ने छ। तपाईंले यो विकल्प अन गर्नुभएका खण्डमा फर्म्याट अदलबदल गर्ने क्रममा स्क्रिन कालो हुन सक्छ।\n\nडायनामिक रेन्जका थप विकल्पहरू प्राप्त गर्न \"डिस्प्लेसम्बन्धी उन्नत सेटिङ\" मा क्लिक गर्नुहोस्।"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"रोजाइको डायनामिक रेन्ज"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"सिस्टमका अनुसार फर्म्याट बदलियोस्"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"फर्म्याट रूपान्तरण गर्ने काम सिस्टमलाई जिम्मा दिनुहोस्"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"यो विकल्प चयन गरिएका बेला सिस्टमले तपाईंको डिस्प्लेमा कुन डायनामिक रेन्ज पठाउन उपयुक्त हुन्छ भन्ने कुरा निर्धारण गर्छ र सामग्रीलाई आवश्यकताअनुसार रूपान्तरण गरी उक्त डायनामिक रेन्ज बनाउँछ।"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"सधैँ सामग्रीको फर्म्याटसँग मिल्ने फर्म्याट प्रयोग गर्नुहोस्"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"जबरजस्ती रूपान्तरण गरियोस्"</string>
@@ -412,7 +412,7 @@
     <string name="status_up_time" msgid="1758102680983108313">"सक्रिय समय"</string>
     <string name="legal_information" msgid="1087445528481370874">"कानूनी जानकारी"</string>
     <string name="copyright_title" msgid="5879660711078649518">"प्रतिलिपि अधिकार"</string>
-    <string name="license_title" msgid="4032466200355435641">"इजाजतपत्र"</string>
+    <string name="license_title" msgid="4032466200355435641">"लाइसेन्स"</string>
     <string name="terms_title" msgid="192888187310800678">"सेवाका सर्तहरू"</string>
     <string name="webview_license_title" msgid="5370270485188947540">"प्रणाली वेबभ्यु इजाजतपत्र"</string>
     <string name="consumer_information_title" msgid="7729729568416672733">"उपभोक्ताका लागि जानकारी"</string>

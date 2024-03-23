@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Түзмөк Ethernet\'ке туташты"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Тармакка туташкан жок"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi өчүрүлгөн"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Wi-Fi\'ды колдонуу үчүн Ethernet\'ти ажыратыңыз"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Тармактар ар дайым изделет"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Google´дун Жайгашкан жерди аныктоо кызматына жана башка колдонмолорго Wi-Fi тармактарын издөөгө уруксат бериңиз (Wi-Fi функциясы өчүк болсо да)."</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Скандоо ар дайым жеткиликтүү. Google´дун Жайгашкан жерди аныктоо кызматына жана башка колдонмолорго Wi-Fi тармактарын издөөгө уруксат бериңиз (Wi-Fi функциясы өчүк болсо да)."</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Бул параметр иштетилсе, түзмөк контентте колдонулган динамикалык диапазондун форматына которулат. Форматка которулуп жатканда экран өчүп калышы мүмкүн.\n\nДинамикалык диапазондун кошумча параметрлерин көрүү үчүн Экрандын өркүндөтүлгөн параметрлерине өтүңүз."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Тандалган динамикалык диапазон"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Система тандаган формат"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Форматты система өзү тандайт"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Бул параметр тандалса, система экраныңызга ылайыктуу динамикалык диапазонду таап, контентти ошого жараша көрсөтөт."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Формат контенттин параметрлери боюнча тандалат"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Башка форматка өзгөртүү"</string>

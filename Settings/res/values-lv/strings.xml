@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Izveidots savienojums ar tīklu Ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Nav izveidots savienojums ne ar vienu tīklu"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi ir izslēgts."</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Atvienojiet tīklu Ethernet, lai izmantotu Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Meklēšana vienmēr pieejama"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Atļaut Google atrašanās vietas pakalpojumam un citām lietotnēm meklēt tīklus, pat ja Wi-Fi savienojums ir izslēgts"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Meklēšana vienmēr pieejama: atļaujiet Google atrašanās vietas pakalpojumam un citām lietotnēm meklēt tīklus, pat ja Wi-Fi savienojums ir izslēgts."</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Iespējojot šo opciju, sistēma pārslēgs dažādus dinamiskā diapazona formātus, lai atrastu satura atbilstību. Formātu pārslēgšanas laikā var tikt rādīts melns ekrāns.\n\nNoklikšķiniet uz displeja papildiestatījumiem, lai skatītu citas dinamiskā diapazona opcijas."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Vēlamais dinamiskais diapazons"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Sistēmas pārvaldīta konvertēšana"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Ļauj sistēmai pārvaldīt formāta konvertēšanu"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Ja ir atlasīta šī opcija, sistēma noteiks piemēroto uz displeju nosūtāmo diapazonu un konvertēs saturu atbilstoši vajadzīgajam dinamiskajam diapazonam."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Vienmēr atbilst satura formātam"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Piespiedu konvertēšana"</string>

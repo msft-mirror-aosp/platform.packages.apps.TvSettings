@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet conectada"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Nenhuma rede conectada"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"O Wi-Fi está desativado"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Desconecte a Ethernet para usar o Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Busca sempre ativada"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Permitir que o serviço de localização do Google e outros apps procurem redes, mesmo que o Wi-Fi esteja desligado"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Verificação sempre disponível: permitir que o Serviço de localização do Google e outros apps procurem redes, mesmo que o Wi-Fi esteja desativado"</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Ao ativar essa opção, o sistema vai alternar entre diferentes formatos de alcance dinâmico para usar o mesmo do conteúdo. Isso pode causar uma tela preta durante a troca de formato.\n\nClique em \"Configurações avançadas de tela\" para mais opções de alcance dinâmico."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Alcance dinâmico principal"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversão preferencial do sistema"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Deixar que o sistema gerencie a conversão de formato"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Quando essa opção for selecionada, o sistema vai determinar um alcance dinâmico adequado para a tela e converter o conteúdo a esse alcance conforme necessário."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Sempre corresponder ao formato do conteúdo"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forçar a conversão"</string>

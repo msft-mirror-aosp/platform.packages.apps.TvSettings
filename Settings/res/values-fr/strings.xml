@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet connecté"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Vous n\'êtes connecté à aucun réseau"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Le Wi-Fi est désactivé"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Débranchez le câble Ethernet pour utiliser Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Recherche toujours disponible"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Autoriser le service de localisation de Google et les autres applications à rechercher des réseaux, même si le Wi-Fi est désactivé"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Recherche toujours disponible, Autoriser le service de localisation de Google et les autres applications à rechercher des réseaux, même si le Wi-Fi est désactivé"</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Lorsque cette option est activée, le système passe d\'un format de plage dynamique à un autre en fonction du contenu. Cela peut entraîner l\'affichage d\'un écran noir pendant un changement de format.\n\nCliquez sur \"Paramètres d\'affichage avancés\" pour obtenir plus d\'options de plage dynamique."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Plage dynamique préférée"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversion choisie par le système"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Laisse le système gérer la conversion du format"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Lorsque cette option est sélectionnée, le système détermine une plage dynamique adaptée à envoyer à votre écran et convertit le contenu dans cette plage si besoin."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Respecte toujours le format du contenu"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forcer la conversion"</string>

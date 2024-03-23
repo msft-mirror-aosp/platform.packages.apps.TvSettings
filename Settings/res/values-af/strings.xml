@@ -80,17 +80,16 @@
 %1$s</xliff:g>"</string>
     <string name="sync_failed" msgid="2998289556481804047">"Kon nie sinkroniseer nie"</string>
     <string name="sync_active" msgid="1621239982176888680">"Sinkronisering is aktief"</string>
-    <string name="connectivity_wifi" msgid="1138689464484009184">"Wi-Fi"</string>
+    <string name="connectivity_wifi" msgid="1138689464484009184">"Wi-fi"</string>
     <string name="connectivity_ethernet" msgid="4270588618633681766">"Ethernet"</string>
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet is gekoppel"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Geen netwerk is gekoppel nie"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi is afgeskakel"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Ontkoppel Ethernet om wi-fi te gebruik"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Skandering altyd beskikbaar"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Laat Google se liggingdiens en ander programme netwerke soek, selfs wanneer Wi-Fi af is"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Skandering altyd beskikbaar: Laat Google se liggingdiens en ander programme netwerke soek, selfs wanneer Wi-Fi af is"</string>
-    <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
+    <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Koppel aan netwerk"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Netwerkdiagnostiek"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Programme wat onlangs oopgemaak is"</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Wanneer jy hierdie opsie aktiveer, sal die stelsel tussen verskillende formate vir dinamiese omvang oorskakel om by die inhoud te pas. Dit kan ’n swart skerm veroorsaak terwyl daar tussen formate oorgeskakel word.\n\nKlik Gevorderde Skerm-instellings vir meer opsies vir dinamiese omvang."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Voorkeur- dinamiese omvang"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Omskakeling wat deur stelsel verkies word"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Laat die stelsel die formaatomskakeling bestuur"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Wanneer hierdie opsie gekies is, sal die stelsel ’n geskikte dinamiese bestek bepaal wat na jou skerm toe gestuur word, en inhoud wanneer nodig na hierdie dinamiese bestek toe omskakel."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Pas altyd by inhoud se formaat"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Verplig omskakeling"</string>

@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"已连接至以太网"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"未连接任何网络"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"WLAN 已关闭"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"拔出以太网网线才能使用 WLAN"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"随时都可扫描"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"允许 Google 的位置信息服务和其他应用扫描网络（即使 WLAN 已关闭）"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"随时都可扫描，允许 Google 的位置信息服务和其他应用扫描网络，即使 WLAN 已关闭"</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"启用这个选项后，系统会在各种动态范围格式之间切换以匹配内容。这可能会导致在格式切换期间出现黑屏。\n\n您可点击“高级显示设置”以查看更多动态范围选项。"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"偏好的动态范围"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"系统自动转换"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"让系统管理格式转换"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"如果选择这个选项，系统会决定要发送至您显示屏的合适动态范围，并根据需要将内容转换至此动态范围。"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"一律采用内容本身的格式"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"强制转换"</string>

@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ଇଥରନେଟ୍‍ ସଂଯୁକ୍ତ ହୋଇଛି"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"କୌଣସି ନେଟୱର୍କ୍ ‌ନାହିଁ"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"ୱାଇ-ଫାଇ ବନ୍ଦ ଅଛି"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"ୱାଇ-ଫାଇ ବ୍ୟବହାର କରିବାକୁ ଇଥରନେଟ ଅନପ୍ଲଗ କରନ୍ତୁ"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"ସର୍ବଦା ସ୍କାନିଂ ଉପଲବ୍ଧ ଅଛି"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"ୱାଇ-ଫାଇ ବନ୍ଦ ରହିଥିଲେ ମଧ୍ୟ ନେଟୱର୍କ ପାଇଁ Google\'ର ଲୋକେସନ୍‍ ସେବା ଏବଂ ଅନ୍ୟ ଆପ୍‍ ସ୍କାନ୍‍ କରିବାକୁ ଦିଅନ୍ତୁ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ସ୍କାନିଂ ସର୍ବଦା ଉପଲବ୍ଧ ଥାଏ, ୱାଇ-ଫାଇ ବନ୍ଦ ଥିଲେ ମଧ୍ୟ Googleର ଲୋକେସନ୍ ସେବା ଏବଂ ଅନ୍ୟ ଆପଗୁଡ଼ିକୁ ନେଟୱାର୍କ ସ୍କାନ୍ କରିବାକୁ ଦେଇଥାଏ"</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"ଏହି ବିକଳ୍ପକୁ ସକ୍ଷମ କରିବା ସମୟରେ ବିଷୟବସ୍ତୁ ମେଳ କରିବା ପାଇଁ ଏହି ସିଷ୍ଟମଟି ବିଭିନ୍ନ ଡାଇନାମିକ ରେଞ୍ଜ ଫର୍ମାଟ ମଧ୍ୟରେ ସ୍ୱିଚ କରିବ। ଏକ ଫର୍ମାଟ ସ୍ୱିଚ ସମୟରେ ଏହା ଯୋଗୁଁ ସ୍କ୍ରିନ କଳା ହୋଇପାରେ।\n\nଅଧିକ ଡାଇନାମିକ ରେଞ୍ଜ ବିକଳ୍ପ ପାଇଁ ଉନ୍ନତ ଡିସପ୍ଲେ ସେଟିଂସରେ କ୍ଲିକ କରନ୍ତୁ।"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"ପସନ୍ଦର ଡାଇନାମିକ ରେଞ୍ଜ"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"ସିଷ୍ଟମ-ପସନ୍ଦର କନଭର୍ସନ"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"ସିଷ୍ଟମକୁ ଫର୍ମାଟ କନଭର୍ସନ ପରିଚାଳନା କରିବାକୁ ଦିଅନ୍ତୁ"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"ଯେତେବେଳେ ଏହି ବିକଳ୍ପ ଚୟନ କରାଯାଏ, ଆପଣଙ୍କ ଡିସପ୍ଲେକୁ ପଠାଯିବା ପାଇଁ ସିଷ୍ଟମ ଏକ ଉପଯୁକ୍ତ ଡାଇନାମିକ ରେଞ୍ଜ ସ୍ଥିର କରିବ ଏବଂ ଆବଶ୍ୟକତା ଅନୁସାରେ ଏହି ଡାଇନାମିକ ରେଞ୍ଜକୁ ବିଷୟବସ୍ତୁ କନଭର୍ଟ କରିବ।"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ସର୍ବଦା ବିଷୟବସ୍ତୁର ଫର୍ମାଟ ସହ ମେଳ ହୁଏ"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"କନଭର୍ସନ ଲାଗୁ କରନ୍ତୁ"</string>

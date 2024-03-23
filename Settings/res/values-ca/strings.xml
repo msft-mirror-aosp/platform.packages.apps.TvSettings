@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet connectada"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"No hi ha cap xarxa connectada"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"La Wi-Fi està desactivada"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Desconnecta el cable Ethernet per utilitzar la Wi‑Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Cerca sempre disponible"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Permet que el servei d\'ubicacions de Google i altres aplicacions cerquin xarxes, fins i tot si la Wi-Fi està desactivada"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Cerca sempre disponible, Permet que els serveis d\'ubicació de Google i altres aplicacions cerquin xarxes, fins i tot si la Wi‑Fi està desactivada."</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"En activar aquesta opció, el sistema canviarà entre els diferents formats de rang dinàmic per igualar-lo amb el del contingut. És possible que la pantalla es torni negra durant el canvi de format.\n\nFes clic a Configuració avançada de la pantalla per a més opcions de rang dinàmic."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Rang dinàmic preferit"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversió preferida pel sistema"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Permet que el sistema gestioni la conversió del format"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"En seleccionar aquesta opció, el sistema determinarà un rang dinàmic adequat per a la teva pantalla i convertirà el contingut a aquest rang dinàmic, si cal."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Sempre coincideix amb el format del contingut"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Força la conversió"</string>

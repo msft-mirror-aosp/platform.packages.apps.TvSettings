@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Estableceuse a conexión a Ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Sen conexión de rede"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"A wifi está desactivada"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Desconecta o cable Ethernet para usar a wifi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Buscar redes sempre"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Permite ao servizo de localización de Google e a outras aplicacións buscar redes, aínda que a wifi estea desactivada"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Buscar redes sempre. Permite ao servizo de situación de Google e a outras aplicacións buscar redes, aínda que a wifi estea desactivada"</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Ao activar esta opción, o sistema cambiará entre os diferentes formatos de rango dinámico para adaptarse ao contido. A pantalla pode escurecerse durante o cambio de formato.\n\nFai clic na configuración avanzada da pantalla para ver máis opcións de rango dinámico."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Rango dinámico preferido"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversión preferida polo sistema"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Permítelle ao sistema xestionar a conversión de formatos"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Ao seleccionar esta opción, o sistema determinará un rango dinámico axeitado para a túa pantalla e converterá o contido a dito rango se é necesario."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Coincide sempre co formato do contido"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forzar conversión"</string>
@@ -710,8 +710,8 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Activar atallo de accesibilidade"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Servizo do atallo"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Cando o atallo estea activado, podes premer simultaneamente os botóns Atrás e Abaixo durante 3 segundos para iniciar unha función de accesibilidade."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Tempo para pasar á acción"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Tempo para pasar á acción (accesibilidade)"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Tempo para actuar"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Tempo para actuar (accesibilidade)"</string>
     <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Tempo"</string>
     <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Non todas as aplicacións admiten este tempo."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Subtítulos"</string>
