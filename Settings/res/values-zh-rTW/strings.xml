@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"已連上乙太網路"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"未連上任何網路"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi 已關閉"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"如要使用 Wi-Fi，請拔除乙太網路線"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"一律可以掃描"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"允許 Google 的定位服務和其他應用程式掃描網路 (即使 Wi-Fi 已關閉)"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"一律可以掃描，允許 Google 的定位服務和其他應用程式掃描網路，即使 Wi-Fi 已關閉"</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"啟用這個選項後，系統會配合內容切換使用不同的動態範圍格式。請注意，切換格式時螢幕可能會顯示一片黑。\n\n如要查看更多動態範圍選項，請點選「進階顯示設定」。"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"偏好的動態範圍"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"系統自動轉換"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"讓系統管理格式轉換作業"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"如果選取這個選項，系統會決定要傳送至螢幕的適當動態範圍，並視需要將內容轉換為該動態範圍。"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"一律與內容的格式保持一致"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"強制轉換"</string>

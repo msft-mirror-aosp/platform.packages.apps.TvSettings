@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"အီတာနက် ချိတ်ထားသည်"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"မည်သည့် ကွန်ရက်မျှ ချိတ်ဆက်မထားပါ"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi ကို ပိတ်ထားသည်"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Wi-Fi သုံးရန် အီသာနက်ကို ပလတ်ဖြုတ်ပါ"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"စကင် အမြဲတန်းလုပ်နိုင်ခြင်း"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi ပိတ်ထားစေကာမူ Google ၏ တည်နေရာဝန်ဆောင်မှုနှင့် အခြားအက်ပ်များအား ကွန်ရက်များ ရှာဖွေခွင့်ပေးပါ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ရှာဖွေခြင်းကို အမြဲရရှိနိုင်သည်၊ Wi-Fi ပိတ်ထားသော်လည်း Google ၏ တည်နေရာဝန်ဆောင်မှုနှင့် အခြားအက်ပ်များကို ကွန်ရက်များ ရှာဖွေခွင့်ပြုသည်"</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"ဤရွေးစရာကို ဖွင့်ထားသောအခါ စနစ်သည် အကြောင်းအရာနှင့် ကိုက်ညီစေရန် အရောင်အပိုင်းအခြား ဖော်မက်အမျိုးမျိုးကြား ပြောင်းမည်။ ၎င်းက ဖော်မက်ပြောင်းလဲမှုအတွင်း အမည်းရောင်စခရင်ကို ဖြစ်စေနိုင်သည်။\n\nနောက်ထပ် အရောင်အပိုင်းအခြား ရွေးစရာများအတွက် ‘အဆင့်မြင့် ဖန်သားပြင်’ ဆက်တင်များကို နှိပ်ပါ။"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"ဦးစားပေး အရောင်အပိုင်းအခြား"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"စနစ်ဦးစားပေး ပြောင်းလဲမှု"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"စနစ်အား ဖော်မက်ပြောင်းလဲမှုကို စီမံခွင့်ပြုသည်"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"၎င်းကို ရွေးထားသောအခါ စနစ်သည် သင့်ဖန်သားပြင်သို့ပို့ရန် သင့်တော်သော အရောင်အပိုင်းအခြားကို ဆုံးဖြတ်ပေးပြီး အကြောင်းအရာကို ဤအရောင်အပိုင်းအခြားသို့ လိုသလိုပြောင်းပေးမည်။"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"အကြောင်းအရာ၏ ဖော်မက်ကို အမြဲတမ်း ကိုက်ညီအောင်လုပ်သည်"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"ပြောင်းလဲမှု လုပ်ခိုင်းခြင်း"</string>

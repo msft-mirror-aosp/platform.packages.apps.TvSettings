@@ -85,8 +85,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Připojeno přes ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Žádné připojení k síti"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi je vypnuta"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Pokud chcete použít Wi-Fi, odpojte Ethernet"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Vyhledávání je vždy k dispozici"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Povolit službě určování polohy Google a ostatním aplikacím hledat sítě, i když je síť Wi-Fi vypnutá"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Vždy aktivní vyhledávání: Povolit službě určování polohy Google a ostatním aplikacím hledat sítě, i když je síť Wi-Fi vypnutá"</string>
@@ -158,7 +157,8 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Když povolíte tuto možnost, systém bude přepínat mezi různými formáty dynamického rozsahu podle obsahu. Při přepínání formátu může obrazovka zčernat.\n\nDalší možnosti dynamického rozsahu najdete v sekci Rozšířená nastavení obrazu."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Preferovaný dynamický rozsah"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Převod preferovaný systémem"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Nechá správu převodu formátu na systému"</string>
+    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
+    <skip />
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Když je vybrána tato možnost, určí systém vhodný dynamický rozsah k odeslání na váš displej, a podle potřeby obsah převede do tohoto dynamického rozsahu."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Vždy odpovídá formátu obsahu"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Vynutit převod"</string>
