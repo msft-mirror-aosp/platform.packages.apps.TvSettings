@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Når du aktiverer denne mulighed, vil systemet skifte mellem forskellige dynamiske områdeformater for at matche indholdet. Dette kan medføre, at skærmen bliver sort under et formatskift.\n\nKlik på Avancerede skærmindstillinger for at se flere muligheder for dynamiske områder."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Foretrukket dynamisk område"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Systemforetrukken konvertering"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Lader systemet administrere konverteringen af formatet"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Når denne mulighed er valgt, fastlægger systemet et passende dynamisk område, som sendes til din skærm, og konverterer indholdet i overensstemmelse med dette dynamiske område efter behov."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Matcher altid indholdets format"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Gennemtving konvertering"</string>

@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Ao activar esta opción, o sistema cambiará entre os diferentes formatos de rango dinámico para adaptarse ao contido. A pantalla pode escurecerse durante o cambio de formato.\n\nFai clic na configuración avanzada da pantalla para ver máis opcións de rango dinámico."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Rango dinámico preferido"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversión preferida polo sistema"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Permítelle ao sistema xestionar a conversión de formatos"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Ao seleccionar esta opción, o sistema determinará un rango dinámico axeitado para a túa pantalla e converterá o contido a dito rango se é necesario."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Coincide sempre co formato do contido"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forzar conversión"</string>

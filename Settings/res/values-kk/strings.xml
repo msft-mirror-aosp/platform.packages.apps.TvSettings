@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Бұл опция таңдалғанда, жүйе контентпен сәйкестену үшін әртүрлі динамикалық ауқым форматтары арасында ауысады. Формат ауысқанда, экран қараюы мүмкін.\n\nДинамикалық ауқымның басқа опцияларын көру үшін \"Қосымша дисплей параметрлері\" тармағын таңдаңыз."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Қажетті динамикалық ауқым"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Жүйеге қолайлы конверсия"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Жүйеге формат конверсиясын басқаруға рұқсат береді."</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Осы опция таңдалған кезде, жүйе дисплейге жіберілетін аралықты анықтайды және керегінше контентті осы динамикалық аралыққа түрлендіреді."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Әрқашан контенттің форматына сәйкес келеді."</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Мәжбүрлі конверсия"</string>

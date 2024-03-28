@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"啟用這個選項後，系統會配合內容切換使用不同的動態範圍格式。請注意，切換格式時螢幕可能會顯示一片黑。\n\n如要查看更多動態範圍選項，請點選「進階顯示設定」。"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"偏好的動態範圍"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"系統自動轉換"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"讓系統管理格式轉換作業"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"如果選取這個選項，系統會決定要傳送至螢幕的適當動態範圍，並視需要將內容轉換為該動態範圍。"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"一律與內容的格式保持一致"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"強制轉換"</string>
@@ -411,7 +410,7 @@
     <string name="status_bt_address" msgid="7190052214963950844">"藍牙位址"</string>
     <string name="status_up_time" msgid="1758102680983108313">"開機時間"</string>
     <string name="legal_information" msgid="1087445528481370874">"法律資訊"</string>
-    <string name="copyright_title" msgid="5879660711078649518">"版權"</string>
+    <string name="copyright_title" msgid="5879660711078649518">"著作權"</string>
     <string name="license_title" msgid="4032466200355435641">"授權"</string>
     <string name="terms_title" msgid="192888187310800678">"條款及細則"</string>
     <string name="webview_license_title" msgid="5370270485188947540">"System WebView 授權"</string>

@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Երբ այս պարամետրը միացված է, համակարգը փոխարկաբար կօգտագործի դինամիկ դիապազոնի տարբեր ձևաչափեր՝ բովանդակությանը համապատասխանելու համար։ Ձևաչափի փոփոխման ժամանակ էկրանը կարող է սևանալ։\n\nԴինամիկ դիապազոնի այլ տարբերակներ տեսնելու համար անցեք էկրանի լրացուցիչ կարգավորումներ։"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Նախընտրելի դինամիկ դիապազոն"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Ձևաչափի ավտոմատ կարգավորում"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Թույլատրել համակարգին կառավարել ձևաչափի փոխարկումը"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Եթե միացնեք այս պարամետրը, համակարգը կորոշի ձեր էկրանին համապատասխան դինամիկ դիապազոնը և, անհրաժեշտության դեպքում, կցուցադրի բովանդակությունը այդ դիապազոնում։"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Միշտ համապատասխանում է բովանդակության ձևաչափին"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Հարկադիր փոխակերպում"</string>
@@ -723,7 +722,7 @@
     <string name="captions_configure" msgid="711991018642931958">"Կարգավորել"</string>
     <string name="captions_language" msgid="5905918439449912646">"Լեզուն"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"Կանխադրված"</string>
-    <string name="captions_textsize" msgid="7161136610669343510">"Տեքստի չափը"</string>
+    <string name="captions_textsize" msgid="7161136610669343510">"Տեքստի չափսը"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"Ենթագրերի ոճը"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"Հատուկ ընտրանքներ"</string>
     <string name="captions_fontfamily" msgid="1026632786438880997">"Տառատեսակի ընտանիքը"</string>
@@ -741,7 +740,7 @@
     <string name="captions_style_0" msgid="169414884289770256">"Սպիտակ՝ սևի վրա"</string>
     <string name="captions_style_1" msgid="8236052739817535538">"Սև՝ սպիտակի վրա"</string>
     <string name="captions_style_2" msgid="456353889540431910">"Դեղին՝ սևի վրա"</string>
-    <string name="captions_style_3" msgid="3860050153620761166">"Դեղինը կապույտի վրա"</string>
+    <string name="captions_style_3" msgid="3860050153620761166">"Դեղին՝ կապույտի վրա"</string>
     <string name="captions_style_custom" msgid="9062905566459387931">"Հատուկ"</string>
     <string name="color_white" msgid="4188877187457167678">"Սպիտակ"</string>
     <string name="color_black" msgid="2631818627391955149">"Սև"</string>
