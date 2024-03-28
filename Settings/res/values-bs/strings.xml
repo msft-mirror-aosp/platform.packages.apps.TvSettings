@@ -1065,7 +1065,7 @@
     <string name="special_access" msgid="21806055758289916">"Poseban pristup za aplikacije"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Zvučni zapis"</string>
-    <string name="record_audio" msgid="5035689290259575229">"Snimi zvučni zapis"</string>
+    <string name="record_audio" msgid="5035689290259575229">"Snimanje zvuka"</string>
     <string name="record_audio_summary_on" msgid="8724494646461335090">"Onemogućite da zaustavite snimanje zvučnog zapisa"</string>
     <string name="record_audio_summary_off" msgid="1392440365091422816">"Omogućite da odmah počnete snimati zvučni zapis"</string>
     <string name="play_recorded_audio_title" msgid="4627717067151602729">"Reproduciraj snimljeni zvučni zapis"</string>

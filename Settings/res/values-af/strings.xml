@@ -325,7 +325,7 @@
     <string name="enterprise_privacy_location_access" msgid="8978502415647245748">"Liggingtoestemmings"</string>
     <string name="enterprise_privacy_microphone_access" msgid="3746238027890585248">"Mikrofoontoestemmings"</string>
     <string name="enterprise_privacy_camera_access" msgid="6258493631976121930">"Kameratoestemmings"</string>
-    <string name="enterprise_privacy_enterprise_set_default_apps" msgid="5538330175901952288">"Verstekprogramme"</string>
+    <string name="enterprise_privacy_enterprise_set_default_apps" msgid="5538330175901952288">"Verstekapps"</string>
     <string name="enterprise_privacy_number_packages" msgid="6256222390430349008">"{count,plural, =1{# program}other{# programme}}"</string>
     <string name="enterprise_privacy_input_method" msgid="5814752394251833058">"Versteksleutelbord"</string>
     <string name="enterprise_privacy_input_method_name" msgid="1088874503312671318">"Gestel na <xliff:g id="APP_LABEL">%s</xliff:g>"</string>
@@ -353,7 +353,7 @@
     <string name="default_email_app_title" msgid="3712283056326496555">"{count,plural, =1{E-poskliëntprogram}other{E-poskliëntprogramme}}"</string>
     <string name="default_map_app_title" msgid="9051013257374474801">"Kaartprogram"</string>
     <string name="default_phone_app_title" msgid="4833449131501871644">"{count,plural, =1{Foonprogram}other{Foonprogramme}}"</string>
-    <string name="default_browser_title" msgid="3612813200586492159">"Blaaierprogram"</string>
+    <string name="default_browser_title" msgid="3612813200586492159">"Blaaierapp"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"Tutoriale"</string>
@@ -533,7 +533,7 @@
     <string name="storage_available" msgid="8860901789290434209">"Beskikbaar"</string>
     <string name="storage_size" msgid="5517261387579171381">"Totale spasie: <xliff:g id="TOTAL_SPACE">%1$s</xliff:g>"</string>
     <string name="storage_calculating_size" msgid="5716281278843281044">"Bereken tans…"</string>
-    <string name="storage_apps_usage" msgid="8659915575274468924">"Programme"</string>
+    <string name="storage_apps_usage" msgid="8659915575274468924">"Apps"</string>
     <string name="storage_downloads_usage" msgid="8429196848359517158">"Aflaaie"</string>
     <string name="storage_dcim_usage" msgid="1890098882753254745">"Foto\'s en video\'s"</string>
     <string name="storage_music_usage" msgid="5362871290115089474">"Oudio"</string>
@@ -765,7 +765,7 @@
     <string name="system_input" msgid="4457152980514604873">"Invoer"</string>
     <string name="system_drawing" msgid="5802739024643871942">"Skets"</string>
     <string name="system_monitoring" msgid="7997260748312620855">"Monitering"</string>
-    <string name="system_apps" msgid="8481888654606868074">"Programme"</string>
+    <string name="system_apps" msgid="8481888654606868074">"Apps"</string>
     <string name="system_stay_awake" msgid="5935117574414511413">"Bly wakker"</string>
     <string name="keep_screen_on_summary" msgid="4680661166009970792">"Skerm sal nooit slaap nie"</string>
     <string name="system_hdcp_checking" msgid="3757586362130048838">"HDCP-kontrolering"</string>

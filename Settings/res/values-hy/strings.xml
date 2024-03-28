@@ -717,7 +717,7 @@
     <string name="captions_configure" msgid="711991018642931958">"Կարգավորել"</string>
     <string name="captions_language" msgid="5905918439449912646">"Լեզուն"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"Կանխադրված"</string>
-    <string name="captions_textsize" msgid="7161136610669343510">"Տեքստի չափը"</string>
+    <string name="captions_textsize" msgid="7161136610669343510">"Տեքստի չափսը"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"Ենթագրերի ոճը"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"Հատուկ ընտրանքներ"</string>
     <string name="captions_fontfamily" msgid="1026632786438880997">"Տառատեսակի ընտանիքը"</string>
@@ -735,7 +735,7 @@
     <string name="captions_style_0" msgid="169414884289770256">"Սպիտակ՝ սևի վրա"</string>
     <string name="captions_style_1" msgid="8236052739817535538">"Սև՝ սպիտակի վրա"</string>
     <string name="captions_style_2" msgid="456353889540431910">"Դեղին՝ սևի վրա"</string>
-    <string name="captions_style_3" msgid="3860050153620761166">"Դեղինը կապույտի վրա"</string>
+    <string name="captions_style_3" msgid="3860050153620761166">"Դեղին՝ կապույտի վրա"</string>
     <string name="captions_style_custom" msgid="9062905566459387931">"Հատուկ"</string>
     <string name="color_white" msgid="4188877187457167678">"Սպիտակ"</string>
     <string name="color_black" msgid="2631818627391955149">"Սև"</string>

@@ -467,14 +467,14 @@
     <string name="title_wifi_proxy_hostname" msgid="1242297002220870385">"Igama lomethuleli wommeleli:"</string>
     <string name="title_wifi_proxy_port" msgid="566244407030390328">"Imbobo yommeleli:"</string>
     <string name="title_wifi_proxy_bypass" msgid="8752756240663231435">"Dlula ummeleli we-:"</string>
-    <string name="title_wifi_ip_settings" msgid="296029383749112888">"Izilungiselelo ze-IP"</string>
+    <string name="title_wifi_ip_settings" msgid="296029383749112888">"Amasethingi e-IP"</string>
     <string name="title_wifi_ip_address" msgid="5505806431042689276">"Ikheli lasesizindeni se-intanethi:"</string>
     <string name="title_wifi_gateway" msgid="4496416267930824360">"Umasango:"</string>
     <string name="title_wifi_network_prefix_length" msgid="3200370297772096824">"Ubude begama eliqalayo lenethiwekhi:"</string>
     <string name="title_wifi_dns1" msgid="1585965227665007553">"I-DNS 1:"</string>
     <string name="title_wifi_dns2" msgid="4563319371301555072">"I-DNS 2:"</string>
     <string name="title_wifi_proxy_settings_invalid" msgid="7698883245005941665">"Izilungiselelo zommeleli azisebenzi"</string>
-    <string name="title_wifi_ip_settings_invalid" msgid="7283801973512992014">"Izilungiselelo ze-IP azisebenzi"</string>
+    <string name="title_wifi_ip_settings_invalid" msgid="7283801973512992014">"Amasethingi e-IP akasebenzi"</string>
     <string name="title_wifi_known_network" msgid="6162483884727898697">"I-<xliff:g id="SSID">%1$s</xliff:g> inethiwekhi elondoloziwe"</string>
     <string name="title_wifi_scan_qr_code" msgid="7485605625055717874">"Skena ikhodi ye-QR ukuze ujoyine"</string>
     <string name="wifi_action_try_again" msgid="8920677153891141148">"Zama futhi"</string>
