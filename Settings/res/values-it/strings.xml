@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Attivando questa opzione, il sistema passerà da un formato di intervallo dinamico all\'altro in base ai contenuti. Questo potrebbe causare la visualizzazione di una schermata nera durante il cambio di formato.\n\nFai clic su Impostazioni display avanzate per altre opzioni di intervallo dinamico."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Intervallo dinamico preferito"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversione preferita dal sistema"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Consente al sistema di gestire la conversione del formato"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Se viene selezionata questa opzione, sarà il sistema a stabilire un intervallo dinamico adatto da inviare al display e a convertire i contenuti in questo intervallo, se necessario."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Corrisponde sempre al formato dei contenuti"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forza conversione"</string>

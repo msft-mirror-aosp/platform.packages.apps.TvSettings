@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Lorsque cette option est activée, le système passe d\'un format de plage dynamique à un autre en fonction du contenu. Cela peut entraîner l\'affichage d\'un écran noir pendant un changement de format.\n\nCliquez sur \"Paramètres d\'affichage avancés\" pour obtenir plus d\'options de plage dynamique."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Plage dynamique préférée"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversion choisie par le système"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Laisse le système gérer la conversion du format"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Lorsque cette option est sélectionnée, le système détermine une plage dynamique adaptée à envoyer à votre écran et convertit le contenu dans cette plage si besoin."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Respecte toujours le format du contenu"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forcer la conversion"</string>

@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"כשהאפשרות הזו מופעלת, המערכת תעבור בין פורמטים של טווח דינמי בהתאם לתוכן. המעבר עלול לגרום להצגת מסך שחור בזמן שינוי הפורמט.\n\nיש ללחוץ על הגדרות התצוגה המתקדמות כדי לראות אפשרויות נוספות של טווח דינמי."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"טווח דינמי מועדף"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"המרה בהתאם למערכת"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"ההגדרה הזו מאפשרת למערכת לנהל את המרת הפורמט"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"כשבוחרים באפשרות הזו, המערכת תקבע טווח דינמי מתאים שיישלח לתצוגה שלך ותמיר תוכן לטווח הדינמי הזה לפי הצורך."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"תמיד בהתאמה לפורמט של התוכן"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"אילוץ המרה"</string>

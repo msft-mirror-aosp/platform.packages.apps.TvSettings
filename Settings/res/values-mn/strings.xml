@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Энэ сонголтыг идэвхжүүлэх үед систем контенттой тааруулахын тулд динамикийн мужийн өөр өөр форматын хооронд сэлгэнэ. Энэ нь формат сэлгэх үед дэлгэцийг хар болгоход хүргэж магадгүй.\n\nДинамик мужийн бусад сонголт авах бол Дэлгэцийн дэвшилтэт тохиргоог товшино уу."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Сонгосон динамик муж"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Системийн сонгосон хувиралт"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Системд форматын хувиралтыг удирдахыг зөвшөөрнө"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Энэ сонголтыг сонгосон үед систем таны дэлгэц рүү илгээх тохирох динамик мужийг тодорхойлж, шаардлагатай бол контентыг энэ динамик муж руу хувиргана."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Үргэлж контентын форматтай таруулна"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Хувиралтыг хүчлэх"</string>
