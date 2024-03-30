@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Unapowasha chaguo hili, mfumo utabadilisha kati ya miundo tofauti ya mfululizo wa ubadilikaji ili kulingansha maudhui. Hali hii inaweza kusababisha skrini nyeusi wakati wa kubadilisha muundo.\n\nBofya mipangilio ya Kina ya Skrini ili upate chaguo zaidi za mfululizo wa ubadilikaji."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Mfululizo wa ubadilikaji unaopendelewa"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Ubadilishaji unaopendelewa na mfumo"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Huruhusu mfumo kudhibiti ubadilishaji wa muundo"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Ukiteua chaguo hili, mfumo utabainisha masafa yanayobadilika yanayofaa kutumwa kwenye skrini yako na kubadilisha maudhui kuwa katika masafa haya yanayobadilika kadiri inavyohitajika."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Hulingana na muundo wa maudhui wakati wote"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Kulazimisha ubadilishaji"</string>

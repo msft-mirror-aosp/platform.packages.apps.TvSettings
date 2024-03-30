@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"このオプションを有効にすると、コンテンツに合わせてダイナミック レンジの形式が切り替わります。切り替え中に画面が黒くなることがあります。\n\nその他のダイナミック レンジ オプションを設定するには、[ディスプレイの詳細設定] をクリックしてください。"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"優先されるダイナミック レンジ"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"システム設定の変換"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"形式の変換を自動で管理できます"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"このオプションを選択すると、ディスプレイに送信する適切なダイナミック レンジが自動的に判断され、必要に応じてそのダイナミック レンジにコンテンツが変換されます。"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"コンテンツの形式に常に合わせます"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"強制変換"</string>

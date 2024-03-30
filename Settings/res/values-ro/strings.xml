@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Când activezi opțiunea, sistemul va comuta între diferite formate de intervale dinamice, în funcție de conținut Acest lucru poate provoca un ecran negru la comutarea formatului.\n\nDă clic pe Setări de afișare avansate pentru mai multe opțiuni de interval dinamic."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Intervalul dinamic preferat"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversie preferată de sistem"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Permite ca sistemul să gestioneze conversia formatului"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Când se selectează opțiunea, sistemul va stabili un interval dinamic potrivit de trimis spre ecran și va converti conținutul în acest interval dinamic după caz."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Corespunde întotdeauna cu formatul conținutului"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forțează conversia"</string>

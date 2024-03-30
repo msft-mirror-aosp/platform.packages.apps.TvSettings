@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Kada omogućite ovu opciju, sistem će izmjenjivati različite formate dinamičkog raspona da se podudara sa sadržajem. Ovo može uzrokovati crni ekran tokom promjene formata.\n\nKliknite na Napredne postavke ekrana za više opcija dinamičkog raspona."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Preferirani dinamički raspon"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Konverzija prema preferenciji sistema"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Omogućava sistemu da upravlja konverzijom formata"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Kada je ova opcija odabrana, sistem će utvrditi prikladni dinamički raspon koji će se slati na ekran i konvertirati sadržaj u ovaj dinamički raspon prema potrebi."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Uvijek se podudara s formatom sadržaja"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Prisilno izvrši konverziju"</string>
@@ -1071,7 +1070,7 @@
     <string name="special_access" msgid="21806055758289916">"Poseban pristup za aplikacije"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Zvučni zapis"</string>
-    <string name="record_audio" msgid="5035689290259575229">"Snimi zvučni zapis"</string>
+    <string name="record_audio" msgid="5035689290259575229">"Snimanje zvuka"</string>
     <string name="record_audio_summary_on" msgid="8724494646461335090">"Onemogućite da zaustavite snimanje zvučnog zapisa"</string>
     <string name="record_audio_summary_off" msgid="1392440365091422816">"Omogućite da odmah počnete snimati zvučni zapis"</string>
     <string name="play_recorded_audio_title" msgid="4627717067151602729">"Reproduciraj snimljeni zvučni zapis"</string>

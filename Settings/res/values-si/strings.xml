@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"මෙම විකල්පය සබල කරන විට, පද්ධතිය අන්තර්ගතයට ගැළපෙන පරිදි විවිධ ගතික පරාස ආකෘති අතර මාරු වනු ඇත. මෙය ආකෘති මාරු කිරීම අතරතුර කළු තිරයක් ඇති කිරීමට හැක.\n\nතවත් ගතික පරාස විකල්ප සඳහා උසස් සංදර්ශක සැකසීම් ක්ලික් කරන්න."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"කැමති ගතික පරාසය"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"පද්ධතියට කැමති පරිවර්තනය"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"පද්ධතියට ආකෘති පරිවර්තනය කළමනාකරණයට ඉඩ දෙයි"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"මෙම විකල්පය තෝරා ඇති විට, පද්ධතිය ඔබේ සංදර්ශකය වෙත යැවීමට සුදුසු ගතික පරාසයක් තීරණය කර අවශ්‍ය පරිදි අන්තර්ගතය මෙම ගතික පරාසයට පරිවර්තනය කරනු ඇත."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"සෑම විටම අන්තර්ගතයේ ආකෘතියට ගැළපෙයි"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"බලෙන් පරිවර්තනය"</string>

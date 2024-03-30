@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"هنگام فعال کردن این گزینه، سیستم بین قالب‌های مختلف دامنه پویا جابه‌جا می‌شود تا با محتوا مطابقت پیدا کند. به‌همین دلیل ممکن است درطول تغییر قالب، صفحه سیاهی ببینید.\n\nبرای گزینه‌های دامنه پویای بیشتر، روی «تنظیمات پیشرفته نمایشگر» کلیک کنید."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"دامنه پویای ترجیحی"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"تبدیل ترجیحی سیستم"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"به سیستم اجازه داده می‌شود تبدیل قالب را مدیریت کند"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"وقتی این گزینه انتخاب شود، سیستم دامنه پویای مناسبی را برای ارسال به صفحه‌نمایش شما تعیین می‌کند و درصورت نیاز محتوا را به این دامنه پویا تبدیل می‌کند."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"همیشه با قالب محتوا مطابقت دارد"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"تبدیل اجباری"</string>

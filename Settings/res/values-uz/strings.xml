@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Bu parametr yoqilsa, tizim tasvir formatini kontentga moslab almashtiradi. Mos kelmagan formatda qora ekran chiqishi mumkin.\n\nYanada mos formatlarni koʻrish uchun Kengaytirilgan ekran sozlamalari ustiga bosing."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Afzal dinamik diapazon"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Tizim asosli oʻgirish"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Formatga oʻgirishni tizim boshqaradi"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Bu parametr tanlanganda, tizim displeyingizga yuboriladigan mos dinamik diapazonni aniqlaydi va zarur vaqtda kontentni ushbu dinamik diapazonga oʻgiradi."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Doim kontent formatiga mos keladi"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Majburiy oʻgirish"</string>
