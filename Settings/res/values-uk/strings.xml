@@ -353,7 +353,7 @@
     <string name="default_email_app_title" msgid="3712283056326496555">"{count,plural, =1{Додаток для електронної пошти}one{Додатки для електронної пошти}few{Додатки для електронної пошти}many{Додатки для електронної пошти}other{Додатки для електронної пошти}}"</string>
     <string name="default_map_app_title" msgid="9051013257374474801">"Додаток для карт"</string>
     <string name="default_phone_app_title" msgid="4833449131501871644">"{count,plural, =1{Додаток для викликів}one{Додатки для викликів}few{Додатки для викликів}many{Додатки для викликів}other{Додатки для викликів}}"</string>
-    <string name="default_browser_title" msgid="3612813200586492159">"Веб-переглядач"</string>
+    <string name="default_browser_title" msgid="3612813200586492159">"Вебпереглядач"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"Навчальні посібники"</string>

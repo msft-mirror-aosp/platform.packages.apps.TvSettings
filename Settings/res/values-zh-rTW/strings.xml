@@ -409,7 +409,7 @@
     <string name="status_bt_address" msgid="7190052214963950844">"藍牙位址"</string>
     <string name="status_up_time" msgid="1758102680983108313">"開機時間"</string>
     <string name="legal_information" msgid="1087445528481370874">"法律資訊"</string>
-    <string name="copyright_title" msgid="5879660711078649518">"版權"</string>
+    <string name="copyright_title" msgid="5879660711078649518">"著作權"</string>
     <string name="license_title" msgid="4032466200355435641">"授權"</string>
     <string name="terms_title" msgid="192888187310800678">"條款及細則"</string>
     <string name="webview_license_title" msgid="5370270485188947540">"System WebView 授權"</string>

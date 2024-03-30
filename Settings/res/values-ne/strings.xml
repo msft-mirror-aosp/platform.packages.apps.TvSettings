@@ -717,7 +717,7 @@
     <string name="captions_configure" msgid="711991018642931958">"कन्फिगर गर्नुहोस्"</string>
     <string name="captions_language" msgid="5905918439449912646">"भाषा"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"डिफल्ट भाषा"</string>
-    <string name="captions_textsize" msgid="7161136610669343510">"पाठको आकार"</string>
+    <string name="captions_textsize" msgid="7161136610669343510">"टेक्स्टको आकार"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"क्याप्सनको शैली"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"आफू अनुकूल विकल्प"</string>
     <string name="captions_fontfamily" msgid="1026632786438880997">"फन्ट परिवार"</string>
@@ -1007,7 +1007,7 @@
     <item msgid="3336274213215419228">"सुत्ने कोठाको टिभी"</item>
   </string-array>
     <string name="custom_room" msgid="6798144004583173563">"आफू अनुकूल नाम हाल्नुहोस्…"</string>
-    <string name="device_rename_title" msgid="9070021379000499270">"यस <xliff:g id="DEVICEMODEL">%1$s</xliff:g> को पुनः नामाकरण गर्नुहोस्"</string>
+    <string name="device_rename_title" msgid="9070021379000499270">"यस <xliff:g id="DEVICEMODEL">%1$s</xliff:g> को नाम बदल्नुहोस्"</string>
     <string name="device_rename_description" msgid="1973894029492915135">"यो <xliff:g id="DEVICEMODEL">%1$s</xliff:g> को हालको नाम \"<xliff:g id="DEVICENAME">%2$s</xliff:g>\" छ"</string>
     <string name="device_name_suggestion_title" msgid="3986220212759193742">"आफ्नो डिभाइसको नाम सेट गर्नुहोस्"</string>
     <string name="device_name_suggestion_summary" msgid="4582691399302362938">"आफ्नो फोनबाट फोटो, भिडियो र थप कुराहरू cast गर्दा यो नाम प्रयोग गर्नुहोस्"</string>
@@ -1037,7 +1037,7 @@
     <string name="high_power_off" msgid="3588854600942236231">"पावरको प्रयोगलाई अप्टिमाइज गरिँदैछ"</string>
     <string name="high_power_system" msgid="6263052626979462255">"पावरको अप्टिमाइजेसन उपलब्ध छैन"</string>
     <string name="manage_notification_access_title" msgid="8659254371564990084">"सूचनामाथिको पहुँच"</string>
-    <string name="no_notification_listeners" msgid="5119406452675724448">"कुनै स्थापना गरिएको अनुप्रयोगले सूचनामाथिको पहुँचको लागि अनुरोध गरेका छैन।"</string>
+    <string name="no_notification_listeners" msgid="5119406452675724448">"कुनै स्थापना गरिएको एपले सूचनामाथिको पहुँचको लागि अनुरोध गरेका छैन।"</string>
     <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"यी एपहरूले सम्पर्कको नाम र तपाईंले प्राप्त गर्नुहुने पाठ सन्देशहरूलगायत सबै सूचनाहरू पढ्न सक्नेछन्। तिनीहरू सूचनाहरू खारेज गर्न वा तिनीहरूमा समावेश कारबाही बटनहरू ट्रिगर गर्न पनि सक्नेछन्।"</string>
     <string name="default_notification_access_package_summary" msgid="1354775994781420222">"सिस्टमको सेटिङअनुसार यसो गर्नु अनिवार्य छ"</string>
     <string name="directory_access" msgid="7338555825237012006">"निर्देशिकामाथिको पहुँच"</string>
@@ -1056,7 +1056,7 @@
     <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"यो एपलाई यो डिभाइस वा जोडिएको कुनै भण्डारणमा रहेका सबै फाइलहरू पढ्ने, परिमार्जन गर्ने तथा मेट्ने अनुमति दिनुहोस्। अनुमति दिइएका खण्डमा यो एपले तपाईंको स्पष्ट अनुमतिविनै फाइलहरू प्रयोग गर्नसक्छ।"</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Picture-in-picture"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Picture-in-picture लाई अनुमति दिइयोस्"</string>
-    <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"स्थापना गरिएको कुनै पनि अनुप्रयोगले Picture-in-picture मोडलाई समर्थन गर्दैन"</string>
+    <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"स्थापना गरिएको कुनै पनि एपले Picture-in-picture मोडलाई समर्थन गर्दैन"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"यो एप खुला रहेको अवस्थामा वा तपाईंले यसलाई छाडेपछि (उदाहरणका लागि, भिडियो हेर्ने कार्य जारी राख्न) यस एपलाई picture-in-picture विन्डो सिर्जना गर्ने अनुमति दिनुहोस्। यो विन्डो तपाईंले प्रयोग गरिरहनुभएका अन्य एपहरूको माथि देखिन्छ।"</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"यी एपहरूलाई अलार्म सेट गर्ने र समयमै पूरा गर्नु पर्ने कारबाहीहरूको रुटिन तय गर्ने अनुमति दिनुहोस्। यो अनुमति दिइएको छ भने यी एप ब्याकग्राउन्डमा चल्छन्। त्यसैले, यी एपले धेरै ब्याट्री खपत गर्न सक्छन्।\n\nयो अनुमति दिइएको छैन भने समय तोकिएका अलार्म र यी एपले तय गरेका समयअनुसार चल्ने कार्यक्रमहरूले काम गर्दैनन्।"</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"स्क्रिन अन गर्नुहोस्"</string>

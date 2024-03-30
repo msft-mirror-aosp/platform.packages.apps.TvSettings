@@ -1094,13 +1094,13 @@
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"Je beheerder kan apps en gegevens bijhouden en beheren die aan deze gebruiker zijn gekoppeld (waaronder instellingen, rechten, zakelijke toegang, netwerkactiviteit en locatiegegevens van het apparaat)."</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"Je beheerder kan apps en gegevens bijhouden en beheren die aan dit apparaat zijn gekoppeld (waaronder instellingen, rechten, zakelijke toegang, netwerkactiviteit en locatiegegevens van het apparaat)."</string>
     <string name="remove_managed_profile_label" msgid="8950011141359605612">"Werkprofiel verwijderen"</string>
-    <string name="active_device_admin_msg" msgid="185537304726228624">"Apparaatbeheer-app"</string>
-    <string name="remove_device_admin" msgid="2623866073546295104">"Deze apparaatbeheer-app uitzetten"</string>
+    <string name="active_device_admin_msg" msgid="185537304726228624">"App voor apparaatbeheer"</string>
+    <string name="remove_device_admin" msgid="2623866073546295104">"Deze app voor apparaatbeheer deactiveren"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"App verwijderen"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"Uitzetten en verwijderen"</string>
     <string name="select_device_admin_msg" msgid="8475934459999710332">"Apparaatbeheer-apps"</string>
-    <string name="add_device_admin_msg" msgid="5390773166682603421">"Apparaatbeheer-app activeren?"</string>
-    <string name="add_device_admin" msgid="5078281377915844544">"Deze apparaatbeheer-app activeren"</string>
+    <string name="add_device_admin_msg" msgid="5390773166682603421">"App voor apparaatbeheer activeren?"</string>
+    <string name="add_device_admin" msgid="5078281377915844544">"Deze app voor apparaatbeheer activeren"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"Als je deze beheer-app activeert, sta je de app <xliff:g id="APP_NAME">%1$s</xliff:g> toe de volgende bewerkingen uit te voeren:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"Dit apparaat wordt beheerd en gecontroleerd door <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
     <string name="device_admin_status" msgid="5467001937240455367">"Deze beheer-app is actief en staat toe dat de app <xliff:g id="APP_NAME">%1$s</xliff:g> de volgende bewerkingen uitvoert:"</string>
