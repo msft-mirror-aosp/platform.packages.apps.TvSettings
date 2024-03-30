@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Įgalinus šią parinktį sistema perjungs skirtingus dinaminio diapazono formatus, kad atitiktų turinį. Todėl perjungiant formatą gali būti rodomas juodas ekranas.\n\nJei reikia daugiau dinaminio diapazono parinkčių, spustelėkite „Išplėstiniai pateikties nustatymai“."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Pageidaujamas dinaminis diapazonas"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Sistemos parinktas konvertavimas"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Formato konvertavimą leidžiama valdyti sistemai"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Kai įjungta ši parinktis, sistema nustatys tinkamą dinaminį diapazoną, kuris bus siunčiamas į jūsų ekraną, ir pagal poreikį konvertuos turinį į tą dinaminį diapazoną."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Visada atitinka turinio formatą"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Priverstinis konvertavimas"</string>

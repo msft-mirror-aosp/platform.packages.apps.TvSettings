@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"ಈ ಆಯ್ಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವಾಗ, ಸಿಸ್ಟಂ ವಿಷಯವನ್ನು ಹೊಂದಾಣಿಕೆ ಮಾಡಲು ವಿಭಿನ್ನ ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿಯ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳ ನಡುವೆ ಬದಲಿಸುತ್ತದೆ. ಇದು ಫಾರ್ಮ್ಯಾಟ್ ಬದಲಾವಣೆ ಸಮಯದಲ್ಲಿ ಬ್ಲ್ಯಾಕ್ ಸ್ಕ್ರೀನ್‌ಗೆ ಕಾರಣವಾಗಬಹುದು.\n\nಇನ್ನಷ್ಟು ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿಯ ಆಯ್ಕೆಗಳಿಗಾಗಿ ಸುಧಾರಿತ ಡಿಸ್‌ಪ್ಲೇ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"ಆದ್ಯತೆಯ ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿ"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"ಸಿಸ್ಟಂ-ಆದ್ಯತೆಯ ಪರಿವರ್ತನೆ"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"ಫಾರ್ಮ್ಯಾಟ್ ಪರಿವರ್ತನೆಯನ್ನು ನಿರ್ವಹಿಸಲು ಸಿಸ್ಟಂಗೆ ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"ಈ ಆಯ್ಕೆಯನ್ನು ಆರಿಸುವುದರಿಂದ ಡಿಸ್‌ಪ್ಲೇಗೆ ಕಳುಹಿಸಲು ಸೂಕ್ತವಾದ ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನಿರ್ಧರಿಸುತ್ತದೆ ಮತ್ತು ಅಗತ್ಯವಿದ್ದರೆ ಆ ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿಗೆ ವಿಷಯವನ್ನು ಪರಿವರ್ತಿಸುತ್ತದೆ."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ಯಾವಾಗಲೂ ವಿಷಯದ ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"ಒತ್ತಾಯದ ಪರಿವರ್ತನೆ"</string>

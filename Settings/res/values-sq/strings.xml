@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Kur aktivizohet ky opsion, sistemi do të kalojë midis formateve të ndryshme të gamës dinamike për t\'u përputhur me përmbajtjen. Kjo mund të shkaktojë një ekran të zi gjatë ndërrimit të formatit.\n\nKliko \"Cilësimet e përparuara të ekranit\" për më shumë opsione të gamës dinamike."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Gama e preferuar dinamike"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Konvertimi i preferuar nga sistemi"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Lejon që sistemi të menaxhojë konvertimin e formatit"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Kur ky opsion është i zgjedhur, sistemi do të përcaktojë një gamë dinamike të përshtatshme për t\'u dërguar në ekranin tënd dhe për ta konvertuar përmbajtjen në këtë gamë dinamike sipas nevojës."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Përputhet gjithmonë me formatin e përmbajtjes"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Zbato me forcë konvertimin"</string>

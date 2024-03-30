@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Saat mengaktifkan opsi ini, sistem akan beralih antara format rentang dinamis yang berbeda untuk menyesuaikan konten. Hal ini dapat menyebabkan layar hitam selama peralihan format.\n\nKlik setelan Tampilan Lanjutan untuk melihat opsi rentang dinamis lainnya."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Rentang dinamis pilihan"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Konversi pilihan sistem"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Memungkinkan sistem mengelola konversi format"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Saat opsi ini dipilih, sistem akan menentukan rentang dinamis yang sesuai untuk ditampilkan di layar Anda dan mengonversi konten ke rentang dinamis ini sesuai kebutuhan."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Selalu sesuaikan format konten"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Paksa konversi"</string>

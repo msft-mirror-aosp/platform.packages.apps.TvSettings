@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Bu seçimi aktivləşdirdikdə sistem kontentə uyğunlaşmaq üçün müxtəlif dinamik diapazon formatları arasında keçid edəcək. Format dəyişdirilərkən ekranın qaralmasına səbəb ola bilər.\n\nDigər dinamik diapazon seçimləri üçün Təkmil Displey ayarlarına klikləyin."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Tərcih edilən dinamik diapazon"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Sistem tərəfindən tərcih edilən çevirmə"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Sistemə format çevirməsini idarə etmək imkanı verir"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Bu seçim edildikdə sistem displeyə göndəriləcək uyğun dinamik diapazonu müəyyən edəcək və lazım olduqda kontenti bu dinamik diapazona çevirəcək."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Həmişə kontentin formatına uyğun gəlir"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Məcburi çevirmə"</string>

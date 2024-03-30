@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Когато активирате тази опция, системата ще премине през различните формати за динамичен обхват, за да намери съответствие за съдържанието. По време на превключването екранът може да стане черен.\n\nЗа още опции за динамичен обхват кликнете върху разширените настройки за дисплея."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Предпочитан динамичен обхват"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Предпочитано от системата преобразуване"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Преобразуването на формата да се управлява от системата"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Когато е избрана тази опция, системата ще определя подходящ динамичен обхват за сигнала към екрана ви и при необходимост ще преобразува съдържанието към този динамичен обхват."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Винаги съответства на формата на съдържанието"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Принудително преобразуване"</string>

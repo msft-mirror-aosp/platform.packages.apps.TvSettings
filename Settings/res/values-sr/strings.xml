@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Када омогућите ову опцију, систем ће мењати формат динамичког опсега ради подударања са садржајем. То може да изазове црни екран током промене формата.\n\nКликните на Напредна подешавања екрана за више опција динамичког опсега."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Жељени динамички опсег"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Системска конверзија"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Омогућава систему да управља конверзијом формата"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Када је ова опција изабрана, систем одређује одговарајући динамички опсег који ће послати на екран и према потреби ће конвертовати садржај у тај динамички опсег."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Увек се подудара с форматом садржаја"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Наметни конверзију"</string>

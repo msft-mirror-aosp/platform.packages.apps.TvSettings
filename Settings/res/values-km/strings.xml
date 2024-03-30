@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"នៅពេលបើក​ជម្រើសនេះ ប្រព័ន្ធនឹងប្ដូររវាង​ទម្រង់កម្រិត​ឌីណាមិកផ្សេងៗ ដើម្បីឱ្យត្រូវគ្នានឹង​ខ្លឹមសារ។ ការធ្វើបែបនេះ​អាចបណ្ដាលឱ្យ​អេក្រង់ពណ៌ខ្មៅ ក្នុងអំឡុងពេល​ប្ដូរទម្រង់។\n\nចុច​ការកំណត់​ផ្ទាំងអេក្រង់កម្រិតខ្ពស់ ដើម្បីទទួលបាន​ជម្រើសកម្រិតឌីណាមិក​ច្រើនទៀត។"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"កម្រិតឌីណាមិក​ដែលចង់បាន"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"ការបំប្លែងតាមការចង់បានរបស់ប្រព័ន្ធ"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"អនុញ្ញាតឱ្យប្រព័ន្ធគ្រប់គ្រងការបំប្លែងទម្រង់"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"នៅពេលជម្រើសនេះត្រូវបានជ្រើសរើស ប្រព័ន្ធនឹងកំណត់ចន្លោះឌីណាមិកសមរម្យមួយដែលត្រូវបានផ្ញើទៅកាន់ផ្ទាំងអេក្រង់របស់អ្នក ហើយបំប្លែងខ្លឹមសារទៅជា​ចន្លោះឌីណាមិកនេះតាមតម្រូវការ។"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ត្រូវគ្នានឹងទម្រង់ខ្លឹមសារជានិច្ច"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"បង្ខំការបំប្លែង"</string>
@@ -686,7 +685,7 @@
     <string name="accessibility_services_category_title" msgid="8813843874978910442">"សេវាកម្ម"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"ការ​កំណត់​សេវាកម្ម"</string>
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
-    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"អត្ថបទមានកម្រិតភាពដិតខ្ពស់"</string>
+    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"អក្សររំលេចពណ៌ខ្លាំង"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"អក្សរ​ដិត"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"ការ​កែ​តម្រូវ​ពណ៌"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"ប្រើ​ការ​កែតម្រូវពណ៌"</string>

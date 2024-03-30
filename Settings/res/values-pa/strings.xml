@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"ਇਹ ਵਿਕਲਪ ਚਾਲੂ ਹੋਣ \'ਤੇ, ਸਿਸਟਮ ਸਮੱਗਰੀ ਨਾਲ ਮੇਲ ਖਾਉਣ ਲਈ ਪਰਿਵਰਤਨਸ਼ੀਲ ਰੇਂਜ ਵਾਲੇ ਵੱਖ-ਵੱਖ ਫਾਰਮੈਟਾਂ ਵਿਚਾਲੇ ਸਵਿੱਚ ਕਰੇਗਾ। ਇਸ ਨਾਲ ਫਾਰਮੈਟ ਸਵਿੱਚ ਦੌਰਾਨ ਸਕ੍ਰੀਨ ਕਾਲੀ ਹੋ ਸਕਦੀ ਹੈ।\n\nਪਰਿਵਰਤਨਸ਼ੀਲ ਰੇਂਜ ਵਾਲੇ ਹੋਰ ਵਿਕਲਪਾਂ ਲਈ ਅਡਵਾਂਸ ਡਿਸਪਲੇ ਸੈਟਿੰਗਾਂ \'ਤੇ ਕਲਿੱਕ ਕਰੋ।"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"ਤਰਜੀਹੀ ਪਰਿਵਰਤਨਸ਼ੀਲ ਰੇਂਜ"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"ਸਿਸਟਮ-ਤਰਜੀਹੀ ਰੂਪਾਂਤਰਨ"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"ਸਿਸਟਮ ਨੂੰ ਫਾਰਮੈਟ ਰੂਪਾਂਤਰਨ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ ਦਿਓ"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"ਇਹ ਵਿਕਲਪ ਚੁਣਨ \'ਤੇ ਸਿਸਟਮ ਤੁਹਾਡੀ ਡਿਸਪਲੇ \'ਤੇ ਭੇਜੇ ਜਾਣ ਲਈ ਢੁਕਵੀਂ ਗਤੀਸ਼ੀਲ ਦਰ ਨਿਰਧਾਰਿਤ ਕਰੇਗਾ ਅਤੇ ਲੋੜ ਮੁਤਾਬਕ ਸਮੱਗਰੀ ਨੂੰ ਇਸ ਗਤੀਸ਼ੀਲ ਦਰ ਵਿੱਚ ਬਦਲੇਗਾ।"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ਸਮੱਗਰੀ ਦੇ ਫਾਰਮੈਟ ਨਾਲ ਹਮੇਸ਼ਾਂ ਮੇਲ ਖਾਂਦਾ ਹੈ"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ"</string>

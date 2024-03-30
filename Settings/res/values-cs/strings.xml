@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Když povolíte tuto možnost, systém bude přepínat mezi různými formáty dynamického rozsahu podle obsahu. Při přepínání formátu může obrazovka zčernat.\n\nDalší možnosti dynamického rozsahu najdete v sekci Rozšířená nastavení obrazu."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Preferovaný dynamický rozsah"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Převod preferovaný systémem"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Nechá správu převodu formátu na systému"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Když je vybrána tato možnost, určí systém vhodný dynamický rozsah k odeslání na váš displej, a podle potřeby obsah převede do tohoto dynamického rozsahu."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Vždy odpovídá formátu obsahu"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Vynutit převod"</string>

@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Бул параметр иштетилсе, түзмөк контентте колдонулган динамикалык диапазондун форматына которулат. Форматка которулуп жатканда экран өчүп калышы мүмкүн.\n\nДинамикалык диапазондун кошумча параметрлерин көрүү үчүн Экрандын өркүндөтүлгөн параметрлерине өтүңүз."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Тандалган динамикалык диапазон"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Система тандаган формат"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Форматты система өзү тандайт"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Бул параметр тандалса, система экраныңызга ылайыктуу динамикалык диапазонду таап, контентти ошого жараша көрсөтөт."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Формат контенттин параметрлери боюнча тандалат"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Башка форматка өзгөртүү"</string>

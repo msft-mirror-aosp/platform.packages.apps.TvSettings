@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"啟用這個選項後，系統會因應內容切換匹配的動態範圍格式。切換格式時螢幕可能會全黑。\n\n點擊「進階顯示」設定查看更多動態範圍選項。"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"偏好的動態範圍"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"系統自動轉換"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"由系統管理格式轉換"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"選取這個選項，系統會斷定合適向螢幕傳送的動態範圍，並按需要將內容轉換至該動態範圍。"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"一律採用內容的格式"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"強制轉換"</string>

@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"এই বিকল্প চালু করলে, কন্টেন্টের সাথে মানানসই ফলাফল দেখানোর জন্য সিস্টেমটি বিভিন্ন ডায়নামিক রেঞ্জ ফর্ম্যাটের মধ্যে পরিবর্তিত হবে। কোনও ফর্ম্যাটে পরিবর্তন করার সময়, সিস্টেমের স্ক্রিন কালো হয়ে যেতে পারে।\n\nডায়নামিক রেঞ্জের আরও বিকল্প দেখতে, \'অ্যাডভান্স ডিসপ্লে\' সেটিংসে ক্লিক করুন।"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"পছন্দের ডায়নামিক রেঞ্জ"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"সিস্টেমের সাথে মানানসই কনভার্সন"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"সিস্টেমকে ফর্ম্যাট কনভার্সন ম্যানেজ করতে দিন"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"এই বিকল্পটি বেছে নেওয়া হলে, সিস্টেমটি আপনার ডিসপ্লেতে পাঠানোর জন্য উপযুক্ত ডায়নামিক রেঞ্জ নির্ধারণ করবে এবং প্রয়োজন অনুসারে এই ডায়নামিক রেঞ্জে কন্টেন্ট কনভার্ট করবে।"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"সবসময় কন্টেন্ট ফর্ম্যাটের সাথে ম্যাচ করে"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"ফোর্স কনভার্সন চালু করুন"</string>

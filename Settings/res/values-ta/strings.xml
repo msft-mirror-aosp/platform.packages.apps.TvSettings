@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"இந்த விருப்பத்தை இயக்கும்போது, உள்ளடக்கத்துடன் பொருந்துவதற்காகப் பல்வேறு டைனமிக் வரம்பு வடிவங்களுக்கிடையே இந்த அமைப்பு மாறும். வடிவங்களுக்கிடையே மாறும்போது திரை கருப்பாக மாறக்கூடும்.\n\nகூடுதல் டைனமிக் வரம்பு விருப்பங்கள் காட்டப்பட, மேம்பட்ட காட்சி அமைப்புகளைக் கிளிக் செய்யவும்."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"விருப்பமான டைனமிக் வரம்பு"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"சிஸ்டம் பரிந்துரைக்கும் வடிவமைப்பு மாற்றம்"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"வடிவமைப்பு மாற்றத்தை நிர்வகிக்க சிஸ்டத்தை அனுமதிக்கும்"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"இந்த விருப்பம் தேர்ந்தெடுக்கப்பட்டிருக்கும்போது, உங்கள் டிஸ்ப்ளேக்கு அனுப்ப வேண்டிய பொருத்தமான டைனமிக் ரேஞ்சை சிஸ்டம் தீர்மானிக்கும். அதன் பிறகு, தேவைக்கேற்ப இந்த டைனமிக் ரேஞ்சிற்கு உள்ளடக்கத்தை மாற்றும்."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"எப்போதும் உள்ளடக்கத்தின் வடிவமைப்போடு பொருந்தும்"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"வடிவமைப்பை மாற்றுதல்"</string>

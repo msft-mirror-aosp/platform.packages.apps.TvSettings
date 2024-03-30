@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Kapag na-enable ang opsyong ito, lilipat ang system sa pagitan ng iba\'t ibang format ng dynamic range para tumugma sa content. Posibleng magdulot ito ng black screen habang lumilipat ng format.\n\nI-click ang mga setting sa Advanced na Display para sa higit pang opsyon sa dynamic range."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Gustong dynamic range"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversion na mas gusto ng system"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Hinahayaan ang system na pamahalaan ang conversion ng format"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Kapag pinili ang opsyong ito, tutukoy ang system ng naaangkop na dynamic na saklaw na ipapadala sa iyong display at iko-convert nito ang content sa dynamic na saklaw na ito gaya ng kinakailangan."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Palaging itugma sa format ng content"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Ipilit ang conversion"</string>

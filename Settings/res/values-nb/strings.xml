@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Hvis du slår på dette alternativet, bytter systemet mellom ulike formater for dynamisk omfang for å matche innholdet. Dette kan føre til at skjermen blir svart når formatet byttes.\n\nKlikk på Avanserte skjerminnstillinger for å se flere alternativer for dynamisk omfang."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Foretrukket dynamisk omfang"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Systemforetrukket konvertering"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Lar systemet administrere formatkonverteringen"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Når dette alternativet er valgt, fastslår systemet et egnet dynamisk område som sendes til skjermen, og konverterer innhold til dette dynamiske området etter behov."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Matcher alltid formatet til innholdet"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Tving konvertering"</string>

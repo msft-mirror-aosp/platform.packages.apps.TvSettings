@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Khi bạn bật tuỳ chọn này, hệ thống sẽ chuyển giữa các định dạng dải động khác nhau sao cho phù hợp với nội dung. Màn hình có thể chuyển sang màu đen trong quá trình chuyển định dạng.\n\nNhấp vào chế độ cài đặt Hiển thị nâng cao để có thêm lựa chọn về dải động."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Dải động ưa thích"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Chuyển đổi sang định dạng hệ thống ưu tiên"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Hãy để hệ thống quản lý việc chuyển đổi định dạng"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Khi bạn chọn tuỳ chọn này, hệ thống sẽ xác định dải động phù hợp để gửi đến màn hình của bạn và chuyển đổi nội dung sang dải động này nếu cần."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Luôn phù hợp với định dạng của nội dung"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Buộc chuyển đổi"</string>
@@ -723,7 +722,7 @@
     <string name="captions_configure" msgid="711991018642931958">"Định cấu hình"</string>
     <string name="captions_language" msgid="5905918439449912646">"Ngôn ngữ"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"Mặc định"</string>
-    <string name="captions_textsize" msgid="7161136610669343510">"Kích thước văn bản"</string>
+    <string name="captions_textsize" msgid="7161136610669343510">"Cỡ chữ"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"Kiểu phụ đề"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"Tùy chọn tùy chỉnh"</string>
     <string name="captions_fontfamily" msgid="1026632786438880997">"Họ phông chữ"</string>

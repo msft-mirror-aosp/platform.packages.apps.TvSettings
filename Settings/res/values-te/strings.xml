@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"ఈ ఆప్షన్‌ను ఎనేబుల్ చేసినప్పుడు, సిస్టమ్ కంటెంట్‌తో మ్యాచ్ అవడానికి వివిధ డైనమిక్ రేంజ్ ఫార్మాట్‌ల మధ్య స్విచ్ అవుతుంది. ఇది ఫార్మాట్ స్విచ్ సమయంలో నలుపు రంగు స్క్రీన్‌కు కారణం కావచ్చు.\n\nమరిన్ని డైనమిక్ పరిధి ఆప్షన్‌ల కోసం అధునాతన డిస్‌ప్లే సెట్టింగ్‌లను క్లిక్ చేయండి."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"ప్రాధాన్యమైన డైనమిక్ పరిధి"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"సిస్టమ్ ప్రాధాన్య మార్పిడి"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"ఫార్మాట్ మార్పిడిని సిస్టమ్ నిర్వహించేలా చేస్తుంది"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"ఈ ఆప్షన్‌ను ఎంచుకున్నప్పుడు, సిస్టమ్ మీ డిస్‌ప్లేకు పంపడానికి తగిన డైనమిక్ పరిధిని నిర్ణయిస్తుంది అలాగే అవసరమైన విధంగా కంటెంట్‌ను ఈ డైనమిక్ పరిధికి మారుస్తుంది."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ఎల్లప్పుడూ కంటెంట్ ఫార్మాట్‌ను మ్యాచ్ చేస్తుంది"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"నిర్బంధ మార్పిడి"</string>

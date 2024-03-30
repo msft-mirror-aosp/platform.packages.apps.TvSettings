@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"આ વિકલ્પ ચાલુ કરતી વખતે, કન્ટેન્ટ સાથે મેળ કરવા માટે સિસ્ટમ, ડાઇનૅમિક શ્રેણીના વિવિધ ફૉર્મેટ વચ્ચે સ્વિચ કરશે. આના કારણે ફૉર્મેટ સ્વિચ કરતી વખતે કાળી સ્ક્રીન જોવા મળી શકે છે.\n\nડાઇનૅમિક શ્રેણીના વધુ વિકલ્પો માટે, વિગતવાર ડિસ્પ્લે સેટિંગ પર ક્લિક કરો."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"પસંદ કરેલી ડાઇનૅમિક શ્રેણી"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"સિસ્ટમ દ્વારા પસંદ કરાયેલું રૂપાંતરણ"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"સિસ્ટમને ફૉર્મેટનું રૂપાંતરણ મેનેજ કરવાની મંજૂરી આપે છે"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"જ્યારે આ વિકલ્પ પસંદ કરેલો હોય, ત્યારે સિસ્ટમ તમારા ડિસ્પ્લે પર મોકલવા માટેની અનુકૂળ ડાયનૅમિક રેંજ નક્કી કરશે અને કન્ટેન્ટને જરૂર મુજબ આ ડાયનૅમિક રેંજમાં રૂપાંતરિત કરશે."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"હંમેશાં કન્ટેન્ટના ફૉર્મેટ સાથે મેળ કરે છે"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"રૂપાંતરણ ફરજિયાત લાગુ કરવું"</string>

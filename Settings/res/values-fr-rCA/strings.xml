@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Lorsque cette option est activée, le système passera d\'une gamme dynamique à une autre pour s\'adapter au contenu. Cela peut engendrer un écran noir lors d\'un changement de format.\n\nCliquez sur Paramètres d\'affichage avancés pour accéder à d\'autres options de gamme dynamique."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Gamme dynamique préférée"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversion préférée par le système"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Permet au système de gérer la conversion du format"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Lorsque cette option est sélectionnée, le système déterminera une gamme dynamique appropriée à envoyer à votre écran et convertira le contenu à cette gamme dynamique si nécessaire."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Toujours faire correspondre le format à celui du contenu"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forcer la conversion"</string>
