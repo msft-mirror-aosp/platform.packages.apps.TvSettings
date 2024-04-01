@@ -385,49 +385,28 @@ public class BluetoothScanner {
                 }
 
                 // See if this is a device we already know about
-                Device device = null;
-                final int N = mPresentDevices.size();
-                for (int i=0; i<N; i++) {
-                    final Device d = mPresentDevices.get(i);
-                    if (address.equals(d.address)) {
-                        device = d;
+                Device device = new Device();
+                device.btDevice = btDevice;
+                device.address = address;
+                device.consecutiveMisses = FOUND_ON_SCAN;
+                device.setNameString(name);
+                boolean foundMatch = false;
+
+                final int presentDeviceCount = mPresentDevices.size();
+                for (int i = 0; i < presentDeviceCount; i++) {
+                    final Device currentDevice = mPresentDevices.get(i);
+                    if (address.equals(currentDevice.address)) {
+                        mPresentDevices.set(i, device);
+                        foundMatch = true;
                         break;
                     }
                 }
 
-                if (device == null) {
-                    if (DEBUG) {
-                        Log.d(TAG, "Device is a new device.");
-                    }
-                    // New device.
-                    device = new Device();
-                    device.btDevice = btDevice;
-                    device.address = address;
-                    device.consecutiveMisses = -1;
-
-                    device.setNameString(name);
-                    // Save it
+                if (!foundMatch) {
                     mPresentDevices.add(device);
-
-                    // Tell the listeners
-                    sendDeviceAdded(device);
-                } else {
-                    if (DEBUG) {
-                        Log.d(TAG, "Device is an existing device.");
-                    }
-                    // Existing device: update miss count.
-                    device.consecutiveMisses = FOUND_ON_SCAN;
-                    if (device.btName == name
-                            || (device.btName != null && device.btName.equals(name))) {
-                        // Name hasn't changed
-                        return;
-                    } else {
-                        device.setNameString(name);
-                        sendDeviceChanged(device);
-                        // If we can't parse it properly, treat it as a delete
-                        // when we iterate through them again.
-                    }
                 }
+
+                updateDevice(device);
             } else if (BluetoothAdapter.ACTION_DISCOVERY_FINISHED.equals(action)) {
                 // Clear any devices that have disappeared since the last scan completed
                 final int N = mPresentDevices.size();
@@ -485,41 +464,56 @@ public class BluetoothScanner {
             }
         }
 
-        private void sendDeviceAdded(Device device) {
-            synchronized (mListenerLock) {
-                for (int ptr = mClients.size() - 1; ptr > -1; ptr--) {
-                    ClientRecord client = mClients.get(ptr);
-                    for (BluetoothDeviceCriteria matcher : client.matchers) {
-                        if (matcher.isMatchingDevice(device.btDevice)) {
-                            client.devices.add(device);
-                            client.listener.onDeviceAdded(device);
-                            break;
-                        }
-                    }
+        private void updateDeviceInClient(ClientRecord client, Device device) {
+            boolean isMatching = false;
+            for (BluetoothDeviceCriteria matcher : client.matchers) {
+                if (matcher.isMatchingDevice(device.btDevice)) {
+                    isMatching = true;
+                    break;
                 }
+            }
+
+            int currentIndex = -1;
+            for (int i = 0; i < client.devices.size(); i++) {
+                if (client.devices.get(i).address.equals(device.address)) {
+                    currentIndex = i;
+                    break;
+                }
+            }
+
+            if (!isMatching) {
+                if (currentIndex != -1) { // Remove a no longer matching device.
+                    client.listener.onDeviceRemoved(client.devices.get(currentIndex));
+                    client.devices.remove(currentIndex);
+                }
+                return;
+            }
+
+            if (currentIndex == -1) { // Add new.
+                client.listener.onDeviceAdded(device);
+                client.devices.add(device);
+            } else {
+                // Add more changes besides name we care about as needed.
+                if (!device.name.equals(client.devices.get(currentIndex).name)) {
+                    client.listener.onDeviceChanged(device);
+                }
+                client.devices.set(currentIndex, device); // Keep the latest version.
             }
         }
 
-        private void sendDeviceChanged(Device device) {
+        private void updateDevice(Device device) {
             synchronized (mListenerLock) {
-                final int N = mClients.size();
-                for (int i = 0; i < N; i++) {
+                for (int i = mClients.size() - 1; i > -1; i--) {
                     ClientRecord client = mClients.get(i);
-                    for (int ptr = client.devices.size() - 1; ptr > -1; ptr--) {
-                        Device d = client.devices.get(ptr);
-                        if (d.btDevice.getAddress().equals(device.btDevice.getAddress())) {
-                            client.listener.onDeviceChanged(device);
-                            break;
-                        }
-                    }
+                    updateDeviceInClient(client, device);
                 }
             }
         }
 
         private void sendDeviceRemoved(Device device) {
             synchronized (mListenerLock) {
-                for (int ptr = mClients.size() - 1; ptr > -1; ptr--) {
-                    ClientRecord client = mClients.get(ptr);
+                for (int i = mClients.size() - 1; i > -1; i--) {
+                    ClientRecord client = mClients.get(i);
                     for (int devPtr = client.devices.size() - 1; devPtr > -1; devPtr--) {
                         Device d = client.devices.get(devPtr);
                         if (d.btDevice.getAddress().equals(device.btDevice.getAddress())) {
