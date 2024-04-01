@@ -105,6 +105,7 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment implements
 
         final TwoStatePreference soundPref = findPreference(KEY_SOUND_EFFECTS);
         soundPref.setChecked(getSoundEffectsEnabled());
+        soundPref.setVisible(false);
         updateCecPreference();
         updateDefaultAudioOutputSettings();
 
