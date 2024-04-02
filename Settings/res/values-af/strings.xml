@@ -99,7 +99,7 @@
     <string name="all_apps_title" msgid="3717294436135280133">"Alle programme"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Wys stelselprogramme"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Geïnstalleerde programme"</string>
-    <string name="all_apps_other" msgid="4420174882983813158">"Stelselprogramme"</string>
+    <string name="all_apps_other" msgid="4420174882983813158">"Stelselapps"</string>
     <string name="all_apps_disabled" msgid="2776041242863791053">"Gedeaktiveerde programme"</string>
     <string name="device_daydream" msgid="2631191946958113220">"Sluimerskerm"</string>
     <string name="device_display" msgid="244634591698925025">"Vertooninstellings"</string>
@@ -1094,7 +1094,7 @@
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"Jou administrateur kan programme en data wat met hierdie gebruiker geassosieer word, insluitend instellings, toestemmings, korporatiewe toegang, netwerkaktiwiteit en die toestel se ligginginligting, monitor en bestuur."</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"Jou administrateur kan programme en data wat met hierdie toestel geassosieer word, insluitend instellings, toestemmings, korporatiewe toegang, netwerkaktiwiteit en die toestel se ligginginligting, monitor en bestuur."</string>
     <string name="remove_managed_profile_label" msgid="8950011141359605612">"Verwyder werkprofiel"</string>
-    <string name="active_device_admin_msg" msgid="185537304726228624">"Toesteladministrasieprogram"</string>
+    <string name="active_device_admin_msg" msgid="185537304726228624">"Toesteladministrasie-app"</string>
     <string name="remove_device_admin" msgid="2623866073546295104">"Deaktiveer hierdie toesteladministrasie-app"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"Deïnstalleer program"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"Deaktiveer en deïnstalleer"</string>
@@ -1103,7 +1103,7 @@
     <string name="add_device_admin" msgid="5078281377915844544">"Aktiveer toesteladministrasie-app"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"As hierdie toesteladministrasie-app geaktiveer word, sal die program <xliff:g id="APP_NAME">%1$s</xliff:g> toegelaat word om die volgende bewerkings uit te voer."</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"Hierdie toestel sal deur <xliff:g id="APP_NAME">%1$s</xliff:g> bestuur en gemonitor word."</string>
-    <string name="device_admin_status" msgid="5467001937240455367">"Hierdie administrasieprogram is aktief en laat die program <xliff:g id="APP_NAME">%1$s</xliff:g> toe om die volgende bewerkings uit te voer:"</string>
+    <string name="device_admin_status" msgid="5467001937240455367">"Hierdie administrasie-app is aktief en laat die <xliff:g id="APP_NAME">%1$s</xliff:g>-app toe om die volgende bewerkings uit te voer:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"Deur voort te gaan, sal jou gebruiker deur jou administrateur bestuur word, wat moontlik in staat sal wees om benewens jou persoonlike data ook geassosieerde data te berg.\n\nJou administrateur het die vermoë om instellings, toegang, programme en data wat met hierdie gebruiker geassosieer word, insluitend netwerkaktiwiteit en jou toestel se ligginginligting, te monitor en te bestuur."</string>
     <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"Deel foutverslag?"</string>
     <string name="share_remote_bugreport_dialog_message_finished" msgid="8515056665416643253">"Jou IT-administrateur het \'n foutverslag versoek om met die foutsporing van hierdie toestel te help. Programme en data sal dalk gedeel word."</string>

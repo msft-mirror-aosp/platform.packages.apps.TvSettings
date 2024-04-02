@@ -1103,7 +1103,7 @@
     <string name="add_device_admin" msgid="5078281377915844544">"এই ডিভাইচ এডমিন এপ্‌টো সক্ৰিয় কৰক"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"এই এপ্‌টো সক্ৰিয় কৰিলে ই <xliff:g id="APP_NAME">%1$s</xliff:g> তলৰ কামবিলাক কৰিবলৈ সক্ষম হ\'ব:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"এই ডিভাইচটো <xliff:g id="APP_NAME">%1$s</xliff:g>এ পৰিচালনা আৰু নিৰীক্ষণ কৰিব।"</string>
-    <string name="device_admin_status" msgid="5467001937240455367">"এই প্ৰশাসক এপ্‌টো সক্ৰিয় হৈ আছে আৰু ই <xliff:g id="APP_NAME">%1$s</xliff:g> নিম্নলিখিত কাৰ্যকলাপসমূহ কৰিব পাৰে:"</string>
+    <string name="device_admin_status" msgid="5467001937240455367">"এই প্ৰশাসক এপ্‌টো সক্ৰিয় হৈ আছে আৰু ই <xliff:g id="APP_NAME">%1$s</xliff:g> এপক নিম্নলিখিত কাৰ্যকলাপসমূহ কৰিবলৈ দিয়ে:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"অব্যাহত ৰাখিলে, প্ৰশাসকে আপোনাৰ ব্যৱহাৰকাৰীক পৰিচালনা কৰিব আৰু তেওঁ সংলগ্ন ডেটাৰ লগতে আপোনাৰ ব্যক্তিগত ডেটাও ষ্ট\'ৰ কৰিব পাৰিব।\n\nআপোনাৰ প্ৰশাসকে ছেটিং, এক্সেছ, এপ্‌সমূহ, আৰু এই ব্যৱহাৰকাৰীৰৰ লগত জড়িত ডেটা যেনে নেটৱৰ্কৰ কাৰ্যকলাপ আৰু আপোনাৰ ডিভাইচৰ অৱস্থান বিষয়কৰ তথ্য আদি নিৰীক্ষণ কৰাৰ লগতে পৰিচালনা কৰিব পাৰিব।"</string>
     <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"বাগ প্ৰতিবেদন পঠাইনে?"</string>
     <string name="share_remote_bugreport_dialog_message_finished" msgid="8515056665416643253">"আপোনাৰ আইটি প্ৰশাসকে এই ডিভাইচটোৰ সমস্যা সমাধানৰ বাবে এটা বাগ প্ৰতিবেদন বিচাৰিছে। এপ্ আৰু ডেটা শ্বেয়াৰ কৰা হ\'ব পাৰে।"</string>
