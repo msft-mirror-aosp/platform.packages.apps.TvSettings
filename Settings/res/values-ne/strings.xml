@@ -413,7 +413,7 @@
     <string name="copyright_title" msgid="5879660711078649518">"प्रतिलिपि अधिकार"</string>
     <string name="license_title" msgid="4032466200355435641">"लाइसेन्स"</string>
     <string name="terms_title" msgid="192888187310800678">"सेवाका सर्तहरू"</string>
-    <string name="webview_license_title" msgid="5370270485188947540">"प्रणाली वेबभ्यु इजाजतपत्र"</string>
+    <string name="webview_license_title" msgid="5370270485188947540">"सिस्टम वेबभ्यु इजाजतपत्र"</string>
     <string name="consumer_information_title" msgid="7729729568416672733">"उपभोक्ताका लागि जानकारी"</string>
     <string name="consumer_information_message" msgid="205236637689468764">"तपाईंले Android TV मा प्राप्त गर्ने सामग्री एपका विकासकर्ता र चलचित्रको स्टुडियो जस्ता तेस्रो पक्षका साथै स्वयं Google ले समेत उपलब्ध गराएका हुन्छन्। थप जानकारीका लागि कृपया "<a href="g.co/tv/androidtvinfo">"g.co/tv/androidtvinfo"</a>" हेर्नुहोस्"</string>
     <string name="consumer_information_button_ok" msgid="6979480064600038080">"ठिक छ"</string>
@@ -1108,7 +1108,7 @@
     <string name="add_device_admin" msgid="5078281377915844544">"यो डिभाइसको एड्मिन एप एक्टिभेट गर्नुहोस्"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"तपाईंले यो एड्मिन एप एक्टिभेट गर्नुभयो भने <xliff:g id="APP_NAME">%1$s</xliff:g> ले निम्न कार्य गर्ने अनुमति पाउने छ:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"<xliff:g id="APP_NAME">%1$s</xliff:g> ले यस डिभाइसको व्यवस्थापन तथा अनुगमन गर्ने छ।"</string>
-    <string name="device_admin_status" msgid="5467001937240455367">"यो एड्मिन एप सक्रिय छ र <xliff:g id="APP_NAME">%1$s</xliff:g> लाई  निम्न कार्यहरू गर्न दिन्छ:"</string>
+    <string name="device_admin_status" msgid="5467001937240455367">"यो एड्मिन एप अन छ र यसले <xliff:g id="APP_NAME">%1$s</xliff:g> लाई निम्न कार्य गर्ने अनुमति दिएको छ:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"अगाडि बढेर, तपाईंको प्रयोगकर्तालाई तपाईंको प्रशासकले व्यवस्थित गर्ने छ, जसले तपाईंको व्यक्तिगत डेटाका साथै सम्बन्धित डेटा समेत भण्डारण गर्न सक्छ।\n\nतपाईंको प्रशासकसँग यो प्रयोगकर्तासँग सम्बन्धित सेटिङ, पहुँच, एप, र डेटाका साथै नेटवर्क गतिविधि र तपाईंको डिभाइसका स्थानसम्बन्धी जानकारीहरूको अनुगमन र व्यवस्थापन गर्ने क्षमता छ।"</string>
     <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"बग रिपोर्टलाई साझेदारी गर्ने हो?"</string>
     <string name="share_remote_bugreport_dialog_message_finished" msgid="8515056665416643253">"तपाईँको IT एडमिनले यस यन्त्रको समस्या निवारण गर्नमा मद्दत गर्न बग रिपोर्टका लागि अनुरोध गर्नुभएको छ। एप र डेटा साझेदारी हुन सक्छ।"</string>

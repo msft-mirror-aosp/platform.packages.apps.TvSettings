@@ -22,6 +22,7 @@ filegroup {
     srcs: [
         "Settings/src/**/*.java",
         "Settings/src/**/I*.aidl",
+        "Settings/src/**/*.kt",
     ],
 }
 
@@ -44,6 +45,8 @@ android_library {
         "TwoPanelSettingsLib",
         "zxing-core-1.7",
         "TvSettingsAPI",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
+        "androidx.core_core-ktx",
     ],
 }
 
