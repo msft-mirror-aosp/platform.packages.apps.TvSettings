@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Iespējojot šo opciju, sistēma pārslēgs dažādus dinamiskā diapazona formātus, lai atrastu satura atbilstību. Formātu pārslēgšanas laikā var tikt rādīts melns ekrāns.\n\nNoklikšķiniet uz displeja papildiestatījumiem, lai skatītu citas dinamiskā diapazona opcijas."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Vēlamais dinamiskais diapazons"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Sistēmas pārvaldīta konvertēšana"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Ļauj sistēmai pārvaldīt formāta konvertēšanu."</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Ja ir atlasīta šī opcija, sistēma noteiks piemēroto uz displeju nosūtāmo diapazonu un konvertēs saturu atbilstoši vajadzīgajam dinamiskajam diapazonam."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Vienmēr atbilst satura formātam"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Piespiedu konvertēšana"</string>

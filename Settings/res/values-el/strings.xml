@@ -157,8 +157,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Όταν ενεργοποιήσετε αυτή την επιλογή, το σύστημα θα κάνει εναλλαγή διάφορων μορφών δυναμικού εύρους για να εντοπίσει εκείνη που αντιστοιχεί στο περιεχόμενο. Ενδέχεται να εμφανιστεί μια κενή οθόνη κατά την εναλλαγή μορφών.\n\nΚάντε κλικ στις Σύνθετες ρυθμίσεις οθόνης για να δείτε περισσότερες επιλογές δυναμικού εύρους."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Προτιμώμενο δυναμικό εύρος"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Μετατροπή που είναι προτιμώμενη από το σύστημα"</string>
-    <!-- no translation found for preferred_dynamic_range_selection_system_desc (2765115460108291217) -->
-    <skip />
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Επιτρέπει στο σύστημα να διαχειρίζεται τη μετατροπή μορφής"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Όταν ορίζεται αυτή η επιλογή, το σύστημα προσδιορίζει ένα κατάλληλο δυναμικό εύρος που θα αποστέλλεται στην οθόνη σας και θα μετατρέπει το περιεχόμενο σε αυτό το δυναμικό εύρος, όπως απαιτείται."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Αντιστοιχεί πάντα στη μορφή του περιεχομένου"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Επιβολή μετατροπής"</string>
