@@ -1108,7 +1108,7 @@
     <string name="add_device_admin" msgid="5078281377915844544">"Aktifkan apl pentadbir peranti ini"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"Pengaktifan apl pentadbir ini akan membenarkan apl <xliff:g id="APP_NAME">%1$s</xliff:g> melaksanakan pengendalian berikut:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"Peranti ini akan diurus dan dipantau oleh <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
-    <string name="device_admin_status" msgid="5467001937240455367">"Apl pentadbir ini aktif dan membenarkan apl <xliff:g id="APP_NAME">%1$s</xliff:g> melaksanakan pengendalian berikut:"</string>
+    <string name="device_admin_status" msgid="5467001937240455367">"Apl pentadbir ini aktif dan membenarkan apl <xliff:g id="APP_NAME">%1$s</xliff:g> melaksanakan pengendalian yang berikut:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"Dengan meneruskan, pengguna anda akan diurus oleh pentadbir anda yang mungkin dapat menyimpan data yang berkaitan juga, di samping data peribadi anda.\n\nPentadbir anda berupaya memantau dan mengurus tetapan, akses, apl dan data yang berkaitan dengan pengguna ini, termasuk aktiviti rangkaian dan maklumat lokasi peranti anda."</string>
     <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"Kongsi laporan pepijat?"</string>
     <string name="share_remote_bugreport_dialog_message_finished" msgid="8515056665416643253">"Pentadbir IT anda meminta laporan pepijat untuk membantu menyelesaikan masalah peranti ini. Apl dan data mungkin dikongsi."</string>
