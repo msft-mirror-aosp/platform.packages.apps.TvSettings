@@ -109,7 +109,7 @@ public class IpSettingsInvalidState implements State {
                 mAdvancedOptionsFlowInfo.remove(AdvancedOptionsFlowInfo.GATEWAY);
                 mAdvancedOptionsFlowInfo.remove(AdvancedOptionsFlowInfo.DNS1);
                 mAdvancedOptionsFlowInfo.remove(AdvancedOptionsFlowInfo.DNS2);
-                mStateMachine.getListener().onComplete(StateMachine.CONTINUE);
+                mStateMachine.getListener().onComplete(this, StateMachine.CONTINUE);
             }
         }
     }
