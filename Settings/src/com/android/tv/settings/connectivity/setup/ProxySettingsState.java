@@ -54,7 +54,7 @@ public class ProxySettingsState implements State {
             StateMachine stateMachine = ViewModelProviders
                     .of(mActivity)
                     .get(StateMachine.class);
-            stateMachine.getListener().onComplete(StateMachine.ADVANCED_FLOW_COMPLETE);
+            stateMachine.getListener().onComplete(this, StateMachine.ADVANCED_FLOW_COMPLETE);
             return;
         }
 
@@ -162,12 +162,13 @@ public class ProxySettingsState implements State {
             if (action.getId() == WIFI_ACTION_PROXY_NONE) {
                 AdvancedOptionsFlowUtil.processProxySettings(getActivity());
                 if (mAdvancedOptionsFlowInfo.isSettingsFlow()) {
-                    mStateMachine.getListener().onComplete(StateMachine.ADVANCED_FLOW_COMPLETE);
+                    mStateMachine.getListener().onComplete(this,
+                            StateMachine.ADVANCED_FLOW_COMPLETE);
                 } else {
-                    mStateMachine.getListener().onComplete(StateMachine.IP_SETTINGS);
+                    mStateMachine.getListener().onComplete(this, StateMachine.IP_SETTINGS);
                 }
             } else if (action.getId() == WIFI_ACTION_PROXY_MANUAL) {
-                mStateMachine.getListener().onComplete(StateMachine.PROXY_HOSTNAME);
+                mStateMachine.getListener().onComplete(this, StateMachine.PROXY_HOSTNAME);
             }
         }
     }

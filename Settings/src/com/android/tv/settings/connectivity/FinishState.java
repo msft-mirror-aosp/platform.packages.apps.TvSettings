@@ -37,7 +37,7 @@ public class FinishState implements State {
     public void processForward() {
         mFragment = null;
         StateMachine stateMachine = ViewModelProviders.of(mActivity).get(StateMachine.class);
-        stateMachine.getListener().onComplete(StateMachine.CONTINUE);
+        stateMachine.getListener().onComplete(this, StateMachine.CONTINUE);
     }
 
     @Override

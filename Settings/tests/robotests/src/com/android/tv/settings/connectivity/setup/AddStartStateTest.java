@@ -19,14 +19,11 @@ package com.android.tv.settings.connectivity.setup;
 import static org.mockito.Mockito.verify;
 import static org.robolectric.shadow.api.Shadow.extract;
 
-import android.content.Context;
-import android.net.wifi.WifiConfiguration;
 import android.net.wifi.WifiManager;
 
 import androidx.fragment.app.FragmentActivity;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.android.tv.settings.library.network.AccessPoint;
 import com.android.tv.settings.connectivity.util.State;
 import com.android.tv.settings.connectivity.util.StateMachine;
 import com.android.tv.settings.library.util.ThreadUtils;
@@ -72,7 +69,7 @@ public class AddStartStateTest {
                 /* needsWifiConfiguration= */ true,
                 /* shouldEditBeforeConnect= */ false));
         mAddStartState.processForward();
-        verify(mStateCompleteListener).onComplete(StateMachine.PASSWORD);
+        verify(mStateCompleteListener).onComplete(mAddStartState, StateMachine.PASSWORD);
     }
 
     @Test
@@ -82,7 +79,7 @@ public class AddStartStateTest {
                 /* needsWifiConfiguration= */ false,
                 /* shouldEditBeforeConnect= */ true));
         mAddStartState.processForward();
-        verify(mStateCompleteListener).onComplete(StateMachine.PASSWORD);
+        verify(mStateCompleteListener).onComplete(mAddStartState, StateMachine.PASSWORD);
     }
 
     @Test
@@ -91,7 +88,7 @@ public class AddStartStateTest {
                 /* needsWifiConfiguration= */ false,
                 /* shouldEditBeforeConnect= */ false));
         mAddStartState.processForward();
-        verify(mStateCompleteListener).onComplete(StateMachine.CONNECT);
+        verify(mStateCompleteListener).onComplete(mAddStartState, StateMachine.CONNECT);
     }
 
     private WifiEntry makeWifiEntry(boolean needsWifiConfiguration,

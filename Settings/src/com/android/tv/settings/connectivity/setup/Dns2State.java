@@ -18,7 +18,6 @@ package com.android.tv.settings.connectivity.setup;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
@@ -139,9 +138,10 @@ public class Dns2State implements State {
                 int ipSettingsResult = AdvancedOptionsFlowUtil.processIpSettings(
                         getActivity());
                 if (ipSettingsResult == 0) {
-                    mStateMachine.getListener().onComplete(StateMachine.ADVANCED_FLOW_COMPLETE);
+                    mStateMachine.getListener().onComplete(this,
+                            StateMachine.ADVANCED_FLOW_COMPLETE);
                 } else {
-                    mStateMachine.getListener().onComplete(StateMachine.IP_SETTINGS_INVALID);
+                    mStateMachine.getListener().onComplete(this, StateMachine.IP_SETTINGS_INVALID);
                 }
             }
             return action.getId();

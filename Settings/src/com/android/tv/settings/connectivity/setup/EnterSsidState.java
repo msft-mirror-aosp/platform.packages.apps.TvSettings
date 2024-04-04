@@ -19,7 +19,6 @@ package com.android.tv.settings.connectivity.setup;
 import android.content.Context;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -133,7 +132,7 @@ public class EnterSsidState implements State {
                 return GuidedAction.ACTION_ID_CURRENT;
             }
             mUserChoiceInfo.put(UserChoiceInfo.SSID, ssid);
-            mStateMachine.getListener().onComplete(StateMachine.CONTINUE);
+            mStateMachine.getListener().onComplete(this, StateMachine.CONTINUE);
             return action.getId();
         }
     }

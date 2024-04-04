@@ -52,7 +52,7 @@ public class AdvancedOptionsState implements State {
             StateMachine stateMachine = ViewModelProviders
                     .of(mActivity)
                     .get(StateMachine.class);
-            stateMachine.getListener().onComplete(StateMachine.ADVANCED_FLOW_COMPLETE);
+            stateMachine.getListener().onComplete(this, StateMachine.ADVANCED_FLOW_COMPLETE);
             return;
         }
 
@@ -145,9 +145,9 @@ public class AdvancedOptionsState implements State {
             mAdvancedOptionsFlowInfo.put(AdvancedOptionsFlowInfo.ADVANCED_OPTIONS,
                     action.getTitle());
             if (action.getId() == GuidedAction.ACTION_ID_NO) {
-                mStateMachine.getListener().onComplete(StateMachine.ADVANCED_FLOW_COMPLETE);
+                mStateMachine.getListener().onComplete(this, StateMachine.ADVANCED_FLOW_COMPLETE);
             } else if (action.getId() == GuidedAction.ACTION_ID_YES) {
-                mStateMachine.getListener().onComplete(StateMachine.CONTINUE);
+                mStateMachine.getListener().onComplete(this, StateMachine.CONTINUE);
             }
         }
     }

@@ -125,7 +125,7 @@ public class KnownNetworkState implements State {
         public void onGuidedActionClicked(GuidedAction action) {
             long id = action.getId();
             if (id == ACTION_ID_TRY_AGAIN) {
-                mStateMachine.getListener().onComplete(StateMachine.ADD_START);
+                mStateMachine.getListener().onComplete(this, StateMachine.ADD_START);
             } else if (id == ACTION_ID_VIEW_AVAILABLE_NETWORK) {
                 if (canForgetNetwork()) {
                     int networkId = mUserChoiceInfo.getWifiConfiguration().networkId;
@@ -137,7 +137,7 @@ public class KnownNetworkState implements State {
                             UserHandle.of(UserHandle.myUserId()));
                     RestrictedLockUtils.sendShowAdminSupportDetailsIntent(getActivity(), admin);
                 }
-                mStateMachine.getListener().onComplete(StateMachine.SELECT_WIFI);
+                mStateMachine.getListener().onComplete(this, StateMachine.SELECT_WIFI);
             }
         }
 

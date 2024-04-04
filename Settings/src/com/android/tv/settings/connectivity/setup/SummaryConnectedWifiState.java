@@ -117,7 +117,7 @@ public class SummaryConnectedWifiState implements State {
             if (id == DO_NOT_CHANGE_NETWORK) {
                 mStateMachine.finish(Activity.RESULT_OK);
             } else if (id == WIFI_ACTION_CHANGE_NETWORK) {
-                mStateMachine.getListener().onComplete(StateMachine.SELECT_WIFI);
+                mStateMachine.getListener().onComplete(this, StateMachine.SELECT_WIFI);
             }
         }
     }
