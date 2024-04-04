@@ -18,7 +18,6 @@ package com.android.tv.settings.connectivity.setup;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
@@ -141,12 +140,14 @@ public class ProxyBypassState implements State {
                         getActivity());
                 if (proxySettingsResult == 0) {
                     if (mAdvancedOptionsFlowInfo.isSettingsFlow()) {
-                        mStateMachine.getListener().onComplete(StateMachine.ADVANCED_FLOW_COMPLETE);
+                        mStateMachine.getListener().onComplete(this,
+                                StateMachine.ADVANCED_FLOW_COMPLETE);
                     } else {
-                        mStateMachine.getListener().onComplete(StateMachine.IP_SETTINGS);
+                        mStateMachine.getListener().onComplete(this, StateMachine.IP_SETTINGS);
                     }
                 } else {
-                    mStateMachine.getListener().onComplete(StateMachine.PROXY_SETTINGS_INVALID);
+                    mStateMachine.getListener().onComplete(this,
+                            StateMachine.PROXY_SETTINGS_INVALID);
                 }
             }
             return action.getId();

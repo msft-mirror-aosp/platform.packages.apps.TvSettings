@@ -42,13 +42,13 @@ public class OptionsOrConnectState implements State {
         UserChoiceInfo.ConnectionFailedStatus status = userChoiceInfo.getConnectionFailedStatus();
         if (status == UserChoiceInfo.ConnectionFailedStatus.AUTHENTICATION) {
             userChoiceInfo.setConnectionFailedStatus(null);
-            stateMachine.getListener().onComplete(StateMachine.RESTART);
+            stateMachine.getListener().onComplete(this, StateMachine.RESTART);
         } else if (status != null) {
             userChoiceInfo.setConnectionFailedStatus(null);
-            stateMachine.getListener().onComplete(StateMachine.ENTER_ADVANCED_FLOW);
+            stateMachine.getListener().onComplete(this, StateMachine.ENTER_ADVANCED_FLOW);
         } else {
             userChoiceInfo.setConnectionFailedStatus(null);
-            stateMachine.getListener().onComplete(StateMachine.CONNECT);
+            stateMachine.getListener().onComplete(this, StateMachine.CONNECT);
         }
     }
 

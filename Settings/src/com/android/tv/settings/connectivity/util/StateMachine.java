@@ -17,8 +17,10 @@
 package com.android.tv.settings.connectivity.util;
 
 import android.app.Activity;
+import android.util.Log;
 
 import androidx.annotation.IntDef;
+import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModel;
 
 import java.lang.annotation.Retention;
@@ -33,12 +35,35 @@ import java.util.Map;
  * State machine responsible for handling the logic between different states.
  */
 public class StateMachine extends ViewModel {
+    private static final String TAG = "TVSettingsStateMachine";
 
     private Callback mCallback;
     private Map<State, List<Transition>> mTransitionMap = new HashMap<>();
     private LinkedList<State> mStatesList = new LinkedList<>();
-    private State.StateCompleteListener mCompletionListener = this::updateState;
+    private final State.StateCompleteListener mCompletionListener =
+            new State.StateCompleteListener() {
+        @Override
+        public void onComplete(State caller, int event) {
+            State state = getCurrentState();
+            if (state == caller) {
+                updateState(event);
+            } else {
+                // Ignore extra callbacks from states that are no longer active.
+                Log.w(TAG, "State is " + state + " expecting " + caller);
+            }
+        }
 
+        @Override
+        public void onComplete(Fragment caller, int event) {
+            State state = getCurrentState();
+            if (state != null && state.getFragment() == caller) {
+                updateState(event);
+            } else {
+                // Ignore extra callbacks from fragments that are no longer active.
+                Log.w(TAG, "State is " + state + " expecting " + caller);
+            }
+        }
+    };
     public static final int ADD_START = 0;
     public static final int CANCEL = 1;
     public static final int CONTINUE = 2;

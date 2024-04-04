@@ -55,7 +55,7 @@ public class IpSettingsState implements State {
             StateMachine stateMachine = ViewModelProviders
                     .of(mActivity)
                     .get(StateMachine.class);
-            stateMachine.getListener().onComplete(StateMachine.ADVANCED_FLOW_COMPLETE);
+            stateMachine.getListener().onComplete(this, StateMachine.ADVANCED_FLOW_COMPLETE);
             return;
         }
 
@@ -162,9 +162,9 @@ public class IpSettingsState implements State {
             mAdvancedOptionsFlowInfo.put(AdvancedOptionsFlowInfo.IP_SETTINGS, action.getTitle());
             if (action.getId() == WIFI_ACTION_DHCP) {
                 AdvancedOptionsFlowUtil.processIpSettings(getActivity());
-                mStateMachine.getListener().onComplete(StateMachine.ADVANCED_FLOW_COMPLETE);
+                mStateMachine.getListener().onComplete(this, StateMachine.ADVANCED_FLOW_COMPLETE);
             } else if (action.getId() == WIFI_ACTION_STATIC) {
-                mStateMachine.getListener().onComplete(StateMachine.CONTINUE);
+                mStateMachine.getListener().onComplete(this, StateMachine.CONTINUE);
             }
         }
     }

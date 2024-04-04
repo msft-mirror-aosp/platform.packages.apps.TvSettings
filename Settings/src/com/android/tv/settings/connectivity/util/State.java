@@ -38,7 +38,9 @@ public interface State {
      * Listener for sending notification about state completion.
      */
     interface StateCompleteListener {
-        void onComplete(@StateMachine.Event int event);
+        void onComplete(State caller, @StateMachine.Event int event);
+
+        void onComplete(Fragment caller, @StateMachine.Event int event);
     }
 
     /**
