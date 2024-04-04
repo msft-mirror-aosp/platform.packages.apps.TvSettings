@@ -330,7 +330,7 @@ public class ConnectState implements State {
 
         private void notifyListener(int result) {
             if (mStateMachine.getCurrentState() instanceof ConnectState) {
-                mStateMachine.getListener().onComplete(result);
+                mStateMachine.getListener().onComplete(this, result);
             }
         }
 
