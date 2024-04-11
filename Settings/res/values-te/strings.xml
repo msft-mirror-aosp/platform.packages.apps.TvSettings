@@ -253,7 +253,7 @@
     <string name="bluetooth_enter_pin_msg" msgid="8905524093007140634">"&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;తో జత చేయడానికి, &lt;br&gt;పరికరానికి అవసరమైన పిన్‌ను టైప్ చేయండి:"</string>
     <string name="bluetooth_enter_passkey_msg" msgid="889584097447402492">"దీనితో జత చేయడానికి: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;పరికర ఆవశ్యక పాస్‌కీని టైప్ చేయండి:"</string>
     <string name="bluetooth_pin_values_hint" msgid="6237371515577342950">"సాధారణంగా 0000 లేదా 1234"</string>
-    <string name="bluetooth_pair" msgid="2410285813728786067">"జత చేయి"</string>
+    <string name="bluetooth_pair" msgid="2410285813728786067">"పెయిర్ చేయండి"</string>
     <string name="bluetooth_cancel" msgid="4415185529332987034">"రద్దు చేయండి"</string>
     <string name="bluetooth_device_connected_toast" msgid="1896195197089204806">"%1$s కనెక్ట్ చేయబడింది"</string>
     <string name="bluetooth_device_disconnected_toast" msgid="7459239447363156499">"%1$s డిస్‌కనెక్ట్ చేయబడింది"</string>
@@ -304,7 +304,7 @@
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"అడ్మిన్ డిజేబుల్ చేశారు"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"అందుబాటులో లేదు"</string>
     <string name="manage_device_admin" msgid="5714217234035017983">"పరికర నిర్వాహకుల యాప్‌లు"</string>
-    <string name="number_of_device_admins_none" msgid="2734299122299837459">"యాక్టివ్‌గా ఉన్న యాప్‌లు లేవు"</string>
+    <string name="number_of_device_admins_none" msgid="2734299122299837459">"యాప్‌లేవీ యాక్టివ్‌గా లేవు"</string>
     <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"నిర్వాహకులు, ఎన్‌క్రిప్షన్ విధానం లేదా ఆధారాల స్టోరేజ్‌ ద్వారా నిలిపివేయబడింది"</string>
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"నిర్వహించబడిన పరికర సమాచారం"</string>
     <string name="enterprise_privacy_settings_summary_generic" msgid="5719549523275019419">"మీ సంస్థ నిర్వహిస్తున్న మార్పులు &amp; సెట్టింగ్‌లు"</string>
@@ -1106,7 +1106,7 @@
     <string name="select_device_admin_msg" msgid="8475934459999710332">"పరికర నిర్వాహకుల యాప్‌లు"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"డివైజ్ నిర్వాహకుల యాప్‌ను యాక్టివేట్‌ చేయాలా?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"ఈ పరికరం నిర్వాహకుల యాప్‌ను యాక్టివేట్‌ చేయి"</string>
-    <string name="device_admin_warning" msgid="7399916080685200660">"ఈ \'నిర్వాహకుల యాప్‌\'ను యాక్టివేట్‌ చేస్తే, కింది చర్యలను చేయడానికి <xliff:g id="APP_NAME">%1$s</xliff:g> యాప్ అనుమతించబడుతుంది:"</string>
+    <string name="device_admin_warning" msgid="7399916080685200660">"ఈ \'అడ్మిన్‌ యాప్‌\'ను యాక్టివేట్‌ చేస్తే, కింది చర్యలను చేయడానికి <xliff:g id="APP_NAME">%1$s</xliff:g> యాప్ అనుమతించబడుతుంది:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"ఈ పరికరం <xliff:g id="APP_NAME">%1$s</xliff:g> ద్వారా నిర్వహించబడుతుంది, పర్యవేక్షించబడుతుంది."</string>
     <string name="device_admin_status" msgid="5467001937240455367">"ఈ అడ్మిన్ యాప్ యాక్టివ్‌గా ఉంది. కింది చర్యలు చేయడానికి <xliff:g id="APP_NAME">%1$s</xliff:g> యాప్‌ను అనుమతిస్తుంది:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"కొనసాగిస్తే, మీ యూజర్‌ను మీ అడ్మిన్ మేనేజ్ చేయగలరు, దాని వలన మీ వ్యక్తిగత డేటాతో పాటు అనుబంధితంగా ఉన్న డేటా కూడా స్టోర్ చేయబడవచ్చు.\n\nమీ అడ్మిన్ నెట్‌వర్క్ యాక్టివిటీ మరియు మీ పరికరం యొక్క లొకేషన్ సమాచారంతో పాటు ఈ యూజర్‌కు అనుబంధితంగా ఉన్న సెట్టింగ్‌లు, యాక్సెస్, యాప్‌లు మరియు డేటాను పర్యవేక్షించగలరు, మేనేజ్ చేయగలరు."</string>

@@ -705,8 +705,8 @@
     <string name="palette_color_blue" msgid="8836682634988540630">"Xanh lam"</string>
     <string name="palette_color_purple" msgid="2123828754639683555">"Tím"</string>
     <string name="palette_color_gray" msgid="4014534773994261194">"Màu xám"</string>
-    <string name="accessibility_shortcut" msgid="5856158637840030531">"Phím tắt hỗ trợ tiếp cận"</string>
-    <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Bật phím tắt hỗ trợ tiếp cận?"</string>
+    <string name="accessibility_shortcut" msgid="5856158637840030531">"Lối tắt hỗ trợ tiếp cận"</string>
+    <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Bật lối tắt hỗ trợ tiếp cận?"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Dịch vụ phím tắt"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Khi bật phím tắt, bạn có thể nhấn vào cả hai nút quay lại và xuống trong 3 giây để bật tính năng hỗ trợ tiếp cận."</string>
     <string name="accessibility_timeout" msgid="5806441204926407081">"Thời gian thực hiện hành động"</string>
