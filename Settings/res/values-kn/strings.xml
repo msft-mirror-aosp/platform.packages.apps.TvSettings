@@ -303,7 +303,7 @@
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"ನಿರ್ವಾಹಕರು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ್ದಾರೆ"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"ಲಭ್ಯವಿಲ್ಲ"</string>
     <string name="manage_device_admin" msgid="5714217234035017983">"ಸಾಧನ ನಿರ್ವಹಣಾ ಆ್ಯಪ್‍‍ಗಳು"</string>
-    <string name="number_of_device_admins_none" msgid="2734299122299837459">"ಸಕ್ರಿಯ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಲ್ಲ"</string>
+    <string name="number_of_device_admins_none" msgid="2734299122299837459">"ಸಕ್ರಿಯ ಆ್ಯಪ್‌ಗಳಿಲ್ಲ"</string>
     <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"ಅಡ್ಮಿನ್, ಎನ್‍ಕ್ರಿಪ್ಷನ್, ರುಜುವಾತಿನಿಂದಾಗಿ ನಿಷ್ಕ್ರಿಯ"</string>
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"ನಿರ್ವಹಿಸುವ ಸಾಧನದ ಮಾಹಿತಿ"</string>
     <string name="enterprise_privacy_settings_summary_generic" msgid="5719549523275019419">"ನಿಮ್ಮ ಸಂಸ್ಥೆಯು ನಿರ್ವಹಿಸುವ ಬದಲಾವಣೆಗಳು ಮತ್ತು ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
@@ -436,7 +436,7 @@
     <string name="title_ssid" msgid="255328048344188682">"ವೈ-ಫೈ ನೆಟ್‌ವರ್ಕ್‌ನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"</string>
     <string name="title_internet_connection" msgid="7502414094881828069">"ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕ"</string>
     <string name="connected" msgid="4981532275162345997">"ಸಂಪರ್ಕಗೊಂಡಿದೆ"</string>
-    <string name="not_connected" msgid="475810896484271663">"ಸಂಪರ್ಕಗೊಂಡಿಲ್ಲ"</string>
+    <string name="not_connected" msgid="475810896484271663">"ಕನೆಕ್ಟ್ ಆಗಿಲ್ಲ"</string>
     <string name="wifi_no_internet" msgid="27421689535934864">"ಇಂಟರ್ನೆಟ್ ಇಲ್ಲ"</string>
     <string name="wifi_saved" msgid="4354792774811431829">"ಸೇವ್ ಮಾಡಲಾಗಿದೆ"</string>
     <string name="wifi_bad_password" msgid="8686375382346768922">"ತಪ್ಪಾದ ಪಾಸ್‌ವರ್ಡ್‌"</string>
@@ -1094,8 +1094,8 @@
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"ನಿಮ್ಮ ನಿರ್ವಾಹಕರು ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಅನುಮತಿಗಳು, ಕಾರ್ಪೊರೇಟ್‌ ಆ್ಯಕ್ಸೆಸ್, ನೆಟ್‌‌ವರ್ಕ್‌ ಚಟುವಟಿಕೆ ಮತ್ತು ಸಾಧನದ ಸ್ಥಳ ಮಾಹಿತಿಯನ್ನು ಒಳಗೊಂಡಂತೆ ಈ ಬಳಕೆದಾರರಿಗೆ ಸಂಬಂಧಿಸಿದ ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ಡೇಟಾವನ್ನು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದು ಮತ್ತು ನಿರ್ವಹಿಸಬಹುದು."</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"ನಿಮ್ಮ ನಿರ್ವಾಹಕರು ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಅನುಮತಿಗಳು, ಕಾರ್ಪೊರೇಟ್‌ ಆ್ಯಕ್ಸೆಸ್, ನೆಟ್‌ವರ್ಕ್‌ ಚಟುವಟಿಕೆ ಮತ್ತು ಸಾಧನದ ಸ್ಥಳ ಮಾಹಿತಿಯನ್ನು ಒಳಗೊಂಡಂತೆ ಈ ಸಾಧನಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ಡೇಟಾವನ್ನು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದು ಮತ್ತು ನಿರ್ವಹಿಸಬಹುದು."</string>
     <string name="remove_managed_profile_label" msgid="8950011141359605612">"ಉದ್ಯೋಗ ಪ್ರೊಫೈಲ್‌ ತೆಗೆದುಹಾಕಿ"</string>
-    <string name="active_device_admin_msg" msgid="185537304726228624">"ಸಾಧನ ನಿರ್ವಹಣೆ ಅಪ್ಲಿಕೇಶನ್"</string>
-    <string name="remove_device_admin" msgid="2623866073546295104">"ಈ ಸಾಧನ ನಿರ್ವಹಣಾ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"</string>
+    <string name="active_device_admin_msg" msgid="185537304726228624">"ಸಾಧನ ನಿರ್ವಹಣೆ ಆ್ಯಪ್"</string>
+    <string name="remove_device_admin" msgid="2623866073546295104">"ಈ ಸಾಧನ ನಿರ್ವಹಣಾ ಆ್ಯಪ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"ಅಪ್ಲಿಕೇಶನ್ ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ ಮತ್ತು ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ"</string>
     <string name="select_device_admin_msg" msgid="8475934459999710332">"ಸಾಧನ ನಿರ್ವಹಣಾ ಆ್ಯಪ್‍‍ಗಳು"</string>
@@ -1103,7 +1103,7 @@
     <string name="add_device_admin" msgid="5078281377915844544">"ಈ ಸಾಧನ ನಿರ್ವಹಣೆ ಆ್ಯಪ್ ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"ಈ ನಿರ್ವಹಣಾ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದರೆ, ಈ ಕೆಳಗಿನ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಮಾಡಲು <xliff:g id="APP_NAME">%1$s</xliff:g> ಗೆ ಅನುಮತಿಸಲಾಗುತ್ತದೆ:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"ಈ ಸಾಧನವನ್ನು <xliff:g id="APP_NAME">%1$s</xliff:g> ನಿರ್ವಹಿಸುತ್ತದೆ ಮತ್ತು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡುತ್ತದೆ."</string>
-    <string name="device_admin_status" msgid="5467001937240455367">"ಈ ನಿರ್ವಹಣಾ ಅಪ್ಲಿಕೇಶನ್ ಸಕ್ರಿಯವಾಗಿದೆ ಮತ್ತು ಈ ಕೆಳಗಿನ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಮಾಡಲು <xliff:g id="APP_NAME">%1$s</xliff:g> ಗೆ ಅನುಮತಿ ನೀಡುತ್ತದೆ:"</string>
+    <string name="device_admin_status" msgid="5467001937240455367">"ಈ ಅಡ್ಮಿನ್ ಆ್ಯಪ್ ಸಕ್ರಿಯವಾಗಿದೆ ಮತ್ತು ಈ ಕೆಳಗಿನ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಮಾಡಲು <xliff:g id="APP_NAME">%1$s</xliff:g> ಗೆ ಅನುಮತಿ ನೀಡುತ್ತದೆ:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"ಇದನ್ನು ಮುಂದುವರಿಸಿದರೆ, ನಿಮ್ಮ ಬಳಕೆದಾರರನ್ನು ನಿಮ್ಮ ನಿರ್ವಾಹಕರು ನಿರ್ವಹಿಸುತ್ತಾರೆ ಮತ್ತು ಇದು ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಡೇಟಾ ಮಾತ್ರವಲ್ಲದೆ, ಸಂಬಂಧಿತ ಡೇಟಾವನ್ನೂ ಸಹ ಸಂಗ್ರಹಣೆ ಮಾಡಬಲ್ಲದು.\n\nನಿಮ್ಮ ನಿರ್ವಾಹಕರು ನೆಟ್‌ವರ್ಕ್ ಚಟುವಟಿಕೆ ಮತ್ತು ನಿಮ್ಮ ಸಾಧನದ ಸ್ಥಳ ಮಾಹಿತಿ ಸೇರಿದಂತೆ ಈ ಬಳಕೆದಾರರಿಗೆ ಸಂಬಂಧಿಸಿದ ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮತ್ತು ಡೇಟಾದ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದು ಮತ್ತು ನಿರ್ವಹಿಸಬಹುದು."</string>
     <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"ಬಗ್ ವರದಿಯನ್ನು ಹಂಚುವುದೇ?"</string>
     <string name="share_remote_bugreport_dialog_message_finished" msgid="8515056665416643253">"ಈ ಸಾಧನದ ಸಮಸ್ಯೆ ನಿವಾರಿಸಲು ಸಹಾಯ ಮಾಡಲು ನಿಮ್ಮ IT ನಿರ್ವಾಹಕರು ಬಗ್ ವರದಿಯನ್ನು ವಿನಂತಿಸಿದ್ದಾರೆ. ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮತ್ತು ಡೇಟಾವನ್ನು ಹಂಚಿಕೊಳ್ಳಬಹುದು."</string>

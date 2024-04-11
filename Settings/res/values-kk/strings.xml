@@ -229,7 +229,7 @@
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"Қосалқы құрал қосу"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"Жұпталуда…"</string>
-    <string name="accessory_state_connecting" msgid="6560241025917621212">"Қосылуда…"</string>
+    <string name="accessory_state_connecting" msgid="6560241025917621212">"Қосылып жатыр…"</string>
     <string name="accessory_state_error" msgid="8353621828816824428">"Жұптау мүмкін болмады"</string>
     <string name="accessory_state_canceled" msgid="4794837663402063770">"Бас тартылды"</string>
     <string name="accessory_state_paired" msgid="3296695242499532000">"Жұпталды"</string>
@@ -1028,8 +1028,8 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"Пернетақталарды басқару"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Рұқсат етілген"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Рұқсат етілмеген"</string>
-    <string name="usage_access" msgid="8402350645248312782">"Пайдалану тарихын көру"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"Пайдалану тарихын көру рұқсаты қолданбаға сіз пайдаланатын басқа қолданбаларды және қаншалықты жиі пайдаланатыңыз туралы ақпаратты, сондай-ақ операторды, тіл параметрлерін және басқа мәліметтерді бақылауға мүмкіндік береді."</string>
+    <string name="usage_access" msgid="8402350645248312782">"Пайдалану мәліметін көру"</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"Пайдалану мәліметін көру рұқсаты қолданбаға сіз пайдаланатын басқа қолданбаларды және қаншалықты жиі пайдаланатыңыз туралы ақпаратты, сондай-ақ операторды, тіл параметрлерін және басқа мәліметтерді бақылауға мүмкіндік береді."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Қуат үнемдеу"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Қолданбалардың қуат тұтынуын оңтайландыру"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"Оңтайландыру қажет емес"</string>

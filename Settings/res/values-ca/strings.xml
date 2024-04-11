@@ -1099,7 +1099,7 @@
     <string name="uninstall_device_admin" msgid="6301368408620948266">"Desinstal·la l\'aplicació"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"Desactiva i desinstal·la"</string>
     <string name="select_device_admin_msg" msgid="8475934459999710332">"Aplicacions d\'administració del dispositiu"</string>
-    <string name="add_device_admin_msg" msgid="5390773166682603421">"Activar l\'aplicació d\'administració?"</string>
+    <string name="add_device_admin_msg" msgid="5390773166682603421">"Vols activar l\'app d\'administració?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Activa aquesta aplicació d\'administració del dispositiu"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"En activar aquesta aplicació d\'administració, l\'aplicació <xliff:g id="APP_NAME">%1$s</xliff:g> podrà dur a terme les operacions següents:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"<xliff:g id="APP_NAME">%1$s</xliff:g> gestionarà i supervisarà aquest dispositiu."</string>
