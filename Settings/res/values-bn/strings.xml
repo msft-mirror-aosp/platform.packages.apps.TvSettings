@@ -1094,8 +1094,8 @@
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"আপনার প্রশাসক এই ব্যবহারকারীর সাথে সম্পর্কিত অ্যাপ এবং ডেটা নিরীক্ষণ ও পরিচালনা করতে পারেন, যাতে সামিল রয়েছে সেটিংস, অনুমতি, কর্পোরেট অ্যাক্সেস, নেটওয়ার্ক অ্যাক্টিভিটি এবং ডিভাইসের লোকেশন তথ্য।"</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"আপনার প্রশাসক এই ডিভাইসের সাথে সম্পর্কিত অ্যাপ এবং ডেটা নিরীক্ষণ ও পরিচালনা করতে পারেন, যাতে সামিল রয়েছে সেটিংস, অনুমতি, কর্পোরেট অ্যাক্সেস, নেটওয়ার্ক অ্যাক্টিভিটি এবং ডিভাইসের লোকেশন তথ্য।"</string>
     <string name="remove_managed_profile_label" msgid="8950011141359605612">"কর্মস্থলের প্রোফাইল সরান"</string>
-    <string name="active_device_admin_msg" msgid="185537304726228624">"ডিভাইস প্রশাসক অ্যাপ"</string>
-    <string name="remove_device_admin" msgid="2623866073546295104">"এই ডিভাইস প্রশাসক অ্যাপটি নিস্ক্রিয় করুন"</string>
+    <string name="active_device_admin_msg" msgid="185537304726228624">"ডিভাইস অ্যাডমিন অ্যাপ"</string>
+    <string name="remove_device_admin" msgid="2623866073546295104">"এই ডিভাইস অ্যাডমিন অ্যাপটি নিস্ক্রিয় করুন"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"অ্যাপ্লিকেশান আনইনস্টল করুন"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"নিস্ক্রিয় করুন এবং আনইনস্টল করুন"</string>
     <string name="select_device_admin_msg" msgid="8475934459999710332">"ডিভাইস প্রশাসক অ্যাপ"</string>

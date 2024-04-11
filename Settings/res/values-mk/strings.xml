@@ -235,7 +235,7 @@
     <string name="accessory_state_paired" msgid="3296695242499532000">"Спарено"</string>
     <string name="accessory_options" msgid="774592782382321681">"Додаток"</string>
     <string name="accessory_unpair" msgid="2473411128146068804">"Распари"</string>
-    <string name="accessory_battery" msgid="2283700366184703548">"Батерија <xliff:g id="PERCENTAGE">%1$d</xliff:g>%%"</string>
+    <string name="accessory_battery" msgid="2283700366184703548">"Батерија: <xliff:g id="PERCENTAGE">%1$d</xliff:g> %%"</string>
     <string name="accessory_unpairing" msgid="2529195578082286563">"Распарување на уред…"</string>
     <string name="accessory_connected" msgid="5229574480869175180">"Поврзано"</string>
     <string name="accessory_change_name" msgid="6493717176878500683">"Сменете го името"</string>
