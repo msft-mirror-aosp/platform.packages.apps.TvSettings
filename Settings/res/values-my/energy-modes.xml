@@ -24,7 +24,7 @@
     <item msgid="7072772341455731040">"[Insert feature 2]"</item>
   </string-array>
     <string name="energy_mode_low_eco_hint" msgid="2421460758847643655"></string>
-    <string name="energy_mode_moderate_title" msgid="8612259261851051150">"အသင့်အတင့်"</string>
+    <string name="energy_mode_moderate_title" msgid="8612259261851051150">"အကောင်းဆုံး ချိန်ညှိထားသည်"</string>
     <string name="energy_mode_moderate_subtitle" msgid="5565533500130453270">"ကွန်ရက်ချိတ်ဆက်မှု အသင့်"</string>
     <string name="energy_mode_moderate_info" msgid="3188005033276283994">"ကွန်ရက်ချိတ်ဆက်မှု အသင့် — TV ကို ကွန်ရက်ပေါ်မှနှိုးနိုင်သော ဝန်ဆောင်မှုများကို ဖွင့်သည်"</string>
   <string-array name="energy_mode_moderate_features">

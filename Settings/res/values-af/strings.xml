@@ -92,16 +92,16 @@
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Koppel aan netwerk"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Netwerkdiagnostiek"</string>
-    <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Programme wat onlangs oopgemaak is"</string>
+    <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Apps wat onlangs oopgemaak is"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"Sien alle apps"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Toestemmings"</string>
     <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
     <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"Alle programme"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Wys stelselprogramme"</string>
-    <string name="all_apps_installed" msgid="8217778476185598971">"Geïnstalleerde programme"</string>
+    <string name="all_apps_installed" msgid="8217778476185598971">"Geïnstalleerde apps"</string>
     <string name="all_apps_other" msgid="4420174882983813158">"Stelselapps"</string>
-    <string name="all_apps_disabled" msgid="2776041242863791053">"Gedeaktiveerde programme"</string>
+    <string name="all_apps_disabled" msgid="2776041242863791053">"Gedeaktiveerde apps"</string>
     <string name="device_daydream" msgid="2631191946958113220">"Sluimerskerm"</string>
     <string name="device_display" msgid="244634591698925025">"Vertooninstellings"</string>
     <string name="device_display_sound" msgid="7399153506435649193">"Vertoning en klank"</string>
@@ -304,7 +304,7 @@
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"Gedeaktiveer deur administrateur"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"Nie beskikbaar nie"</string>
     <string name="manage_device_admin" msgid="5714217234035017983">"Toesteladministrasie-apps"</string>
-    <string name="number_of_device_admins_none" msgid="2734299122299837459">"Geen aktiewe programme nie"</string>
+    <string name="number_of_device_admins_none" msgid="2734299122299837459">"Geen aktiewe apps nie"</string>
     <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"Gedeaktiveer deur administrateur, enkripsiebeleid of eiebewysberging"</string>
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"Inligting oor bestuurde toestel"</string>
     <string name="enterprise_privacy_settings_summary_generic" msgid="5719549523275019419">"Veranderinge en instellings wat deur jou organisasie bestuur word"</string>
@@ -960,7 +960,7 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"Derdepartybron"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"Toestemmings"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"Program is nie beskikbaar nie"</string>
-    <string name="unused_apps" msgid="5539166745483454543">"Ongebruikte programme"</string>
+    <string name="unused_apps" msgid="5539166745483454543">"Ongebruikte apps"</string>
     <string name="settings_ok" msgid="5950888975075541964">"OK"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"Bevestig"</string>
     <string name="settings_cancel" msgid="576094334743686152">"Kanselleer"</string>
@@ -1034,7 +1034,7 @@
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Toegelaat"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Nie toegelaat nie"</string>
     <string name="usage_access" msgid="8402350645248312782">"Gebruiktoegang"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"Gebruiktoegang laat \'n program toe om na te spoor watter ander programme jy gebruik en hoe gereeld jy hulle gebruik, asook wat jou diensverskaffer, taalinstellings en ander besonderhede is."</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"Gebruiktoegang laat \'n app toe om na te spoor watter ander apps jy gebruik en hoe gereeld, asook jou diensverskaffer, taalinstellings en ander besonderhede."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Kragoptimering"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Optimeer programme se kragverbruik"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"Geen programme hoef geoptimeer te word nie"</string>
@@ -1048,8 +1048,8 @@
     <string name="directory_access" msgid="7338555825237012006">"Gidstoegang"</string>
     <string name="directory_access_description" msgid="3630855858552422012">"Hierdie programme het toestemming om toegang tot sekere gidse te kry."</string>
     <string name="directory_on_volume" msgid="5628089584970521703">"<xliff:g id="VOLUME">%1$s</xliff:g> (<xliff:g id="DIRECTORY">%2$s</xliff:g>)"</string>
-    <string name="system_alert_window_settings" msgid="5790572489650085051">"Wys bo-oor ander programme"</string>
-    <string name="permit_draw_overlay" msgid="5312730681030266735">"Wys bo-oor ander programme"</string>
+    <string name="system_alert_window_settings" msgid="5790572489650085051">"Wys bo-oor ander apps"</string>
+    <string name="permit_draw_overlay" msgid="5312730681030266735">"Laat toe dat dit bo-oor ander apps wys"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"Laat \'n program toe om te wys bo-oor ander programme wat jy gebruik. Dit kan met jou gebruik van daardie programme inmeng of die manier verander waarop hulle voorkom of optree."</string>
     <string name="write_system_settings" msgid="4284654265954461890">"Wysig stelselinstellings"</string>
     <string name="write_settings_title" msgid="2361816483383105754">"Kan stelselinstellings wysig"</string>
@@ -1058,7 +1058,7 @@
     <string name="write_settings_off" msgid="6730113471695092167">"Nee"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Toegang tot alle lêers"</string>
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"Laat toegang toe om alle lêers te bestuur"</string>
-    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Laat hierdie program toe om alle lêers op hierdie toestel of enige gekoppelde bergingvolumes te lees, te wysig en uit te vee. Indien toestemming verleen word, kan die program sonder jou uitdruklike medewete by lêers ingaan."</string>
+    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Laat hierdie app toe om alle lêers op hierdie toestel of enige gekoppelde bergingvolumes te lees, te wysig en uit te vee. Indien toestemming verleen word, kan die app sonder jou uitdruklike medewete by lêers ingaan."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Beeld-in-beeld"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Laat beeld-in-beeld toe"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Geen geïnstalleerde program steun beeld-in-beeld nie"</string>
@@ -1066,7 +1066,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Laat programme toe om wekkers te stel en tydsensitiewe handelinge te skeduleer. Dit laat die programme op die agtergrond werk, wat meer krag kan gebruik.\n\nAs hierdie toestemming af is, sal bestaande wekkers en tydgegronde geleenthede wat deur die program geskeduleer is, nie werk nie."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Skakel skerm aan"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Laat toe dat die skerm aangeskakel word"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Laat \'n program toe om die skerm aan te skakel. As toestemming gegee word, kan die program die skerm enige tyd aanskakel sonder jou uitdruklike bedoeling."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Laat ’n app toe om die skerm aan te skakel. As jy toestemming gee, kan die app die skerm enige tyd sonder jou uitdruklike bedoeling aanskakel."</string>
     <string name="special_access" msgid="21806055758289916">"Spesiale apptoegang"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Oudio"</string>
@@ -1106,7 +1106,7 @@
     <string name="select_device_admin_msg" msgid="8475934459999710332">"Toesteladministrateurprogramme"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"Aktiveer toesteladministrasie-app?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Aktiveer toesteladministrasie-app"</string>
-    <string name="device_admin_warning" msgid="7399916080685200660">"As hierdie toesteladministrasie-app geaktiveer word, sal die program <xliff:g id="APP_NAME">%1$s</xliff:g> toegelaat word om die volgende bewerkings uit te voer."</string>
+    <string name="device_admin_warning" msgid="7399916080685200660">"As hierdie toesteladministrasie-app geaktiveer word, sal die app <xliff:g id="APP_NAME">%1$s</xliff:g> toegelaat word om die volgende bewerkings uit te voer."</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"Hierdie toestel sal deur <xliff:g id="APP_NAME">%1$s</xliff:g> bestuur en gemonitor word."</string>
     <string name="device_admin_status" msgid="5467001937240455367">"Hierdie administrasie-app is aktief en laat die <xliff:g id="APP_NAME">%1$s</xliff:g>-app toe om die volgende bewerkings uit te voer:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"Deur voort te gaan, sal jou gebruiker deur jou administrateur bestuur word, wat moontlik in staat sal wees om benewens jou persoonlike data ook geassosieerde data te berg.\n\nJou administrateur het die vermoë om instellings, toegang, programme en data wat met hierdie gebruiker geassosieer word, insluitend netwerkaktiwiteit en jou toestel se ligginginligting, te monitor en te bestuur."</string>
