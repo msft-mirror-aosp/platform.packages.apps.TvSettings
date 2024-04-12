@@ -1053,7 +1053,7 @@
     <string name="allow_overlay_description" msgid="5152329837278240259">"Een app toestaan op de voorgrond te worden weergegeven vóór andere apps die je gebruikt. Dit kan je gebruik van die apps verstoren of de manier wijzigen waarop die apps worden weergegeven of zich gedragen."</string>
     <string name="write_system_settings" msgid="4284654265954461890">"Systeeminstellingen aanpassen"</string>
     <string name="write_settings_title" msgid="2361816483383105754">"Kan systeeminstellingen aanpassen"</string>
-    <string name="write_settings_description" msgid="7382397926674265937">"Met deze rechten kan een app de systeeminstellingen aanpassen."</string>
+    <string name="write_settings_description" msgid="7382397926674265937">"Met dit recht kan een app de systeeminstellingen aanpassen."</string>
     <string name="write_settings_on" msgid="71675710746513956">"Ja"</string>
     <string name="write_settings_off" msgid="6730113471695092167">"Nee"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Toegang tot alle bestanden"</string>
@@ -1066,7 +1066,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Sta toe dat apps wekkers zetten en tijdgevoelige acties plannen. De apps kunnen hierdoor op de achtergrond worden uitgevoerd, waardoor je misschien meer batterijlading verbruikt.\n\nAls dit recht uitstaat, werken door deze app geplande bestaande wekkers en tijdgebaseerde afspraken niet."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Scherm aanzetten"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Scherm aanzetten toestaan"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Toestaan dat een app het scherm aanzet. Indien toegestaan, kan de app het scherm op elk moment aanzetten zonder jouw expliciete intentie."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Sta toe dat een app het scherm aanzet. Indien toegestaan, kan de app het scherm op elk moment aanzetten zonder jouw expliciete intentie."</string>
     <string name="special_access" msgid="21806055758289916">"Speciale app-toegang"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Audio"</string>

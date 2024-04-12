@@ -148,7 +148,7 @@
     <string name="surround_sound_disabled_formats" msgid="2250466936859455802">"FORMATU DESGAITUAK"</string>
     <string name="surround_sound_disabled_format_info_clicked" msgid="463393349034930031">"Gaitzeko, ezarri formatu-hautapena \"Eskuzkoa\" gisa."</string>
     <string name="surround_sound_enabled_format_info_clicked" msgid="4003154853054756792">"Desgaitzeko, ezarri formatu-hautapena \"Eskuzkoa\" gisa."</string>
-    <string name="display_category_title" msgid="247804007525046312">"Pantaila"</string>
+    <string name="display_category_title" msgid="247804007525046312">"Bistaratzea"</string>
     <string name="advanced_display_settings_title" msgid="6293280819870140631">"Pantailaren ezarpen aurreratuak"</string>
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Soinuaren ezarpen aurreratuak"</string>
@@ -678,7 +678,7 @@
     <string name="delete_location_history_title" msgid="707559064715633152">"Ezabatu kokapen-historia"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"Honekin, Kokapen-historiak kontu honetarako gorde duen gailuko guztia ezabatuko da. Ezin duzu ezabatzea desegin. Zenbait aplikaziok (besteak beste, Google Now aplikazioak) funtzionatzeari utziko diote."</string>
     <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Pantaila-irakurgailuak"</string>
-    <string name="accessibility_display_category_title" msgid="593444602101558017">"Pantaila"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"Bistaratzea"</string>
     <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"Interakzioa kontrolatzeko aukerak"</string>
     <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Audioa eta pantailako testua"</string>
     <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"Esperimentala"</string>
@@ -1034,7 +1034,7 @@
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Baimenduta dauka aukera"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Ez dauka baimenduta aukera"</string>
     <string name="usage_access" msgid="8402350645248312782">"Erabilera-datuetarako sarbidea"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"Erabilera-datuek zer beste aplikazio eta zer maiztasunekin erabiltzen dituzun jakiteko baimena ematen die aplikazioei, baita zer operadore duzun, zer hizkuntza-ezarpen dituzun eta beste xehetasun batzuk ere."</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"Erabilera-datuek zer beste aplikazio eta zer maiztasunekin erabiltzen dituzun jakiteko baimena ematen diete aplikazioei, baita zer operadore duzun, zer hizkuntza-ezarpen dituzun eta beste xehetasun batzuk ere."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Bateriaren optimizazioa"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Optimizatu aplikazioek darabilten bateria"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"Ez dago optimizatu beharreko aplikaziorik"</string>
@@ -1050,7 +1050,7 @@
     <string name="directory_on_volume" msgid="5628089584970521703">"<xliff:g id="VOLUME">%1$s</xliff:g> (<xliff:g id="DIRECTORY">%2$s</xliff:g>)"</string>
     <string name="system_alert_window_settings" msgid="5790572489650085051">"Bistaratu beste aplikazioen gainean"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"Eman beste aplik. gainean bistaratzeko baimena"</string>
-    <string name="allow_overlay_description" msgid="5152329837278240259">"Eman aplikazioari erabiltzen ari zaren aplikazioen gainean agertzeko baimena. Eginbide honek abian diren aplikazioen erabilera oztopa dezake, edo haien itxura edo portaera aldatu."</string>
+    <string name="allow_overlay_description" msgid="5152329837278240259">"Eman erabiltzen ari zaren aplikazioen gainean agertzeko baimena aplikazioei. Eginbide honek abian diren aplikazioen erabilera oztopa dezake, edo haien itxura edo portaera aldatu."</string>
     <string name="write_system_settings" msgid="4284654265954461890">"Aldatu sistemaren ezarpenak"</string>
     <string name="write_settings_title" msgid="2361816483383105754">"Sistemaren ezarpenak alda ditzaketenak"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"Baimen honekin, sistemaren ezarpenak alda ditzakete aplikazioek."</string>
@@ -1062,7 +1062,7 @@
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Pantaila txiki gainjarria"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Eman pantaila txiki gainjarria erabiltzeko baimena"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Ez dago instalatuta pantaila txiki gainjarriarekin bateragarria den aplikaziorik"</string>
-    <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Eman pantaila txiki gainjarri bat sortzeko baimena aplikazioei, aplikazioa irekita dagoenean nahiz hartatik irtetean (adibidez, bideoak ikusten jarraitzeko). Erabiltzen ari zaren beste aplikazioen gaienean erakutsiko da leiho hori."</string>
+    <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Eman pantaila txiki gainjarri bat sortzeko baimena aplikazioei, aplikazioa irekita dagoenean nahiz hartatik irtetean (adibidez, bideoak ikusten jarraitzeko). Erabiltzen ari zaren beste aplikazioen gainean erakutsiko da leiho hori."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Eman alarmak ezartzeko eta orduaren araberako beste ekintza batzuk programatzeko baimena aplikazioei. Hala, aplikazioek atzeko planoan funtzionatuko dute, eta litekeena da bateria gehiago kontsumitzea.\n\nBaimen hori ematen ez baduzu, ez dute funtzionatuko aplikazio horien bidez programatutako alarmek eta orduaren araberako ekintzek."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Piztu pantaila"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Eman pantaila pizteko baimena"</string>

@@ -1034,7 +1034,7 @@
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Дозволено"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Не дозволено"</string>
     <string name="usage_access" msgid="8402350645248312782">"Доступ до історії використання"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"Завдяки доступу до історії використання додаток може відстежувати, які додатки ви використовуєте та як часто, а також визначати назву вашого оператора, налаштування мови й інші відомості."</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"Завдяки доступу до історії використання додаток може відстежувати, які додатки ви використовуєте і як часто, а також визначати назву вашого оператора, налаштування мови й інші відомості."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Оптимізація енергоспоживання"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Оптимізуйте енергоспоживання додатків"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"Немає додатків, які можна оптимізувати"</string>
@@ -1058,7 +1058,7 @@
     <string name="write_settings_off" msgid="6730113471695092167">"Ні"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Доступ до всіх файлів"</string>
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"Надати доступ до керування всіма файлами"</string>
-    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Дозволити цьому додатку переглядати, змінювати та видаляти всі файли на цьому пристрої або інших підключених носіях пам\'яті. Після надання дозволу додаток може отримувати доступ до файлів без вашого відома."</string>
+    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Дозволити цьому додатку переглядати, змінювати й видаляти всі файли на цьому пристрої або інших підключених носіях пам\'яті. Після надання дозволу додаток може отримувати доступ до файлів без вашого відома."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Картинка в картинці"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Дозвіл картинки в картинці"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Не встановлено додатків, як підтримують режим картинки в картинці"</string>

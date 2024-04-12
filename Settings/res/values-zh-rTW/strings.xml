@@ -1033,8 +1033,8 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"管理鍵盤"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"允許"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"不允許"</string>
-    <string name="usage_access" msgid="8402350645248312782">"使用記錄存取權"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"具有使用記錄存取權的應用程式可以追蹤你使用的其他應用程式與頻率，以及你的電信業者、語言設定和其他詳細資料。"</string>
+    <string name="usage_access" msgid="8402350645248312782">"使用存取權"</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"具有使用存取權的應用程式可以追蹤你使用的其他應用程式與頻率，以及你的電信業者、語言設定等詳情。"</string>
     <string name="high_power_apps" msgid="5841073958519976562">"用電量最佳化"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"最佳化應用程式用電量"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"沒有任何應用程式需要最佳化"</string>
@@ -1106,7 +1106,7 @@
     <string name="select_device_admin_msg" msgid="8475934459999710332">"裝置管理員應用程式"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"要啟用裝置管理員應用程式嗎？"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"啟用這個裝置管理員應用程式"</string>
-    <string name="device_admin_warning" msgid="7399916080685200660">"啟用這個管理員應用程式，將允許「<xliff:g id="APP_NAME">%1$s</xliff:g>」應用程式執行以下作業："</string>
+    <string name="device_admin_warning" msgid="7399916080685200660">"如果啟用這個管理員應用程式，將允許「<xliff:g id="APP_NAME">%1$s</xliff:g>」應用程式執行以下作業："</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"這個裝置將由「<xliff:g id="APP_NAME">%1$s</xliff:g>」管理及監控。"</string>
     <string name="device_admin_status" msgid="5467001937240455367">"這個管理員應用程式已啟用，且允許「<xliff:g id="APP_NAME">%1$s</xliff:g>」應用程式執行以下作業："</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"繼續這項動作，你的使用者將由管理員進行管理，該管理員也能儲存相關資料和你的個人資料。\n\n你的管理員可以監控並管理與這個使用者相關聯的設定、存取權、應用程式和資料，包括網路活動和裝置位置資訊。"</string>
