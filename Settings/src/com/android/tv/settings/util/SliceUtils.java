@@ -25,6 +25,8 @@ import android.util.Log;
 
 import java.util.Collection;
 
+import kotlin.coroutines.Continuation;
+
 /** Utility class for slice **/
 public final class SliceUtils {
     private static final String TAG = "SliceUtils";
@@ -58,7 +60,9 @@ public final class SliceUtils {
      * @param topLevelSettingsSliceUri Top level settings slice uri, if null, use provided uri to
      *                                 deduce top level settings slice uri.
      * @return returns true if slice is enabled, false otherwise
+     * @deprecated use {@link SliceUtilsKt#isSettingsSliceEnabled} instead.
      */
+    @Deprecated
     public static boolean isSettingsSliceEnabled(Context context, String uri,
             String topLevelSettingsSliceUri) {
         if (uri == null) {
