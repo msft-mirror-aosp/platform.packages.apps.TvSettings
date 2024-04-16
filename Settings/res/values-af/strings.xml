@@ -934,13 +934,13 @@
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Suksesvol gestoor"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Weergawe <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Maak oop"</string>
-    <string name="device_apps_app_management_force_stop" msgid="4454221309989640309">"Dwing stop"</string>
-    <string name="device_apps_app_management_force_stop_desc" msgid="1980972142863114899">"As jy \'n program dwing om te stop, kan dit dalk wangedra."</string>
+    <string name="device_apps_app_management_force_stop" msgid="4454221309989640309">"Verplig stop"</string>
+    <string name="device_apps_app_management_force_stop_desc" msgid="1980972142863114899">"As jy ’n app verplig om te stop, kan dit verkeerd optree."</string>
     <string name="device_apps_app_management_uninstall" msgid="4171103696233332967">"Deïnstalleer"</string>
     <string name="device_apps_app_management_uninstall_updates" msgid="5647988075828648951">"Deïnstalleer opdaterings"</string>
     <string name="device_apps_app_management_uninstall_updates_desc" msgid="4508586498292236706">"Alle opdaterings vir hierdie Android-stelselprogram sal gedeïnstalleer word."</string>
     <string name="device_apps_app_management_disable" msgid="819003297535493633">"Deaktiveer"</string>
-    <string name="device_apps_app_management_disable_desc" msgid="9143166267511427607">"Wil jy hierdie program deaktiveer?"</string>
+    <string name="device_apps_app_management_disable_desc" msgid="9143166267511427607">"Wil jy hierdie app deaktiveer?"</string>
     <string name="device_apps_app_management_enable" msgid="9173340340253029114">"Aktiveer"</string>
     <string name="device_apps_app_management_enable_desc" msgid="8686291003061136476">"Wil jy hierdie program aktiveer?"</string>
     <string name="device_apps_app_management_storage_used" msgid="6725789557993296433">"Berging gebruik"</string>
