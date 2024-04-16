@@ -424,7 +424,7 @@
   </string-array>
     <string name="title_mac_address" msgid="7511588678922209883">"כתובת MAC של המכשיר"</string>
     <string name="title_randomized_mac_address" msgid="3359532498635833471">"כתובת MAC אקראית"</string>
-    <string name="title_signal_strength" msgid="5047116893338315998">"עוצמת אות"</string>
+    <string name="title_signal_strength" msgid="5047116893338315998">"עוצמת האות"</string>
     <string name="title_random_mac_settings" msgid="6685812569356353378">"פרטיות"</string>
   <string-array name="random_mac_settings_entries">
     <item msgid="3457228452595715533">"שימוש בכתובת MAC אקראית (ברירת מחדל)"</item>

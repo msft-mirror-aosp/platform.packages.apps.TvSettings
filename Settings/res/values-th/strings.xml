@@ -935,7 +935,7 @@
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"เวอร์ชัน <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"เปิด"</string>
     <string name="device_apps_app_management_force_stop" msgid="4454221309989640309">"บังคับให้หยุด"</string>
-    <string name="device_apps_app_management_force_stop_desc" msgid="1980972142863114899">"หากคุณบังคับให้แอปหยุด การทำงานอาจผิดพลาดได้"</string>
+    <string name="device_apps_app_management_force_stop_desc" msgid="1980972142863114899">"แอปอาจทำงานผิดพลาดหากคุณบังคับให้หยุด"</string>
     <string name="device_apps_app_management_uninstall" msgid="4171103696233332967">"ถอนการติดตั้ง"</string>
     <string name="device_apps_app_management_uninstall_updates" msgid="5647988075828648951">"ถอนการติดตั้งการอัปเดต"</string>
     <string name="device_apps_app_management_uninstall_updates_desc" msgid="4508586498292236706">"การอัปเดตทั้งหมดของแอประบบ Android นี้จะถูกถอนการติดตั้ง"</string>
