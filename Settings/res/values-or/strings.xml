@@ -1034,7 +1034,7 @@
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"ଅନୁମତି ଦିଆଯାଇଛି"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"ଅନୁମତି ଦିଆଯାଇନାହିଁ"</string>
     <string name="usage_access" msgid="8402350645248312782">"ବ୍ୟବହାର ଆକସେସ୍‌"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"ଅନ୍ୟ କେଉଁ ଆପ୍ସ ଏବଂ ଏହାକୁ କେତେଥର ବ୍ୟବହାର କରୁଛନ୍ତି, ତଥା ଆପଣଙ୍କ କ୍ୟାରିଅର, ଭାଷା ସେଟିଂସ, ଓ ଅନ୍ୟାନ୍ୟ ବିବରଣୀ ଟ୍ରାକ କରିବା ପାଇଁ ଏକ ଆପକୁ ବ୍ୟବହାର ଆକ୍ସେସ ଅନୁମତି ଦେଇଥାଏ।"</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"ଅନ୍ୟ କେଉଁ ଆପ୍ସ ଏବଂ ଏହାକୁ କେତେଥର ବ୍ୟବହାର କରୁଛନ୍ତି, ତଥା ଆପଣଙ୍କ କେରିଅର, ଭାଷା ସେଟିଂସ ଓ ଅନ୍ୟ ବିବରଣୀ ଟ୍ରାକ କରିବା ପାଇଁ ଏକ ଆପକୁ ବ୍ୟବହାର ଆକ୍ସେସ ଅନୁମତି ଦେଇଥାଏ।"</string>
     <string name="high_power_apps" msgid="5841073958519976562">"ଏନାର୍ଜି ଅପଟିମାଇଜେସନ୍"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"ଆପ୍‌ର ବ୍ୟବହାର ପାଇଁ ଏନାର୍ଜି ଅପଟିମାଇଜ୍ କରନ୍ତୁ"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"କୌଣସି ଆପ୍‌ ଅନୁକୂଳିତ କରିବା ଆବଶ୍ୟକ କରେ ନାହିଁ"</string>
@@ -1058,7 +1058,7 @@
     <string name="write_settings_off" msgid="6730113471695092167">"ନାହିଁ"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"ସମସ୍ତ ଫାଇଲକୁ ଆକ୍ସେସ୍"</string>
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"ସମସ୍ତ ଫାଇଲକୁ ପରିଚାଳନା ପାଇଁ ଆକ୍ସେସ୍ ଦିଅନ୍ତୁ"</string>
-    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"ଏହି ଡିଭାଇସ୍ କିମ୍ବା ଯେ କୌଣସି ସଂଯୁକ୍ତ ଥିବା ଷ୍ଟୋରେଜ୍ ଭଲ୍ୟୁମରେ ଥିବା ସମସ୍ତ ଫାଇଲକୁ ପଢ଼ିବା, ପରିବର୍ତ୍ତନ କରିବା ଏବଂ ଡିଲିଟ୍ କରିବା ପାଇଁ ଏହି ଆପକୁ ଅନୁମତି ଦିଅନ୍ତୁ। ଯଦି ଅନୁମତି ଦିଆଯାଏ, ତେବେ ଆପ୍ ଆପଣଙ୍କୁ ସ୍ପଷ୍ଟ ନକରି ଫାଇଲଗୁଡ଼ିକୁ ଆକ୍ସେସ୍ କରିପାରେ।"</string>
+    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"ଏହି ଡିଭାଇସ କିମ୍ବା ଯେ କୌଣସି କନେକ୍ଟ ଥିବା ଷ୍ଟୋରେଜ ଭଲ୍ୟୁମରେ ଥିବା ସବୁ ଫାଇଲକୁ ପଢ଼ିବା, ପରିବର୍ତ୍ତନ କରିବା ଏବଂ ଡିଲିଟ କରିବା ପାଇଁ ଏହି ଆପକୁ ଅନୁମତି ଦିଅନ୍ତୁ। ଯଦି ଅନୁମତି ଦିଆଯାଏ, ତେବେ ଆପ ଆପଣଙ୍କୁ ସ୍ପଷ୍ଟ ନକରି ଫାଇଲଗୁଡ଼ିକୁ ଆକ୍ସେସ କରିପାରେ।"</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"ପିକଚର୍-ଇନ୍-ପିକଚର୍"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"ପିକଚର-ଇନ-ପିକଚରକୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"ଛବି-ଭିତରେ-ଛବିକୁ ଇନ୍‌ଷ୍ଟଲ୍‌ ହୋଇଥିବା କୌଣସି ଆପ୍‌ ସପୋର୍ଟ କରୁନାହିଁ"</string>
