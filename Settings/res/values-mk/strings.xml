@@ -1033,7 +1033,7 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"Управување со тастатури"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Со дозвола"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Без дозвола"</string>
-    <string name="usage_access" msgid="8402350645248312782">"Пристап до подат. за користење"</string>
+    <string name="usage_access" msgid="8402350645248312782">"Пристап до податоци за користењето"</string>
     <string name="usage_access_description" msgid="3276026988575551587">"Пристапот до податоци за користењето овозможува апликацијата да следи кои други апликации ги користите и колку често, како и операторот, поставките за јазик и други детали."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Оптимизација на енергијата"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Оптимизирајте ја употребата на енергија на апликациите"</string>
@@ -1057,7 +1057,7 @@
     <string name="write_settings_on" msgid="71675710746513956">"Да"</string>
     <string name="write_settings_off" msgid="6730113471695092167">"Не"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Пристап до сите датотеки"</string>
-    <string name="permit_manage_external_storage" msgid="1776899171934627417">"Дозволи пристап за управување со датотеки"</string>
+    <string name="permit_manage_external_storage" msgid="1776899171934627417">"Дозволи пристап за управување со сите датотеки"</string>
     <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Дозволете апликацијава да ги чита, менува и брише сите датотеки на уредов или на поврзаните мемориски уреди. Ако се дозволи, апликацијата може да пристапува до датотеките без ваше изречно знаење."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Слика во слика"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Дозволи слика во слика"</string>
@@ -1066,7 +1066,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Дозволете им на апликаците да поставуваат аларми и да закажуваат дејства со временски рокови. Ова овозможува апликациите да работат во заднина и така може повеќе да ја трошат батеријата.\n\nАко дозволава е исклучена, нема да функционираат постојните аларми и настаните според време закажани од апликацијата."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Вклучи го екранот"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Дозволи вклучување на екранот"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Дозволете апликација да го вклучи екранот. Ако дозволите, апликацијата може да го вклучи екранот во секое време без ваша намера."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Дозволете одредена апликација да го вклучува екранот. Ако е дозволено, апликацијата ќе може да го вклучува екранот во секое време без ваша намера."</string>
     <string name="special_access" msgid="21806055758289916">"Посебен пристап за апликации"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Аудио"</string>

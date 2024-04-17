@@ -332,7 +332,7 @@
     <string name="enterprise_privacy_input_method_name" msgid="1088874503312671318">"ضبط على <xliff:g id="APP_LABEL">%s</xliff:g>"</string>
     <string name="enterprise_privacy_always_on_vpn_device" msgid="8845550514448914237">"تم تفعيل إعداد \"شبكة افتراضية خاصة (VPN) دائمة التفعيل\""</string>
     <string name="enterprise_privacy_always_on_vpn_personal" msgid="6996782365866442280">"تم تفعيل إعداد \"شبكة افتراضية خاصة (VPN) دائمة التفعيل\" في الملف الشخصي"</string>
-    <string name="enterprise_privacy_always_on_vpn_work" msgid="3674119583050531071">"تم تفعيل \"شبكة افتراضية خاصة (VPN) دائمة التفعيل\" في الملف الشخصي للعمل"</string>
+    <string name="enterprise_privacy_always_on_vpn_work" msgid="3674119583050531071">"تم تفعيل \"شبكة افتراضية خاصة (VPN) دائمة التفعيل\" في ملف العمل"</string>
     <string name="enterprise_privacy_global_http_proxy" msgid="2818848848337527780">"تم ضبط الخادم الوكيل HTTP العام"</string>
     <string name="enterprise_privacy_ca_certs_device" msgid="975646846291012452">"بيانات الاعتماد الموثوقة"</string>
     <string name="enterprise_privacy_ca_certs_personal" msgid="7641368559306519707">"بيانات اعتماد موثوقة في ملفك الشخصي"</string>
@@ -341,7 +341,7 @@
     <string name="enterprise_privacy_lock_device" msgid="3140624232334033641">"يمكن للمشرف قفل الجهاز وإعادة ضبط كلمة المرور"</string>
     <string name="enterprise_privacy_wipe_device" msgid="1714271125636510031">"يمكن للمشرف حذف جميع بيانات الجهاز"</string>
     <string name="enterprise_privacy_failed_password_wipe_device" msgid="8272298134556250600">"محاولات كلمة المرور الخاطئة قبل حذف جميع بيانات الجهاز"</string>
-    <string name="enterprise_privacy_failed_password_wipe_work" msgid="1184137458404844014">"محاولات كلمة المرور الخاطئة قبل حذف بيانات الملف الشخصي للعمل"</string>
+    <string name="enterprise_privacy_failed_password_wipe_work" msgid="1184137458404844014">"محاولات كلمة المرور الخاطئة قبل حذف بيانات ملف العمل"</string>
     <string name="enterprise_privacy_number_failed_password_wipe" msgid="277415009661470768">"{count,plural, =1{محاولة واحدة}zero{# محاولة}two{محاولتان}few{# محاولات}many{# محاولة}other{# محاولة}}"</string>
     <string name="do_disclosure_generic" msgid="8390478119591845948">"تتولى مؤسستك إدارة هذا الجهاز."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"تتم إدارة هذا الجهاز بواسطة <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
@@ -1098,7 +1098,7 @@
     <string name="admin_profile_owner_message" msgid="5729169873349157622">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بالملفات الشخصية للعمل وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بهذا المستخدم وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بهذا الجهاز وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
-    <string name="remove_managed_profile_label" msgid="8950011141359605612">"إزالة الملف الشخصي للعمل"</string>
+    <string name="remove_managed_profile_label" msgid="8950011141359605612">"إزالة ملف العمل"</string>
     <string name="active_device_admin_msg" msgid="185537304726228624">"تطبيق مشرف الجهاز"</string>
     <string name="remove_device_admin" msgid="2623866073546295104">"إيقاف تطبيق مشرف الجهاز"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"إلغاء تثبيت التطبيق"</string>
