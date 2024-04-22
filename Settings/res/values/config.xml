@@ -173,4 +173,7 @@
 
     <!-- True if the device has a built in speaker. -->
     <bool name="config_volume_change">false</bool>
+
+    <!-- Name of the device. -->
+    <string name="config_device_name" />
 </resources>

@@ -31,7 +31,7 @@ import androidx.preference.PreferenceGroup;
 import com.android.tv.settings.R;
 import com.android.tv.settings.RadioPreference;
 import com.android.tv.settings.SettingsPreferenceFragment;
-import com.android.tv.settings.name.DeviceManager;
+import com.android.tv.settings.device.util.DeviceUtils;
 
 /**
  * The "Device volume" screen in TV Settings.
@@ -56,7 +56,7 @@ public class VolumeChangePreferenceFragment extends SettingsPreferenceFragment i
         setPreferencesFromResource(R.xml.change_device_volume, null);
         PreferenceGroup volumeChangeGroup = (PreferenceGroup) findPreference(VOLUME_CHANGE_GROUP);
 
-        mCurrentDeviceName = DeviceManager.getDeviceName(getActivity());
+        mCurrentDeviceName = DeviceUtils.getDeviceName(getContext());
         String volumeChangeSettingsTitle = String.format(
                 getContext().getResources().getString(R.string.volume_change_settings_title),
                 mCurrentDeviceName

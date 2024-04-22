@@ -43,7 +43,7 @@ import androidx.preference.TwoStatePreference;
 
 import com.android.tv.settings.R;
 import com.android.tv.settings.SettingsPreferenceFragment;
-import com.android.tv.settings.name.DeviceManager;
+import com.android.tv.settings.device.util.DeviceUtils;
 import com.android.tv.settings.overlay.FlavorUtils;
 import com.android.tv.settings.util.ResolutionSelectionUtils;
 import com.android.tv.settings.util.SliceUtils;
@@ -108,7 +108,7 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment implements
         setPreferencesFromResource(getPreferenceScreenResId(), null);
 
         final TwoStatePreference soundPref = findPreference(KEY_SOUND_EFFECTS);
-        mCurrentDeviceName = DeviceManager.getDeviceName(getActivity());
+        mCurrentDeviceName = DeviceUtils.getDeviceName(getContext());
         soundPref.setChecked(getSoundEffectsEnabled());
         soundPref.setVisible(false);
         updateCecPreference();
