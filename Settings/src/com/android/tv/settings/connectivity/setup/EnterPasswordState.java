@@ -68,7 +68,7 @@ public class EnterPasswordState implements State {
     @Override
     public void processForward() {
         if (!mUserChoiceInfo.isVisible(UserChoiceInfo.PASSWORD)) {
-            mStateMachine.getListener().onComplete(StateMachine.OPTIONS_OR_CONNECT);
+            mStateMachine.getListener().onComplete(this, StateMachine.OPTIONS_OR_CONNECT);
             return;
         }
         mFragment = new EnterPasswordFragment();
@@ -79,7 +79,7 @@ public class EnterPasswordState implements State {
     @Override
     public void processBackward() {
         if (!mUserChoiceInfo.isVisible(UserChoiceInfo.PASSWORD)) {
-            mStateMachine.getListener().onComplete(StateMachine.CANCEL);
+            mStateMachine.getListener().onComplete(this, StateMachine.CANCEL);
             return;
         }
         mFragment = new EnterPasswordFragment();
@@ -250,7 +250,7 @@ public class EnterPasswordState implements State {
                 if (password.length() >= WEP_MIN_LENGTH) {
                     mUserChoiceInfo.put(UserChoiceInfo.PASSWORD, action.getTitle().toString());
                     mUserChoiceInfo.setPasswordHidden(mCheckBox.isChecked());
-                    mStateMachine.getListener().onComplete(StateMachine.OPTIONS_OR_CONNECT);
+                    mStateMachine.getListener().onComplete(this, StateMachine.OPTIONS_OR_CONNECT);
                 } else {
                     final Activity activity = getActivity();
                     if (activity != null) {

@@ -102,7 +102,7 @@
     <string name="all_apps_installed" msgid="8217778476185598971">"Izinhlelo zokusebenza ezifakiwe"</string>
     <string name="all_apps_other" msgid="4420174882983813158">"Uhlelo lokusebenza lwesistimu"</string>
     <string name="all_apps_disabled" msgid="2776041242863791053">"Izinhlelo zokusebenza ezikhutshaziwe"</string>
-    <string name="device_daydream" msgid="2631191946958113220">"Isigcini sihenqo"</string>
+    <string name="device_daydream" msgid="2631191946958113220">"Isigciniskrini"</string>
     <string name="device_display" msgid="244634591698925025">"Ukubukeka"</string>
     <string name="device_display_sound" msgid="7399153506435649193">"Isibonisi Nomsindo"</string>
     <string name="device_sound" msgid="8616320533559404963">"Umsindo"</string>
@@ -673,8 +673,8 @@
     <string name="third_party_location_services_title" msgid="2826218400381676508">"Amasevisi wendawo wezinkampani zangaphandle"</string>
     <string name="location_reporting" msgid="3552501333650895634">"Ukubikwa kwendawo"</string>
     <string name="location_history" msgid="4055660203090513120">"Umlando wendawo"</string>
-    <string name="location_reporting_desc" msgid="1580018652781674608">"I-Google isebenzisa lesi sici emikhiqizweni njenge-Google Now ne-Google Amamephu. Ukuvula ukubikwa kwendawo kuvumela noma yimuphi umkhiqizo we-Google esebenzisa lesi sici igcina futhi isebenzise idatha yakho yendawo yakamuva yedivayisi ngokuxhumana ne-Akhawunti yakho ye-Google."</string>
-    <string name="location_history_desc" msgid="926674012916014270">"Uma umlando wedawo uvuliwe kule akhawunti, i-Google ingagcina idatha yakho yendawo yedivayisi ukuze usetshenziswe izinhlelo zakho zokusebenza.\n\nIsibonelo, i-Google Amamephu ikunika izinkombhandlela, futhi i-Google Now ingakwazisa mayelana nethrafikhi yokuhamba.\n\nUngavala umlando wendawo noma kunini, kodwa ukwenza kanjalo akuyisusi. Ukuze ubuke futhi uphathe umlando wendawo yakho, vakashela ku-maps.google.com/locationhistory."</string>
+    <string name="location_reporting_desc" msgid="1580018652781674608">"I-Google isebenzisa lesi sici emikhiqizweni njenge-Google Now ne-Amamephu eGoogle. Ukuvula ukubikwa kwendawo kuvumela noma yimuphi umkhiqizo we-Google esebenzisa lesi sici igcina futhi isebenzise idatha yakho yendawo yakamuva yedivayisi ngokuxhumana ne-Akhawunti yakho ye-Google."</string>
+    <string name="location_history_desc" msgid="926674012916014270">"Uma umlando wedawo uvuliwe kule akhawunti, i-Google ingagcina idatha yakho yendawo yedivayisi ukuze usetshenziswe izinhlelo zakho zokusebenza.\n\nIsibonelo, Amamephu eGoogle ikunika izinkombhandlela, futhi i-Google Now ingakwazisa mayelana nethrafikhi yokuhamba.\n\nUngavala umlando wendawo noma kunini, kodwa ukwenza kanjalo akuyisusi. Ukuze ubuke futhi uphathe umlando wendawo yakho, vakashela ku-maps.google.com/locationhistory."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"Susa umlando wendawo"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"Lokhu kuzosusa wonke umlando wendawo obekwe kusuka kule divayisi yale-akhawunti ye-Google. Awukwazi ukuhlehlisa lokhu kususwa. Ezinye izinhlelo zokusebenza, okufaka phakathi i-Google Now, kuzomisa ukusebenza."</string>
     <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Izifundi Zesikrini"</string>
@@ -967,7 +967,7 @@
     <string name="settings_on" msgid="7734010120323404333">"Vuliwe"</string>
     <string name="settings_off" msgid="4060451657850476369">"Valiwe"</string>
     <string name="device_daydreams_none" msgid="3405655350757277348">"Vala isikrini"</string>
-    <string name="device_daydreams_select" msgid="7203264446482623438">"Isigcini sihenqo"</string>
+    <string name="device_daydreams_select" msgid="7203264446482623438">"Isigciniskrini"</string>
     <string name="device_daydreams_test" msgid="7828275397550076567">"Qala manje"</string>
     <string name="device_daydreams_sleep" msgid="6847770718407377357">"Uma iqala"</string>
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"Isilondolozi sesikrini siqala ngemuva kwalesi sikhathi sokungasebenzi. Uma singekho isilondolozi sesikrini esikhethiwe, isibonisi siyacisha."</string>
@@ -1034,7 +1034,7 @@
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Kuvumelekile"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Akuvunyelwe"</string>
     <string name="usage_access" msgid="8402350645248312782">"Ukufinyelela ukusetshenziswa"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"Ukufinyelela kokusebenzisa kuvumela uhlelo lokusebenza ukuthi lulandelele ukuthi yiziphi ezinye izinhlelo zokusebenza ozisebenzisayo nokuthi kaningi kangakanani, kanye nenkampani yakho yenethiwekhi, izilungiselelo zolimi neminye imininingwane."</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"Ukufinyelela kokusebenzisa kuvumela i-app ilandelele ukuthi ngamaphi ama-app owasebenzisayo nokuthi maningi kangakanani, kanye nenkampani yakho yenethiwekhi, amasethingi olimi neminye imininingwane."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Ukulungiselelwa kwamandla"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Lungiselela ukusetshenziswa kwamandla kwezinhlelo zokusebenza"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"Azikho izinhlelo zokusebenza ezidinga ukulungiselelwa"</string>
@@ -1058,7 +1058,7 @@
     <string name="write_settings_off" msgid="6730113471695092167">"Cha"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Ukufinyelela kuwo wonke amafayela"</string>
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"Vumela ukufinyelela ukuze kuphathwe wonke amafayela"</string>
-    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Vumela lolu hlelo lokusebenza ukuthi lufunde, lulungise luphinde lususe wonke amafayela kule divayisi noma kwamanye amavolumu axhunyiwe esitoreji. Uma linikeziwe, uhlelo lokusebenza lungafinyelela kumafayela ngaphandle kokwazi kwakho okusobala."</string>
+    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Vumela i-app ifunde, ilungise futhi isuse wonke amafayela kule divayisi noma kwamanye amavolumu axhunyiwe esitoreji. Uma igunyaziwe, i-app ingafinyelela kumafayela ngaphandle kokwazi kwakho okusobala."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Isithombe-phakathi-kwesithombe"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Vumela isithombe phakathi kwesithombe"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Azikho izinhlelo zokusebenza ezifakiwe ezisekela isithombe phakathi kwesithombe"</string>

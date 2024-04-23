@@ -95,7 +95,7 @@ public class SaveState implements State {
             if (activity != null) {
                 StateMachine sm = ViewModelProviders
                         .of(activity).get(StateMachine.class);
-                sm.getListener().onComplete(StateMachine.RESULT_SUCCESS);
+                sm.getListener().onComplete(this, StateMachine.RESULT_SUCCESS);
             }
         }
 
@@ -105,7 +105,7 @@ public class SaveState implements State {
             if (activity != null) {
                 StateMachine sm = ViewModelProviders
                         .of(activity).get(StateMachine.class);
-                sm.getListener().onComplete(StateMachine.RESULT_FAILURE);
+                sm.getListener().onComplete(this, StateMachine.RESULT_FAILURE);
             }
         }
     }

@@ -1058,15 +1058,15 @@
     <string name="write_settings_off" msgid="6730113471695092167">"Tidak"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Akses semua file"</string>
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"Izinkan akses untuk mengelola semua file"</string>
-    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Mengizinkan aplikasi ini untuk membaca, mengubah, dan menghapus semua file di perangkat ini atau media penyimpanan yang terpasang. Jika diberikan, aplikasi dapat mengakses file tanpa sepengetahuan Anda."</string>
+    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Mengizinkan aplikasi ini membaca, mengubah, dan menghapus semua file di perangkat ini atau media penyimpanan yang terpasang. Jika diizinkan, aplikasi dapat mengakses file tanpa sepengetahuan Anda."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Picture-in-picture"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Izinkan picture-in-picture"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Tidak ada aplikasi terinstal yang mendukung Picture-in-picture"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Mengizinkan aplikasi membuat jendela picture-in-picture saat aplikasi terbuka atau setelah Anda membiarkannya terbuka (misalnya, untuk melanjutkan aktivitas menonton video). Jendela ini ditampilkan di atas aplikasi lain yang sedang digunakan."</string>
-    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Izinkan aplikasi menyetel alarm dan menjadwalkan tindakan berjangka waktu. Hal ini memungkinkan aplikasi berjalan di latar belakang, yang dapat menggunakan lebih banyak daya.\n\nJika izin ini nonaktif, alarm dan acara berbasis waktu yang dijadwalkan oleh aplikasi tidak akan berfungsi."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Mengizinkan aplikasi menyetel alarm dan menjadwalkan tindakan berjangka waktu. Hal ini memungkinkan aplikasi berjalan di latar belakang, yang dapat menggunakan lebih banyak daya.\n\nJika izin ini nonaktif, alarm dan acara berbasis waktu yang dijadwalkan oleh aplikasi tidak akan berfungsi."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Pengaktifan layar"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Izinkan pengaktifan layar"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Mengizinkan aplikasi mengaktifkan layar. Jika diizinkan, aplikasi dapat mengaktifkan layar kapan saja tanpa izin eksplisit dari Anda."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Mengizinkan aplikasi mengaktifkan layar. Jika diizinkan, aplikasi dapat mengaktifkan layar kapan saja tanpa izin Anda."</string>
     <string name="special_access" msgid="21806055758289916">"Akses aplikasi khusus"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Audio"</string>
@@ -1106,7 +1106,7 @@
     <string name="select_device_admin_msg" msgid="8475934459999710332">"Aplikasi admin perangkat"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"Aktifkan aplikasi admin perangkat?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Aktifkan aplikasi admin perangkat ini"</string>
-    <string name="device_admin_warning" msgid="7399916080685200660">"Mengaktifkan aplikasi admin ini akan mengizinkan aplikasi <xliff:g id="APP_NAME">%1$s</xliff:g> menjalankan operasi berikut:"</string>
+    <string name="device_admin_warning" msgid="7399916080685200660">"Jika aplikasi admin ini diaktifkan, aplikasi <xliff:g id="APP_NAME">%1$s</xliff:g> akan menjalankan operasi berikut:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"Perangkat ini akan dikelola dan dipantau oleh <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
     <string name="device_admin_status" msgid="5467001937240455367">"Aplikasi admin ini aktif dan mengizinkan aplikasi <xliff:g id="APP_NAME">%1$s</xliff:g> menjalankan operasi berikut:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"Dengan melanjutkan, pengguna Anda akan dikelola oleh admin yang juga dapat menyimpan data terkait, selain data pribadi Anda.\n\nAdmin dapat memantau serta mengelola setelan, akses, aplikasi, dan data terkait pengguna, termasuk aktivitas jaringan dan informasi lokasi perangkat."</string>
