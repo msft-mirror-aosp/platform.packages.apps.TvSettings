@@ -203,13 +203,13 @@ public abstract class SettingsPreferenceFragment extends InstrumentedPreferenceF
                 }
                 vh.itemView.setOnTouchListener((v, e) -> {
                     if (e.getActionMasked() == MotionEvent.ACTION_DOWN
-                            && e.getButtonState() == MotionEvent.BUTTON_PRIMARY) {
+                            && isPrimaryKey(e.getButtonState())) {
                         vh.itemView.requestFocus();
                         v.dispatchKeyEvent(new KeyEvent(KeyEvent.ACTION_DOWN,
                                 KeyEvent.KEYCODE_DPAD_CENTER));
                         return true;
                     } else if (e.getActionMasked() == MotionEvent.ACTION_UP
-                            && e.getButtonState() == MotionEvent.BUTTON_PRIMARY) {
+                            && isPrimaryKey(e.getButtonState())) {
                         v.dispatchKeyEvent(new KeyEvent(KeyEvent.ACTION_UP,
                                 KeyEvent.KEYCODE_DPAD_CENTER));
                         return true;
@@ -315,5 +315,12 @@ public abstract class SettingsPreferenceFragment extends InstrumentedPreferenceF
     /** Subclasses should override this to use their own PageId for statsd logging. */
     protected int getPageId() {
         return TvSettingsEnums.PAGE_CLASSIC_DEFAULT;
+    }
+
+    // check if such motion event should translate to key event DPAD_CENTER
+    private boolean isPrimaryKey(int buttonState) {
+        return buttonState == MotionEvent.BUTTON_PRIMARY
+                || buttonState == MotionEvent.BUTTON_STYLUS_PRIMARY
+                || buttonState == 0;  // motion events which creates by UI Automator
     }
 }
