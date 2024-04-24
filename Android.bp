@@ -131,6 +131,9 @@ android_app {
 android_app {
     name: "TvSettingsTwoPanel",
     manifest: "Settings/AndroidManifest.xml",
+    dex_preopt: {
+        profile: "two-panel-baseline-profile.txt",
+    },
     srcs: [
         ":TvSettingsSrc",
     ],
