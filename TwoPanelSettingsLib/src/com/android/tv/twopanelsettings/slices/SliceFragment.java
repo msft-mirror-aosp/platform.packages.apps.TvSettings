@@ -501,6 +501,8 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
             return oldPref instanceof EmbeddedSlicePreference
                     && Objects.equals(((EmbeddedSlicePreference) newPref).getUri(),
                     ((EmbeddedSlicePreference) oldPref).getUri());
+        } else if (oldPref instanceof EmbeddedSlicePreference) {
+            return false;
         }
 
         return newPref.getKey() != null && newPref.getKey().equals(oldPref.getKey());

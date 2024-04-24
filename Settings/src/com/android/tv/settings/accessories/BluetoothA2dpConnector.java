@@ -28,6 +28,8 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 
+import java.util.List;
+
 public class BluetoothA2dpConnector implements BluetoothDevicePairer.BluetoothConnector {
 
     public static final String TAG = "BluetoothA2dpConnector";
@@ -51,8 +53,14 @@ public class BluetoothA2dpConnector implements BluetoothDevicePairer.BluetoothCo
         public void handleMessage(Message m) {
             switch (m.what) {
                 case MSG_CONNECT_TIMEOUT:
-                    Log.w(TAG, "handleMessage(MSG_CONNECT_TIMEOUT)");
-                    failed();
+                    if (isTargetConnected()) { // False timeout
+                        mA2dpProfile.setConnectionPolicy(mTarget,
+                                BluetoothProfile.CONNECTION_POLICY_ALLOWED);
+                        succeeded();
+                    } else {
+                        Log.w(TAG, "handleMessage(MSG_CONNECT_TIMEOUT)");
+                        failed();
+                    }
                     break;
                 case MSG_CONNECT:
                     if (mA2dpProfile == null) {
@@ -149,6 +157,13 @@ public class BluetoothA2dpConnector implements BluetoothDevicePairer.BluetoothCo
                     +
                     ", ...): Connecting to target: " + mTarget.getAddress());
 
+            if (isTargetConnected()) { // Already connected, no need to wait.
+                mA2dpProfile.setConnectionPolicy(mTarget,
+                        BluetoothProfile.CONNECTION_POLICY_ALLOWED);
+                succeeded();
+                return;
+            }
+
             registerConnectionStateReceiver();
             // We initiate SDP because connecting to A2DP before services are discovered leads to
             // error.
@@ -211,4 +226,12 @@ public class BluetoothA2dpConnector implements BluetoothDevicePairer.BluetoothCo
         }
     }
 
+    private boolean isTargetConnected() {
+        if (mA2dpProfile == null) {
+            return false;
+        }
+
+        List<BluetoothDevice> connectedDevices = mA2dpProfile.getConnectedDevices();
+        return connectedDevices.contains(mTarget);
+    }
 }
