@@ -92,7 +92,7 @@
     <!-- Main Fragment General Settings Preferences -->
     <skip />
     <!-- Title for main screen preference for accounts on device [CHAR LIMIT=50] -->
-    <string name="accounts_category_title">Accounts &amp; sign-in</string>
+    <string name="accounts_category_title">Accounts &amp; Profiles</string>
     <!-- Summary for main screen preference for accounts on device indicates no account is signed in[CHAR LIMIT=50] -->
     <string name="accounts_category_summary_no_account">No accounts</string>
     <!-- Summary for main screen preference for accounts on device indicates several accounts are signed in[CHAR LIMIT=50] -->
@@ -2663,7 +2663,7 @@
     <!-- Package name of slice rendering app -->
     <string name="slice_rendering_app" translatable="false"/>
 
-    <!-- Slice uri for "Accounts & Sign in" -->
+    <!-- Slice uri for "Accounts & Profiles" -->
     <string name="account_slice_uri" translatable="false"/>
     <!-- Slice uri and title for manange user services settings -->
     <string name="manage_user_services_slice_uri" translatable="false" />
