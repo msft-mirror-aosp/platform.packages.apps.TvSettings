@@ -45,7 +45,8 @@
     <string name="header_category_personal" msgid="7880053929985150368">"شخصي"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"الاتصال بالشبكة"</string>
     <string name="add_an_account" msgid="2601275122685226096">"إضافة حساب"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"الحسابات وتسجيل الدخول"</string>
+    <!-- no translation found for accounts_category_title (6645304075809033585) -->
+    <skip />
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"ليست هناك حسابات."</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{حساب واحد}zero{# حساب}two{حسابان}few{# حسابات}many{# حسابًا}other{# حساب}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"خدمات الوسائط و\"مساعد Google\" والدفعات"</string>

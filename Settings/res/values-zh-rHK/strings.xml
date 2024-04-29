@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"個人"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"連線至網絡"</string>
     <string name="add_an_account" msgid="2601275122685226096">"新增帳戶"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"帳戶和登入"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"帳戶和個人檔案"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"沒有任何帳戶"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# 個帳戶}other{# 個帳戶}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"媒體服務、Google 助理、付款"</string>
