@@ -45,7 +45,8 @@
     <string name="header_category_personal" msgid="7880053929985150368">"පෞද්ගලික"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ජාලයට සබැඳීම"</string>
     <string name="add_an_account" msgid="2601275122685226096">"ගිණුමක් එක් කරන්න"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"ගිණුම් සහ පුරනය වීම"</string>
+    <!-- no translation found for accounts_category_title (6645304075809033585) -->
+    <skip />
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"ගිණුම් නොමැත"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{ගිණුම් #}one{ගිණුම් #}other{ගිණුම් #}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"මාධ්‍ය සේවා, සහකරු, ගෙවීම්"</string>
