@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Osebno"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Vzpostavitev povezave z omrežjem"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Dodajanje računa"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Računi in prijava"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Računi in profili"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Ni računov"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# račun}one{# račun}two{# računa}few{# računi}other{# računov}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Predstavnostne storitve, Pomočnik, Google Payments"</string>
