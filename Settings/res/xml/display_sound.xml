@@ -63,6 +63,11 @@
         custom:uri="@string/default_audio_output_settings_slice_uri"
         custom:isPreferenceVisible="false" />
     <Preference
+        android:key="volume_change"
+        android:title="@string/volume_change_settings_title"
+        android:fragment="com.android.tv.settings.device.displaysound.VolumeChangePreferenceFragment"
+        custom:isPreferenceVisible="false" />
+    <Preference
         android:key="advanced_sound_settings"
         android:title="@string/advanced_sound_settings_title"
         android:fragment="com.android.tv.settings.device.displaysound.AdvancedVolumeFragment" />
