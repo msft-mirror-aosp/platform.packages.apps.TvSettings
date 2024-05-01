@@ -95,6 +95,8 @@
     <string-array name="config_preinstalled_screen_reader_services" translatable="false">
         <item>@string/accessibility_screen_reader_flattened_component_name</item>
     </string-array>
+    <!-- Disable to hide Color Correction on devices that don't support it. -->
+    <bool name="config_showAccessibilityColorCorrection">true</bool>
 
     <!-- List containing the component names of pre-installed display services. -->
     <string-array name="config_preinstalled_display_services" translatable="false">
