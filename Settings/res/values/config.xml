@@ -85,6 +85,10 @@
             android.view.Display.HdrCapabilities.HDR_TYPE_HDR10_PLUS -->
     <integer name="hdr10plus">4</integer>
 
+    <!-- Whether to show sub-HD resolutions, where HD is any resolution with a height greater than or
+            equal to 720. -->
+    <bool name="config_showSubHdResolutions">true</bool>
+
     <!-- Determines whether the device should optimise wifi scanning. -->
     <bool name="wifi_scan_optimisation_enabled">false</bool>
 
