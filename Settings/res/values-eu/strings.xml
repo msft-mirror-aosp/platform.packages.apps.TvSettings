@@ -45,7 +45,8 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Pertsonala"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Konektatu sarera"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Gehitu kontu bat"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Kontuak eta saio-hasiera"</string>
+    <!-- no translation found for accounts_category_title (6645304075809033585) -->
+    <skip />
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Ez dago konturik"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# kontu}other{# kontu}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Multimedia-zerbitzuak, Laguntzailea, ordainketak"</string>
@@ -551,7 +552,7 @@
     <string name="storage_no_apps" msgid="95566375753627272">"Ez dago babeskopiak egiteko aplikaziorik"</string>
     <string name="storage_forget" msgid="4671975563260507003">"Ahaztu gailuaren memoria hau"</string>
     <string name="storage_forget_wall_of_text" msgid="230454348256179142">"Unitate honetako aplikazioak edo datuak erabili ahal izateko, konekta ezazu berriro. Bestela, gailua erabilgarri ez badago, memoria ahaztea aukera dezakezu.\n\n\"Ahaztu\" aukeratzen baduzu, betiko galduko dira unitatean dauden datu guztiak.\n\nGeroago instala ditzakezu berriro aplikazioak, baina galdu egingo dira unitatean gordeta dauden datuak."</string>
-    <string name="storage_device_storage_section" msgid="22958375769694027">"Gailuaren memoria"</string>
+    <string name="storage_device_storage_section" msgid="22958375769694027">"Gailuko biltegia"</string>
     <string name="storage_removable_storage_section" msgid="280332107650735088">"Memoria aldagarria"</string>
     <string name="storage_reset_section" msgid="3896575204828589494">"Berrezarri"</string>
     <string name="storage_free_up" msgid="5719667150891467122">"Egin tokia"</string>
