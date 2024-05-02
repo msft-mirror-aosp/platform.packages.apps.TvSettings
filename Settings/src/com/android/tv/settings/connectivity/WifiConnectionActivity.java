@@ -179,8 +179,8 @@ public class WifiConnectionActivity extends InstrumentedActivity implements
                 wifiEntry.isSaved()
                 ? wifiEntry.getWifiConfiguration()
                 : WifiConfigHelper.getConfiguration(wifiEntry.getSsid(),
-                        wifiEntry.getSecurity()));
-        userChoiceInfo.setWifiSecurity(wifiEntry.getSecurity());
+                        AccessPoint.getSecurity(wifiEntry)));
+        userChoiceInfo.setWifiSecurity(AccessPoint.getSecurity(wifiEntry));
 
         if (wifiEntry.shouldEditBeforeConnect()) {
             mStateMachine.setStartState(mEnterPasswordState);

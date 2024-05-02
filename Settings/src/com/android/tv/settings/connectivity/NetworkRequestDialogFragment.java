@@ -479,7 +479,7 @@ public class NetworkRequestDialogFragment extends ObservableDialogFragment imple
          */
         public void updateKeys(List<ScanResult> scanResults) {
             for (ScanResult scanResult : scanResults) {
-                final String key = AccessPoint.getKey(mContext, scanResult);
+                final String key = AccessPoint.getKey(scanResult);
                 if (!mAccessPointKeys.contains(key)) {
                     mAccessPointKeys.add(key);
                 }

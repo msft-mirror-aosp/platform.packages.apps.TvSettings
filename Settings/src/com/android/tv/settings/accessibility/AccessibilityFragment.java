@@ -150,10 +150,15 @@ public class AccessibilityFragment extends SettingsPreferenceFragment {
                 getContext().getContentResolver(),
                 Settings.Secure.FONT_WEIGHT_ADJUSTMENT, 0) == BOLD_TEXT_ADJUSTMENT);
 
-        Preference colorCorrectionPreferenceToSetVisible = FlavorUtils.isTwoPanel(getContext())
-                ? (Preference) findPreference(COLOR_CORRECTION_TWOPANEL_KEY)
-                : (Preference) findPreference(COLOR_CORRECTION_CLASSIC_KEY);
-        colorCorrectionPreferenceToSetVisible.setVisible(true);
+        if (getContext()
+                .getResources()
+                .getBoolean(R.bool.config_showAccessibilityColorCorrection)) {
+            Preference colorCorrectionPreferenceToSetVisible =
+                    FlavorUtils.isTwoPanel(getContext())
+                            ? (Preference) findPreference(COLOR_CORRECTION_TWOPANEL_KEY)
+                            : (Preference) findPreference(COLOR_CORRECTION_CLASSIC_KEY);
+            colorCorrectionPreferenceToSetVisible.setVisible(true);
+        }
 
         mServicesPrefCategory = findPreference(AccessibilityCategory.SERVICES.getKey());
         mControlsPrefCategory = findPreference(AccessibilityCategory.INTERACTION_CONTROLS.getKey());
