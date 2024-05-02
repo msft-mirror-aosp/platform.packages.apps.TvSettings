@@ -157,7 +157,12 @@ public class ResolutionSelectionFragment extends PreferenceControllerFragment {
         pref.getExtras().putIntArray(HDR_TYPES_ARRAY, mAutoMode.getSupportedHdrTypes());
         mResolutionPreferenceCategory.addPreference(pref);
 
+        final boolean showSubHdRes =
+                getContext().getResources().getBoolean(R.bool.config_showSubHdResolutions);
         for (int i = 0; i < mModes.length; i++) {
+            if (!showSubHdRes && mModes[i].getPhysicalHeight() < 720) {
+                continue;
+            }
             mResolutionPreferenceCategory.addPreference(createResolutionPreference(mModes[i], i));
         }
     }
