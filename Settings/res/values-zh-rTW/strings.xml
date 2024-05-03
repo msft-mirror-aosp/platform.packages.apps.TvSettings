@@ -1028,7 +1028,7 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"管理鍵盤"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"允許"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"不允許"</string>
-    <string name="usage_access" msgid="8402350645248312782">"使用存取權"</string>
+    <string name="usage_access" msgid="8402350645248312782">"用量資料存取權"</string>
     <string name="usage_access_description" msgid="3276026988575551587">"具有使用存取權的應用程式可以追蹤你使用的其他應用程式與頻率，以及你的電信業者、語言設定等詳情。"</string>
     <string name="high_power_apps" msgid="5841073958519976562">"用電量最佳化"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"最佳化應用程式用電量"</string>

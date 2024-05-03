@@ -377,8 +377,8 @@
     <string name="about_ads" msgid="7662896442040086522">"ကြော်ငြာများ"</string>
     <string name="ads_description" msgid="8081069475265061074">"သင့်ကြော်ငြာ ID ကို ပြင်ဆင်သတ်မှတ်ခြင်းကဲ့သို့ ကြော်ငြာဆက်တင်များကို စီမံပါ။"</string>
     <string name="ads_content_description" msgid="1006489792324920289">"ကြော်ငြာများ၊ သင့်ကြော်ငြာ ID ကို ပြင်ဆင်သတ်မှတ်ခြင်းကဲ့သို့ ကြော်ငြာဆက်တင်များကို စီမံသည်။"</string>
-    <string name="show_dev_on" msgid="612741433124106067">"သင်သည် ယခု ဆော့ဖ်ဝဲအင်ဂျင်နီယာ တစ်ဦး ဖြစ်နေပါပြီ။"</string>
-    <string name="show_dev_already" msgid="1522591284776449818">"မလိုတော့ပါ၊ သင်သည် ပြုစုသူ တစ်ယောက် ဖြစ်နေပါပြီ။"</string>
+    <string name="show_dev_on" msgid="612741433124106067">"သင်သည် ယခု ဆော့ဖ်ဝဲရေးသူ ဖြစ်နေပါပြီ။"</string>
+    <string name="show_dev_already" msgid="1522591284776449818">"မလိုတော့ပါ။ သင်သည် ဆော့ဖ်ဝဲရေးသူ ဖြစ်ပြီးသားပါ။"</string>
     <string name="device_info_default" msgid="2374506935205518448">"အမည်မသိ"</string>
     <string name="selinux_status" msgid="1146662734953021410">"SELinux အခြေအနေ"</string>
     <string name="selinux_status_disabled" msgid="4027105362332795142">"ပိတ်ထားသည်"</string>
@@ -812,7 +812,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"ဟာ့ဒ်ဝဲ အလွှာများကို မွမ်းမံ ချိန်မှာ အစိမ်းရောင်ဖြင့် လင်းပြရန်"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"အကောင်းဆုံးမှ အဆိုးဆုံးဆီသို့: အပြာ၊ အစိမ်း၊ အနီဖျော့၊ အနီ"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"ဝင်ဒိုး မျက်နှာပြင်များ တစ်ခုလုံးကို မွမ်းမံ နေချိန်မှာ လင်းပြရန်"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"အက်ပ်များက ပင်မ အမျှင်တန်းမှာ ရေရှည် လုပ်ငန်းများ လုပ်ကိုင်နေချိန်မှာ မျက်နှာပြင်ကို လင်းပြရန်"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"အက်ပ်လုပ်ဆောင်မှု ရှည်ကြာလျှင် စကရင်ပြန်စသည်"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"adb အခွံ dumpsys gfxinfo ထဲက တင်ဆက်မှု အချိန်ကို တိုင်းထွာသည်။"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"မသိရသော ရင်းမြစ်များ"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Play စတိုး မဟုတ်သည့် အခြား အရင်းအမြစ်များမှ အက်ပ်များ တပ်ဆင်မှုကို ခွင့်ပြုရန်"</string>
