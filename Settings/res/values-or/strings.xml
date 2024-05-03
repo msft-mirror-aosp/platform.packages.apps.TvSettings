@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"ବ୍ୟକ୍ତିଗତ"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ନେଟ୍‌ୱର୍କ ସହ ସଂଯୋଗ କରନ୍ତୁ"</string>
     <string name="add_an_account" msgid="2601275122685226096">"ଗୋଟିଏ ଆକାଉଣ୍ଟ ଯୋଡ଼ନ୍ତୁ"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"ଆକାଉଣ୍ଟ ଏବଂ ପ୍ରୋଫାଇଲଗୁଡ଼ିକ"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"କୌଣସି ଆକାଉଣ୍ଟ ନାହିଁ"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{#ଟି ଆକାଉଣ୍ଟ}other{#ଟି ଆକାଉଣ୍ଟ}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"ମିଡିଆ ସେବାଗୁଡ଼ିକ, Assistant, Payments"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ଆପଣଙ୍କ Google TVରେ ଏକ ବଟନ ଅଛି ଯାହାକୁ ଆପଣ ଆପଣଙ୍କ ରିମୋଟରେ 30 ସେକେଣ୍ଡ ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରିବା ନିମନ୍ତେ ପୁସ କରିପାରିବେ। ଏହା କେବଳ ସମର୍ଥିତ Google TV ରିମୋଟ କଣ୍ଟ୍ରୋଲଗୁଡ଼ିକରେ କାର୍ଯ୍ୟ କରେ।\n\nସାଉଣ୍ଡ ବନ୍ଦ କରିବାକୁ ଆପଣଙ୍କ ରିମୋଟରେ ଯେ କୌଣସି ବଟନ ଦବାନ୍ତୁ।"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"ଯେତେବେଳେ \'ମୋ ରିମୋଟ ଖୋଜନ୍ତୁ\'କୁ ସକ୍ଷମ କରାଯାଏ, ସେତେବେଳେ ଯଦି ଆପଣଙ୍କ Google TV ରିମୋଟକୁ ଭୁଲ ସ୍ଥାନରେ ରଖାଯାଇଥାଏ ତେବେ ଏହାକୁ ଖୋଜିବା ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରନ୍ତୁ।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ସାଉଣ୍ଡ ପ୍ଲେ କରନ୍ତୁ"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ଭଲ୍ୟୁମ"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ଆପଣ %1$s ସ୍ପିକରରେ Assistant ଭଲ୍ୟୁମକୁ ନିୟନ୍ତ୍ରଣ କରିପାରିବ"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"କେବଳ %1$s ଡିଭାଇସରେ ଭଲ୍ୟୁମକୁ ପ୍ରଭାବିତ କରେ, ଟିଭିରେ ନୁହେଁ"</string>
 </resources>

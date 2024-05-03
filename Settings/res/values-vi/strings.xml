@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Cá nhân"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Kết nối mạng"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Thêm tài khoản"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Tài khoản và hồ sơ"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Không có tài khoản nào"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# tài khoản}other{# tài khoản}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Dịch vụ nghe nhìn, Trợ lý, Payments"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Trên Google TV có nút nhấn để phát chuông báo trên điều khiển từ xa trong vòng 30 giây. Tính năng này chỉ hoạt động với các loại điều khiển từ xa được hỗ trợ của Google TV.\n\nNếu bạn muốn dừng chuông báo, hãy nhấn nút bất kỳ trên điều khiển từ xa."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Khi tính năng Tìm điều khiển từ xa đã bật, bạn có thể phát chuông báo để tìm điều khiển từ xa của Google TV nếu bạn không nhớ chỗ để."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Phát chuông báo"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Âm lượng %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Bạn có thể kiểm soát âm lượng của Trợ lý trên loa %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Chỉ ảnh hưởng đến âm lượng trên thiết bị %1$s chứ không ảnh hưởng đến TV"</string>
 </resources>

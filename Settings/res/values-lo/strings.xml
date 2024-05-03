@@ -1148,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ມີປຸ່ມຢູ່ Google TV ຂອງທ່ານທີ່ທ່ານສາມາດກົດເພື່ອຫຼິ້ນສຽງຢູ່ຣີໂໝດຂອງທ່ານເປັນເວລາ 30 ວິນາທີ. ສິ່ງນີ້ໃຊ້ໄດ້ກັບຣີໂໝດຂອງ Google TV ທີ່ຮອງຮັບເທົ່ານັ້ນ.\n\nເພື່ອຢຸດສຽງ, ໃຫ້ກົດປຸ່ມໃດກໍໄດ້ຢູ່ຣີໂໝດຂອງທ່ານ."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"ເມື່ອເປີດການນຳໃຊ້ຊອກຫາຣີໂໝດຂອງຂ້ອຍ, ທ່ານສາມາດຫຼິ້ນສຽງເພື່ອຊອກຫາຣີໂໝດ Google TV ຂອງທ່ານໄດ້ຫາກວາງໄວ້ຜິດບ່ອນ."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ຫຼິ້ນສຽງ"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"ລະດັບສຽງຂອງ %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ທ່ານສາມາດຄວບຄຸມລະດັບສຽງຜູ້ຊ່ວຍຢູ່ລຳໂພງ %1$s ໄດ້"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"ມີຜົນກັບລະດັບສຽງຢູ່ອຸປະກອນ %1$s ເທົ່ານັ້ນ, ບໍ່ມີຜົນກັບໂທລະທັດ"</string>
 </resources>

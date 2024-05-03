@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personligt"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Anslut till ett nätverk"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Lägg till ett konto"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Konton och profiler"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Inga konton"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# konto}other{# konton}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Medietjänster, Assistent, betalningar"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Det finns en knapp på din Google TV som du kan trycka på för att spela upp ett ljud på fjärrkontrollen under 30 sekunder. Detta fungerar bara med Google TV-fjärrkontroller som stöds.\n\nStäng av ljudet genom att trycka på valfri knapp på fjärrkontrollen."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"När Hitta min fjärrkontroll är aktiverat kan du spela upp ett ljud för att hitta Google TV-fjärrkontrollen om den kommer bort."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spela upp ljud"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volym"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Du kan styra volymen för assistenten på %1$s högtalare"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Påverkar bara volymen på %1$s enhet, inte på tv:n"</string>
 </resources>

@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"የግል"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ከአውታረ መረብ ጋር ይገናኙ"</string>
     <string name="add_an_account" msgid="2601275122685226096">"መለያ ያክሉ"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"መለያዎች እና መገለጫዎች"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"ምንም መለያዎች የለም"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# መለያ}one{# መለያዎች}other{# መለያዎች}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"የሚዲያ አገልግሎቶች፣ ረዳት፣ ክፍያዎች"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"በእርስዎ Google ቲቪ ላይ ለ30 ሰከንዶች በርቀት መቆጣጠሪያዎ ላይ ድምፅን ለማጫወት መግፋት የሚችሉት አዝራር አለ። ይህ የሚሠራው በሚደገፉ የGoogle ቲቪ የርቀት መቆጣጠሪያዎች ብቻ ነው።\n\nድምፁን ለማስቆም በርቀት መቆጣጠሪያዎ ላይ ያለ ማንኛውንም አዝራር ይጫኑ።"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"የእኔን የርቀት መቆጣጠሪያ አግኝ ሲነቃ የGoogle ቲቪ የርቀት መቆጣጠሪያዎ ያለ ቦታው ተቀምጦ ከሆነ ለማግኘት ድምፅን ማጫወት ይችላሉ።"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ድምፅ አጫውት"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s የድምፅ መጠን"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s ድምፅ ማውጫ ላይ የረዳት የድምፅ መጠኑን መቆጣጠር ይችላሉ"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"የድምፅ መጠን ላይ ተጽዕኖ የሚያደርገው ቲቪ ላይ ሳይሆን %1$s መሣሪያ ላይ ነው"</string>
 </resources>
