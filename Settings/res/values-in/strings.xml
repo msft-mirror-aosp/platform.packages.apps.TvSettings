@@ -377,8 +377,8 @@
     <string name="about_ads" msgid="7662896442040086522">"Iklan"</string>
     <string name="ads_description" msgid="8081069475265061074">"Kelola setelan iklan, seperti mereset ID iklan."</string>
     <string name="ads_content_description" msgid="1006489792324920289">"Iklan, Kelola setelan iklan, seperti mereset ID iklan."</string>
-    <string name="show_dev_on" msgid="612741433124106067">"Sekarang Anda adalah seorang pengembang!"</string>
-    <string name="show_dev_already" msgid="1522591284776449818">"Tidak perlu, Anda sudah menjadi pengembang"</string>
+    <string name="show_dev_on" msgid="612741433124106067">"Anda sekarang berada di mode developer!"</string>
+    <string name="show_dev_already" msgid="1522591284776449818">"Tidak perlu, Anda sudah berada di mode developer"</string>
     <string name="device_info_default" msgid="2374506935205518448">"Tidak diketahui"</string>
     <string name="selinux_status" msgid="1146662734953021410">"Status SELinux"</string>
     <string name="selinux_status_disabled" msgid="4027105362332795142">"Nonaktif"</string>
@@ -812,7 +812,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"Buat lapisan hardware berkedip hijau saat update"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"Terbaik-terburuk: biru, hijau, merah terang, merah"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"Buat seluruh permukaan jendela berkedip saat diperbarui"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Buat layar berkedip saat aplikasi berjalan lama di thread utama"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Buat layar berkedip saat aplikasi berlama-lama menjalankan operasi di thread utama"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"Mengukur waktu rendering di adb shell dumpsys gfxinfo"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"Sumber tidak dikenal"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Izinkan penginstalan aplikasi dari sumber selain Google Play Store"</string>

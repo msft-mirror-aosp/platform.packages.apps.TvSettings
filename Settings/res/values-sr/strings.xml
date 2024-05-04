@@ -535,7 +535,7 @@
     <string name="storage_calculating_size" msgid="5716281278843281044">"Прорачунавање..."</string>
     <string name="storage_apps_usage" msgid="8659915575274468924">"Апликације"</string>
     <string name="storage_downloads_usage" msgid="8429196848359517158">"Преузимања"</string>
-    <string name="storage_dcim_usage" msgid="1890098882753254745">"Слике и видео снимци"</string>
+    <string name="storage_dcim_usage" msgid="1890098882753254745">"Слике и видеи"</string>
     <string name="storage_music_usage" msgid="5362871290115089474">"Аудио"</string>
     <string name="storage_media_misc_usage" msgid="3404230292054880339">"Разно"</string>
     <string name="storage_media_cache_usage" msgid="6397941751551207630">"Кеширани подаци"</string>
