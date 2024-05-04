@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"개인"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"네트워크에 연결"</string>
     <string name="add_an_account" msgid="2601275122685226096">"계정 추가"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"계정 및 프로필"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"계정 없음"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{계정 #개}other{계정 #개}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"미디어 서비스, 어시스턴트, 결제"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV에 있는 버튼을 누르면 리모컨에서 30초 동안 소리가 울립니다. 이 기능은 지원되는 Google TV 리모컨에서만 작동합니다.\n\n소리 재생을 중지하려면 리모컨의 아무 버튼이나 누르세요."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"내 리모컨 찾기를 사용 설정하면 리모컨을 어디 두었는지 찾을 수 없을 때 소리를 재생하여 Google TV 리모컨을 찾을 수 있습니다."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"소리 재생"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s 볼륨"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s 스피커의 어시스턴트 볼륨을 제어할 수 있습니다"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"TV가 아닌 %1$s 기기 볼륨에만 영향을 줍니다"</string>
 </resources>

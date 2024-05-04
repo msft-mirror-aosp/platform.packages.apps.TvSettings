@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personal"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Conectează-te la rețea"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Adaugă un cont"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Conturi și profiluri"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Niciun cont"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# cont}few{# conturi}other{# de conturi}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Servicii media, Asistent, Plăți"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Există un buton pe Google TV pe care îl poți apăsa ca să redai un sunet pe telecomandă timp de 30 de secunde. Opțiunea funcționează numai pentru telecomenzile Google TV acceptate.\n\nCa să oprești sunetul, apasă orice buton de pe telecomandă."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Când se activează funcția Găsește-mi telecomanda, poți reda un sunet ca să-ți găsești telecomanda Google TV dacă ai pierdut-o."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Redă sunetul"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volumul pentru %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Poți controla volumul Asistentului la difuzorul %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Afectează numai volumul dispozitivului %1$s, nu și al televizorului"</string>
 </resources>

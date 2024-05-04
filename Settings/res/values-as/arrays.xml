@@ -89,4 +89,16 @@
     <item msgid="3665868694672130423">"MSCHAPV2"</item>
     <item msgid="1778635393795831325">"GTC"</item>
   </string-array>
+  <string-array name="volume_change_entries">
+    <item msgid="8475727172583493318">"মিউট কৰক"</item>
+    <item msgid="2508680062291793288">"নিম্ন (২০%)"</item>
+    <item msgid="2483057103949558629">"মধ্যমীয়া (৫০%)"</item>
+    <item msgid="6278092586736538014">"উচ্চ (৮০%)"</item>
+  </string-array>
+  <string-array name="volume_change_entry_values">
+    <item msgid="685431465640328190">"০"</item>
+    <item msgid="3948049660167106381">"০.২"</item>
+    <item msgid="3441480529755779159">"০.৫"</item>
+    <item msgid="4571900814286671092">"০.৮"</item>
+  </string-array>
 </resources>

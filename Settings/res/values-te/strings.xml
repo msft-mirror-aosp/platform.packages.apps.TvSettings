@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"వ్యక్తిగతం"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"నెట్‌వర్క్‌కి కనెక్ట్ చేయండి"</string>
     <string name="add_an_account" msgid="2601275122685226096">"ఖాతాను జోడించండి"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"ఖాతాలు, ప్రొఫైల్స్"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"ఖాతాలు లేవు"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# ఖాతా}other{# ఖాతాలు}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"మీడియా సర్వీస్‌లు, Assistant, పేమెంట్‌లు"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"మీ రిమోట్‌లో 30 సెకన్ల పాటు ధ్వనిని ప్లే చేయడానికి మీ Google TVలో ఒక బటన్ ఉంటుంది. సపోర్ట్ చేసే Google TV రిమోట్ కంట్రోల్స్‌తో మాత్రమే ఇది పని చేస్తుంది.\n\nసౌండ్‌ను ఆపివేయడానికి, మీ రిమోట్‌లో ఏదైనా బటన్‌ను నొక్కండి."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'నా రిమోట్‌ను కనుగొనండి\' ఫీచర్‌ను ఎనేబుల్ చేసినప్పుడు, మీ Google TV రిమోట్ మిస్‌ప్లేస్ చేయబడితే దాన్ని గుర్తించడానికి మీరు సౌండ్‌ను ప్లే చేయవచ్చు."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"సౌండ్‌ను ప్లే చేయండి"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s వాల్యూమ్"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"మీరు %1$s స్పీకర్‌లో Assistant వాల్యూమ్‌ను కంట్రోల్ చేయవచ్చు"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"%1$s పరికరానికి సంబంధించిన వాల్యూమ్‌ను మాత్రమే ప్రభావితం చేస్తుంది , టీవీ వాల్యూమ్‌ను ప్రభావితం చేయదు"</string>
 </resources>

@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personligt"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Opret forbindelse til netværk"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Tilføj en konto"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Konti og profiler"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Der er ingen konti"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# konto}one{# konto}other{# konti}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Medietjenester, assistent, betalinger"</string>
@@ -1150,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Der er en knap på dit Google TV, som du kan trykke på for at afspille en lyd på din fjernbetjening i 30 sekunder. Dette virker kun på understøttede Google TV-fjernbetjeninger.\n\nTryk på en vilkårlig knap på fjernbetjeningen for at stoppe lyden."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Når Find min fjernbetjening er aktiveret, kan du afspille en lyd for at finde din fjernbetjening til Google TV, hvis den er blevet væk."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Afspil lyd"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Lydstyrke på %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Du kan styre lydstyrken for Assistent via %1$s-højttaleren"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Påvirker kun lydstyrken på %1$s-enheden og ikke på fjernsynet"</string>
 </resources>

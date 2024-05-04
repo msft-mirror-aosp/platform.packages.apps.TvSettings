@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"个人"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"连接到网络"</string>
     <string name="add_an_account" msgid="2601275122685226096">"添加账号"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"账号与个人资料"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"未登录任何账号"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# 个账号}other{# 个账号}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"媒体服务、Google 助理、付款功能"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV 上有一个按钮，按下后遥控器会响铃 30 秒钟。此操作仅对支持的 Google TV 遥控器有效。\n\n若要停止响铃，请按下遥控器上的任意按钮。"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"当“查找我的遥控器”处于启用状态时，您可让找不到的 Google TV 遥控器响铃，从而定位它。"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"响铃"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s的音量"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"您可以控制%1$s音箱上 Google 助理的音量"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"仅影响%1$s设备（而非电视）的音量"</string>
 </resources>

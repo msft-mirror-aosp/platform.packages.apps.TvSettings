@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"व्यक्तिगत"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"नेटवर्कमा कनेक्ट गर्नुहोस्"</string>
     <string name="add_an_account" msgid="2601275122685226096">"खाता हाल्नुहोस्"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"खाता तथा प्रोफाइलहरू"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"कुन पनि खाता छैन"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# खाता}other{# वटा खाता}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"मिडिया सेवा, सहायक, भुक्तानी"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"तपाईं आफ्नो रिमोटमा ३० सेकेन्डसम्म साउन्ड बजाउन Google TV मा भएको बटन थिच्न सक्नुहुन्छ। यो Google TV का रिमोट कन्ट्रोलहरू प्रयोग गरी मात्र चलाउन मिल्छ।\n\nयो साउन्ड बन्द गर्न आफ्नो रिमोटको कुनै पनि बटन थिच्नुहोस्।"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\"मेरो रिमोट भेट्टाइयोस्\" अन गरिएका बेला तपाईंको Google TV रिमोट हराएका खण्डमा तपाईं उक्त रिमोट भेट्टाउन कुनै साउन्ड प्ले गर्न सक्नुहुन्छ।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"साउन्ड प्ले गर्नुहोस्"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s भोल्युम"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"तपाईं %1$s स्पिकरमा सहायकको भोल्युम नियन्त्रण गर्न सक्नुहुन्छ"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"यसबाट %1$s डिभाइसको भोल्युम मात्र प्रभावित हुन्छ , टिभीको हुँदैन"</string>
 </resources>

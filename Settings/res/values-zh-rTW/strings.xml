@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"個人"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"連線至網路"</string>
     <string name="add_an_account" msgid="2601275122685226096">"新增帳戶"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"帳戶和個人資料"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"沒有任何帳戶"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# 個帳戶}other{# 個帳戶}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"媒體服務、Google 助理、付款功能"</string>
@@ -1034,7 +1033,7 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"管理鍵盤"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"允許"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"不允許"</string>
-    <string name="usage_access" msgid="8402350645248312782">"使用存取權"</string>
+    <string name="usage_access" msgid="8402350645248312782">"用量資料存取權"</string>
     <string name="usage_access_description" msgid="3276026988575551587">"具有使用存取權的應用程式可以追蹤你使用的其他應用程式與頻率，以及你的電信業者、語言設定等詳情。"</string>
     <string name="high_power_apps" msgid="5841073958519976562">"用電量最佳化"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"最佳化應用程式用電量"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV 有一個按鈕，按下即可讓遙控器播放音效 30 秒。這項功能僅適用於支援的 Google TV 遙控器。\n\n如要停止播放音效，請按下遙控器上的任一按鈕。"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"啟用「尋找我的遙控器」後，你可以讓忘記放在何處的 Google TV 遙控器發出音效，以便找出裝置。"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"播放音效"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"「%1$s」的音量"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"你可以控制「%1$s」揚聲器的 Google 助理音量"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"只會影響「%1$s」裝置的音量，電視不會受到影響"</string>
 </resources>

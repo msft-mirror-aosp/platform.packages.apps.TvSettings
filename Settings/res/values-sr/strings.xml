@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Лично"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Повежите се са мрежом"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Додајте налог"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Налози и профили"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Нема налога"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# налог}one{# налог}few{# налога}other{# налога}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Медијске услуге, Помоћник, Плаћања"</string>
@@ -537,7 +536,7 @@
     <string name="storage_calculating_size" msgid="5716281278843281044">"Прорачунавање..."</string>
     <string name="storage_apps_usage" msgid="8659915575274468924">"Апликације"</string>
     <string name="storage_downloads_usage" msgid="8429196848359517158">"Преузимања"</string>
-    <string name="storage_dcim_usage" msgid="1890098882753254745">"Слике и видео снимци"</string>
+    <string name="storage_dcim_usage" msgid="1890098882753254745">"Слике и видеи"</string>
     <string name="storage_music_usage" msgid="5362871290115089474">"Аудио"</string>
     <string name="storage_media_misc_usage" msgid="3404230292054880339">"Разно"</string>
     <string name="storage_media_cache_usage" msgid="6397941751551207630">"Кеширани подаци"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"На Google TV-у постоји дугме које можете да притиснете како бисте на даљинском пустили звук у трајању од 30 секунди. То функционише само на подржаним даљинским управљачима за Google TV.\n\nДа бисте зауставили овај звук, притисните било које дугме на даљинском."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Када је омогућена функција Пронађи мој даљински, можете да пустите звук да бисте лоцирали даљински управљач за Google TV ако сте га затурили."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Пусти звук"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Јачина звука: %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Можете да контролишете јачину звука за Помоћник на %1$s звучнику"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Утиче на звук само на %1$s уређају, не на ТВ-у"</string>
 </resources>

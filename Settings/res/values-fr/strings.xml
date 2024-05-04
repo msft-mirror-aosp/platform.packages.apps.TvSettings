@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personnel"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Se connecter au réseau"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Ajouter un compte"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Comptes et profils"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Aucun compte"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# compte}one{# compte}other{# comptes}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Services multimédias, Assistant, paiements"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Votre Google TV comporte un bouton sur lequel appuyer pour que votre télécommande émette un son pendant 30 secondes. Cela ne fonctionne que sur les télécommandes Google TV compatibles.\n\nPour arrêter le son, appuyez sur n\'importe quel bouton de la télécommande."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Lorsque \"Trouver ma télécommande\" est activé, vous pouvez émettre un son pour localiser votre télécommande Google TV si vous l\'avez égarée."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Émettre un son"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Vous pouvez contrôler le volume de l\'Assistant sur l\'enceinte %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"N\'affecte que le volume sur l\'appareil %1$s, pas sur la TV"</string>
 </resources>

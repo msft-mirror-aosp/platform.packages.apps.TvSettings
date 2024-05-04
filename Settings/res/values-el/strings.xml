@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Προσωπικό"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Σύνδεση σε δίκτυο"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Προσθήκη λογαριασμού"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Λογαριασμοί και προφίλ"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Δεν υπάρχουν λογαριασμοί"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# λογαριασμός}other{# λογαριασμοί}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Υπηρεσίες μέσων, Βοηθός, πληρωμές"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Υπάρχει ένα κουμπί στο Google TV που μπορείτε να πατήσετε για την αναπαραγωγή ενός ήχου στο τηλεχειριστήριο για 30 δευτερόλεπτα. Αυτό έχει αποτέλεσμα μόνο σε υποστηριζόμενα τηλεχειριστήρια Google TV.\n\nΓια να διακόψετε τον ήχο, πατήστε ένα κουμπί στο τηλεχειριστήριο."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Όταν είναι ενεργή η Εύρεση τηλεχειριστηρίου, μπορείτε να αναπαράγετε έναν ήχο για να εντοπίσετε το τηλεχειριστήριο του Google TV σε περίπτωση που το έχετε χάσει."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Αναπαραγωγή ήχου"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Ένταση %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Μπορείτε να ελέγξετε την ένταση του Βοηθού στο ηχείο %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Επηρεάζει μόνο την ένταση στη συσκευή %1$s, όχι στην τηλεόραση"</string>
 </resources>

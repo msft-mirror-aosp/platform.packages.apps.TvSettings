@@ -89,4 +89,16 @@
     <item msgid="3665868694672130423">"MSCHAPV2"</item>
     <item msgid="1778635393795831325">"GTC"</item>
   </string-array>
+  <string-array name="volume_change_entries">
+    <item msgid="8475727172583493318">"म्युट गर्नुहोस्"</item>
+    <item msgid="2508680062291793288">"न्यून (२०%)"</item>
+    <item msgid="2483057103949558629">"मध्यम (५०%)"</item>
+    <item msgid="6278092586736538014">"उच्च (८०%)"</item>
+  </string-array>
+  <string-array name="volume_change_entry_values">
+    <item msgid="685431465640328190">"0"</item>
+    <item msgid="3948049660167106381">"०.२"</item>
+    <item msgid="3441480529755779159">"०.५"</item>
+    <item msgid="4571900814286671092">"०.८"</item>
+  </string-array>
 </resources>

@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"व्यक्तिगत"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"नेटवर्क से कनेक्ट करें"</string>
     <string name="add_an_account" msgid="2601275122685226096">"कोई खाता जोड़ें"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"खाते और प्रोफ़ाइलें"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"कोई खाता नहीं है"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# खाता}one{# खाता}other{# खाते}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"मीडिया सेवाएं, Assistant, Google Payments"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"आपके Google TV पर एक ऐसा बटन होता है जिसे दबाने से रिमोट पर 30 सेकंड के लिए आवाज़ चलाई जा सकती है. ऐसा सिर्फ़ उन Google TV के रिमोट कंट्रोल पर किया जा सकता है जिन पर यह सुविधा काम करती है.\n\nसाउंड बंद करने के लिए, रिमोट के किसी भी बटन को दबाएं."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"अगर \'मेरा रिमोट ढूंढें\' सुविधा चालू है, तो Google TV रिमोट खो जाने पर उसका पता लगाने के लिए साउंड चलाया जा सकता है."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"साउंड चलाएं"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s आवाज़"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s स्पीकर पर Assistant की आवाज़ को कंट्रोल किया जा सकता है"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"इससे सिर्फ़ %1$s डिवाइस की आवाज़ पर असर पड़ता है , टीवी पर नहीं"</string>
 </resources>

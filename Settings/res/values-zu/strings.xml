@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Okomuntu siqu"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Xhuma kunethiwekhi"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Yengeza i-akhawunti"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Ama-akhawunti Namaphrofayela"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Awekho ama-akhawunti"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{i-akhawunti engu-#}one{ama-akhawunti angu-#}other{ama-akhawunti angu-#}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Amasevisi emediya, Umsizi, Izinkokhelo"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Kunenkinobho ku-Google TV yakho ongayicindezela ukuze udlale umsindo kurimothi yakho imizuzwana engu-30. Lokhu kusebenza kuphela ngezilawuli-kude ezisekelwayo ze-Google TV.\n\nUkuze umise umsindo, cindezela noma iyiphi inkinobho kurimothi yakho."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Uma okuthi Thola irimothi yami kunikwe amandla, ungadlala umsindo ukuze uthole irimothi yakho ye-Google TV uma ibekwe kabi."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Dlala umsindo"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ivolumu"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Ungalawula ivolumu yomsizi kusipikha se-%1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Ithinta kuphela ivolumu kudivayisi ye-%1$s, hhayi ku-TV"</string>
 </resources>

@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"தனிப்பட்டவை"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"நெட்வொர்க்குடன் இணை"</string>
     <string name="add_an_account" msgid="2601275122685226096">"கணக்கைச் சேர்"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"கணக்குகளும் சுயவிவரங்களும்"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"கணக்குகள் இல்லை"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# கணக்கு}other{# கணக்குகள்}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"மீடியா சேவைகள், Assistant, Payments"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"உங்கள் Google TVயில் ஒரு பட்டன் உள்ளது அதை அழுத்தினால் உங்கள் ரிமோட் 30 வினாடிகளுக்கு ஒலிக்கும். ஆதரிக்கப்படும் Google TV ரிமோட் கன்ட்ரோல்களில் மட்டுமே இது வேலை செய்யும்.\n\nஒலியை நிறுத்த, உங்கள் ரிமோட்டில் இருக்கும் ஏதேனும் ஒரு பட்டனை அழுத்தவும்."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"எனது ரிமோட்டைக் கண்டறிதல் அம்சம் இயக்கத்தில் இருக்கும்போது உங்கள் Google TV ரிமோட்டைத் தவறுதலாக வேறொரு இடத்தில் வைத்திருந்தால் ஒலியை இயக்கி அதைக் கண்டறியலாம்."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ஒலியை இயக்கு"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ஒலியளவு"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s ஸ்பீக்கரில் Assistantடின் ஒளியளவைக் கட்டுப்படுத்தலாம்"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"%1$s சாதனத்தில் மட்டுமே ஒலியளவை மாற்றும், டிவியில் மாற்றாது"</string>
 </resources>

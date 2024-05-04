@@ -1148,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV qurilmasida bosilganda pultni 30 soniya jiringlatadigan tugma mavjud. Bu faqat Google TV pultlarida ishlaydi.\n\nTovushni toʻxtatish uchun pultdagi istalgan tugmani bosing."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Pultimni top funksiyasi yoniq boʻlsa, yoʻqolgan Google TV pultini ovozli signal orqali topish mumkin."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Jiringlatish"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s tovushi balandligi"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s karnayida Assistent tovushi balandligini boshqarish mumkin"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Faqat %1$s qurilmasida amal qiladi (televizorda emas)"</string>
 </resources>

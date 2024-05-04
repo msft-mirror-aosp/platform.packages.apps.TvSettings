@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personal"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Connect to network"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Add an account."</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Accounts and profiles"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"No accounts"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# account}other{# accounts}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Media services, Assistant, Payments"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"There is a button on your Google TV that you can push to play a sound on your remote for 30 seconds. This only works with supported Google TV remote controls.\n\nTo stop the sound, press any button on your remote."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"When Find my remote is enabled, you can play a sound to locate your Google TV Streamer Voice Remote if it\'s been misplaced."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Play sound"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volume"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"You can control the Assistant volume on %1$s speaker"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Only affects volume on %1$s device, not on TV"</string>
 </resources>
