@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"ব্যক্তিগত"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"নেটৱৰ্কৰ লগত সংযোগ কৰক"</string>
     <string name="add_an_account" msgid="2601275122685226096">"একাউণ্ট যোগ কৰক"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"একাউণ্ট আৰু প্ৰ’ফাইল"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"কোনো একাউণ্ট নাই"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# টা একাউণ্ট}one{# টা একাউণ্ট}other{# টা একাউণ্ট}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"মিডিয়া সেৱা, Assistant, Payments"</string>
@@ -380,7 +379,7 @@
     <string name="ads_description" msgid="8081069475265061074">"আপোনাৰ বিজ্ঞাপন ID ৰিছেট কৰাৰ দৰে নিজৰ বিজ্ঞাপনৰ ছেটিং পৰিচালনা কৰক।"</string>
     <string name="ads_content_description" msgid="1006489792324920289">"বিজ্ঞাপন, আপোনাৰ বিজ্ঞাপনৰ আইডি ৰিছেট কৰাৰ দৰে নিজৰ বিজ্ঞাপনৰ ছেটিং পৰিচালনা কৰক।"</string>
     <string name="show_dev_on" msgid="612741433124106067">"এতিয়া আপুনি এগৰাকী বিকাশকৰ্তা!"</string>
-    <string name="show_dev_already" msgid="1522591284776449818">"কোনো প্ৰয়োজন নাই, আপুনি ইতিমধ্যে এগৰাকী ডেভেলপাৰ।"</string>
+    <string name="show_dev_already" msgid="1522591284776449818">"কোনো প্ৰয়োজন নাই, আপুনি ইতিমধ্যে এগৰাকী বিকাশকৰ্তা।"</string>
     <string name="device_info_default" msgid="2374506935205518448">"অজ্ঞাত"</string>
     <string name="selinux_status" msgid="1146662734953021410">"SELinuxৰ স্থিতি"</string>
     <string name="selinux_status_disabled" msgid="4027105362332795142">"নিষ্ক্ৰিয়"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"আপোনাৰ Google TVত এটা বুটাম আছে, যিটো আপুনি নিজৰ ৰিম’টত ৩০ ছেকেণ্ডৰ বাবে এটা ধ্বনি প্লে’ কৰিবলৈ টিপিব পাৰে। এইটোৱে কেৱল সমৰ্থিত Google TV ৰিম’ট কণ্ট্ৰ’লৰ জৰিয়তেহে কাম কৰে।\n\nধ্বনিটো বন্ধ কৰিবলৈ আপোনাৰ ৰিম’টটোত যিকোনো বুটাম টিপক।"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"মোৰ ৰিম’ট বিচাৰক সক্ষম কৰিলে, আপোনাৰ Google TVৰ ৰিম’টটো সঠিক স্থানত নাথাকিলে সেইটোৰ অৱস্থান জানিবলৈ আপুনি এটা ধ্বনি প্লে’ কৰিব পাৰে।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ধ্বনি প্লে’ কৰক"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$sৰ ভলিউম"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"আপুনি %1$sৰ স্পীকাৰত Assistantৰ ভলিউম নিয়ন্ত্ৰণ কৰিব পাৰে"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"কেৱল %1$s ডিভাইচৰ ভলিউমত প্ৰভাৱ পেলায়, টিভিত নেপেলায়"</string>
 </resources>

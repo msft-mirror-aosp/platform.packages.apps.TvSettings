@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personale"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Lidhu me rrjetin"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Shto një llogari"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Llogaritë dhe profilet"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Asnjë llogari"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# llogari}other{# llogari}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Shërbimet e medias, \"Asistenti\", pagesat"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Ka një buton në Google TV që mund ta shtypësh për të luajtur një tingull në telekomandë për 30 sekonda. Kjo funksionon vetëm me telekomanda të mbështetura të Google TV.\n\nPër të ndaluar tingullin, shtyp cilindo buton në telekomandë."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kur \"Gjej telekomandën time\" është e aktivizuar, mund të luash një tingull për të gjetur telekomandën e Google TV nëse ke harruar se ku e ke vendosur."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Luaj tingullin"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volumi i %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Mund ta kontrollosh volumin e \"Asistentit\" në altoparlantin e %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Prek vetëm volumin në pajisjen %1$s, jo në televizor"</string>
 </resources>

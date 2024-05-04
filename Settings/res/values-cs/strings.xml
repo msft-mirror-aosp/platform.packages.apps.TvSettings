@@ -429,7 +429,7 @@
     <string name="title_random_mac_settings" msgid="6685812569356353378">"Soukromí"</string>
   <string-array name="random_mac_settings_entries">
     <item msgid="3457228452595715533">"Používat náhodnou adresu MAC (výchozí nastavení)"</item>
-    <item msgid="2490415280467390067">"Používat adresu MAC zařízení"</item>
+    <item msgid="2490415280467390067">"Používat MAC adresu zařízení"</item>
   </string-array>
     <string name="mac_address_not_available" msgid="2992935344891853369">"Nedostupné"</string>
     <string name="mac_address_ephemeral_summary" msgid="3284374877361772531">"Náhodná adresa MAC"</string>
@@ -1148,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na televizi Google TV je tlačítko, po jehož stisknutí se bude na dálkovém ovládání 30 sekund přehrávat zvuk. Funguje to jen s podporovaným dálkovým ovládáním Google TV.\n\nZvuk vypnete stisknutím libovolného tlačítka na dálkovém ovládání."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Pokud je aktivováno vyhledávání dálkového ovládání, můžete si nechat přehrát zvuk, abyste našli dálkové ovládání Google TV, když nevíte, kde je."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Přehrát zvuk"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s hlasitost"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Hlasitost Asistenta můžete ovládat na reproduktoru %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Ovlivňuje jen hlasitost zařízení %1$s, ne televize"</string>
 </resources>

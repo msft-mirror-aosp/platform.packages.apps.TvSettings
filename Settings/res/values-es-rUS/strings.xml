@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personal"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Conectarse a una red"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Agregar una cuenta"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Cuentas y perfiles"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"No se accedió con ninguna cuenta"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# cuenta}other{# cuentas}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Servicios multimedia, Asistente, Pagos"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"En tu Google TV, puedes encontrar un botón y usarlo para reproducir un sonido en el control remoto por 30 segundos. Esta acción solo funciona en controles remotos de Google TV compatibles.\n\nPara detener el sonido, presiona cualquier botón del control remoto."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Si habilitas Buscar mi control remoto, podrás reproducir un sonido para ubicar el control remoto de Google TV."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reproducir sonido"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volumen %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Puedes controlar el volumen de Asistente en la bocina %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Solo se modificará el volumen del dispositivo %1$s; no se cambiará el de la TV"</string>
 </resources>

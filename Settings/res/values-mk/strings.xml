@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Лични"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Поврзете се на мрежа"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Додајте сметка"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Сметки и профили"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Нема сметки"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# сметка}one{# сметка}other{# сметки}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Аудиовизуелни услуги, „Помошник“, плаќања"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"На вашата Google TV има копче што може да го притиснете за да се пушти звук на далечинскиот управувач 30 секунди. Ова функционира само со поддржани далечински управувачи на Google TV.\n\nЗа да го сопрете звукот, притиснете некое копче на далечинскиот управувач."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Кога е овозможена „Најди го мојот далечински управувач“, може да репродуцирате звук за да го лоцирате далечинскиот управувач на Google TV ако е изгубен."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Репродуцирај звук"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Јачина на звук: %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Може да ја контролирате јачината на звукот на „Помошникот“ на звучникот на %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Влијае само на јачината на звукот на уред %1$s, не на телевизор"</string>
 </resources>

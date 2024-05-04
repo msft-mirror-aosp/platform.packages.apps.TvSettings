@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Хувийн"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Сүлжээнд холбогдох"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Бүртгэл нэмэх"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Бүртгэл, профайл"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Бүртгэл алга"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# бүртгэл}other{# бүртгэл}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Медиа үйлчилгээ, Туслах, Төлбөр"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Таны Google TV дээр товчлуур байгаа бөгөөд та үүнийг алсын удирдлагадаа 30 секундийн турш дуу чимээ тоглуулахын тулд дарах боломжтой. Энэ нь зөвхөн дэмжигдсэн Google TV-н алсын удирдлагаар ажиллана.\n\nДуу чимээг зогсоохын тулд алсын удирдлагынхаа дурын товчлуурыг дарна уу."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Алсын удирдлагаа олохыг идэвхжүүлсэн үед та Google TV-н алсын удирдлагаа алга болгосон бол байршлыг нь тогтоохын тулд дуу чимээ тоглуулах боломжтой."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Дуу чимээ тоглуулах"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s-н дууны түвшин"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Та %1$s-н чанга яригч дээр Туслахын дууны түвшнийг хянах боломжтой"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Зөвхөн %1$s-н төхөөрөмжийн дууны түвшинд нөлөөлөх ба ТВ-д нөлөөлөхгүй"</string>
 </resources>

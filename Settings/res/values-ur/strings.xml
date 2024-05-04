@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"ذاتی"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"نیٹ ورک سے منسلک ہوں"</string>
     <string name="add_an_account" msgid="2601275122685226096">"ایک اکاؤنٹ شامل کریں"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"اکاؤنٹس اور پروفائلز"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"کوئی اکاؤنٹ نہیں ہے"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# اکاؤنٹ}other{# اکاؤنٹس}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"میڈیا سروسز، اسسٹنٹ، ادائيگیاں"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"آپ کے Google TV پر ایک بٹن ہے جسے آپ 30 سیکنڈ تک اپنے ریموٹ پر آواز چلانے کے لیے دبا سکتے ہیں۔ یہ صرف تعاون یافتہ Google TV کے ریموٹ کنٹرولز کے ساتھ کام کرتا ہے۔\n\nآواز کو روکنے کے لیے، اپنے ریموٹ پر موجود کسی بھی بٹن کو دبائیں۔"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"میرا ریموٹ تلاش کریں فعال ہونے پر اگر آپ کا Google TV ریموٹ کہیں گم ہو جائے تو آپ اس کو تلاش کرنے کے لئے آواز چلا سکتے ہیں۔"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"آواز چلائیں"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s والیوم"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"آپ %1$s اسپیکر پر اسسٹنٹ والیوم کو کنٹرول کر سکتے ہیں"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"صرف %1$s آلہ پر والیوم کو متاثر کرتا ہے، TV پر نہیں"</string>
 </resources>

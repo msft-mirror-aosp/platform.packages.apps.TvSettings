@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Osobno"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Povezivanje s mrežom"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Dodavanje računa"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Računi i profili"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Nema računa"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# račun}one{# račun}few{# računa}other{# računa}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Medijske usluge, Asistent, Payments"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na Google TV-u se nalazi gumb koji možete pritisnuti da biste reproducirali zvuk na daljinskom upravljaču u trajanju od 30 sekundi. To funkcionira samo s podržanim daljinskim upravljačima Google TV-a.\n\nDa biste isključili zvuk, pritisnite bilo koji gumb na daljinskom upravljaču."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kada je omogućena značajka Pronađi moj daljinski upravljač, možete reproducirati zvuk da biste locirali daljinski upravljač za Google TV ako ste ga zametnuli."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reproduciraj zvuk"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s – glasnoća"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Glasnoćom Asistenta možete upravljati na zvučniku uređaja %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Utječe samo na zvuk na uređaju %1$s, ne na TV-u"</string>
 </resources>
