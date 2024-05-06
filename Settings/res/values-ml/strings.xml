@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"സ്വകാര്യം"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"നെറ്റ്‌വർക്കിലേക്ക് കണക്‌റ്റ് ചെയ്യുക"</string>
     <string name="add_an_account" msgid="2601275122685226096">"ഒരു അക്കൗണ്ട് ചേർക്കുക"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"അക്കൗണ്ടുകളും പ്രൊഫൈലുകളും"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"അക്കൗണ്ടുകളില്ല"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# അക്കൗണ്ട്}other{# അക്കൗണ്ടുകൾ}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"മീഡിയ സേവനങ്ങൾ, Assistant, പേയ്‌മെന്റുകൾ എന്നിവ"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"നിങ്ങളുടെ റിമോട്ടിൽ 30 സെക്കൻഡ് നേരത്തേക്ക് ശബ്‌ദം പ്ലേ ചെയ്യാൻ നിങ്ങളുടെ Google TV-യിൽ ഒരു ബട്ടൺ ഉണ്ട്. പിന്തുണയുള്ള Google TV റിമോട്ട് കൺട്രോളുകളിൽ മാത്രമേ ഇത് പ്രവർത്തിക്കൂ.\n\nശബ്ദം നിർത്താൻ, നിങ്ങളുടെ റിമോട്ടിലെ ഏതെങ്കിലും ബട്ടൺ അമർത്തുക."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'എന്റെ റിമോട്ട് കണ്ടെത്തുക\' പ്രവർത്തനക്ഷമമാക്കിയിരിക്കുമ്പോൾ, Google TV റിമോട്ട് എവിടെയെങ്കിലും വച്ച് മറന്നെങ്കിൽ അത് കണ്ടെത്താൻ ഒരു ശബ്ദം പ്ലേ ചെയ്യാം."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ശബ്‌ദം പ്ലേ ചെയ്യുക"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s വോളിയം"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s സ്‌പീക്കറിലെ Assistant വോളിയം നിങ്ങൾക്ക് നിയന്ത്രിക്കാനാകും"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"%1$s ഉപകരണത്തിലെ വോളിയത്തെ മാത്രം ബാധിക്കുന്നു, ടിവിയെ ബാധിക്കില്ല"</string>
 </resources>

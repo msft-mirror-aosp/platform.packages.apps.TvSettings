@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Asmeniniai"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Prisijungimas prie tinklo"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Paskyros pridėjimas"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Paskyros ir profiliai"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Paskyrų nėra"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# paskyra}one{# paskyra}few{# paskyros}many{# paskyros}other{# paskyrų}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Medijos paslaugos, Padėjėjas, mokėjimai"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"„Google TV“ yra mygtukas, kurį galite paspausti, kad paleistumėte nuotolinio valdymo pultelio garsą trisdešimt sekundžių. Tai veikia tik su palaikomais „Google TV“ nuotolinio valdymo pulteliais.\n\nJei norite sustabdyti garsą, paspauskite bet kurį nuotolinio valdymo pultelio mygtuką."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kai funkcija „Rasti nuotolinio valdymo pultelį“ įgalinta, galite leisti garsą norėdami rasti netinkamoje vietoje padėtą „Google TV“ nuotolinio valdymo pultelį"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Leisti garsą"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s garsumas"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Padėjėjo garsumą galite valdyti garsiakalbyje (%1$s)"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Paveikia garsumą tik įrenginyje (%1$s), o ne televizoriuje"</string>
 </resources>

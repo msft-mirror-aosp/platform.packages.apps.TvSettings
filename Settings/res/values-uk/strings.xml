@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Особисте"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Під’єднатися до мережі"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Додати обліковий запис"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Облікові записи й профілі"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Немає облікових записів"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# обліковий запис}one{# обліковий запис}few{# облікові записи}many{# облікових записів}other{# облікового запису}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Медіа-сервіси, Асистент, Payments"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"На пристрої Google TV є кнопка, яку можна натиснути, щоб на пульті дистанційного керування протягом 30 секунд відтворювався звуковий сигнал. Ця функція працює лише з підтримуваними пультами ДК для Google TV.\n\nЩоб вимкнути звуковий сигнал, натисніть будь-яку кнопку на пульті."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Увімкнувши функцію \"Знайти пульт\", ви зможете відтворити звуковий сигнал на пульті Google TV, якщо загубили його."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Відтворити звуковий сигнал"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Гучність: %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Ви можете керувати гучністю Асистента на колонці \"%1$s\""</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Вплине лише на гучність на пристрої \"%1$s\", а не на телевізорі"</string>
 </resources>

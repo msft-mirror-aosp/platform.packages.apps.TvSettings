@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Henkilökohtainen"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Yhdistä verkkoon"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Lisää tili"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"Tilit ja profiilit"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Ei tilejä"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# tili}other{# tiliä}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Mediapalvelut, Assistant, maksut"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV:ssä on painike, jota painamalla kaukosäädin toistaa äänen 30 sekunnin ajan. Tämä toimii vain tuetuilla Google TV ‑kaukosäätimillä.\n\nLopeta äänen toistaminen painamalla kaukosäätimestä mitä tahansa painiketta."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kun Etsi kaukosäätimeni on käytössä, voit etsiä Google TV ‑kaukosäätimen toistamalla äänimerkin."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Toista äänimerkki"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Äänenvoimakkuus (%1$s)"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Voit muuttaa Assistantin äänenvoimakkuutta kaiuttimella (%1$s)"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Vaikuttaa vain äänenvoimakkuuteen laitteella (%1$s), ei TV:llä"</string>
 </resources>

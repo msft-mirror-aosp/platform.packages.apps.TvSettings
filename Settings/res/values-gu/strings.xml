@@ -45,8 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"વ્યક્તિગત"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"નેટવર્ક સાથે કનેક્ટ કરો"</string>
     <string name="add_an_account" msgid="2601275122685226096">"એકાઉન્ટ ઉમેરો"</string>
-    <!-- no translation found for accounts_category_title (6645304075809033585) -->
-    <skip />
+    <string name="accounts_category_title" msgid="6645304075809033585">"એકાઉન્ટ અને પ્રોફાઇલ"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"કોઈ એકાઉન્ટ નથી"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# એકાઉન્ટ}one{# એકાઉન્ટ}other{# એકાઉન્ટ}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"મીડિયા સેવાઓ, Assistant, Payments"</string>
@@ -1149,4 +1148,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"તમારા Google TV પર એક બટન છે જેને તમે તમારા રિમોટ પર 30 સેકન્ડ માટે સાઉન્ડ ચલાવવા માટે પુશ કરી શકો છો. આ Google TVના માત્ર સપોર્ટેડ રિમોટ કન્ટ્રોલ સાથે કામ કરે છે.\n\nસાઉન્ડ બંધ કરવા માટે, તમારા રિમોટ પરનું કોઈપણ બટન દબાવો."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'મારું રિમોટ શોધો\' સુવિધા ચાલુ કરેલી હોય, ત્યારે જો Google TVનું તમારું રિમોટ ખોવાઈ ગયું હોય, તો તમે તેને શોધવા માટે કોઈ સાઉન્ડ વગાડી શકો છો."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"સાઉન્ડ વગાડો"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s વૉલ્યૂમ"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"તમે %1$s સ્પીકર પર Assistantના વૉલ્યૂમને નિયંત્રિત કરી શકો છો"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"માત્ર %1$s ડિવાઇસ પરના વૉલ્યૂમને અસર કરે છે, ટીવી પર નહીં"</string>
 </resources>
