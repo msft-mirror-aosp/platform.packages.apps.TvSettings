@@ -26,7 +26,7 @@ import android.provider.Settings;
 
 import androidx.annotation.Keep;
 import androidx.preference.Preference;
-import androidx.preference.PreferenceGroup;
+import androidx.preference.PreferenceScreen;
 
 import com.android.tv.settings.R;
 import com.android.tv.settings.RadioPreference;
@@ -36,14 +36,12 @@ import com.android.tv.settings.overlay.FlavorUtils;
 @Keep
 public class AccessibilityTimeoutFragment extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
-    private static final String A11Y_TIMEOUT_GROUP = "a11y_timeout_group";
-
     private int mCurrentA11yTimeout;
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.accessibility_timeout, null);
-        PreferenceGroup a11yTimeoutGroup = (PreferenceGroup) findPreference(A11Y_TIMEOUT_GROUP);
+        PreferenceScreen a11yTimeoutScreen = getPreferenceManager().getPreferenceScreen();
         final Context themedContext = getPreferenceManager().getContext();
         final boolean isTwoPanel = FlavorUtils.isTwoPanel(getContext());
         final String[] entries =
@@ -54,7 +52,6 @@ public class AccessibilityTimeoutFragment extends SettingsPreferenceFragment
 
         for (int i = 0; i < entries.length; i++) {
             final RadioPreference radioPreference = new RadioPreference(themedContext);
-            radioPreference.setRadioGroup(A11Y_TIMEOUT_GROUP);
             radioPreference.setTitle(entries[i]);
             radioPreference.setKey(entryValues[i]);
             radioPreference.setOnPreferenceChangeListener(this);
@@ -65,7 +62,7 @@ public class AccessibilityTimeoutFragment extends SettingsPreferenceFragment
             if (isTwoPanel) {
                 radioPreference.setFragment(AccessibilityTimeoutInfoFragment.class.getName());
             }
-            a11yTimeoutGroup.addPreference(radioPreference);
+            a11yTimeoutScreen.addPreference(radioPreference);
         }
     }
 
@@ -75,8 +72,8 @@ public class AccessibilityTimeoutFragment extends SettingsPreferenceFragment
         if (radioPreference.isChecked()) {
             return false;
         }
-        PreferenceGroup a11yTimeoutGroup = (PreferenceGroup) findPreference(A11Y_TIMEOUT_GROUP);
-        radioPreference.clearOtherRadioPreferences(a11yTimeoutGroup);
+        PreferenceScreen a11yTimeoutScreen = getPreferenceManager().getPreferenceScreen();
+        radioPreference.clearOtherRadioPreferences(a11yTimeoutScreen);
         mCurrentA11yTimeout = Integer.parseInt(radioPreference.getKey());
         commit();
         radioPreference.setChecked(true);

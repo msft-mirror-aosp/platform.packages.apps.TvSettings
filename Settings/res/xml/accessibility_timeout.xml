@@ -17,7 +17,4 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/accessibility_timeout">
-    <PreferenceCategory
-      android:key="a11y_timeout_group">
-    </PreferenceCategory>
 </PreferenceScreen>
