@@ -812,7 +812,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"ಅವುಗಳನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಿದಾಗ ಹಾರ್ಡ್‌ವೇರ್‌‌ ಲೇಯರ್‌ಗಳು ಹಸಿರು ಫ್ಲ್ಯಾಶ್‌‌ ಆಗುತ್ತದೆ"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"ಉತ್ತಮದಿಂದ ಹಿಡಿದು ಕಳಪೆಯವರೆಗೆ: ನೀಲಿ, ಹಸಿರು, ತಿಳಿಗೆಂಪು, ಕೆಂಪು"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"ಅವುಗಳು ಅಪ್‌ಡೇಟ್ ಆಗುವಾಗ ವಿಂಡೋದ ಸಂಪೂರ್ಣ ಮೇಲ್ಮೈ ಫ್ಲ್ಯಾಶ್ ಮಾಡಿ"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮುಖ್ಯ ಥ್ರೆಡ್‌ನಲ್ಲಿ ದೀರ್ಘ ಕಾರ್ಯಾಚರಣೆ ನಿರ್ವಹಿಸಿದಾಗ ಪರದೆಯನ್ನು ಫ್ಲ್ಯಾಶ್ ಮಾಡು"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"ಆ್ಯಪ್‍ಗಳು ಮುಖ್ಯ ಥ್ರೆಡ್‌ನಲ್ಲಿ ದೀರ್ಘ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ನಿರ್ವಹಿಸಿದಾಗ ಸ್ಕ್ರೀನ್ ಫ್ಲ್ಯಾಶ್ ಆಗಲಿ"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"adb shell dumpsys gfxinfo ನಲ್ಲಿ ಸಲ್ಲಿಸುವಿಕೆ ಸಮಯವನ್ನು ಮಾಪನ ಮಾಡಿ"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"ಅಪರಿಚಿತ ಮೂಲಗಳು"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Play Store ಹೊರಗಿನ ಬೇರೆ ಮೂಲಗಳ ಅಪ್ಲಿಕೇಶನ್‌‌ ಸ್ಥಾಪನೆಯನ್ನು ಅನುಮತಿಸಿ"</string>
