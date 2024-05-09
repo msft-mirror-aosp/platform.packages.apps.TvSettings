@@ -817,7 +817,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"Laat hardewarelae groen flits wanneer hulle opgedateer word"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"Van die beste na die slegste: blou, groen, ligrooi, rooi"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"Flits vensteroppervlakke in geheel wanneer dit opdateer"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Flits skerm as programme lang bewerkings uitvoer op hoofdraad"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Flits skerm as apps lang bewerkings uitvoer op die hoofdraad"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"Meet leweringstyd in die adb-dop dumpsys gfxinfo"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"Onbekende bronne"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Laat die installering van programme van ander bronne as die Play Winkel af toe"</string>

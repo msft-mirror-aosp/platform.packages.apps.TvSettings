@@ -16,7 +16,4 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/font_scale_settings_title">
-    <PreferenceCategory
-        android:key="font_scale_group">
-    </PreferenceCategory>
 </PreferenceScreen>

@@ -379,7 +379,7 @@
     <string name="ads_description" msgid="8081069475265061074">"Cambia ajustes de anuncios, como restablecer tu ID de publicidad."</string>
     <string name="ads_content_description" msgid="1006489792324920289">"Google Ads: Cambia la configuración de anuncios, como restablecer tu ID de publicidad."</string>
     <string name="show_dev_on" msgid="612741433124106067">"¡Ya eres programador!"</string>
-    <string name="show_dev_already" msgid="1522591284776449818">"No es necesario, ya eres programador."</string>
+    <string name="show_dev_already" msgid="1522591284776449818">"No es necesario, ya eres desarrollador."</string>
     <string name="device_info_default" msgid="2374506935205518448">"Desconocido"</string>
     <string name="selinux_status" msgid="1146662734953021410">"Estado de SELinux"</string>
     <string name="selinux_status_disabled" msgid="4027105362332795142">"Inhabilitado"</string>
