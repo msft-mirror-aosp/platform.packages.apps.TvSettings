@@ -26,7 +26,7 @@ import android.provider.Settings;
 
 import androidx.annotation.Keep;
 import androidx.preference.Preference;
-import androidx.preference.PreferenceGroup;
+import androidx.preference.PreferenceScreen;
 
 import com.android.tv.settings.R;
 import com.android.tv.settings.RadioPreference;
@@ -39,16 +39,13 @@ import com.android.tv.settings.overlay.FlavorUtils;
 @Keep
 public class FontScalePreferenceFragment extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
-    private static final String FONT_SCALE_RADIO_GROUP = "font_scale_radio_group";
-    private static final String FONT_SCALE_GROUP = "font_scale_group";
-
     /** Value of FONT_SCALE. */
     private float mCurrentFontScaleValue;
 
     @Override
     public void onCreatePreferences(Bundle bundle, String s) {
         setPreferencesFromResource(R.xml.font_scale, null);
-        PreferenceGroup fontScaleGroup = (PreferenceGroup) findPreference(FONT_SCALE_GROUP);
+        PreferenceScreen fontScaleScreen = getPreferenceManager().getPreferenceScreen();
         final Context themedContext = getPreferenceManager().getContext();
         final String[] entryValues = getContext().getResources()
                 .getStringArray(R.array.font_scale_entry_values);
@@ -60,7 +57,6 @@ public class FontScalePreferenceFragment extends SettingsPreferenceFragment impl
             final RadioPreference preference = new RadioPreference(themedContext);
             preference.setOnPreferenceChangeListener(this);
             preference.setPersistent(false);
-            preference.setRadioGroup(FONT_SCALE_RADIO_GROUP);
             preference.setKey(entryValues[i]);
             int scaleValue = (int) (Float.valueOf(entryValues[i]) * 100);
             String summary = getContext().getResources()
@@ -72,7 +68,7 @@ public class FontScalePreferenceFragment extends SettingsPreferenceFragment impl
                 preference.setChecked(true);
             }
             initPreview(preference, Float.parseFloat(entryValues[i]));
-            fontScaleGroup.addPreference(preference);
+            fontScaleScreen.addPreference(preference);
         }
     }
 
@@ -100,8 +96,8 @@ public class FontScalePreferenceFragment extends SettingsPreferenceFragment impl
         if (radioPreference.isChecked()) {
             return false;
         }
-        PreferenceGroup fontScaleGroup = (PreferenceGroup) findPreference(FONT_SCALE_GROUP);
-        radioPreference.clearOtherRadioPreferences(fontScaleGroup);
+        PreferenceScreen fontScaleScreen = getPreferenceManager().getPreferenceScreen();
+        radioPreference.clearOtherRadioPreferences(fontScaleScreen);
         mCurrentFontScaleValue = Float.parseFloat(preference.getKey());
         commit();
         initPreview(radioPreference, mCurrentFontScaleValue);
