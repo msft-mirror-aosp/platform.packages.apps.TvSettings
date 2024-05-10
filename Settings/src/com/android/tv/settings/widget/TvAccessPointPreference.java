@@ -22,9 +22,9 @@ import android.widget.ImageView;
 
 import androidx.preference.PreferenceViewHolder;
 
-import com.android.settingslib.wifi.AccessPoint;
+import com.android.tv.settings.library.network.AccessPoint;
 import com.android.tv.settings.R;
-import com.android.tv.settings.library.overlay.FlavorUtils;
+import com.android.tv.settings.overlay.FlavorUtils;
 
 /**
  * Preference for overriding wifi icons

@@ -43,6 +43,7 @@ import com.android.tv.settings.R;
 import com.android.tv.settings.RadioPreference;
 
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.ArgumentCaptor;
@@ -51,10 +52,7 @@ import org.mockito.MockitoAnnotations;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.shadows.androidx.fragment.FragmentController;
 
-import java.util.Arrays;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -88,16 +86,18 @@ public class HdrFormatSelectionFragmentTest {
         verify(mDisplayManager).setAreUserDisabledHdrTypesAllowed(false);
     }
 
+    @Ignore // TODO(b/293314245) Find how to mock missing method in tests
     @Test
     public void testOnPreferenceTreeClick_withFormatDisabled_disablesHdrTypeInDisplayManager() {
         int[] deviceHdrTypes = { HDR_TYPE_DOLBY_VISION,
                 HDR_TYPE_HDR10, HDR_TYPE_HLG, HDR_TYPE_HDR10_PLUS };
         int[] displayReportedHdrTypes = { HDR_TYPE_DOLBY_VISION, HDR_TYPE_HDR10, HDR_TYPE_HLG };
         int[] userDisabledHdrTypes = { HDR_TYPE_DOLBY_VISION };
+        Display.Mode mode = new Display.Mode(0, 0, 0, 0, new float[0], displayReportedHdrTypes);
 
         HdrFormatSelectionFragment fragment =
                 createHdrFormatSelectionFragmentWithDisplayManagerReturning(
-                        deviceHdrTypes, displayReportedHdrTypes, userDisabledHdrTypes);
+                        deviceHdrTypes, new Display.Mode[]{mode}, userDisabledHdrTypes);
 
         RadioPreference preference = fragment.findPreference(KEY_HDR_FORMAT_SELECTION_MANUAL);
         fragment.onPreferenceTreeClick(preference);
@@ -121,10 +121,11 @@ public class HdrFormatSelectionFragmentTest {
                 HDR_TYPE_HDR10, HDR_TYPE_HLG, HDR_TYPE_HDR10_PLUS };
         int[] displayReportedHdrTypes = { HDR_TYPE_DOLBY_VISION, HDR_TYPE_HDR10, HDR_TYPE_HLG };
         int[] userDisabledTypes = { HDR_TYPE_DOLBY_VISION, HDR_TYPE_HDR10 };
+        Display.Mode mode = new Display.Mode(0, 0, 0, 0, new float[0], displayReportedHdrTypes);
 
         HdrFormatSelectionFragment fragment =
                 createHdrFormatSelectionFragmentWithDisplayManagerReturning(
-                        deviceHdrTypes, displayReportedHdrTypes, userDisabledTypes);
+                        deviceHdrTypes, new Display.Mode[]{mode}, userDisabledTypes);
 
         RadioPreference preference = fragment.findPreference(KEY_HDR_FORMAT_SELECTION_MANUAL);
         fragment.onPreferenceTreeClick(preference);
@@ -148,10 +149,11 @@ public class HdrFormatSelectionFragmentTest {
         int[] deviceHdrTypes = { HDR_TYPE_DOLBY_VISION, HDR_TYPE_HDR10, HDR_TYPE_HLG };
         int[] displayReportedHdrTypes = { HDR_TYPE_DOLBY_VISION, HDR_TYPE_HLG };
         int[] userDisabledTypes = { HDR_TYPE_HLG };
+        Display.Mode mode = new Display.Mode(0, 0, 0, 0, new float[0], displayReportedHdrTypes);
 
         HdrFormatSelectionFragment fragment =
                 createHdrFormatSelectionFragmentWithDisplayManagerReturning(
-                        deviceHdrTypes, displayReportedHdrTypes, userDisabledTypes);
+                        deviceHdrTypes, new Display.Mode[]{mode}, userDisabledTypes);
         RadioPreference preference = fragment.findPreference(KEY_HDR_FORMAT_SELECTION_MANUAL);
         fragment.onPreferenceTreeClick(preference);
 
@@ -178,10 +180,11 @@ public class HdrFormatSelectionFragmentTest {
         int[] deviceHdrTypes = { HDR_TYPE_DOLBY_VISION, HDR_TYPE_HDR10, HDR_TYPE_HLG };
         int[] displayReportedHdrTypes = { HDR_TYPE_DOLBY_VISION, HDR_TYPE_HLG };
         int[] userDisabledTypes = { HDR_TYPE_HLG };
+        Display.Mode mode = new Display.Mode(0, 0, 0, 0, new float[0], displayReportedHdrTypes);
 
         HdrFormatSelectionFragment fragment =
                 createHdrFormatSelectionFragmentWithDisplayManagerReturning(
-                        deviceHdrTypes, displayReportedHdrTypes, userDisabledTypes);
+                        deviceHdrTypes, new Display.Mode[]{mode}, userDisabledTypes);
         RadioPreference preference = fragment.findPreference(KEY_HDR_FORMAT_SELECTION_MANUAL);
         fragment.onPreferenceTreeClick(preference);
 
@@ -204,10 +207,11 @@ public class HdrFormatSelectionFragmentTest {
         int[] deviceHdrTypes = { HDR_TYPE_DOLBY_VISION, HDR_TYPE_HDR10, HDR_TYPE_HLG };
         int[] displayReportedHdrTypes = { HDR_TYPE_DOLBY_VISION, HDR_TYPE_HLG };
         int[] userDisabledTypes = { HDR_TYPE_HLG };
+        Display.Mode mode = new Display.Mode(0, 0, 0, 0, new float[0], displayReportedHdrTypes);
 
         HdrFormatSelectionFragment fragment =
                 createHdrFormatSelectionFragmentWithDisplayManagerReturning(
-                        deviceHdrTypes, displayReportedHdrTypes, userDisabledTypes);
+                        deviceHdrTypes, new Display.Mode[]{mode}, userDisabledTypes);
         RadioPreference preference = fragment.findPreference(KEY_HDR_FORMAT_SELECTION_AUTO);
         fragment.onPreferenceTreeClick(preference);
 
@@ -219,10 +223,11 @@ public class HdrFormatSelectionFragmentTest {
         int[] deviceHdrTypes = { HDR_TYPE_DOLBY_VISION, HDR_TYPE_HDR10, HDR_TYPE_HLG };
         int[] displayReportedHdrTypes = { HDR_TYPE_DOLBY_VISION, HDR_TYPE_HLG };
         int[] userDisabledTypes = { HDR_TYPE_HLG };
+        Display.Mode mode = new Display.Mode(0, 0, 0, 0, new float[0], displayReportedHdrTypes);
 
         HdrFormatSelectionFragment fragment =
                 createHdrFormatSelectionFragmentWithDisplayManagerReturning(
-                        deviceHdrTypes, displayReportedHdrTypes, userDisabledTypes);
+                        deviceHdrTypes, new Display.Mode[]{mode}, userDisabledTypes);
 
         Preference preference = fragment.findPreference(KEY_HDR_FORMAT_SELECTION_AUTO);
         fragment.onPreferenceTreeClick(preference);
@@ -244,10 +249,11 @@ public class HdrFormatSelectionFragmentTest {
         int[] deviceHdrTypes = { HDR_TYPE_DOLBY_VISION, HDR_TYPE_HDR10 };
         int[] displayReportedHdrTypes = { HDR_TYPE_DOLBY_VISION };
         int[] userDisabledTypes = { HDR_TYPE_DOLBY_VISION };
+        Display.Mode mode = new Display.Mode(0, 0, 0, 0, new float[0], displayReportedHdrTypes);
 
         HdrFormatSelectionFragment fragment =
                 createHdrFormatSelectionFragmentWithDisplayManagerReturning(
-                        deviceHdrTypes, displayReportedHdrTypes, userDisabledTypes);
+                        deviceHdrTypes, new Display.Mode[]{mode}, userDisabledTypes);
 
         Preference preference = fragment.findPreference(KEY_HDR_FORMAT_SELECTION_AUTO);
         fragment.onPreferenceTreeClick(preference);
@@ -276,6 +282,37 @@ public class HdrFormatSelectionFragmentTest {
                 fragment.getContext().getString(R.string.hdr_format_hdr10));
     }
 
+    @Test
+    public void testGetPreferenceScreen_whenManual_enablesDisplayModeSpecificHdrFormats() {
+        int[] deviceHdrTypes = { HDR_TYPE_DOLBY_VISION,
+                HDR_TYPE_HDR10, HDR_TYPE_HLG, HDR_TYPE_HDR10_PLUS };
+        int[] mode1SupportedHdrFormats = { HDR_TYPE_HDR10 };
+        int[] mode2SupportedHdrFormats = { HDR_TYPE_DOLBY_VISION, HDR_TYPE_HDR10 };
+
+        Display.Mode mode1 = new Display.Mode(0, 0, 0, 0, new float[0], mode1SupportedHdrFormats);
+        Display.Mode mode2 = new Display.Mode(1, 0, 0, 0, new float[0], mode2SupportedHdrFormats);
+
+        HdrFormatSelectionFragment fragment =
+                createHdrFormatSelectionFragmentWithDisplayManagerReturning(
+                        deviceHdrTypes, new Display.Mode[]{mode1, mode2}, new int[0]);
+
+        Preference preference = fragment.findPreference(KEY_HDR_FORMAT_SELECTION_MANUAL);
+        fragment.onPreferenceTreeClick(preference);
+
+        PreferenceCategory supportedFormatPreference =
+                (PreferenceCategory) fragment.getPreferenceScreen().getPreference(1);
+        SwitchPreference dolbyVisionPref =
+                (SwitchPreference) supportedFormatPreference.getPreference(0);
+        assertThat(dolbyVisionPref.getTitle().toString())
+                .isEqualTo(fragment.getContext().getString(R.string.hdr_format_dolby_vision));
+        assertThat(dolbyVisionPref.isChecked()).isFalse();
+        SwitchPreference hdr10Pref =
+                (SwitchPreference) supportedFormatPreference.getPreference(1);
+        assertThat(hdr10Pref.getTitle().toString())
+                .isEqualTo(fragment.getContext().getString(R.string.hdr_format_hdr10));
+        assertThat(hdr10Pref.isChecked()).isTrue();
+    }
+
     private List<String> getChildrenTitles(Preference preference) {
         PreferenceCategory category = (PreferenceCategory) preference;
 
@@ -285,22 +322,17 @@ public class HdrFormatSelectionFragmentTest {
     }
 
     private HdrFormatSelectionFragment createDefaultHdrFormatSelectionFragment() {
+        Display.Mode mode = new Display.Mode(0, 0, 0, 0, new float[0], new int[0]);
         return createHdrFormatSelectionFragmentWithDisplayManagerReturning(
-                new int[]{}, new int[]{}, new int[]{});
+                new int[]{}, new Display.Mode[]{mode}, new int[]{});
     }
 
     private HdrFormatSelectionFragment createHdrFormatSelectionFragmentWithDisplayManagerReturning(
-            int[] deviceHdrTypes, int[] displayReportedHdrTypes, int[] userDisabledHdrTypes) {
+            int[] deviceHdrTypes, Display.Mode[] displayModes, int[] userDisabledHdrTypes) {
         doReturn(userDisabledHdrTypes).when(mDisplayManager).getUserDisabledHdrTypes();
         Display display = spy(Display.class);
-        doReturn(displayReportedHdrTypes).when(display).getReportedHdrTypes();
-
-        int[] hdrCapabilitiesReportedFormats =
-                difference(displayReportedHdrTypes, userDisabledHdrTypes);
-        Display.HdrCapabilities hdrCapabilities = new Display.HdrCapabilities(
-                hdrCapabilitiesReportedFormats, -1 /*maxLuminance*/,
-                -1 /* maxAverageLuminance*/, -1 /* minLuminance */);
-        doReturn(hdrCapabilities).when(display).getHdrCapabilities();
+        doReturn(displayModes).when(display).getSupportedModes();
+        doReturn(displayModes[0]).when(display).getMode();
 
         doReturn(display).when(mDisplayManager).getDisplay(Display.DEFAULT_DISPLAY);
 
@@ -313,16 +345,4 @@ public class HdrFormatSelectionFragmentTest {
                 .start()
                 .get();
     }
-
-    private int[] difference(int[] array1, int[] array2) {
-        Set<Integer> set2 = Arrays.stream(array2).boxed().collect(Collectors.toSet());
-        Set<Integer> differenceSet = new HashSet<>();
-        for (int i : array1) {
-            if (!set2.contains(i)) {
-                differenceSet.add(i);
-            }
-        }
-        return differenceSet.stream().mapToInt(Number::intValue).toArray();
-    }
-
 }

@@ -43,10 +43,10 @@ public class BluetoothInputDeviceConnector implements BluetoothDevicePairer.Blue
 
         @Override
         public void onServiceDisconnected(int profile) {
-            Log.w(TAG, "Service disconnected, perhaps unexpectedly");
+            if (DEBUG) {
+                Log.d(TAG, "Service disconnected");
+            }
             unregisterInputMethodMonitor();
-            closeInputProfileProxy();
-            mOpenConnectionCallback.failed();
         }
 
         @Override
@@ -56,6 +56,11 @@ public class BluetoothInputDeviceConnector implements BluetoothDevicePairer.Blue
             }
             mInputProxy = (BluetoothHidHost) proxy;
             if (mTarget != null) {
+                if (BluetoothProfile.STATE_CONNECTED == mInputProxy.getConnectionState(mTarget)) {
+                    closeInputProfileProxy();
+                    mOpenConnectionCallback.succeeded();
+                    return;
+                }
                 registerInputMethodMonitor();
                 if (DEBUG) {
                     Log.d(TAG, "Connecting to target: " + mTarget.getAddress());
@@ -154,5 +159,11 @@ public class BluetoothInputDeviceConnector implements BluetoothDevicePairer.Blue
         if (!adapter.getProfileProxy(mContext, mServiceConnection, BluetoothProfile.HID_HOST)) {
             mOpenConnectionCallback.failed();
         }
+    }
+
+    @Override
+    public void dispose() {
+        unregisterInputMethodMonitor();
+        closeInputProfileProxy();
     }
 }

@@ -17,16 +17,14 @@
 package com.android.tv.settings.system.development;
 
 import android.content.Context;
-import android.os.SystemProperties;
-import android.os.UserHandle;
 import android.os.Process;
+import android.os.SystemProperties;
 import android.os.UserManager;
 import android.service.oemlock.OemLockManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import androidx.preference.TwoStatePreference;
 
 import com.android.tv.settings.R;
 
@@ -36,9 +34,9 @@ public class OemUnlockPreferenceController implements OemUnlockDialog.Callback {
 
     private final OemLockManager mOemLockManager;
     private final UserManager mUserManager;
-    private final SwitchPreference mPreference;
+    private final TwoStatePreference mPreference;
 
-    public OemUnlockPreferenceController(Context context, SwitchPreference preference) {
+    public OemUnlockPreferenceController(Context context, TwoStatePreference preference) {
         if (!TextUtils.equals(SystemProperties.get("ro.oem_unlock_supported", "0"), "1")) {
             mOemLockManager = null;
             Log.w(TAG, "oem_unlock not supported.");
@@ -50,7 +48,7 @@ public class OemUnlockPreferenceController implements OemUnlockDialog.Callback {
         updateState();
     }
 
-    public SwitchPreference getPreference() {
+    public TwoStatePreference getPreference() {
         return mPreference;
     }
 

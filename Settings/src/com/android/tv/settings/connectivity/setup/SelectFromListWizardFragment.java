@@ -33,7 +33,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver.OnPreDrawListener;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -45,7 +44,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.SortedList;
 import androidx.recyclerview.widget.SortedListAdapterCallback;
 
-import com.android.settingslib.wifi.AccessPoint;
+import com.android.tv.settings.library.network.AccessPoint;
 import com.android.tv.settings.R;
 import com.android.tv.settings.connectivity.util.WifiSecurityUtil;
 import com.android.tv.settings.util.AccessibilityHelper;
@@ -600,10 +599,7 @@ public class SelectFromListWizardFragment extends Fragment {
         mHandler.post(new Runnable() {
             @Override
             public void run() {
-                InputMethodManager inputMethodManager = (InputMethodManager) getActivity()
-                        .getSystemService(Context.INPUT_METHOD_SERVICE);
-                inputMethodManager.hideSoftInputFromWindow(
-                        mMainView.getApplicationWindowToken(), 0);
+                AccessibilityHelper.dismissKeyboard(getActivity(), mMainView);
             }
         });
     }

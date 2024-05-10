@@ -19,22 +19,23 @@
                   xmlns:custom="http://schemas.android.com/apk/res-auto"
                   android:title="@string/device_pref_category_title">
     <Preference
-        android:fragment="com.android.tv.settings.accessibility.AccessibilityFragment"
-        android:icon="@drawable/ic_accessibility_new"
-        android:key="accessibility"
-        android:title="@string/system_accessibility"/>
-    <Preference
         android:fragment="com.android.tv.settings.about.AboutFragment"
         android:icon="@drawable/ic_info_outline"
         android:key="about_device"
         android:title="@string/about_preference"/>
+    <Preference
+        android:fragment="com.android.tv.settings.device.eco.PowerAndEnergyFragment"
+        android:icon="@drawable/ic_settings_power_and_energy"
+        android:key="power_and_energy"
+        custom:isPreferenceVisible="false"
+        android:title="@string/power_and_energy"/>
     <Preference
         android:fragment="com.android.tv.settings.system.DateTimeFragment"
         android:icon="@drawable/ic_access_time"
         android:key="date_time"
         android:title="@string/system_date_time"/>
     <Preference
-        android:fragment="com.android.tv.settings.system.LanguageFragment"
+        android:fragment="com.android.tv.settings.system.locale.LanguagePickerFragment"
         android:icon="@drawable/ic_language"
         android:key="language"
         android:title="@string/system_language"/>
@@ -96,6 +97,11 @@
         android:fragment="com.android.tv.twopanelsettings.slices.SliceFragment"
         custom:isPreferenceVisible="false"
         custom:uri="@string/fastpair_slice_uri"/>
+    <com.android.tv.settings.widget.SwitchWithSoundPreference
+        android:key="sound_effects_switch"
+        android:icon="@drawable/ic_system_sound"
+        android:persistent="true"
+        android:title="@string/device_sound_effects"/>
     <com.android.tv.settings.LongClickPreference
         android:fragment="com.android.tv.settings.about.RebootConfirmFragment"
         android:icon="@drawable/ic_restart_alt"

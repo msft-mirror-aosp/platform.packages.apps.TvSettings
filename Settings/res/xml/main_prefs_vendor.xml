@@ -40,7 +40,7 @@
         android:order="2">
 
         <Preference
-            android:icon="@drawable/ic_photo_size_select_actual"
+            android:icon="@drawable/ic_settings_channels_and_inputs"
             android:key="channels_and_inputs"
             android:title="@string/channels_and_inputs_title"
             android:summary="@string/channels_and_inputs_summary"
@@ -48,7 +48,7 @@
             <!-- This is an example. Change to your intent for display and preview-->
         </Preference>
         <com.android.tv.twopanelsettings.slices.SlicePreference
-            android:icon="@drawable/ic_photo_size_select_actual"
+            android:icon="@drawable/ic_settings_channels_and_inputs"
             android:key="channels_and_inputs_slice"
             android:title="@string/channels_and_inputs_title"
             android:summary="@string/channels_and_inputs_summary"
@@ -64,6 +64,15 @@
             android:fragment="com.android.tv.settings.vendor.DisplayPreviewFragment">
             <!-- This is an example. Change to your intent for display and preview-->
         </Preference>
+        <com.android.tv.twopanelsettings.slices.SlicePreference
+            android:icon="@drawable/ic_photo_size_select_actual"
+            android:key="display_and_sound_slice"
+            android:title="@string/device_display_sound"
+            android:summary="@string/display_and_sound_vendor_summary"
+            android:fragment="com.android.tv.twopanelsettings.slices.SliceFragment"
+            custom:isPreferenceVisible="false"
+            custom:uri="@string/display_and_sound_slice_uri">
+        </com.android.tv.twopanelsettings.slices.SlicePreference>
 
         <Preference
             android:icon="@drawable/ic_network"
@@ -111,6 +120,11 @@
             android:key="device_pref"
             android:title="@string/device_pref_category_title"
             android:fragment="com.android.tv.settings.device.DevicePrefFragment" />
+        <Preference
+            android:icon="@drawable/ic_accessibility_new"
+            android:key="accessibility"
+            android:title="@string/accessibility_category_title"
+            android:fragment="com.android.tv.settings.accessibility.AccessibilityFragment" />
         <Preference
             android:icon="@drawable/ic_remotes_and_accessories"
             android:key="remotes_and_accessories"

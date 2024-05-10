@@ -21,8 +21,8 @@ import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceViewHolder;
 
-import com.android.settingslib.wifi.AccessPoint;
-import com.android.settingslib.wifi.AccessPoint.Speed;
+import com.android.tv.settings.library.network.AccessPoint;
+import com.android.tv.settings.library.network.AccessPoint.Speed;
 import com.android.tv.settings.R;
 
 public class AccessPointPreference extends Preference {
@@ -100,7 +100,7 @@ public class AccessPointPreference extends Preference {
       int iconResId, boolean forSavedNetworks, StateListDrawable frictionSld,
       int level, IconInjector iconInjector) {
     super(context);
-    setLayoutResource(R.layout.preference_access_point);
+    setLayoutResource(R.layout.preference_access_point_tv);
     setWidgetLayoutResource(getWidgetLayoutResourceId());
     mBadgeCache = cache;
     mAccessPoint = accessPoint;
@@ -226,9 +226,6 @@ public class AccessPointPreference extends Preference {
     }
 
     updateBadge(context);
-
-    setSummary(mAccessPoint.getSettingsSummary());
-
     mContentDescription = buildContentDescription(getContext(), this /* pref */, mAccessPoint);
   }
 

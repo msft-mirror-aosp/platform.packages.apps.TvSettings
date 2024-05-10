@@ -20,7 +20,7 @@ import android.content.Context;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiConfiguration;
 
-import com.android.settingslib.wifi.AccessPoint;
+import com.android.tv.settings.library.network.AccessPoint;
 import com.android.tv.settings.R;
 
 /**
@@ -97,5 +97,9 @@ public class WifiSecurityUtil {
      */
     public static boolean isOpen(int wifiSecurity) {
         return wifiSecurity == AccessPoint.SECURITY_NONE;
+    }
+
+    public static boolean isEnhancedOpen(int wifiSecurity) {
+        return wifiSecurity == AccessPoint.SECURITY_OWE;
     }
 }

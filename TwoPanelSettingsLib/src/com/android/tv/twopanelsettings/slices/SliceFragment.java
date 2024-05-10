@@ -16,10 +16,8 @@
 
 package com.android.tv.twopanelsettings.slices;
 
-import static android.app.slice.Slice.EXTRA_SLIDER_VALUE;
 import static android.app.slice.Slice.EXTRA_TOGGLE_STATE;
 import static android.app.slice.Slice.HINT_PARTIAL;
-
 import static com.android.tv.twopanelsettings.slices.InstrumentationUtils.logEntrySelected;
 import static com.android.tv.twopanelsettings.slices.InstrumentationUtils.logToggleInteracted;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_PREFERENCE_INFO_STATUS;
@@ -39,7 +37,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Parcelable;
-import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.Log;
 import android.util.TypedValue;
@@ -61,6 +58,7 @@ import androidx.annotation.Keep;
 import androidx.annotation.NonNull;
 import androidx.lifecycle.Observer;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceManager;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.TwoStatePreference;
 import androidx.slice.Slice;
@@ -86,7 +84,6 @@ import java.util.Map;
 public class SliceFragment extends SettingsPreferenceFragment implements Observer<Slice>,
         SliceFragmentCallback {
     private static final int SLICE_REQUEST_CODE = 10000;
-    private static final int A11Y_FOCUS_REQUEST_DELAY = 1000;
     private static final String TAG = "SliceFragment";
     private static final String KEY_PREFERENCE_FOLLOWUP_INTENT = "key_preference_followup_intent";
     private static final String KEY_PREFERENCE_FOLLOWUP_RESULT_CODE =
@@ -147,6 +144,18 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
             mScreenTitle = getArguments().getCharSequence(SlicesConstants.TAG_SCREEN_TITLE, "");
         }
         super.onCreate(savedInstanceState);
+        getPreferenceManager().setPreferenceComparisonCallback(
+                new PreferenceManager.SimplePreferenceComparisonCallback() {
+                    @Override
+                    public boolean arePreferenceContentsTheSame(Preference preference1,
+                                                                Preference preference2) {
+                        // Should only check for the default SlicePreference objects, and ignore
+                        // other instances of slice reference classes since they all override
+                        // Preference.onBindViewHolder(PreferenceViewHolder)
+                        return preference1.getClass() == SlicePreference.class
+                                && super.arePreferenceContentsTheSame(preference1, preference2);
+                    }
+                });
     }
 
     @Override
@@ -334,33 +343,7 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
             ((TwoPanelSettingsFragment) getParentFragment()).refocusPreference(this);
         }
         mIsMainPanelReady = true;
-
-        resetA11yFocusIfNeeded();
     }
-
-    // Because the SliceProvider may call for updates an uncertain amount of times, we
-    // should have the current focus request a11yFocus after the update, since it will
-    // be lost otherwise. The delay is to give the screen reader enough time to
-    // process the update.
-    private void resetA11yFocusIfNeeded() {
-        if (isA11yOn()) {
-            mHandler.postDelayed(() -> {
-                if (isResumed() && getListView() != null && getListView().findFocus() != null) {
-                    getListView().findFocus().requestAccessibilityFocus();
-                }
-            }, A11Y_FOCUS_REQUEST_DELAY);
-        }
-    }
-
-    private boolean isA11yOn() {
-        if (getActivity() == null) {
-            return false;
-        }
-        return Settings.Secure.getInt(
-                getActivity().getContentResolver(),
-                Settings.Secure.ACCESSIBILITY_ENABLED, 0) == 1;
-    }
-
 
     private void back() {
         if (getCallbackFragment() instanceof TwoPanelSettingsFragment) {
@@ -411,7 +394,9 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
                 for (Preference newPref : newPrefs) {
                     if (newPref.getKey() != null && newPref.getKey().equals(oldPref.getKey())
                             && (newPref instanceof HasSliceUri)
-                            == (oldPref instanceof HasSliceUri)) {
+                            == (oldPref instanceof HasSliceUri)
+                            && (newPref instanceof EmbeddedSlicePreference)
+                            == (oldPref instanceof EmbeddedSlicePreference)) {
                         needToRemoveCurrentPref = false;
                         break;
                     }
@@ -444,36 +429,40 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
                     // EmbeddedSlicePreference has its own slice observer
                     // (EmbeddedSlicePreferenceHelper). Should therefore not be updated by
                     // slice observer in SliceFragment.
+                    // The order will however still need to be updated, as this can not be handled
+                    // by EmbeddedSlicePreferenceHelper.
                     boolean allowUpdate = !(oldPref instanceof EmbeddedSlicePreference);
                     boolean sameKey = oldPref.getKey() != null
                             && oldPref.getKey().equals(newPref.getKey());
-                    if (allowUpdate && sameKey) {
-                        oldPref.setIcon(newPref.getIcon());
-                        oldPref.setTitle(newPref.getTitle());
-                        oldPref.setSummary(newPref.getSummary());
-                        oldPref.setEnabled(newPref.isEnabled());
-                        oldPref.setSelectable(newPref.isSelectable());
-                        oldPref.setFragment(newPref.getFragment());
-                        oldPref.getExtras().putAll(newPref.getExtras());
-                        if ((oldPref instanceof HasSliceAction)
-                                && (newPref instanceof HasSliceAction)) {
-                            ((HasSliceAction) oldPref)
-                                    .setSliceAction(((HasSliceAction) newPref).getSliceAction());
-                        }
-                        if ((oldPref instanceof HasSliceUri)
-                                && (newPref instanceof HasSliceUri)) {
-                            ((HasSliceUri) oldPref)
-                                    .setUri(((HasSliceUri) newPref).getUri());
+                    if (sameKey) {
+                        if (allowUpdate) {
+                            oldPref.setIcon(newPref.getIcon());
+                            oldPref.setTitle(newPref.getTitle());
+                            oldPref.setSummary(newPref.getSummary());
+                            oldPref.setEnabled(newPref.isEnabled());
+                            oldPref.setSelectable(newPref.isSelectable());
+                            oldPref.setFragment(newPref.getFragment());
+                            oldPref.getExtras().putAll(newPref.getExtras());
+                            if ((oldPref instanceof HasSliceAction)
+                                    && (newPref instanceof HasSliceAction)) {
+                                ((HasSliceAction) oldPref)
+                                        .setSliceAction(
+                                                ((HasSliceAction) newPref).getSliceAction());
+                            }
+                            if ((oldPref instanceof HasSliceUri)
+                                    && (newPref instanceof HasSliceUri)) {
+                                ((HasSliceUri) oldPref)
+                                        .setUri(((HasSliceUri) newPref).getUri());
                         }
                         if ((oldPref instanceof HasCustomContentDescription)
                                 && (newPref instanceof HasCustomContentDescription)) {
                             ((HasCustomContentDescription) oldPref).setContentDescription(
                                     ((HasCustomContentDescription) newPref)
                                             .getContentDescription());
+                            }
                         }
+
                         oldPref.setOrder(i);
-                    }
-                    if (sameKey) {
                         neededToAddNewPref = false;
                         break;
                     }
@@ -491,9 +480,9 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
         for (int i = 0; i < screen.getPreferenceCount(); i++) {
             Preference screenPref = screen.getPreference(i);
             if (screenPref instanceof TwoStatePreference
-                    && twoStatePreferenceIsCheckedByOrder.get(i) != null) {
+                    && twoStatePreferenceIsCheckedByOrder.get(screenPref.getOrder()) != null) {
                 ((TwoStatePreference) screenPref)
-                        .setChecked(twoStatePreferenceIsCheckedByOrder.get(i));
+                        .setChecked(twoStatePreferenceIsCheckedByOrder.get(screenPref.getOrder()));
             }
         }
         removeAnimationClipping(getView());
@@ -525,7 +514,6 @@ public class SliceFragment extends SettingsPreferenceFragment implements Observe
             try {
                 Intent fillInIntent =
                         new Intent()
-                                .putExtra(EXTRA_SLIDER_VALUE, preference.getValue())
                                 .putExtra(EXTRA_PREFERENCE_KEY, preference.getKey());
                 firePendingIntent((HasSliceAction) preference, fillInIntent);
             } catch (Exception e) {

@@ -32,11 +32,10 @@ import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 
+import com.android.settingslib.applications.DefaultAppInfo;
 import com.android.tv.settings.R;
 import com.android.tv.settings.RadioPreference;
 import com.android.tv.settings.SettingsPreferenceFragment;
-import com.android.tv.settings.library.settingslib.AutofillHelper;
-import com.android.tv.settings.library.settingslib.DefaultAppInfo;
 
 import java.util.List;
 
@@ -152,7 +151,8 @@ public class AutofillPickerFragment extends SettingsPreferenceFragment {
                 currentPref.setChecked(true);
                 currentPref.clearOtherRadioPreferences(getPreferenceScreen());
                 CharSequence confirmationMessage = Html.fromHtml(getContext().getString(
-                        R.string.autofill_confirmation_message, newPref.getTitle()));
+                        R.string.autofill_confirmation_message,
+                        Html.escapeHtml(newPref.getTitle())));
                 displayAlert(confirmationMessage, (dialog, which) -> {
                     RadioPreference pref = (RadioPreference) findPreference(newKey);
                     if (pref != null) {

@@ -89,35 +89,26 @@ public class StorageFragment extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         mStorageManager = getContext().getSystemService(StorageManager.class);
         mPackageManager = getContext().getPackageManager();
-
-        mVolumeInfo = mStorageManager.findVolumeById(
-                getArguments().getString(VolumeInfo.EXTRA_VOLUME_ID));
-
+        updateVolumeInfo();
         super.onCreate(savedInstanceState);
-    }
-
-    @Override
-    public void onStart() {
-        super.onStart();
-        mStorageManager.registerListener(mStorageEventListener);
-        startMeasurement();
     }
 
     @Override
     public void onResume() {
         super.onResume();
-        mVolumeInfo = mStorageManager.findVolumeById(
-                getArguments().getString(VolumeInfo.EXTRA_VOLUME_ID));
+        updateVolumeInfo();
         if (mVolumeInfo == null || !mVolumeInfo.isMountedReadable()) {
             navigateBack();
         } else {
             refresh();
+            mStorageManager.registerListener(mStorageEventListener);
+            startMeasurement();
         }
     }
 
     @Override
-    public void onStop() {
-        super.onStop();
+    public void onPause() {
+        super.onPause();
         mStorageManager.unregisterListener(mStorageEventListener);
         stopMeasurement();
     }
@@ -153,6 +144,11 @@ public class StorageFragment extends SettingsPreferenceFragment {
                 break;
         }
         return super.onPreferenceTreeClick(preference);
+    }
+
+    private void updateVolumeInfo() {
+        mVolumeInfo = mStorageManager.findVolumeById(
+                getArguments().getString(VolumeInfo.EXTRA_VOLUME_ID));
     }
 
     private void refresh() {
@@ -221,6 +217,10 @@ public class StorageFragment extends SettingsPreferenceFragment {
     }
 
     private void updateDetails(StorageMeasurement.MeasurementDetails details) {
+        if (mVolumeInfo == null) {
+            Log.w(TAG, "Unexpected details update. Volume info is null.");
+            return;
+        }
         final int currentUser = ActivityManager.getCurrentUser();
         final long dcimSize = totalValues(details.mediaSize.get(currentUser),
                 Environment.DIRECTORY_DCIM,
@@ -235,9 +235,15 @@ public class StorageFragment extends SettingsPreferenceFragment {
                 Environment.DIRECTORY_DOWNLOADS);
 
         try {
-            mAvailablePref.setSize(mStorageManager.getAllocatableBytes(
-                    StorageManager.convert(mVolumeInfo.fsUuid)));
-        } catch (IOException e) {
+            long availSize = mStorageManager.getAllocatableBytes(
+                    StorageManager.convert(mVolumeInfo.fsUuid));
+            if (availSize <= 0) {
+                availSize = details.availSize;
+            }
+            Log.i(TAG, "details availSize:" + availSize);
+            mAvailablePref.setSize(availSize);
+        } catch (IOException | IllegalArgumentException e) {
+            Log.i(TAG, "details availSize:" + details.availSize);
             mAvailablePref.setSize(details.availSize);
         }
         mAppsUsagePref.setSize(details.appsSize.get(currentUser));
