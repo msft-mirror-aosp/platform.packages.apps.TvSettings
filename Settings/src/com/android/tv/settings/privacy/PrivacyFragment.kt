@@ -64,6 +64,7 @@ class PrivacyFragment : SettingsPreferenceFragment() {
         val assistantSlicePreference = findPreference<Preference>(KEY_ASSISTANT)
         val purchasesSlicePreference = findPreference<Preference>(KEY_PURCHASES)
         val adsPreference = findPreference<Preference>(KEY_ADS)
+        val deviceLockPreference = findPreference<Preference>(KEY_DEVICE_LOCK)
         PrivacyToggle.MIC_TOGGLE.preparePreferenceWithSensorFragment(context,
                 findPreference(KEY_MIC), SensorFragment.TOGGLE_EXTRA)
         PrivacyToggle.CAMERA_TOGGLE.preparePreferenceWithSensorFragment(context,
@@ -83,8 +84,10 @@ class PrivacyFragment : SettingsPreferenceFragment() {
             purchasesSlicePreference?.isVisible = false
             showSecurityPreference(mSecurityPreference, mOverlaySecuritySlicePreference)
             mUpdateSlicePreference?.isVisible = false
-
+            deviceLockPreference?.isVisible = deviceLockPreference is SlicePreference
+                    && SliceUtils.isSliceProviderValid(context, deviceLockPreference.uri)
         } else {
+            deviceLockPreference?.isVisible = false;
             assistantSlicePreference?.isVisible = assistantSlicePreference is SlicePreference
                     && SliceUtils.isSliceProviderValid(context, assistantSlicePreference.uri)
             purchasesSlicePreference?.isVisible = purchasesSlicePreference is SlicePreference
@@ -157,6 +160,7 @@ class PrivacyFragment : SettingsPreferenceFragment() {
         private const val KEY_ADS = "ads"
         private const val KEY_ASSISTANT = "assistant"
         private const val KEY_PURCHASES = "purchases"
+        private const val KEY_DEVICE_LOCK = "deviceLock"
         private const val KEY_SECURITY = "security"
         private const val KEY_OVERLAY_SECURITY = "overlay_security"
         private const val KEY_MIC = "microphone"
