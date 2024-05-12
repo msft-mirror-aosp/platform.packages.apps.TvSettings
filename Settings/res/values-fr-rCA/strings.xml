@@ -60,6 +60,8 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Confidentialité"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Paramètres de l\'appareil"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Paramètres de compte"</string>
+    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
+    <skip />
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Assistant Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Paiement et achats"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Paramètres des applications"</string>
@@ -93,7 +95,7 @@
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Connexion au réseau"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Diagnostics du réseau"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Applications récemment ouvertes"</string>
-    <string name="apps_see_all_apps" msgid="2002886135933443688">"Afficher toutes les applications"</string>
+    <string name="apps_see_all_apps" msgid="2002886135933443688">"Afficher toutes les applis"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Autorisations"</string>
     <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
     <string name="update_slice_title" msgid="6553763903108611747"></string>
