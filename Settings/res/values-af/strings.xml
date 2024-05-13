@@ -60,6 +60,8 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privaatheid"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Toestelinstellings"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Rekeninginstellings"</string>
+    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
+    <skip />
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistent"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Betaling en aankope"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Programinstellings"</string>
