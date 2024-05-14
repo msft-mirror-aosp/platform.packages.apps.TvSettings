@@ -60,6 +60,8 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privacidad"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Ajustes del dispositivo"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Configuración de la cuenta"</string>
+    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
+    <skip />
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Asistente de Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Pago y compras"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Ajustes de aplicaciones"</string>
@@ -647,7 +649,7 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Acceso a la cámara bloqueado"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Para desbloquearlo, mueve el interruptor de privacidad de tu dispositivo a la posición \"activado\" de la cámara para permitir el acceso a la cámara."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Acceso al micrófono: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Cuando esté activado, todas las aplicaciones y todos los servicios que tienen permiso para usar el micrófono podrán acceder a él.\n\nCuando esté desactivado, ninguna aplicación ni servicio podrá acceder al micrófono. Es posible que aún puedas hablar con el Asistente de Google pulsando el botón del Asistente en el mando a distancia.\n\nLos dispositivos de audio que utilizan protocolos personalizados para comunicarse con el televisor pueden no verse afectados por este ajuste."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Cuando esté activado, todas las aplicaciones y servicios con permiso para usar el micrófono podrán acceder a él.\n\nCuando esté desactivado, ninguna aplicación ni servicio podrá acceder a él. Es posible que aún puedas hablar con el Asistente pulsando el botón del Asistente del mando.\n\nLos dispositivos de audio que usan protocolos personalizados para comunicarse con el TV pueden no verse afectados por este ajuste."</string>
     <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Micrófono habilitado en el mando a distancia"</string>
     <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"El Asistente de Google puede acceder al micrófono de tu mando a distancia. Podrás hablar con él pulsando el botón del Asistente de Google en el mando a distancia."</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Micrófono inhabilitado en el mando a distancia"</string>

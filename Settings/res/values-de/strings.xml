@@ -60,6 +60,8 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Datenschutz"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Geräteeinstellungen"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Kontoeinstellungen"</string>
+    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
+    <skip />
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Zahlung &amp; Käufe"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"App-Einstellungen"</string>
@@ -647,7 +649,7 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Kamerazugriff blockiert"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Um die Blockierung aufzuheben und den Zugriff zu erlauben, musst du den Schalter für den Datenschutz an deinem Gerät auf die Position zum Aktivieren der Kamera bringen."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofonzugriff: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Wenn diese Option aktiviert ist, können alle Apps und Dienste, die das Mikrofon verwenden dürfen, auf dieses zugreifen.\n\nWenn diese Option deaktiviert ist, können keine Apps oder Dienste auf das Mikrofon zugreifen. Wenn du die Google Assistant-Taste auf deiner Fernbedienung drückst, kannst du möglicherweise trotzdem mit Assistant sprechen.\n\nAudiogeräte, die benutzerdefinierte Protokolle zur Kommunikation mit dem Fernseher verwenden, sind von dieser Einstellung möglicherweise nicht betroffen."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Bei Aktivierung können alle Apps und Dienste, die das Mikrofon verwenden dürfen, auf dieses zugreifen.\n\nBei Deaktivierung können keine Apps oder Dienste auf das Mikrofon zugreifen. Wenn du die Assistant-Taste auf deiner Fernbedienung drückst, kannst du evtl. trotzdem mit Assistant sprechen.\n\nAudiogeräte, die über benutzerdefinierte Protokolle mit dem TV kommunizieren, sind von dieser Einstellung u. U. nicht betroffen."</string>
     <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Mikrofon auf der Fernbedienung aktiviert"</string>
     <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google Assistant kann auf das Mikrofon deiner Fernbedienung zugreifen. Wenn du die Google Assistant-Taste auf deiner Fernbedienung drückst, kannst du mit Assistant sprechen."</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Mikrofon auf der Fernbedienung deaktiviert"</string>
