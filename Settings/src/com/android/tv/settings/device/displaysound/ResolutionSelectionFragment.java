@@ -327,7 +327,6 @@ public class ResolutionSelectionFragment extends PreferenceControllerFragment {
             HdrConversionMode systemHdrConversionMode = new HdrConversionMode(
                     HdrConversionMode.HDR_CONVERSION_SYSTEM);
             mDisplayManager.setHdrConversionMode(systemHdrConversionMode);
-            selectForceHdrConversion(mDisplayManager);
         }
     }
 
