@@ -1389,4 +1389,6 @@
         </intent>
     </queries>
 
+    <protected-broadcast android:name="com.android.tv.settings.display.HDR_SETTINGS_CHANGED" />
+
 </manifest>
