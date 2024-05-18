@@ -22,6 +22,7 @@ import static android.view.Display.HdrCapabilities.HDR_TYPE_INVALID;
 import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.createAlertDialog;
 import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.doesCurrentModeNotSupportDvBecauseLimitedTo4k30;
 import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.isHdrFormatSupported;
+import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.sendHdrSettingsChangedBroadcast;
 import static com.android.tv.settings.device.displaysound.PreferredDynamicRangeFragment.selectForceHdrConversion;
 import static com.android.tv.settings.device.displaysound.ResolutionSelectionInfo.HDR_TYPES_ARRAY;
 
@@ -327,6 +328,7 @@ public class ResolutionSelectionFragment extends PreferenceControllerFragment {
             HdrConversionMode systemHdrConversionMode = new HdrConversionMode(
                     HdrConversionMode.HDR_CONVERSION_SYSTEM);
             mDisplayManager.setHdrConversionMode(systemHdrConversionMode);
+            sendHdrSettingsChangedBroadcast(getContext());
         }
     }
 

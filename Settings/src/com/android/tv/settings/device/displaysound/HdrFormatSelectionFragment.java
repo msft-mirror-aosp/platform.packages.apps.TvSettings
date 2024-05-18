@@ -22,6 +22,7 @@ import static android.view.Display.HdrCapabilities.HDR_TYPE_HDR10_PLUS;
 import static android.view.Display.HdrCapabilities.HDR_TYPE_HLG;
 
 import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.isHdrFormatSupported;
+import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.sendHdrSettingsChangedBroadcast;
 import static com.android.tv.settings.device.displaysound.HdrFormatSelectionInfo.AutoInfoFragment;
 import static com.android.tv.settings.device.displaysound.HdrFormatSelectionInfo.DolbyVisionNotSupportedFragment;
 import static com.android.tv.settings.device.displaysound.HdrFormatSelectionInfo.ManualInfoFragment;
@@ -180,6 +181,7 @@ public class HdrFormatSelectionFragment extends PreferenceControllerFragment {
                             + ": " + key);
             }
         }
+        sendHdrSettingsChangedBroadcast(getContext());
 
         if (key.equals(KEY_SHOW_HIDE_FORMAT_INFO)) {
             if (preference.getTitle().equals(
