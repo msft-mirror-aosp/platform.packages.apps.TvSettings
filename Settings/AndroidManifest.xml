@@ -1143,6 +1143,7 @@
             android:configChanges="keyboard|keyboardHidden|navigation"
             android:excludeFromRecents="true"
             android:exported="true"
+            android:permission="android.permission.WRITE_SECURE_SETTINGS"
             android:theme="@style/TvSettingsActivityTheme">
             <intent-filter android:priority="3">
                 <action android:name="android.settings.SLICE_SETTINGS" />
