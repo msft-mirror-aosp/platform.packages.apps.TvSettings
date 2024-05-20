@@ -812,7 +812,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"แสดงเลเยอร์ฮาร์ดแวร์เป็นสีเขียวเมื่อมีการอัปเดต"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"จากดีที่สุดไปหาแย่ที่สุด: ฟ้า เขียว แดงอ่อน แดง"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"แสดงพื้นผิวหน้าต่างทั้งหมดเมื่อมีการอัปเดต"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"กะพริบหน้าจอเมื่อแอปทำงานในชุดข้อความหลักนาน"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"กะพริบหน้าจอเมื่อแอปทำงานในเทรดหลักนาน"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"วัดเวลาที่ใช้แสดงผลใน adb shell dumpsys gfxinfo"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"ไม่รู้จักที่มา"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"อนุญาตให้ติดตั้งแอปจากแหล่งอื่นๆ ที่นอกเหนือไปจาก Play Store"</string>
