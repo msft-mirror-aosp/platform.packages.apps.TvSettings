@@ -60,8 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"गोपनीयता"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"डिभाइसका सेटिङहरू"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"खाताका सेटिङहरू"</string>
-    <!-- no translation found for privacy_device_lock_settings_title (2859882209591786575) -->
-    <skip />
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"डिभाइसको लक"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google सहायक"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"भुक्तानी तथा खरिदहरू"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"एपका सेटिङहरू"</string>
@@ -726,7 +725,7 @@
     <string name="captions_language_default" msgid="3894192926725192528">"डिफल्ट भाषा"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"टेक्स्टको आकार"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"क्याप्सनको शैली"</string>
-    <string name="captions_customoptions" msgid="7691004663572161126">"आफू अनुकूल विकल्प"</string>
+    <string name="captions_customoptions" msgid="7691004663572161126">" कस्टम विकल्प"</string>
     <string name="captions_fontfamily" msgid="1026632786438880997">"फन्ट परिवार"</string>
     <string name="captions_textcolor" msgid="1566679779609140317">"पाठ रङ्ग"</string>
     <string name="captions_edgetype" msgid="4875636291904824401">"छेउको प्रकार"</string>
@@ -743,7 +742,7 @@
     <string name="captions_style_1" msgid="8236052739817535538">"सेतोमा कालो"</string>
     <string name="captions_style_2" msgid="456353889540431910">"कालोमा पहेँलो"</string>
     <string name="captions_style_3" msgid="3860050153620761166">"नीलोमा पहेँलो"</string>
-    <string name="captions_style_custom" msgid="9062905566459387931">"आफू अनुकूल"</string>
+    <string name="captions_style_custom" msgid="9062905566459387931">" कस्टम"</string>
     <string name="color_white" msgid="4188877187457167678">"सेतो"</string>
     <string name="color_black" msgid="2631818627391955149">"कालो"</string>
     <string name="color_red" msgid="1899020130465926495">"रातो"</string>
@@ -913,7 +912,7 @@
     <string name="restricted_profile_configure_apps_title" msgid="2244201859522056827">"अनुमति दिएका एपहरू"</string>
     <string name="restricted_profile_allowed" msgid="970921490464867884">"अनुमति गरिएको"</string>
     <string name="restricted_profile_not_allowed" msgid="8184983064118036268">"अनुमति छैन"</string>
-    <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"प्रतिबन्धहरू आफू अनुकूल गर्नुहोस्"</string>
+    <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"प्रतिबन्धहरू  कस्टम गर्नुहोस्"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"एकक्षण ..."</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"PIN परिवर्तन गर्नुहोस्"</string>
     <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"प्रतिबन्धित प्रोफाइल सिर्जना गर्ने हो?"</string>
@@ -1013,7 +1012,7 @@
     <item msgid="6448060889026244632">"पारिवारिक कोठाको टिभी"</item>
     <item msgid="3336274213215419228">"सुत्ने कोठाको टिभी"</item>
   </string-array>
-    <string name="custom_room" msgid="6798144004583173563">"आफू अनुकूल नाम हाल्नुहोस्…"</string>
+    <string name="custom_room" msgid="6798144004583173563">" कस्टम नाम हाल्नुहोस्…"</string>
     <string name="device_rename_title" msgid="9070021379000499270">"यस <xliff:g id="DEVICEMODEL">%1$s</xliff:g> को नाम बदल्नुहोस्"</string>
     <string name="device_rename_description" msgid="1973894029492915135">"यो <xliff:g id="DEVICEMODEL">%1$s</xliff:g> को हालको नाम \"<xliff:g id="DEVICENAME">%2$s</xliff:g>\" छ"</string>
     <string name="device_name_suggestion_title" msgid="3986220212759193742">"आफ्नो डिभाइसको नाम सेट गर्नुहोस्"</string>
