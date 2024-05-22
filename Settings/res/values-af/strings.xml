@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privaatheid"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Toestelinstellings"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Rekeninginstellings"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Toestelslot"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistent"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Betaling en aankope"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Programinstellings"</string>
@@ -817,7 +818,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"Laat hardewarelae groen flits wanneer hulle opgedateer word"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"Van die beste na die slegste: blou, groen, ligrooi, rooi"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"Flits vensteroppervlakke in geheel wanneer dit opdateer"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Flits skerm as programme lang bewerkings uitvoer op hoofdraad"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Flits skerm as apps lang bewerkings uitvoer op die hoofdraad"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"Meet leweringstyd in die adb-dop dumpsys gfxinfo"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"Onbekende bronne"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Laat die installering van programme van ander bronne as die Play Winkel af toe"</string>

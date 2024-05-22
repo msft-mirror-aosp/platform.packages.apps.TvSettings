@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privacidad"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Configuración del dispositivo"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Configuración de la cuenta"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Bloqueo del dispositivo"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Asistente de Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Pago y compras"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Configuración de apps"</string>
@@ -379,7 +380,7 @@
     <string name="ads_description" msgid="8081069475265061074">"Cambia ajustes de anuncios, como restablecer tu ID de publicidad."</string>
     <string name="ads_content_description" msgid="1006489792324920289">"Google Ads: Cambia la configuración de anuncios, como restablecer tu ID de publicidad."</string>
     <string name="show_dev_on" msgid="612741433124106067">"¡Ya eres programador!"</string>
-    <string name="show_dev_already" msgid="1522591284776449818">"No es necesario, ya eres programador."</string>
+    <string name="show_dev_already" msgid="1522591284776449818">"No es necesario, ya eres desarrollador."</string>
     <string name="device_info_default" msgid="2374506935205518448">"Desconocido"</string>
     <string name="selinux_status" msgid="1146662734953021410">"Estado de SELinux"</string>
     <string name="selinux_status_disabled" msgid="4027105362332795142">"Inhabilitado"</string>
@@ -647,7 +648,7 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Acceso a la cámara bloqueado"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Para desbloquearlo, mueve el interruptor de privacidad del dispositivo a la posición de cámara activada para permitir el acceso a la cámara."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Acceso al micrófono: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Cuando esté activado, todas las apps y servicios que puedan utilizar el micrófono podrán acceder a él.\n\nSi se desactiva, las apps y los servicios no podrán acceder al micrófono. Sin embargo, es posible que puedas seguir hablando con Asistente de Google si presionas el botón del Asistente en el control remoto.\n\nLos dispositivos de audio que utilizan protocolos personalizados para comunicarse con la TV pueden no verse afectados por esta configuración."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Cuando esté activado, las apps y servicios que pueden usar el micrófono podrán acceder a él.\n\nSi se desactiva, las apps y los servicios no podrán acceder al micrófono. Pero podrías seguir hablando con Asistente de Google si presionas el botón del Asistente en el control remoto.\n\nEsta configuración no afecta los dispositivos de audio que usan protocolos personalizados para comunicarse con la TV."</string>
     <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Se habilitó el micrófono en el control remoto"</string>
     <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"El Asistente de Google puede acceder al micrófono en el control remoto. Si presionas el botón del Asistente de Google en el control remoto, podrás hablar con el Asistente."</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"El micrófono está inhabilitado en el control remoto"</string>

@@ -125,6 +125,8 @@
     <string name="privacy_device_settings_category">Device Settings</string>
     <!-- Title for account-related privacy settings category [CHAR LIMIT=50] -->
     <string name="privacy_account_settings_category">Account Settings</string>
+    <!-- Title for Device Lock privacy settings [CHAR LIMIT=50] -->
+    <string name="privacy_device_lock_settings_title">Device Lock</string>
     <!-- Title for Google Assistant privacy settings [CHAR LIMIT=50] -->
     <string name="privacy_assistant_settings_title">Google Assistant</string>
     <!-- Title for purchases-related privacy settings [CHAR LIMIT=50] -->
@@ -562,6 +564,8 @@
         [CHAR LIMIT=250]-->
     <string name="hdr_enabled_format_info_clicked">To disable, change the
         format selection to Manual.</string>
+    <!-- Package to send HDR settings change broadcasts to -->
+    <string name="hdr_settings_changed_broadcast_package" translatable="false"/>
 
     <!-- Title for preference for Resolution selection. [CHAR LIMIT=50] -->
     <string name="resolution_selection_title">Resolution</string>
@@ -2676,6 +2680,7 @@
     <!-- Slice uri for "Privacy" -->
     <string name="privacy_assistant_slice_uri" translatable="false"/>
     <string name="privacy_purchases_slice_uri" translatable="false"/>
+    <string name="privacy_device_lock_slice_uri" translatable="false"/>
 
     <!-- Slice uri and title for "Ambient mode" -->
     <string name="ambient_slice_uri" translatable="false" />

@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"ಗೌಪ್ಯತೆ"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ಸಾಧನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"ಖಾತೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ಸಾಧನದ ಲಾಕ್"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ಪಾವತಿ &amp; ಖರೀದಿಗಳು"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
@@ -817,7 +818,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"ಅವುಗಳನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಿದಾಗ ಹಾರ್ಡ್‌ವೇರ್‌‌ ಲೇಯರ್‌ಗಳು ಹಸಿರು ಫ್ಲ್ಯಾಶ್‌‌ ಆಗುತ್ತದೆ"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"ಉತ್ತಮದಿಂದ ಹಿಡಿದು ಕಳಪೆಯವರೆಗೆ: ನೀಲಿ, ಹಸಿರು, ತಿಳಿಗೆಂಪು, ಕೆಂಪು"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"ಅವುಗಳು ಅಪ್‌ಡೇಟ್ ಆಗುವಾಗ ವಿಂಡೋದ ಸಂಪೂರ್ಣ ಮೇಲ್ಮೈ ಫ್ಲ್ಯಾಶ್ ಮಾಡಿ"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮುಖ್ಯ ಥ್ರೆಡ್‌ನಲ್ಲಿ ದೀರ್ಘ ಕಾರ್ಯಾಚರಣೆ ನಿರ್ವಹಿಸಿದಾಗ ಪರದೆಯನ್ನು ಫ್ಲ್ಯಾಶ್ ಮಾಡು"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"ಆ್ಯಪ್‍ಗಳು ಮುಖ್ಯ ಥ್ರೆಡ್‌ನಲ್ಲಿ ದೀರ್ಘ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ನಿರ್ವಹಿಸಿದಾಗ ಸ್ಕ್ರೀನ್ ಫ್ಲ್ಯಾಶ್ ಆಗಲಿ"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"adb shell dumpsys gfxinfo ನಲ್ಲಿ ಸಲ್ಲಿಸುವಿಕೆ ಸಮಯವನ್ನು ಮಾಪನ ಮಾಡಿ"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"ಅಪರಿಚಿತ ಮೂಲಗಳು"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Play Store ಹೊರಗಿನ ಬೇರೆ ಮೂಲಗಳ ಅಪ್ಲಿಕೇಶನ್‌‌ ಸ್ಥಾಪನೆಯನ್ನು ಅನುಮತಿಸಿ"</string>

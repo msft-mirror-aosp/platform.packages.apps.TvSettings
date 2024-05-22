@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Ochrana súkromia"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Nastavenia zariadenia"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Nastavenia účtu"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Zámok zariadenia"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Asistent Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Platba a nákupy"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Nastavenia aplikácie"</string>
@@ -299,7 +300,7 @@
     <string name="system_home_theater_control" msgid="6228949628173590310">"Ovládanie domáceho kina"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"Pre vývojárov"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"Žiadna"</string>
-    <string name="system_diagnostic" msgid="1654842813331919958">"Používanie a diagnostika"</string>
+    <string name="system_diagnostic" msgid="1654842813331919958">"Využitie a diagnostika"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"K dispozícii nie sú žiadne aplikácie na správu zariadenia"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"Zakázané správcom"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"Nie je k dispozícii"</string>

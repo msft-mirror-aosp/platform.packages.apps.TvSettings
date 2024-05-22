@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Zasebnost"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Nastavitve naprave"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Nastavitve računa"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Zaklepanje naprave"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Pomočnik Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Plačila in nakupi"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Nastavitve aplikacije"</string>
@@ -236,7 +237,7 @@
     <string name="accessory_state_paired" msgid="3296695242499532000">"Seznanjeno"</string>
     <string name="accessory_options" msgid="774592782382321681">"Pripomoček"</string>
     <string name="accessory_unpair" msgid="2473411128146068804">"Prekliči seznanitev"</string>
-    <string name="accessory_battery" msgid="2283700366184703548">"Akumulator: <xliff:g id="PERCENTAGE">%1$d</xliff:g> %%"</string>
+    <string name="accessory_battery" msgid="2283700366184703548">"Baterija: <xliff:g id="PERCENTAGE">%1$d</xliff:g> %%"</string>
     <string name="accessory_unpairing" msgid="2529195578082286563">"Preklic seznanitve z napravo …"</string>
     <string name="accessory_connected" msgid="5229574480869175180">"Povezano"</string>
     <string name="accessory_change_name" msgid="6493717176878500683">"Spremeni ime"</string>

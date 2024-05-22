@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Personvern"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Enhetsinnstillinger"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Kontoinnstillinger"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Enhetslås"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistent"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Betaling og kjøp"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Appinnstillinger"</string>
@@ -647,7 +648,7 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Kameratilgang er blokkert"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"For å oppheve blokkeringen, sett personvernbryteren på enheten til kamera på-posisjonen for å gi kameratilgang."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofontilgang: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Når den er slått på, har alle apper og tjenester som har tillatelse til å bruke mikrofonen, tilgang til den.\n\nNår den er slått av, har ingen apper eller tjenester tilgang til mikrofonen. Det kan likevel hende du fortsatt kan snakke til Google-assistenten ved å trykke på Assistent-knappen på fjernkontrollen.\n\nDet er ikke sikkert at denne innstillingen har noen innvirkning på lydenheter som bruker tilpassede protokoller for å kommunisere med TV-en."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Når den er slått på, har alle apper og tjenester med tillatelse til å bruke mikrofonen, tilgang til den.\n\nNår den er slått av, har ingen apper eller tjenester tilgang. Det kan likevel hende du fortsatt kan snakke til Google-assistenten ved å trykke på Assistent-knappen på fjernkontrollen.\n\nDet er ikke sikkert at denne innstillingen har noen innvirkning på lydenheter som bruker tilpassede protokoller for å kommunisere med TV-en."</string>
     <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Mikrofonen er aktivert på fjernkontrollen"</string>
     <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google-assistenten har tilgang til mikrofonen på fjernkontrollen. Du kan snakke til assistenten ved å trykke på Google Assistent-knappen på fjernkontrollen."</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Mikrofonen er deaktivert på fjernkontrollen"</string>

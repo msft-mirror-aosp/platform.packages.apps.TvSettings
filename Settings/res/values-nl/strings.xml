@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privacy"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Apparaatinstellingen"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Accountinstellingen"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Apparaatvergrendeling"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistent"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Betaling en aankopen"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"App-instellingen"</string>
@@ -647,7 +648,7 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Cameratoegang geblokkeerd"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Als je de blokkering wilt opheffen, zet je de privacyschakelaar op je apparaat op de positie Camera aan om cameratoegang toe te staan."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Microfoontoegang: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Als deze schakelaar aanstaat, hebben alle apps en services die de microfoon mogen gebruiken toegang tot de microfoon.\n\nStaat de schakelaar uit, dan hebben apps en services geen toegang tot de microfoon. Je kunt nog wel met de Google Assistent praten door op de Assistent-knop op de afstandsbediening te drukken.\n\nDeze instelling is misschien niet van invloed op audioapparaten die aangepaste protocollen gebruiken voor communicatie met de tv."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Als deze schakelaar aanstaat, hebben alle apps en services die de microfoon mogen gebruiken hier toegang tot.\n\nStaat de schakelaar uit, dan hebben ze geen toegang tot de microfoon. Druk op de Assistent-knop op de afstandsbediening om nog wel met de Assistent te praten.\n\nDeze instelling is mogelijk niet van invloed op audioapparaten die via aangepaste protocollen met de tv communiceren."</string>
     <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Microfoon aangezet op afstandsbediening"</string>
     <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"De Google Assistent heeft toegang tot de microfoon op je afstandsbediening. Je kunt met de Assistent praten door op de Google Assistent-knop op de afstandsbediening te drukken."</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Microfoon uitgezet op afstandsbediening"</string>
