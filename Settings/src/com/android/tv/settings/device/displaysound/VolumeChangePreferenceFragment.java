@@ -17,6 +17,7 @@
 package com.android.tv.settings.device.displaysound;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.media.AudioDeviceAttributes;
 import android.media.AudioDeviceInfo;
 import android.media.AudioDeviceVolumeManager;
@@ -39,9 +40,11 @@ import com.android.tv.settings.device.util.DeviceUtils;
 @Keep
 public class VolumeChangePreferenceFragment extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
+    private SharedPreferences mSharedPreferences;
 
     private static final String VOLUME_CHANGE_RADIO_GROUP = "volume_change_radio_group";
     private static final String VOLUME_CHANGE_GROUP = "volume_change_group";
+    private static final String VOLUME_KEY = "volume_preference";
     private AudioDeviceVolumeManager mADVmgr;
 
     private static final AudioDeviceAttributes SPEAKER = new AudioDeviceAttributes(
@@ -50,11 +53,13 @@ public class VolumeChangePreferenceFragment extends SettingsPreferenceFragment i
     /** Value of volume index */
     private float mCurrentVolumeIndex;
     private String mCurrentDeviceName;
+    private String mCurrentDeviceDefaultVolume;
 
     @Override
     public void onCreatePreferences(Bundle bundle, String s) {
         setPreferencesFromResource(R.xml.change_device_volume, null);
         PreferenceGroup volumeChangeGroup = (PreferenceGroup) findPreference(VOLUME_CHANGE_GROUP);
+        mSharedPreferences = getPreferenceManager().getSharedPreferences();
 
         mCurrentDeviceName = DeviceUtils.getDeviceName(getContext());
         String volumeChangeSettingsTitle = String.format(
@@ -62,6 +67,10 @@ public class VolumeChangePreferenceFragment extends SettingsPreferenceFragment i
                 mCurrentDeviceName
         );
         getPreferenceScreen().setTitle(volumeChangeSettingsTitle);
+
+        mCurrentDeviceDefaultVolume = DeviceUtils.getDeviceDefaultVolume(getContext());
+        mCurrentVolumeIndex = mSharedPreferences.getFloat(VOLUME_KEY,
+                Float.parseFloat(mCurrentDeviceDefaultVolume));
 
         String volumeChangeSubtitleUnselect = String.format(
                 getString(R.string.volume_change_subtitle_unselect),
@@ -75,6 +84,9 @@ public class VolumeChangePreferenceFragment extends SettingsPreferenceFragment i
         final String[] entries = getContext().getResources()
                 .getStringArray(R.array.volume_change_entries);
 
+        mADVmgr = (AudioDeviceVolumeManager) getContext().getSystemService(
+                Context.AUDIO_DEVICE_VOLUME_SERVICE);
+
         for (int i = 0; i < entryValues.length; i++) {
             final RadioPreference preference = new RadioPreference(themedContext);
             preference.setPersistent(true);
@@ -82,11 +94,12 @@ public class VolumeChangePreferenceFragment extends SettingsPreferenceFragment i
             preference.setOnPreferenceChangeListener(this);
             preference.setKey(entryValues[i]);
             preference.setTitle(entries[i]);
+            if (Float.compare(mCurrentVolumeIndex , Float.parseFloat(entryValues[i])) == 0) {
+                preference.setChecked(true);
+                commit();
+            }
             volumeChangeGroup.addPreference(preference);
         }
-
-        mADVmgr = (AudioDeviceVolumeManager) getContext().getSystemService(
-                Context.AUDIO_DEVICE_VOLUME_SERVICE);
     }
 
     @Override
@@ -106,6 +119,9 @@ public class VolumeChangePreferenceFragment extends SettingsPreferenceFragment i
         radioPreference.clearOtherRadioPreferences(volumeChangeGroup);
         volumeChangeGroup.setTitle(volumeChangeSubtitleSelect);
         mCurrentVolumeIndex = Float.parseFloat(preference.getKey());
+        SharedPreferences.Editor editor = mSharedPreferences.edit();
+        editor.putFloat(VOLUME_KEY, mCurrentVolumeIndex);
+        editor.apply();
         commit();
         return true;
     }

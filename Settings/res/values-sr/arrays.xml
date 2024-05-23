@@ -62,8 +62,8 @@
     <item msgid="4482240152068132930">"Ништа"</item>
     <item msgid="8734279541070888851">"Контура"</item>
     <item msgid="4018027888850818563">"Избаци сенку"</item>
-    <item msgid="5156498342956725270">"Испупчен"</item>
-    <item msgid="3944101071491815363">"Удубљен"</item>
+    <item msgid="5156498342956725270">"Испупчено"</item>
+    <item msgid="3944101071491815363">"Удубљено"</item>
   </string-array>
   <string-array name="captioning_opacity_selector_titles">
     <item msgid="5486561918584724312">"25%"</item>

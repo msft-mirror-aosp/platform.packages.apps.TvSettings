@@ -182,4 +182,7 @@
 
     <!-- Name of the device. -->
     <string name="config_device_name" />
+
+    <!-- Default volume of the device. -->
+    <string name="config_default_device_volume"/>
 </resources>

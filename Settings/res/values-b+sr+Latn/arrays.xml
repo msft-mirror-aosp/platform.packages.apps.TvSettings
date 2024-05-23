@@ -62,8 +62,8 @@
     <item msgid="4482240152068132930">"Ništa"</item>
     <item msgid="8734279541070888851">"Kontura"</item>
     <item msgid="4018027888850818563">"Izbaci senku"</item>
-    <item msgid="5156498342956725270">"Ispupčen"</item>
-    <item msgid="3944101071491815363">"Udubljen"</item>
+    <item msgid="5156498342956725270">"Ispupčeno"</item>
+    <item msgid="3944101071491815363">"Udubljeno"</item>
   </string-array>
   <string-array name="captioning_opacity_selector_titles">
     <item msgid="5486561918584724312">"25%"</item>
