@@ -37,4 +37,11 @@ public class DeviceUtils {
             return deviceName;
         }
     }
+
+    /**
+     * Get the default volume of the current device.
+     */
+    public static String getDeviceDefaultVolume(Context context) {
+        return context.getString(R.string.config_default_device_volume);
+    }
 }
