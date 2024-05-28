@@ -375,7 +375,7 @@
     <string name="about_build" msgid="8467840394761634575">"Android TV OS 빌드"</string>
     <string name="show_dev_countdown" msgid="4064986225625409361">"{count,plural, =1{개발자 설정 완료까지 #단계 남았습니다.}other{개발자 설정 완료까지 #단계 남았습니다.}}"</string>
     <string name="about_ads" msgid="7662896442040086522">"광고"</string>
-    <string name="ads_description" msgid="8081069475265061074">"광고 ID 재설정 등의 광고 설정을 관리합니다."</string>
+    <string name="ads_description" msgid="8081069475265061074">"광고 관련 설정을 조정합니다."</string>
     <string name="ads_content_description" msgid="1006489792324920289">"광고, 광고 ID 재설정 등의 광고 설정을 관리합니다."</string>
     <string name="show_dev_on" msgid="612741433124106067">"개발자가 되셨습니다."</string>
     <string name="show_dev_already" msgid="1522591284776449818">"이미 개발자입니다."</string>
