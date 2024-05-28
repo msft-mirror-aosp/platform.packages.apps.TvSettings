@@ -970,9 +970,9 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"画面を OFF にする"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"電源と省エネ設定の確認"</string>
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"電源と節電設定の確認"</string>
     <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"テレビを長時間 ON にしておくと電気使用量が増える可能性があります"</string>
-    <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"省エネ設定を無効にする"</string>
+    <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"節電設定を無効にする"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"エネルギーの使用が増える可能性あがるため、再生中にディスプレイがオフにならないよう、設定をご確認ください。"</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"動作していないとき"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"視聴しているとき"</string>
@@ -1128,7 +1128,7 @@
     <string name="picture_settings_title" msgid="7643193630924322697">"画像"</string>
     <string name="screen_settings_title" msgid="7806908869190824434">"画面"</string>
     <string name="sound_settings_title" msgid="9149367966117889465">"音"</string>
-    <string name="power_and_energy" msgid="4638182439670702556">"電源と省エネ設定"</string>
+    <string name="power_and_energy" msgid="4638182439670702556">"電源と節電設定"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"電源オン時の画面"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"リセット"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"イーサネット ペア設定コード"</string>
