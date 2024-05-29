@@ -361,7 +361,7 @@
     <string name="system_update_description" msgid="998883510488461766">"यामुळे तुमचे सिस्टम सॉफ्टवेअर सर्वात अलीकडील आवृत्तीवर अपडेट होईल. तुमचे डिव्हाइस रीस्टार्ट होईल."</string>
     <string name="system_update_content_description" msgid="5702888187682876466">"सिस्टम अपडेट, यामुळे तुमचे सिस्टम सॉफ्टवेअर सर्वात अलीकडील आवृत्तीवर अपडेट होईल. तुमचे डिव्हाइस रीस्टार्ट होईल."</string>
     <string name="about_preference" msgid="9112690446998150670">"विषयी"</string>
-    <string name="device_name" msgid="566626587332817733">"डिव्हाइस नाव"</string>
+    <string name="device_name" msgid="566626587332817733">"डिव्हाइसचे नाव"</string>
     <string name="restart_button_label" msgid="911750765086382990">"रीस्टार्ट करा"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"कायदेशीर माहिती"</string>
     <string name="about_legal_license" msgid="4056934178111674054">"तृतीय पक्ष स्रोत"</string>
