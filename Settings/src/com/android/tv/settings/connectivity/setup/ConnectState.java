@@ -248,6 +248,7 @@ public class ConnectState implements State {
             mStartedConnect = true;
 
             if (wifiEntry.getConnectedState() == WifiEntry.CONNECTED_STATE_CONNECTED) {
+                mUserChoiceInfo.setIsAlreadyConnected(true);
                 connectSucceeded();
                 return;
             }
