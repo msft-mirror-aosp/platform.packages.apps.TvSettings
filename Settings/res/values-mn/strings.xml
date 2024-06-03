@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Хувийн"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Сүлжээнд холбогдох"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Бүртгэл нэмэх"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Бүртгэл, нэвтрэлт"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Бүртгэл, профайл"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Бүртгэл алга"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# бүртгэл}other{# бүртгэл}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Медиа үйлчилгээ, Туслах, Төлбөр"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Нууцлал"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Төхөөрөмжийн тохиргоо"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Бүртгэлийн тохиргоо"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Төхөөрөмжийн түгжээ"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Туслах"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Төлбөр болон худалдан авалт"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Аппын тохиргоо"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Этернэтэд холбогдсон"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Холбогдсон сүлжээ алга"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi унтраалттай байна"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Wi-Fi-г ашиглахын тулд Этернэтийг салгана уу"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Сүлжээ хайхад үргэлж бэлэн"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Google-н байршлын үйлчилгээ болон бусад апп-д Wi-Fi унтраалттай эсэхээс үл хамааран сүлжээ хайх"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Үргэлж скан хийх боломжтой, Google-н байршлын үйлчилгээ болон бусад аппад Wi-Fi унтраалттай үед ч сүлжээг скан хийх боломж олгоорой"</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Энэ сонголтыг идэвхжүүлэх үед систем контенттой тааруулахын тулд динамикийн мужийн өөр өөр форматын хооронд сэлгэнэ. Энэ нь формат сэлгэх үед дэлгэцийг хар болгоход хүргэж магадгүй.\n\nДинамик мужийн бусад сонголт авах бол Дэлгэцийн дэвшилтэт тохиргоог товшино уу."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Сонгосон динамик муж"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Системийн сонгосон хувиралт"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Системд форматын хувиралтыг удирдахыг зөвшөөрнө үү"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Системд форматын хувиралтыг удирдахыг зөвшөөрнө"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Энэ сонголтыг сонгосон үед систем таны дэлгэц рүү илгээх тохирох динамик мужийг тодорхойлж, шаардлагатай бол контентыг энэ динамик муж руу хувиргана."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Үргэлж контентын форматтай таруулна"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Хувиралтыг хүчлэх"</string>
@@ -688,8 +688,8 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Өндөр ялгаралтай текст"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Тод текст"</string>
-    <string name="accessibility_color_correction" msgid="6765093204922184119">"Өнгө тохируулга"</string>
-    <string name="color_correction_usage" msgid="4160611639548748657">"Өнгө тохируулга ашиглах"</string>
+    <string name="accessibility_color_correction" msgid="6765093204922184119">"Өнгө засах"</string>
+    <string name="color_correction_usage" msgid="4160611639548748657">"Өнгө засахыг ашиглах"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Өнгөний горим"</string>
     <string name="color_correction_mode_deuteranomaly" msgid="1513793544554228224">"Дьютераномаль"</string>
     <string name="color_correction_mode_deuteranomaly_summary" msgid="5991561481464520986">"Улаан-ногоон"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Таны Google TV дээр товчлуур байгаа бөгөөд та үүнийг алсын удирдлагадаа 30 секундийн турш дуу чимээ тоглуулахын тулд дарах боломжтой. Энэ нь зөвхөн дэмжигдсэн Google TV-н алсын удирдлагаар ажиллана.\n\nДуу чимээг зогсоохын тулд алсын удирдлагынхаа дурын товчлуурыг дарна уу."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Алсын удирдлагаа олохыг идэвхжүүлсэн үед та Google TV-н алсын удирдлагаа алга болгосон бол байршлыг нь тогтоохын тулд дуу чимээ тоглуулах боломжтой."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Дуу чимээ тоглуулах"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s-н дууны түвшин"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Та %1$s-н чанга яригч дээр Туслахын дууны түвшнийг хянах боломжтой"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Зөвхөн %1$s-н төхөөрөмжийн дууны түвшинд нөлөөлөх ба ТВ-д нөлөөлөхгүй"</string>
 </resources>

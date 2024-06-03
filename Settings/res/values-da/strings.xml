@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personligt"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Opret forbindelse til netværk"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Tilføj en konto"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Konti og login"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Konti og profiler"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Der er ingen konti"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# konto}one{# konto}other{# konti}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Medietjenester, assistent, betalinger"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privatliv"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Enhedsindstillinger"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Kontoindstillinger"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Enhedslås"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistent"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Betaling og køb"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Appindstillinger"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Der er forbindelse via Ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Der er ikke forbindelse til et netværk"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi er deaktiveret"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Tag Ethernet-kablet ud for at bruge Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Scanning altid tilgængelig"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Lad Googles lokationstjeneste og andre apps scanne efter netværk, selv når Wi-Fi er slået fra"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Scanning altid tilgængelig, lad Googles lokationstjeneste og andre apps scanne efter netværk, selv når Wi-Fi er slået fra"</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Når du aktiverer denne mulighed, vil systemet skifte mellem forskellige dynamiske områdeformater for at matche indholdet. Dette kan medføre, at skærmen bliver sort under et formatskift.\n\nKlik på Avancerede skærmindstillinger for at se flere muligheder for dynamiske områder."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Foretrukket dynamisk område"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Systemforetrukken konvertering"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Lader systemet administrere konverteringen af formatet"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Lader systemet administrere konverteringen af formatet"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Når denne mulighed er valgt, fastlægger systemet et passende dynamisk område, som sendes til din skærm, og konverterer indholdet i overensstemmelse med dette dynamiske område efter behov."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Matcher altid indholdets format"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Gennemtving konvertering"</string>
@@ -1150,4 +1150,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Der er en knap på dit Google TV, som du kan trykke på for at afspille en lyd på din fjernbetjening i 30 sekunder. Dette virker kun på understøttede Google TV-fjernbetjeninger.\n\nTryk på en vilkårlig knap på fjernbetjeningen for at stoppe lyden."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Når Find min fjernbetjening er aktiveret, kan du afspille en lyd for at finde din fjernbetjening til Google TV, hvis den er blevet væk."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Afspil lyd"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Lydstyrke på %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Du kan styre lydstyrken for Assistent via %1$s-højttaleren"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Påvirker kun lydstyrken på %1$s-enheden og ikke på fjernsynet"</string>
 </resources>

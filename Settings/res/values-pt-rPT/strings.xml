@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Pessoal"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Ligar à rede"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Adicionar uma conta"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Contas e início de sessão"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Contas e perfis"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Sem contas."</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# conta}other{# contas}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Serviços multimédia, Assistente, Pagamentos"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privacidade"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Definições do dispositivo"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Definições da conta"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Bloqueio do dispositivo"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Assistente Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Pagamento e compras"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Definições da app"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet ligada."</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Sem redes ligadas."</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"O Wi-Fi está desativado."</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Desligue a Ethernet para usar o Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Procura sempre disponível"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Permitir que o serviço de localização da Google e outras aplicações procurem redes, mesmo quando a ligação Wi-Fi está desativada"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Procura sempre disponível, Permita que o serviço de localização da Google e outras apps procurem redes, mesmo quando a ligação Wi-Fi está desativada."</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Ao ativar esta opção, o sistema vai alternar entre diferentes formatos de amplitude dinâmica para corresponder ao conteúdo. Isto pode resultar num ecrã preto durante uma mudança de formato.\n\nClique em Definições de visualização avançadas para obter mais opções de amplitude dinâmica."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Amplitude dinâmica preferida"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversão preferida do sistema"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Permite que o sistema faça a gestão da conversão do formato"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Permite que o sistema faça a gestão da conversão do formato"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Quando esta opção está selecionada, o sistema vai determinar uma amplitude dinâmica adequada para ser enviada para o seu ecrã e converter o conteúdo para esta amplitude dinâmica conforme necessário."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Corresponde sempre ao formato do conteúdo"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forçar conversão"</string>
@@ -1064,7 +1064,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Permitir ecrã no ecrã"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Nenhuma app instalada é compatível com Ecrã no ecrã."</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Permitir que as apps criem uma janela de ecrã no ecrã enquanto as aplicações estão abertas ou depois de sair das mesmas (por exemplo, para continuar a ver um vídeo). Esta janela é apresentada sobre as outras aplicações que estiver a utilizar."</string>
-    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Permita que as apps definam alarmes e agendem outras ações com base no tempo. Esta ação permite que as apps sejam executadas em segundo plano, o que pode utilizar mais energia.\n\nSe esta autorização estiver desativada, os alarmes existentes e os eventos com base no tempo agendados pela app não funcionam."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Permita que as apps definam alarmes e agendem ações com um horário específico. Esta ação permite que as apps sejam executadas em segundo plano, o que pode usar mais energia.\n\nSe esta autorização estiver desativada, os alarmes existentes e os eventos com base no tempo agendados pela app não funcionam."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Ativar o ecrã"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Permitir a ativação do ecrã"</string>
     <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Permita que uma app ative o ecrã. Se a autorização for concedida, a app pode ativar o ecrã em qualquer altura sem a sua intenção explícita."</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Existe um botão no seu Google TV que pode premir para emitir um som no comando durante 30 segundos. Isto só funciona com comandos do Google TV suportados.\n\nPara parar o som, prima qualquer botão no comando."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Quando a funcionalidade Localizar o meu comando está ativada, pode tocar um som para localizar o comando do Google TV se não souber onde este se encontra."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Tocar som"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume: %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Pode controlar o volume do Assistente no altifalante %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Apenas afeta o volume no dispositivo %1$s, não na TV"</string>
 </resources>

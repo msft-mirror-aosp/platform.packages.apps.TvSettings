@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"אישי"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"התחברות לרשת"</string>
     <string name="add_an_account" msgid="2601275122685226096">"הוספת חשבון"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"חשבונות וכניסה"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"חשבונות ופרופילים"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"אין חשבונות"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{חשבון אחד}one{# חשבונות}two{# חשבונות}other{# חשבונות}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"שירותי מדיה, Assistant,‏ Payments"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"פרטיות"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"הגדרות מכשיר"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"הגדרות חשבון"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"נעילת מכשיר"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"תשלום ורכישות"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"הגדרות האפליקציה"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet מחובר"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"אין רשת מחוברת"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi כבוי"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"צריך לנתק את האתרנט כדי להשתמש ב-Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"סריקה זמינה תמיד"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"הענקת רשות לשירות המיקום של Google ולאפליקציות אחרות לסרוק על מנת למצוא רשתות, גם כשה-Wi-Fi כבוי"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"סריקה זמינה תמיד, הענקת רשות לשירות המיקום של Google ולאפליקציות אחרות לסרוק כדי למצוא רשתות, גם כשה-Wi-Fi כבוי"</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"כשהאפשרות הזו מופעלת, המערכת תעבור בין פורמטים של טווח דינמי בהתאם לתוכן. המעבר עלול לגרום להצגת מסך שחור בזמן שינוי הפורמט.\n\nיש ללחוץ על הגדרות התצוגה המתקדמות כדי לראות אפשרויות נוספות של טווח דינמי."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"טווח דינמי מועדף"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"המרה בהתאם למערכת"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"ההגדרה הזו מאפשרת למערכת לנהל את המרת הפורמט"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"ההגדרה הזו מאפשרת למערכת לנהל את המרת הפורמט"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"כשבוחרים באפשרות הזו, המערכת תקבע טווח דינמי מתאים שיישלח לתצוגה שלך ותמיר תוכן לטווח הדינמי הזה לפי הצורך."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"תמיד בהתאמה לפורמט של התוכן"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"אילוץ המרה"</string>
@@ -426,7 +426,7 @@
   </string-array>
     <string name="title_mac_address" msgid="7511588678922209883">"כתובת MAC של המכשיר"</string>
     <string name="title_randomized_mac_address" msgid="3359532498635833471">"כתובת MAC אקראית"</string>
-    <string name="title_signal_strength" msgid="5047116893338315998">"עוצמת אות"</string>
+    <string name="title_signal_strength" msgid="5047116893338315998">"עוצמת האות"</string>
     <string name="title_random_mac_settings" msgid="6685812569356353378">"פרטיות"</string>
   <string-array name="random_mac_settings_entries">
     <item msgid="3457228452595715533">"שימוש בכתובת MAC אקראית (ברירת מחדל)"</item>
@@ -989,7 +989,7 @@
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"משך הזמן שמוגדר בטיימר \'בזמן הצפייה\' צריך להיות ארוך יותר ממשך הזמן שמוגדר בטיימר \'כשאין פעילות\'"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"הגבלת החיבור לרשת במצב המתנה"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"במצב המתנה הטלוויזיה צורכת פחות אנרגיה"</string>
-    <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"במצב המתנה הטלוויזיה תתנתק מהרשת, ותתחבר רק לקבלת עדכונים אוטומטיים. הפעולה הזו תפחית את צריכת האנרגיה של הטלוויזיה, אבל לא ניתן יהיה להשתמש בפונקציות כמו העברה (Cast) ו-Google Assistant במצב ההמתנה."</string>
+    <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"במצב המתנה הטלוויזיה תתנתק מהרשת, ותתחבר רק לקבלת עדכונים אוטומטיים. הפעולה הזו תפחית את צריכת האנרגיה של הטלוויזיה, אבל לא ניתן יהיה להשתמש בפונקציות כמו הפעלת Cast ו-Google Assistant במצב ההמתנה."</string>
     <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"הרשאה לחיבור לרשת במצב המתנה"</string>
     <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"מתן הרשאה לחיבור לרשת במצב המתנה יגדיל את צריכת האנרגיה במצב המתנה."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"אין חשבון המאחסן כעת נתונים מגובים"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"יש כפתור ב-Google TV שאפשר ללחוץ עליו כדי להשמיע צליל בשלט הרחוק למשך 30 שניות. הפעולה הזו עובדת רק בשלטים רחוקים נתמכים של Google TV.‏\n\nכדי להפסיק את הצליל, צריך ללחוץ על לחצן כלשהו בשלט."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"כשהתכונה \'איפה השלט שלי\' מופעלת, אפשר להשמיע צליל כדי לאתר שלט רחוק של Google TV שאבד."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"השמעת צליל"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"עוצמת קול %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"אפשר לשלוט בעוצמת הקול של Assistant ברמקול של %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"רק עוצמת הקול במכשיר %1$s מושפעת, לא בטלוויזיה"</string>
 </resources>

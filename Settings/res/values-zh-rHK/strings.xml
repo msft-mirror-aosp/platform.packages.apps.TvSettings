@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"個人"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"連線至網絡"</string>
     <string name="add_an_account" msgid="2601275122685226096">"新增帳戶"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"帳戶和登入"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"帳戶和個人檔案"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"沒有任何帳戶"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# 個帳戶}other{# 個帳戶}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"媒體服務、Google 助理、付款"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"私隱"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"裝置設定"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"帳戶設定"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"裝置鎖定"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google 助理"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"付款和購買項目"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"應用程式設定"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"已連接以太網"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"沒有連接任何網絡"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi 已關閉"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"拔除以太網絡線以使用 Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"可隨時掃描"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"允許 Google 的定位服務和其他應用程式掃描網絡 (即使 Wi-Fi 已關閉)"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"可隨時掃瞄，即使閂咗 Wi-Fi，仍然允許 Google 嘅定位服務同埋其他應用程式掃瞄網絡"</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"啟用這個選項後，系統會因應內容切換匹配的動態範圍格式。切換格式時螢幕可能會全黑。\n\n點擊「進階顯示」設定查看更多動態範圍選項。"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"偏好的動態範圍"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"系統自動轉換"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"由系統管理格式轉換"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"由系統管理格式轉換"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"選取這個選項，系統會斷定合適向螢幕傳送的動態範圍，並按需要將內容轉換至該動態範圍。"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"一律採用內容的格式"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"強制轉換"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"你的 Google TV 設有按鈕，按下後會在遙控器播放音效 30 秒。此功能只適用於支援的 Google TV 遙控器。\n\n如要停止播放音效，請按下遙控器上任何按鈕。"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"啟用「尋找遙控器」後，你可以令位置不明的 Google TV 遙控器播放音效，從而找出裝置。"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"播放音效"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s 音量"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"你可以控制「Google 助理」在%1$s喇叭的音量"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"只影響%1$s裝置的音量，不會影響電視"</string>
 </resources>

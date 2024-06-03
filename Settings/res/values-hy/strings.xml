@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Անձնական"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Միացեք ցանցին"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Ավելացրեք հաշիվ"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Հաշիվներ և մուտք"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Հաշիվներ և պրոֆիլներ"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Հաշիվներ չկան"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# հաշիվ}one{# հաշիվ}other{# հաշիվ}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Մեդիա ծառայություններ, Օգնական, Payments"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Գաղտնիություն"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Սարքի կարգավորումներ"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Հաշվի կարգավորումներ"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Սարքի կողպում"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Օգնական"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Վճարում և գնումներ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Հավելվածի կարգավորումներ"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet-ը միացված է"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Ցանցային կապ չկա"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi-ն անջատված է"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Անջատեք Ethernet-ը հոսանքից՝ օգտվելու Wi-Fi-ից"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Միշտ որոնել ցանցեր"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Թույլատրել Google-ի տեղորոշման ծառայությանը և այլ հավելվածներին որոնել ցանցեր` նույնիսկ երբ WiFi-ն անջատված է"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Սկանավորումը միշտ հասանելի․ թույլատրել Google-ի տեղորոշման ծառայությանը և այլ հավելվածներին որոնել ցանցեր` նույնիսկ երբ Wi-Fi-ն անջատված է"</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Երբ այս պարամետրը միացված է, համակարգը փոխարկաբար կօգտագործի դինամիկ դիապազոնի տարբեր ձևաչափեր՝ բովանդակությանը համապատասխանելու համար։ Ձևաչափի փոփոխման ժամանակ էկրանը կարող է սևանալ։\n\nԴինամիկ դիապազոնի այլ տարբերակներ տեսնելու համար անցեք էկրանի լրացուցիչ կարգավորումներ։"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Նախընտրելի դինամիկ դիապազոն"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Ձևաչափի ավտոմատ կարգավորում"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Համակարգն է ավտոմատ ընտրում ձևաչափը"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Թույլատրել համակարգին կառավարել ձևաչափի փոխարկումը"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Եթե միացնեք այս պարամետրը, համակարգը կորոշի ձեր էկրանին համապատասխան դինամիկ դիապազոնը և, անհրաժեշտության դեպքում, կցուցադրի բովանդակությունը այդ դիապազոնում։"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Միշտ համապատասխանում է բովանդակության ձևաչափին"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Հարկադիր փոխակերպում"</string>
@@ -248,11 +248,11 @@
     <string name="accessories_autopair_msg" msgid="2501824457418285019">"Սարք է հայտնաբերվել և ավտոմատ կմիանա <xliff:g id="COUNTDOWN">%1$s</xliff:g> վայրկյանից"</string>
     <string name="error_action_not_supported" msgid="5377532621386080296">"Այս գործողությունը չի աջակցվում"</string>
     <string name="bluetooth_pairing_request" msgid="6120176967230348092">"Bluetooth զուգավորման հայցում"</string>
-    <string name="bluetooth_confirm_passkey_msg" msgid="7397401633869153520">"&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;,-ի հետ զուգավորելու համար համոզվեք, որ այն ցույց է տալիս անցակոդը` &lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;"</string>
+    <string name="bluetooth_confirm_passkey_msg" msgid="7397401633869153520">"&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;,-ի հետ զուգավորելու համար համոզվեք, որ այն ցույց է տալիս մուտքի բանալին` &lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;"</string>
     <string name="bluetooth_incoming_pairing_msg" msgid="8587851808387685613">"Հարցում հետևյալ սարքից՝ &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>-ից&lt;/b&gt;&lt;br&gt;Միանա՞լ այս սարքին:"</string>
     <string name="bluetooth_display_passkey_pin_msg" msgid="6934651048757228432">"&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;&lt;br&gt; սարքին միանալու համար մուտքագրեք կոդը` &lt;b&gt;<xliff:g id="PASSKEY">%2$s</xliff:g>&lt;/b&gt;, ապա սեղմեք «Վերադառնալ» կամ «Enter»:"</string>
     <string name="bluetooth_enter_pin_msg" msgid="8905524093007140634">"Հետևյալ սարքին միանալու համար՝ &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;մուտքագրեք սարքի PIN-ը՝"</string>
-    <string name="bluetooth_enter_passkey_msg" msgid="889584097447402492">"&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;-ին միանալու համար մուտքագրեք պահանջվող անցաբառը՝"</string>
+    <string name="bluetooth_enter_passkey_msg" msgid="889584097447402492">"&lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;-ին միանալու համար մուտքագրեք պահանջվող մուտքի բանալին՝"</string>
     <string name="bluetooth_pin_values_hint" msgid="6237371515577342950">"Սովորաբար 0000 կամ 1234"</string>
     <string name="bluetooth_pair" msgid="2410285813728786067">"Զուգակցել"</string>
     <string name="bluetooth_cancel" msgid="4415185529332987034">"Չեղարկել"</string>
@@ -369,7 +369,7 @@
     <string name="about_legal_license" msgid="4056934178111674054">"Կողմնակի աղբյուր"</string>
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google-ի իրավական տեղեկություններ"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Արտոնագրի տվյալներն անհասանելի են"</string>
-    <string name="about_model" msgid="9164284529291439296">"Մոդելը"</string>
+    <string name="about_model" msgid="9164284529291439296">"Մոդել"</string>
     <string name="device_mode" msgid="7258350575590118152">"Սարքի ռեժիմը"</string>
     <string name="store_demo_mode" msgid="4382231515659362796">"Խանութի դեմո"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV-ի օպերացիոն համակարգի տարբերակ"</string>
@@ -723,7 +723,7 @@
     <string name="captions_configure" msgid="711991018642931958">"Կարգավորել"</string>
     <string name="captions_language" msgid="5905918439449912646">"Լեզուն"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"Կանխադրված"</string>
-    <string name="captions_textsize" msgid="7161136610669343510">"Տեքստի չափը"</string>
+    <string name="captions_textsize" msgid="7161136610669343510">"Տեքստի չափսը"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"Ենթագրերի ոճը"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"Հատուկ ընտրանքներ"</string>
     <string name="captions_fontfamily" msgid="1026632786438880997">"Տառատեսակի ընտանիքը"</string>
@@ -741,7 +741,7 @@
     <string name="captions_style_0" msgid="169414884289770256">"Սպիտակ՝ սևի վրա"</string>
     <string name="captions_style_1" msgid="8236052739817535538">"Սև՝ սպիտակի վրա"</string>
     <string name="captions_style_2" msgid="456353889540431910">"Դեղին՝ սևի վրա"</string>
-    <string name="captions_style_3" msgid="3860050153620761166">"Դեղինը կապույտի վրա"</string>
+    <string name="captions_style_3" msgid="3860050153620761166">"Դեղին՝ կապույտի վրա"</string>
     <string name="captions_style_custom" msgid="9062905566459387931">"Հատուկ"</string>
     <string name="color_white" msgid="4188877187457167678">"Սպիտակ"</string>
     <string name="color_black" msgid="2631818627391955149">"Սև"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Ձեր Google TV սարքի վրա կա կոճակ, որը սեղմելու դեպքում հեռակառավարման վահանակում ազդանշան կհնչի 30 վայրկյան շարունակ։ Սա աշխատում է միայն Google TV-ի աջակցվող հեռակառավարիչների հետ։\n\nԱզդանշանը կանգնեցնելու համար սեղմեք հեռակառավարիչի ցանկացած կոճակ։"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Երբ «Գտնել իմ հեռակառավարիչը» գործառույթը միացված է, դուք կարող եք նվագարկել ազդանշան՝ ձեր Google TV-ի հեռակառավարիչը գտնելու համար։"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Նվագարկել ազդանշանը"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Ձայնի ուժգնությունը՝ %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Դուք կարող եք կառավարել Օգնականի ձայնի ուժգնությունը %1$s բարձրախոսում"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Ազդում է միայն %1$s սարքի ձայնի ուժգնության վրա, սակայն ոչ հեռուստացույցի"</string>
 </resources>

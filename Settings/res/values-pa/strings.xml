@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"ਨਿੱਜੀ"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕਰੋ"</string>
     <string name="add_an_account" msgid="2601275122685226096">"ਇੱਕ ਖਾਤਾ ਸ਼ਾਮਲ ਕਰੋ"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"ਖਾਤੇ ਅਤੇ ਸਾਈਨ-ਇਨ"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"ਖਾਤੇ ਅਤੇ ਪ੍ਰੋਫਾਈਲ"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"ਕੋਈ ਖਾਤੇ ਨਹੀਂ"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# ਖਾਤਾ}one{# ਖਾਤਾ}other{# ਖਾਤੇ}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"ਮੀਡੀਆ ਸੇਵਾਵਾਂ, Assistant, ਭੁਗਤਾਨ"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"ਪਰਦੇਦਾਰੀ"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ਡੀਵਾਈਸ ਸੈਟਿੰਗਾਂ"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"ਖਾਤਾ ਸੈਟਿੰਗਾਂ"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ਡੀਵਾਈਸ ਲਾਕ"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ਭੁਗਤਾਨ ਅਤੇ ਖਰੀਦਾਂ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ਐਪ ਸੈਟਿੰਗਾਂ"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ਈਥਰਨੈੱਟ ਕਨੈਕਟ ਕੀਤਾ ਹੋਇਆ ਹੈ"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"ਕੋਈ ਨੈੱਟਵਰਕ ਕਨੈਕਟ ਨਹੀਂ ਕੀਤਾ ਹੋਇਆ ਹੈ"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"ਵਾਈ-ਫਾਈ ਬੰਦ ਹੈ"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"ਵਾਈ-ਫਾਈ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਈਥਰਨੈੱਟ ਦਾ ਪਲੱਗ ਕੱਢੋ"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"ਸਕੈਨਿੰਗ ਹਮੇਸ਼ਾਂ ਉਪਲਬਧ"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Google ਦੀ ਟਿਕਾਣਾ ਸੇਵਾ ਅਤੇ ਹੋਰ ਐਪਾਂ ਨੂੰ ਨੈੱਟਵਰਕਾਂ ਲਈ ਸਕੈਨ ਕਰਨ ਦਿਓ, ਭਾਵੇਂ ਵਾਈ-ਫਾਈ ਬੰਦ ਹੀ ਹੋਵੇ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ਸਕੈਨਿੰਗ ਹਮੇਸ਼ਾਂ ਉਪਲਬਧ, Google ਦੀ ਟਿਕਾਣਾ ਸੇਵਾ ਅਤੇ ਹੋਰ ਐਪਾਂ ਨੂੰ ਨੈੱਟਵਰਕਾਂ ਲਈ ਸਕੈਨ ਕਰਨ ਦਿਓ, ਓਦੋਂ ਵੀ ਜਦੋਂ ਵਾਈ-ਫਾਈ ਬੰਦ ਹੋਵੇ"</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"ਇਹ ਵਿਕਲਪ ਚਾਲੂ ਹੋਣ \'ਤੇ, ਸਿਸਟਮ ਸਮੱਗਰੀ ਨਾਲ ਮੇਲ ਖਾਉਣ ਲਈ ਪਰਿਵਰਤਨਸ਼ੀਲ ਰੇਂਜ ਵਾਲੇ ਵੱਖ-ਵੱਖ ਫਾਰਮੈਟਾਂ ਵਿਚਾਲੇ ਸਵਿੱਚ ਕਰੇਗਾ। ਇਸ ਨਾਲ ਫਾਰਮੈਟ ਸਵਿੱਚ ਦੌਰਾਨ ਸਕ੍ਰੀਨ ਕਾਲੀ ਹੋ ਸਕਦੀ ਹੈ।\n\nਪਰਿਵਰਤਨਸ਼ੀਲ ਰੇਂਜ ਵਾਲੇ ਹੋਰ ਵਿਕਲਪਾਂ ਲਈ ਅਡਵਾਂਸ ਡਿਸਪਲੇ ਸੈਟਿੰਗਾਂ \'ਤੇ ਕਲਿੱਕ ਕਰੋ।"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"ਤਰਜੀਹੀ ਪਰਿਵਰਤਨਸ਼ੀਲ ਰੇਂਜ"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"ਸਿਸਟਮ-ਤਰਜੀਹੀ ਰੂਪਾਂਤਰਨ"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"ਸਿਸਟਮ ਨੂੰ ਫਾਰਮੈਟ ਰੂਪਾਂਤਰਨ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ ਦਿਓ"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"ਸਿਸਟਮ ਨੂੰ ਫਾਰਮੈਟ ਰੂਪਾਂਤਰਨ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ ਦਿਓ"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"ਇਹ ਵਿਕਲਪ ਚੁਣਨ \'ਤੇ ਸਿਸਟਮ ਤੁਹਾਡੀ ਡਿਸਪਲੇ \'ਤੇ ਭੇਜੇ ਜਾਣ ਲਈ ਢੁਕਵੀਂ ਗਤੀਸ਼ੀਲ ਦਰ ਨਿਰਧਾਰਿਤ ਕਰੇਗਾ ਅਤੇ ਲੋੜ ਮੁਤਾਬਕ ਸਮੱਗਰੀ ਨੂੰ ਇਸ ਗਤੀਸ਼ੀਲ ਦਰ ਵਿੱਚ ਬਦਲੇਗਾ।"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ਸਮੱਗਰੀ ਦੇ ਫਾਰਮੈਟ ਨਾਲ ਹਮੇਸ਼ਾਂ ਮੇਲ ਖਾਂਦਾ ਹੈ"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ਤੁਹਾਡੇ Google TV \'ਤੇ ਇੱਕ ਅਜਿਹਾ ਬਟਨ ਹੁੰਦਾ ਹੈ, ਜਿਸਨੂੰ ਦਬਾ ਕੇ ਤੁਸੀਂ ਆਪਣੇ ਰਿਮੋਟ \'ਤੇ 30 ਸਕਿੰਟਾਂ ਲਈ ਧੁਨੀ ਚਲਾ ਸਕਦੇ ਹੋ। ਇਹ ਸਿਰਫ਼ ਸਮਰਥਿਤ Google TV ਰਿਮੋਟ ਕੰਟਰੋਲਾਂ ਨਾਲ ਕੰਮ ਕਰਦੀ ਹੈ।\n\nਧੁਨੀ ਨੂੰ ਰੋਕਣ ਲਈ, ਆਪਣੇ ਰਿਮੋਟ \'ਤੇ ਕਿਸੇ ਵੀ ਬਟਨ ਨੂੰ ਦਬਾਓ।"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'ਮੇਰਾ ਰਿਮੋਟ ਲੱਭੋ\' ਸੁਵਿਧਾ ਚਾਲੂ ਹੋਣ \'ਤੇ, ਜੇ ਤੁਹਾਡੇ Google TV ਦਾ ਰਿਮੋਟ ਗੁਆਚ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਤੁਸੀਂ ਆਪਣੇ ਰਿਮੋਟ ਨੂੰ ਲੱਭਣ ਲਈ ਇੱਕ ਧੁਨੀ ਵਜਾ ਸਕਦੇ ਹੋ।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ਧੁਨੀ ਵਜਾਓ"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ਅਵਾਜ਼"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ਤੁਸੀਂ %1$s ਸਪੀਕਰ \'ਤੇ Assistant ਦੀ ਅਵਾਜ਼ ਨੂੰ ਕੰਟਰੋਲ ਕਰ ਸਕਦੇ ਹੋ"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"ਇਸ ਨਾਲ ਸਿਰਫ਼ %1$s ਡੀਵਾਈਸ ਦੀ ਅਵਾਜ਼ \'ਤੇ ਪ੍ਰਭਾਵ ਪੈਂਦਾ ਹੈ, ਟੀਵੀ \'ਤੇ ਨਹੀਂ"</string>
 </resources>

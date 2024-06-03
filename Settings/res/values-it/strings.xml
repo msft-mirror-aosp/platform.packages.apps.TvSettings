@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personali"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Collegati alla rete"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Aggiungi un account"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Account e accesso"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Account e profili"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Nessun account"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# account}other{# account}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Servizi multimediali, Assistente, Pagamenti"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privacy"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Impostazioni dispositivo"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Impostazioni account"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Blocco dispositivo"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Assistente Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Pagamento e acquisti"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Impostazioni app"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Rete Ethernet connessa"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Nessuna rete collegata"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Il Wi-Fi è disattivato"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Scollega Ethernet per usare il Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Scansione sempre disponibile"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Consenti al servizio di geolocalizzazione di Google e ad altre app di eseguire la scansione delle reti, anche quando il Wi-Fi non è attivo"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Scansione sempre disponibile, Consenti al servizio di geolocalizzazione di Google e ad altre app di cercare reti, anche quando il Wi-Fi non è attivo"</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Attivando questa opzione, il sistema passerà da un formato di intervallo dinamico all\'altro in base ai contenuti. Questo potrebbe causare la visualizzazione di una schermata nera durante il cambio di formato.\n\nFai clic su Impostazioni display avanzate per altre opzioni di intervallo dinamico."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Intervallo dinamico preferito"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversione preferita dal sistema"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Consente al sistema di gestire la conversione del formato"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Consente al sistema di gestire la conversione del formato"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Se viene selezionata questa opzione, sarà il sistema a stabilire un intervallo dinamico adatto da inviare al display e a convertire i contenuti in questo intervallo, se necessario."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Corrisponde sempre al formato dei contenuti"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forza conversione"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Puoi premere un pulsante su Google TV che farà emettere un suono al telecomando per 30 secondi. Questa opzione è disponibile solo sui telecomandi di Google TV supportati.\n\nPer interrompere il suono, premi qualsiasi tasto del telecomando."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Quando la funzionalità Trova il telecomando è attivata, puoi riprodurre un suono per trovare il tuo telecomando di Google TV se non sai dov\'è."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Riproduci suono"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume: %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Puoi controllare il volume dell\'assistente su %1$s speaker"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Influisce sul volume solo su %1$s dispositivo, non sulla TV"</string>
 </resources>

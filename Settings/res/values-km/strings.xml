@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"ផ្ទាល់ខ្លួន"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ភ្ជាប់ទៅបណ្តាញ"</string>
     <string name="add_an_account" msgid="2601275122685226096">"បញ្ចូល​គណនី"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"គណនី និង​ការចូលគណនី"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"គណនី និងកម្រងព័ត៌មាន"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"គ្មានគណនីទេ"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{គណនី #}other{គណនី #}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"សេវាកម្ម​មេឌៀ ជំនួយការ ការបង់ប្រាក់"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"ឯកជនភាព"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ការកំណត់​ឧបករណ៍"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"ការ​កំណត់​គណនី"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ការចាក់សោ​ឧបករណ៍"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google ជំនួយការ"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ការបង់ប្រាក់ និង​ការទិញ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ការ​កំណត់​កម្មវិធី​"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"បាន​ភ្ជាប់​អ៊ីសឺរណិត"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"មិន​មាន​ការ​ភ្ជាប់​បណ្តាញ​ទេ"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"បានបិទ Wi-Fi"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"ដកឌុយអ៊ីសឺរណិត ដើម្បីប្រើ Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"ការស្កេនតែងតែមានជានិច្ច"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"អនុញ្ញាតឲ្យសេវាកម្ម Google និងកម្មវិធីផ្សេងៗស្កេនរកបណ្ដាញ បើទោះបីជា Wi-Fi បិទក៏ដោយ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"អាចប្រើ​ការស្កេនបានជានិច្ច អនុញ្ញាតឱ្យសេវាកម្មទីតាំង​របស់ Google និងកម្មវិធី​ផ្សេងទៀតស្កេនរកបណ្ដាញ ទោះបីជានៅពេលបិទ Wi-Fi ក៏ដោយ"</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"នៅពេលបើក​ជម្រើសនេះ ប្រព័ន្ធនឹងប្ដូររវាង​ទម្រង់កម្រិត​ឌីណាមិកផ្សេងៗ ដើម្បីឱ្យត្រូវគ្នានឹង​ខ្លឹមសារ។ ការធ្វើបែបនេះ​អាចបណ្ដាលឱ្យ​អេក្រង់ពណ៌ខ្មៅ ក្នុងអំឡុងពេល​ប្ដូរទម្រង់។\n\nចុច​ការកំណត់​ផ្ទាំងអេក្រង់កម្រិតខ្ពស់ ដើម្បីទទួលបាន​ជម្រើសកម្រិតឌីណាមិក​ច្រើនទៀត។"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"កម្រិតឌីណាមិក​ដែលចង់បាន"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"ការបំប្លែងតាមការចង់បានរបស់ប្រព័ន្ធ"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"សូមឱ្យប្រព័ន្ធគ្រប់គ្រងការបំប្លែងទម្រង់"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"អនុញ្ញាតឱ្យប្រព័ន្ធគ្រប់គ្រងការបំប្លែងទម្រង់"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"នៅពេលជម្រើសនេះត្រូវបានជ្រើសរើស ប្រព័ន្ធនឹងកំណត់ចន្លោះឌីណាមិកសមរម្យមួយដែលត្រូវបានផ្ញើទៅកាន់ផ្ទាំងអេក្រង់របស់អ្នក ហើយបំប្លែងខ្លឹមសារទៅជា​ចន្លោះឌីណាមិកនេះតាមតម្រូវការ។"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ត្រូវគ្នានឹងទម្រង់ខ្លឹមសារជានិច្ច"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"បង្ខំការបំប្លែង"</string>
@@ -402,7 +402,7 @@
     <string name="oem_lock_info_message" msgid="2165887409937351689">"សូមចាប់ផ្ដើមឧបករណ៍ឡើងវិញ ដើម្បីបើកមុខងារការពារឧបករណ៍។"</string>
     <string name="automatic_storage_manager_freed_bytes" msgid="1654574152815129396">"សរុប <xliff:g id="SIZE">%1$s</xliff:g> អាចប្រើបាន\n\nដំណើរការចុងក្រោយនៅថ្ងៃ <xliff:g id="DATE">%2$s</xliff:g>"</string>
     <string name="fcc_equipment_id" msgid="6731077083927000108">"លេខសម្គាល់បរិក្ខារ"</string>
-    <string name="baseband_version" msgid="5618116741093274294">"កំណែមូលដ្ឋាន៖"</string>
+    <string name="baseband_version" msgid="5618116741093274294">"កំណែបេសប៊េន៖"</string>
     <string name="kernel_version" msgid="7265509054070001542">"កំណែខឺណែល"</string>
     <string name="status_unavailable" msgid="2033933928980193334">"មិនមានទេ"</string>
     <string name="device_status_title" msgid="9051569510258883673">"ស្ថានភាព"</string>
@@ -686,7 +686,7 @@
     <string name="accessibility_services_category_title" msgid="8813843874978910442">"សេវាកម្ម"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"ការ​កំណត់​សេវាកម្ម"</string>
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
-    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"អត្ថបទមានកម្រិតភាពដិតខ្ពស់"</string>
+    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"អក្សររំលេចពណ៌ខ្លាំង"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"អក្សរ​ដិត"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"ការ​កែ​តម្រូវ​ពណ៌"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"ប្រើ​ការ​កែតម្រូវពណ៌"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"មានប៊ូតុង​នៅលើ Google TV របស់អ្នក​ដែលអ្នកអាច​ចុចដើម្បីចាក់​សំឡេង​នៅលើ​ឧបករណ៍​បញ្ជាពីចម្ងាយ​របស់អ្នក​រយៈពេល 30 វិនាទី។ សកម្មភាពនេះដំណើរការតែជាមួយនឹងឧបករណ៍​​បញ្ជា​ Google TV ពី​ចម្ងាយដែលអាចប្រើបានប៉ុណ្ណោះ។\n\nដើម្បីបញ្ឈប់សំឡេង សូមចុចប៊ូតុងណាមួយលើឧបករណ៍​បញ្ជាពីចម្ងាយរបស់អ្នក។"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"នៅពេលបើក \"រកឧបករណ៍​បញ្ជាពីចម្ងាយរបស់ខ្ញុំ\" អ្នកអាចចាក់សំឡេងណាមួយ ដើម្បីកំណត់ទីតាំងឧបករណ៍​បញ្ជាពីចម្ងាយសម្រាប់ Google TV របស់អ្នក ប្រសិនបើបាត់ឧបករណ៍នោះ។"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ចាក់​សំឡេង"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"កម្រិតសំឡេង %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"អ្នកអាចគ្រប់គ្រងកម្រិតសំឡេង Google Assistant នៅលើឧបករណ៍បំពងសំឡេង %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"ប៉ះពាល់តែកម្រិតសំឡេងនៅលើឧបករណ៍ %1$s មិនមែននៅលើទូរទស្សន៍ទេ"</string>
 </resources>

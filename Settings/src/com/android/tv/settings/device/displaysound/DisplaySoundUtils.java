@@ -22,8 +22,10 @@ import android.annotation.Nullable;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface.OnClickListener;
+import android.content.Intent;
 import android.hardware.display.DisplayManager;
 import android.hardware.display.HdrConversionMode;
+import android.os.UserHandle;
 import android.view.Display;
 
 import com.android.tv.settings.R;
@@ -38,6 +40,24 @@ import java.util.stream.Collectors;
  * @hide
  */
 public class DisplaySoundUtils {
+    private static final String ACTION_HDR_SETTINGS_CHANGED =
+            "com.android.tv.settings.display.HDR_SETTINGS_CHANGED";
+
+    public static void sendHdrSettingsChangedBroadcast(Context context) {
+        final String target_package =
+                context.getResources().getString(R.string.hdr_settings_changed_broadcast_package);
+        if (target_package.isEmpty()) {
+            return;
+        }
+        context.sendBroadcastAsUser(
+                new Intent(ACTION_HDR_SETTINGS_CHANGED)
+                        .setPackage(target_package)
+                        .setFlags(
+                                Intent.FLAG_INCLUDE_STOPPED_PACKAGES
+                                        | Intent.FLAG_RECEIVER_FOREGROUND
+                                        | Intent.FLAG_RECEIVER_INCLUDE_BACKGROUND),
+                UserHandle.SYSTEM);
+    }
 
     /** Gets the match-content dynamic range status */
     public static boolean getMatchContentDynamicRangeStatus(DisplayManager displayManager) {
@@ -46,13 +66,15 @@ public class DisplaySoundUtils {
     }
 
     /** Sets the match-content dynamic range status */
-    public static void setMatchContentDynamicRangeStatus(DisplayManager displayManager,
+    public static void setMatchContentDynamicRangeStatus(Context context,
+            DisplayManager displayManager,
             boolean status) {
         HdrConversionMode mode = status
                 ? new HdrConversionMode(HdrConversionMode.HDR_CONVERSION_PASSTHROUGH)
                 : new HdrConversionMode(HdrConversionMode.HDR_CONVERSION_SYSTEM);
 
         displayManager.setHdrConversionMode(mode);
+        sendHdrSettingsChangedBroadcast(context);
     }
 
     /** Returns if Dolby vision is supported by the device */

@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Жеке"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Желімен байланыс орнату"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Аккаунтты енгізу"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Аккаунттар және оларға кіру"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Аккаунттар және профильдер"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Аккаунттар жоқ"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# аккаунт}other{# аккаунт}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Медиа қызметтері, Assistant, Төлемдер"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Құпиялық"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Құрылғы параметрлері"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Аккаунт параметрлері"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Құрылғыны құлыптау"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Төлем және сатып алу транзакциялары"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Қолданба параметрлері"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet қосылған"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Желі қосылмаған"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi өшірулі"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Wi-Fi-ды пайдалану үшін Ethernet-ті ажыратыңыз."</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Желілерді ылғи іздеу"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Google орынды анықтау қызметіне және басқа қолданбаларға желілерді тексеру мүмкіндігін беру (Wi-Fi өшірулі тұрса да)"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Желілерді кез келген уақытта тексеруге болады, Google орынды анықтау қызметіне және басқа қолданбаларға желілерді тексеру мүмкіндігін беру (Wi-Fi өшірулі тұрса да)"</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Бұл опция таңдалғанда, жүйе контентпен сәйкестену үшін әртүрлі динамикалық ауқым форматтары арасында ауысады. Формат ауысқанда, экран қараюы мүмкін.\n\nДинамикалық ауқымның басқа опцияларын көру үшін \"Қосымша дисплей параметрлері\" тармағын таңдаңыз."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Қажетті динамикалық ауқым"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Жүйеге қолайлы конверсия"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Жүйеге формат конверсиясын басқаруға рұқсат береді."</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Жүйеге формат конверсиясын басқаруға рұқсат береді."</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Осы опция таңдалған кезде, жүйе дисплейге жіберілетін аралықты анықтайды және керегінше контентті осы динамикалық аралыққа түрлендіреді."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Әрқашан контенттің форматына сәйкес келеді."</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Мәжбүрлі конверсия"</string>
@@ -231,7 +231,7 @@
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"Қосалқы құрал қосу"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"Жұпталуда…"</string>
-    <string name="accessory_state_connecting" msgid="6560241025917621212">"Қосылуда…"</string>
+    <string name="accessory_state_connecting" msgid="6560241025917621212">"Қосылып жатыр…"</string>
     <string name="accessory_state_error" msgid="8353621828816824428">"Жұптау мүмкін болмады"</string>
     <string name="accessory_state_canceled" msgid="4794837663402063770">"Бас тартылды"</string>
     <string name="accessory_state_paired" msgid="3296695242499532000">"Жұпталды"</string>
@@ -1034,8 +1034,8 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"Пернетақталарды басқару"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Рұқсат етілген"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Рұқсат етілмеген"</string>
-    <string name="usage_access" msgid="8402350645248312782">"Пайдалану тарихын көру"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"Пайдалану тарихын көру рұқсаты қолданбаға сіз пайдаланатын басқа қолданбаларды және қаншалықты жиі пайдаланатыңыз туралы ақпаратты, сондай-ақ операторды, тіл параметрлерін және басқа мәліметтерді бақылауға мүмкіндік береді."</string>
+    <string name="usage_access" msgid="8402350645248312782">"Пайдалану мәліметін көру"</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"Пайдалану мәліметін көру рұқсаты қолданбаға сіз пайдаланатын басқа қолданбаларды және қаншалықты жиі пайдаланатыңыз туралы ақпаратты, сондай-ақ операторды, тіл параметрлерін және басқа мәліметтерді бақылауға мүмкіндік береді."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Қуат үнемдеу"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Қолданбалардың қуат тұтынуын оңтайландыру"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"Оңтайландыру қажет емес"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Пультіңізде 30 секундтық дыбыс ойнату үшін Google TV қолданбасындағы түймені бассаңыз болады. Бұл функция қолдау көрсетілетін Google TV пульттерінде ғана жұмыс істейді.\n\nДыбысты тоқтату үшін пульттің кез келген түймесін басыңыз."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\"Пультімді табу\" функциясы қосулы тұрған кезде, жоғалған Google TV пультін оңай табуға көмектесетін дыбысты ойнатуға болады."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Дыбыс ойнату"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s дыбыс деңгейі"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s динамигіндегі Assistant дыбысын басқара аласыз."</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Теледидардағы емес,- тек %1$s құрылғысындағы дыбысқа әсер етеді."</string>
 </resources>

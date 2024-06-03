@@ -92,7 +92,7 @@
     <!-- Main Fragment General Settings Preferences -->
     <skip />
     <!-- Title for main screen preference for accounts on device [CHAR LIMIT=50] -->
-    <string name="accounts_category_title">Accounts &amp; sign-in</string>
+    <string name="accounts_category_title">Accounts &amp; Profiles</string>
     <!-- Summary for main screen preference for accounts on device indicates no account is signed in[CHAR LIMIT=50] -->
     <string name="accounts_category_summary_no_account">No accounts</string>
     <!-- Summary for main screen preference for accounts on device indicates several accounts are signed in[CHAR LIMIT=50] -->
@@ -125,6 +125,8 @@
     <string name="privacy_device_settings_category">Device Settings</string>
     <!-- Title for account-related privacy settings category [CHAR LIMIT=50] -->
     <string name="privacy_account_settings_category">Account Settings</string>
+    <!-- Title for Device Lock privacy settings [CHAR LIMIT=50] -->
+    <string name="privacy_device_lock_settings_title">Device Lock</string>
     <!-- Title for Google Assistant privacy settings [CHAR LIMIT=50] -->
     <string name="privacy_assistant_settings_title">Google Assistant</string>
     <!-- Title for purchases-related privacy settings [CHAR LIMIT=50] -->
@@ -562,6 +564,8 @@
         [CHAR LIMIT=250]-->
     <string name="hdr_enabled_format_info_clicked">To disable, change the
         format selection to Manual.</string>
+    <!-- Package to send HDR settings change broadcasts to -->
+    <string name="hdr_settings_changed_broadcast_package" translatable="false"/>
 
     <!-- Title for preference for Resolution selection. [CHAR LIMIT=50] -->
     <string name="resolution_selection_title">Resolution</string>
@@ -2304,6 +2308,9 @@
     <string name="label_done_key">Done</string>
     <!-- Message displayed when the selected Wi-Fi network has been connected to [CHAR LIMIT=40] -->
     <string name="wifi_setup_connection_success">Connected successfully</string>
+    <!-- Message displayed when the selected Wi-Fi network is already connected [CHAR LIMIT=40] -->
+    <string name="wifi_setup_already_connected">Already connected</string>
+
     <!-- Message displayed when the Wi-Fi network's configuration has been saved [CHAR LIMIT=40] -->
     <string name="wifi_setup_save_success">Saved successfully</string>
 
@@ -2663,7 +2670,7 @@
     <!-- Package name of slice rendering app -->
     <string name="slice_rendering_app" translatable="false"/>
 
-    <!-- Slice uri for "Accounts & Sign in" -->
+    <!-- Slice uri for "Accounts & Profiles" -->
     <string name="account_slice_uri" translatable="false"/>
     <!-- Slice uri and title for manange user services settings -->
     <string name="manage_user_services_slice_uri" translatable="false" />
@@ -2676,6 +2683,7 @@
     <!-- Slice uri for "Privacy" -->
     <string name="privacy_assistant_slice_uri" translatable="false"/>
     <string name="privacy_purchases_slice_uri" translatable="false"/>
+    <string name="privacy_device_lock_slice_uri" translatable="false"/>
 
     <!-- Slice uri and title for "Ambient mode" -->
     <string name="ambient_slice_uri" translatable="false" />
@@ -2894,4 +2902,12 @@
     <string name="find_my_remote_integration_title" translatable="false">@string/settings_find_my_remote_title</string>
     <string name="find_my_remote_integration_hint">When Find my remote is enabled, you can play a sound to locate your Google TV remote if it\'s misplaced.</string>
     <string name="find_my_remote_play_sound">Play sound</string>
+
+    <!-- Title for preference which when clicked lets the user configure volume change -->
+    <string name="volume_change_settings_title">%1$s volume</string>
+    <!-- Subtitle for volume change during unselect -->
+    <string name="volume_change_subtitle_unselect">You can control the Assistant volume on %1$s speaker</string>
+    <!-- Subtitle for volume change during select -->
+    <string name="volume_change_subtitle_select">Only affects volume on %1$s device , not on TV</string>
+
 </resources>

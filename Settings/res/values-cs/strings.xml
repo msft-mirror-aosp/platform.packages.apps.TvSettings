@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Osobní"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Připojení k síti"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Přidání účtu"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Účty a přihlašování"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Účty a profily"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Žádné účty"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# účet}few{# účty}many{# účtu}other{# účtů}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Mediální služby, Asistent, platby"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Ochrana soukromí"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Nastavení zařízení"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Nastavení účtu"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Zámek zařízení"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Asistent Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Platby a nákupy"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Nastavení aplikací"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Připojeno přes ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Žádné připojení k síti"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi je vypnuta"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Pokud chcete použít Wi-Fi, odpojte Ethernet"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Vyhledávání je vždy k dispozici"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Povolit službě určování polohy Google a ostatním aplikacím hledat sítě, i když je síť Wi-Fi vypnutá"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Vždy aktivní vyhledávání: Povolit službě určování polohy Google a ostatním aplikacím hledat sítě, i když je síť Wi-Fi vypnutá"</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Když povolíte tuto možnost, systém bude přepínat mezi různými formáty dynamického rozsahu podle obsahu. Při přepínání formátu může obrazovka zčernat.\n\nDalší možnosti dynamického rozsahu najdete v sekci Rozšířená nastavení obrazu."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Preferovaný dynamický rozsah"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Převod preferovaný systémem"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Nechá správu převodu formátu na systému"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Nechá správu převodu formátu na systému"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Když je vybrána tato možnost, určí systém vhodný dynamický rozsah k odeslání na váš displej, a podle potřeby obsah převede do tohoto dynamického rozsahu."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Vždy odpovídá formátu obsahu"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Vynutit převod"</string>
@@ -430,7 +430,7 @@
     <string name="title_random_mac_settings" msgid="6685812569356353378">"Soukromí"</string>
   <string-array name="random_mac_settings_entries">
     <item msgid="3457228452595715533">"Používat náhodnou adresu MAC (výchozí nastavení)"</item>
-    <item msgid="2490415280467390067">"Používat adresu MAC zařízení"</item>
+    <item msgid="2490415280467390067">"Používat MAC adresu zařízení"</item>
   </string-array>
     <string name="mac_address_not_available" msgid="2992935344891853369">"Nedostupné"</string>
     <string name="mac_address_ephemeral_summary" msgid="3284374877361772531">"Náhodná adresa MAC"</string>
@@ -1067,7 +1067,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Povolte aplikacím nastavovat budíky a plánovat akce závislé na čase. Aplikace poběží na pozadí, což může vést k vyšší spotřebě energie.\n\nPokud je toto oprávnění vypnuté, stávající budíky a události závislé na čase naplánované aplikací nebudou fungovat."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Zapnout obrazovku"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Povolit zapínání obrazovky"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Povolte aplikaci zapínat obrazovku. Pokud aplikace bude mít toto oprávnění, může kdykoli zapnout obrazovku bez požadavku uživatele."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Aplikaci můžete povolit zapínat obrazovku. Pokud bude mít toto oprávnění, může kdykoli zapnout obrazovku bez požadavku uživatele."</string>
     <string name="special_access" msgid="21806055758289916">"Zvláštní přístup aplikací"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Zvuk"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na televizi Google TV je tlačítko, po jehož stisknutí se bude na dálkovém ovládání 30 sekund přehrávat zvuk. Funguje to jen s podporovaným dálkovým ovládáním Google TV.\n\nZvuk vypnete stisknutím libovolného tlačítka na dálkovém ovládání."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Pokud je aktivováno vyhledávání dálkového ovládání, můžete si nechat přehrát zvuk, abyste našli dálkové ovládání Google TV, když nevíte, kde je."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Přehrát zvuk"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s hlasitost"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Hlasitost Asistenta můžete ovládat na reproduktoru %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Ovlivňuje jen hlasitost zařízení %1$s, ne televize"</string>
 </resources>

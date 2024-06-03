@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"ব্যক্তিগত"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"নেটওয়ার্কে কানেক্ট করুন"</string>
     <string name="add_an_account" msgid="2601275122685226096">"একটি অ্যাকাউন্ট জুড়ুন"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"অ্যাকাউন্ট ও সাইন-ইন"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"অ্যাকাউন্ট ও প্রোফাইল"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"কোনও অ্যাকাউন্ট নেই"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{#টি অ্যাকাউন্ট}one{#টি অ্যাকাউন্ট}other{#টি অ্যাকাউন্ট}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"মিডিয়া পরিষেবা, Assistant, Payments"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"গোপনীয়তা"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ডিভাইস সেটিংস"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"অ্যাকাউন্ট সেটিংস"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ডিভাইস লক"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"পেমেন্ট ও কেনাকাটা"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"অ্যাপ সেটিংস"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ইথারনেট কানেক্ট করা হয়েছে"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"কোনও নেটওয়ার্কে কানেক্ট করা নেই"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"ওয়াই-ফাই বন্ধ আছে"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"ওয়াই-ফাই ব্যবহার করতে ইথারনেট আনপ্লাগ করুন"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"স্ক্যান করা সর্বদা উপলভ্য"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Google লোকেশন পরিষেবা এবং অন্যান্য অ্যাপকে নেটওয়ার্কের জন্য স্ক্যান করতে দিন, এমনকি ওয়াই-ফাই বন্ধ থাকা সত্ত্বেও"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"স্ক্যান করার সুবিধা সব সময় চালু রাখা, Google-এর লোকেশন ভিত্তিক পরিষেবা এবং অন্যান্য অ্যাপকে উপলভ্য নেটওয়ার্ক স্ক্যান করতে দিন, এমনকি ওয়াই-ফাই বন্ধ থাকলেও"</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"এই বিকল্প চালু করলে, কন্টেন্টের সাথে মানানসই ফলাফল দেখানোর জন্য সিস্টেমটি বিভিন্ন ডায়নামিক রেঞ্জ ফর্ম্যাটের মধ্যে পরিবর্তিত হবে। কোনও ফর্ম্যাটে পরিবর্তন করার সময়, সিস্টেমের স্ক্রিন কালো হয়ে যেতে পারে।\n\nডায়নামিক রেঞ্জের আরও বিকল্প দেখতে, \'অ্যাডভান্স ডিসপ্লে\' সেটিংসে ক্লিক করুন।"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"পছন্দের ডায়নামিক রেঞ্জ"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"সিস্টেমের সাথে মানানসই কনভার্সন"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"সিস্টেমকে ফর্ম্যাট কনভার্সন ম্যানেজ করতে দিন"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"সিস্টেমকে ফর্ম্যাট কনভার্সন ম্যানেজ করতে দিন"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"এই বিকল্পটি বেছে নেওয়া হলে, সিস্টেমটি আপনার ডিসপ্লেতে পাঠানোর জন্য উপযুক্ত ডায়নামিক রেঞ্জ নির্ধারণ করবে এবং প্রয়োজন অনুসারে এই ডায়নামিক রেঞ্জে কন্টেন্ট কনভার্ট করবে।"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"সবসময় কন্টেন্ট ফর্ম্যাটের সাথে ম্যাচ করে"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"ফোর্স কনভার্সন চালু করুন"</string>
@@ -1100,8 +1100,8 @@
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"আপনার প্রশাসক এই ব্যবহারকারীর সাথে সম্পর্কিত অ্যাপ এবং ডেটা নিরীক্ষণ ও পরিচালনা করতে পারেন, যাতে সামিল রয়েছে সেটিংস, অনুমতি, কর্পোরেট অ্যাক্সেস, নেটওয়ার্ক অ্যাক্টিভিটি এবং ডিভাইসের লোকেশন তথ্য।"</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"আপনার প্রশাসক এই ডিভাইসের সাথে সম্পর্কিত অ্যাপ এবং ডেটা নিরীক্ষণ ও পরিচালনা করতে পারেন, যাতে সামিল রয়েছে সেটিংস, অনুমতি, কর্পোরেট অ্যাক্সেস, নেটওয়ার্ক অ্যাক্টিভিটি এবং ডিভাইসের লোকেশন তথ্য।"</string>
     <string name="remove_managed_profile_label" msgid="8950011141359605612">"কর্মস্থলের প্রোফাইল সরান"</string>
-    <string name="active_device_admin_msg" msgid="185537304726228624">"ডিভাইস প্রশাসক অ্যাপ"</string>
-    <string name="remove_device_admin" msgid="2623866073546295104">"এই ডিভাইস প্রশাসক অ্যাপটি নিস্ক্রিয় করুন"</string>
+    <string name="active_device_admin_msg" msgid="185537304726228624">"ডিভাইস অ্যাডমিন অ্যাপ"</string>
+    <string name="remove_device_admin" msgid="2623866073546295104">"এই ডিভাইস অ্যাডমিন অ্যাপটি নিস্ক্রিয় করুন"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"অ্যাপ্লিকেশান আনইনস্টল করুন"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"নিস্ক্রিয় করুন এবং আনইনস্টল করুন"</string>
     <string name="select_device_admin_msg" msgid="8475934459999710332">"ডিভাইস প্রশাসক অ্যাপ"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"আপনার Google TV-তে একটি বোতাম আছে যা আপনি ৩০ সেকেন্ডের জন্য সাউন্ড প্লে করতে নিজের রিমোট থেকে পুশ করতে পারেন। এটি শুধুমাত্র মানানসই Google TV রিমোট কন্ট্রোলের সাথে কাজ করে।\n\nসাউন্ড বন্ধ করতে, আপনার রিমোটের বোতাম প্রেস করুন।"</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'আমার রিমোট খুঁজুন\' সুবিধা চালু থাকাকালীন, আপনার Google TV-এর রিমোট হারিয়ে গেলে, সেটি খুঁজে পেতে সাউন্ড চালাতে পারবেন।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"সাউন্ড চালান"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ভলিউম"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"আপনি %1$s স্পিকারে Assistant ভলিউম কন্ট্রোল করতে পারবেন"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"%1$s ডিভাইসকে শুধু ভলিউম প্রভাবিত করে , টিভিকে নয়"</string>
 </resources>

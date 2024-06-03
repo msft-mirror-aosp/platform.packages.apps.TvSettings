@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Kişisel"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Ağa bağlanma"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Hesap ekleme"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Hesaplar ve oturum açma"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Hesaplar ve Profiller"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Hesap yok"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# hesap}other{# hesap}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Medya hizmetleri, Asistan, Ödemeler"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Gizlilik"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Cihaz Ayarları"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Hesap Ayarları"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Cihaz Kilidi"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Asistan"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Ödeme ve Satın Alma İşlemleri"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Uygulama Ayarları"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet bağlandı"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Bağlı ağ yok"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Kablosuz bağlantı kapalı"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Kablosuz ağ için Ethernet kablosunu çıkarın"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Tarama her zaman kullanılabilir"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Kablosuz özelliği kapalıyken dahi Google\'ın konum hizmetinin ve diğer uygulamaların ağları taramasına izin ver"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Tarama her zaman kullanılabilir, Kablosuz özelliği kapalıyken dahi Google\'ın konum hizmetinin ve diğer uygulamaların ağları taramasına izin verir."</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Bu seçenek etkinleştirildiğinde sistem içeriği eşleştirmek için farklı dinamik aralık biçimleri arasında geçiş yapar. Biçim değiştirme sırasında siyah ekran görünmesine neden olabilir.\n\nDiğer dinamik aralık seçenekleri için Gelişmiş Ekran ayarlarını tıklayın."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Tercih edilen dinamik aralık"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Sistem tarafından tercih edilen dönüştürme"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Biçim dönüştürme işlemini sisteme bırakır"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Biçim dönüştürme işlemini sisteme bırakır"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Bu seçenek belirlenirse sistem, ekranınıza gönderilecek uygun bir dinamik aralık belirler ve gerektiğinde içeriği bu dinamik aralığa dönüştürür."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Her zaman içeriğin biçimiyle uyumludur"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Zorunlu dönüştürme"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV\'nizde, uzaktan kumandanızda 30 saniye boyunca ses çalmak için basabileceğiniz bir düğme mevcuttur. Bu işlem yalnızca desteklenen Google TV uzaktan kumandalarında çalışır.\n\nSes çalmayı durdurmak için uzaktan kumandanızda herhangi bir düğmeye basın."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Uzaktan kumandamı bul özelliği etkinleştirildiğinde Google TV uzaktan kumandanızın nerede olduğunu hatırlamıyorsanız ses çaldırarak yerini bulabilirsiniz."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Ses çaldır"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ses düzeyi"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s hoparlöründe Asistan\'ın ses düzeyin kontrol edebilirsiniz"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Yalnızca %1$s cihazının ses düzeyini etkiler, TV\'nin sesini etkilemez"</string>
 </resources>

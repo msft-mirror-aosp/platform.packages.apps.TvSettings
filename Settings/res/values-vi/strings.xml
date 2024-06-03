@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Cá nhân"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Kết nối mạng"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Thêm tài khoản"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Tài khoản và đăng nhập"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Tài khoản và hồ sơ"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Không có tài khoản nào"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# tài khoản}other{# tài khoản}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Dịch vụ nghe nhìn, Trợ lý, Payments"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Quyền riêng tư"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Cài đặt thiết bị"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Cài đặt tài khoản"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Phương thức khoá thiết bị"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Trợ lý Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Thanh toán và mua hàng"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Cài đặt ứng dụng"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Đã kết nối với Ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Chưa kết nối với mạng nào"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi đã bị tắt"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Rút dây nối Ethernet để sử dụng Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Luôn quét"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Cho phép dịch vụ định vị và các ứng dụng khác của Google quét tìm mạng, ngay cả khi Wi-Fi bị tắt"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Luôn quét, Cho phép dịch vụ vị trí và các ứng dụng khác của Google quét tìm mạng, ngay cả khi Wi-Fi đang tắt"</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Khi bạn bật tuỳ chọn này, hệ thống sẽ chuyển giữa các định dạng dải động khác nhau sao cho phù hợp với nội dung. Màn hình có thể chuyển sang màu đen trong quá trình chuyển định dạng.\n\nNhấp vào chế độ cài đặt Hiển thị nâng cao để có thêm lựa chọn về dải động."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Dải động ưa thích"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Chuyển đổi sang định dạng hệ thống ưu tiên"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Hãy để hệ thống quản lý việc chuyển đổi định dạng"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Hãy để hệ thống quản lý việc chuyển đổi định dạng"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Khi bạn chọn tuỳ chọn này, hệ thống sẽ xác định dải động phù hợp để gửi đến màn hình của bạn và chuyển đổi nội dung sang dải động này nếu cần."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Luôn phù hợp với định dạng của nội dung"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Buộc chuyển đổi"</string>
@@ -706,8 +706,8 @@
     <string name="palette_color_blue" msgid="8836682634988540630">"Xanh lam"</string>
     <string name="palette_color_purple" msgid="2123828754639683555">"Tím"</string>
     <string name="palette_color_gray" msgid="4014534773994261194">"Màu xám"</string>
-    <string name="accessibility_shortcut" msgid="5856158637840030531">"Phím tắt hỗ trợ tiếp cận"</string>
-    <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Bật phím tắt hỗ trợ tiếp cận?"</string>
+    <string name="accessibility_shortcut" msgid="5856158637840030531">"Lối tắt hỗ trợ tiếp cận"</string>
+    <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Bật lối tắt hỗ trợ tiếp cận?"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Dịch vụ phím tắt"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Khi bật phím tắt, bạn có thể nhấn vào cả hai nút quay lại và xuống trong 3 giây để bật tính năng hỗ trợ tiếp cận."</string>
     <string name="accessibility_timeout" msgid="5806441204926407081">"Thời gian thực hiện hành động"</string>
@@ -723,7 +723,7 @@
     <string name="captions_configure" msgid="711991018642931958">"Định cấu hình"</string>
     <string name="captions_language" msgid="5905918439449912646">"Ngôn ngữ"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"Mặc định"</string>
-    <string name="captions_textsize" msgid="7161136610669343510">"Kích thước văn bản"</string>
+    <string name="captions_textsize" msgid="7161136610669343510">"Cỡ chữ"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"Kiểu phụ đề"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"Tùy chọn tùy chỉnh"</string>
     <string name="captions_fontfamily" msgid="1026632786438880997">"Họ phông chữ"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Trên Google TV có nút nhấn để phát chuông báo trên điều khiển từ xa trong vòng 30 giây. Tính năng này chỉ hoạt động với các loại điều khiển từ xa được hỗ trợ của Google TV.\n\nNếu bạn muốn dừng chuông báo, hãy nhấn nút bất kỳ trên điều khiển từ xa."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Khi tính năng Tìm điều khiển từ xa đã bật, bạn có thể phát chuông báo để tìm điều khiển từ xa của Google TV nếu bạn không nhớ chỗ để."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Phát chuông báo"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Âm lượng %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Bạn có thể kiểm soát âm lượng của Trợ lý trên loa %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Chỉ ảnh hưởng đến âm lượng trên thiết bị %1$s chứ không ảnh hưởng đến TV"</string>
 </resources>

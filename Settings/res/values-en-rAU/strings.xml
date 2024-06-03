@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personal"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Connect to network"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Add an account."</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Accounts and sign-in"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Accounts and profiles"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"No accounts"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# account}other{# accounts}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Media services, Assistant, Payments"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privacy"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Device settings"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Account settings"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Device lock"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Payment and purchases"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"App settings"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet connected"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"No network connected"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi is turned off"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Unplug Ethernet to use Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Scanning always available"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Let Google\'s location service and other apps scan for networks, even when Wi-Fi is off"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Scanning always available, Let Google\'s location service and other apps scan for networks, even when Wi-Fi is off"</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"When enabling this option, the system will switch between different dynamic range formats to match the content. This may cause a black screen during a format switch.\n\nClick Advanced display settings for more dynamic range options."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Preferred dynamic range"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"System-preferred conversion"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Lets the system manage the format conversion"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Lets the system manage the format conversion"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"When this option is selected, the system will determine a suitable dynamic range to be sent to your display and convert content to this dynamic range as needed."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Always matches content\'s format"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Force conversion"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"There is a button on your Google TV that you can push to play a sound on your remote for 30 seconds. This only works with supported Google TV remote controls.\n\nTo stop the sound, press any button on your remote."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"When Find my remote is enabled, you can play a sound to locate your Google TV Streamer Voice Remote if it\'s been misplaced."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Play sound"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volume"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"You can control the Assistant volume on %1$s speaker"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Only affects volume on %1$s device, not on TV"</string>
 </resources>

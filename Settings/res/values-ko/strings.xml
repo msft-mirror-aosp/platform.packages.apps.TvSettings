@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"개인"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"네트워크에 연결"</string>
     <string name="add_an_account" msgid="2601275122685226096">"계정 추가"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"계정 및 로그인"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"계정 및 프로필"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"계정 없음"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{계정 #개}other{계정 #개}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"미디어 서비스, 어시스턴트, 결제"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"개인 정보 보호"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"기기 설정"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"계정 설정"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"기기 잠금"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google 어시스턴트"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"결제 및 구매"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"앱 설정"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"이더넷에 연결됨"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"네트워크에 연결되지 않음"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi가 사용 중지됨"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Wi-Fi를 사용하려면 이더넷을 분리하세요"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"항상 검색"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi가 꺼져 있을 때에도 Google의 위치 서비스 및 기타 앱이 네트워크를 검색하도록 합니다."</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"네트워크 항상 검색, Wi-Fi가 꺼져 있을 때도 Google의 위치 서비스 및 기타 앱이 네트워크를 검색하도록 허용합니다."</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"이 옵션을 사용 설정하면 시스템에서 콘텐츠에 맞춰 다이내믹 레인지 형식을 전환합니다. 형식이 전환되는 동안 검은색 화면이 표시될 수 있습니다.\n\n고급 화면 설정을 클릭하여 더 많은 다이내믹 레인지 옵션을 확인하세요."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"선호하는 다이내믹 레인지"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"시스템 선호 전환"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"시스템에서 형식 전환을 관리하도록 함"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"시스템에서 형식 전환을 관리하도록 허용합니다."</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"이 옵션이 선택되면 시스템에서 디스플레이에 전송할 적절한 다이내믹 레인지를 결정하고 필요에 따라 콘텐츠를 이 다이내믹 레인지로 전환합니다."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"항상 콘텐츠 형식에 맞춤"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"강제 전환"</string>
@@ -377,7 +377,7 @@
     <string name="about_build" msgid="8467840394761634575">"Android TV OS 빌드"</string>
     <string name="show_dev_countdown" msgid="4064986225625409361">"{count,plural, =1{개발자 설정 완료까지 #단계 남았습니다.}other{개발자 설정 완료까지 #단계 남았습니다.}}"</string>
     <string name="about_ads" msgid="7662896442040086522">"광고"</string>
-    <string name="ads_description" msgid="8081069475265061074">"광고 ID 재설정 등의 광고 설정을 관리합니다."</string>
+    <string name="ads_description" msgid="8081069475265061074">"광고 관련 설정을 조정합니다."</string>
     <string name="ads_content_description" msgid="1006489792324920289">"광고, 광고 ID 재설정 등의 광고 설정을 관리합니다."</string>
     <string name="show_dev_on" msgid="612741433124106067">"개발자가 되셨습니다."</string>
     <string name="show_dev_already" msgid="1522591284776449818">"이미 개발자입니다."</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV에 있는 버튼을 누르면 리모컨에서 30초 동안 소리가 울립니다. 이 기능은 지원되는 Google TV 리모컨에서만 작동합니다.\n\n소리 재생을 중지하려면 리모컨의 아무 버튼이나 누르세요."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"내 리모컨 찾기를 사용 설정하면 리모컨을 어디 두었는지 찾을 수 없을 때 소리를 재생하여 Google TV 리모컨을 찾을 수 있습니다."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"소리 재생"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s 볼륨"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s 스피커의 어시스턴트 볼륨을 제어할 수 있습니다"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"TV가 아닌 %1$s 기기 볼륨에만 영향을 줍니다"</string>
 </resources>

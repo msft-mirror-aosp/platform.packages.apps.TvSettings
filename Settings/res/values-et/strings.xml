@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Isiklik"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Võrguga ühendamine"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Konto lisamine"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Kontod ja sisselogimine"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Kontod ja profiilid"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Kontod puuduvad"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# konto}other{# kontot}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Meediateenused, assistent, maksed"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privaatsus"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Seadme seaded"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Konto seaded"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Seadmelukk"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google\'i assistent"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Maksed ja ostud"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Rakenduse seaded"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Etherneti-ühendus on loodud"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Võrguühendus puudub"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"WiFi on välja lülitatud"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"WiFi kasutamiseks eemaldage Ethernet"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Otsimine on alati saadaval"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Lubage Google\'i asukohateenusel ja muudel rakendustel võrke skannida ka juhul, kui WiFi on välja lülitatud"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Skannimine on alati saadaval: lubage Google\'i asukohateenusel ja muudel rakendustel võrke skannida ka juhul, kui WiFi on välja lülitatud."</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Selle valiku lubamise korral vahetab süsteem vastavalt sisule erineva dünaamilise ulatuse vormingute vahel. See võib vormingu vahetamise ajal põhjustada ekraani mustaks muutumist.\n\nTäiendavate dünaamilise ulatuse valikute nägemiseks klõpsake valikul „Täpsemad kuvaseaded“."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Eelistatud dünaamiline ulatus"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Süsteemieelistusega konvertimine"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Lubab süsteemil vormingu konvertimist hallata"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Lubab süsteemil vormingu konvertimist hallata"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Kui see valik on tehtud, määrab süsteem sobiliku dünaamilise vahemiku, mis ekraanile saadetakse, ja konverdib sisu vastavalt vajadusele sellesse dünaamilisse vahemikku."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Vastendab alati sisu vorminguga"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Konvertimise jõustamine"</string>
@@ -290,7 +290,7 @@
     <string name="system_keyboard" msgid="1514460705385401872">"Klaviatuur"</string>
     <string name="system_keyboard_autofill" msgid="8530944165814838255">"Klaviatuur ja automaattäide"</string>
     <string name="system_autofill" msgid="6983989261108020046">"Automaatne täitmine"</string>
-    <string name="system_home" msgid="2149349845791104094">"Avaekraan"</string>
+    <string name="system_home" msgid="2149349845791104094">"Avakuva"</string>
     <string name="system_search" msgid="3170169128257586925">"Otsing"</string>
     <string name="system_google" msgid="945985164023885276">"Google"</string>
     <string name="system_security" msgid="1012999639810957132">"Turvalisus ja piirangud"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Teie Google TV-l on nupp, mida vajutades saate puldil 30 sekundi vältel heli esitada. See töötab ainult toetatud Google TV kaugjuhtimispultidega.\n\nHeli peatamiseks vajutage puldil mõnda nuppu."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kui funktsioon Leia mu pult on lubatud, saate esitada heli, et kaotsiläinud Google TV pult üles leida."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Esita heli"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s – helitugevus"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Saate assistendi helitugevust kõlaris %1$s hallata"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Mõjutab helitugevust vaid seadmes %1$s, mitte teleris"</string>
 </resources>

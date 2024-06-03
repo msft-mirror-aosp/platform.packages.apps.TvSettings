@@ -85,6 +85,10 @@
             android.view.Display.HdrCapabilities.HDR_TYPE_HDR10_PLUS -->
     <integer name="hdr10plus">4</integer>
 
+    <!-- Whether to show sub-HD resolutions, where HD is any resolution with a height greater than or
+            equal to 720. -->
+    <bool name="config_showSubHdResolutions">true</bool>
+
     <!-- Determines whether the device should optimise wifi scanning. -->
     <bool name="wifi_scan_optimisation_enabled">false</bool>
 
@@ -95,6 +99,8 @@
     <string-array name="config_preinstalled_screen_reader_services" translatable="false">
         <item>@string/accessibility_screen_reader_flattened_component_name</item>
     </string-array>
+    <!-- Disable to hide Color Correction on devices that don't support it. -->
+    <bool name="config_showAccessibilityColorCorrection">true</bool>
 
     <!-- List containing the component names of pre-installed display services. -->
     <string-array name="config_preinstalled_display_services" translatable="false">
@@ -170,4 +176,13 @@
         strings/connected_devices_slice_uri is empty.
     -->
     <bool name="config_find_my_remote_integration_enabled">false</bool>
+
+    <!-- True if the device has a built in speaker. -->
+    <bool name="config_volume_change">false</bool>
+
+    <!-- Name of the device. -->
+    <string name="config_device_name" />
+
+    <!-- Default volume of the device. -->
+    <string name="config_default_device_volume"/>
 </resources>

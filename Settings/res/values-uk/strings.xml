@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Особисте"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Під’єднатися до мережі"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Додати обліковий запис"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Облікові записи й вхід"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Облікові записи й профілі"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Немає облікових записів"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# обліковий запис}one{# обліковий запис}few{# облікові записи}many{# облікових записів}other{# облікового запису}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Медіа-сервіси, Асистент, Payments"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Конфіденційність"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Налаштування пристрою"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Налаштування облікового запису"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Блокування пристрою"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Асистент"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Платежі й покупки"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Налаштування додатка"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet під’єднано"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Мережі не під’єднано"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi вимкнено"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Щоб використовувати Wi-Fi, відключіть Ethernet"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Постійний пошук мереж"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Дозволити службі локації Google та іншим додаткам сканувати мережі, навіть якщо Wi-Fi вимкнено"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Сканування завжди доступне. Cлужба локації Google та інші додатки можуть сканувати мережі, навіть якщо Wi-Fi вимкнено."</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Якщо цю опцію ввімкнено, система перемикатиметься між різними форматами динамічного діапазону з урахуванням контенту. Під час перемикання формату екран може ставати чорним.\n\nЩоб переглянути інші опції динамічного діапазону, натисніть \"Додаткові налаштування екрана\"."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Бажаний динамічний діапазон"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Конвертація за вибором системи"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Дозвольте системі керувати конвертацією формату"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Дозволяє системі керувати конвертацією формату"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Якщо ви виберете цю опцію, система визначатиме відповідний динамічний діапазон, який передаватиметься на ваш екран, і за потреби конвертуватиме контент у цей динамічний діапазон."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Завжди відповідає формату контенту"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Примусова конвертація"</string>
@@ -355,7 +355,7 @@
     <string name="default_email_app_title" msgid="3712283056326496555">"{count,plural, =1{Додаток для електронної пошти}one{Додатки для електронної пошти}few{Додатки для електронної пошти}many{Додатки для електронної пошти}other{Додатки для електронної пошти}}"</string>
     <string name="default_map_app_title" msgid="9051013257374474801">"Додаток для карт"</string>
     <string name="default_phone_app_title" msgid="4833449131501871644">"{count,plural, =1{Додаток для викликів}one{Додатки для викликів}few{Додатки для викликів}many{Додатки для викликів}other{Додатки для викликів}}"</string>
-    <string name="default_browser_title" msgid="3612813200586492159">"Веб-переглядач"</string>
+    <string name="default_browser_title" msgid="3612813200586492159">"Вебпереглядач"</string>
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"Навчальні посібники"</string>
@@ -1035,7 +1035,7 @@
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Дозволено"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Не дозволено"</string>
     <string name="usage_access" msgid="8402350645248312782">"Доступ до історії використання"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"Завдяки доступу до історії використання додаток може відстежувати, які додатки ви використовуєте та як часто, а також визначати назву вашого оператора, налаштування мови й інші відомості."</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"Завдяки доступу до історії використання додаток може відстежувати, які додатки ви використовуєте і як часто, а також визначати назву вашого оператора, налаштування мови й інші відомості."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Оптимізація енергоспоживання"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Оптимізуйте енергоспоживання додатків"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"Немає додатків, які можна оптимізувати"</string>
@@ -1059,7 +1059,7 @@
     <string name="write_settings_off" msgid="6730113471695092167">"Ні"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Доступ до всіх файлів"</string>
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"Надати доступ до керування всіма файлами"</string>
-    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Дозволити цьому додатку переглядати, змінювати та видаляти всі файли на цьому пристрої або інших підключених носіях пам\'яті. Після надання дозволу додаток може отримувати доступ до файлів без вашого відома."</string>
+    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Дозволити цьому додатку переглядати, змінювати й видаляти всі файли на цьому пристрої або інших підключених носіях пам\'яті. Після надання дозволу додаток може отримувати доступ до файлів без вашого відома."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Картинка в картинці"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Дозвіл картинки в картинці"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Не встановлено додатків, як підтримують режим картинки в картинці"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"На пристрої Google TV є кнопка, яку можна натиснути, щоб на пульті дистанційного керування протягом 30 секунд відтворювався звуковий сигнал. Ця функція працює лише з підтримуваними пультами ДК для Google TV.\n\nЩоб вимкнути звуковий сигнал, натисніть будь-яку кнопку на пульті."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Увімкнувши функцію \"Знайти пульт\", ви зможете відтворити звуковий сигнал на пульті Google TV, якщо загубили його."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Відтворити звуковий сигнал"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Гучність: %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Ви можете керувати гучністю Асистента на колонці \"%1$s\""</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Вплине лише на гучність на пристрої \"%1$s\", а не на телевізорі"</string>
 </resources>

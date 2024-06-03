@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Osebno"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Vzpostavitev povezave z omrežjem"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Dodajanje računa"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Računi in prijava"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Računi in profili"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Ni računov"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# račun}one{# račun}two{# računa}few{# računi}other{# računov}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Predstavnostne storitve, Pomočnik, Google Payments"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Zasebnost"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Nastavitve naprave"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Nastavitve računa"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Zaklepanje naprave"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Pomočnik Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Plačila in nakupi"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Nastavitve aplikacije"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernetna povezava je vzpostavljena"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Povezava ni vzpostavljena z nobenim omrežjem"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Povezava Wi-Fi je izklopljena"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Odklopite ethernet, če želite uporabljati Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Iskanje je vedno na voljo"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Googlova lokacijska storitev in druge aplikacije naj poiščejo omrežja, tudi če je Wi-Fi izklopljen"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Iskanje je vedno na voljo, Googlova lokacijska storitev in druge aplikacije naj poiščejo omrežja, tudi če je Wi-Fi izklopljen."</string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Če omogočite to možnost, bo sistem preklapljal med različnimi oblikami zapisa dinamičnega razpona, da se bodo ujemale z vsebino. Med preklopom oblike zapisa je lahko prikazan črn zaslon.\n\nČe želite več možnosti dinamičnega razpona, kliknite možnost dodatnih nastavitev prikaza."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Prednostni dinamični razpon"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Sistemska pretvorba"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Sistemu omogoči upravljanje pretvorbe oblike."</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Sistemu omogoči upravljanje pretvorbe oblike"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Če je ta možnost izbrana, sistem določi ustrezni dinamični razpon, ki je poslan v zaslon, in po potrebi vsebino pretvori v ta dinamični razpon."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Vedno se prilagodi obliki vsebine."</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Vsiljenje pretvorbe"</string>
@@ -237,7 +237,7 @@
     <string name="accessory_state_paired" msgid="3296695242499532000">"Seznanjeno"</string>
     <string name="accessory_options" msgid="774592782382321681">"Pripomoček"</string>
     <string name="accessory_unpair" msgid="2473411128146068804">"Prekliči seznanitev"</string>
-    <string name="accessory_battery" msgid="2283700366184703548">"Akumulator: <xliff:g id="PERCENTAGE">%1$d</xliff:g> %%"</string>
+    <string name="accessory_battery" msgid="2283700366184703548">"Baterija: <xliff:g id="PERCENTAGE">%1$d</xliff:g> %%"</string>
     <string name="accessory_unpairing" msgid="2529195578082286563">"Preklic seznanitve z napravo …"</string>
     <string name="accessory_connected" msgid="5229574480869175180">"Povezano"</string>
     <string name="accessory_change_name" msgid="6493717176878500683">"Spremeni ime"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV ima gumb, ki ga lahko pritisnete in tako za 30 sekund sprožite predvajanje zvoka v daljinskem predvajalniku. To deluje samo s podprtimi daljinskimi upravljalniki za Google TV.\n\nČe želite ustaviti zvok, na daljinskem upravljalniku pritisnite kateri koli gumb."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Če je omogočena funkcija Poišči moj daljinski upravljalnik, lahko nastavite, da se predvaja zvok, da najdete založeni daljinski upravljalnik Googla TV."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Predvajaj zvok"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Glasnost za %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Glasnost Pomočnika lahko upravljate v zvočniku %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"To vpliva na glasnost samo v napravi %1$s, ne na televizorju"</string>
 </resources>

@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personnel"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Connexion au réseau"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Ajouter un compte"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Comptes et connexion"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Comptes et profils"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Aucun compte"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# compte}one{# compte}other{# comptes}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Services multimédias, Assistant et Payments"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Confidentialité"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Paramètres de l\'appareil"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Paramètres de compte"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Verrouillage de l\'appareil"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Assistant Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Paiement et achats"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Paramètres des applications"</string>
@@ -85,8 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet connecté"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Aucun réseau connecté"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Le Wi-Fi est désactivé"</string>
-    <!-- no translation found for unplug_ethernet_to_use_wifi (5078499991407069670) -->
-    <skip />
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Débranchez le câble Ethernet pour accéder au Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Recherche de réseaux toujours active"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Autoriser le service de localisation de Google et les autres applications à rechercher des réseaux, même si le Wi-Fi est désactivé"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Recherche de réseaux toujours active : autorisez le service de localisation de Google et les autres applications à rechercher des réseaux, même si la connexion Wi-Fi est désactivée"</string>
@@ -94,7 +94,7 @@
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Connexion au réseau"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Diagnostics du réseau"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Applications récemment ouvertes"</string>
-    <string name="apps_see_all_apps" msgid="2002886135933443688">"Afficher toutes les applications"</string>
+    <string name="apps_see_all_apps" msgid="2002886135933443688">"Afficher toutes les applis"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Autorisations"</string>
     <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
     <string name="update_slice_title" msgid="6553763903108611747"></string>
@@ -158,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Lorsque cette option est activée, le système passera d\'une gamme dynamique à une autre pour s\'adapter au contenu. Cela peut engendrer un écran noir lors d\'un changement de format.\n\nCliquez sur Paramètres d\'affichage avancés pour accéder à d\'autres options de gamme dynamique."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Gamme dynamique préférée"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversion préférée par le système"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Permet au système de gérer la conversion du format"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Permet au système de gérer la conversion du format"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Lorsque cette option est sélectionnée, le système déterminera une gamme dynamique appropriée à envoyer à votre écran et convertira le contenu à cette gamme dynamique si nécessaire."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Toujours faire correspondre le format à celui du contenu"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forcer la conversion"</string>
@@ -1058,7 +1058,7 @@
     <string name="write_settings_on" msgid="71675710746513956">"Oui"</string>
     <string name="write_settings_off" msgid="6730113471695092167">"Non"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Accès à tous les fichiers"</string>
-    <string name="permit_manage_external_storage" msgid="1776899171934627417">"Autorisez l\'accès pour gérer tous les fichiers"</string>
+    <string name="permit_manage_external_storage" msgid="1776899171934627417">"Autoriser l\'accès pour gérer tous les fichiers"</string>
     <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Autoriser cette application à lire, à modifier et à supprimer tous les fichiers qui se trouvent sur cet appareil ou sur des volumes de stockage connectés. Si vous accordez cette autorisation, l\'application pourra accéder à des fichiers sans que vous le sachiez."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Incrustation d\'image"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Autoriser l\'incrustation d\'image"</string>
@@ -1149,4 +1149,7 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Un bouton sur votre Google TV vous permet d\'émettre un son sur votre télécommande pendant 30 secondes. Cette action ne fonctionne qu\'avec les télécommandes prises en charge par Google TV.\n\nPour couper le son, appuyez sur n\'importe quel bouton de votre télécommande."</string>
     <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Quand la fonctionnalité Localiser ma télécommande est activée, vous pouvez faire jouer un son pour localiser votre télécommande Google TV si elle est égarée."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Faire jouer un son"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volume"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Vous pouvez contrôler le volume de l\'Assistant sur le haut-parleur %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Ne concerne que le volume sur l\'appareil %1$s, pas sur le téléviseur"</string>
 </resources>
