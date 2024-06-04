@@ -988,7 +988,7 @@
     <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"Ukuvumela uxhumo lenethiwekhi ekulindeni kuzokhuphula amandla okusebenzisa asekulindeni."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Ayikho i-akhawunti okwamanje elondoloza idatha eyenziwe isipele"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
-    <string name="backup_erase_dialog_message" msgid="222169533402624861">"Yeka ukwenza isipele amaphasiwedi wakho we-Wi-Fi, amabhukhimakhi, ezinye izilungiselelo, kanye nedatha yohlelo lokusebenza,futhi ususe wonke amakhophi kumaseva we-Google?"</string>
+    <string name="backup_erase_dialog_message" msgid="222169533402624861">"Yeka ukwenza isipele amaphasiwedi wakho weWi-Fi, amabhukhimakhi, amanye amasethingi, kanye nedatha ye-app, futhi ususe wonke amakhophi kumaseva weGoogle?"</string>
     <string name="privacy_backup_data" msgid="3604057980102997914">"Yenza isipele sedatha yami"</string>
     <string name="privacy_backup_account" msgid="4527813051841860610">"Yenza isipele i-akhawunti"</string>
     <string name="privacy_automatic_restore" msgid="7117805818589418118">"Ukubuyisela esimweni okuzenzakalelayo"</string>

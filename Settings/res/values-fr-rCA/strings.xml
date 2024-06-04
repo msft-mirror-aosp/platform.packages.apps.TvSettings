@@ -1061,7 +1061,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Autorisez les applications à créer des alarmes et à programmer des actions urgentes. Cela permet aux applications de s\'exécuter en arrière-plan, ce qui peut demander plus d\'alimentation.\n\nSi cette autorisation est désactivée, les alarmes existantes et les événements en temps réel programmés par l\'application ne fonctionneront pas."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Activation de l\'écran"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Autoriser l\'activation de l\'écran"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Autorisez une application à activer l\'écran. Lorsque vous accordez cette autorisation, l\'application peut activer l\'écran à tout moment sans votre volonté explicite."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Autorisez une appli à activer l\'écran. Lorsque vous accordez cette autorisation, l\'appli peut activer l\'écran à tout moment sans votre volonté explicite."</string>
     <string name="special_access" msgid="21806055758289916">"Accès spécial des applications"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Audio"</string>

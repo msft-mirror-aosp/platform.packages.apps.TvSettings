@@ -1061,7 +1061,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Aplikacijama omogućuje da postavljaju alarme i zakazuju vremenski osjetljive radnje. To aplikacijama omogućuje da se izvode u pozadini, pa je moguće dodatno trošenje baterije.\n\nAko je to dopuštenje isključeno, postojeći alarmi i događaji temeljeni na vremenu koji su zakazani putem aplikacije neće funkcionirati."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Uključivanje zaslona"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Dopusti uključivanje zaslona"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Dopustite aplikaciji da uključuje zaslon. Ako date to dopuštenje, aplikacija može uključiti zaslon u bilo kojem trenutku bez vaše izričite namjere."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Dopušta aplikaciji da uključuje zaslon. Ako date to dopuštenje, aplikacija može uključiti zaslon u bilo kojem trenutku bez vaše izričite namjere."</string>
     <string name="special_access" msgid="21806055758289916">"Poseban pristup za aplikacije"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Zvuk"</string>

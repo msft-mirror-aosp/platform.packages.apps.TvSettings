@@ -101,7 +101,7 @@
     <string name="all_apps_installed" msgid="8217778476185598971">"Telepített alkalmazások"</string>
     <string name="all_apps_other" msgid="4420174882983813158">"Rendszeralkalmazások"</string>
     <string name="all_apps_disabled" msgid="2776041242863791053">"Letiltott alkalmazások"</string>
-    <string name="device_daydream" msgid="2631191946958113220">"Képernyővédő"</string>
+    <string name="device_daydream" msgid="2631191946958113220">"Képernyőkímélő"</string>
     <string name="device_display" msgid="244634591698925025">"Képernyő"</string>
     <string name="device_display_sound" msgid="7399153506435649193">"Kijelző és hang"</string>
     <string name="device_sound" msgid="8616320533559404963">"Hang"</string>

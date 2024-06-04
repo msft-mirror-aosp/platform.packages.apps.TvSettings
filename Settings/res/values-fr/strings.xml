@@ -1061,7 +1061,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Autoriser les applis à définir des alarmes et à programmer des actions à certaines heures. Elle s\'exécutera alors en arrière-plan, ce qui peut solliciter davantage la batterie.\n\nSi l\'autorisation est désactivée, les alarmes existantes et les événements programmés par l\'appli ne fonctionneront pas."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Activer l\'écran"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Autoriser l\'activation de l\'écran"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Autoriser une appli à activer l\'écran. Si l\'autorisation est accordée, l\'appli peut activer l\'écran à tout moment sans votre intention explicite."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Vous permet d\'autoriser une appli à activer l\'écran. Si elle y est autorisée, l\'appli pourra activer l\'écran à tout moment sans que vous le lui demandiez."</string>
     <string name="special_access" msgid="21806055758289916">"Accès spéciaux des applis"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Audio"</string>
