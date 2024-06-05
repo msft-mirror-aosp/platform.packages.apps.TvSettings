@@ -98,7 +98,7 @@ public class SaveFailedState implements State {
         @Override
         public void onGuidedActionClicked(GuidedAction action) {
             if (action.getId() == GuidedAction.ACTION_ID_CONTINUE) {
-                mStateMachine.getListener().onComplete(StateMachine.FAIL);
+                mStateMachine.getListener().onComplete(this, StateMachine.FAIL);
             }
         }
     }

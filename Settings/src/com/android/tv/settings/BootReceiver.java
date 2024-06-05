@@ -22,33 +22,27 @@ import android.content.Intent;
 import android.util.Log;
 
 import com.android.tv.settings.accessories.BluetoothDevicesService;
+import com.android.tv.settings.device.display.daydream.EnergySaverFragment;
 import com.android.tv.settings.device.eco.EnergyModesHelper;
 
 /** The {@BroadcastReceiver} for performing actions upon device boot. */
 public class BootReceiver extends BroadcastReceiver {
-
     private static final String TAG = "BootReceiver";
     private static final boolean DEBUG = false;
-
-    private static final String NATIVE_CONNECTED_DEVICE_SLICE_PROVIDER_URI =
-            "content://com.android.tv.settings.accessories.sliceprovider/general";
 
     @Override
     public void onReceive(Context context, Intent intent) {
         if (DEBUG) {
             Log.i(TAG, "onReceive");
         }
-        // Start the Service that supports ConnectedDevicesSliceProvider only if the URI is not
-        // overlaid.
-        if (context != null
-                && NATIVE_CONNECTED_DEVICE_SLICE_PROVIDER_URI.equals(
-                        context.getResources().getString(R.string.connected_devices_slice_uri))) {
-            Intent mainIntent = new Intent(context, BluetoothDevicesService.class);
-            context.startService(mainIntent);
+        if (context == null) {
+            return;
         }
-
+        EthernetDetectionUtil.registerEthernetDetection(context);
 
         EnergyModesHelper energyModesHelper = new EnergyModesHelper(context);
         energyModesHelper.updateEnergyMode();
+
+        EnergySaverFragment.resetAttentiveTimeoutIfHidden(context);
     }
 }

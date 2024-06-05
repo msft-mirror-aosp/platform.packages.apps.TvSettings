@@ -24,7 +24,9 @@ import android.content.DialogInterface;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.Handler;
+import android.text.Editable;
 import android.text.TextUtils;
+import android.text.TextWatcher;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.util.TypedValue;
@@ -32,6 +34,8 @@ import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.accessibility.AccessibilityManager;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.OverScroller;
 import android.widget.TextView;
@@ -113,6 +117,7 @@ public abstract class PinDialogFragment extends SafeDismissDialogFragment
     private View mEnterPinView;
     private TextView mTitleView;
     private PinNumberPicker[] mPickers;
+    private EditText mAccessiblePin;
     private String mOriginalPin;
     private String mPrevPin;
     private int mWrongPinCount;
@@ -387,19 +392,46 @@ public abstract class PinDialogFragment extends SafeDismissDialogFragment
             updateWrongPin();
         }
 
+        AccessibilityManager accessibilityManager = getContext().getSystemService(
+                AccessibilityManager.class);
+        // Use built in EditText in accessibility mode as it can use custom input methods
+        // and other needed behaviors.
+        boolean isAccessible = accessibilityManager.isEnabled() &&
+                accessibilityManager.isTouchExplorationEnabled();
+
+        mAccessiblePin = v.requireViewById(R.id.accessible_pin);
+        mAccessiblePin.setVisibility(isAccessible ? View.VISIBLE : View.GONE);
+        mAccessiblePin.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                if (s.length() == 4) {
+                    done(s.toString());
+                }
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+            }
+        });
+
         mPickers = new PinNumberPicker[NUMBER_PICKERS_RES_ID.length];
         for (int i = 0; i < NUMBER_PICKERS_RES_ID.length; i++) {
             mPickers[i] = v.findViewById(NUMBER_PICKERS_RES_ID[i]);
             mPickers[i].setValueRange(0, 9);
             mPickers[i].setPinDialogFragment(this);
             mPickers[i].updateFocus();
+            mPickers[i].setVisibility(isAccessible ? View.GONE : View.VISIBLE);
         }
         for (int i = 0; i < NUMBER_PICKERS_RES_ID.length - 1; i++) {
             mPickers[i].setNextNumberPicker(mPickers[i + 1]);
         }
 
         if (savedInstanceState == null) {
-            mPickers[0].requestFocus();
+            (isAccessible ? mAccessiblePin : mPickers[0]).requestFocus();
         }
     }
 
@@ -419,7 +451,9 @@ public abstract class PinDialogFragment extends SafeDismissDialogFragment
         for (PinNumberPicker pnp : mPickers) {
             pnp.setValueRange(0, 9);
         }
-        mPickers[0].requestFocus();
+        (mAccessiblePin.getVisibility() == View.VISIBLE ? mAccessiblePin : mPickers[0])
+                .requestFocus();
+        mAccessiblePin.setText("");
     }
 
     public static final class PinNumberPicker extends FrameLayout {

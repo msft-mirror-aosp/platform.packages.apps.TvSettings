@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Henkilökohtainen"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Yhdistä verkkoon"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Lisää tili"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Tilit ja sisäänkirjautuminen"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Tilit ja profiilit"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Ei tilejä"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# tili}other{# tiliä}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Mediapalvelut, Assistant, maksut"</string>
@@ -56,15 +56,17 @@
     <string name="accessibility_category_title" msgid="1552664829936369592">"Saavutettavuus"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"Kaukosäätimet ja lisävarusteet"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Näyttö ja ääni"</string>
-    <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Ohje ja palaute"</string>
+    <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Ohjeet ja palaute"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"Yksityisyys"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Laiteasetukset"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Tilin asetukset"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Laitteen lukitus"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Maksaminen ja ostokset"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Sovellusasetukset"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Sijainti, käyttö, diagnostiikka, mainokset"</string>
     <string name="add_account" msgid="7386223854837017129">"Lisää tili"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Tuntematon tili"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Poista tili"</string>
     <string name="account_sync" msgid="4315295293211313989">"Valitse synkronoitavat sovellukset"</string>
     <string name="sync_now" msgid="4335217984374620551">"Synkronoi nyt"</string>
@@ -84,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet liitetty"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Ei verkkoyhteyttä"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi ei ole käytössä."</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Irrota Ethernet, jotta voit käyttää Wi-Fiä"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Haku aina käytössä"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Anna Googlen sijaintipalvelun ja muiden sovellusten hakea verkkoja, vaikka Wi-Fi-yhteys olisi pois käytöstä."</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Haku aina käytössä. Anna Googlen sijaintipalvelun ja muiden sovellusten hakea verkkoja, vaikka Wi-Fi-yhteys olisi poissa päältä."</string>
@@ -112,8 +115,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Varmuuskopiointi ja palautus"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Tehdasasetuksien palauttaminen"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrointi"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"Virta ja energia"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"Ekoasetukset"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Sammuttamisen ajastin"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Aseta ajastimia TV:n sammuttamiselle ja säästä energiaa"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Laitteet"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Valitse muodot"</string>
@@ -151,11 +154,38 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Äänen lisäasetukset"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Salli pelitila"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Valitse sama dynaaminen alue kuin sisällöllä"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Kun vaihtoehto otetaan käyttöön, järjestelmä vaihtaa dynaamisen alueen eri muotojen välillä löytääkseen sisältöä vastaavan asetuksen. Tämä voi aiheuttaa mustan näytön muodon vaihtamisen aikana.\n\nJos haluat nähdä lisää dynaamisen alueen vaihtoehtoja, valitse Näytön lisäasetukset."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Ensisijainen dynaaminen alue"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Järjestelmän valitsema muuntaminen"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Sallii järjestelmän hallita muodon muuntamista"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Kun tämä asetus on valittu, järjestelmä päättelee sopivan näytölle lähetettävän dynaamisen alueen ja muuntaa sisällön tarvittaessa."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Vastaa aina sisällön muotoa"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Muuntamisen pakottaminen"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Pakottaa muuntamisen valittuun muotoon"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Pakota muuntaminen valittuun muotoon. Muuntamisen pakottaminen voi vaikuttaa muihin asetuksiin näyttötilassa tai HDR-muodossa."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Aina SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Aina <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Haluatko pakottaa HDR-tulon?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Muunnos pakotetaan oletuksena tähän muotoon: <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Näytön resoluutio on 1080p ja 60 Hz. Tämä vaihtoehto ei ole yhteensopiva näytön kanssa, kun sen resoluutio on 4K ja 60 Hz."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Visionia ei tueta nykyisellä resoluutiolla. Jos otat Dolby Visionin käyttöön manuaalisesti, näytön resoluutioksi muutetaan 1080p 60 Hz"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Muutetaanko resoluutioksi 1080p 60 Hz?"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Pakota aina muuntaminen Dolby Visioniin"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Jos Dolby Vision on pois käytöstä näytön lisäasetusten HDR-muodoissa, Dolby Visioniin muuntamisen pakottaminen ottaa sen käyttöön."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Pakota aina muuntaminen HDR10:een"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"Jos HDR10 on pois käytöstä näytön lisäasetusten HDR-muodoissa, HDR10:een muuntamisen pakottaminen ottaa sen käyttöön."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"Pakota aina muuntaminen HLG:hen"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"Jos HLG on pois käytöstä näytön lisäasetusten HDR-muodoissa, HLG:hen muuntamisen pakottaminen ottaa sen käyttöön."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"Pakota aina muuntaminen HDR10+:aan"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Jos HDR10+ on pois käytöstä näytön lisäasetusten HDR-muodoissa, HDR10+:aan muuntamisen pakottaminen ottaa sen käyttöön."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Pakota aina muuntaminen SDR:ään"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"SDR:ään muuntamisen pakottaminen poistaa kaikki HDR-muodot käytöstä näytön lisäasetuksissa."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Valitse sama kuvanopeus kuin sisällöllä"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Saumaton"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Vain saumaton"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"VAIN jos televisiosi voi tehdä saumattoman siirtymän, laite täsmää äänen katsomasi sisällön alkuperäiseen kuvanopeuteen sovelluksen pyytäessä."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Yhdistetty näyttö ei tue saumattomia päivittymistiheyden vaihtoja. Asetuksella ei ole vaikutusta, ellet vaihda sitä tukevaan näyttöön."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Ei-saumaton"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Aina"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Jos sovellus pyytää sitä, laite täsmää äänen katsomasi sisällön alkuperäiseen kuvanopeuteen. Tämä voi saada näytön pimenemään hetkeksi avattaessa ja suljettaessa videon toistoa."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Ei koskaan"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Vaikka sovellus pyytäisi sitä, laitteesi ei koskaan yritä täsmätä ääntä katsomasi sisällön alkuperäiseen kuvanopeuteen."</string>
@@ -164,7 +194,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Esimerkkiteksti"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Ihmemaa Oz"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Luku 11: Ozin ihastuttava smaragdikaupunki"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Vihreistä silmälaseista huolimatta kaupungin loiste sokaisi aluksi Dorothyn ja ystävät. Teiden varsilla oli kauniita, vihreästä marmorista rakennettuja ja smaragdein koristeltuja taloja. Jalkakäytävä heidän jalkojensa alla oli samaa vihreää marmoria. Laattojen välissä oli tiiviissä riveissä smaragdeja, jotka kimmelsivät auringonpaisteessa. Ikkunaruudut olivat vihreää lasia, kaupungin yllä kaartuva taivas vihersi ja jopa auringon säteet olivat vihreitä.\n\nKaduilla käveli vihreään pukeutuneita ihmisiä, joiden iho oli vihreänsävyinen. He katsoivat Dorothya ja hänen seuralaisiaan hämmästellen. Leijonan nähdessään lapset piiloutuivat äitinsä taakse, mutta kukaan ei sanonut muukalaisille mitään. Kadun varrella oli monia kauppoja, joiden ikkunoissa Dorothy näki pelkästään vihreitä tuotteita. Myytävänä oli vihreitä makeisia, popcornia, kenkiä, hattuja ja kaikenlaisia vaatteita. Yhdessä liikkeessä myytiin vihreää limonadia. Dorothy huomasi, että lapset ostivat limonadia vihreillä penneillä.\n\nKaupungissa ei näkynyt hevosia tai muita eläimiä: tavaroita kuljetettiin pienillä vihreillä työnnettävillä kärryillä. Kaikki ihmiset vaikuttivat onnellisilta ja vaurailta."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Vihreistä silmälaseista huolimatta kaupungin loiste sokaisi aluksi Dorothyn ja ystävät. Teiden varsilla oli kauniita, vihreästä marmorista rakennettuja ja smaragdein koristeltuja taloja. Jalkakäytävä heidän jalkojensa alla oli samaa vihreää marmoria. Laattojen välissä oli tiiviissä riveissä smaragdeja, jotka kimmelsivät auringonpaisteessa. Ikkunaruudut olivat vihreää lasia, kaupungin yllä kaartuva taivas vihersi ja jopa auringon säteet olivat vihreitä.\n\nKaduilla käveli vihreään pukeutuneita ihmisiä, joiden iho oli vihreänsävyinen. He katsoivat Dorothya ja hänen seuralaisiaan hämmästellen. Leijonan nähdessään lapset piiloutuivat äitinsä taakse, mutta kukaan ei sanonut muukalaisille mitään. Kadun varrella oli monia kauppoja, joiden ikkunoissa Dorothy näki pelkästään vihreitä tuotteita. Myytävänä oli vihreitä makeisia, popcornia, kenkiä, hattuja ja kaikenlaisia vaatteita. Yhdessä liikkeessä myytiin vihreää limonadia. Dorothy huomasi, että lapset ostivat limonadia vihreillä penneillä.\n\nKaupungissa ei näkynyt hevosia tai muita eläimiä: tavaroita kuljetettiin pienillä vihreillä työnnettävillä kärryillä. Kaikki ihmiset vaikuttivat onnellisilta ja vaurailta."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Muodon valinta"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automaattinen"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manuaalinen"</string>
@@ -190,12 +220,12 @@
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"Resoluutio on vaihdettu"</string>
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Muutetaanko resoluutioksi %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Valitse OK, jos haluat, että %1$s on käytössä tästä lähtien."</string>
-    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"%1$s ei tue Dolby Visionia. Se poistetaan käytöstä Lisäasetuksista."</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"%1$s on tuettu tässä tilassa. Parannettu HDMI pitää laittaa päälle joillain televisioilla, jotta saat käyttöön enemmän HDR-muotoja. Tarkista, tuetaanko tätä TV:n asetuksista."</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"%1$s ei tue Dolby Visionia. Se poistetaan käytöstä Näytön lisäasetuksista."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Tämä tila tukee: %1$s\nParannettu HDMI pitää laittaa päälle joillain televisioilla, jotta saat käyttöön enemmän HDR-muotoja. Tarkista, tuetaanko tätä, TV:n asetuksista."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Peru"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Tyhjennetäänkö välimuistitiedot?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Sovellusten välimuistit tyhjennetään."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -250,6 +280,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Yhdistetty"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Yhteys katkaistu"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Sinulla ei ole lupaa muuttaa Bluetooth-asetuksia."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Käytä TV:n audiota varten"</string>
     <string name="send_feedback" msgid="936698637869795473">"Lähetä palautetta"</string>
     <string name="launch_help" msgid="2607478763131952469">"Ohjekeskus"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -316,8 +347,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Organisaatiosi hallinnoi tätä laitetta."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Tätä laitetta hallitsee <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Lue lisää"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Kamerasovellus}other{Kamerasovellukset}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Kalenterisovellus"</string>
@@ -340,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Googlen lakiasiat"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Käyttölupatietoja ei ole saatavilla"</string>
     <string name="about_model" msgid="9164284529291439296">"Malli"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Laitetila"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Kaupan demo"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV ‑käyttöjärjestelmän versio"</string>
     <string name="about_serial" msgid="3432319328808745459">"Sarjanumero"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV ‑käyttöjärjestelmän koontiversio"</string>
@@ -407,6 +439,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Internetyhteys"</string>
     <string name="connected" msgid="4981532275162345997">"Yhdistetty"</string>
     <string name="not_connected" msgid="475810896484271663">"Ei yhdistetty"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Ei internetyhteyttä"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Tallennettu"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Väärä salasana"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"Wi-Fi-verkon salasana on liian lyhyt"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Kirjautuminen vaaditaan"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Muut vaihtoehdot"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Näytä kaikki"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Näytä vähemmän"</string>
@@ -474,7 +511,7 @@
     <string name="wifi_gateway_description" msgid="8902481147103929271">"Anna kelvollinen IP-osoite tai jätä tämä kohta tyhjäksi.\nEsimerkki: <xliff:g id="ID_1">192.168.1.1</xliff:g>"</string>
     <string name="wifi_network_prefix_length_description" msgid="2670994968279018896">"Anna kelvollinen verkon etuliitteen pituus.\nEsimerkki: <xliff:g id="ID_1">24</xliff:g>"</string>
     <string name="proxy_error_invalid_host" msgid="5629893736174170157">"Isäntänimi on virheellinen"</string>
-    <string name="proxy_error_invalid_exclusion_list" msgid="1762079966901078116">"Poissulkemisluettelo on virheellinen. Anna pilkuilla erotettu poissuljettujen verkkotunnusten luettelo."</string>
+    <string name="proxy_error_invalid_exclusion_list" msgid="1762079966901078116">"Poissulkemislista on virheellinen. Anna pilkuilla erotettu poissuljettujen verkkotunnusten lista."</string>
     <string name="proxy_error_empty_port" msgid="692020249267351015">"Portin kenttä ei voi olla tyhjä"</string>
     <string name="proxy_error_empty_host_set_port" msgid="5347712018244852847">"Jos isäntäkenttä on tyhjä, jätä portin kenttä tyhjäksi"</string>
     <string name="proxy_error_invalid_port" msgid="5307010810664745294">"Portti on virheellinen"</string>
@@ -597,7 +634,7 @@
   </string-array>
     <string name="sensor_toggle_description" msgid="7415801459994303159">"Kaikki sovellukset ja palvelut"</string>
     <string name="recently_accessed_by_category" msgid="6841705864715653428">"Käyttänyt äskettäin:"</string>
-    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"Ei viimeaikaista käyttöä"</string>
+    <string name="no_recent_sensor_accesses" msgid="3498112970658050800">"Ei viimeaikaista pääsyä"</string>
     <string name="recently_accessed_show_all" msgid="5234849189704717855">"Näytä kaikki"</string>
     <string name="microphone" msgid="7893752847683941214">"Mikrofoni"</string>
     <string name="mic_toggle_title" msgid="7193417007060235665">"Pääsy mikrofoniin"</string>
@@ -644,7 +681,7 @@
     <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Näytönlukuohjelmat"</string>
     <string name="accessibility_display_category_title" msgid="593444602101558017">"Näyttö"</string>
     <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"Laitteen käyttöapu"</string>
-    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Ääni ja näyttöteksti"</string>
+    <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Audio ja näyttöteksti"</string>
     <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"Kokeellinen"</string>
     <string name="accessibility_services_category_title" msgid="8813843874978910442">"Palvelut"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Palveluasetukset"</string>
@@ -672,7 +709,11 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Saavutettavuustilan pikanäppäin"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Ota saavutettavuustilan pikanäppäin käyttöön"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Pikanäppäinpalvelu"</string>
-    <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kun pikanäppäin on käytössä, voit käynnistää saavutettavuusominaisuuden pitämällä Takaisin- ja Alas-näppäimiä painettuina kolmen sekunnin ajan."</string>
+    <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kun pikanäppäin on päällä, voit käynnistää saavutettavuusominaisuuden pitämällä Takaisin- ja Alas-näppäimiä painettuina kolmen sekunnin ajan."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Reagointiaika"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Toiminnon aika (saavutettavuuskatkaisu)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Ajoitus"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Kaikki sovellukset eivät tue tätä ajoitusasetusta."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Tekstitykset"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Videon päällä näytettävän tekstityksen asetukset"</string>
     <string name="captions_display" msgid="2598662495450633375">"Näyttö"</string>
@@ -715,7 +756,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Ota käyttöön"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Määritykset"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Käytetäänkö: <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> voi kerätä kaiken kirjoittamasi tekstin paitsi salasanat. Palvelu voi kerätä myös henkilökohtaisia ​​tietoja, kuten luottokorttien numeroita."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> voi lukea näyttöä, näyttää sisältöä muiden sovellusten päällä, seurata toimintaasi sovelluksilla tai laitteistoantureilla ja käyttää sovelluksia puolestasi."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Pysäytetäänkö <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Valitse OK, niin <xliff:g id="SERVICE">%1$s</xliff:g> pysäytetään."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Tekstistä puheeksi"</string>
@@ -874,6 +915,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Muokkaa rajoituksia"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Hetkinen…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Vaihda PIN-koodi"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Luodaanko rajoitettu profiili?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Luotu aiemmin"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Ohita"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Luo PIN-koodi"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Siirry rajoitettuun profiiliin"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Ei rajoitettua profiilia"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Lisätty aiemmin"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Tämä sovellus voi käyttää tilejäsi. Hallinnoija: <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Anna PIN-koodi, jotta voit katsella tätä kanavaa"</string>
@@ -889,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Jatka valitsemalla <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Valmis"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Yhteys muodostettu"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Tallentaminen onnistui"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versio <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Avaa"</string>
@@ -934,9 +984,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Vahvista, että haluat estää näytön sammumisen katselun aikana, vaikka se saattaa lisätä energiankulutusta."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Ei-aktiivisena"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Katseltaessa"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Television automaattinen sammuttaminen"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Television automaattinen sammuttaminen, kun se on epäaktiivinen"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Television automaattinen sammuttaminen katseltaessa"</string>
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Laita automaattisesti pois päältä"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Laita pois päältä automaattisesti kun laite on ei-aktiivisena"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Laita pois päältä automaattisesti katselun aikana"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"\"Ei-aktiivisena\"-ajastimessa keston täytyy olla lyhyempi kuin \"Katseltaessa\"-ajastimessa"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"\"Katseltaessa\"-ajastimessa keston täytyy olla pidempi kuin \"Ei-aktiivisena\"-ajastimessa"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Rajoita verkkoyhteyttä lepotilassa"</string>
@@ -968,7 +1018,7 @@
     <string name="device_rename_title" msgid="9070021379000499270">"Anna uusi nimi laitteelle <xliff:g id="DEVICEMODEL">%1$s</xliff:g>"</string>
     <string name="device_rename_description" msgid="1973894029492915135">"<xliff:g id="DEVICEMODEL">%1$s</xliff:g> on tällä hetkellä nimeltään <xliff:g id="DEVICENAME">%2$s</xliff:g>"</string>
     <string name="device_name_suggestion_title" msgid="3986220212759193742">"Anna laitteelle nimi"</string>
-    <string name="device_name_suggestion_summary" msgid="4582691399302362938">"Käytä tätä nimeä kuvien, videoiden ja muun sisällön suoratoistoon puhelimella."</string>
+    <string name="device_name_suggestion_summary" msgid="4582691399302362938">"Käytä tätä nimeä kuvien, videoiden ja muun sisällön striimaamiseen puhelimella"</string>
     <string name="change_setting" msgid="7211706374208138343">"Vaihda"</string>
     <string name="keep_settings" msgid="703474489210093961">"Älä vaihda"</string>
     <string name="apps_permissions" msgid="7876407267050498394">"Luvat"</string>
@@ -986,15 +1036,15 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"Näppäimistöjen hallinnointi"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Sallittu"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Ei sallittu"</string>
-    <string name="usage_access" msgid="8402350645248312782">"Pääsyoikeus käyttötietoihin"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"Pääsyoikeus käyttötietoihin antaa sovellukselle luvan seurata, mitä muita sovelluksia käytät ja kuinka usein, sekä nähdä operaattorisi, kieliasetuksesi ja muita tietoja."</string>
+    <string name="usage_access" msgid="8402350645248312782">"Pääsy käyttötietoihin"</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"Pääsy käyttötietoihin antaa sovellukselle luvan seurata, mitä muita sovelluksia käytät ja kuinka usein, sekä nähdä operaattorisi, kieliasetuksesi ja muita tietoja."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Virrankäytön optimointi"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Optimoi sovellusten virrankäyttö"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"Ei optimointia tarvitsevia sovelluksia"</string>
     <string name="high_power_on" msgid="3120162683093360951">"Ei optimoida"</string>
     <string name="high_power_off" msgid="3588854600942236231">"Virrankäyttöä optimoidaan"</string>
     <string name="high_power_system" msgid="6263052626979462255">"Virrankäytön optimointi ei käytettävissä"</string>
-    <string name="manage_notification_access_title" msgid="8659254371564990084">"Pääsyoikeus ilmoituksiin"</string>
+    <string name="manage_notification_access_title" msgid="8659254371564990084">"Pääsy ilmoituksiin"</string>
     <string name="no_notification_listeners" msgid="5119406452675724448">"Yksikään asennettu sovellus ei ole pyytänyt ilmoituksien käyttöoikeutta."</string>
     <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"Nämä sovellukset voivat lukea kaikki ilmoitukset ja niiden sisältämät henkilökohtaiset tiedot, kuten yhteystietojen nimet ja viestien sisällön. Ne voivat myös hylätä ilmoituksia ja käyttää niiden toimintopainikkeita."</string>
     <string name="default_notification_access_package_summary" msgid="1354775994781420222">"Järjestelmän edellytys"</string>
@@ -1005,7 +1055,7 @@
     <string name="permit_draw_overlay" msgid="5312730681030266735">"Salli näkyminen muiden päällä"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"Anna sovelluksen näkyä muiden avoimien sovellusten päällä. Se voi häiritä muiden sovellusten käyttöä tai muuttaa niiden ulkoasua tai käyttäytymistä."</string>
     <string name="write_system_settings" msgid="4284654265954461890">"Järjestelmäasetusten muokkaus"</string>
-    <string name="write_settings_title" msgid="2361816483383105754">"Järjestelmäasetusten muokkaus"</string>
+    <string name="write_settings_title" msgid="2361816483383105754">"Voi muokata järjestelmäasetuksia"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"Tämä käyttöoikeus antaa sovelluksen muokata järjestelmäasetuksia."</string>
     <string name="write_settings_on" msgid="71675710746513956">"Kyllä"</string>
     <string name="write_settings_off" msgid="6730113471695092167">"Ei"</string>
@@ -1018,8 +1068,8 @@
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Anna sovelluksille lupa luoda Kuva kuvassa ‑ikkuna, kun sovellus on auki tai kun olet poistunut siitä (esimerkiksi takaisin katsomaan videota). Tämä ikkuna näytetään muiden sovellusten ikkunoiden päällä."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Anna sovellusten lisätä herätyksiä ja ajoittaa kiireellisiä tapahtumia. Näin sovellukset voivat toimia taustalla, mikä voi kuluttaa enemmän virtaa.\n\nIlman tätä lupaa sovellusten ajoittamat herätykset ja aikaan perustuvat tapahtumat eivät toimi."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Näytön käynnistys"</string>
-    <string name="allow_turn_screen_on" msgid="4903401106871656521">"Salli näytön käynnistäminen"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Salli sovelluksen käynnistää näyttö. Jos sovellus saa luvan, se voi käynnistää näytön itsenäisesti milloin tahansa."</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"Salli näytön laittaminen päälle"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Salli sovelluksen laittaa näyttö päälle. Jos sovellus saa luvan, se voi laittaa näytön päälle itsenäisesti milloin tahansa."</string>
     <string name="special_access" msgid="21806055758289916">"Erityisoikeudet"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Ääni"</string>
@@ -1036,10 +1086,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Tallennetut mikrofonit"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Äänen tallennuksen aloittaminen epäonnistui."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Äänen tallennus epäonnistui."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Data Saver"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Säädä videoiden laatua automaattisesti mobiilidatan käytön vähentämiseksi"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Datan käyttö ja ilmoitukset"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Voit yhdistää verkkoon langattomasti, Ethernetillä tai puhelimesi hotspotilla."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Näytetäänkö laite muille Bluetooth-laitteille?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Sovellus haluaa määrittää, että TV:si on muiden Bluetooth-laitteiden löydettävissä <xliff:g id="TIMEOUT">%1$d</xliff:g> sekunnin ajan."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1080,6 +1126,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Yhteyden muodostus onnistui"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Näytä kaikki"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Haetaan"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Tilin lisäämistavoitetta ei voitu noutaa todentajalta."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Tiliä ei voitu lisätä tai tilityyppi ei ole käytettävissä."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Kanavat ja tulot"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Kanavat, ulkoiset tulot"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Kanavat"</string>
@@ -1091,5 +1139,19 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Virta ja energia"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Käynnistymistoiminta"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Nollaa"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televisio"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernetin yhdistämiskoodi"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Energiatilat"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Nämä asetukset vaikuttavat laitteeseen, kun se ei ole käytössä"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Ottaa käyttöön nämä:"</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Virrankulutus voi kasvaa käyttöönotettujen TV-ominaisuuksien myötä."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Ota <xliff:g id="ENERGYMODENAME">%s</xliff:g> käyttöön"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Etsi kaukosäädin"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Jos et löydä Google TV ‑kaukosäädintä, etsi se toistamalla äänimerkki"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV:ssä on painike, jota painamalla kaukosäädin toistaa äänen 30 sekunnin ajan. Tämä toimii vain tuetuilla Google TV ‑kaukosäätimillä.\n\nLopeta äänen toistaminen painamalla kaukosäätimestä mitä tahansa painiketta."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kun Etsi kaukosäätimeni on käytössä, voit etsiä Google TV ‑kaukosäätimen toistamalla äänimerkin."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Toista äänimerkki"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Äänenvoimakkuus (%1$s)"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Voit muuttaa Assistantin äänenvoimakkuutta kaiuttimella (%1$s)"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Vaikuttaa vain äänenvoimakkuuteen laitteella (%1$s), ei TV:llä"</string>
 </resources>

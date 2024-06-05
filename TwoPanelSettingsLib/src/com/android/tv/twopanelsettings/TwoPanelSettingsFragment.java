@@ -39,7 +39,6 @@ import android.os.Handler;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.transition.Fade;
-import android.util.ArrayMap;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.LayoutInflater;
@@ -78,7 +77,6 @@ import com.android.tv.twopanelsettings.slices.SliceSeekbarPreference;
 import com.android.tv.twopanelsettings.slices.SliceSwitchPreference;
 import com.android.tv.twopanelsettings.slices.SlicesConstants;
 
-import java.util.Map;
 import java.util.Set;
 
 /**
@@ -125,8 +123,6 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
     private Preference mFocusedPreference;
     private boolean mIsWaitingForUpdatingPreview = false;
     private AudioManager mAudioManager;
-    private final Map<VerticalGridView, OnChildViewHolderSelectedListenerTwoPanel>
-            mHasOnChildViewHolderSelectedListener = new ArrayMap<>();
 
     private static final String DELAY_MS = "delay_ms";
     private static final String CHECK_SCROLL_STATE = "check_scroll_state";
@@ -342,7 +338,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
         final FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
         transaction.replace(frameResIds[mPrefPanelIdx + 1], initialPreviewFragment,
                 PREVIEW_FRAGMENT_TAG);
-        transaction.commit();
+        transaction.commitAllowingStateLoss();
 
         moveToPanel(mPrefPanelIdx, true);
         removeFragmentAndAddToBackStack(mPrefPanelIdx - 1);
@@ -397,20 +393,10 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
                 (LeanbackPreferenceFragmentCompat) fragment;
         VerticalGridView listView = (VerticalGridView) leanbackPreferenceFragment.getListView();
         if (listView != null) {
-            if (isAddingListener) {
-                if (!mHasOnChildViewHolderSelectedListener.containsKey(listView)) {
-                    OnChildViewHolderSelectedListenerTwoPanel listener =
-                            new OnChildViewHolderSelectedListenerTwoPanel(mPrefPanelIdx);
-                    listView.addOnChildViewHolderSelectedListener(listener);
-                    mHasOnChildViewHolderSelectedListener.put(listView, listener);
-                }
-            } else {
-                if (mHasOnChildViewHolderSelectedListener.containsKey(listView)) {
-                    listView.removeOnChildViewHolderSelectedListener(
-                            mHasOnChildViewHolderSelectedListener.get(listView));
-                    mHasOnChildViewHolderSelectedListener.remove(listView);
-                }
-            }
+            listView.setOnChildViewHolderSelectedListener(
+                    isAddingListener
+                            ? new OnChildViewHolderSelectedListenerTwoPanel(mPrefPanelIdx)
+                            : null);
         }
     }
 
@@ -426,7 +412,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
         addOrRemovePreferenceFocusedListener(fragment, true);
         FragmentTransaction transaction = getChildFragmentManager().beginTransaction();
         transaction.add(frameResIds[mPrefPanelIdx], fragment, PREFERENCE_FRAGMENT_TAG);
-        transaction.commitNow();
+        transaction.commitNowAllowingStateLoss();
 
         Fragment initialPreviewFragment = getInitialPreviewFragment(fragment);
         if (initialPreviewFragment == null) {
@@ -437,7 +423,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
         transaction = getChildFragmentManager().beginTransaction();
         transaction.add(frameResIds[mPrefPanelIdx + 1], initialPreviewFragment,
                 initialPreviewFragment.getClass().toString());
-        transaction.commit();
+        transaction.commitAllowingStateLoss();
     }
 
     @Override
@@ -554,7 +540,8 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
         @Override
         public void run() {
             if (mPref == mFocusedPreference) {
-                if (mListView.getScrollState() != RecyclerView.SCROLL_STATE_IDLE) {
+                if (mListView != null
+                        && mListView.getScrollState() != RecyclerView.SCROLL_STATE_IDLE) {
                     mHandler.postDelayed(this, CHECK_IDLE_STATE_MS);
                 } else {
                     handleFragmentTransactionWhenFocused(mPref, mForceFresh, mPanelIndex);
@@ -612,7 +599,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
         transaction.setCustomAnimations(R.animator.fade_in_preview_panel,
                 R.animator.fade_out_preview_panel);
         transaction.replace(frameResIds[mPrefPanelIdx + 1], previewFragment);
-        transaction.commitNow();
+        transaction.commitNowAllowingStateLoss();
 
         // Some fragments may steal focus on creation. Reclaim focus on main fragment.
         if (getView() != null && getView().getViewTreeObserver() != null) {
@@ -681,7 +668,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
                 .add(R.id.two_panel_fragment_container, fragment)
                 .remove(target)
                 .addToBackStack(null)
-                .commit();
+                .commitAllowingStateLoss();
         mHandler.post(() -> {
             updateAccessibilityTitle(fragment);
         });
@@ -915,7 +902,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
     private void removeFragment(int index) {
         Fragment fragment = getChildFragmentManager().findFragmentById(frameResIds[index]);
         if (fragment != null) {
-            getChildFragmentManager().beginTransaction().remove(fragment).commit();
+            getChildFragmentManager().beginTransaction().remove(fragment).commitAllowingStateLoss();
         }
     }
 
@@ -927,7 +914,8 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
         if (removePanel != null) {
             removePanel.setExitTransition(new Fade());
             getChildFragmentManager().beginTransaction().remove(removePanel)
-                    .addToBackStack("remove " + removePanel.getClass().getName()).commit();
+                    .addToBackStack("remove " + removePanel.getClass().getName())
+                    .commitAllowingStateLoss();
         }
     }
 
@@ -1206,7 +1194,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
             transaction.setCustomAnimations(R.animator.fade_in_preview_panel,
                     R.animator.fade_out_preview_panel);
             transaction.replace(frameResIds[mPrefPanelIdx], newPrefFragment);
-            transaction.commit();
+            transaction.commitAllowingStateLoss();
         } else {
             Preference preference = getChosenPreference(prefFragment);
             if (preference != null) {

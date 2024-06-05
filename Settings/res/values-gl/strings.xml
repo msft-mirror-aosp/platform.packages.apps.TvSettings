@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Persoal"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Conectarse á rede"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Engadir unha conta"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Contas e inicio de sesión"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Contas e perfís"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Ningunha conta"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# conta}other{# contas}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Servizos multimedia, Asistente, Payments"</string>
@@ -60,11 +60,13 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privacidade"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Configuración do dispositivo"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Configuración da conta"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Bloqueo do dispositivo"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Asistente de Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Pago e compras"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Configuración da aplicación"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Localización, uso e diagnóstico, anuncios"</string>
     <string name="add_account" msgid="7386223854837017129">"Engadir conta"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Conta descoñecida"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Quitar conta"</string>
     <string name="account_sync" msgid="4315295293211313989">"Seleccionar aplicacións sincronizadas"</string>
     <string name="sync_now" msgid="4335217984374620551">"Sincronizar agora"</string>
@@ -84,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Estableceuse a conexión a Ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Sen conexión de rede"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"A wifi está desactivada"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Desconecta o cable Ethernet para usar a wifi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Buscar redes sempre"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Permite ao servizo de localización de Google e a outras aplicacións buscar redes, aínda que a wifi estea desactivada"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Buscar redes sempre. Permite ao servizo de situación de Google e a outras aplicacións buscar redes, aínda que a wifi estea desactivada"</string>
@@ -112,8 +115,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Copia de seguranza e restauración"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Restablecemento dos datos de fábrica"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Calibración"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"Acendido e enerxía"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"Configuración do modo Eco"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Temporizador de apagado"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Configura os temporizadores para apagar a televisión e aforrar enerxía"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Dispositivos"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Seleccionar formatos"</string>
@@ -151,11 +154,38 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Configuración avanzada do son"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Permitir modo de xogo"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Adaptar o rango dinámico ao contido"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Ao activar esta opción, o sistema cambiará entre os diferentes formatos de rango dinámico para adaptarse ao contido. A pantalla pode escurecerse durante o cambio de formato.\n\nFai clic na configuración avanzada da pantalla para ver máis opcións de rango dinámico."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Rango dinámico preferido"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversión preferida polo sistema"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Permítelle ao sistema xestionar a conversión de formatos"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Ao seleccionar esta opción, o sistema determinará un rango dinámico axeitado para a túa pantalla e converterá o contido a dito rango se é necesario."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Coincide sempre co formato do contido"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forzar conversión"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Forza a conversión ao formato preferido"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Forza a conversión a un formato preferido. É posible que forzar a conversión afecte a outras opcións de configuración do modo de visualización ou do formato HDR."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Sempre a SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Sempre a <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Queres forzar a saída HDR?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"De forma predeterminada, forzarase a conversión a <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"A pantalla terá unha resolución de 1080p e 60 Hz. Esta opción non é compatible coa túa pantalla cando se executa a unha resolución 4K de 60 Hz."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision non é compatible coa resolución actual. Se activas Dolby Vision de forma manual, a resolución da pantalla cambiarase a 1080p 60 Hz"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Queres cambiar a resolución a 1080p 60 Hz?"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Forzar sempre conversión a Dolby Vision"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Se o formato Dolby Vision está desactivado en Formatos HDR, en Configuración avanzada da pantalla, volverase activar ao forzar a conversión a Dolby Vision."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Forzar sempre conversión a HDR10"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"Se o formato HDR10 está desactivado en Formatos HDR, en Configuración avanzada da pantalla, volverase activar ao forzar a conversión a HDR10."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"Forzar sempre conversión a HLG"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"Se o formato HLG está desactivado en Formatos HDR, en Configuración avanzada da pantalla, volverase activar ao forzar a conversión a HLG."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"Forzar sempre conversión a HDR10+"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Se o formato HDR10+ está desactivado en Formatos HDR, en Configuración avanzada da pantalla, volverase activar ao forzar a conversión a HDR10+."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Forzar sempre conversión a SDR"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"Ao forzar a conversión a SDR, desactivaranse todos os formatos dispoñibles en Formatos HDR, en Configuración avanzada da pantalla."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Facer coincidir cos fps do contido"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Non facer coincidir"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Só non facer coincidir"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Se a aplicación o solicita, o dispositivo fará que a saída coincida cos fotogramas por segundo orixinais do contido que esteas vendo, pero só se a televisión permite que se realice a transición sen complicacións."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"A pantalla conectada non é compatible coas transicións de frecuencia de actualización fluídas. Esta opción non terá efecto a menos que cambies a unha pantalla que sexa compatible."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Facer coincidir"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Sempre"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Se a aplicación o solicita, o dispositivo fará que a saída coincida cos fotogramas por segundo orixinais do contido que esteas vendo. Ten en conta que a pantalla pode quedar sen imaxe durante un segundo ao iniciar ou deter a reprodución de vídeos."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Nunca"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Aínda que a aplicación o solicite, o dispositivo nunca tentará facer que a saída coincida cos fotogramas por segundo orixinais do contido que esteas vendo."</string>
@@ -164,7 +194,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Texto de mostra"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"O marabilloso mago de Oz"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Capítulo 11: A marabillosa Cidade Esmeralda de Oz"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Ao principio, aínda cos ollos protexidos polas lentes verdes, Dorothy e os seus amigos quedaron cegados polo brillo daquela marabillosa cidade. As rúas estaban formadas por preciosas casas construídas con mármore verde e todo estaba salpicado de relucentes esmeraldas. Pasearon por un camiño de mármore verde cuxas placas se unían con fileiras de esmeraldas, colocadas moi xuntas e que relucían baixo a luz do sol. As ventás tiñan cristal verde e ata o ceo e os raios do sol tiraban a verde. \n\nHabía moitos homes, mulleres e nenos paseando e todos tiñan a pel verdosa e vestían roupa verde. Miraban con asombro a Dorothy e os seus estraños acompañantes, e os nenos corrían a esconderse detrás das súas nais cando vían o león, pero ninguén lles dirixía a palabra. Había tamén moitas tendas e Dorothy observou que todo o que había nelas era verde. Vendían caramelos e flocos de millo verdes, así como zapatos, chapeus e todo tipo de roupa da mesma cor. Nunha delas, un home vendía limoada verde e Dorothy puido comprobar que os nenos pagaban con moedas verdes. \n\nNon parecía que naquel lugar houbese cabalos nin animais de ningún tipo, pois os homes transportábano todo tirando de pequenos carros desta cor. Todos parecían felices, satisfeitos e afortunados."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Ao principio, aínda cos ollos protexidos polas lentes verdes, Dorothy e os seus amigos quedaron cegados polo brillo daquela marabillosa cidade. As rúas estaban formadas por preciosas casas construídas con mármore verde e todo estaba salpicado de relucentes esmeraldas. Pasearon por un camiño de mármore verde cuxas placas se unían con fileiras de esmeraldas, colocadas moi xuntas e que relucían baixo a luz do sol. As ventás tiñan cristal verde e ata o ceo e os raios do sol tiraban a verde. \n\nHabía moitos homes, mulleres e nenos paseando e todos tiñan a pel verdosa e vestían roupa verde. Miraban con asombro a Dorothy e os seus estraños acompañantes, e os nenos corrían a esconderse detrás das súas nais cando vían o león, pero ninguén lles dirixía a palabra. Había tamén moitas tendas e Dorothy observou que todo o que había nelas era verde. Vendían caramelos e flocos de millo verdes, así como zapatos, chapeus e todo tipo de roupa da mesma cor. Nunha delas, un home vendía limoada verde e Dorothy puido comprobar que os nenos pagaban con moedas verdes. \n\nNon parecía que naquel lugar houbese cabalos nin animais de ningún tipo, pois os homes transportábano todo tirando de pequenos carros desta cor. Todos parecían felices, satisfeitos e afortunados."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Selección de formato"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automático"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manual"</string>
@@ -191,11 +221,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Queres cambiar a resolución a %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Se queres utilizar %1$s a partir de agora, selecciona Aceptar."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision non é compatible con %1$s e desactivarase en Configuración avanzada da pantalla"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Este modo é compatible con %1$s. Nalgunhas televisións, é posible que necesites activar o HDMI mellorado para habilitar máis formatos HDR. Comproba a configuración da televisión para ver se é compatible."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Este modo é compatible con: %1$s\nNalgunhas televisións, é posible que necesites activar o HDMI mellorado para habilitar máis formatos HDR. Comproba a configuración da televisión para ver se é compatible."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Cancelar"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Aceptar"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Queres borrar os datos da caché?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Isto borrará datos da caché para as aplicacións"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -250,6 +280,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Conectado"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Desconectado"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Non tes permiso para cambiar a configuración de Bluetooth."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Usar para o audio da televisión"</string>
     <string name="send_feedback" msgid="936698637869795473">"Enviar comentarios"</string>
     <string name="launch_help" msgid="2607478763131952469">"Centro de Axuda"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -316,8 +347,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Este dispositivo está xestionado pola túa organización."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Este dispositivo está xestionado por <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Máis información"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Aplicación de cámara}other{Aplicacións de cámara}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Aplicación do calendario"</string>
@@ -340,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Información legal de Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Os datos da licenza non están dispoñibles"</string>
     <string name="about_model" msgid="9164284529291439296">"Modelo"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Modo do dispositivo"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Modo de demostración para tendas"</string>
     <string name="about_version" msgid="6223547403835399861">"Versión do sistema operativo de Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"Número de serie"</string>
     <string name="about_build" msgid="8467840394761634575">"Compilación do sistema operativo de Android TV"</string>
@@ -407,6 +439,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Conexión a Internet"</string>
     <string name="connected" msgid="4981532275162345997">"Conectado"</string>
     <string name="not_connected" msgid="475810896484271663">"Non conectado"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Non hai conexión a Internet"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Gardouse"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Contrasinal incorrecto"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"O contrasinal da wifi é demasiado curto"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Inicio de sesión obrigatorio"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Outras opcións"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Ver todo"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Ver menos"</string>
@@ -673,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Activar atallo de accesibilidade"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Servizo do atallo"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Cando o atallo estea activado, podes premer simultaneamente os botóns Atrás e Abaixo durante 3 segundos para iniciar unha función de accesibilidade."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Tempo para actuar"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Tempo para actuar (accesibilidade)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Tempo"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Non todas as aplicacións admiten este tempo."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Subtítulos"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Configuración para a superposición de texto de subtítulos en vídeo"</string>
     <string name="captions_display" msgid="2598662495450633375">"Pantalla"</string>
@@ -715,7 +756,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Activar"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Configuración"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Usar <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> pode recompilar todo o texto que escribes (excepto os contrasinais), incluídos datos persoais, como números de tarxetas de crédito."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> poderá ler contido da túa pantalla, mostrar contido noutras aplicacións, facer un seguimento das túas interaccións con aplicacións ou sensores de hardware e interactuar con aplicacións no teu nome."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Deter <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Se seleccionas Aceptar, deterase <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Conversión de texto a voz"</string>
@@ -822,7 +863,7 @@
     <string name="title_current_autofill_service" msgid="9029001041887283153">"Servizo de autocompletar actual"</string>
     <string name="title_select_autofill_service" msgid="696559582725756848">"Seleccionar Servizo de autocompletar"</string>
     <string name="autofill_none" msgid="1615056985649424207">"Ningún servizo"</string>
-    <string name="autofill_confirmation_message" msgid="3840267789160192558">"&lt;b&gt;Asegúrate de que confías nesta aplicación&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Servizo de contrasinais&gt;%1$s&lt;/xliff:g&gt; utiliza o contido da pantalla para determinar o texto que se pode autocompletar."</string>
+    <string name="autofill_confirmation_message" msgid="3840267789160192558">"&lt;b&gt;Asegúrate de que confías nesta aplicación&lt;/b&gt; &lt;br/&gt; &lt;br/&gt; &lt;xliff:g id=app_name example=Password service&gt;%1$s&lt;/xliff:g&gt; utiliza o contido da pantalla para determinar o texto que se pode autocompletar."</string>
     <string name="computing_size" msgid="8623916230485437579">"Calculando…"</string>
     <string name="title_select_wifi_network" msgid="935820896444071617">"Selecciona a túa rede wifi"</string>
     <string name="accessories_wifi_display_rename_device" msgid="8803397194143132061">"Cambiar nome"</string>
@@ -874,6 +915,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Personalizar restricións"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Un momento..."</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Cambiar PIN"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Crear perfil restrinxido?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Xa se creou"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Omitir"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Crear PIN"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Acceder ao perfil restrinxido?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Perfil restrinxido non atopado"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Xa se accedeu"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Esta aplicación pode acceder ás túas contas. Está controlada por <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Introduce o PIN para ver esta canle"</string>
@@ -889,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Selecciona <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> para continuar."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Feito"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Realizouse a conexión correctamente"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Gardouse a configuración correctamente"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versión <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Abrir"</string>
@@ -934,9 +984,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Confirma para evitar que a pantalla se apague mentres ves contido nela, o que podería aumentar o consumo enerxético."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Cando estea inactivo"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Durante a reprodución de contido"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Apagar a televisión automaticamente"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Apagar a televisión automaticamente cando estea inactiva"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Apagar a televisión automaticamente cando se estea vendo"</string>
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Desactivar automaticamente"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Desactivar automaticamente en caso de inactividade"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Desactivar automaticamente durante a visualización"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"O temporizador \"Cando estea inactivo\" debe durar menos tempo que o temporizador \"Durante a reprodución de contido\""</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"O temporizador \"Durante a reprodución de contido\" debe durar máis tempo que o temporizador \"Cando estea inactivo\""</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Limitar conexión de rede en espera"</string>
@@ -1036,10 +1086,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Micrófonos gravados"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Produciuse un erro ao iniciar a gravación de audio."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Produciuse un erro ao gravar o audio."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Aforro de datos"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Axusta automaticamente a calidade dos vídeos para utilizar menos datos móbiles"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Alertas e uso de datos"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Podes conectarte a Internet utilizando unha rede wifi, un cable Ethernet ou a zona wifi do teu teléfono."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Queres que outros dispositivos Bluetooth poidan ver o teu?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Unha aplicación require que a túa televisión estea visible para outros dispositivos Bluetooth durante <xliff:g id="TIMEOUT">%1$d</xliff:g> segundos."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1080,6 +1126,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Conexión correcta"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Mostrar todo"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Buscando"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Produciuse un erro ao recuperar o intent de engadir a conta desde Authenticator."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Produciuse un erro ao engadir a conta ou o tipo de conta non está dispoñible."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Canles e entradas"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Canles e entradas externas"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Canles"</string>
@@ -1091,5 +1139,19 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Acendido e enerxía"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Comportamento do acendido"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Restablecemento"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televisión"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Código de vinculación de Ethernet"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Modos de enerxía"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Estas opcións de configuración aféctanlle ao dispositivo aínda que non se estea usando"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Activa as seguintes funcións:"</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"O consumo de enerxía pode aumentar dependendo da cantidade de funcións da televisión que actives."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Activar o modo <xliff:g id="ENERGYMODENAME">%s</xliff:g>"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Localizar o mando a distancia"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Se non dás atopado o mando a distancia de Google TV, fai que emita un son para localizalo"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"En Google TV tes un botón que podes premer para reproducir un son no mando a distancia durante 30 segundos. Esta acción só se pode levar a cabo con mandos a distancia de Google TV que admitan esta opción.\n\nPreme calquera botón do mando para que deixe de soar."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Cando está activada a opción Localizar o mando a distancia, podes facer que se reproduza un son para atopar o mando a distancia de Google TV se non sabes onde está."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reproducir son"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume (%1$s)"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Podes controlar o volume do Asistente en %1$s altofalante"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Só lle afecta ao volume de %1$s dispositivo, non ao da televisión"</string>
 </resources>

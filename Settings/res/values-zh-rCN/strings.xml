@@ -44,10 +44,10 @@
     <string name="header_category_accessories" msgid="6479803330480847199">"遥控器和配件"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"个人"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"连接到网络"</string>
-    <string name="add_an_account" msgid="2601275122685226096">"添加帐号"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"帐号和登录"</string>
-    <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"未登录任何帐号"</string>
-    <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# 个帐号}other{# 个帐号}}"</string>
+    <string name="add_an_account" msgid="2601275122685226096">"添加账号"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"账号与个人资料"</string>
+    <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"未登录任何账号"</string>
+    <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# 个账号}other{# 个账号}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"媒体服务、Google 助理、付款功能"</string>
     <string name="connectivity_network_category_title" msgid="8226264889892008114">"网络和互联网"</string>
     <string name="sound_category_title" msgid="7899816751041939518">"声音"</string>
@@ -59,20 +59,22 @@
     <string name="help_and_feedback_category_title" msgid="7036505833991003031">"帮助和反馈"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"隐私设置"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"设备设置"</string>
-    <string name="privacy_account_settings_category" msgid="5786591549945777400">"帐号设置"</string>
+    <string name="privacy_account_settings_category" msgid="5786591549945777400">"账号设置"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"设备锁定"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google 助理"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"付款和购买"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"应用设置"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"位置信息、使用情况和诊断信息、广告"</string>
-    <string name="add_account" msgid="7386223854837017129">"添加帐号"</string>
-    <string name="account_header_remove_account" msgid="8573697553061331373">"移除帐号"</string>
+    <string name="add_account" msgid="7386223854837017129">"添加账号"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"未知账号"</string>
+    <string name="account_header_remove_account" msgid="8573697553061331373">"移除账号"</string>
     <string name="account_sync" msgid="4315295293211313989">"选择要同步的应用"</string>
     <string name="sync_now" msgid="4335217984374620551">"立即同步"</string>
     <string name="sync_in_progress" msgid="8081367667406185785">"正在同步…"</string>
     <string name="last_synced" msgid="8371967816955123864">"上次同步时间：<xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="sync_disabled" msgid="6652778349371079140">"已关闭"</string>
-    <string name="account_remove" msgid="8456848988853890155">"移除帐号"</string>
-    <string name="account_remove_failed" msgid="5654411101098531690">"无法移除帐号"</string>
+    <string name="account_remove" msgid="8456848988853890155">"移除账号"</string>
+    <string name="account_remove_failed" msgid="5654411101098531690">"无法移除账号"</string>
     <!-- no translation found for sync_item_title (5884138264243772176) -->
     <skip />
     <string name="sync_one_time_sync" msgid="1665961083810584134">"立即同步<xliff:g id="LAST_SYNC_TIME">
@@ -84,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"已连接至以太网"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"未连接任何网络"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"WLAN 已关闭"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"拔出以太网网线才能使用 WLAN"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"随时都可扫描"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"允许 Google 的位置信息服务和其他应用扫描网络（即使 WLAN 已关闭）"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"随时都可扫描，允许 Google 的位置信息服务和其他应用扫描网络，即使 WLAN 已关闭"</string>
@@ -112,8 +115,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"备份和恢复"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"恢复出厂设置"</string>
     <string name="device_calibration" msgid="2907914144048739705">"校准"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"开关和电源"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"节能设置"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"关机定时器"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"设置定时器，以定时关闭电视并节能"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"设备"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"选择格式"</string>
@@ -151,11 +154,38 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"高级声音设置"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"允许游戏模式"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"匹配内容的动态范围"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"启用这个选项后，系统会在各种动态范围格式之间切换以匹配内容。这可能会导致在格式切换期间出现黑屏。\n\n您可点击“高级显示设置”以查看更多动态范围选项。"</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"偏好的动态范围"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"系统自动转换"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"让系统管理格式转换"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"如果选择这个选项，系统会决定要发送至您显示屏的合适动态范围，并根据需要将内容转换至此动态范围。"</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"一律采用内容本身的格式"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"强制转换"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"强制转换至您偏好的格式"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"强制转换至您偏好的格式。如果强制进行转换，显示模式或 HDR 格式的其他设置可能会受到影响。"</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"一律转换至 SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"一律转换至<xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"要强制进行 HDR 输出操作吗？"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"默认情况下，系统会强制转换至<xliff:g id="HDR_TYPE">%s</xliff:g>。"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"您的显示屏将采用 1080p 60Hz 分辨率。这个选项不支持采用 4K 60Hz 分辨率的显示屏。"</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"当前分辨率不支持杜比视界。如果您手动启用杜比视界，您显示屏的分辨率将更改为 1080p 60Hz"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"将分辨率更改为 1080p 60Hz？"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"始终强制转换成“杜比视界”"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"如果“高级显示设置”的“HDR 格式”中“杜比视界”处于停用状态，强制转换成“杜比视界”将重新启用此格式。"</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"始终强制转换成“HDR10”"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"如果“高级显示设置”的“HDR 格式”中“HDR10”处于停用状态，强制转换成“HDR10”将重新启用此格式。"</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"始终强制转换成“HLG”"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"如果“高级显示设置”的“HDR 格式”中“HLG”处于停用状态，强制转换成“HLG”将重新启用此格式。"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"始终强制转换成“HDR10+”"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"如果“高级显示设置”的“HDR 格式”中“HDR10+”处于停用状态，强制转换成“HDR10+”将重新启用此格式。"</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"始终强制转换成“SDR”"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"如果强制转换成“SDR”，“高级显示设置”的“HDR 格式”中的所有格式都将被停用。"</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"匹配内容的帧速率"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"流畅"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"仅限“流畅”"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"如果应用要求，您的设备会将输出的帧速率调整为您所观看内容的原始帧速率，前提是您的电视可以执行流畅转换。"</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"您连接的显示屏不支持流畅切换刷新率。您需要换用支持该功能的显示屏，此选项才能发挥作用。"</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"非流畅"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"始终"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"如果应用要求，您的设备会将输出的帧速率调整为您所观看内容的原始帧速率。这样一来，当视频开始播放或结束播放时，屏幕可能会短暂出现空白画面。"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"永不"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"即使应用要求，您的设备也绝不会尝试将输出的帧速率调整为您所观看内容的原始帧速率。"</string>
@@ -164,7 +194,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"示例文本"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"绿野仙踪"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"第 11 章：奥兹国神奇的翡翠城"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"尽管有绿色眼镜保护着眼睛，桃乐丝和她的朋友们在刚看到这座奇妙的城市时，这里耀眼的光芒还是让他们感到眼花缭乱。街道两旁耸立着绿色大理石砌成的美丽房屋，这些房屋上镶满了闪闪发光的翡翠。他们走过的人行道同样是用绿色大理石铺砌而成，石块由一排排翡翠紧密接合在一起，在阳光的照耀下闪闪发亮。房屋的窗户镶嵌着绿色的玻璃，城市上空有淡淡的绿晕，就连阳光也散发着绿色光芒。\n\n街道上有很多行人，男女老少都有，他们全穿着绿色衣物，连皮肤都泛着绿色。他们都用充满好奇的目光看着桃乐丝和她这群外貌迥异的伙伴们，而孩子们一看到狮子都飞快地躲到他们母亲身后；但没有人开口跟桃乐丝他们说话。街上有许多商店，桃乐丝看见店里的每一件商品都是绿色的，有绿色的糖果，绿色的爆米花，还有各种各样的绿鞋子、绿帽子和绿衣服。有位小贩在卖绿色的柠檬水，当孩子们去买汽水时，桃乐丝发现他们付钱时所用的硬币竟然也是绿色的。\n\n这里好像没有马，也没有其他任何动物。有人推着绿色小推车四处运送物品。每个人看起来都很快乐、满足，一切都显得安定繁荣。"</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"尽管有绿色眼镜保护着眼睛，桃乐丝和她的朋友们在刚看到这座奇妙的城市时，这里耀眼的光芒还是让他们感到眼花缭乱。街道两旁耸立着绿色大理石砌成的美丽房屋，这些房屋上镶满了闪闪发光的翡翠。他们走过的人行道同样是用绿色大理石铺砌而成，石块由一排排翡翠紧密接合在一起，在阳光的照耀下闪闪发亮。房屋的窗户镶嵌着绿色的玻璃，城市上空有淡淡的绿晕，就连阳光也散发着绿色光芒。\n\n街道上有很多行人，男女老少都有，他们全穿着绿色衣物，连皮肤都泛着绿色。他们都用充满好奇的目光看着桃乐丝和她这群外貌迥异的伙伴们，而孩子们一看到狮子都飞快地躲到他们母亲身后；但没有人开口跟桃乐丝他们说话。街上有许多商店，桃乐丝看见店里的每一件商品都是绿色的，有绿色的糖果，绿色的爆米花，还有各种各样的绿鞋子、绿帽子和绿衣服。有位小贩在卖绿色的柠檬水，当孩子们去买汽水时，桃乐丝发现他们付钱时所用的硬币竟然也是绿色的。\n\n这里好像没有马，也没有其他任何动物。有人推着绿色小推车四处运送物品。每个人看起来都很快乐、满足，一切都显得安定繁荣。"</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"格式选择"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"自动"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"手动"</string>
@@ -191,11 +221,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"将分辨率更改为 %1$s？"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"选择“确定”，即可立即开始使用%1$s。"</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"%1$s不支持杜比视界，“高级显示设置”中将停用此模式"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"此模式支持%1$s。在某些电视上，您可能需要开启 HDMI 增强模式才能启用更多 HDR 格式。请查看电视设置以了解是否支持此模式。"</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"此模式支持：%1$s\n在某些电视上，您可能需要开启 HDMI 增强模式才能启用更多 HDR 格式。请查看电视设置以了解是否支持此模式。"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"取消"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"确定"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"要清除缓存的数据吗？"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"此操作会清除所有应用的缓存数据。"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -250,6 +280,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"已连接"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"已断开连接"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"您无权更改蓝牙设置。"</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"用于播放 TV 音频"</string>
     <string name="send_feedback" msgid="936698637869795473">"发送反馈"</string>
     <string name="launch_help" msgid="2607478763131952469">"帮助中心"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -283,7 +314,7 @@
     <string name="enterprise_privacy_exposure_category" msgid="1555735251238636669">"贵单位可查看的信息类型"</string>
     <string name="enterprise_privacy_exposure_changes_category" msgid="7750498604032318318">"贵单位的管理员所做的更改"</string>
     <string name="enterprise_privacy_device_access_category" msgid="7397106369136259850">"您对此设备的访问权限"</string>
-    <string name="enterprise_privacy_enterprise_data" msgid="8135491104894522008">"与您的工作帐号关联的数据，例如电子邮件和日历"</string>
+    <string name="enterprise_privacy_enterprise_data" msgid="8135491104894522008">"与您的工作账号关联的数据，例如电子邮件和日历"</string>
     <string name="enterprise_privacy_installed_packages" msgid="5012554762299490994">"您设备上的应用列表"</string>
     <string name="enterprise_privacy_usage_stats" msgid="7062422823174345793">"每个应用的使用时长和数据用量"</string>
     <string name="enterprise_privacy_network_logs" msgid="305782312671493780">"最新的网络流量日志"</string>
@@ -316,8 +347,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"此设备由贵单位管理。"</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"此设备由“<xliff:g id="ORGANIZATION_NAME">%s</xliff:g>”管理。"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">"、"</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"了解详情"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{相机应用}other{相机应用}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"日历应用"</string>
@@ -340,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google 法律信息"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"无法获取许可数据"</string>
     <string name="about_model" msgid="9164284529291439296">"型号"</string>
+    <string name="device_mode" msgid="7258350575590118152">"设备模式"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"商店演示"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV 操作系统版本"</string>
     <string name="about_serial" msgid="3432319328808745459">"序列号"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV 操作系统版本"</string>
@@ -407,6 +439,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"互联网连接"</string>
     <string name="connected" msgid="4981532275162345997">"已连接"</string>
     <string name="not_connected" msgid="475810896484271663">"未连接"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"未连接到互联网"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"已保存"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"密码错误"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"WLAN 密码太短"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"需要登录"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"其他选项"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"查看全部"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"隐藏部分"</string>
@@ -637,15 +674,15 @@
     <string name="third_party_location_services_title" msgid="2826218400381676508">"第三方位置信息服务"</string>
     <string name="location_reporting" msgid="3552501333650895634">"位置报告"</string>
     <string name="location_history" msgid="4055660203090513120">"位置记录"</string>
-    <string name="location_reporting_desc" msgid="1580018652781674608">"Google会在Google即时和Google地图等产品中使用此功能。启用位置报告功能后，凡是使用此功能的Google产品都将可以存储和使用您设备上与您的Google帐号关联的最新位置数据。"</string>
-    <string name="location_history_desc" msgid="926674012916014270">"如果您为此帐号启用了位置记录功能，Google就可以存储您设备上的位置数据，以供您的应用使用。\n\n例如，Google地图可为您提供路线信息、Google即时可告知您上下班交通路况信息。\n\n您可以随时关闭位置记录功能，但系统并不会因此删除相关记录。要查看和管理您的位置记录，请访问maps.google.com/locationhistory。"</string>
+    <string name="location_reporting_desc" msgid="1580018652781674608">"Google会在Google即时和Google地图等产品中使用此功能。启用位置报告功能后，凡是使用此功能的Google产品都将可以存储和使用您设备上与您的Google账号关联的最新位置数据。"</string>
+    <string name="location_history_desc" msgid="926674012916014270">"如果您为此账号启用了位置记录功能，Google就可以存储您设备上的位置数据，以供您的应用使用。\n\n例如，Google地图可为您提供路线信息、Google即时可告知您上下班交通路况信息。\n\n您可以随时关闭位置记录功能，但系统并不会因此删除相关记录。要查看和管理您的位置记录，请访问maps.google.com/locationhistory。"</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"删除位置记录"</string>
-    <string name="delete_location_history_desc" msgid="4035229731487113147">"该操作将删除您通过此设备存储在这个Google帐号中的所有位置记录。此删除操作无法撤消。部分应用（包括Google即时）将会因此而无法正常工作。"</string>
+    <string name="delete_location_history_desc" msgid="4035229731487113147">"该操作将删除您通过此设备存储在这个Google账号中的所有位置记录。此删除操作无法撤消。部分应用（包括Google即时）将会因此而无法正常工作。"</string>
     <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"屏幕阅读器"</string>
     <string name="accessibility_display_category_title" msgid="593444602101558017">"显示"</string>
     <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"互动控制"</string>
     <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"音频和屏幕上的文字"</string>
-    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"实验性"</string>
+    <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"实验性功能"</string>
     <string name="accessibility_services_category_title" msgid="8813843874978910442">"服务"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"服务设置"</string>
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
@@ -673,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"启用无障碍快捷方式"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"快捷方式服务"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"开启这项快捷方式后，同时按下返回和向下按钮 3 秒钟即可启动无障碍功能。"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"等待操作的时长"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"等待操作的时长（无障碍功能超时）"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"时间"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"某些应用可能不支持这项时限偏好设置。"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"字幕"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"视频字幕的文字叠加层设置"</string>
     <string name="captions_display" msgid="2598662495450633375">"显示"</string>
@@ -711,11 +752,11 @@
     <string name="color_yellow" msgid="3519470952904560404">"黄色"</string>
     <string name="color_magenta" msgid="2377854703399624607">"紫红色"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"语音描述"</string>
-    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"听取有关当前屏幕画面内容的语音说明（仅限支持该设置的电影或电视节目）"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"以语音的形式描述当前画面呈现的内容（仅限支持该设置的电影或电视节目）"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"启用"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"配置"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"要使用<xliff:g id="SERVICE">%1$s</xliff:g>吗？"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"“<xliff:g id="SERVICE">%1$s</xliff:g>”可以收集您输入的所有文字信息（密码除外），其中包括信用卡号等个人数据。"</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g>将能读出屏幕上的内容、在其他应用上层显示内容、跟踪您与应用或硬件传感器的互动情形，以及代表您与应用互动。"</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"要停止使用<xliff:g id="SERVICE">%1$s</xliff:g>吗？"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"选择“确定”将会停止使用<xliff:g id="SERVICE">%1$s</xliff:g>。"</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"文字转语音"</string>
@@ -763,7 +804,7 @@
     <string name="system_strict_mode_enabled" msgid="7392183793064579588">"启用严格模式"</string>
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"GPU 渲染模式分析"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"启用跟踪"</string>
-    <string name="system_dont_keep_activities" msgid="4641165963339846161">"不保留活动"</string>
+    <string name="system_dont_keep_activities" msgid="4641165963339846161">"不保留 activity"</string>
     <string name="system_background_process_limit" msgid="1985373407150771045">"后台进程限制"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"显示所有ANR"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"停用休眠功能"</string>
@@ -856,11 +897,11 @@
     <string name="inputs_header_connected_input" msgid="4323324944548164849">"{count,plural, =1{已连接的输入设备}other{已连接的输入设备}}"</string>
     <string name="inputs_header_standby_input" msgid="600117963181008144">"{count,plural, =1{待机的输入设备}other{待机的输入设备}}"</string>
     <string name="inputs_header_disconnected_input" msgid="3852361100151289264">"{count,plural, =1{已断开连接的输入设备}other{已断开连接的输入设备}}"</string>
-    <string name="user_add_profile_item_summary" msgid="3211866291940617804">"限制其他人使用您帐号中的应用和内容"</string>
+    <string name="user_add_profile_item_summary" msgid="3211866291940617804">"限制其他人使用您账号中的应用和内容"</string>
     <string name="user_new_profile_name" msgid="6637593067318708353">"受限个人资料"</string>
     <string name="user_restrictions_controlled_by" msgid="8124926446168030445">"由<xliff:g id="APP">%1$s</xliff:g>控制"</string>
     <string name="app_not_supported_in_limited" msgid="4046604594925826955">"受限个人资料无法使用此应用"</string>
-    <string name="app_sees_restricted_accounts" msgid="174038126799649152">"此应用可访问您的帐号"</string>
+    <string name="app_sees_restricted_accounts" msgid="174038126799649152">"此应用可访问您的账号"</string>
     <string name="restriction_location_enable_title" msgid="2552780806199464266">"位置信息"</string>
     <string name="restriction_location_enable_summary" msgid="3719330231217994482">"允许应用使用您的位置信息"</string>
     <string name="restricted_profile_switch_to" msgid="6193201935877168764">"进入受限个人资料"</string>
@@ -874,8 +915,15 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"自定义限制"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"请稍候…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"更改 PIN 码"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"创建受限个人资料？"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"已创建"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"跳过"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"创建 PIN 码"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"进入受限个人资料？"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"无受限个人资料"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"已进入"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
-    <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"此应用由“<xliff:g id="APP">%1$s</xliff:g>”控制，可使用您的帐号"</string>
+    <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"此应用由“<xliff:g id="APP">%1$s</xliff:g>”控制，可使用您的账号"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"输入 PIN 码即可观看此频道"</string>
     <string name="pin_enter_unlock_program" msgid="275489015420025531">"输入 PIN 码即可观看此节目"</string>
     <string name="pin_enter_pin" msgid="5020029261153234751">"输入 PIN 码"</string>
@@ -889,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"选择 <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> 以继续。"</string>
     <string name="label_done_key" msgid="8576286462300373440">"完成"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"连接成功"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"保存成功"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"版本 <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"打开"</string>
@@ -904,7 +954,7 @@
     <string name="device_apps_app_management_storage_used" msgid="6725789557993296433">"已使用的存储空间"</string>
     <string name="device_apps_app_management_storage_used_desc" msgid="8928632612101487179">"已使用 <xliff:g id="SIZE">%1$s</xliff:g> <xliff:g id="VOLUME">%2$s</xliff:g>"</string>
     <string name="device_apps_app_management_clear_data" msgid="7305471678286735600">"清除数据"</string>
-    <string name="device_apps_app_management_clear_data_desc" msgid="170972356946852847">"系统会永久删除此应用的所有数据。\n删除的内容包括所有文件、设置、帐号、数据库等。"</string>
+    <string name="device_apps_app_management_clear_data_desc" msgid="170972356946852847">"系统会永久删除此应用的所有数据。\n删除的内容包括所有文件、设置、账号、数据库等。"</string>
     <string name="device_apps_app_management_clear_default" msgid="4566187319647111484">"清除默认操作"</string>
     <string name="device_apps_app_management_clear_default_set" msgid="1649974109123107390">"使用此应用处理某些操作"</string>
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"没有默认操作"</string>
@@ -913,7 +963,7 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"第三方源代码"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"权限"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"无法使用应用"</string>
-    <string name="unused_apps" msgid="5539166745483454543">"未使用的应用"</string>
+    <string name="unused_apps" msgid="5539166745483454543">"闲置应用"</string>
     <string name="settings_ok" msgid="5950888975075541964">"确定"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"确认"</string>
     <string name="settings_cancel" msgid="576094334743686152">"取消"</string>
@@ -928,15 +978,15 @@
     <string name="device_energy_saver_screen_off" msgid="6908468996426629480">"关闭显示屏"</string>
     <!-- no translation found for device_energy_saver_timeout_description (3206609135199137514) -->
     <skip />
-    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"确认“开关和电源”设置"</string>
+    <string name="device_energy_saver_confirmation_title" msgid="7614859812773584773">"确认“电源和能耗”设置"</string>
     <string name="device_energy_saver_confirmation_message" msgid="7789453187001013951">"长时间开着电视可能会增加耗电量"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_title" msgid="1468097048101593731">"停用节能模式设置"</string>
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"请确认是否要停用在播放媒体时关闭显示屏的设置，停用此设置可能会使耗电量增加。"</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"在闲置时"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"在观看时"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"自动将电视关机"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"在电视处于闲置状态时自动将其关机"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"在电视播放节目期间自动将其关机"</string>
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"自动关闭"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"设备闲置时自动关闭"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"观看影视内容时自动关闭"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"“在闲置时”计时器设定的时间必须比“在观看时”计时器短"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"“在观看时”计时器设定的时间必须比“在闲置时”计时器长"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"在待机模式下限制网络连接"</string>
@@ -944,16 +994,16 @@
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"除非收到自动更新，否则电视在待机模式下会断开网络连接。这可能会减少电视的能耗，但也意味着待机模式下，您可能无法使用投屏和 Google 助理等功能。"</string>
     <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"允许在待机模式下连接网络"</string>
     <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"如果允许在待机模式下连接网络，待机时的能耗就会增加。"</string>
-    <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"目前没有存储备份数据的帐号"</string>
+    <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"目前没有存储备份数据的账号"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"要停止备份您的 WLAN 密码、书签、其他设置以及应用数据，并清除 Google 服务器上的所有副本吗？"</string>
     <string name="privacy_backup_data" msgid="3604057980102997914">"备份我的数据"</string>
-    <string name="privacy_backup_account" msgid="4527813051841860610">"备份帐号"</string>
+    <string name="privacy_backup_account" msgid="4527813051841860610">"备份账号"</string>
     <string name="privacy_automatic_restore" msgid="7117805818589418118">"自动还原"</string>
     <string name="factory_reset_device" msgid="6509900821515094361">"重置设备"</string>
-    <string name="factory_reset_description" msgid="6697396335158766785">"此操作会将您的设备恢复为默认设置，并清空所有数据、帐号、文件和已下载的应用。"</string>
-    <string name="factory_reset_info_description" msgid="5098454670833183487">"此操作会将您的设备恢复为默认设置，并清空所有数据、帐号、文件和已下载的应用。"</string>
-    <string name="factory_reset_content_description" msgid="1677022688420116803">"恢复出厂设置，此操作会将您的设备恢复为默认设置，并清空所有数据、帐号、文件和已下载的应用。"</string>
+    <string name="factory_reset_description" msgid="6697396335158766785">"此操作会将您的设备恢复为默认设置，并清空所有数据、账号、文件和已下载的应用。"</string>
+    <string name="factory_reset_info_description" msgid="5098454670833183487">"此操作会将您的设备恢复为默认设置，并清空所有数据、账号、文件和已下载的应用。"</string>
+    <string name="factory_reset_content_description" msgid="1677022688420116803">"恢复出厂设置，此操作会将您的设备恢复为默认设置，并清空所有数据、账号、文件和已下载的应用。"</string>
     <string name="confirm_factory_reset_description" msgid="1337483463207721713">"要清除此设备上的所有个人信息和已下载的应用吗？此操作无法撤消！"</string>
     <string name="confirm_factory_reset_device" msgid="4308646529880718465">"全部清除"</string>
     <string name="select_device_name_title" msgid="3045019448327493634">"为您的 <xliff:g id="DEVICEMODEL">%1$s</xliff:g> 选择名称"</string>
@@ -1017,9 +1067,9 @@
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"已安装的应用均不支持画中画功能"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"允许应用在您打开应用时或您离开应用后（例如继续观看视频）创建画中画窗口。这类窗口会显示在您当前使用的其他应用的上层。"</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"允许应用设置闹钟以及安排在特定时间执行某些操作。开启这项权限后，应用将在后台运行，可能会消耗更多电量。\n\n如果您关闭此权限，该应用设置的现有闹钟将不会响起，而且该应用安排在特定时间执行的现有活动也不会执行。"</string>
-    <string name="turn_screen_on_title" msgid="5293798529284629011">"开启屏幕"</string>
-    <string name="allow_turn_screen_on" msgid="4903401106871656521">"允许开启屏幕"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"允许应用开启屏幕。如获授权，该应用便可在您未明确表达意愿的情况下随时开启屏幕。"</string>
+    <string name="turn_screen_on_title" msgid="5293798529284629011">"唤醒屏幕"</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"允许唤醒屏幕"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"允许应用唤醒屏幕。如获授权，该应用便可在您未明确表达意愿的情况下随时唤醒屏幕。"</string>
     <string name="special_access" msgid="21806055758289916">"特殊应用权限"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>，<xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"音频"</string>
@@ -1036,10 +1086,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"用于录音的麦克风"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"无法启动音频录制。"</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"音频录制失败。"</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"流量节省程序"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"自动调整视频画质以减少移动数据流量消耗"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"流量消耗和提醒"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"您可以通过 WLAN、以太网或手机的热点连接到互联网。"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"要向其他蓝牙设备显示吗？"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"某款应用希望您的电视向其他蓝牙设备显示 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒，使它们可发现您的设备。"</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1080,6 +1126,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"连接成功"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"全部显示"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"正在搜索"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"未能从身份验证器中提取“添加账号”意图。"</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"添加账号失败，或账号类型不适用。"</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"频道和输入源"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"频道、外部输入源"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"频道"</string>
@@ -1088,8 +1136,22 @@
     <string name="picture_settings_title" msgid="7643193630924322697">"画面"</string>
     <string name="screen_settings_title" msgid="7806908869190824434">"屏幕"</string>
     <string name="sound_settings_title" msgid="9149367966117889465">"声音"</string>
-    <string name="power_and_energy" msgid="4638182439670702556">"开关和电源"</string>
+    <string name="power_and_energy" msgid="4638182439670702556">"电源和能耗"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"开机行为"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"重置"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"电视"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"以太网配对码"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"能耗模式"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"这些设置会在您未使用设备时影响设备"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"此模式会启用下列功能："</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"您启用的电视功能数量越多，耗电量可能会越高。"</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"启用“<xliff:g id="ENERGYMODENAME">%s</xliff:g>”"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"查找我的遥控器"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"让忘记放在何处的 Google TV 遥控器响铃，以便找到它"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV 上有一个按钮，按下后遥控器会响铃 30 秒钟。此操作仅对支持的 Google TV 遥控器有效。\n\n若要停止响铃，请按下遥控器上的任意按钮。"</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"当“查找我的遥控器”处于启用状态时，您可让找不到的 Google TV 遥控器响铃，从而定位它。"</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"响铃"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s的音量"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"您可以控制%1$s音箱上 Google 助理的音量"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"仅影响%1$s设备（而非电视）的音量"</string>
 </resources>

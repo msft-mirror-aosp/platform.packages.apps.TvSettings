@@ -54,6 +54,7 @@ import androidx.preference.PreferenceViewHolder;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.android.settingslib.core.lifecycle.Lifecycle;
+import com.android.tv.settings.library.instrumentation.InstrumentedPreferenceFragment;
 import com.android.tv.settings.overlay.FlavorUtils;
 import com.android.tv.settings.util.SettingsPreferenceUtil;
 import com.android.tv.settings.widget.SettingsViewModel;
@@ -66,7 +67,7 @@ import java.util.Collections;
  * A {@link LeanbackPreferenceFragmentCompat} that has hooks to observe fragment lifecycle events
  * and allow for instrumentation.
  */
-public abstract class SettingsPreferenceFragment extends LeanbackPreferenceFragmentCompat
+public abstract class SettingsPreferenceFragment extends InstrumentedPreferenceFragment
         implements LifecycleOwner,
         TwoPanelSettingsFragment.PreviewableComponentCallback {
     private final Lifecycle mLifecycle = new Lifecycle(this);
@@ -109,12 +110,6 @@ public abstract class SettingsPreferenceFragment extends LeanbackPreferenceFragm
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-        // Set list view listeners after the fragment view is created
-        if (getCallbackFragment() instanceof TwoPanelSettingsFragment) {
-            TwoPanelSettingsFragment parentFragment =
-                    (TwoPanelSettingsFragment) getCallbackFragment();
-            parentFragment.addListenerForFragment(this);
-        }
         if (view != null) {
             TextView titleView = view.findViewById(R.id.decor_title);
             // We rely on getResources().getConfiguration().getLayoutDirection() instead of
@@ -201,12 +196,14 @@ public abstract class SettingsPreferenceFragment extends LeanbackPreferenceFragm
                             getContext(), R.animator.preference));
                 }
                 vh.itemView.setOnTouchListener((v, e) -> {
-                    if (e.getActionMasked() == MotionEvent.ACTION_DOWN) {
+                    if (e.getActionMasked() == MotionEvent.ACTION_DOWN
+                            && isPrimaryKey(e.getButtonState())) {
                         vh.itemView.requestFocus();
                         v.dispatchKeyEvent(new KeyEvent(KeyEvent.ACTION_DOWN,
                                 KeyEvent.KEYCODE_DPAD_CENTER));
                         return true;
-                    } else if (e.getActionMasked() == MotionEvent.ACTION_UP) {
+                    } else if (e.getActionMasked() == MotionEvent.ACTION_UP
+                            && isPrimaryKey(e.getButtonState())) {
                         v.dispatchKeyEvent(new KeyEvent(KeyEvent.ACTION_UP,
                                 KeyEvent.KEYCODE_DPAD_CENTER));
                         return true;
@@ -245,6 +242,11 @@ public abstract class SettingsPreferenceFragment extends LeanbackPreferenceFragm
     public void onResume() {
         super.onResume();
         mLifecycle.handleLifecycleEvent(ON_RESUME);
+        if (getCallbackFragment() instanceof TwoPanelSettingsFragment) {
+            TwoPanelSettingsFragment parentFragment =
+                    (TwoPanelSettingsFragment) getCallbackFragment();
+            parentFragment.addListenerForFragment(this);
+        }
     }
 
     // This should only be invoked if the parent Fragment is TwoPanelSettingsFragment.
@@ -259,6 +261,11 @@ public abstract class SettingsPreferenceFragment extends LeanbackPreferenceFragm
     public void onPause() {
         mLifecycle.handleLifecycleEvent(ON_PAUSE);
         super.onPause();
+        if (getCallbackFragment() instanceof TwoPanelSettingsFragment) {
+            TwoPanelSettingsFragment parentFragment =
+                    (TwoPanelSettingsFragment) getCallbackFragment();
+            parentFragment.removeListenerForFragment(this);
+        }
     }
 
     @CallSuper
@@ -273,16 +280,6 @@ public abstract class SettingsPreferenceFragment extends LeanbackPreferenceFragm
     public void onDestroy() {
         mLifecycle.handleLifecycleEvent(ON_DESTROY);
         super.onDestroy();
-    }
-
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        if (getCallbackFragment() instanceof TwoPanelSettingsFragment) {
-            TwoPanelSettingsFragment parentFragment =
-                    (TwoPanelSettingsFragment) getCallbackFragment();
-            parentFragment.removeListenerForFragment(this);
-        }
     }
 
     @CallSuper
@@ -312,5 +309,12 @@ public abstract class SettingsPreferenceFragment extends LeanbackPreferenceFragm
     /** Subclasses should override this to use their own PageId for statsd logging. */
     protected int getPageId() {
         return TvSettingsEnums.PAGE_CLASSIC_DEFAULT;
+    }
+
+    // check if such motion event should translate to key event DPAD_CENTER
+    private boolean isPrimaryKey(int buttonState) {
+        return buttonState == MotionEvent.BUTTON_PRIMARY
+                || buttonState == MotionEvent.BUTTON_STYLUS_PRIMARY
+                || buttonState == 0;  // motion events which creates by UI Automator
     }
 }

@@ -19,6 +19,7 @@ package com.android.tv.settings.accessories;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothClass;
 import android.bluetooth.BluetoothDevice;
+import android.bluetooth.BluetoothProfile;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
@@ -158,6 +159,10 @@ public class BluetoothDevicePairer {
     private final BluetoothScanner.Listener mBtListener = new BluetoothScanner.Listener() {
         @Override
         public void onDeviceAdded(BluetoothScanner.Device device) {
+            // Known devices will be handled in the partner-implemented Slice.
+            if (AccessoryUtils.isKnownDevice(mContext, device.btDevice)) {
+                return;
+            }
             if (DEBUG) {
                 Log.d(TAG, "Adding device: " + device.btDevice.getAddress());
             }
@@ -317,20 +322,17 @@ public class BluetoothDevicePairer {
     }
 
     private void addBluetoothDeviceCriteria() {
+        List<Integer> supportedList =
+                BluetoothAdapter.getDefaultAdapter().getSupportedProfiles();
+
         // Input is supported by all devices.
         mInputDeviceCriteria = new InputDeviceCriteria();
         mBluetoothDeviceCriteria.add(mInputDeviceCriteria);
 
-        // Add Bluetooth a2dp on if the service is running and the
-        // setting profile_supported_a2dp is set to true.
-        Intent intent = new Intent("android.bluetooth.IBluetoothA2dp");
-        ComponentName comp = intent.resolveSystemService(mContext.getPackageManager(), 0);
-        if (comp != null) {
-            int enabledState = mContext.getPackageManager().getComponentEnabledSetting(comp);
-            if (enabledState != PackageManager.COMPONENT_ENABLED_STATE_DISABLED) {
-                Log.d(TAG, "Adding A2dp device criteria for pairing");
-                mBluetoothDeviceCriteria.add(new A2dpDeviceCriteria());
-            }
+        // Add Bluetooth A2DP if the profile is supported.
+        if (supportedList.contains(BluetoothProfile.A2DP)) {
+            Log.d(TAG, "Adding A2DP device criteria for pairing");
+            mBluetoothDeviceCriteria.add(new A2dpDeviceCriteria());
         }
     }
 

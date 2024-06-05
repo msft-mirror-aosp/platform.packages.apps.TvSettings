@@ -118,6 +118,7 @@ public class MainFragment extends PreferenceControllerFragment implements
     static final String KEY_PRIVACY = "privacy";
     @VisibleForTesting
     static final String KEY_DISPLAY_AND_SOUND = "display_and_sound";
+    private static final String KEY_DISPLAY_AND_SOUND_SLICE = "display_and_sound_slice";
     private static final String KEY_CHANNELS_AND_INPUTS = "channels_and_inputs";
     private static final String KEY_CHANNELS_AND_INPUTS_SLICE = "channels_and_inputs_slice";
 
@@ -199,11 +200,6 @@ public class MainFragment extends PreferenceControllerFragment implements
         mSuggestionQuickSettingPrefsContainer.showOrHideQuickSettings();
         updateAccountPref();
         updateAccessoryPref();
-        if (isWifiScanOptimisationEnabled()) {
-            mConnectivityListenerLite.handleConnectivityChange();
-        } else {
-            updateConnectivity();
-        }
         updateBasicModeSuggestion();
         updateChannelsAndInputs();
         return super.onCreateView(inflater, container, savedInstanceState);
@@ -272,6 +268,7 @@ public class MainFragment extends PreferenceControllerFragment implements
         }
         mSuggestionQuickSettingPrefsContainer.onCreatePreferences();
         updateSoundSettings();
+        updateDisplayAndSound();
     }
 
     @VisibleForTesting
@@ -618,6 +615,21 @@ public class MainFragment extends PreferenceControllerFragment implements
         }
     }
 
+    private void updateDisplayAndSound() {
+        Preference displayAndSoundPreference = findPreference(KEY_DISPLAY_AND_SOUND);
+        SlicePreference displayAndSoundSlicePreference =
+                (SlicePreference) findPreference(KEY_DISPLAY_AND_SOUND_SLICE);
+        if (displayAndSoundSlicePreference != null
+                && FlavorUtils.isTwoPanel(getContext())
+                && SliceUtils.isSliceProviderValid(
+                getContext(), displayAndSoundSlicePreference.getUri())) {
+            displayAndSoundSlicePreference.setVisible(true);
+            if (displayAndSoundPreference != null) {
+                displayAndSoundPreference.setVisible(false);
+            }
+        }
+    }
+
     @Override
     public void onStart() {
         super.onStart();
@@ -628,12 +640,32 @@ public class MainFragment extends PreferenceControllerFragment implements
         btChangeFilter.addAction(BluetoothDevice.ACTION_ACL_DISCONNECTED);
         btChangeFilter.addAction(BluetoothAdapter.ACTION_STATE_CHANGED);
         getContext().registerReceiver(mBCMReceiver, btChangeFilter);
+        if(mConnectivityListenerLite != null) {
+            mConnectivityListenerLite.setListener(this::updateConnectivityType);
+        }
+        mConnectivityListenerOptional.ifPresent(
+                connectivityListener -> connectivityListener.setListener(this::updateConnectivity));
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (isWifiScanOptimisationEnabled()) {
+            mConnectivityListenerLite.handleConnectivityChange();
+        } else {
+            updateConnectivity();
+        }
     }
 
     @Override
     public void onStop() {
-        super.onStop();
         getContext().unregisterReceiver(mBCMReceiver);
+        if(mConnectivityListenerLite != null) {
+            mConnectivityListenerLite.setListener(null);
+        }
+        mConnectivityListenerOptional.ifPresent(
+                connectivityListener -> connectivityListener.setListener(null));
+        super.onStop();
     }
 
     @Override

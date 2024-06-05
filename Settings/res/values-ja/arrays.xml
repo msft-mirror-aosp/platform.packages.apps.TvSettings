@@ -43,7 +43,7 @@
   <string-array name="captioning_typeface_selector_titles">
     <item msgid="890926483922346934">"デフォルト"</item>
     <item msgid="3343022995357433227">"Sans Serif"</item>
-    <item msgid="5638318073828379963">"Sans Serif Condensed"</item>
+    <item msgid="5638318073828379963">"Sans Serif コンデンス"</item>
     <item msgid="7195810992054707804">"Sans Serif 固定幅"</item>
     <item msgid="3746382747920668734">"Serif"</item>
     <item msgid="5506326688955062027">"Serif 固定幅"</item>
@@ -88,5 +88,17 @@
     <item msgid="4168234302019013836">"MSCHAP"</item>
     <item msgid="3665868694672130423">"MSCHAPV2"</item>
     <item msgid="1778635393795831325">"GTC"</item>
+  </string-array>
+  <string-array name="volume_change_entries">
+    <item msgid="8475727172583493318">"ミュート"</item>
+    <item msgid="2508680062291793288">"低（20%）"</item>
+    <item msgid="2483057103949558629">"中（50%）"</item>
+    <item msgid="6278092586736538014">"高（80%）"</item>
+  </string-array>
+  <string-array name="volume_change_entry_values">
+    <item msgid="685431465640328190">"0"</item>
+    <item msgid="3948049660167106381">"0.2"</item>
+    <item msgid="3441480529755779159">"0.5"</item>
+    <item msgid="4571900814286671092">"0.8"</item>
   </string-array>
 </resources>

@@ -28,6 +28,8 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 
+import java.util.List;
+
 public class BluetoothA2dpConnector implements BluetoothDevicePairer.BluetoothConnector {
 
     public static final String TAG = "BluetoothA2dpConnector";
@@ -51,7 +53,14 @@ public class BluetoothA2dpConnector implements BluetoothDevicePairer.BluetoothCo
         public void handleMessage(Message m) {
             switch (m.what) {
                 case MSG_CONNECT_TIMEOUT:
-                    failed();
+                    if (isTargetConnected()) { // False timeout
+                        mA2dpProfile.setConnectionPolicy(mTarget,
+                                BluetoothProfile.CONNECTION_POLICY_ALLOWED);
+                        succeeded();
+                    } else {
+                        Log.w(TAG, "handleMessage(MSG_CONNECT_TIMEOUT)");
+                        failed();
+                    }
                     break;
                 case MSG_CONNECT:
                     if (mA2dpProfile == null) {
@@ -60,9 +69,11 @@ public class BluetoothA2dpConnector implements BluetoothDevicePairer.BluetoothCo
                     // must set CONNECTION_POLICY_ALLOWED or auto-connection will not
                     // occur, however this setting does not appear to be sticky
                     // across a reboot
+                    Log.i(TAG, "handleMessage(MSG_CONNECT)");
                     mA2dpProfile.setConnectionPolicy(mTarget, BluetoothProfile.CONNECTION_POLICY_ALLOWED);
                     break;
                 default:
+                    Log.d(TAG, "handleMessage(" + m.what + "): unhandled");
                     break;
             }
         }
@@ -101,9 +112,10 @@ public class BluetoothA2dpConnector implements BluetoothDevicePairer.BluetoothCo
 
                 if (previousState == BluetoothA2dp.STATE_CONNECTING) {
                     if (state == BluetoothA2dp.STATE_CONNECTED) {
+                        Log.i(TAG, "onReceive(): connected");
                         succeeded();
                     } else if (state == BluetoothA2dp.STATE_DISCONNECTED) {
-                        Log.d(TAG, "Failed to connect");
+                        Log.e(TAG, "onReceive(): Failed to connect");
                         failed();
                     }
 
@@ -115,11 +127,13 @@ public class BluetoothA2dpConnector implements BluetoothDevicePairer.BluetoothCo
     };
 
     private void succeeded() {
+        Log.d(TAG, "succeeded()");
         mHandler.removeCallbacksAndMessages(null);
         mOpenConnectionCallback.succeeded();
     }
 
     private void failed() {
+        Log.e(TAG, "failed()");
         mHandler.removeCallbacksAndMessages(null);
         mOpenConnectionCallback.failed();
     }
@@ -129,9 +143,7 @@ public class BluetoothA2dpConnector implements BluetoothDevicePairer.BluetoothCo
 
         @Override
         public void onServiceDisconnected(int profile) {
-            if (DEBUG) {
-                Log.d(TAG, "Service disconnected");
-            }
+            Log.d(TAG, "onServiceDisconnected(" + profile + ")");
             unregisterConnectionStateReceiver();
         }
 
@@ -141,8 +153,15 @@ public class BluetoothA2dpConnector implements BluetoothDevicePairer.BluetoothCo
                 Log.d(TAG, "Connection made to bluetooth proxy." );
             }
             mA2dpProfile = (BluetoothA2dp) proxy;
-            if (DEBUG) {
-                Log.d(TAG, "Connecting to target: " + mTarget.getAddress());
+            Log.d(TAG, "onServiceConnected(" + profile
+                    +
+                    ", ...): Connecting to target: " + mTarget.getAddress());
+
+            if (isTargetConnected()) { // Already connected, no need to wait.
+                mA2dpProfile.setConnectionPolicy(mTarget,
+                        BluetoothProfile.CONNECTION_POLICY_ALLOWED);
+                succeeded();
+                return;
             }
 
             registerConnectionStateReceiver();
@@ -192,7 +211,7 @@ public class BluetoothA2dpConnector implements BluetoothDevicePairer.BluetoothCo
     }
 
     private void registerConnectionStateReceiver() {
-        if (DEBUG) Log.d(TAG, "registerConnectionStateReceiver()");
+        Log.d(TAG, "registerConnectionStateReceiver()");
         IntentFilter filter = new IntentFilter(BluetoothA2dp.ACTION_CONNECTION_STATE_CHANGED);
         filter.addAction(BluetoothDevice.ACTION_UUID);
         mContext.registerReceiver(mConnectionStateReceiver, filter);
@@ -201,10 +220,18 @@ public class BluetoothA2dpConnector implements BluetoothDevicePairer.BluetoothCo
 
     private void unregisterConnectionStateReceiver() {
         if (mConnectionStateReceiverRegistered) {
-            if (DEBUG) Log.d(TAG, "unregisterConnectionStateReceiver()");
+            Log.d(TAG, "unregisterConnectionStateReceiver()");
             mContext.unregisterReceiver(mConnectionStateReceiver);
             mConnectionStateReceiverRegistered = false;
         }
     }
 
+    private boolean isTargetConnected() {
+        if (mA2dpProfile == null) {
+            return false;
+        }
+
+        List<BluetoothDevice> connectedDevices = mA2dpProfile.getConnectedDevices();
+        return connectedDevices.contains(mTarget);
+    }
 }

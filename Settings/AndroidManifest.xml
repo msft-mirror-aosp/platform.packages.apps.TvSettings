@@ -23,7 +23,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-sdk android:minSdkVersion="31"
+    <uses-sdk android:minSdkVersion="34"
         tools:overrideLibrary="com.android.tv.settings.library"/>
 
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
@@ -75,6 +75,11 @@
     <uses-permission android:name="android.permission.START_ACTIVITIES_FROM_BACKGROUND"/>
     <uses-permission android:name="android.permission.SET_UNRESTRICTED_KEEP_CLEAR_AREAS"/>
 
+    <!-- Permissions for reading network change related data. -->
+    <permission
+        android:name="com.android.settings.connectivity.READ_NETWORK_CHANGE_DATA"
+        android:protectionLevel="signature|preinstalled" />
+
     <application
          android:name=".TvSettingsApplication"
          android:allowClearUserData="false"
@@ -120,13 +125,14 @@
 
         <!-- WifiSetupActivity may be (usually is) started from setup so theme is determined at
              runtime. -->
-        <activity
+        <activity-alias
             android:name=".connectivity.setup.WifiSetupActivity"
             android:clearTaskOnLaunch="true"
             android:configChanges="keyboard|keyboardHidden|navigation"
             android:excludeFromRecents="true"
             android:exported="true"
-            android:theme="@style/Theme.Setup">
+            android:theme="@style/TvSettingsActivityTheme"
+            android:targetActivity=".connectivity.NetworkActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <action android:name="com.android.net.wifi.SETUP_WIFI_NETWORK"/>
@@ -142,7 +148,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             -->
-        </activity>
+        </activity-alias>
 
         <activity
             android:name=".connectivity.NetworkRequestDialogActivity"
@@ -211,6 +217,15 @@
             </intent-filter>
         </activity>
 
+        <!-- The other application needs to define the similar custom permission in its manifest
+        to be able to READ network change data -->
+        <provider
+            android:name=".connectivity.NetworkChangeContentProvider"
+            android:authorities="com.android.settings.connectivity.networkchangedetection"
+            android:exported="true"
+            android:readPermission="com.android.settings.connectivity.READ_NETWORK_CHANGE_DATA" >
+        </provider>
+
         <!-- AccountSliceActivity is just here to facilitate the activity-alias below to eliminate
              the risk of repackaging. -->
         <activity
@@ -243,7 +258,7 @@
                 <action android:name="android.settings.USER_SETTINGS"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
-            <intent-filter>
+            <intent-filter android:priority="1">
                 <action android:name="android.intent.action.MAIN"/>
                 <action android:name="android.settings.ACCOUNT_SYNC_SETTINGS"/>
                 <action android:name="android.settings.SYNC_SETTINGS"/>
@@ -458,14 +473,6 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <intent-filter>
-                <action android:name="android.settings.DATA_SAVER_SETTINGS"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-            <intent-filter>
-                <action android:name="android.settings.DATA_ALERT_SETTINGS"/>
-                <category android:name="android.intent.category.DEFAULT"/>
-            </intent-filter>
-            <intent-filter>
                 <action android:name="android.settings.panel.action.INTERNET_CONNECTIVITY"/>
                 <action android:name="android.settings.panel.action.WIFI"/>
                 <category android:name="android.intent.category.DEFAULT"/>
@@ -504,6 +511,30 @@
                 <category android:name="android.intent.category.LEANBACK_SETTINGS"/>
             </intent-filter>
         </activity-alias>
+
+        <activity
+            android:name=".system.CreateRestrictedProfileActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:theme="@style/TvSettingsActivityTheme">
+            <intent-filter>
+                <action android:name="com.android.tv.settings.action.CREATE_RESTRICTED_PROFILE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".system.EnterRestrictedProfileActivity"
+            android:configChanges="keyboard|keyboardHidden|navigation"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:theme="@style/TvSettingsActivityTheme">
+            <intent-filter>
+                <action android:name="com.android.tv.settings.action.ENTER_RESTRICTED_PROFILE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
 
         <activity
             android:name=".device.displaysound.DisplaySoundActivity"
@@ -1112,6 +1143,7 @@
             android:configChanges="keyboard|keyboardHidden|navigation"
             android:excludeFromRecents="true"
             android:exported="true"
+            android:permission="android.permission.WRITE_SECURE_SETTINGS"
             android:theme="@style/TvSettingsActivityTheme">
             <intent-filter android:priority="3">
                 <action android:name="android.settings.SLICE_SETTINGS" />
@@ -1190,7 +1222,7 @@
             android:name=".oemlink.FactoryResetActivity"
             android:configChanges="keyboard|keyboardHidden|navigation"
             android:excludeFromRecents="true"
-            android:exported="true"
+            android:exported="false"
             android:theme="@style/ActionDisabledDialogTheme">
             <intent-filter android:priority="1" >
                 <action android:name="android.settings.FACTORY_RESET_TV_OEM_LINK" />
@@ -1259,6 +1291,15 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".connectivity.EthernetDetectionReceiver"
+            android:exported="false"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="com.android.settings.connectivity.ETHERNET_DETECTED"/>
             </intent-filter>
         </receiver>
 
@@ -1342,5 +1383,13 @@
         </receiver>
 
     </application>
+
+    <queries>
+        <intent>
+            <action android:name="com.google.android.tv.FIND_MY_REMOTE" />
+        </intent>
+    </queries>
+
+    <protected-broadcast android:name="com.android.tv.settings.display.HDR_SETTINGS_CHANGED" />
 
 </manifest>

@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"個人"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"連線至網路"</string>
     <string name="add_an_account" msgid="2601275122685226096">"新增帳戶"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"帳戶與登入"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"帳戶和個人資料"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"沒有任何帳戶"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# 個帳戶}other{# 個帳戶}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"媒體服務、Google 助理、付款功能"</string>
@@ -60,11 +60,13 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"隱私權"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"裝置設定"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"帳戶設定"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"裝置鎖定"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google 助理"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"付款與購買"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"應用程式設定"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"位置、使用狀況與診斷、廣告"</string>
     <string name="add_account" msgid="7386223854837017129">"新增帳戶"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"不明帳戶"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"移除帳戶"</string>
     <string name="account_sync" msgid="4315295293211313989">"選擇同步完成的應用程式"</string>
     <string name="sync_now" msgid="4335217984374620551">"立即同步處理"</string>
@@ -84,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"已連上乙太網路"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"未連上任何網路"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi 已關閉"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"如要使用 Wi-Fi，請拔除乙太網路線"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"一律可以掃描"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"允許 Google 的定位服務和其他應用程式掃描網路 (即使 Wi-Fi 已關閉)"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"一律可以掃描，允許 Google 的定位服務和其他應用程式掃描網路，即使 Wi-Fi 已關閉"</string>
@@ -112,8 +115,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"備份與還原"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"恢復原廠設定"</string>
     <string name="device_calibration" msgid="2907914144048739705">"校正"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"開關和電源"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"節能設定"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"關機計時器"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"設定計時器自動將電視關機，藉此節約用電"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"裝置"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"選取格式"</string>
@@ -151,11 +154,38 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"進階音效設定"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"允許遊戲模式"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"採用內容動態範圍"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"啟用這個選項後，系統會配合內容切換使用不同的動態範圍格式。請注意，切換格式時螢幕可能會顯示一片黑。\n\n如要查看更多動態範圍選項，請點選「進階顯示設定」。"</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"偏好的動態範圍"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"系統自動轉換"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"讓系統管理格式轉換作業"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"如果選取這個選項，系統會決定要傳送至螢幕的適當動態範圍，並視需要將內容轉換為該動態範圍。"</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"一律與內容的格式保持一致"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"強制轉換"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"強制轉換為你偏好的格式"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"強制轉換為你偏好的格式。如果強制進行轉換，顯示模式或高動態範圍格式的其他設定可能會受到影響。"</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"一律轉換為標準動態範圍格式"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"一律轉換為「<xliff:g id="HDR_TYPE">%s</xliff:g>」格式"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"要強制進行高動態範圍輸出作業嗎？"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"系統預設會強制轉換為「<xliff:g id="HDR_TYPE">%s</xliff:g>」格式。"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"你的螢幕將採用 1080p 60Hz 解析度。這個選項不支援採用 4K 60Hz 解析度的螢幕。"</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"目前的解析度不支援 Dolby Vision。如果你手動啟用 Dolby Vision，螢幕解析度將變更為 1080p 60Hz"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"要將解析度變更為 1080p 60Hz 嗎？"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"一律強制轉換成 Dolby Vision"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"當「進階顯示設定」&gt;「HDR 格式」中的 Dolby Vision 處於停用狀態時，如果強制轉換成 Dolby Vision，就會將其重新啟用。"</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"一律強制轉換成 HDR10"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"當「進階顯示設定」&gt;「HDR 格式」中的 HDR10 處於停用狀態時，如果強制轉換成 HDR10，就會將其重新啟用。"</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"一律強制轉換成 HLG"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"當「進階顯示設定」&gt;「HDR 格式」中的 HLG 處於停用狀態時，如果強制轉換成 HLG，就會重新將其啟用。"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"一律強制轉換成 HDR10+"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"當「進階顯示設定」&gt;「HDR 格式」中的 HDR10+ 處於停用狀態時，如果強制轉換成 HDR10+，就會將其重新啟用。"</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"一律強制轉換成 SDR"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"如果強制轉換成 SDR，「進階顯示設定」&gt;「HDR 格式」中的所有格式將遭到停用。"</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"採用內容影格速率"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"流暢轉換"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"只在可順暢轉換時變更影格速率"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"如果應用程式要求，而且你的電視支援流暢轉換，你的裝置就會依據所觀看內容的原始影格速率輸出畫面。"</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"你連接的螢幕不支援流暢切換刷新率。如果未改用支援的螢幕，這個選項就不會發揮作用。"</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"非流暢轉換"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"一律根據內容變更影格速率"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"如果應用程式要求，你的裝置會依據所觀看內容的原始影格速率輸出畫面。這可能會讓螢幕在影片開始或結束播放時，短暫出現空白畫面。"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"一律不採用"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"即使應用程式要求，你的裝置也絕不會依據所觀看內容的原始影格速率輸出畫面。"</string>
@@ -164,7 +194,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"範例文字"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"綠野仙蹤"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"第 11 章：奧茲國的翡翠城"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"即使配戴著綠色眼鏡保護雙眼，這座美麗城市閃耀的光芒還是令桃樂絲和她的朋友們目眩神迷。街道兩側佇立著以碧綠大理石建造的華美房屋，上頭鑲滿光彩奪目的翡翠。街道路面同樣是以碧綠大理石鋪砌而成，石板接合處嵌有一排排緊密相連的翡翠，在陽光的照耀下閃閃發亮。房屋窗面採用翠綠玻璃，襯著城市上方的淡綠天空，就連陽光也透出青綠色調。\n\n城內居民眾多，無論男女老幼全都穿著綠色衣物，甚至皮膚也帶有綠色光澤。他們充滿好奇地盯著桃樂絲和她那群外貌迥異的夥伴，只是孩子們一看到獅子便飛快躲到母親身後；然而，一直沒有任何人開口與他們交談。街道上的商店五花八門，桃樂絲發現這些商店兜售的商品，從糖果和爆米花到鞋子、帽子和各式衣物，全都是綠色的。有位小販賣著綠色檸檬汁，當小孩掏錢購買時，桃樂絲清楚看見錢幣也是綠色的。\n\n城裡似乎沒有馬匹或任何動物；居民們都是推著綠色小推車來搬運物品。每個人看起來都相當幸福且富足。"</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"即使戴上綠色眼鏡保護雙眼，這座美麗城市閃耀的光芒還是令桃樂絲和她的朋友們目眩神迷。街道兩側佇立著以碧綠大理石建造的華美房屋，上頭鑲滿光彩奪目的翡翠。街道路面同樣是以碧綠大理石鋪砌而成，石板接合處嵌有一排排緊密相連的翡翠，在陽光的照耀下閃閃發亮。房屋窗面採用翠綠玻璃，襯著城市上方的淡綠天空，就連陽光也透出青綠色調。\n\n城內居民眾多，無論男女老幼全都穿著綠色衣物，甚至皮膚也帶有綠色光澤。他們好奇地盯著桃樂絲和她那群外貌迥異的夥伴，只是孩子們一看到獅子便飛快躲到母親身後。然而，一直沒有任何人開口與他們交談。街道上的商店五花八門，桃樂絲發現這些商店兜售的商品，從糖果和爆米花到鞋子、帽子和各式衣物，全都是綠色的。有位小販賣著綠色檸檬汁，當小孩掏錢購買時，桃樂絲清楚看見錢幣也是綠色的。\n\n城裡似乎沒有馬匹或任何動物，居民都是推著綠色小推車來搬運物品。每個人看起來都相當幸福且富足。"</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"選取格式"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"自動"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"手動"</string>
@@ -191,11 +221,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"要將解析度變更為「%1$s」嗎？"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"選取 [確定] 就能立即使用 %1$s。"</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"「%1$s」不支援 Dolby Vision，因此 Dolby Vision 會在「進階顯示設定」中處於停用狀態"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"這個模式支援以下高動態範圍類型：%1$s。在某些電視上，你可能必須開啟增強型 HDMI，才能啟用更多高動態範圍格式。請查看電視設定，確認是否支援增強型 HDMI。"</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"這個模式支援：%1$s\n在某些電視上，你可能需要開啟增強型 HDMI，才能啟用更多高動態範圍格式。請查看電視設定，確認是否支援增強型 HDMI。"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"取消"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"確定"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"清除快取資料？"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"這項操作會清除所有應用程式的快取資料。"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -250,6 +280,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"已連線"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"連線已中斷"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"你沒有變更藍牙設定的權限。"</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"做為電視音訊輸出裝置"</string>
     <string name="send_feedback" msgid="936698637869795473">"提供意見"</string>
     <string name="launch_help" msgid="2607478763131952469">"說明中心"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -300,9 +331,9 @@
     <string name="enterprise_privacy_number_packages" msgid="6256222390430349008">"{count,plural, =1{# 個應用程式}other{# 個應用程式}}"</string>
     <string name="enterprise_privacy_input_method" msgid="5814752394251833058">"預設鍵盤"</string>
     <string name="enterprise_privacy_input_method_name" msgid="1088874503312671318">"已設為「<xliff:g id="APP_LABEL">%s</xliff:g>」"</string>
-    <string name="enterprise_privacy_always_on_vpn_device" msgid="8845550514448914237">"已開啟「永久連線的 VPN」"</string>
-    <string name="enterprise_privacy_always_on_vpn_personal" msgid="6996782365866442280">"已開啟你個人設定檔中的「永久連線的 VPN」"</string>
-    <string name="enterprise_privacy_always_on_vpn_work" msgid="3674119583050531071">"已開啟你工作資料夾中的「永久連線的 VPN」"</string>
+    <string name="enterprise_privacy_always_on_vpn_device" msgid="8845550514448914237">"已開啟「永久連線 VPN」"</string>
+    <string name="enterprise_privacy_always_on_vpn_personal" msgid="6996782365866442280">"已開啟你個人設定檔中的「永久連線 VPN」"</string>
+    <string name="enterprise_privacy_always_on_vpn_work" msgid="3674119583050531071">"已開啟你工作資料夾中的「永久連線 VPN」"</string>
     <string name="enterprise_privacy_global_http_proxy" msgid="2818848848337527780">"已設定全域 HTTP Proxy"</string>
     <string name="enterprise_privacy_ca_certs_device" msgid="975646846291012452">"信任的憑證"</string>
     <string name="enterprise_privacy_ca_certs_personal" msgid="7641368559306519707">"你的個人設定檔中安裝的信任的憑證"</string>
@@ -316,8 +347,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"這個裝置是由貴機構所管理。"</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"這個裝置是由 <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> 所管理。"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">"、"</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"瞭解詳情"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{相機應用程式}other{相機應用程式}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"日曆應用程式"</string>
@@ -340,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google 法律條款"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"無法提供授權資料"</string>
     <string name="about_model" msgid="9164284529291439296">"型號"</string>
+    <string name="device_mode" msgid="7258350575590118152">"裝置模式"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"商店展示模式"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV 作業系統版本"</string>
     <string name="about_serial" msgid="3432319328808745459">"序號"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV 作業系統版本"</string>
@@ -379,7 +411,7 @@
     <string name="status_bt_address" msgid="7190052214963950844">"藍牙位址"</string>
     <string name="status_up_time" msgid="1758102680983108313">"開機時間"</string>
     <string name="legal_information" msgid="1087445528481370874">"法律資訊"</string>
-    <string name="copyright_title" msgid="5879660711078649518">"版權"</string>
+    <string name="copyright_title" msgid="5879660711078649518">"著作權"</string>
     <string name="license_title" msgid="4032466200355435641">"授權"</string>
     <string name="terms_title" msgid="192888187310800678">"條款及細則"</string>
     <string name="webview_license_title" msgid="5370270485188947540">"System WebView 授權"</string>
@@ -407,6 +439,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"網際網路連線"</string>
     <string name="connected" msgid="4981532275162345997">"已連線"</string>
     <string name="not_connected" msgid="475810896484271663">"尚未連線"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"沒有網路連線"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"已儲存"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"密碼錯誤"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"Wi-Fi 密碼太短"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"必須登入"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"其他選項"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"全部顯示"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"顯示較少"</string>
@@ -673,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"啟用無障礙快速鍵"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"快速鍵服務"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"啟用這組快速鍵後，你只需同時按下返回和向下按鈕達 3 秒，就能開啟無障礙功能。"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"提示顯示時間"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"提示顯示時間 (無障礙功能逾時)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"顯示時間"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"部分應用程式不支援這個顯示時間設定值。"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"字幕"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"影片字幕文字重疊設定"</string>
     <string name="captions_display" msgid="2598662495450633375">"顯示"</string>
@@ -715,12 +756,12 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"啟用"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"設定"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"要使用<xliff:g id="SERVICE">%1$s</xliff:g>嗎？"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"「<xliff:g id="SERVICE">%1$s</xliff:g>」可收集您輸入的所有文字 (密碼除外)，包括信用卡號等個人資料。"</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"「<xliff:g id="SERVICE">%1$s</xliff:g>」將可讀出螢幕上的內容、在其他應用程式畫面上顯示內容、追蹤你與應用程式或硬體感應器的互動情形，以及代表你與應用程式互動。"</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"要停止<xliff:g id="SERVICE">%1$s</xliff:g>嗎？"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"如果您選取 [確定]，「<xliff:g id="SERVICE">%1$s</xliff:g>」將停止運作。"</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"文字轉語音"</string>
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"引擎設定"</string>
-    <string name="system_speak_passwords" msgid="8556036524146404052">"說出密碼"</string>
+    <string name="system_speak_passwords" msgid="8556036524146404052">"讀出密碼"</string>
     <string name="system_preferred_engine" msgid="3545505072652708443">"偏好的引擎"</string>
     <string name="system_speech_rate" msgid="6553204071403872669">"語音速率"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"播放範例"</string>
@@ -764,7 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"剖析 GPU 轉譯"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"啟用追蹤項目"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"不要保留活動"</string>
-    <string name="system_background_process_limit" msgid="1985373407150771045">"背景處理程序限制"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"背景程序限制"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"顯示所有無回應程式"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"停用休眠功能"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"僅用於 DRM 內容"</string>
@@ -874,6 +915,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"自訂限制"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"請稍候…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"變更 PIN 碼"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"要建立設有限制的個人資料嗎？"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"已經建立設有限制的個人資料"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"略過"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"設定 PIN 碼"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"要切換至設有限制的個人資料嗎？"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"找不到設有限制的個人資料"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"已經切換至設有限制的個人資料"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"這個應用程式可存取您的帳戶 (受到「<xliff:g id="APP">%1$s</xliff:g>」控制)。"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"輸入 PIN 即可觀看這個頻道"</string>
@@ -889,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"如要繼續，請選取 <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>。"</string>
     <string name="label_done_key" msgid="8576286462300373440">"完成"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"連線成功"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"儲存成功"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"版本 <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"開啟"</string>
@@ -934,9 +984,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"請確認是否要停用在播放媒體時關閉螢幕的設定，這麼做可能使耗電量增加。"</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"閒置時"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"觀看影視內容時"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"自動關閉電視"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"閒置時自動關閉電視"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"在播放媒體時自動關閉電視"</string>
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"自動關機"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"閒置時自動關機"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"觀看影視內容時自動關機"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"「閒置時」計時器設定的時間必須比「觀看影視內容時」計時器短"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"「觀看影視內容時」計時器設定的時間必須比「閒置時」計時器長"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"在待機模式下限制網路連線"</string>
@@ -967,8 +1017,8 @@
     <string name="custom_room" msgid="6798144004583173563">"輸入自訂名稱…"</string>
     <string name="device_rename_title" msgid="9070021379000499270">"重新命名這個 <xliff:g id="DEVICEMODEL">%1$s</xliff:g>"</string>
     <string name="device_rename_description" msgid="1973894029492915135">"這個 <xliff:g id="DEVICEMODEL">%1$s</xliff:g> 目前的名稱為「<xliff:g id="DEVICENAME">%2$s</xliff:g>」"</string>
-    <string name="device_name_suggestion_title" msgid="3986220212759193742">"設定你的裝置名稱"</string>
-    <string name="device_name_suggestion_summary" msgid="4582691399302362938">"為裝置命名，將相片、影片等內容從手機投放時即可使用此名稱投放"</string>
+    <string name="device_name_suggestion_title" msgid="3986220212759193742">"設定裝置名稱"</string>
+    <string name="device_name_suggestion_summary" msgid="4582691399302362938">"從手機投放相片、影片等內容時，即可使用此名稱"</string>
     <string name="change_setting" msgid="7211706374208138343">"變更"</string>
     <string name="keep_settings" msgid="703474489210093961">"不變更"</string>
     <string name="apps_permissions" msgid="7876407267050498394">"權限"</string>
@@ -986,8 +1036,8 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"管理鍵盤"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"允許"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"不允許"</string>
-    <string name="usage_access" msgid="8402350645248312782">"使用記錄存取權"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"具有使用記錄存取權的應用程式可以追蹤你使用的其他應用程式與頻率，以及你的電信業者、語言設定和其他詳細資料。"</string>
+    <string name="usage_access" msgid="8402350645248312782">"用量資料存取權"</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"具有使用存取權的應用程式可以追蹤你使用的其他應用程式與頻率，以及你的電信業者、語言設定等詳情。"</string>
     <string name="high_power_apps" msgid="5841073958519976562">"用電量最佳化"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"最佳化應用程式用電量"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"沒有任何應用程式需要最佳化"</string>
@@ -1036,10 +1086,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"用於錄音的麥克風"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"無法開始錄音。"</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"錄音失敗。"</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"數據節省模式"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"自動調整影片畫質，藉此降低行動數據用量"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"數據用量和快訊"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"你可以透過 Wi-Fi、乙太網路或手機的無線基地台連上網際網路。"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"要開放讓其他藍牙裝置偵測嗎？"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"應用程式要求開放 <xliff:g id="TIMEOUT">%1$d</xliff:g> 秒，讓其他藍牙裝置能偵測到你的電視。"</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1063,7 +1109,7 @@
     <string name="select_device_admin_msg" msgid="8475934459999710332">"裝置管理員應用程式"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"要啟用裝置管理員應用程式嗎？"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"啟用這個裝置管理員應用程式"</string>
-    <string name="device_admin_warning" msgid="7399916080685200660">"啟用這個管理員應用程式，將允許「<xliff:g id="APP_NAME">%1$s</xliff:g>」應用程式執行以下作業："</string>
+    <string name="device_admin_warning" msgid="7399916080685200660">"如果啟用這個管理員應用程式，將允許「<xliff:g id="APP_NAME">%1$s</xliff:g>」應用程式執行以下作業："</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"這個裝置將由「<xliff:g id="APP_NAME">%1$s</xliff:g>」管理及監控。"</string>
     <string name="device_admin_status" msgid="5467001937240455367">"這個管理員應用程式已啟用，且允許「<xliff:g id="APP_NAME">%1$s</xliff:g>」應用程式執行以下作業："</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"繼續這項動作，你的使用者將由管理員進行管理，該管理員也能儲存相關資料和你的個人資料。\n\n你的管理員可以監控並管理與這個使用者相關聯的設定、存取權、應用程式和資料，包括網路活動和裝置位置資訊。"</string>
@@ -1080,6 +1126,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"連線成功"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"全部顯示"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"搜尋中"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"無法從驗證器擷取帳戶新增意圖。"</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"無法新增帳戶或者系統不支援該帳戶類型。"</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"頻道和輸入來源"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"頻道、外部輸入來源"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"頻道"</string>
@@ -1091,5 +1139,19 @@
     <string name="power_and_energy" msgid="4638182439670702556">"開關和電源"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"開機行為"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"重設"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"電視"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"乙太網路配對碼"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"耗電模式"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"裝置在未使用時會受到這些設定影響"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"啟用以下功能："</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"視你啟用的電視功能數量而定，耗電量可能會增加。"</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"啟用「<xliff:g id="ENERGYMODENAME">%s</xliff:g>」"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"尋找我的遙控器"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"讓忘記放在何處的 Google TV 遙控器發出音效，以便找出裝置"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV 有一個按鈕，按下即可讓遙控器播放音效 30 秒。這項功能僅適用於支援的 Google TV 遙控器。\n\n如要停止播放音效，請按下遙控器上的任一按鈕。"</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"啟用「尋找我的遙控器」後，你可以讓忘記放在何處的 Google TV 遙控器發出音效，以便找出裝置。"</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"播放音效"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"「%1$s」的音量"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"你可以控制「%1$s」揚聲器的 Google 助理音量"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"只會影響「%1$s」裝置的音量，電視不會受到影響"</string>
 </resources>

@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"شخصی"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"اتصال به شبکه"</string>
     <string name="add_an_account" msgid="2601275122685226096">"افزودن حساب"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"حساب‌ها و ورود به سیستم"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"حساب‌ها و نمایه‌ها"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"هیچ حسابی وجود ندارد"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# حساب}one{# حساب}other{# حساب}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"سرویس‌های رسانه‌ای، «دستیار»، «پرداخت‌ها»"</string>
@@ -60,11 +60,13 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"حریم خصوصی"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"تنظیمات دستگاه"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"تنظیمات حساب"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"قفل دستگاه"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"دستیار Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"پرداخت و خرید"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"تنظیمات برنامه"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"مکان، استفاده و عیب‌یابی، آگهی‌ها"</string>
     <string name="add_account" msgid="7386223854837017129">"افزودن حساب"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"حساب نامشخص"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"حذف کردن حساب"</string>
     <string name="account_sync" msgid="4315295293211313989">"انتخاب برنامه‌های همگام‌ شده"</string>
     <string name="sync_now" msgid="4335217984374620551">"اکنون همگام‌سازی شود"</string>
@@ -84,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"اترنت متصل است"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"هیچ شبکه‌ای متصل نیست"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi خاموش است"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"برای استفاده از Wi-Fi، اتصال اترنت را قطع کنید"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"اسکن کردن همیشه موجود باشد"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"به سرویس مکان Google و دیگر برنامه‌ها اجازه داده شود حتی زمانی‌که Wi-Fi خاموش است، شبکه‌ها را اسکن کنند"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"اسکن کردن همیشه موجود باشد؛ به سرویس مکان Google و دیگر برنامه‌ها اجازه داده می‌شود حتی زمانی‌که Wi-Fi خاموش است، شبکه‌ها را اسکن کنند"</string>
@@ -92,7 +95,7 @@
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"عیب‌یابی شبکه"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"برنامه‌های اخیراً بازشده"</string>
     <string name="apps_see_all_apps" msgid="2002886135933443688">"مشاهده همه برنامه‌ها"</string>
-    <string name="apps_permissions_category_title" msgid="8099660060701465267">"مجوزها"</string>
+    <string name="apps_permissions_category_title" msgid="8099660060701465267">"اجازه‌ها"</string>
     <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
     <string name="update_slice_title" msgid="6553763903108611747"></string>
     <string name="all_apps_title" msgid="3717294436135280133">"همه برنامه‌ها"</string>
@@ -112,8 +115,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"پشتیبان‌گیری و بازیابی"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"بازنشانی داده‌های کارخانه"</string>
     <string name="device_calibration" msgid="2907914144048739705">"کالیبراسیون"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"برق و انرژی"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"تنظیمات بوم‌مصرف"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"زمان‌سنج خاموش شدن"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"تنظیم زمان‌سنج برای خاموش کردن تلویزیون و صرفه‌جویی در مصرف انرژی"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"دستگاه‌ها"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"انتخاب قالب"</string>
@@ -128,10 +131,10 @@
     <string name="surround_sound_format_e_ac3_joc" msgid="3360344066462262996">"Dolby Atmos به‌همراه Dolby Digital Plus"</string>
     <string name="surround_sound_format_dra" msgid="6102878163986662443">"DRA"</string>
     <string name="surround_sound_auto_info" msgid="4829346839183591680">"توجه: اگر دستگاه قالب‌هایی را که پشتیبانی می‌کند به‌درستی گزارش نکند، شاید گزینه «خودکار» عمل نکند."</string>
-    <string name="surround_sound_auto_title" msgid="4892922385727913277">"خودکار: فقط قالب‌هایی که دستگاه خروجی صدا از آن‌ها پشتیبانی می‌کند فعال شود "</string>
+    <string name="surround_sound_auto_title" msgid="4892922385727913277">"خودکار: فقط قالب‌هایی که دستگاه خروجی صوتی از آن‌ها پشتیبانی می‌کند فعال شود "</string>
     <string name="surround_sound_auto_summary" msgid="7073023654150720285">"درصورت انتخاب، سیستم به برنامه‌ها اجازه می‌دهد هر قالب صدایی را که در زنجیره دستگاهتان پشتیبانی می‌شود انتخاب کنند. برنامه‌ها ممکن است قالبی را انتخاب کنند که بالاترین کیفیت را نداشته باشد."</string>
     <string name="surround_sound_none_title" msgid="1600095173519889326">"هیچ‌کدام: هرگز از صدای فراگیر استفاده نکنید"</string>
-    <string name="surround_sound_manual_title" msgid="4935447605070985537">"دستی: قالب‌هایی که این دستگاه از آن‌ها پشتیبانی می‌کند به‌صورت انتخابی فعال یا غیرفعال شود، بدون درنظر گرفتن اینکه دستگاه خروجی صدا از چه قالبی پشتیبانی می‌کند."</string>
+    <string name="surround_sound_manual_title" msgid="4935447605070985537">"دستی: قالب‌هایی که این دستگاه از آن‌ها پشتیبانی می‌کند به‌صورت انتخابی فعال یا غیرفعال شود، بدون درنظر گرفتن اینکه دستگاه خروجی صوتی از چه قالبی پشتیبانی می‌کند."</string>
     <string name="surround_sound_manual_summary" msgid="5155535847461070572">"درصورت انتخاب، می‌توانید قالب‌های صدایی را که در زنجیره دستگاهتان پشتیبانی می‌شود اما باعث بروز مشکلات بازپخش می‌شود دستی غیرفعال کنید. می‌توانید قالب‌های صدایی را که در زنجیره دستگاهتان پشتیبانی نمی‌شود فعال کنید. دربرخی موارد، ممکن است برنامه‌ها قالبی را انتخاب کنند که باکیفیت‌ترین نباشد."</string>
     <string name="surround_sound_enable_unsupported_dialog_title" msgid="9155579373370356463">"قالب صدای پشتیبانی‌نشده فعال شود؟"</string>
     <string name="surround_sound_enable_unsupported_dialog_desc" msgid="1901648758103522741">"دستگاه صوتی متصل شما پشتیبانی از این قالب را گزارش نکرده است. این کار ممکن است باعث عملکردهای غیرمنتظره (مثل صداهای بلند یا نمایان شدن بالاپر) در دستگاه شود."</string>
@@ -151,11 +154,38 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"تنظیمات پیشرفته صدا"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"مجاز کردن حالت بازی"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"مطابقت دادن دامنه پویای محتوا"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"هنگام فعال کردن این گزینه، سیستم بین قالب‌های مختلف دامنه پویا جابه‌جا می‌شود تا با محتوا مطابقت پیدا کند. به‌همین دلیل ممکن است درطول تغییر قالب، صفحه سیاهی ببینید.\n\nبرای گزینه‌های دامنه پویای بیشتر، روی «تنظیمات پیشرفته نمایشگر» کلیک کنید."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"دامنه پویای ترجیحی"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"تبدیل ترجیحی سیستم"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"به سیستم اجازه داده می‌شود تبدیل قالب را مدیریت کند"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"وقتی این گزینه انتخاب شود، سیستم دامنه پویای مناسبی را برای ارسال به صفحه‌نمایش شما تعیین می‌کند و درصورت نیاز محتوا را به این دامنه پویا تبدیل می‌کند."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"همیشه با قالب محتوا مطابقت دارد"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"تبدیل اجباری"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"تبدیل به قالب ترجیحی را اجباری می‌کند"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"تبدیل به قالب ترجیحی را اجباری می‌کند. تبدیل اجباری ممکن است بر دیگر تنظیمات در «حالت نمایش» یا «قالب HDR» تأثیر بگذارد."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"همیشه به SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"همیشه به <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"آیا می‌خواهید خروجی HDR را اجباری کنید؟"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"به‌طور پیش‌فرض، تبدیل به‌صورت اجباری به <xliff:g id="HDR_TYPE">%s</xliff:g> انجام می‌شود."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"صفحه‌نمایش شما با وضوح ۱۰۸۰ پیکسل و ۶۰ هرتز کار می‌کند. وقتی صفحه‌نمایش شما با وضوح 4K و ۶۰ هرتز کار می‌کند، این گزینه با آن سازگار نیست."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"در این وضوح از Dolby Vision پشتیبانی نمی‌شود. اگر Dolby Vision را به‌صورت دستی فعال کنید، وضوح نمایشگر به ۱۰۸۰ پیکسل ۶۰ هرتز تغییر خواهد کرد"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"وضوح به ۱۰۸۰ پیکسل ۶۰ هرتز تغییر کند؟"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"همیشه تبدیل به Dolby Vision به‌طور اجباری انجام شود"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"اگر Dolby Vision در «قالب‌های HDR» در «تنظیمات پیشرفته نمایشگر» غیرفعال شده باشد، تبدیل اجباری به Dolby Vision باعث می‌شود این تنظیم مجدداً فعال شود."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"همیشه تبدیل به HDR10 به‌طور اجباری انجام شود"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"اگر HDR10 در «قالب‌های HDR» در «تنظیمات پیشرفته نمایشگر» غیرفعال شده باشد، تبدیل اجباری به HDR10 باعث می‌شود این تنظیم مجدداً فعال شود."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"همیشه تبدیل به HLG به‌طور اجباری انجام شود"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"اگر HLG در «قالب‌های HDR» در «تنظیمات پیشرفته نمایشگر» غیرفعال شده باشد، تبدیل اجباری به HLG باعث می‌شود این تنظیم مجدداً فعال شود."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"همیشه تبدیل به HDR10+‎ به‌طور اجباری انجام شود"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"اگر HDR10+‎ در «قالب‌های HDR» در «تنظیمات پیشرفته نمایشگر» غیرفعال شده باشد، تبدیل اجباری به HDR10+‎ باعث می‌شود این تنظیم مجدداً فعال شود."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"همیشه تبدیل به SDR به‌طور اجباری انجام شود"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"تبدیل اجباری به SDR باعث می‌شود همه قالب‌ها در «قالب‌های HDR» در «تنظیمات پیشرفته نمایشگر» غیرفعال شود."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"مطابقت دادن نرخ فریم محتوا"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"یکپارچه"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"فقط یکپارچه"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"اگر برنامه درخواست کند، تنها درصورتی‌که تلویزیونتان بتواند انتقال یکپارچه را اجرا کند، دستگاهتان خروجی‌اش را با نرخ فریم اصلی محتوایی که تماشا می‌کنید هماهنگ خواهد کرد."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"نمایشگر متصل از انتقال نرخ بازآوری یکپارچه پشتیبانی نمی‌کند. این گزینه تأثیری نخواهد داشت، مگراینکه از نمایشگری که از این ویژگی پشتیبانی می‌کند استفاده کنید."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"غیریکپارچه"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"همیشه"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"اگر برنامه درخواست کند، دستگاهتان خروجی‌اش را با نرخ فریم اصلی محتوایی که تماشا می‌کنید هماهنگ خواهد کرد. در چنین شرایطی، وقتی از بازپخش ویدیو خارج می‌شوید یا به آن وارد می‌شود، ممکن است صفحه‌تان لحظه‌ای خالی شود."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"هرگز"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"حتی اگر برنامه درخواست کند، دستگاهتان هیچ‌گاه خروجی‌اش را با نرخ فریم اصلی محتوایی که تماشا می‌کنید هماهنگ نخواهد کرد."</string>
@@ -164,7 +194,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"نوشتار نمونه"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"جادوگر شهر اوز"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"فصل ۱۱: شهر زمردی شگفت‌انگیز اوز"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"با وجودی که دورتی و دوستانش عینک‌هایی سبز به چشم داشتند چشمانشان در اولین نگاه از درخشندگی این شهر فوق‌العاده خیره شد. خیابان‌ها با ردیف خانه‌هایی که همه از مرمر سبز ساخته شده بودند و در همه جای آن با زمردهای درخشنده تزئین شده بود می‌درخشید. آن‌ها در پیاده‌رویی از همان مرمر سبز راه می‌رفتند و سنگفرش‌های پیاده‌رو با ردیف‌های زمردی که نزدیک به هم قرار گرفته بودند و در نور خورشید می‌درخشیدند به هم پیوسته بود. قاب‌های پنجره‌ها از شیشه سبز بود؛ حتی آسمان بالای شهر رنگ‌مایه سبز داشت و اشعه خورشید سبزرنگ بود. \n\nمردم زیادی از مرد و زن و بچه در اطراف راه می‌رفتند که همه لباس‌های سبزی پوشیده بودند و پوست بدنشان ته رنگ سبزی داشت. آن‌ها به دوروتی و دوستان عجیبش با تعجب نگاه می‌کردند. بچه‌ها به‌محض دیدن شیر همه فرار کردند و پشت سر مادرانشان پنهان شدند؛ اما هیچ‌کس با آن‌ها صحبت نکرد. تعداد زیادی مغازه در خیابان بود و دوروتی متوجه شد که همه‌چیز در این مغازه‌ها به رنگ سبز است. آبنبات سبز و پف فیل سبز برای فروش گذاشته شده بود، همین‌طور همه مدل کفش، کلاه و لباس که همه به رنگ سبز بودند. در جایی مردی لیموناد سبز می‌فروخت و وقتی بچه‌ها از او خرید می‌کردند دوروتی دید که پول آن را با سکه‌هایی سبزرنگ پرداختند. \n\nبه‌نظر می‌رسید که اسب یا حیوان دیگری در آنجا نیست؛ مردها چیزها را با گاری‌های کوچک سبزی به این طرف و آن طرف حمل می‌کردند و گاری را در جلوشان هل می‌دادند. به‌نظر می‌رسید همه شاد و راضی و مرفه بودند."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"با وجودی که دوروتی و دوستانش عینک‌هایی سبز به چشم داشتند، باز هم چشمانشان در اولین نگاه از درخشندگی این شهر فوق‌العاده خیره مانده بود. خیابان‌ها با ردیف خانه‌هایی که همه از مرمر سبز ساخته شده بودند و همه جای آن‌ها با زمردهای درخشنده تزیین شده بود می‌درخشید. آن‌ها در پیاده‌رویی از همان مرمر سبز راه می‌رفتند و سنگفرش‌های پیاده‌رو با ردیف‌های زمردی که نزدیک به هم قرار گرفته بودند و در نور خورشید می‌درخشیدند به هم پیوسته بود. قاب پنجره‌ها از شیشه سبز بود؛ حتی آسمان بالای شهر رنگ‌مایه سبز داشت و اشعه‌های خورشید سبزرنگ بود. \n\nمردم زیادی از مرد و زن و بچه در آن اطراف راه می‌رفتند که همه لباس‌های سبزی پوشیده بودند و پوست بدنشان ته‌رنگ سبز داشت. آن‌ها به دوروتی و دوستان عجیبش با تعجب نگاه می‌کردند. بچه‌ها به‌محض دیدن شیر همه فرار کردند و پشت سر مادرانشان پنهان شدند؛ اما هیچ‌کس با آن‌ها صحبت نکرد. تعداد زیادی مغازه در خیابان بود و دوروتی متوجه شد که همه‌چیز در این مغازه‌ها به رنگ سبز است. آبنبات سبز و پف فیل سبز برای فروش گذاشته شده بود، همین‌طور همه مدل کفش، کلاه، و لباس که همه به رنگ سبز بودند. در جایی مردی لیموناد سبز می‌فروخت و وقتی بچه‌ها از او خرید می‌کردند دوروتی دید که پول آن را با سکه‌هایی سبزرنگ می‌پردازند. \n\nبه‌نظر می‌رسید که اسب یا حیوان دیگری در آنجا نیست؛ مردها چیزها را با گاری‌های کوچک سبزی به این طرف و آن طرف حمل می‌کردند و گاری را در جلوشان هل می‌دادند. به‌نظر می‌رسید همه شاد و راضی و مرفه هستند."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"انتخاب قالب‌بندی"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"خودکار"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"دستی"</string>
@@ -190,17 +220,17 @@
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"وضوح تغییر کرده است"</string>
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"وضوح به %1$s تغییر کند؟"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"«تأیید» را انتخاب کنید تا ازاین‌پس از %1$s استفاده شود."</string>
-    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision در %1$s پشتیبانی نمی‌شود و در «تنظیمات پیشرفته نمایشگر» غیرفعال می‌شود."</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"این حالت از %1$s پشتیبانی می‌کند. در برخی‌از تلویزیون‌ها ممکن است نیاز باشد HDMI بهبودیافته را روشن کنید تا قالب‌های HDR بیشتری فعال شود. تنظیمات تلویزیون را بررسی کنید تا ببینید این مورد پشتیبانی می‌شود یا نه."</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"‫Dolby Vision در %1$s پشتیبانی نمی‌شود و در «تنظیمات پیشرفته نمایشگر» غیرفعال می‌شود."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"این حالت از این موارد پشتیبانی می‌کند: %1$s\nدر برخی‌از تلویزیون‌ها، باید «HDMI بهبودیافته» را روشن کنید تا قالب‌های HDR بیشتری فعال شود. تنظیمات تلویزیون را بررسی کنید تا ببینید این مورد پشتیبانی می‌شود یا نه."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"لغو"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"تأیید"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"هرتز"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> هرتز)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> هرتز)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"اطلاعات در حافظه پنهان پاک شود؟"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"اطلاعات در حافظه پنهان همه برنامه‌ها پاک می‌شود."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"افزودن وسیله جانبی"</string>
-    <string name="accessory_state_pairing" msgid="15908899628218319">"در حال مرتبط‌سازی..."</string>
+    <string name="accessory_state_pairing" msgid="15908899628218319">"درحال جفت کردن..."</string>
     <string name="accessory_state_connecting" msgid="6560241025917621212">"در حال اتصال..."</string>
     <string name="accessory_state_error" msgid="8353621828816824428">"مرتبط‌سازی انجام نشد"</string>
     <string name="accessory_state_canceled" msgid="4794837663402063770">"لغو شد"</string>
@@ -208,13 +238,13 @@
     <string name="accessory_options" msgid="774592782382321681">"وسیله جانبی"</string>
     <string name="accessory_unpair" msgid="2473411128146068804">"لغو مرتبط‌سازی"</string>
     <string name="accessory_battery" msgid="2283700366184703548">"باتری ٪٪<xliff:g id="PERCENTAGE">%1$d</xliff:g>"</string>
-    <string name="accessory_unpairing" msgid="2529195578082286563">"‫در حال لغو مرتبط‌سازی دستگاه..."</string>
+    <string name="accessory_unpairing" msgid="2529195578082286563">"‫در حال لغو جفت کردن دستگاه..."</string>
     <string name="accessory_connected" msgid="5229574480869175180">"متصل"</string>
     <string name="accessory_change_name" msgid="6493717176878500683">"تغییر نام"</string>
     <string name="accessory_change_name_title" msgid="451188562035392238">"نام جدیدی برای این وسیله جانبی وارد کنید"</string>
     <string name="accessories_add_accessibility_title" msgid="1300294413423909579">"مرتبط‌سازی بلوتوث."</string>
     <string name="accessories_add_title" msgid="7704824893011194433">"در حال جستجوی لوازم جانبی…"</string>
-    <string name="accessories_add_bluetooth_inst" msgid="2508151218328384366">"قبل از مرتبط کردن دستگاه‌های بلوتوث، مطمئن شوید در حالت مرتبط‌سازی باشند."</string>
+    <string name="accessories_add_bluetooth_inst" msgid="2508151218328384366">"قبل از جفت کردن دستگاه‌های بلوتوث، مطمئن شوید در حالت مرتبط‌سازی باشند."</string>
     <string name="accessories_autopair_msg" msgid="2501824457418285019">"دستگاهی یافت شد و به‌طور خودکار بعد از <xliff:g id="COUNTDOWN">%1$s</xliff:g> ثانیه مرتبط می‌شود"</string>
     <string name="error_action_not_supported" msgid="5377532621386080296">"این عملکرد پشتیبانی نمی‌شود"</string>
     <string name="bluetooth_pairing_request" msgid="6120176967230348092">"درخواست مرتبط‌سازی با بلوتوث"</string>
@@ -250,6 +280,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"متصل"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"متصل نیست"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"اجازه ندارید تنظیمات بلوتوث را تغییر دهید."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"استفاده برای صدای تلویزیون"</string>
     <string name="send_feedback" msgid="936698637869795473">"ارسال بازخورد"</string>
     <string name="launch_help" msgid="2607478763131952469">"مرکز راهنمایی"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -316,8 +347,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"این دستگاه را سازمانتان مدیریت می‌کند."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"این دستگاه توسط <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> مدیریت می‌شود."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">"،"</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"بیشتر بدانید"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{برنامه دوربین}one{برنامه دوربین}other{برنامه‌های دوربین}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"برنامه تقویم"</string>
@@ -340,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"شرایط حقوقی Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"داده مجوز در دسترس نیست"</string>
     <string name="about_model" msgid="9164284529291439296">"مدل"</string>
+    <string name="device_mode" msgid="7258350575590118152">"حالت دستگاه"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"نسخه نمایشی فروشگاه"</string>
     <string name="about_version" msgid="6223547403835399861">"نسخه «سیستم‌عامل Android TV»"</string>
     <string name="about_serial" msgid="3432319328808745459">"شماره سریال"</string>
     <string name="about_build" msgid="8467840394761634575">"ساخت «سیستم‌عامل Android TV»"</string>
@@ -407,6 +439,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"اتصال اینترنت"</string>
     <string name="connected" msgid="4981532275162345997">"متصل"</string>
     <string name="not_connected" msgid="475810896484271663">"متصل نیست"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"اتصال اینترنت وجود ندارد"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"ذخیره‌شده"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"گذرواژه اشتباه است"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"گذرواژه Wi-Fi خیلی کوتاه است"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"ورود به سیستم الزامی است"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"گزینه‌های دیگر"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"مشاهده همه"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"مشاهده موارد کمتر"</string>
@@ -673,8 +710,12 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"فعال کردن میان‌بر دسترس‌پذیری"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"سرویس میان‌بر"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"وقتی میان‌بر روشن است، اگر دکمه‌های برگشت و پایین را با هم فشار دهید و ۳ ثانیه نگه دارید ویژگی دسترس‌پذیری شروع خواهد شد."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"زمان اقدام کردن"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"زمان اقدام کردن (درنگ دسترس‌پذیری)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"زمانبندی"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"اولویت زمان‌بندی در همه برنامه‌ها پشتیبانی نمی‌شود."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"زیرنویس"</string>
-    <string name="accessibility_captions_description" msgid="3827820027578548160">"تنظیمات وضعیت متن زیرنویس روی ویدئو"</string>
+    <string name="accessibility_captions_description" msgid="3827820027578548160">"تنظیمات وضعیت متن زیرنویس روی ویدیو"</string>
     <string name="captions_display" msgid="2598662495450633375">"نمایش"</string>
     <string name="captions_display_on" msgid="480438033345455728">"روشن"</string>
     <string name="captions_display_off" msgid="87881163874948539">"خاموش"</string>
@@ -715,14 +756,14 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"فعال کردن"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"پیکربندی"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"از <xliff:g id="SERVICE">%1$s</xliff:g> استفاده شود؟"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> می‌تواند همه متنی را که تایپ می‌کنید، به‌غیراز گذرواژه، جمع‌آوری کند. این متن شامل داده‌های شخصی مانند شماره کارت‌‌های اعتباری نیز می‌شود."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> می‌تواند صفحه را بخواند، محتوا را روی برنامه‌های دیگر به‌نمایش بگذارد، تعامل‌های شما با برنامه‌ها یا حسگرهای سخت‌افزاری را پیگیری کند، و ازجانب شما با برنامه‌ها تعامل داشته باشد."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"<xliff:g id="SERVICE">%1$s</xliff:g> متوقف شود؟"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"‫با انتخاب تأیید، <xliff:g id="SERVICE">%1$s</xliff:g> متوقف می‌شود."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"نوشتار به گفتار"</string>
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"پیکربندی موتور"</string>
     <string name="system_speak_passwords" msgid="8556036524146404052">"خواندن گذرواژه‌‎ها"</string>
     <string name="system_preferred_engine" msgid="3545505072652708443">"موتور ترجیحی"</string>
-    <string name="system_speech_rate" msgid="6553204071403872669">"نرخ گفتار"</string>
+    <string name="system_speech_rate" msgid="6553204071403872669">"سرعت گفتار"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"پخش نمونه"</string>
     <string name="system_install_voice_data" msgid="8016395777968958673">"نصب داده‌های صوتی"</string>
     <string name="system_general" msgid="687760148454147771">"عمومی"</string>
@@ -748,8 +789,8 @@
     <string name="system_wait_for_debugger" msgid="5715878008542589060">"منتظر اشکال‌زدا"</string>
     <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"تأیید برنامه‌ها ازطریق USB"</string>
     <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"‫بررسی برنامه‌های نصب شده از طریق ADB/ADT از نظر رفتار مضر"</string>
-    <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"گزارش‌گیری طولانی Wi‑Fi"</string>
-    <string name="system_desc_wifi_verbose_logging" msgid="3537578245428327314">"فعال کردن گزارش‌گیری طولانی Wi‑Fi"</string>
+    <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"گزارش‌گیری مفصل Wi‑Fi"</string>
+    <string name="system_desc_wifi_verbose_logging" msgid="3537578245428327314">"فعال کردن گزارش‌گیری مفصل Wi‑Fi"</string>
     <string name="system_show_touches" msgid="8244331695139748286">"نمایش تعداد لمسها"</string>
     <string name="system_pointer_location" msgid="8724050865245555084">"محل اشاره‌گر"</string>
     <string name="system_show_layout_bounds" msgid="8803080672553699649">"نمایش محدوده‌های طرح‌بندی"</string>
@@ -782,7 +823,7 @@
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"منابع ناشناس"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"اجازه نصب برنامه‌ها از منابعی غیر از فروشگاه Play"</string>
     <string name="security_unknown_sources_confirm_title" msgid="4600896691987804985">"اجازه به منابع ناشناس"</string>
-    <string name="security_unknown_sources_confirm_desc" msgid="7883820068140189584">"دستگاه و داده‌های شخصی‌تان در برابر حمله برنامه‌هایی با منابع ناشناس بیشتر آسیب‌پذیرند. شما می‌پذیرید که مسئولیت انحصاری هرگونه آسیب به دستگاه یا ازبین رفتن داده دراثر استفاده از این برنامه‌ها با خودتان است."</string>
+    <string name="security_unknown_sources_confirm_desc" msgid="7883820068140189584">"دستگاه و داده‌های شخصی‌تان دربرابر حمله برنامه‌هایی با منابع ناشناس بیشتر آسیب‌پذیرند. شما می‌پذیرید که مسئولیت انحصاری هرگونه آسیب به دستگاه یا ازبین رفتن داده دراثر استفاده از این برنامه‌ها با خودتان است."</string>
     <string name="system_hdcp_checking_never" msgid="3251512398865365135">"هیچ‌وقت"</string>
     <string name="system_hdcp_checking_drm" msgid="2159124883496899278">"برای محتوای DRM"</string>
     <string name="system_hdcp_checking_always" msgid="5868177105455148262">"همیشه"</string>
@@ -870,10 +911,17 @@
     <string name="restricted_profile_configure_title" msgid="3327502517511010296">"تنظیمات"</string>
     <string name="restricted_profile_configure_apps_title" msgid="2244201859522056827">"برنامه‌های مجاز شده"</string>
     <string name="restricted_profile_allowed" msgid="970921490464867884">"مجاز شد"</string>
-    <string name="restricted_profile_not_allowed" msgid="8184983064118036268">"مجاز نیست"</string>
+    <string name="restricted_profile_not_allowed" msgid="8184983064118036268">"مجاز نبودن"</string>
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"سفارشی کردن محدودیت‌ها"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"یک لحظه..."</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"تغییر پین"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"نمایه محدودشده ایجاد شود؟"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"قبلاً ایجاد شده است"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"رد شدن"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"ایجاد پین"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"به نمایه محدودشده وارد شوید؟"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"نمایه محدودشده‌ای وجود ندارد"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"قبلاً وارد شده است"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"این برنامه می‌تواند به حساب‌های شما دسترسی داشته باشد. تحت کنترل <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"برای مشاهده این کانال، پین را وارد کنید"</string>
@@ -889,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"برای ادامه، <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> را انتخاب کنید."</string>
     <string name="label_done_key" msgid="8576286462300373440">"تمام"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"با موفقیت متصل شد"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"با موفقیت ذخیره شد"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"نسخه <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"باز کردن"</string>
@@ -911,7 +961,7 @@
     <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"پاک کردن حافظه پنهان"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"اعلان‌ها"</string>
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"منبع شخص ثالث"</string>
-    <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"مجوزها"</string>
+    <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"اجازه‌ها"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"برنامه دردسترس نیست"</string>
     <string name="unused_apps" msgid="5539166745483454543">"برنامه‌های استفاده‌نشده"</string>
     <string name="settings_ok" msgid="5950888975075541964">"تأیید"</string>
@@ -934,9 +984,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"لطفاً تأیید کنید که نمایشگر درحین تماشا خاموش نشود؛ این کار احتمال افزایش مصرف انرژی را همراه دارد."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"هنگام عدم فعالیت"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"هنگام تماشا"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"خاموش شدن خودکار تلویزیون"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"خاموش شدن خودکار تلویزیون هنگام غیرفعال بودن"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"خاموش شدن خودکار تلویزیون هنگام تماشا"</string>
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"خاموش شدن خودکار"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"هنگام عدم فعالیت به‌طور خودکار خاموش شود"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"هنگام تماشا به‌طور خودکار خاموش شود"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"زمان‌سنج «هنگام عدم فعالیت» باید کوتاه‌تر از زمان‌سنج «هنگام تماشا» باشد"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"زمان‌سنج «هنگام تماشا» باید طولانی‌تر از زمان‌سنج «هنگام عدم فعالیت» باشد"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"محدود کردن شبکه در حالت آماده‌به‌کار"</string>
@@ -968,24 +1018,24 @@
     <string name="device_rename_title" msgid="9070021379000499270">"تغییر نام این <xliff:g id="DEVICEMODEL">%1$s</xliff:g>"</string>
     <string name="device_rename_description" msgid="1973894029492915135">"نام فعلی این <xliff:g id="DEVICEMODEL">%1$s</xliff:g>،‏ «<xliff:g id="DEVICENAME">%2$s</xliff:g>» است."</string>
     <string name="device_name_suggestion_title" msgid="3986220212759193742">"تنظیم نام دستگاه"</string>
-    <string name="device_name_suggestion_summary" msgid="4582691399302362938">"هنگام ارسال عکس، ویدیو و محتوایی دیگر از تلفنتان، از این نام استفاده کنید"</string>
+    <string name="device_name_suggestion_summary" msgid="4582691399302362938">"هنگام ارسال عکس، ویدیو و سایر محتواها از تلفنتان، از این نام استفاده کنید"</string>
     <string name="change_setting" msgid="7211706374208138343">"تغییر داده شود"</string>
     <string name="keep_settings" msgid="703474489210093961">"تغییر داده نشود"</string>
-    <string name="apps_permissions" msgid="7876407267050498394">"مجوزها"</string>
+    <string name="apps_permissions" msgid="7876407267050498394">"اجازه‌ها"</string>
     <string name="device_apps_permissions" msgid="8421323706003063878">"اجازه‌های برنامه"</string>
     <string name="app_permissions_group_summary" msgid="6818210080117761117">"<xliff:g id="COUNT_0">%1$d</xliff:g> از <xliff:g id="COUNT_1">%2$d</xliff:g> برنامه‌های مجاز"</string>
-    <string name="bluetooth_permission_request" msgid="7788089036741496993">"درخواست مجوز بلوتوث"</string>
+    <string name="bluetooth_permission_request" msgid="7788089036741496993">"درخواست اجازه بلوتوث"</string>
     <string name="security_patch" msgid="8924741264829495392">"سطح وصله امنیتی «سیستم‌عامل Android TV»"</string>
     <string name="choose_application" msgid="2375936782103669988">"انتخاب برنامه"</string>
     <string name="experimental_preference" msgid="3982593252210557436">"(آزمایشی)"</string>
-    <string name="reboot_safemode_action" msgid="2862127510492131128">"راه‌اندازی مجدد در حالت ایمن"</string>
-    <string name="reboot_safemode_confirm" msgid="5745977150299953603">"می‌خواهید در حالت ایمن راه‌اندازی مجدد کنید؟‌"</string>
-    <string name="reboot_safemode_desc" msgid="2919933461408942799">"با این کار همه برنامه‌های شخص ثالثی که نصب کرده‌اید غیرفعال می‌شود. با راه‌اندازی مجدد سیستم، این برنامه‌ها دوباره بازیابی می‌شوند."</string>
+    <string name="reboot_safemode_action" msgid="2862127510492131128">"بازراه‌اندازی به حالت ایمن"</string>
+    <string name="reboot_safemode_confirm" msgid="5745977150299953603">"می‌خواهید به حالت ایمن بازراه‌اندازی کنید؟‌"</string>
+    <string name="reboot_safemode_desc" msgid="2919933461408942799">"با این کار همه برنامه‌های شخص ثالثی که نصب کرده‌اید غیرفعال می‌شود. با بازراه‌اندازی سیستم، این برنامه‌ها دوباره بازیابی می‌شوند."</string>
     <string name="capturing_bugreport" msgid="832512801903486821">"درحال ثبت گزارش اشکال"</string>
     <string name="available_virtual_keyboard_category" msgid="7445262027711560629">"صفحه‌کلیدهای مجازی در دسترس"</string>
     <string name="manage_keyboards" msgid="7983890675377321912">"مدیریت صفحه‌کلیدها"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"مجاز"</string>
-    <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"غیرمجاز"</string>
+    <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"مجاز نبودن"</string>
     <string name="usage_access" msgid="8402350645248312782">"دسترسی به داده‌های مصرف"</string>
     <string name="usage_access_description" msgid="3276026988575551587">"دسترسی به داده‌های مصرف اجازه ردیابی برنامه‌هایی را که استفاده می کنید، چندوقت یک‌بار از آن‌ها استفاده می کنید، همچنین شرکت مخابراتی، تنظیمات زبان، و سایر جزئیات را به برنامه می‌دهد."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"بهینه‌سازی انرژی"</string>
@@ -1019,7 +1069,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"به برنامه‌ها اجازه می‌دهد زنگ ساعت تنظیم کنند و کنش‌های حساس به زمان زمان‌بندی کنند. این تنظیم به برنامه‌ها اجازه می‌دهد در پس‌زمینه اجرا شوند که می‌تواند مصرف باتری را افزایش دهد.\n\nاگر این اجازه خاموش باشد، زنگ‌های ساعت موجود و رویدادهای زمان‌محوری که این برنامه زمان‌بندی کرده است، کار نخواهند کرد."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"روشن کردن صفحه‌نمایش"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"مجاز کردن روشن کردن صفحه‌نمایش"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"به برنامه اجازه می‌دهد صفحه‌نمایش را روشن کند. اگر اجازه داده شود، برنامه ممکن است در هر زمانی بدون هدف صریح شما صفحه‌نمایش را روشن کند."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"به برنامه اجازه می‌دهد صفحه‌نمایش را روشن کند. اگر اجازه داده شود، برنامه ممکن است بی‌آنکه شما مستقیماً خواسته باشید صفحه‌نمایش را روشن کند."</string>
     <string name="special_access" msgid="21806055758289916">"دسترسی ویژه به برنامه"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>، <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"صدا"</string>
@@ -1036,10 +1086,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"میکروفون(های) ضبط‌شده"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"ضبط صدا شروع نشد."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ضبط صدا انجام نشد."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"صرفه‌جویی داده"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"کیفیت ویدیو به‌طور خودکار تنظیم شود تا داده تلفن همراه کمتری مصرف شود"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"مصرف داده و هشدارها"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"می‌توانید بااستفاده از Wi-Fi، اترنت، یا نقطه اتصال تلفنتان به اینترنت متصل شوید."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"برای دستگاه‌های بلوتوث دیگر قابل‌مشاهده شود؟"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"برنامه‌ای می‌خواهد تلویزیون شما را برای دستگاه‌های بلوتوث دیگر به مدت <xliff:g id="TIMEOUT">%1$d</xliff:g> ثانیه قابل‌مشاهده کند."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1052,9 +1098,9 @@
     <string name="disabled_by_policy_title_suspend_packages" msgid="6500185610058872758">"نمی‌توان این برنامه را باز کرد"</string>
     <string name="default_admin_support_msg" msgid="7913455019068370350">"اگر سؤالی دارید، با سرپرست فناوری اطلاعات تماس بگیرید"</string>
     <string name="admin_support_more_info" msgid="9053232166115098434">"جزئیات بیشتر"</string>
-    <string name="admin_profile_owner_message" msgid="5729169873349157622">"سرپرستتان می‌تواند بر برنامه‌ها و داده‌های مرتبط با این نمایه کاری (ازجمله تنظیمات، مجوزها، دسترسی شرکتی، فعالیت شبکه و اطلاعات مکان دستگاه) نظارت داشته باشد و آن‌ها را مدیریت کنید."</string>
-    <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"سرپرستتان می‌تواند بر برنامه‌ها و داده‌های مرتبط با این کاربر (ازجمله تنظیمات، مجوزها، دسترسی شرکتی، فعالیت شبکه و اطلاعات مکان دستگاه) نظارت داشته باشد و آن‌ها را مدیریت کنید."</string>
-    <string name="admin_device_owner_message" msgid="1935507216776040907">"سرپرستتان می‌تواند بر برنامه‌ها و داده‌های مرتبط با این دستگاه (ازجمله تنظیمات، مجوزها، دسترسی شرکتی، فعالیت شبکه و اطلاعات مکان دستگاه) نظارت داشته باشد و آن‌ها را مدیریت کنید."</string>
+    <string name="admin_profile_owner_message" msgid="5729169873349157622">"سرپرستتان می‌تواند بر برنامه‌ها و داده‌های مرتبط با این نمایه کاری (ازجمله تنظیمات، اجازه‌ها، دسترسی شرکتی، فعالیت شبکه و اطلاعات مکان دستگاه) نظارت داشته باشد و آن‌ها را مدیریت کنید."</string>
+    <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"سرپرستتان می‌تواند بر برنامه‌ها و داده‌های مرتبط با این کاربر (ازجمله تنظیمات، اجازه‌ها، دسترسی شرکتی، فعالیت شبکه و اطلاعات مکان دستگاه) نظارت داشته باشد و آن‌ها را مدیریت کنید."</string>
+    <string name="admin_device_owner_message" msgid="1935507216776040907">"سرپرستتان می‌تواند بر برنامه‌ها و داده‌های مرتبط با این دستگاه (ازجمله تنظیمات، اجازه‌ها، دسترسی شرکتی، فعالیت شبکه و اطلاعات مکان دستگاه) نظارت داشته باشد و آن‌ها را مدیریت کنید."</string>
     <string name="remove_managed_profile_label" msgid="8950011141359605612">"حذف نمایه کار"</string>
     <string name="active_device_admin_msg" msgid="185537304726228624">"برنامه سرپرست دستگاه"</string>
     <string name="remove_device_admin" msgid="2623866073546295104">"غیرفعال کردن این برنامه سرپرست دستگاه"</string>
@@ -1080,6 +1126,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"اتصال برقرار شد"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"نمایش همه"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"درحال جستجو"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"هدف افزودن حساب از برنامه اصالت‌سنجی بازیابی نشد."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"حساب اضافه نشد یا نوع حساب دردسترس نیست."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"کانال‌ها و ورودی‌ها"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"کانال‌ها،‌ ورودی‌های خارجی"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"کانال‌ها"</string>
@@ -1091,5 +1139,19 @@
     <string name="power_and_energy" msgid="4638182439670702556">"برق و انرژی"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"عملکرد تلویزیون هنگام روشن بودن"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"بازنشاندن"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"تلویزیون"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"کد مرتبط‌سازی اترنت"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"حالت‌های انرژی"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"این تنظیمات، هنگام عدم استفاده از دستگاه، بر آن اعمال می‌شود"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"این حالت را فعال می‌کند:"</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"ممکن است باتوجه‌به تعداد ویژگی‌های تلویزیون که فعال می‌کنید، مصرف برق افزایش یابد."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"فعال کردن «<xliff:g id="ENERGYMODENAME">%s</xliff:g>»"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"پیدا کردن کنترل از راه دور"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"اگر کنترل از دور Google TV در جای خودش نباشد، برای پیدا کردن آن، صدایی پخش می‌شود"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"دکمه‌ای روی Google TV قرار دارد که می‌توانید فشار دهید تا صدایی به‌مدت ۳۰ ثانیه در کنترل از دور پخش شود. این روش فقط در کنترل از دورهای پشتیبانی‌شده Google TV کار می‌کند.\n\nبرای متوقف کردن صدا، یکی از دکمه‌های روی کنترل از دور را فشار دهید."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"وقتی «پیدا کردن کنترل از راه دور» فعال باشد، اگر کنترل از راه دور Google TV در جای خودش نباشد، می‌توانید با پخش صدا آن را پیدا کنید."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"پخش صدا"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"میزان صدای %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"می‌توانید میزان صدای «دستیار» را در بلندگوی %1$s کنترل کنید"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"فقط بر میزان صدای دستگاه %1$s تأثیر می‌گذارد، نه بر تلویزیون"</string>
 </resources>

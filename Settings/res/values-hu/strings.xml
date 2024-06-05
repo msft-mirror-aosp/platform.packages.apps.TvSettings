@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Személyes"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Csatlakozás hálózathoz"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Fiók felvétele"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Fiókok és bejelentkezés"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Fiókok és profilok"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Nincs fiók"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# fiók}other{# fiók}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Médiaszolgáltatások, Segéd, Kifizetések"</string>
@@ -60,11 +60,13 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Adatvédelem"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Eszközbeállítások"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Fiókbeállítások"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Eszközzár"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Segéd"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Fizetések és vásárlások"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Alkalmazásbeállítások"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Hely, Használat és diagnosztika, Hirdetések"</string>
     <string name="add_account" msgid="7386223854837017129">"Fiók hozzáadása"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Ismeretlen fiók"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Fiók eltávolítása"</string>
     <string name="account_sync" msgid="4315295293211313989">"Szinkronizáltak kiválasztása"</string>
     <string name="sync_now" msgid="4335217984374620551">"Szinkronizálás most"</string>
@@ -84,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet csatlakoztatva"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Nincs hálózati kapcsolat"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"A Wi-Fi ki van kapcsolva"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"A Wi-Fi használatához húzza ki az Ethernet-kábelt"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Mindig keressen hálózatot"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"A Google helyszolgáltatása és más alkalmazások akkor is kereshetnek hálózatokat, ha a Wi-Fi ki van kapcsolva"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"A keresés mindig rendelkezésre áll, A Google helyszolgáltatása és más alkalmazások akkor is kereshetnek hálózatokat, ha a Wi-Fi ki van kapcsolva."</string>
@@ -100,7 +103,7 @@
     <string name="all_apps_installed" msgid="8217778476185598971">"Telepített alkalmazások"</string>
     <string name="all_apps_other" msgid="4420174882983813158">"Rendszeralkalmazások"</string>
     <string name="all_apps_disabled" msgid="2776041242863791053">"Letiltott alkalmazások"</string>
-    <string name="device_daydream" msgid="2631191946958113220">"Képernyővédő"</string>
+    <string name="device_daydream" msgid="2631191946958113220">"Képernyőkímélő"</string>
     <string name="device_display" msgid="244634591698925025">"Képernyő"</string>
     <string name="device_display_sound" msgid="7399153506435649193">"Kijelző és hang"</string>
     <string name="device_sound" msgid="8616320533559404963">"Hang"</string>
@@ -112,8 +115,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Biztonsági mentés és visszaállítás"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Gyári adatok visszaállítása"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrálás"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"Áramellátás és energia"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"Eco beállítások"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Kikapcsolási időzítő"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Beállíthat időzítőket a TV kikapcsolásához és az energiamegtakarítás érdekében."</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Eszközök"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Formátumok kiválasztása"</string>
@@ -151,11 +154,38 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Speciális hangbeállítások"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Játékmód engedélyezése"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Tartalom dinamikatartományának használata"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Ha bekapcsolja ezt a beállítást, a rendszer a tartalmaknak megfelelően vált a különböző formátumú dinamikatartományok között. Formátumváltáskor fekete képernyő jelenhet meg.\n\nA dinamikatartománnyal kapcsolatos további lehetőségekért kattintson a Speciális kijelzőbeállítások elemre."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Preferált dinamikatartomány"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Rendszer által előnyben részesített konverzió"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Engedélyezi a rendszernek a formátumátalakítás kezelését"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"A beállítás kijelölésével a rendszer határozza majd meg a kijelzőre továbbítandó megfelelő dinamikus tartományt, majd szükség szerint erre a dinamikus tartományra alakítja át a tartalmat."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Mindig egyezteti a tartalom formátumát"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Konverzió kikényszerítése"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"A kívánt formátumra kényszeríti ki a konverziót"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"A kívánt formátumra kényszerítheti ki a konverziót. A konverzió kikényszerítése hatást gyakorolhat a megjelenítési mód vagy a HDR formátum beállításaira."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Mindig SDR szabványra"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Mindig erre: <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Szeretné kikényszeríteni a HDR-kimenetet?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"A rendszer alapértelmezés szerint a következőre kényszeríti a konverziót: <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"A kijelző felbontása 1080p 60 Hz lesz. A beállítás nem kompatibilis a 4k 60 Hz felbontású kijelzőn."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"A Dolby Vision nem támogatott a jelenlegi felbontás mellett. Ha manuálisan engedélyezi a Dolby Vision funkciót, a képernyő felbontása 1080p 60 Hz-re változik."</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Módosítja a felbontást 1080p 60 Hz-re?"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Mindig legyen kényszerítve a Dolby Visionre való átalakítás"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Ha a Dolby Vision le van tiltva HDR-formátumokban a Speciális kijelzőbeállítások között, a Dolby Visionre való átalakítás kényszerítése újra engedélyezi."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Mindig legyen kényszerítve a HDR10-re való átalakítás"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"Ha a HDR10 le van tiltva HDR-formátumokban a Speciális kijelzőbeállítások között, a HDR10-re való átalakítás kényszerítése újra engedélyezi."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"Mindig legyen kényszerítve a HLG-re való átalakítás"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"Ha a HLG le van tiltva HDR-formátumokban a Speciális kijelzőbeállítások között, a HLG-re való átalakítás kényszerítése újra engedélyezi."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"Mindig legyen kényszerítve a HDR10+-ra való átalakítás"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Ha a HDR10+ le van tiltva HDR-formátumokban a Speciális kijelzőbeállítások között, a HDR10+-ra való átalakítás kényszerítése újra engedélyezi."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Mindig legyen kényszerítve az SDR-re való átalakítás"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"Az SDR-re való átalakítás kényszerítése az összes formátumot letiltja a HDR-formátumokban a Speciális kijelzőbeállítások között."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Tartalom képkocka-sebességének egyeztetése"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Zökkenőmentes"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Csak zökkenőmentes"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Ha az alkalmazás engedélyt kér rá, az eszköze az éppen nézett tartalom eredeti képkockasebességéhez igazítja a kimenetet, de CSAK akkor, ha a tévéje képes a zökkenőmentes átmenetre."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"A csatlakoztatott kijelző nem támogatja a zökkenőmentes frissítési gyakoriságú átvitelt. A beállítás csak akkor lép érvénybe, ha a funkciót támogató kijelzőre vált."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Nem zökkenőmentes"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Mindig"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Ha az alkalmazás engedélyt kér rá, az eszköze az éppen nézett tartalom eredeti képkockasebességéhez igazítja a kimenetet. Ennek következtében előfordulhat, hogy képernyője egy másodpercre elsötétül, amikor elindul vagy véget ér a videólejátszás."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Soha"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Még ha az alkalmazás engedélyt kér is rá, az eszköze akkor sem fogja megpróbálni az éppen nézett tartalom eredeti képkockasebességéhez igazítani a kimenetet."</string>
@@ -164,7 +194,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Mintaszöveg"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Óz, a csodák csodája"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"11. fejezet: A csodálatos Smaragdváros"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Dorothyt és barátait még a zöld szemüvegen át is lenyűgözte a csodálatos Város tündöklése. Az utcákat zöld márványból épült és ragyogó smaragdokkal kirakott, gyönyörű házak sora szegélyezte. Az utak ugyanebből a zöld márványból készültek, az utcaköveket pedig sűrűn rakott smaragdsorok választották el, amelyek csak úgy sziporkáztak a napfényben. Az ablaktáblák zöld üvegből voltak, az ég zöldes színben tündökölt a Város fölött, és még a napsugarak is zöld színben játszottak. \n\nRengeteg ember járkált mindenfelé, férfiak, nők, gyerekek, mind zöld ruhákban, zöldes árnyalatú volt a bőrük is. Csodálkozó szemekkel néztek Dorothyra és furcsa kísérőire, és amikor a gyerekek meglátták az Oroszlánt, elszaladtak, és anyjuk mögé bújtak. De senki sem szólt hozzájuk. Az utcán sok bolt állt, és Dorothy észrevette, hogy ezekben is minden zöld. Lehetett kapni zöld cukorkát és zöld pattogatott kukoricát, zöld cipőt, zöld kalapot és mindenféle zöld ruhát. Az egyik helyen egy férfi zöld limonádét árult, és Dorothy látta, hogy a gyerekek zöld pennykkel fizetnek érte. \n\nNem voltak sehol lovak vagy más állatok; az emberek mindent kis zöld kocsikon hordtak, amelyet maguk előtt toltak. Mindenki boldognak, elégedettnek és jómódúnak tűnt."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Dorothyt és barátait még a zöld szemüvegen át is lenyűgözte a csodálatos Város tündöklése. Az utcákat zöld márványból épült és ragyogó smaragdokkal kirakott, gyönyörű házak sora szegélyezte. Az utak ugyanebből a zöld márványból készültek, az utcaköveket pedig sűrűn rakott smaragdsorok választották el, amelyek csak úgy sziporkáztak a napfényben. Az ablaktáblák zöld üvegből voltak, az ég zöldes színben tündökölt a Város fölött, és még a napsugarak is zöld színben játszottak. \n\nRengeteg ember járkált mindenfelé, férfiak, nők, gyerekek, mind zöld ruhákban, zöldes árnyalatú volt a bőrük is. Csodálkozó szemekkel néztek Dorothyra és furcsa kísérőire, és amikor a gyerekek meglátták az Oroszlánt, elszaladtak, és anyjuk mögé bújtak. De senki sem szólt hozzájuk. Az utcán sok bolt állt, és Dorothy észrevette, hogy ezekben is minden zöld. Lehetett kapni zöld cukorkát és zöld pattogatott kukoricát, zöld cipőt, zöld kalapot és mindenféle zöld ruhát. Az egyik helyen egy férfi zöld limonádét árult, és Dorothy látta, hogy a gyerekek zöld pennykkel fizetnek érte. \n\nNem voltak sehol lovak vagy más állatok; az emberek mindent kis zöld kocsikon hordtak, amelyet maguk előtt toltak. Mindenki boldognak, elégedettnek és jómódúnak tűnt."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Formátumválasztás"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automatikus"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Kézi"</string>
@@ -191,11 +221,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Módosítja a felbontást a következőre: %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Válassza az OK gombot, ha mostantól a(z) %1$s felbontást szeretné használni."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"A Dolby Vision nem támogatott itt: %1$s, a rendszer pedig letiltja ezt a módot a „Speciális kijelzőbeállítások” között."</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Ez a mód támogatja a következőt: %1$s. Egyes tévék esetében előfordulhat, hogy a további HDR-formátumok engedélyezéséhez be kell kapcsolnia a javított HDMI lehetőséget. Ellenőrizze a tévé beállításai között, hogy a funkció támogatott-e."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Ez a mód támogatja a következőt: %1$s\nEgyes tévék esetében előfordulhat, hogy a további HDR-formátumok engedélyezéséhez be kell kapcsolnia a javított HDMI (Enhanced HDMI) lehetőséget. Ellenőrizze a tévé beállításai között, hogy a funkció támogatott-e."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Mégse"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Törli a gyorsítótárban tárolt adatokat?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Ez törli minden alkalmazás gyorsítótárban tárolt adatait"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -250,6 +280,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Csatlakozva"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Leválasztva"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Nincs engedélye a Bluetooth-beállítások módosítására."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Tévés hangkimenethez való használat"</string>
     <string name="send_feedback" msgid="936698637869795473">"Visszajelzés küldése"</string>
     <string name="launch_help" msgid="2607478763131952469">"Súgó"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -316,8 +347,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Az eszközt az Ön szervezete kezeli."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Az eszközt a következő szervezet kezeli: <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"– %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"További információ"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Kameraalkalmazás}other{Kameraalkalmazások}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Naptáralkalmazás"</string>
@@ -340,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google – jogi szabályozás"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"A licencadatok nem érhetők el"</string>
     <string name="about_model" msgid="9164284529291439296">"Modell"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Eszközmód"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Demó mód üzletben"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV OS-verzió"</string>
     <string name="about_serial" msgid="3432319328808745459">"Sorozatszám"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV OS-build"</string>
@@ -407,6 +439,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Internetkapcsolat"</string>
     <string name="connected" msgid="4981532275162345997">"Kapcsolódva"</string>
     <string name="not_connected" msgid="475810896484271663">"Nincs csatlakozva"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Nincs internet"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Mentve"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Helytelen jelszó"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"A Wi-Fi-jelszó túl rövid"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Bejelentkezés szükséges"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Egyéb beállítások"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Az összes megjelenítése"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Kevesebb megjelenítése"</string>
@@ -626,8 +663,8 @@
     <string name="location_mode_title" msgid="728244518174115443">"Mód"</string>
     <string name="location_category_recent_location_requests" msgid="4541924383164183490">"Legutóbbi helylekérdezések"</string>
     <string name="location_no_recent_apps" msgid="7033474075806435793">"Az utóbbi időben egy alkalmazás sem kért le helyadatokat"</string>
-    <string name="location_high_battery_use" msgid="5325556609027887602">"Magas akkumulátorhasználat"</string>
-    <string name="location_low_battery_use" msgid="728585923412018253">"Alacsony akkumulátorhasználat"</string>
+    <string name="location_high_battery_use" msgid="5325556609027887602">"Magas akkuhasználat"</string>
+    <string name="location_low_battery_use" msgid="728585923412018253">"Alacsony akkuhasználat"</string>
     <string name="location_mode_wifi_description" msgid="84697248707903061">"Wi-Fi használata a tartózkodási hely meghatározásához"</string>
     <string name="location_status" msgid="3037321737386011224">"Helyállapot"</string>
     <string name="location_services" msgid="551503779736382878">"Helyszolgáltatások"</string>
@@ -673,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Kisegítő lehetőségek engedélyezése"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Billentyűparancs szolgáltatás"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Ha be van kapcsolva a gyorsparancs, a Vissza és Lefelé gomb 3 másodpercig tartó együttes lenyomásával elindíthat egy adott kisegítő lehetőséget."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Művelet elvégzésére szánt idő"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Művelet ideje (kisegítés időkorlátja)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Időzítés"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Az időzítéspreferenciát nem támogatja minden app."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Feliratok"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Mentett feliratok szövegrétegének beállítása videóknál"</string>
     <string name="captions_display" msgid="2598662495450633375">"Megjelenítés"</string>
@@ -715,7 +756,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Engedélyezés"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Beállítások"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Használja: <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"A(z) <xliff:g id="SERVICE">%1$s</xliff:g> összegyűjti az összes beírt szöveget, kivéve a jelszavakat. Ez magában foglalja a személyes adatokat, például a bankkártyaszámokat."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"A(z) <xliff:g id="SERVICE">%1$s</xliff:g> képes lesz a képernyő tartalmának olvasására, tartalmak más appok fölött való megjelenítésére, az alkalmazásokkal vagy hardveres érzékelőkkel való interakcióinak nyomon követésére, valamint arra, hogy az Ön nevében lépjen interakcióba más appokkal."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Leállítja a következőt: <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Az OK-val leállítja a következőt: <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Szövegfelolvasás"</string>
@@ -874,6 +915,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Korlátozások személyre szabása"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Egy pillanat…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"A PIN-kód módosítása"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Létrehoz korlátozott profilt?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Már létrehozva"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Kihagyás"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"PIN-kód létrehozása"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Belép a korlátozott profilba?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Nincs korlátozott profil"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Már megadta"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Ez az alkalmazás hozzáfér az Ön fiókjaihoz; a kezelője pedig a következő: <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"A csatorna megtekintéséhez PIN-kód szükséges"</string>
@@ -889,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Válassza a következőt a folytatáshoz: <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Kész"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Sikeresen csatlakozva"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Sikeresen mentve"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Verzió: <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Megnyitás"</string>
@@ -934,9 +984,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Erősítse meg, hogy nem szeretné, ha a kijelző nézés közben kikapcsoljon. Ez megnövekedett energiafelhasználással járhat."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Inaktivitás esetén"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Lejátszás közben"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"A TV automatikus kikapcsolása"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"A TV automatikus kikapcsolása, miközben inaktív"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"A TV automatikus kikapcsolása, miközben nézi"</string>
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Automatikus kikapcsolás"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Automatikus kikapcsolás, amikor inaktív"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Automatikus kikapcsolás tartalomlejátszás közben"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"Az „Inaktivitás esetén” időzítő nem lehet hosszabb a „Lejátszás közben” időzítőnél"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"A „Lejátszás közben” időzítő nem lehet rövidebb az „Inaktivitás esetén” időzítőnél"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Hálózat korlátozása készenléti módban"</string>
@@ -1036,10 +1086,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Rögzített mikrofonok"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Nem sikerült elindítani a hangfelvételt."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Sikertelen hangfelvétel."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Adatforgalom-csökkentő"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Videó minőségének automatikus beállítása a kevesebb mobiladat-használathoz"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Adathasználat és értesítések"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Az internethez Wi-Fi, Ethernet-kábel vagy telefonja hotspotja segítségével csatlakozhat."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Láthatóvá teszi más Bluetooth-eszközök számára?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Az egyik alkalmazás láthatóvá szeretné tenni a tévét más Bluetooth-eszközök számára <xliff:g id="TIMEOUT">%1$d</xliff:g> másodpercig."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1080,6 +1126,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Sikeres kapcsolódás"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Összes mutatása"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Keresés"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Nem sikerült lekérni a fiókintentet a hitelesítőtől."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Nem sikerült hozzáadni a fiókot, vagy nem áll rendelkezésre az adott fióktípus."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Csatornák és bemenetek"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Csatornák, külső bemenetek"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Csatornák"</string>
@@ -1091,5 +1139,19 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Áramellátás és energia"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Bekapcsolási viselkedés"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Visszaállítás"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televízió"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-hálózat párosítókódja"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Energiamódok"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Ezek a beállítások hatással vannak az eszközre, amikor nincs használatban"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Engedélyezi a következőket:"</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Minél több tévéfunkciót engedélyez, annál nagyobb lehet az energiafogyasztás."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"A következő engedélyezése: „<xliff:g id="ENERGYMODENAME">%s</xliff:g>”"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Távirányító-kereső"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Hang lejátszásával megkeresheti a Google TV távirányítóját, ha nem találja"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Van egy gomb a Google TV-n, amelyet megnyomva 30 másodpercen át lejátszhat egy hangjelzést a távirányítón. Ez csak a támogatott Google TV-távirányítóknál működik.\n\nA hanglejátszás leállításához nyomja meg bármelyik gombot a távirányítón."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Amikor engedélyezve van a Távirányító-kereső, és nem találja a Google TV-távirányítót, az eszközön való hanglejátszással megkeresheti."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Hang lejátszása"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"A(z) %1$s hangereje"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Vezérelheti a Segéd hangerejét a(z) %1$s hangszórón"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Csak a(z) %1$s eszköz hangerejére van hatással, a tévéére nem"</string>
 </resources>

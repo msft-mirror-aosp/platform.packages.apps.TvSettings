@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Osobné"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Pripojenie k sieti"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Pridanie účtu"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Účty a prihlasovanie"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Účty a profily"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Žiadne účty"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# účet}few{# účty}many{# accounts}other{# účtov}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Mediálne služby, Asistent, Payments"</string>
@@ -60,11 +60,13 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Ochrana súkromia"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Nastavenia zariadenia"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Nastavenia účtu"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Zámok zariadenia"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Asistent Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Platba a nákupy"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Nastavenia aplikácie"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Poloha, využitie a diagnostika, reklamy"</string>
     <string name="add_account" msgid="7386223854837017129">"Pridať účet"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Neznámy účet"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Odstrániť účet"</string>
     <string name="account_sync" msgid="4315295293211313989">"Vyberte synch. aplikácie"</string>
     <string name="sync_now" msgid="4335217984374620551">"Synchronizovať"</string>
@@ -84,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernetová sieť je pripojená"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Nie je pripojená žiadna sieť"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Pripojenie Wi‑Fi je vypnuté"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Ak chcete použiť Wi‑Fi, odpojte ethernet"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Vyhľadávanie vždy zapnuté"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Povoliť službe určovania polohy Google a ostatným aplikáciám vyhľadávať siete aj v prípade, že je sieť Wi‑Fi vypnutá"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Vyhľadávanie vždy zapnuté, táto možnosť povolí službe určovania polohy Google a ostatným aplikáciám vyhľadávať siete aj v prípade, že je sieť Wi‑Fi vypnutá."</string>
@@ -112,8 +115,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Zálohovanie a obnovenie"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Obnovenie výrobných nastavení"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Kalibrácia"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"Výkon a energia"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"Nastavenia ekorežimu"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Časovač vypnutia"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Nastavte časovače, ktoré vypnú televízor a ušetria energiu"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Zariadenia"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Vybrať formáty"</string>
@@ -147,15 +150,42 @@
     <string name="surround_sound_disabled_format_info_clicked" msgid="463393349034930031">"Ak chcete aktivovať, zmeňte výber formátu za manuálny."</string>
     <string name="surround_sound_enabled_format_info_clicked" msgid="4003154853054756792">"Ak chcete deaktivovať, zmeňte výber formátu za manuálny."</string>
     <string name="display_category_title" msgid="247804007525046312">"Zobrazenie"</string>
-    <string name="advanced_display_settings_title" msgid="6293280819870140631">"Rozšírenie nastavenia zobrazenia"</string>
+    <string name="advanced_display_settings_title" msgid="6293280819870140631">"Rozšírené nastavenia zobrazenia"</string>
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Rozšírené nastavenia zvuku"</string>
-    <string name="game_mode_title" msgid="7280816243531315755">"Povolenie herného režimu"</string>
+    <string name="game_mode_title" msgid="7280816243531315755">"Povoliť herný režim"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Zladiť dynamický rozsah obsahu"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Keď je táto možnosť zapnutá, systém prepína medzi rôznymi formátmi dynamického rozsahu, aby zodpovedal obsahu. Počas prepínania formátu sa môže obrazovka stmaviť.\n\nAk si chcete zobraziť ďalšie možnosti dynamického rozsahu, kliknite na rozšírené nastavenia zobrazenia."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Preferovaný dynamický rozsah"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Konverzia určovaná systémom"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Povoľte systému spravovať konverziu formátu"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Keď je vybraná táto možnosť, systém bude určovať vhodný dynamický rozsah obrazovky a podľa potreby doň konvertovať obsah."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Vždy bude zodpovedať formátu obsahu"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Vynucovať konverziu"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Vynúti konverziu do preferovaného formátu"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Vynúťte konverziu do preferovaného formátu. Vynucovanie konverzie môže ovplyvniť iné nastavenia režimu zobrazenia alebo formátu HDR."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Vždy do formátu SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Vždy do formátu <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Chcete vynútiť výstup HDR?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Videá budú predvolene vynútene konvertované do formátu <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Rozlíšenie obrazovky bude 1080p, 60 Hz. Táto možnosť nie je kompatibilná s obrazovkou pri rozlíšení 4K, 60 Hz."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Aktuálne rozlíšenie technológiu Dolby Vision nepodporuje. Ak Dolby Vision zapnete ručne, rozlíšenie obrazovky sa zmení na 1080p 60 Hz."</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Chcete zmeniť rozlíšenie na 1080p 60 Hz?"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Vždy vynucovať konverziu do formátu Dolby Vision"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Ak je možnosť Dolby Vision v sekcii Formáty HDR v rozšírených nastaveniach zobrazenia zakázaná, vynucovanie konverzie do formátu Dolby Vision ju znova povolí."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Vždy vynucovať konverziu do formátu HDR10"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"Ak je možnosť HDR10 v sekcii Formáty HDR v rozšírených nastaveniach zobrazenia zakázaná, vynucovanie konverzie do formátu HDR10 ju znova povolí."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"Vždy vynucovať konverziu do formátu HLG"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"Ak je možnosť HLG v sekcii Formáty HDR v rozšírených nastaveniach zobrazenia zakázaná, vynucovanie konverzie do formátu HLG ju znova povolí."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"Vždy vynucovať konverziu do formátu HDR10+"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Ak je možnosť HDR10+ v sekcii Formáty HDR v rozšírených nastaveniach zobrazenia zakázaná, vynucovanie konverzie do formátu HDR10+ ju znova povolí."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Vždy vynucovať konverziu do formátu SDR"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"Vynucovanie konverzie do formátu SDR zakáže všetky formáty v sekcii Formáty HDR v rozšírených nastaveniach zobrazenia."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Prispôsobiť snímkovej frekvencii obsahu"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Plynulé"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Iba plynulý"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Ak o to aplikácia požiada, vaše zariadenie prispôsobí výstup pôvodnej snímkovej frekvencii obsahu, ktorý pozeráte, ale IBA vtedy, keď váš televízor dokáže zaistiť plynulý prechod."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Vaša pripojená obrazovka nepodporuje plynulé prechody frekvencie obnovenia. Táto možnosť nebude mať žiadny vplyv, kým nepripojíte obrazovku, ktorá ju podporuje."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Neplynulé"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Vždy"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Ak o to aplikácia požiada, vaše zariadenie prispôsobí výstup pôvodnej snímkovej frekvencii obsahu, ktorý pozeráte. Môže to spôsobiť, že pri ukončení prehrávania videa alebo prejdení naň bude vaša obrazovka chvíľu prázdna."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Nikdy"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Vaše zariadenie sa nikdy nepokúsi prispôsobiť výstup pôvodnej snímkovej frekvencii obsahu, ktorý pozeráte, ani keď o to aplikácia požiada."</string>
@@ -164,7 +194,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Ukážka textu"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Čarodejník z krajiny Oz"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"11. kapitola: Nádherné smaragdové mesto"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Lesk tohto nádherného mesta Dorotku a jej priateľov najskôr oslepoval, hoci mali na očiach zelené okuliare. Ulice lemovali nádherné domy zo zeleného mramoru, husto osadené trblietajúcimi sa smaragdmi. Kráčali po chodníku z takého istého zeleného mramoru. Na miestach, kde sa spájali dlaždice, sa ligotali v odraze slnka husté rady smaragdov. Obločné tabule boli zo zeleného skla. Dokonca aj obloha nad mestom bola zafarbená dozelena a slnečné lúče boli tiež zelené. \n\nV uliciach bolo veľa ľudí. Muži, ženy i deti si vykračovali oblečení v zelených šatách a všetci mali zelenkavú pokožku. Zvedavo si obzerali Dorotku a jej prazvláštnu spoločnosť. Keď deti zbadali leva, rýchlo utiekli a skryli sa za matkin chrbát. Nik sa však Dorotke a jej spoločníkom neprihovoril. Na ulici bolo mnoho rozličných obchodov. Dorotkinmu zraku neušlo, že všetok tovar bol zelený. Zelené cukríky, zelené pukance, zelené topánky, zelené klobúky a všelijaké zelené šaty – to všetko tu bolo na predaj. Jeden obchodník predával zelenú limonádu. Keď si ju deti kupovali, Dorotka zbadala, že platia zelenými mincami. \n\nZdalo sa, že sa v meste nenachádzajú žiadne kone ani iné zvieratá. Muži tlačili pred sebou malé zelené vozíky, v ktorých prevážali veci, kam bolo treba. Všetci vyzerali šťastní, spokojní a prekvitajúci."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Lesk tohto nádherného mesta Dorotku a jej priateľov najskôr oslepoval, hoci mali na očiach zelené okuliare. Ulice lemovali nádherné domy zo zeleného mramoru, husto posiate trblietajúcimi sa smaragdmi. Kráčali po chodníku z takého istého zeleného mramoru a na miestach, kde sa spájali dlaždice, sa ligotali v odraze slnka husté rady smaragdov. Tabule oblokov boli zo zeleného skla. Dokonca aj obloha nad mestom bola zafarbená dozelena a slnečné lúče boli tiež zelené. \n\nNa uliciach bolo veľa ľudí. Muži, ženy i deti si vykračovali oblečení v zelených šatách a všetci mali nazelenalú pleť. Zvedavo si obzerali Dorotku a jej prazvláštnu spoločnosť. Keď deti zbadali leva, rýchlo utiekli a skryli sa za chrbty matiek. Nik sa však Dorotke ani jej spoločníkom neprihovoril. Na ulici bolo mnoho rôznych obchodov a Dorotke neušlo, že všetok tovar bol zelený. Na predaj boli zelené cukríky, zelené pukance, zelené topánky, zelené klobúky a všelijaké zelené šaty. Jeden obchodník predával zelenú limonádu a keď si ju deti kupovali, Dorotka si všimla, že platia zelenými mincami. \n\nZdalo sa, že v meste nie sú žiadne kone ani iné zvieratá. Muži tlačili pred sebou malé zelené vozíky, v ktorých prevážali rôzne veci. Všetci vyzerali šťastní, spokojní a prosperujúci."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Výber formátu"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automaticky"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manuálne"</string>
@@ -191,11 +221,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Chcete zmeniť rozlíšenie na %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Ak chcete odteraz používať rozlíšenie %1$s, vyberte OK."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Technológia Dolby Vision nie je podporovaná pri rozlíšení %1$s a bude deaktivovaná v rozšírených nastaveniach zobrazenia"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Tento režim podporuje %1$s. Ak chcete povoliť ďalšie formáty HDR, v niektorých televízoroch zrejme budete musieť zapnúť Rozšírené HDMI. Skontrolujte v nastaveniach televízora, či je to podporované."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Tento režim podporuje: %1$s\nAk budete chcieť v niektorých televízoroch povoliť ďalšie formáty HDR, zrejme budete musieť zapnúť rozšírené HDMI. V nastaveniach televízora skontrolujte, či je to podporované."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Zrušiť"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Vymazať údaje vo vyrovnávacej pamäti?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Vymažú sa údaje v pamäti pre všetky aplikácie"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -250,6 +280,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Pripojené"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Odpojené"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Nemáte povolenie na zmenu nastavení Bluetooth."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Používa sa pre zvuk televízora"</string>
     <string name="send_feedback" msgid="936698637869795473">"Spätná väzba"</string>
     <string name="launch_help" msgid="2607478763131952469">"Centrum pomoci"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -269,7 +300,7 @@
     <string name="system_home_theater_control" msgid="6228949628173590310">"Ovládanie domáceho kina"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"Pre vývojárov"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"Žiadna"</string>
-    <string name="system_diagnostic" msgid="1654842813331919958">"Používanie a diagnostika"</string>
+    <string name="system_diagnostic" msgid="1654842813331919958">"Využitie a diagnostika"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"K dispozícii nie sú žiadne aplikácie na správu zariadenia"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"Zakázané správcom"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"Nie je k dispozícii"</string>
@@ -316,8 +347,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Toto zariadenie spravuje vaša organizácia."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Toto zariadenie spravuje organizácia <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">"  "</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"– %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Ďalšie informácie"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Aplikácia kamery}few{Aplikácie kamery}many{Aplikácie kamery}other{Aplikácie kamery}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Aplikácia Kalendár"</string>
@@ -340,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Právne informácie spoločnosti Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Údaje licencie nie sú dostupné"</string>
     <string name="about_model" msgid="9164284529291439296">"Model"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Režim zariadenia"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Ukážka v obchode"</string>
     <string name="about_version" msgid="6223547403835399861">"Verzia operačného systému Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"Sériové číslo"</string>
     <string name="about_build" msgid="8467840394761634575">"Zostava operačného systému Android TV"</string>
@@ -407,6 +439,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Internetové pripojenie"</string>
     <string name="connected" msgid="4981532275162345997">"Pripojené"</string>
     <string name="not_connected" msgid="475810896484271663">"Nepripojené"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Bez internetu"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Uložené"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Nesprávne heslo"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"Heslo Wi-Fi je príliš krátke"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Vyžaduje sa prihlásenie"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Ďalšie možnosti"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Zobraziť všetko"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Zobraziť menej"</string>
@@ -625,7 +662,7 @@
     <string name="system_network_location_confirm" msgid="7128162421781085332">"Súhlas so zhromažďovaním údajov o polohe"</string>
     <string name="location_mode_title" msgid="728244518174115443">"Režim"</string>
     <string name="location_category_recent_location_requests" msgid="4541924383164183490">"Nedávne žiadosti o polohu"</string>
-    <string name="location_no_recent_apps" msgid="7033474075806435793">"V poslednom čase žiadne aplikácie o polohu nepožiadali"</string>
+    <string name="location_no_recent_apps" msgid="7033474075806435793">"V poslednom čase nepožiadali o polohu žiadne aplikácie"</string>
     <string name="location_high_battery_use" msgid="5325556609027887602">"Vysoká spotreba batérie"</string>
     <string name="location_low_battery_use" msgid="728585923412018253">"Nízka spotreba batérie"</string>
     <string name="location_mode_wifi_description" msgid="84697248707903061">"Odhadovať polohu pomocou Wi‑Fi"</string>
@@ -673,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Povoliť skratku dostupnosti"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Služba ovládaná skratkou"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Keď je skratka zapnutá, funkciu dostupnosti môžete spustiť tým, že na tri sekundy podržíte tlačidlá späť a nadol."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Čas na reakciu"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Čas na reakciu (časový limit dostupnosti)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Čas"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Túto predvoľbu podporujú len niektoré aplikácie."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Titulky"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Nastavenia textového prekrytia videa skrytými titulkami"</string>
     <string name="captions_display" msgid="2598662495450633375">"Zobrazovať"</string>
@@ -715,7 +756,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Zapnúť"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfigurácia"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Používať službu <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> zaznamenáva všetok text, ktorý napíšete, okrem hesiel. To zahŕňa osobné údaje, ako sú čísla kreditných kariet."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> bude môcť čítať vašu obrazovku, zobrazovať obsah cez iné aplikácie, sledovať vaše interakcie s aplikáciami alebo hardvérovými senzormi a interagovať s aplikáciami vo vašom mene."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Zastaviť službu <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Výberom možnosti OK zastavíte službu <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Prevod textu na reč"</string>
@@ -874,6 +915,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Prispôsobiť obmedzenia"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Moment…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Zmeniť kód PIN"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Vytvoriť obmedzený profil?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Už bol vytvorený"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Preskočiť"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Vytvoriť PIN"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Otvoriť obmedzený profil?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Žiadny obmedzený profil"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Už bol otvorený"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Táto aplikácia má prístup k vašim účtom. Riadené aplikáciou <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Ak chcete sledovať tento kanál, zadajte kód PIN"</string>
@@ -889,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Pokračujte výberom siete <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Hotovo"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Pripojenie bolo úspešné"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Uloženie bolo úspešné"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Verzia <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Otvoriť"</string>
@@ -934,9 +984,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Potvrďte, že sa obrazovka pri pozeraní nemá vypínať (môže to spôsobiť vyššiu spotrebu energie)."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Pri neaktivite"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Pri pozeraní"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Automatické vypínanie televízora"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Automatické vypínanie televízora pri nečinnosti"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Automatické vypínanie televízora pri pozeraní"</string>
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Automaticky vypnúť"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Bez aktivity automaticky vypnúť"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Pri pozeraní automaticky vypnúť"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"Časovač Pri nečinnosti musí byť nastavený na kratšie ako časovač Pri pozeraní"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"Časovač Pri pozeraní musí byť nastavený na dlhšie ako časovač Pri nečinnosti"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Obmedziť pripoj. k sieti v pohot. režime"</string>
@@ -1016,7 +1066,7 @@
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Povoliť obraz v obraze"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Žiadna z nainštalovaných aplikácií nepodporuje obraz v obraze"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Povoľte aplikáciám vytvoriť okno v režime obraz v obraze, kým je aplikácia otvorená alebo potom, čo ju opustíte (napríklad aby ste mohli pokračovať v pozeraní videa). Toto okno sa zobrazuje nad ostatnými aplikáciami, ktoré používate."</string>
-    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Povoľte aplikáciám nastavovať budíky a plánovať akcie s časovým obmedzením. Aplikáciám to umožní pracovať na pozadí, čo môže zvýšiť spotrebu energie.\n\nAk je toto povolenie vypnuté, súčasné budíky a udalosti s časovým obmedzením naplánované aplikáciou nebudú fungovať."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Povoľte aplikáciám nastavovať budíky a plánovať akcie s časovým obmedzením. Aplikáciám to umožní pracovať na pozadí, čo môže zvýšiť spotrebu energie.\n\nAk je toto povolenie vypnuté, existujúce budíky a udalosti s časovým obmedzením naplánované aplikáciou nebudú fungovať."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Zapínanie obrazovky"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Povoľte zapínanie obrazovky"</string>
     <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Povoľte aplikácii zapínať obrazovku. Ak to urobíte, daná aplikácia bude môcť zapínať obrazovku kedykoľvek, a to aj vtedy, keď to nebudete mať v úmysle."</string>
@@ -1036,10 +1086,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Nahrané mikrofóny"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Nahrávanie zvuku sa nepodarilo spustiť."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Nahrávanie zvuku zlyhalo."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Šetrič dát"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Automaticky upravovať kvalitu videí na zníženie spotreby mobilných dát"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Spotreba dát a upozornenia"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"K internetu sa môžete pripojiť cez sieť Wi-Fi, ethernet alebo hotspot telefónu."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Chcete zapnúť jeho viditeľnosť pre iné zariadenia s rozhraním Bluetooth?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Aplikácia chce na <xliff:g id="TIMEOUT">%1$d</xliff:g> s zapnúť viditeľnosť televízora pre iné zariadenia s rozhraním Bluetooth."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1080,6 +1126,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Pripojenie je úspešné"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Zobraziť všetko"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Hľadá sa"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Nepodarilo sa načítať intenciu pridania účtu z overovateľa."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Účet sa nepodarilo pridať alebo typ účtu nie je k dispozícii."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Kanály a vstupy"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Kanály, externé vstupy"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Kanály"</string>
@@ -1091,5 +1139,19 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Výkon a energia"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Správanie pri zapnutí"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Obnoviť"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televízia"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Párovací kód ethernetu"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Režimy spotreby energie"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Tieto nastavenia ovplyvňujú zariadenie, keď sa nepoužíva"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Povolí:"</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Ak zapnete viac funkcií televízora, spotreba energie sa môže zvýšiť."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Povolenie režimu <xliff:g id="ENERGYMODENAME">%s</xliff:g>"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Find my remote"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Prehraním zvuku nájdite stratené diaľkové ovládanie Google TV"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na zariadení so službou Google TV je tlačidlo, ktorého stlačením prehráte 30‑sekundový zvuk v diaľkovom ovládaní. Funguje to len s podporovanými diaľkovými ovládaniami Google TV.\n\nAk chcete zvuk zastaviť, stlačte ľubovoľné tlačidlo na diaľkovom ovládaní."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Keď je povolená funkcia Find my remote, môžete prehrať zvuk, ktorý vám pomôže vyhľadať diaľkové ovládanie Google TV, keď ho nebudete vedieť nájsť."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Prehrávanie zvuku"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Hlasitosť na úrovni %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Pomocou Asistenta môžete ovládať hlasitosť reproduktora %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Ovplyvní iba hlasitosť zariadenia %1$s, nie televízora"</string>
 </resources>

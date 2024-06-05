@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"אישי"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"התחברות לרשת"</string>
     <string name="add_an_account" msgid="2601275122685226096">"הוספת חשבון"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"חשבונות וכניסה"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"חשבונות ופרופילים"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"אין חשבונות"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{חשבון אחד}one{# חשבונות}two{# חשבונות}other{# חשבונות}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"שירותי מדיה, Assistant,‏ Payments"</string>
@@ -60,11 +60,13 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"פרטיות"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"הגדרות מכשיר"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"הגדרות חשבון"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"נעילת מכשיר"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"תשלום ורכישות"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"הגדרות האפליקציה"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"מיקום, אופן השימוש בנתונים וניתוח הביצועים, מודעות"</string>
     <string name="add_account" msgid="7386223854837017129">"הוספת חשבון"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"חשבון לא ידוע"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"הסרת חשבון"</string>
     <string name="account_sync" msgid="4315295293211313989">"בחירת אפליקציות מסונכרנות"</string>
     <string name="sync_now" msgid="4335217984374620551">"סנכרון עכשיו"</string>
@@ -84,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet מחובר"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"אין רשת מחוברת"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi כבוי"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"צריך לנתק את האתרנט כדי להשתמש ב-Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"סריקה זמינה תמיד"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"הענקת רשות לשירות המיקום של Google ולאפליקציות אחרות לסרוק על מנת למצוא רשתות, גם כשה-Wi-Fi כבוי"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"סריקה זמינה תמיד, הענקת רשות לשירות המיקום של Google ולאפליקציות אחרות לסרוק כדי למצוא רשתות, גם כשה-Wi-Fi כבוי"</string>
@@ -112,8 +115,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"גיבוי ושחזור"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"איפוס לנתוני היצרן"</string>
     <string name="device_calibration" msgid="2907914144048739705">"כיול"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"הפעלה ואנרגיה"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"הגדרות חיסכון באנרגיה"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"טיימר לכיבוי"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"הגדרת טיימרים לכיבוי הטלוויזיה ולחיסכון באנרגיה"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"מכשירים"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"בחירת פורמטים"</string>
@@ -151,11 +154,38 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"הגדרות צליל מתקדמות"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"הרשאה למצב משחק"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"התאמה לטווח הדינמי של התוכן"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"כשהאפשרות הזו מופעלת, המערכת תעבור בין פורמטים של טווח דינמי בהתאם לתוכן. המעבר עלול לגרום להצגת מסך שחור בזמן שינוי הפורמט.\n\nיש ללחוץ על הגדרות התצוגה המתקדמות כדי לראות אפשרויות נוספות של טווח דינמי."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"טווח דינמי מועדף"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"המרה בהתאם למערכת"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"ההגדרה הזו מאפשרת למערכת לנהל את המרת הפורמט"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"כשבוחרים באפשרות הזו, המערכת תקבע טווח דינמי מתאים שיישלח לתצוגה שלך ותמיר תוכן לטווח הדינמי הזה לפי הצורך."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"תמיד בהתאמה לפורמט של התוכן"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"אילוץ המרה"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"אילוץ המרה לפורמט מועדף"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"אילוץ המרה לפורמט המועדף. אילוץ ההמרה עשוי להשפיע על הגדרות אחרות ב\'מצב תצוגה\' או ב\'פורמט HDR\'."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"תמיד עבור SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"תמיד עבור <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"רוצה לאלץ את פלט ה-HDR?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"כברירת מחדל ההמרה תיאלץ לפעול במצב <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"התצוגה תפעל ברזולוציית 1080p ‏ 60Hz. האפשרות הזו לא תואמת לתצוגה שלך כשהיא פועלת ברזולוציית 4k‏ 60Hz."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision לא נתמך ברזולוציה הנוכחית. אם מפעילים את Dolby Vision באופן ידני, הרזולוציה של המסך משתנה ל-1080p 60Hz"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"לשנות את הרזולוציה ל-1080p 60Hz?"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"תמיד לאלץ המרה לפורמט Dolby Vision"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"אם התכונה Dolby Vision מושבתת בקטע \'פורמטים של איכות HDR\' בהגדרות התצוגה המתקדמות, אילוץ ההמרה לפורמט Dolby Vision יפעיל את התכונה מחדש."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"תמיד לאלץ המרה לפורמט HDR10"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"אם התכונה HDR10 מושבתת בקטע \'פורמטים של איכות HDR\' בהגדרות התצוגה המתקדמות, אילוץ ההמרה לפורמט HDR10 יפעיל את התכונה מחדש."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"תמיד לאלץ המרה לפורמט HLG"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"אם התכונה HLG מושבתת בקטע \'פורמטים של איכות HDR\' בהגדרות התצוגה המתקדמות, אילוץ ההמרה לפורמט HLG יפעיל את התכונה מחדש."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"תמיד לאלץ המרה לפורמט HDR10+‎"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"אם התכונה HDR10+‎ מושבתת בקטע \'פורמטים של איכות HDR\' בהגדרות התצוגה המתקדמות, אילוץ ההמרה לפורמט HDR10+‎ יפעיל את התכונה מחדש."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"תמיד לאלץ המרה לפורמט SDR"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"אילוץ ההמרה לפורמט SDR ישבית את כל הפורמטים בקטע \'פורמטים של איכות HDR\' בהגדרות התצוגה המתקדמות."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"התאמת התוכן לקצב הפריימים"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"שינוי חלק של קצב הפריימים"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"שינוי חלק של קצב הפריימים בלבד"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"המכשיר ישנה את קצב הפריימים של המסך בהתאם לקצב הפריימים המקורי של התוכן בעקבות בקשה של האפליקציה רק אם הטלוויזיה יכולה לבצע את השינוי בצורה חלקה."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"המסך המחובר שלך לא תומך במעברים עם קצב רענון חלק. לאפשרות זו לא תהיה השפעה אלא אם עוברים למסך שתומך בה."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"שינוי לא-חלק של קצב הפריימים"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"תמיד"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"המכשיר ישנה את קצב הפריימים של המסך בהתאם לקצב הפריימים המקורי של התוכן אם האפליקציה תבקש זאת. במקרה כזה, ייתכן שהמסך יואפל לרגע לפני תחילת הסרטון ובסופו."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"אף פעם"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"המכשיר אף פעם לא ינסה לשנות את קצב הפריימים של המסך כדי להתאים אותו לקצב הפריימים המקורי של התוכן, גם אם האפליקציה תבקש זאת."</string>
@@ -164,7 +194,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"טקסט לדוגמה"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"הקוסם המופלא מארץ עוץ"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"פרק 11: עיר הברקת המופלאה של ארץ עוץ"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"אפילו עם המשקפיים הירוקים שהגנו על עיניהם, דורותי וחבריה הסתנוורו בתחילה מזוהרה של העיר הנפלאה. לאורך הרחובות ניצבו בתים יפהפיים, שכולם בנויים משיש ירוק ומשובצים אבני ברקת מבריקות. הם צעדו על פני מדרכה שהייתה עשויה מאותו שיש ירוק, ובמקום המפגש של שורות הבתים היו משובצות זו לצד זו שורות של אבני ברקת, מנצנצות באור השמש הבהיר. אדני החלונות היו עשויים מזכוכית ירוקה. אפילו לשמיים שמעל העיר היה גוון ירקרק, וקרני השמש היו ירוקות. \n\nאנשים רבים התהלכו ברחובות, גברים, נשים וילדים, וכולם היו לבושים בבגדים ירוקים ולעורם היה גון ירוק. הם הסתכלו בהשתוממות על דורותי ועל החבורה המוזרה שסבבה אותה, וכשראו את האריה, כל הילדים ברחו והתחבאו מאחורי אימותיהם. אבל איש לא פנה אליהם בדברים. חנויות רבות ניצבו ברחוב ודורותי ראתה שכל הפריטים שבתוכן היו ירוקים. ממתקים ירוקים ופופקורן ירוק הוצעו למכירה, וגם נעליים ירוקות, כובעים ירוקים ובגדים ירוקים מכל מיני סוגים. בחנות אחת מכר מישהו לימונדה ירוקה, וכשהילדים קנו אותה, דורותי הבחינה שהם שילמו במטבעות ירוקים. \n\nנראה היה שאין שם סוסים, או חיות מכל סוג שהוא. הגברים נשאו דברים בעגלות ירוקות קטנות, שאותן הם דחפו לפניהם. נראה היה שכולם מאושרים, שבעי רצון ומצליחים."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"אפילו עם המשקפיים הירוקים שהגנו על עיניהם, דורותי וחבריה הסתנוורו בתחילה מזוהרה של העיר הנפלאה. לאורך הרחובות ניצבו בתים יפהפיים, שכולם בנויים משיש ירוק ומשובצים אבני ברקת מבריקות. הם צעדו על פני מדרכה שהייתה עשויה מאותו שיש ירוק, ובמקום המפגש של שורות הבתים היו משובצות זו לצד זו שורות של אבני ברקת, מנצנצות באור השמש הבהיר. אדני החלונות היו עשויים מזכוכית ירוקה. אפילו לשמיים שמעל העיר היה גוון ירקרק, וקרני השמש היו ירוקות. \n\nאנשים רבים התהלכו ברחובות, גברים, נשים וילדים, וכולם היו לבושים בבגדים ירוקים ולעורם היה גון ירוק. הם הסתכלו בהשתוממות על דורותי ועל החבורה המוזרה שסבבה אותה, וכשראו את האריה, כל הילדים ברחו והתחבאו מאחורי אימותיהם. אבל איש לא פנה אליהם בדברים. חנויות רבות ניצבו ברחוב ודורותי ראתה שכל הפריטים שבתוכן היו ירוקים. ממתקים ירוקים ופופקורן ירוק הוצעו למכירה, וגם נעליים ירוקות, כובעים ירוקים ובגדים ירוקים מכל מיני סוגים. בחנות אחת מכר מישהו לימונדה ירוקה, וכשהילדים קנו אותה, דורותי הבחינה שהם שילמו במטבעות ירוקים. \n\nנראה היה שאין שם סוסים, או חיות מכל סוג שהוא. הגברים נשאו דברים בעגלות ירוקות קטנות, שאותן הם דחפו לפניהם. נראה היה שכולם מאושרים, שבעי רצון ומצליחים."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"בחירת הפורמט"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"אוטומטי"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"ידני"</string>
@@ -191,11 +221,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"לשנות את הרזולוציה ל-%1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"בוחרים באפשרות \'אישור\' כדי להשתמש ברזולוציה %1$s מעכשיו והלאה."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision לא נתמך ב-%1$s. ניתן להשבית אותו בהגדרות התצוגה המתקדמות"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"המצב הזה תומך ב-%1$s. בחלק מהטלוויזיות ניתן להפעיל HDMI משופר כדי לאפשר הפעלה של עוד פורמטים של איכות HDR. כדאי לבדוק אם התכונה הזו נתמכת בהגדרות של הטלוויזיה."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"המצב הזה תומך ב: %1$s‏\nבחלק מהטלוויזיות ניתן להפעיל HDMI משופר כדי לאפשר הפעלה של עוד פורמטים של איכות HDR. כדאי לבדוק אם התכונה הזו נתמכת בהגדרות של הטלוויזיה."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"ביטול"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"אישור"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"הרץ (Hz)"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ‏(<xliff:g id="REFRESH_RATE">%2$s</xliff:g> הרץ)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ‏(<xliff:g id="REFRESH_RATE">%2$s</xliff:g> הרץ)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"האם לנקות נתונים בקובץ שמור?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"פעולה זו תנקה נתונים בקובץ שמור, לכל האפליקציות."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -250,6 +280,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"מחובר"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"מנותק"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"אין לך הרשאה לשנות את הגדרות ה-Bluetooth."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"שימוש באודיו של הטלוויזיה"</string>
     <string name="send_feedback" msgid="936698637869795473">"שליחת משוב"</string>
     <string name="launch_help" msgid="2607478763131952469">"מרכז עזרה"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -316,8 +347,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"מכשיר זה מנוהל על ידי הארגון שלך."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"מכשיר זה מנוהל על ידי <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ."</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"מידע נוסף"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{אפליקציית מצלמה}one{אפליקציות מצלמה}two{אפליקציות מצלמה}other{אפליקציות מצלמה}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"אפליקציית יומן"</string>
@@ -340,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"הודעות משפטיות של Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"נתוני רישיון אינם זמינים"</string>
     <string name="about_model" msgid="9164284529291439296">"דגם"</string>
+    <string name="device_mode" msgid="7258350575590118152">"מצב המכשיר"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"הדגמה בחנות"</string>
     <string name="about_version" msgid="6223547403835399861">"גרסת מערכת הפעלה של Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"מספר סידורי"</string>
     <string name="about_build" msgid="8467840394761634575">"Build של מערכת הפעלה של Android TV"</string>
@@ -394,7 +426,7 @@
   </string-array>
     <string name="title_mac_address" msgid="7511588678922209883">"כתובת MAC של המכשיר"</string>
     <string name="title_randomized_mac_address" msgid="3359532498635833471">"כתובת MAC אקראית"</string>
-    <string name="title_signal_strength" msgid="5047116893338315998">"עוצמת אות"</string>
+    <string name="title_signal_strength" msgid="5047116893338315998">"עוצמת האות"</string>
     <string name="title_random_mac_settings" msgid="6685812569356353378">"פרטיות"</string>
   <string-array name="random_mac_settings_entries">
     <item msgid="3457228452595715533">"שימוש בכתובת MAC אקראית (ברירת מחדל)"</item>
@@ -407,6 +439,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"חיבור לאינטרנט"</string>
     <string name="connected" msgid="4981532275162345997">"מחובר"</string>
     <string name="not_connected" msgid="475810896484271663">"לא מחובר"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"אין חיבור לאינטרנט"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"נשמרו"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"הסיסמה שגויה"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"הסיסמה ל-Wi-Fi קצרה מדי"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"צריך להיכנס לחשבון"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"אפשרויות נוספות"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"הצגת הכול"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"הצג פחות"</string>
@@ -670,9 +707,13 @@
     <string name="palette_color_purple" msgid="2123828754639683555">"סגול"</string>
     <string name="palette_color_gray" msgid="4014534773994261194">"אפור"</string>
     <string name="accessibility_shortcut" msgid="5856158637840030531">"קיצור דרך לנגישות"</string>
-    <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"הפעל את קיצור הדרך לנגישות"</string>
+    <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"הפעלת קיצור הדרך לנגישות"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"שירות קיצורי הדרך"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"כאשר קיצור הדרך מופעל, ניתן ללחוץ בו זמנית על הלחצן \'הקודם\' ועל החץ למטה למשך שלוש שניות כדי להפעיל תכונת נגישות."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"זמן לביצוע פעולה"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"זמן לביצוע פעולה (זמן קצוב לתפוגה של הגדרת נגישות)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"תזמון"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"ההעדפות בנושא התזמון נתמכות רק בחלק מהאפליקציות."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"כתוביות"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"הגדרות עבור שכבת-על של טקסט כתוביות בסרטון"</string>
     <string name="captions_display" msgid="2598662495450633375">"תצוגה"</string>
@@ -715,7 +756,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"הפעלה"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"תצורה"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"האם להשתמש ב-<xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> יכול לאסוף את כל הטקסט שאתה מקליד, מלבד סיסמאות. נכללים בכך נתונים אישיים כמו מספרי כרטיס אשראי."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"לשירות <xliff:g id="SERVICE">%1$s</xliff:g> תהיה אפשרות לקרוא את המסך, להציג תוכן מעל אפליקציות אחרות, לעקוב אחרי האינטראקציות שלך עם אפליקציות וחיישני חומרה ולבצע פעולות עם אפליקציות בשמך."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"האם להפסיק את <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"בחירה ב\'אישור\' תפסיק את <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"טקסט לדיבור"</string>
@@ -874,6 +915,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"התאם אישית את ההגבלות"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"המתן מספר רגעים…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"שנה את מספר ה-PIN"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"ליצור פרופיל מוגבל?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"הפרופיל כבר נוצר"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"דילוג"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"יצירת קוד אימות"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"להיכנס אל הפרופיל המוגבל?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"לא נמצא פרופיל מוגבל"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"כבר נכנסת"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"האפליקציה הזו יכולה לגשת אל החשבונות שלך. בשליטה של <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"הזן מספר PIN לצפייה בערוץ הזה"</string>
@@ -889,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"יש לבחור <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> כדי להמשיך."</string>
     <string name="label_done_key" msgid="8576286462300373440">"סיום"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"החיבור הצליח"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"נשמר בהצלחה"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"גרסה <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"פתח"</string>
@@ -934,14 +984,14 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"להשבית את כיבוי המסך בזמן הצפייה? השארת המסך דלוק עלולה לגרום לצריכת אנרגיה מוגברת."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"כשאין פעילות"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"בזמן הצפייה"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"כיבוי אוטומטי של הטלוויזיה"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"כיבוי אוטומטי של הטלוויזיה כשאין פעילות"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"כיבוי אוטומטי של הטלוויזיה בזמן הצפייה"</string>
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"כיבוי אוטומטי"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"כיבוי אוטומטי כשאין פעילות"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"כיבוי אוטומטי בזמן הצפייה"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"משך הזמן שמוגדר בטיימר \'כשאין פעילות\' צריך להיות קצר יותר ממשך הזמן שמוגדר בטיימר \'בזמן הצפייה\'"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"משך הזמן שמוגדר בטיימר \'בזמן הצפייה\' צריך להיות ארוך יותר ממשך הזמן שמוגדר בטיימר \'כשאין פעילות\'"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"הגבלת החיבור לרשת במצב המתנה"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"במצב המתנה הטלוויזיה צורכת פחות אנרגיה"</string>
-    <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"במצב המתנה הטלוויזיה תתנתק מהרשת, ותתחבר רק לקבלת עדכונים אוטומטיים. הפעולה הזו תפחית את צריכת האנרגיה של הטלוויזיה, אבל לא ניתן יהיה להשתמש בפונקציות כמו העברה (Cast) ו-Google Assistant במצב ההמתנה."</string>
+    <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"במצב המתנה הטלוויזיה תתנתק מהרשת, ותתחבר רק לקבלת עדכונים אוטומטיים. הפעולה הזו תפחית את צריכת האנרגיה של הטלוויזיה, אבל לא ניתן יהיה להשתמש בפונקציות כמו הפעלת Cast ו-Google Assistant במצב ההמתנה."</string>
     <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"הרשאה לחיבור לרשת במצב המתנה"</string>
     <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"מתן הרשאה לחיבור לרשת במצב המתנה יגדיל את צריכת האנרגיה במצב המתנה."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"אין חשבון המאחסן כעת נתונים מגובים"</string>
@@ -1036,10 +1086,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"המיקרופון המקליט"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"ניסיון ההפעלה של הקלטת האודיו נכשל."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"הקלטת האודיו נכשלה."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"חוסך הנתונים (Data Saver)"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"התאמה אוטומטית של איכות וידאו לשימוש מופחת בחבילת גלישה"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"שימוש בחבילת הגלישה והתראות"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"אפשר להתחבר לאינטרנט באמצעות Wi-Fi, אתרנט או נקודה לשיתוף אינטרנט בטלפון."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"רוצה שהמכשיר יהיה גלוי למכשירי Bluetooth נוספים?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"אפליקציה מסוימת רוצה להפוך את הטלפון שלך לגלוי בפני מכשירי Bluetooth אחרים למשך <xliff:g id="TIMEOUT">%1$d</xliff:g> שניות."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1080,6 +1126,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"החיבור הצליח"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"הצגת הכול"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"בתהליך חיפוש…"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"נכשל אחזור ה-Intent \'הוספת חשבון\' מרכיב האימות (authenticator)."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"הוספת החשבון נכשלה או שסוג החשבון לא זמין."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"ערוצים ושיטות קלט"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"ערוצים, שיטות קלט חיצוניות"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"ערוצים"</string>
@@ -1089,7 +1137,21 @@
     <string name="screen_settings_title" msgid="7806908869190824434">"מסך"</string>
     <string name="sound_settings_title" msgid="9149367966117889465">"צליל"</string>
     <string name="power_and_energy" msgid="4638182439670702556">"עוצמה ואנרגיה"</string>
-    <string name="power_on_behavior" msgid="927607372303160716">"התנהגות בהפעלה"</string>
+    <string name="power_on_behavior" msgid="927607372303160716">"התנהגות בזמן ההפעלה"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"איפוס"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"טלוויזיות"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"קוד התאמה לאתרנט"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"מצבי אנרגיה"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"ההגדרות האלה משפיעות על המכשיר כשהוא לא בשימוש"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"תכונות מופעלות:"</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"צריכת החשמל עשויה לעלות ככל שמפעילים יותר תכונות בטלוויזיה."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"הפעלת מצב \'<xliff:g id="ENERGYMODENAME">%s</xliff:g>\'"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"איפה השלט שלי"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ניתן להשמיע צליל כדי לאתר שלט רחוק של Google TV שאבד"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"יש כפתור ב-Google TV שאפשר ללחוץ עליו כדי להשמיע צליל בשלט הרחוק למשך 30 שניות. הפעולה הזו עובדת רק בשלטים רחוקים נתמכים של Google TV.‏\n\nכדי להפסיק את הצליל, צריך ללחוץ על לחצן כלשהו בשלט."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"כשהתכונה \'איפה השלט שלי\' מופעלת, אפשר להשמיע צליל כדי לאתר שלט רחוק של Google TV שאבד."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"השמעת צליל"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"עוצמת קול %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"אפשר לשלוט בעוצמת הקול של Assistant ברמקול של %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"רק עוצמת הקול במכשיר %1$s מושפעת, לא בטלוויזיה"</string>
 </resources>

@@ -19,10 +19,10 @@ package com.android.tv.settings.device.displaysound;
 import static android.content.DialogInterface.OnClickListener;
 import static android.view.Display.HdrCapabilities.HDR_TYPE_DOLBY_VISION;
 import static android.view.Display.HdrCapabilities.HDR_TYPE_INVALID;
-
 import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.createAlertDialog;
 import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.doesCurrentModeNotSupportDvBecauseLimitedTo4k30;
 import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.isHdrFormatSupported;
+import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.sendHdrSettingsChangedBroadcast;
 import static com.android.tv.settings.device.displaysound.PreferredDynamicRangeFragment.selectForceHdrConversion;
 import static com.android.tv.settings.device.displaysound.ResolutionSelectionInfo.HDR_TYPES_ARRAY;
 
@@ -46,6 +46,7 @@ import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.tv.settings.PreferenceControllerFragment;
 import com.android.tv.settings.R;
 import com.android.tv.settings.RadioPreference;
+import com.android.tv.settings.overlay.FlavorUtils;
 import com.android.tv.settings.util.ResolutionSelectionUtils;
 
 import java.util.Arrays;
@@ -153,11 +154,16 @@ public class ResolutionSelectionFragment extends PreferenceControllerFragment {
                         mAutoMode.getPhysicalWidth(), mAutoMode.getPhysicalHeight()),
                 ResolutionSelectionUtils.getRefreshRateString(mAutoMode.getRefreshRate()));
         pref.setSummary(summary);
-        pref.setFragment(ResolutionSelectionInfo.HDRInfoFragment.class.getName());
+        configureResolutionPreference(pref);
         pref.getExtras().putIntArray(HDR_TYPES_ARRAY, mAutoMode.getSupportedHdrTypes());
         mResolutionPreferenceCategory.addPreference(pref);
 
+        final boolean showSubHdRes =
+                getContext().getResources().getBoolean(R.bool.config_showSubHdResolutions);
         for (int i = 0; i < mModes.length; i++) {
+            if (!showSubHdRes && mModes[i].getPhysicalHeight() < 720) {
+                continue;
+            }
             mResolutionPreferenceCategory.addPreference(createResolutionPreference(mModes[i], i));
         }
     }
@@ -175,7 +181,7 @@ public class ResolutionSelectionFragment extends PreferenceControllerFragment {
         pref.setTitle(title);
         pref.setSummary(summary);
         pref.setKey(KEY_RESOLUTION_PREFIX + resolution);
-        pref.setFragment(ResolutionSelectionInfo.HDRInfoFragment.class.getName());
+        configureResolutionPreference(pref);
         pref.getExtras().putIntArray(HDR_TYPES_ARRAY, mode.getSupportedHdrTypes());
         return pref;
     }
@@ -193,6 +199,12 @@ public class ResolutionSelectionFragment extends PreferenceControllerFragment {
         final RadioPreference radioPreference = (RadioPreference) preference;
         radioPreference.setChecked(true);
         radioPreference.clearOtherRadioPreferences(getPreferenceGroup());
+    }
+
+    private void configureResolutionPreference(Preference pref) {
+        if (FlavorUtils.isTwoPanel(getContext())) {
+            pref.setFragment(ResolutionSelectionInfo.HDRInfoFragment.class.getName());
+        }
     }
 
     @Override
@@ -316,7 +328,7 @@ public class ResolutionSelectionFragment extends PreferenceControllerFragment {
             HdrConversionMode systemHdrConversionMode = new HdrConversionMode(
                     HdrConversionMode.HDR_CONVERSION_SYSTEM);
             mDisplayManager.setHdrConversionMode(systemHdrConversionMode);
-            selectForceHdrConversion(mDisplayManager);
+            sendHdrSettingsChangedBroadcast(getContext());
         }
     }
 

@@ -16,11 +16,14 @@
 
 package com.android.tv.settings.connectivity;
 
+import static android.os.UserManager.DISALLOW_ADD_WIFI_CONFIG;
+
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.UserHandle;
 import android.os.UserManager;
+import android.util.Log;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
@@ -84,8 +87,8 @@ public class AddWifiNetworkActivity extends InstrumentedActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        final UserManager userManager = UserManager.get(this);
-        if (userManager.hasUserRestriction(UserManager.DISALLOW_CONFIG_WIFI)) {
+
+        if (!isAddWifiAllowed()) {
             EnforcedAdmin admin = RestrictedLockUtilsInternal.checkIfRestrictionEnforced(this,
                     UserManager.DISALLOW_CONFIG_WIFI, UserHandle.myUserId());
             if (admin != null) {
@@ -215,12 +218,25 @@ public class AddWifiNetworkActivity extends InstrumentedActivity
                 updateTransaction.setTransition(FragmentTransaction.TRANSIT_FRAGMENT_CLOSE);
             }
             updateTransaction.replace(R.id.wifi_container, fragment, TAG);
-            updateTransaction.commit();
+            updateTransaction.commitAllowingStateLoss();
         }
     }
 
     @Override
     public void onFragmentChange(Fragment newFragment, boolean movingForward) {
         updateView(newFragment, movingForward);
+    }
+
+    private boolean isAddWifiAllowed() {
+        final UserManager userManager = UserManager.get(this);
+        if(userManager.hasUserRestriction(UserManager.DISALLOW_CONFIG_WIFI)) {
+            Log.e(TAG, "The user is not allowed to configure Wi-Fi.");
+            return false;
+        }
+        if (userManager.hasUserRestriction(DISALLOW_ADD_WIFI_CONFIG)) {
+            Log.e(TAG, "The user is not allowed to add Wi-Fi configuration.");
+            return false;
+        }
+        return true;
     }
 }

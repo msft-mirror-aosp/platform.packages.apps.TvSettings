@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personal"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Kumonekta sa network"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Magdagdag ng account"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Mga account at pag-sign in"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Mga Account at Profile"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Walang account"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# account}one{# account}other{# na account}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Mga serbisyo ng media, Assistant, Payments"</string>
@@ -60,11 +60,13 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privacy"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Mga Setting ng Device"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Mga Setting ng Account"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Lock ng Device"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Pagbabayad at Mga Pagbili"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Mga Setting ng App"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Lokasyon, Paggamit at Diagnostics, Mga Ad"</string>
     <string name="add_account" msgid="7386223854837017129">"Magdagdag ng account"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Hindi Kilalang Account"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Alisin ang account"</string>
     <string name="account_sync" msgid="4315295293211313989">"Pumili ng naka-sync na apps"</string>
     <string name="sync_now" msgid="4335217984374620551">"Mag-sync ngayon"</string>
@@ -84,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Nakakonekta ang Ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Walang nakakonektang network"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Naka-off ang Wi-Fi"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"I-unplug ang Ethernet para gamitin ang Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Palaging available ang pag-scan"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Payagan ang serbisyo ng lokasyon ng Google at iba pang app na mag-scan ng mga network kahit na naka-off ang Wi-Fi"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Palaging available ang pag-scan, Payagan ang serbisyo ng lokasyon ng Google at iba pang app na mag-scan ng mga network, kahit na naka-off ang Wi-Fi"</string>
@@ -112,8 +115,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Pag-backup at Pag-restore"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Pag-reset ng factory data"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Pag-calibrate"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"Power at Kuryente"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"Mga eco setting"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Orasan sa Pag-Off"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Itakda ang mga orasan para i-off ang TV at makatipid ng kuryente"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Mga Device"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Pumili ng mga format"</string>
@@ -147,15 +150,42 @@
     <string name="surround_sound_disabled_format_info_clicked" msgid="463393349034930031">"Para i-enable, gawing Manual ang pagpili ng format."</string>
     <string name="surround_sound_enabled_format_info_clicked" msgid="4003154853054756792">"Para i-disable, gawing Manual ang pagpili ng format."</string>
     <string name="display_category_title" msgid="247804007525046312">"Display"</string>
-    <string name="advanced_display_settings_title" msgid="6293280819870140631">"Advanced na mga setting ng display"</string>
+    <string name="advanced_display_settings_title" msgid="6293280819870140631">"Mga advanced na setting ng display"</string>
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Advanced na mga setting ng tunog"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Payagan ang game mode"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Itugma sa dynamic range ng content"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Kapag na-enable ang opsyong ito, lilipat ang system sa pagitan ng iba\'t ibang format ng dynamic range para tumugma sa content. Posibleng magdulot ito ng black screen habang lumilipat ng format.\n\nI-click ang mga setting sa Advanced na Display para sa higit pang opsyon sa dynamic range."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Gustong dynamic range"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversion na mas gusto ng system"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Hinahayaan ang system na pamahalaan ang conversion ng format"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Kapag pinili ang opsyong ito, tutukoy ang system ng naaangkop na dynamic na saklaw na ipapadala sa iyong display at iko-convert nito ang content sa dynamic na saklaw na ito gaya ng kinakailangan."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Palaging itugma sa format ng content"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Ipilit ang conversion"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Pinipilit ang conversion sa mas gustong format"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Ipilit ang conversion sa mas gustong format. Kapag pinilit ang conversion, posibleng maapektuhan ang iba pang setting sa Display Mode o HDR Format."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Palaging sa SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Palaging sa <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Gusto mong bang ipilit ang HDR output?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Bilang default, ipipilit sa <xliff:g id="HDR_TYPE">%s</xliff:g> ang conversion."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Gagana ang iyong display sa 1080p 60Hz resolution. Hindi compatible ang opsyong ito sa iyong display kapag gumagana sa 4k 60Hz resolution."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Hindi sinusuportahan ang Dolby Vision sa kasalukuyang resolution. Kung manual mong ie-enable ang Dolby Vision, magiging 1080p 60Hz ang resolution ng iyong display"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Gawing 1080p 60Hz ang resolution?"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Palaging ipilit ang conversion sa Dolby Vision"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Kung naka-disable sa Mga HDR Format sa Advanced na Mga Setting ng Display ang Dolby Vision, mae-enable ulit ito ng pagpilit ng conversion sa Dolby Vision."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Palaging ipilit ang conversion sa HDR10"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"Kung naka-disable sa Mga HDR Format sa Advanced na Mga Setting ng Display ang HDR10, mae-enable ulit ito ng pagpilit ng conversion sa HDR10."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"Palaging ipilit ang conversion sa HLG"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"Kung naka-disable sa Mga HDR Format sa Advanced na Mga Setting ng Display ang HLG, mae-enable ulit ito ng pagpilit ng conversion sa HLG."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"Palaging ipilit ang conversion sa HDR10+"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Kung naka-disable sa Mga HDR Format sa Advanced na Mga Setting ng Display ang HDR10+, mae-enable ulit ito ng pagpilit ng conversion sa HDR10+."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Palaging ipilit ang conversion sa SDR"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"Madi-disable ng pagpilit ng conversion sa SDR ang lahat ng format sa Mga HDR Format sa Advanced na Mga Setting ng Display."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Itugma ang frame rate ng content"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Seamless"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Seamless lang"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Kung hihingin ito ng app, itutugma ng iyong device ang output nito sa orihinal na frame rate ng content na pinapanood mo, pero sa kaso LANG na makakagawa ng seamless na transition ang iyong TV."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Hindi sinusuportahan ng naikonekta mong display ang mga transition na may seamless na refresh rate. Walang magiging epekto ang opsyong ito maliban kung lilipat ka sa display na sinusuportahan ito."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Hindi seamless"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Palagi"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Kung hihingin ito ng app, itutugma ng iyong device ang output nito sa orihinal na frame rate ng content na pinapanood mo. Posibleng maging sanhi nito ng pagblangko ng iyong screen nang isang segundo kapag lumalabas o pumapasok sa video na playback."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Hindi Kailanman"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Kahit na hingin ito ng app, hindi kailanman susubukan ng iyong device na itugma ang output nito sa orihinal na frame rate ng content na pinapanood mo."</string>
@@ -164,7 +194,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Sample na text"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"The Wonderful Wizard of Oz"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Kabanata 11: The Wonderful Emerald City of Oz"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Kahit na pinoprotektahan ng kulay berdeng salamin ang kanilang mga mata, nasilaw si Dorothy at ang kanyang mga kaibigan sa kislap ng kamangha-manghang Lungsod. Nakalinya sa kalsada ang magagandang bahay na gawa sa berdeng marmol at punung-puno ng mga kumikinang na esmeralda. Naglakad sila sa kalsadang gawa rin sa berdeng marmol, may mga esmeraldang nakalagay nang magkakalapit at nakapila kung saan magkadikit ang mga bloke, at kumukutikutitap ang mga ito sa ningning ng araw. Gawa sa kulay berdeng salamin ang mga bintana; may tint na berde maging ang langit sa itaas ng Lungsod, at kulay berde ang mga sinag ng araw. \n\nMaraming tao roon, mga lalaki, babae, at bata, naglalakad-lakad, at nakasuot lahat sila ng mga damit na kulay berde at kulay berde rin ang mga balat nila. Namamangha nilang tiningnan si Dorothy at ang mga kasama niyang kakaiba ang pagkakasari-sari, at tumakbo palayo at nagtago sa likod ng mga nanay nila ang mga bata noong nakita nila ang Leon; ngunit walang kumausap sa kanila. Maraming tindahan ang nakatayo sa kalsada, at nakita ni Dorothy na kulay berde ang lahat ng paninda. Berdeng kendi at berdeng pop-corn ang inaalok para bilhin, pati na rin ang iba\'t ibang uri ng mga berdeng sapatos, berdeng sumbrero at berdeng damit. Sa isang lugar, may lalaking nagtitinda ng berdeng limonada, at kapag bumibili nito ang mga bata, nakikita ni Dorothy na berdeng barya ang ipinambabayad nila. \n\nTila walang kabayo o anumang uri ng hayop doon; dinadala ng mga lalaki ang mga bagay-bagay sa maliliit na berdeng kariton, na itinutulak nila sa kanilang harapan. Mukhang masaya, kuntento at masagana ang lahat."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Sa simula, manghang-mangha sina Dorothy at ang kanyang mga kaibigan sa kinang ng magandang Lungsod kahit na may suot silang mga berdeng salamin. May nakatayong magagandang bahay sa mga kalye. Lahat ng bahay ay gawa sa berdeng marmol at puno ng mga kumikinang na emerald ang lahat ng bahagi nito. Naglakad sila sa isang sementadong daang gawa rin sa berdeng marmol, kung saan ang mga pinagsama-samang bloke ay binubuo ng tumpok-tumpok na emerald na kumikinang sa tuwing tinatamaan ng sinag ng araw. Gawa sa berdeng salamin ang mga bintana; kahit ang kalangitan sa Lungsod ay kulay berde rin, gayundin ang mga sinag ng araw. \n\nNapakaraming tao, lalaki, babae, at bata na palakad-lakad, at lahat sila\'y nakasuot ng mga berdeng damit. Berde rin ang kulay ng kanilang mga balat. Tiningnan nila si Dorothy at ang kakaiba niyang mga kasama nang puno ng pagtataka. Nagsitakbuhan papalayo at nagtago sa likod ng kanilang mga nanay ang mga bata nang makita nila ang Leon; pero walang sinumang nakipag-usap sa kanila. Maraming tindahan sa kalye, at nakita ni Dorothy na kulay berde ang lahat ng nasa loob ng mga ito. May mga ibinebentang berdeng candy at popcorn, at mayroon ding lahat ng klaseng berdeng sapatos, sumbrero, at damit. Sa isang tindahan, may lalaking nagtitinda ng berdeng lemonade, at nang bumili ang mga bata roon ay nakita ni Dorothy na nagbayad sila gamit ang mga berdeng barya. \n\nMukhang walang kabayo o anumang uri ng hayop; binubuhat ng mga lalaki ang mga bagay gamit ang maliliit na berdeng karitong itinutulak nila. Mukhang masaya, kuntento, at masagana ang lahat ng tao."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Pagpipilian ng format"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Awtomatiko"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manual"</string>
@@ -191,11 +221,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Gawing %1$s ang resolution?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Piliin ang OK para gamitin ang %1$s mula ngayon."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Hindi sinusuportahan ang Dolby Vision sa %1$s at idi-disable ito sa \"Mga Advanced na Setting ng Display\""</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Sinusuportahan ng mode na ito ang %1$s. Sa ilang TV, posibleng kailanganin mong i-on ang Pinahusay na HDMI para mag-enable ng higit pang HDR format. Tingnan ang mga setting ng iyong TV para alamin kung sinusuportahan ito."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Sinusuportahan ng mode na ito ang: %1$s\nSa ilang TV, posibleng kailanganin mong i-on ang Pinahusay na HDMI para mag-enable ng higit pang HDR format. Tingnan ang mga setting ng iyong TV para alamin kung sinusuportahan ito."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Kanselahin"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"I-clear ang naka-cache na data?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"I-clear nito ang naka-cache na data para sa app."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -250,6 +280,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Nakakonekta"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Nadiskonekta"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Wala kang pahintulot na palitan ang mga setting ng Bluetooth."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Gamitin para sa audio ng TV"</string>
     <string name="send_feedback" msgid="936698637869795473">"Magpadala ng feedback"</string>
     <string name="launch_help" msgid="2607478763131952469">"Help Center"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -316,8 +347,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Ang device na ito ay pinamamahalaan ng iyong organisasyon."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Pinamamahalaan ng <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> ang device na ito."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Matuto pa"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Camera app}one{Mga Camera app}other{Mga Camera app}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"App na Kalendaryo"</string>
@@ -340,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google legal"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Hindi available ang data ng lisensya"</string>
     <string name="about_model" msgid="9164284529291439296">"Modelo"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Device Mode"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Demo sa Tindahan"</string>
     <string name="about_version" msgid="6223547403835399861">"Bersyon ng Android TV OS"</string>
     <string name="about_serial" msgid="3432319328808745459">"Serial number"</string>
     <string name="about_build" msgid="8467840394761634575">"Build ng Android TV OS"</string>
@@ -407,6 +439,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Koneksyon sa internet"</string>
     <string name="connected" msgid="4981532275162345997">"Nakakonekta"</string>
     <string name="not_connected" msgid="475810896484271663">"Hindi nakakonekta"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Walang Internet"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Na-save"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Maling password"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"Masyadong maikli ang password ng Wi-Fi"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Kailangang mag-sign in"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Iba pang pagpipilian"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Tingnan lahat"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Tumingin ng mas kaunti"</string>
@@ -673,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"I-enable ang shortcut sa pagiging accessible"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Serbisyo ng shortcut"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kapag naka-on ang shortcut, puwede mong pindutin nang 3 segundo ang parehong button na bumalik at button na pababa nang 3 segundo para magsimula ng feature ng pagiging accessible."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Tagal ng pag-aksyon"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Tagal ng pag-aksyon (Timeout ng accessibility)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Timing"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Wala sa lahat ng app ang timing preference na ito."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Mga Caption"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Mga setting para sa text overlay para sa paglalagay ng mga nakasarang caption sa video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Display"</string>
@@ -715,7 +756,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"I-enable"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Configuration"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Gamitin ang <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"Makokolekta ng <xliff:g id="SERVICE">%1$s</xliff:g> ang lahat ng tekstong tina-type mo, bukod sa mga password. Kasama dito ang personal na data gaya ng mga numero ng credit card."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"Magagawa ng <xliff:g id="SERVICE">%1$s</xliff:g> na mabasa ang iyong screen, magpakita ng content sa ibabaw ng ibang app, subaybayan ang mga pakikipag-ugnayan mo sa ibang app o hardware sensor, at makipag-ugnayan sa mga app para sa iyo."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Ihinto ang <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Ang pagpili sa OK ay magpapahinto sa <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Text to speech"</string>
@@ -874,6 +915,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"I-customize ang mga paghihigpit"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Sandali lang…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Palitan ang pin"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Gumawa ng restricted profile?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Nagawa Na"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Laktawan"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Gumawa ng PIN"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Pumasok sa restricted profile?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Walang restricted profile"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Nailagay na"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Maa-access ng app na ito ang iyong mga account. Kinokontrol ng <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Ilagay ang PIN upang mapanood ang channel na ito"</string>
@@ -889,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Piliin ang <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> para magpatuloy."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Tapos na"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Matagumpay na nakakonekta"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Matagumpay na na-save"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Bersyon <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Buksan"</string>
@@ -934,9 +984,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Pakikumpirma para mapigilan ang pag-off ng display habang nanonood, na posibleng makapagpataas ng paggamit ng kuryente."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Kapag hindi aktibo"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Kapag nanonood"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Awtomatikong i-off ang TV"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Awtomatikong i-off ang TV kapag hindi aktibo"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Awtomatikong i-off ang TV kapag nanonood"</string>
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Awtomatikong i-off"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Awtomatikong i-off kapag hindi aktibo"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Awtomatikong i-off kapag nanonood"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"Mas maikli dapat ang timer ng \"Kapag hindi aktibo\" kaysa sa timer ng \"Kapag nanonood\""</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"Mas matagal dapat sa timer ng \"Kapag hindi aktibo\" ang timer ng \"Kapag nanonood\""</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Limitahan ang koneksyon ng network sa standby"</string>
@@ -1036,10 +1086,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"(Mga) recorded microphone"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Hindi nasimulan ang pag-record ng audio."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Hindi na-record ang audio."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Data Saver"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Awtomatikong isaayos ang kalidad ng video para sa mas kaunting mobile data"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Paggamit ng data at mga alerto"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Puwede kang kumonekta sa internet gamit ang Wi-Fi, Ethernet, o hotspot ng iyong telepono."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Gawing nakikita sa iba pang Bluetooth device?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Gusto ng isang app na gawing nakikita ng iba pang Bluetooth device ang iyong TV sa loob ng <xliff:g id="TIMEOUT">%1$d</xliff:g> (na) segundo."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1080,6 +1126,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Nakakonekta na"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Ipakita lahat"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Naghahanap"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Hindi nakuha ang intent na magdagdag ng account mula sa authenticator."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Hindi naidagdag ang account o hindi available ang uri ng account."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Mga Channel at Input"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Mga channel, external na input"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Mga Channel"</string>
@@ -1091,5 +1139,19 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Power at Kuryente"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Gawi sa pag-on"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"I-reset"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Telebisyon"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Code ng pagpapares ng Ethernet"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Mga Energy Mode"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Naaapektuhan ng mga setting na ito ang device kapag hindi ginagamit"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Ine-enable ang:"</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Puwedeng tumaas ang pagkonsumo ng kuryente sa dami ng mga feature ng TV na ie-enable mo."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"I-enable ang \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Hanapin ang remote ko"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Mag-play ng tunog para mahanap ang remote ng iyong Google TV kung nawawala ito"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"May button sa iyong Google TV na mapipindot mo para mag-play ng tunog sa iyong remote nang 30 segundo. Gumagana lang ito sa mga sinusuportahang remote control ng Google TV.\n\nPara itigil ang tunog, pumindot ng kahit anong button sa iyong remote."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kapag naka-enable ang Hanapin ang remote ko, puwede kang mag-play ng tunog para mahanap ang iyong Google TV remote kung nawawala ito."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"I-play ang tunog"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volume"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Puwede mong kontrolin ang volume ng Assistant sa %1$s speaker"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Naaapektuhan lang ang volume sa %1$s device , hindi sa TV"</string>
 </resources>

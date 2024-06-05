@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personal"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Conectează-te la rețea"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Adaugă un cont"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Conturi și conectare"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Conturi și profiluri"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Niciun cont"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# cont}few{# conturi}other{# de conturi}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Servicii media, Asistent, Plăți"</string>
@@ -60,11 +60,13 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Confidențialitate"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Setările dispozitivului"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Setările contului"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Blocarea dispozitivului"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Asistentul Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Plată și achiziții"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Setările aplicației"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Locație, Utilizare și diagnosticare, Anunțuri"</string>
     <string name="add_account" msgid="7386223854837017129">"Adaugă un cont"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Cont necunoscut"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Elimină contul"</string>
     <string name="account_sync" msgid="4315295293211313989">"Alege aplicații sincronizate"</string>
     <string name="sync_now" msgid="4335217984374620551">"Sincronizează acum"</string>
@@ -84,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet conectat"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Nicio rețea conectată"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi este dezactivat"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Deconectează cablul Ethernet ca să folosești Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Scanare mereu disponibilă"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Permite serviciului de localizare Google și altor aplicații să caute rețele, chiar dacă rețeaua Wi-Fi este dezactivată"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Scanare mereu disponibilă, Permite Serviciului de localizare Google și altor aplicații să caute rețele, chiar dacă funcția Wi-Fi este dezactivată"</string>
@@ -100,7 +103,7 @@
     <string name="all_apps_installed" msgid="8217778476185598971">"Aplicații instalate"</string>
     <string name="all_apps_other" msgid="4420174882983813158">"Aplicații de sistem"</string>
     <string name="all_apps_disabled" msgid="2776041242863791053">"Aplicații dezactivate"</string>
-    <string name="device_daydream" msgid="2631191946958113220">"Economizor de ecran"</string>
+    <string name="device_daydream" msgid="2631191946958113220">"Screensaver"</string>
     <string name="device_display" msgid="244634591698925025">"Afișaj"</string>
     <string name="device_display_sound" msgid="7399153506435649193">"Afișare și sunet"</string>
     <string name="device_sound" msgid="8616320533559404963">"Sunet"</string>
@@ -112,8 +115,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Creează și restabilește copii de rezervă"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Revenire la setările din fabrică"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Calibrare"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"Alimentare și energie"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"Setări Eco"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Oprește temporizatorul"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Setează temporizatoare pentru a închide televizorul și a economisi energie"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Dispozitive"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Selectează formatele"</string>
@@ -151,11 +154,38 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Setări de sunet avansate"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Permite modul de joc"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Intervalul dinamic al conținutului recomandat"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Când activezi opțiunea, sistemul va comuta între diferite formate de intervale dinamice, în funcție de conținut Acest lucru poate provoca un ecran negru la comutarea formatului.\n\nDă clic pe Setări de afișare avansate pentru mai multe opțiuni de interval dinamic."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Intervalul dinamic preferat"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversie preferată de sistem"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Permite ca sistemul să gestioneze conversia formatului"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Când se selectează opțiunea, sistemul va stabili un interval dinamic potrivit de trimis spre ecran și va converti conținutul în acest interval dinamic după caz."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Corespunde întotdeauna cu formatul conținutului"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forțează conversia"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Forțează conversia în formatul preferat"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Forțează conversia într-un format preferat. Forțarea conversiei poate afecta alte setări în Modul Display sau în format HDR."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Întotdeauna în SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Întotdeauna în <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Forțezi ieșirea HDR?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"În mod prestabilit, conversia va fi forțată să <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Ecranul va folosi rezoluția de 1080p 60 Hz. Opțiunea nu este compatibilă cu ecranul când rulează la rezoluție 4k 60 Hz."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision nu este acceptat la rezoluția actuală. Dacă activezi manual Dolby Vision, rezoluția ecranului se va schimba la 1080p 60 Hz"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Schimbi rezoluția la 1080p 60 Hz?"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Forțează întotdeauna conversia la Dolby Vision"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Dacă Dolby Vision este dezactivat în Formatele HDR din Setările de afișare avansate, forțarea conversiei la Dolby Vision îl va reactiva."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Forțează întotdeauna conversia la HDR10"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"Dacă HDR10 este dezactivat în Formatele HDR din Setările de afișare avansate, forțarea conversiei la HDR10 îl va reactiva."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"Forțează întotdeauna conversia la HLG"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"Dacă HLG este dezactivat în Formatele HDR din Setările de afișare avansate, forțarea conversiei la HLG îl va reactiva."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"Forțează întotdeauna conversia la HDR10+"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Dacă HDR10+ este dezactivat în Formatele HDR din Setările de afișare avansate, forțarea conversiei la HDR10+ îl va reactiva."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Forțează întotdeauna conversia la SDR"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"Forțarea conversiei la SDR va dezactiva toate formatele din Formate HDR din Setări de afișare avansate."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Potrivește cu rata de cadre a conținutului"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Perfectă"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Exclusiv fără întreruperi"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Dacă aplicația solicită acest lucru, dispozitivul își va potrivi ieșirea cu rata de cadre inițială a conținutului pe care îl vizionezi NUMAI dacă televizorul poate face o tranziție perfectă."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Ecranul conectat nu acceptă tranzițiile fluide privind rata de actualizare. Opțiunea nu va avea niciun efect dacă nu treci la un ecran care o acceptă."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Imperfectă"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Întotdeauna"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Dacă aplicația solicită acest lucru, dispozitivul își va potrivi ieșirea cu rata de cadre inițială a conținutului pe care îl vizionezi. Aceasta poate face ca ecranul să se golească timp de o secundă când se termină sau începe redarea unui clip."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Niciodată"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Chiar dacă aplicația solicită acest lucru, dispozitivul nu va încerca niciodată să își potrivească ieșirea cu rata de cadre inițială a conținutului pe care îl vizionezi."</string>
@@ -164,7 +194,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Exemplu de text"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Minunatul Vrăjitor din Oz"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Capitolul 11: Minunatul Oraș de Smarald Oz"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Deși purtau ochelarii verzi, Dorothy și prietenii ei fură la început orbiți de strălucirea minunatei cetăți. De-a lungul străzilor se înșiruiau case frumoase din marmură verde, încrustate pretutindeni cu smaralde scânteietoare. Mergeau pe un caldarâm tot din marmură verde, iar în locurile unde blocurile de marmură erau lipite laolaltă, se aflau, unul lângă altul, șiruri de smaralde care străluceau în razele soarelui. Geamurile erau din sticlă verde. Chiar și cerul de deasupra Cetății avea o nuanță verde, iar razele soarelui erau verzui. \n\nPe străzi se plimba multă lume – bărbați, femei și copii – și cu toții erau îmbrăcați în verde și aveau pielea verzuie. Se uitau uimiți la Dorothy și la neobișnuita ei ceată, iar copiii fugeau în toate părțile când îl vedeau pe Leu și se ascundeau în spatele mamelor lor. Însă nimeni nu vorbea cu ei. Pe străzi erau multe dughene, iar Dorothy observă că în ele totul era verde. Se vindeau bomboane verzi și floricele de porumb verde, pantofi verzi, pălării verzi și haine verzi de tot soiul. Într-un loc, cineva vindea limonadă verde, iar niște copii tocmai cumpărau și Dorothy văzu că plăteau cu bănuți verzi. \n\nNu păreau să existe nici cai, nici alte animale. În schimb, oamenii își cărau lucrurile în niște cărucioare verzi, pe care tot ei le împingeau. Cu toții păreau să emane o stare de fericire, de mulțumire și bunăstare."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Deși purtau ochelarii verzi, Dorothy și prietenii ei fură la început orbiți de strălucirea minunatei cetăți. De-a lungul străzilor se înșiruiau case frumoase din marmură verde, încrustate pretutindeni cu smaralde scânteietoare. Mergeau pe un caldarâm tot din marmură verde, iar în locurile unde blocurile de marmură erau lipite laolaltă, se aflau, unul lângă altul, șiruri de smaralde care străluceau în razele soarelui. Geamurile erau din sticlă verde. Chiar și cerul de deasupra Cetății avea o nuanță verde, iar razele soarelui erau verzui. \n\nPe străzi se plimba multă lume – bărbați, femei și copii – și cu toții erau îmbrăcați în verde și aveau pielea verzuie. Se uitau uimiți la Dorothy și la neobișnuita ei ceată, iar copiii fugeau în toate părțile când îl vedeau pe Leu și se ascundeau în spatele mamelor lor. Însă nimeni nu vorbea cu ei. Pe străzi erau multe dughene, iar Dorothy observă că în ele totul era verde. Se vindeau bomboane verzi și floricele de porumb verde, pantofi verzi, pălării verzi și haine verzi de tot soiul. Într-un loc, cineva vindea limonadă verde, iar niște copii tocmai cumpărau și Dorothy văzu că plăteau cu bănuți verzi. \n\nNu păreau să existe nici cai, nici alte animale. În schimb, oamenii își cărau lucrurile în niște cărucioare verzi, pe care tot ei le împingeau. Cu toții păreau să emane o stare de fericire, de mulțumire și bunăstare."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Selectarea formatului"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automată"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manuală"</string>
@@ -191,11 +221,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Schimbi rezoluția la %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Selectează OK pentru a folosi %1$s de acum înainte"</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision nu este acceptat la %1$s și va fi dezactivat în Setări de afișare avansate"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Acest mod acceptă %1$s. Pe unele televizoare poate fi nevoie să activezi HDMI îmbunătățit ca să accepte mai multe formate HDR. Verifică setările televizorului ca să vezi dacă opțiunea este acceptată."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Acest mod acceptă: %1$s\nPe unele televizoare poate fi nevoie să activezi HDMI îmbunătățit ca să accepte mai multe formate HDR. Verifică setările televizorului ca să vezi dacă opțiunea este acceptată."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Anulează"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Ștergi datele memorate în cache?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Datele din cache ale aplicațiilor vor fi șterse."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -250,6 +280,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Conectat"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Deconectat"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Nu ai permisiunea de a modifica setările Bluetooth."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Folosește pentru conținut audio de la TV"</string>
     <string name="send_feedback" msgid="936698637869795473">"Trimite feedback"</string>
     <string name="launch_help" msgid="2607478763131952469">"Centrul de ajutor"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -316,8 +347,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Acest dispozitiv este gestionat de organizația ta."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Acest dispozitiv este gestionat de <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" U+2060"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Află mai multe"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Aplicația Cameră foto}few{Aplicațiile Cameră foto}other{Aplicațiile Cameră foto}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Aplicația Calendar"</string>
@@ -340,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Aspecte juridice Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Datele despre licență nu sunt disponibile"</string>
     <string name="about_model" msgid="9164284529291439296">"Model"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Modul dispozitiv"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Versiune demonstrativă pentru magazin"</string>
     <string name="about_version" msgid="6223547403835399861">"Versiunea SO Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"Număr de serie"</string>
     <string name="about_build" msgid="8467840394761634575">"Versiunea SO Android TV"</string>
@@ -407,6 +439,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Conexiune de internet"</string>
     <string name="connected" msgid="4981532275162345997">"Conectată"</string>
     <string name="not_connected" msgid="475810896484271663">"Neconectat"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Nu există conexiune la internet"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Salvată"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Parolă greșită"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"Parola rețelei Wi-Fi este prea scurtă"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Trebuie să te conectezi"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Alte opțiuni"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Afișează tot"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Afișează mai puține"</string>
@@ -673,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Activează comanda rapidă pentru accesibilitate"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Serviciul comenzii rapide"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Când comanda rapidă este activată, dacă apeși ambele butoane înapoi și în jos timp de 3 secunde, vei lansa o funcție de accesibilitate."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Timp de reacție"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Timp de reacție (timp limită de accesibilitate)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Timp"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Această preferință pentru durată nu e acceptată de toate aplicațiile"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Subtitrări"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Setări pentru suprapunerea textului subtitrării pe videoclip"</string>
     <string name="captions_display" msgid="2598662495450633375">"Afișare"</string>
@@ -715,7 +756,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Activează"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Configurare"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Utilizezi <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> poate culege tot textul pe care îl introduci, cu excepția parolelor. Aceasta include date personale, cum ar fi numerele cardurilor de credit."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> va putea să citească ce este pe ecran, să afișeze conținut peste alte aplicații, să urmărească interacțiunile tale cu aplicațiile sau senzorii hardware și să interacționeze cu aplicațiile în numele tău."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Oprești <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Selectând OK vei opri <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Transformarea textului în vorbire"</string>
@@ -874,6 +915,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Personalizează restricții"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Un moment…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Schimbă codul PIN"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Creezi un profil limitat?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Deja creat"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Omite"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Creează un PIN"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Intri în profilul limitat?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Niciun profil limitat"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Deja introdus"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Această aplicație îți poate accesa conturile. Este controlată de <xliff:g id="APP">%1$s</xliff:g>."</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Introdu codul PIN pentru a viziona acest canal"</string>
@@ -889,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Selectează <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> pentru a continua."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Gata"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Te-ai conectat"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Configurație salvată"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versiunea <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Deschide"</string>
@@ -920,7 +970,7 @@
     <string name="settings_on" msgid="7734010120323404333">"Activat"</string>
     <string name="settings_off" msgid="4060451657850476369">"Dezactivat"</string>
     <string name="device_daydreams_none" msgid="3405655350757277348">"Dezactivează ecranul"</string>
-    <string name="device_daydreams_select" msgid="7203264446482623438">"Economizor de ecran"</string>
+    <string name="device_daydreams_select" msgid="7203264446482623438">"Screensaver"</string>
     <string name="device_daydreams_test" msgid="7828275397550076567">"Începe acum"</string>
     <string name="device_daydreams_sleep" msgid="6847770718407377357">"Când pornește"</string>
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"Economizorul de ecran începe după această perioadă de inactivitate. Dacă nu este selectat niciun economizor de ecran, ecranul se va dezactiva."</string>
@@ -934,9 +984,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Confirmă pentru a împiedica închiderea ecranului în timpul vizionării. Această acțiune are potențial de utilizare sporită a energiei."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Când dispozitivul este inactiv"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Când vizionezi"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Oprește automat televizorul"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Oprește automat televizorul când este inactiv"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Oprește automat televizorul când vizionezi"</string>
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Dezactivează automat"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Dezactivează automat când este inactiv"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Dezactivează automat când urmărești"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"Temporizatorul Când dispozitivul este inactiv trebuie să aibă o valoare mai mică decât temporizatorul Când vizionezi"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"Temporizatorul Când vizionezi trebuie să aibă o valoare mai mare decât temporizatorul Când dispozitivul este inactiv"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Limitează conexiunea la rețea în standby"</string>
@@ -1036,10 +1086,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Microfoane înregistrate"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Înregistrarea audio nu a pornit."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Nu s-a înregistrat conținutul audio."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Economizor de date"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Ajustează automat calitatea video pentru a folosi mai puține date mobile"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Utilizarea datelor și alerte"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Poți să te conectezi la internet prin Wi-Fi, Ethernet sau hotspotul telefonului."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Faci dispozitivul vizibil pentru alte dispozitive Bluetooth?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"O aplicație încearcă să facă televizorul vizibil pentru alte dispozitive Bluetooth timp de <xliff:g id="TIMEOUT">%1$d</xliff:g> secunde."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1080,6 +1126,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Conectare reușită"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Afișează-le pe toate"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Se caută"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Nu s-a putut prelua intenția de adăugare a contului de la instrumentul de autentificare."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Nu s-a putut adăuga contul sau tipul de cont nu este disponibil."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Canale și intrări"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Canale, intrări externe"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Canale"</string>
@@ -1091,5 +1139,19 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Alimentare și energie"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Comportament la pornire"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Resetează"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televiziune"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Codul de conectare prin Ethernet"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Moduri de energie"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Aceste setări afectează dispozitivul când nu este în uz"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Activează:"</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Consumul de energie poate spori cu numărul de funcții TV activate."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Activează <xliff:g id="ENERGYMODENAME">%s</xliff:g>"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Găsește-mi telecomanda"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Redă un sunet ca să-ți găsești telecomanda Google TV dacă ai pierdut-o"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Există un buton pe Google TV pe care îl poți apăsa ca să redai un sunet pe telecomandă timp de 30 de secunde. Opțiunea funcționează numai pentru telecomenzile Google TV acceptate.\n\nCa să oprești sunetul, apasă orice buton de pe telecomandă."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Când se activează funcția Găsește-mi telecomanda, poți reda un sunet ca să-ți găsești telecomanda Google TV dacă ai pierdut-o."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Redă sunetul"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volumul pentru %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Poți controla volumul Asistentului la difuzorul %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Afectează numai volumul dispozitivului %1$s, nu și al televizorului"</string>
 </resources>

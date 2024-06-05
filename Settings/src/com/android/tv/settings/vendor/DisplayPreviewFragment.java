@@ -49,6 +49,7 @@ public class DisplayPreviewFragment extends SettingsPreferenceFragment implement
         DisplayManager.DisplayListener {
     private DisplayManager mDisplayManager;
     private Display.Mode mCurrentMode = null;
+    private Display mDisplay = null;
     private static final String KEY_RESOLUTION_TITLE = "resolution_selection";
     private static final String KEY_MATCH_CONTENT_FRAME_RATE = "match_content_frame_rate";
     private static final String KEY_RESOLUTION_SELECTION = "resolution_selection";
@@ -69,9 +70,8 @@ public class DisplayPreviewFragment extends SettingsPreferenceFragment implement
             );
         }
         mDisplayManager = getDisplayManager();
-        Display display = mDisplayManager.getDisplay(Display.DEFAULT_DISPLAY);
-        if (display.getSystemPreferredDisplayMode() != null) {
-            mDisplayManager.registerDisplayListener(this, null);
+        mDisplay = mDisplayManager.getDisplay(Display.DEFAULT_DISPLAY);
+        if (mDisplay.getSystemPreferredDisplayMode() != null) {
             mCurrentMode = mDisplayManager.getGlobalUserPreferredDisplayMode();
             updateResolutionTitleDescription(ResolutionSelectionUtils.modeToString(
                     mCurrentMode, getContext()));
@@ -115,9 +115,18 @@ public class DisplayPreviewFragment extends SettingsPreferenceFragment implement
     public boolean onPreferenceTreeClick(Preference preference) {
         if (TextUtils.equals(preference.getKey(), KEY_DYNAMIC_RANGE)) {
             final SwitchPreference dynamicPref = (SwitchPreference) preference;
-            setMatchContentDynamicRangeStatus(mDisplayManager, dynamicPref.isChecked());
+            setMatchContentDynamicRangeStatus(
+                    getContext(), mDisplayManager, dynamicPref.isChecked());
         }
         return super.onPreferenceTreeClick(preference);
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        if (mDisplay.getSystemPreferredDisplayMode() != null) {
+            mDisplayManager.registerDisplayListener(this, null);
+        }
     }
 
     @Override
@@ -127,6 +136,14 @@ public class DisplayPreviewFragment extends SettingsPreferenceFragment implement
             dynamicRangePreference.setChecked(getMatchContentDynamicRangeStatus(mDisplayManager));
         }
         super.onResume();
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
+        if (mDisplay.getSystemPreferredDisplayMode() != null) {
+            mDisplayManager.unregisterDisplayListener(this);
+        }
     }
 
     private void updateResolutionTitleDescription(String summary) {

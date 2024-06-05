@@ -20,6 +20,7 @@ import static android.hardware.display.HdrConversionMode.HDR_CONVERSION_FORCE;
 import static android.view.Display.HdrCapabilities.HDR_TYPE_INVALID;
 
 import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.isHdrFormatSupported;
+import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.sendHdrSettingsChangedBroadcast;
 import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_CLASSIC;
 
 import android.content.Context;
@@ -110,6 +111,7 @@ public class PreferredDynamicRangeFragment  extends SettingsPreferenceFragment {
             switch (key) {
                 case KEY_DYNAMIC_RANGE_SELECTION_SYSTEM: {
                     selectSystemPreferredConversion();
+                    sendHdrSettingsChangedBroadcast(getContext());
                     showPreferredDynamicRangeRadioPreference(false);
                     break;
                 }
@@ -121,6 +123,7 @@ public class PreferredDynamicRangeFragment  extends SettingsPreferenceFragment {
                     mHdrConversionMode =
                             new HdrConversionMode(HdrConversionMode.HDR_CONVERSION_PASSTHROUGH);
                     mDisplayManager.setHdrConversionMode(mHdrConversionMode);
+                    sendHdrSettingsChangedBroadcast(getContext());
                     showPreferredDynamicRangeRadioPreference(false);
                     break;
                 }
@@ -129,6 +132,7 @@ public class PreferredDynamicRangeFragment  extends SettingsPreferenceFragment {
                             != HdrConversionMode.HDR_CONVERSION_FORCE) {
                         selectSystemPreferredConversion();
                         selectForceHdrConversion(mDisplayManager);
+                        sendHdrSettingsChangedBroadcast(getContext());
                         mHdrConversionMode = mDisplayManager.getHdrConversionModeSetting();
                         showPreferredDynamicRangeRadioPreference(true);
                     }
@@ -191,7 +195,7 @@ public class PreferredDynamicRangeFragment  extends SettingsPreferenceFragment {
 
     static void selectForceHdrConversion(DisplayManager displayManager) {
         Display display = displayManager.getDisplay(Display.DEFAULT_DISPLAY);
-        int systemPreferredType = displayManager.getHdrConversionModeSetting()
+        int systemPreferredType = displayManager.getHdrConversionMode()
                 .getPreferredHdrOutputType();
         if (!isHdrFormatSupported(display.getMode(), systemPreferredType)) {
             displayManager.setHdrConversionMode(

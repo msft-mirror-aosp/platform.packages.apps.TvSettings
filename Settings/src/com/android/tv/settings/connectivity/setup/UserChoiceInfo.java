@@ -24,6 +24,8 @@ import android.util.ArrayMap;
 import androidx.annotation.IntDef;
 import androidx.lifecycle.ViewModel;
 
+import com.android.wifitrackerlib.WifiEntry;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.HashMap;
@@ -49,11 +51,12 @@ public class UserChoiceInfo extends ViewModel {
     private HashMap<Integer, Integer> mChoiceSummary = new HashMap<>();
     private WifiConfiguration mWifiConfiguration = new WifiConfiguration();
     private int mWifiSecurity;
-    private ScanResult mChosenNetwork;
     private String mConnectedNetwork;
-    private boolean mIsPasswordHidden = false;
+    private boolean mIsPasswordHidden = true;
     private ConnectionFailedStatus mConnectionFailedStatus;
     private int mEasyConnectNetworkId = -1;
+    private WifiEntry wifiEntry;
+    private boolean mIsAlreadyConnected;
 
     /**
      * Store the page summary into a HashMap.
@@ -115,16 +118,6 @@ public class UserChoiceInfo extends ViewModel {
     /**
      * Get {@link ScanResult} of the chosen network.
      */
-    public ScanResult getChosenNetwork() {
-        return mChosenNetwork;
-    }
-
-    /**
-     * Set {@link ScanResult} of the chosen network.
-     */
-    public void setChosenNetwork(ScanResult result) {
-        mChosenNetwork = result;
-    }
 
     /**
      * Get {@link WifiConfiguration}
@@ -142,7 +135,7 @@ public class UserChoiceInfo extends ViewModel {
 
     /**
      * Get WifiSecurity category. The category value is defined in
-     * {@link com.android.settingslib.wifi.AccessPoint}
+     * {@link com.android.tv.settings.library.network.AccessPoint}
      */
     public int getWifiSecurity() {
         return mWifiSecurity;
@@ -152,7 +145,7 @@ public class UserChoiceInfo extends ViewModel {
      * Set WifiSecurity
      *
      * @param wifiSecurity WifiSecurity category defined in
-     *                     {@link com.android.settingslib.wifi.AccessPoint}.
+     *                     {@link com.android.tv.settings.library.network.AccessPoint}.
      */
     public void setWifiSecurity(int wifiSecurity) {
         this.mWifiSecurity = wifiSecurity;
@@ -202,6 +195,14 @@ public class UserChoiceInfo extends ViewModel {
         mConnectionFailedStatus = status;
     }
 
+    public WifiEntry getWifiEntry() {
+        return wifiEntry;
+    }
+
+    public void setWifiEntry(WifiEntry wifiEntry) {
+        this.wifiEntry = wifiEntry;
+    }
+
     /**
      * Initialize all the information.
      */
@@ -209,9 +210,7 @@ public class UserChoiceInfo extends ViewModel {
         mDataSummary = new HashMap<>();
         mWifiConfiguration = new WifiConfiguration();
         mWifiSecurity = 0;
-        mChosenNetwork = null;
-        mChosenNetwork = null;
-        mIsPasswordHidden = false;
+        mIsPasswordHidden = true;
     }
 
     public void setVisible(@PAGE int page, boolean visible) {
@@ -231,6 +230,14 @@ public class UserChoiceInfo extends ViewModel {
 
     public void setEasyConnectNetworkId(int easyConnectNetworkId) {
         mEasyConnectNetworkId = easyConnectNetworkId;
+    }
+
+    public boolean isAlreadyConnected() {
+        return mIsAlreadyConnected;
+    }
+
+    public void setIsAlreadyConnected(boolean isAlreadyConnected) {
+        mIsAlreadyConnected = isAlreadyConnected;
     }
 
     public enum ConnectionFailedStatus {

@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Жеке"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Желімен байланыс орнату"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Аккаунтты енгізу"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Аккаунттар және оларға кіру"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Аккаунттар және профильдер"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Аккаунттар жоқ"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# аккаунт}other{# аккаунт}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Медиа қызметтері, Assistant, Төлемдер"</string>
@@ -60,11 +60,13 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Құпиялық"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Құрылғы параметрлері"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Аккаунт параметрлері"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Құрылғыны құлыптау"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Төлем және сатып алу транзакциялары"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Қолданба параметрлері"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Локация, пайдалану дерегі және диагностика, жарнамалар"</string>
     <string name="add_account" msgid="7386223854837017129">"Аккаунт қосу"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Белгісіз аккаунт"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Аккаунтты жою"</string>
     <string name="account_sync" msgid="4315295293211313989">"Синхрондалған қолданбаларды таңдау"</string>
     <string name="sync_now" msgid="4335217984374620551">"Қазір синхрондау"</string>
@@ -84,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet қосылған"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Желі қосылмаған"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi өшірулі"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Wi-Fi-ды пайдалану үшін Ethernet-ті ажыратыңыз."</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Желілерді ылғи іздеу"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Google орынды анықтау қызметіне және басқа қолданбаларға желілерді тексеру мүмкіндігін беру (Wi-Fi өшірулі тұрса да)"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Желілерді кез келген уақытта тексеруге болады, Google орынды анықтау қызметіне және басқа қолданбаларға желілерді тексеру мүмкіндігін беру (Wi-Fi өшірулі тұрса да)"</string>
@@ -112,8 +115,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Сақтық көшірме жасау және қалпына келтіру"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Зауыттық деректерді қалпына келтіру"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Калибрлеу"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"Қуат және энергия"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"Eco параметрлері"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Өшіру таймері"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Теледидарды өшіру және энергияны үнемдеу үшін таймерлер орнату."</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Құрылғылар"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Форматтарды таңдау"</string>
@@ -151,11 +154,38 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Қосымша дыбыс параметрлері"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Ойын режиміне рұқсат ету"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Контенттің динамикалық ауқымын сәйкестендіру"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Бұл опция таңдалғанда, жүйе контентпен сәйкестену үшін әртүрлі динамикалық ауқым форматтары арасында ауысады. Формат ауысқанда, экран қараюы мүмкін.\n\nДинамикалық ауқымның басқа опцияларын көру үшін \"Қосымша дисплей параметрлері\" тармағын таңдаңыз."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Қажетті динамикалық ауқым"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Жүйеге қолайлы конверсия"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Жүйеге формат конверсиясын басқаруға рұқсат береді."</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Осы опция таңдалған кезде, жүйе дисплейге жіберілетін аралықты анықтайды және керегінше контентті осы динамикалық аралыққа түрлендіреді."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Әрқашан контенттің форматына сәйкес келеді."</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Мәжбүрлі конверсия"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Конверсияны мәжбүрлі түрле қолайлы форматқа орнатады."</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Қолайлы форматты мәжбүрлі конверсиялау Конверсяны мәжбүрлеу Display Mode немесе HDR фарматындағы басқа параметрлерге әсер етуі мүмкін"</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Әрқашан SDR-да"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Әрқашан <xliff:g id="HDR_TYPE">%s</xliff:g>-те"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"HDR шығысын мәжбүрлі түрде алғыңыз келе ме?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Әдепкі бойынша конверсия <xliff:g id="HDR_TYPE">%s</xliff:g> түрлендіруге мәжбүр болады."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Сіздің дисплейіңіз 1080p 60Hz ажыратымдылығында жұмыс жасайды. Бұл опция 4k 60Hz ажыратымдылығында жұмыс жасаған кезде дисплейніңізбен үйлесімді болмайды."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision қазіргі ажыратымдылықта қолжетімді емес. Егер сіз Dolby Vision форматын қолмен қоссаңыз, дисплейдің ажыратымдылығы 1080p 60 Гц өлшеміне дейін өзгереді."</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Ажыратымдылықты 1080p 60 Гц өлшеміне дейін өзгерту қажет пе?"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Dolby Vision форматына әрқашан күштеп түрлендіру"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Егер Dolby Vision форматы кеңейтілген дисплей параметрлеріндегі HDR форматтарында өшірілген болса, Dolby Vision форматына күштеп түрлендіру оны қайта қосады."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"HDR10 форматына әрқашан күштеп түрлендіру"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"Егер HDR10 форматы кеңейтілген дисплей параметрлеріндегі HDR форматтарында өшірілген болса, HDR10 форматына күштеп түрлендіру оны қайта қосады."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"HLG форматына әрқашан күштеп түрлендіру"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"Егер HLG форматы кеңейтілген дисплей параметрлеріндегі HDR форматтарында өшірілген болса, HLG форматына күштеп түрлендіру оны қайта қосады."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"HDR10+ форматына әрқашан күштеп түрлендіру"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Егер HDR10+ форматы кеңейтілген дисплей параметрлеріндегі HDR форматтарында өшірілген болса, HDR10+ форматына күштеп түрлендіру оны қайта қосады."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"SDR форматына әрқашан күштеп түрлендіру"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"SDR форматына күштеп түрлендіру кеңейтілген дисплей параметрлеріндегі HDR форматтарындағы барлық форматты өшіреді."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Контенттің кадр жиілігін сәйкестендіру"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Үздіксіз"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Тек үзіліссіз"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Теледидарыңыз үздіксіз тасымалдай алған жағдайда ҒАНА, қолданба сұраған кезде, құрылғыңыз өзінің шығыс кадр жиілігін көріп жатқан мазмұныңыздың түпнұсқа кадр жиілігіне сәйкестендіреді."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Жалғанған дисплейде жаңарту жиілігін біртіндеп өзгерту қарастырылмаған. Мұндай опция қолжетімді дисплейге ауыспайынша, ол қолданылмайды."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Кідіріспен"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Әрқашан"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Қолданба сұраған жағдайда, құрылғыңыз өзінің шығыс кадр жиілігін көріп жатқан мазмұныңыздың түпнұсқа кадр жиілігіне сәйкестендіреді. Мұндайда бейнені ойнату режимінен шығу немесе оған кіру кезінде экраныңыз бір сәтке өшіп қалуы мүмкін."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Ешқашан"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Тіпті қолданба сұраған жағдайда да, құрылғыңыз ешқашан өзінің шығыс кадр жиілігін көріп жатқан мазмұныңыздың түпнұсқа кадр жиілігіне сәйкестендіруге талпынбайды."</string>
@@ -164,7 +194,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Мәтін үлгісі"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Оз елінің ғажап сиқыршысы"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"11-тарау. Оз елінің Зүбаржат қаласы"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Жасыл көзілдірік таққан Дороти мен оның достары қалаға алғаш келгенде, оның ғажайып көркіне таңғалды. Әдемі жасыл мәрмәр үйлер көшені жағалай тізіліп тұр. Жер-көкте жарқыраған зүбаржат тастар шашылып жатқандай. Мәрмәр жол да дәл сондай жап-жасыл. Зүбаржат кірпіштен қаланған тұрғын үйлер күннен жарқырайды. Терезелердің әйнектері де жасыл шыныдан. Қала үстіндегі жасыл аспаннан жасыл түсті күн сәулесі түседі. \n\nКөшедегі ерлер де, әйелдер де, балалар да жасыл киім киіп алған. Олардың терілері де жасыл реңді екен. Адамдар Дороти мен оның әпенді достарына таңдана қарайды. Балалар Арыстанды көре сала қашып, аналарының артына тығылып жатыр. Сөйлесуге де ешкім батпайды ғой. Дороти көше бойында қаз-қатар тұрған дүкендердегі нәрселердің барлығы жасыл түсті екеніне тамсана қарайды. Кәмпит те, поп-корн да, аяқ киім де, қалпақтар да – барлығы жасыл еді. Бір кісі жасыл лимонад сатып тұр, балалар оны жасыл ақшаға сатып алып жатыр. \n\nМұнда жануарлар жоқ сияқты. Жүкті ер адамдар кішкене жасыл арбаға салып сүйреп барады. Бәрі бақытты, өмірлеріне дән риза."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Жасыл көзілдірік таққан Дороти мен оның достары қалаға алғаш келгенде, оның ғажайып көркіне таңғалды. Әдемі жасыл мәрмәр үйлер көшені жағалай тізіліп тұр. Жер-көкте жарқыраған зүбаржаттар шашылып жатқандай. Мәрмәр жол да дәл сондай жап-жасыл. Зүбаржат кірпіштен қаланған тұрғын үйлер күннен жарқырайды. Терезелердің әйнектері де жасыл шыныдан. Қала үстіндегі жасыл аспаннан жасыл түсті күн сәулесі түседі. \n\nКөшедегі ерлер де, әйелдер де, балалар да жасыл киім киіп алған. Олардың терілері де жасыл реңді екен. Адамдар Дороти мен оның әпенді достарына таңдана қарайды. Балалар Арыстанды көре сала қашып, аналарының артына тығылып жатыр. Сөйлесуге де ешкім батпайды ғой. Дороти көше бойында қаз-қатар тұрған дүкендердегі нәрселердің барлығы жасыл түсті екеніне тамсана қарайды. Кәмпит те, поп-корн да, аяқ киім де, қалпақтар да барлығы жасыл еді. Бір кісі жасыл лимонад сатып тұр, балалар оны жасыл ақшаға сатып алып жатыр. \n\nМұнда жануарлар жоқ сияқты. Ер адамдар жүкті кішкене жасыл арбаға салып сүйреп барады. Бәрі бақытты, өмірлеріне дән риза."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Форматты таңдау"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Автоматты"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Қолмен"</string>
@@ -191,17 +221,17 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Ажыратымдылықты %1$s дейін өзгерту қажет пе?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Қазірден бастап %1$s рұқсатын пайдалану үшін \"Жарайды\" түймесін басыңыз."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision %1$s кезінде қолжетімді емес. Ол \"Дисплейдің қосымша параметрлерінде\" өшіріледі."</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Бұл режим %1$s қолдайды. Көбірек HDR форматтарын пайдалану үшін кейбір теледидарларда күшейтілген HDMI қажет болуы мүмкін. Бұл опцияның қолжетімділігін тексеру үшін теледидарыңыздың параметрлерін қараңыз."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Бұл режимнің ажыратымдылығы - %1$s.\nHDR форматының басқа да түрлерін қосу үшін кейбір теледидар параметрлерінен жақсартылған HDMI қосу қажет болуы мүмкін. Бұл опцияның қолжетімділігін тексеру үшін теледидарыңыздың параметрлерін қараңыз."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Бас тарту"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Жарайды"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Гц"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Гц)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Гц)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Кэштелген деректер өшірілсін бе?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Бұл барлық қолданбалардың кэштелген деректерін тазартады."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"Қосалқы құрал қосу"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"Жұпталуда…"</string>
-    <string name="accessory_state_connecting" msgid="6560241025917621212">"Қосылуда…"</string>
+    <string name="accessory_state_connecting" msgid="6560241025917621212">"Қосылып жатыр…"</string>
     <string name="accessory_state_error" msgid="8353621828816824428">"Жұптау мүмкін болмады"</string>
     <string name="accessory_state_canceled" msgid="4794837663402063770">"Бас тартылды"</string>
     <string name="accessory_state_paired" msgid="3296695242499532000">"Жұпталды"</string>
@@ -250,6 +280,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Қосулы"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Ажыратулы"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Сізде Bluetooth параметрлерін өзгерту рұқсаты жоқ."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Теледидар аудио шығысы ретінде пайдалану"</string>
     <string name="send_feedback" msgid="936698637869795473">"Пікір жіберу"</string>
     <string name="launch_help" msgid="2607478763131952469">"Анықтама орталығы"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -274,7 +305,7 @@
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"Әкімші өшірген"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"Қолжетімсіз"</string>
     <string name="manage_device_admin" msgid="5714217234035017983">"Құрылғы әкімшісінің қолданбалары"</string>
-    <string name="number_of_device_admins_none" msgid="2734299122299837459">"Істеп тұрған қолданбалар жоқ"</string>
+    <string name="number_of_device_admins_none" msgid="2734299122299837459">"Істеп тұрған қолданбалар жоқ."</string>
     <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"Әкімші, шифрлау саясаты немесе тіркелкі деректерінің жады өшірген"</string>
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"Басқарылатын құрылғы ақпараты"</string>
     <string name="enterprise_privacy_settings_summary_generic" msgid="5719549523275019419">"Ұйым басқаратын өзгерістер мен параметрлер"</string>
@@ -316,8 +347,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Бұл құрылғыны ұйым басқарады."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Бұл құрылғыны <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> басқарады."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Толығырақ"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Камера қолданбасы}other{Камера қолданбалары}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Күнтізбе қолданбасы"</string>
@@ -340,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google құқықтық ақпараты"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Лицензия деректері қол жетімді емес"</string>
     <string name="about_model" msgid="9164284529291439296">"Үлгі"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Құрылғы режимі"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Дүкеннің демо нұсқасы"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV OS нұсқасы"</string>
     <string name="about_serial" msgid="3432319328808745459">"Сериялық нөмірі"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV OS құрамасы"</string>
@@ -407,6 +439,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Интернет байланысы"</string>
     <string name="connected" msgid="4981532275162345997">"Қосылды"</string>
     <string name="not_connected" msgid="475810896484271663">"Қосылмаған"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Интернет жоқ."</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Сақталған"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Құпия сөз қате енгізілді."</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"Wi-Fi құпия сөзі тым қысқа."</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Есептік жазбаға кіру керек."</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Басқа опциялар"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Барлығын көру"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Азайту"</string>
@@ -421,7 +458,7 @@
     <string name="wifi_security_type_wep" msgid="6407712450924151962">"WEP"</string>
     <string name="wifi_security_type_wpa" msgid="9205358644485448199">"WPA/WPA2 PSK"</string>
     <string name="wifi_security_type_eap" msgid="3948280751219829163">"802.1x EAP"</string>
-    <string name="title_wifi_no_networks_available" msgid="3696700321170616981">"Ізделуде…"</string>
+    <string name="title_wifi_no_networks_available" msgid="3696700321170616981">"Ізделіп жатыр…"</string>
     <string name="title_wifi_could_not_save" msgid="7549912968719395764">"<xliff:g id="SSID">%1$s</xliff:g> үшін конфигурацияны сақтау мүмкін болмады"</string>
     <string name="title_wifi_could_not_connect" msgid="6654031057635481872">"<xliff:g id="SSID">%1$s</xliff:g> желісіне қосылу мүмкін болмады"</string>
     <string name="title_wifi_could_not_connect_timeout" msgid="7825788623604214601">"<xliff:g id="SSID">%1$s</xliff:g> табу мүмкін болмады"</string>
@@ -673,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Арнайы мүмкіндіктер таңбашасын қосу"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Қызметті тез қосу"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Таңбаша қосулы кезде артқа және төмен көрсеткілі түймелерінің екеуін де 3 секунд бойы басып тұрып, арнайы мүмкіндіктер функциясын іске қосуға болады."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Шара қолдану ұзақтығы"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Шара қолдану ұзақтығы (мүмкіндіктерді күту уақыты)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Уақыт"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Уақыт белгілеу параметрі әр қолданбада болмайды."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Титрлар"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Бейнедегі титрлер мәтіні қабатының параметрлері"</string>
     <string name="captions_display" msgid="2598662495450633375">"Көрсету"</string>
@@ -710,19 +751,19 @@
     <string name="color_cyan" msgid="3172130225116530998">"Көкшіл"</string>
     <string name="color_yellow" msgid="3519470952904560404">"Сары"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Қызылкүрең"</string>
-    <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Аудио сипаттама"</string>
+    <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Аудиосипаттама"</string>
     <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Қолдау көрсетілетін фильмдер мен сериалдарда экрандағы әрекеттің аудио сипаттамасын есту"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Қосу"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Конфигурация"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> қызметін пайдалану керек пе?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> құпия сөздерден басқа бүкіл терген мәтініңізді жинай алады. Бұл несие карталарының нөмірлері сияқты жеке деректерді қамтиды."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> қызметі келесі әрекеттерді орындайтын болады: экранды оқу, контентті басқа қолданбалардың үстінен көрсету, қолданбалармен немесе жабдық датчиктерімен өзара әрекеттестігіңізді бақылау және сіздің атыңыздан қолданбалармен әрекеттесу."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"<xliff:g id="SERVICE">%1$s</xliff:g> тоқтатылсын ба?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"«Жарайды» пәрменін таңдау <xliff:g id="SERVICE">%1$s</xliff:g> қызметін тоқтатады."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Мәтінді сөзге түрлендіру"</string>
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"Қозғалтқыш конфигурациясы"</string>
     <string name="system_speak_passwords" msgid="8556036524146404052">"Құпия сөздерді сөйлеу"</string>
     <string name="system_preferred_engine" msgid="3545505072652708443">"Қалаулы механизм"</string>
-    <string name="system_speech_rate" msgid="6553204071403872669">"Сөз жылдамдығы"</string>
+    <string name="system_speech_rate" msgid="6553204071403872669">"Сөйлеу жылдамдығы"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"Ойнату үлгісі"</string>
     <string name="system_install_voice_data" msgid="8016395777968958673">"Дауыстық деректерді орнату"</string>
     <string name="system_general" msgid="687760148454147771">"Жалпы"</string>
@@ -874,6 +915,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Шектеулерді теңшеу"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Бір сәт күтіңіз…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"PIN кодын өзгерту"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Шектелген профиль жасалсын ба?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Жасалып қойған"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Өткізіп жіберу"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"PIN кодын жасау"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Шектелген профиль қосылсын ба?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Шектелген профиль жоқ."</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Енгізіліп қойған"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Бұл қолданба аккаунттарға кіре алады. <xliff:g id="APP">%1$s</xliff:g> бақылауында"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Осы арнаны көру үшін PIN кодын енгізіңіз"</string>
@@ -889,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Жалғастыру үшін <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> белгішесін таңдаңыз."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Дайын"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Сәтті қосылдыңыз"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Сәтті сақталды"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"<xliff:g id="APP_VERSION">%1$s</xliff:g> нұсқасы"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Ашу"</string>
@@ -934,9 +984,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Көру кезінде дисплейдің өшірілмеуін растаңыз (мұндайда қуат шығыны артуы мүмкін)."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"Ешқандай әрекет болмағанда"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"Көріп жатқанда"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Теледидарды автоматты түрде өшіру"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Теледидар пайдаланылмаған кезде автоматты түрде өшіру"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Теледидарды көрген кезде автоматты түрде өшіру"</string>
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Автоматты сөну"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Белсенді емес кезде автоматты сөну"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Қарау кезінде автоматты сөну"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"\"Теледидар өшірулі\" таймері \"теледидар қосулы\" таймерінен қысқа болуы керек"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"\"Теледидар қосулы\" таймері \"теледидар өшірулі\" таймерінен ұзағырақ болуы керек"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Күту режимінде желі байланысын шектеу"</string>
@@ -986,8 +1036,8 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"Пернетақталарды басқару"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Рұқсат етілген"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Рұқсат етілмеген"</string>
-    <string name="usage_access" msgid="8402350645248312782">"Пайдалану тарихын көру"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"Пайдалану тарихын көру рұқсаты қолданбаға сіз пайдаланатын басқа қолданбаларды және қаншалықты жиі пайдаланатыңыз туралы ақпаратты, сондай-ақ операторды, тіл параметрлерін және басқа мәліметтерді бақылауға мүмкіндік береді."</string>
+    <string name="usage_access" msgid="8402350645248312782">"Пайдалану мәліметін көру"</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"Пайдалану мәліметін көру рұқсаты қолданбаға сіз пайдаланатын басқа қолданбаларды және қаншалықты жиі пайдаланатыңыз туралы ақпаратты, сондай-ақ операторды, тіл параметрлерін және басқа мәліметтерді бақылауға мүмкіндік береді."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Қуат үнемдеу"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Қолданбалардың қуат тұтынуын оңтайландыру"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"Оңтайландыру қажет емес"</string>
@@ -1036,10 +1086,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Жазуға арналған микрофондар"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Аудионы жазуды бастау мүмкін болмады."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Аудио жазылмады."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Трафикті үнемдеу"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Мобильдік интернетті азырақ пайдалану үшін бейне сапасын автоматты реттеу"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Дерек трафигі және ескертулер"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Wi-Fi, Ethernet немесе телефонның хотспоты арқылы интернетке қосыла аласыз."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Басқа Bluetooth құрылғыларына көрінсін бе?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Қолданба теледидарыңызды басқа Bluetooth құрылғыларына <xliff:g id="TIMEOUT">%1$d</xliff:g> секунд көрсетуді сұрайды."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1080,6 +1126,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Байланыс орнатылды."</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Барлығын көрсету"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Іздеу"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Authenticator-дан аккаунт қосудың intent нысаны алынбады."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Аккаунт қосылмады немесе мұндай аккаунт түрі қолжетімді емес."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Арналар және кірістер"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Арналар, сыртқы кірістер"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Арналар"</string>
@@ -1091,5 +1139,19 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Қуат және энергия"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Қосылу кезіндегі әрекет"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Қайтару"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Теледидар"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet жұптау коды"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Энергия режимдері"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Бұл параметрлер, құрылғыны пайдаланбағанда, әсер етеді."</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Келесілер қосылады:"</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Сіз іске қосқан теледидар функцияларының саны артқан сайын, қуаттың тұтынылуы да артуы мүмкін."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" режимін қосу"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Пультімді табу"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV пультіңіз жоғалып қалса, оны табу үшін дыбысты ойнатыңыз."</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Пультіңізде 30 секундтық дыбыс ойнату үшін Google TV қолданбасындағы түймені бассаңыз болады. Бұл функция қолдау көрсетілетін Google TV пульттерінде ғана жұмыс істейді.\n\nДыбысты тоқтату үшін пульттің кез келген түймесін басыңыз."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\"Пультімді табу\" функциясы қосулы тұрған кезде, жоғалған Google TV пультін оңай табуға көмектесетін дыбысты ойнатуға болады."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Дыбыс ойнату"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s дыбыс деңгейі"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s динамигіндегі Assistant дыбысын басқара аласыз."</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Теледидардағы емес,- тек %1$s құрылғысындағы дыбысқа әсер етеді."</string>
 </resources>

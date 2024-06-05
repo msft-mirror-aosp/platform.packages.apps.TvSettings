@@ -16,6 +16,7 @@
 
 package com.android.tv.settings.connectivity.setup;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 import android.text.InputType;
@@ -30,6 +31,7 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -66,7 +68,7 @@ public class EnterPasswordState implements State {
     @Override
     public void processForward() {
         if (!mUserChoiceInfo.isVisible(UserChoiceInfo.PASSWORD)) {
-            mStateMachine.getListener().onComplete(StateMachine.OPTIONS_OR_CONNECT);
+            mStateMachine.getListener().onComplete(this, StateMachine.OPTIONS_OR_CONNECT);
             return;
         }
         mFragment = new EnterPasswordFragment();
@@ -77,7 +79,7 @@ public class EnterPasswordState implements State {
     @Override
     public void processBackward() {
         if (!mUserChoiceInfo.isVisible(UserChoiceInfo.PASSWORD)) {
-            mStateMachine.getListener().onComplete(StateMachine.CANCEL);
+            mStateMachine.getListener().onComplete(this, StateMachine.CANCEL);
             return;
         }
         mFragment = new EnterPasswordFragment();
@@ -188,7 +190,7 @@ public class EnterPasswordState implements State {
 
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
+                                 Bundle savedInstanceState) {
             View view = super.onCreateView(inflater, container, savedInstanceState);
 
             // Update guidance to contain subtitle with action done icon
@@ -248,7 +250,13 @@ public class EnterPasswordState implements State {
                 if (password.length() >= WEP_MIN_LENGTH) {
                     mUserChoiceInfo.put(UserChoiceInfo.PASSWORD, action.getTitle().toString());
                     mUserChoiceInfo.setPasswordHidden(mCheckBox.isChecked());
-                    mStateMachine.getListener().onComplete(StateMachine.OPTIONS_OR_CONNECT);
+                    mStateMachine.getListener().onComplete(this, StateMachine.OPTIONS_OR_CONNECT);
+                } else {
+                    final Activity activity = getActivity();
+                    if (activity != null) {
+                        Toast.makeText(activity, R.string.wifi_short_password,
+                                Toast.LENGTH_SHORT).show();
+                    }
                 }
             }
             return action.getId();

@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"ផ្ទាល់ខ្លួន"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ភ្ជាប់ទៅបណ្តាញ"</string>
     <string name="add_an_account" msgid="2601275122685226096">"បញ្ចូល​គណនី"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"គណនី និង​ការចូលគណនី"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"គណនី និងកម្រងព័ត៌មាន"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"គ្មានគណនីទេ"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{គណនី #}other{គណនី #}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"សេវាកម្ម​មេឌៀ ជំនួយការ ការបង់ប្រាក់"</string>
@@ -60,11 +60,13 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"ឯកជនភាព"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ការកំណត់​ឧបករណ៍"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"ការ​កំណត់​គណនី"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ការចាក់សោ​ឧបករណ៍"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google ជំនួយការ"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ការបង់ប្រាក់ និង​ការទិញ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ការ​កំណត់​កម្មវិធី​"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"ទីតាំង ការប្រើប្រាស់ និង​ការវិភាគ ការផ្សាយ​ពាណិជ្ជកម្ម"</string>
     <string name="add_account" msgid="7386223854837017129">"បន្ថែម​គណនី"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"មិនស្គាល់​គណនី"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"លុប​គណនី​​​ចេញ"</string>
     <string name="account_sync" msgid="4315295293211313989">"ជ្រើស​រើស​កម្មវិធី​​​ដែល​បាន​ធ្វើ​សម​កាល​កម្ម"</string>
     <string name="sync_now" msgid="4335217984374620551">"ធ្វើ​សម្មកាលកម្ម​ឥឡូវ"</string>
@@ -84,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"បាន​ភ្ជាប់​អ៊ីសឺរណិត"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"មិន​មាន​ការ​ភ្ជាប់​បណ្តាញ​ទេ"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"បានបិទ Wi-Fi"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"ដកឌុយអ៊ីសឺរណិត ដើម្បីប្រើ Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"ការស្កេនតែងតែមានជានិច្ច"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"អនុញ្ញាតឲ្យសេវាកម្ម Google និងកម្មវិធីផ្សេងៗស្កេនរកបណ្ដាញ បើទោះបីជា Wi-Fi បិទក៏ដោយ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"អាចប្រើ​ការស្កេនបានជានិច្ច អនុញ្ញាតឱ្យសេវាកម្មទីតាំង​របស់ Google និងកម្មវិធី​ផ្សេងទៀតស្កេនរកបណ្ដាញ ទោះបីជានៅពេលបិទ Wi-Fi ក៏ដោយ"</string>
@@ -112,8 +115,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"បម្រុងទុក និងស្ដារ"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"កំណត់ទិន្នន័យដូចចេញពីរោងចក្រ"</string>
     <string name="device_calibration" msgid="2907914144048739705">"ការ​ក្រិត​តាម​ខ្នាត"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"កម្លាំង និង​ថាមពល"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"ការកំណត់​អេកូ"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"កម្មវិធីកំណត់ម៉ោង​ដែលបិទ"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"កំណត់កម្មវិធីកំណត់ម៉ោង ដើម្បីបិទទូរទស្សន៍ និងសន្សំសំចៃថាមពល"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ឧបករណ៍"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"ជ្រើសរើស​ទម្រង់"</string>
@@ -151,20 +154,47 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"ការកំណត់​សំឡេង​កម្រិតខ្ពស់"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"អនុញ្ញាត​មុខងារ​ហ្គេម"</string>
-    <string name="match_content_frame_rate_title" msgid="153291168560947689">"ផ្គូផ្គង​អត្រាស៊ុម​របស់ខ្លឹមសារ"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"រលូន"</string>
-    <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"ប្រសិនបើកម្មវិធីស្នើសុំវា ឧបករណ៍​របស់អ្នក​នឹងផ្គូផ្គង​លទ្ធផល​របស់វា​ជាមួយ​អត្រាស៊ុមដើម​នៃខ្លឹមសារ​ដែលអ្នក​កំពុងមើល​ លុះត្រាតែទូរទស្សន៍របស់អ្នកអាចធ្វើចលនាផ្លាស់ប្ដូរដោយរលូនប៉ុណ្ណោះ។"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"ផ្គូផ្គងកម្រិតឌីណាមិកខ្លឹមសារ"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"នៅពេលបើក​ជម្រើសនេះ ប្រព័ន្ធនឹងប្ដូររវាង​ទម្រង់កម្រិត​ឌីណាមិកផ្សេងៗ ដើម្បីឱ្យត្រូវគ្នានឹង​ខ្លឹមសារ។ ការធ្វើបែបនេះ​អាចបណ្ដាលឱ្យ​អេក្រង់ពណ៌ខ្មៅ ក្នុងអំឡុងពេល​ប្ដូរទម្រង់។\n\nចុច​ការកំណត់​ផ្ទាំងអេក្រង់កម្រិតខ្ពស់ ដើម្បីទទួលបាន​ជម្រើសកម្រិតឌីណាមិក​ច្រើនទៀត។"</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"កម្រិតឌីណាមិក​ដែលចង់បាន"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"ការបំប្លែងតាមការចង់បានរបស់ប្រព័ន្ធ"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"អនុញ្ញាតឱ្យប្រព័ន្ធគ្រប់គ្រងការបំប្លែងទម្រង់"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"នៅពេលជម្រើសនេះត្រូវបានជ្រើសរើស ប្រព័ន្ធនឹងកំណត់ចន្លោះឌីណាមិកសមរម្យមួយដែលត្រូវបានផ្ញើទៅកាន់ផ្ទាំងអេក្រង់របស់អ្នក ហើយបំប្លែងខ្លឹមសារទៅជា​ចន្លោះឌីណាមិកនេះតាមតម្រូវការ។"</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ត្រូវគ្នានឹងទម្រង់ខ្លឹមសារជានិច្ច"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"បង្ខំការបំប្លែង"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"បង្ខំការបំប្លែងទៅជាទម្រង់ដែលពេញចិត្ត"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"បង្ខំការបំប្លែងទៅជាទម្រង់ដែលពេញចិត្ត។ ការបង្ខំការបំប្លែងអាចប៉ះពាល់ដល់ការកំណត់ផ្សេងទៀតនៅក្នុងមុខងារផ្ទាំងអេក្រង់ ឬទម្រង់ HDR។"</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"ទៅជា SDR ជានិច្ច"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"ទៅជា <xliff:g id="HDR_TYPE">%s</xliff:g> ជានិច្ច"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"តើអ្នកចង់បង្ខំធាតុចេញកម្រិត HDR មែនទេ?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"តាមលំនាំដើម កា​របំប្លែងនឹងត្រូវបានបង្ខំឱ្យទៅជា <xliff:g id="HDR_TYPE">%s</xliff:g>។"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"ផ្ទាំងអេក្រង់របស់អ្នកនឹងដំណើរការក្នុងកម្រិតគុណភាព 1080p 60Hz។ ជម្រើសនេះមិនត្រូវគ្នាជាមួយផ្ទាំងអេក្រង់របស់អ្នកទេ នៅពេលដំណើរការក្នុងកម្រិតគុណភាព 4k 60Hz។"</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"មិនអាចប្រើ Dolby Vision នៅកម្រិតគុណភាពបច្ចុប្បន្ននេះបានទេ។ ប្រសិនបើអ្នកបើក Dolby Vision ដោយដៃផ្ទាល់ កម្រិតគុណភាពនៃការបង្ហាញរបស់អ្នកនឹងត្រូវបានប្ដូរទៅ 1080p 60Hz"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"ប្ដូរកម្រិតគុណភាពទៅ 1080p 60Hz ឬ?"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"បង្ខំការបំប្លែងទៅ Dolby Vision ជានិច្ច"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"ប្រសិនបើ Dolby Vision ត្រូវបានបិទ​ក្នុងទម្រង់ HDR នៅក្នុងការកំណត់ផ្ទាំងអេក្រង់​កម្រិតខ្ពស់ ការបង្ខំការបំប្លែង​ទៅ Dolby Vision នឹងបើកវាឡើងវិញ។"</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"បង្ខំការបំប្លែងទៅ HDR10 ជានិច្ច"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"ប្រសិនបើ HDR10 ត្រូវបានបិទ​ក្នុងទម្រង់ HDR នៅក្នុងការកំណត់ផ្ទាំងអេក្រង់​កម្រិតខ្ពស់ ការបង្ខំការបំប្លែងទៅ HDR10 នឹងបើកវាឡើងវិញ។"</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"បង្ខំការបំប្លែងទៅ HLG ជានិច្ច"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"ប្រសិនបើ HLG ត្រូវបានបិទ​ក្នុងទម្រង់ HDR នៅក្នុងការកំណត់ផ្ទាំងអេក្រង់​កម្រិតខ្ពស់ ការបង្ខំការបំប្លែងទៅ HLG នឹងបើកវាឡើងវិញ។"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"បង្ខំការបំប្លែងទៅ HDR10+ ជានិច្ច"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"ប្រសិនបើ HDR10+ ត្រូវបានបិទ​ក្នុងទម្រង់ HDR នៅក្នុងការកំណត់ផ្ទាំងអេក្រង់​កម្រិតខ្ពស់ ការបង្ខំការបំប្លែងទៅ HDR10+ នឹងបើកវាឡើងវិញ។"</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"បង្ខំការបំប្លែងទៅ SDR ជានិច្ច"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"ការបង្ខំការបំប្លែងទៅ SDR នឹងបិទទម្រង់ទាំងអស់​នៅក្នុងទម្រង់ HDR នៅក្នុងការកំណត់​ផ្ទាំងអេក្រង់កម្រិតខ្ពស់។"</string>
+    <string name="match_content_frame_rate_title" msgid="153291168560947689">"ផ្គូផ្គង​អត្រាហ្វ្រេមរបស់ខ្លឹមសារ"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"រលូនតែប៉ុណ្ណោះ"</string>
+    <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"ប្រសិនបើកម្មវិធីស្នើសុំវា ឧបករណ៍​របស់អ្នក​នឹងផ្គូផ្គង​ធាតុចេញ​របស់វា​ជាមួយ​អត្រាហ្វ្រេមដើម​នៃខ្លឹមសារ​ដែលអ្នក​កំពុងមើល​ លុះត្រាតែទូរទស្សន៍របស់អ្នកអាចដើរយ៉ាងរលូនប៉ុណ្ណោះ។"</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"ផ្ទាំងអេក្រង់ដែលបានភ្ជាប់របស់អ្នកមិនអាចភ្ជាប់ឈុតឆាកក្នុងអត្រាផ្ទុកឡើងវិញដ៏រលូនបានទេ។ ជម្រើសនេះនឹងមិនមានប្រសិទ្ធភាពឡើយ ប្រសិនបើអ្នកមិនប្ដូរទៅប្រើផ្ទាំងអេក្រង់ដែលអាចភ្ជាប់ឈុតឆាកក្នុងអត្រាផ្ទុកឡើងវិញដ៏រលូនទេ។"</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"មិនរលូន"</string>
-    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"ប្រសិនបើកម្មវិធីស្នើសុំវា ឧបករណ៍​របស់អ្នក​នឹងផ្គូផ្គង​លទ្ធផល​របស់វា​ជាមួយ​អត្រាស៊ុមដើម​នៃខ្លឹមសារ​ដែលអ្នក​កំពុងមើល​។ ការធ្វើបែបនេះអាចបណ្ដាលឱ្យអេក្រង់របស់អ្នកងងឹតមួយភ្លែត នៅពេលចាកចេញ ឬចូលចាក់វីដេអូ។"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"ជានិច្ច"</string>
+    <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"ប្រសិនបើកម្មវិធីស្នើសុំវា ឧបករណ៍​របស់អ្នក​នឹងផ្គូផ្គង​ធាតុចេញ​របស់វា​ជាមួយ​អត្រាហ្វ្រេមដើម​នៃខ្លឹមសារ​ដែលអ្នក​កំពុងមើល​។ ការធ្វើបែបនេះអាចបណ្ដាលឱ្យអេក្រង់របស់អ្នកងងឹតមួយភ្លែត នៅពេលចាកចេញ ឬចូលចាក់វីដេអូ។"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"កុំឱ្យសោះ"</string>
-    <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"ទោះបីជាកម្មវិធីស្នើសុំវាក៏ដោយ ឧបករណ៍​របស់អ្នក​នឹងមិនព្យាយាមផ្គូផ្គង​លទ្ធផល​របស់វា​ជាមួយ​អត្រាស៊ុមដើម​នៃខ្លឹមសារ​ដែលអ្នក​កំពុងមើលទេ។"</string>
+    <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"ទោះបីកម្មវិធីស្នើសុំវាក៏ដោយ ឧបករណ៍​របស់អ្នក​នឹងមិនព្យាយាមផ្គូផ្គង​ធាតុចេញ​របស់វា​ជាមួយ​អត្រាហ្វ្រេមដើម​នៃខ្លឹមសារ​ដែលអ្នក​កំពុងមើលទេ។"</string>
     <string name="font_scale_settings_title" msgid="4114019544800225980">"ការប្ដូរទំហំអក្សរ"</string>
     <string name="font_scale_item_detail" msgid="1558315053348778805">"ប្ដូរទំហំទៅ <xliff:g id="SCALE">%1$d</xliff:g>%%"</string>
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"អត្ថបទគំរូ"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"មេធ្មប់ដ៏អស្ចារ្យនៃទឹកដីពិសិដ្ឋ"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"ជំពូកទី 11៖ ទីក្រុងមរកតដ៏អស្ចារ្យនៃទឹកដីពិសិដ្ឋ"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"មុនដំបូង ដូរ៉ូធី និង​មិត្តភ័ក្តិ​របស់នាង​មាន​ភាពភ្ញាក់​ផ្អើលយ៉ាងខ្លាំង​ចំពោះភាព​ស្រស់ស្អាត​នៃទីក្រុង​ដ៏អស្ចារ្យនេះ បើទោះ​បីជាពួកគេ​ពាក់វ៉ែនតា​ការពារ​ភ្នែក​ដែលមាន​ពណ៌បៃតង​ក៏ដោយ។ នៅតាមដងផ្លូវ មានផ្ទះដ៏​ស្រស់ស្អាត ដែលធ្វើ​ឡើងពីថ្មម៉ាប​ពណ៌បៃតង និងលម្អដោយ​ត្បូងមរកត​ដ៏ចែងចាំង​នៅគ្រប់​ទីកន្លែង​តម្រៀប​ជួរគ្នា។ ពួកគេ​ដើរនៅលើ​ដងផ្លូវដែល​ធ្វើពីថ្មម៉ាប​ពណ៌បៃតងដូចគ្នា ហើយនៅ​ត្រង់កន្លែង​ដែលប្លុកអគារ​តភ្ជាប់​គ្នាមានត្បូង​មរកតតម្រៀបជាជួរក្បែរៗគ្នា និង​មានពន្លឺចែងចាំង​នៅក្រោមពន្លឺ​ព្រះអាទិត្យ។ ផ្ទាំងបង្អួច​ធ្វើឡើង​ពីកញ្ចក់​ពណ៌បៃតង ហើយសូម្បីតែ​ផ្ទៃមេឃគ្របដណ្ដប់ដោយ​ស្រមោលពណ៌បៃតង ហើយកាំរស្មីនៃពន្លឺ​ព្រះអាទិត្យ​ក៏មានពណ៌​បៃតង​ដែរ។ \n\nមាន​មនុស្សម្នា​កុះករទាំងប្រុស ទាំងស្រី ទាំងកុមារា ទាំងកុមារី​ដើរទៅ​មកក្នុងសម្លៀក​បំពាក់ពណ៌បៃតង ហើយ​ពួកគេ​ទាំងអស់​សុទ្ធតែមាន​ស្បែករាងបៃតង។ ពួកគេ​មើលទៅ​កាន់ដូរ៉ូធី និង​អ្នករួមដំណើរ​ជាមួយ​នាងដ៏ចម្លែក​ដោយ​បង្ហាញកែវភ្នែកដែលពោរពេញដោយ​ក្តីងឿងឆ្ងល់ ហើយ​ក្មេងៗទាំងអស់​រត់ទៅ​ពួន​នៅ​ខាងក្រោយ​ម្តាយរបស់​ពួកគេ នៅ​ពេល​ដែល​គេឃើញ​សត្វតោ ប៉ុន្តែ​គ្មាន​នរណាម្នាក់​និយាយ​ទៅកាន់​ពួកគេ​នោះទេ។ មាន​ហាង​ជាច្រើន​នៅតាមផ្លូវ ហើយ​ដូរ៉ូធីបាន​សង្កេតឃើញ​ថា អ្វីៗទាំងអស់​នៅក្នុងហាងទាំងនោះ​សុទ្ធតែមាន​ពណ៌បៃតង។ ស្ករគ្រាប់ពណ៌បៃតង និង​ពោតលីង​ពណ៌បៃតង ក៏​ដូចជា​ស្បែកជើងពណ៌បៃតង មួកពណ៌បៃតង និង​សម្លៀកបំពាក់ពណ៌បៃតង​គ្រប់ប្រភេទ​សុទ្ធតែមានលក់នៅក្នុងហាង។ នៅកន្លែងមួយ មានបុរសម្នាក់​លក់ទឹកក្រូចឆ្មារពណ៌បៃតង ហើយនៅ​ពេលក្មេងៗទិញ​ទឹកក្រូចឆ្មារ​នោះ ដូរ៉ូធីបាន​សង្កេតឃើញថា ពួកគេ​បានប្រើកាក់ពណ៌បៃតងទៅទិញ។ \n\nនៅ​ទីនោះ​ហាក់ដូចជា​គ្មានសត្វសេះ ឬសត្វផ្សេង​ទៀតសោះ។ ពួកគេ​ដឹកជញ្ជូន​សម្ភារទាំងអស់​តាមរយៈរទេះរុញ​ពណ៌បៃតង។ ពួកគេ​គ្រប់គ្នា​ហាក់បីដូចជា​រស់នៅប្រកប​ដោយក្ដីរីករាយ និង​ភាពសម្បូរ​សប្បាយ​ណាស់។"</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"មុនដំបូង ដូរ៉ូធី និង​មិត្តភ័ក្តិ​របស់​នាង​មាន​ភាព​ភ្ញាក់​ផ្អើលយ៉ាងខ្លាំង​​ចំពោះ​ភាព​ស្រស់ស្អាត​នៃ​ទីក្រុង​ដ៏អស្ចារ្យ​នេះ​ បើ​ទោះ​បី​ជា​ពួកគេ​ពាក់វ៉ែនតា​ការពារ​ភ្នែក​ដែល​មាន​ពណ៌បៃតង​ក៏ដោយ។ នៅ​តាមដង​ផ្លូវ មាន​ផ្ទះ​ដ៏​ស្រស់​ស្អាតដែលសង់ឡើង​ពី​ថ្ម​ម៉ាប​ពណ៌បៃតង និង​លម្អ​ដោយ​ត្បូង​មរកត​ដ៏​ចែងចាំង​នៅគ្រប់​ទីកន្លែង​តម្រៀប​ជួរគ្នា។ ពួកគេ​ដើរ​នៅ​លើ​ចិញ្ចើម​ផ្លូវ​ដែល​ធ្វើ​ពី​ថ្ម​ម៉ាប​ពណ៌បៃតងដូចគ្នា ហើយ​នៅ​ត្រង់កន្លែង​ដែល​ប្លុក​​អគារ​​តភ្ជាប់​គ្នាមាន​​ត្បូង​មរកតតម្រៀបជាជួរក្បែរៗគ្នា និង​មាន​ពន្លឺចែង​ចាំង​នៅក្រោម​ពន្លឺ​ព្រះអាទិត្យ។ ផ្ទាំង​បង្អួច​ធ្វើ​ឡើង​ពីកញ្ចក់​ពណ៌បៃតង ហើយ​សូម្បី​​តែ​ផ្ទៃមេឃគ្របដណ្ដប់ដោយ​ស្រមោលពណ៌បៃតង ហើយកាំរស្មីនៃ​​ពន្លឺ​ព្រះអាទិត្យ​ក៏មាន​​ពណ៌​បៃតង​ដែរ។\n\nមាន​មនុស្ស​ម្នាកុះករទាំងប្រុស ទាំងស្រី ទាំងកុមារា ទាំងកុមារី​ដើរ​ទៅ​មក​ក្នុង​សម្លៀកបំពាក់​ពណ៌បៃតង ហើយ​ពួកគេ​ទាំងអស់​សុទ្ធ​តែមាន​ស្បែករាងបៃតង។ ពួកគេ​មើលទៅ​កាន់ដូរ៉ូធី និង​អ្នក​រួមដំណើរ​ជាមួយ​នាង​ដ៏ចម្លែក​ដោយ​បង្ហាញកែវភ្នែកដែលពោរពេញដោយ​ក្តី​ងឿងឆ្ងល់ ហើយ​ក្មេងៗទាំងអស់​រត់​ទៅ​ពួន​នៅ​ខាងក្រោយ​ម្តាយ​របស់​ពួកគេ នៅ​ពេល​ដែល​គេឃើញ​សត្វតោ ប៉ុន្តែ​គ្មាន​នរណាម្នាក់​និយាយ​ទៅកាន់​ពួកគេ​នោះទេ។ មាន​ហាង​ជា​ច្រើន​នៅ​តាម​ផ្លូវ ហើយ​ដូរ៉ូធីបាន​សង្កេត​ឃើញ​ថា ​អ្វីៗទាំងអស់​នៅ​ក្នុង​ហាងទាំងនោះ​សុទ្ធតែ​មាន​ពណ៌បៃតង។ ស្ករគ្រាប់ពណ៌បៃតង និង​ពោតលីង​ពណ៌បៃតង ក៏​ដូចជា​ស្បែកជើងពណ៌បៃតង មួកពណ៌បៃតង និង​សម្លៀកបំពាក់ពណ៌បៃតង​គ្រប់ប្រភេទ​សុទ្ធតែមានលក់នៅក្នុងហាង។ នៅកន្លែងមួយ មានបុរសម្នាក់​លក់​ទឹកក្រូចឆ្មារពណ៌បៃតង ហើយនៅ​​ពេលក្មេង​ៗ​ទិញ​ទឹកក្រូចឆ្មា​រនោះ ដូរ៉ូធី​បាន​សង្កេត​ឃើញថា ពួកគេ​បានប្រើកាក់ពណ៌បៃតងទៅទិញ។\n\nនៅ​ទីនោះ​ហាក់ដូចជា​គ្មាន​សត្វសេះ ឬ​សត្វផ្សេង​ទៀតសោះ។ ពួកគេ​ដឹក​ជញ្ជូន​សម្ភារទាំងអស់​តាម​រទេះ​​រុញ​ពណ៌បៃតងតូចៗ។ ពួកគេ​គ្រប់គ្នា​ហាក់បី​ដូចជា​មានសុភមង្គល ប្រកប​ដោយក្ដី​រីករាយ និង​ភាពសម្បូរ​សប្បាយ​ណាស់។"</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"ការ​ជ្រើសរើសទម្រង់"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"ស្វ័យប្រវត្តិ"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"ដោយផ្ទាល់ដៃ"</string>
@@ -191,11 +221,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"ប្ដូរកម្រិតគុណភាពទៅ %1$s ឬ?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"ជ្រើសរើស \"យល់ព្រម\" ដើម្បីប្រើ %1$s ចាប់ពីពេល​នេះតទៅ។"</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision មិនអាចប្រើបាននៅ %1$s ទេ ហើយនឹងត្រូវបានបិទនៅក្នុង \"ការកំណត់ការបង្ហាញកម្រិតខ្ពស់\""</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"មុខងារនេះអាចប្រើ %1$s បាន។ នៅលើទូរទស្សន៍មួយចំនួន អ្នកប្រហែលជាត្រូវបើក HDMI ដែលបានធ្វើឱ្យប្រសើរឡើង ដើម្បីបើកទម្រង់ HDR ច្រើនទៀត។ ពិនិត្យមើលការកំណត់ទូរទស្សន៍របស់អ្នក ដើម្បីមើលថាតើមុខងារនេះអាចប្រើបានដែរឬអត់។"</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"មុខងារនេះស្គាល់៖ %1$s\nនៅលើទូរទស្សន៍មួយចំនួន អ្នកប្រហែលជាត្រូវបើក HDMI ដែលបានធ្វើឱ្យប្រសើរឡើង ដើម្បីបើកទម្រង់ HDR ច្រើនទៀត។ សូមពិនិត្យមើលការកំណត់ទូរទស្សន៍របស់អ្នក ដើម្បីមើលថាតើស្គាល់ HDMI នេះឬអត់។"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"បោះបង់"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"យល់ព្រម"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"ជម្រះទិន្នន័យក្នុងឃ្លាំងសម្ងាត់?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"វានឹងជម្រះទិន្នន័យឃ្លាំងសម្រាប់កម្មវិធីទាំងអស់។"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -250,6 +280,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"បានភ្ជាប់"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"បាន​ដាច់"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"អ្នក​មិន​មាន​សិទ្ធិ​ ដើម្បី​​ប្ដូរ​ការ​កំណត់​ប៊្លូធូស​ទេ។"</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"ប្រើ​សម្រាប់​សំឡេង​ទូរទស្សន៍"</string>
     <string name="send_feedback" msgid="936698637869795473">"ផ្ញើមតិកែលម្អ"</string>
     <string name="launch_help" msgid="2607478763131952469">"មជ្ឈមណ្ឌលជំនួយ"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -316,8 +347,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"ឧបករណ៍​នេះ​ស្ថិត​ក្រោម​ការ​គ្រប់គ្រង​របស់ស្ថាប័ន​​អ្នក។"</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"ឧបករណ៍​នេះ​ស្ថិត​ក្រោម​ការ​គ្រប់គ្រង​របស់ <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> ។"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"ស្វែងយល់បន្ថែម"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{កម្មវិធី​កាមេរ៉ា}other{កម្មវិធី​កាមេរ៉ា}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"កម្មវិធីប្រតិទិន"</string>
@@ -340,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"ផ្នែកច្បាប់ Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"មិន​មាន​ទិន្នន័យ​អាជ្ញាប័ណ្ណ​ទេ"</string>
     <string name="about_model" msgid="9164284529291439296">"ម៉ូដែល"</string>
+    <string name="device_mode" msgid="7258350575590118152">"មុខងារឧបករណ៍"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"គំរូបង្ហាញក្នុងហាង"</string>
     <string name="about_version" msgid="6223547403835399861">"កំណែប្រព័ន្ធ​ប្រតិបត្តិការ Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"លេខ​សៀរៀល"</string>
     <string name="about_build" msgid="8467840394761634575">"កំណែបង្កើត​ប្រព័ន្ធប្រតិបត្តិការ Android TV"</string>
@@ -370,7 +402,7 @@
     <string name="oem_lock_info_message" msgid="2165887409937351689">"សូមចាប់ផ្ដើមឧបករណ៍ឡើងវិញ ដើម្បីបើកមុខងារការពារឧបករណ៍។"</string>
     <string name="automatic_storage_manager_freed_bytes" msgid="1654574152815129396">"សរុប <xliff:g id="SIZE">%1$s</xliff:g> អាចប្រើបាន\n\nដំណើរការចុងក្រោយនៅថ្ងៃ <xliff:g id="DATE">%2$s</xliff:g>"</string>
     <string name="fcc_equipment_id" msgid="6731077083927000108">"លេខសម្គាល់បរិក្ខារ"</string>
-    <string name="baseband_version" msgid="5618116741093274294">"កំណែមូលដ្ឋាន៖"</string>
+    <string name="baseband_version" msgid="5618116741093274294">"កំណែបេសប៊េន៖"</string>
     <string name="kernel_version" msgid="7265509054070001542">"កំណែខឺណែល"</string>
     <string name="status_unavailable" msgid="2033933928980193334">"មិនមានទេ"</string>
     <string name="device_status_title" msgid="9051569510258883673">"ស្ថានភាព"</string>
@@ -407,6 +439,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"ការ​តភ្ជាប់​អ៊ីនធឺណិត"</string>
     <string name="connected" msgid="4981532275162345997">"បាន​ត​ភ្ជាប់"</string>
     <string name="not_connected" msgid="475810896484271663">"មិន​បាន​តភ្ជាប់"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"គ្មាន​អ៊ីនធឺណិត"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"បាន​រក្សាទុក"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"ពាក្យសម្ងាត់មិនត្រឹមត្រូវ"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"ពាក្យសម្ងាត់ Wi-Fi ខ្លីពេក"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"តម្រូវឱ្យ​ចូលគណនី"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"ជម្រើស​ផ្សេង​ៗ"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"​មើល​ទាំង​អស់"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"មើលតិចជាងមុន"</string>
@@ -649,7 +686,7 @@
     <string name="accessibility_services_category_title" msgid="8813843874978910442">"សេវាកម្ម"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"ការ​កំណត់​សេវាកម្ម"</string>
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
-    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"អត្ថបទមានកម្រិតភាពដិតខ្ពស់"</string>
+    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"អក្សររំលេចពណ៌ខ្លាំង"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"អក្សរ​ដិត"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"ការ​កែ​តម្រូវ​ពណ៌"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"ប្រើ​ការ​កែតម្រូវពណ៌"</string>
@@ -673,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"បើកផ្លូវកាត់​ភាព​ងាយស្រួល"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"សេវាកម្មផ្លូវកាត់"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"នៅពេលដែលផ្លូវកាត់នេះបើក អ្នកអាច​ចុចទាំងប៊ូតុង​ថយក្រោយ និងប៊ូតុងចុះក្រោមឱ្យបាន 3 វិនាទី ដើម្បី​ចាប់ផ្តើម​មុខងារភាពងាយប្រើ។"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"ដល់​ពេលធ្វើ​សកម្មភាព​ហើយ"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"ដល់ពេលធ្វើសកម្មភាព (មុខងារភាពងាយស្រួលអស់ម៉ោង)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"ការកំណត់​ពេល"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"កម្មវិធីទាំងអស់មិនអាចប្រើចំណូលចិត្តនៃការកំណត់ពេលនេះបានទេ។"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"អក្សររត់"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ការ​កំណត់​សម្រាប់​អត្ថបទ​ដែល​មាន​ចំណងជើង​បិទ​​គ្រប់​ពី​លើ​វីដេអូ"</string>
     <string name="captions_display" msgid="2598662495450633375">"បង្ហាញ"</string>
@@ -715,7 +756,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"បើកដំណើរការ"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"ការ​កំណត់​រចនា​សម្ព័ន្ធ"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"ប្រើ <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> អាច​ប្រមូល​អត្ថបទ​ទាំងអស់​ដែល​អ្នក​វាយ លើកលែង​ពាក្យ​សម្ងាត់។ នេះ​​រួមមាន​ទិន្នន័យ​ផ្ទាល់ខ្លួន ដូចជា​លេខ​កាត​ឥណទាន។"</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> នឹងអាចអានអេក្រង់របស់អ្នក បង្ហាញខ្លឹមសារនៅលើកម្មវិធីផ្សេងទៀត តាមដានអន្តរកម្មរបស់អ្នកជាមួយនឹងកម្មវិធី ឬសេនស័រហាតវែរ និងធ្វើអន្តរកម្មជាមួយកម្មវិធីជំនួសឱ្យអ្នក។"</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"បញ្ឈប់ <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"ការ​ជ្រើសរើសពាក្យ ​យល់ព្រម ​នឹង​បញ្ឈប់ <xliff:g id="SERVICE">%1$s</xliff:g>។"</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"អត្ថបទ​ទៅ​ការ​និយាយ"</string>
@@ -874,6 +915,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"ប្ដូរ​ការ​ដាក់​កម្រិត​តាម​តម្រូវ​ការ"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"មួយ​ភ្លែត…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"ប្ដូរ​កូដ pin"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"បង្កើតកម្រងព័ត៌មានដែលបានដាក់កំហិតឬ?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"បានបង្កើតរួចហើយ"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"រំលង"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"បង្កើតកូដ PIN"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"បញ្ចូលកម្រងព័ត៌មានដែលបានដាក់កំហិតឬ?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"គ្មានកម្រងព័ត៌មានដែលបានដាក់កំហិតទេ"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"បានបញ្ចូលរួចហើយ"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"កម្មវិធីនេះអាចចូលដំណើរការគណនីរបស់អ្នកបាន។ គ្រប់គ្រងដោយ <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"បញ្ចូល​កូដ PIN ដើម្បី​មើល​ឆានែល​នេះ"</string>
@@ -889,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ជ្រើសរើស <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ដើម្បីបន្ត។"</string>
     <string name="label_done_key" msgid="8576286462300373440">"រួចរាល់"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"បានភ្ជាប់ដោយជោគជ័យ"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"បានរក្សាទុកដោយជោគជ័យ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"កំណែ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"បើក"</string>
@@ -934,9 +984,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"សូមបញ្ជាក់ ដើម្បីទប់ស្កាត់កុំឱ្យបិទការបង្ហាញខណៈពេលកំពុងមើល ដែលអាចនឹងធ្វើឱ្យការប្រើប្រាស់ថាមពលមានការកើនឡើង។"</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"ពេលអសកម្ម"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"ពេលកំពុងមើល"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"បិទទូរទស្សន៍ដោយស្វ័យប្រវត្តិ"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"បិទទូរទស្សន៍ដោយស្វ័យប្រវត្តិនៅពេលអសកម្ម"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"បិទទូរទស្សន៍ដោយស្វ័យប្រវត្តិនៅពេលកំពុងមើល"</string>
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"បិទដោយស្វ័យប្រវត្តិ"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"បិទដោយស្វ័យប្រវត្តិនៅពេលអសកម្ម"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"បិទដោយស្វ័យប្រវត្តិនៅពេលកំពុងមើល"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"កម្មវិធីកំណត់ម៉ោងសម្រាប់ \"ពេលអសកម្ម\" ត្រូវតែខ្លីជាងកម្មវិធីកំណត់ម៉ោងសម្រាប់ \"ពេលកំពុងមើល\""</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"កម្មវិធីកំណត់ម៉ោងសម្រាប់ \"ពេលកំពុងមើល\" ត្រូវតែវែងជាងកម្មវិធីកំណត់ម៉ោងសម្រាប់ \"ពេលអសកម្ម\""</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"ដាក់កំហិតការតភ្ជាប់បណ្ដាញក្នុងមុខងារសម្ងំ"</string>
@@ -1036,10 +1086,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"មីក្រូហ្វូន​ដែល​បានថត"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"មិនអាច​ចាប់ផ្ដើម​ថតសំឡេង​បានទេ។"</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ការថតសំឡេង​មិនបាន​សម្រេចទេ។"</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"មុខងារសន្សំសំចៃទិន្នន័យ"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"កែតម្រូវ​គុណភាពវីដេអូ​ដោយស្វ័យប្រវត្តិ ដើម្បីប្រើទិន្នន័យ​ទូរសព្ទចល័ត​តិចជាងមុន"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"ការប្រើប្រាស់​ទិន្នន័យ និងការជូនដំណឹង"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"អ្នកអាចភ្ជាប់​អ៊ីនធឺណិត​តាមរយៈ Wi-Fi, អ៊ីសឺរណិត ឬហតស៉្បតទូរសព្ទ​របស់អ្នក។"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"ធ្វើឱ្យឧបករណ៍ប៊្លូធូសផ្សេងទៀតអាចមើលឃើញឬ?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"កម្មវិធីចង់ធ្វើឱ្យឧបករណ៍​ប៊្លូធូសផ្សេងទៀតអាចមើលឃើញទូរទស្សន៍របស់អ្នករយៈពេល <xliff:g id="TIMEOUT">%1$d</xliff:g> វិនាទី។"</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1080,6 +1126,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"ការតភ្ជាប់​ទទួលបាន​ជោគជ័យ​ហើយ"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"បង្ហាញ​ទាំងអស់"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"កំពុង​ស្វែងរក"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"មិនអាចទាញយក​ចេតនានៃការបញ្ចូលគណនី​ពីកម្មវិធីផ្ទៀងផ្ទាត់បានទេ។"</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"មិនអាចបញ្ចូលគណនី ឬមិនមានប្រភេទគណនីនេះទេ។"</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"ប៉ុស្តិ៍ និងប្រភពបញ្ចូល"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"ប៉ុស្ដិ៍ ប្រភពបញ្ចូលខាងក្រៅ"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"ប៉ុស្តិ៍"</string>
@@ -1091,5 +1139,19 @@
     <string name="power_and_energy" msgid="4638182439670702556">"កម្លាំង និង​ថាមពល"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"សកម្មភាព​នៅពេល​បើក"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"កំណត់​ឡើងវិញ"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"ទូរទស្សន៍"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"កូដផ្គូផ្គងអ៊ីសឺរណិត"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"មុខងារថាមពល"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"ការកំណត់​ទាំងនេះ​ប៉ះពាល់ដល់​ឧបករណ៍ នៅពេល​ដែលមិន​ស្ថិតក្នុងការ​ប្រើប្រាស់"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"បើក៖"</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"ការប្រើប្រាស់​ថាមពល​អាចកើនឡើង​ដោយសារ​ចំនួន​មុខងារ​ទូរទស្សន៍​ដែលអ្នកបើក។"</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"បើក \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ស្វែងរកឧបករណ៍​បញ្ជាពីចម្ងាយរបស់ខ្ញុំ"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ចាក់សំឡេងណាមួយ ដើម្បីកំណត់ទីតាំងឧបករណ៍​បញ្ជាពីចម្ងាយសម្រាប់ Google TV របស់អ្នក ប្រសិនបើបាត់ឧបករណ៍នោះ"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"មានប៊ូតុង​នៅលើ Google TV របស់អ្នក​ដែលអ្នកអាច​ចុចដើម្បីចាក់​សំឡេង​នៅលើ​ឧបករណ៍​បញ្ជាពីចម្ងាយ​របស់អ្នក​រយៈពេល 30 វិនាទី។ សកម្មភាពនេះដំណើរការតែជាមួយនឹងឧបករណ៍​​បញ្ជា​ Google TV ពី​ចម្ងាយដែលអាចប្រើបានប៉ុណ្ណោះ។\n\nដើម្បីបញ្ឈប់សំឡេង សូមចុចប៊ូតុងណាមួយលើឧបករណ៍​បញ្ជាពីចម្ងាយរបស់អ្នក។"</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"នៅពេលបើក \"រកឧបករណ៍​បញ្ជាពីចម្ងាយរបស់ខ្ញុំ\" អ្នកអាចចាក់សំឡេងណាមួយ ដើម្បីកំណត់ទីតាំងឧបករណ៍​បញ្ជាពីចម្ងាយសម្រាប់ Google TV របស់អ្នក ប្រសិនបើបាត់ឧបករណ៍នោះ។"</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ចាក់​សំឡេង"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"កម្រិតសំឡេង %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"អ្នកអាចគ្រប់គ្រងកម្រិតសំឡេង Google Assistant នៅលើឧបករណ៍បំពងសំឡេង %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"ប៉ះពាល់តែកម្រិតសំឡេងនៅលើឧបករណ៍ %1$s មិនមែននៅលើទូរទស្សន៍ទេ"</string>
 </resources>

@@ -5,14 +5,17 @@ package {
 genrule {
     name: "statslog-tvsettings-java-gen",
     tools: ["stats-log-api-gen"],
-    cmd: "$(location stats-log-api-gen) --java $(out) --module tv_settings"
-        + " --javaPackage com.android.tv.twopanelsettings.slices --javaClass TvSettingsStatsLog",
+    cmd: "$(location stats-log-api-gen) --java $(out) --module tv_settings" +
+        " --javaPackage com.android.tv.twopanelsettings.slices --javaClass TvSettingsStatsLog",
     out: ["com/android/tv/twopanelsettings/slices/TvSettingsStatsLog.java"],
 }
 
 // This is needed to provide TvSettingsStatsLog as a library for TwoPanelSettingsOverlay makefile.
 java_library {
     name: "statslog-tvsettings",
+    libs: [
+        "androidx.annotation_annotation",
+    ],
     srcs: [
         ":statslog-tvsettings-java-gen",
     ],
@@ -46,7 +49,10 @@ android_library {
         "androidx.lifecycle_lifecycle-common-java8",
         "androidx.cardview_cardview",
         "statslog-tvsettings",
+        "TvSettingsAPI",
     ],
+    // TODO(b/319716205): re-enable use_resource_processor
+    use_resource_processor: false,
 }
 
 // For the test package.

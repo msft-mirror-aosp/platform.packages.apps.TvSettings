@@ -24,7 +24,7 @@ import androidx.leanback.widget.GuidanceStylist;
 import androidx.leanback.widget.GuidedAction;
 import androidx.lifecycle.ViewModelProviders;
 
-import com.android.settingslib.wifi.AccessPoint;
+import com.android.tv.settings.library.network.AccessPoint;
 import com.android.tv.settings.R;
 import com.android.tv.settings.connectivity.security.WifiSecurityHelper;
 import com.android.tv.settings.connectivity.util.State;
@@ -102,9 +102,9 @@ public class ChooseSecurityState implements State {
         public void onGuidedActionClicked(GuidedAction action) {
             mUserChoiceInfo.put(UserChoiceInfo.SECURITY, (int) action.getId());
             if (action.getId() == AccessPoint.SECURITY_NONE || action.getId() == AccessPoint.SECURITY_OWE) {
-                mStateMachine.getListener().onComplete(StateMachine.OPTIONS_OR_CONNECT);
+                mStateMachine.getListener().onComplete(this, StateMachine.OPTIONS_OR_CONNECT);
             } else {
-                mStateMachine.getListener().onComplete(StateMachine.CONTINUE);
+                mStateMachine.getListener().onComplete(this, StateMachine.CONTINUE);
             }
         }
     }

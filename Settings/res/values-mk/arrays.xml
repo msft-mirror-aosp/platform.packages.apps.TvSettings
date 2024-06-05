@@ -54,7 +54,7 @@
   <string-array name="captioning_font_size_selector_titles">
     <item msgid="2544683044075498815">"Многу мали"</item>
     <item msgid="4812733698855185131">"Мали"</item>
-    <item msgid="628695363180883207">"Нормално"</item>
+    <item msgid="628695363180883207">"Нормални"</item>
     <item msgid="7397980392121949818">"Големи"</item>
     <item msgid="8774213681644780958">"Многу големи"</item>
   </string-array>
@@ -88,5 +88,17 @@
     <item msgid="4168234302019013836">"MSCHAP"</item>
     <item msgid="3665868694672130423">"MSCHAPV2"</item>
     <item msgid="1778635393795831325">"GTC"</item>
+  </string-array>
+  <string-array name="volume_change_entries">
+    <item msgid="8475727172583493318">"Исклучи звук"</item>
+    <item msgid="2508680062291793288">"Ниска јачина (20 %)"</item>
+    <item msgid="2483057103949558629">"Средна јачина (50 %)"</item>
+    <item msgid="6278092586736538014">"Висока јачина (80 %)"</item>
+  </string-array>
+  <string-array name="volume_change_entry_values">
+    <item msgid="685431465640328190">"0"</item>
+    <item msgid="3948049660167106381">"0,2"</item>
+    <item msgid="3441480529755779159">"0,5"</item>
+    <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
 </resources>

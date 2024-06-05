@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Асабістыя"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Падключыцца да сеткі"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Дадаць уліковы запіс"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Уліковыя запісы і ўваход"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Уліковыя запісы і профілі"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Няма ўліковых запісаў"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# уліковы запіс}one{# уліковы запіс}few{# уліковыя запісы}many{# уліковых запісаў}other{# уліковага запісу}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Сэрвісы мультымедыя, Памочнік, Плацяжы"</string>
@@ -60,11 +60,13 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Прыватнасць"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Налады прылады"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Налады ўліковага запісу"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Блакіроўка прылады"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Памочнік Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Аплата і куплі"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Налады праграмы"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Месцазнаходжанне, выкарыстанне і дыягностыка, рэклама"</string>
     <string name="add_account" msgid="7386223854837017129">"Дадаць уліковы запіс"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Невядомы ўліковы запіс"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Выдаліць уліковы запіс"</string>
     <string name="account_sync" msgid="4315295293211313989">"Выберыце сінхранізаваныя праграмы"</string>
     <string name="sync_now" msgid="4335217984374620551">"Сінхранізаваць"</string>
@@ -84,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Прылада падключана да Ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Няма падключэння да сеткі"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi адключаны"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Для выкарыстання Wi-Fi адключыце кабель Ethernet"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Пошук заўсёды даступны"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Дазволіць сэрвісу вызначэння месцазнаходжання Google і іншым праграмам шукаць сеткі, нават калі Wi-Fi выключаны"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Пошук сетак заўсёды ўключаны. Гэта дзеянне дазволіць службе геалакацыі Google і іншым праграмам шукаць сеткі, нават калі Wi-Fi выключаны"</string>
@@ -112,8 +115,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Рэзервовае капіраванне і аднаўленне"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Скід да заводскіх налад"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Каліброўка"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"Сілкаванне і энергія"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"Налады экарэжыму"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Таймер выключэння"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"Наладзьце таймеры для выключэння тэлевізара і эканоміі энергіі"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Прылады"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"Выбар фарматаў"</string>
@@ -151,11 +154,38 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Пашыраныя налады гуку"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Дазволіць рэжым гульні"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Прыводзіць у адпаведнасць з дынамічным дыяпазонам змесціва"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Калі гэты параметр уключаны, сістэма пераключае фарматы дынамічнага дыяпазону ў адпаведнасці са змесцівам. Падчас змены фармату можа паказвацца чорны экран.\n\nНацісніце \"Пашыраныя налады дысплэя\", каб перайсці ў дадатковыя налады дынамічнага дыяпазону."</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Прыярытэтны дынамічны дыяпазон"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Прыярытэтная ў сістэме размова"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Сістэма задае фармат аўтаматычна"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Калі выбраны гэты параметр, сістэма будзе выяўляць устойлівы дынамічны дыяпазон для адпраўкі на ваш дысплэй і, пры неабходнасці, пераўтвараць змесціва ў гэты дынамічны дыяпазон."</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Заўсёды падбірае фармат змесціва"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Прымусова перавесці размову"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Прымусова пераводзіць размову ў прыярытэтны фармат"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"Прымусова пераводзіць размову ў прыярытэтны фармат. Прымусовы перавод размовы можа закрануць іншыя налады ў рэжыме дысплэя ці фармаце HDR."</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"Заўсёды ў SDR"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"Заўсёды ў <xliff:g id="HDR_TYPE">%s</xliff:g>"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Прымусова перавесці ў фармат HDR?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Стандартна размова будзе прымусова адкрывацца ў <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Ваш дысплэй будзе мець раздзяляльнасць 1080p 60 Гц. Гэты параметр несумяшчальны з вашым дысплэем пры выкарыстанні раздзяляльнасці 4k 60 Гц."</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision не падтрымліваецца ў бягучай раздзяляльнасці. Калі вы ўключыце Dolby Vision уручную, раздзяляльнасць экрана будзе зменена на 1080p 60 Гц"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Змяніць раздзяляльнасць на 1080p 60 Гц?"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Заўсёды прымусова задаваць фармат Dolby Vision"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Калі фармат Dolby Vision адключаны ў Фарматах HDR у пашыраных наладах дысплэя, прымусовае задаванне фармату Dolby Vision зноў уключыць яго."</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Заўсёды прымусова задаваць фармат HDR10"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"Калі фармат HDR10 адключаны ў Фарматах HDR у пашыраных наладах дысплэя, прымусовае задаванне фармату HDR10 зноў уключыць яго."</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"Заўсёды прымусова задаваць фармат HLG"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"Калі фармат HLG адключаны ў Фарматах HDR у пашыраных наладах дысплэя, прымусовае задаванне фармату HLG зноў уключыць яго."</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"Заўсёды прымусова задаваць фармат HDR10+"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Калі фармат HDR10+ адключаны ў Фарматах HDR у пашыраных наладах дысплэя, прымусовае задаванне фармату HDR10+ зноў уключыць яго."</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Заўсёды прымусова задаваць фармат SDR"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"Прымусовае задаванне фармату SDR адключыць усе фарматы ў Фарматах HDR у пашыраных наладах дысплэя."</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"Узгадняць з частатой кадраў змесціва"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"Плаўнасць з\'яўляецца абавязковай"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Бесперапынна"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Калі праграма адправіць адпаведны запыт, прылада будзе суадносіць выходны сігнал з зыходнай частатой кадраў змесціва, якое вы праглядаеце, ТОЛЬКІ пры ўмове, што на экране тэлевізара будзе забяспечана плаўнасць рухаў."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Падключаны дысплэй не падтрымлівае плаўную змену частаты абнаўлення. Каб гэты параметр працаваў, перайдзіце на дысплэй, які яго падтрымлівае."</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"Плаўнасць не з\'яўляецца абавязковай"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"Заўсёды"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"Калі праграма адправіць адпаведны запыт, прылада будзе суадносіць выходны сігнал з зыходнай частатой кадраў змесціва, якое вы праглядаеце. У выніку экран можа на секунду пагаснуць, калі вы будзеце ўключаць ці выключаць прайграванне відэа."</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"Ніколі"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"Нават калі праграма адправіць адпаведны запыт, прылада ніколі не будзе імкнуцца суадносіць выходны сігнал з зыходнай частатой кадраў змесціва, якое вы праглядаеце."</string>
@@ -164,7 +194,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Прыклад тэксту"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Чараўнік краіны Оз"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Раздзел 11. Цудоўны Смарагдавы Горад у краіне Оз"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Нават надзеўшы зялёныя акуляры, Дораці і яе сябры былі ашаломленыя зіхаценнем дзівоснага Горада. Уздоўж вуліц стаялі прыгожыя дамы з зялёнага мармуру, упрыгожаныя бліскучымі смарагдамі. Кампанія ішла па ходніку з зялёнага мармуру, а шчыліны паміж плітамі былі запоўненыя смарагдамі, што ззялі пад праменямі сонца. Шыбы ў вокнах былі з зялёнага шкла, нават неба над Смарагдавым Горадам мела зялёнае адценне, а сонца свяціла зялёнымі праменямі. \n\nВакол хадзілі мужчыны, жанчыны, дзеці, і ўсе яны насілі зялёнае адзенне, і скура ў іх была зеленаватая. Яны са здзіўленнем глядзелі на Дораці і яе дзіўную кампанію, а дзеці ўцякалі і хаваліся за спіны мацярок, калі бачылі Льва; але ніхто не адважваўся загаварыць. На вуліцы было шмат крам, і Дораці заўважыла, што ўсе тавары былі зялёнага колеру. Зялёныя цукеркі і зялёная паветраная кукуруза, зялёныя чаравікі, зялёныя капелюшы і зялёныя касцюмы любых фасонаў. Дораці пабачыла, як прадавец гандляваў зялёным ліманадам, а дзеці расплачваліся за яго зялёнымі манеткамі. \n\nНе было відаць ні коней, ні іншай жывёлы. Мужчыны вазілі грузы ў маленькіх зялёных калясках. Усе выглядалі вясёлымі, задаволенымі і паспяховымі."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Нават надзеўшы зялёныя акуляры, Дораці і яе сябры былі ашаломленыя зіхаценнем дзівоснага Горада. Уздоўж вуліц стаялі прыгожыя дамы з зялёнага мармуру, упрыгожаныя бліскучымі смарагдамі. Кампанія ішла па ходніку з зялёнага мармуру, а шчыліны паміж плітамі былі запоўненыя смарагдамі, што ззялі пад праменямі сонца. Шыбы ў вокнах былі з зялёнага шкла, нават неба над Смарагдавым Горадам мела зялёнае адценне, а сонца свяціла зялёнымі праменямі. \n\nВакол хадзілі мужчыны, жанчыны, дзеці, і ўсе яны насілі зялёнае адзенне, і скура ў іх была зеленаватая. Яны са здзіўленнем глядзелі на Дораці і яе дзіўную кампанію, а дзеці ўцякалі і хаваліся за спіны мацярок, калі бачылі Льва; але ніхто не адважваўся загаварыць. На вуліцы было шмат крам, і Дораці заўважыла, што ўсе тавары былі зялёнага колеру. Зялёныя цукеркі і зялёная паветраная кукуруза, зялёныя чаравікі, зялёныя капелюшы і зялёныя касцюмы любых фасонаў. Дораці пабачыла, як прадавец гандляваў зялёным ліманадам, а дзеці расплачваліся за яго зялёнымі манеткамі. \n\nНе было відаць ні коней, ні іншай жывёлы. Мужчыны вазілі грузы ў маленькіх зялёных калясках. Усе выглядалі вясёлымі, задаволенымі і паспяховымі."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Фармаціраваць вылучанае"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Аўтаматычна"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Уручную"</string>
@@ -191,11 +221,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Змяніць раздзяляльнасць на %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Выберыце ОК, каб адразу ж выкарыстоўваць %1$s."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision не падтрымліваецца ў рэжыме %1$s і будзе адключаны ў пашыраных наладах дысплэя"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Гэты рэжым падтрымлівае %1$s. На некаторых тэлевізарах можа спатрэбіцца ўключыць палепшаны HDMI, каб выкарыстоўваць больш фарматаў HDR. Даведацца, якія фарматы падтрымліваюцца, можна ў наладах тэлевізара."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Гэты рэжым падтрымлівае: %1$s\nНа некаторых тэлевізарах можа спатрэбіцца ўключыць палепшаны HDMI, каб выкарыстоўваць больш фарматаў HDR. Даведацца, якія фарматы падтрымліваюцца, можна ў наладах тэлевізара."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Скасаваць"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ОК"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Гц"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Гц)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Гц)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Ачысціць кэшаваныя даныя?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Гэта ачысціць кэшаваныя даныя для ўсіх праграм."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -236,7 +266,7 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Аксесуары"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Дыстанцыйнае кіраванне"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Налады пульта дыстанцыйнага кіравання"</string>
-    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Наладзіць кнопкі пульта кіравання"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Наладзіць кнопкі пульта ДК"</string>
     <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Кіраванне гучнасцю, сілкаваннем, уваходнымі сігналамі на тэлевізарах, рэсіверах і гукавых панэлях"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Падключыць"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Падключыцца да %1$s"</string>
@@ -250,6 +280,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Падключана"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Адключана"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"У вас няма дазволу на змяненне налад Bluetooth."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Выкарыстоўваць для вываду гуку з тэлевізара"</string>
     <string name="send_feedback" msgid="936698637869795473">"Адправіць водгук"</string>
     <string name="launch_help" msgid="2607478763131952469">"Даведачны цэнтр"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -316,8 +347,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Гэта прылада знаходзіцца пад кіраваннем вашай арганізацыі."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Гэта прылада знаходзіцца пад кіраваннем <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Даведацца больш"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Праграма \"Камера\"}one{Праграмы \"Камера\"}few{Праграмы \"Камера\"}many{Праграмы \"Камера\"}other{Праграмы \"Камера\"}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Праграма \"Каляндар\""</string>
@@ -329,7 +359,7 @@
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"Кіраўніцтвы"</string>
-    <string name="about_system_update" msgid="7421264399111367755">"Абнаўленні сістэмы"</string>
+    <string name="about_system_update" msgid="7421264399111367755">"Абнаўленне сістэмы"</string>
     <string name="system_update_description" msgid="998883510488461766">"У выніку праграмнае забеспячэнне сістэмы будзе абноўлена да апошняй версіі. Ваша прылада будзе перазапушчана."</string>
     <string name="system_update_content_description" msgid="5702888187682876466">"Абнаўленне сістэмы. У выніку гэтага дзеяння праграмнае забеспячэнне сістэмы будзе абноўлена да апошняй версіі. Ваша прылада будзе перазапушчана."</string>
     <string name="about_preference" msgid="9112690446998150670">"Інфармацыя"</string>
@@ -340,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Прававая інфармацыя Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Даныя ліцэнзіі недаступныя"</string>
     <string name="about_model" msgid="9164284529291439296">"Мадэль"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Рэжым прылады"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Дэмарэжым для крамы"</string>
     <string name="about_version" msgid="6223547403835399861">"Версія АС Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"Серыйны нумар"</string>
     <string name="about_build" msgid="8467840394761634575">"Зборка АС Android TV"</string>
@@ -407,6 +439,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Падключэнне да інтэрнэту"</string>
     <string name="connected" msgid="4981532275162345997">"Падключана"</string>
     <string name="not_connected" msgid="475810896484271663">"Няма падключэння"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Няма падключэння да інтэрнэту"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Захавана"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Няправільны пароль"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"Пароль Wi-Fi занадта кароткі"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Неабходна выканаць уваход"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Іншыя параметры"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Праглядзець усё"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Паказаць менш"</string>
@@ -673,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Уключыць хуткі доступ да спецыяльных магчымасцей"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Служба хуткага доступу"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Калі гэта функцыя ўключана, вы можаце актываваць спецыяльныя магчымасці, утрымліваючы кнопкі \"Назад\" і \"Уніз\" на працягу 3 секунд."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Час на выкананне дзеяння"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Час на выкананне дзеяння (час даступнасці)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Час"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Гэты параметр падтрымліваюць не ўсе праграмы."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Субцітры"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Налады для накладання тэксту схаваных цітраў на відэа"</string>
     <string name="captions_display" msgid="2598662495450633375">"Паказ"</string>
@@ -715,7 +756,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Уключыць"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Канфігурацыя"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Уключыць <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"Служба <xliff:g id="SERVICE">%1$s</xliff:g> можа захоўваць увесь уведзены тэкст (напрыклад, нумары крэдытных карт), за выключэннем пароляў."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"Сэрвіс \"<xliff:g id="SERVICE">%1$s</xliff:g>\" зможа чытаць ваш экран, паказваць змесціва паверх іншых праграм, адсочваць вашы ўзаемадзеянні з праграмамі і датчыкамі апаратнага забеспячэння і ўзаемадзейнічаць з праграмамі ад вашага імені."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Спыніць службу <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Нацiск \"ОК\" спыніць <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Сінтэз маўлення"</string>
@@ -874,6 +915,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Наладзіць абмежаванні"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Хвілінку…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Змяніць PIN-код"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Стварыць абмежаваны профіль?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Профіль ужо створаны"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Прапусціць"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Стварыць PIN-код"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Увайсці ў абмежаваны профіль?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Няма абмежаваных профіляў"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Уваход ужо выкананы"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Гэта праграма можа атрымліваць доступ да вашых уліковых запісаў. Пад кіраваннем <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Увядзіце PIN-код, каб паглядзець гэты канал"</string>
@@ -889,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Каб працягнуць, выберыце <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Гатова"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Паспяхова падключана"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Паспяхова захавана"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Версія <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Адкрыць"</string>
@@ -934,9 +984,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"Пацвердзіце, каб папярэдзіць выключэнне дысплэя ў час прагляду. Гэта можа павялічыць спажыванне энергіі."</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"У час бяздзейнасці"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"У час прагляду"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"Аўтаматычна выключаць тэлевізар"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"Аўтаматычна выключаць тэлевізар падчас бяздзеяння"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"Аўтаматычна выключаць тэлевізар падчас прагляду"</string>
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"Выключаць аўтаматычна"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"Выключаць аўтаматычна, калі прылада не актыўная"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Выключаць аўтаматычна на час прагляду"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"Працягласць перыяду \"У неактыўным стане\" павінна быць меньшай за працягласць \"Часу прагляду\""</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"Працягласць \"Часу прагляду\" павінна быць большай за працягласць перыяду \"У неактыўным стане\""</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Абмежаваць падключэнне да сеткі ў рэжыме чакання"</string>
@@ -1036,10 +1086,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Мікрафон(ы) для запісу"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Не ўдалося запусціць запіс аўдыя."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Збой запісу аўдыя."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Эканомія трафіка"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Аўтаматычна рэгуляваць якасць відэа, каб эканоміць на мабільнай перадачы даных"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Выкарыстанне трафіка і абвесткі"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Вы можаце падключыцца да інтэрнэту з дапамогай Wi-Fi, Ethernet ці хот-спота тэлефона."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Зрабіць бачным для іншых прылад з Bluetooth?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Праграма запытвае дазвол на ўключэнне бачнасці вашага тэлевізара для іншых прылад з Bluetooth на <xliff:g id="TIMEOUT">%1$d</xliff:g> с."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1080,6 +1126,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Падключэнне выканана"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Паказаць усе"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Ідзе пошук"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Не ўдалося атрымаць намер \"Дадаць уліковы запіс\" ад сродку аўтэнтыфікацыі."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Не ўдалося дадаць уліковы запіс, або выбраны тып уліковага запісу недаступны."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Каналы і ўваходы"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Каналы, знешнія ўваходы"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Каналы"</string>
@@ -1091,5 +1139,19 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Сілкаванне і энергія"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Налады ўключэння"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Скінуць"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Тэлебачанне"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Код спалучэння ппраз Ethernet"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"Рэжымы спажывання энергіі"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Гэтыя налады ўплываюць на работу прылады, калі яна не выкарыстоўваецца"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"Уключае:"</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Пры ўключэнні большай колькасці функцый тэлевізара спажыванне энергіі можа павялічвацца."</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Уключыць рэжым \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Пошук пульта"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Каб знайсці згублены пульт Google TV, вы можаце прайграць на ім гукавы сігнал"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"На вашай прыладзе Google TV ёсць кнопка, якую можна націснуць, каб на працягу 30 секунд на пульце прайграваўся гук. Функцыя працуе толькі на пультах Google TV, якія падтрымліваюцца.\n\nКаб выключыць сігнал, націсніце любую кнопку на пульце."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Функцыя \"Пошук пульта\" дазваляе знайсці згублены пульт Google TV з дапамогай гукавога сігналу."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Прайграць гук"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Гучнасць: %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Кіраваць гучнасцю Памочніка можна на дынаміку (%1$s)"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Гучнасць мяняецца не на тэлевізары, а на пэўнай прыладзе (%1$s)"</string>
 </resources>

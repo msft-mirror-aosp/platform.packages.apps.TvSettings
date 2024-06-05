@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"ਨਿੱਜੀ"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕਰੋ"</string>
     <string name="add_an_account" msgid="2601275122685226096">"ਇੱਕ ਖਾਤਾ ਸ਼ਾਮਲ ਕਰੋ"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"ਖਾਤੇ ਅਤੇ ਸਾਈਨ-ਇਨ"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"ਖਾਤੇ ਅਤੇ ਪ੍ਰੋਫਾਈਲ"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"ਕੋਈ ਖਾਤੇ ਨਹੀਂ"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# ਖਾਤਾ}one{# ਖਾਤਾ}other{# ਖਾਤੇ}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"ਮੀਡੀਆ ਸੇਵਾਵਾਂ, Assistant, ਭੁਗਤਾਨ"</string>
@@ -60,11 +60,13 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"ਪਰਦੇਦਾਰੀ"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ਡੀਵਾਈਸ ਸੈਟਿੰਗਾਂ"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"ਖਾਤਾ ਸੈਟਿੰਗਾਂ"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ਡੀਵਾਈਸ ਲਾਕ"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ਭੁਗਤਾਨ ਅਤੇ ਖਰੀਦਾਂ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ਐਪ ਸੈਟਿੰਗਾਂ"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"ਟਿਕਾਣਾ, ਵਰਤੋਂ ਅਤੇ ਤਸ਼ਖੀਸਾਂ, ਵਿਗਿਆਪਨ"</string>
     <string name="add_account" msgid="7386223854837017129">"ਖਾਤਾ ਸ਼ਾਮਲ ਕਰੋ"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"ਅਗਿਆਤ ਖਾਤਾ"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"ਖਾਤਾ ਹਟਾਓ"</string>
     <string name="account_sync" msgid="4315295293211313989">"ਸਿੰਕ ਕੀਤੀਆਂ ਐਪਾਂ ਚੁਣੋ"</string>
     <string name="sync_now" msgid="4335217984374620551">"ਹੁਣੇ ਸਿੰਕ ਕਰੋ"</string>
@@ -84,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ਈਥਰਨੈੱਟ ਕਨੈਕਟ ਕੀਤਾ ਹੋਇਆ ਹੈ"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"ਕੋਈ ਨੈੱਟਵਰਕ ਕਨੈਕਟ ਨਹੀਂ ਕੀਤਾ ਹੋਇਆ ਹੈ"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"ਵਾਈ-ਫਾਈ ਬੰਦ ਹੈ"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"ਵਾਈ-ਫਾਈ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਈਥਰਨੈੱਟ ਦਾ ਪਲੱਗ ਕੱਢੋ"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"ਸਕੈਨਿੰਗ ਹਮੇਸ਼ਾਂ ਉਪਲਬਧ"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Google ਦੀ ਟਿਕਾਣਾ ਸੇਵਾ ਅਤੇ ਹੋਰ ਐਪਾਂ ਨੂੰ ਨੈੱਟਵਰਕਾਂ ਲਈ ਸਕੈਨ ਕਰਨ ਦਿਓ, ਭਾਵੇਂ ਵਾਈ-ਫਾਈ ਬੰਦ ਹੀ ਹੋਵੇ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ਸਕੈਨਿੰਗ ਹਮੇਸ਼ਾਂ ਉਪਲਬਧ, Google ਦੀ ਟਿਕਾਣਾ ਸੇਵਾ ਅਤੇ ਹੋਰ ਐਪਾਂ ਨੂੰ ਨੈੱਟਵਰਕਾਂ ਲਈ ਸਕੈਨ ਕਰਨ ਦਿਓ, ਓਦੋਂ ਵੀ ਜਦੋਂ ਵਾਈ-ਫਾਈ ਬੰਦ ਹੋਵੇ"</string>
@@ -112,8 +115,8 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"ਬੈਕਅੱਪ ਲਓ ਅਤੇ ਮੁੜ-ਬਹਾਲ ਕਰੋ"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"ਫੈਕਟਰੀ ਡਾਟਾ ਰੀਸੈੱਟ"</string>
     <string name="device_calibration" msgid="2907914144048739705">"ਕੈਲੀਬਰੇਸ਼ਨ"</string>
-    <string name="device_energy_saver" msgid="5560942970290949739">"ਪਾਵਰ ਅਤੇ ਊਰਜਾ"</string>
-    <string name="device_eco_settings" msgid="8478430139722946388">"ਈਕੋ ਮੋਡ ਦੀਆਂ ਸੈਟਿੰਗਾਂ"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"ਟਾਈਮਰ ਬੰਦ ਕਰੋ"</string>
+    <string name="device_energy_saver_summary" msgid="5306058475316008429">"ਟੀਵੀ ਬੰਦ ਕਰਨ ਅਤੇ ਊਰਜਾ ਬਚਾਉਣ ਲਈ ਟਾਈਮਰ ਸੈੱਟ ਕਰੋ"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"ਡੀਵਾਈਸ"</string>
     <string name="surround_sound_select_formats" msgid="6070283650131226239">"ਫਾਰਮੈਟ ਚੁਣੋ"</string>
@@ -151,11 +154,38 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"ਉੱਨਤ ਧੁਨੀ ਸੈਟਿੰਗਾਂ"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"ਗੇਮ ਮੋਡ ਨੂੰ ਇਜਾਜ਼ਤ ਦਿਓ"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"ਮੇਲ ਖਾਂਦੀ ਸਮੱਗਰੀ ਦੀ ਪਰਿਵਰਤਨਸ਼ੀਲ ਰੇਂਜ"</string>
+    <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"ਇਹ ਵਿਕਲਪ ਚਾਲੂ ਹੋਣ \'ਤੇ, ਸਿਸਟਮ ਸਮੱਗਰੀ ਨਾਲ ਮੇਲ ਖਾਉਣ ਲਈ ਪਰਿਵਰਤਨਸ਼ੀਲ ਰੇਂਜ ਵਾਲੇ ਵੱਖ-ਵੱਖ ਫਾਰਮੈਟਾਂ ਵਿਚਾਲੇ ਸਵਿੱਚ ਕਰੇਗਾ। ਇਸ ਨਾਲ ਫਾਰਮੈਟ ਸਵਿੱਚ ਦੌਰਾਨ ਸਕ੍ਰੀਨ ਕਾਲੀ ਹੋ ਸਕਦੀ ਹੈ।\n\nਪਰਿਵਰਤਨਸ਼ੀਲ ਰੇਂਜ ਵਾਲੇ ਹੋਰ ਵਿਕਲਪਾਂ ਲਈ ਅਡਵਾਂਸ ਡਿਸਪਲੇ ਸੈਟਿੰਗਾਂ \'ਤੇ ਕਲਿੱਕ ਕਰੋ।"</string>
+    <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"ਤਰਜੀਹੀ ਪਰਿਵਰਤਨਸ਼ੀਲ ਰੇਂਜ"</string>
+    <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"ਸਿਸਟਮ-ਤਰਜੀਹੀ ਰੂਪਾਂਤਰਨ"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"ਸਿਸਟਮ ਨੂੰ ਫਾਰਮੈਟ ਰੂਪਾਂਤਰਨ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ ਦਿਓ"</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"ਇਹ ਵਿਕਲਪ ਚੁਣਨ \'ਤੇ ਸਿਸਟਮ ਤੁਹਾਡੀ ਡਿਸਪਲੇ \'ਤੇ ਭੇਜੇ ਜਾਣ ਲਈ ਢੁਕਵੀਂ ਗਤੀਸ਼ੀਲ ਦਰ ਨਿਰਧਾਰਿਤ ਕਰੇਗਾ ਅਤੇ ਲੋੜ ਮੁਤਾਬਕ ਸਮੱਗਰੀ ਨੂੰ ਇਸ ਗਤੀਸ਼ੀਲ ਦਰ ਵਿੱਚ ਬਦਲੇਗਾ।"</string>
+    <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ਸਮੱਗਰੀ ਦੇ ਫਾਰਮੈਟ ਨਾਲ ਹਮੇਸ਼ਾਂ ਮੇਲ ਖਾਂਦਾ ਹੈ"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ"</string>
+    <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"ਇਸ ਸਮੱਗਰੀ ਦਾ ਤੁਹਾਡੇ ਤਰਜੀਹੀ ਫਾਰਮੈਟ ਵਿੱਚ ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ ਕੀਤਾ ਜਾਂਦਾ ਹੈ"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"ਸਮੱਗਰੀ ਨੂੰ ਤਰਜੀਹੀ ਫਾਰਮੈਟ ਜ਼ਬਦਸਤੀ ਬਦਲੋ। ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ ਨਾਲ ਡਿਸਪਲੇ ਫਾਰਮੈਟ ਜਾਂ HDR ਫਾਰਮੈਟ ਵਿਚਲੀਆਂ ਹੋਰ ਸੈਟਿੰਗਾਂ ਪ੍ਰਭਾਵਿਤ ਹੋ ਸਕਦੀਆਂ ਹਨ।"</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"ਹਮੇਸ਼ਾਂ SDR ਵਿੱਚ"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"ਹਮੇਸ਼ਾਂ <xliff:g id="HDR_TYPE">%s</xliff:g> ਵਿੱਚ"</string>
+    <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"ਕੀ ਤੁਸੀਂ ਜ਼ਬਰਦਸਤੀ HDR ਆਊਟਪੁੱਟ ਚਾਹੁੰਦੇ ਹੋ?"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਤੌਰ \'ਤੇ ਸਮੱਗਰੀ ਦਾ <xliff:g id="HDR_TYPE">%s</xliff:g> ਵਿੱਚ ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ ਕੀਤਾ ਜਾਵੇਗਾ।"</string>
+    <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"ਤੁਹਾਡੀ ਡਿਸਪਲੇ 1080p 60Hz ਰੈਜ਼ੋਲਿਊਸ਼ਨ \'ਤੇ ਚੱਲੇਗੀ। ਤੁਹਾਡੀ ਡਿਸਪਲੇ 4k 60Hz ਰੈਜ਼ੋਲਿਊਸ਼ਨ \'ਤੇ ਚੱਲਣ \'ਤੇ ਇਹ ਵਿਕਲਪ ਤੁਹਾਡੀ ਡਿਸਪਲੇ ਦੇ ਅਨੁਰੂਪ ਨਹੀਂ ਹੁੰਦਾ ਹੈ।"</string>
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision ਮੌਜੂਦਾ ਰੈਜ਼ੋਲਿਊਸ਼ਨ \'ਤੇ ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ। ਜੇ ਤੁਸੀਂ Dolby Vision ਨੂੰ ਹੱਥੀਂ ਚਾਲੂ ਕਰਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਡੇ ਡਿਸਪਲੇ ਦਾ ਰੈਜ਼ੋਲਿਊਸ਼ਨ 1080p 60Hz ਵਿੱਚ ਬਦਲ ਜਾਵੇਗਾ"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"ਕੀ ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਨੂੰ ਬਦਲ ਕੇ 1080p 60Hz ਕਰਨਾ ਹੈ?"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"ਹਮੇਸ਼ਾਂ Dolby Vision ਵਿੱਚ ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ ਕਰੋ"</string>
+    <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"ਜੇ ਅਡਵਾਂਸ ਡਿਸਪਲੇ ਸੈਟਿੰਗਾਂ ਵਿੱਚ Dolby Vision ਨੂੰ HDR ਫਾਰਮੈਟਾਂ ਵਿੱਚ ਬੰਦ ਕੀਤਾ ਗਿਆ ਹੈ, ਤਾਂ Dolby Vision ਵਿੱਚ ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ ਕਰ ਕੇ ਇਸਨੂੰ ਮੁੜ-ਚਾਲੂ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ।"</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"ਹਮੇਸ਼ਾਂ HDR10 ਵਿੱਚ ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ ਕਰੋ"</string>
+    <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"ਜੇ ਅਡਵਾਂਸ ਡਿਸਪਲੇ ਸੈਟਿੰਗਾਂ ਵਿੱਚ HDR10 ਨੂੰ HDR ਫਾਰਮੈਟਾਂ ਵਿੱਚ ਬੰਦ ਕੀਤਾ ਗਿਆ ਹੈ, ਤਾਂ HDR10 ਵਿੱਚ ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ ਕਰ ਕੇ ਇਸਨੂੰ ਮੁੜ-ਚਾਲੂ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ।"</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"ਹਮੇਸ਼ਾਂ HLG ਵਿੱਚ ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ ਕਰੋ"</string>
+    <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"ਜੇ ਅਡਵਾਂਸ ਡਿਸਪਲੇ ਸੈਟਿੰਗਾਂ ਵਿੱਚ HLG ਨੂੰ HDR ਫਾਰਮੈਟਾਂ ਵਿੱਚ ਬੰਦ ਕੀਤਾ ਗਿਆ ਹੈ, ਤਾਂ HLG ਵਿੱਚ ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ ਕਰ ਕੇ ਇਸਨੂੰ ਮੁੜ-ਚਾਲੂ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ।"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"ਹਮੇਸ਼ਾਂ HDR10+ ਵਿੱਚ ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ ਕਰੋ"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"ਜੇ ਅਡਵਾਂਸ ਡਿਸਪਲੇ ਸੈਟਿੰਗਾਂ ਵਿੱਚ HDR10+ ਨੂੰ HDR ਫਾਰਮੈਟਾਂ ਵਿੱਚ ਬੰਦ ਕੀਤਾ ਗਿਆ ਹੈ, ਤਾਂ HDR10+ ਵਿੱਚ ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ ਕਰ ਕੇ ਇਸਨੂੰ ਮੁੜ-ਚਾਲੂ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ।"</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"ਹਮੇਸ਼ਾਂ SDR ਵਿੱਚ ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ ਕਰੋ"</string>
+    <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"SDR ਵਿੱਚ ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ ਕਰਨ ਨਾਲ ਅਡਵਾਂਸ ਡਿਸਪਲੇ ਸੈਟਿੰਗਾਂ ਵਿੱਚ HDR ਫਾਰਮੈਟਾਂ ਵਿੱਚ ਸਾਰੇ ਫਾਰਮੈਟ ਬੰਦ ਹੋ ਜਾਣਗੇ।"</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"ਸਮੱਗਰੀ ਦੇ ਫ੍ਰੇਮ ਰੇਟ ਦਾ ਮਿਲਾਨ ਕਰੋ"</string>
-    <string name="match_content_frame_rate_seamless" msgid="5900012519258795448">"ਸਹਿਜ"</string>
+    <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"ਸਿਰਫ਼-ਸਹਿਜ"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"ਜੇ ਐਪ ਵੱਲੋਂ ਇਸਦੀ ਬੇਨਤੀ ਕੀਤੀ ਜਾਂਦੀ ਹੈ, ਤਾਂ ਤੁਹਾਡਾ ਡੀਵਾਈਸ ਤੁਹਾਡੇ ਵੱਲੋਂ ਦੇਖੀ ਜਾ ਰਹੀ ਸਮੱਗਰੀ ਦੇ ਮੂਲ ਫ੍ਰੇਮ ਰੇਟ ਦਾ ਇਸਦੇ ਆਊਟਪੁੱਟ ਨਾਲ ਮਿਲਾਨ ਕਰੇਗਾ, ਸਿਰਫ਼ ਉਦੋਂ ਜੇ ਤੁਹਾਡਾ ਟੀਵੀ ਸਹਿਜ ਤਬਦੀਲੀ ਕਰ ਸਕਦਾ ਹੈ।"</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"ਤੁਹਾਡੀ ਕਨੈਕਟ ਕੀਤੀ ਡਿਸਪਲੇ ਸਹਿਜ ਰਿਫ੍ਰੈਸ਼ ਦਰ ਪਰਿਵਰਤਨਾਂ ਦਾ ਸਮਰਥਨ ਨਹੀਂ ਕਰਦੀ ਹੈ। ਇਸ ਵਿਕਲਪ ਦਾ ਉਦੋਂ ਤੱਕ ਕੋਈ ਪ੍ਰਭਾਵ ਨਹੀਂ ਹੋਵੇਗਾ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਇਸਦਾ ਸਮਰਥਨ ਕਰਨ ਵਾਲੀ ਡਿਸਪਲੇ ਵਿੱਚ ਨਹੀਂ ਬਦਲਦੇ ਹੋ।"</string>
-    <string name="match_content_frame_rate_non_seamless" msgid="1534300397118594640">"ਸਹਿਜ ਨਹੀਂ"</string>
+    <string name="match_content_frame_rate_non_seamless" msgid="2702658727234710031">"ਹਮੇਸ਼ਾਂ"</string>
     <string name="match_content_frame_rate_non_seamless_summary" msgid="6831699459487130055">"ਜੇ ਐਪ ਵੱਲੋਂ ਇਸਦੀ ਬੇਨਤੀ ਕੀਤੀ ਜਾਂਦੀ ਹੈ, ਤਾਂ ਤੁਹਾਡਾ ਡੀਵਾਈਸ ਤੁਹਾਡੇ ਵੱਲੋਂ ਦੇਖੀ ਜਾ ਰਹੀ ਸਮੱਗਰੀ ਦੇ ਮੂਲ ਫ੍ਰੇਮ ਰੇਟ ਦਾ ਇਸਦੇ ਆਊਟਪੁੱਟ ਨਾਲ ਮਿਲਾਨ ਕਰੇਗਾ। ਅਜਿਹਾ ਕਰਨ ਨਾਲ ਵੀਡੀਓ ਪਲੇਬੈਕ ਤੋਂ ਬਾਹਰ ਨਿਕਲਣ ਅਤੇ ਦਾਖਲ ਹੋਣ ਵੇਲੇ ਤੁਹਾਡੀ ਸਕ੍ਰੀਨ ਇੱਕ ਸਕਿੰਟ ਲਈ ਕਾਲੀ ਹੋ ਜਾਵੇਗੀ।"</string>
     <string name="match_content_frame_rate_never" msgid="1678354793095148423">"ਕਦੇ ਵੀ ਨਹੀਂ"</string>
     <string name="match_content_frame_rate_never_summary" msgid="742977618080396095">"ਐਪ ਵੱਲੋਂ ਇਸਦੀ ਬੇਨਤੀ ਕਰਨ \'ਤੇ ਵੀ, ਤੁਹਾਡਾ ਡੀਵਾਈਸ ਤੁਹਾਡੇ ਵੱਲੋਂ ਦੇਖੀ ਜਾ ਰਹੀ ਸਮੱਗਰੀ ਦੇ ਮੂਲ ਫ੍ਰੇਮ ਰੇਟ ਦਾ ਇਸਦੇ ਆਊਟਪੁੱਟ ਨਾਲ ਮਿਲਾਨ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਦੇ ਵੀ ਨਹੀਂ ਕਰੇਗਾ।"</string>
@@ -164,7 +194,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"ਨਮੂਨਾ ਲਿਖਤ"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"ਔਜ਼ ਦਾ ਨਿਰਾਲਾ ਵਿਜ਼ਾਰਡ"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"ਪਾਠ 11: ਔਜ਼ ਦਾ ਹੀਰਿਆਂ-ਪੰਨਿਆਂ ਵਾਲਾ ਨਿਰਾਲਾ ਸ਼ਹਿਰ"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"ਹਰੇ ਰੰਗ ਦੀਆਂ ਐਨਕਾਂ ਲਗਾ ਕੇ ਵੀ ਡੋਰਥੀ ਅਤੇ ਉਸ ਦੇ ਦੋਸਤ ਨਿਰਾਲੇ ਸ਼ਹਿਰ ਦੀ ਚਮਕ-ਦਮਕ ਦੇਖ ਕੇ ਹੈਰਾਨ ਸਨ। ਹਰੇ ਰੰਗ ਦੇ ਮਾਰਬਲ ਨਾਲ ਬਣੇ ਹੋਏ ਸੁੰਦਰ ਘਰ, ਗਲੀਆਂ ਵਿੱਚ ਕਤਾਰਬੱਧ ਸਨ ਅਤੇ ਉਹਨਾਂ ਵਿੱਚ ਚਮਕਦੇ ਪੰਨੇ ਜੜੇ ਹੋਏ ਸਨ। ਉਹ ਉਸੇ ਹਰੇ ਮਾਰਬਲ ਦੇ ਫੁੱਟਪਾਥ \'ਤੇ ਪੈਦਲ ਤੁਰ ਪਏ ਅਤੇ ਜਿੱਥੇ ਆਲੇ-ਦੁਆਲੇ ਰੱਖੇ ਹੋਏ ਮਾਰਬਲ ਪੱਥਰ ਆਪਸ ਵਿੱਚ ਜੁੜਦੇ ਸਨ ਉੱਥੇ ਨੇੜੇ-ਨੇੜੇ ਲਗਾਏ ਗਏ ਪੰਨਿਆਂ ਦੀਆਂ ਕਤਾਰਾਂ ਸਨ ਅਤੇ ਧੁੱਪ ਵਿੱਚ ਚਮਕ ਰਹੀਆਂ ਸਨ। ਖਿੜਕੀਆਂ ਦੇ ਸ਼ੀਸ਼ੇ ਹਰੇ ਰੰਗ ਦੇ ਸਨ; ਇੱਥੋਂ ਤੱਕ ਕਿ ਸ਼ਹਿਰ ਦੇ ਉੱਤੇ ਅਸਮਾਨ ਵਿੱਚ ਵੀ ਹਰੇ ਰੰਗ ਦੀ ਭਾਅ ਸੀ ਅਤੇ ਸੂਰਜ ਦੀਆਂ ਕਿਰਨਾਂ ਵੀ ਹਰੇ ਰੰਗ ਦੀਆਂ ਸਨ। \n\nਉੱਥੇ ਬਹੁਤ ਸਾਰੇ ਲੋਕ, ਆਦਮੀ, ਔਰਤਾਂ ਅਤੇ ਬੱਚੇ ਘੁੰਮ ਰਹੇ ਸਨ ਅਤੇ ਉਹਨਾਂ ਨੇ ਹਰੇ ਰੰਗ ਦੇ ਕੱਪੜੇ ਪਾਏ ਹੋਏ ਸਨ ਅਤੇ ਉਹਨਾਂ ਦੀ ਚਮੜੀ ਦਾ ਰੰਗ ਵੀ ਹਰਾ ਹੀ ਸੀ। ਉੁਹਨਾਂ ਨੇ ਡੋਰਥੀ ਅਤੇ ਉਸਦੇ ਅਜੀਬੋ-ਗਰੀਬ ਦੋਸਤਾਂ ਵੱਲ ਹੈਰਾਨੀ ਭਰੀਆਂ ਨਜ਼ਰਾਂ ਨਾਲ ਦੇਖਿਆ ਅਤੇ ਜਦੋਂ ਬੱਚਿਆਂ ਨੇ ਸ਼ੇਰ ਨੂੰ ਦੇਖਿਆ ਤਾਂ ਸਾਰੇ ਬੱਚੇ ਭੱਜ ਗਏ ਅਤੇ ਆਪਣੀਆਂ ਮਾਵਾਂ ਦੇ ਪਿੱਛੇ ਜਾ ਕੇ ਲੁਕ ਗਏ; ਪਰ ਕਿਸੇ ਨੇ ਵੀ ਉਹਨਾਂ ਨਾਲ ਗੱਲ ਨਹੀਂ ਕੀਤੀ। ਗਲੀ ਵਿੱਚ ਬਹੁਤ ਸਾਰੀਆਂ ਦੁਕਾਨਾਂ ਸਨ ਅਤੇ ਡੋਰਥੀ ਨੇ ਦੇਖਿਆ ਕਿ ਉੱਥੇ ਸਭ ਕੁਝ ਹਰੇ ਰੰਗ ਦਾ ਹੀ ਸੀ। ਹਰੇ ਰੰਗ ਦੀਆਂ ਟੌਫੀਆਂ ਅਤੇ ਹਰੇ ਰੰਗੇ ਦੇ ਮੱਕੀ ਦੇ ਫੁੱਲੇ ਵੇਚੇ ਜਾ ਰਹੇ ਸਨ, ਹਰੇ ਰੰਗ ਦੇ ਬੂਟ ਵੀ, ਹਰੀਆਂ ਟੋਪੀਆਂ ਅਤੇ ਸਾਰੀਆਂ ਕਿਸਮਾਂ ਦੇ ਹਰੇ ਰੰਗ ਦੇ ਕੱਪੜੇ। ਇੱਕ ਥਾਂ \'ਤੇ ਇੱਕ ਵਿਅਕਤੀ ਹਰੇ ਰੰਗ ਦੀ ਸ਼ਕੰਜਵੀ ਵੇਚ ਰਿਹਾ ਸੀ ਅਤੇ ਜਦੋਂ ਬੱਚੇ ਸ਼ਕੰਜਵੀ ਨੂੰ ਖਰੀਦ ਰਹੇ ਸਨ ਤਾਂ ਡੋਰਥੀ ਦੇਖ ਸਕਦੀ ਸੀ ਕਿ ਉਹ ਉਸ ਵਿਅਕਤੀ ਨੂੰ ਹਰੇ ਰੰਗ ਦੀਆਂ ਪੈਨੀਆਂ (ਪੈਸੇ) ਦੇ ਰਹੇ ਸਨ। \n\nਇੰਝ ਪ੍ਰਤੀਤ ਹੁੰਦਾ ਸੀ ਕਿ ਉੱਥੇ ਘੋੜੇ ਜਾਂ ਕਿਸੇ ਵੀ ਕਿਸਮ ਦੇ ਜਾਨਵਰ ਨਹੀਂ ਸਨ: ਬੰਦੇ ਹਰੇ ਰੰਗ ਦੇ ਛੋਟੇ-ਛੋਟੇ ਗੱਡਿਆਂ ਉੱਤੇ ਚੀਜ਼ਾਂ ਨੂੰ ਇੱਧਰ-ਉੱਧਰ ਲੈ ਕੇ ਜਾ ਰਹੇ ਸਨ, ਜਿਨ੍ਹਾਂ ਨੂੰ ਉਹ ਆਪਣੇ ਅੱਗੇ ਧਕੇਲ ਕੇ ਲੈ ਜਾ ਰਹੇ ਸਨ। ਹਰ ਕੋਈ ਖੁਸ਼, ਸੰਤੁਸ਼ਟ ਅਤੇ ਖੁਸ਼ਹਾਲ ਪ੍ਰਤੀਤ ਹੋ ਰਿਹਾ ਸੀ।"</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"ਹਰੇ ਰੰਗ ਦੀਆਂ ਐਨਕਾਂ ਲਗਾ ਕੇ ਵੀ ਡੋਰਥੀ ਅਤੇ ਉਸ ਦੇ ਦੋਸਤ ਨਿਰਾਲੇ ਸ਼ਹਿਰ ਦੀ ਚਮਕ-ਦਮਕ ਦੇਖ ਕੇ ਹੈਰਾਨ ਸਨ। ਹਰੇ ਰੰਗ ਦੇ ਮਾਰਬਲ ਨਾਲ ਬਣੇ ਹੋਏ ਸੁੰਦਰ ਘਰ, ਗਲੀਆਂ ਵਿੱਚ ਕਤਾਰਬੱਧ ਸਨ ਅਤੇ ਉਨ੍ਹਾਂ ਵਿੱਚ ਚਮਕਦੇ ਪੰਨੇ ਜੜੇ ਹੋਏ ਸਨ। ਉਹ ਉਸੇ ਹਰੇ ਮਾਰਬਲ ਦੇ ਫੁੱਟਪਾਥ \'ਤੇ ਪੈਦਲ ਤੁਰ ਪਏ ਅਤੇ ਜਿੱਥੇ ਆਲੇ-ਦੁਆਲੇ ਰੱਖੇ ਹੋਏ ਮਾਰਬਲ ਪੱਥਰ ਆਪਸ ਵਿੱਚ ਜੁੜਦੇ ਸਨ ਉੱਥੇ ਨੇੜੇ-ਨੇੜੇ ਲਗਾਏ ਗਏ ਪੰਨਿਆਂ ਦੀਆਂ ਕਤਾਰਾਂ ਸਨ ਅਤੇ ਧੁੱਪ ਵਿੱਚ ਚਮਕ ਰਹੀਆਂ ਸਨ। ਖਿੜਕੀਆਂ ਦੇ ਸ਼ੀਸ਼ੇ ਹਰੇ ਰੰਗ ਦੇ ਸਨ; ਇੱਥੋਂ ਤੱਕ ਕਿ ਸ਼ਹਿਰ ਦੇ ਉੱਤੇ ਅਸਮਾਨ ਵਿੱਚ ਵੀ ਹਰੇ ਰੰਗ ਦੀ ਭਾਅ ਸੀ ਅਤੇ ਸੂਰਜ ਦੀਆਂ ਕਿਰਨਾਂ ਵੀ ਹਰੇ ਰੰਗ ਦੀਆਂ ਸਨ। \n\nਉੱਥੇ ਬਹੁਤ ਸਾਰੇ ਲੋਕ, ਆਦਮੀ, ਔਰਤਾਂ ਅਤੇ ਬੱਚੇ ਘੁੰਮ ਰਹੇ ਸਨ ਅਤੇ ਉਨ੍ਹਾਂ ਨੇ ਹਰੇ ਰੰਗ ਦੇ ਕੱਪੜੇ ਪਾਏ ਹੋਏ ਸਨ ਅਤੇ ਉਨ੍ਹਾਂ ਦੀ ਚਮੜੀ ਦਾ ਰੰਗ ਵੀ ਹਰਾ ਹੀ ਸੀ। ਉਨ੍ਹਾਂ ਨੇ ਡੋਰਥੀ ਅਤੇ ਉਸਦੇ ਅਜੀਬੋ-ਗਰੀਬ ਦੋਸਤਾਂ ਵੱਲ ਹੈਰਾਨੀ ਭਰੀਆਂ ਨਜ਼ਰਾਂ ਨਾਲ ਦੇਖਿਆ ਅਤੇ ਜਦੋਂ ਬੱਚਿਆਂ ਨੇ ਸ਼ੇਰ ਨੂੰ ਦੇਖਿਆ ਤਾਂ ਸਾਰੇ ਬੱਚੇ ਭੱਜ ਗਏ ਅਤੇ ਆਪਣੀਆਂ ਮਾਵਾਂ ਦੇ ਪਿੱਛੇ ਜਾ ਕੇ ਲੁਕ ਗਏ; ਪਰ ਕਿਸੇ ਨੇ ਵੀ ਉਨ੍ਹਾਂ ਨਾਲ ਗੱਲ ਨਹੀਂ ਕੀਤੀ। ਗਲੀ ਵਿੱਚ ਬਹੁਤ ਸਾਰੀਆਂ ਦੁਕਾਨਾਂ ਸਨ ਅਤੇ ਡੋਰਥੀ ਨੇ ਦੇਖਿਆ ਕਿ ਉੱਥੇ ਸਭ ਕੁਝ ਹਰੇ ਰੰਗ ਦਾ ਹੀ ਸੀ। ਹਰੇ ਰੰਗ ਦੀਆਂ ਟੌਫੀਆਂ ਅਤੇ ਹਰੇ ਰੰਗ ਦੇ ਮੱਕੀ ਦੇ ਫੁੱਲੇ ਵੇਚੇ ਜਾ ਰਹੇ ਸਨ, ਹਰੇ ਰੰਗ ਦੇ ਬੂਟ ਵੀ, ਹਰੀਆਂ ਟੋਪੀਆਂ ਅਤੇ ਸਾਰੀਆਂ ਕਿਸਮਾਂ ਦੇ ਹਰੇ ਰੰਗ ਦੇ ਕੱਪੜੇ। ਇੱਕ ਥਾਂ \'ਤੇ ਇੱਕ ਵਿਅਕਤੀ ਹਰੇ ਰੰਗ ਦੀ ਸ਼ਕੰਜਵੀ ਵੇਚ ਰਿਹਾ ਸੀ ਅਤੇ ਜਦੋਂ ਬੱਚੇ ਸ਼ਕੰਜਵੀ ਨੂੰ ਖਰੀਦ ਰਹੇ ਸਨ ਤਾਂ ਡੋਰਥੀ ਦੇਖ ਸਕਦੀ ਸੀ ਕਿ ਉਹ ਉਸ ਵਿਅਕਤੀ ਨੂੰ ਹਰੇ ਰੰਗ ਦੀਆਂ ਪੈਨੀਆਂ (ਪੈਸੇ) ਦੇ ਰਹੇ ਸਨ। \n\nਇੰਝ ਪ੍ਰਤੀਤ ਹੁੰਦਾ ਸੀ ਕਿ ਉੱਥੇ ਘੋੜੇ ਜਾਂ ਕਿਸੇ ਵੀ ਕਿਸਮ ਦੇ ਜਾਨਵਰ ਨਹੀਂ ਸਨ; ਬੰਦੇ ਹਰੇ ਰੰਗ ਦੇ ਛੋਟੇ-ਛੋਟੇ ਗੱਡਿਆਂ ਉੱਤੇ ਚੀਜ਼ਾਂ ਨੂੰ ਇੱਧਰ-ਉੱਧਰ ਲੈ ਕੇ ਜਾ ਰਹੇ ਸਨ, ਜਿਨ੍ਹਾਂ ਨੂੰ ਉਹ ਆਪਣੇ ਅੱਗੇ ਧਕੇਲ ਕੇ ਲੈ ਜਾ ਰਹੇ ਸਨ। ਹਰ ਕੋਈ ਖੁਸ਼, ਸੰਤੁਸ਼ਟ ਅਤੇ ਖੁਸ਼ਹਾਲ ਪ੍ਰਤੀਤ ਹੋ ਰਿਹਾ ਸੀ।"</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"ਫਾਰਮੈਟ ਦੀ ਚੋਣ"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"ਸਵੈਚਲਿਤ"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"ਹੱਥੀਂ"</string>
@@ -191,11 +221,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"ਕੀ %1$s ਰੈਜ਼ੋਲਿਊਸ਼ਨ ਨੂੰ ਬਦਲਣਾ ਹੈ?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"ਹੁਣ ਤੋਂ %1$s ਵਰਤਣ ਲਈ \'ਠੀਕ ਹੈ\' ਚੁਣੋ।"</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"%1$s \'ਤੇ Dolby Vision ਸਮਰਥਿਤ ਨਹੀਂ ਹੈ ਅਤੇ ਇਸਨੂੰ \"ਅਡਵਾਂਸ ਡਿਸਪਲੇ ਸੈਟਿੰਗਾਂ\" ਵਿੱਚੋਂ ਬੰਦ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"ਇਹ ਮੋਡ %1$s ਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੈ। ਕੁਝ ਟੀਵੀਆਂ \'ਤੇ, ਹੋਰ HDR ਫਾਰਮੈਟਾਂ ਨੂੰ ਚਾਲੂ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਵਿਸਤਰਿਤ HDMI ਨੂੰ ਚਾਲੂ ਕਰਨ ਦੀ ਲੋੜ ਪੈ ਸਕਦੀ ਹੈ। ਇਸ ਦੇ ਸਮਰਥਿਤ ਹੋਣ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਆਪਣੀਆਂ ਟੀਵੀ ਸੈਟਿੰਗਾਂ ਦੀ ਜਾਂਚ ਕਰੋ।"</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"ਇਹ ਮੋਡ ਇਸਦਾ ਸਮਰਥਨ ਕਰਦਾ ਹੈ: %1$s\nਕੁਝ ਟੀਵੀਆਂ \'ਤੇ, ਹੋਰ HDR ਫਾਰਮੈਟਾਂ ਨੂੰ ਚਾਲੂ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ ਵਿਸਤਰਿਤ HDMI ਨੂੰ ਚਾਲੂ ਕਰਨ ਦੀ ਲੋੜ ਪੈ ਸਕਦੀ ਹੈ। ਇਸ ਦੇ ਸਮਰਥਿਤ ਹੋਣ ਦੀ ਜਾਂਚ ਕਰਨ ਲਈ ਆਪਣੀਆਂ ਟੀਵੀ ਸੈਟਿੰਗਾਂ ਦੀ ਜਾਂਚ ਕਰੋ।"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"ਰੱਦ ਕਰੋ"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ਠੀਕ ਹੈ"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <string name="resolution_display_mode" msgid="1862830706980223728">"<xliff:g id="RESOLUTION">%1$s</xliff:g> ( <xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"ਕੀ ਕੈਸ਼ ਕੀਤਾ ਡਾਟਾ ਹਟਾਉਣਾ ਹੈ?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"ਇਹ ਸਾਰੀਆਂ ਐਪਾਂ ਲਈ ਕੈਸ਼ ਕੀਤਾ ਡਾਟਾ ਕਲੀਅਰ ਕਰ ਦੇਵੇਗਾ।"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -250,6 +280,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"ਕਨੈਕਟ ਹੋ ਗਿਆ"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"ਡਿਸਕਨੈਕਟ ਹੋ ਗਿਆ"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"ਤੁਹਾਨੂੰ ਬਲੂਟੁੱਥ ਸੈਟਿੰਗਾਂ ਬਦਲਣ ਦੀ ਇਜਾਜ਼ਤ ਨਹੀਂ ਹੈ।"</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"ਟੀਵੀ ਆਡੀਓ ਲਈ ਵਰਤੋ"</string>
     <string name="send_feedback" msgid="936698637869795473">"ਵਿਚਾਰ ਭੇਜੋ"</string>
     <string name="launch_help" msgid="2607478763131952469">"ਮਦਦ ਕੇਂਦਰ"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -267,7 +298,7 @@
     <string name="system_inputs" msgid="5552840337357572096">"ਇਨਪੁੱਟ"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"ਇਨਪੁੱਟ ਅਤੇ ਡੀਵਾਈਸਾਂ"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"ਹੋਮ ਥੀਏਟਰ ਕੰਟਰੋਲ"</string>
-    <string name="system_developer_options" msgid="8480844257066475479">"ਵਿਕਾਸਕਾਰ ਚੋਣਾਂ"</string>
+    <string name="system_developer_options" msgid="8480844257066475479">"ਵਿਕਾਸਕਾਰ ਵਿਕਲਪ"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"ਕੋਈ ਨਹੀਂ"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"ਵਰਤੋਂ ਅਤੇ ਤਸ਼ਖੀਸ"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"ਕੋਈ ਵੀ ਡੀਵਾਈਸ ਪ੍ਰਸ਼ਾਸਕ ਐਪਾਂ ਉਪਲਬਧ ਨਹੀਂ ਹਨ"</string>
@@ -316,8 +347,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"ਇਸ ਡੀਵਾਈਸ ਦਾ ਪ੍ਰਬੰਧਨ ਤੁਹਾਡੇ ਸੰਗਠਨ ਵੱਲੋਂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"ਇਸ ਡੀਵਾਈਸ ਦਾ ਪ੍ਰਬੰਧਨ <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> ਵੱਲੋਂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ।"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"ਹੋਰ ਜਾਣੋ"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{ਕੈਮਰਾ ਐਪ}one{ਕੈਮਰਾ ਐਪ}other{ਕੈਮਰਾ ਐਪਾਂ}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"ਕੈਲੰਡਰ ਐਪ"</string>
@@ -340,6 +370,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google ਕਨੂੰਨੀ"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"ਲਾਇਸੰਸ  ਡਾਟਾ  ਉਪਲਬਧ ਨਹੀਂ ਹੈ"</string>
     <string name="about_model" msgid="9164284529291439296">"ਮਾਡਲ"</string>
+    <string name="device_mode" msgid="7258350575590118152">"ਡੀਵਾਈਸ ਮੋਡ"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"ਸਟੋਰ ਡੈਮੋ"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV OS ਵਰਜਨ"</string>
     <string name="about_serial" msgid="3432319328808745459">"ਕ੍ਰਮ ਸੰਖਿਆ"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV OS ਬਿਲਡ"</string>
@@ -407,6 +439,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"ਇੰਟਰਨੈੱਟ ਕਨੈਕਸ਼ਨ"</string>
     <string name="connected" msgid="4981532275162345997">"ਕਨੈਕਟ ਕੀਤਾ ਗਿਆ"</string>
     <string name="not_connected" msgid="475810896484271663">"ਕਨੈਕਟ ਨਹੀਂ ਹੈ"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"ਇੰਟਰਨੈੱਟ ਨਹੀਂ ਹੈ"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"ਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"ਗਲਤ ਪਾਸਵਰਡ"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"ਵਾਈ-ਫਾਈ ਪਾਸਵਰਡ ਬਹੁਤ ਛੋਟਾ ਹੈ"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"ਸਾਈਨ-ਇਨ ਲੋੜੀਂਦਾ ਹੈ"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"ਹੋਰ ਚੋਣਾਂ"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"ਸਭ ਦੇਖੋ"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"ਘੱਟ ਵੇਖੋ"</string>
@@ -673,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ਪਹੁੰਚਯੋਗਤਾ ਸ਼ਾਰਟਕੱਟ ਨੂੰ ਯੋਗ ਬਣਾਓ"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ਸ਼ਾਰਟਕੱਟ ਸੇਵਾ"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"ਸ਼ਾਰਟਕੱਟ ਚਾਲੂ ਹੋਣ \'ਤੇ, ਤੁਸੀਂ ਕੋਈ ਪਹੁੰਚਯੋਗਤਾ ਵਿਸ਼ੇਸ਼ਤਾ ਸ਼ੁਰੂ ਕਰਨ ਲਈ \'ਪਿੱਛੇ\' ਅਤੇ \'ਹੇਠਾਂ\' ਦੋਵਾਂ ਬਟਨਾਂ ਨੂੰ 3 ਸਕਿੰਟ ਤੱਕ ਦੱਬ ਸਕਦੇ ਹੋ।"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"ਕਾਰਵਾਈ ਕਰਨ ਦਾ ਸਮਾਂ"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"ਕਾਰਵਾਈ ਕਰਨ ਦਾ ਸਮਾਂ (ਪਹੁੰਚਯੋਗਤਾ ਸਮਾਂ ਸਮਾਪਤ)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"ਸਮਾਂ"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"ਸਮੇਂ ਸੰਬੰਧੀ ਇਸ ਤਰਜੀਹ ਦਾ ਸਮਰਥਨ ਸਾਰੀਆਂ ਐਪਾਂ ਵੱਲੋਂ ਨਹੀਂ ਕੀਤਾ ਜਾਂਦਾ।"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"ਸੁਰਖੀਆਂ"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ਵੀਡੀਓ ਫ਼ਾਈਲ \'ਤੇ ਬੰਦ ਸੁਰਖੀਆਂ ਦੇਣ ਵਾਲੇ ਟੈਕਸਟ ਓਵਰਲੇ ਲਈ ਸੈਟਿੰਗਾਂ"</string>
     <string name="captions_display" msgid="2598662495450633375">"ਡਿਸਪਲੇ"</string>
@@ -715,7 +756,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"ਚਾਲੂ ਕਰੋ"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"ਸੰਰੂਪਣ"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"ਕੀ <xliff:g id="SERVICE">%1$s</xliff:g> ਨੂੰ ਵਰਤਣਾ ਹੈ?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> ਪਾਸਵਰਡਾਂ ਨੂੰ ਛੱਡ ਕੇ ਤੁਹਾਡੇ ਵੱਲੋਂ ਟਾਈਪ ਕੀਤੀ ਜਾਣ ਵਾਲੀ ਸਾਰੀ ਲਿਖਤ ਨੂੂੰ ਇਕੱਤਰ ਕਰ ਸਕਦੀ ਹੈ। ਇਸ ਵਿੱਚ ਕ੍ਰੈਡਿਟ ਕਾਰਡ ਨੰਬਰਾਂ ਵਰਗਾ ਨਿੱਜੀ ਡਾਟਾ ਵੀ ਸ਼ਾਮਲ ਹੈ।"</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> ਤੁਹਾਡੀ ਸਕ੍ਰੀਨ ਪੜ੍ਹ ਸਕੇਗੀ, ਹੋਰ ਐਪਾਂ \'ਤੇ ਸਮੱਗਰੀ ਦਿਖਾ ਸਕੇਗੀ, ਐਪਾਂ ਜਾਂ ਹਾਰਡਵੇਅਰ ਸੈਂਸਰਾਂ ਨਾਲ ਤੁਹਾਡੀਆਂ ਅੰਤਰਕਿਰਿਆਵਾਂ ਨੂੰ ਟਰੈਕ ਕਰ ਸਕੇਗੀ ਅਤੇ ਤੁਹਾਡੀ ਤਰਫ਼ੋਂ ਐਪਾਂ ਨਾਲ ਅੰਤਰਕਿਰਿਆ ਕਰ ਸਕੇਗੀ।"</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"ਕੀ <xliff:g id="SERVICE">%1$s</xliff:g> ਨੂੰ ਬੰਦ ਕਰਨਾ ਹੈ?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"ਠੀਕ ਹੈ ਨੂੰ ਚੁਣਨਾ <xliff:g id="SERVICE">%1$s</xliff:g> ਨੂੰ ਬੰਦ ਕਰ ਦੇਵੇਗਾ।"</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"ਲਿਖਤ ਤੋਂ ਬੋਲੀ"</string>
@@ -874,6 +915,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"ਮਨਾਹੀਆਂ ਨੂੰ ਵਿਸ਼ੇਸ਼-ਵਿਉਂਤਬੱਧ ਕਰੋ"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"ਬੱਸ ਥੋੜ੍ਹੀ ਦੇਰ…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"ਪਿਨ ਬਦਲੋ"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"ਕੀ ਪ੍ਰਤਿਬੰਧਿਤ ਪ੍ਰੋਫਾਈਲ ਬਣਾਉਣੀ ਹੈ?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"ਪਹਿਲਾਂ ਹੀ ਬਣਾਈ ਗਈ"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"ਛੱਡੋ"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"ਪਿੰਨ ਬਣਾਓ"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"ਕੀ ਪ੍ਰਤਿਬੰਧਿਤ ਪ੍ਰੋਫਾਈਲ ਦਾਖਲ ਕਰਨੀ ਹੈ?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"ਕੋਈ ਪ੍ਰਤਿਬੰਧਿਤ ਪ੍ਰੋਫਾਈਲ ਨਹੀਂ"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"ਪਹਿਲਾਂ ਹੀ ਦਾਖਲ ਕੀਤੀ ਗਈ"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"ਇਹ ਐਪ ਤੁਹਾਡੇ ਖਾਤਿਆਂ ਤੱਕ ਪਹੁੰਚ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦੀ ਹੈ। <xliff:g id="APP">%1$s</xliff:g> ਦੁਆਰਾ ਕੰਟਰੋਲ ਕੀਤਾ ਗਿਆ ਹੈ"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"ਇਹ ਚੈਨਲ ਦੇਖਣ ਲਈ PIN ਦਾਖਲ ਕਰੋ"</string>
@@ -889,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ਜਾਰੀ ਰੱਖਣ ਲਈ <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ਨੂੰ ਚੁਣੋ।"</string>
     <string name="label_done_key" msgid="8576286462300373440">"ਹੋ ਗਿਆ"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"ਸਫਲਤਾਪੂਰਵਕ ਕਨੈਕਟ ਹੋਇਆ"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"ਸਫਲਤਾਪੂਰਵਕ ਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ਰੂਪ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ਖੋਲ੍ਹੋ"</string>
@@ -934,9 +984,9 @@
     <string name="device_energy_saver_disable_allow_turning_screen_off_text" msgid="6334963903866002164">"ਕਿਰਪਾ ਕਰਕੇ ਦੇਖਣ ਵੇਲੇ ਡਿਸਪਲੇ ਦੇ ਬੰਦ ਹੋਣ ਤੋਂ ਬਚਣ ਦੀ ਤਸਦੀਕ ਕਰੋ, ਜਿਸ ਵਿੱਚ ਊਰਜਾ ਦੀ ਵਰਤੋਂ ਵਧ ਸਕਦੀ ਹੈ।"</string>
     <string name="device_energy_saver_sleep_timeout" msgid="1841900768718452039">"ਅਕਿਰਿਆਸ਼ੀਲ ਹੋਣ ਵੇਲੇ"</string>
     <string name="device_energy_saver_attentive_timeout" msgid="3649486668821348087">"ਦੇਖਣ ਵੇਲੇ"</string>
-    <string name="device_energy_saver_category_title" msgid="2604826113821035545">"ਟੀਵੀ ਦੀ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਬੰਦ ਹੋਣ ਦੀ ਸੈਟਿੰਗ ਚਾਲੂ ਕਰੋ"</string>
-    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="1223814536589471788">"ਅਕਿਰਿਆਸ਼ੀਲ ਹੋਣ ਵੇਲੇ ਟੀਵੀ ਦੀ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਬੰਦ ਹੋਣ ਦੀ ਸੈਟਿੰਗ ਚਾਲੂ ਕਰੋ"</string>
-    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="1654557070579253248">"ਦੇਖਣ ਵੇਲੇ ਟੀਵੀ ਦੀ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਬੰਦ ਹੋਣ ਦੀ ਸੈਟਿੰਗ ਚਾਲੂ ਕਰੋ"</string>
+    <string name="device_energy_saver_category_title" msgid="170076161677525986">"ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਬੰਦ ਕਰੋ"</string>
+    <string name="device_energy_saver_sleep_timeout_dialog_title" msgid="6588352532253294558">"ਅਕਿਰਿਆਸ਼ੀਲ ਹੋਣ \'ਤੇ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਬੰਦ ਕਰੋ"</string>
+    <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"ਦੇਖਣ ਵੇਲੇ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਬੰਦ ਕਰੋ"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"\"ਅਕਿਰਿਆਸ਼ੀਲ ਹੋਣ \'ਤੇ\" ਦਾ ਟਾਈਮਰ \"ਦੇਖਦੇ ਸਮੇਂ\" ਦੇ ਟਾਈਮਰ ਤੋਂ ਛੋਟਾ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੈ"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"\"ਦੇਖਦੇ ਸਮੇਂ\" ਦਾ ਟਾਈਮਰ \"ਅਕਿਰਿਆਸ਼ੀਲ ਹੋਣ \'ਤੇ\" ਦੇ ਟਾਈਮਰ ਤੋਂ ਲੰਮਾ ਹੋਣਾ ਲਾਜ਼ਮੀ ਹੈ"</string>
     <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"ਸਟੈਂਡਬਾਈ ਵਿੱਚ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਸੀਮਤ ਕਰੋ"</string>
@@ -1036,10 +1086,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"ਰਿਕਾਰਡਿੰਗ ਲਈ ਵਰਤੇ ਜਾਣ ਵਾਲੇ ਮਾਈਕ੍ਰੋਫ਼ੋਨ"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"ਆਡੀਓ ਰਿਕਾਰਡਿੰਗ ਨੂੰ ਸ਼ੁਰੂ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ।"</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ਆਡੀਓ ਰਿਕਾਰਡਿੰਗ ਅਸਫਲ ਰਹੀ।"</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"ਡਾਟਾ ਸੇਵਰ"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"ਮੋਬਾਈਲ ਡਾਟਾ ਦੀ ਬੱਚਤ ਕਰਨ ਲਈ ਵੀਡੀਓ ਕੁਆਲਿਟੀ ਨੂੰ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਵਿਵਸਥਿਤ ਕਰੋ"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"ਡਾਟਾ ਵਰਤੋਂ ਅਤੇ ਸੁਚੇਤਨਾਵਾਂ"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"ਤੁਸੀਂ ਵਾਈ-ਫਾਈ, ਈਥਰਨੈੱਟ ਜਾਂ ਆਪਣੇ ਫ਼ੋਨ ਦੇ ਹੌਟਸਪੌਟ ਰਾਹੀਂ ਇੰਟਰਨੈੱਟ ਨਾਲ ਕਨੈਕਟ ਕਰ ਸਕਦੇ ਹੋ।"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"ਕੀ ਹੋਰ ਬਲੂਟੁੱਥ ਡੀਵਾਈਸਾਂ ਲਈ ਦਿਖਣਯੋਗ ਬਣਾਉਣਾ ਹੈ?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"ਕੋਈ ਐਪ ਤੁਹਾਡੇ ਟੀਵੀ ਨੂੰ <xliff:g id="TIMEOUT">%1$d</xliff:g> ਸਕਿੰਟਾਂ ਵਾਸਤੇ ਹੋਰ ਬਲੂਟੁੱਥ ਡੀਵਾਈਸਾਂ ਲਈ ਦਿਖਣਯੋਗ ਬਣਾਉਣਾ ਚਾਹੁੰਦੀ ਹੈ।"</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1080,6 +1126,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"ਕਨੈਕਸ਼ਨ ਸਫਲ ਰਿਹਾ"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"ਸਭ ਦਿਖਾਓ"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"ਖੋਜ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Authenticator ਤੋਂ ਖਾਤਾ ਸ਼ਾਮਲ ਕਰਨ ਦੇ ਇੰਟੈਂਟ ਨੂੰ ਮੁੜ-ਪ੍ਰਾਪਤ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ।"</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"ਖਾਤੇ ਨੂੰ ਸ਼ਾਮਲ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ ਜਾਂ ਖਾਤੇ ਦੀ ਕਿਸਮ ਉਪਲਬਧ ਨਹੀਂ ਹੈ।"</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"ਚੈਨਲ ਅਤੇ ਇਨਪੁੱਟ"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"ਚੈਨਲ, ਬਾਹਰੀ ਇਨਪੁੱਟ"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"ਚੈਨਲ"</string>
@@ -1091,5 +1139,19 @@
     <string name="power_and_energy" msgid="4638182439670702556">"ਪਾਵਰ ਅਤੇ ਊਰਜਾ"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"ਪਾਵਰ ਚਾਲੂ ਹੋਣ \'ਤੇ ਵਰਤਾਅ"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"ਰੀਸੈੱਟ ਕਰੋ"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"ਟੈਲੀਵਿਜ਼ਨ"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ਈਥਰਨੈੱਟ ਜੋੜਾਬੱਧਕਰਨ ਕੋਡ"</string>
+    <string name="energy_modes" msgid="1331693860386361744">"ਊਰਜਾ ਮੋਡ"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"ਡੀਵਾਈਸ ਵਰਤੋਂ ਵਿੱਚ ਨਾ ਹੋਣ \'ਤੇ ਇਹ ਸੈਟਿੰਗਾਂ ਪ੍ਰਭਾਵਿਤ ਕਰਦੀਆਂ ਹਨ"</string>
+    <string name="energy_mode_enables" msgid="357960364751477627">"ਚਾਲੂ ਕੀਤਾ ਜਾਂਦਾ ਹੈ:"</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"ਤੁਹਾਡੇ ਵੱਲੋਂ ਟੀਵੀ ਦੀਆਂ ਜ਼ਿਆਦਾ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਚਾਲੂ ਕਰਨ \'ਤੇ ਊਰਜਾ ਦੀ ਖਪਤ ਵੱਧ ਸਕਦੀ ਹੈ।"</string>
+    <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" ਨੂੰ ਚਾਲੂ ਕਰੋ"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ਮੇਰਾ ਰਿਮੋਟ ਲੱਭੋ"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ਜੇ ਤੁਹਾਡੇ Google TV ਦਾ ਰਿਮੋਟ ਗੁਆਚ ਗਿਆ ਹੈ, ਤਾਂ ਇਸਨੂੰ ਲੱਭਣ ਲਈ ਕੋਈ ਧੁਨੀ ਵਜਾਓ"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"ਤੁਹਾਡੇ Google TV \'ਤੇ ਇੱਕ ਅਜਿਹਾ ਬਟਨ ਹੁੰਦਾ ਹੈ, ਜਿਸਨੂੰ ਦਬਾ ਕੇ ਤੁਸੀਂ ਆਪਣੇ ਰਿਮੋਟ \'ਤੇ 30 ਸਕਿੰਟਾਂ ਲਈ ਧੁਨੀ ਚਲਾ ਸਕਦੇ ਹੋ। ਇਹ ਸਿਰਫ਼ ਸਮਰਥਿਤ Google TV ਰਿਮੋਟ ਕੰਟਰੋਲਾਂ ਨਾਲ ਕੰਮ ਕਰਦੀ ਹੈ।\n\nਧੁਨੀ ਨੂੰ ਰੋਕਣ ਲਈ, ਆਪਣੇ ਰਿਮੋਟ \'ਤੇ ਕਿਸੇ ਵੀ ਬਟਨ ਨੂੰ ਦਬਾਓ।"</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'ਮੇਰਾ ਰਿਮੋਟ ਲੱਭੋ\' ਸੁਵਿਧਾ ਚਾਲੂ ਹੋਣ \'ਤੇ, ਜੇ ਤੁਹਾਡੇ Google TV ਦਾ ਰਿਮੋਟ ਗੁਆਚ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਤੁਸੀਂ ਆਪਣੇ ਰਿਮੋਟ ਨੂੰ ਲੱਭਣ ਲਈ ਇੱਕ ਧੁਨੀ ਵਜਾ ਸਕਦੇ ਹੋ।"</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ਧੁਨੀ ਵਜਾਓ"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ਅਵਾਜ਼"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ਤੁਸੀਂ %1$s ਸਪੀਕਰ \'ਤੇ Assistant ਦੀ ਅਵਾਜ਼ ਨੂੰ ਕੰਟਰੋਲ ਕਰ ਸਕਦੇ ਹੋ"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"ਇਸ ਨਾਲ ਸਿਰਫ਼ %1$s ਡੀਵਾਈਸ ਦੀ ਅਵਾਜ਼ \'ਤੇ ਪ੍ਰਭਾਵ ਪੈਂਦਾ ਹੈ, ਟੀਵੀ \'ਤੇ ਨਹੀਂ"</string>
 </resources>
