@@ -298,7 +298,7 @@
     <string name="system_inputs" msgid="5552840337357572096">"ਇਨਪੁੱਟ"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"ਇਨਪੁੱਟ ਅਤੇ ਡੀਵਾਈਸਾਂ"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"ਹੋਮ ਥੀਏਟਰ ਕੰਟਰੋਲ"</string>
-    <string name="system_developer_options" msgid="8480844257066475479">"ਵਿਕਾਸਕਾਰ ਚੋਣਾਂ"</string>
+    <string name="system_developer_options" msgid="8480844257066475479">"ਵਿਕਾਸਕਾਰ ਵਿਕਲਪ"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"ਕੋਈ ਨਹੀਂ"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"ਵਰਤੋਂ ਅਤੇ ਤਸ਼ਖੀਸ"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"ਕੋਈ ਵੀ ਡੀਵਾਈਸ ਪ੍ਰਸ਼ਾਸਕ ਐਪਾਂ ਉਪਲਬਧ ਨਹੀਂ ਹਨ"</string>
@@ -937,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ਜਾਰੀ ਰੱਖਣ ਲਈ <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ਨੂੰ ਚੁਣੋ।"</string>
     <string name="label_done_key" msgid="8576286462300373440">"ਹੋ ਗਿਆ"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"ਸਫਲਤਾਪੂਰਵਕ ਕਨੈਕਟ ਹੋਇਆ"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"ਸਫਲਤਾਪੂਰਵਕ ਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ਰੂਪ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ਖੋਲ੍ਹੋ"</string>

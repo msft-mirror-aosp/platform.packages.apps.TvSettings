@@ -795,7 +795,7 @@
     <string name="system_pointer_location" msgid="8724050865245555084">"Pekarens plats"</string>
     <string name="system_show_layout_bounds" msgid="8803080672553699649">"Visa layoutgränser"</string>
     <string name="system_show_gpu_view_updates" msgid="1625918928089365222">"Visa GPU-visningsuppdateringar"</string>
-    <string name="system_show_hardware_layer" msgid="5833664339844452290">"Visa maskinvaruskikt"</string>
+    <string name="system_show_hardware_layer" msgid="5833664339844452290">"Visa hårdvaruskikt"</string>
     <string name="system_show_gpu_overdraw" msgid="5073007513540516704">"Visa GPU-överritning"</string>
     <string name="system_show_surface_updates" msgid="7680759813613585278">"Visa ytuppdateringar"</string>
     <string name="system_window_animation_scale" msgid="685477540250939659">"Skala – fönsteranimering"</string>
@@ -815,7 +815,7 @@
     <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"Felsökaren måste ansluta till appen först"</string>
     <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"Visa gränser för videoklipp, marginaler m.m."</string>
     <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"Visningar blinkar i fönster vid ritning med GPU"</string>
-    <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"Maskinvaruskikt blinkar grönt vid uppdateringar"</string>
+    <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"Hårdvaruskikt blinkar grönt vid uppdateringar"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"Från bäst till sämst: blå, grön, ljusröd, röd"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"Hela fönstret blinkar vid uppdatering"</string>
     <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Tänd skärmen när appen gör större åtgärd i huvudtråden"</string>
@@ -937,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Välj <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> för att fortsätta."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Klar"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Ansluten"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Konfigurationen har sparats"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Version <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Öppna"</string>

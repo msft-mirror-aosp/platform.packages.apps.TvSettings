@@ -937,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Jatka valitsemalla <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Valmis"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Yhteys muodostettu"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Tallentaminen onnistui"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versio <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Avaa"</string>
@@ -1066,8 +1068,8 @@
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Anna sovelluksille lupa luoda Kuva kuvassa ‑ikkuna, kun sovellus on auki tai kun olet poistunut siitä (esimerkiksi takaisin katsomaan videota). Tämä ikkuna näytetään muiden sovellusten ikkunoiden päällä."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Anna sovellusten lisätä herätyksiä ja ajoittaa kiireellisiä tapahtumia. Näin sovellukset voivat toimia taustalla, mikä voi kuluttaa enemmän virtaa.\n\nIlman tätä lupaa sovellusten ajoittamat herätykset ja aikaan perustuvat tapahtumat eivät toimi."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Näytön käynnistys"</string>
-    <string name="allow_turn_screen_on" msgid="4903401106871656521">"Salli näytön käynnistäminen"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Salli sovelluksen käynnistää näyttö. Jos sovellus saa luvan, se voi käynnistää näytön itsenäisesti milloin tahansa."</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"Salli näytön laittaminen päälle"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Salli sovelluksen laittaa näyttö päälle. Jos sovellus saa luvan, se voi laittaa näytön päälle itsenäisesti milloin tahansa."</string>
     <string name="special_access" msgid="21806055758289916">"Erityisoikeudet"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Ääni"</string>

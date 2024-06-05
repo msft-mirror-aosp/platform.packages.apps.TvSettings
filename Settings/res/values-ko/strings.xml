@@ -937,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"계속하려면 <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> 아이콘을 선택하세요."</string>
     <string name="label_done_key" msgid="8576286462300373440">"완료"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"연결되었습니다"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"저장되었습니다."</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"버전 <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"열기"</string>
