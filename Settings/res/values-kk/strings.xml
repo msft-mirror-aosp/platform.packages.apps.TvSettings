@@ -305,7 +305,7 @@
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"Әкімші өшірген"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"Қолжетімсіз"</string>
     <string name="manage_device_admin" msgid="5714217234035017983">"Құрылғы әкімшісінің қолданбалары"</string>
-    <string name="number_of_device_admins_none" msgid="2734299122299837459">"Істеп тұрған қолданбалар жоқ"</string>
+    <string name="number_of_device_admins_none" msgid="2734299122299837459">"Істеп тұрған қолданбалар жоқ."</string>
     <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"Әкімші, шифрлау саясаты немесе тіркелкі деректерінің жады өшірген"</string>
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"Басқарылатын құрылғы ақпараты"</string>
     <string name="enterprise_privacy_settings_summary_generic" msgid="5719549523275019419">"Ұйым басқаратын өзгерістер мен параметрлер"</string>
@@ -937,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Жалғастыру үшін <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> белгішесін таңдаңыз."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Дайын"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Сәтті қосылдыңыз"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Сәтті сақталды"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"<xliff:g id="APP_VERSION">%1$s</xliff:g> нұсқасы"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Ашу"</string>

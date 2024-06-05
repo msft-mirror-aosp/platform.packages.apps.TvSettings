@@ -50,8 +50,11 @@ public class SuccessState implements State {
 
     @Override
     public void processForward() {
+        UserChoiceInfo userChoiceInfo = ViewModelProviders.of(mActivity).get(UserChoiceInfo.class);
         mFragment = SuccessFragment.newInstance(
-                mActivity.getString(R.string.wifi_setup_connection_success));
+                mActivity.getString(userChoiceInfo.isAlreadyConnected()
+                        ? R.string.wifi_setup_already_connected
+                        : R.string.wifi_setup_connection_success));
         FragmentChangeListener listener = (FragmentChangeListener) mActivity;
         if (listener != null) {
             NetworkChangeStateManager manager = NetworkChangeStateManager.getInstance();

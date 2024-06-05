@@ -937,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"続行するには、<xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> を選択してください。"</string>
     <string name="label_done_key" msgid="8576286462300373440">"完了"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"接続しました"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"保存しました"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"バージョン<xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"開く"</string>
