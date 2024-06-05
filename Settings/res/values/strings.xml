@@ -1970,8 +1970,6 @@
     <string name="system_enable_traces">Enable traces</string>
     <!-- Title for Set Don't keep activities in System Settings Developer options [CHAR LIMIT=100] -->
     <string name="system_dont_keep_activities">Don\'t keep activities</string>
-    <!-- Title for Set Background process limit in System Settings Developer options [CHAR LIMIT=100] -->
-    <string name="system_background_process_limit">Background process limit</string>
     <!-- Title for Set Show all ANRs in System Settings Developer options [CHAR LIMIT=50] -->
     <string name="system_show_all_anrs">Show all ANRs</string>
 
