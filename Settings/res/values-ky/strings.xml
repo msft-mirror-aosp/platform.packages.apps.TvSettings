@@ -662,7 +662,7 @@
     <string name="location_category_recent_location_requests" msgid="4541924383164183490">"Акыркы жайгашкан жер сурамдары"</string>
     <string name="location_no_recent_apps" msgid="7033474075806435793">"Акыркы мезгилде жайгашкан жерди сураган колдонмолор болгон жок"</string>
     <string name="location_high_battery_use" msgid="5325556609027887602">"Батарея көп керектелүүдө"</string>
-    <string name="location_low_battery_use" msgid="728585923412018253">"Батареянын кубатын үнөмдөө"</string>
+    <string name="location_low_battery_use" msgid="728585923412018253">"Батареяны үнөмдөө"</string>
     <string name="location_mode_wifi_description" msgid="84697248707903061">"Жайгашкан жерди божомолдоо үчүн Wi‑Fi\'ды колдонуу"</string>
     <string name="location_status" msgid="3037321737386011224">"Жайгашкан жерди аныктоо"</string>
     <string name="location_services" msgid="551503779736382878">"Жайгашкан жерди аныктоо кызматтары"</string>
