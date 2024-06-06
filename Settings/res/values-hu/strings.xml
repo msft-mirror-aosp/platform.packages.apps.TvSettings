@@ -103,7 +103,7 @@
     <string name="all_apps_installed" msgid="8217778476185598971">"Telepített alkalmazások"</string>
     <string name="all_apps_other" msgid="4420174882983813158">"Rendszeralkalmazások"</string>
     <string name="all_apps_disabled" msgid="2776041242863791053">"Letiltott alkalmazások"</string>
-    <string name="device_daydream" msgid="2631191946958113220">"Képernyővédő"</string>
+    <string name="device_daydream" msgid="2631191946958113220">"Képernyőkímélő"</string>
     <string name="device_display" msgid="244634591698925025">"Képernyő"</string>
     <string name="device_display_sound" msgid="7399153506435649193">"Kijelző és hang"</string>
     <string name="device_sound" msgid="8616320533559404963">"Hang"</string>
@@ -937,6 +937,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Válassza a következőt a folytatáshoz: <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Kész"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Sikeresen csatlakozva"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Sikeresen mentve"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Verzió: <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Megnyitás"</string>
