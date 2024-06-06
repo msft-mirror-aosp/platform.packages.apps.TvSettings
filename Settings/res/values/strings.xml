@@ -1970,8 +1970,6 @@
     <string name="system_enable_traces">Enable traces</string>
     <!-- Title for Set Don't keep activities in System Settings Developer options [CHAR LIMIT=100] -->
     <string name="system_dont_keep_activities">Don\'t keep activities</string>
-    <!-- Title for Set Background process limit in System Settings Developer options [CHAR LIMIT=100] -->
-    <string name="system_background_process_limit">Background process limit</string>
     <!-- Title for Set Show all ANRs in System Settings Developer options [CHAR LIMIT=50] -->
     <string name="system_show_all_anrs">Show all ANRs</string>
 
@@ -2308,6 +2306,9 @@
     <string name="label_done_key">Done</string>
     <!-- Message displayed when the selected Wi-Fi network has been connected to [CHAR LIMIT=40] -->
     <string name="wifi_setup_connection_success">Connected successfully</string>
+    <!-- Message displayed when the selected Wi-Fi network is already connected [CHAR LIMIT=40] -->
+    <string name="wifi_setup_already_connected">Already connected</string>
+
     <!-- Message displayed when the Wi-Fi network's configuration has been saved [CHAR LIMIT=40] -->
     <string name="wifi_setup_save_success">Saved successfully</string>
 
