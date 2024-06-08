@@ -805,7 +805,6 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"ପ୍ରୋଫାଇଲ୍‌ GPU ରେଣ୍ଡରିଂ"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"ଟ୍ରେସ୍‌ ସକ୍ଷମ କରନ୍ତୁ"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"କାର୍ଯ୍ୟକଳାପଗୁଡ଼ିକୁ ରଖନ୍ତୁ ନାହିଁ"</string>
-    <string name="system_background_process_limit" msgid="1985373407150771045">"ପୃଷ୍ଠପଟ ପ୍ରକ୍ରିୟା ସୀମା"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"ସମସ୍ତ ANRs ଦେଖାନ୍ତୁ"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"ସ୍ଲିପ୍‌ ସକ୍ଷମ କରନ୍ତୁ"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"କେବଳ DRM ବିଷୟବସ୍ତୁ ବ୍ୟବହାର କରନ୍ତୁ"</string>
@@ -937,8 +936,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ଜାରି ରଖିବାକୁ <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ଚୟନ କରନ୍ତୁ।"</string>
     <string name="label_done_key" msgid="8576286462300373440">"ହୋଇଗଲା"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"ସଫଳଭାବରେ କନେକ୍ଟ ହୋଇଛି"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ପୂର୍ବରୁ କନେକ୍ଟ କରାଯାଇଛି"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"ସଫଳ ପୂର୍ବକ ସେଭ୍‌ ହୋଇଛି"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ସଂସ୍କରଣ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ଖୋଲନ୍ତୁ"</string>

@@ -805,7 +805,6 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"GPU 렌더링 프로파일"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"추적 사용"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"활동 보관 안함"</string>
-    <string name="system_background_process_limit" msgid="1985373407150771045">"백그라운드 프로세스 수 제한"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"모든 ANR 표시"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"절전 모드 사용 안함"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"DRM 콘텐츠만 사용"</string>

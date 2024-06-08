@@ -805,7 +805,6 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"បង្ហាញ​ប្រវត្តិ​ការ​ធ្វើ​ឲ្យ​សម GPU"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"បើក​ដាន"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"កុំ​រក្សា​ទុក​សកម្មភាព"</string>
-    <string name="system_background_process_limit" msgid="1985373407150771045">"ដែន​កំណត់​ដំណើរការ​​​ផ្ទៃ​ខាង​ក្រោយ"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"បង្ហាញ ANRs ទាំងអស់"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"បិទ​​ការ​ដេក"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"ប្រើ​សម្រាប់​​តែ​មាតិកា DRM ប៉ុណ្ណោះ"</string>
@@ -937,8 +936,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ជ្រើសរើស <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ដើម្បីបន្ត។"</string>
     <string name="label_done_key" msgid="8576286462300373440">"រួចរាល់"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"បានភ្ជាប់ដោយជោគជ័យ"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"បានភ្ជាប់រួចហើយ"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"បានរក្សាទុកដោយជោគជ័យ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"កំណែ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"បើក"</string>

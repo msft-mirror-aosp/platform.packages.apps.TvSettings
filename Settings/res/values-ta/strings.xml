@@ -805,7 +805,6 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"சுயவிவர GPU வழங்கல்"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"தடங்களை இயக்கு"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"செயல்பாடுகளை வைத்திருக்காதே"</string>
-    <string name="system_background_process_limit" msgid="1985373407150771045">"பின்புலச் செயல்முறை வரம்பு"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"எல்லா ANRகளையும் காட்டு"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"உறக்கத்தை முடக்கு"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"DRM உள்ளடக்கத்திற்கு மட்டும் பயன்படுத்து"</string>
@@ -937,8 +936,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"தொடர <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ஐத் தேர்வுசெய்யவும்."</string>
     <string name="label_done_key" msgid="8576286462300373440">"முடிந்தது"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"இணைக்கப்பட்டது"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ஏற்கெனவே இணைக்கப்பட்டுள்ளது"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"சேமிக்கப்பட்டது"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"பதிப்பு <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"திறக்கும்"</string>
