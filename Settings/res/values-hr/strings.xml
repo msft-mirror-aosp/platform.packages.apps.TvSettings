@@ -805,7 +805,6 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Profil GPU prikazivanja"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Omogući tragove"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Uklanjanje aktivnosti"</string>
-    <string name="system_background_process_limit" msgid="1985373407150771045">"Ograničenje pozadinskog procesa"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Prikaži sve ANR-ove"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Onemogućivanje mirovanja"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Upotrijebi samo za DRM sadržaj"</string>
@@ -937,6 +936,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Odaberite <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> za nastavak"</string>
     <string name="label_done_key" msgid="8576286462300373440">"Gotovo"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Povezivanje je uspjelo"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Već povezano"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Spremanje je uspjelo"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Verzija <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Otvori"</string>
@@ -1067,7 +1067,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Aplikacijama omogućuje da postavljaju alarme i zakazuju vremenski osjetljive radnje. To aplikacijama omogućuje da se izvode u pozadini, pa je moguće dodatno trošenje baterije.\n\nAko je to dopuštenje isključeno, postojeći alarmi i događaji temeljeni na vremenu koji su zakazani putem aplikacije neće funkcionirati."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Uključivanje zaslona"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Dopusti uključivanje zaslona"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Dopustite aplikaciji da uključuje zaslon. Ako date to dopuštenje, aplikacija može uključiti zaslon u bilo kojem trenutku bez vaše izričite namjere."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Dopušta aplikaciji da uključuje zaslon. Ako date to dopuštenje, aplikacija može uključiti zaslon u bilo kojem trenutku bez vaše izričite namjere."</string>
     <string name="special_access" msgid="21806055758289916">"Poseban pristup za aplikacije"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Zvuk"</string>
