@@ -805,7 +805,6 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Egin GPU errendatze-profila"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Gaitu aztarnak"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Ez mantendu jarduerak"</string>
-    <string name="system_background_process_limit" msgid="1985373407150771045">"Atzeko planoko prozesuen muga"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Erakutsi ANR guztiak"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Desgaitu inaktibo ezartzeko aukera"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Erabili DRM edukirako soilik"</string>
@@ -937,6 +936,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Aurrera egiteko, hautatu <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Eginda"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Konektatu da"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Dagoeneko konektatuta"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Gorde da"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"<xliff:g id="APP_VERSION">%1$s</xliff:g> bertsioa"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Ireki"</string>
@@ -1067,7 +1067,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Eman alarmak ezartzeko eta orduaren araberako beste ekintza batzuk programatzeko baimena aplikazioei. Hala, aplikazioek atzeko planoan funtzionatuko dute, eta litekeena da bateria gehiago kontsumitzea.\n\nBaimen hori ematen ez baduzu, ez dute funtzionatuko aplikazio horien bidez programatutako alarmek eta orduaren araberako ekintzek."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Piztu pantaila"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Eman pantaila pizteko baimena"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Eman pantaila pizteko baimena aplikazioei. Baimena emanez gero, aplikazioek edonoiz piztu ahal izango dute pantaila, zuk halako asmorik izan ez arren."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Eman pantaila pizteko baimena aplikazioari. Baimena emanez gero, aplikazioak edonoiz piztu ahal izango du pantaila, zuk halako asmorik izan ez arren."</string>
     <string name="special_access" msgid="21806055758289916">"Aplikazio-baimen bereziak"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Audioa"</string>

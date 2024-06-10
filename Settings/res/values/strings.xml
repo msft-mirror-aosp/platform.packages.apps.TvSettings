@@ -2308,6 +2308,9 @@
     <string name="label_done_key">Done</string>
     <!-- Message displayed when the selected Wi-Fi network has been connected to [CHAR LIMIT=40] -->
     <string name="wifi_setup_connection_success">Connected successfully</string>
+    <!-- Message displayed when the selected Wi-Fi network is already connected [CHAR LIMIT=40] -->
+    <string name="wifi_setup_already_connected">Already connected</string>
+
     <!-- Message displayed when the Wi-Fi network's configuration has been saved [CHAR LIMIT=40] -->
     <string name="wifi_setup_save_success">Saved successfully</string>
 
