@@ -805,7 +805,6 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"分析 GPU 轉譯"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"啟用追蹤"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"不要保留活動"</string>
-    <string name="system_background_process_limit" msgid="1985373407150771045">"背景處理程序限制"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"顯示所有 ANR"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"停用休眠功能"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"僅使用 DRM 內容"</string>
@@ -937,6 +936,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"請選擇 <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> 以繼續。"</string>
     <string name="label_done_key" msgid="8576286462300373440">"完成"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"已成功建立連線"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"已連線"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"已成功儲存"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"版本 <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"開啟"</string>

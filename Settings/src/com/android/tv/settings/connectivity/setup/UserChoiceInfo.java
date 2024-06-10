@@ -56,6 +56,7 @@ public class UserChoiceInfo extends ViewModel {
     private ConnectionFailedStatus mConnectionFailedStatus;
     private int mEasyConnectNetworkId = -1;
     private WifiEntry wifiEntry;
+    private boolean mIsAlreadyConnected;
 
     /**
      * Store the page summary into a HashMap.
@@ -229,6 +230,14 @@ public class UserChoiceInfo extends ViewModel {
 
     public void setEasyConnectNetworkId(int easyConnectNetworkId) {
         mEasyConnectNetworkId = easyConnectNetworkId;
+    }
+
+    public boolean isAlreadyConnected() {
+        return mIsAlreadyConnected;
+    }
+
+    public void setIsAlreadyConnected(boolean isAlreadyConnected) {
+        mIsAlreadyConnected = isAlreadyConnected;
     }
 
     public enum ConnectionFailedStatus {
