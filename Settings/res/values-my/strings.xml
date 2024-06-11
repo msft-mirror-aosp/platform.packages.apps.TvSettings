@@ -805,7 +805,6 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"ပရိုဖိုင် GPU တင်ဆက်နေ"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"ခြေရာခံမှု ဖွင့်ထားရန်"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"လှုပ်ရှားမှုများကို သိမ်းမထားပါနှင့်"</string>
-    <string name="system_background_process_limit" msgid="1985373407150771045">"နောက်ခံ လုပ်ငန်းစဉ် ကန့်သတ်ချက်"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"ANRများ အားလုံးကို ပြသရန်"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"အနားယူမှု ပိတ်ထားရန်"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"DRM အကြောင်းအရာ အတွက်သာ သုံးရန်"</string>
@@ -937,6 +936,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ရှေ့ဆက်ရန် <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ကို ရွေးပါ။"</string>
     <string name="label_done_key" msgid="8576286462300373440">"ပြီးပါပြီ"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"အောင်မြင်စွာ ချိတ်ဆက်ပြီးပါပြီ"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ချိတ်ဆက်ပြီးဖြစ်သည်"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"အောင်မြင်စွာ သိမ်းဆည်းပြီးပါပြီ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ဗားရှင်း <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ဖွင့်ထား"</string>
