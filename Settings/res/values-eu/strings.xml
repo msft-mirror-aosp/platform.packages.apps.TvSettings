@@ -541,7 +541,7 @@
     <string name="storage_media_cache_usage" msgid="6397941751551207630">"Cachean gordetako datuak"</string>
     <string name="storage_eject" msgid="3268870873944951902">"Atera"</string>
     <string name="storage_format" msgid="5360900929128087085">"Ezabatu eduki guztia eta formateatu"</string>
-    <string name="storage_format_as_private" msgid="77945551149326052">"Ezabatu dena eta formateatu gailuaren memoria gisa"</string>
+    <string name="storage_format_as_private" msgid="77945551149326052">"Ezabatu dena eta formateatu gailuko biltegi gisa"</string>
     <string name="storage_format_as_public" msgid="6745112917895223463">"Ezabatu dena eta formateatu memoria aldagarri gisa"</string>
     <string name="storage_format_for_private" msgid="5380138334184923252">"Formateatu memoria-unitate gisa"</string>
     <string name="storage_not_connected" msgid="4327902652748552794">"Konektatu gabe"</string>
@@ -568,7 +568,7 @@
     <string name="storage_unmount_failure_cant_find" msgid="2890335341404932068">"Ezin izan da aurkitu kanporatu beharreko unitatea"</string>
     <string name="storage_format_success" msgid="5599914756144012286">"Formateatu da <xliff:g id="NAME">%1$s</xliff:g> memoria-unitatea"</string>
     <string name="storage_format_failure" msgid="5619442934314277332">"Ezin izan da formateatu <xliff:g id="NAME">%1$s</xliff:g> memoria-unitatea"</string>
-    <string name="storage_wizard_format_as_private_title" msgid="7985715762649933211">"Formateatu gailuaren memoria gisa"</string>
+    <string name="storage_wizard_format_as_private_title" msgid="7985715762649933211">"Formateatu gailuko biltegi gisa"</string>
     <string name="storage_wizard_format_as_private_description" msgid="6143406934742456154">"Segurua izan dadin, formateatu egin behar da USB bidezko unitatea. Formateatu ondoren, unitateak gailu honekin bakarrik funtzionatuko du. Formateatzean, unitateko eduki guztia ezabatzen da. Daturik galdu nahi ez baduzu, egin haien babeskopia."</string>
     <string name="storage_wizard_format_as_public_title" msgid="3546915348149438389">"Ezabatu eduki guztia eta formateatu"</string>
     <string name="storage_wizard_format_as_public_description" msgid="5849129772499352597">"Formateatu ondoren, beste gailu batzuetan erabili ahal izango duzu USB bidezko unitate hau. Datu guztiak ezabatu egingo dira; hortaz, lehendabizi, datuen babeskopia egitea gomendatzen dugu. Horretarako, aplikazioak gailuaren beste memoria batera eraman ditzakezu."</string>
