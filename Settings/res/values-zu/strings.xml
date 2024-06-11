@@ -805,7 +805,6 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Ukufakwa kwephrofayela ye-GPU"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Nika amandla ukuthola"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Ungagcini imisibenzi"</string>
-    <string name="system_background_process_limit" msgid="1985373407150771045">"Umkhawulo wenqubo yesithombe sangemuva"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Bonisa wonke ama-ANR"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Khubaza ukulala"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Sebenzisa okuqukethwe kwe-DRM kuphela"</string>
@@ -937,6 +936,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Faka i-<xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ukuze uqhubeke."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Kwenziwe"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Ixhumeke ngempumelelo"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Isivele ixhunyiwe"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Ilondolozwe ngempumelelo"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Inguqulo <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Vula"</string>
@@ -994,7 +994,7 @@
     <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"Ukuvumela uxhumo lenethiwekhi ekulindeni kuzokhuphula amandla okusebenzisa asekulindeni."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Ayikho i-akhawunti okwamanje elondoloza idatha eyenziwe isipele"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
-    <string name="backup_erase_dialog_message" msgid="222169533402624861">"Yeka ukwenza isipele amaphasiwedi wakho we-Wi-Fi, amabhukhimakhi, ezinye izilungiselelo, kanye nedatha yohlelo lokusebenza,futhi ususe wonke amakhophi kumaseva we-Google?"</string>
+    <string name="backup_erase_dialog_message" msgid="222169533402624861">"Yeka ukwenza isipele amaphasiwedi wakho weWi-Fi, amabhukhimakhi, amanye amasethingi, kanye nedatha ye-app, futhi ususe wonke amakhophi kumaseva weGoogle?"</string>
     <string name="privacy_backup_data" msgid="3604057980102997914">"Yenza isipele sedatha yami"</string>
     <string name="privacy_backup_account" msgid="4527813051841860610">"Yenza isipele i-akhawunti"</string>
     <string name="privacy_automatic_restore" msgid="7117805818589418118">"Ukubuyisela esimweni okuzenzakalelayo"</string>

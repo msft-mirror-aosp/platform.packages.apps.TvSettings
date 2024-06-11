@@ -805,7 +805,6 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Profila grafiskā procesora atveide"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Iespējot trases"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Nesaglabāt darbības"</string>
-    <string name="system_background_process_limit" msgid="1985373407150771045">"Fona procesu ierobežojums"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Rādīt visus ANR"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Atspējo miega režīmu."</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Izmantot tikai DRM saturam"</string>
@@ -937,6 +936,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Atlasiet <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>, lai turpinātu."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Gatavs"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Savienojums ir veiksmīgi izveidots"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Savienojums jau ir izveidots."</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Konfigurācija ir veiksmīgi saglabāta"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versija <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Atvērt"</string>
