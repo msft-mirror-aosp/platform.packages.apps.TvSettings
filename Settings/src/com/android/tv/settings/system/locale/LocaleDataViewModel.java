@@ -27,12 +27,16 @@ import androidx.lifecycle.ViewModel;
 import com.android.internal.app.LocaleStore;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
+
+import com.android.tv.settings.R;
 
 /**
  * ViewModel to provide data for locale selection.
@@ -44,6 +48,7 @@ public class LocaleDataViewModel extends ViewModel {
     final Map<LocaleStore.LocaleInfo, List<LocaleStore.LocaleInfo>> mLocaleMap =
             new HashMap<>();
     Set<LocaleStore.LocaleInfo> mLocaleInfos;
+    Set<String> mUnsupportedLocales;
 
     public static Locale getCurrentLocale() {
         try {
@@ -70,9 +75,21 @@ public class LocaleDataViewModel extends ViewModel {
         if (mLocaleMap.containsKey(localeInfo)) {
             return;
         }
-        ArrayList<LocaleStore.LocaleInfo> localeInfoWithCountryList = new ArrayList<>(
-                LocaleStore.getLevelLocales(
-                        context, Collections.emptySet(), localeInfo, TRANSLATED_ONLY));
+
+        if (mUnsupportedLocales == null) {
+            String[] unsupportedLocales = context.getResources().getStringArray(
+                    R.array.config_unsupported_locales);
+            mUnsupportedLocales = new HashSet<>(Arrays.asList(unsupportedLocales));
+        }
+
+        ArrayList<LocaleStore.LocaleInfo> localeInfoWithCountryList = new ArrayList<>();
+        for (LocaleStore.LocaleInfo locale : LocaleStore.getLevelLocales(
+                context, Collections.emptySet(), localeInfo, TRANSLATED_ONLY)) {
+            if (!mUnsupportedLocales.contains(locale.getId())) {
+                localeInfoWithCountryList.add(locale);
+            }
+        }
+
         mLocaleMap.put(localeInfo, localeInfoWithCountryList);
     }
 
