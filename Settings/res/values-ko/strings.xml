@@ -805,7 +805,6 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"GPU 렌더링 프로파일"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"추적 사용"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"활동 보관 안함"</string>
-    <string name="system_background_process_limit" msgid="1985373407150771045">"백그라운드 프로세스 수 제한"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"모든 ANR 표시"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"절전 모드 사용 안함"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"DRM 콘텐츠만 사용"</string>
@@ -937,6 +936,8 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"계속하려면 <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> 아이콘을 선택하세요."</string>
     <string name="label_done_key" msgid="8576286462300373440">"완료"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"연결되었습니다"</string>
+    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
+    <skip />
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"저장되었습니다."</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"버전 <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"열기"</string>
