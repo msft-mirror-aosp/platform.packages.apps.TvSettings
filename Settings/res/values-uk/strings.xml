@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Знайти пульт"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Якщо ви загубили пульт Google TV, відтворіть на ньому звуковий сигнал, щоб швидше знайти"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"На пристрої Google TV є кнопка, яку можна натиснути, щоб на пульті дистанційного керування протягом 30 секунд відтворювався звуковий сигнал. Ця функція працює лише з підтримуваними пультами ДК для Google TV.\n\nЩоб вимкнути звуковий сигнал, натисніть будь-яку кнопку на пульті."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Увімкнувши функцію \"Знайти пульт\", ви зможете відтворити звуковий сигнал на пульті Google TV, якщо загубили його."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Відтворити звуковий сигнал"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Гучність: %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Ви можете керувати гучністю Асистента на колонці \"%1$s\""</string>

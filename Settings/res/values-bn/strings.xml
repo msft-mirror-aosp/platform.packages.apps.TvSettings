@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"আমার রিমোট খুঁজুন"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"আপনার Google TV-এর রিমোট হারিয়ে গেলে, সেটি খুঁজতে সাউন্ড চালান"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"আপনার Google TV-তে একটি বোতাম আছে যা আপনি ৩০ সেকেন্ডের জন্য সাউন্ড প্লে করতে নিজের রিমোট থেকে পুশ করতে পারেন। এটি শুধুমাত্র মানানসই Google TV রিমোট কন্ট্রোলের সাথে কাজ করে।\n\nসাউন্ড বন্ধ করতে, আপনার রিমোটের বোতাম প্রেস করুন।"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'আমার রিমোট খুঁজুন\' সুবিধা চালু থাকাকালীন, আপনার Google TV-এর রিমোট হারিয়ে গেলে, সেটি খুঁজে পেতে সাউন্ড চালাতে পারবেন।"</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"সাউন্ড চালান"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ভলিউম"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"আপনি %1$s স্পিকারে Assistant ভলিউম কন্ট্রোল করতে পারবেন"</string>

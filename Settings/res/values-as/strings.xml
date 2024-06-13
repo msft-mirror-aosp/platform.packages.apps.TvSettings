@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"মোৰ ৰিম’ট বিচাৰক"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"আপোনাৰ Google TV ৰিম’টটো হেৰালে সেইটো বিচাৰিবলৈ কোনো ধ্বনি প্লে’ কৰক"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"আপোনাৰ Google TVত এটা বুটাম আছে, যিটো আপুনি নিজৰ ৰিম’টত ৩০ ছেকেণ্ডৰ বাবে এটা ধ্বনি প্লে’ কৰিবলৈ টিপিব পাৰে। এইটোৱে কেৱল সমৰ্থিত Google TV ৰিম’ট কণ্ট্ৰ’লৰ জৰিয়তেহে কাম কৰে।\n\nধ্বনিটো বন্ধ কৰিবলৈ আপোনাৰ ৰিম’টটোত যিকোনো বুটাম টিপক।"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"মোৰ ৰিম’ট বিচাৰক সক্ষম কৰিলে, আপোনাৰ Google TVৰ ৰিম’টটো সঠিক স্থানত নাথাকিলে সেইটোৰ অৱস্থান জানিবলৈ আপুনি এটা ধ্বনি প্লে’ কৰিব পাৰে।"</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ধ্বনি প্লে’ কৰক"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$sৰ ভলিউম"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"আপুনি %1$sৰ স্পীকাৰত Assistantৰ ভলিউম নিয়ন্ত্ৰণ কৰিব পাৰে"</string>

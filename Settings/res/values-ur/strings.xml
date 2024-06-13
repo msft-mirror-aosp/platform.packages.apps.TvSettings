@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"میرا ریموٹ تلاش کریں"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"اگر آپ کا Google TV کا ریموٹ گم ہو گیا ہے تو اس کا پتا لگانے کے لیے آواز چلائیں"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"آپ کے Google TV پر ایک بٹن ہے جسے آپ 30 سیکنڈ تک اپنے ریموٹ پر آواز چلانے کے لیے دبا سکتے ہیں۔ یہ صرف تعاون یافتہ Google TV کے ریموٹ کنٹرولز کے ساتھ کام کرتا ہے۔\n\nآواز کو روکنے کے لیے، اپنے ریموٹ پر موجود کسی بھی بٹن کو دبائیں۔"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"میرا ریموٹ تلاش کریں فعال ہونے پر اگر آپ کا Google TV ریموٹ کہیں گم ہو جائے تو آپ اس کو تلاش کرنے کے لئے آواز چلا سکتے ہیں۔"</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"آواز چلائیں"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s والیوم"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"آپ %1$s اسپیکر پر اسسٹنٹ والیوم کو کنٹرول کر سکتے ہیں"</string>
