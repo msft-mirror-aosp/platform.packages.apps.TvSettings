@@ -416,6 +416,7 @@ public class AboutFragment extends SettingsPreferenceFragment {
                 logEntrySelected(TvSettingsEnums.SYSTEM_ABOUT_DEVICE_NAME);
                 break;
             case KEY_DEVICE_MODE:
+                break;
             case KEY_RESET:
                 logEntrySelected(TvSettingsEnums.SYSTEM_ABOUT_FACTORY_RESET);
                 Intent factoryResetIntent = new Intent();

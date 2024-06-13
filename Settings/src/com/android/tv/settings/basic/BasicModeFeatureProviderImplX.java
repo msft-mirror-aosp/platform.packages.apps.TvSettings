@@ -18,13 +18,13 @@ package com.android.tv.settings.basic;
 
 import static java.nio.charset.StandardCharsets.UTF_8;
 
+import android.accounts.AccountManager;
 import android.app.Activity;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.ResolveInfo;
-import android.database.Cursor;
 import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
@@ -47,10 +47,6 @@ import org.xmlpull.v1.XmlPullParserFactory;
 public class BasicModeFeatureProviderImplX implements BasicModeFeatureProvider {
 
     private static final String TAG = "BasicModeFeatureX";
-
-    // The string "offline_mode" is a static protocol and should not be changed in general.
-    private static final String KEY_BASIC_MODE = "offline_mode";
-
     private static final String OEM_AUTHORITY = "tvlauncher.config";
     private static final String OEM_CONTRACT_SCHEME = "content";
     private static final String OEM_CONFIG_PATH = "configuration";
@@ -58,27 +54,10 @@ public class BasicModeFeatureProviderImplX implements BasicModeFeatureProvider {
     private static final String STORE_DEMO = "store_demo";
     private static final String VALUE = "value";
 
-    @Override
     public boolean isBasicMode(@NonNull Context context) {
-        final String providerUriString = ResourcesUtil.getString(context,
-                "basic_mode_provider_uri");
-        if (TextUtils.isEmpty(providerUriString)) {
-            Log.e(TAG, "ContentProvider for basic mode is undefined.");
-            return false;
-        }
-        try {
-            Uri contentUri = Uri.parse(providerUriString);
-            Cursor cursor = context.getContentResolver().query(contentUri, null, null, null);
-            if (cursor != null && cursor.getCount() != 0) {
-                cursor.moveToFirst();
-                String basicMode = cursor.getString(cursor.getColumnIndex(KEY_BASIC_MODE));
-                return "1".equals(basicMode);
-            }
-        } catch (IllegalArgumentException | NullPointerException e) {
-            Log.e(TAG, "Unable to query the ContentProvider for basic mode.", e);
-            return false;
-        }
-        return false;
+        int numAccounts = AccountManager.get(context).getAccounts().length;
+        Log.i(TAG, "Number of accounts: " + numAccounts);
+        return numAccounts == 0;
     }
 
     @Override
