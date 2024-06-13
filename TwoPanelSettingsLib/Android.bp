@@ -19,9 +19,6 @@ java_library {
     srcs: [
         ":statslog-tvsettings-java-gen",
     ],
-    lint: {
-        baseline_filename: "lint-baseline.xml",
-    },
 }
 
 android_library {
@@ -52,11 +49,10 @@ android_library {
         "androidx.lifecycle_lifecycle-common-java8",
         "androidx.cardview_cardview",
         "statslog-tvsettings",
-        "TvSettingsAPI"
+        "TvSettingsAPI",
     ],
-    lint: {
-        baseline_filename: "lint-baseline.xml",
-    },
+    // TODO(b/319716205): re-enable use_resource_processor
+    use_resource_processor: false,
 }
 
 // For the test package.
