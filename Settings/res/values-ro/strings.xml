@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Profil redare cu GPU"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Activează monitorizările"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Nu păstra activitățile"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Limita proceselor de fundal"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Afișează toate elementele ANR"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Dezactivează trecerea la inactivitate"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Utilizează doar pentru conținut DRM"</string>
