@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"ప్రొఫైల్ GPU అమలు"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"ట్రేస్‌లను ప్రారంభించండి"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"యాక్టివిటీలను సేవ్ చేయవద్దు"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"నేపథ్య ప్రాసెస్ పరిమితి"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"అన్ని ANRలను చూపు"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"నిద్రావస్థను నిలిపివేయి"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"DRM కంటెంట్‌కు మాత్రమే ఉపయోగించండి"</string>
