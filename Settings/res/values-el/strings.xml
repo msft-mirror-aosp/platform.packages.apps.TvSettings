@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Εύρεση τηλεχειριστηρίου"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Αναπαράγετε ήχο για να εντοπίσετε το τηλεχειριστήριο του Google TV, σε περίπτωση που το έχετε χάσει"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Υπάρχει ένα κουμπί στο Google TV που μπορείτε να πατήσετε για την αναπαραγωγή ενός ήχου στο τηλεχειριστήριο για 30 δευτερόλεπτα. Αυτό έχει αποτέλεσμα μόνο σε υποστηριζόμενα τηλεχειριστήρια Google TV.\n\nΓια να διακόψετε τον ήχο, πατήστε ένα κουμπί στο τηλεχειριστήριο."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Όταν είναι ενεργή η Εύρεση τηλεχειριστηρίου, μπορείτε να αναπαράγετε έναν ήχο για να εντοπίσετε το τηλεχειριστήριο του Google TV σε περίπτωση που το έχετε χάσει."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Αναπαραγωγή ήχου"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Ένταση %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Μπορείτε να ελέγξετε την ένταση του Βοηθού στο ηχείο %1$s"</string>
