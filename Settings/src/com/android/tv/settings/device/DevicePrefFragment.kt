@@ -237,8 +237,8 @@ class DevicePrefFragment : SettingsPreferenceFragment(), LongClickPreference.OnL
         }
 
         findPreference<SlicePreference>(KEY_CAST_SETTINGS_SLICE)?.apply {
-            isVisible = !SliceUtils.isSliceProviderValid(requireContext(), this.uri)
-                    || FlavorUtils.getFeatureFactory(requireContext()).getBasicModeFeatureProvider()
+            isVisible = SliceUtils.isSliceProviderValid(requireContext(), this.uri)
+                    && !FlavorUtils.getFeatureFactory(requireContext()).getBasicModeFeatureProvider()
                     .isBasicMode(requireContext())
         }
     }
