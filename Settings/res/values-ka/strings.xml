@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"GPU რენდერის პროფილი"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"კვალის ჩართვა"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"მოქმედებები არ გაგრძელდეს"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"ფონური პროცესების ლიმიტი"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"ყველა ANR-ის ჩვენება"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"ძილის გამორთვა"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"გამოყენება მხოლოდ DRM კონტენტისთვის"</string>
@@ -1147,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"იპოვეთ ჩემი დისტანციური მართვის პულტი"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"დაუკარით ხმა Google TV-ის დისტანციური მართვის პულტის მოსაძებნად, თუ ის დაკარგეთ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"თქვენს Google TV-ზე არის ღილაკი, რომლის დაჭერითაც შეგიძლიათ თქვენს დისტანციური მართვის პულტზე ხმოვანი სიგნალის დაკვრა 30 წამით. ეს ფუნქცია მუშაობს მხოლოდ Google TV-ის მხარდაჭერილი დისტანციური მართვის პულტის მეშვეობით.\n\nხმოვანი სიგნალის შესაჩერებლად დააჭირეთ ნებისმიერ ღილაკს თქვენს დისტანციურ მართვის პულტზე."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"როდესაც ჩართულია „ჩემი დისტანციური მართვის პულტის პოვნა”, შეგიძლიათ დაუკრათ ხმა თქვენი Google TV დისტანციური მართვის პულტის მდებარეობის დასადგენად, თუ კი მას ვერ პოულობთ."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ხმის დაკვრა"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ხმა"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"შეგიძლიათ მართოთ ასისტენტის ხმა %1$s დინამიკზე"</string>

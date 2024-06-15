@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Profile GPU rendering"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Enable traces"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Don\'t keep activities"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Background process limit"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Show all ANRs"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Disable sleep"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Use for DRM content only"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Find my remote"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Play a sound to locate your Google TV remote if it\'s misplaced"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"There is a button on your Google TV that you can push to play a sound on your remote for 30 seconds. This only works with supported Google TV remote controls.\n\nTo stop the sound, press any button on your remote."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"When Find my remote is enabled, you can play a sound to locate your Google TV remote if it\'s misplaced."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"When on, you can use the button on your device to play a sound to locate your remote. When off, this button won\'t work. You\'ll still be able to use Find my remote via other methods."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Play sound"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volume"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"You can control the Assistant volume on %1$s speaker"</string>
