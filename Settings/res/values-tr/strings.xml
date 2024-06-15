@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Uzaktan kumandamı bul"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV uzaktan kumandanızın nerede olduğunu hatırlamıyorsanız ses çaldırarak yerini bulabilirsiniz"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV\'nizde, uzaktan kumandanızda 30 saniye boyunca ses çalmak için basabileceğiniz bir düğme mevcuttur. Bu işlem yalnızca desteklenen Google TV uzaktan kumandalarında çalışır.\n\nSes çalmayı durdurmak için uzaktan kumandanızda herhangi bir düğmeye basın."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Uzaktan kumandamı bul özelliği etkinleştirildiğinde Google TV uzaktan kumandanızın nerede olduğunu hatırlamıyorsanız ses çaldırarak yerini bulabilirsiniz."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Ses çaldır"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ses düzeyi"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s hoparlöründe Asistan\'ın ses düzeyin kontrol edebilirsiniz"</string>
