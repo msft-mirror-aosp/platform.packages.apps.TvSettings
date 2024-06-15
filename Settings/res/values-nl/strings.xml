@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Mijn afstandsbediening vinden"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Speel een geluid af om je Google TV-afstandsbediening te vinden als je deze kwijt bent"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Je Google TV heeft een knop waarmee je 30 seconden een geluid kunt afspelen op je afstandsbediening. Dit werkt alleen met ondersteunde afstandsbedieningen voor Google TV.\n\nAls je het geluid wilt uitzetten, druk je op een knop op je afstandsbediening."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Als Mijn afstandsbediening vinden aanstaat, kun je een geluid afspelen om je Google TV-afstandsbediening te vinden als je deze kwijt bent."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Geluid afspelen"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume van %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Je kunt het Assistent-volume bedienen op de %1$s-speaker"</string>

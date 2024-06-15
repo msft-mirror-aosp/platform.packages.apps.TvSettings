@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Etsi kaukosäädin"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Jos et löydä Google TV ‑kaukosäädintä, etsi se toistamalla äänimerkki"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV:ssä on painike, jota painamalla kaukosäädin toistaa äänen 30 sekunnin ajan. Tämä toimii vain tuetuilla Google TV ‑kaukosäätimillä.\n\nLopeta äänen toistaminen painamalla kaukosäätimestä mitä tahansa painiketta."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kun Etsi kaukosäätimeni on käytössä, voit etsiä Google TV ‑kaukosäätimen toistamalla äänimerkin."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Toista äänimerkki"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Äänenvoimakkuus (%1$s)"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Voit muuttaa Assistantin äänenvoimakkuutta kaiuttimella (%1$s)"</string>

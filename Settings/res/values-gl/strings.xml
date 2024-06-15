@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Localizar o mando a distancia"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Se non dás atopado o mando a distancia de Google TV, fai que emita un son para localizalo"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"En Google TV tes un botón que podes premer para reproducir un son no mando a distancia durante 30 segundos. Esta acción só se pode levar a cabo con mandos a distancia de Google TV que admitan esta opción.\n\nPreme calquera botón do mando para que deixe de soar."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Cando está activada a opción Localizar o mando a distancia, podes facer que se reproduza un son para atopar o mando a distancia de Google TV se non sabes onde está."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reproducir son"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume (%1$s)"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Podes controlar o volume do Asistente en %1$s altofalante"</string>

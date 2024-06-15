@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Pultumu tapın"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV pultu itibsə, tapmaq üçün səs oxudun"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV-də 30 saniyə pultda səs oxutmaq üçün düymə var. Bu, yalnız dəstəklənən Google TV pultları ilə işləyir.\n\nSəsi dayandırmaq üçün pultun hər hansı düyməsinə basın."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Pultumu tapın funksiyası aktiv olduqda Google TV pultunu tapmaq üçün səs oxuda bilərsiniz."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Səs oxudun"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s səviyyə"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Assistentin səs səviyyəsinə %1$s dinamikində nəzarət edə bilərsiniz"</string>

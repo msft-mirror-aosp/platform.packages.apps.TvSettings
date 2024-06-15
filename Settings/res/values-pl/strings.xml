@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Znajdź pilota"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Włącz dźwięk, aby znaleźć zgubionego pilota do Google TV"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"W Google TV znajduje się przycisk, który możesz nacisnąć, aby odtwarzać dźwięk na pilocie przez 30 sekund. Działa to tylko w przypadku obsługiwanych pilotów do Google TV.\n\nAby wyłączyć dźwięk, naciśnij dowolny przycisk na pilocie."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Gdy funkcja Znajdź pilota jest włączona, możesz włączyć dźwięk, aby znaleźć zgubionego pilota do Google TV."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Włącz dźwięk"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Głośność: %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Głośność Asystenta możesz zmienić na głośniku %1$s"</string>

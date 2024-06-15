@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ମୋ ରିମୋଟ ଖୋଜନ୍ତୁ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ଯଦି ଆପଣଙ୍କ Google TV ରିମୋଟକୁ ଭୁଲ ସ୍ଥାନରେ ରଖାଯାଇଥାଏ ତେବେ ଏହାକୁ ଖୋଜିବା ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରନ୍ତୁ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ଆପଣଙ୍କ Google TVରେ ଏକ ବଟନ ଅଛି ଯାହାକୁ ଆପଣ ଆପଣଙ୍କ ରିମୋଟରେ 30 ସେକେଣ୍ଡ ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରିବା ନିମନ୍ତେ ପୁସ କରିପାରିବେ। ଏହା କେବଳ ସମର୍ଥିତ Google TV ରିମୋଟ କଣ୍ଟ୍ରୋଲଗୁଡ଼ିକରେ କାର୍ଯ୍ୟ କରେ।\n\nସାଉଣ୍ଡ ବନ୍ଦ କରିବାକୁ ଆପଣଙ୍କ ରିମୋଟରେ ଯେ କୌଣସି ବଟନ ଦବାନ୍ତୁ।"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"ଯେତେବେଳେ \'ମୋ ରିମୋଟ ଖୋଜନ୍ତୁ\'କୁ ସକ୍ଷମ କରାଯାଏ, ସେତେବେଳେ ଯଦି ଆପଣଙ୍କ Google TV ରିମୋଟକୁ ଭୁଲ ସ୍ଥାନରେ ରଖାଯାଇଥାଏ ତେବେ ଏହାକୁ ଖୋଜିବା ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରନ୍ତୁ।"</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ସାଉଣ୍ଡ ପ୍ଲେ କରନ୍ତୁ"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ଭଲ୍ୟୁମ"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ଆପଣ %1$s ସ୍ପିକରରେ Assistant ଭଲ୍ୟୁମକୁ ନିୟନ୍ତ୍ରଣ କରିପାରିବ"</string>
