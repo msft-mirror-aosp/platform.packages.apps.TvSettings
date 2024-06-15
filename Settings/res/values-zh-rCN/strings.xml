@@ -937,7 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"选择 <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> 以继续。"</string>
     <string name="label_done_key" msgid="8576286462300373440">"完成"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"连接成功"</string>
-    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"已经连接了"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"已连接"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"保存成功"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"版本 <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"打开"</string>
@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"查找我的遥控器"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"让忘记放在何处的 Google TV 遥控器响铃，以便找到它"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV 上有一个按钮，按下后遥控器会响铃 30 秒钟。此操作仅对支持的 Google TV 遥控器有效。\n\n若要停止响铃，请按下遥控器上的任意按钮。"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"当“查找我的遥控器”处于启用状态时，您可让找不到的 Google TV 遥控器响铃，从而定位它。"</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"响铃"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s的音量"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"您可以控制%1$s音箱上 Google 助理的音量"</string>
