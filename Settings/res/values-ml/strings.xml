@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"പ്രൊഫൈൽ GPU റെൻഡർചെയ്യൽ"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"ട്രെയ്‌സുകൾ പ്രവർത്തനക്ഷമമാക്കുക"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"പ്രവർത്തനങ്ങൾ സൂക്ഷിക്കരുത്"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"പശ്ചാത്തല പ്രോസ‌സ്സ് പരിധി"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"എല്ലാ ANR-കളും കാണിക്കുക"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"സുഷുപ്‌തിയിലാകുന്നത് പ്രവർത്തനരഹിതമാക്കുക"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"DRM ഉള്ളടക്കത്തിനുമാത്രമായി ഉപയോഗിക്കുക"</string>
@@ -1147,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"എന്റെ റിമോട്ട് കണ്ടെത്തൂ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"നിങ്ങളുടെ Google TV റിമോട്ട് എവിടെയെങ്കിലും വച്ച് മറന്നെങ്കിൽ അത് കണ്ടെത്താൻ ഒരു ശബ്ദം പ്ലേ ചെയ്യുക"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"നിങ്ങളുടെ റിമോട്ടിൽ 30 സെക്കൻഡ് നേരത്തേക്ക് ശബ്‌ദം പ്ലേ ചെയ്യാൻ നിങ്ങളുടെ Google TV-യിൽ ഒരു ബട്ടൺ ഉണ്ട്. പിന്തുണയുള്ള Google TV റിമോട്ട് കൺട്രോളുകളിൽ മാത്രമേ ഇത് പ്രവർത്തിക്കൂ.\n\nശബ്ദം നിർത്താൻ, നിങ്ങളുടെ റിമോട്ടിലെ ഏതെങ്കിലും ബട്ടൺ അമർത്തുക."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'എന്റെ റിമോട്ട് കണ്ടെത്തുക\' പ്രവർത്തനക്ഷമമാക്കിയിരിക്കുമ്പോൾ, Google TV റിമോട്ട് എവിടെയെങ്കിലും വച്ച് മറന്നെങ്കിൽ അത് കണ്ടെത്താൻ ഒരു ശബ്ദം പ്ലേ ചെയ്യാം."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ശബ്‌ദം പ്ലേ ചെയ്യുക"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s വോളിയം"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s സ്‌പീക്കറിലെ Assistant വോളിയം നിങ്ങൾക്ക് നിയന്ത്രിക്കാനാകും"</string>

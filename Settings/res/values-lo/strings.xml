@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"ສະແດງຜົນ GPU ຕາມ​ໂປຣ​ໄຟລ໌"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"ເປີດການ​ໃຊ້​ຮ່ອງຮອຍ"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"ບໍ່ຕ້ອງ​ຮັກສາ​ການ​ເຮັດວຽກ"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"ການ​ຈຳ​ກັດ​ໂປຣ​ເຊສ​ໃນ​ພື້ນຫຼັງ"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"ສະ​ແດງ ANRs ທັງ​ຫມົດ"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"​ປິດ​ນຳ​ໃຊ້​ການ​ປິດ​ໜ້າ​ຈໍ"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"ໃຊ້​ສຳ​ລັບເນື້ອ​ຫາ DRM ເທົ່າ​ນັ້ນ"</string>
@@ -1147,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ຊອກຫາຣີໂໝດຂອງຂ້ອຍ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ຫຼິ້ນສຽງເພື່ອຊອກຫາຣີໂໝດ Google TV ຂອງທ່ານຫາກວາງໄວ້ຜິດບ່ອນ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ມີປຸ່ມຢູ່ Google TV ຂອງທ່ານທີ່ທ່ານສາມາດກົດເພື່ອຫຼິ້ນສຽງຢູ່ຣີໂໝດຂອງທ່ານເປັນເວລາ 30 ວິນາທີ. ສິ່ງນີ້ໃຊ້ໄດ້ກັບຣີໂໝດຂອງ Google TV ທີ່ຮອງຮັບເທົ່ານັ້ນ.\n\nເພື່ອຢຸດສຽງ, ໃຫ້ກົດປຸ່ມໃດກໍໄດ້ຢູ່ຣີໂໝດຂອງທ່ານ."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"ເມື່ອເປີດການນຳໃຊ້ຊອກຫາຣີໂໝດຂອງຂ້ອຍ, ທ່ານສາມາດຫຼິ້ນສຽງເພື່ອຊອກຫາຣີໂໝດ Google TV ຂອງທ່ານໄດ້ຫາກວາງໄວ້ຜິດບ່ອນ."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ຫຼິ້ນສຽງ"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"ລະດັບສຽງຂອງ %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ທ່ານສາມາດຄວບຄຸມລະດັບສຽງຜູ້ຊ່ວຍຢູ່ລຳໂພງ %1$s ໄດ້"</string>
