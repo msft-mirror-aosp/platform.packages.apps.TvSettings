@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Upodobitev profilov z GPE-jem"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Omogoči sledi"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Ne obdrži dejavnosti"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Omejitev postopkov v ozadju"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Pokaži vse ANR"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Onemogoči stanje pripravljenosti"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Uporaba samo za vsebino DRM"</string>
@@ -1147,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Poišči moj daljinski upravljalnik"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Predvajajte zvok, da poiščete daljinski upravljalnik za Google TV, če ga založite"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV ima gumb, ki ga lahko pritisnete in tako za 30 sekund sprožite predvajanje zvoka v daljinskem predvajalniku. To deluje samo s podprtimi daljinskimi upravljalniki za Google TV.\n\nČe želite ustaviti zvok, na daljinskem upravljalniku pritisnite kateri koli gumb."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Če je omogočena funkcija Poišči moj daljinski upravljalnik, lahko nastavite, da se predvaja zvok, da najdete založeni daljinski upravljalnik Googla TV."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Predvajaj zvok"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Glasnost za %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Glasnost Pomočnika lahko upravljate v zvočniku %1$s"</string>

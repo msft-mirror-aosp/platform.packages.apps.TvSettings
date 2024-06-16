@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Rendu GPU du profil"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Activer les traces"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Ne pas conserver les activités"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Nbre max. de processus en arr.-plan"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Afficher messages « L\'application ne répond pas »"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Désactiver la veille"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Utiliser pour le contenu GDN uniquement"</string>
@@ -1147,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Localiser ma télécommande"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Faites jouer un son pour localiser votre télécommande Google TV si elle est égarée"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Un bouton sur votre Google TV vous permet d\'émettre un son sur votre télécommande pendant 30 secondes. Cette action ne fonctionne qu\'avec les télécommandes prises en charge par Google TV.\n\nPour couper le son, appuyez sur n\'importe quel bouton de votre télécommande."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Quand la fonctionnalité Localiser ma télécommande est activée, vous pouvez faire jouer un son pour localiser votre télécommande Google TV si elle est égarée."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Faire jouer un son"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volume"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Vous pouvez contrôler le volume de l\'Assistant sur le haut-parleur %1$s"</string>
