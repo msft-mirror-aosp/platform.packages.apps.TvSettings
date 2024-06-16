@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"បង្ហាញ​ប្រវត្តិ​ការ​ធ្វើ​ឲ្យ​សម GPU"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"បើក​ដាន"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"កុំ​រក្សា​ទុក​សកម្មភាព"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"ដែន​កំណត់​ដំណើរការ​​​ផ្ទៃ​ខាង​ក្រោយ"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"បង្ហាញ ANRs ទាំងអស់"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"បិទ​​ការ​ដេក"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"ប្រើ​សម្រាប់​​តែ​មាតិកា DRM ប៉ុណ្ណោះ"</string>
@@ -1147,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ស្វែងរកឧបករណ៍​បញ្ជាពីចម្ងាយរបស់ខ្ញុំ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ចាក់សំឡេងណាមួយ ដើម្បីកំណត់ទីតាំងឧបករណ៍​បញ្ជាពីចម្ងាយសម្រាប់ Google TV របស់អ្នក ប្រសិនបើបាត់ឧបករណ៍នោះ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"មានប៊ូតុង​នៅលើ Google TV របស់អ្នក​ដែលអ្នកអាច​ចុចដើម្បីចាក់​សំឡេង​នៅលើ​ឧបករណ៍​បញ្ជាពីចម្ងាយ​របស់អ្នក​រយៈពេល 30 វិនាទី។ សកម្មភាពនេះដំណើរការតែជាមួយនឹងឧបករណ៍​​បញ្ជា​ Google TV ពី​ចម្ងាយដែលអាចប្រើបានប៉ុណ្ណោះ។\n\nដើម្បីបញ្ឈប់សំឡេង សូមចុចប៊ូតុងណាមួយលើឧបករណ៍​បញ្ជាពីចម្ងាយរបស់អ្នក។"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"នៅពេលបើក \"រកឧបករណ៍​បញ្ជាពីចម្ងាយរបស់ខ្ញុំ\" អ្នកអាចចាក់សំឡេងណាមួយ ដើម្បីកំណត់ទីតាំងឧបករណ៍​បញ្ជាពីចម្ងាយសម្រាប់ Google TV របស់អ្នក ប្រសិនបើបាត់ឧបករណ៍នោះ។"</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ចាក់​សំឡេង"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"កម្រិតសំឡេង %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"អ្នកអាចគ្រប់គ្រងកម្រិតសំឡេង Google Assistant នៅលើឧបករណ៍បំពងសំឡេង %1$s"</string>

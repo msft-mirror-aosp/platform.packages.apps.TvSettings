@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"GPU විදැහුමප්‍රොෆයිල් කරන්න"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"අනුරේඛන සබල කරන්න"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"ක්‍රියාකාරකම් තබාගන්න එපා"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"පසුබිම් ක්‍රියාවලි සීමාව"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"සියලුම ANR පෙන්වන්න"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"නින්ද අබල කරන්න"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"DRM අන්තර්ගතය සඳහා පමණක් භාවිතා කරන්න"</string>
@@ -1147,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"මගේ දුරස්ථ පාලකය සොයා ගන්න"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ඔබේ Google TV දුරස්ථ පාලකය අස්ථානගත වී ඇත්නම් එය සොයා ගැනීමට හඬක් වාදනය කරන්න"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ඔබේ දුරස්ථ පාලකයේ තත්පර 30ක් සඳහා ශබ්දයක් වාදනය කිරීමට ඔබට තල්ලු කළ හැකි බොත්තමක් ඔබේ Google TV මත ඇත. මෙය ක්‍රියා කරන්නේ සහාය දක්වන Google TV දුරස්ථ පාලක සමග පමණි.\n\nශබ්දය නැවැත්වීම සඳහා, ඔබේ දුරස්ථ පාලකයෙහි ඕනෑම බොත්තමක් ඔබන්න."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"මගේ දුරස්ථය සොයා ගැනීම සබල කර ඇති විට, ඔබේ Google TV දුරස්ථ පාලකය අස්ථානගත වී ඇත්නම් එය සොයා ගැනීමට ඔබට ශබ්දයක් වාදනය කළ හැක."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"හඩ වාදනය කරන්න"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s හඬ පරිමාව"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ඔබට %1$s ස්පීකරය මත සහායක හඬ පරිමාව පාලනය කළ හැක"</string>
