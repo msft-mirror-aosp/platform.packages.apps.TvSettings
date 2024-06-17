@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ស្វែងរកឧបករណ៍​បញ្ជាពីចម្ងាយរបស់ខ្ញុំ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ចាក់សំឡេងណាមួយ ដើម្បីកំណត់ទីតាំងឧបករណ៍​បញ្ជាពីចម្ងាយសម្រាប់ Google TV របស់អ្នក ប្រសិនបើបាត់ឧបករណ៍នោះ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"មានប៊ូតុង​នៅលើ Google TV របស់អ្នក​ដែលអ្នកអាច​ចុចដើម្បីចាក់​សំឡេង​នៅលើ​ឧបករណ៍​បញ្ជាពីចម្ងាយ​របស់អ្នក​រយៈពេល 30 វិនាទី។ សកម្មភាពនេះដំណើរការតែជាមួយនឹងឧបករណ៍​​បញ្ជា​ Google TV ពី​ចម្ងាយដែលអាចប្រើបានប៉ុណ្ណោះ។\n\nដើម្បីបញ្ឈប់សំឡេង សូមចុចប៊ូតុងណាមួយលើឧបករណ៍​បញ្ជាពីចម្ងាយរបស់អ្នក។"</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"នៅពេលបើក អ្នកអាចប្រើប៊ូតុងនៅលើឧបករណ៍របស់អ្នកសម្រាប់ចាក់សំឡេង ដើម្បីកំណត់ទីតាំងឧបករណ៍​បញ្ជាពីចម្ងាយរបស់អ្នក។ នៅពេលបិទ ប៊ូតុងនេះនឹងមិនដំណើរការទេ។ អ្នកនឹងនៅតែអាចប្រើ \"រកឧបករណ៍បញ្ជារបស់ខ្ញុំ\" តាមរយៈវិធីផ្សេងទៀត។"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ចាក់​សំឡេង"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"កម្រិតសំឡេង %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"អ្នកអាចគ្រប់គ្រងកម្រិតសំឡេង Google Assistant នៅលើឧបករណ៍បំពងសំឡេង %1$s"</string>

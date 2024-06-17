@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Tafuta kidhibiti changu cha mbali"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Cheza sauti ili upate kilipo kidhibiti chako cha mbali cha Google TV ikiwa kimepotea"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Kuna kitufe kwenye Google TV yako unachoweza kukibofya ili kucheza sauti kwenye kidhibiti chako cha mbali kwa sekunde 30. Kipengele hiki kinafanya kazi tu kwenye vidhibiti vya mbali vya Google TV vinavyotumika.\n\nIli uzime sauti, bonyeza kitufe chochote kwenye kidhibiti chako cha mbali."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Ukiwasha, unaweza kutumia kitufe kilicho kwenye kifaa chako kucheza sauti ili utambue mahali kilipo kidhibiti chako cha mbali. Ukizima, kitufe hiki hakitafanya kazi. Bado utaweza kutumia kipengele cha Tafuta kidhibiti changu cha mbali kupitia mbinu nyinginezo."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Cheza sauti"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Kiwango cha sauti ya %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Unaweza kudhibiti kiwango cha sauti ya Kiratibu kwenye spika ya %1$s"</string>
