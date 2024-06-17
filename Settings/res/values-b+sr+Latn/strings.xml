@@ -937,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Izaberite <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> da biste nastavili."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Gotovo"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Veza je uspostavljena"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Već je povezano"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Sačuvano je"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Verzija <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Otvoreno"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Pronađi moj daljinski"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Pustite zvuk da biste locirali daljinski za Google TV ako ste ga zaturili"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na Google TV-u postoji dugme koje možete da pritisnete kako biste na daljinskom pustili zvuk u trajanju od 30 sekundi. To funkcioniše samo na podržanim daljinskim upravljačima za Google TV.\n\nDa biste zaustavili ovaj zvuk, pritisnite bilo koje dugme na daljinskom."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kada je omogućena funkcija Pronađi moj daljinski, možete da pustite zvuk da biste locirali daljinski upravljač za Google TV ako ste ga zaturili."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Kada je ova opcija uključena, pomoću dugmeta na uređaju možete da pustite zvuk kako biste pronašli daljinski. Kada je isključena, ovo dugme ne funkcioniše. Ipak ćete moći da koristite funkciju Nađi daljinski pomoću drugih metoda."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Pusti zvuk"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Jačina zvuka: %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Možete da kontrolišete jačinu zvuka za Pomoćnik na %1$s zvučniku"</string>
