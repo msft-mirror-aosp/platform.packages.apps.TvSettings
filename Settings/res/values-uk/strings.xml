@@ -937,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Щоб продовжити, виберіть <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Готово"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Під’єднано"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Уже під’єднано"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Збережено"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Версія <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Відкрити"</string>
@@ -1067,7 +1068,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Дозволити додаткам налаштовувати будильники й створювати події на певний час. Додатки зможуть працювати у фоновому режимі й тому використовувати більше заряду акумулятора.\n\nЯкщо вимкнути цей дозвіл, наявні будильники й події, створені додатком, не працюватимуть."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Увімкнення екрана"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Дозволити ввімкнення екрана"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Дозвольте додатку вмикати екран. Якщо ви надасте цей дозвіл, додаток зможе будь-коли вмикати екран пристрою навіть без вашого явного наміру."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Додатку буде дозволено вмикати екран. З таким дозволом додаток зможе будь-коли вмикати екран пристрою навіть без вашого явного наміру."</string>
     <string name="special_access" msgid="21806055758289916">"Спеціальний доступ додатка"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>."</string>
     <string name="audio_category" msgid="6143623109624947993">"Звук"</string>
@@ -1147,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Знайти пульт"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Якщо ви загубили пульт Google TV, відтворіть на ньому звуковий сигнал, щоб швидше знайти"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"На пристрої Google TV є кнопка, яку можна натиснути, щоб на пульті дистанційного керування протягом 30 секунд відтворювався звуковий сигнал. Ця функція працює лише з підтримуваними пультами ДК для Google TV.\n\nЩоб вимкнути звуковий сигнал, натисніть будь-яку кнопку на пульті."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Увімкнувши функцію \"Знайти пульт\", ви зможете відтворити звуковий сигнал на пульті Google TV, якщо загубили його."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Відтворити звуковий сигнал"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Гучність: %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Ви можете керувати гучністю Асистента на колонці \"%1$s\""</string>

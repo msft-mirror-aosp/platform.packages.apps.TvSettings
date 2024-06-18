@@ -937,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Davom etish uchun buni tanlang: <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>"</string>
     <string name="label_done_key" msgid="8576286462300373440">"Tayyor"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Ulandi"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Allaqachon ulangan"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Sozlamalar saqlandi"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"<xliff:g id="APP_VERSION">%1$s</xliff:g> versiyasi"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Ochish"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Pultimni top"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV pulti joyida boʻlmasa, uni topish uchun jiringlating"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV qurilmasida bosilganda pultni 30 soniya jiringlatadigan tugma mavjud. Bu faqat Google TV pultlarida ishlaydi.\n\nTovushni toʻxtatish uchun pultdagi istalgan tugmani bosing."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Pultimni top funksiyasi yoniq boʻlsa, yoʻqolgan Google TV pultini ovozli signal orqali topish mumkin."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Bu yoqilsa, pult qayerdaligini aniqlash uchun qurilmadagi tugma orqali tovush chiqarish mumkin. Yoqilmasa, bu tugma ishlamaydi. Biroq boshqa usullar orqali “Pultni top” funksiyasidan foydalanishingiz mumkin."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Jiringlatish"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s tovushi balandligi"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s karnayida Assistent tovushi balandligini boshqarish mumkin"</string>

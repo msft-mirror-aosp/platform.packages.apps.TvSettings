@@ -937,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Veldu <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> til að halda áfram."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Lokið"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Tengingu komið á"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Þegar tengt"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Vistað"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Útgáfa <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Opna"</string>
@@ -1147,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Finna fjarstýringuna mína"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Spilaðu hljóð til að finna Google TV-fjarstýringuna ef hún týnist"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Það er hnappur á Google TV sem þú getur ýtt á til að spila hljóð á fjarstýringunni þinni í 30 sekúndur. Þetta virkar aðeins í studdum Google TV-fjarstýringum.\n\nÝttu á hvaða hnapp sem er á fjarstýringunni til að stöðva hljóðið."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Þegar kveikt er á „Finna fjarstýringuna mína“ geturðu spilað hljóð til að finna Google TV-fjarstýringuna ef hún týnist."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spila hljóð"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s hljóðstyrkur"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Þú getur stjórnað hljóðstyrk Hjálpara í %1$s-hátalara"</string>

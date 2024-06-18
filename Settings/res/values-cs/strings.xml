@@ -937,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Pokračujte výběrem sítě <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Hotovo"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Úspěšně připojeno"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Již připojeno"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Úspěšně uloženo"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Verze <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Otevřít"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Vyhledání dálkového ovládání"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Pokud někam založíte dálkové ovládání ke Google TV, najděte ho podle zvuku"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na televizi Google TV je tlačítko, po jehož stisknutí se bude na dálkovém ovládání 30 sekund přehrávat zvuk. Funguje to jen s podporovaným dálkovým ovládáním Google TV.\n\nZvuk vypnete stisknutím libovolného tlačítka na dálkovém ovládání."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Pokud je aktivováno vyhledávání dálkového ovládání, můžete si nechat přehrát zvuk, abyste našli dálkové ovládání Google TV, když nevíte, kde je."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Když bude možnost zapnutá, můžete pomocí tlačítka na zařízení přehrát zvuk, podle kterého najdete dálkové ovládání. Když bude možnost vypnutá, tlačítko nebude fungovat. Ovladač bude nadále možné najít jinými způsoby."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Přehrát zvuk"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s hlasitost"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Hlasitost Asistenta můžete ovládat na reproduktoru %1$s"</string>

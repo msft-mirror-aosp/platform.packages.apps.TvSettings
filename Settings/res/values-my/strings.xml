@@ -937,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ရှေ့ဆက်ရန် <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ကို ရွေးပါ။"</string>
     <string name="label_done_key" msgid="8576286462300373440">"ပြီးပါပြီ"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"အောင်မြင်စွာ ချိတ်ဆက်ပြီးပါပြီ"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ချိတ်ဆက်ပြီးဖြစ်သည်"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"အောင်မြင်စွာ သိမ်းဆည်းပြီးပါပြီ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ဗားရှင်း <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ဖွင့်ထား"</string>
@@ -1147,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ကျွန်ုပ်၏ အဝေးထိန်းခလုတ်ရှာခြင်း"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"သင့် Google TV အဝေးထိန်းခလုတ်ကို နေရာမှားထားမိပါက ရှာတွေ့ရန် အသံဖွင့်နိုင်သည်"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"သင့် Google TV တွင် ခလုတ်တစ်ခုရှိပြီး ၎င်းကိုနှိပ်ခြင်းဖြင့် အဝေးထိန်းခလုတ်တွင် စက္ကန့် ၃၀ ကြာ အသံမည်သည်။ ၎င်းသည် ပံ့ပိုးထားသော Google TV အဝေးထိန်းခလုတ်များတွင်သာ အလုပ်လုပ်သည်။\n\nအသံပိတ်ရန် အဝေးထိန်းခလုတ်ပေါ်ရှိ ခလုတ်တစ်ခုခု နှိပ်ပါ။"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"‘ကျွန်ုပ်၏ အဝေးထိန်းခလုတ်ရှာခြင်း’ ဖွင့်ထားသောအခါ သင့် Google TV အဝေးထိန်းခလုတ်ကို နေရာမှားထားမိပါက ရှာတွေ့ရန် အသံဖွင့်နိုင်သည်။"</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"အသံဖွင့်ရန်"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s အသံအတိုးအကျယ်"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s စပီကာတွင် Assistant အသံအတိုးအကျယ်ကို ထိန်းချုပ်နိုင်သည်"</string>
