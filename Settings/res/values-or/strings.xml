@@ -937,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ଜାରି ରଖିବାକୁ <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ଚୟନ କରନ୍ତୁ।"</string>
     <string name="label_done_key" msgid="8576286462300373440">"ହୋଇଗଲା"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"ସଫଳଭାବରେ କନେକ୍ଟ ହୋଇଛି"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ପୂର୍ବରୁ କନେକ୍ଟ କରାଯାଇଛି"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"ସଫଳ ପୂର୍ବକ ସେଭ୍‌ ହୋଇଛି"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ସଂସ୍କରଣ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ଖୋଲନ୍ତୁ"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ମୋ ରିମୋଟ ଖୋଜନ୍ତୁ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ଯଦି ଆପଣଙ୍କ Google TV ରିମୋଟକୁ ଭୁଲ ସ୍ଥାନରେ ରଖାଯାଇଥାଏ ତେବେ ଏହାକୁ ଖୋଜିବା ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରନ୍ତୁ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ଆପଣଙ୍କ Google TVରେ ଏକ ବଟନ ଅଛି ଯାହାକୁ ଆପଣ ଆପଣଙ୍କ ରିମୋଟରେ 30 ସେକେଣ୍ଡ ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରିବା ନିମନ୍ତେ ପୁସ କରିପାରିବେ। ଏହା କେବଳ ସମର୍ଥିତ Google TV ରିମୋଟ କଣ୍ଟ୍ରୋଲଗୁଡ଼ିକରେ କାର୍ଯ୍ୟ କରେ।\n\nସାଉଣ୍ଡ ବନ୍ଦ କରିବାକୁ ଆପଣଙ୍କ ରିମୋଟରେ ଯେ କୌଣସି ବଟନ ଦବାନ୍ତୁ।"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"ଯେତେବେଳେ \'ମୋ ରିମୋଟ ଖୋଜନ୍ତୁ\'କୁ ସକ୍ଷମ କରାଯାଏ, ସେତେବେଳେ ଯଦି ଆପଣଙ୍କ Google TV ରିମୋଟକୁ ଭୁଲ ସ୍ଥାନରେ ରଖାଯାଇଥାଏ ତେବେ ଏହାକୁ ଖୋଜିବା ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରନ୍ତୁ।"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ଚାଲୁ ଥିଲେ ଆପଣ ଆପଣଙ୍କ ରିମୋଟ ଖୋଜିବା ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରବାକୁ ଆପଣଙ୍କ ଡିଭାଇସରେ ଥିବା ବଟନ ବ୍ୟବହାର କରିପାରିବେ। ବନ୍ଦ ଥିଲେ ଏହି ବଟନ କାମ କରିବ ନାହିଁ। ଆପଣ ଏବେ ବି ଅନ୍ୟ ପଦ୍ଧତି ମାଧ୍ୟମରେ ମୋ ରିମୋଟ ଖୋଜନ୍ତୁ ବ୍ୟବହାର କରିବାକୁ ସକ୍ଷମ ହେବେ।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ସାଉଣ୍ଡ ପ୍ଲେ କରନ୍ତୁ"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ଭଲ୍ୟୁମ"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ଆପଣ %1$s ସ୍ପିକରରେ Assistant ଭଲ୍ୟୁମକୁ ନିୟନ୍ତ୍ରଣ କରିପାରିବ"</string>

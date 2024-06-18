@@ -937,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Piliin ang <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> para magpatuloy."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Tapos na"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Matagumpay na nakakonekta"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Nakakonekta na"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Matagumpay na na-save"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Bersyon <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Buksan"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Hanapin ang remote ko"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Mag-play ng tunog para mahanap ang remote ng iyong Google TV kung nawawala ito"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"May button sa iyong Google TV na mapipindot mo para mag-play ng tunog sa iyong remote nang 30 segundo. Gumagana lang ito sa mga sinusuportahang remote control ng Google TV.\n\nPara itigil ang tunog, pumindot ng kahit anong button sa iyong remote."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kapag naka-enable ang Hanapin ang remote ko, puwede kang mag-play ng tunog para mahanap ang iyong Google TV remote kung nawawala ito."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Kapag naka-on, puwede mong gamitin ang button sa iyong device para magpatugtog ng tunog para mahanap ang remote mo. Kapag naka-off, hindi gagana ang button na ito. Magagamit mo pa rin ang Hanapin ang aking remote sa pamamagitan ng iba pang paraan."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"I-play ang tunog"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volume"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Puwede mong kontrolin ang volume ng Assistant sa %1$s speaker"</string>

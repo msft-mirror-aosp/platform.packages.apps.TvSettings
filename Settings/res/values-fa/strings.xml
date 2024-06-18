@@ -937,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"برای ادامه، <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> را انتخاب کنید."</string>
     <string name="label_done_key" msgid="8576286462300373440">"تمام"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"با موفقیت متصل شد"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"قبلاً متصل شده است"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"با موفقیت ذخیره شد"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"نسخه <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"باز کردن"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"پیدا کردن کنترل از راه دور"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"اگر کنترل از دور Google TV در جای خودش نباشد، برای پیدا کردن آن، صدایی پخش می‌شود"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"دکمه‌ای روی Google TV قرار دارد که می‌توانید فشار دهید تا صدایی به‌مدت ۳۰ ثانیه در کنترل از دور پخش شود. این روش فقط در کنترل از دورهای پشتیبانی‌شده Google TV کار می‌کند.\n\nبرای متوقف کردن صدا، یکی از دکمه‌های روی کنترل از دور را فشار دهید."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"وقتی «پیدا کردن کنترل از راه دور» فعال باشد، اگر کنترل از راه دور Google TV در جای خودش نباشد، می‌توانید با پخش صدا آن را پیدا کنید."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"وقتی روشن باشد، بااستفاده از این دکمه در دستگاهتان می‌توانید صدایی پخش کنید و کنترل از دور را پیدا کنید. وقتی خاموش باشد، این دکمه کار نمی‌کند. همچنان می‌توانید با روش‌های دیگر از «پیدا کردن کنترل از راه دور» استفاده کنید."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"پخش صدا"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"میزان صدای %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"می‌توانید میزان صدای «دستیار» را در بلندگوی %1$s کنترل کنید"</string>

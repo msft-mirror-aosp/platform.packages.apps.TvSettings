@@ -2308,6 +2308,9 @@
     <string name="label_done_key">Done</string>
     <!-- Message displayed when the selected Wi-Fi network has been connected to [CHAR LIMIT=40] -->
     <string name="wifi_setup_connection_success">Connected successfully</string>
+    <!-- Message displayed when the selected Wi-Fi network is already connected [CHAR LIMIT=40] -->
+    <string name="wifi_setup_already_connected">Already connected</string>
+
     <!-- Message displayed when the Wi-Fi network's configuration has been saved [CHAR LIMIT=40] -->
     <string name="wifi_setup_save_success">Saved successfully</string>
 
@@ -2897,7 +2900,7 @@
     <string name="settings_find_my_remote_description">Play a sound to locate your Google TV remote if it\'s misplaced</string>
     <string name="find_my_remote_slice_description">There is a button on your Google TV that you can push to play a sound on your remote for 30 seconds. This only works with supported Google TV remote controls.\n\nTo stop the sound, press any button on your remote.</string>
     <string name="find_my_remote_integration_title" translatable="false">@string/settings_find_my_remote_title</string>
-    <string name="find_my_remote_integration_hint">When Find my remote is enabled, you can play a sound to locate your Google TV remote if it\'s misplaced.</string>
+    <string name="find_my_remote_integration_hint">When on, you can use the button on your device to play a sound to locate your remote. When off, this button won\'t work. You\'ll still be able to use Find my remote via other methods.</string>
     <string name="find_my_remote_play_sound">Play sound</string>
 
     <!-- Title for preference which when clicked lets the user configure volume change -->
