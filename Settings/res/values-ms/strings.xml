@@ -937,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Pilih <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> untuk meneruskan."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Selesai"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Berjaya disambungkan"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Sudah disambungkan"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Berjaya disimpan"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versi <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Buka"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Cari alat kawalan jauh saya"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Mainkan bunyi untuk mengesan alat kawalan jauh Google TV anda sekiranya tersalah letak"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Terdapat butang pada Google TV anda yang anda boleh tekan untuk memainkan bunyi pada alat kawalan jauh anda selama 30 saat. Kaedah ini hanya berfungsi dengan alat kawalan jauh Google TV yang disokong.\n\nUntuk menghentikan bunyi, tekan mana-mana butang pada alat kawalan jauh anda."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Apabila Cari alat kawalan jauh saya dihidupkan, anda boleh memainkan bunyi untuk mengesan alat kawalan jauh Google TV anda sekiranya tersalah letak."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Apabila dihidupkan, anda boleh menggunakan butang pada peranti anda untuk memainkan bunyi bagi mengesan alat kawalan jauh anda. Apabila dimatikan, butang ini tidak akan berfungsi. Anda masih boleh menggunakan Cari alat kawalan jauh saya melalui kaedah lain."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Mainkan bunyi"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s kelantangan"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Anda boleh mengawal kelantangan Pembantu pada pembesar suara %1$s"</string>

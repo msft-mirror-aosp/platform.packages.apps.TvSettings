@@ -298,7 +298,7 @@
     <string name="system_inputs" msgid="5552840337357572096">"ਇਨਪੁੱਟ"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"ਇਨਪੁੱਟ ਅਤੇ ਡੀਵਾਈਸਾਂ"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"ਹੋਮ ਥੀਏਟਰ ਕੰਟਰੋਲ"</string>
-    <string name="system_developer_options" msgid="8480844257066475479">"ਵਿਕਾਸਕਾਰ ਚੋਣਾਂ"</string>
+    <string name="system_developer_options" msgid="8480844257066475479">"ਵਿਕਾਸਕਾਰ ਵਿਕਲਪ"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"ਕੋਈ ਨਹੀਂ"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"ਵਰਤੋਂ ਅਤੇ ਤਸ਼ਖੀਸ"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"ਕੋਈ ਵੀ ਡੀਵਾਈਸ ਪ੍ਰਸ਼ਾਸਕ ਐਪਾਂ ਉਪਲਬਧ ਨਹੀਂ ਹਨ"</string>
@@ -937,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ਜਾਰੀ ਰੱਖਣ ਲਈ <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ਨੂੰ ਚੁਣੋ।"</string>
     <string name="label_done_key" msgid="8576286462300373440">"ਹੋ ਗਿਆ"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"ਸਫਲਤਾਪੂਰਵਕ ਕਨੈਕਟ ਹੋਇਆ"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ਪਹਿਲਾਂ ਤੋਂ ਕਨੈਕਟ ਹੈ"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"ਸਫਲਤਾਪੂਰਵਕ ਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ਰੂਪ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ਖੋਲ੍ਹੋ"</string>
@@ -1147,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ਮੇਰਾ ਰਿਮੋਟ ਲੱਭੋ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ਜੇ ਤੁਹਾਡੇ Google TV ਦਾ ਰਿਮੋਟ ਗੁਆਚ ਗਿਆ ਹੈ, ਤਾਂ ਇਸਨੂੰ ਲੱਭਣ ਲਈ ਕੋਈ ਧੁਨੀ ਵਜਾਓ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ਤੁਹਾਡੇ Google TV \'ਤੇ ਇੱਕ ਅਜਿਹਾ ਬਟਨ ਹੁੰਦਾ ਹੈ, ਜਿਸਨੂੰ ਦਬਾ ਕੇ ਤੁਸੀਂ ਆਪਣੇ ਰਿਮੋਟ \'ਤੇ 30 ਸਕਿੰਟਾਂ ਲਈ ਧੁਨੀ ਚਲਾ ਸਕਦੇ ਹੋ। ਇਹ ਸਿਰਫ਼ ਸਮਰਥਿਤ Google TV ਰਿਮੋਟ ਕੰਟਰੋਲਾਂ ਨਾਲ ਕੰਮ ਕਰਦੀ ਹੈ।\n\nਧੁਨੀ ਨੂੰ ਰੋਕਣ ਲਈ, ਆਪਣੇ ਰਿਮੋਟ \'ਤੇ ਕਿਸੇ ਵੀ ਬਟਨ ਨੂੰ ਦਬਾਓ।"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'ਮੇਰਾ ਰਿਮੋਟ ਲੱਭੋ\' ਸੁਵਿਧਾ ਚਾਲੂ ਹੋਣ \'ਤੇ, ਜੇ ਤੁਹਾਡੇ Google TV ਦਾ ਰਿਮੋਟ ਗੁਆਚ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਤੁਸੀਂ ਆਪਣੇ ਰਿਮੋਟ ਨੂੰ ਲੱਭਣ ਲਈ ਇੱਕ ਧੁਨੀ ਵਜਾ ਸਕਦੇ ਹੋ।"</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ਧੁਨੀ ਵਜਾਓ"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ਅਵਾਜ਼"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ਤੁਸੀਂ %1$s ਸਪੀਕਰ \'ਤੇ Assistant ਦੀ ਅਵਾਜ਼ ਨੂੰ ਕੰਟਰੋਲ ਕਰ ਸਕਦੇ ਹੋ"</string>

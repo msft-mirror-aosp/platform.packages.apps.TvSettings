@@ -937,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ለመቀጠል <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>ን ይምረጡ።"</string>
     <string name="label_done_key" msgid="8576286462300373440">"ተከናውኗል"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"በተሳካ ሁኔታ ተገናኝቷል"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ቀድሞውኑ ተገናኝቷል"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"በተሳካ ሁኔታ ተቀምጧል"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ስሪት <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ክፈት"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"የእኔን የርቀት መቆጣጠሪያ አግኝ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"የGoogle ቲቪ የርቀት መቆጣጠሪያዎ ያለ ቦታው ተቀምጦ ከሆነ አካባቢውን ለማግኘት ድምፅን ያጫውቱ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"በእርስዎ Google ቲቪ ላይ ለ30 ሰከንዶች በርቀት መቆጣጠሪያዎ ላይ ድምፅን ለማጫወት መግፋት የሚችሉት አዝራር አለ። ይህ የሚሠራው በሚደገፉ የGoogle ቲቪ የርቀት መቆጣጠሪያዎች ብቻ ነው።\n\nድምፁን ለማስቆም በርቀት መቆጣጠሪያዎ ላይ ያለ ማንኛውንም አዝራር ይጫኑ።"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"የእኔን የርቀት መቆጣጠሪያ አግኝ ሲነቃ የGoogle ቲቪ የርቀት መቆጣጠሪያዎ ያለ ቦታው ተቀምጦ ከሆነ ለማግኘት ድምፅን ማጫወት ይችላሉ።"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ሲበራ የርቀት መቆጣጠሪያዎን ለማግኘት ድምፅ ለማጫወት በመሣሪያዎ ላይ ያለውን አዝራር መጠቀም ይችላሉ። ሲጠፋ ይህ አዝራር አይሠራም። አሁንም የርቀት መቆጣጠሪያዬን አግኝን በሌሎች መንገዶች በኩል መጠቀም ይችላሉ።"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ድምፅ አጫውት"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s የድምፅ መጠን"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s ድምፅ ማውጫ ላይ የረዳት የድምፅ መጠኑን መቆጣጠር ይችላሉ"</string>

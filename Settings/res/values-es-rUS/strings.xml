@@ -937,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Selecciona <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> para continuar."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Listo"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Se conectó correctamente"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Ya está conectado"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Se guardó correctamente"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versión: <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Abrir"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Buscar mi control remoto"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Reproduce un sonido para ubicar el control remoto de Google TV si se pierde"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"En tu Google TV, puedes encontrar un botón y usarlo para reproducir un sonido en el control remoto por 30 segundos. Esta acción solo funciona en controles remotos de Google TV compatibles.\n\nPara detener el sonido, presiona cualquier botón del control remoto."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Si habilitas Buscar mi control remoto, podrás reproducir un sonido para ubicar el control remoto de Google TV."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Cuando se activa la función, puedes usar el botón de tu dispositivo para reproducir un sonido y ubicar el control remoto. Cuando esté desactivada, este botón no funcionará. Podrás seguir usando Encontrar mi control remoto con otros métodos."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reproducir sonido"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Volumen %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Puedes controlar el volumen de Asistente en la bocina %1$s"</string>

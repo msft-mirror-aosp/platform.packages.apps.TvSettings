@@ -937,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Каб працягнуць, выберыце <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Гатова"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Паспяхова падключана"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Ужо падключана"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Паспяхова захавана"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Версія <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Адкрыць"</string>
@@ -1147,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Пошук пульта"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Каб знайсці згублены пульт Google TV, вы можаце прайграць на ім гукавы сігнал"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"На вашай прыладзе Google TV ёсць кнопка, якую можна націснуць, каб на працягу 30 секунд на пульце прайграваўся гук. Функцыя працуе толькі на пультах Google TV, якія падтрымліваюцца.\n\nКаб выключыць сігнал, націсніце любую кнопку на пульце."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Функцыя \"Пошук пульта\" дазваляе знайсці згублены пульт Google TV з дапамогай гукавога сігналу."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Прайграць гук"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Гучнасць: %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Кіраваць гучнасцю Памочніка можна на дынаміку (%1$s)"</string>

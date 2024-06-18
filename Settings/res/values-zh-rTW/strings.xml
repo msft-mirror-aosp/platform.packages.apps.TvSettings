@@ -937,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"如要繼續，請選取 <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>。"</string>
     <string name="label_done_key" msgid="8576286462300373440">"完成"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"連線成功"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"已經連上該網路"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"儲存成功"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"版本 <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"開啟"</string>
@@ -1147,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"尋找我的遙控器"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"讓忘記放在何處的 Google TV 遙控器發出音效，以便找出裝置"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV 有一個按鈕，按下即可讓遙控器播放音效 30 秒。這項功能僅適用於支援的 Google TV 遙控器。\n\n如要停止播放音效，請按下遙控器上的任一按鈕。"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"啟用「尋找我的遙控器」後，你可以讓忘記放在何處的 Google TV 遙控器發出音效，以便找出裝置。"</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"播放音效"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"「%1$s」的音量"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"你可以控制「%1$s」揚聲器的 Google 助理音量"</string>
