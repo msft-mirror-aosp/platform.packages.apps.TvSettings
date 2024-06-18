@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personale"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Lidhu me rrjetin"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Shto një llogari"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Llogaritë dhe identifikimi"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Llogaritë dhe profilet"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Asnjë llogari"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# llogari}other{# llogari}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Shërbimet e medias, \"Asistenti\", pagesat"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privatësia"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Cilësimet e pajisjes"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Cilësimet e llogarisë"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Kyçja e pajisjes"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Asistenti i Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Pagesa dhe blerjet"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Cilësimet e aplikacionit"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Eterneti u lidh"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Nuk është lidhur asnjë rrjet"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi është çaktivizuar"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Shkëput Ethernet për të përdorur Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Skanimi gjithmonë në dispozicion"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Lejo shërbimin e vendndodhjes së Google dhe aplikacione të tjera të skanojnë për rrjete, edhe kur Wi-Fi është joaktiv"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"\"Skanimi ofrohet gjithmonë\", lejo shërbimin e vendndodhjes së Google dhe aplikacione të tjera të skanojnë për rrjete, edhe kur Wi-Fi është joaktiv"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Kur aktivizohet ky opsion, sistemi do të kalojë midis formateve të ndryshme të gamës dinamike për t\'u përputhur me përmbajtjen. Kjo mund të shkaktojë një ekran të zi gjatë ndërrimit të formatit.\n\nKliko \"Cilësimet e përparuara të ekranit\" për më shumë opsione të gamës dinamike."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Gama e preferuar dinamike"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Konvertimi i preferuar nga sistemi"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Lejo që sistemi të menaxhojë konvertimin e formatit"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Lejon që sistemi të menaxhojë konvertimin e formatit"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Kur ky opsion është i zgjedhur, sistemi do të përcaktojë një gamë dinamike të përshtatshme për t\'u dërguar në ekranin tënd dhe për ta konvertuar përmbajtjen në këtë gamë dinamike sipas nevojës."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Përputhet gjithmonë me formatin e përmbajtjes"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Zbato me forcë konvertimin"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Aktivizo shkurtoren e qasshmërisë"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Shërbimi i shkurtores"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kur shkurtorja është e aktivizuar, shtypja njëkohësisht e butonit të pasmë dhe të poshtëm për 3 sekonda do të nisë një funksion qasshmërie."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Koha për të kryer veprime"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Veprimi (koha e pritjes së \"Qasshmërisë\")"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Koha"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Kjo preferencë e kohës nuk mbështetet nga të gjitha aplikacionet."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Titrat"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Cilësimet për mbivendosjen e tekstit të titrave në video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Ekrani"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Zgjidh <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> për të vazhduar."</string>
     <string name="label_done_key" msgid="8576286462300373440">"U krye"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"U lidh me sukses"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Është lidhur tashmë"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"U ruajt me sukses"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versioni <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Hap"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Fuqia dhe energjia"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Sjellja pas ndezjes"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Rivendos"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televizori"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Kodi i çiftimit i ethernet-it"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Modalitetet e energjisë"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Këto cilësime kanë ndikim te pajisja kur ajo nuk është në përdorim"</string>
@@ -1140,6 +1148,10 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Gjej telekomandën time"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Luaj një tingull për të gjetur telekomandën e Google TV nëse ke harruar se ku e ke vendosur"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Ka një buton në Google TV që mund ta shtypësh për të luajtur një tingull në telekomandë për 30 sekonda. Kjo funksionon vetëm me telekomanda të mbështetura të Google TV.\n\nPër të ndaluar tingullin, shtyp cilindo buton në telekomandë."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kur \"Gjej telekomandën time\" është e aktivizuar, mund të luash një tingull për të gjetur telekomandën e Google TV nëse ke harruar se ku e ke vendosur."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Luaj tingullin"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volumi i %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Mund ta kontrollosh volumin e \"Asistentit\" në altoparlantin e %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Prek vetëm volumin në pajisjen %1$s, jo në televizor"</string>
 </resources>

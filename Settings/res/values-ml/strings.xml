@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"സ്വകാര്യം"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"നെറ്റ്‌വർക്കിലേക്ക് കണക്‌റ്റ് ചെയ്യുക"</string>
     <string name="add_an_account" msgid="2601275122685226096">"ഒരു അക്കൗണ്ട് ചേർക്കുക"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"അക്കൗണ്ടുകളും സൈൻ ഇൻ ചെയ്യലും"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"അക്കൗണ്ടുകളും പ്രൊഫൈലുകളും"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"അക്കൗണ്ടുകളില്ല"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# അക്കൗണ്ട്}other{# അക്കൗണ്ടുകൾ}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"മീഡിയ സേവനങ്ങൾ, Assistant, പേയ്‌മെന്റുകൾ എന്നിവ"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"സ്വകാര്യത"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ഉപകരണ ക്രമീകരണം"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"അക്കൗണ്ട് ക്രമീകരണം"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ഉപകരണ ലോക്ക്"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"പേയ്മെന്റും വാങ്ങലുകളും"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ആപ്പ് ക്രമീകരണം"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ഇതർനെറ്റ് കണക്റ്റ് ചെയ്‌തു"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"നെറ്റ്‌വർക്കൊന്നും കണക്‌റ്റ് ചെയ്‌തിട്ടില്ല"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"വൈഫൈ ഓഫാക്കിയിരിക്കുന്നു"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"വൈഫൈ ഉപയോഗിക്കാൻ ഇതർനെറ്റ് അൺപ്ലഗ് ചെയ്യുക"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"സ്‌കാനിംഗ് എപ്പോഴും ലഭ്യമാണ്"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi ഓഫാണെങ്കിൽപ്പോലും, Google ലൊക്കേഷൻ സേവനത്തേയും മറ്റ് ആപ്പുകളേയും നെറ്റ്‌വർക്കുകൾ സ്‌കാൻ ചെയ്യാൻ അനുവദിക്കുക"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"സ്‌കാൻ ചെയ്യൽ എപ്പോഴും ലഭ്യമാണ്, വൈഫൈ ഓഫാണെങ്കിൽപ്പോലും, നെറ്റ്‌വർക്കുകൾ സ്‌കാൻ ചെയ്യാൻ Google-ന്റെ ലൊക്കേഷൻ സേവനത്തെയും മറ്റ് ആപ്പുകളെയും അനുവദിക്കുക"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"ഈ ഓപ്‌ഷൻ പ്രവർത്തനക്ഷമമാക്കുമ്പോൾ, ഉള്ളടക്കവുമായി പൊരുത്തപ്പെടുന്നതിന്, വ്യത്യസ്‌ത ഡെെനാമിക് റേഞ്ച് ഫോർമാറ്റുകളിലേക്ക് സിസ്‌റ്റം മാറും. ഫോർമാറ്റ് മാറുമ്പോൾ കറുത്ത സ്‌ക്രീൻ ദൃശ്യമാകാൻ ഇത് കാരണമായേക്കാം.\n\nകൂടുതൽ ഡെെനാമിക് റേഞ്ച് ഓപ്‌ഷനുകൾക്ക്, വിപുലമായ ഡിസ്‌പ്ലേ ക്രമീകരണം ക്ലിക്ക് ചെയ്യുക."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"മുൻഗണന നൽകുന്ന ഡെെനാമിക് റേഞ്ച്"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"സിസ്റ്റം മുൻ‌ഗണന നൽകുന്ന പരിവർത്തനം"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"ഫോർമാറ്റ് പരിവർത്തനം മാനേജ് ചെയ്യാൻ സിസ്റ്റത്തെ അനുവദിക്കുക"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"ഫോർമാറ്റ് പരിവർത്തനം മാനേജ് ചെയ്യാൻ സിസ്റ്റത്തെ അനുവദിക്കുന്നു"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"ഈ ഓപ്‌ഷൻ തിരഞ്ഞെടുത്താൽ, നിങ്ങളുടെ ഡിസ്‌പ്ലേയിലേക്ക് അയയ്‌ക്കേണ്ട അനുയോജ്യമായ ഒരു ഡൈനാമിക് ശ്രേണി സിസ്റ്റം നിർണ്ണയിച്ച് ആവശ്യാനുസരണം ഈ ഡൈനാമിക് ശ്രേണിയിലേക്ക് ഉള്ളടക്കം പരിവർത്തനം ചെയ്യുന്നു."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"എല്ലായ്‌പ്പോഴും ഉള്ളടക്കത്തിന്റെ ഫോർമാറ്റുമായി പൊരുത്തപ്പെടുന്നു"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"പരിവർത്തനം നിർബന്ധമാക്കുക"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ഉപയോഗസഹായി കുറുക്കുവഴി പ്രവർത്തനക്ഷമമാക്കുക"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"കുറുക്കുവഴി സേവനം"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"കുറുക്കുവഴി ഓണായിരിക്കുമ്പോൾ, പിറകിലേക്കും താഴേക്കുമുള്ള ബട്ടണുകൾ 3 സെക്കൻഡ് സമയത്തേക്ക് അമർത്തി ഉപയോഗസഹായി ഫീച്ചർ ആരംഭിക്കാം."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"നടപടി സ്വീകരിക്കാനുള്ള സമയം"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"നടപടിക്കുള്ള സമയം (ഉപയോഗസഹായി ടൈംഔട്ട്)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"സമയക്രമം"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"ഈ സമയ മുൻഗണന എല്ലാ ആപ്പുകളും പിന്തുണയ്ക്കുന്നില്ല."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"സബ്ടൈറ്റിലുകൾ"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"വീഡിയോയിൽ അടച്ച അടിക്കുറിപ്പിന്റെ ടെക്‌സ്റ്റ് ഓവർലേയ്ക്കായുള്ള ക്രമീകരണങ്ങൾ"</string>
     <string name="captions_display" msgid="2598662495450633375">"ഡിസ്‌പ്ലേ"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"തുടരാൻ <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> തിരഞ്ഞെടുക്കുക."</string>
     <string name="label_done_key" msgid="8576286462300373440">"പൂർത്തിയായി"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"കണക്‌റ്റുചെയ്‌തു"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ഇതിനകം കണക്റ്റ് ചെയ്തിട്ടുണ്ട്"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"സംരക്ഷിച്ചു"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"പതിപ്പ് <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"തുറക്കുക"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"പവറും ഊർജ്ജവും"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"പവർ ഓണാക്കുമ്പോഴുള്ള പ്രവർത്തനരീതി"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"റീസെറ്റ് ചെയ്യുക"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"ടെലിവിഷൻ"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ഇതർനെറ്റ് ജോടിയാക്കൽ കോഡ്"</string>
     <string name="energy_modes" msgid="1331693860386361744">"ഊർജ്ജ മോഡുകൾ"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"ഉപയോഗത്തിലില്ലാത്തപ്പോൾ ഈ ക്രമീകരണങ്ങൾ ഉപകരണത്തെ ബാധിക്കുന്നു"</string>
@@ -1140,6 +1148,10 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"എന്റെ റിമോട്ട് കണ്ടെത്തൂ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"നിങ്ങളുടെ Google TV റിമോട്ട് എവിടെയെങ്കിലും വച്ച് മറന്നെങ്കിൽ അത് കണ്ടെത്താൻ ഒരു ശബ്ദം പ്ലേ ചെയ്യുക"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"നിങ്ങളുടെ റിമോട്ടിൽ 30 സെക്കൻഡ് നേരത്തേക്ക് ശബ്‌ദം പ്ലേ ചെയ്യാൻ നിങ്ങളുടെ Google TV-യിൽ ഒരു ബട്ടൺ ഉണ്ട്. പിന്തുണയുള്ള Google TV റിമോട്ട് കൺട്രോളുകളിൽ മാത്രമേ ഇത് പ്രവർത്തിക്കൂ.\n\nശബ്ദം നിർത്താൻ, നിങ്ങളുടെ റിമോട്ടിലെ ഏതെങ്കിലും ബട്ടൺ അമർത്തുക."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'എന്റെ റിമോട്ട് കണ്ടെത്തുക\' പ്രവർത്തനക്ഷമമാക്കിയിരിക്കുമ്പോൾ, Google TV റിമോട്ട് എവിടെയെങ്കിലും വച്ച് മറന്നെങ്കിൽ അത് കണ്ടെത്താൻ ഒരു ശബ്ദം പ്ലേ ചെയ്യാം."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ശബ്‌ദം പ്ലേ ചെയ്യുക"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s വോളിയം"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s സ്‌പീക്കറിലെ Assistant വോളിയം നിങ്ങൾക്ക് നിയന്ത്രിക്കാനാകും"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"%1$s ഉപകരണത്തിലെ വോളിയത്തെ മാത്രം ബാധിക്കുന്നു, ടിവിയെ ബാധിക്കില്ല"</string>
 </resources>

@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Személyes"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Csatlakozás hálózathoz"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Fiók felvétele"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Fiókok és bejelentkezés"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Fiókok és profilok"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Nincs fiók"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# fiók}other{# fiók}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Médiaszolgáltatások, Segéd, Kifizetések"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Adatvédelem"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Eszközbeállítások"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Fiókbeállítások"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Eszközzár"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Segéd"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Fizetések és vásárlások"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Alkalmazásbeállítások"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet csatlakoztatva"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Nincs hálózati kapcsolat"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"A Wi-Fi ki van kapcsolva"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"A Wi-Fi használatához húzza ki az Ethernet-kábelt"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Mindig keressen hálózatot"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"A Google helyszolgáltatása és más alkalmazások akkor is kereshetnek hálózatokat, ha a Wi-Fi ki van kapcsolva"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"A keresés mindig rendelkezésre áll, A Google helyszolgáltatása és más alkalmazások akkor is kereshetnek hálózatokat, ha a Wi-Fi ki van kapcsolva."</string>
@@ -101,7 +103,7 @@
     <string name="all_apps_installed" msgid="8217778476185598971">"Telepített alkalmazások"</string>
     <string name="all_apps_other" msgid="4420174882983813158">"Rendszeralkalmazások"</string>
     <string name="all_apps_disabled" msgid="2776041242863791053">"Letiltott alkalmazások"</string>
-    <string name="device_daydream" msgid="2631191946958113220">"Képernyővédő"</string>
+    <string name="device_daydream" msgid="2631191946958113220">"Képernyőkímélő"</string>
     <string name="device_display" msgid="244634591698925025">"Képernyő"</string>
     <string name="device_display_sound" msgid="7399153506435649193">"Kijelző és hang"</string>
     <string name="device_sound" msgid="8616320533559404963">"Hang"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Ha bekapcsolja ezt a beállítást, a rendszer a tartalmaknak megfelelően vált a különböző formátumú dinamikatartományok között. Formátumváltáskor fekete képernyő jelenhet meg.\n\nA dinamikatartománnyal kapcsolatos további lehetőségekért kattintson a Speciális kijelzőbeállítások elemre."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Preferált dinamikatartomány"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Rendszer által előnyben részesített konverzió"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"A rendszer kezelheti a formátumátalakítást"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Engedélyezi a rendszernek a formátumátalakítás kezelését"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"A beállítás kijelölésével a rendszer határozza majd meg a kijelzőre továbbítandó megfelelő dinamikus tartományt, majd szükség szerint erre a dinamikus tartományra alakítja át a tartalmat."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Mindig egyezteti a tartalom formátumát"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Konverzió kikényszerítése"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Kisegítő lehetőségek engedélyezése"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Billentyűparancs szolgáltatás"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Ha be van kapcsolva a gyorsparancs, a Vissza és Lefelé gomb 3 másodpercig tartó együttes lenyomásával elindíthat egy adott kisegítő lehetőséget."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Művelet elvégzésére szánt idő"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Művelet ideje (kisegítés időkorlátja)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Időzítés"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Az időzítéspreferenciát nem támogatja minden app."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Feliratok"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Mentett feliratok szövegrétegének beállítása videóknál"</string>
     <string name="captions_display" msgid="2598662495450633375">"Megjelenítés"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Válassza a következőt a folytatáshoz: <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Kész"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Sikeresen csatlakozva"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Már csatlakozva van"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Sikeresen mentve"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Verzió: <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Megnyitás"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Áramellátás és energia"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Bekapcsolási viselkedés"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Visszaállítás"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televízió"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-hálózat párosítókódja"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Energiamódok"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Ezek a beállítások hatással vannak az eszközre, amikor nincs használatban"</string>
@@ -1140,6 +1148,10 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Távirányító-kereső"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Hang lejátszásával megkeresheti a Google TV távirányítóját, ha nem találja"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Van egy gomb a Google TV-n, amelyet megnyomva 30 másodpercen át lejátszhat egy hangjelzést a távirányítón. Ez csak a támogatott Google TV-távirányítóknál működik.\n\nA hanglejátszás leállításához nyomja meg bármelyik gombot a távirányítón."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Amikor engedélyezve van a Távirányító-kereső, és nem találja a Google TV-távirányítót, az eszközön való hanglejátszással megkeresheti."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Hang lejátszása"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"A(z) %1$s hangereje"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Vezérelheti a Segéd hangerejét a(z) %1$s hangszórón"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Csak a(z) %1$s eszköz hangerejére van hatással, a tévéére nem"</string>
 </resources>

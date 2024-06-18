@@ -18,11 +18,12 @@ package com.android.tv.settings.library.network;
 
 import android.annotation.IntDef;
 import android.annotation.MainThread;
-import android.content.Context;
+import android.annotation.TargetApi;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiConfiguration;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
+import android.os.Build;
 import android.text.TextUtils;
 
 import androidx.annotation.NonNull;
@@ -32,15 +33,19 @@ import com.android.wifitrackerlib.WifiEntry;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
+import java.util.ArrayList;
+import java.util.List;
 
+@TargetApi(Build.VERSION_CODES.UPSIDE_DOWN_CAKE)
 public class AccessPoint implements Comparable<AccessPoint> {
-    public static final int SECURITY_NONE = WifiEntry.SECURITY_NONE;
-    public static final int SECURITY_WEP = WifiEntry.SECURITY_WEP;
-    public static final int SECURITY_PSK = WifiEntry.SECURITY_PSK;
-    public static final int SECURITY_EAP = WifiEntry.SECURITY_EAP;
-    public static final int SECURITY_OWE = WifiEntry.SECURITY_OWE;
-    public static final int SECURITY_SAE = WifiEntry.SECURITY_SAE;
-    public static final int SECURITY_EAP_SUITE_B = WifiEntry.SECURITY_EAP_SUITE_B;
+    public static final int SECURITY_NONE = WifiInfo.SECURITY_TYPE_OPEN;
+    public static final int SECURITY_WEP = WifiInfo.SECURITY_TYPE_WEP;
+    public static final int SECURITY_PSK = WifiInfo.SECURITY_TYPE_PSK;
+    public static final int SECURITY_EAP = WifiInfo.SECURITY_TYPE_EAP;
+    public static final int SECURITY_OWE = WifiInfo.SECURITY_TYPE_OWE;
+    public static final int SECURITY_SAE = WifiInfo.SECURITY_TYPE_SAE;
+    public static final int SECURITY_EAP_SUITE_B =
+            WifiInfo.SECURITY_TYPE_EAP_WPA3_ENTERPRISE_192_BIT;
 
     public static final String KEY_PREFIX_AP = "AP:";
 
@@ -122,8 +127,8 @@ public class AccessPoint implements Comparable<AccessPoint> {
      * @param result Scan result
      * @return AccessPoint key
      */
-    public static String getKey(Context context, ScanResult result) {
-        return getKey(result.SSID, result.BSSID, getSecurity(context, result));
+    public static String getKey(ScanResult result) {
+        return getKey(result.SSID, result.BSSID, getSecurity(result));
     }
 
     /**
@@ -149,9 +154,6 @@ public class AccessPoint implements Comparable<AccessPoint> {
         return mWifiEntry.getWifiConfiguration();
     }
 
-    public void clearConfig() {
-    }
-
     public WifiInfo getInfo() {
         return null;
     }
@@ -171,9 +173,46 @@ public class AccessPoint implements Comparable<AccessPoint> {
         return mWifiEntry.isMetered();
     }
 
+    public static int getSecurity(WifiEntry wifiEntry) {
+        return getSingleSecurityTypeFromMultipleSecurityTypes(wifiEntry.getSecurityTypes());
+    }
+
+    /**
+     * Returns a single WifiInfo security type from the list of multiple WifiInfo security
+     * types supported by an entry.
+     *
+     * Single security types will have a 1-to-1 mapping.
+     * Multiple security type networks will collapse to the lowest security type in the group:
+     *     - Open/OWE -> Open
+     *     - PSK/SAE -> PSK
+     *     - EAP/EAP-WPA3 -> EAP
+     * This mapping is copied from {@link WifiEntry} to avoid unintentional changes to TVSettings
+     * behavior when connecting to a given network.
+     */
+    private static int getSingleSecurityTypeFromMultipleSecurityTypes(
+            @NonNull List<Integer> securityTypes) {
+        if (securityTypes.isEmpty()) {
+            return WifiInfo.SECURITY_TYPE_UNKNOWN;
+        }
+
+        if (securityTypes.size() == 2) {
+            if (securityTypes.contains(WifiInfo.SECURITY_TYPE_OPEN)) {
+                return WifiInfo.SECURITY_TYPE_OPEN;
+            }
+            if (securityTypes.contains(WifiInfo.SECURITY_TYPE_PSK)) {
+                return WifiInfo.SECURITY_TYPE_PSK;
+            }
+            if (securityTypes.contains(WifiInfo.SECURITY_TYPE_EAP)) {
+                return WifiInfo.SECURITY_TYPE_EAP;
+            }
+        }
+
+        // Default to the first security type if we don't need any special mapping.
+        return securityTypes.get(0);
+    }
 
     public int getSecurity() {
-        return mWifiEntry.getSecurity();
+        return getSecurity(mWifiEntry);
     }
 
     public String getSsidStr() {
@@ -219,40 +258,12 @@ public class AccessPoint implements Comparable<AccessPoint> {
         return "\"" + string + "\"";
     }
 
-    private static int getSecurity(Context context, ScanResult result) {
-        final boolean isWep = result.capabilities.contains("WEP");
-        final boolean isSae = result.capabilities.contains("SAE");
-        final boolean isPsk = result.capabilities.contains("PSK");
-        final boolean isEapSuiteB192 = result.capabilities.contains("EAP_SUITE_B_192");
-        final boolean isEap = result.capabilities.contains("EAP");
-        final boolean isOwe = result.capabilities.contains("OWE");
-        final boolean isOweTransition = result.capabilities.contains("OWE_TRANSITION");
-
-        if (isSae && isPsk) {
-            final WifiManager wifiManager = (WifiManager)
-                    context.getSystemService(Context.WIFI_SERVICE);
-            return wifiManager.isWpa3SaeSupported() ? SECURITY_SAE : SECURITY_PSK;
+    private static int getSecurity(ScanResult result) {
+        List<Integer> securityTypes = new ArrayList<>();
+        for (int securityType : result.getSecurityTypes()) {
+            securityTypes.add(securityType);
         }
-        if (isOweTransition) {
-            final WifiManager wifiManager = (WifiManager)
-                    context.getSystemService(Context.WIFI_SERVICE);
-            return wifiManager.isEnhancedOpenSupported() ? SECURITY_OWE : SECURITY_NONE;
-        }
-
-        if (isWep) {
-            return SECURITY_WEP;
-        } else if (isSae) {
-            return SECURITY_SAE;
-        } else if (isPsk) {
-            return SECURITY_PSK;
-        } else if (isEapSuiteB192) {
-            return SECURITY_EAP_SUITE_B;
-        } else if (isEap) {
-            return SECURITY_EAP;
-        } else if (isOwe) {
-            return SECURITY_OWE;
-        }
-        return SECURITY_NONE;
+        return getSingleSecurityTypeFromMultipleSecurityTypes(securityTypes);
     }
 
     /**

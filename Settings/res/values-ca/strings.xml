@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personal"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Connecta\'t a la xarxa"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Afegeix un compte"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Comptes i inici de sessió"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Comptes i perfils"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"No hi ha cap compte"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# compte}other{# comptes}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Serveis multimèdia, Assistent, Pagaments"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privadesa"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Configuració del dispositiu"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Configuració del compte"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Bloqueig del dispositiu"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Assistent de Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Pagament i compres"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Configuració de l\'aplicació"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet connectada"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"No hi ha cap xarxa connectada"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"La Wi-Fi està desactivada"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Desconnecta el cable Ethernet per utilitzar la Wi‑Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Cerca sempre disponible"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Permet que el servei d\'ubicacions de Google i altres aplicacions cerquin xarxes, fins i tot si la Wi-Fi està desactivada"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Cerca sempre disponible, Permet que els serveis d\'ubicació de Google i altres aplicacions cerquin xarxes, fins i tot si la Wi‑Fi està desactivada."</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"En activar aquesta opció, el sistema canviarà entre els diferents formats de rang dinàmic per igualar-lo amb el del contingut. És possible que la pantalla es torni negra durant el canvi de format.\n\nFes clic a Configuració avançada de la pantalla per a més opcions de rang dinàmic."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Rang dinàmic preferit"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversió preferida pel sistema"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Permet que el sistema gestioni la conversió del format"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Permet que el sistema gestioni la conversió del format"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"En seleccionar aquesta opció, el sistema determinarà un rang dinàmic adequat per a la teva pantalla i convertirà el contingut a aquest rang dinàmic, si cal."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Sempre coincideix amb el format del contingut"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Força la conversió"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Activa la drecera d\'accessibilitat"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Servei associat a la drecera"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Si la drecera està activada, pots prémer els botons Enrere i Avall durant 3 segons per iniciar una funció d\'accessibilitat."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Temps per fer l\'acció"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Temps per fer l\'acció (temps espera accessibilitat)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Temps"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Preferència de temps no admesa en totes les apps"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Subtítols"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Configuració de la superposició del text dels subtítols ocults als vídeos"</string>
     <string name="captions_display" msgid="2598662495450633375">"En pantalla"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Per continuar, selecciona <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Fet"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"S\'ha connectat correctament"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Ja està connectada"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"S\'ha desat correctament"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versió <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Obre"</string>
@@ -981,11 +988,11 @@
     <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"Desactiva automàticament quan s\'estigui veient"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"El temporitzador Mentre estigui inactiu ha de durar menys que el temporitzador Mentre estigui mirant contingut"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"El temporitzador Mentre estigui mirant contingut ha de durar més que el temporitzador Mentre estigui inactiu"</string>
-    <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Limita la connexió a la xarxa en espera"</string>
+    <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"Limita la connexió de xarxa en espera"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"Consumeix menys energia en mode d\'espera"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"El televisor es desconnectarà de la xarxa quan estigui en mode d\'espera, excepte per rebre actualitzacions automàtiques. Això pot disminuir el consum d\'energia del televisor, però també implica que pot ser que no puguis utilitzar funcions com Cast i l\'Assistent de Google en mode d\'espera."</string>
-    <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"Permet la connexió a la xarxa en mode d\'espera"</string>
-    <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"Permetre la connexió a la xarxa en mode d\'espera augmentarà el consum d\'energia d\'aquest mode."</string>
+    <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"Permet la connexió de xarxa en mode d\'espera"</string>
+    <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"Permetre la connexió de xarxa en mode d\'espera augmentarà el consum d\'energia d\'aquest mode."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Actualment no hi ha cap compte que emmagatzemi dades de còpia de seguretat."</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"Vols deixar de crear còpies de seguretat de les contrasenyes de Wi-Fi, de les adreces d\'interès, d\'altres configuracions i dades d\'aplicacions i, a més, esborrar totes les còpies dels servidors de Google?"</string>
@@ -1099,7 +1106,7 @@
     <string name="uninstall_device_admin" msgid="6301368408620948266">"Desinstal·la l\'aplicació"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"Desactiva i desinstal·la"</string>
     <string name="select_device_admin_msg" msgid="8475934459999710332">"Aplicacions d\'administració del dispositiu"</string>
-    <string name="add_device_admin_msg" msgid="5390773166682603421">"Activar l\'aplicació d\'administració?"</string>
+    <string name="add_device_admin_msg" msgid="5390773166682603421">"Vols activar l\'app d\'administració?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Activa aquesta aplicació d\'administració del dispositiu"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"En activar aquesta aplicació d\'administració, l\'aplicació <xliff:g id="APP_NAME">%1$s</xliff:g> podrà dur a terme les operacions següents:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"<xliff:g id="APP_NAME">%1$s</xliff:g> gestionarà i supervisarà aquest dispositiu."</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Potència i energia"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Activa el comportament"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Restableix"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televisió"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Codi de sincronització d\'Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Modes d\'energia"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Aquestes opcions de configuració afecten el dispositiu quan no s\'està utilitzant"</string>
@@ -1140,6 +1148,10 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Troba el meu comandament"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Reprodueix un so per localitzar el teu comandament de Google TV si no el trobes"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Pots prémer un botó que hi ha al dispositiu Google TV per reproduir un so al comandament durant 30 segons. Això només funciona amb els comandaments de Google TV.\n\nPer aturar el so, prem qualsevol botó al comandament."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Quan la funció Troba el meu comandament està activada, pots reproduir un so per localitzar el comandament de Google TV si no el trobes."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reprodueix un so"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volum: %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Pots controlar el volum de l\'Assistent a l\'altaveu %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Només afecta el volum del dispositiu %1$s, no el del televisor"</string>
 </resources>

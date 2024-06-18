@@ -26,6 +26,7 @@ import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.does
 import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.enableHdrType;
 import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.findMode1080p60;
 import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.isHdrFormatSupported;
+import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.sendHdrSettingsChangedBroadcast;
 
 import android.content.Context;
 import android.hardware.display.DisplayManager;
@@ -142,6 +143,7 @@ public class HdrFormatPreferenceController extends AbstractPreferenceController 
             mDisplayManager.setHdrConversionMode(
                     new HdrConversionMode(HdrConversionMode.HDR_CONVERSION_SYSTEM));
         }
+        sendHdrSettingsChangedBroadcast(mContext);
     }
 
     private void enableDvAndChangeTo1080p60(Display display, SwitchPreference preference) {

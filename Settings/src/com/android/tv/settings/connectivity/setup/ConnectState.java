@@ -209,6 +209,11 @@ public class ConnectState implements State {
             proceedDependOnNetworkState();
         }
 
+        private void connectSucceeded() {
+            mConnectSucceeded = true;
+            notifyListener(StateMachine.RESULT_SUCCESS);
+        }
+
         @Nullable
         private WifiEntry getEntryForNetworkId(int networkId) {
             WifiEntry result = null;
@@ -243,14 +248,14 @@ public class ConnectState implements State {
             mStartedConnect = true;
 
             if (wifiEntry.getConnectedState() == WifiEntry.CONNECTED_STATE_CONNECTED) {
-                notifyListener(StateMachine.RESULT_SUCCESS);
+                mUserChoiceInfo.setIsAlreadyConnected(true);
+                connectSucceeded();
                 return;
             }
 
             wifiEntry.connect(status -> {
                 if (status == CONNECT_STATUS_SUCCESS) {
-                    mConnectSucceeded = true;
-                    notifyListener(StateMachine.RESULT_SUCCESS);
+                    connectSucceeded();
                     return;
                 }
 
@@ -330,7 +335,7 @@ public class ConnectState implements State {
 
         private void notifyListener(int result) {
             if (mStateMachine.getCurrentState() instanceof ConnectState) {
-                mStateMachine.getListener().onComplete(result);
+                mStateMachine.getListener().onComplete(this, result);
             }
         }
 
@@ -362,7 +367,7 @@ public class ConnectState implements State {
 
                 if (fragment.isNetworkConnected()) {
                     if (DEBUG) Log.d(TAG, "Fake timeout; we're actually connected");
-                    fragment.notifyListener(StateMachine.RESULT_SUCCESS);
+                    fragment.connectSucceeded();
                 } else {
                     if (DEBUG) Log.d(TAG, "Timeout is real; telling the listener");
                     UserChoiceInfo userChoiceInfo = ViewModelProviders

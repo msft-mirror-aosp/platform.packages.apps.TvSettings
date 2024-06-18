@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"ส่วนตัว"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"เชื่อมต่อกับเครือข่าย"</string>
     <string name="add_an_account" msgid="2601275122685226096">"เพิ่มบัญชี"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"บัญชีและการลงชื่อเข้าใช้"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"บัญชีและโปรไฟล์"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"ไม่มีบัญชี"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# บัญชี}other{# บัญชี}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"บริการสื่อ, Assistant, การชำระเงิน"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"ความเป็นส่วนตัว"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"การตั้งค่าอุปกรณ์"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"การตั้งค่าบัญชี"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"การล็อกอุปกรณ์"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"การชำระเงินและการซื้อ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"การตั้งค่าแอป"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"เชื่อมต่ออีเทอร์เน็ตแล้ว"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"ไม่ได้เชื่อมต่อเครือข่าย"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi ปิดอยู่"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"ถอดปลั๊กอีเทอร์เน็ตเพื่อใช้ Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"สแกนอยู่เสมอ"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"ให้บริการตำแหน่งของ Google และแอปอื่นๆ สแกนหาเครือข่ายได้ แม้ในขณะที่ Wi-Fi ปิดอยู่"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ใช้การสแกนได้เสมอ ให้บริการตำแหน่งของ Google และแอปอื่นๆ สแกนหาเครือข่ายได้ แม้ในขณะที่ Wi-Fi ปิดอยู่"</string>
@@ -101,7 +103,7 @@
     <string name="all_apps_installed" msgid="8217778476185598971">"แอปที่ติดตั้ง"</string>
     <string name="all_apps_other" msgid="4420174882983813158">"แอประบบ"</string>
     <string name="all_apps_disabled" msgid="2776041242863791053">"แอปที่ปิดใช้"</string>
-    <string name="device_daydream" msgid="2631191946958113220">"โปรแกรมรักษาหน้าจอ"</string>
+    <string name="device_daydream" msgid="2631191946958113220">"โหมดภาพพักหน้าจอ"</string>
     <string name="device_display" msgid="244634591698925025">"จอแสดงผล"</string>
     <string name="device_display_sound" msgid="7399153506435649193">"การแสดงผลและเสียง"</string>
     <string name="device_sound" msgid="8616320533559404963">"เสียง"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"เมื่อเปิดใช้ตัวเลือกนี้ ระบบจะสลับเปลี่ยนรูปแบบช่วงไดนามิกต่างๆ ให้ตรงตามเนื้อหา ซึ่งอาจจะทำให้จอดำได้ในระหว่างที่เปลี่ยน\n\nคลิกที่การตั้งค่า \"การแสดงผลขั้นสูง\" เพื่อดูตัวเลือกช่วงไดนามิกอื่นๆ เพิ่มเติม"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"ช่วงไดนามิกที่ต้องการ"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"การแปลงตามที่ระบบต้องการ"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"ให้ระบบจัดการการแปลงรูปแบบ"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"ให้ระบบจัดการการแปลงรูปแบบ"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"เมื่อเลือกตัวเลือกนี้ ระบบจะกำหนดช่วงไดนามิกที่เหมาะสมเพื่อส่งไปยังจอแสดงผลของคุณและแปลงเนื้อหาเป็นช่วงไดนามิกนี้ตามต้องการ"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ตรงกับรูปแบบของเนื้อหาเสมอ"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"การบังคับให้แปลง"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"เปิดใช้ทางลัดการเข้าถึง"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"บริการทางลัด"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"เมื่อทางลัดเปิดอยู่ ให้กดปุ่มกลับและปุ่มลงค้างไว้ 3 วินาทีเพื่อเริ่มฟีเจอร์การเข้าถึง"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"เวลาดำเนินการ"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"เวลาดำเนินการ (ระยะหมดเวลาช่วยเหลือพิเศษ)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"ช่วงเวลา"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"แอปบางแอปไม่รองรับค่ากำหนดช่วงเวลานี้"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"คำบรรยายแทนเสียง"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"การตั้งค่าการวางซ้อนข้อความคำบรรยายในวิดีโอ"</string>
     <string name="captions_display" msgid="2598662495450633375">"จอแสดงผล"</string>
@@ -812,7 +818,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"แสดงเลเยอร์ฮาร์ดแวร์เป็นสีเขียวเมื่อมีการอัปเดต"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"จากดีที่สุดไปหาแย่ที่สุด: ฟ้า เขียว แดงอ่อน แดง"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"แสดงพื้นผิวหน้าต่างทั้งหมดเมื่อมีการอัปเดต"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"กะพริบหน้าจอเมื่อแอปทำงานในชุดข้อความหลักนาน"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"กะพริบหน้าจอเมื่อแอปทำงานในเทรดหลักนาน"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"วัดเวลาที่ใช้แสดงผลใน adb shell dumpsys gfxinfo"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"ไม่รู้จักที่มา"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"อนุญาตให้ติดตั้งแอปจากแหล่งอื่นๆ ที่นอกเหนือไปจาก Play Store"</string>
@@ -931,11 +937,12 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"เลือก <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> เพื่อดำเนินการต่อ"</string>
     <string name="label_done_key" msgid="8576286462300373440">"เสร็จสิ้น"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"เชื่อมต่อสำเร็จแล้ว"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"เชื่อมต่ออยู่แล้ว"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"บันทึกสำเร็จแล้ว"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"เวอร์ชัน <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"เปิด"</string>
     <string name="device_apps_app_management_force_stop" msgid="4454221309989640309">"บังคับให้หยุด"</string>
-    <string name="device_apps_app_management_force_stop_desc" msgid="1980972142863114899">"หากคุณบังคับให้แอปหยุด การทำงานอาจผิดพลาดได้"</string>
+    <string name="device_apps_app_management_force_stop_desc" msgid="1980972142863114899">"แอปอาจทำงานผิดพลาดหากคุณบังคับให้หยุด"</string>
     <string name="device_apps_app_management_uninstall" msgid="4171103696233332967">"ถอนการติดตั้ง"</string>
     <string name="device_apps_app_management_uninstall_updates" msgid="5647988075828648951">"ถอนการติดตั้งการอัปเดต"</string>
     <string name="device_apps_app_management_uninstall_updates_desc" msgid="4508586498292236706">"การอัปเดตทั้งหมดของแอประบบ Android นี้จะถูกถอนการติดตั้ง"</string>
@@ -962,7 +969,7 @@
     <string name="settings_on" msgid="7734010120323404333">"เปิด"</string>
     <string name="settings_off" msgid="4060451657850476369">"ปิด"</string>
     <string name="device_daydreams_none" msgid="3405655350757277348">"ปิดหน้าจอ"</string>
-    <string name="device_daydreams_select" msgid="7203264446482623438">"โปรแกรมรักษาหน้าจอ"</string>
+    <string name="device_daydreams_select" msgid="7203264446482623438">"โหมดภาพพักหน้าจอ"</string>
     <string name="device_daydreams_test" msgid="7828275397550076567">"เริ่มเลย"</string>
     <string name="device_daydreams_sleep" msgid="6847770718407377357">"เริ่มใช้งานเมื่อใด"</string>
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"โปรแกรมรักษาหน้าจอจะเริ่มทำงานหลังจากไม่มีการใช้งานตามระยะเวลานี้ หากไม่ได้เลือกโปรแกรมรักษาหน้าจอไว้ จอแสดงผลจะปิดลง"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"กำลังไฟฟ้าและพลังงาน"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"ลักษณะการทำงานเมื่อเปิดเครื่อง"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"รีเซ็ต"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"โทรทัศน์"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"รหัสการจับคู่อีเทอร์เน็ต"</string>
     <string name="energy_modes" msgid="1331693860386361744">"โหมดพลังงาน"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"การตั้งค่าเหล่านี้ส่งผลต่ออุปกรณ์เมื่อไม่มีการใช้งาน"</string>
@@ -1140,6 +1148,10 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"หารีโมตของฉัน"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"เล่นเสียงเพื่อค้นหารีโมต Google TV หากวางไว้ผิดที่"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV มีปุ่มให้กดเพื่อเล่นเสียงบนรีโมตได้เป็นเวลา 30 วินาที ซึ่งใช้ได้เฉพาะกับรีโมตคอนโทรลที่รองรับ Google TV\n\nหากต้องการหยุดเสียง ให้กดปุ่มใดก็ได้บนรีโมต"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"เมื่อเปิดใช้งาน \"หารีโมตของฉัน\" คุณจะเล่นเสียงเพื่อค้นหารีโมต Google TV ได้หากวางไว้ผิดที่"</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"เล่นเสียง"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"ระดับเสียงของ %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"คุณควบคุมระดับเสียง Assistant บนลำโพง %1$s ได้"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"มีผลกับระดับเสียงบนอุปกรณ์ %1$s เท่านั้น ไม่มีผลกับทีวี"</string>
 </resources>

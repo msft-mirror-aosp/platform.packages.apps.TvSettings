@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"شخصي"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"الاتصال بالشبكة"</string>
     <string name="add_an_account" msgid="2601275122685226096">"إضافة حساب"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"الحسابات وتسجيل الدخول"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"الحسابات والملفات الشخصية"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"ليست هناك حسابات."</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{حساب واحد}zero{# حساب}two{حسابان}few{# حسابات}many{# حسابًا}other{# حساب}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"خدمات الوسائط و\"مساعد Google\" والدفعات"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"الخصوصية"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"إعدادات الجهاز"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"إعدادات الحساب"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"قفل الجهاز"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"مساعد Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"الدفع وعمليات الشراء"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"إعدادات التطبيق"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"تمّ الاتصال بشبكة إيثرنت."</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"ليس هناك اتصال شبكة."</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"تم إيقاف Wi-Fi."</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"افصل كابل الإيثرنت لاستخدام شبكة Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"إمكانية البحث عن شبكة دائمًا"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"السماح لخدمة الموقع الجغرافي والتطبيقات الأخرى من Google بالبحث عن شبكات، حتى عند عدم تفعيل Wi-Fi"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"إمكانية البحث عن شبكة دائمًا، يسمح لخدمة الموقع الجغرافي والتطبيقات الأخرى من Google بالبحث عن شبكات، حتى عند عدم تشغيل Wi-Fi."</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"عند تفعيل هذا الخيار، سينتقل النظام بين تنسيقات النطاق الديناميكي المختلفة لمطابقة المحتوى. قد يتسبب هذا في ظهور شاشة سوداء أثناء تبديل التنسيق.\n\nانقر على \"إعدادات العرض المتقدمة\" لمزيد من خيارات النطاق الديناميكي."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"النطاق الديناميكي المفضّل"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"التحويل إلى النطاق الديناميكي الذي يفضّله النظام"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"يسمح هذا الخيار للنظام بإدارة تنسيق التحويل."</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"يسمح هذا الخيار للنظام بإدارة تحويل التنسيق"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"عند تحديد هذا الخيار، سيحدِّد النظام النطاق الديناميكي المناسب لإرساله إلى شاشتك وسيتم تحويل المحتوى إلى هذا النطاق الديناميكي حسب الحاجة."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"تتم مطابقة تنسيق المحتوى دائمًا."</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"فرض التحويل"</string>
@@ -303,7 +305,7 @@
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"أوقف المشرف هذا الإعداد"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"غير متاح"</string>
     <string name="manage_device_admin" msgid="5714217234035017983">"تطبيقات مشرف الجهاز"</string>
-    <string name="number_of_device_admins_none" msgid="2734299122299837459">"ما مِن تطبيقات نشطة."</string>
+    <string name="number_of_device_admins_none" msgid="2734299122299837459">"ما مِن تطبيقات نشطة"</string>
     <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"تم إيقافه بواسطة المشرف، أو سياسة التشفير، أو وحدة تخزين بيانات الاعتماد"</string>
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"معلومات الجهاز المُدار"</string>
     <string name="enterprise_privacy_settings_summary_generic" msgid="5719549523275019419">"تتولى مؤسستك إدارة التغييرات والإعدادات."</string>
@@ -331,7 +333,7 @@
     <string name="enterprise_privacy_input_method_name" msgid="1088874503312671318">"ضبط على <xliff:g id="APP_LABEL">%s</xliff:g>"</string>
     <string name="enterprise_privacy_always_on_vpn_device" msgid="8845550514448914237">"تم تفعيل إعداد \"شبكة افتراضية خاصة (VPN) دائمة التفعيل\""</string>
     <string name="enterprise_privacy_always_on_vpn_personal" msgid="6996782365866442280">"تم تفعيل إعداد \"شبكة افتراضية خاصة (VPN) دائمة التفعيل\" في الملف الشخصي"</string>
-    <string name="enterprise_privacy_always_on_vpn_work" msgid="3674119583050531071">"تم تفعيل \"شبكة افتراضية خاصة (VPN) دائمة التفعيل\" في الملف الشخصي للعمل"</string>
+    <string name="enterprise_privacy_always_on_vpn_work" msgid="3674119583050531071">"تم تفعيل \"شبكة افتراضية خاصة (VPN) دائمة التفعيل\" في ملف العمل"</string>
     <string name="enterprise_privacy_global_http_proxy" msgid="2818848848337527780">"تم ضبط الخادم الوكيل HTTP العام"</string>
     <string name="enterprise_privacy_ca_certs_device" msgid="975646846291012452">"بيانات الاعتماد الموثوقة"</string>
     <string name="enterprise_privacy_ca_certs_personal" msgid="7641368559306519707">"بيانات اعتماد موثوقة في ملفك الشخصي"</string>
@@ -340,7 +342,7 @@
     <string name="enterprise_privacy_lock_device" msgid="3140624232334033641">"يمكن للمشرف قفل الجهاز وإعادة ضبط كلمة المرور"</string>
     <string name="enterprise_privacy_wipe_device" msgid="1714271125636510031">"يمكن للمشرف حذف جميع بيانات الجهاز"</string>
     <string name="enterprise_privacy_failed_password_wipe_device" msgid="8272298134556250600">"محاولات كلمة المرور الخاطئة قبل حذف جميع بيانات الجهاز"</string>
-    <string name="enterprise_privacy_failed_password_wipe_work" msgid="1184137458404844014">"محاولات كلمة المرور الخاطئة قبل حذف بيانات الملف الشخصي للعمل"</string>
+    <string name="enterprise_privacy_failed_password_wipe_work" msgid="1184137458404844014">"محاولات كلمة المرور الخاطئة قبل حذف بيانات ملف العمل"</string>
     <string name="enterprise_privacy_number_failed_password_wipe" msgid="277415009661470768">"{count,plural, =1{محاولة واحدة}zero{# محاولة}two{محاولتان}few{# محاولات}many{# محاولة}other{# محاولة}}"</string>
     <string name="do_disclosure_generic" msgid="8390478119591845948">"تتولى مؤسستك إدارة هذا الجهاز."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"تتم إدارة هذا الجهاز بواسطة <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"تفعيل اختصار تسهيل الاستخدام"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"خدمة الاختصار"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"عند تفعيل الاختصار، سيؤدّي الضغط على زر الرجوع وزر الاتجاه للأسفل معًا لمدة 3 ثوانٍ إلى بدء ميزة من ميزات \"سهولة الاستخدام\"."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"وقت اتخاذ الإجراء"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"وقت اتخاذ إجراء (مهلة تسهيل الاستخدام)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"المهلة"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"قد لا يعمل هذا الإعداد المفضّل لتحديد المهلة في بعض التطبيقات"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"الترجمة والشرح"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"إعدادات تركيب نص الترجمة والشرح على الفيديو"</string>
     <string name="captions_display" msgid="2598662495450633375">"العرض"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"اختَر <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> للمتابعة."</string>
     <string name="label_done_key" msgid="8576286462300373440">"تم"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"تم الاتصال بنجاح."</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"متصلة حاليًا"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"تم الحفظ بنجاح."</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"الإصدار <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"فتح"</string>
@@ -1093,7 +1100,7 @@
     <string name="admin_profile_owner_message" msgid="5729169873349157622">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بالملفات الشخصية للعمل وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بهذا المستخدم وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بهذا الجهاز وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
-    <string name="remove_managed_profile_label" msgid="8950011141359605612">"إزالة الملف الشخصي للعمل"</string>
+    <string name="remove_managed_profile_label" msgid="8950011141359605612">"إزالة ملف العمل"</string>
     <string name="active_device_admin_msg" msgid="185537304726228624">"تطبيق مشرف الجهاز"</string>
     <string name="remove_device_admin" msgid="2623866073546295104">"إيقاف تطبيق مشرف الجهاز"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"إلغاء تثبيت التطبيق"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"التشغيل والطاقة"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"سلوك التلفزيون عندما يكون قيد التشغيل"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"إعادة الضبط"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"التلفزيون"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"رمز إقران شبكة إيثرنت"</string>
     <string name="energy_modes" msgid="1331693860386361744">"أوضاع استهلاك الطاقة"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"تؤثِّر هذه الإعدادات في الجهاز عندما يكون غير مُستخدَم"</string>
@@ -1140,6 +1148,10 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"العثور على جهاز التحكّم عن بُعد"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"يمكنك تشغيل صوت لتحديد موقع جهاز التحكّم في Google TV عن بُعد إذا لم يكن في مكانه."</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"يتوفّر زرّ في Google TV يمكنك الضغط عليه لتشغيل صوت على جهاز التحكّم عن بُعد لمدة 30 ثانية. لا تعمل هذه الميزة إلا مع أجهزة التحكّم عن بُعد المتوافقة مع Google TV.\n\nلإيقاف الصوت، اضغط على أي زرّ على جهاز التحكّم عن بُعد."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"عندما تكون ميزة \"العثور على جهاز التحكّم عن بُعد\" مفعَّلة، يمكنك تشغيل صوت لتحديد موقع جهاز التحكّم في Google TV عن بُعد إذا لم يكن في مكانه."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"تشغيل الصوت"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s مستوى الصوت"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"يمكنك التحكّم في مستوى صوت \"مساعد Google\" على مكبر الصوت %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"يؤثر في مستوى الصوت في %1$s فقط، وليس في التلفزيون"</string>
 </resources>

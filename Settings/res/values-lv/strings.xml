@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personiski"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Savienojuma izveide ar tīklu"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Konta pievienošana"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Konti un pierakstīšanās"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Konti un profili"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Nav kontu"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# konts}zero{# kontu}one{# konts}other{# konti}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Multivides pakalpojumi, Asistents, maksājumi"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Konfidencialitāte"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Ierīces iestatījumi"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Konta iestatījumi"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Ierīces bloķēšana"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google asistents"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Maksājums un pirkumi"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Lietotnes iestatījumi"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Izveidots savienojums ar tīklu Ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Nav izveidots savienojums ne ar vienu tīklu"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi ir izslēgts."</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Atvienojiet tīklu Ethernet, lai izmantotu Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Meklēšana vienmēr pieejama"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Atļaut Google atrašanās vietas pakalpojumam un citām lietotnēm meklēt tīklus, pat ja Wi-Fi savienojums ir izslēgts"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Meklēšana vienmēr pieejama: atļaujiet Google atrašanās vietas pakalpojumam un citām lietotnēm meklēt tīklus, pat ja Wi-Fi savienojums ir izslēgts."</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Iespējojot šo opciju, sistēma pārslēgs dažādus dinamiskā diapazona formātus, lai atrastu satura atbilstību. Formātu pārslēgšanas laikā var tikt rādīts melns ekrāns.\n\nNoklikšķiniet uz displeja papildiestatījumiem, lai skatītu citas dinamiskā diapazona opcijas."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Vēlamais dinamiskais diapazons"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Sistēmas pārvaldīta konvertēšana"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Ļauj sistēmai pārvaldīt formāta konvertēšanu"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Ļauj sistēmai pārvaldīt formāta konvertēšanu."</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Ja ir atlasīta šī opcija, sistēma noteiks piemēroto uz displeju nosūtāmo diapazonu un konvertēs saturu atbilstoši vajadzīgajam dinamiskajam diapazonam."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Vienmēr atbilst satura formātam"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Piespiedu konvertēšana"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Iespējot pieejamības īsinājumtaustiņu"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Īsinājumtaustiņa pakalpojums"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kad īsinājumtaustiņš ir ieslēgts, varat uz 3 sekundēm nospiest pogu Atpakaļ un skaļuma samazināšanas pogu, lai aktivizētu pieejamības funkciju."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Laiks veikt darbību"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Laiks veikt darbību (pieejamības noildze)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Ilgums"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Ne visas lietotnes atbalsta šo laika preferenci."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Subtitri"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Videoklipa subtitru teksta pārklājuma iestatījumi"</string>
     <string name="captions_display" msgid="2598662495450633375">"Rādīt"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Atlasiet <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>, lai turpinātu."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Gatavs"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Savienojums ir veiksmīgi izveidots"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Savienojums jau ir izveidots."</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Konfigurācija ir veiksmīgi saglabāta"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versija <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Atvērt"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Barošana un enerģija"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Ieslēgšanas rīcība"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Atiestatīšana"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televīzija"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Tīkla Ethernet kods savienošanai pārī"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Enerģijas patēriņa režīmi"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Šie iestatījumi ietekmē ierīci, kad tā netiek izmantota"</string>
@@ -1140,6 +1148,10 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Tālvadības ierīces atrašana"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Atskaņojiet signālu, lai atrastu savu Google TV tālvadības ierīci, ja tā ir pazudusi."</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Uz jūsu Google TV ierīces ir poga, ko varat nospiest, lai savā tālvadības ierīcē 30 sekundes atskaņotu signālu. Tas darbojas tikai atbalstītās Google TV tālvadības ierīcēs.\n\nLai apturētu signāla atskaņošanu, nospiediet jebkuru tālvadības ierīces pogu."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kad ir iespējota funkcija “Atrast tālvadības ierīci”, varat atskaņot signālu, lai atrastu savu Google TV tālvadības ierīci, ja tā ir pazudusi."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Atskaņot signālu"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s: skaļums"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Varat kontrolēt Asistenta skaļumu šajā skaļrunī: %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Attiecas uz skaļumu tikai tālāk norādītajā ierīcē, bet ne televizorā: %1$s"</string>
 </resources>

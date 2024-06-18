@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Henkilökohtainen"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Yhdistä verkkoon"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Lisää tili"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Tilit ja sisäänkirjautuminen"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Tilit ja profiilit"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Ei tilejä"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# tili}other{# tiliä}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Mediapalvelut, Assistant, maksut"</string>
@@ -56,10 +56,11 @@
     <string name="accessibility_category_title" msgid="1552664829936369592">"Saavutettavuus"</string>
     <string name="remotes_and_accessories_category_title" msgid="4795119810430255047">"Kaukosäätimet ja lisävarusteet"</string>
     <string name="display_and_sound_category_title" msgid="9203309625380755860">"Näyttö ja ääni"</string>
-    <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Ohje ja palaute"</string>
+    <string name="help_and_feedback_category_title" msgid="7036505833991003031">"Ohjeet ja palaute"</string>
     <string name="privacy_category_title" msgid="8552430590908463601">"Yksityisyys"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Laiteasetukset"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Tilin asetukset"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Laitteen lukitus"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Maksaminen ja ostokset"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Sovellusasetukset"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet liitetty"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Ei verkkoyhteyttä"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi ei ole käytössä."</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Irrota Ethernet, jotta voit käyttää Wi-Fiä"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Haku aina käytössä"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Anna Googlen sijaintipalvelun ja muiden sovellusten hakea verkkoja, vaikka Wi-Fi-yhteys olisi pois käytöstä."</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Haku aina käytössä. Anna Googlen sijaintipalvelun ja muiden sovellusten hakea verkkoja, vaikka Wi-Fi-yhteys olisi poissa päältä."</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Kun vaihtoehto otetaan käyttöön, järjestelmä vaihtaa dynaamisen alueen eri muotojen välillä löytääkseen sisältöä vastaavan asetuksen. Tämä voi aiheuttaa mustan näytön muodon vaihtamisen aikana.\n\nJos haluat nähdä lisää dynaamisen alueen vaihtoehtoja, valitse Näytön lisäasetukset."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Ensisijainen dynaaminen alue"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Järjestelmän valitsema muuntaminen"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Sallii järjestelmän hallita muodon muuntamista"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Sallii järjestelmän hallita muodon muuntamista"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Kun tämä asetus on valittu, järjestelmä päättelee sopivan näytölle lähetettävän dynaamisen alueen ja muuntaa sisällön tarvittaessa."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Vastaa aina sisällön muotoa"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Muuntamisen pakottaminen"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Ota saavutettavuustilan pikanäppäin käyttöön"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Pikanäppäinpalvelu"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kun pikanäppäin on päällä, voit käynnistää saavutettavuusominaisuuden pitämällä Takaisin- ja Alas-näppäimiä painettuina kolmen sekunnin ajan."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Reagointiaika"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Toiminnon aika (saavutettavuuskatkaisu)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Ajoitus"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Kaikki sovellukset eivät tue tätä ajoitusasetusta."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Tekstitykset"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Videon päällä näytettävän tekstityksen asetukset"</string>
     <string name="captions_display" msgid="2598662495450633375">"Näyttö"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Jatka valitsemalla <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Valmis"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Yhteys muodostettu"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Verkko on jo yhdistetty"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Tallentaminen onnistui"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versio <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Avaa"</string>
@@ -1060,8 +1067,8 @@
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Anna sovelluksille lupa luoda Kuva kuvassa ‑ikkuna, kun sovellus on auki tai kun olet poistunut siitä (esimerkiksi takaisin katsomaan videota). Tämä ikkuna näytetään muiden sovellusten ikkunoiden päällä."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Anna sovellusten lisätä herätyksiä ja ajoittaa kiireellisiä tapahtumia. Näin sovellukset voivat toimia taustalla, mikä voi kuluttaa enemmän virtaa.\n\nIlman tätä lupaa sovellusten ajoittamat herätykset ja aikaan perustuvat tapahtumat eivät toimi."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Näytön käynnistys"</string>
-    <string name="allow_turn_screen_on" msgid="4903401106871656521">"Salli näytön käynnistäminen"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Salli sovelluksen käynnistää näyttö. Jos sovellus saa luvan, se voi käynnistää näytön itsenäisesti milloin tahansa."</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"Salli näytön laittaminen päälle"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Salli sovelluksen laittaa näyttö päälle. Jos sovellus saa luvan, se voi laittaa näytön päälle itsenäisesti milloin tahansa."</string>
     <string name="special_access" msgid="21806055758289916">"Erityisoikeudet"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Ääni"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Virta ja energia"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Käynnistymistoiminta"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Nollaa"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televisio"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernetin yhdistämiskoodi"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Energiatilat"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Nämä asetukset vaikuttavat laitteeseen, kun se ei ole käytössä"</string>
@@ -1140,6 +1148,10 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Etsi kaukosäädin"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Jos et löydä Google TV ‑kaukosäädintä, etsi se toistamalla äänimerkki"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV:ssä on painike, jota painamalla kaukosäädin toistaa äänen 30 sekunnin ajan. Tämä toimii vain tuetuilla Google TV ‑kaukosäätimillä.\n\nLopeta äänen toistaminen painamalla kaukosäätimestä mitä tahansa painiketta."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kun Etsi kaukosäätimeni on käytössä, voit etsiä Google TV ‑kaukosäätimen toistamalla äänimerkin."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Toista äänimerkki"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Äänenvoimakkuus (%1$s)"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Voit muuttaa Assistantin äänenvoimakkuutta kaiuttimella (%1$s)"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Vaikuttaa vain äänenvoimakkuuteen laitteella (%1$s), ei TV:llä"</string>
 </resources>

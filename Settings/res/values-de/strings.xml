@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Nutzer"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Mit Netzwerk verbinden"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Konto hinzufügen"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Konten &amp; Anmeldung"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Konten und Profile"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Keine Konten"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# Konto}other{# Konten}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Mediendienste, Assistant, Zahlungen"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Datenschutz"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Geräteeinstellungen"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Kontoeinstellungen"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Gerätesperre"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Zahlung &amp; Käufe"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"App-Einstellungen"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet verbunden"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Kein Netzwerk verbunden"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"WLAN ist deaktiviert"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Zum Verwenden von WLAN Ethernetkabel abziehen"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Erkennungsfunktion immer verfügbar"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Der Standortdienst von Google und andere Apps sollen auch bei deaktiviertem WLAN nach Netzwerken suchen"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Erkennungsfunktion immer verfügbar – Der Standortdienst von Google und andere Apps sollen auch bei deaktiviertem WLAN nach Netzwerken suchen"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Wenn du diese Option aktivierst, passt das System das Format des dynamischen Bereichs an die wiedergegebenen Inhalte an. Beim Wechsel des Formats kann der Bildschirm kurz schwarz werden.\n\nKlicke auf „Erweiterte Displayeinstellungen“, um weitere Optionen zum dynamischen Bereich zu sehen."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Bevorzugter dynamischer Bereich"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Vom System bevorzugte Umwandlung"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Die Umwandlung von Formaten wird vom System verwaltet"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Die Umwandlung von Formaten wird vom System verwaltet"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Wenn diese Option ausgewählt wird, ermittelt das System einen geeigneten dynamischen Bereich, der an dein Display gesendet wird, und wandelt Inhalte nach Bedarf in diesen dynamischen Bereich um."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Das Format des Inhalts wird nicht verändert"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Umwandlung erzwingen"</string>
@@ -266,7 +268,7 @@
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Einstellungen für die Fernbedienung"</string>
     <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Tasten der Fernbedienung einrichten"</string>
     <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Lautstärke, Ein/Aus und Eingang auf Fernsehern, Receivern und Soundbars steuern"</string>
-    <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Kontakt"</string>
+    <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Koppeln"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Mit %1$s verbinden"</string>
     <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Verbindung trennen"</string>
     <string name="bluetooth_disconnect_confirm" msgid="1445977623973613581">"Verbindung mit %1$s trennen"</string>
@@ -646,7 +648,7 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Kamerazugriff blockiert"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Um die Blockierung aufzuheben und den Zugriff zu erlauben, musst du den Schalter für den Datenschutz an deinem Gerät auf die Position zum Aktivieren der Kamera bringen."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofonzugriff: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Wenn diese Option aktiviert ist, können alle Apps und Dienste, die das Mikrofon verwenden dürfen, auf dieses zugreifen.\n\nWenn diese Option deaktiviert ist, können keine Apps oder Dienste auf das Mikrofon zugreifen. Wenn du die Google Assistant-Taste auf deiner Fernbedienung drückst, kannst du möglicherweise trotzdem mit Assistant sprechen.\n\nAudiogeräte, die benutzerdefinierte Protokolle zur Kommunikation mit dem Fernseher verwenden, sind von dieser Einstellung möglicherweise nicht betroffen."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Bei Aktivierung können alle Apps und Dienste, die das Mikrofon verwenden dürfen, auf dieses zugreifen.\n\nBei Deaktivierung können keine Apps oder Dienste auf das Mikrofon zugreifen. Wenn du die Assistant-Taste auf deiner Fernbedienung drückst, kannst du evtl. trotzdem mit Assistant sprechen.\n\nAudiogeräte, die über benutzerdefinierte Protokolle mit dem TV kommunizieren, sind von dieser Einstellung u. U. nicht betroffen."</string>
     <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Mikrofon auf der Fernbedienung aktiviert"</string>
     <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google Assistant kann auf das Mikrofon deiner Fernbedienung zugreifen. Wenn du die Google Assistant-Taste auf deiner Fernbedienung drückst, kannst du mit Assistant sprechen."</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Mikrofon auf der Fernbedienung deaktiviert"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Kurzbefehl für Bedienungshilfen aktivieren"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Verknüpfter Dienst"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Wenn die Tastenkombination aktiviert ist, kannst du die Bedienungshilfe starten, indem du die Zurück-Taste und die Nach-Unten-Taste drei Sekunden lang gedrückt hältst."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Zeit zum Reagieren"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Zeit zum Reagieren (Zeitüberschreitung bei Bedienungshilfen)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Dauer"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Diese Einstellung für die Dauer wird nicht von allen Apps unterstützt."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Untertitel"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Einstellungen für Untertitel-Overlays in einem Video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Anzeigen"</string>
@@ -746,7 +752,7 @@
     <string name="color_yellow" msgid="3519470952904560404">"Gelb"</string>
     <string name="color_magenta" msgid="2377854703399624607">"Magenta"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Audiobeschreibung"</string>
-    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Höre dir in unterstützten Filmen und Serien eine Beschreibung der Ereignisse auf dem Bildschirm an"</string>
+    <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Bei unterstützten Filmen und Serien eine Beschreibung der Ereignisse auf dem Bildschirm anhören"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Aktivieren"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfiguration"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> verwenden?"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Wähle <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> aus, um fortzufahren."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Fertig"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Die Verbindung wurde hergestellt"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Bereits verbunden"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Die Konfiguration wurde gespeichert"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Version <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Öffnen"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Stromversorgung &amp; Energie"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Nach dem Einschalten"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Zurücksetzen"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"TV"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-Kopplungscode"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Energiemodi"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Einstellungen für ausgeschaltetes Gerät"</string>
@@ -1140,6 +1148,10 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Fernbedienung finden"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Du kannst auf deiner Google TV-Fernbedienung einen Ton wiedergeben lassen, wenn du sie verlegt hast"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Du kannst eine Taste an deinem Google TV drücken, um 30 Sekunden lang einen Ton auf deiner Fernbedienung wiedergeben zu lassen. Dafür ist eine Fernbedienung erforderlich, die Google TV unterstützt.\n\nDrücke zum Beenden der Wiedergabe eine beliebige Taste auf deiner Fernbedienung."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Wenn die Funktion „Fernbedienung finden“ aktiviert ist, kannst du einen Ton abspielen, um deine Google TV-Fernbedienung wiederzufinden, wenn du sie verlegt hast."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Ton wiedergeben lassen"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s – Lautstärke"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Du kannst die Lautstärke von Assistant über den „%1$s“-Lautsprecher steuern"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Wirkt sich nur auf die Lautstärke des Geräts „%1$s“ aus, nicht auf den Fernseher"</string>
 </resources>

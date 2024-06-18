@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"个人"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"连接到网络"</string>
     <string name="add_an_account" msgid="2601275122685226096">"添加账号"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"账号和登录"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"账号与个人资料"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"未登录任何账号"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# 个账号}other{# 个账号}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"媒体服务、Google 助理、付款功能"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"隐私设置"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"设备设置"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"账号设置"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"设备锁定"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google 助理"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"付款和购买"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"应用设置"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"已连接至以太网"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"未连接任何网络"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"WLAN 已关闭"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"拔出以太网网线才能使用 WLAN"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"随时都可扫描"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"允许 Google 的位置信息服务和其他应用扫描网络（即使 WLAN 已关闭）"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"随时都可扫描，允许 Google 的位置信息服务和其他应用扫描网络，即使 WLAN 已关闭"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"启用这个选项后，系统会在各种动态范围格式之间切换以匹配内容。这可能会导致在格式切换期间出现黑屏。\n\n您可点击“高级显示设置”以查看更多动态范围选项。"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"偏好的动态范围"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"系统自动转换"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"让系统管理格式转换"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"让系统管理格式转换"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"如果选择这个选项，系统会决定要发送至您显示屏的合适动态范围，并根据需要将内容转换至此动态范围。"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"一律采用内容本身的格式"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"强制转换"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"启用无障碍快捷方式"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"快捷方式服务"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"开启这项快捷方式后，同时按下返回和向下按钮 3 秒钟即可启动无障碍功能。"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"等待操作的时长"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"等待操作的时长（无障碍功能超时）"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"时间"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"某些应用可能不支持这项时限偏好设置。"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"字幕"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"视频字幕的文字叠加层设置"</string>
     <string name="captions_display" msgid="2598662495450633375">"显示"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"选择 <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> 以继续。"</string>
     <string name="label_done_key" msgid="8576286462300373440">"完成"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"连接成功"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"已连接"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"保存成功"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"版本 <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"打开"</string>
@@ -1059,9 +1066,9 @@
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"已安装的应用均不支持画中画功能"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"允许应用在您打开应用时或您离开应用后（例如继续观看视频）创建画中画窗口。这类窗口会显示在您当前使用的其他应用的上层。"</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"允许应用设置闹钟以及安排在特定时间执行某些操作。开启这项权限后，应用将在后台运行，可能会消耗更多电量。\n\n如果您关闭此权限，该应用设置的现有闹钟将不会响起，而且该应用安排在特定时间执行的现有活动也不会执行。"</string>
-    <string name="turn_screen_on_title" msgid="5293798529284629011">"开启屏幕"</string>
-    <string name="allow_turn_screen_on" msgid="4903401106871656521">"允许开启屏幕"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"允许应用开启屏幕。如获授权，该应用便可在您未明确表达意愿的情况下随时开启屏幕。"</string>
+    <string name="turn_screen_on_title" msgid="5293798529284629011">"唤醒屏幕"</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"允许唤醒屏幕"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"允许应用唤醒屏幕。如获授权，该应用便可在您未明确表达意愿的情况下随时唤醒屏幕。"</string>
     <string name="special_access" msgid="21806055758289916">"特殊应用权限"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>，<xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"音频"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"电源和能耗"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"开机行为"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"重置"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"电视"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"以太网配对码"</string>
     <string name="energy_modes" msgid="1331693860386361744">"能耗模式"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"这些设置会在您未使用设备时影响设备"</string>
@@ -1140,6 +1148,10 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"查找我的遥控器"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"让忘记放在何处的 Google TV 遥控器响铃，以便找到它"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV 上有一个按钮，按下后遥控器会响铃 30 秒钟。此操作仅对支持的 Google TV 遥控器有效。\n\n若要停止响铃，请按下遥控器上的任意按钮。"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"当“查找我的遥控器”处于启用状态时，您可让找不到的 Google TV 遥控器响铃，从而定位它。"</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"响铃"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s的音量"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"您可以控制%1$s音箱上 Google 助理的音量"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"仅影响%1$s设备（而非电视）的音量"</string>
 </resources>
