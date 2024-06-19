@@ -16,8 +16,6 @@
 
 package com.android.tv.settings.customization;
 
-import static androidx.core.content.res.ResourcesCompat.ID_NULL;
-
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -90,11 +88,7 @@ public final class Partner {
             Log.i(TAG, "Partner customization resource reference is null");
             return null;
         }
-        Integer id = mResources.getIdentifier(name, defType, mPackage);
-        if (id == null || id == ID_NULL) {
-            return null;
-        }
-        return id;
+        return mResources.getIdentifier(name, defType, mPackage);
     }
 
     @Nullable

@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"எனது ரிமோட்டைக் கண்டறிதல்"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"உங்கள் Google TV ரிமோட்டைத் தவறுதலாக வேறொரு இடத்தில் வைத்திருந்தால் ஒலியை இயக்குவதன் மூலம் அதைக் கண்டறியலாம்"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"உங்கள் Google TVயில் ஒரு பட்டன் உள்ளது அதை அழுத்தினால் உங்கள் ரிமோட் 30 வினாடிகளுக்கு ஒலிக்கும். ஆதரிக்கப்படும் Google TV ரிமோட் கன்ட்ரோல்களில் மட்டுமே இது வேலை செய்யும்.\n\nஒலியை நிறுத்த, உங்கள் ரிமோட்டில் இருக்கும் ஏதேனும் ஒரு பட்டனை அழுத்தவும்."</string>
-    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"இயக்கப்பட்டிருக்கும்போது, உங்கள் சாதனத்திலுள்ள பட்டனைப் பயன்படுத்தி ஒலியை இயக்கி ரிமோட்டைக் கண்டறியலாம். முடக்கப்பட்டிருக்கும்போது இந்தப் பட்டன் வேலை செய்யாது. எனினும் பிற வழிகள் மூலம் நீங்கள் \'ரிமோட் கண்டறிதல்\' அம்சத்தைப் பயன்படுத்த முடியும்."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ஒலியை இயக்கு"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ஒலியளவு"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s ஸ்பீக்கரில் Assistantடின் ஒளியளவைக் கட்டுப்படுத்தலாம்"</string>

@@ -1148,7 +1148,8 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Poišči moj daljinski upravljalnik"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Predvajajte zvok, da poiščete daljinski upravljalnik za Google TV, če ga založite"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV ima gumb, ki ga lahko pritisnete in tako za 30 sekund sprožite predvajanje zvoka v daljinskem predvajalniku. To deluje samo s podprtimi daljinskimi upravljalniki za Google TV.\n\nČe želite ustaviti zvok, na daljinskem upravljalniku pritisnite kateri koli gumb."</string>
-    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Če je vklopljeno, lahko z gumbom na napravi predvajate zvok, da poiščete daljinca. Če je izklopljeno, gumb ne deluje. Funkcijo Poišči daljinec lahko še vedno uporabljate na druge načine."</string>
+    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
+    <skip />
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Predvajaj zvok"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Glasnost za %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Glasnost Pomočnika lahko upravljate v zvočniku %1$s"</string>
