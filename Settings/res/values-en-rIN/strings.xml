@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Find my remote"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Play a sound to locate your Google TV Streamer Voice Remote if it\'s been misplaced"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"There is a button on your Google TV that you can push to play a sound on your remote for 30 seconds. This only works with supported Google TV remote controls.\n\nTo stop the sound, press any button on your remote."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"When on, you can use the button on your device to play a sound to locate your remote. When off, this button won\'t work. You\'ll still be able to use find my remote via other methods."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Play sound"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volume"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"You can control the Assistant volume on %1$s speaker"</string>

@@ -88,8 +88,8 @@
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi е исклучено"</string>
     <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Исклучете го етернетот за да користите Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Скенирањето е секогаш достапно"</string>
-    <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Дозволи услугата за локација на Google и други апликации да скенираат за мрежи, дури и кога Wi-Fi е исклучена"</string>
-    <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Скенирањето е секогаш достапно, дозволете услугата според локација на Google и други апликации да скенираат мрежи, дури и кога Wi-Fi е исклучено"</string>
+    <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Дозволи локациската услуга на Google и други апликации да скенираат за мрежи, дури и кога Wi-Fi е исклучена"</string>
+    <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Скенирањето е секогаш достапно, дозволете локациската услуга на Google и други апликации да скенираат мрежи, дури и кога Wi-Fi е исклучено"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Поврзете се на мрежа"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Дијагностика на мрежа"</string>

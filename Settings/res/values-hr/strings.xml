@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Pronađi moj daljinski upravljač"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Reproducirajte zvuk da biste locirali daljinski upravljač za Google TV ako ste ga zametnuli"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na Google TV-u se nalazi gumb koji možete pritisnuti da biste reproducirali zvuk na daljinskom upravljaču u trajanju od 30 sekundi. To funkcionira samo s podržanim daljinskim upravljačima Google TV-a.\n\nDa biste isključili zvuk, pritisnite bilo koji gumb na daljinskom upravljaču."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Kada je ta opcija uključena, možete upotrebljavati gumb na uređaju da biste reproducirali zvuk kako biste pronašli svoj daljinski upravljač. Kada je ta opcija isključena, gumb neće raditi. I dalje ćete moći upotrebljavati značajku Pronađi moj daljinski putem drugih metoda."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reproduciraj zvuk"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s – glasnoća"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Glasnoćom Asistenta možete upravljati na zvučniku uređaja %1$s"</string>

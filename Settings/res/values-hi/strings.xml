@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"मेरा रिमोट ढूंढें"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV रिमोट खो जाने पर, उसका पता लगाने के लिए साउंड चलाएं"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"आपके Google TV पर एक ऐसा बटन होता है जिसे दबाने से रिमोट पर 30 सेकंड के लिए आवाज़ चलाई जा सकती है. ऐसा सिर्फ़ उन Google TV के रिमोट कंट्रोल पर किया जा सकता है जिन पर यह सुविधा काम करती है.\n\nसाउंड बंद करने के लिए, रिमोट के किसी भी बटन को दबाएं."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"सेटिंग चालू होने पर, अपने डिवाइस पर मौजूद बटन को दबाकर एक साउंड चलाया जा सकेगा, ताकि टीवी के रिमोट को ढूंढा जा सके. सेटिंग बंद होने पर यह बटन काम नहीं करेगा. हालांकि, \'मेरा रिमोट ढूंढो\' सुविधा का इस्तेमाल अन्य तरीकों से अब भी किया जा सकेगा."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"साउंड चलाएं"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s आवाज़"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s स्पीकर पर Assistant की आवाज़ को कंट्रोल किया जा सकता है"</string>

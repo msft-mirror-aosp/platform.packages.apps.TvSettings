@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Find my remote"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Prehraním zvuku nájdite stratené diaľkové ovládanie Google TV"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na zariadení so službou Google TV je tlačidlo, ktorého stlačením prehráte 30‑sekundový zvuk v diaľkovom ovládaní. Funguje to len s podporovanými diaľkovými ovládaniami Google TV.\n\nAk chcete zvuk zastaviť, stlačte ľubovoľné tlačidlo na diaľkovom ovládaní."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Keď je táto možnosť zapnutá, pomocou príslušného tlačidla na zariadení môžete prehrať zvuk a nájsť tak svoje diaľkové ovládanie. Keď je vypnutá, toto tlačidlo nefunguje. Funkciu nájdenia ovládania budete môcť stále používať inými spôsobmi."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Prehrávanie zvuku"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Hlasitosť na úrovni %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Pomocou Asistenta môžete ovládať hlasitosť reproduktora %1$s"</string>

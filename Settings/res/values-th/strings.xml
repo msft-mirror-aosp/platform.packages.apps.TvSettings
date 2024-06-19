@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"หารีโมตของฉัน"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"เล่นเสียงเพื่อค้นหารีโมต Google TV หากวางไว้ผิดที่"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV มีปุ่มให้กดเพื่อเล่นเสียงบนรีโมตได้เป็นเวลา 30 วินาที ซึ่งใช้ได้เฉพาะกับรีโมตคอนโทรลที่รองรับ Google TV\n\nหากต้องการหยุดเสียง ให้กดปุ่มใดก็ได้บนรีโมต"</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"เมื่อเปิดไว้ คุณจะใช้ปุ่มบนอุปกรณ์ในการเล่นเสียงเพื่อค้นหารีโมตได้ แต่หากปิด ปุ่มนี้จะไม่ทำงาน คุณจะยังใช้ฟีเจอร์หารีโมตของฉันด้วยวิธีอื่นๆ ได้"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"เล่นเสียง"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"ระดับเสียงของ %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"คุณควบคุมระดับเสียง Assistant บนลำโพง %1$s ได้"</string>
