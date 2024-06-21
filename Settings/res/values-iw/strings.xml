@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"איפה השלט שלי"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ניתן להשמיע צליל כדי לאתר שלט רחוק של Google TV שאבד"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"יש כפתור ב-Google TV שאפשר ללחוץ עליו כדי להשמיע צליל בשלט הרחוק למשך 30 שניות. הפעולה הזו עובדת רק בשלטים רחוקים נתמכים של Google TV.‏\n\nכדי להפסיק את הצליל, צריך ללחוץ על לחצן כלשהו בשלט."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"כשהאפשרות מופעלת, אפשר להשתמש בלחצן במכשיר כדי להשמיע צליל ולאתר את השלט הרחוק. כשהאפשרות מושבתת, הלחצן הזה לא יעבוד. עדיין תהיה לך אפשרות להשתמש בתכונה \'איפה השלט\' באמצעות שיטות אחרות."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"השמעת צליל"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"עוצמת קול %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"אפשר לשלוט בעוצמת הקול של Assistant ברמקול של %1$s"</string>
