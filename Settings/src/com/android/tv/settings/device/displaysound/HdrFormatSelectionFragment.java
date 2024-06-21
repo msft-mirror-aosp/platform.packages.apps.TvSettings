@@ -92,7 +92,6 @@ public class HdrFormatSelectionFragment extends PreferenceControllerFragment {
     private PreferenceCategory mFormatsInfoPreferenceCategory;
     private PreferenceCategory mEnabledFormatsPreferenceCategory;
     private PreferenceCategory mDisabledFormatsPreferenceCategory;
-    private boolean disableFormatSelectionManual = false;
 
     private List<AbstractPreferenceController> mPreferenceControllers;
 
@@ -114,13 +113,6 @@ public class HdrFormatSelectionFragment extends PreferenceControllerFragment {
         mUserDisabledHdrTypes = toSet(mDisplayManager.getUserDisabledHdrTypes());
         mDisplayReportedHdrTypes = getDisplaySupportedHdrTypes();
 
-        disableFormatSelectionManual =
-            mDisplayManager
-                .getHdrConversionModeSetting()
-                .equals(
-                    new HdrConversionMode(
-                        HdrConversionMode.HDR_CONVERSION_FORCE, HDR_TYPE_INVALID));
-
         super.onAttach(context);
     }
 
@@ -133,22 +125,11 @@ public class HdrFormatSelectionFragment extends PreferenceControllerFragment {
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         setPreferencesFromResource(R.xml.hdr_format_selection, null);
 
-        if (disableFormatSelectionManual) {
-            Preference preference = findPreference(KEY_HDR_FORMAT_SELECTION_AUTO);
-            preference.setSelectable(false);
-            preference.setSummary("");
-
-            preference = findPreference(KEY_HDR_FORMAT_SELECTION_MANUAL);
-            preference.setSelectable(false);
-            preference.setEnabled(false);
-            preference.setSummary(getContext().getString(R.string.disabled));
-        }
-
         createFormatInfoPreferences();
         createFormatPreferences();
 
         String currentPreferenceKey;
-        if (mDisplayManager.areUserDisabledHdrTypesAllowed() || disableFormatSelectionManual) {
+        if (mDisplayManager.areUserDisabledHdrTypesAllowed()) {
             currentPreferenceKey = KEY_HDR_FORMAT_SELECTION_AUTO;
             hideFormatPreferences();
         } else {
