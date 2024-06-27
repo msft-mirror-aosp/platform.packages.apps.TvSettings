@@ -937,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"தொடர <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ஐத் தேர்வுசெய்யவும்."</string>
     <string name="label_done_key" msgid="8576286462300373440">"முடிந்தது"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"இணைக்கப்பட்டது"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ஏற்கெனவே இணைக்கப்பட்டுள்ளது"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"சேமிக்கப்பட்டது"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"பதிப்பு <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"திறக்கும்"</string>
@@ -1149,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"எனது ரிமோட்டைக் கண்டறிதல்"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"உங்கள் Google TV ரிமோட்டைத் தவறுதலாக வேறொரு இடத்தில் வைத்திருந்தால் ஒலியை இயக்குவதன் மூலம் அதைக் கண்டறியலாம்"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"உங்கள் Google TVயில் ஒரு பட்டன் உள்ளது அதை அழுத்தினால் உங்கள் ரிமோட் 30 வினாடிகளுக்கு ஒலிக்கும். ஆதரிக்கப்படும் Google TV ரிமோட் கன்ட்ரோல்களில் மட்டுமே இது வேலை செய்யும்.\n\nஒலியை நிறுத்த, உங்கள் ரிமோட்டில் இருக்கும் ஏதேனும் ஒரு பட்டனை அழுத்தவும்."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"எனது ரிமோட்டைக் கண்டறிதல் அம்சம் இயக்கத்தில் இருக்கும்போது உங்கள் Google TV ரிமோட்டைத் தவறுதலாக வேறொரு இடத்தில் வைத்திருந்தால் ஒலியை இயக்கி அதைக் கண்டறியலாம்."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"இயக்கப்பட்டிருக்கும்போது, உங்கள் சாதனத்திலுள்ள பட்டனைப் பயன்படுத்தி ஒலியை இயக்கி ரிமோட்டைக் கண்டறியலாம். முடக்கப்பட்டிருக்கும்போது இந்தப் பட்டன் வேலை செய்யாது. எனினும் பிற வழிகள் மூலம் நீங்கள் \'ரிமோட் கண்டறிதல்\' அம்சத்தைப் பயன்படுத்த முடியும்."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ஒலியை இயக்கு"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ஒலியளவு"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s ஸ்பீக்கரில் Assistantடின் ஒளியளவைக் கட்டுப்படுத்தலாம்"</string>

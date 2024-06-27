@@ -937,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Үргэлжлүүлэхийн тулд <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>-г сонгоно уу."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Болсон"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Амжилттай холбогдлоо"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Аль хэдийн холбогдсон"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Амжилттай хадгаллаа"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Хувилбар <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Нээх"</string>
@@ -1149,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Алсын удирдлагаа олох"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV-н алсын удирдлагаа алдсан бол байршлыг нь тогтоохын тулд дуу чимээ тоглуулна уу"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Таны Google TV дээр товчлуур байгаа бөгөөд та үүнийг алсын удирдлагадаа 30 секундийн турш дуу чимээ тоглуулахын тулд дарах боломжтой. Энэ нь зөвхөн дэмжигдсэн Google TV-н алсын удирдлагаар ажиллана.\n\nДуу чимээг зогсоохын тулд алсын удирдлагынхаа дурын товчлуурыг дарна уу."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Алсын удирдлагаа олохыг идэвхжүүлсэн үед та Google TV-н алсын удирдлагаа алга болгосон бол байршлыг нь тогтоохын тулд дуу чимээ тоглуулах боломжтой."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Асаалттай үед та алсын удирдлагынхаа байршлыг тогтоохын тулд төхөөрөмж дээрээ байх товчлуурыг ашиглан дуу чимээ тоглуулах боломжтой. Унтраалттай үед энэ товчлуур ажиллахгүй. Та бусад аргаар Миний алсын удирдлагыг олох онцлогийг ашиглах боломжтой хэвээр байх болно."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Дуу чимээ тоглуулах"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s-н дууны түвшин"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Та %1$s-н чанга яригч дээр Туслахын дууны түвшнийг хянах боломжтой"</string>
