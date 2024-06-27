@@ -937,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Selecteer <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> om door te gaan."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Klaar"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Verbonden"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Al gekoppeld"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Opgeslagen"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versie <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Openen"</string>
@@ -1149,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Mijn afstandsbediening vinden"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Speel een geluid af om je Google TV-afstandsbediening te vinden als je deze kwijt bent"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Je Google TV heeft een knop waarmee je 30 seconden een geluid kunt afspelen op je afstandsbediening. Dit werkt alleen met ondersteunde afstandsbedieningen voor Google TV.\n\nAls je het geluid wilt uitzetten, druk je op een knop op je afstandsbediening."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Als Mijn afstandsbediening vinden aanstaat, kun je een geluid afspelen om je Google TV-afstandsbediening te vinden als je deze kwijt bent."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Als deze instelling aanstaat, kun je de knop op je apparaat gebruiken om een geluid af te spelen waarmee je je afstandsbediening kunt vinden. Staat de instelling uit, dan werkt deze knop niet. Je kunt Vind mijn afstandsbediening nog steeds gebruiken via andere methoden."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Geluid afspelen"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume van %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Je kunt het Assistent-volume bedienen op de %1$s-speaker"</string>

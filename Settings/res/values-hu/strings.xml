@@ -937,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Válassza a következőt a folytatáshoz: <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Kész"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Sikeresen csatlakozva"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Már csatlakozva van"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Sikeresen mentve"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Verzió: <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Megnyitás"</string>
@@ -1149,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Távirányító-kereső"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Hang lejátszásával megkeresheti a Google TV távirányítóját, ha nem találja"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Van egy gomb a Google TV-n, amelyet megnyomva 30 másodpercen át lejátszhat egy hangjelzést a távirányítón. Ez csak a támogatott Google TV-távirányítóknál működik.\n\nA hanglejátszás leállításához nyomja meg bármelyik gombot a távirányítón."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Amikor engedélyezve van a Távirányító-kereső, és nem találja a Google TV-távirányítót, az eszközön való hanglejátszással megkeresheti."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Amikor be van kapcsolva, az eszközén lévő gombot lenyomva hang lejátszásával keresheti meg a távirányítót. Amikor ki van kapcsolva, ez a gomb nem működik. Más módszerekkel továbbra is használhatja a távirányító megkeresése funkciót."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Hang lejátszása"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"A(z) %1$s hangereje"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Vezérelheti a Segéd hangerejét a(z) %1$s hangszórón"</string>

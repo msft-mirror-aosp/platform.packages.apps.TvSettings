@@ -937,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Seleziona <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> per continuare."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Fine"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Connessione effettuata"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Già connessa"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Salvataggio riuscito"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versione <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Apri"</string>
@@ -1149,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Trova il telecomando"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Riproduci un suono per trovare il tuo telecomando di Google TV se non sai dov\'è."</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Puoi premere un pulsante su Google TV che farà emettere un suono al telecomando per 30 secondi. Questa opzione è disponibile solo sui telecomandi di Google TV supportati.\n\nPer interrompere il suono, premi qualsiasi tasto del telecomando."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Quando la funzionalità Trova il telecomando è attivata, puoi riprodurre un suono per trovare il tuo telecomando di Google TV se non sai dov\'è."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Se l\'impostazione è attivata, potrai usare il pulsante sul dispositivo per riprodurre un suono che ti aiuterà a trovare il telecomando. Se è disattivata, il pulsante non funzionerà. Potrai comunque usare Trova il telecomando con altri metodi."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Riproduci suono"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume: %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Puoi controllare il volume dell\'assistente su %1$s speaker"</string>
