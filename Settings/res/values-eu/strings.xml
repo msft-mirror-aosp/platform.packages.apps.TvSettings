@@ -511,7 +511,7 @@
     <string name="wifi_gateway_description" msgid="8902481147103929271">"Idatzi balio duen IP helbide bat edo utzi hutsik.\nAdibidez: <xliff:g id="ID_1">192.168.1.1</xliff:g>"</string>
     <string name="wifi_network_prefix_length_description" msgid="2670994968279018896">"Idatzi balio duen karaktere kopuruko sare-aurrizkia.\nAdibidez: <xliff:g id="ID_1">24</xliff:g>"</string>
     <string name="proxy_error_invalid_host" msgid="5629893736174170157">"Ostalari-izenak ez du balio"</string>
-    <string name="proxy_error_invalid_exclusion_list" msgid="1762079966901078116">"Salbuespen-zerrendak ez du balio. Idatzi kanpo utzitako domeinuen zerrenda, komaz bereizita."</string>
+    <string name="proxy_error_invalid_exclusion_list" msgid="1762079966901078116">"Bazterketa-zerrendak ez du balio. Idatzi baztertzeko domeinuen zerrenda, komaz bereizita."</string>
     <string name="proxy_error_empty_port" msgid="692020249267351015">"Ataka eremuak ezin du hutsik egon"</string>
     <string name="proxy_error_empty_host_set_port" msgid="5347712018244852847">"Ostalaria eremua hutsik badago, utzi Ataka eremua hutsik"</string>
     <string name="proxy_error_invalid_port" msgid="5307010810664745294">"Atakak ez du balio"</string>
@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Bilatu urruneko kontrolagailua"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Erreproduzitu soinu bat Google TV-ren urruneko kontrolagailua aurkitzeko hura galtzen baduzu"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV-ak daukan botoi jakin bat sakatzen baduzu, urruneko kontrolagailuan soinu bat erreproduzituko da 30 segundoz. Google TV-ren urruneko kontrolagailu bateragarriekin soilik funtzionatzen du horrek.\n\nSoinua erreproduzitzeari uzteko, sakatu urruneko kontrolagailuaren edozein botoi."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Aktibatuta badago, gailuko botoia erabil dezakezu urruneko kontrolagailua aurkitzeko soinu bat erreproduzitzeko. Desaktibatuta badago, botoiak ez du funtzionatuko. Hala ere, beste metodo batzuen bidez erabili ahalko duzu Bilatu urruneko kontrolagailua."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Erreproduzitu soinua"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s gailuaren bolumena"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s bozgorailuko Laguntzailea zerbitzuaren bolumena kontrola dezakezu"</string>

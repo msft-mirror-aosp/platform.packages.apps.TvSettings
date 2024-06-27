@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"查找我的遥控器"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"让忘记放在何处的 Google TV 遥控器响铃，以便找到它"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV 上有一个按钮，按下后遥控器会响铃 30 秒钟。此操作仅对支持的 Google TV 遥控器有效。\n\n若要停止响铃，请按下遥控器上的任意按钮。"</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"此项处于开启状态时，您可以使用设备上的按钮播放声音，以便定位遥控器。此项处于关闭状态时，这个按钮将不起作用。您仍然可以通过其他方法使用“查找我的遥控器”。"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"响铃"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s的音量"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"您可以控制%1$s音箱上 Google 助理的音量"</string>

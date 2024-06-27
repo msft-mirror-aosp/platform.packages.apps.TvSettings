@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Encontrar meu controle remoto"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Toque um som para localizar o controle remoto do Google TV caso ele esteja perdido"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Há um botão no Google TV que você pode pressionar para tocar um som no controle remoto por 30 segundos. Isso só funciona com controles remotos do Google TV compatíveis.\n\nPara interromper o som, pressione qualquer botão no controle."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Quando ativado, você pode usar o botão no seu dispositivo para tocar um som e encontrar o controle remoto. Quando desativado, o botão não vai funcionar. Você ainda poderá usar o recurso \"encontrar meu controle remoto\" por outros métodos."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Tocar som"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume do %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Você pode controlar o volume do Google Assistente no alto-falante %1$s"</string>
