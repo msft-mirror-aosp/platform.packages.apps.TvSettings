@@ -937,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Sélectionnez <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> pour continuer."</string>
     <string name="label_done_key" msgid="8576286462300373440">"OK"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Vous êtes maintenant connecté"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Déjà connecté"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"L\'enregistrement a été effectué"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Version : <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Disponible"</string>
@@ -1149,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Localiser ma télécommande"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Faites jouer un son pour localiser votre télécommande Google TV si elle est égarée"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Un bouton sur votre Google TV vous permet d\'émettre un son sur votre télécommande pendant 30 secondes. Cette action ne fonctionne qu\'avec les télécommandes prises en charge par Google TV.\n\nPour couper le son, appuyez sur n\'importe quel bouton de votre télécommande."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Quand la fonctionnalité Localiser ma télécommande est activée, vous pouvez faire jouer un son pour localiser votre télécommande Google TV si elle est égarée."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Lorsque la fonctionnalité est activée, vous pouvez utiliser le bouton de votre appareil pour émettre un son afin de localiser votre télécommande. Lorsqu\'elle est désactivée, ce bouton ne fonctionne pas. Vous pourrez toujours utiliser Rechercher la télécommande par d\'autres méthodes."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Faire jouer un son"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volume"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Vous pouvez contrôler le volume de l\'Assistant sur le haut-parleur %1$s"</string>

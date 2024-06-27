@@ -937,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Wähle <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> aus, um fortzufahren."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Fertig"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Die Verbindung wurde hergestellt"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Bereits verbunden"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Die Konfiguration wurde gespeichert"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Version <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Öffnen"</string>
@@ -1149,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Fernbedienung finden"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Du kannst auf deiner Google TV-Fernbedienung einen Ton wiedergeben lassen, wenn du sie verlegt hast"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Du kannst eine Taste an deinem Google TV drücken, um 30 Sekunden lang einen Ton auf deiner Fernbedienung wiedergeben zu lassen. Dafür ist eine Fernbedienung erforderlich, die Google TV unterstützt.\n\nDrücke zum Beenden der Wiedergabe eine beliebige Taste auf deiner Fernbedienung."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Wenn die Funktion „Fernbedienung finden“ aktiviert ist, kannst du einen Ton abspielen, um deine Google TV-Fernbedienung wiederzufinden, wenn du sie verlegt hast."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Wenn diese Option aktiviert ist, kannst du über die Schaltfläche auf deinem Gerät einen Ton wiedergeben lassen, um deine Fernbedienung zu finden. Ist sie deaktiviert, funktioniert die Schaltfläche nicht. Du kannst „Finde meine Fernbedienung“ jedoch mit anderen Methoden verwenden."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Ton wiedergeben lassen"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s – Lautstärke"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Du kannst die Lautstärke von Assistant über den „%1$s“-Lautsprecher steuern"</string>
