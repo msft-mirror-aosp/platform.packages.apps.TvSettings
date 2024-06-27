@@ -937,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Изберете <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>, за да продължите."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Готово"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Успешно е установена връзка"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Вече е установена връзка"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Запазването е успешно"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Версия <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Отваряне"</string>
@@ -1149,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Намиране на дистанционното ми управление"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Възпроизвеждане на звук, чрез който да намерите дистанционното си управление за Google TV"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Устройството ви с Google TV има бутон, който можете да натиснете, за да се възпроизвежда звук на дистанционното ви управление в продължение на 30 секунди. Това работи само с поддържани дистанционни управления за Google TV.\n\nЗа да спрете звука, натиснете произволен бутон на дистанционното си управление."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Когато функцията „Намиране на дистанционното ми управление“ е активирана, може да се възпроизведе звук, за да откриете дистанционното управление на Google TV, ако не можете да го намерите."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Когато тази функция е включена, можете чрез бутона на устройството си да пускате звук, който да послужи за намиране на дистанционното ви управление. Ако е изключена, този бутон няма да работи. Пак ще можете да използвате „Намери дистанционното ми“ чрез други методи."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Пускане на звук"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Сила на звука: %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Можете да управлявате силата на звука за Асистент на високоговорителя (%1$s)"</string>

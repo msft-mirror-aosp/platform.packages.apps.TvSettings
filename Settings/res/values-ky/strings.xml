@@ -664,7 +664,7 @@
     <string name="location_category_recent_location_requests" msgid="4541924383164183490">"Акыркы жайгашкан жер сурамдары"</string>
     <string name="location_no_recent_apps" msgid="7033474075806435793">"Акыркы мезгилде жайгашкан жерди сураган колдонмолор болгон жок"</string>
     <string name="location_high_battery_use" msgid="5325556609027887602">"Батарея көп керектелүүдө"</string>
-    <string name="location_low_battery_use" msgid="728585923412018253">"Батареянын кубатын үнөмдөө"</string>
+    <string name="location_low_battery_use" msgid="728585923412018253">"Батареяны үнөмдөө"</string>
     <string name="location_mode_wifi_description" msgid="84697248707903061">"Жайгашкан жерди божомолдоо үчүн Wi‑Fi\'ды колдонуу"</string>
     <string name="location_status" msgid="3037321737386011224">"Жайгашкан жерди аныктоо"</string>
     <string name="location_services" msgid="551503779736382878">"Жайгашкан жерди аныктоо кызматтары"</string>
@@ -937,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Улантуу үчүн <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> тандаңыз."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Бүттү"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Ийгиликтүү туташты"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Туташкан"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Ийгиликтүү сакталды"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"<xliff:g id="APP_VERSION">%1$s</xliff:g> версиясы"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Ачуу"</string>
@@ -1149,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Пультумду табуу"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV\'нин пультун табуу үчүн үн чыгарыңыз"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV\'де баскыч бар, аны бассаңыз, пульттан 30 секунд бою үн ойнотулат. Бул колдоого алынган Google TV\'нин пультунда гана иштейт.\n\nҮнүн басуу үчүн пульттагы бир баскычты басыңыз."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Пультумду табуу функциясы иштетилсе, Google TV\'нин пультун табуу үчүн анын үнүн чыгарууга болот."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Күйүп турганда түзмөгүңүздөгү баскыч аркылуу үн чыгарып, пультту таба аласыз. Өчүп турганда бул баскыч иштебейт. \"Пульт кайда\" функциясын башка жолдор менен колдоно бересиз."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Үнүн чыгаруу"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s түзмөгүнүн үн көлөмү"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s динамигиндеги Жардамчынын үнүн катуулатып/акырындата аласыз"</string>

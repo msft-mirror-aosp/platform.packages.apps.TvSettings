@@ -937,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Aby kontynuować, wybierz <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Gotowe"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Połączono"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Już połączono"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Zapisano"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Wersja <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Otwórz"</string>
@@ -1149,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Znajdź pilota"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Włącz dźwięk, aby znaleźć zgubionego pilota do Google TV"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"W Google TV znajduje się przycisk, który możesz nacisnąć, aby odtwarzać dźwięk na pilocie przez 30 sekund. Działa to tylko w przypadku obsługiwanych pilotów do Google TV.\n\nAby wyłączyć dźwięk, naciśnij dowolny przycisk na pilocie."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Gdy funkcja Znajdź pilota jest włączona, możesz włączyć dźwięk, aby znaleźć zgubionego pilota do Google TV."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Gdy ta funkcja jest włączona, możesz użyć przycisku na urządzeniu, aby włączyć dźwięk ułatwiający znalezienie pilota. Gdy funkcja jest wyłączona, ten przycisk nie działa. Nadal możesz korzystać z funkcji Znajdź pilota za pomocą innych metod."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Włącz dźwięk"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Głośność: %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Głośność Asystenta możesz zmienić na głośniku %1$s"</string>
