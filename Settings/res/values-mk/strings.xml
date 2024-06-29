@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Најди го мојот далечински управувач"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Репродуцирајте звук за да го лоцирате далечинскиот управувач на Google TV ако е изгубен"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"На вашата Google TV има копче што може да го притиснете за да се пушти звук на далечинскиот управувач 30 секунди. Ова функционира само со поддржани далечински управувачи на Google TV.\n\nЗа да го сопрете звукот, притиснете некое копче на далечинскиот управувач."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Кога е вклучено, може да го користите копчето на вашиот уред за да репродуцирате звук за да го лоцирате далечинското. Кога е исклучено, копчево не функционира. Сè уште ќе може да ја користите „Најди го далечинското“ преку други методи."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Репродуцирај звук"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Јачина на звук: %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Може да ја контролирате јачината на звукот на „Помошникот“ на звучникот на %1$s"</string>

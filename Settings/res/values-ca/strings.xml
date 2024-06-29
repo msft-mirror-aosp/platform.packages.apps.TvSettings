@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Troba el meu comandament"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Reprodueix un so per localitzar el teu comandament de Google TV si no el trobes"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Pots prémer un botó que hi ha al dispositiu Google TV per reproduir un so al comandament durant 30 segons. Això només funciona amb els comandaments de Google TV.\n\nPer aturar el so, prem qualsevol botó al comandament."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Quan aquesta opció està activada, pots utilitzar el botó del dispositiu per reproduir un so i localitzar el comandament. Quan està desactivada, aquest botó no funciona. Podràs continuar utilitzant Troba el comandament amb altres mètodes."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reprodueix un so"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Volum: %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Pots controlar el volum de l\'Assistent a l\'altaveu %1$s"</string>
