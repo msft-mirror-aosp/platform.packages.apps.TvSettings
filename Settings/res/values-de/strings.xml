@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Fernbedienung finden"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Du kannst auf deiner Google TV-Fernbedienung einen Ton wiedergeben lassen, wenn du sie verlegt hast"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Du kannst eine Taste an deinem Google TV drücken, um 30 Sekunden lang einen Ton auf deiner Fernbedienung wiedergeben zu lassen. Dafür ist eine Fernbedienung erforderlich, die Google TV unterstützt.\n\nDrücke zum Beenden der Wiedergabe eine beliebige Taste auf deiner Fernbedienung."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Wenn diese Option aktiviert ist, kannst du über die Schaltfläche auf deinem Gerät einen Ton wiedergeben lassen, um deine Fernbedienung zu finden. Ist sie deaktiviert, funktioniert die Schaltfläche nicht. Du kannst „Finde meine Fernbedienung“ jedoch mit anderen Methoden verwenden."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Ton wiedergeben lassen"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s – Lautstärke"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Du kannst die Lautstärke von Assistant über den „%1$s“-Lautsprecher steuern"</string>
