@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Finn fjernkontrollen min"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Spill av en lyd for å finne Google TV-fjernkontrollen hvis du ikke finner den"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV har en knapp du kan trykke på for å spille av en lyd på fjernkontrollen i 30 sekunder. Dette fungerer bare med støttede Google TV-fjernkontroller.\n\nFor å stoppe lyden, trykk på en knapp på fjernkontrollen."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Når funksjonen er på, kan du bruke knappen på enheten til å spille av en lyd for å finne fjernkontrollen. Når funksjonen er av, fungerer ikke denne knappen. Du kan fortsatt bruke finn fjernkontrollen via andre metoder."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spill av lyd"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volum"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Du kan kontrollere Assistent-volumet på %1$s-høyttaleren"</string>
