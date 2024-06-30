@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ਮੇਰਾ ਰਿਮੋਟ ਲੱਭੋ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ਜੇ ਤੁਹਾਡੇ Google TV ਦਾ ਰਿਮੋਟ ਗੁਆਚ ਗਿਆ ਹੈ, ਤਾਂ ਇਸਨੂੰ ਲੱਭਣ ਲਈ ਕੋਈ ਧੁਨੀ ਵਜਾਓ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ਤੁਹਾਡੇ Google TV \'ਤੇ ਇੱਕ ਅਜਿਹਾ ਬਟਨ ਹੁੰਦਾ ਹੈ, ਜਿਸਨੂੰ ਦਬਾ ਕੇ ਤੁਸੀਂ ਆਪਣੇ ਰਿਮੋਟ \'ਤੇ 30 ਸਕਿੰਟਾਂ ਲਈ ਧੁਨੀ ਚਲਾ ਸਕਦੇ ਹੋ। ਇਹ ਸਿਰਫ਼ ਸਮਰਥਿਤ Google TV ਰਿਮੋਟ ਕੰਟਰੋਲਾਂ ਨਾਲ ਕੰਮ ਕਰਦੀ ਹੈ।\n\nਧੁਨੀ ਨੂੰ ਰੋਕਣ ਲਈ, ਆਪਣੇ ਰਿਮੋਟ \'ਤੇ ਕਿਸੇ ਵੀ ਬਟਨ ਨੂੰ ਦਬਾਓ।"</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ਚਾਲੂ ਹੋਣ \'ਤੇ, ਤੁਸੀਂ ਆਪਣਾ ਰਿਮੋਟ ਲੱਭਣ ਲਈ ਕੋਈ ਧੁਨੀ ਵਜਾਉਣ ਵਾਸਤੇ ਆਪਣੇ ਡੀਵਾਈਸ \'ਤੇ ਦਿੱਤੇ ਬਟਨ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹੋ। ਬੰਦ ਹੋਣ \'ਤੇ, ਇਹ ਬਟਨ ਕੰਮ ਨਹੀਂ ਕਰੇਗਾ। ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਹੋਰ ਵਿਧੀਆਂ ਰਾਹੀਂ \'ਮੇਰਾ ਰਿਮੋਟ ਲੱਭੋ\' ਵਿਸ਼ੇਸ਼ਤਾ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕੋਗੇ।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ਧੁਨੀ ਵਜਾਓ"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ਅਵਾਜ਼"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ਤੁਸੀਂ %1$s ਸਪੀਕਰ \'ਤੇ Assistant ਦੀ ਅਵਾਜ਼ ਨੂੰ ਕੰਟਰੋਲ ਕਰ ਸਕਦੇ ਹੋ"</string>
