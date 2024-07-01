@@ -937,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Välj <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> för att fortsätta."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Klar"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Ansluten"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Redan anslutet"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Konfigurationen har sparats"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Version <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Öppna"</string>
@@ -1149,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Hitta min fjärrkontroll"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Spela upp ett ljud för att hitta Google TV-fjärrkontrollen om den kommer bort"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Det finns en knapp på din Google TV som du kan trycka på för att spela upp ett ljud på fjärrkontrollen under 30 sekunder. Detta fungerar bara med Google TV-fjärrkontroller som stöds.\n\nStäng av ljudet genom att trycka på valfri knapp på fjärrkontrollen."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"När Hitta min fjärrkontroll är aktiverat kan du spela upp ett ljud för att hitta Google TV-fjärrkontrollen om den kommer bort."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"När funktionen är aktiverad kan du trycka på knappen på enheten för att spela upp ett ljud så du kan hitta fjärrkontrollen. Knappen fungerar inte om funktionen är inaktiverad. Du kan fortfarande använda Hitta min fjärrkontroll på andra sätt."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spela upp ljud"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volym"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Du kan styra volymen för assistenten på %1$s högtalare"</string>

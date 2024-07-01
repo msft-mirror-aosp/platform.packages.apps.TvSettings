@@ -937,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"തുടരാൻ <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> തിരഞ്ഞെടുക്കുക."</string>
     <string name="label_done_key" msgid="8576286462300373440">"പൂർത്തിയായി"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"കണക്‌റ്റുചെയ്‌തു"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ഇതിനകം കണക്റ്റ് ചെയ്തിട്ടുണ്ട്"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"സംരക്ഷിച്ചു"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"പതിപ്പ് <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"തുറക്കുക"</string>
@@ -1149,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"എന്റെ റിമോട്ട് കണ്ടെത്തൂ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"നിങ്ങളുടെ Google TV റിമോട്ട് എവിടെയെങ്കിലും വച്ച് മറന്നെങ്കിൽ അത് കണ്ടെത്താൻ ഒരു ശബ്ദം പ്ലേ ചെയ്യുക"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"നിങ്ങളുടെ റിമോട്ടിൽ 30 സെക്കൻഡ് നേരത്തേക്ക് ശബ്‌ദം പ്ലേ ചെയ്യാൻ നിങ്ങളുടെ Google TV-യിൽ ഒരു ബട്ടൺ ഉണ്ട്. പിന്തുണയുള്ള Google TV റിമോട്ട് കൺട്രോളുകളിൽ മാത്രമേ ഇത് പ്രവർത്തിക്കൂ.\n\nശബ്ദം നിർത്താൻ, നിങ്ങളുടെ റിമോട്ടിലെ ഏതെങ്കിലും ബട്ടൺ അമർത്തുക."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'എന്റെ റിമോട്ട് കണ്ടെത്തുക\' പ്രവർത്തനക്ഷമമാക്കിയിരിക്കുമ്പോൾ, Google TV റിമോട്ട് എവിടെയെങ്കിലും വച്ച് മറന്നെങ്കിൽ അത് കണ്ടെത്താൻ ഒരു ശബ്ദം പ്ലേ ചെയ്യാം."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ഓണായിരിക്കുമ്പോൾ, ഉപകരണത്തിലെ ബട്ടൺ ഉപയോഗിച്ച് ശബ്‌ദം പ്ലേ ചെയ്യുന്നതിലൂടെ റിമോട്ട് കണ്ടെത്താം. ഓഫായിരിക്കുമ്പോൾ ഈ ബട്ടൺ ഉപയോഗിക്കാനാകില്ല. അപ്പോഴും മറ്റ് മാർഗങ്ങളിലൂടെ \'എന്റെ റിമോട്ട് കണ്ടെത്തൂ\' ഉപയോഗിക്കാനാകും."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ശബ്‌ദം പ്ലേ ചെയ്യുക"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s വോളിയം"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s സ്‌പീക്കറിലെ Assistant വോളിയം നിങ്ങൾക്ക് നിയന്ത്രിക്കാനാകും"</string>

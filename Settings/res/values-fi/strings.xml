@@ -937,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Jatka valitsemalla <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Valmis"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Yhteys muodostettu"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Verkko on jo yhdistetty"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Tallentaminen onnistui"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versio <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Avaa"</string>
@@ -1149,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Etsi kaukosäädin"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Jos et löydä Google TV ‑kaukosäädintä, etsi se toistamalla äänimerkki"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV:ssä on painike, jota painamalla kaukosäädin toistaa äänen 30 sekunnin ajan. Tämä toimii vain tuetuilla Google TV ‑kaukosäätimillä.\n\nLopeta äänen toistaminen painamalla kaukosäätimestä mitä tahansa painiketta."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kun Etsi kaukosäätimeni on käytössä, voit etsiä Google TV ‑kaukosäätimen toistamalla äänimerkin."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Kun asetus on päällä, voit etsiä kaukosäätimen toistamalla äänen laitteen painikkeella. Kun asetus on pois päältä, painike ei toimi. Voit kuitenkin käyttää Löydä kaukosäädin ‑ominaisuutta muilla tavoilla."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Toista äänimerkki"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Äänenvoimakkuus (%1$s)"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Voit muuttaa Assistantin äänenvoimakkuutta kaiuttimella (%1$s)"</string>
