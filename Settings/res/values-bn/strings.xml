@@ -937,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"চালিয়ে যেতে <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> বেছে নিন।"</string>
     <string name="label_done_key" msgid="8576286462300373440">"করা হয়ে গেছে"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"সফলভাবে সংযুক্ত হয়েছে"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"আগে থেকে কানেক্ট করা আছে"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"সফলভাবে সংরক্ষণ করা হয়েছে"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"সংস্করণ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"খুলুন"</string>
@@ -1149,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"আমার রিমোট খুঁজুন"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"আপনার Google TV-এর রিমোট হারিয়ে গেলে, সেটি খুঁজতে সাউন্ড চালান"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"আপনার Google TV-তে একটি বোতাম আছে যা আপনি ৩০ সেকেন্ডের জন্য সাউন্ড প্লে করতে নিজের রিমোট থেকে পুশ করতে পারেন। এটি শুধুমাত্র মানানসই Google TV রিমোট কন্ট্রোলের সাথে কাজ করে।\n\nসাউন্ড বন্ধ করতে, আপনার রিমোটের বোতাম প্রেস করুন।"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'আমার রিমোট খুঁজুন\' সুবিধা চালু থাকাকালীন, আপনার Google TV-এর রিমোট হারিয়ে গেলে, সেটি খুঁজে পেতে সাউন্ড চালাতে পারবেন।"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"চালু করা থাকলে, আপনার রিমোট খোঁজার জন্য ডিভাইসে থাকা বোতামটি ব্যবহার করে আপনি সাউন্ড চালাতে পারবেন। বন্ধ করা থাকলে, এই বোতামটি কাজ করবে না। আপনি অন্য পদ্ধতি ব্যবহার করেও আমার \'রিমোট খোঁজো\' ফিচারটি ব্যবহার করতে পারবেন।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"সাউন্ড চালান"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ভলিউম"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"আপনি %1$s স্পিকারে Assistant ভলিউম কন্ট্রোল করতে পারবেন"</string>
