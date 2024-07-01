@@ -185,4 +185,12 @@
 
     <!-- Default volume of the device. -->
     <string name="config_default_device_volume"/>
+
+    <!-- Locale codes not supported by the product. -->
+    <string-array name="config_unsupported_locales" translatable="false">
+        <!--
+            <item>language1-COUNTRY1</item>
+            <item>language2-COUNTRY2</item>
+        -->
+    </string-array>
 </resources>

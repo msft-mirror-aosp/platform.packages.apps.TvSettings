@@ -937,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ચાલુ રાખવા માટે <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> પસંદ કરો."</string>
     <string name="label_done_key" msgid="8576286462300373440">"થઈ ગયું"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"સફળતાપૂર્વક કનેક્ટ થયું"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"પહેલેથી કનેક્ટેડ છે"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"સફળતાપૂર્વક સચવાઈ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"વર્ઝન <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ખોલો"</string>
@@ -1149,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"મારું રિમોટ શોધો"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"જો Google TVનું તમારું રિમોટ ખોવાઈ ગયું હોય, તો તેને શોધવા માટે સાઉન્ડ વગાડો"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"તમારા Google TV પર એક બટન છે જેને તમે તમારા રિમોટ પર 30 સેકન્ડ માટે સાઉન્ડ ચલાવવા માટે પુશ કરી શકો છો. આ Google TVના માત્ર સપોર્ટેડ રિમોટ કન્ટ્રોલ સાથે કામ કરે છે.\n\nસાઉન્ડ બંધ કરવા માટે, તમારા રિમોટ પરનું કોઈપણ બટન દબાવો."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'મારું રિમોટ શોધો\' સુવિધા ચાલુ કરેલી હોય, ત્યારે જો Google TVનું તમારું રિમોટ ખોવાઈ ગયું હોય, તો તમે તેને શોધવા માટે કોઈ સાઉન્ડ વગાડી શકો છો."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"જ્યારે ચાલુ હોય, ત્યારે તમે તમારા રિમોટને શોધવા માટે સાઉન્ડ વગાડવા માટે તમારા ડિવાઇસ પરના બટનનો ઉપયોગ કરી શકો છો. જ્યારે બંધ હોય, ત્યારે આ બટન કામ કરશે નહીં. તમે હજી પણ અન્ય પદ્ધતિઓ દ્વારા \'મારું રિમોટ શોધો\' સુવિધાનો ઉપયોગ કરી શકશો."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"સાઉન્ડ વગાડો"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s વૉલ્યૂમ"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"તમે %1$s સ્પીકર પર Assistantના વૉલ્યૂમને નિયંત્રિત કરી શકો છો"</string>
