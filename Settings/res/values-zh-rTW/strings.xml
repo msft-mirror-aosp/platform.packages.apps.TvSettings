@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"剖析 GPU 轉譯"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"啟用追蹤項目"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"不要保留活動"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"背景程序限制"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"顯示所有無回應程式"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"停用休眠功能"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"僅用於 DRM 內容"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"尋找我的遙控器"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"讓忘記放在何處的 Google TV 遙控器發出音效，以便找出裝置"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV 有一個按鈕，按下即可讓遙控器播放音效 30 秒。這項功能僅適用於支援的 Google TV 遙控器。\n\n如要停止播放音效，請按下遙控器上的任一按鈕。"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"啟用「尋找我的遙控器」後，你可以讓忘記放在何處的 Google TV 遙控器發出音效，以便找出裝置。"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"如果開啟，你就能使用裝置上的按鈕播放音效，以利找出遙控器。如果關閉，則無法使用這個按鈕，但你仍可透過其他方法使用「尋找我的遙控器」。"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"播放音效"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"「%1$s」的音量"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"你可以控制「%1$s」揚聲器的 Google 助理音量"</string>

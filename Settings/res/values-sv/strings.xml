@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Profilens GPU-rendering"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Aktivera spår"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Behåll inte aktiviteter"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Begränsa bakgrundsprocess"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Visa alla som inte svarar"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Inaktivera viloläge"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Använd endast för DRM-innehåll"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Hitta min fjärrkontroll"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Spela upp ett ljud för att hitta Google TV-fjärrkontrollen om den kommer bort"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Det finns en knapp på din Google TV som du kan trycka på för att spela upp ett ljud på fjärrkontrollen under 30 sekunder. Detta fungerar bara med Google TV-fjärrkontroller som stöds.\n\nStäng av ljudet genom att trycka på valfri knapp på fjärrkontrollen."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"När Hitta min fjärrkontroll är aktiverat kan du spela upp ett ljud för att hitta Google TV-fjärrkontrollen om den kommer bort."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"När funktionen är aktiverad kan du trycka på knappen på enheten för att spela upp ett ljud så du kan hitta fjärrkontrollen. Knappen fungerar inte om funktionen är inaktiverad. Du kan fortfarande använda Hitta min fjärrkontroll på andra sätt."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spela upp ljud"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volym"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Du kan styra volymen för assistenten på %1$s högtalare"</string>
