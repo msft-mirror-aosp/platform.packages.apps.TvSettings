@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"GPU рендеринг профили"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Протоколдорду иштетүү"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Аракеттер сакталбасын"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Фондогу процесстерди чектөө"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Бардык ANR\'лер көрүнсүн"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Көшүүнү өчүрүп коюу"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"DRM мазмуну үчүн гана колдонулсун"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Пультумду табуу"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV\'нин пультун табуу үчүн үн чыгарыңыз"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV\'де баскыч бар, аны бассаңыз, пульттан 30 секунд бою үн ойнотулат. Бул колдоого алынган Google TV\'нин пультунда гана иштейт.\n\nҮнүн басуу үчүн пульттагы бир баскычты басыңыз."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Пультумду табуу функциясы иштетилсе, Google TV\'нин пультун табуу үчүн анын үнүн чыгарууга болот."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Күйүп турганда түзмөгүңүздөгү баскыч аркылуу үн чыгарып, пультту таба аласыз. Өчүп турганда бул баскыч иштебейт. \"Пульт кайда\" функциясын башка жолдор менен колдоно бересиз."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Үнүн чыгаруу"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s түзмөгүнүн үн көлөмү"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s динамигиндеги Жардамчынын үнүн катуулатып/акырындата аласыз"</string>

@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Profil redare cu GPU"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Activează monitorizările"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Nu păstra activitățile"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Limita proceselor de fundal"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Afișează toate elementele ANR"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Dezactivează trecerea la inactivitate"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Utilizează doar pentru conținut DRM"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Găsește-mi telecomanda"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Redă un sunet ca să-ți găsești telecomanda Google TV dacă ai pierdut-o"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Există un buton pe Google TV pe care îl poți apăsa ca să redai un sunet pe telecomandă timp de 30 de secunde. Opțiunea funcționează numai pentru telecomenzile Google TV acceptate.\n\nCa să oprești sunetul, apasă orice buton de pe telecomandă."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Când se activează funcția Găsește-mi telecomanda, poți reda un sunet ca să-ți găsești telecomanda Google TV dacă ai pierdut-o."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Când opțiunea este activată, poți folosi butonul dispozitivului ca să redai un sunet pentru a găsi telecomanda. Când opțiunea este dezactivată, butonul nu va funcționa. Vei putea în continuare să folosești funcția Găsește-mi telecomanda prin alte metode."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Redă sunetul"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Volumul pentru %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Poți controla volumul Asistentului la difuzorul %1$s"</string>

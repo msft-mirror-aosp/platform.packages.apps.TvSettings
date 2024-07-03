@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"GPU 렌더링 프로파일"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"추적 사용"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"활동 보관 안함"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"백그라운드 프로세스 수 제한"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"모든 ANR 표시"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"절전 모드 사용 안함"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"DRM 콘텐츠만 사용"</string>
@@ -936,8 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"계속하려면 <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> 아이콘을 선택하세요."</string>
     <string name="label_done_key" msgid="8576286462300373440">"완료"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"연결되었습니다"</string>
-    <!-- no translation found for wifi_setup_already_connected (2135251990280273625) -->
-    <skip />
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"이미 연결됨"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"저장되었습니다."</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"버전 <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"열기"</string>
@@ -1148,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"내 리모컨 찾기"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV 리모컨을 잃어버린 경우 소리를 재생하여 위치 찾기"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV에 있는 버튼을 누르면 리모컨에서 30초 동안 소리가 울립니다. 이 기능은 지원되는 Google TV 리모컨에서만 작동합니다.\n\n소리 재생을 중지하려면 리모컨의 아무 버튼이나 누르세요."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"내 리모컨 찾기를 사용 설정하면 리모컨을 어디 두었는지 찾을 수 없을 때 소리를 재생하여 Google TV 리모컨을 찾을 수 있습니다."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"켜져 있으면 기기의 버튼으로 소리를 재생하여 리모컨을 찾을 수 있습니다. 꺼져 있으면 버튼이 작동하지 않습니다. 다른 방법으로도 \'리모컨 찾기\'를 사용할 수 있습니다."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"소리 재생"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s 볼륨"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s 스피커의 어시스턴트 볼륨을 제어할 수 있습니다"</string>

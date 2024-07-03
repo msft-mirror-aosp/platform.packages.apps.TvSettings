@@ -88,8 +88,8 @@
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi е исклучено"</string>
     <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Исклучете го етернетот за да користите Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Скенирањето е секогаш достапно"</string>
-    <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Дозволи услугата за локација на Google и други апликации да скенираат за мрежи, дури и кога Wi-Fi е исклучена"</string>
-    <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Скенирањето е секогаш достапно, дозволете услугата според локација на Google и други апликации да скенираат мрежи, дури и кога Wi-Fi е исклучено"</string>
+    <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Дозволи локациската услуга на Google и други апликации да скенираат за мрежи, дури и кога Wi-Fi е исклучена"</string>
+    <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Скенирањето е секогаш достапно, дозволете локациската услуга на Google и други апликации да скенираат мрежи, дури и кога Wi-Fi е исклучено"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Поврзете се на мрежа"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Дијагностика на мрежа"</string>
@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Прикажување профил на GPU"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Овозможи траги"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Не чувај активности"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Граница на процес во заднина"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Прикажи ги сите ANR"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Оневозможи режим на штедење"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Користи само за DRM содржина"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Најди го мојот далечински управувач"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Репродуцирајте звук за да го лоцирате далечинскиот управувач на Google TV ако е изгубен"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"На вашата Google TV има копче што може да го притиснете за да се пушти звук на далечинскиот управувач 30 секунди. Ова функционира само со поддржани далечински управувачи на Google TV.\n\nЗа да го сопрете звукот, притиснете некое копче на далечинскиот управувач."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Кога е овозможена „Најди го мојот далечински управувач“, може да репродуцирате звук за да го лоцирате далечинскиот управувач на Google TV ако е изгубен."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Кога е вклучено, може да го користите копчето на вашиот уред за да репродуцирате звук за да го лоцирате далечинското. Кога е исклучено, копчево не функционира. Сè уште ќе може да ја користите „Најди го далечинското“ преку други методи."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Репродуцирај звук"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Јачина на звук: %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Може да ја контролирате јачината на звукот на „Помошникот“ на звучникот на %1$s"</string>
