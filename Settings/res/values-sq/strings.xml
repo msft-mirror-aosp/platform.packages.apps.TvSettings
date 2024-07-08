@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Gjej telekomandën time"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Luaj një tingull për të gjetur telekomandën e Google TV nëse ke harruar se ku e ke vendosur"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Ka një buton në Google TV që mund ta shtypësh për të luajtur një tingull në telekomandë për 30 sekonda. Kjo funksionon vetëm me telekomanda të mbështetura të Google TV.\n\nPër të ndaluar tingullin, shtyp cilindo buton në telekomandë."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Kur kjo është aktive, mund të përdorësh butonin në pajisjen tënde për të luajtur një tingull për të lokalizuar telekomandën tënde. Kur kjo është joaktive, ky buton nuk do të funksionojë. Do të mund ta përdorësh përsëri \"Gjej telekomandën\" nëpërmjet metodave të tjera."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Luaj tingullin"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Volumi i %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Mund ta kontrollosh volumin e \"Asistentit\" në altoparlantin e %1$s"</string>
