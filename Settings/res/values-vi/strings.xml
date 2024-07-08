@@ -731,7 +731,7 @@
     <string name="captions_textopacity" msgid="6055602491649526307">"Độ mờ văn bản"</string>
     <string name="captions_windowshow" msgid="6002072054703167886">"Hiển thị cửa sổ"</string>
     <string name="captions_windowcolor" msgid="7460430328878876648">"Màu cửa sổ"</string>
-    <string name="captions_windowopacity" msgid="8645082670322789314">"Độ mờ cửa sổ"</string>
+    <string name="captions_windowopacity" msgid="8645082670322789314">"Độ mờ của cửa sổ"</string>
     <string name="captions_style_0" msgid="169414884289770256">"Chữ trắng trên nền đen"</string>
     <string name="captions_style_1" msgid="8236052739817535538">"Chữ đen trên nền trắng"</string>
     <string name="captions_style_2" msgid="456353889540431910">"Chữ vàng trên nền đen"</string>

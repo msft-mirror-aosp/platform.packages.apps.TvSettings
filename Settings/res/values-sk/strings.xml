@@ -272,7 +272,7 @@
     <string name="bluetooth_disconnect_confirm" msgid="1445977623973613581">"Odpojiť od zariadenia %1$s"</string>
     <string name="bluetooth_rename_action_title" msgid="4200419902722729907">"Premenovať"</string>
     <string name="bluetooth_rename" msgid="7791922876280337194">"Premenovať pripojené zariadenie"</string>
-    <string name="bluetooth_forget_action_title" msgid="2351140076684719196">"Odstrániť"</string>
+    <string name="bluetooth_forget_action_title" msgid="2351140076684719196">"Zabudnúť"</string>
     <string name="bluetooth_forget_confirm" msgid="5175414848391021666">"Zabudnúť zariadenie %1$s"</string>
     <string name="bluetooth_serial_number_label" msgid="6639294603220209971">"Adresa Bluetooth"</string>
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Pripojené"</string>
@@ -598,7 +598,7 @@
     <string name="storage_wizard_move_app_progress_description" msgid="7673347796805764888">"Úložisko počas presunu neodoberajte.\nAplikácia <xliff:g id="APPNAME">%1$s</xliff:g> bude v tomto zariadení k dispozícii až po dokončení presunu."</string>
     <string name="storage_wizard_forget_confirm_title" msgid="3709482471888830896">"Zabudnúť úložisko zariadenia?"</string>
     <string name="storage_wizard_forget_confirm_description" msgid="5896860042525566767">"Po stlačení možnosti Odstrániť budú všetky údaje uložené na tejto jednotke navždy odstránené. Chcete pokračovať?"</string>
-    <string name="storage_wizard_forget_action" msgid="5609631662522950596">"Odstrániť"</string>
+    <string name="storage_wizard_forget_action" msgid="5609631662522950596">"Zabudnúť"</string>
     <string name="storage_new_title" msgid="4768955281180255038">"Disk USB je pripojený"</string>
     <string name="storage_new_action_browse" msgid="3355241742574072658">"Prehliadať"</string>
     <string name="storage_new_action_adopt" msgid="6809707961170895964">"Nastaviť ako úložisko zariadenia"</string>
