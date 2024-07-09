@@ -1010,7 +1010,7 @@
   <string-array name="rooms">
     <item msgid="6590829789532602097">"Android TV"</item>
     <item msgid="1140506340411482365">"Televize v obýváku"</item>
-    <item msgid="6448060889026244632">"Televize v dětském pokoji"</item>
+    <item msgid="6448060889026244632">"Televize ve společné místnosti"</item>
     <item msgid="3336274213215419228">"Televize v ložnici"</item>
   </string-array>
     <string name="custom_room" msgid="6798144004583173563">"Zadat vlastní název…"</string>

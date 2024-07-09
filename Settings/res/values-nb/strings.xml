@@ -1093,7 +1093,7 @@
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"Ringing er ikke tillatt"</string>
     <string name="disabled_by_policy_title_sms" msgid="5721045390560951358">"SMS er ikke tillatt"</string>
     <string name="disabled_by_policy_title_camera" msgid="6576557964422257426">"Kameraet er ikke tillatt"</string>
-    <string name="disabled_by_policy_title_screen_capture" msgid="5774035841010091253">"Skjermdump er ikke tillatt"</string>
+    <string name="disabled_by_policy_title_screen_capture" msgid="5774035841010091253">"Skjermbilde er ikke tillatt"</string>
     <string name="disabled_by_policy_title_suspend_packages" msgid="6500185610058872758">"Kan ikke åpne denne appen"</string>
     <string name="default_admin_support_msg" msgid="7913455019068370350">"Hvis du lurer på noe, kan du kontakte IT-administratoren din"</string>
     <string name="admin_support_more_info" msgid="9053232166115098434">"Mer informasjon"</string>
