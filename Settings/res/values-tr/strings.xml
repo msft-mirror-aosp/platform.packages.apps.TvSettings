@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Profil GPU oluşturma"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"İzleri etkinleştir"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Etkinlikleri saklama"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Arka plan işlem sınırı"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Tüm ANR\'leri göster"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Uyku modunu devre dışı bırak"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Yalnızca DRM içeriği için kullanın"</string>
@@ -1102,7 +1103,7 @@
     <string name="remove_managed_profile_label" msgid="8950011141359605612">"İş profilini kaldır"</string>
     <string name="active_device_admin_msg" msgid="185537304726228624">"Cihaz yönetimi uygulaması"</string>
     <string name="remove_device_admin" msgid="2623866073546295104">"Bu cihaz yönetimi uygulamasını devre dışı bırak"</string>
-    <string name="uninstall_device_admin" msgid="6301368408620948266">"Uygulamanın yüklemesini kaldır"</string>
+    <string name="uninstall_device_admin" msgid="6301368408620948266">"Uygulamayı kaldır"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"Devre dışı bırak ve yüklemesini kaldır"</string>
     <string name="select_device_admin_msg" msgid="8475934459999710332">"Cihaz yönetimi uygulamaları"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"Cihaz yönetimi uygulaması etkinleştirilsin mi?"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Uzaktan kumandamı bul"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV uzaktan kumandanızın nerede olduğunu hatırlamıyorsanız ses çaldırarak yerini bulabilirsiniz"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV\'nizde, uzaktan kumandanızda 30 saniye boyunca ses çalmak için basabileceğiniz bir düğme mevcuttur. Bu işlem yalnızca desteklenen Google TV uzaktan kumandalarında çalışır.\n\nSes çalmayı durdurmak için uzaktan kumandanızda herhangi bir düğmeye basın."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Uzaktan kumandamı bul özelliği etkinleştirildiğinde Google TV uzaktan kumandanızın nerede olduğunu hatırlamıyorsanız ses çaldırarak yerini bulabilirsiniz."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Etkinleştirildiğinde ses çalarak uzaktan kumandanızı bulmak için cihazınızdaki düğmeyi kullanabilirsiniz. Devre dışı bırakıldığında bu düğme çalışmaz. Uzaktan kumandamı bul özelliğini başka yöntemlerle kullanmaya devam edebilirsiniz."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Ses çaldır"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ses düzeyi"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s hoparlöründe Asistan\'ın ses düzeyin kontrol edebilirsiniz"</string>

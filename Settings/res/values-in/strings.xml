@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Rendering GPU profil"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Mengaktifkan jejak"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Jangan simpan kegiatan"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Batas proses di belakang"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Menampilkan semua ANR"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Menonaktifkan mode tidur"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Digunakan untuk konten DRM saja"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Temukan remote saya"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Memutar suara untuk menemukan lokasi remote Google TV jika Anda lupa tempat menaruhnya"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Terdapat tombol di Google TV yang dapat Anda tekan untuk memutar suara di remote Anda selama 30 detik. Fitur ini hanya berfungsi pada remote control Google TV yang didukung.\n\nUntuk mematikan suara, tekan tombol apa pun di remote."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Saat Temukan remote saya diaktifkan, Anda dapat memutar suara untuk menemukan lokasi remote Google TV jika Anda lupa tempat menaruhnya."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Saat aktif, Anda dapat menggunakan tombol ini di perangkat untuk memainkan suara guna menemukan lokasi remote Anda. Saat nonaktif, tombol ini tidak akan berfungsi. Anda masih tetap dapat menggunakan Temukan remote saya melalui metode lainnya."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Putar suara"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Anda dapat mengontrol volume Asisten di speaker %1$s"</string>

@@ -511,7 +511,7 @@
     <string name="wifi_gateway_description" msgid="8902481147103929271">"Idatzi balio duen IP helbide bat edo utzi hutsik.\nAdibidez: <xliff:g id="ID_1">192.168.1.1</xliff:g>"</string>
     <string name="wifi_network_prefix_length_description" msgid="2670994968279018896">"Idatzi balio duen karaktere kopuruko sare-aurrizkia.\nAdibidez: <xliff:g id="ID_1">24</xliff:g>"</string>
     <string name="proxy_error_invalid_host" msgid="5629893736174170157">"Ostalari-izenak ez du balio"</string>
-    <string name="proxy_error_invalid_exclusion_list" msgid="1762079966901078116">"Salbuespen-zerrendak ez du balio. Idatzi kanpo utzitako domeinuen zerrenda, komaz bereizita."</string>
+    <string name="proxy_error_invalid_exclusion_list" msgid="1762079966901078116">"Bazterketa-zerrendak ez du balio. Idatzi baztertzeko domeinuen zerrenda, komaz bereizita."</string>
     <string name="proxy_error_empty_port" msgid="692020249267351015">"Ataka eremuak ezin du hutsik egon"</string>
     <string name="proxy_error_empty_host_set_port" msgid="5347712018244852847">"Ostalaria eremua hutsik badago, utzi Ataka eremua hutsik"</string>
     <string name="proxy_error_invalid_port" msgid="5307010810664745294">"Atakak ez du balio"</string>
@@ -543,7 +543,7 @@
     <string name="storage_media_cache_usage" msgid="6397941751551207630">"Cachean gordetako datuak"</string>
     <string name="storage_eject" msgid="3268870873944951902">"Atera"</string>
     <string name="storage_format" msgid="5360900929128087085">"Ezabatu eduki guztia eta formateatu"</string>
-    <string name="storage_format_as_private" msgid="77945551149326052">"Ezabatu dena eta formateatu gailuaren memoria gisa"</string>
+    <string name="storage_format_as_private" msgid="77945551149326052">"Ezabatu dena eta formateatu gailuko biltegi gisa"</string>
     <string name="storage_format_as_public" msgid="6745112917895223463">"Ezabatu dena eta formateatu memoria aldagarri gisa"</string>
     <string name="storage_format_for_private" msgid="5380138334184923252">"Formateatu memoria-unitate gisa"</string>
     <string name="storage_not_connected" msgid="4327902652748552794">"Konektatu gabe"</string>
@@ -570,7 +570,7 @@
     <string name="storage_unmount_failure_cant_find" msgid="2890335341404932068">"Ezin izan da aurkitu kanporatu beharreko unitatea"</string>
     <string name="storage_format_success" msgid="5599914756144012286">"Formateatu da <xliff:g id="NAME">%1$s</xliff:g> memoria-unitatea"</string>
     <string name="storage_format_failure" msgid="5619442934314277332">"Ezin izan da formateatu <xliff:g id="NAME">%1$s</xliff:g> memoria-unitatea"</string>
-    <string name="storage_wizard_format_as_private_title" msgid="7985715762649933211">"Formateatu gailuaren memoria gisa"</string>
+    <string name="storage_wizard_format_as_private_title" msgid="7985715762649933211">"Formateatu gailuko biltegi gisa"</string>
     <string name="storage_wizard_format_as_private_description" msgid="6143406934742456154">"Segurua izan dadin, formateatu egin behar da USB bidezko unitatea. Formateatu ondoren, unitateak gailu honekin bakarrik funtzionatuko du. Formateatzean, unitateko eduki guztia ezabatzen da. Daturik galdu nahi ez baduzu, egin haien babeskopia."</string>
     <string name="storage_wizard_format_as_public_title" msgid="3546915348149438389">"Ezabatu eduki guztia eta formateatu"</string>
     <string name="storage_wizard_format_as_public_description" msgid="5849129772499352597">"Formateatu ondoren, beste gailu batzuetan erabili ahal izango duzu USB bidezko unitate hau. Datu guztiak ezabatu egingo dira; hortaz, lehendabizi, datuen babeskopia egitea gomendatzen dugu. Horretarako, aplikazioak gailuaren beste memoria batera eraman ditzakezu."</string>
@@ -784,7 +784,7 @@
     <string name="system_bt_hci_log" msgid="1891838112637932603">"Bluetooth HCI interfazeko saio-hasiera"</string>
     <string name="system_email_address" msgid="3725494874473757217">"Helbide elektronikoa"</string>
     <string name="system_usb_debugging" msgid="2158285492172755923">"USB bidezko arazketa"</string>
-    <string name="system_allow_mock_locations" msgid="2483106887711851466">"Baimendu kokapen faltsuak sortzea"</string>
+    <string name="system_allow_mock_locations" msgid="2483106887711851466">"Baimendu asmatutako kokapenak sortzea"</string>
     <string name="system_select_debug_app" msgid="6200987902307533721">"Hautatu arazteko aplikazioa"</string>
     <string name="system_wait_for_debugger" msgid="5715878008542589060">"Itxaron araztaileari"</string>
     <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"Egiaztatu USB bidezko aplikazioak"</string>
@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Egin GPU errendatze-profila"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Gaitu aztarnak"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Ez mantendu jarduerak"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Atzeko planoko prozesuen muga"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Erakutsi ANR guztiak"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Desgaitu inaktibo ezartzeko aukera"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Erabili DRM edukirako soilik"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Bilatu urruneko kontrolagailua"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Erreproduzitu soinu bat Google TV-ren urruneko kontrolagailua aurkitzeko hura galtzen baduzu"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV-ak daukan botoi jakin bat sakatzen baduzu, urruneko kontrolagailuan soinu bat erreproduzituko da 30 segundoz. Google TV-ren urruneko kontrolagailu bateragarriekin soilik funtzionatzen du horrek.\n\nSoinua erreproduzitzeari uzteko, sakatu urruneko kontrolagailuaren edozein botoi."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\"Bilatu urruneko kontrolagailua\" gaituta dagoenean, soinu bat erreproduzi dezakezu Google TV-ren urruneko kontrolagailua aurkitzeko, betiko tokian ez badago."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Aktibatuta badago, gailuko botoia erabil dezakezu urruneko kontrolagailua aurkitzeko soinu bat erreproduzitzeko. Desaktibatuta badago, botoiak ez du funtzionatuko. Hala ere, beste metodo batzuen bidez erabili ahalko duzu Bilatu urruneko kontrolagailua."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Erreproduzitu soinua"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s gailuaren bolumena"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s bozgorailuko Laguntzailea zerbitzuaren bolumena kontrola dezakezu"</string>
