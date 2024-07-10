@@ -16,6 +16,7 @@
 
 package com.android.tv.settings.connectivity;
 
+import static com.android.tv.settings.device.eco.EnergyModesHelper.MODE_HIGH_ENERGY;
 import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_CLASSIC;
 import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_TWO_PANEL;
 import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_VENDOR;
@@ -61,6 +62,9 @@ import com.android.tv.settings.MainFragment;
 import com.android.tv.settings.R;
 import com.android.tv.settings.RestrictedPreferenceAdapter;
 import com.android.tv.settings.SettingsPreferenceFragment;
+import com.android.tv.settings.device.eco.EnergyModesActivity;
+import com.android.tv.settings.device.eco.EnergyModesHelper;
+import com.android.tv.settings.device.eco.EnergyModesHelper.EnergyMode;
 import com.android.tv.settings.basic.BasicModeFeatureProvider;
 import com.android.tv.settings.connectivity.util.ThreadNetworkHelper;
 import com.android.tv.settings.library.network.AccessPoint;
@@ -78,7 +82,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
-
 /**
  * Fragment for controlling network connectivity
  */
@@ -114,10 +117,25 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
                 @Override
                 public boolean onPreferenceChange(Preference preference, Object newValue) {
                     Boolean isChecked = (Boolean) newValue;
+
                     if (isChecked) {
-                        mThreadNetworkHelperOptional.get().setEnabled(true);
-                        logToggleInteracted(
-                                TvSettingsEnums.NETWORK_T_N, true);
+                        EnergyModesHelper energyModesHelper = new EnergyModesHelper(getContext());
+                        EnergyMode currentEnergyMode = energyModesHelper.updateEnergyMode();
+                        if (currentEnergyMode == null) {
+                            mThreadNetworkHelperOptional.get().setEnabled(true);
+                            logToggleInteracted(
+                                    TvSettingsEnums.NETWORK_T_N, true);
+                        } else {
+                            if (energyModesHelper.getEnergyMode(currentEnergyMode.identifierRes)
+                                    != MODE_HIGH_ENERGY) {
+                                enableThreadNetworkIntentLauncher
+                                        .launch(getEnableThreadNetworkConfirmationIntent());
+                            } else {
+                                mThreadNetworkHelperOptional.get().setEnabled(true);
+                                logToggleInteracted(
+                                        TvSettingsEnums.NETWORK_T_N, true);
+                            }
+                        }
                     } else {
                         disableThreadNetworkIntentLauncher
                                 .launch(getDisableThreadNetworkConfirmationIntent());
@@ -133,20 +151,33 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
                     mThreadNetworkPref.setChecked(enabled);
                 }
             };
+    private final ActivityResultLauncher<Intent> enableThreadNetworkIntentLauncher =
+            registerForActivityResult(
+                    new ActivityResultContracts.StartActivityForResult(),
+                    new ActivityResultCallback<ActivityResult>() {
+                        @Override
+                        public void onActivityResult(ActivityResult result) {
+                            if (result.getResultCode() == Activity.RESULT_OK) {
+                                Intent energyModesIntent = new Intent(getContext(),
+                                        EnergyModesActivity.class);
+                                startActivity(energyModesIntent);
+                            }
+                        }
+                    });
     private final ActivityResultLauncher<Intent> disableThreadNetworkIntentLauncher =
             registerForActivityResult(
                     new ActivityResultContracts.StartActivityForResult(),
                     new ActivityResultCallback<ActivityResult>() {
                         @Override
                         public void onActivityResult(ActivityResult result) {
-                        if (result.getResultCode() == Activity.RESULT_OK) {
-                            mThreadNetworkHelperOptional.get().setEnabled(false);
+                            if (result.getResultCode() == Activity.RESULT_OK) {
+                                mThreadNetworkHelperOptional.get().setEnabled(false);
                                 logToggleInteracted(
                                         TvSettingsEnums.NETWORK_T_N, false);
 
+                            }
                         }
-                    }
-            });
+                    });
 
     private ConnectivityListener mConnectivityListener;
     private WifiManager mWifiManager;
@@ -646,6 +677,20 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
                 .setPositiveButton(getContext()
                         .getString(
                                 R.string.wifi_settings_thread_network_confirmation_button_confirm))
+                .setNegativeButton(getContext().getString(R.string.settings_cancel))
+                .build();
+        return FullScreenConfirmationActivity.getIntent(getContext(), args);
+    }
+
+    private Intent getEnableThreadNetworkConfirmationIntent() {
+        Bundle args = new FullScreenDialogFragment.DialogBuilder()
+                .setIcon(Icon.createWithResource(getContext(), R.drawable.ic_info_outline))
+                .setTitle(getContext()
+                        .getString(R.string.wifi_settings_thread_network_energy_title))
+                .setMessage(getContext()
+                        .getString(R.string.wifi_settings_thread_network_energy_message))
+                .setPositiveButton(getContext()
+                        .getString(R.string.wifi_settings_thread_network_button_change_energy_mode))
                 .setNegativeButton(getContext().getString(R.string.settings_cancel))
                 .build();
         return FullScreenConfirmationActivity.getIntent(getContext(), args);
