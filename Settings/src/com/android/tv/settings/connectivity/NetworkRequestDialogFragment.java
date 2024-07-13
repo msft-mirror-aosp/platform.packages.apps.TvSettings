@@ -117,7 +117,8 @@ public class NetworkRequestDialogFragment extends ObservableDialogFragment imple
         mDialogAdapter = new AccessPointAdapter(context,
                 R.layout.preference_access_point, getAccessPointList());
 
-        final AlertDialog.Builder builder = new AlertDialog.Builder(context)
+        final AlertDialog.Builder builder = new AlertDialog.Builder(context,
+                    android.R.style.Theme_Material_Light_Dialog_Alert)
                 .setCustomTitle(customTitle)
                 .setAdapter(mDialogAdapter, this)
                 .setNegativeButton(R.string.cancel, (dialog, which) -> onCancel(dialog))
