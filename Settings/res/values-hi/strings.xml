@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"प्रोफ़ाइल GPU रेंडरिंग"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"ट्रेस सक्षम करें"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"गतिविधियों को न रखें"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"पृष्ठभूमि प्रक्रिया सीमा"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"सभी ANR दिखाएं"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"प्रयोग में नहीं मोड अक्षम करें"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"केवल DRM सामग्री के लिए उपयोग करें"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"मेरा रिमोट ढूंढें"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV रिमोट खो जाने पर, उसका पता लगाने के लिए साउंड चलाएं"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"आपके Google TV पर एक ऐसा बटन होता है जिसे दबाने से रिमोट पर 30 सेकंड के लिए आवाज़ चलाई जा सकती है. ऐसा सिर्फ़ उन Google TV के रिमोट कंट्रोल पर किया जा सकता है जिन पर यह सुविधा काम करती है.\n\nसाउंड बंद करने के लिए, रिमोट के किसी भी बटन को दबाएं."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"अगर \'मेरा रिमोट ढूंढें\' सुविधा चालू है, तो Google TV रिमोट खो जाने पर उसका पता लगाने के लिए साउंड चलाया जा सकता है."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"सेटिंग चालू होने पर, अपने डिवाइस पर मौजूद बटन को दबाकर एक साउंड चलाया जा सकेगा, ताकि टीवी के रिमोट को ढूंढा जा सके. सेटिंग बंद होने पर यह बटन काम नहीं करेगा. हालांकि, \'मेरा रिमोट ढूंढो\' सुविधा का इस्तेमाल अन्य तरीकों से अब भी किया जा सकेगा."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"साउंड चलाएं"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s आवाज़"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s स्पीकर पर Assistant की आवाज़ को कंट्रोल किया जा सकता है"</string>

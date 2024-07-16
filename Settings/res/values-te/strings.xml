@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"ప్రొఫైల్ GPU అమలు"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"ట్రేస్‌లను ప్రారంభించండి"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"యాక్టివిటీలను సేవ్ చేయవద్దు"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"నేపథ్య ప్రాసెస్ పరిమితి"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"అన్ని ANRలను చూపు"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"నిద్రావస్థను నిలిపివేయి"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"DRM కంటెంట్‌కు మాత్రమే ఉపయోగించండి"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"నా రిమోట్‌ను కనుగొనండి"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"మీ Google TV రిమోట్ మిస్‌ప్లేస్ చేయబడితే దాన్ని గుర్తించడానికి సౌండ్ ప్లే చేయండి"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"మీ రిమోట్‌లో 30 సెకన్ల పాటు ధ్వనిని ప్లే చేయడానికి మీ Google TVలో ఒక బటన్ ఉంటుంది. సపోర్ట్ చేసే Google TV రిమోట్ కంట్రోల్స్‌తో మాత్రమే ఇది పని చేస్తుంది.\n\nసౌండ్‌ను ఆపివేయడానికి, మీ రిమోట్‌లో ఏదైనా బటన్‌ను నొక్కండి."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'నా రిమోట్‌ను కనుగొనండి\' ఫీచర్‌ను ఎనేబుల్ చేసినప్పుడు, మీ Google TV రిమోట్ మిస్‌ప్లేస్ చేయబడితే దాన్ని గుర్తించడానికి మీరు సౌండ్‌ను ప్లే చేయవచ్చు."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ఆన్ చేసినప్పుడు, మీ రిమోట్‌ను గుర్తించడం కోసం సౌండ్ ప్లే చేయడానికి మీ పరికరంలోని బటన్‌ను ఉపయోగించవచ్చు. ఆఫ్ చేసినప్పుడు, ఈ బటన్ పని చేయదు. మీరు ఇప్పటికీ ఇతర పద్ధతుల ద్వారా \'రిమోట్‌ను వెతకండి\'ని ఉపయోగించగలరు."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"సౌండ్‌ను ప్లే చేయండి"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s వాల్యూమ్"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"మీరు %1$s స్పీకర్‌లో Assistant వాల్యూమ్‌ను కంట్రోల్ చేయవచ్చు"</string>

@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"প্রোফাইল GPU রেন্ডারিং"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"ট্রেস সক্ষম করুন"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"অ্যাক্টিভিটি রাখবেন না"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"পশ্চাদপট প্রক্রিয়ার সীমা"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"সব ANR দেখান"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"ঘুম অক্ষম করুন"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"শুধুমাত্র DRM সামগ্রীর জন্য ব্যবহার করুন"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"আমার রিমোট খুঁজুন"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"আপনার Google TV-এর রিমোট হারিয়ে গেলে, সেটি খুঁজতে সাউন্ড চালান"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"আপনার Google TV-তে একটি বোতাম আছে যা আপনি ৩০ সেকেন্ডের জন্য সাউন্ড প্লে করতে নিজের রিমোট থেকে পুশ করতে পারেন। এটি শুধুমাত্র মানানসই Google TV রিমোট কন্ট্রোলের সাথে কাজ করে।\n\nসাউন্ড বন্ধ করতে, আপনার রিমোটের বোতাম প্রেস করুন।"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'আমার রিমোট খুঁজুন\' সুবিধা চালু থাকাকালীন, আপনার Google TV-এর রিমোট হারিয়ে গেলে, সেটি খুঁজে পেতে সাউন্ড চালাতে পারবেন।"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"চালু করা থাকলে, আপনার রিমোট খোঁজার জন্য ডিভাইসে থাকা বোতামটি ব্যবহার করে আপনি সাউন্ড চালাতে পারবেন। বন্ধ করা থাকলে, এই বোতামটি কাজ করবে না। আপনি অন্য পদ্ধতি ব্যবহার করেও আমার \'রিমোট খোঁজো\' ফিচারটি ব্যবহার করতে পারবেন।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"সাউন্ড চালান"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ভলিউম"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"আপনি %1$s স্পিকারে Assistant ভলিউম কন্ট্রোল করতে পারবেন"</string>

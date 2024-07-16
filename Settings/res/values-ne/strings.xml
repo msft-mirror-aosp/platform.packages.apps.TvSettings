@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"प्रोफाइल GPU रेन्डर गर्दै"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"ट्रेस सक्षम पार्नुहोस्"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"गतिविधि नराखियोस्"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"ब्याकग्राउन्ड प्रक्रियाको सीमा"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"सबै ANRs देखाउनुहोस्"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"स्वप्न मोड अक्षम पार्नुहोस्"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"DRM सामग्रीको लागि मात्र प्रयोग गर्नुहोस्"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"मेरो रिमोट भेट्टाइयोस्"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"आफ्नो Google TV रिमोट हराएका खण्डमा उक्त रिमोट भेट्टाउन कुनै साउन्ड प्ले गर्नुहोस्"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"तपाईं आफ्नो रिमोटमा ३० सेकेन्डसम्म साउन्ड बजाउन Google TV मा भएको बटन थिच्न सक्नुहुन्छ। यो Google TV का रिमोट कन्ट्रोलहरू प्रयोग गरी मात्र चलाउन मिल्छ।\n\nयो साउन्ड बन्द गर्न आफ्नो रिमोटको कुनै पनि बटन थिच्नुहोस्।"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\"मेरो रिमोट भेट्टाइयोस्\" अन गरिएका बेला तपाईंको Google TV रिमोट हराएका खण्डमा तपाईं उक्त रिमोट भेट्टाउन कुनै साउन्ड प्ले गर्न सक्नुहुन्छ।"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"यो सेटिङ अन हुँदा तपाईं आफ्नो रिमोटको लोकेसन पत्ता लगाउन आफ्नो डिभाइसको बटन प्रयोग गरेर कुनै साउन्ड प्ले गर्न सक्नुहुन्छ। यो सेटिङ अफ हुँदा यो बटनले काम गर्ने छैन। तपाईं अझै पनि अन्य तरिकामार्फत \"रिमोट खोज्नुहोस्\" सुविधा प्रयोग गर्न सक्नु हुने छ।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"साउन्ड प्ले गर्नुहोस्"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s भोल्युम"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"तपाईं %1$s स्पिकरमा सहायकको भोल्युम नियन्त्रण गर्न सक्नुहुन्छ"</string>
