@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Utekelezaji wa wasifu wa GPU"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Washa ufuatiliaji"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Usihifadhi shughuli"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Kikomo cha kiwango uchakataji wa chini kwa chini"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Onyesha ANR zote"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Zima hali tuli"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Tumia kwa ajili ya maudhui ya DRM pekee"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Tafuta kidhibiti changu cha mbali"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Cheza sauti ili upate kilipo kidhibiti chako cha mbali cha Google TV ikiwa kimepotea"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Kuna kitufe kwenye Google TV yako unachoweza kukibofya ili kucheza sauti kwenye kidhibiti chako cha mbali kwa sekunde 30. Kipengele hiki kinafanya kazi tu kwenye vidhibiti vya mbali vya Google TV vinavyotumika.\n\nIli uzime sauti, bonyeza kitufe chochote kwenye kidhibiti chako cha mbali."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Ukiwasha huduma ya Tafuta kidhibiti changu cha mbali, unaweza kucheza sauti ili kupata kilipo kidhibiti chako cha mbali cha Google TV kikipotea."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Ukiwasha, unaweza kutumia kitufe kilicho kwenye kifaa chako kucheza sauti ili utambue mahali kilipo kidhibiti chako cha mbali. Ukizima, kitufe hiki hakitafanya kazi. Bado utaweza kutumia kipengele cha Tafuta kidhibiti changu cha mbali kupitia mbinu nyinginezo."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Cheza sauti"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Kiwango cha sauti ya %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Unaweza kudhibiti kiwango cha sauti ya Kiratibu kwenye spika ya %1$s"</string>
