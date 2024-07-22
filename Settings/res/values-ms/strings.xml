@@ -711,7 +711,7 @@
     <string name="accessibility_captions" msgid="3411554568812306549">"Kapsyen"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Tetapan untuk tindanan teks kapsyen tertutup pada video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Paparan"</string>
-    <string name="captions_display_on" msgid="480438033345455728">"Dihidupkan"</string>
+    <string name="captions_display_on" msgid="480438033345455728">"Hidup"</string>
     <string name="captions_display_off" msgid="87881163874948539">"Dimatikan"</string>
     <string name="display_options" msgid="2645282080948371603">"Pilihan paparan"</string>
     <string name="captions_configure" msgid="711991018642931958">"Konfigurasi"</string>
