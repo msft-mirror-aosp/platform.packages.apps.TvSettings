@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ઍપના સેટિંગ"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"સ્થાન, વપરાશ અને નિદાન, જાહેરાતો"</string>
     <string name="add_account" msgid="7386223854837017129">"એકાઉન્ટ ઉમેરો"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"અજાણ્યું એકાઉન્ટ"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"એકાઉન્ટ દૂર કરો"</string>
     <string name="account_sync" msgid="4315295293211313989">"સમન્વયિત ઍપ્લિકેનોને પસંદ કરો"</string>
     <string name="sync_now" msgid="4335217984374620551">"હમણાં સમન્વયિત કરો"</string>
@@ -166,10 +167,8 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"શું તમે HDR આઉટપુટને ફરજિયાત લાગુ કરવા માગો છો?"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"ડિફૉલ્ટ તરીકે રૂપાંતરણને <xliff:g id="HDR_TYPE">%s</xliff:g>માં ફરજિયાત લાગુ કરવામાં આવશે."</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"તમારા ડિસ્પ્લેને 1080p 60Hz રિઝોલ્યુશન પર ચલાવવામાં આવશે. જ્યારે તમારા ડિસ્પ્લેને 4k 60Hz રિઝોલ્યુશન પર ચલાવવામાં આવી રહ્યું હોય ત્યારે આ વિકલ્પ તેની સાથે સુસંગત હોતો નથી."</string>
-    <!-- no translation found for selection_dolby_vision_not_supported_sidebar (8994591316574824115) -->
-    <skip />
-    <!-- no translation found for manual_dolby_vision_format_on_4k60_title (4172263676512376500) -->
-    <skip />
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"હાલના રિઝોલ્યુશનમાં Dolby Vision સપોર્ટેડ નથી. જો તમે મેન્યુઅલી Dolby Vision ચાલુ કરશો, તો તમારા ડિસ્પ્લેનું રિઝોલ્યુશન 1080p 60Hzમાં બદલાઈ જશે"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"રિઝોલ્યુશનને 1080p 60Hzમાં બદલીએ?"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Dolby Vision માટે, હંમેશાં ફરજિયાત રીતે રૂપાંતરણ કરો"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"જો ડિસ્પ્લેના વિગતવાર સેટિંગમાં Dolby Visionને HDR ફૉર્મેટ માટે બંધ કરવામાં આવ્યું હોય, તો Dolby Visionમાં ફરજિયાત રીતે રૂપાંતરણ કરવા પર તે ફરીથી ચાલુ થઈ જશે."</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"HDR10 માટે, હંમેશાં ફરજિયાત રીતે રૂપાંતરણ કરો"</string>
@@ -193,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"ટેક્સ્ટના કદનો નમૂનો"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"ધ વન્ડરફુલ વિઝાર્ડ ઑફ ઓઝ"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"ચૅપ્ટર 11: ધ વન્ડરફુલ એમરલ્ડ સિટી ઑફ ઓઝ"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"લીલા રંગના ચશ્મા પહેર્યા હોવા છતાં પણ ડોરોથી અને તેના મિત્રો આ અદ્દભુત શહેરના ભપકાદાર દેખાવથી આશ્ચર્યચકિત થઈ ગયા હતા. શેરીઓ લીલા રંગના માર્બલથી બનેલા એક હરોળમાં આવેલા સુંદર મકાનોથી સજ્જ હતી અને સર્વત્ર ચમકતા નીલમ જડેલા હતા. તેઓ એ જ લીલા માર્બલ પર ચાલવા લાગ્યા, જ્યાં પાસે-પાસે રાખેલા બ્લૉક એકબીજા સાથે જોડાઈ રહ્યાં હતા. તે નીલમની પંક્તિઓ હતી અને સૂરજના પ્રકાશમાં ચમકી રહી હતી, બારીઓના કાંચ લીલા રંગના હતા, એટલું જ નહીં શહેરની ઉપર આકાશની રંગછટા પણ લીલા રંગની હતી અને સૂર્યના કિરણો પણ લીલા રંગના હતા. \n\nત્યાં ઘણા પુરુષો, સ્ત્રીઓ અને બાળકો હતા, એ બધા લોકો ચાલી રહ્યાં હતા અને તેમણે લીલા રંગના કપડાં પહેર્યા હતા, એટલું જ નહીં તેમની ત્વચા પણ લીલા રંગની હતી. તેઓ વિસ્મય પામેલી નજરોથી ડોરોથી તેમજ તેના વિચિત્ર મિત્રોને જોઈ રહ્યાં હતા અને જ્યારે બાળકોએ સિંહને જોયો તો તે બધા ત્યાંથી નાસી છુટ્યા અને તેમની માતાની પાછળ જઈને સંતાઈ ગયા, પરંતુ કોઈએ પણ તેમની સાથે વાત કરી નહીં. શેરીમાં કેટલીક દુકાનો હતી અને ડોરોથીએ જોયું તો તેમાં મૂકેલી બધી જ વસ્તુઓ લીલા રંગની હતી. લીલા રંગની કૅન્ડી અને લીલા રંગના પૉપ-કોર્ન વેચાઈ રહ્યાં હતા. સાથે જ લીલા રંગના જૂતાં, લીલા રંગની ટોપીઓ અને ભાતભાતના કપડાં પણ લીલા રંગના હતા. એક જગ્યાએ તો એક માણસ લીલા રંગનું લીંબુનું શરબત વેચી રહ્યો હતો અને જ્યારે બાળકોએ તે ખરીદ્યું ત્યારે ડોરોથીએ જોયું કે તેમણે તેના માટે લીલા રંગના સિક્કા આપ્યા. \n\nત્યાં ન તો ઘોડા હતા કે ન કોઈ પ્રાણી, માણસો તેમની સામે નાના લીલા રંગના ગાડામાં સામાન અહીંથી ત્યાં લઈ જઈ રહ્યાં હતા. બધા જ ખુશ, સંતુષ્ટ અને સમૃદ્ધ લાગી રહ્યાં હતા."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"લીલા રંગના ચશ્માં પહેર્યા હોવા છતાં પણ ડોરોથી અને તેના મિત્રો આ અદ્દભુત શહેરના ભપકાદાર દેખાવથી આશ્ચર્યચકિત થઈ ગયા હતા. શેરીઓ લીલા રંગના માર્બલથી બનેલા એક હરોળમાં આવેલા સુંદર મકાનોથી સજ્જ હતી અને ચારે તરફ ચમકતા નીલમ જડેલા હતા. તેઓ એ જ લીલા માર્બલ પર ચાલવા લાગ્યા, જ્યાં પાસે-પાસે રાખેલા બ્લૉક એકબીજા સાથે જોડાઈ રહ્યાં હતા. તે નીલમની પંક્તિઓ હતી અને સૂરજના પ્રકાશમાં ચમકી રહી હતી, બારીઓના કાચ લીલા રંગના હતા, એટલું જ નહીં શહેરની ઉપર આકાશની રંગછટા પણ લીલા રંગની હતી અને સૂર્યના કિરણો પણ લીલા રંગના હતા. \n\nઘણા પુરુષો, સ્ત્રીઓ અને બાળકો હતા, એ બધા લોકો ચાલી રહ્યાં હતા અને તેમણે લીલા રંગના કપડાં પહેર્યા હતા, એટલું જ નહીં તેમની ત્વચા પણ લીલા રંગની હતી. તેઓ વિસ્મય પામેલી નજરોથી ડોરોથી તેમજ તેના વિચિત્ર મિત્રોને જોઈ રહ્યાં હતા અને જ્યારે બાળકોએ સિંહને જોયો તો તે બધા ત્યાંથી નાસી છુટ્યા અને તેમની માતાની પાછળ જઈને સંતાઈ ગયા, પરંતુ કોઈએ પણ તેમની સાથે વાત કરી નહીં. શેરીમાં ઘણી દુકાનો હતી અને ડોરોથીએ જોયું તો તેમાં મૂકેલી બધી જ વસ્તુઓ લીલા રંગની હતી. લીલા રંગની કૅન્ડી અને લીલા રંગના પૉપ-કોર્ન વેચાઈ રહ્યાં હતા. સાથે જ લીલા રંગના જૂતા, લીલા રંગની ટોપીઓ અને ભાતભાતના કપડાં પણ લીલા રંગના હતા. એક જગ્યાએ તો એક માણસ લીલા રંગનું લીંબુનું શરબત વેચી રહ્યો હતો અને જ્યારે બાળકોએ તે ખરીદ્યું ત્યારે ડોરોથીએ જોયું કે તેમણે તેના માટે લીલા રંગના સિક્કા આપ્યા. \n\nત્યાં ન તો ઘોડા હતા કે ન કોઈ પ્રાણી, માણસો તેમની સામે નાના લીલા રંગના ગાડામાં સામાન અહીંથી ત્યાં લઈ જઈ રહ્યાં હતા. બધા જ ખુશ, સંતુષ્ટ અને સમૃદ્ધ લાગી રહ્યાં હતા."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"ફૉર્મેટની પસંદગી"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"ઑટોમૅટિક રીતે"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"મેન્યુઅલ"</string>
@@ -220,12 +219,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"શું રિઝોલ્યુશન બદલીને %1$s કરીએ?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"હવેથી %1$sનો ઉપયોગ કરવા માટે \'ઓકે\' પસંદ કરો."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision %1$s પર સપોર્ટેડ નથી અને \"વિગતવાર ડિસ્પ્લે સેટિંગ\"માં તેને બંધ કરવામાં આવશે"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"આ મોડ %1$sને સપોર્ટ કરે છે. અમુક ટીવી પર, વધુ HDR ફૉર્મેટ ચાલુ કરવા માટે, તમારે કદાચ વિસ્તૃત HDMI ચાલુ કરવાની જરૂર પડી શકે છે. આ સપોર્ટેડ છે કે નહીં, તે જોવા માટે તમારા ટીવીના સેટિંગ ચેક કરો."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"આ મોડ આને સપોર્ટ આપે છે: %1$s\nઅમુક ટીવી પર HDRના વધુ ફૉર્મેટ ચાલુ કરવા માટે, તમરે HDRની વધારેલી સુવિધા ચાલુ કરવી જરૂરી હોઈ શકે છે. આ સપોર્ટેડ છે કે નહીં, તે જોવા માટે તમારા ટીવીના સેટિંગ ચેક કરો."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"રદ કરો"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ઓકે"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
-    <skip />
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"કૅશ કરેલ ડેટા સાફ કરીએ?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"આ તમામ ઍપ્લિકેશનોનો કેશ્ડ ડેટા સાફ કરશે."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -280,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"કનેક્ટ કરેલું"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"ડિસ્કનેક્ટ કર્યું"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"તમારી પાસે બ્લૂટૂથ સેટિંગ બદલવાની પરવાનગી નથી."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"ટીવીના ઑડિયો માટે ઉપયોગ કરો"</string>
     <string name="send_feedback" msgid="936698637869795473">"પ્રતિસાદ મોકલો"</string>
     <string name="launch_help" msgid="2607478763131952469">"સહાયતા કેન્દ્ર"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -346,8 +345,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"આ ડિવાઇસ તમારી સંસ્થા દ્વારા સંચાલિત થાય છે."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"આ ઉપકરણનું સંચાલન <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> દ્વારા થાય છે"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"વધુ જાણો"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{કૅમેરા ઍપ}one{કૅમેરા ઍપ}other{કૅમેરા ઍપ}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"કૅલેન્ડર ઍપ્લિકેશન"</string>
@@ -370,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google કાનૂની"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"લાઇસન્સ ડેટા અનુપલબ્ધ છે"</string>
     <string name="about_model" msgid="9164284529291439296">"મૉડલ"</string>
+    <string name="device_mode" msgid="7258350575590118152">"ડિવાઇસ મોડ"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"સ્ટોરનો ડેમો"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV OS વર્ઝન"</string>
     <string name="about_serial" msgid="3432319328808745459">"અનુક્રમ ક્રમાંક"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV OS બિલ્ડ"</string>
@@ -437,6 +437,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"ઇન્ટરનેટ કનેક્શન"</string>
     <string name="connected" msgid="4981532275162345997">"કનેક્ટ કર્યુ"</string>
     <string name="not_connected" msgid="475810896484271663">"કનેક્ટ થયેલ નથી"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"ઇન્ટરનેટ ઍક્સેસ નથી"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"સાચવેલું"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"ખોટો પાસવર્ડ"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"વાઇ-ફાઇનો પાસવર્ડ ખૂબ ટૂંકો છે"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"સાઇન ઇન આવશ્યક છે"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"અન્ય વિકલ્પો"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"બધું જુઓ"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"ઓછી જુઓ"</string>
@@ -745,7 +750,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"સક્ષમ કરો"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"ગોઠવણી"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> નો ઉપયોગ કરીએ?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g>, પાસવર્ડ સિવાય તમે જે લખો છો તે તમામ ટેક્સ્ટને એકત્રિત કરી શકે છે. આમાં ક્રેડિટ કાર્ડ નંબર જેવા વ્યક્તિગત ડેટાનો સમાવેશ થાય છે."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g>, તમારી સ્ક્રીન વાંચી શકશે, અન્ય ઍપની ઉપર પોતાનું કન્ટેન્ટ બતાવી શકશે, ઍપ કે હાર્ડવેર સેન્સર સાથેની તમારી ક્રિયાપ્રતિક્રિયાઓ ટ્રૅક કરી શકશે તેમજ તમારા વતી અન્ય ઍપ સાથે ક્રિયાપ્રતિક્રિયા કરી શકશે."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"<xliff:g id="SERVICE">%1$s</xliff:g> બંધ કરીએ?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"ઓકે પસંદ કરવું, તે <xliff:g id="SERVICE">%1$s</xliff:g> ને રોકશે."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"ટેક્સ્ટ ટુ સ્પીચ"</string>
@@ -904,6 +909,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"પ્રતિબંધોને કસ્ટમાઇઝ કરો"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"એક પળ…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"પિન બદલો"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"પ્રતિબંધિત પ્રોફાઇલ બનાવીએ?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"પહેલેથી બનાવેલી છે"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"છોડો"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"પિન બનાવો"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"પ્રતિબંધિત પ્રોફાઇલ દાખલ કરીએ?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"કોઈ પ્રતિબંધિત પ્રોફાઇલ નથી"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"પહેલેથી જ દાખલ કરી છે"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"આ ઍપ્લિકેશન તમારા એકાઉન્ટ્સને ઍક્સેસ કરી શકે છે. <xliff:g id="APP">%1$s</xliff:g> દ્વારા નિયંત્રિત"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"આ ચેનલ જોવા માટે પિન દાખલ કરો"</string>
@@ -1066,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"રેકોર્ડેડ માઇક્રોફોન"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"ઑડિયો રેકોર્ડિંગ શરૂ કરવાનું નિષ્ફળ રહ્યું."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ઑડિયો રેકોર્ડ કરવાનું નિષ્ફળ રહ્યું."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"ડેટા સેવર"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"મોબાઇલ ડેટાનો ઓછો ઉપયોગ કરવા માટે વીડિયો ક્વૉલિટી ઑટોમૅટિક રીતે ગોઠવો"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"ડેટા વપરાશ અને અલર્ટ"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"તમે વાઇ-ફાઇ, ઇથરનેટ કેબલ અથવા તમારા ફોનના હૉટસ્પૉટ વડે ઇન્ટરનેટ સાથે કનેક્ટ કરી શકો છો."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"શું અન્ય બ્લૂટૂથ ડિવાઇસને બતાવીએ?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"કોઈ ઍપ તમારા ટીવીને <xliff:g id="TIMEOUT">%1$d</xliff:g> સેકન્ડ માટે અન્ય બ્લૂટૂથ ડિવાઇસ પર બતાવવા માગે છે."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1110,6 +1118,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"કનેક્શન સફળ થયું"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"બધા બતાવો"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"શોધી રહ્યાં છીએ"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"પ્રમાણકર્તા પાસેથી એકાઉન્ટ ઉમેરો ઇન્ટેન્ટ ફરી મેળવવામાં નિષ્ફળ રહ્યાં."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"એકાઉન્ટ ઉમેરવામાં નિષ્ફળ રહ્યાં અથવા એકાઉન્ટનો પ્રકાર ઉપલબ્ધ નથી."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"ચૅનલ અને ઇનપુટ"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"ચૅનલ, બાહ્ય ઇનપુટ"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"ચૅનલ"</string>
@@ -1123,8 +1133,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"રીસેટ કરો"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ઇથરનેટનો જોડાણ કરવાનો કોડ"</string>
     <string name="energy_modes" msgid="1331693860386361744">"ઊર્જા મોડ"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"જ્યારે ટીવી ઉપયોગમાં ન હોય ત્યારે ઊર્જાની કાર્યક્ષમતાને બહેતર બનાવે છે"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"જ્યારે ડિવાઇસ ઉપયોગમાં ન હોય ત્યારે આ સેટિંગ તેને અસર કરે છે"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"આ ચાલુ કરે છે:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"નોંધ કરો કે આ મોડ ડિવાઇસના પાવર વપરાશમાં વધારો કરી શકે છે."</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"તમે ચાલુ કરો છો તે ટીવી સુવિધાઓની સંખ્યા સાથે પાવરનો વપરાશ વધી શકે છે."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\" ચાલુ કરો"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"મારું રિમોટ શોધો"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"જો Google TVનું તમારું રિમોટ ખોવાઈ ગયું હોય, તો તેને શોધવા માટે સાઉન્ડ વગાડો"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"તમારા Google TV પર એક બટન છે જેને તમે તમારા રિમોટ પર 30 સેકન્ડ માટે સાઉન્ડ ચલાવવા માટે પુશ કરી શકો છો. આ Google TVના માત્ર સપોર્ટેડ રિમોટ કન્ટ્રોલ સાથે કામ કરે છે.\n\nસાઉન્ડ બંધ કરવા માટે, તમારા રિમોટ પરનું કોઈપણ બટન દબાવો."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'મારું રિમોટ શોધો\' સુવિધા ચાલુ કરેલી હોય, ત્યારે જો Google TVનું તમારું રિમોટ ખોવાઈ ગયું હોય, તો તમે તેને શોધવા માટે કોઈ સાઉન્ડ વગાડી શકો છો."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"સાઉન્ડ વગાડો"</string>
 </resources>

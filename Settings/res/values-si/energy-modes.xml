@@ -16,24 +16,25 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="energy_mode_low_title" msgid="2408371934616917432">"අත්‍යවශ්‍යාංග ජාල විශේෂාංග"</string>
-    <string name="energy_mode_low_subtitle" msgid="3541491740634993554">"අඩු බලශක්ති භාවිතය"</string>
-    <string name="energy_mode_low_info" msgid="7336221780506353827">"රූපවාහිනිය භාවිතයේ නොමැති විට ජාල සබැඳුම ක්‍රියා විරහිත කරන්න."</string>
+    <string name="energy_mode_low_title" msgid="5700567801191430606">"අඩු"</string>
+    <string name="energy_mode_low_subtitle" msgid="7660632849388740009">"පොරොත්තු"</string>
+    <string name="energy_mode_low_info" msgid="3931173640626998821">"පොරොත්තු — රූපවාහිනිය භාවිතයේ නොමැති විට ජාල සම්බන්ධතාවය ක්‍රියා විරහිත වේ"</string>
   <string-array name="energy_mode_low_features">
-    <item msgid="4976202876230149030">"තීරණාත්මක යාවත්කාලීන සහ කාර්යයන්"</item>
+    <item msgid="4002284890471636101">"[විශේෂාංගය 1 ඇතුළත් කරන්න]"</item>
+    <item msgid="7072772341455731040">"[විශේෂාංගය 2 ඇතුළත් කරන්න]"</item>
   </string-array>
     <string name="energy_mode_low_eco_hint" msgid="2421460758847643655"></string>
-    <string name="energy_mode_moderate_title" msgid="6131212898797802584">"නිර්දේශිත ජාල විශේෂාංග"</string>
-    <string name="energy_mode_moderate_subtitle" msgid="8452759001885415587">"ප්‍රශස්ත බලශක්ති භාවිතය"</string>
-    <string name="energy_mode_moderate_info" msgid="8606735947366228051">"ජාලය හරහා රූපවාහිනිය අවදි කරන විශේෂාංග ක්‍රියාත්මක කරයි (ජාලගත පොරොත්තුවෙන්)."</string>
+    <string name="energy_mode_moderate_title" msgid="8612259261851051150">"ප්‍රශස්ත කළ"</string>
+    <string name="energy_mode_moderate_subtitle" msgid="5565533500130453270">"ජාලගත පොරොත්තු"</string>
+    <string name="energy_mode_moderate_info" msgid="3188005033276283994">"ජාලගත පොරොත්තු — ජාලය හරහා රූපවාහිනිය අවදි කිරීමට විශේෂාංග සබල කරයි"</string>
   <string-array name="energy_mode_moderate_features">
     <item msgid="2654586107956150296">"[විශේෂාංගය 1 ඇතුළත් කරන්න]"</item>
     <item msgid="8724721267222341891">"[විශේෂාංගය 2 ඇතුළත් කරන්න]"</item>
   </string-array>
     <string name="energy_mode_moderate_eco_hint" msgid="252189162446856286"></string>
-    <string name="energy_mode_high_title" msgid="4428472238583662129">"අතිරේක ජාල විශේෂාංග"</string>
-    <string name="energy_mode_high_subtitle" msgid="3146607061198429672">"වැඩි වූ බලශක්ති පරිභෝජනය"</string>
-    <string name="energy_mode_high_info" msgid="3151321275701804406">"නිර්දේශිත විශේෂාංගවලට අමතරව, මෙම විකල්පය රූපවාහිනිය භාවිතයේ නොමැති විට බලශක්ති භාවිතය වැඩි කළ හැකි අතිරේක විශේෂාංග ක්‍රියාත්මක කරයි."</string>
+    <string name="energy_mode_high_title" msgid="7596672058005896920">"වැඩි කළ"</string>
+    <string name="energy_mode_high_subtitle" msgid="5994284096495805422">"සැම විට සම්බන්ධයි"</string>
+    <string name="energy_mode_high_info" msgid="8805447042714350186">"සැම විට සම්බන්ධයි — රූපවාහිනිය භාවිතයේ නොමැති විට ජාල විශේෂාංග සබල කරයි"</string>
   <string-array name="energy_mode_high_features">
     <item msgid="3018897868803319747">"[විශේෂාංගය 1 ඇතුළත් කරන්න]"</item>
     <item msgid="170760143032597722">"[විශේෂාංගය 2 ඇතුළත් කරන්න]"</item>

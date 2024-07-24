@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Appindstillinger"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Lokation, brug og diagnostik, annoncer"</string>
     <string name="add_account" msgid="7386223854837017129">"Tilføj konto"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Ukendt konto"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Fjern konto"</string>
     <string name="account_sync" msgid="4315295293211313989">"Vælg synkroniserede apps"</string>
     <string name="sync_now" msgid="4335217984374620551">"Synkroniser nu"</string>
@@ -151,12 +152,12 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"Avancerede lydindstillinger"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"Tillad spiltilstand"</string>
-    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Dynamisk område for matchet indhold"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"Match dynamisk område for indhold"</string>
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Når du aktiverer denne mulighed, vil systemet skifte mellem forskellige dynamiske områdeformater for at matche indholdet. Dette kan medføre, at skærmen bliver sort under et formatskift.\n\nKlik på Avancerede skærmindstillinger for at se flere muligheder for dynamiske områder."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Foretrukket dynamisk område"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Systemforetrukken konvertering"</string>
     <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Lader systemet administrere konverteringen af formatet"</string>
-    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Når denne mulighed er valgt, fastlægger systemet et passende dynamisk interval, som sendes til din skærm, og konverterer indholdet i overensstemmelse med dette dynamiske interval efter behov."</string>
+    <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Når denne mulighed er valgt, fastlægger systemet et passende dynamisk område, som sendes til din skærm, og konverterer indholdet i overensstemmelse med dette dynamiske område efter behov."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Matcher altid indholdets format"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Gennemtving konvertering"</string>
     <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"Gennemtvinger konvertering til foretrukket format"</string>
@@ -191,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Eksempeltekst"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Den vidunderlige troldmand fra Oz"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Kapitel 11: Den vidunderlige smaragdby i Oz"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Selv med øjnene beskyttet bag de grønne briller blev Dorothy og hendes venner til at starte med forblændet af byens vidunderlige funklen. Langs gaderne stod smukke huse i grøn marmor bestrøet med skinnende smaragder. De gik hen over et fortov, der var lavet af det samme grønne marmor, og der hvor fliserne mødtes, var der rækker af smaragder, der side om side skinnede i lyset fra solen. Ruderne var af grønt glas. Selv himlen over byen havde et grønt skær, og solens stråler var grønne. \n\nMange mennesker, både mænd, kvinder og børn, gik omkring, og de var alle klædt i grønt og havde en grønlig hud. De kiggede med undrende øjne på Dorothy og hendes mærkværdige brogede følge, og børnene løb alle hen og gemte sig bag deres mødre, da de så Løven, men der var ingen, der talte til dem. Der var mange butikker på gaden, og Dorothy kunne se, at alle varerne var grønne. Der blev solgt grønt slik og grønne popcorn, grønne sko, grønne hatte og alle slags grønne klæder. En mand solgte grøn lemonade, og da børnene købte det, kunne Dorothy se, at de betalte for det med grønne penge. \n\nDer så ikke ud til at være heste eller dyr af nogen art, og mændene kørte med ting i små grønne vogne, som de skubbede foran sig. Alle virkede glade og tilfredse og velstående."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Selv med øjnene beskyttet bag de grønne briller blev Dorothy og hendes venner til at starte med forblændet af byens vidunderlige funklen. Langs gaderne stod smukke huse i grøn marmor bestrøet med skinnende smaragder. De gik hen over et fortov, der var lavet af det samme grønne marmor, og der hvor fliserne mødtes, var der rækker af smaragder, der side om side skinnede i lyset fra solen. Ruderne var af grønt glas. Selv himlen over byen havde et grønt skær, og solens stråler var grønne. \n\nMange mennesker, både mænd, kvinder og børn, gik omkring, og de var alle klædt i grønt og havde en grønlig hud. De kiggede med undrende øjne på Dorothy og hendes mærkværdige brogede følge, og børnene løb alle hen og gemte sig bag deres mødre, da de så Løven, men der var ingen, der talte til dem. Der var mange butikker på gaden, og Dorothy kunne se, at alle varerne var grønne. Der blev solgt grønt slik og grønne popcorn, grønne sko, grønne hatte og alle slags grønne klæder. En mand solgte grøn lemonade, og da børnene købte det, kunne Dorothy se, at de betalte for det med grønne penge. \n\nDer så ikke ud til at være heste eller dyr af nogen art, og mændene kørte med ting i små grønne vogne, som de skubbede foran sig. Alle virkede glade og tilfredse og velstående."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Valg af format"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automatisk"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manuelt"</string>
@@ -218,12 +219,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Vil du skifte opløsning til %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Vælg OK for at bruge %1$s fremover."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision understøttes ikke med %1$s og deaktiveres under \"Avancerede skærmindstillinger\""</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Denne tilstand understøtter %1$s. På nogle fjernsyn skal du muligvis aktivere forbedret HDMI for at aktivere flere HDR-formater. Tjek dit fjernsyns indstillinger for at se, om dette understøttes."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Denne tilstand understøtter: %1$s\nPå visse fjernsyn kan det være nødvendigt at aktivere Forbedret HDMI for at få flere HDR-formater. Tjek dit fjernsyns indstillinger for at se, om denne funktion understøttes."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Annuller"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
-    <skip />
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Vil du rydde cachelagrede data?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Dette vil rydde cachelagrede data for alle apps."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -264,7 +264,7 @@
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Tilbehør"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Fjernbetjening"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Indstillinger for fjernbetjeningen"</string>
-    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Konfigurer fjernbetjeningsknapper"</string>
+    <string name="bluetooth_ir_entry_title" msgid="6927284710576530479">"Konfigurer fjern­betjenings­knapper"</string>
     <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Styr lydstyrke, afbryderknap og indgangskilde på fjernsyn, modtagere og soundbars"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Opret forbindelse"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Opret forbindelse til %1$s"</string>
@@ -278,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Forbundet"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Afbrudt"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Du har ikke tilladelse til at ændre Bluetooth-indstillinger."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Brug til tv-lyd"</string>
     <string name="send_feedback" msgid="936698637869795473">"Giv feedback"</string>
     <string name="launch_help" msgid="2607478763131952469">"Hjælp"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -321,7 +322,7 @@
     <string name="enterprise_privacy_enterprise_installed_packages" msgid="7244796629052581085">"Installerede apps"</string>
     <string name="enterprise_privacy_apps_count_estimation_info" msgid="3875568975752197381">"Antallet af apps er et skøn. Apps, der er blevet installeret uden for Play Butik, er muligvis ikke medregnet."</string>
     <string name="enterprise_privacy_number_packages_lower_bound" msgid="4518330667109848939">"{count,plural, =1{Mindst # app}one{Mindst # app}other{Mindst # apps}}"</string>
-    <string name="enterprise_privacy_location_access" msgid="8978502415647245748">"Adgangstilladelser til lokation"</string>
+    <string name="enterprise_privacy_location_access" msgid="8978502415647245748">"Lokationstilladelser"</string>
     <string name="enterprise_privacy_microphone_access" msgid="3746238027890585248">"Adgangstilladelser til mikrofon"</string>
     <string name="enterprise_privacy_camera_access" msgid="6258493631976121930">"Adgangstilladelser til kamera"</string>
     <string name="enterprise_privacy_enterprise_set_default_apps" msgid="5538330175901952288">"Standardapps"</string>
@@ -344,8 +345,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Denne enhed administreres af din organisation."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Denne enhed administreres af <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Få flere oplysninger"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Kameraapp}one{Kameraapp}other{Kameraapps}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Kalenderapp"</string>
@@ -368,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Juridisk information fra Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Licensdataene er utilgængelige"</string>
     <string name="about_model" msgid="9164284529291439296">"Model"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Enhedstilstand"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Demotilstand"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV OS-version"</string>
     <string name="about_serial" msgid="3432319328808745459">"Serienummer"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV OS-build"</string>
@@ -433,8 +435,13 @@
     <string name="title_ip_address" msgid="705842159484772807">"IP-adresse"</string>
     <string name="title_ssid" msgid="255328048344188682">"Angiv navn på Wi-Fi-netværk"</string>
     <string name="title_internet_connection" msgid="7502414094881828069">"Internetforbindelse"</string>
-    <string name="connected" msgid="4981532275162345997">"Tilsluttet"</string>
+    <string name="connected" msgid="4981532275162345997">"Forbundet"</string>
     <string name="not_connected" msgid="475810896484271663">"Ikke tilsluttet"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Ingen internetadgang"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Gemt"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Forkert adgangskode"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"Adgangskoden til Wi-Fi er for kort"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Login er påkrævet"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Andre valgmuligheder"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Se alle"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Se færre"</string>
@@ -649,15 +656,15 @@
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Til"</string>
     <string name="sensor_toggle_info_off" msgid="7546772458177469821">"Fra"</string>
     <string name="system_location" msgid="4057295363709016511">"Lokation"</string>
-    <string name="system_desc_location" msgid="1680134126100535031">"Tillad, at apps, der har bedt om din tilladelse, bruger dine stedoplysninger"</string>
-    <string name="system_network_location_confirm" msgid="7128162421781085332">"Placeringssamtykke"</string>
+    <string name="system_desc_location" msgid="1680134126100535031">"Tillad, at apps, der har bedt om din tilladelse, bruger dine lokationsoplysninger"</string>
+    <string name="system_network_location_confirm" msgid="7128162421781085332">"Lokationssamtykke"</string>
     <string name="location_mode_title" msgid="728244518174115443">"Tilstand"</string>
     <string name="location_category_recent_location_requests" msgid="4541924383164183490">"Seneste lokationsanmodninger"</string>
     <string name="location_no_recent_apps" msgid="7033474075806435793">"Ingen apps har anmodet om lokation for nylig"</string>
     <string name="location_high_battery_use" msgid="5325556609027887602">"Højt batteriforbrug"</string>
     <string name="location_low_battery_use" msgid="728585923412018253">"Lavt batteriforbrug"</string>
     <string name="location_mode_wifi_description" msgid="84697248707903061">"Brug Wi-Fi til at fastslå lokation"</string>
-    <string name="location_status" msgid="3037321737386011224">"Placeringsstatus"</string>
+    <string name="location_status" msgid="3037321737386011224">"Lokationsstatus"</string>
     <string name="location_services" msgid="551503779736382878">"Lokationstjenester"</string>
     <string name="on" msgid="4899322147062342542">"Til"</string>
     <string name="off" msgid="3127416478888499352">"Fra"</string>
@@ -743,7 +750,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Aktivér"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfiguration"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Vil du bruge <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> kan indsamle al den tekst, du skriver, undtagen adgangskoder. Dette omfatter personlige data såsom kreditkortnumre."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> kan læse indholdet på din skærm, vise indhold over andre apps, se dine interaktioner med apps eller hardwaresensorer samt interagere med apps på dine vegne."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Vil du stoppe <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Hvis du vælger OK, stoppes <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Oplæsning"</string>
@@ -891,7 +898,7 @@
     <string name="app_not_supported_in_limited" msgid="4046604594925826955">"Denne app understøttes ikke for begrænsede profiler"</string>
     <string name="app_sees_restricted_accounts" msgid="174038126799649152">"Denne app kan få adgang til dine konti"</string>
     <string name="restriction_location_enable_title" msgid="2552780806199464266">"Lokation"</string>
-    <string name="restriction_location_enable_summary" msgid="3719330231217994482">"Tillad, at apps bruger dine stedoplysninger"</string>
+    <string name="restriction_location_enable_summary" msgid="3719330231217994482">"Tillad, at apps bruger dine lokationsoplysninger"</string>
     <string name="restricted_profile_switch_to" msgid="6193201935877168764">"Skift til begrænset profil"</string>
     <string name="restricted_profile_switch_out" msgid="3589381233390753413">"Forlad begrænset profil"</string>
     <string name="restricted_profile_delete_title" msgid="7153982195273379506">"Slet begrænset profil"</string>
@@ -903,6 +910,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Tilpas begrænsninger"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Et øjeblik..."</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Skift pinkode"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Opret en begrænset profil?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Er allerede oprettet"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Spring over"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Opret pinkode"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Skift til en begrænset profil?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Ingen begrænset profil"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Allerede angivet"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Denne app har adgang til dine konti. Administreres af <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Angiv pinkode for at se denne kanal"</string>
@@ -977,7 +991,7 @@
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
     <string name="backup_erase_dialog_message" msgid="222169533402624861">"Vil du stoppe sikkerhedskopieringen af dine Wi-Fi-adgangskoder, bogmærker, andre indstillinger og appdata samt rydde alle kopier på Google-servere?"</string>
     <string name="privacy_backup_data" msgid="3604057980102997914">"Sikkerhedskopiér mine data"</string>
-    <string name="privacy_backup_account" msgid="4527813051841860610">"Konto til backup"</string>
+    <string name="privacy_backup_account" msgid="4527813051841860610">"Konto til sikkerhedskopiering"</string>
     <string name="privacy_automatic_restore" msgid="7117805818589418118">"Automatisk gendannelse"</string>
     <string name="factory_reset_device" msgid="6509900821515094361">"Nulstil enheden"</string>
     <string name="factory_reset_description" msgid="6697396335158766785">"Dette gendanner din enhed til standardindstillingerne og rydder alle data, konti, filer og downloadede apps."</string>
@@ -1015,8 +1029,8 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"Administrer tastaturer"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Tilladt"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Ikke tilladt"</string>
-    <string name="usage_access" msgid="8402350645248312782">"Adgang til telefonbrug"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"Med adgang til telefonbrug kan en app se, hvilke andre apps du anvender og hvor ofte, samt dit mobilselskab, dine sprogindstillinger og andre oplysninger."</string>
+    <string name="usage_access" msgid="8402350645248312782">"Adgang til brug"</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"Med adgang til brug kan en app se, hvilke andre apps du anvender og hvor ofte, samt dit mobilselskab, dine sprogindstillinger og andre oplysninger."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Energioptimering"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Optimer energiforbruget for apps"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"Ingen apps skal optimeres"</string>
@@ -1039,7 +1053,7 @@
     <string name="write_settings_on" msgid="71675710746513956">"Ja"</string>
     <string name="write_settings_off" msgid="6730113471695092167">"Nej"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Adgang til alle filer"</string>
-    <string name="permit_manage_external_storage" msgid="1776899171934627417">"Tillad administrationsadgang til alle filer"</string>
+    <string name="permit_manage_external_storage" msgid="1776899171934627417">"Tillad admin­istrations­adgang til alle filer"</string>
     <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Giv denne app tilladelse til at læse, ændre og slette alle filer på denne enhed eller andre tilsluttede lagringsløsninger. Hvis du giver tilladelse til dette, kan appen få adgang til dine filer, uden du specifikt bliver gjort opmærksom på det."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Integreret billede"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Tillad integreret billede"</string>
@@ -1048,7 +1062,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Giv apps tilladelse til at indstille alarmer og planlægge tidsbestemte handlinger. Disse apps vil køre i baggrunden, hvor de muligvis bruger mere batteri.\n\nHvis denne tilladelse er deaktiveret, vil eksisterende alarmer og tidsbestemte handlinger, der er planlagt af disse apps, ikke fungere."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Aktivér skærmen"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Tillad aktivering af skærmen"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Tillad, at en app aktiverer skærmen. Hvis du giver denne tilladelse, kan appen til enhver tid aktiverer skærmen, uden at du eksplicit har bedt om det."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Tillad, at en app aktiverer skærmen. Hvis du giver denne tilladelse, kan appen til enhver tid aktivere skærmen, uden at du eksplicit har bedt om det."</string>
     <string name="special_access" msgid="21806055758289916">"Særlig appadgang"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Lyd"</string>
@@ -1065,10 +1079,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Lydkilde (mikrofoner)"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Lydoptagelsen kunne ikke startes."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Lydoptagelsen mislykkedes."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Datasparefunktion"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Juster automatisk videokvaliteten, så der bruges mindre mobildata"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Databrug og underretninger"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Du kan få internetforbindelse via Wi-Fi, Ethernet eller din telefons hotspot."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Vil du gøre det synligt for andre Bluetooth-enheder?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"En app anmoder om at gøre dit fjernsyn synligt for andre Bluetooth-enheder i <xliff:g id="TIMEOUT">%1$d</xliff:g> sekunder."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1080,7 +1090,7 @@
     <string name="disabled_by_policy_title_screen_capture" msgid="5774035841010091253">"Screenshots er ikke tilladt"</string>
     <string name="disabled_by_policy_title_suspend_packages" msgid="6500185610058872758">"Denne app kan ikke åbnes"</string>
     <string name="default_admin_support_msg" msgid="7913455019068370350">"Kontakt din it-administrator, hvis du har spørgsmål"</string>
-    <string name="admin_support_more_info" msgid="9053232166115098434">"Mere info"</string>
+    <string name="admin_support_more_info" msgid="9053232166115098434">"Flere oplysninger"</string>
     <string name="admin_profile_owner_message" msgid="5729169873349157622">"Din administrator kan overvåge og administrere apps og data, der er knyttet til din arbejdsprofil, herunder indstillinger, tilladelser, virksomhedsadgang, netværksaktivitet og enhedens lokationsoplysninger."</string>
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"Din administrator kan overvåge og administrere apps og data, der er knyttet til denne bruger, herunder indstillinger, tilladelser, virksomhedsadgang, netværksaktivitet og enhedens lokationsoplysninger."</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"Din administrator kan overvåge og administrere apps og data, der er knyttet til denne enhed, herunder indstillinger, tilladelser, virksomhedsadgang, netværksaktivitet og enhedens lokationsoplysninger."</string>
@@ -1090,7 +1100,7 @@
     <string name="uninstall_device_admin" msgid="6301368408620948266">"Afinstaller appen"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"Deaktiver og afinstaller"</string>
     <string name="select_device_admin_msg" msgid="8475934459999710332">"Apps til enhedsadministration"</string>
-    <string name="add_device_admin_msg" msgid="5390773166682603421">"Aktivér appen til enhedsadministration?"</string>
+    <string name="add_device_admin_msg" msgid="5390773166682603421">"Aktivér appen til enheds­administration?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Aktivér denne app til enhedsadministration"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"Hvis denne administratorapp aktiveres, får appen <xliff:g id="APP_NAME">%1$s</xliff:g> tilladelse til at foretage følgende handlinger:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"Denne enhed administreres og overvåges af <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
@@ -1109,6 +1119,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Der blev oprettet forbindelse"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Vis alle"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Søger"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Hensigten om at tilføje kontoen kunne ikke hentes fra Authenticator."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Kontoen kunne ikke tilføjes, eller kontotypen er ikke tilgængelig."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Kanaler og indgange"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Kanaler, eksterne indgange"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Kanaler"</string>
@@ -1122,8 +1134,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Nulstil"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-parringskode"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Energitilstande"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Optimer energiforbruget, når fjernsynet ikke er i brug"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Disse indstillinger påvirker enheden, når den ikke er i brug"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Aktiverer:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Vær opmærksom på, at denne tilstand kan øge energiforbruget på enheden."</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Antallet af aktiverede funktioner på fjernsynet kan øge strømforbruget."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Aktivér \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Find min fjernbetjening"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Afspil en lyd for at finde din fjernbetjening til Google TV, hvis den er blevet væk"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Der er en knap på dit Google TV, som du kan trykke på for at afspille en lyd på din fjernbetjening i 30 sekunder. Dette virker kun på understøttede Google TV-fjernbetjeninger.\n\nTryk på en vilkårlig knap på fjernbetjeningen for at stoppe lyden."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Når Find min fjernbetjening er aktiveret, kan du afspille en lyd for at finde din fjernbetjening til Google TV, hvis den er blevet væk."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Afspil lyd"</string>
 </resources>

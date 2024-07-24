@@ -98,6 +98,13 @@
         android:icon="@drawable/ic_system_sound"
         android:persistent="true"
         android:title="@string/device_sound_effects"/>
+    <com.android.tv.twopanelsettings.slices.SlicePreference
+        android:icon="@drawable/ic_device_prefs"
+        android:key="menu_system_tv"
+        android:title="@string/system_tv_title"
+        android:fragment="com.android.tv.twopanelsettings.slices.SliceFragment"
+        custom:isPreferenceVisible="false"
+        custom:uri="@string/system_tv_slice_uri"/>
     <com.android.tv.settings.LongClickPreference
         android:fragment="com.android.tv.settings.about.RebootConfirmFragment"
         android:icon="@drawable/ic_restart_alt"

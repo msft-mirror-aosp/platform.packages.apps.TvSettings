@@ -16,24 +16,25 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="energy_mode_low_title" msgid="2408371934616917432">"অত্যাৱশ্যকীয় নেটৱৰ্ক সুবিধাসমূহ"</string>
-    <string name="energy_mode_low_subtitle" msgid="3541491740634993554">"কম শক্তিৰ ব্যৱহাৰ"</string>
-    <string name="energy_mode_low_info" msgid="7336221780506353827">"টিভি ব্যৱহাৰ নকৰা সময়ত নেটৱৰ্ক সংযোগ অফ কৰক।"</string>
+    <string name="energy_mode_low_title" msgid="5700567801191430606">"নিম্ন"</string>
+    <string name="energy_mode_low_subtitle" msgid="7660632849388740009">"ষ্টেণ্ডবাই"</string>
+    <string name="energy_mode_low_info" msgid="3931173640626998821">"ষ্টেণ্ডবাই — টিভিটো ব্যৱহাৰ হৈ নাথাকিলে নেটৱৰ্ক সংযোগটো অফ হৈ থাকে"</string>
   <string-array name="energy_mode_low_features">
-    <item msgid="4976202876230149030">"গুৰুত্বপূৰ্ণ আপডে’ট আৰু ফাংশ্বনসমূহ"</item>
+    <item msgid="4002284890471636101">"[Insert feature 1]"</item>
+    <item msgid="7072772341455731040">"[Insert feature 2]"</item>
   </string-array>
     <string name="energy_mode_low_eco_hint" msgid="2421460758847643655"></string>
-    <string name="energy_mode_moderate_title" msgid="6131212898797802584">"চুপাৰিছ কৰা নেটৱৰ্ক সুবিধাসমূহ"</string>
-    <string name="energy_mode_moderate_subtitle" msgid="8452759001885415587">"শক্তিৰ ব্যৱহাৰ অপ্টিমাইজ কৰা হৈছে"</string>
-    <string name="energy_mode_moderate_info" msgid="8606735947366228051">"নেটৱৰ্ক (ষ্টেণ্ডবাই ম’ডত ৰখা নেটৱৰ্ক)ৰ জৰিয়তে টিভি সক্ৰিয় কৰা সুবিধাসমূহ অন কৰক।"</string>
+    <string name="energy_mode_moderate_title" msgid="8612259261851051150">"অপ্টিমাইজ কৰা"</string>
+    <string name="energy_mode_moderate_subtitle" msgid="5565533500130453270">"নেটৱৰ্কড ষ্টেণ্ডবাই"</string>
+    <string name="energy_mode_moderate_info" msgid="3188005033276283994">"নেটৱৰ্কড ষ্টেণ্ডবাই — নেটৱৰ্কৰ জৰিয়তে টিভিটো সক্ৰিয় কৰিবলৈ সুবিধাসমূহ সক্ষম কৰে"</string>
   <string-array name="energy_mode_moderate_features">
     <item msgid="2654586107956150296">"[Insert feature 1]"</item>
     <item msgid="8724721267222341891">"[Insert feature 2]"</item>
   </string-array>
     <string name="energy_mode_moderate_eco_hint" msgid="252189162446856286"></string>
-    <string name="energy_mode_high_title" msgid="4428472238583662129">"অতিৰিক্ত নেটৱৰ্ক সুবিধাসমূহ"</string>
-    <string name="energy_mode_high_subtitle" msgid="3146607061198429672">"শক্তিৰ ব্যৱহাৰ বৃদ্ধি হৈছে"</string>
-    <string name="energy_mode_high_info" msgid="3151321275701804406">"চুপাৰিছ কৰা সুবিধা সমূহৰ উপৰিও, এই বিকল্পটোৱে টিভি ব্যৱহাৰ নকৰা সময়তো অতিৰিক্ত সুবিধাসমূহ অন কৰে যাৰ ফলত শক্তিৰ ব্যৱহাৰ বৃদ্ধি হ’ব পাৰে।"</string>
+    <string name="energy_mode_high_title" msgid="7596672058005896920">"বৃদ্ধি কৰা হৈছে"</string>
+    <string name="energy_mode_high_subtitle" msgid="5994284096495805422">"সদায় সংযুক্ত হৈ থাকে"</string>
+    <string name="energy_mode_high_info" msgid="8805447042714350186">"সদায় সংযুক্ত হৈ থাকে — টিভিটো ব্যৱহাৰ হৈ নথকা অৱস্থাত নেটৱৰ্কৰ সুবিধাসমূহ সক্ষম কৰে"</string>
   <string-array name="energy_mode_high_features">
     <item msgid="3018897868803319747">"[Insert feature 1]"</item>
     <item msgid="170760143032597722">"[Insert feature 2]"</item>

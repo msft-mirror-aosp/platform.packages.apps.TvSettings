@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Nastavitve aplikacije"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Lokacija, podatki o uporabi in diagnostični podatki, oglasi"</string>
     <string name="add_account" msgid="7386223854837017129">"Dodajanje računa"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Neznan račun"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Odstrani račun"</string>
     <string name="account_sync" msgid="4315295293211313989">"Izberite sinhronizirane aplikacije"</string>
     <string name="sync_now" msgid="4335217984374620551">"Sinhroniziraj"</string>
@@ -166,10 +167,8 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Ali želite vsiliti prikaz HDR?"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Pretvorba bo privzeto vsiljeno nastavljena na <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Zaslon bo v ločljivosti 1080p 60 Hz. Ta možnost ni združljiva z vašim zaslonom, če je nastavljen na ločljivost 4k 60 Hz."</string>
-    <!-- no translation found for selection_dolby_vision_not_supported_sidebar (8994591316574824115) -->
-    <skip />
-    <!-- no translation found for manual_dolby_vision_format_on_4k60_title (4172263676512376500) -->
-    <skip />
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision pri trenutni ločljivosti ni podprt. Če Dolby Vision omogočite ročno, bo ločljivost zaslona spremenjena na 1080p s frekvenco 60 Hz."</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Želite spremeniti ločljivost na 1080p s frekvenco 60 Hz?"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Pretvorba v Dolby Vision se vedno vsili"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Če je v dodatnih nastavitvah prikaza Dolby Vision onemogočen pri oblikah HDR-ja, ga z vsiljeno pretvorbo v Dolby Vision znova omogočite."</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Pretvorba v HDR10 se vedno vsili"</string>
@@ -193,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Vzorčno besedilo"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Čudoviti čarovnik iz Oza"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"11. poglavje: Čudovito Smaragdno mesto"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Četudi so jim oči varovala zelena očala, je Dorotejo in prijatelje sprva zaslepil sij čudovitega Smaragdnega mesta. Na ulicah so se vrstile prekrasne hiše iz zelenega marmorja, na vseh koncih podprte s sijočimi smaragdi. Hodili so po pločniku iz plošč iz enakega zelenega marmorja, katerih stike so krasile vrste tesno položenih in v soncu lesketajočih se smaragdov. Okenske šipe so bile iz zelenega stekla; celo nebo nad Smaragdnim mestom je bilo obarvano zelenkasto in sončni žarki so bili zelene barve. \n\nPo ulicah se je sprehajalo veliko ljudi, moški, ženske in otroci. Vsi so nosili zelena oblačila in imeli so zelenkasto polt. Dorotejo in njeno nenavadno spremstvo so gledali z začudenimi očmi – vsi otroci so stekli proč in se skrili za svoje mame, ko so zagledali Leva –, ampak spregovoril ni z njimi nihče niti besede. Na ulici so stale številne prodajalne in Doroteja je opazila, da je bilo v njih vse zeleno. Naprodaj so imele zelene sladkarije in zeleno pokovko, pa zelene čevlje, zelene klobuke in zelena oblačila vseh vrst prav tako. V eni od njih je možak prodajal zeleno limonado in Doroteja je videla, da so otroci plačevali zanjo z zelenimi novci. \n\nNi bilo videti konjev ali živali drugih vrst; ljudje so prenašali stvari naokrog v majhnih zelenih vozičkih, ki so jih potiskali pred seboj. Vsi so se zdeli veseli, zadovoljni in uspešni."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Četudi so jim oči varovala zelena očala, je Dorotejo in prijatelje sprva zaslepil sij čudovitega Smaragdnega mesta. Na ulicah so se vrstile prekrasne hiše iz zelenega marmorja, na vseh koncih podprte s sijočimi smaragdi. Hodili so po pločniku iz plošč iz enakega zelenega marmorja, katerih stike so krasile vrste tesno položenih in v soncu lesketajočih se smaragdov. Okenske šipe so bile iz zelenega stekla; celo nebo nad Smaragdnim mestom je bilo obarvano zelenkasto in sončni žarki so bili zelene barve. \n\nPo ulicah se je sprehajalo veliko ljudi, moški, ženske in otroci. Vsi so nosili zelena oblačila in imeli so zelenkasto polt. Dorotejo in njeno nenavadno spremstvo so gledali z začudenimi očmi – vsi otroci so stekli proč in se skrili za svoje mame, ko so zagledali Leva –, ampak spregovoril ni z njimi nihče niti besede. Na ulici so stale številne prodajalne in Doroteja je opazila, da je bilo v njih vse zeleno. Naprodaj so imele zelene sladkarije in zeleno pokovko, pa zelene čevlje, zelene klobuke in zelena oblačila vseh vrst prav tako. V eni od njih je možak prodajal zeleno limonado in Doroteja je videla, da so otroci plačevali zanjo z zelenimi novci. \n\nNi bilo videti konjev ali živali drugih vrst; ljudje so prenašali stvari naokrog v majhnih zelenih vozičkih, ki so jih potiskali pred seboj. Vsi so se zdeli veseli, zadovoljni in uspešni."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Izbor oblike"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Samodejno"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Ročno"</string>
@@ -220,12 +219,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Želite spremeniti ločljivost na %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Izberite »V redu«, če želite od zdaj naprej uporabljati %1$s."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision pri ločljivosti %1$s ni podprt in bo v možnosti »Dodatne nastavitve slike« onemogočen."</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Ta način podpira %1$s. V nekaterih televizorjih morate morda vklopiti izboljšan HDMI, če želite omogočiti več oblik HDR-ja. V nastavitvah televizorja si oglejte, ali je to podprto."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Ta način podpira: %1$s\nV nekaterih televizorjih morate morda vklopiti izboljšan HDMI, če želite omogočiti več oblik HDR-ja. V nastavitvah televizorja si oglejte, ali je to podprto."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Prekliči"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"V redu"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
-    <skip />
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Želite izbrisati predpomnjene podatke?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Izbrisali boste predpomn. pod. vseh aplikacij."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -280,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Povezava je vzpostavljena"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Povezava je prekinjena"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Nimate dovoljenja za spreminjanje nastavitev za Bluetooth."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Uporabi za zvok televizorja"</string>
     <string name="send_feedback" msgid="936698637869795473">"Pošiljanje povratnih informacij"</string>
     <string name="launch_help" msgid="2607478763131952469">"Center za pomoč"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -346,8 +345,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"To napravo upravlja vaša organizacija."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"To napravo upravlja <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"– %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Več o tem"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Fotografska aplikacija}one{Fotografske aplikacije}two{Fotografske aplikacije}few{Fotografske aplikacije}other{Fotografske aplikacije}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Aplikacija za koledar"</string>
@@ -370,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Googlova pravna obvestila"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Podatki o licenci niso na voljo"</string>
     <string name="about_model" msgid="9164284529291439296">"Model"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Način naprave"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Predstavitev v trgovinah"</string>
     <string name="about_version" msgid="6223547403835399861">"Različica operacijskega sistema Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"Serijska številka"</string>
     <string name="about_build" msgid="8467840394761634575">"Delovna različica operacijskega sistema Android TV"</string>
@@ -437,6 +437,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Internetna povezava"</string>
     <string name="connected" msgid="4981532275162345997">"Povezano"</string>
     <string name="not_connected" msgid="475810896484271663">"Ni povezave"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Ni internetne povezave"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Shranjeno"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Napačno geslo"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"Geslo za Wi-Fi je prekratko"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Zahtevana je prijava"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Druge možnosti"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Prikaz vseh"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Prikaži manj"</string>
@@ -745,7 +750,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Omogoči"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfiguracija"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Želite uporabiti <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> lahko zbere vse besedilo, ki ga vnesete, razen gesel. To obsega tudi osebne podatke, na primer številke kreditnih kartic."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> bo lahko brala vsebino zaslona, prikazovala vsebino prek drugih aplikacij, spremljala vašo uporabo aplikacij ali tipal strojne opreme in komunicirala z aplikacijami v vašem imenu."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Želite izklopiti <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Če izberete »V redu«, izklopite storitev <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Pretvorba besedila v govor"</string>
@@ -904,6 +909,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Prilagoditev omejitev"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Samo trenutek …"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Spreminjanje kode PIN"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Želite ustvariti omejen profil?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Že ustvarjeno"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Preskoči"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Ustvarjanje kode PIN"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Želite preklopiti na omejeni profil?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Ni omejenih profilov"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Že vneseno"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Ta aplikacija lahko dostopa do vaših računov. Upravlja jo aplikacija <xliff:g id="APP">%1$s</xliff:g>."</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Če želite gledati ta kanal, vnesite kodo PIN"</string>
@@ -1066,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Mikrofoni za posneti zvok"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Ni bilo mogoče začeti snemati zvoka."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Snemanje zvoka ni uspelo."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Varčevanje s podatki"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Samodejno prilagajanje kakovosti videa za manj prenosa podatkov v mob. omrežju"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Prenesena količina podatkov in opozorila"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Z internetom se lahko povežete z omrežjem Wi-Fi, ethernetom ali dostopno točko telefona."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Želite omogočiti, da bo vidna drugim napravam Bluetooth?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Aplikacija želi omogočiti, da bodo lahko druge naprave Bluetooth videle vaš televizor za toliko sekund: <xliff:g id="TIMEOUT">%1$d</xliff:g>."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1110,6 +1118,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Uspešna vzpostavitev povezave"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Pokaži vse"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Iskanje"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Ni bilo mogoče dobiti namena za dodajanje računa od overitelja."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Ni bilo mogoče dodati računa ali pa vrsta računa ni na voljo."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Kanali in vhodi"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Kanali, zunanji vhodi"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Kanali"</string>
@@ -1123,8 +1133,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Ponastavi"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Koda za seznanjanje za ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Energijski načini"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Izboljšajte energijsko učinkovitost, ko televizor ni v uporabi"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Te nastavitve vplivajo na napravo, ko se ne uporablja"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Omogoča:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Upoštevajte, da lahko ta način poveča porabo energije naprave."</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Poraba energije se lahko s številom omogočenih funkcij televizorja poveča."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Omogočite »<xliff:g id="ENERGYMODENAME">%s</xliff:g>«"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Poišči moj daljinski upravljalnik"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Predvajajte zvok, da poiščete daljinski upravljalnik za Google TV, če ga založite"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV ima gumb, ki ga lahko pritisnete in tako za 30 sekund sprožite predvajanje zvoka v daljinskem predvajalniku. To deluje samo s podprtimi daljinskimi upravljalniki za Google TV.\n\nČe želite ustaviti zvok, na daljinskem upravljalniku pritisnite kateri koli gumb."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Če je omogočena funkcija Poišči moj daljinski upravljalnik, lahko nastavite, da se predvaja zvok, da najdete založeni daljinski upravljalnik Googla TV."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Predvajaj zvok"</string>
 </resources>

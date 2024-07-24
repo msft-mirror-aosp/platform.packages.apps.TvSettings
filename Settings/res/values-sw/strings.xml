@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Mipangilio ya Programu"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Mahali, Matumizi na Uchunguzi, Matangazo"</string>
     <string name="add_account" msgid="7386223854837017129">"Ongeza akaunti"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Akaunti Isiyojulikana"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Ondoa akaunti"</string>
     <string name="account_sync" msgid="4315295293211313989">"Chagua programu zilizosawazishwa"</string>
     <string name="sync_now" msgid="4335217984374620551">"Sawazisha sasa"</string>
@@ -191,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Sampuli ya maandishi"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Wachawi wa Ajabu kutoka Oz"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Sura ya 11: Mji wa Ajabu wa Johari wa Oz"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Hata baada ya kulinda macho yao kwa miwani ya kijani, Amina na marafiki zake walishangazwa na mwangaza wa Mji wa ajabu. Mitaa ilikuwa na nyumba maridadi zilizotengenezwa kwa marumaru za kijani na kila mahali kulikuwa na johari zilizong\'aa. Walitembea kwenye njia ya marumaru, na matofali yalipokuwa yameuganishwa, kulikuwa na safu za johari zilizong\'aa kama jua. Madirisha yalitengezwa kwa vioo vya kijani. Anga la Mji na miale ya jua pia ilikuwa ya kijani. \n\nKulikuwa na watu wengi (wanaume, wanawake na watoto) ambao walikuwa wakitembea na wote walikuwa wamevalia nguo za kijani na ngozi yao ilikuwa ya kijani. Watu hawa walimtazama Amina na marafiki zake kwa mshangao. Watoto nao walitoroka na kujificha nyuma ya mama zao walipoona Simba; lakini hakuna aliyewazungumzia. Kulikuwa na maduka mengi mtaani na Amina aliona kuwa bidhaa zilizokuwemo zilikuwa za kijani. Peremende, bisi, viatu, kofia na nguo za aina zote zilikuwa za kijani. Katika sehemu fulani, mtu mmoja alikuwa akiuza juisi ya limau ya kijani, na watoto walilipa sarafu za kijani ili kuinunua. \n\nIlionekana kuwa mji huo haukuwa na farasi wala wanyama wa aina yoyote; watu walibeba bidhaa katika vikapu vya kijani. Kila mtu alionekana mchangamfu na aliyeridhika."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Amina na marafiki zake walishangazwa na mng\'aro wa Mji wa ajabu licha ya kuvaa miwani ya kijani. Mitaa ilikuwa na nyumba maridadi zilizotengezwa kwa marumaru za kijani na kila mahali kulikuwa na johari zilizong\'aa. Walitembea kwenye njia ya marumaru, na matofali yalipokuwa yameuganishwa, kulikuwa na safu za johari zilizong\'aa kama jua. Madirisha yalitengezwa kwa vioo vya kijani. Anga la Mji na miale ya jua ilikuwa ya kijani. \n\nKulikuwa na watu wengi (wanaume, wanawake na watoto) ambao walikuwa wakitembea na wote walikuwa wamevalia nguo za kijani na ngozi yao ilikuwa ya kijani. Watu hawa walimtazama Amina na marafiki zake kwa mshangao. Watoto nao walitoroka na kujificha nyuma ya mama zao walipoona Simba; hakuna aliyewazungumzia. Kulikuwa na maduka mengi mtaani na Amina aliona kuwa bidhaa zilizokuwemo zilikuwa za kijani. Peremende, bisi, viatu, kofia na nguo za aina zote zilikuwa za kijani. Katika sehemu fulani, mtu mmoja alikuwa akiuza sharubati ya kijani, na watoto walilipa sarafu za kijani ili kuinunua.\n\nIlionekana kuwa mji huo haukuwa na farasi wala wanyama wa aina yoyote; watu walibeba bidhaa katika vikapu vya kijani. Kila mtu alionekana mchangamfu na aliyeridhika."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Uteuzi wa muundo"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Otomatiki"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Teua mwenyewe"</string>
@@ -218,12 +219,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Ungependa kubadilisha ubora uwe %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Chagua Sawa ili utumie %1$s kuanzia sasa."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Kipengele cha Dolby Vision hakitumiki kwenye %1$s na kitazimwa kwenye \"Mipangilio ya Kina ya Skrini\""</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Hali hii inatumia %1$s. Kwenye baadhi ya TV, huenda ukahitaji kuwasha HDMI Iliyoboreshwa ili kuwasha miundo zaidi ya HDR. Angalia mipangilio ya TV yako ili uone ikiwa hali hii inatumika."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Hali hii inatumia: %1$s\nKwenye baadhi ya TV, huenda ukahitaji kuwasha HDMI Iliyoboreshwa ili uruhusu miundo zaidi ya HDR Angalia mipangilio ya TV yako ili uone ikiwa hali hii inatumika."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Ghairi"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"Sawa"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
-    <skip />
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (Hz <xliff:g id="REFRESH_RATE">%2$s</xliff:g>)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Ungependa kufuta data iliyo kwenye akiba?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Hii itafuta data iliyo kwenye akiba ya programu zote."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -252,7 +252,7 @@
     <string name="bluetooth_enter_pin_msg" msgid="8905524093007140634">"Ili kuoanisha: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;Chapa PIN inayohitajika ya kifaa:"</string>
     <string name="bluetooth_enter_passkey_msg" msgid="889584097447402492">"Ili kuoanisha na: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;Chapa nenosiri linalohitajika la kifaa:"</string>
     <string name="bluetooth_pin_values_hint" msgid="6237371515577342950">"Kwa kawaida 0000 au 1234"</string>
-    <string name="bluetooth_pair" msgid="2410285813728786067">"Oanisha"</string>
+    <string name="bluetooth_pair" msgid="2410285813728786067">"Unganisha"</string>
     <string name="bluetooth_cancel" msgid="4415185529332987034">"Ghairi"</string>
     <string name="bluetooth_device_connected_toast" msgid="1896195197089204806">"%1$s imeunganishwa"</string>
     <string name="bluetooth_device_disconnected_toast" msgid="7459239447363156499">"%1$s imetenganishwa"</string>
@@ -260,7 +260,7 @@
     <string name="bluetooth_toggle_title" msgid="3808904783456336104">"Bluetooth"</string>
     <string name="bluetooth_toggle_confirmation_dialog_title" msgid="3906746631391295717">"Zima Bluetooth"</string>
     <string name="bluetooth_toggle_confirmation_dialog_summary" msgid="9017044450625172698">"Hutaweza kufikia programu ya Mratibu wa Google kwenye kidhibiti chako cha mbali ukiwa umezima Bluetooth."</string>
-    <string name="bluetooth_pair_accessory" msgid="5508750142754420984">"Oanisha kifaa cha ziada"</string>
+    <string name="bluetooth_pair_accessory" msgid="5508750142754420984">"Unganisha kifuasi"</string>
     <string name="bluetooth_known_devices_category" msgid="6895470515631452961">"Vifaa vya ziada"</string>
     <string name="bluetooth_official_remote_category" msgid="5817814488268307170">"Kidhibiti cha Mbali"</string>
     <string name="bluetooth_official_remote_entry_title" msgid="6699700335229570038">"Mipangilio ya kidhibiti cha mbali"</string>
@@ -278,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Imeunganishwa"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Imetenganishwa"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Huna ruhusa ya kubadilisha mipangilio ya Bluetooth."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Tumia kwa maudhui ya sauti kwenye TV"</string>
     <string name="send_feedback" msgid="936698637869795473">"Tuma maoni"</string>
     <string name="launch_help" msgid="2607478763131952469">"Kituo cha Usaidizi"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -344,8 +345,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Kifaa hiki kinadhibitiwa na shirika lako."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Kifaa hiki kinasimamiwa na <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Pata maelezo zaidi"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Programu ya kamera}other{Programu za kamera}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Programu ya kalenda"</string>
@@ -368,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Sheria za Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Data ya leseni haipatikani"</string>
     <string name="about_model" msgid="9164284529291439296">"Muundo"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Hali ya Kifaa"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Hifadhi Toleo la Kujaribu"</string>
     <string name="about_version" msgid="6223547403835399861">"Toleo la Mfumo wa Uendeshaji wa Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"Nambari ya ufuatiliaji"</string>
     <string name="about_build" msgid="8467840394761634575">"Muundo wa Mfumo wa Uendeshaji wa Android TV"</string>
@@ -435,6 +437,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Muunganisho kwa Intaneti"</string>
     <string name="connected" msgid="4981532275162345997">"Umeunganishwa"</string>
     <string name="not_connected" msgid="475810896484271663">"Hujaunganishwa"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Hakuna muunganisho wa Intaneti"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Imehifadhiwa"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Nenosiri si sahihi"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"Nenosiri la Wi-Fi ni fupi mno"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Unahitaji kuingia katika akaunti"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Chaguo nyinginezo"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Angalia yote"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Angalia chache"</string>
@@ -743,7 +750,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Washa"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Kuweka mipangilio"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g>: iwashwe?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"Huduma ya <xliff:g id="SERVICE">%1$s</xliff:g> inaweza kukusanya maandishi yote unayochapa, isipokuwa manenosiri. Hii ni pamoja na data ya kibinafsi kama nambari za kadi ya mkopo."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> itaweza kusoma skrini yako, kuonyesha maudhui juu ya programu zingine, kufuatilia matumizi yako ya programu au vitambuzi vya maunzi na kutumia programu kwa niaba yako."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"<xliff:g id="SERVICE">%1$s</xliff:g>: isimamishwe?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Kuchagua sawa kutasimamisha <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Kusoma maandishi kwa sauti"</string>
@@ -902,6 +909,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Geuza vizuizi viwe utakavyo"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Kidogo tu..."</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Badilisha pin"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Unda wasifu uliodhibitiwa?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Umeunda Tayari"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Ruka"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Unda PIN"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Utafungua mfumo wenye vizuizi?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Hamna wasifu uliodhibitiwa"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Umeweka tayari"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Programu hii inaweza kufikia akaunti zako. Inadhibitiwa na <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Weka PIN ili uangalie kituo hiki"</string>
@@ -1064,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Maikrofoni zilizotumika kurekodi sauti"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Imeshindwa kuanza kurekodi sauti."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Imeshindwa kurekodi sauti."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Kiokoa Data"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Rekebisha ubora wa video kiotomatiki ili utumie kiasi kidogo cha data ya simu"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Arifa na matumizi ya data"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Unaweza kuunganisha kwenye intaneti ukitumia Wi-Fi, Ethaneti au mtandao pepe wa simu yako."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Ungependa kufanya televisheni ionekane kwenye vifaa vingine vyenye Bluetooth?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Programu inataka kufanya televisheni yako ionekane kwenye vifaa vingine vyenye Bluetooth kwa sekunde <xliff:g id="TIMEOUT">%1$d</xliff:g>."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1108,6 +1118,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Imeunganisha"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Onyesha yote"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Inatafuta"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Imeshindwa kurejesha utaratibu wa kuweka akaunti kutoka kwenye kithibitishaji."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Imeshindwa kuweka akaunti au aina ya akaunti haipatikani."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Vituo na Vyanzo"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Vituo, vyanzo vya nje"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Vituo"</string>
@@ -1121,8 +1133,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Weka upya"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Msimbo wa kuoanisha wa ethaneti"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Hali za Nishati"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Boresha ufanisi wa nishati wakati TV haitumiki"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Mipangilio hii inaathiri kifaa wakati hakitumiki"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Huwasha:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Kumbuka kuwa hali hii inaweza kuongeza utumiaji wa nishati kwenye kifaa."</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Matumizi ya nishati yanaweza kuongezeka kutokana na idadi ya vipengele vya televisheni unavyowasha."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Washa \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Tafuta kidhibiti changu cha mbali"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Cheza sauti ili upate kilipo kidhibiti chako cha mbali cha Google TV ikiwa kimepotea"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Kuna kitufe kwenye Google TV yako unachoweza kukibofya ili kucheza sauti kwenye kidhibiti chako cha mbali kwa sekunde 30. Kipengele hiki kinafanya kazi tu kwenye vidhibiti vya mbali vya Google TV vinavyotumika.\n\nIli uzime sauti, bonyeza kitufe chochote kwenye kidhibiti chako cha mbali."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Ukiwasha huduma ya Tafuta kidhibiti changu cha mbali, unaweza kucheza sauti ili kupata kilipo kidhibiti chako cha mbali cha Google TV kikipotea."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Cheza sauti"</string>
 </resources>

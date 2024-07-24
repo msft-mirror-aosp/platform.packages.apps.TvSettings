@@ -16,27 +16,28 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="energy_mode_low_title" msgid="2408371934616917432">"Sarearen ezinbesteko eginbideak"</string>
-    <string name="energy_mode_low_subtitle" msgid="3541491740634993554">"Energia-kontsumo txikia"</string>
-    <string name="energy_mode_low_info" msgid="7336221780506353827">"Desaktibatu sareko konexioa telebista erabiltzen ari ez zarenean."</string>
+    <string name="energy_mode_low_title" msgid="5700567801191430606">"Baxua"</string>
+    <string name="energy_mode_low_subtitle" msgid="7660632849388740009">"Egonean"</string>
+    <string name="energy_mode_low_info" msgid="3931173640626998821">"Egonean: sareko konexioa desaktibatuta dago telebista erabiltzen ez denean"</string>
   <string-array name="energy_mode_low_features">
-    <item msgid="4976202876230149030">"Eguneratze eta funtzio garrantzitsuak"</item>
+    <item msgid="4002284890471636101">"[Gehitu 1. eginbidea]"</item>
+    <item msgid="7072772341455731040">"[Gehitu 2. eginbidea]"</item>
   </string-array>
     <string name="energy_mode_low_eco_hint" msgid="2421460758847643655"></string>
-    <string name="energy_mode_moderate_title" msgid="6131212898797802584">"Sarearen eginbide gomendatuak"</string>
-    <string name="energy_mode_moderate_subtitle" msgid="8452759001885415587">"Energia-kontsumo optimizatua"</string>
-    <string name="energy_mode_moderate_info" msgid="8606735947366228051">"Sarearen bidez (sare bidezko egonean modua) telebista aktibatzen duten eginbideak aktibatzen ditu."</string>
+    <string name="energy_mode_moderate_title" msgid="8612259261851051150">"Optimizatuta"</string>
+    <string name="energy_mode_moderate_subtitle" msgid="5565533500130453270">"Sare-konexio bidezko egonean modua"</string>
+    <string name="energy_mode_moderate_info" msgid="3188005033276283994">"Sare-konexio bidezko egonean modua: telebista sarearen bidez aktibatzeko eginbideak gaitzen ditu"</string>
   <string-array name="energy_mode_moderate_features">
-    <item msgid="2654586107956150296">"[Idatzi lehenengo eginbidea]"</item>
-    <item msgid="8724721267222341891">"[Idatzi bigarren eginbidea]"</item>
+    <item msgid="2654586107956150296">"[Gehitu lehenengo eginbidea]"</item>
+    <item msgid="8724721267222341891">"[Gehitu bigarren eginbidea]"</item>
   </string-array>
     <string name="energy_mode_moderate_eco_hint" msgid="252189162446856286"></string>
-    <string name="energy_mode_high_title" msgid="4428472238583662129">"Sarearen eginbide gehigarriak"</string>
-    <string name="energy_mode_high_subtitle" msgid="3146607061198429672">"Energia-kontsumo handia"</string>
-    <string name="energy_mode_high_info" msgid="3151321275701804406">"Gomendatutako eginbideez gain, agian energia-kontsumo handiagoa duten eginbide gehigarriak aktibatzen ditu aukera honek telebista erabiltzen ari ez zarenean."</string>
+    <string name="energy_mode_high_title" msgid="7596672058005896920">"Areagotua"</string>
+    <string name="energy_mode_high_subtitle" msgid="5994284096495805422">"Beti konektatuta"</string>
+    <string name="energy_mode_high_info" msgid="8805447042714350186">"Beti konektatuta: telebista erabiltzen ez denean sareko eginbideak gaitzen ditu"</string>
   <string-array name="energy_mode_high_features">
-    <item msgid="3018897868803319747">"[Idatzi lehenengo eginbidea]"</item>
-    <item msgid="170760143032597722">"[Idatzi bigarren eginbidea]"</item>
+    <item msgid="3018897868803319747">"[Gehitu lehenengo eginbidea]"</item>
+    <item msgid="170760143032597722">"[Gehitu bigarren eginbidea]"</item>
   </string-array>
     <!-- no translation found for energy_mode_high_eco_hint (3266580507783627848) -->
     <skip />

@@ -16,24 +16,25 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="energy_mode_low_title" msgid="2408371934616917432">"Тармактын керектүү функциялары"</string>
-    <string name="energy_mode_low_subtitle" msgid="3541491740634993554">"Электр кубаты азыраак керектелет"</string>
-    <string name="energy_mode_low_info" msgid="7336221780506353827">"Сыналгы өчүп турганда тармактан ажыратыңыз."</string>
+    <string name="energy_mode_low_title" msgid="5700567801191430606">"Төмөн"</string>
+    <string name="energy_mode_low_subtitle" msgid="7660632849388740009">"Көшүү режими"</string>
+    <string name="energy_mode_low_info" msgid="3931173640626998821">"Көшүү режими — сыналгы өчүк учурда тармакка туташуу өчүк болот"</string>
   <string-array name="energy_mode_low_features">
-    <item msgid="4976202876230149030">"Маанилүү жаңыртуулар жана функциялар"</item>
+    <item msgid="4002284890471636101">"[Insert feature 1]"</item>
+    <item msgid="7072772341455731040">"[Insert feature 2]"</item>
   </string-array>
     <string name="energy_mode_low_eco_hint" msgid="2421460758847643655"></string>
-    <string name="energy_mode_moderate_title" msgid="6131212898797802584">"Тармактын сунушталган функциялары"</string>
-    <string name="energy_mode_moderate_subtitle" msgid="8452759001885415587">"Электр кубатынын колдонулушу оптималдаштырылды"</string>
-    <string name="energy_mode_moderate_info" msgid="8606735947366228051">"Сыналгыны тармак аркылуу ойготкон функцияларды күйгүзөт (тармактык күтүү режими)."</string>
+    <string name="energy_mode_moderate_title" msgid="8612259261851051150">"Оптималдаштырылган"</string>
+    <string name="energy_mode_moderate_subtitle" msgid="5565533500130453270">"Тармакка кошулган күтүү режими"</string>
+    <string name="energy_mode_moderate_info" msgid="3188005033276283994">"Тармакка кошулган күтүү режими — тармак аркылуу сыналгыны ойготот"</string>
   <string-array name="energy_mode_moderate_features">
     <item msgid="2654586107956150296">"[Insert feature 1]"</item>
     <item msgid="8724721267222341891">"[Insert feature 2]"</item>
   </string-array>
     <string name="energy_mode_moderate_eco_hint" msgid="252189162446856286"></string>
-    <string name="energy_mode_high_title" msgid="4428472238583662129">"Тармактын кошумча функциялары"</string>
-    <string name="energy_mode_high_subtitle" msgid="3146607061198429672">"Электр кубаты көбүрөөк керектелет"</string>
-    <string name="energy_mode_high_info" msgid="3151321275701804406">"Сунушталган функцияларга кошумча, бул параметр сыналгы өчүп турганда электр кубатын көбүрөөк керектеген кошумча функцияларлы иштетет."</string>
+    <string name="energy_mode_high_title" msgid="7596672058005896920">"Жогору"</string>
+    <string name="energy_mode_high_subtitle" msgid="5994284096495805422">"Ар дайым онлайн"</string>
+    <string name="energy_mode_high_info" msgid="8805447042714350186">"Ар дайым онлайн — cыналгы өчүк учурда да тармак функцияларын иштетет"</string>
   <string-array name="energy_mode_high_features">
     <item msgid="3018897868803319747">"[Insert feature 1]"</item>
     <item msgid="170760143032597722">"[Insert feature 2]"</item>

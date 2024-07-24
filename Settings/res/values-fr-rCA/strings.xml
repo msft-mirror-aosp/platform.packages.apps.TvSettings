@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Paramètres des applications"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Localisation, utilisation et diagnostics, et annonces"</string>
     <string name="add_account" msgid="7386223854837017129">"Ajouter un compte"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Compte inconnu"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Supprimer le compte"</string>
     <string name="account_sync" msgid="4315295293211313989">"Sélectionner applis synchro"</string>
     <string name="sync_now" msgid="4335217984374620551">"Synchroniser maintenant"</string>
@@ -166,10 +167,8 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Voulez-vous forcer la sortie HDR?"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Par défaut, la conversion sera forcée au format <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Votre écran affichera une résolution de 1080p à 60 Hz. Cette option n\'est pas compatible avec votre écran lorsqu\'il affiche une résolution de 4K à 60 Hz."</string>
-    <!-- no translation found for selection_dolby_vision_not_supported_sidebar (8994591316574824115) -->
-    <skip />
-    <!-- no translation found for manual_dolby_vision_format_on_4k60_title (4172263676512376500) -->
-    <skip />
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision n\'est pas pris en charge à la résolution actuelle. Si vous activez Dolby Vision manuellement, votre écran passera à une résolution de 1080p à 60 Hz"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Passer à une résolution de 1080p à 60 Hz?"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Toujours forcer la conversion en Dolby Vision"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Si Dolby Vision est désactivé dans les formats HDR dans les paramètres d\'affichage avancés, forcer la conversion en Dolby Vision le réactivera."</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Toujours forcer la conversion en HDR10"</string>
@@ -193,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Exemple de texte"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Le Magicien d\'Oz"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Chapitre 11 : La merveilleuse cité d\'émeraude d\'Oz"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Malgré leurs lunettes vertes, Dorothée et ses amis ont d\'abord été éblouis par l\'éclat de la cité merveilleuse. Les rues étaient bordées de maisons splendides, toutes faites de marbre vert et incrustées d\'étincelantes émeraudes. Ils marchaient sur une chaussée ornée du même marbre, et la jointure des dalles était sertie de rangs serrés d\'émeraudes qui resplendissaient sous le soleil. Les panneaux de verre des fenêtres étaient verts, le ciel au-dessus de la cité avait une teinte verte, et le soleil lui-même lançait des rayons verts. \n\nBeaucoup de gens déambulaient dans les rues, hommes, femmes et enfants. Tous étaient vêtus de vert et avaient un teint verdâtre. Étonnés, ils dévisageaient Dorothée et son étrange escorte. Les enfants couraient se cacher derrière leurs mères à la vue du lion, mais personne ne leur adressait la parole. Il y avait de nombreuses boutiques et Dorothée a remarqué que tout y était vert à l\'intérieur. Tout ce qu\'on y vendait était vert : les bonbons et le maïs éclaté, les chaussures, les chapeaux et les vêtements. Dans un magasin, un homme vendait de la limonade verte, et Dorothée a vu que les enfants payaient avec des sous verts. \n\nIl semblait n\'y avoir ni chevaux ni animaux d\'aucune espèce; les hommes transportaient diverses choses dans de petites charrettes vertes, qu\'ils poussaient devant eux. Tout le monde avait un air heureux et satisfait, et tous les habitants semblaient prospères."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Malgré leurs lunettes vertes, Dorothée et ses amis ont d\'abord été éblouis par l\'éclat de la cité merveilleuse. Les rues étaient bordées de maisons splendides, toutes faites de marbre vert et incrustées d\'étincelantes émeraudes. Ils marchaient sur une chaussée ornée du même marbre, et la jointure des dalles était sertie de rangs serrés d\'émeraudes qui resplendissaient sous le soleil. Les panneaux de verre des fenêtres étaient verts, le ciel au-dessus de la cité avait une teinte verte, et le soleil lui-même lançait des rayons verts. \n\nBeaucoup de gens déambulaient dans les rues, hommes, femmes et enfants. Tous étaient vêtus de vert et avaient un teint verdâtre. Étonnés, ils dévisageaient Dorothée et son étrange escorte. Les enfants couraient se cacher derrière leurs mères à la vue du lion, mais personne ne leur adressait la parole. Il y avait de nombreuses boutiques et Dorothée a remarqué que tout y était vert à l\'intérieur. Tout ce qu\'on y vendait était vert : les bonbons et le maïs éclaté, les chaussures, les chapeaux et les vêtements. Dans un magasin, un homme vendait de la limonade verte, et Dorothée a vu que les enfants payaient avec des sous verts. \n\nIl semblait n\'y avoir ni chevaux ni animaux d\'aucune espèce; les hommes transportaient diverses choses dans de petites charrettes vertes, qu\'ils poussaient devant eux. Tout le monde semblait heureux, satisfait et prospère."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Sélection du format"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automatique"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manuel"</string>
@@ -220,12 +219,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Modifier la résolution à %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Sélectionnez OK pour utiliser %1$s à partir de maintenant."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision n\'est pas pris en charge par %1$s et sera désactivé dans « Paramètres d\'affichage avancés »"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Ce mode prend en charge %1$s. Sur certains téléviseurs, vous devrez peut-être activer le mode HDMI amélioré pour activer davantage de formats HDR. Vérifiez les paramètres de votre téléviseur pour savoir si ce mode est pris en charge."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Ce mode soutient : %1$s\nSur certains téléviseurs, vous devrez peut-être activer le mode HDMI amélioré pour activer davantage de formats HDR. Vérifiez les paramètres de votre téléviseur pour savoir si ce mode est pris en charge."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Annuler"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
-    <skip />
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Effacer les données mises en cache?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Les données en cache des applis seront effacées."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -280,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Connecté"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Déconnecté"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Vous n\'êtes pas autorisé à modifier les paramètres Bluetooth."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Utiliser pour l\'audio du téléviseur"</string>
     <string name="send_feedback" msgid="936698637869795473">"Envoyer des commentaires"</string>
     <string name="launch_help" msgid="2607478763131952469">"Centre d’aide"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -346,8 +345,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Cet appareil est géré par votre organisation."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Cet appareil est géré par <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" \\2060"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"En savoir plus"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Application d\'appareil photo}one{Application d\'appareil photo}other{Applications d\'appareil photo}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Application d\'agenda"</string>
@@ -370,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Renseignements juridiques Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Les données concernant les licences ne sont pas accessibles."</string>
     <string name="about_model" msgid="9164284529291439296">"Modèle"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Mode de l\'appareil"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Démo en magasin"</string>
     <string name="about_version" msgid="6223547403835399861">"Version du SE d\'Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"Numéro de série"</string>
     <string name="about_build" msgid="8467840394761634575">"Version d\'Android TV"</string>
@@ -437,6 +437,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Connexion Internet"</string>
     <string name="connected" msgid="4981532275162345997">"Connecté"</string>
     <string name="not_connected" msgid="475810896484271663">"Non connecté"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Aucune connexion Internet"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Enregistré"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Mot de passe incorrect"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"Le mot de passe Wi-Fi est trop court"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Connexion obligatoire"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Autres options"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Tout afficher"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Moins de résultats"</string>
@@ -745,14 +750,14 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Activer"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Configuration"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Utiliser <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> peut recueillir la totalité du texte que vous entrez, à l\'exception des mots de passe. Cela comprend les données personnelles, telles que les numéros de carte de crédit."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> pourra lire votre écran, afficher du contenu par-dessus d\'autres applications, suivre vos interactions avec des applications ou des capteurs matériels, et interagir avec des applications en votre nom."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Arrêter <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Si vous sélectionnez OK, cela interrompt <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Synthèse vocale"</string>
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"Configuration du moteur"</string>
     <string name="system_speak_passwords" msgid="8556036524146404052">"Énoncer les mots de passe"</string>
     <string name="system_preferred_engine" msgid="3545505072652708443">"Moteur préféré"</string>
-    <string name="system_speech_rate" msgid="6553204071403872669">"Cadence de parole"</string>
+    <string name="system_speech_rate" msgid="6553204071403872669">"Débit"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"Écouter un extrait"</string>
     <string name="system_install_voice_data" msgid="8016395777968958673">"Installer les données vocales"</string>
     <string name="system_general" msgid="687760148454147771">"Général"</string>
@@ -904,6 +909,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Personnaliser les restrictions"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Veuillez patienter…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Modifier le NIP"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Créer un profil limité"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Déjà créé"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Ignorer"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Créer un NIP"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Activer le profil limité?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Aucun profil limité"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Déjà saisi"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Cette application peut accéder à vos comptes. Contrôlée par <xliff:g id="APP">%1$s</xliff:g>."</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Entrez le NIP pour regarder cette chaîne"</string>
@@ -1066,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Microphone(s) d\'enregistrement"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Impossible de démarrer l\'enregistrement audio."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Échec de l\'enregistrement audio."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Économiseur de données"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Ajuster automatiquement la qualité vidéo pour utiliser moins de données cellulaires"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Consommation des données et alertes"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Connectez-vous à Internet par Wi-Fi ou Ethernet, ou au moyen du point d\'accès sans fil de votre téléphone."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Rendre visible pour les autres appareils Bluetooth?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Une application souhaite rendre votre télévision visible pour les autres appareils Bluetooth pendant <xliff:g id="TIMEOUT">%1$d</xliff:g> secondes."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1093,7 +1101,7 @@
     <string name="select_device_admin_msg" msgid="8475934459999710332">"Applications d\'administration d\'appareils"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"Activer l\'appli d\'admin de l\'appareil?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Activer l\'application d\'administration de l\'appareil"</string>
-    <string name="device_admin_warning" msgid="7399916080685200660">"L\'activation de cette application d\'administration permettra à <xliff:g id="APP_NAME">%1$s</xliff:g> d\'effectuer les opérations suivantes :"</string>
+    <string name="device_admin_warning" msgid="7399916080685200660">"Lorsque l\'application d\'administration est activée, <xliff:g id="APP_NAME">%1$s</xliff:g> pourra effectuer les opérations suivantes :"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"Cet appareil sera géré et surveillé par <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
     <string name="device_admin_status" msgid="5467001937240455367">"Cette application d\'administration est active et permet à l\'application <xliff:g id="APP_NAME">%1$s</xliff:g> d\'effectuer les opérations suivantes :"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"En continuant, votre utilisateur sera géré par votre administrateur, qui pourra aussi stocker des données associées en plus de vos données personnelles.\n\nVotre administrateur peut surveiller et gérer les paramètres, l\'accès, les applications et les données associées à cet utilisateur, y compris l\'activité réseau et les données de localisation de votre appareil."</string>
@@ -1110,6 +1118,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Connexion réussie"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Tout afficher"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Recherche en cours…"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Impossible de récupérer l\'intention d\'ajouter un compte à partir de l\'authentifiant."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Impossible d\'ajouter un compte, ou le type de compte n\'est pas accessible."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Chaînes et entrées"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Chaînes, entrées externes"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Chaînes"</string>
@@ -1123,8 +1133,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Réinitialiser"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Code d\'association Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Modes de consommation d\'énergie"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Améliorer l\'efficacité énergétique lorsque le téléviseur n\'est pas en cours d\'utilisation"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Ces paramètres ont une incidence sur l\'appareil lorsqu\'il n\'est pas utilisé"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Active :"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Notez que ce mode peut augmenter la consommation d\'énergie de l\'appareil."</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"La consommation d\'énergie peut augmenter en fonction du nombre de fonctionnalités du téléviseur que vous activez."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Activer « <xliff:g id="ENERGYMODENAME">%s</xliff:g> »"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Localiser ma télécommande"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Faites jouer un son pour localiser votre télécommande Google TV si elle est égarée"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Un bouton sur votre Google TV vous permet d\'émettre un son sur votre télécommande pendant 30 secondes. Cette action ne fonctionne qu\'avec les télécommandes prises en charge par Google TV.\n\nPour couper le son, appuyez sur n\'importe quel bouton de votre télécommande."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Quand la fonctionnalité Localiser ma télécommande est activée, vous pouvez faire jouer un son pour localiser votre télécommande Google TV si elle est égarée."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Faire jouer un son"</string>
 </resources>

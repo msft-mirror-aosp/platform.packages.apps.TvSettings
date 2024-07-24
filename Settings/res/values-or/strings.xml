@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ଆପ ସେଟିଂସ"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"ଲୋକେସନ୍, ବ୍ୟବହାର ଓ ଡାଏଗ୍ନୋଷ୍ଟିକ୍ସ, ବିଜ୍ଞାପନଗୁଡ଼ିକ"</string>
     <string name="add_account" msgid="7386223854837017129">"ଆକାଉଣ୍ଟ ଯୋଡ଼ନ୍ତୁ"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"ଅଜଣା ଆକାଉଣ୍ଟ"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"ଆକାଉଣ୍ଟ କାଢ଼ିଦିଅନ୍ତୁ"</string>
     <string name="account_sync" msgid="4315295293211313989">"ସିଙ୍କ୍‌ ହୋଇଥିବା ଆପ୍‌ ବାଛନ୍ତୁ"</string>
     <string name="sync_now" msgid="4335217984374620551">"ବର୍ତ୍ତମାନ ସିଙ୍କ କରନ୍ତୁ"</string>
@@ -107,7 +108,7 @@
     <string name="device_surround_sound" msgid="1889436002598316470">"ପରିପାର୍ଶ୍ଵର ଶଦ୍ଦ"</string>
     <string name="device_sound_effects" msgid="2000295001122684957">"ସିଷ୍ଟମ୍ ‌ସାଉଣ୍ଡ୍‌"</string>
     <string name="device_apps" msgid="2134756632245008919">"ଆପ୍ଲିକେସନ୍‌"</string>
-    <string name="device_storage" msgid="8540243547121791073">"ଷ୍ଟୋରେଜ୍"</string>
+    <string name="device_storage" msgid="8540243547121791073">"ଷ୍ଟୋରେଜ"</string>
     <string name="device_reset" msgid="6115282675800077867">"ଫ୍ୟାକ୍ଟୋରୀ ରିସେଟ୍ କରନ୍ତୁ"</string>
     <string name="device_backup_restore" msgid="3634531946308269398">"ବ୍ୟାକଅପ୍ ନିଅନ୍ତୁ ଏବଂ ରିଷ୍ଟୋର୍ କରନ୍ତୁ"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"ଫ୍ୟାକ୍ଟୋରୀ ଡାଟା ରିସେଟ୍‌"</string>
@@ -166,10 +167,8 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"ଆପଣ HDR ଆଉଟପୁଟ ଲାଗୁ କରିବାକୁ ଚାହାଁନ୍ତି?"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"ଡିଫଲ୍ଟ ଭାବେ କନଭର୍ସନକୁ <xliff:g id="HDR_TYPE">%s</xliff:g>ରେ ଲାଗୁ କରାଯିବ।"</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"ଆପଣଙ୍କ ଡିସପ୍ଲେ 1080p 60Hz ରିଜୋଲ୍ୟୁସନରେ ଚାଲିବ। 4k 60Hz ରିଜୋଲ୍ୟୁସନରେ ଚାଲିବା ସମୟରେ ଏହି ବିକଳ୍ପ ଆପଣଙ୍କ ଡିସପ୍ଲେ ସହ କମ୍ପାଟିବଲ ନୁହେଁ।"</string>
-    <!-- no translation found for selection_dolby_vision_not_supported_sidebar (8994591316574824115) -->
-    <skip />
-    <!-- no translation found for manual_dolby_vision_format_on_4k60_title (4172263676512376500) -->
-    <skip />
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"ବର୍ତ୍ତମାନର ରିଜୋଲ୍ୟୁସନରେ Dolby Vision ସମର୍ଥିତ ନୁହେଁ। ଯଦି ଆପଣ Dolby Visionକୁ ମାନୁଆଲୀ ସକ୍ଷମ କରନ୍ତି, ତେବେ ଆପଣଙ୍କ ଡିସପ୍ଲେର ରିଜୋଲ୍ୟୁସନ 1080p 60Hzକୁ ପରିବର୍ତ୍ତନ ହୋଇଯିବ"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"ରିଜୋଲ୍ୟୁସନକୁ 1080p 60Hzକୁ ପରିବର୍ତ୍ତନ କରିବେ?"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"ସର୍ବଦା Dolby Visionରେ କନଭର୍ସନ ଲାଗୁ କରନ୍ତୁ"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"ଉନ୍ନତ ଡିସପ୍ଲେ ସେଟିଂସରେ ଥିବା HDR ଫର୍ମାଟରେ ଯଦି ଡଲବି ଭିଜନକୁ ଅକ୍ଷମ କରାଯାଏ, Dolby Visionରେ କନଭର୍ସନ ଲାଗୁ କରିବା ଏହାକୁ ପୁଣି-ସକ୍ଷମ କରିବ।"</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"ସର୍ବଦା HDR10ରେ କନଭର୍ସନ ଲାଗୁ କରନ୍ତୁ"</string>
@@ -193,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"ସାମ୍ପଲ୍ ଟେକ୍ସଟ୍"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"ଦି ୱାଣ୍ଡରଫୁଲ୍ ୱିଜାର୍ଡ ଅଫ୍ ଓଜ୍"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"ଅଧ୍ୟାୟ 11: ଦି ୱାଣ୍ଡରଫୁଲ୍ ସିଟି ଅଫ୍ ଓଜ୍"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"ଆଖିରେ ସବୁଜ ଚଷମା ପିନ୍ଧିଥିଲେ ସୁଦ୍ଧା ଡୋରୋଥି ଓ ତା’ ସାଙ୍ଗମାନେ, ସହରର ସୁନ୍ଦରତା ଦେଖି ପ୍ରଥମେ ଚକିତ ହୋଇଯାଇଥିଲେ। ସବୁଜ ମାର୍ବଲରେ ଗଠିତ ସୁନ୍ଦର ଘରଗୁଡ଼ିକ ରାସ୍ତାର ଉଭୟ ପାର୍ଶ୍ୱରେ ଶୋଭା ପାଉଥିଲା ଏବଂ ଝଲସୁଥିବା ରତ୍ନ ସବୁଆଡ଼େ ଖଞ୍ଜାଯାଇଥିଲା। ସେମାନେ ସେହି ସବୁଜ ମାର୍ବଲ ରାସ୍ତାରେ ଚାଲି ଚାଲି ଆଗକୁ ବଢ଼ିଲେ ଏବଂ ଯେଉଁଠାରେ ଦୁଇଟି ଗଳି ପରସ୍ପର ସହିତ ଯୋଡ଼ି ହୋଇଥିଲା, ସେଠାରେ ପାଖାପାଖି ଖଞ୍ଜାଯାଇଥିବା ରତ୍ନଗୁଡ଼ିକର ଅନେକ ଧାଡ଼ି ଥିଲା ଓ ସେଗୁଡ଼ିକ ସୂର୍ଯ୍ୟାଲୋକ ପଡ଼ି ଝଲସୁଥିଲା। ଝରକାରେ ସବୁଜ ରଙ୍ଗର କାଚ ଲାଗିଥିଲା; ଏପରିକି ସମ୍ପୂର୍ଣ୍ଣ ସହରର ଆକାଶଟି ସବୁଜ ରଙ୍ଗରେ ଶୋଭା ପାଉଥିଲା ଏବଂ ସୂର୍ଯ୍ୟ କିରଣ ମଧ୍ୟ ସବୁଜ ରଙ୍ଗର ଥିଲା। \n\nସେଠାରେ ଅନେକ ଲୋକ ଥିଲେ, ପୁରୁଷ, ମହିଳା ଓ ପିଲାମାନେ ଯିବା ଆସିବା କରୁଥିଲେ ଏବଂ ସମସ୍ତେ ସବୁଜ ରଙ୍ଗର ପୋଷାକ ପିନ୍ଧିଥିଲେ ତଥା ସେମାନଙ୍କ ଚର୍ମର ରଙ୍ଗ ସବୁଜ ଥିଲା। ସେମାନେ ବିସ୍ମିତ ଆଖିରେ ଡୋରୋଥି ଓ ତା\'ର ଅଜବ ଦେଖାଯାଉଥିବା ସାଙ୍ଗକୁ ଚାହିଁଲେ ଏବଂ ପିଲାମାନେ ଯେତେବେଳେ ସିଂହକୁ ଦେଖିଲେ, ସେମାନେ ଭୟରେ ଦୌଡ଼ିଯାଇ ଯିଏ ଯାହାର ମା’ ପଛରେ ଲୁଚିଗଲେ; କିନ୍ତୁ କେହି ସେମାନଙ୍କ ସହ କଥା ହେଲେ ନାହିଁ। ରାସ୍ତାରେ ଅନେକ ଦୋକାନ ଥିଲା, ଆଉ ଡୋରୋଥି ଦେଖିଲା ଯେ, ସେଠାରେ ଥିବା ସବୁ ଜିନିଷ ସବୁଜ ରଙ୍ଗର ଥିଲା। ସବୁଜ ରଙ୍ଗର ଜୋତା, ସବୁଜ ରଙ୍ଗର ଟୋପି ଓ ସବୁ ପ୍ରକାରର ସବୁଜ ରଙ୍ଗର ପୋଷାକ ସମେତ ସବୁଜ ଚକୋଲେଟ ଓ ସବୁଜ ରଙ୍ଗର ପପ-କର୍ନ ମଧ୍ୟ ବିକ୍ରି ହେଉଥିଲା। ଗୋଟିଏ ସ୍ଥାନରେ ଜଣେ ବ୍ୟକ୍ତି ସବୁଜ ରଙ୍ଗର ଲେମ୍ବୁ ସରବତ ବିକ୍ରି କରୁଥିଲେ ଏବଂ ଯେତେବେଳେ ପିଲାମାନେ ଏହା କିଣିଲେ, ସେମାନେ ସେହି ଲୋକକୁ ସବୁଜ ପଇସା ଦେଉଥିବାର ଡୋରୋଥି ଦେଖିପାରିଲା। \n\nସେଠାରେ କୌଣସି ପ୍ରକାରର ଘୋଡ଼ା କିମ୍ୱା ଜୀବଜନ୍ତୁ ନଥିବା ପରି ଜଣାପଡ଼ୁଥିଲା; ଛୋଟ ସବୁଜ ରଙ୍ଗର ଗାଡ଼ିରେ ଲୋକମାନେ ସେମାନଙ୍କ ଜିନିଷପତ୍ର ରଖି ଠେଲିଠେଲି ନେବା ଆଣିବା କରୁଥିଲେ। ସମସ୍ତେ ଖୁସି, ସନ୍ତୁଷ୍ଟ ଓ ସମୃଦ୍ଧ ଥିବାପରି ଜଣାପଡ଼ୁଥିଲା।"</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"ଆଖିରେ ସବୁଜ ଚଷମା ପିନ୍ଧିଥିଲେ ସୁଦ୍ଧା ଡୋରୋଥି ଓ ତା’ ସାଙ୍ଗମାନେ, ଚମତ୍କାର ସହରର ସୁନ୍ଦରତା ଦେଖି ପ୍ରଥମେ ଚକିତ ହୋଇଯାଇଥିଲେ। ରାସ୍ତାର ଉଭୟ ପାର୍ଶ୍ୱରେ ସବୁଜ ମାର୍ବଲରେ ତିଆରି ସୁନ୍ଦର ଘରଗୁଡ଼ିକ ଶୋଭା ପାଉଥିଲା ଏବଂ ଝଲସୁଥିବା ରତ୍ନ ସବୁଆଡ଼େ ଖଞ୍ଜାଯାଇଥିଲା। ସେମାନେ ସେହି ସବୁଜ ମାର୍ବଲ ରାସ୍ତାରେ ଚାଲି ଚାଲି ଆଗକୁ ବଢ଼ିଲେ ଏବଂ ଯେଉଁଠାରେ ଦୁଇଟି ଗଳି ପରସ୍ପର ସହିତ ଯୋଡ଼ି ହୋଇଥିଲା, ସେଠାରେ ପାଖାପାଖି ଖଞ୍ଜାଯାଇଥିବା ରତ୍ନଗୁଡ଼ିକର ଅନେକ ଧାଡ଼ି ଥିଲା ଓ ସେଗୁଡ଼ିକ ସୂର୍ଯ୍ୟାଲୋକ ପଡ଼ି ଝଲସୁଥିଲା। ଝରକାରେ ସବୁଜ ରଙ୍ଗର କାଚ ଲାଗିଥିଲା; ଏପରିକି ସମ୍ପୂର୍ଣ୍ଣ ସହରର ଆକାଶଟି ସବୁଜ ରଙ୍ଗରେ ଶୋଭା ପାଉଥିଲା ଏବଂ ସୂର୍ଯ୍ୟକିରଣ ମଧ୍ୟ ସବୁଜ ରଙ୍ଗର ଥିଲା। \n\nସେଠାରେ ଅନେକ ଲୋକ ଥିଲେ, ପୁରୁଷ, ମହିଳା ଓ ପିଲାମାନେ ଯିବା ଆସିବା କରୁଥିଲେ ଏବଂ ସମସ୍ତେ ସବୁଜ ରଙ୍ଗର ପୋଷାକ ପିନ୍ଧିଥିଲେ ତଥା ସେମାନଙ୍କ ଚର୍ମର ରଙ୍ଗ ସବୁଜ ଥିଲା। ସେମାନେ ବିସ୍ମିତ ଆଖିରେ ଡୋରୋଥି ଓ ତା\'ର ଅଜବ ଦେଖାଯାଉଥିବା ସାଙ୍ଗମାନଙ୍କୁ ଚାହିଁଲେ ଏବଂ ପିଲାମାନେ ଯେତେବେଳେ ସିଂହକୁ ଦେଖିଲେ, ସେମାନେ ଭୟରେ ଦୌଡ଼ିଯାଇ ଯିଏ ଯାହାର ମା’ ପଛରେ ଲୁଚିଗଲେ; କିନ୍ତୁ କେହି ସେମାନଙ୍କ ସହ କଥା ହେଲେ ନାହିଁ। ରାସ୍ତାରେ ଅନେକ ଦୋକାନ ଥିଲା, ଆଉ ଡୋରୋଥି ଦେଖିଲା ଯେ, ସେଠାରେ ଥିବା ସବୁ ଜିନିଷ ସବୁଜ ରଙ୍ଗର ଥିଲା। ସବୁଜ ରଙ୍ଗର ଜୋତା, ସବୁଜ ରଙ୍ଗର ଟୋପି ଓ ସବୁ ପ୍ରକାରର ସବୁଜ ରଙ୍ଗର ପୋଷାକ ସମେତ ସବୁଜ ଚକୋଲେଟ ଓ ସବୁଜ ରଙ୍ଗର ପପ-କର୍ନ ମଧ୍ୟ ବିକ୍ରି ହେଉଥିଲା। ଗୋଟିଏ ସ୍ଥାନରେ ଜଣେ ବ୍ୟକ୍ତି ସବୁଜ ରଙ୍ଗର ଲେମ୍ବୁ ସରବତ ବିକ୍ରି କରୁଥିଲେ ଏବଂ ଯେତେବେଳେ ପିଲାମାନେ ଏହା କିଣିଲେ, ସେମାନେ ସେହି ଲୋକକୁ ସବୁଜ ପଇସା ଦେଉଥିବାର ଡୋରୋଥି ଦେଖିପାରିଲା। \n\nସେଠାରେ କୌଣସି ପ୍ରକାରର ଘୋଡ଼ା କିମ୍ୱା ଜୀବଜନ୍ତୁ ନଥିବା ପରି ଜଣାପଡ଼ୁଥିଲା; ଛୋଟ ସବୁଜ ରଙ୍ଗର ଗାଡ଼ିରେ ଲୋକମାନେ ସେମାନଙ୍କ ଜିନିଷପତ୍ର ରଖି ଠେଲିଠେଲି ନେବା ଆଣିବା କରୁଥିଲେ। ସମସ୍ତେ ଖୁସି, ସନ୍ତୁଷ୍ଟ ଓ ଆନନ୍ଦିତ ଥିବା ପରି ଜଣାପଡ଼ୁଥିଲେ।"</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"ଫର୍ମାଟ୍ ଚୟନ"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"ସ୍ୱଚାଳିତ"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"ମାନୁଆଲ୍"</string>
@@ -219,13 +218,12 @@
     <string name="resolution_selection_dialog_title" msgid="4029798035133645272">"ରିଜୋଲ୍ୟୁସନକୁ ପରିବର୍ତ୍ତନ କରାଯାଇଛି"</string>
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"ରିଜୋଲ୍ୟୁସନକୁ %1$sକୁ ବଦଳାଇବେ?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"ବର୍ତ୍ତମାନଠାରୁ %1$sକୁ ବ୍ୟବହାର କରିବା ପାଇଁ \"ଠିକ୍ ଅଛି\"କୁ ଚୟନ କରନ୍ତୁ।"</string>
-    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision %1$sରେ ସମର୍ଥିତ ନୁହେଁ ଏବଂ ଏହାକୁ \'ଉନ୍ନତ ଡିସପ୍ଲେ ସେଟିଂସ\'ରେ ଅକ୍ଷମ କରାଯିବ"</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"ଏହି ମୋଡ %1$sକୁ ସମର୍ଥନ କରେ। କିଛି ଟିଭିରେ, ଅଧିକ HDR ଫର୍ମାଟ ସକ୍ଷମ କରିବାକୁ ଆପଣଙ୍କୁ ଉନ୍ନତ HDMIକୁ ଚାଲୁ କରିବା ଆବଶ୍ୟକ ହୋଇପାରେ। ଏହା ସମର୍ଥିତ ନା ନୁହେଁ ଦେଖିବାକୁ ଆପଣଙ୍କ ଟିଭି ସେଟିଂସକୁ ଯାଞ୍ଚ କରନ୍ତୁ।"</string>
+    <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"%1$sରେ Dolby Vision ସମର୍ଥିତ ନୁହେଁ ଏବଂ ଏହା \'ଉନ୍ନତ ଡିସପ୍ଲେ ସେଟିଂସ\'ରେ ଅକ୍ଷମ ହୋଇଯିବ"</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"ଏହି ମୋଡ ଏହାକୁ ସମର୍ଥନ କରେ: %1$s\nକିଛି ଟିଭିରେ, ଅଧିକ HDR ଫର୍ମାଟ ସକ୍ଷମ କରିବାକୁ ଆପଣଙ୍କୁ ଉନ୍ନତ HDMIକୁ ଚାଲୁ କରିବା ଆବଶ୍ୟକ ହୋଇପାରେ। ଏହା ସମର୍ଥିତ ନା ନୁହେଁ ଦେଖିବାକୁ ଆପଣଙ୍କ ଟିଭି ସେଟିଂସକୁ ଯାଞ୍ଚ କରନ୍ତୁ।"</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"ବାତିଲ କରନ୍ତୁ"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"ଠିକ୍ ଅଛି"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
-    <skip />
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"କ୍ୟାଶ୍‌ ହୋଇଥିବା ଡାଟା ଖାଲି କରିବେ?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"ଏହା, ସମସ୍ତ ଡାଟା ପାଇଁ କ୍ୟାଶ୍ ହୋଇଥିବା ଡାଟାକୁ ଖାଲି କରିଦେବ"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -280,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"ସଂଯୋଗ କରାଯାଇଛି"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"ବିଚ୍ଛିନ୍ନ କରାଯାଇଛି"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"ବ୍ଲୁଟୂଥ୍‍‌ ସେଟିଂସ ବଦଳାଇବା ପାଇଁ ଆପଣଙ୍କ ପାଖେ ଅନୁମତି ନାହିଁ।"</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"ଟିଭି ଅଡିଓ ପାଇଁ ବ୍ୟବହାର କରନ୍ତୁ"</string>
     <string name="send_feedback" msgid="936698637869795473">"ମତାମତ ପଠାନ୍ତୁ"</string>
     <string name="launch_help" msgid="2607478763131952469">"ସହାୟତା କେନ୍ଦ୍ର"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -299,7 +298,7 @@
     <string name="system_home_theater_control" msgid="6228949628173590310">"ହୋମ ଥିଏଟର ନିୟନ୍ତ୍ରଣ"</string>
     <string name="system_developer_options" msgid="8480844257066475479">"ଡେଭଲପରଙ୍କ ବିକଳ୍ପ"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"କିଛିନାହିଁ"</string>
-    <string name="system_diagnostic" msgid="1654842813331919958">"ବ୍ୟବହାର ଏବଂ ଡାଇଗ୍ନୋଷ୍ଟିକ୍‌ଗୁଡ଼ିକ"</string>
+    <string name="system_diagnostic" msgid="1654842813331919958">"ବ୍ୟବହାର ଏବଂ ଡାଇଗ୍ନୋଷ୍ଟିକ୍ସ"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"କୌଣସି ଡିଭାଇସ୍‌ ଆଡମିନ୍‌ ଆପ୍‌ ଉପଲବ୍ଧ ନାହିଁ"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"ଆଡମିନଙ୍କ ଦ୍ଵାରା ଅକ୍ଷମ କରାଯାଇଛି"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"ଉପଲବ୍ଧ ନାହିଁ"</string>
@@ -346,8 +345,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"ଏହି ଡିଭାଇସ୍‌ ଆପଣଙ୍କ ସଂସ୍ଥା ଦ୍ୱାରା ପରିଚାଳିତ"</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"ଏହି ଡିଭାଇସ୍‌ <xliff:g id="ORGANIZATION_NAME">%s</xliff:g> ଦ୍ୱାରା ପରିଚାଳିତ ହେଉଛି।"</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"ଅଧିକ ଜାଣନ୍ତୁ"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{କ୍ୟାମେରା ଆପ}other{କ୍ୟାମେରା ଆପ୍ସ}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"କ୍ୟାଲେଣ୍ଡର ଏପ"</string>
@@ -370,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Google ଲିଗାଲ୍‌"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"ଲାଇସେନ୍ସ ଡାଟା ଉପଲବ୍ଧ ନାହିଁ"</string>
     <string name="about_model" msgid="9164284529291439296">"ମଡେଲ୍‌"</string>
+    <string name="device_mode" msgid="7258350575590118152">"ଡିଭାଇସ ମୋଡ"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"ଷ୍ଟୋର ଡେମୋ"</string>
     <string name="about_version" msgid="6223547403835399861">"Android TV OS ସଂସ୍କରଣ"</string>
     <string name="about_serial" msgid="3432319328808745459">"କ୍ରମିକ ସଂଖ୍ୟା"</string>
     <string name="about_build" msgid="8467840394761634575">"Android TV OS ବିଲ୍ଡ"</string>
@@ -437,8 +437,13 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"ଇଣ୍ଟର୍ନେଟ୍‌ ସଂଯୋଗ"</string>
     <string name="connected" msgid="4981532275162345997">"କନେକ୍ଟ କରାଗଲା"</string>
     <string name="not_connected" msgid="475810896484271663">"କନେକ୍ଟ ହୋ‍ଇନାହିଁ"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"ଇଣ୍ଟର୍ନେଟ୍ ସଂଯୋଗ ନାହିଁ"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"ସେଭ କରାଯାଇଛି"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"ଭୁଲ ପାସୱାର୍ଡ"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"ୱାଇ-ଫାଇ ପାସୱାର୍ଡ ବହୁତ ଛୋଟ ଅଟେ"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"ସାଇନ୍-ଇନ୍ ଆବଶ୍ୟକ"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"ଅନ୍ୟ ବିକଲ୍ପଗୁଡ଼ିକ"</string>
-    <string name="wifi_setting_see_all" msgid="5048103047976316675">"ସମସ୍ତ ଦେଖନ୍ତୁ"</string>
+    <string name="wifi_setting_see_all" msgid="5048103047976316675">"ସବୁ ଦେଖନ୍ତୁ"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"କିଛି ଦେଖନ୍ତୁ"</string>
     <string name="wifi_setting_available_networks" msgid="2096957819727319750">"ଉପଲବ୍ଧ ଥିବା ନେଟ୍‌ୱର୍କ"</string>
     <string name="wifi_setting_other_options_add_network" msgid="6490215784178866978">"ନୂଆ ନେଟ୍‌ୱାର୍କ ଯୋଗ କରନ୍ତୁ"</string>
@@ -534,7 +539,7 @@
     <string name="storage_music_usage" msgid="5362871290115089474">"ଅଡିଓ"</string>
     <string name="storage_media_misc_usage" msgid="3404230292054880339">"ମିଶ୍ରିତ"</string>
     <string name="storage_media_cache_usage" msgid="6397941751551207630">"କ୍ୟାସ୍‌ ହୋଇଥିବା ଡାଟା"</string>
-    <string name="storage_eject" msgid="3268870873944951902">"ବାହାର କରନ୍ତୁ"</string>
+    <string name="storage_eject" msgid="3268870873944951902">"କାଢ଼ି ଦିଅନ୍ତୁ"</string>
     <string name="storage_format" msgid="5360900929128087085">"ଲିଭାନ୍ତୁ ଏବଂ ଫର୍ମାଟ୍ କରନ୍ତୁ"</string>
     <string name="storage_format_as_private" msgid="77945551149326052">"ଡିଭାଇସ୍ ‌ଷ୍ଟୋରେଜ୍‌ଭାବରେ ଲିଭାନ୍ତୁ ଏବଂ ଫର୍ମାଟ୍‌ କର"</string>
     <string name="storage_format_as_public" msgid="6745112917895223463">"ଲିଭାଇବା ଷ୍ଟୋରେଜ୍‌ ଭାବରେ ଲାଭାନ୍ତୁ ଏବଂ ଫର୍ମାଟ୍‌ କର"</string>
@@ -598,7 +603,7 @@
     <string name="storage_new_action_browse" msgid="3355241742574072658">"ବ୍ରାଉଜ୍ କରନ୍ତୁ"</string>
     <string name="storage_new_action_adopt" msgid="6809707961170895964">"ଡିଭାଇସ୍‌ ଷ୍ଟୋରେଜ୍‌ଭାବରେ ସେଟ୍‌ ଅପ୍‌ କରନ୍ତୁ"</string>
     <string name="storage_new_action_format_public" msgid="1964662216574764811">"ରିମୁଭ୍‍ କରିହେଉଥିବା ଷ୍ଟୋରେଜ‍ଭାବରେ ସେଟ୍‍ ଅପ୍‍ କରନ୍ତୁ"</string>
-    <string name="storage_new_action_eject" msgid="919249291814300000">"ବାହାର କରନ୍ତୁ"</string>
+    <string name="storage_new_action_eject" msgid="919249291814300000">"କାଢ଼ି ଦିଅନ୍ତୁ"</string>
     <string name="storage_missing_title" msgid="9068915586235805818">"<xliff:g id="NAME">%1$s</xliff:g>କୁ କାଢ଼ି ଦିଆଗଲା"</string>
     <string name="storage_missing_description" msgid="6835620703133204249">"ଡ୍ରାଇଭ୍‍ ପୁଣି ସଂଯୋଗ ନହେବା ପର୍ଯ୍ୟନ୍ତ କିଛି ଆପ୍‍ ଉପଲବ୍ଧ ରହିବ ନାହିଁ ବା ସଠିକ୍‍ ଭାବରେ କାର୍ଯ୍ୟ କରିବ ନାହିଁ।"</string>
     <string name="insufficient_storage" msgid="4175940286022466535">"ଷ୍ଟୋରେଜ୍‌ରେ ପର୍ଯ୍ୟାପ୍ତ ସ୍ଥାନ ନାହିଁ।"</string>
@@ -635,7 +640,7 @@
     <string name="open_mic_permissions" msgid="8121871594807641073">"ଆପର ମାଇକ୍ରୋଫୋନକୁ ଆକ୍ସେସ୍"</string>
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"ମାଇକ୍ରୋଫୋନ ଆକ୍ସେସ ବ୍ଲକ କରାଯାଇଛି"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"ଅନବ୍ଲକ କରିବା ପାଇଁ, ଆପଣଙ୍କ ଡିଭାଇସରେ ଗୋପନୀୟତା ସ୍ୱିଚକୁ \"ମାଇକ୍ରୋଫୋନ ଚାଲୁ\" ସ୍ଥିତିକୁ ମୁଭ କରି ମାଇକ୍ରୋଫୋନ ଆକ୍ସେସ ପାଇଁ ଅନୁମତି ଦିଅନ୍ତୁ।"</string>
-    <string name="camera" msgid="1226671478936288283">"କ୍ୟାମେରା"</string>
+    <string name="camera" msgid="1226671478936288283">"କେମେରା"</string>
     <string name="camera_toggle_title" msgid="5566469574224956142">"କ୍ୟାମେରା ଆକ୍ସେସ୍"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"ଆପର କ୍ୟାମେରାକୁ ଆକ୍ସେସ୍"</string>
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"କ୍ୟାମେରା ଆକ୍ସେସ ବ୍ଲକ କରାଯାଇଛି"</string>
@@ -745,7 +750,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"ସକ୍ଷମ"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"କନଫିଗରେସନ"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"<xliff:g id="SERVICE">%1$s</xliff:g> ବ୍ୟବହାର କରିବେ?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g>,ପାସୱାର୍ଡ୍‌ ବ୍ୟତୀତ ଆପଣ ଟାଇପ୍‌ କରୁଥିବା ସମସ୍ତ ଟେକ୍ସଟ୍ ସଂଗ୍ରହ କରିପାରିବ। ଏଥିରେ କ୍ରେଡିଟ୍‌ କାର୍ଡ୍‌ ନମ୍ଵର୍‌ ପରି ବ୍ୟକ୍ତିଗତ ଡାଟା ମଧ୍ୟ ଅନ୍ତର୍ଭୁକ୍ତ ରହିଥାଏ।"</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> ଆପଣଙ୍କ ସ୍କ୍ରିନ ପଢ଼ିବାକୁ, ଅନ୍ୟ ଆପ୍ସରେ ବିଷୟବସ୍ତୁ ଡିସପ୍ଲେ କରିବାକୁ, ଆପ୍ସ କିମ୍ବା ହାର୍ଡୱେର ସେନ୍ସରଗୁଡ଼ିକ ସହ ଆପଣଙ୍କ ଇଣ୍ଟରାକ୍ସନ ଟ୍ରାକ କରିବାକୁ ଏବଂ ଆପଣଙ୍କ ତରଫରୁ ଆପ୍ସ ସହ ଇଣ୍ଟରାକ୍ଟ କରିବା ପାଇଁ ସକ୍ଷମ ହେବ।"</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"<xliff:g id="SERVICE">%1$s</xliff:g>କୁ ବନ୍ଦ କରିବେ?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"ଠିକ୍ ଅଛି ବାଛିଲେ <xliff:g id="SERVICE">%1$s</xliff:g> ବନ୍ଦ ହେବ।"</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"ଟେକ୍ସଟ୍‌ରୁ ସ୍ପିଚ୍‌"</string>
@@ -790,7 +795,7 @@
     <string name="system_window_animation_scale" msgid="685477540250939659">"ୱିଣ୍ଡୋ ଆନିମେସନ୍‌ ସ୍କେଲ୍‌"</string>
     <string name="system_transition_animation_scale" msgid="7266380208347453619">"ଟ୍ରାଞ୍ଜିସନ୍‌ ଆନିମେସନ୍‌ ସ୍କେଲ୍‌"</string>
     <string name="system_animator_duration_scale" msgid="3829445237130423625">"ଆନିମେଟର୍‌ ଅବଧି ସ୍କେଲ୍‌"</string>
-    <string name="system_strict_mode_enabled" msgid="7392183793064579588">"କଡ଼ା ମୋଡ୍ ସକ୍ଷମ କରାଯାଇଛି"</string>
+    <string name="system_strict_mode_enabled" msgid="7392183793064579588">"ଷ୍ଟ୍ରିକ୍ଟ ମୋଡକୁ ସକ୍ଷମ କରାଯାଇଛି"</string>
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"ପ୍ରୋଫାଇଲ୍‌ GPU ରେଣ୍ଡରିଂ"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"ଟ୍ରେସ୍‌ ସକ୍ଷମ କରନ୍ତୁ"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"କାର୍ଯ୍ୟକଳାପଗୁଡ଼ିକୁ ରଖନ୍ତୁ ନାହିଁ"</string>
@@ -904,6 +909,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"ପ୍ରତିବନ୍ଧଗୁଡିକୁ କଷ୍ଟୋମାଇଜ୍‌ କରନ୍ତୁ"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"ଟିକେ ରୁହନ୍ତୁ…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"ପିନ୍ ବଦଳାନ୍ତୁ"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"ପ୍ରତିବନ୍ଧିତ ପ୍ରୋଫାଇଲ ତିଆରି କରିବେ?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"ପୂର୍ବରୁ ତିଆରି କରାଯାଇଛି"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"ବାଦ ଦିଅନ୍ତୁ"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"PIN ତିଆରି କରନ୍ତୁ"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"ପ୍ରତିବନ୍ଧିତ ପ୍ରୋଫାଇଲକୁ ଯିବେ?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"ପ୍ରତିବନ୍ଧିତ ପ୍ରୋଫାଇଲ ନାହିଁ"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"ପୂର୍ବରୁ ଲେଖାଯାଇଛି"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"ଏହି ଆପ୍‌ ଆପଣଙ୍କ ଆକାଉଣ୍ଟ ପ୍ରବେଶ କରିପାରିବ। <xliff:g id="APP">%1$s</xliff:g> ଦ୍ୱାରା ନିୟନ୍ତ୍ରିତ ଅଟେ"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"ଏହି ଚ୍ୟାନେଲ୍‌ ଦେଖିବାକୁ PIN ଏଣ୍ଟର୍‌ କରନ୍ତୁ"</string>
@@ -943,7 +955,7 @@
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"ତୃତୀୟ-ପକ୍ଷ ସୋର୍ସ"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"ଅନୁମତିଗୁଡ଼ିକ"</string>
     <string name="device_apps_app_management_not_available" msgid="4198634078194500518">"ଆପ୍ଲିକେସନ୍ ଉପଲବ୍ଧ ନାହିଁ"</string>
-    <string name="unused_apps" msgid="5539166745483454543">"ଅବ୍ୟବହୃତ ଆପଗୁଡ଼ିକ"</string>
+    <string name="unused_apps" msgid="5539166745483454543">"ଅବ୍ୟବହୃତ ଆପ୍ସ"</string>
     <string name="settings_ok" msgid="5950888975075541964">"ଠିକ୍ ଅଛି"</string>
     <string name="settings_confirm" msgid="4489126458677153411">"ସୁନିଶ୍ଚିତ କରନ୍ତୁ"</string>
     <string name="settings_cancel" msgid="576094334743686152">"ବାତିଲ କରନ୍ତୁ"</string>
@@ -1043,7 +1055,7 @@
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"ସମସ୍ତ ଫାଇଲକୁ ପରିଚାଳନା ପାଇଁ ଆକ୍ସେସ୍ ଦିଅନ୍ତୁ"</string>
     <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"ଏହି ଡିଭାଇସ୍ କିମ୍ବା ଯେ କୌଣସି ସଂଯୁକ୍ତ ଥିବା ଷ୍ଟୋରେଜ୍ ଭଲ୍ୟୁମରେ ଥିବା ସମସ୍ତ ଫାଇଲକୁ ପଢ଼ିବା, ପରିବର୍ତ୍ତନ କରିବା ଏବଂ ଡିଲିଟ୍ କରିବା ପାଇଁ ଏହି ଆପକୁ ଅନୁମତି ଦିଅନ୍ତୁ। ଯଦି ଅନୁମତି ଦିଆଯାଏ, ତେବେ ଆପ୍ ଆପଣଙ୍କୁ ସ୍ପଷ୍ଟ ନକରି ଫାଇଲଗୁଡ଼ିକୁ ଆକ୍ସେସ୍ କରିପାରେ।"</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"ପିକଚର୍-ଇନ୍-ପିକଚର୍"</string>
-    <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"ପିକଚର୍-ଇନ୍-ପିକଚରର ଅନୁମତି ଦିଅନ୍ତୁ"</string>
+    <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"ପିକଚର-ଇନ-ପିକଚରକୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"ଛବି-ଭିତରେ-ଛବିକୁ ଇନ୍‌ଷ୍ଟଲ୍‌ ହୋଇଥିବା କୌଣସି ଆପ୍‌ ସପୋର୍ଟ କରୁନାହିଁ"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"ଆପ୍‌ ଖୋଲା ଥିବାବେଳେ କିମ୍ୱା ଏହାକୁ ଆପଣ ଛାଡ଼ିବା ପରେ (ଉଦାହରଣସ୍ୱରୂପ, ଏକ ଭିଡିଓ ଦେଖିବା ଜାରି ରଖିବାକୁ) ଏକ ପିକଚର୍-ଇନ-ପିକଚର୍ ୱିଣ୍ଡୋ ତିଆରି କରିବା ପାଇଁ ଏହି ଆ‌ପ୍‌କୁ ଅନୁମତି ଦିଅନ୍ତୁ। ଏହି ୱିଣ୍ଡୋ, ଆପଣ ବ୍ୟବହାର କରୁଥିବା ଅନ୍ୟ ଆପ୍‌ଗୁଡ଼ିକ ଉପରେ ଦେଖାଦେବ।"</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"ଆପଗୁଡ଼ିକୁ ଆଲାରାମ୍ ସେଟ୍ କରିବାକୁ ଏବଂ ସମୟ-ସମ୍ବେଦନଶୀଳ କାର୍ଯ୍ୟଗୁଡ଼ିକ ସିଡୁଲ୍ କରିବାକୁ ଅନୁମତି ଦିଅନ୍ତୁ। ଏହା ଆପଗୁଡ଼ିକୁ ପୃଷ୍ଠପଟରେ ଚାଲିବାକୁ ଦେଇଥାଏ, ଯାହା ଅଧିକ ପାୱାର୍ ବ୍ୟବହାର କରିପାରେ।\n\nଯଦି ଏହି ଅନୁମତି ବନ୍ଦ ଅଛି, ତେବେ ଏହି ଆପ୍ ଦ୍ୱାରା ସିଡୁଲ୍ କରାଯାଇଥିବା ପୂର୍ବରୁ ଥିବା ଆଲାରାମ୍ ଏବଂ ସମୟ-ଆଧାରିତ ଇଭେଣ୍ଟଗୁଡ଼ିକ କାମ କରିବ ନାହିଁ।"</string>
@@ -1066,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"ରେକର୍ଡ କରାଯାଇଥିବା ମାଇକ୍ରୋଫୋନ(ଗୁଡ଼ିକ)"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"ଅଡିଓ ରେକର୍ଡିଂ ଆରମ୍ଭ କରିବାରେ ବିଫଳ ହୋଇଛି।"</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"ଅଡିଓ ରେକର୍ଡିଂ ବିଫଳ ହୋଇଛି।"</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"ଡାଟା ସେଭର୍"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"ମୋବାଇଲ୍ ଡାଟା କମ୍ ବ୍ୟବହାର କରିବାକୁ ଭିଡିଓ ଗୁଣବତ୍ତାକୁ ସ୍ୱଚାଳିତ ଭାବେ ଆଡ୍‌ଜଷ୍ଟ କରନ୍ତୁ"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"ଡାଟା ବ୍ୟବହାର ଏବଂ ଆଲର୍ଟଗୁଡ଼ିକ"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"ଆପଣ ୱାଇ-ଫାଇ, ଇଥରନେଟ କିମ୍ବା ଆପଣଙ୍କ ଫୋନର ହଟସ୍ପଟ ସହ ଇଣ୍ଟରନେଟକୁ ସଂଯୋଗ କରିପାରିବେ।"</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"ଅନ୍ୟ ବ୍ଲୁଟୁଥ ଡିଭାଇସଗୁଡ଼ିକୁ ଦୃଶ୍ୟମାନ କରିବେ?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"ଏକ ଆପ ଆପଣଙ୍କ ଟିଭିକୁ <xliff:g id="TIMEOUT">%1$d</xliff:g> ସେକେଣ୍ଡ ପାଇଁ ଅନ୍ୟ ବ୍ଲୁଟୁଥ ଡିଭାଇସଗୁଡ଼ିକରେ ଦୃଶ୍ୟମାନ କରିବାକୁ ଚାହେଁ।"</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1093,7 +1101,7 @@
     <string name="select_device_admin_msg" msgid="8475934459999710332">"ଡିଭାଇସ୍‌ ଆଡ୍‌ମିନ୍‌ ଆପ୍‌"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"ଡିଭାଇସ୍‌ ଆଡମିନ୍‌ ଆପ୍‌ ସକ୍ରିୟ କରିବେ?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"ଏହି ଡିଭାଇସ୍ ଆଡ୍‌ମିନ୍‌ ଆପ୍‌ ସକ୍ରିୟ କରନ୍ତୁ"</string>
-    <string name="device_admin_warning" msgid="7399916080685200660">"ଏହି ଆଡମିନ୍ ଆପ୍‌କୁ ସକ୍ରିୟ କରିବା ଦ୍ୱାରା <xliff:g id="APP_NAME">%1$s</xliff:g> ଆପ୍‌ଟି ନିମ୍ନ କାର୍ଯ୍ୟଗୁଡ଼ିକ କରିପାରିବ:"</string>
+    <string name="device_admin_warning" msgid="7399916080685200660">"ଏହି ଆଡମିନ ଆପକୁ ସକ୍ରିୟ କରିବା ଦ୍ୱାରା <xliff:g id="APP_NAME">%1$s</xliff:g> ଆପଟି ନିମ୍ନ କାର୍ଯ୍ୟଗୁଡ଼ିକ କରିପାରିବ:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"<xliff:g id="APP_NAME">%1$s</xliff:g> ଏହି ଡିଭାଇସ୍‌କୁ ପରିଚାଳନା ଏବଂ ତଦାରଖ କରିବ।"</string>
     <string name="device_admin_status" msgid="5467001937240455367">"ଏହି ଆଡମିନ୍‌ ଆପ୍‌ ସକ୍ରିୟ ଅଛି ଏବଂ <xliff:g id="APP_NAME">%1$s</xliff:g> ଆପ୍‌ ଦ୍ୱାରା ନିମ୍ନଲିଖିତ କାର୍ଯ୍ୟଗୁଡ଼ିକ କରାଉଛି:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"ଆଗକୁ ବଢ଼ିବାର ଅର୍ଥ, ଆପଣଙ୍କ ୟୁଜର ଆପଣଙ୍କ ଆଡମିନ ଦ୍ୱାରା ପରିଚାଳିତ ହେବେ ଯିଏ ଆପଣଙ୍କ ବ୍ୟକ୍ତିଗତ ଡାଟା ସହିତ, ଜଡ଼ିତ ଅନ୍ୟାନ୍ୟ ଡାଟା ମଧ୍ୟ ଷ୍ଟୋର କରିପାରିବେ।\n\nଆପଣଙ୍କ ଆଡମିନଙ୍କ ପାଖରେ ନେଟୱାର୍କ  କାର୍ଯ୍ୟକଳାପ ଏବଂ ଆପଣଙ୍କ ଡିଭାଇସ ଲୋକେସନର ସୂଚନା ସମେତ ସେଟିଂସ, ଆକ୍ସେସ, ଆପ୍ସ ଏବଂ ୟୁଜରଙ୍କ ସହ ଜଡ଼ିତ ଡାଟା ତଦାରଖ କରିବା ତଥା ପରିଚାଳନା କରିବାର କ୍ଷମତା ଅଛି।"</string>
@@ -1110,6 +1118,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"ସଫଳତାର ସହ ସଂଯୋଗ ହୋଇଛି"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"ସବୁ ଦେଖାନ୍ତୁ"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"ସନ୍ଧାନ କରୁଛି"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"ଅଥେଣ୍ଟିକେଟରରୁ ଆକାଉଣ୍ଟ ଯୋଗ କରିବାର ଇଣ୍ଟେଣ୍ଟକୁ ରିଟ୍ରିଭ କରିବାରେ ବିଫଳ ହୋଇଛି।"</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"ଆକାଉଣ୍ଟ ଯୋଗ କରିବାରେ ବିଫଳ ହୋଇଛି କିମ୍ବା ଆକାଉଣ୍ଟ ପ୍ରକାର ଉପଲବ୍ଧ ନାହିଁ।"</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"ଚ୍ୟାନେଲ୍ ଓ ଇନପୁଟଗୁଡ଼ିକ"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"ଚ୍ୟାନେଲ୍, ଏକ୍ସଟର୍ନଲ୍ ଇନପୁଟଗୁଡ଼ିକ"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"ଚ୍ୟାନେଲଗୁଡ଼ିକ"</string>
@@ -1123,8 +1133,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"ରିସେଟ୍ କରନ୍ତୁ"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ଇଥରନେଟ ପେୟାରିଂ କୋଡ"</string>
     <string name="energy_modes" msgid="1331693860386361744">"ଏନର୍ଜି ମୋଡଗୁଡ଼ିକ"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"ଟିଭି ବ୍ୟବହାର କରାଯାଉନଥିବା ବେଳେ ଏନର୍ଜିର ଦକ୍ଷତାକୁ ଉନ୍ନତ କରନ୍ତୁ"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"ବ୍ୟବହାର କରାଯାଉନଥିବା ସମୟରେ ଏହି ସେଟିଂସ ଡିଭାଇସକୁ ପ୍ରଭାବିତ କରେ"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"ସକ୍ଷମ କରେ:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"ଧ୍ଯାନ ଦିଅନ୍ତୁ ଯେ ଏହି ମୋଡ ଡିଭାଇସର ପାୱାର ବ୍ୟବହାରକୁ ବୃଦ୍ଧି କରିପାରେ।"</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"ଆପଣ ସକ୍ଷମ କରୁଥିବା ଟିଭି ଫିଚରଗୁଡ଼ିକର ସଂଖ୍ୟା ସହ ପାୱାର ବ୍ୟବହାର ବୃଦ୍ଧି ହୋଇପାରେ।"</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"\"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\"କୁ ସକ୍ଷମ କରନ୍ତୁ"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ମୋ ରିମୋଟ ଖୋଜନ୍ତୁ"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ଯଦି ଆପଣଙ୍କ Google TV ରିମୋଟକୁ ଭୁଲ ସ୍ଥାନରେ ରଖାଯାଇଥାଏ ତେବେ ଏହାକୁ ଖୋଜିବା ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରନ୍ତୁ"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"ଆପଣଙ୍କ Google TVରେ ଏକ ବଟନ ଅଛି ଯାହାକୁ ଆପଣ ଆପଣଙ୍କ ରିମୋଟରେ 30 ସେକେଣ୍ଡ ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରିବା ନିମନ୍ତେ ପୁସ କରିପାରିବେ। ଏହା କେବଳ ସମର୍ଥିତ Google TV ରିମୋଟ କଣ୍ଟ୍ରୋଲଗୁଡ଼ିକରେ କାର୍ଯ୍ୟ କରେ।\n\nସାଉଣ୍ଡ ବନ୍ଦ କରିବାକୁ ଆପଣଙ୍କ ରିମୋଟରେ ଯେ କୌଣସି ବଟନ ଦବାନ୍ତୁ।"</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"ଯେତେବେଳେ \'ମୋ ରିମୋଟ ଖୋଜନ୍ତୁ\'କୁ ସକ୍ଷମ କରାଯାଏ, ସେତେବେଳେ ଯଦି ଆପଣଙ୍କ Google TV ରିମୋଟକୁ ଭୁଲ ସ୍ଥାନରେ ରଖାଯାଇଥାଏ ତେବେ ଏହାକୁ ଖୋଜିବା ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରନ୍ତୁ।"</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ସାଉଣ୍ଡ ପ୍ଲେ କରନ୍ତୁ"</string>
 </resources>

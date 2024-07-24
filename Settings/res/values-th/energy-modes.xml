@@ -16,24 +16,25 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="energy_mode_low_title" msgid="2408371934616917432">"ฟีเจอร์ที่สำคัญของเครือข่าย"</string>
-    <string name="energy_mode_low_subtitle" msgid="3541491740634993554">"ใช้พลังงานลดลง"</string>
-    <string name="energy_mode_low_info" msgid="7336221780506353827">"ปิดการเชื่อมต่อเครือข่ายเมื่อไม่ได้ใช้งานทีวี"</string>
+    <string name="energy_mode_low_title" msgid="5700567801191430606">"ต่ำ"</string>
+    <string name="energy_mode_low_subtitle" msgid="7660632849388740009">"สแตนด์บาย"</string>
+    <string name="energy_mode_low_info" msgid="3931173640626998821">"สแตนด์บาย — การเชื่อมต่อเครือข่ายจะปิดเมื่อไม่ได้ใช้งานทีวี"</string>
   <string-array name="energy_mode_low_features">
-    <item msgid="4976202876230149030">"การอัปเดตและฟังก์ชันที่สำคัญ"</item>
+    <item msgid="4002284890471636101">"[ใส่ฟีเจอร์ 1]"</item>
+    <item msgid="7072772341455731040">"[ใส่ฟีเจอร์ 2]"</item>
   </string-array>
     <string name="energy_mode_low_eco_hint" msgid="2421460758847643655"></string>
-    <string name="energy_mode_moderate_title" msgid="6131212898797802584">"ฟีเจอร์ที่แนะนำของเครือข่าย"</string>
-    <string name="energy_mode_moderate_subtitle" msgid="8452759001885415587">"ใช้พลังงานเหมาะสม"</string>
-    <string name="energy_mode_moderate_info" msgid="8606735947366228051">"เปิดฟีเจอร์ที่ปลุกระบบทีวีผ่านเครือข่าย (โหมดสแตนด์บายที่เชื่อมต่อเครือข่าย)"</string>
+    <string name="energy_mode_moderate_title" msgid="8612259261851051150">"เพิ่มประสิทธิภาพแล้ว"</string>
+    <string name="energy_mode_moderate_subtitle" msgid="5565533500130453270">"โหมดสแตนด์บายที่เชื่อมต่อเครือข่าย"</string>
+    <string name="energy_mode_moderate_info" msgid="3188005033276283994">"โหมดสแตนด์บายที่เชื่อมต่อเครือข่าย — เปิดใช้ฟีเจอร์ต่างๆ เพื่อปลุกระบบทีวีผ่านเครือข่าย"</string>
   <string-array name="energy_mode_moderate_features">
     <item msgid="2654586107956150296">"[ใส่ฟีเจอร์ 1]"</item>
     <item msgid="8724721267222341891">"[ใส่ฟีเจอร์ 2]"</item>
   </string-array>
     <string name="energy_mode_moderate_eco_hint" msgid="252189162446856286"></string>
-    <string name="energy_mode_high_title" msgid="4428472238583662129">"ฟีเจอร์เพิ่มเติมของเครือข่าย"</string>
-    <string name="energy_mode_high_subtitle" msgid="3146607061198429672">"ใช้พลังงานมากขึ้น"</string>
-    <string name="energy_mode_high_info" msgid="3151321275701804406">"นอกจากฟีเจอร์ที่แนะนำแล้ว ตัวเลือกนี้จะเปิดฟีเจอร์เพิ่มเติมเมื่อไม่ได้ใช้งานทีวีด้วย ซึ่งอาจทำให้ใช้พลังงานมากขึ้น"</string>
+    <string name="energy_mode_high_title" msgid="7596672058005896920">"เพิ่มขึ้น"</string>
+    <string name="energy_mode_high_subtitle" msgid="5994284096495805422">"เชื่อมต่อตลอดเวลา"</string>
+    <string name="energy_mode_high_info" msgid="8805447042714350186">"เชื่อมต่อตลอดเวลา — เปิดใช้ฟีเจอร์ของเครือข่ายเมื่อไม่ได้ใช้งานทีวี"</string>
   <string-array name="energy_mode_high_features">
     <item msgid="3018897868803319747">"[ใส่ฟีเจอร์ 1]"</item>
     <item msgid="170760143032597722">"[ใส่ฟีเจอร์ 2]"</item>

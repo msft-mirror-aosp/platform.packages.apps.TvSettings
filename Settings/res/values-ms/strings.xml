@@ -65,6 +65,7 @@
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Tetapan Apl"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"Lokasi, Penggunaan &amp; Diagnostik, Iklan"</string>
     <string name="add_account" msgid="7386223854837017129">"Tambah akaun"</string>
+    <string name="unknown_account" msgid="5159580666787047518">"Akaun Tidak Diketahui"</string>
     <string name="account_header_remove_account" msgid="8573697553061331373">"Alih keluar akaun"</string>
     <string name="account_sync" msgid="4315295293211313989">"Pilih aplikasi disegerakkan"</string>
     <string name="sync_now" msgid="4335217984374620551">"Segerakkan sekarang"</string>
@@ -112,7 +113,7 @@
     <string name="device_backup_restore" msgid="3634531946308269398">"Sandarkan &amp; Pulihkan"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Tetapan semula data kilang"</string>
     <string name="device_calibration" msgid="2907914144048739705">"Penentukuran"</string>
-    <string name="device_energy_saver" msgid="6611757996220443028">"Pemasa Pemati"</string>
+    <string name="device_energy_saver" msgid="6611757996220443028">"Pemasa untuk Mematikan TV"</string>
     <string name="device_energy_saver_summary" msgid="5306058475316008429">"Tetapkan pemasa untuk mematikan TV dan menjimatkan tenaga"</string>
     <string name="overlay_internal_slice_title" msgid="6427352417573831625"></string>
     <string name="device_fastpair" msgid="1235240814051277047">"Peranti"</string>
@@ -166,10 +167,8 @@
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"Adakah anda mahu memaksa output HDR?"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"Secara lalai, penukaran akan dipaksa menjadi <xliff:g id="HDR_TYPE">%s</xliff:g>."</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"Paparan anda akan dijalankan pada peleraian 60Hz 1080p. Pilihan ini tidak serasi dengan paparan anda apabila dijalankan pada peleraian 60Hz 4k."</string>
-    <!-- no translation found for selection_dolby_vision_not_supported_sidebar (8994591316574824115) -->
-    <skip />
-    <!-- no translation found for manual_dolby_vision_format_on_4k60_title (4172263676512376500) -->
-    <skip />
+    <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"Dolby Vision tidak disokong pada peleraian semasa. Jika anda mendayakan Dolby Vision secara manual, peleraian pada paparan anda akan ditukarkan kepada 60Hz 1080p"</string>
+    <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"Tukar peleraian kepada 60Hz 1080p?"</string>
     <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"Sentiasa paksa penukaran kepada Dolby Vision"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"Jika Dolby Vision dilumpuhkan dalam Format HDR dalam Tetapan Paparan Lanjutan, tindakan memaksa penukaran kepada Dolby Vision akan mendayakan semula Dolby Vision."</string>
     <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"Sentiasa paksa penukaran kepada HDR10"</string>
@@ -180,7 +179,7 @@
     <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"Jika HDR10+ dilumpuhkan dalam Format HDR dalam Tetapan Paparan Lanjutan, tindakan memaksa penukaran kepada HDR10+ akan mendayakan semula HDR10+."</string>
     <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"Sentiasa paksa penukaran kepada SDR"</string>
     <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"Tindakan memaksa penukaran kepada SDR akan melumpuhkan semua format dalam Format HDR dalam Tetapan Paparan Lanjutan."</string>
-    <string name="match_content_frame_rate_title" msgid="153291168560947689">"Kadar bingkai kandungan dipadankan"</string>
+    <string name="match_content_frame_rate_title" msgid="153291168560947689">"Padankan kadar bingkai kandungan"</string>
     <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"Lancar sahaja"</string>
     <string name="match_content_frame_rate_seamless_summary" msgid="2737466163964133210">"Jika diminta oleh apl, peranti anda akan memadankan output mengikut kadar bingkai asal kandungan yang sedang anda tonton, HANYA jika TV anda boleh menjalankan peralihan yang lancar."</string>
     <string name="match_content_frame_rate_seamless_not_supported_summary" msgid="98559950465123792">"Paparan anda yang disambungkan tidak menyokong peralihan kadar segar semula yang lancar. Pilihan ini tidak akan memberikan kesan melainkan anda menukar kepada paparan yang menyokong tindakan."</string>
@@ -193,7 +192,7 @@
     <string name="font_scale_sample_text_title" msgid="5239266611413037261">"Teks contoh"</string>
     <string name="font_scale_preview_text_title" msgid="8056182208511371119">"Ahli Sihir Oz yang Menakjubkan"</string>
     <string name="font_scale_preview_text_subtitle" msgid="677394182922188048">"Bab 11: Oz, Kota Zamrud yang Menakjubkan"</string>
-    <string name="font_scale_preview_text_body" msgid="2040384234251207410">"Biarpun mata mereka ditutupi cermin mata hijau, Dorothy dan rakan-rakannya tetap silau dengan kilauan Kota hebat yang terang-benderang itu. Rumah-rumah cantik yang diperbuat daripada marmar hijau bertatah batu zamrud yang berkilau-kilau membarisi jalan-jalannya. Mereka berjalan di atas laluan jalan kaki yang berturap marmar hijau serupa. Zamrud disusun rapi di garisan cantuman bongkah-bongkah laluan itu, sehingga bergemerlapan dalam terangnya sinaran matahari. Cermin tingkap diperbuat daripada kaca berwarna hijau; malah langit yang memayungi Kota itu berwarna kehijauan, bahkan sinar matahari juga berwarna hijau. \n\nKelihatan ramai orang, lelaki, wanita dan kanak-kanak, berjalan-jalan, dan mereka berpakaian serba hijau dan berkulit kehijauan. Mereka memandang Dorothy dan rakannya yang pelbagai rupa dengan penuh tanda-tanya, malah kanak-kanak berlari dan bersembunyi di sebalik tubuh ibu mereka apabila ternampak sang Singa; namun tiada siapa yang menegur. Banyak kedai terdapat di jalan, dan Dorothy mendapati semua barangan di dalam kedai-kedai itu berwarna hijau. Ada dijual gula-gula hijau dan bertih jagung hijau, selain kasut hijau, topi hijau dan pelbagai jenis pakaian hijau. Di satu tempat, seorang lelaki menjual lemonad hijau, dan apabila kanak-kanak membelinya, Dorothy lihat mereka membayar dengan duit syiling hijau. \n\nTidak kelihatan kuda atau sebarang jenis haiwan lain; kaum lelaki menggunakan pedati kecil berwarna hijau yang ditolak oleh mereka sendiri untuk mengangkut barang-barang. Semua orang kelihatan gembira dan bahagia dan makmur."</string>
+    <string name="font_scale_preview_text_body" msgid="7890679265084738383">"Biarpun mata mereka ditutupi cermin mata hijau, Dorothy dan rakan-rakannya tetap silau dengan kilauan Kota hebat yang terang-benderang itu. Rumah-rumah cantik yang diperbuat daripada marmar hijau bertatah batu zamrud yang berkilau-kilau membarisi jalan. Mereka berjalan di atas laluan jalan kaki yang berturap marmar hijau serupa. Zamrud disusun rapi di garisan cantuman bongkah-bongkah laluan itu, bergemerlapan dalam sinaran matahari. Cermin tingkap diperbuat daripada kaca berwarna hijau; malah langit yang memayungi Kota itu berwarna kehijauan, bahkan sinar matahari juga berwarna hijau. \n\nKelihatan ramai orang, lelaki, wanita dan kanak-kanak, berjalan-jalan dengan berpakaian serba hijau dan berkulit kehijauan. Mereka memandang Dorothy dan rakannya yang pelbagai rupa dengan penuh tanda tanya, malah kanak-kanak berlari dan bersembunyi di sebalik tubuh ibu mereka apabila ternampak sang Singa; namun tiada sesiapa yang menegur. Terdapat banyak kedai di jalan dan Dorothy mendapati semua barangan di dalam kedai-kedai itu berwarna hijau. Ada gula-gula hijau dan bertih jagung hijau, selain kasut hijau, topi hijau dan pelbagai jenis pakaian hijau. Di satu tempat, seorang lelaki menjual lemonad hijau dan apabila kanak-kanak membeli lemonad itu, Dorothy lihat mereka membayar dengan duit syiling hijau. \n\nTidak kelihatan kuda atau sebarang jenis haiwan lain; kaum lelaki menggunakan pedati kecil berwarna hijau yang ditolak oleh mereka sendiri untuk mengangkut barang-barang. Semua orang kelihatan gembira, bahagia dan makmur."</string>
     <string name="hdr_format_selection_title" msgid="4042679694363850581">"Pilihan format"</string>
     <string name="hdr_format_selection_auto_title" msgid="2370148695440344232">"Automatik"</string>
     <string name="hdr_format_selection_manual_title" msgid="2077604650196987438">"Manual"</string>
@@ -220,12 +219,11 @@
     <string name="resolution_selection_with_mode_dialog_title" msgid="5011192408613100514">"Tukar resolusi kepada %1$s?"</string>
     <string name="resolution_selection_dialog_desc" msgid="3667357611495669701">"Pilih OK untuk menggunakan %1$s mulai sekarang."</string>
     <string name="resolution_selection_disabled_dolby_vision_dialog_desc" msgid="7952404018654828187">"Dolby Vision tidak disokong pada %1$s dan akan dilumpuhkan dalam \"Tetapan Paparan Terperinci\""</string>
-    <string name="resolution_hdr_description_info" msgid="7378290600353021584">"Mod ini menyokong %1$s. Pada sesetengah TV, anda mungkin perlu menghidupkan HDMI Dipertingkat untuk mendayakan lebih banyak format HDR. Semak tetapan TV anda untuk melihat jika ciri ini disokong."</string>
+    <string name="resolution_hdr_description_info" msgid="2408761621976850238">"Mod ini menyokong: %1$s\nPada sesetengah TV, anda mungkin perlu menghidupkan HDMI Dipertingkatkan untuk mendayakan lebih banyak format HDR. Semak tetapan TV anda untuk melihat jika ciri ini disokong."</string>
     <string name="resolution_selection_dialog_cancel" msgid="3683616572317946129">"Batal"</string>
     <string name="resolution_selection_dialog_ok" msgid="3123351228545013492">"OK"</string>
     <string name="resolution_selection_hz" msgid="4425902505388495637">"Hz"</string>
-    <!-- no translation found for resolution_display_mode (6633857172598855480) -->
-    <skip />
+    <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> Hz)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"Padam bersih data cache?"</string>
     <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"Ini akan memadam bersih data cache semua apl."</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
@@ -280,6 +278,7 @@
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Disambungkan"</string>
     <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Diputuskan sambungan"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Anda tidak mempunyai kebenaran untuk menukar tetapan Bluetooth."</string>
+    <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Gunakan untuk audio TV"</string>
     <string name="send_feedback" msgid="936698637869795473">"Hantar maklum balas"</string>
     <string name="launch_help" msgid="2607478763131952469">"Pusat Bantuan"</string>
     <string name="system_cast" msgid="6081391679828510058">"Google Cast"</string>
@@ -346,8 +345,7 @@
     <string name="do_disclosure_generic" msgid="8390478119591845948">"Peranti ini diurus oleh organisasi anda."</string>
     <string name="do_disclosure_with_name" msgid="4755509039938948975">"Peranti ini diurus oleh <xliff:g id="ORGANIZATION_NAME">%s</xliff:g>."</string>
     <string name="do_disclosure_learn_more_separator" msgid="4226390963162716446">" "</string>
-    <string name="word_separator" msgid="3175619900852797955">","</string>
-    <string name="space_separator" msgid="4169645647388594972">" ⁠"</string>
+    <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"Ketahui lebih lanjut"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{Apl kamera}other{Apl kamera}}"</string>
     <string name="default_calendar_app_title" msgid="1533912443930743532">"Apl Kalendar"</string>
@@ -359,7 +357,7 @@
     <string name="app_names_concatenation_template_2" msgid="5297284354915830297">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>"</string>
     <string name="app_names_concatenation_template_3" msgid="4932774380339466733">"<xliff:g id="FIRST_APP_NAME">%1$s</xliff:g>, <xliff:g id="SECOND_APP_NAME">%2$s</xliff:g>, <xliff:g id="THIRD_APP_NAME">%3$s</xliff:g>"</string>
     <string name="tutorials" msgid="7880770425872110455">"Tutorial"</string>
-    <string name="about_system_update" msgid="7421264399111367755">"Kemas kini sistem"</string>
+    <string name="about_system_update" msgid="7421264399111367755">"Kemaskinian sistem"</string>
     <string name="system_update_description" msgid="998883510488461766">"Ini akan mengemas kini perisian sistem anda kepada versi terkini. Peranti anda akan dimulakan semula."</string>
     <string name="system_update_content_description" msgid="5702888187682876466">"Kemas kini sistem, Ini akan mengemas kini perisian sistem anda kepada versi terkini. Peranti anda akan dimulakan semula."</string>
     <string name="about_preference" msgid="9112690446998150670">"Perihal"</string>
@@ -370,6 +368,8 @@
     <string name="about_terms_of_service" msgid="8514826341101557623">"Undang-undang Google"</string>
     <string name="about_license_activity_unavailable" msgid="4559187037375581674">"Data lesen tidak tersedia"</string>
     <string name="about_model" msgid="9164284529291439296">"Model"</string>
+    <string name="device_mode" msgid="7258350575590118152">"Mod Peranti"</string>
+    <string name="store_demo_mode" msgid="4382231515659362796">"Demo Kedai"</string>
     <string name="about_version" msgid="6223547403835399861">"Versi OS Android TV"</string>
     <string name="about_serial" msgid="3432319328808745459">"Nombor siri"</string>
     <string name="about_build" msgid="8467840394761634575">"Binaan OS Android TV"</string>
@@ -437,6 +437,11 @@
     <string name="title_internet_connection" msgid="7502414094881828069">"Sambungan Internet"</string>
     <string name="connected" msgid="4981532275162345997">"Disambungkan"</string>
     <string name="not_connected" msgid="475810896484271663">"Tidak bersambung"</string>
+    <string name="wifi_no_internet" msgid="27421689535934864">"Tiada Internet"</string>
+    <string name="wifi_saved" msgid="4354792774811431829">"Disimpan"</string>
+    <string name="wifi_bad_password" msgid="8686375382346768922">"Kata laluan salah"</string>
+    <string name="wifi_short_password" msgid="7658809378390032385">"Kata laluan Wi-Fi terlalu pendek"</string>
+    <string name="wifi_captive_portal" msgid="8262150024660339529">"Log masuk diperlukan"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Pilihan lain"</string>
     <string name="wifi_setting_see_all" msgid="5048103047976316675">"Lihat semua"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Lihat kurang lagi"</string>
@@ -667,7 +672,7 @@
     <string name="third_party_location_services_title" msgid="2826218400381676508">"Perkhidmatan lokasi pihak ke-3"</string>
     <string name="location_reporting" msgid="3552501333650895634">"Pelaporan Lokasi"</string>
     <string name="location_history" msgid="4055660203090513120">"Sejarah Lokasi"</string>
-    <string name="location_reporting_desc" msgid="1580018652781674608">"Google menggunakan ciri ini dalam produk seperti Google Now dan Google Maps. Menghidupkan Pelaporan Lokasi membolehkan sebarang produk Google yang menggunakan ciri ini menyimpan dan menggunakan data lokasi terbaharu peranti anda berhubung dengan Akaun Google anda."</string>
+    <string name="location_reporting_desc" msgid="1580018652781674608">"Google menggunakan ciri ini dalam produk seperti Google Now dan Google Maps. Menghidupkan Pelaporan Lokasi membolehkan sebarang produk Google yang menggunakan ciri ini menyimpan dan menggunakan data lokasi terbaharu peranti anda berhubung dengan Google Account anda."</string>
     <string name="location_history_desc" msgid="926674012916014270">"Apabila Sejarah Lokasi dihidupkan untuk akaun ini, Google dapat menyimpan data lokasi peranti anda untuk digunakan oleh apl anda.\n\nContohnya, Google Maps dapat memberi anda arah, manakala Google Now dapat memaklumkan anda tentang sebarang trafik pergi dan balik.\n\nAnda boleh mematikan Sejarah Lokasi pada bila-bila masa tetapi tindakan itu tidak memadamkan datanya. Untuk melihat dan mengurus Sejarah Lokasi anda, lawati maps.google.com/locationhistory."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"Padamkan sejarah lokasi"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"Ini akan memadamkan Sejarah Lokasi dan tidak boleh dibuat asal. Sesetengah aplikasi tidak berfungsi."</string>
@@ -745,7 +750,7 @@
     <string name="system_accessibility_status" msgid="8504842254080682515">"Dayakan"</string>
     <string name="system_accessibility_config" msgid="4820879735377962851">"Konfigurasi"</string>
     <string name="system_accessibility_service_on_confirm_title" msgid="4547924421106540376">"Gunakan <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
-    <string name="system_accessibility_service_on_confirm_desc" msgid="1291445700158602622">"<xliff:g id="SERVICE">%1$s</xliff:g> boleh mengumpulkan semua teks yang anda taip, kecuali kata laluan. Ini termasuklah data peribadi, seperti nombor kad kredit."</string>
+    <string name="system_accessibility_service_on_confirm_desc" msgid="5426217096813804569">"<xliff:g id="SERVICE">%1$s</xliff:g> akan dapat membaca skrin anda, memaparkan kandungan yang menindan apl lain, menjejaki interaksi anda dengan penderia apl atau perkakasan dan berinteraksi dengan apl bagi pihak anda."</string>
     <string name="system_accessibility_service_off_confirm_title" msgid="1110904358228641834">"Hentikan <xliff:g id="SERVICE">%1$s</xliff:g>?"</string>
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"Memilih OK akan menghentikan <xliff:g id="SERVICE">%1$s</xliff:g>."</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"Teks kepada pertuturan"</string>
@@ -904,6 +909,13 @@
     <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"Sesuaikan sekatan"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"Tunggu sebentar…"</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"Tukar pin"</string>
+    <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"Buat profil terhad?"</string>
+    <string name="restricted_profile_already_created_placeholder" msgid="8619544048199836920">"Sudah Dibuat"</string>
+    <string name="restricted_profile_skip_action" msgid="4674562040162193593">"Langkau"</string>
+    <string name="restricted_profile_create_pin_action" msgid="1883036507880250231">"Buat PIN"</string>
+    <string name="restricted_profile_enter_preference_screen" msgid="676246260867597333">"Masuk ke profil terhad?"</string>
+    <string name="restricted_profile_enter_not_found_placeholder" msgid="2270969471829375976">"Tiada profil terhad"</string>
+    <string name="restricted_profile_enter_already_entered_placeholder" msgid="6178278708529027598">"Sudah dimasukkan"</string>
     <string name="restriction_description" msgid="2053112392083722259">"<xliff:g id="DESCRIPTION">%1$s</xliff:g>\n<xliff:g id="VALUE">%2$s</xliff:g>"</string>
     <string name="app_sees_restricted_accounts_and_controlled_by" msgid="1261056180558324892">"Apl ini boleh mengakses akaun anda. Dikawal oleh <xliff:g id="APP">%1$s</xliff:g>"</string>
     <string name="pin_enter_unlock_channel" msgid="243855138978654080">"Masukkan PIN untuk menonton saluran ini"</string>
@@ -1066,10 +1078,6 @@
     <string name="recorded_microphones_title" msgid="5466988146086215426">"Mikrofon dirakam"</string>
     <string name="show_audio_recording_start_failed" msgid="9131762831381326605">"Gagal memulakan rakaman audio."</string>
     <string name="show_audio_recording_failed" msgid="8128216664039868681">"Perakaman audio gagal."</string>
-    <string name="title_data_saver" msgid="7500278996154002792">"Penjimat Data"</string>
-    <string name="summary_data_saver" msgid="6793558728898207405">"Laraskan kualiti video secara automatik untuk menggunakan kurang data mudah alih"</string>
-    <string name="title_data_alert" msgid="8262081890052682475">"Penggunaan data dan makluman"</string>
-    <string name="data_saver_header_info" msgid="2706725187498535785">"Anda boleh menyambung ke Internet dengan Wi-Fi, Ethernet atau tempat liputan telefon anda."</string>
     <string name="bluetooth_ask_discovery_title" msgid="4955540555242269694">"Perlihatkan kepada peranti Bluetooth yang lain?"</string>
     <string name="bluetooth_ask_discovery_message" msgid="8609666862877703398">"Terdapat apl yang mahu memperlihatkan TV anda kepada peranti Bluetooth yang lain selama <xliff:g id="TIMEOUT">%1$d</xliff:g> saat."</string>
     <string name="help_center_title" msgid="6109822142761302433"></string>
@@ -1110,6 +1118,8 @@
     <string name="network_connection_connect_successful" msgid="2981223044343511313">"Sambungan berjaya"</string>
     <string name="network_connection_request_dialog_showall" msgid="2653775399674126208">"Paparkan semua"</string>
     <string name="progress_scanning" msgid="3323638586482686516">"Mencari"</string>
+    <string name="add_account_intent_not_available_dialog_message" msgid="8326403834567215053">"Gagal mendapatkan niat tambahkan akaun daripada pengesah."</string>
+    <string name="add_account_failed_dialog_message" msgid="3704858007957373186">"Gagal menambahkan akaun atau jenis akaun tidak tersedia."</string>
     <string name="channels_and_inputs_title" msgid="7484506121290830217">"Saluran &amp; Input"</string>
     <string name="channels_and_inputs_summary" msgid="3168386051698084007">"Saluran, input luar"</string>
     <string name="channels_settings_title" msgid="8048956665383762510">"Saluran"</string>
@@ -1123,8 +1133,13 @@
     <string name="reset_options_title" msgid="7632580482285108955">"Tetapkan semula"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Kod berpasangan Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Mod Tenaga"</string>
-    <string name="energy_modes_summary" msgid="7196407759836930799">"Meningkatkan kecekapan tenaga ketika TV tidak digunakan"</string>
+    <string name="energy_modes_summary" msgid="2324906343309484649">"Tetapan ini mempengaruhi peranti apabila tidak digunakan"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"Mendayakan:"</string>
-    <string name="energy_mode_eco_hint" msgid="1461517905015359947">"Harap maklum bahawa mod ini mungkin meningkatkan penggunaan tenaga peranti."</string>
+    <string name="energy_mode_eco_hint" msgid="5280058011809503514">"Penggunaan kuasa mungkin meningkat bergantung pada bilangan ciri TV yang anda dayakan."</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"Dayakan \"<xliff:g id="ENERGYMODENAME">%s</xliff:g>\""</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Cari alat kawalan jauh saya"</string>
+    <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Mainkan bunyi untuk mengesan alat kawalan jauh Google TV anda sekiranya tersalah letak"</string>
+    <string name="find_my_remote_slice_description" msgid="313598681990933215">"Terdapat butang pada Google TV anda yang anda boleh tekan untuk memainkan bunyi pada alat kawalan jauh anda selama 30 saat. Kaedah ini hanya berfungsi dengan alat kawalan jauh Google TV yang disokong.\n\nUntuk menghentikan bunyi, tekan mana-mana butang pada alat kawalan jauh anda."</string>
+    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Apabila Cari alat kawalan jauh saya dihidupkan, anda boleh memainkan bunyi untuk mengesan alat kawalan jauh Google TV anda sekiranya tersalah letak."</string>
+    <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Mainkan bunyi"</string>
 </resources>
