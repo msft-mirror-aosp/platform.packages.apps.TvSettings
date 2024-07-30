@@ -805,6 +805,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Rendu GPU du profil"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Activer les traces"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Ne pas conserver les activités"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Nomb. max. processus en arr.-plan"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Afficher messages \"L\'application ne répond pas\""</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Désactiver la veille"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Utiliser pour le contenu DRM uniquement"</string>
@@ -1147,7 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Trouver ma télécommande"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Émettre un son pour localiser votre télécommande Google TV si vous l\'avez égarée"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Votre Google TV comporte un bouton sur lequel appuyer pour que votre télécommande émette un son pendant 30 secondes. Cela ne fonctionne que sur les télécommandes Google TV compatibles.\n\nPour arrêter le son, appuyez sur n\'importe quel bouton de la télécommande."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Lorsque \"Trouver ma télécommande\" est activé, vous pouvez émettre un son pour localiser votre télécommande Google TV si vous l\'avez égarée."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Lorsque cette option est activée, vous pouvez utiliser le bouton situé sur votre appareil pour émettre un son afin de localiser votre télécommande. Lorsque l\'option est désactivée, ce bouton ne fonctionne pas, mais vous pouvez toujours utiliser Trouver ma télécommande via d\'autres méthodes."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Émettre un son"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Vous pouvez contrôler le volume de l\'Assistant sur l\'enceinte %1$s"</string>
