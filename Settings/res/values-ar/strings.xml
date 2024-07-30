@@ -335,7 +335,7 @@
     <string name="enterprise_privacy_global_http_proxy" msgid="2818848848337527780">"تم ضبط الخادم الوكيل HTTP العام"</string>
     <string name="enterprise_privacy_ca_certs_device" msgid="975646846291012452">"بيانات الاعتماد الموثوقة"</string>
     <string name="enterprise_privacy_ca_certs_personal" msgid="7641368559306519707">"بيانات اعتماد موثوقة في ملفك الشخصي"</string>
-    <string name="enterprise_privacy_ca_certs_work" msgid="2905939250974399645">"بيانات اعتماد موثوقة في ملفك الشخصي للعمل"</string>
+    <string name="enterprise_privacy_ca_certs_work" msgid="2905939250974399645">"بيانات اعتماد موثوقة في ملف العمل الخاص بك"</string>
     <string name="enterprise_privacy_number_ca_certs" msgid="5918439861975410142">"{count,plural, =1{شهادة CA واحدة}zero{# شهادة CA}two{شهادتا CA}few{# شهادات CA}many{# شهادة CA}other{# شهادة CA}}"</string>
     <string name="enterprise_privacy_lock_device" msgid="3140624232334033641">"يمكن للمشرف قفل الجهاز وإعادة ضبط كلمة المرور"</string>
     <string name="enterprise_privacy_wipe_device" msgid="1714271125636510031">"يمكن للمشرف حذف جميع بيانات الجهاز"</string>
@@ -1090,7 +1090,7 @@
     <string name="disabled_by_policy_title_suspend_packages" msgid="6500185610058872758">"يتعذّر فتح هذا التطبيق."</string>
     <string name="default_admin_support_msg" msgid="7913455019068370350">"إذا كان لديك أسئلة، يُرجى التواصل مع مشرف تكنولوجيا المعلومات."</string>
     <string name="admin_support_more_info" msgid="9053232166115098434">"مزيد من التفاصيل"</string>
-    <string name="admin_profile_owner_message" msgid="5729169873349157622">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بالملفات الشخصية للعمل وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
+    <string name="admin_profile_owner_message" msgid="5729169873349157622">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بملفات العمل وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بهذا المستخدم وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بهذا الجهاز وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
     <string name="remove_managed_profile_label" msgid="8950011141359605612">"إزالة ملف العمل"</string>
