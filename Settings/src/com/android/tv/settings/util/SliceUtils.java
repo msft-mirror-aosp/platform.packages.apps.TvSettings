@@ -23,6 +23,12 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
 
+import androidx.annotation.Nullable;
+import androidx.preference.Preference;
+
+import com.android.tv.settings.overlay.FlavorUtils;
+import com.android.tv.twopanelsettings.slices.SlicePreference;
+
 import java.util.Collection;
 
 import kotlin.coroutines.Continuation;
@@ -90,5 +96,22 @@ public final class SliceUtils {
             Log.e(TAG, "Unable to get slice descendants", nullPointerException);
         }
         return false;
+    }
+
+    public static boolean maybeUseSlice(@Nullable Preference preference,
+                                        @Nullable SlicePreference slicePreference) {
+        boolean usingSlice = slicePreference != null
+                && FlavorUtils.isTwoPanel(slicePreference.getContext())
+                && SliceUtils.isSliceProviderValid(slicePreference.getContext(),
+                    slicePreference.getUri());
+        if (slicePreference != null) {
+            slicePreference.setVisible(usingSlice);
+        }
+
+        if (preference != null) {
+            preference.setVisible(!usingSlice);
+        }
+
+        return usingSlice;
     }
 }
