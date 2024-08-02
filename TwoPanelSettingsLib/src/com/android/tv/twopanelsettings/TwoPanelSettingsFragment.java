@@ -47,6 +47,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.animation.AnimationUtils;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.HorizontalScrollView;
 import android.widget.TextView;
 
@@ -757,6 +758,13 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
                     return false;
                 }
                 return back(true);
+            }
+
+            InputMethodManager imm = getContext().getSystemService(InputMethodManager.class);
+            if (imm.isActive()) {
+                // pass DPAD_LEFT/RIGHT events to the current editing widget. See b/315992084.
+                Log.d(TAG, "IME is active, event:" + event);
+                return false;
             }
 
             if (event.getAction() == KeyEvent.ACTION_DOWN
