@@ -1076,7 +1076,7 @@
     <string name="record_audio_summary_on" msgid="8724494646461335090">"ಆಡಿಯೋ ರೆಕರ್ಡಿಂಗ್ ನಿಲ್ಲಿಸಲು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="record_audio_summary_off" msgid="1392440365091422816">"ಆಡಿಯೋ ರೆಕಾರ್ಡಿಂಗ್ ತಕ್ಷಣವೇ ಪ್ರಾರಂಭಿಸಲು ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="play_recorded_audio_title" msgid="4627717067151602729">"ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಪ್ಲೇ ಮಾಡಿ"</string>
-    <string name="save_recorded_audio_title" msgid="378003351782124651">"ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಉಳಿಸಿ"</string>
+    <string name="save_recorded_audio_title" msgid="378003351782124651">"ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಸೇವ್ ಮಾಡಿ"</string>
     <string name="time_to_start_read_title" msgid="6565449163802837806">"ರೆಕಾರ್ಡಿಂಗ್ ಓದುವುದನ್ನು ಪ್ರಾರಂಭಿಸುವ ಮೊದಲಿನ ಅವಧಿ"</string>
     <string name="time_to_valid_audio_title" msgid="7246101824813414348">"ರೆಕಾರ್ಡ್ ಮಾಡುವ ಮೊದಲಿನ ಆಡಿಯೋ ಡೇಟಾದ ಅವಧಿ"</string>
     <string name="empty_audio_duration_title" msgid="9024377320171450683">"ಖಾಲಿ ಇರುವ ಆಡಿಯೋ ಅವಧಿ"</string>
@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ನನ್ನ ರಿಮೋಟ್ ಅನ್ನು ಹುಡುಕಿ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ನಿಮ್ಮ Google TV ರಿಮೋಟ್ ಕಳೆದುಹೋದರೆ ಅದನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಿ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ನಿಮ್ಮ Google TV ಯಲ್ಲಿ 30 ಸೆಕೆಂಡ್‌ಗಳ ಕಾಲ ನಿಮ್ಮ ರಿಮೋಟ್‌ನಲ್ಲಿ ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಲು ನೀವು ಪುಶ್ ಮಾಡಬಹುದಾದ ಬಟನ್ ಇದೆ. ಇದು ಬೆಂಬಲಿತ Google TV ರಿಮೋಟ್ ಕಂಟ್ರೋಲ್‌ಗಳಲ್ಲಿ ಮಾತ್ರ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.\n\nಸೌಂಡ್ ಅನ್ನು ನಿಲ್ಲಿಸಲು, ನಿಮ್ಮ ರಿಮೋಟ್‌ನಲ್ಲಿರುವ ಯಾವುದೇ ಬಟನ್ ಅನ್ನು ಒತ್ತಿ."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ಆನ್ ಆಗಿರುವಾಗ, ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡುವ ಮೂಲಕ ರಿಮೋಟ್ ಅನ್ನು ಪತ್ತೆಹಚ್ಚಲು ನೀವು ಸಾಧನದಲ್ಲಿನ ಬಟನ್ ಅನ್ನು ಬಳಸಬಹುದು. ಆಫ್ ಆಗಿರುವಾಗ, ಈ ಬಟನ್ ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ. ನೀವು ಈಗಲೂ ಇತರ ವಿಧಾನಗಳನ್ನು ಬಳಸಿ ನನ್ನ ರಿಮೋಟ್ ಹುಡುಕಿ ಫೀಚರ್‌ ಅನ್ನು ಬಳಸಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಿ"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ವಾಲ್ಯೂಮ್"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ನೀವು %1$s ಸ್ಪೀಕರ್‌ನಲ್ಲಿ Assistant ವಾಲ್ಯೂಮ್ ಅನ್ನು ನಿಯಂತ್ರಿಸಬಹುದು"</string>

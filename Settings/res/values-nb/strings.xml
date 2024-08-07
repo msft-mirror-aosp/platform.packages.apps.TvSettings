@@ -1093,7 +1093,7 @@
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"Ringing er ikke tillatt"</string>
     <string name="disabled_by_policy_title_sms" msgid="5721045390560951358">"SMS er ikke tillatt"</string>
     <string name="disabled_by_policy_title_camera" msgid="6576557964422257426">"Kameraet er ikke tillatt"</string>
-    <string name="disabled_by_policy_title_screen_capture" msgid="5774035841010091253">"Skjermdump er ikke tillatt"</string>
+    <string name="disabled_by_policy_title_screen_capture" msgid="5774035841010091253">"Skjermbilde er ikke tillatt"</string>
     <string name="disabled_by_policy_title_suspend_packages" msgid="6500185610058872758">"Kan ikke åpne denne appen"</string>
     <string name="default_admin_support_msg" msgid="7913455019068370350">"Hvis du lurer på noe, kan du kontakte IT-administratoren din"</string>
     <string name="admin_support_more_info" msgid="9053232166115098434">"Mer informasjon"</string>
@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Finn fjernkontrollen min"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Spill av en lyd for å finne Google TV-fjernkontrollen hvis du ikke finner den"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV har en knapp du kan trykke på for å spille av en lyd på fjernkontrollen i 30 sekunder. Dette fungerer bare med støttede Google TV-fjernkontroller.\n\nFor å stoppe lyden, trykk på en knapp på fjernkontrollen."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Når funksjonen er på, kan du bruke knappen på enheten til å spille av en lyd for å finne fjernkontrollen. Når funksjonen er av, fungerer ikke denne knappen. Du kan fortsatt bruke finn fjernkontrollen via andre metoder."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spill av lyd"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volum"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Du kan kontrollere Assistent-volumet på %1$s-høyttaleren"</string>

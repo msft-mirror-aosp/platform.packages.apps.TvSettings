@@ -700,7 +700,7 @@
     <string name="color_correction_mode_grayscale" msgid="2592973844160514484">"グレースケール"</string>
     <string name="palette_color_red" msgid="507196433434979086">"赤"</string>
     <string name="palette_color_orange" msgid="6209196069366109835">"オレンジ"</string>
-    <string name="palette_color_yellow" msgid="298466132578870590">"黄"</string>
+    <string name="palette_color_yellow" msgid="298466132578870590">"黄色"</string>
     <string name="palette_color_green" msgid="4904783063036825668">"緑"</string>
     <string name="palette_color_cyan" msgid="3212217287628948203">"シアン"</string>
     <string name="palette_color_blue" msgid="8836682634988540630">"青"</string>
@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"リモコンを探す"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV リモコンの場所がわからなくなったときに、リモコンから音を鳴らして探せるようにします"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV のこのボタンを押すと、リモコンから 30 秒間音が鳴ります。この機能を使用できるのは、対応する Google TV リモコンのみです。\n\n音を止めるには、リモコンのいずれかのボタンを押します。"</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ON にすると、デバイスのボタンを使用して、リモコンから音を鳴らして探すことができます。OFF にすると、このボタンは使用できません。別の方法で「リモコンを探す」機能を使用することもできます。"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"音を鳴らす"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s の音量"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s スピーカーのアシスタントの音量を調整できます"</string>

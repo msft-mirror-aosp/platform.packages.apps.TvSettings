@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"මගේ දුරස්ථ පාලකය සොයා ගන්න"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ඔබේ Google TV දුරස්ථ පාලකය අස්ථානගත වී ඇත්නම් එය සොයා ගැනීමට හඬක් වාදනය කරන්න"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ඔබේ දුරස්ථ පාලකයේ තත්පර 30ක් සඳහා ශබ්දයක් වාදනය කිරීමට ඔබට තල්ලු කළ හැකි බොත්තමක් ඔබේ Google TV මත ඇත. මෙය ක්‍රියා කරන්නේ සහාය දක්වන Google TV දුරස්ථ පාලක සමග පමණි.\n\nශබ්දය නැවැත්වීම සඳහා, ඔබේ දුරස්ථ පාලකයෙහි ඕනෑම බොත්තමක් ඔබන්න."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ක්‍රියාත්මක වන විට, ඔබට ඔබේ දුරස්ථ පාලකය සොයා ගැනීමට ශබ්දයක් වාදනය කිරීමට ඔබේ උපාංගයෙහි බොත්තම භාවිතා කළ හැක. ක්‍රියා විරහිත වූ විට, මෙම බොත්තම ක්‍රියා නොකරනු ඇත. ඔබට තවමත් වෙනත් ක්‍රම හරහා මගේ දුරස්ථය සොයා ගැනීම භාවිත කිරීමට හැකි වනු ඇත."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"හඩ වාදනය කරන්න"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s හඬ පරිමාව"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ඔබට %1$s ස්පීකරය මත සහායක හඬ පරිමාව පාලනය කළ හැක"</string>

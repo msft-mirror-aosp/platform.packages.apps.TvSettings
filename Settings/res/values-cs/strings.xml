@@ -1010,7 +1010,7 @@
   <string-array name="rooms">
     <item msgid="6590829789532602097">"Android TV"</item>
     <item msgid="1140506340411482365">"Televize v obýváku"</item>
-    <item msgid="6448060889026244632">"Televize v dětském pokoji"</item>
+    <item msgid="6448060889026244632">"Televize ve společné místnosti"</item>
     <item msgid="3336274213215419228">"Televize v ložnici"</item>
   </string-array>
     <string name="custom_room" msgid="6798144004583173563">"Zadat vlastní název…"</string>
@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Vyhledání dálkového ovládání"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Pokud někam založíte dálkové ovládání ke Google TV, najděte ho podle zvuku"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na televizi Google TV je tlačítko, po jehož stisknutí se bude na dálkovém ovládání 30 sekund přehrávat zvuk. Funguje to jen s podporovaným dálkovým ovládáním Google TV.\n\nZvuk vypnete stisknutím libovolného tlačítka na dálkovém ovládání."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Když bude možnost zapnutá, můžete pomocí tlačítka na zařízení přehrát zvuk, podle kterého najdete dálkové ovládání. Když bude možnost vypnutá, tlačítko nebude fungovat. Ovladač bude nadále možné najít jinými způsoby."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Přehrát zvuk"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s hlasitost"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Hlasitost Asistenta můžete ovládat na reproduktoru %1$s"</string>

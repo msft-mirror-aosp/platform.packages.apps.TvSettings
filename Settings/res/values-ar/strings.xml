@@ -331,13 +331,13 @@
     <string name="enterprise_privacy_number_packages" msgid="6256222390430349008">"{count,plural, =1{تطبيق واحد}zero{# تطبيق}two{تطبيقان}few{# تطبيقات}many{# تطبيقًا}other{# تطبيق}}"</string>
     <string name="enterprise_privacy_input_method" msgid="5814752394251833058">"لوحة المفاتيح التلقائية"</string>
     <string name="enterprise_privacy_input_method_name" msgid="1088874503312671318">"ضبط على <xliff:g id="APP_LABEL">%s</xliff:g>"</string>
-    <string name="enterprise_privacy_always_on_vpn_device" msgid="8845550514448914237">"تم تفعيل إعداد \"شبكة افتراضية خاصة (VPN) دائمة التفعيل\""</string>
-    <string name="enterprise_privacy_always_on_vpn_personal" msgid="6996782365866442280">"تم تفعيل إعداد \"شبكة افتراضية خاصة (VPN) دائمة التفعيل\" في الملف الشخصي"</string>
-    <string name="enterprise_privacy_always_on_vpn_work" msgid="3674119583050531071">"تم تفعيل \"شبكة افتراضية خاصة (VPN) دائمة التفعيل\" في ملف العمل"</string>
+    <string name="enterprise_privacy_always_on_vpn_device" msgid="8845550514448914237">"تم تفعيل إعداد \"شبكة VPN دائمة التفعيل\""</string>
+    <string name="enterprise_privacy_always_on_vpn_personal" msgid="6996782365866442280">"تم تفعيل إعداد \"شبكة VPN دائمة التفعيل\" في الملف الشخصي"</string>
+    <string name="enterprise_privacy_always_on_vpn_work" msgid="3674119583050531071">"تم تفعيل \"شبكة VPN دائمة التفعيل\" في ملف العمل"</string>
     <string name="enterprise_privacy_global_http_proxy" msgid="2818848848337527780">"تم ضبط الخادم الوكيل HTTP العام"</string>
     <string name="enterprise_privacy_ca_certs_device" msgid="975646846291012452">"بيانات الاعتماد الموثوقة"</string>
     <string name="enterprise_privacy_ca_certs_personal" msgid="7641368559306519707">"بيانات اعتماد موثوقة في ملفك الشخصي"</string>
-    <string name="enterprise_privacy_ca_certs_work" msgid="2905939250974399645">"بيانات اعتماد موثوقة في ملفك الشخصي للعمل"</string>
+    <string name="enterprise_privacy_ca_certs_work" msgid="2905939250974399645">"بيانات اعتماد موثوقة في ملف العمل الخاص بك"</string>
     <string name="enterprise_privacy_number_ca_certs" msgid="5918439861975410142">"{count,plural, =1{شهادة CA واحدة}zero{# شهادة CA}two{شهادتا CA}few{# شهادات CA}many{# شهادة CA}other{# شهادة CA}}"</string>
     <string name="enterprise_privacy_lock_device" msgid="3140624232334033641">"يمكن للمشرف قفل الجهاز وإعادة ضبط كلمة المرور"</string>
     <string name="enterprise_privacy_wipe_device" msgid="1714271125636510031">"يمكن للمشرف حذف جميع بيانات الجهاز"</string>
@@ -1097,7 +1097,7 @@
     <string name="disabled_by_policy_title_suspend_packages" msgid="6500185610058872758">"يتعذّر فتح هذا التطبيق."</string>
     <string name="default_admin_support_msg" msgid="7913455019068370350">"إذا كان لديك أسئلة، يُرجى التواصل مع مشرف تكنولوجيا المعلومات."</string>
     <string name="admin_support_more_info" msgid="9053232166115098434">"مزيد من التفاصيل"</string>
-    <string name="admin_profile_owner_message" msgid="5729169873349157622">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بالملفات الشخصية للعمل وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
+    <string name="admin_profile_owner_message" msgid="5729169873349157622">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بملفات العمل وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بهذا المستخدم وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"يمكن للمشرف مراقبة التطبيقات والبيانات المرتبطة بهذا الجهاز وإدارتها، بما في ذلك الإعدادات والأذونات والدخول إلى المؤسسة ونشاط الشبكة ومعلومات موقع الجهاز."</string>
     <string name="remove_managed_profile_label" msgid="8950011141359605612">"إزالة ملف العمل"</string>
@@ -1148,8 +1148,7 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"العثور على جهاز التحكّم عن بُعد"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"يمكنك تشغيل صوت لتحديد موقع جهاز التحكّم في Google TV عن بُعد إذا لم يكن في مكانه."</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"يتوفّر زرّ في Google TV يمكنك الضغط عليه لتشغيل صوت على جهاز التحكّم عن بُعد لمدة 30 ثانية. لا تعمل هذه الميزة إلا مع أجهزة التحكّم عن بُعد المتوافقة مع Google TV.\n\nلإيقاف الصوت، اضغط على أي زرّ على جهاز التحكّم عن بُعد."</string>
-    <!-- no translation found for find_my_remote_integration_hint (1505908080631286111) -->
-    <skip />
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"عندما يكون هذا الخيار مفعَّلاً، يمكنك استخدام الزرّ على جهازك لتشغيل صوت من أجل تحديد موقع جهاز التحكّم عن بُعد. أمّا عندما يكون هذا الخيار غير مفعَّل، فلن يعمل هذا الزرّ. سيظل بإمكانك استخدام ميزة \"العثور على جهاز التحكّم\" بطرق أخرى."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"تشغيل الصوت"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s مستوى الصوت"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"يمكنك التحكّم في مستوى صوت \"مساعد Google\" على مكبر الصوت %1$s"</string>
