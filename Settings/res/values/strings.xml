@@ -2905,6 +2905,13 @@
     <string name="find_my_remote_integration_hint">When on, you can use the button on your device to play a sound to locate your remote. When off, this button won\'t work. You\'ll still be able to use Find my remote via other methods.</string>
     <string name="find_my_remote_play_sound">Play sound</string>
 
+    <!-- Title for backlight preference [CHAR LIMIT=NONE] -->
+    <string name="settings_backlight_title">Backlight Mode</string>
+    <!-- Description for backlight preference -->
+    <string name="settings_backlight_description">Illumination of the buttons on the remote control upon each press.</string>
+    <string name="backlight_slice_description">On supported Google TV remotes, pressing the button on the remotes activates backlight illumination.</string>
+    <string name="backlight_integration_title" translatable="false">@string/settings_backlight_title</string>
+
     <!-- Title for preference which when clicked lets the user configure volume change -->
     <string name="volume_change_settings_title">%1$s volume</string>
     <!-- Subtitle for volume change during unselect -->

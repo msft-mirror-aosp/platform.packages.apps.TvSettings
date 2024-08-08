@@ -418,4 +418,23 @@
         <item>0.5</item>
         <item>0.8</item>
     </string-array>
+
+    <!-- Values for RCU Backlight. -->
+    <string-array name="backlight_modes">
+        <item>Never</item>
+        <item>Standard</item>
+        <item>Scheduled</item>
+    </string-array>
+
+    <string-array name="backlight_keys"  translatable="false">
+        <item>Never</item>
+        <item>Standard</item>
+        <item>Scheduled</item>
+    </string-array>
+
+    <string-array name="backlight_hints">
+        <item>The backlight will not illuminate with each press.</item>
+        <item>The backlight will illuminate with each press. The illumination will last for 5 seconds each time it is activated.</item>
+        <item>The backlight will illuminate with each press only during nighttime hours(6pm~6am). The illumination will last for 5 seconds each time it is activated.</item>
+    </string-array>
 </resources>
