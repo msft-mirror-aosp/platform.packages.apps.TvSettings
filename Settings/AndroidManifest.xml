@@ -1222,7 +1222,8 @@
             android:name=".oemlink.FactoryResetActivity"
             android:configChanges="keyboard|keyboardHidden|navigation"
             android:excludeFromRecents="true"
-            android:exported="false"
+            android:exported="true"
+            android:permission="android.permission.WRITE_SECURE_SETTINGS"
             android:theme="@style/ActionDisabledDialogTheme">
             <intent-filter android:priority="1" >
                 <action android:name="android.settings.FACTORY_RESET_TV_OEM_LINK" />
