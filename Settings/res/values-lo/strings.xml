@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"ປຸ່ມລັດ​ສຳລັບ​ການ​ເຂົ້າ​ເຖິງ"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ເປີດໃຊ້ປຸ່ມລັດການຊ່ວຍເຂົ້າເຖິງ"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ບໍລິການປຸ່ມທາງລັດ"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"ເມື່ອເປີດປຸ່ມລັດແລ້ວ, ທ່ານສາມາດກົດປຸ່ມກັບຄືນ ແລະ ປຸ່ມລົງພ້ອມກັນຄ້າງໄວ້ 3 ວິນາທີເພື່ອເປັນການເປີດຄຸນສົມບັດຊ່ວຍເຂົ້າເຖິງ"</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"ເວລາດຳເນີນການ"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"ເວລາດຳເນີນການ (ໄລຍະໝົດເວລາການຊ່ວຍເຂົ້າເຖິງ)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"ຊ່ວງເວລາ"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"ບາງແອັບບໍ່ຮອງຮັບຄ່າກຳນົດໄລຍະເວລານີ້."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"ຄຳບັນຍາຍ"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"​ການ​ຕັ້ງ​ຄ່າ​ສຳ​ລັບ​ຂໍ້​ຄວາມ​ຄຳ​ບັນ​ຍາຍ​ຢູ່​ເທິງວິ​ດີ​ໂອ"</string>
     <string name="captions_display" msgid="2598662495450633375">"ການສະແດງຜົນ"</string>
@@ -1150,6 +1158,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ມີປຸ່ມຢູ່ Google TV ຂອງທ່ານທີ່ທ່ານສາມາດກົດເພື່ອຫຼິ້ນສຽງຢູ່ຣີໂໝດຂອງທ່ານເປັນເວລາ 30 ວິນາທີ. ສິ່ງນີ້ໃຊ້ໄດ້ກັບຣີໂໝດຂອງ Google TV ທີ່ຮອງຮັບເທົ່ານັ້ນ.\n\nເພື່ອຢຸດສຽງ, ໃຫ້ກົດປຸ່ມໃດກໍໄດ້ຢູ່ຣີໂໝດຂອງທ່ານ."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ເມື່ອເປີດໄວ້, ທ່ານສາມາດໃຊ້ປຸ່ມຢູ່ອຸປະກອນຂອງທ່ານໃນການຫຼິ້ນສຽງເພື່ອຊອກຫາຣີໂໝດຂອງທ່ານໄດ້. ແຕ່ຫາກປິດໄວ້, ປຸ່ມນີ້ຈະບໍ່ເຮັດວຽກ. ທ່ານຈະຍັງຄົງສາມາດໃຊ້ຄຸນສົມບັດຊອກຫາຣີໂໝດຂອງຂ້ອຍຜ່ານວິທີການອື່ນໆໄດ້."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ຫຼິ້ນສຽງ"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"ໂໝດແສງພື້ນຫຼັງ"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"ການສ່ອງສະຫວ່າງຂອງປຸ່ມເມື່ອກົດຣີໂໝດຄວບຄຸມແຕ່ລະເທື່ອ."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"ເມື່ອໃຊ້ຣີໂໝດ Google TV ທີ່ຮອງຮັບ, ການກົດປຸ່ມເທິງຣີໂໝດຈະເປັນການເປີດການນຳໃຊ້ແສງພື້ນຫຼັງ."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"ລະດັບສຽງຂອງ %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ທ່ານສາມາດຄວບຄຸມລະດັບສຽງຜູ້ຊ່ວຍຢູ່ລຳໂພງ %1$s ໄດ້"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"ມີຜົນກັບລະດັບສຽງຢູ່ອຸປະກອນ %1$s ເທົ່ານັ້ນ, ບໍ່ມີຜົນກັບໂທລະທັດ"</string>
