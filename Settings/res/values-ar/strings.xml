@@ -329,9 +329,9 @@
     <string name="enterprise_privacy_number_packages" msgid="6256222390430349008">"{count,plural, =1{تطبيق واحد}zero{# تطبيق}two{تطبيقان}few{# تطبيقات}many{# تطبيقًا}other{# تطبيق}}"</string>
     <string name="enterprise_privacy_input_method" msgid="5814752394251833058">"لوحة المفاتيح التلقائية"</string>
     <string name="enterprise_privacy_input_method_name" msgid="1088874503312671318">"ضبط على <xliff:g id="APP_LABEL">%s</xliff:g>"</string>
-    <string name="enterprise_privacy_always_on_vpn_device" msgid="8845550514448914237">"تم تفعيل إعداد \"شبكة افتراضية خاصة (VPN) دائمة التفعيل\""</string>
-    <string name="enterprise_privacy_always_on_vpn_personal" msgid="6996782365866442280">"تم تفعيل إعداد \"شبكة افتراضية خاصة (VPN) دائمة التفعيل\" في الملف الشخصي"</string>
-    <string name="enterprise_privacy_always_on_vpn_work" msgid="3674119583050531071">"تم تفعيل \"شبكة افتراضية خاصة (VPN) دائمة التفعيل\" في ملف العمل"</string>
+    <string name="enterprise_privacy_always_on_vpn_device" msgid="8845550514448914237">"تم تفعيل إعداد \"شبكة VPN دائمة التفعيل\""</string>
+    <string name="enterprise_privacy_always_on_vpn_personal" msgid="6996782365866442280">"تم تفعيل إعداد \"شبكة VPN دائمة التفعيل\" في الملف الشخصي"</string>
+    <string name="enterprise_privacy_always_on_vpn_work" msgid="3674119583050531071">"تم تفعيل \"شبكة VPN دائمة التفعيل\" في ملف العمل"</string>
     <string name="enterprise_privacy_global_http_proxy" msgid="2818848848337527780">"تم ضبط الخادم الوكيل HTTP العام"</string>
     <string name="enterprise_privacy_ca_certs_device" msgid="975646846291012452">"بيانات الاعتماد الموثوقة"</string>
     <string name="enterprise_privacy_ca_certs_personal" msgid="7641368559306519707">"بيانات اعتماد موثوقة في ملفك الشخصي"</string>

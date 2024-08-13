@@ -1069,7 +1069,7 @@
     <string name="record_audio_summary_on" msgid="8724494646461335090">"ಆಡಿಯೋ ರೆಕರ್ಡಿಂಗ್ ನಿಲ್ಲಿಸಲು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="record_audio_summary_off" msgid="1392440365091422816">"ಆಡಿಯೋ ರೆಕಾರ್ಡಿಂಗ್ ತಕ್ಷಣವೇ ಪ್ರಾರಂಭಿಸಲು ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="play_recorded_audio_title" msgid="4627717067151602729">"ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಪ್ಲೇ ಮಾಡಿ"</string>
-    <string name="save_recorded_audio_title" msgid="378003351782124651">"ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಉಳಿಸಿ"</string>
+    <string name="save_recorded_audio_title" msgid="378003351782124651">"ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಸೇವ್ ಮಾಡಿ"</string>
     <string name="time_to_start_read_title" msgid="6565449163802837806">"ರೆಕಾರ್ಡಿಂಗ್ ಓದುವುದನ್ನು ಪ್ರಾರಂಭಿಸುವ ಮೊದಲಿನ ಅವಧಿ"</string>
     <string name="time_to_valid_audio_title" msgid="7246101824813414348">"ರೆಕಾರ್ಡ್ ಮಾಡುವ ಮೊದಲಿನ ಆಡಿಯೋ ಡೇಟಾದ ಅವಧಿ"</string>
     <string name="empty_audio_duration_title" msgid="9024377320171450683">"ಖಾಲಿ ಇರುವ ಆಡಿಯೋ ಅವಧಿ"</string>
