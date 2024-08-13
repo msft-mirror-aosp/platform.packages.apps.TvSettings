@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Nooit"</item>
+    <item msgid="3256715108348109595">"Standaard"</item>
+    <item msgid="5517658202197894866">"Geskeduleer"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Die agterlig sal nie met elke druk verlig nie."</item>
+    <item msgid="62911590277354399">"Die agterlig sal met elke druk verlig. Die verligting sal vir 5 sekondes duur elke keer wat dit geaktiveer word."</item>
+    <item msgid="5334296639506784894">"Die agterlig sal net in die nagtelike ure (18:00-06:00) met elke druk verlig. Die verligting sal vir 5 sekondes duur elke keer wat dit geaktiveer word."</item>
+  </string-array>
 </resources>

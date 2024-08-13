@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Asnjëherë"</item>
+    <item msgid="3256715108348109595">"Standard"</item>
+    <item msgid="5517658202197894866">"Planifikuar"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Drita e sfondit nuk do të ndriçojë me çdo shtypje."</item>
+    <item msgid="62911590277354399">"Drita e sfondit do të ndriçojë me çdo shtypje. Ndriçimi do të zgjasë për 5 sekonda sa herë që të aktivizohet."</item>
+    <item msgid="5334296639506784894">"Drita e sfondit do të ndriçojë me çdo shtypje vetëm gjatë orarit të natës (18:00~6:00). Ndriçimi do të zgjasë për 5 sekonda sa herë që të aktivizohet."</item>
+  </string-array>
 </resources>

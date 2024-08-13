@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Skrót ułatwień dostępu"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Włącz skrót ułatwień dostępu"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Usługa skrótu"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Gdy skrót jest włączony, możesz przytrzymać naciśnięte przyciski wstecz i w dół przez trzy sekundy, by uruchomić funkcję ułatwień dostępu."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Czas na działanie"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Czas na działanie (limit czasu Ułatwień dostępu)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Czas"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Nie wszystkie aplikacje to obsługują."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Napisy"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Ustawienia napisów nałożonych na film"</string>
     <string name="captions_display" msgid="2598662495450633375">"Wyświetlanie"</string>
@@ -1150,6 +1158,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"W Google TV znajduje się przycisk, który możesz nacisnąć, aby odtwarzać dźwięk na pilocie przez 30 sekund. Działa to tylko w przypadku obsługiwanych pilotów do Google TV.\n\nAby wyłączyć dźwięk, naciśnij dowolny przycisk na pilocie."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Gdy ta funkcja jest włączona, możesz użyć przycisku na urządzeniu, aby włączyć dźwięk ułatwiający znalezienie pilota. Gdy funkcja jest wyłączona, ten przycisk nie działa. Nadal możesz korzystać z funkcji Znajdź pilota za pomocą innych metod."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Włącz dźwięk"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Tryb podświetlenia"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Podświetlenie przycisków na pilocie po każdym naciśnięciu."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Naciśnięcie przycisku na obsługiwanym pilocie Google TV aktywuje podświetlenie."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Głośność: %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Głośność Asystenta możesz zmienić na głośniku %1$s"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Zmienia głośność tylko na urządzeniu %1$s, nie na telewizorze"</string>

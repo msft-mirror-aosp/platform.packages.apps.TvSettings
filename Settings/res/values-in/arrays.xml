@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Tidak pernah"</item>
+    <item msgid="3256715108348109595">"Standar"</item>
+    <item msgid="5517658202197894866">"Dijadwalkan"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Lampu latar tidak akan menyala setiap kali ditekan."</item>
+    <item msgid="62911590277354399">"Lampu latar akan menyala setiap kali ditekan. Cahaya akan bertahan selama 5 detik setiap kali diaktifkan."</item>
+    <item msgid="5334296639506784894">"Lampu latar tidak akan menyala setiap kali ditekan, hanya saat malam hari (18.00 - 06.00). Cahaya akan bertahan selama 5 detik setiap kali diaktifkan."</item>
+  </string-array>
 </resources>

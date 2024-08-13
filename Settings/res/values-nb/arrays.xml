@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Aldri"</item>
+    <item msgid="3256715108348109595">"Standard"</item>
+    <item msgid="5517658202197894866">"Planlagt"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Bakgrunnsbelysningen lyser ikke med hvert trykk."</item>
+    <item msgid="62911590277354399">"Bakgrunnsbelysningen lyser med hvert trykk. Lyset varer 5 sekunder hver gang det aktiveres."</item>
+    <item msgid="5334296639506784894">"Bakgrunnsbelysningen lyser bare med hvert trykk når det er kveld/natt (18:00~06:00). Lyset varer 5 sekunder hver gang det aktiveres."</item>
+  </string-array>
 </resources>

@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0.5"</item>
     <item msgid="4571900814286671092">"0.8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Hindi Kailanman"</item>
+    <item msgid="3256715108348109595">"Karaniwan"</item>
+    <item msgid="5517658202197894866">"Nakaiskedyul"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Hindi iilaw ang backlight sa bawat pagpindot."</item>
+    <item msgid="62911590277354399">"Iilaw ang backlight sa bawat pagpindot. Tatagal nang 5 segundo ang ilaw sa tuwing ia-activate ito."</item>
+    <item msgid="5334296639506784894">"Iilaw ang backlight sa bawat pagpindot kapag gabi lang (6pm~6am). Tatagal nang 5 segundo ang ilaw sa tuwing ia-activate ito."</item>
+  </string-array>
 </resources>

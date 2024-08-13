@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Nikdy"</item>
+    <item msgid="3256715108348109595">"Standardní"</item>
+    <item msgid="5517658202197894866">"Naplánováno"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Podsvícení se nebude aktivovat při každém stisknutí."</item>
+    <item msgid="62911590277354399">"Podsvícení se aktivuje při každém stisknutí. Po aktivaci bude trvat minimálně pět sekund."</item>
+    <item msgid="5334296639506784894">"Podsvícení se aktivuje při každém stisknutí jen během noci (18:00–6:00). Po aktivaci bude trvat minimálně pět sekund."</item>
+  </string-array>
 </resources>

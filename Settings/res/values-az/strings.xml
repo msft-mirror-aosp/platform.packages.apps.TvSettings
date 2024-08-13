@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Əlçatımlılıq qısayolu"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Əlçatımlılıq qısayolunu aktiv edin"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Qısayol xidməti"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Qısayol aktiv olduqda geri və aşağı düymələrinin hər ikisini 3 saniyə basılı saxlamaqla əlçatımlılıq funksiyasını başladın."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Əməliyyata verilmiş vaxt"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Əməliyyata verilmiş vaxt (Əlçatımlıq vaxt limiti)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Zamanlama"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Bu zamanlamanı bütün tətbiqlər dəstəkləmir."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Başlıqlar"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Videoda mətn qatı qapalı subtitrlər üçün ayarlar"</string>
     <string name="captions_display" msgid="2598662495450633375">"Ekran"</string>
@@ -1150,6 +1158,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV-də 30 saniyə pultda səs oxutmaq üçün düymə var. Bu, yalnız dəstəklənən Google TV pultları ilə işləyir.\n\nSəsi dayandırmaq üçün pultun hər hansı düyməsinə basın."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Yanılı olduqda pultun yerini tapmaq məqsədilə səs oxutmaq üçün cihazdakı düymədən istifadə edə bilərsiniz. Sönülü olduqda bu düymə işləməyəcək. Yenə də digər metodlar ilə Pultumu tap funksiyasından istifadə edə biləcəksiniz."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Səs oxudun"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Arxa işıq rejimi"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Hər dəfə basdıqda pultdakı düymələrin yanması."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Dəstəklənən Google TV pultlarında pultdakı düyməyə basmaq arxa işığın yanmasını aktivləşdirir."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s səviyyə"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Assistentin səs səviyyəsinə %1$s dinamikində nəzarət edə bilərsiniz"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Yalnız %1$s cihazında səs səviyyəsinə təsir edir (TV-də deyil)"</string>

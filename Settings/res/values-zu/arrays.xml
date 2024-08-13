@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0.5"</item>
     <item msgid="4571900814286671092">"0.8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Soze"</item>
+    <item msgid="3256715108348109595">"Okujwayelekile"</item>
+    <item msgid="5517658202197894866">"Kushejuliwe"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Ilambu langemuva angeke likhanyise ngokucindezela ngakunye."</item>
+    <item msgid="62911590277354399">"Ukukhanya kwangemuva kuzokhanyisa ngokucindezela ngakunye. Ukukhanya kuzothatha imizuzwana emi-5 njalo lapho kukhanyiswa."</item>
+    <item msgid="5334296639506784894">"Ukukhanya kuzokhanya ngokucindezela ngakunye kuphela phakathi namahora asebusuku(6pm~6am). Ukukhanya kuzothatha imizuzwana emi-5 njalo lapho kukhanyiswa."</item>
+  </string-array>
 </resources>

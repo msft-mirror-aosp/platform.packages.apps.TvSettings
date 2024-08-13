@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Mai"</item>
+    <item msgid="3256715108348109595">"Standard"</item>
+    <item msgid="5517658202197894866">"Programmata"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"La retroilluminazione non si accende a ogni pressione."</item>
+    <item msgid="62911590277354399">"La retroilluminazione si accende a ogni pressione. L\'illuminazione dura 5 secondi ogni volta che viene attivata."</item>
+    <item msgid="5334296639506784894">"La retroilluminazione si accende a ogni pressione solo nelle ore notturne (18:00~06:00). L\'illuminazione dura 5 secondi ogni volta che viene attivata."</item>
+  </string-array>
 </resources>

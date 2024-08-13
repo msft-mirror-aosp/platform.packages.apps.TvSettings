@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Jamais"</item>
+    <item msgid="3256715108348109595">"Standard"</item>
+    <item msgid="5517658202197894866">"Planifié"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Le rétroéclairage ne s\'allumera pas à chaque appui."</item>
+    <item msgid="62911590277354399">"Le rétroéclairage s\'allumera à chaque appui. Chaque activation durera 5 secondes."</item>
+    <item msgid="5334296639506784894">"Le rétroéclairage s\'allumera à chaque appui la nuit uniquement (de 18h à 6h). Chaque activation durera 5 secondes."</item>
+  </string-array>
 </resources>

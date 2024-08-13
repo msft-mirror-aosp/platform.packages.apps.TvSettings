@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Hiçbir zaman"</item>
+    <item msgid="3256715108348109595">"Standart"</item>
+    <item msgid="5517658202197894866">"Planlandı"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Arka ışık düğmeye her basıldığında yanmaz."</item>
+    <item msgid="62911590277354399">"Arka ışık düğmeye her basıldığında yanar. Işık, her etkinleştirildiğinde 5 saniye boyunca yanar."</item>
+    <item msgid="5334296639506784894">"Arka ışık yalnızca gece saatlerinde (18:00-06:00) düğmeye her basıldığında yanar. Işık, her etkinleştirildiğinde 5 saniye boyunca yanar."</item>
+  </string-array>
 </resources>

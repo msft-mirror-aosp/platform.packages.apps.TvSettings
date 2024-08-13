@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0.5"</item>
     <item msgid="4571900814286671092">"0.8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Kamwe"</item>
+    <item msgid="3256715108348109595">"Kawaida"</item>
+    <item msgid="5517658202197894866">"Imeratibiwa"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Mwangaza wa skrini hautawaka kila unapobonyeza."</item>
+    <item msgid="62911590277354399">"Mwangaza wa skrini utawaka kila unapobonyeza. Mwangaza utawaka kwa sekunde 5 kila unapouwashwa."</item>
+    <item msgid="5334296639506784894">"Mwangaza wa skrini utawaka kila unapobonyeza, saa za usiku pekee (saa 12 jioni hadi 12 asubuhi). Mwangaza utawaka kwa sekunde 5 kila unapouwashwa."</item>
+  </string-array>
 </resources>

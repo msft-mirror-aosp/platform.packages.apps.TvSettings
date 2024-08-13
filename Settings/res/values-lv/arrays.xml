@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Nekad"</item>
+    <item msgid="3256715108348109595">"Standarta"</item>
+    <item msgid="5517658202197894866">"Ieplānots"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Fona apgaismojums netiks aktivizēts katram nospiešanas gadījumam."</item>
+    <item msgid="62911590277354399">"Fona apgaismojums tiks aktivizēts katram nospiešanas gadījumam. Katrā aktivizēšanas reizē izgaismojums ilgs 5 sekundes."</item>
+    <item msgid="5334296639506784894">"Fona apgaismojums tiks aktivizēts katram nospiešanas gadījumam tikai vakarā un naktī (~18:00–6:00). Katrā aktivizēšanas reizē izgaismojums ilgs 5 sekundes."</item>
+  </string-array>
 </resources>

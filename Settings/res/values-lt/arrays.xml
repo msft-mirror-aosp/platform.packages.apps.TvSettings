@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Niekada"</item>
+    <item msgid="3256715108348109595">"Įprastas"</item>
+    <item msgid="5517658202197894866">"Suplanuotas"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Foninis apšvietimas nebus suaktyvintas kiekvieną kartą paspaudžiant."</item>
+    <item msgid="62911590277354399">"Kiekvieną kartą paspaudus bus suaktyvintas foninis apšvietimas. Kiekvieną kartą suaktyvinus apšvietimas bus įjungtas penkias sekundes."</item>
+    <item msgid="5334296639506784894">"Kiekvieną kartą paspaudus foninis apšvietimas bus suaktyvintas tik nakties valandomis (18.00–6.00 val.). Kiekvieną kartą suaktyvinus apšvietimas bus įjungtas penkias sekundes."</item>
+  </string-array>
 </resources>
