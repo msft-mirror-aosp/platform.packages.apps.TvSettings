@@ -124,6 +124,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
     private Preference mFocusedPreference;
     private boolean mIsWaitingForUpdatingPreview = false;
     private AudioManager mAudioManager;
+    private InputMethodManager mInputMethodManager;
 
     private static final String DELAY_MS = "delay_ms";
     private static final String CHECK_SCROLL_STATE = "check_scroll_state";
@@ -193,6 +194,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
 
         updatePreviewPanelCreationDelayForLowRamDevice();
         mAudioManager = (AudioManager) getContext().getSystemService(Context.AUDIO_SERVICE);
+        mInputMethodManager = getContext().getSystemService(InputMethodManager.class);
     }
 
     private void updatePreviewPanelCreationDelayForLowRamDevice() {
@@ -760,8 +762,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
                 return back(true);
             }
 
-            InputMethodManager imm = getContext().getSystemService(InputMethodManager.class);
-            if (imm.isActive()) {
+            if (mInputMethodManager != null && mInputMethodManager.isAcceptingText()) {
                 // pass DPAD_LEFT/RIGHT events to the current editing widget. See b/315992084.
                 Log.d(TAG, "IME is active, event:" + event);
                 return false;
