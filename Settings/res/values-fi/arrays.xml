@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Ei koskaan"</item>
+    <item msgid="3256715108348109595">"Vakio"</item>
+    <item msgid="5517658202197894866">"Ajoitettu"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Taustavalo ei valaise jokaisella painalluksella."</item>
+    <item msgid="62911590277354399">"Taustavalo valaisee joka painalluksella. Valaisu kestää 5 sekunnin ajan aina, kun se aktivoituu."</item>
+    <item msgid="5334296639506784894">"Taustavalo valaisee joka painalluksella ainoastaan yöaikaan (noin klo. 18–6). Valaisu kestää 5 sekunnin ajan aina, kun se aktivoituu."</item>
+  </string-array>
 </resources>
