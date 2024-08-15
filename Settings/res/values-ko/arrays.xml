@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0.5"</item>
     <item msgid="4571900814286671092">"0.8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"사용 안함"</item>
+    <item msgid="3256715108348109595">"표준"</item>
+    <item msgid="5517658202197894866">"예약됨"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"누를 때마다 백라이트가 켜지지 않습니다."</item>
+    <item msgid="62911590277354399">"누를 때마다 백라이트가 켜지며, 조명이 활성화될 때마다 5초 동안 지속됩니다."</item>
+    <item msgid="5334296639506784894">"밤 동안(오후 6시~오전 6시)에만 누를 때마다 백라이트가 켜지며, 조명이 활성화될 때마다 5초 동안 지속됩니다."</item>
+  </string-array>
 </resources>

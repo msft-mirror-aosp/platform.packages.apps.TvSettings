@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Prečac pristupačnosti"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Omogući prečac pristupačnosti"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Usluga prečaca"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kada je taj prečac uključen, možete pritisnuti tipke za natrag i dolje na 3 sekunde da biste pokrenuli značajku pristupačnosti."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Vrijeme za radnju"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Vrijeme za radnju (vrijeme čekanja pristupačnosti)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Vrijeme"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Ta preferencija nije podržana u svim aplikacijama."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Titlovi"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Postavke za preklapanje teksta titlova u videozapisu"</string>
     <string name="captions_display" msgid="2598662495450633375">"Zaslon"</string>
@@ -937,6 +945,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Odaberite <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> za nastavak"</string>
     <string name="label_done_key" msgid="8576286462300373440">"Gotovo"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Povezivanje je uspjelo"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Već povezano"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Spremanje je uspjelo"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Verzija <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Otvori"</string>
@@ -1067,7 +1076,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Aplikacijama omogućuje da postavljaju alarme i zakazuju vremenski osjetljive radnje. To aplikacijama omogućuje da se izvode u pozadini, pa je moguće dodatno trošenje baterije.\n\nAko je to dopuštenje isključeno, postojeći alarmi i događaji temeljeni na vremenu koji su zakazani putem aplikacije neće funkcionirati."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Uključivanje zaslona"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Dopusti uključivanje zaslona"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Dopustite aplikaciji da uključuje zaslon. Ako date to dopuštenje, aplikacija može uključiti zaslon u bilo kojem trenutku bez vaše izričite namjere."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Dopušta aplikaciji da uključuje zaslon. Ako date to dopuštenje, aplikacija može uključiti zaslon u bilo kojem trenutku bez vaše izričite namjere."</string>
     <string name="special_access" msgid="21806055758289916">"Poseban pristup za aplikacije"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Zvuk"</string>
@@ -1147,8 +1156,11 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Pronađi moj daljinski upravljač"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Reproducirajte zvuk da biste locirali daljinski upravljač za Google TV ako ste ga zametnuli"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na Google TV-u se nalazi gumb koji možete pritisnuti da biste reproducirali zvuk na daljinskom upravljaču u trajanju od 30 sekundi. To funkcionira samo s podržanim daljinskim upravljačima Google TV-a.\n\nDa biste isključili zvuk, pritisnite bilo koji gumb na daljinskom upravljaču."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kada je omogućena značajka Pronađi moj daljinski upravljač, možete reproducirati zvuk da biste locirali daljinski upravljač za Google TV ako ste ga zametnuli."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Kada je ta opcija uključena, možete upotrebljavati gumb na uređaju da biste reproducirali zvuk kako biste pronašli svoj daljinski upravljač. Kada je ta opcija isključena, gumb neće raditi. I dalje ćete moći upotrebljavati značajku Pronađi moj daljinski putem drugih metoda."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reproduciraj zvuk"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Način rada s pozadinskim osvjetljenjem"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Osvjetljenje gumba na daljinskom upravljaču na svaki pritisak gumba."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Na podržanim daljinskim upravljačima za Google TV pritiskom gumba na daljinskom upravljaču aktivirat će se pozadinsko osvjetljenje."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s – glasnoća"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Glasnoćom Asistenta možete upravljati na zvučniku uređaja %1$s"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Utječe samo na zvuk na uređaju %1$s, ne na TV-u"</string>

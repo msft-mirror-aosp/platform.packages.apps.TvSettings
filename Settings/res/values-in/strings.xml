@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Pintasan aksesibilitas"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Aktifkan pintasan aksesibilitas"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Layanan pintasan"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Jika pintasan aktif, Anda dapat menekan tombol kembali dan panah bawah selama 3 detik untuk memulai fitur aksesibilitas."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Waktu ambil tindakan"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Waktu ambil tindakan (Waktu tunggu aksesibilitas)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Pengaturan Waktu"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Preferensi pengaturan waktu ini didukung di aplikasi tertentu."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Teks"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Setelan overlay teks di video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Tampilan"</string>
@@ -937,6 +945,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Pilih <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> untuk melanjutkan."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Selesai"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Berhasil terhubung"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Sudah terhubung"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Berhasil tersimpan"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versi <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Buka"</string>
@@ -1147,8 +1156,11 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Temukan remote saya"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Memutar suara untuk menemukan lokasi remote Google TV jika Anda lupa tempat menaruhnya"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Terdapat tombol di Google TV yang dapat Anda tekan untuk memutar suara di remote Anda selama 30 detik. Fitur ini hanya berfungsi pada remote control Google TV yang didukung.\n\nUntuk mematikan suara, tekan tombol apa pun di remote."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Saat Temukan remote saya diaktifkan, Anda dapat memutar suara untuk menemukan lokasi remote Google TV jika Anda lupa tempat menaruhnya."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Saat aktif, Anda dapat menggunakan tombol ini di perangkat untuk memainkan suara guna menemukan lokasi remote Anda. Saat nonaktif, tombol ini tidak akan berfungsi. Anda masih tetap dapat menggunakan Temukan remote saya melalui metode lainnya."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Putar suara"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Mode Lampu Latar"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Cahaya tombol di remote control saat setiap kali ditekan."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Menekan tombol di remote akan mengaktifkan lampu latar di remote Google TV yang didukung."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Anda dapat mengontrol volume Asisten di speaker %1$s"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Hanya memengaruhi volume di perangkat %1$s, bukan di TV"</string>

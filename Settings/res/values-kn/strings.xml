@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"ಪ್ರವೇಶ ಶಾರ್ಟ್‌ಕಟ್‌"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ಆ್ಯಕ್ಸೆಸಿಬಿಲಿಟಿ ಶಾರ್ಟ್‌ಕಟ್‌ ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ಶಾರ್ಟ್‌ಕಟ್ ಸೇವೆ"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"ಶಾರ್ಟ್‌ಕಟ್ ಆನ್ ಆಗಿರುವಾಗ, 3 ಸೆಕೆಂಡ್‌ಗಳ ಕಾಲ ಹಿಂದಿನ ಮತ್ತು ಕೆಳಗಿನ ಬಟನ್‌ಗಳನ್ನು ಒತ್ತುವುದು ಆ್ಯಕ್ಸೆಸ್ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಆರಂಭಿಸುತ್ತದೆ."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಸಮಯ"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಸಮಯ (ಆ್ಯಕ್ಸೆಸಿಬಿಲಿಟಿ ಅವಧಿ ಮೀರಿದೆ)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"ಟೈಮಿಂಗ್"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"ಈ ಸಮಯದ ಆದ್ಯತೆಯನ್ನು ಎಲ್ಲಾ ಆ್ಯಪ್ಸ್ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"ಶೀರ್ಷಿಕೆಗಳು"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ವೀಡಿಯೊದಲ್ಲಿ ಮುಚ್ಚಿದ ಶೀರ್ಷಿಕೆ ಪಠ್ಯದ ಓವರ್‌ಲೇಗಾಗಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
     <string name="captions_display" msgid="2598662495450633375">"ಪ್ರದರ್ಶನ"</string>
@@ -937,6 +945,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ಮುಂದುವರಿಸಲು <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ಆಯ್ಕೆ ಮಾಡಿ."</string>
     <string name="label_done_key" msgid="8576286462300373440">"ಮುಗಿದಿದೆ"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"ಯಶಸ್ವಿಯಾಗಿ ಸಂಪರ್ಕಗೊಳಿಸಲಾಗಿದೆ"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ಈಗಾಗಲೇ ಕನೆಕ್‌ಟ್‌ ಆಗಿದೆ"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"ಯಶಸ್ವಿಯಾಗಿ ಸೇವ್ ಮಾಡಲಾಗಿದೆ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ಆವೃತ್ತಿ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ತೆರೆ"</string>
@@ -1075,7 +1084,7 @@
     <string name="record_audio_summary_on" msgid="8724494646461335090">"ಆಡಿಯೋ ರೆಕರ್ಡಿಂಗ್ ನಿಲ್ಲಿಸಲು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="record_audio_summary_off" msgid="1392440365091422816">"ಆಡಿಯೋ ರೆಕಾರ್ಡಿಂಗ್ ತಕ್ಷಣವೇ ಪ್ರಾರಂಭಿಸಲು ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="play_recorded_audio_title" msgid="4627717067151602729">"ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಪ್ಲೇ ಮಾಡಿ"</string>
-    <string name="save_recorded_audio_title" msgid="378003351782124651">"ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಉಳಿಸಿ"</string>
+    <string name="save_recorded_audio_title" msgid="378003351782124651">"ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಸೇವ್ ಮಾಡಿ"</string>
     <string name="time_to_start_read_title" msgid="6565449163802837806">"ರೆಕಾರ್ಡಿಂಗ್ ಓದುವುದನ್ನು ಪ್ರಾರಂಭಿಸುವ ಮೊದಲಿನ ಅವಧಿ"</string>
     <string name="time_to_valid_audio_title" msgid="7246101824813414348">"ರೆಕಾರ್ಡ್ ಮಾಡುವ ಮೊದಲಿನ ಆಡಿಯೋ ಡೇಟಾದ ಅವಧಿ"</string>
     <string name="empty_audio_duration_title" msgid="9024377320171450683">"ಖಾಲಿ ಇರುವ ಆಡಿಯೋ ಅವಧಿ"</string>
@@ -1147,8 +1156,11 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ನನ್ನ ರಿಮೋಟ್ ಅನ್ನು ಹುಡುಕಿ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ನಿಮ್ಮ Google TV ರಿಮೋಟ್ ಕಳೆದುಹೋದರೆ ಅದನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಿ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ನಿಮ್ಮ Google TV ಯಲ್ಲಿ 30 ಸೆಕೆಂಡ್‌ಗಳ ಕಾಲ ನಿಮ್ಮ ರಿಮೋಟ್‌ನಲ್ಲಿ ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಲು ನೀವು ಪುಶ್ ಮಾಡಬಹುದಾದ ಬಟನ್ ಇದೆ. ಇದು ಬೆಂಬಲಿತ Google TV ರಿಮೋಟ್ ಕಂಟ್ರೋಲ್‌ಗಳಲ್ಲಿ ಮಾತ್ರ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.\n\nಸೌಂಡ್ ಅನ್ನು ನಿಲ್ಲಿಸಲು, ನಿಮ್ಮ ರಿಮೋಟ್‌ನಲ್ಲಿರುವ ಯಾವುದೇ ಬಟನ್ ಅನ್ನು ಒತ್ತಿ."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"ನನ್ನ ರಿಮೋಟ್ ಅನ್ನು ಹುಡುಕಿ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ, ನಿಮ್ಮ Google TV ರಿಮೋಟ್ ಕಳೆದುಹೋದರೆ ಅದನ್ನು ಪತ್ತೆಹಚ್ಚಲು ನೀವು ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಬಹುದು."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ಆನ್ ಆಗಿರುವಾಗ, ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡುವ ಮೂಲಕ ರಿಮೋಟ್ ಅನ್ನು ಪತ್ತೆಹಚ್ಚಲು ನೀವು ಸಾಧನದಲ್ಲಿನ ಬಟನ್ ಅನ್ನು ಬಳಸಬಹುದು. ಆಫ್ ಆಗಿರುವಾಗ, ಈ ಬಟನ್ ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ. ನೀವು ಈಗಲೂ ಇತರ ವಿಧಾನಗಳನ್ನು ಬಳಸಿ ನನ್ನ ರಿಮೋಟ್ ಹುಡುಕಿ ಫೀಚರ್‌ ಅನ್ನು ಬಳಸಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಿ"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"ಬ್ಯಾಕ್‌ಲೈಟ್ ಮೋಡ್"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"ಪ್ರತಿ ಬಾರಿ ಒತ್ತಿದಾಗ ರಿಮೋಟ್ ನಿಯಂತ್ರಣದಲ್ಲಿರುವ ಬಟನ್‌ಗಳ ಬೆಳಗುವಿಕೆ."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"ಬೆಂಬಲಿತ Google TV ರಿಮೋಟ್‌ಗಳಲ್ಲಿ, ರಿಮೋಟ್‌ಗಳಲ್ಲಿನ ಬಟನ್ ಅನ್ನು ಒತ್ತುವುದರಿಂದ ಬ್ಯಾಕ್‌ಲೈಟ್ ಬೆಳಗುವಿಕೆ ಸಕ್ರಿಯಗೊಳ್ಳುತ್ತದೆ."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ವಾಲ್ಯೂಮ್"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ನೀವು %1$s ಸ್ಪೀಕರ್‌ನಲ್ಲಿ Assistant ವಾಲ್ಯೂಮ್ ಅನ್ನು ನಿಯಂತ್ರಿಸಬಹುದು"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"%1$s ಸಾಧನದಲ್ಲಿನ ವಾಲ್ಯೂಮ್ ಅನ್ನು ಪ್ರಭಾವಿಸುತ್ತದೆ, TV ವಾಲ್ಯೂಮ್ ಅನ್ನು ಅಲ್ಲ"</string>

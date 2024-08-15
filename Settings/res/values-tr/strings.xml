@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Erişilebilirlik kısayolu"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Erişilebilirlik kısayolunu etkinleştir"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Kısayol hizmeti"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kısayol açıkken erişilebilirlik özelliğini başlatabilmek için geri ve aşağı düğmelerine 3 saniye süreyle basabilirsiniz."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"İşlem yapma süresi"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"İşlem yapma süresi (Erişilebilirlik zaman aşımı)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Zamanlama"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Bu zamanlama tercihi bazı uygulamalarda desteklenmez."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Altyazılar"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Video üzerinde altyazı metni yer paylaşımı için ayarlar"</string>
     <string name="captions_display" msgid="2598662495450633375">"Görüntüleme"</string>
@@ -937,6 +945,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Devam etmek için <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> simgesini seçin"</string>
     <string name="label_done_key" msgid="8576286462300373440">"Bitti"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Başarıyla bağlandı"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Şu anda bağlı"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Başarıyla kaydedildi"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Sürüm <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Aç"</string>
@@ -1102,7 +1111,7 @@
     <string name="remove_managed_profile_label" msgid="8950011141359605612">"İş profilini kaldır"</string>
     <string name="active_device_admin_msg" msgid="185537304726228624">"Cihaz yönetimi uygulaması"</string>
     <string name="remove_device_admin" msgid="2623866073546295104">"Bu cihaz yönetimi uygulamasını devre dışı bırak"</string>
-    <string name="uninstall_device_admin" msgid="6301368408620948266">"Uygulamanın yüklemesini kaldır"</string>
+    <string name="uninstall_device_admin" msgid="6301368408620948266">"Uygulamayı kaldır"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"Devre dışı bırak ve yüklemesini kaldır"</string>
     <string name="select_device_admin_msg" msgid="8475934459999710332">"Cihaz yönetimi uygulamaları"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"Cihaz yönetimi uygulaması etkinleştirilsin mi?"</string>
@@ -1147,8 +1156,11 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Uzaktan kumandamı bul"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV uzaktan kumandanızın nerede olduğunu hatırlamıyorsanız ses çaldırarak yerini bulabilirsiniz"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV\'nizde, uzaktan kumandanızda 30 saniye boyunca ses çalmak için basabileceğiniz bir düğme mevcuttur. Bu işlem yalnızca desteklenen Google TV uzaktan kumandalarında çalışır.\n\nSes çalmayı durdurmak için uzaktan kumandanızda herhangi bir düğmeye basın."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Uzaktan kumandamı bul özelliği etkinleştirildiğinde Google TV uzaktan kumandanızın nerede olduğunu hatırlamıyorsanız ses çaldırarak yerini bulabilirsiniz."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Etkinleştirildiğinde ses çalarak uzaktan kumandanızı bulmak için cihazınızdaki düğmeyi kullanabilirsiniz. Devre dışı bırakıldığında bu düğme çalışmaz. Uzaktan kumandamı bul özelliğini başka yöntemlerle kullanmaya devam edebilirsiniz."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Ses çaldır"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Arka Işık Modu"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Uzaktan kumandadaki düğmelerin her basıldığında yanması."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Desteklenen Google TV uzaktan kumandalarında düğmeye basıldığında arka ışık aydınlatması etkinleşir."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ses düzeyi"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s hoparlöründe Asistan\'ın ses düzeyin kontrol edebilirsiniz"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Yalnızca %1$s cihazının ses düzeyini etkiler, TV\'nin sesini etkilemez"</string>

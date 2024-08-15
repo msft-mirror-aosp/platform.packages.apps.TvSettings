@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Mitte kunagi"</item>
+    <item msgid="3256715108348109595">"Standardne"</item>
+    <item msgid="5517658202197894866">"Ajastatud"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Taustavalgustus ei sütti iga vajutusega."</item>
+    <item msgid="62911590277354399">"Taustavalgustus süttib iga vajutusega. Valgustus on sees viis sekundit iga kord, kui see aktiveeritakse."</item>
+    <item msgid="5334296639506784894">"Taustavalgustus süttib iga vajutusega ainult öisel ajal (umbes 18.00–6.00). Valgustus on sees viis sekundit iga kord, kui see aktiveeritakse."</item>
+  </string-array>
 </resources>

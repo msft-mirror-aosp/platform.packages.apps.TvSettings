@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"ઍક્સેસિબિલિટી શૉર્ટકટ"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ઍક્સેસિબિલિટી શૉર્ટકટ સક્ષમ કરો"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"શૉર્ટકટ સેવા"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"જ્યારે શૉર્ટકટ ચાલુ હોય, ત્યારે ઍક્સેસિબિલિટી સુવિધા શરૂ કરવા પાછળ અને નીચેના બન્ને બટનને 3 સેકન્ડ સુધી દબાવી રાખી શકો છો."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"પગલાં લેવાનો સમય"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"પગલાં લેવાનો સમય (ઍક્સેસિબિલિટીની સમયસમાપ્તિ)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"સમય"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"સમયની આ પસંદગી બધી ઍપ દ્વારા સપોર્ટેડ નથી."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"કૅપ્શન"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"વીડિયો પર ઉપશીર્ષક ટેક્સ્ટ ઓવરલે માટે સેટિંગ"</string>
     <string name="captions_display" msgid="2598662495450633375">"પ્રદર્શન"</string>
@@ -937,6 +945,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ચાલુ રાખવા માટે <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> પસંદ કરો."</string>
     <string name="label_done_key" msgid="8576286462300373440">"થઈ ગયું"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"સફળતાપૂર્વક કનેક્ટ થયું"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"પહેલેથી કનેક્ટેડ છે"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"સફળતાપૂર્વક સચવાઈ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"વર્ઝન <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ખોલો"</string>
@@ -1147,8 +1156,11 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"મારું રિમોટ શોધો"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"જો Google TVનું તમારું રિમોટ ખોવાઈ ગયું હોય, તો તેને શોધવા માટે સાઉન્ડ વગાડો"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"તમારા Google TV પર એક બટન છે જેને તમે તમારા રિમોટ પર 30 સેકન્ડ માટે સાઉન્ડ ચલાવવા માટે પુશ કરી શકો છો. આ Google TVના માત્ર સપોર્ટેડ રિમોટ કન્ટ્રોલ સાથે કામ કરે છે.\n\nસાઉન્ડ બંધ કરવા માટે, તમારા રિમોટ પરનું કોઈપણ બટન દબાવો."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'મારું રિમોટ શોધો\' સુવિધા ચાલુ કરેલી હોય, ત્યારે જો Google TVનું તમારું રિમોટ ખોવાઈ ગયું હોય, તો તમે તેને શોધવા માટે કોઈ સાઉન્ડ વગાડી શકો છો."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"જ્યારે ચાલુ હોય, ત્યારે તમે તમારા રિમોટને શોધવા માટે સાઉન્ડ વગાડવા માટે તમારા ડિવાઇસ પરના બટનનો ઉપયોગ કરી શકો છો. જ્યારે બંધ હોય, ત્યારે આ બટન કામ કરશે નહીં. તમે હજી પણ અન્ય પદ્ધતિઓ દ્વારા \'મારું રિમોટ શોધો\' સુવિધાનો ઉપયોગ કરી શકશો."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"સાઉન્ડ વગાડો"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"બૅકલાઇટ મોડ"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"રિમોટ કન્ટ્રોલ પરના બટનને દરેક વખતે દબાવવાથી પ્રકાશિત થાય છે."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Google TVના સપોર્ટેડ રિમોટ પર, રિમોટ પરનું બટન દબાવવાથી બૅકલાઇટ પ્રકાશિત થવાની ક્રિયા સક્રિય થાય છે."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s વૉલ્યૂમ"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"તમે %1$s સ્પીકર પર Assistantના વૉલ્યૂમને નિયંત્રિત કરી શકો છો"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"માત્ર %1$s ડિવાઇસ પરના વૉલ્યૂમને અસર કરે છે, ટીવી પર નહીં"</string>

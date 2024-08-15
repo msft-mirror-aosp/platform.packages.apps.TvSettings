@@ -700,7 +700,7 @@
     <string name="color_correction_mode_grayscale" msgid="2592973844160514484">"グレースケール"</string>
     <string name="palette_color_red" msgid="507196433434979086">"赤"</string>
     <string name="palette_color_orange" msgid="6209196069366109835">"オレンジ"</string>
-    <string name="palette_color_yellow" msgid="298466132578870590">"黄"</string>
+    <string name="palette_color_yellow" msgid="298466132578870590">"黄色"</string>
     <string name="palette_color_green" msgid="4904783063036825668">"緑"</string>
     <string name="palette_color_cyan" msgid="3212217287628948203">"シアン"</string>
     <string name="palette_color_blue" msgid="8836682634988540630">"青"</string>
@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"ユーザー補助のショートカット"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ユーザー補助機能のショートカットを有効にする"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"シ⁠ョ⁠ー⁠ト⁠カ⁠ッ⁠ト サ⁠ー⁠ビ⁠ス"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"ショートカットが ON の場合、戻るボタンと下ボタンの両方を 3 秒間押し続けるとユーザー補助機能が起動します。"</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"操作要求の表示時間"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"操作要求の表示時間（ユーザー補助タイムアウト）"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"タイミング"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"アプリがこのタイミング設定に対応していない場合があります。"</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"字幕"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"動画の字幕テキストオーバーレイの設定"</string>
     <string name="captions_display" msgid="2598662495450633375">"表示"</string>
@@ -937,6 +945,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"続行するには、<xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> を選択してください。"</string>
     <string name="label_done_key" msgid="8576286462300373440">"完了"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"接続しました"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"接続済み"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"保存しました"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"バージョン<xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"開く"</string>
@@ -1147,8 +1156,11 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"リモコンを探す"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Google TV リモコンの場所がわからなくなったときに、リモコンから音を鳴らして探せるようにします"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV のこのボタンを押すと、リモコンから 30 秒間音が鳴ります。この機能を使用できるのは、対応する Google TV リモコンのみです。\n\n音を止めるには、リモコンのいずれかのボタンを押します。"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"「リモコンを探す」機能が有効の場合は、Google TV リモコンの場所がわからなくなったときにリモコンから音を鳴らして探すことができます。"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ON にすると、デバイスのボタンを使用して、リモコンから音を鳴らして探すことができます。OFF にすると、このボタンは使用できません。別の方法で「リモコンを探す」機能を使用することもできます。"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"音を鳴らす"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"バックライト モード"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"リモコンのボタンを押すたびに点灯します。"</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"サポートされている Google TV リモコンでは、リモコンのボタンを押すとバックライトが点灯します。"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s の音量"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s スピーカーのアシスタントの音量を調整できます"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"音量が調整されるのはテレビではなく、%1$s デバイスのみです"</string>

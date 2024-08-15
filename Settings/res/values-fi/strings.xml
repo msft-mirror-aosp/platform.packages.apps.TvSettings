@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Saavutettavuustilan pikanäppäin"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Ota saavutettavuustilan pikanäppäin käyttöön"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Pikanäppäinpalvelu"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kun pikanäppäin on päällä, voit käynnistää saavutettavuusominaisuuden pitämällä Takaisin- ja Alas-näppäimiä painettuina kolmen sekunnin ajan."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Reagointiaika"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Toiminnon aika (saavutettavuuskatkaisu)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Ajoitus"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Kaikki sovellukset eivät tue tätä ajoitusasetusta."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Tekstitykset"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Videon päällä näytettävän tekstityksen asetukset"</string>
     <string name="captions_display" msgid="2598662495450633375">"Näyttö"</string>
@@ -937,6 +945,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Jatka valitsemalla <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Valmis"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Yhteys muodostettu"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Verkko on jo yhdistetty"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Tallentaminen onnistui"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versio <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Avaa"</string>
@@ -1066,8 +1075,8 @@
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Anna sovelluksille lupa luoda Kuva kuvassa ‑ikkuna, kun sovellus on auki tai kun olet poistunut siitä (esimerkiksi takaisin katsomaan videota). Tämä ikkuna näytetään muiden sovellusten ikkunoiden päällä."</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Anna sovellusten lisätä herätyksiä ja ajoittaa kiireellisiä tapahtumia. Näin sovellukset voivat toimia taustalla, mikä voi kuluttaa enemmän virtaa.\n\nIlman tätä lupaa sovellusten ajoittamat herätykset ja aikaan perustuvat tapahtumat eivät toimi."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Näytön käynnistys"</string>
-    <string name="allow_turn_screen_on" msgid="4903401106871656521">"Salli näytön käynnistäminen"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Salli sovelluksen käynnistää näyttö. Jos sovellus saa luvan, se voi käynnistää näytön itsenäisesti milloin tahansa."</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"Salli näytön laittaminen päälle"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Salli sovelluksen laittaa näyttö päälle. Jos sovellus saa luvan, se voi laittaa näytön päälle itsenäisesti milloin tahansa."</string>
     <string name="special_access" msgid="21806055758289916">"Erityisoikeudet"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Ääni"</string>
@@ -1147,8 +1156,11 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Etsi kaukosäädin"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Jos et löydä Google TV ‑kaukosäädintä, etsi se toistamalla äänimerkki"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV:ssä on painike, jota painamalla kaukosäädin toistaa äänen 30 sekunnin ajan. Tämä toimii vain tuetuilla Google TV ‑kaukosäätimillä.\n\nLopeta äänen toistaminen painamalla kaukosäätimestä mitä tahansa painiketta."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kun Etsi kaukosäätimeni on käytössä, voit etsiä Google TV ‑kaukosäätimen toistamalla äänimerkin."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Kun asetus on päällä, voit käyttää laitteen painiketta ja löytää kaukosäätimen sen toistaman äänen perusteella. Kun asetus on pois päältä, painike ei toimi. Voit kuitenkin käyttää Löydä kaukosäädin ‑ominaisuutta muilla tavoilla."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Toista äänimerkki"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Taustavalaisutila"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Säädä valaisua painamalla kaukosäätimen painikkeita."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Tuetuilla Google TV ‑kaukosäätimillä voit painaa kaukosäätimen painiketta, joka aktivoi taustavalaisun."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Äänenvoimakkuus (%1$s)"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Voit muuttaa Assistantin äänenvoimakkuutta kaiuttimella (%1$s)"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Vaikuttaa vain äänenvoimakkuuteen laitteella (%1$s), ei TV:llä"</string>

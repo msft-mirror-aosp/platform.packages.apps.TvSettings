@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Bližnjica za dostopnost"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Omogoči bližnjico za dostopnost"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Storitev z bližnjico"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Ko je bližnjica vklopljena, lahko pritisnete gumba s puščico za vrnitev in puščico navzdol ter ju pridržite tri sekunde, če želite zagnati funkcijo dostopnosti."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Čas za ukrepanje"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Čas za ukrepanje (časovna omejitev funkcije)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Čas"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Te časovne nastavitve ne podpirajo vse aplikacije."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Podnapisi"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Nastavitve prekrivanja za besedilo podnapisov v videoposnetku"</string>
     <string name="captions_display" msgid="2598662495450633375">"Prikaz"</string>
@@ -937,6 +945,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Izberite <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>, če želite nadaljevati."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Končano"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Povezava je vzpostavljena"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Že povezano"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Shranjevanje je uspelo"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Različica <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Odpri"</string>
@@ -1147,8 +1156,11 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Poišči moj daljinski upravljalnik"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Predvajajte zvok, da poiščete daljinski upravljalnik za Google TV, če ga založite"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV ima gumb, ki ga lahko pritisnete in tako za 30 sekund sprožite predvajanje zvoka v daljinskem predvajalniku. To deluje samo s podprtimi daljinskimi upravljalniki za Google TV.\n\nČe želite ustaviti zvok, na daljinskem upravljalniku pritisnite kateri koli gumb."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Če je omogočena funkcija Poišči moj daljinski upravljalnik, lahko nastavite, da se predvaja zvok, da najdete založeni daljinski upravljalnik Googla TV."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Če je vklopljeno, lahko z gumbom na napravi predvajate zvok, da poiščete daljinca. Če je izklopljeno, gumb ne deluje. Funkcijo Poišči daljinec lahko še vedno uporabljate na druge načine."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Predvajaj zvok"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Način osvetlitve ozadja"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Osvetlitev gumbov na daljincu ob vsakem pritisku."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Če na podprtih daljincih za Google TV pritisnete gumb, se aktivira osvetlitev ozadja."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Glasnost za %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Glasnost Pomočnika lahko upravljate v zvočniku %1$s"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"To vpliva na glasnost samo v napravi %1$s, ne na televizorju"</string>

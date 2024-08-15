@@ -29,8 +29,14 @@ import static com.android.tv.settings.accessories.ConnectedDevicesSliceBroadcast
 import static com.android.tv.settings.accessories.ConnectedDevicesSliceBroadcastReceiver.EXTRA_TOGGLE_STATE;
 import static com.android.tv.settings.accessories.ConnectedDevicesSliceBroadcastReceiver.EXTRA_TOGGLE_TYPE;
 import static com.android.tv.settings.accessories.ConnectedDevicesSliceUtils.EXTRAS_SLICE_URI;
+import static com.android.tv.settings.accessories.ConnectedDevicesSliceUtils.EXTRAS_DIRECTION;
+import static com.android.tv.settings.accessories.ConnectedDevicesSliceUtils.DIRECTION_BACK;
 import static com.android.tv.settings.accessories.ConnectedDevicesSliceUtils.FIND_MY_REMOTE_PHYSICAL_BUTTON_ENABLED_SETTING;
 import static com.android.tv.settings.accessories.ConnectedDevicesSliceUtils.isFindMyRemoteButtonEnabled;
+import static com.android.tv.settings.accessories.ConnectedDevicesSliceBroadcastReceiver.ACTION_BACKLIGHT;
+import static com.android.tv.settings.accessories.ConnectedDevicesSliceBroadcastReceiver.getBacklightModeIntent;
+import static com.android.tv.settings.accessories.ConnectedDevicesSliceUtils.BACKLIGHT_MODE_SETTING;
+import static com.android.tv.settings.accessories.ConnectedDevicesSliceUtils.getBacklightMode;
 
 import android.app.PendingIntent;
 import android.app.admin.DevicePolicyManager;
@@ -133,6 +139,7 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
     static final String KEY_BLUETOOTH_DEVICE_INFO = "bluetooth_device_info";
     static final String KEY_FIND_MY_REMOTE_TOGGLE = "fmr_toggle";
     static final String KEY_TOGGLE_ACTIVE_AUDIO_OUTPUT = "toggle_active_audio_output";
+    static final String KEY_BACKLIGHT_RADIO_GROUP = "backlight_radio_group";
 
     static final int YES = R.string.general_action_yes;
     static final int NO = R.string.general_action_no;
@@ -190,6 +197,8 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
                 return createBluetoothDeviceSlice(sliceUri);
             } else if (ConnectedDevicesSliceUtils.isFindMyRemotePath(sliceUri)) {
                 return createFindMyRemoteSlice(sliceUri);
+            } else if (ConnectedDevicesSliceUtils.isBacklightPath(sliceUri)) {
+                return createBacklightSlice(sliceUri);
             }
         } finally {
             StrictMode.setThreadPolicy(oldPolicy);
@@ -240,6 +249,7 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
         updateConnectedDevices(psb);
         updateOfficialRemoteSettings(psb);
         updateFmr(psb);
+        updateBacklight(psb);
         return psb.build();
     }
 
@@ -391,6 +401,7 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
                 context, 7, i, PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT);
         followUpIntent = new Intent(context, ConnectedDevicesSliceBroadcastReceiver.class);
         followUpIntent.putExtra(EXTRAS_SLICE_URI, sliceUri.toString());
+        followUpIntent.putExtra(EXTRAS_DIRECTION, DIRECTION_BACK);
         PendingIntent forgetFollowupIntent = PendingIntent.getBroadcast(
                 context, 8, followUpIntent,
                 PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT);
@@ -569,6 +580,25 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
                 .setTargetSliceUri(ConnectedDevicesSliceUtils.FIND_MY_REMOTE_SLICE_URI.toString()));
     }
 
+    private void updateBacklight(PreferenceSliceBuilder psb) {
+        Context context = getContext();
+        if (!context.getResources().getBoolean(R.bool.config_backlight_integration_enabled)) {
+            return;
+        }
+
+        List<ResolveInfo> receivers = getContext().getPackageManager().queryBroadcastReceivers(
+                new Intent(ACTION_BACKLIGHT), 0);
+        if (receivers.isEmpty()) {
+            return;
+        }
+
+        psb.addPreference(new RowBuilder()
+                .setKey(KEY_BACKLIGHT_RADIO_GROUP)
+                .setTitle(getString(R.string.settings_backlight_title))
+                .setSubtitle(getString(R.string.settings_backlight_description))
+                .setTargetSliceUri(ConnectedDevicesSliceUtils.BACKLIGHT_SLICE_URI.toString()));
+    }
+
     private void createAndAddBtDeviceSlicePreferenceFromSet(
             PreferenceSliceBuilder psb,
             Set<String> addresses,
@@ -699,6 +729,48 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
                 .setPendingIntent(pendingIntent)
                 .setIcon(IconCompat.createWithResource(context, R.drawable.ic_play_arrow))
                 .setIconNeedsToBeProcessed(true));
+        return psb.build();
+    }
+
+    /**
+     * Radio Group for backlight mode.
+     * 0: Never
+     * 1: Standard (Always)
+     * 2: Scheduled (Only during nighttime)
+     */
+    private Slice createBacklightSlice(Uri sliceUri) {
+        Context context = getContext();
+        final PreferenceSliceBuilder psb = new PreferenceSliceBuilder(context, sliceUri);
+        if (context.getResources().getBoolean(R.bool.config_backlight_integration_enabled)) {
+            psb.addScreenTitle(new RowBuilder()
+                    .setTitle(getString(R.string.settings_backlight_title))
+                    .setSubtitle(getString(R.string.backlight_slice_description)));
+
+            final String[] backlightModes =
+                    context.getResources().getStringArray(R.array.backlight_modes);
+            final String[] backlightKeys =
+                    context.getResources().getStringArray(R.array.backlight_keys);
+            final String[] backlightHints =
+                    context.getResources().getStringArray(R.array.backlight_hints);
+
+            for (int i = 0; i < backlightModes.length; i++) {
+                final boolean isChecked = getBacklightMode(context) == i;
+
+                final RowBuilder backlightModeRow =
+                        new RowBuilder()
+                                .setKey(backlightKeys[i])
+                                .setTitle(backlightModes[i])
+                                .setInfoTitleIcon(IconCompat.createWithResource(
+                                        context, R.drawable.ic_play_arrow))
+                                .setInfoTitle(backlightModes[i])
+                                .setInfoSummary(backlightHints[i])
+                                .setRadioGroup(KEY_BACKLIGHT_RADIO_GROUP)
+                                .addRadioButton(
+                                        getBacklightModeIntent(context, sliceUri, backlightKeys[i]),
+                                        isChecked);
+                psb.addPreference(backlightModeRow);
+            }
+        }
         return psb.build();
     }
 }
