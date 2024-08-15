@@ -242,7 +242,7 @@
     <string name="accessory_connected" msgid="5229574480869175180">"متصل"</string>
     <string name="accessory_change_name" msgid="6493717176878500683">"تغییر نام"</string>
     <string name="accessory_change_name_title" msgid="451188562035392238">"نام جدیدی برای این وسیله جانبی وارد کنید"</string>
-    <string name="accessories_add_accessibility_title" msgid="1300294413423909579">"مرتبط‌سازی بلوتوث."</string>
+    <string name="accessories_add_accessibility_title" msgid="1300294413423909579">"جفت‌سازی بلوتوث."</string>
     <string name="accessories_add_title" msgid="7704824893011194433">"در حال جستجوی لوازم جانبی…"</string>
     <string name="accessories_add_bluetooth_inst" msgid="2508151218328384366">"قبل از جفت کردن دستگاه‌های بلوتوث، مطمئن شوید در حالت مرتبط‌سازی باشند."</string>
     <string name="accessories_autopair_msg" msgid="2501824457418285019">"دستگاهی یافت شد و به‌طور خودکار بعد از <xliff:g id="COUNTDOWN">%1$s</xliff:g> ثانیه مرتبط می‌شود"</string>
@@ -429,7 +429,7 @@
     <string name="title_signal_strength" msgid="5047116893338315998">"قدرت سیگنال"</string>
     <string name="title_random_mac_settings" msgid="6685812569356353378">"حریم خصوصی"</string>
   <string-array name="random_mac_settings_entries">
-    <item msgid="3457228452595715533">"استفاده از MAC تصادفی (پیش‌فرض)"</item>
+    <item msgid="3457228452595715533">"استفاده کردن از MAC تصادفی (پیش‌فرض)"</item>
     <item msgid="2490415280467390067">"استفاده از MAC دستگاه"</item>
   </string-array>
     <string name="mac_address_not_available" msgid="2992935344891853369">"موجود نیست"</string>
@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"میان‌بر دسترس‌پذیری"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"فعال کردن میان‌بر دسترس‌پذیری"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"سرویس میان‌بر"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"وقتی میان‌بر روشن است، اگر دکمه‌های برگشت و پایین را با هم فشار دهید و ۳ ثانیه نگه دارید ویژگی دسترس‌پذیری شروع خواهد شد."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"زمان اقدام کردن"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"زمان اقدام کردن (درنگ دسترس‌پذیری)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"زمانبندی"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"اولویت زمان‌بندی در همه برنامه‌ها پشتیبانی نمی‌شود."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"زیرنویس"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"تنظیمات وضعیت متن زیرنویس روی ویدیو"</string>
     <string name="captions_display" msgid="2598662495450633375">"نمایش"</string>
@@ -805,6 +813,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"پردازش GPU نمایه"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"فعال کردن ردیابی"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"فعالیت‌ها را ادامه ندهید"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"محدودیت پردازش در پس‌زمینه"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"نمایش تمام برنامه‌هایی که پاسخ نمی‌دهند"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"غیرفعال کردن حالت خواب"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"استفاده فقط برای محتوای DRM"</string>
@@ -1136,7 +1145,7 @@
     <string name="sound_settings_title" msgid="9149367966117889465">"صدا"</string>
     <string name="power_and_energy" msgid="4638182439670702556">"برق و انرژی"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"عملکرد تلویزیون هنگام روشن بودن"</string>
-    <string name="reset_options_title" msgid="7632580482285108955">"بازنشاندن"</string>
+    <string name="reset_options_title" msgid="7632580482285108955">"بازنشانی"</string>
     <string name="system_tv_title" msgid="2800695543185187197">"تلویزیون"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"کد مرتبط‌سازی اترنت"</string>
     <string name="energy_modes" msgid="1331693860386361744">"حالت‌های انرژی"</string>
@@ -1147,8 +1156,11 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"پیدا کردن کنترل از راه دور"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"اگر کنترل از دور Google TV در جای خودش نباشد، برای پیدا کردن آن، صدایی پخش می‌شود"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"دکمه‌ای روی Google TV قرار دارد که می‌توانید فشار دهید تا صدایی به‌مدت ۳۰ ثانیه در کنترل از دور پخش شود. این روش فقط در کنترل از دورهای پشتیبانی‌شده Google TV کار می‌کند.\n\nبرای متوقف کردن صدا، یکی از دکمه‌های روی کنترل از دور را فشار دهید."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"وقتی «پیدا کردن کنترل از راه دور» فعال باشد، اگر کنترل از راه دور Google TV در جای خودش نباشد، می‌توانید با پخش صدا آن را پیدا کنید."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"وقتی روشن باشد، بااستفاده از این دکمه در دستگاهتان می‌توانید صدایی پخش کنید و کنترل از دور را پیدا کنید. وقتی خاموش باشد، این دکمه کار نمی‌کند. همچنان می‌توانید با روش‌های دیگر از «پیدا کردن کنترل از راه دور» استفاده کنید."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"پخش صدا"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"حالت نور پس‌زمینه"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"روشنایی دکمه‌های کنترل از دور با هر فشردن."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"در کنترل‌های از دور پشتیبانی‌شده Google TV، با فشار دادن دکمه روی کنترل از دور روشنایی نور پس‌زمینه فعال می‌شود."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"میزان صدای %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"می‌توانید میزان صدای «دستیار» را در بلندگوی %1$s کنترل کنید"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"فقط بر میزان صدای دستگاه %1$s تأثیر می‌گذارد، نه بر تلویزیون"</string>

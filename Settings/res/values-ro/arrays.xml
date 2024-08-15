@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Niciodată"</item>
+    <item msgid="3256715108348109595">"Standard"</item>
+    <item msgid="5517658202197894866">"Programat"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Iluminarea din spate nu se va aprinde la fiecare apăsare."</item>
+    <item msgid="62911590277354399">"Iluminarea din spate se va aprinde la fiecare apăsare. Iluminarea va dura 5 secunde de fiecare dată când este activată."</item>
+    <item msgid="5334296639506784894">"Iluminarea din spate se va aprinde la fiecare apăsare numai noaptea (06:00 – 18:00). Iluminarea va dura 5 secunde de fiecare dată când este activată."</item>
+  </string-array>
 </resources>
