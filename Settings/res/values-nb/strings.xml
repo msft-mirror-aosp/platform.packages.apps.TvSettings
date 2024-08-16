@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Tilgjengelighets-snarvei"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Slå på tilgjengelighetssnarveien"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Snarveitjeneste"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Når snarveien er på, kan du trykke på både tilbake- og ned-knappen i tre sekunder for å starte en tilgjengelighetsfunksjon."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Tid for å gjøre noe"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Tid for å gjøre noe (tidsavbrudd)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Tid"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Ikke alle apper støtter denne tidsinnstillingen."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Teksting"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Innstillinger for å legge over teksting på videoer"</string>
     <string name="captions_display" msgid="2598662495450633375">"Visning"</string>
@@ -1093,7 +1101,7 @@
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"Ringing er ikke tillatt"</string>
     <string name="disabled_by_policy_title_sms" msgid="5721045390560951358">"SMS er ikke tillatt"</string>
     <string name="disabled_by_policy_title_camera" msgid="6576557964422257426">"Kameraet er ikke tillatt"</string>
-    <string name="disabled_by_policy_title_screen_capture" msgid="5774035841010091253">"Skjermdump er ikke tillatt"</string>
+    <string name="disabled_by_policy_title_screen_capture" msgid="5774035841010091253">"Skjermbilde er ikke tillatt"</string>
     <string name="disabled_by_policy_title_suspend_packages" msgid="6500185610058872758">"Kan ikke åpne denne appen"</string>
     <string name="default_admin_support_msg" msgid="7913455019068370350">"Hvis du lurer på noe, kan du kontakte IT-administratoren din"</string>
     <string name="admin_support_more_info" msgid="9053232166115098434">"Mer informasjon"</string>
@@ -1150,6 +1158,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV har en knapp du kan trykke på for å spille av en lyd på fjernkontrollen i 30 sekunder. Dette fungerer bare med støttede Google TV-fjernkontroller.\n\nFor å stoppe lyden, trykk på en knapp på fjernkontrollen."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Når funksjonen er på, kan du bruke knappen på enheten til å spille av en lyd for å finne fjernkontrollen. Når funksjonen er av, fungerer ikke denne knappen. Du kan fortsatt bruke finn fjernkontrollen via andre metoder."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spill av lyd"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Bakgrunnsbelysning-modus"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Belysning av knappene på fjernkontrollen ved hvert trykk."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"På Google TV-fjernkontroller som støttes, aktiveres bakgrunnsbelysning når du trykker på knappene på fjernkontrollene."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volum"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Du kan kontrollere Assistent-volumet på %1$s-høyttaleren"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Påvirker bare volumet på %1$s-enheten, ikke på TV-en"</string>

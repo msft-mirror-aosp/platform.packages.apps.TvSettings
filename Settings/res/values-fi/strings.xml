@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Saavutettavuustilan pikanäppäin"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Ota saavutettavuustilan pikanäppäin käyttöön"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Pikanäppäinpalvelu"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kun pikanäppäin on päällä, voit käynnistää saavutettavuusominaisuuden pitämällä Takaisin- ja Alas-näppäimiä painettuina kolmen sekunnin ajan."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Reagointiaika"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Toiminnon aika (saavutettavuuskatkaisu)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Ajoitus"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Kaikki sovellukset eivät tue tätä ajoitusasetusta."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Tekstitykset"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Videon päällä näytettävän tekstityksen asetukset"</string>
     <string name="captions_display" msgid="2598662495450633375">"Näyttö"</string>
@@ -1148,8 +1156,11 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Etsi kaukosäädin"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Jos et löydä Google TV ‑kaukosäädintä, etsi se toistamalla äänimerkki"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV:ssä on painike, jota painamalla kaukosäädin toistaa äänen 30 sekunnin ajan. Tämä toimii vain tuetuilla Google TV ‑kaukosäätimillä.\n\nLopeta äänen toistaminen painamalla kaukosäätimestä mitä tahansa painiketta."</string>
-    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Kun asetus on päällä, voit etsiä kaukosäätimen toistamalla äänen laitteen painikkeella. Kun asetus on pois päältä, painike ei toimi. Voit kuitenkin käyttää Löydä kaukosäädin ‑ominaisuutta muilla tavoilla."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Kun asetus on päällä, voit käyttää laitteen painiketta ja löytää kaukosäätimen sen toistaman äänen perusteella. Kun asetus on pois päältä, painike ei toimi. Voit kuitenkin käyttää Löydä kaukosäädin ‑ominaisuutta muilla tavoilla."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Toista äänimerkki"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Taustavalaisutila"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Säädä valaisua painamalla kaukosäätimen painikkeita."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Tuetuilla Google TV ‑kaukosäätimillä voit painaa kaukosäätimen painiketta, joka aktivoi taustavalaisun."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Äänenvoimakkuus (%1$s)"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Voit muuttaa Assistantin äänenvoimakkuutta kaiuttimella (%1$s)"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Vaikuttaa vain äänenvoimakkuuteen laitteella (%1$s), ei TV:llä"</string>

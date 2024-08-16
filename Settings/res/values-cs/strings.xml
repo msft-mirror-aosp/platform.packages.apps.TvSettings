@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Zkratka usnadnění"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Aktivovat zkratku přístupnosti"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Služba ovládaná zkratkou"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Když je tato zkratka zapnutá, můžete funkci přístupnosti spustit tím, že na tři sekundy podržíte tlačítko zpět a dolů."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Čas na akci"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Čas na provedení akce (vypršení platnosti)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Načasování"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Tuto časovou předvolbu podporují jen některé aplikace."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Titulky"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Nastavení překryvné vrstvy s textem skrytých titulků ve videu"</string>
     <string name="captions_display" msgid="2598662495450633375">"Zobrazení"</string>
@@ -1010,7 +1018,7 @@
   <string-array name="rooms">
     <item msgid="6590829789532602097">"Android TV"</item>
     <item msgid="1140506340411482365">"Televize v obýváku"</item>
-    <item msgid="6448060889026244632">"Televize v dětském pokoji"</item>
+    <item msgid="6448060889026244632">"Televize ve společné místnosti"</item>
     <item msgid="3336274213215419228">"Televize v ložnici"</item>
   </string-array>
     <string name="custom_room" msgid="6798144004583173563">"Zadat vlastní název…"</string>
@@ -1150,6 +1158,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na televizi Google TV je tlačítko, po jehož stisknutí se bude na dálkovém ovládání 30 sekund přehrávat zvuk. Funguje to jen s podporovaným dálkovým ovládáním Google TV.\n\nZvuk vypnete stisknutím libovolného tlačítka na dálkovém ovládání."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Když bude možnost zapnutá, můžete pomocí tlačítka na zařízení přehrát zvuk, podle kterého najdete dálkové ovládání. Když bude možnost vypnutá, tlačítko nebude fungovat. Ovladač bude nadále možné najít jinými způsoby."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Přehrát zvuk"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Režim podsvícení"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Podsvícení tlačítek na dálkovém ovládání při každém stisknutí tlačítka."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Na podporovaných dálkových ovládáních Google TV se stisknutím tlačítka aktivuje podsvícení."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s hlasitost"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Hlasitost Asistenta můžete ovládat na reproduktoru %1$s"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Ovlivňuje jen hlasitost zařízení %1$s, ne televize"</string>
