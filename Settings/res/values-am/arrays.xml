@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0.5"</item>
     <item msgid="4571900814286671092">"0.8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"በጭራሽ"</item>
+    <item msgid="3256715108348109595">"መደበኛ"</item>
+    <item msgid="5517658202197894866">"መርሃግብር ተይዞለታል"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"የኋላ መብራቱ በእያንዳንዱ ጫን ማለት አይበራም።"</item>
+    <item msgid="62911590277354399">"የኋላ ብርሃኑ በእያንዳንዱ ጫን ማለት ይበራል። ብርሃኑ በነቃ ቁጥር ለ5 ሰከንዶች ይቆያል።"</item>
+    <item msgid="5334296639506784894">"የኋላው ብርሃን በእያንዳንዱ ጫን ማለት የሚያበራው በምሽት ሰዓታት (6ማታ~6ጠዋት) ላይ ብቻ ነው። ብርሃኑ በነቃ ቁጥር ለ5 ሰከንዶች ይቆያል።"</item>
+  </string-array>
 </resources>

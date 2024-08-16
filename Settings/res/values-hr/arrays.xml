@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Nikad"</item>
+    <item msgid="3256715108348109595">"Standardno"</item>
+    <item msgid="5517658202197894866">"Zakazano"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Pozadinsko svjetlo neće zasvijetliti na svaki pritisak gumba."</item>
+    <item msgid="62911590277354399">"Pozadinsko će svjetlo zasvijetliti na svaki pritisak gumba. Osvjetljenje će trajati pet sekundi svaki put kada se aktivira."</item>
+    <item msgid="5334296639506784894">"Pozadinsko će svjetlo zasvijetliti na svaki pritisak gumba samo tijekom noćnih sati (otprilike od 18 do 6 sati). Osvjetljenje će trajati pet sekundi svaki put kada se aktivira."</item>
+  </string-array>
 </resources>
