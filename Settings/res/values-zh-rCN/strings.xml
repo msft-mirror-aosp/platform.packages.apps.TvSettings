@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"无障碍快捷方式"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"启用无障碍快捷方式"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"快捷方式服务"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"开启这项快捷方式后，同时按下返回和向下按钮 3 秒钟即可启动无障碍功能。"</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"等待操作的时长"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"等待操作的时长（无障碍功能超时）"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"时间"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"某些应用可能不支持这项时限偏好设置。"</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"字幕"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"视频字幕的文字叠加层设置"</string>
     <string name="captions_display" msgid="2598662495450633375">"显示"</string>
@@ -805,6 +813,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"GPU 渲染模式分析"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"启用跟踪"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"不保留 activity"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"后台进程限制"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"显示所有ANR"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"停用休眠功能"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"仅用于 DRM 内容"</string>
@@ -936,7 +945,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"选择 <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> 以继续。"</string>
     <string name="label_done_key" msgid="8576286462300373440">"完成"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"连接成功"</string>
-    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"已经连接了"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"已连接"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"保存成功"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"版本 <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"打开"</string>
@@ -1147,8 +1156,11 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"查找我的遥控器"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"让忘记放在何处的 Google TV 遥控器响铃，以便找到它"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV 上有一个按钮，按下后遥控器会响铃 30 秒钟。此操作仅对支持的 Google TV 遥控器有效。\n\n若要停止响铃，请按下遥控器上的任意按钮。"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"当“查找我的遥控器”处于启用状态时，您可让找不到的 Google TV 遥控器响铃，从而定位它。"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"此项处于开启状态时，您可以使用设备上的按钮播放声音，以便定位遥控器。此项处于关闭状态时，这个按钮将不起作用。您仍然可以通过其他方法使用“查找我的遥控器”。"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"响铃"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"背光模式"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"每次按遥控器上的按钮时，按钮都会亮起。"</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"在支持的 Google TV 遥控器上，按下相应按钮会激活背光效果。"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s的音量"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"您可以控制%1$s音箱上 Google 助理的音量"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"仅影响%1$s设备（而非电视）的音量"</string>

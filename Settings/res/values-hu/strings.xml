@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Billentyűparancs kisegítő lehetőségekhez"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Kisegítő lehetőségek engedélyezése"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Billentyűparancs szolgáltatás"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Ha be van kapcsolva a gyorsparancs, a Vissza és Lefelé gomb 3 másodpercig tartó együttes lenyomásával elindíthat egy adott kisegítő lehetőséget."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Művelet elvégzésére szánt idő"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Művelet ideje (kisegítés időkorlátja)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Időzítés"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Az időzítéspreferenciát nem támogatja minden app."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Feliratok"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Mentett feliratok szövegrétegének beállítása videóknál"</string>
     <string name="captions_display" msgid="2598662495450633375">"Megjelenítés"</string>
@@ -805,6 +813,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"GPU-renderelési profil"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Nyomkövetés engedélyezése"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Ne tárolja a tevékenységeket"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Háttérfolyamat-korlátozás"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Összes ANR mutatása"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Alvó mód kikapcsolása"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Csak DRM-tartalomhoz használja"</string>
@@ -1147,8 +1156,11 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Távirányító-kereső"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Hang lejátszásával megkeresheti a Google TV távirányítóját, ha nem találja"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Van egy gomb a Google TV-n, amelyet megnyomva 30 másodpercen át lejátszhat egy hangjelzést a távirányítón. Ez csak a támogatott Google TV-távirányítóknál működik.\n\nA hanglejátszás leállításához nyomja meg bármelyik gombot a távirányítón."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Amikor engedélyezve van a Távirányító-kereső, és nem találja a Google TV-távirányítót, az eszközön való hanglejátszással megkeresheti."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Amikor be van kapcsolva, az eszközén lévő gombot lenyomva hang lejátszásával keresheti meg a távirányítót. Amikor ki van kapcsolva, ez a gomb nem működik. Más módszerekkel továbbra is használhatja a távirányító megkeresése funkciót."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Hang lejátszása"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Háttérvilágítás mód"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"A távirányító gombjainak háttérvilágítása minden lenyomáskor bekapcsol."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"A támogatott Google TV-távirányítókon a rajtuk lévő gombok megnyomásakor aktiválódik a háttérvilágítás."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"A(z) %1$s hangereje"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Vezérelheti a Segéd hangerejét a(z) %1$s hangszórón"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Csak a(z) %1$s eszköz hangerejére van hatással, a tévéére nem"</string>

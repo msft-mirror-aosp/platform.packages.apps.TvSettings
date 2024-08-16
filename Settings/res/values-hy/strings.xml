@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Հատուկ գործառույթների դյուրանցում"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Միացնել մատչելիության դյուրացումը"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Դյուրանցման ծառայություն"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Եթե դյուրանցումը միացված է, ապա հետ և ներքև կոճակները միասին 3 վայրկյան սեղմած պահելով կարող եք գործարկել մատչելիության գործառույթը:"</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Գործողություն կատարելու ժամանակն է"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Գործողություն կատարելու սպասման ժամանակը"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Ժամանակ"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Այս կարգավորումը ոչ բոլոր հավելվածներում է աջակցվում։"</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Ենթագրեր"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Տեսանյութի խորագրերի կարգավորում"</string>
     <string name="captions_display" msgid="2598662495450633375">"Էկրան"</string>
@@ -805,6 +813,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"GPU պրոֆիլի ցուցադրում"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Ակտիվացնել հետքերը"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Չպահել գործողությունները"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Հետնաշերտի գործընթացների սահմանաչափ"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Ցույց տալ բոլոր ANR-երը"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Անջատել քնած ռեժիմը"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Օգտագործել միայն DRM բովանդակությունը"</string>
@@ -1147,8 +1156,11 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Գտնել իմ հեռակառավարիչը"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Եթե չեք գտնում ձեր Google TV հեռակառավարիչը, նվագարկեք ազդանշան՝ այն տեղորոշելու համար։"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Ձեր Google TV սարքի վրա կա կոճակ, որը սեղմելու դեպքում հեռակառավարման վահանակում ազդանշան կհնչի 30 վայրկյան շարունակ։ Սա աշխատում է միայն Google TV-ի աջակցվող հեռակառավարիչների հետ։\n\nԱզդանշանը կանգնեցնելու համար սեղմեք հեռակառավարիչի ցանկացած կոճակ։"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Երբ «Գտնել իմ հեռակառավարիչը» գործառույթը միացված է, դուք կարող եք նվագարկել ազդանշան՝ ձեր Google TV-ի հեռակառավարիչը գտնելու համար։"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Միացված ժամանակ դուք կարող եք ձեր սարքում այս կոճակի միջոցով նվագարկել ազդանշան՝ ձեր հեռակառավարիչը տեղորոշելու համար։ Երբ այն անջատված է, կոճակը չի աշխատի։ Դուք կարող եք այլ եղանակներով օգտագործել «Գտնել հեռակառավարիչը» գործառույթը։"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Նվագարկել ազդանշանը"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Հետնալույսի ռեժիմ"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Հեռակառավարման վահանակի կոճակների լուսավորում յուրաքանչյուր սեղմման ժամանակ։"</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Հեռակառավարման վահանակի կոճակի սեղմումը Google TV-ի հեռակառավարման աջակցվող վահանակներում միացնում է հետնալույսը։"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Ձայնի ուժգնությունը՝ %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Դուք կարող եք կառավարել Օգնականի ձայնի ուժգնությունը %1$s բարձրախոսում"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Ազդում է միայն %1$s սարքի ձայնի ուժգնության վրա, սակայն ոչ հեռուստացույցի"</string>
