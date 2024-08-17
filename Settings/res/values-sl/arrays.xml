@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Nikoli"</item>
+    <item msgid="3256715108348109595">"Standardno"</item>
+    <item msgid="5517658202197894866">"Po urniku"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Osvetlitev ozadja ne zasveti z vsakim pritiskom."</item>
+    <item msgid="62911590277354399">"Osvetlitev ozadja zasveti z vsakim pritiskom. Osvetlitev traja 5 sekund vsakič, ko je aktivirana."</item>
+    <item msgid="5334296639506784894">"Osvetlitev ozadja zasveti z vsakim pritiskom samo v večernem in nočnem času (od 18.00 do približno 6.00). Osvetlitev traja 5 sekund vsakič, ko je aktivirana."</item>
+  </string-array>
 </resources>
