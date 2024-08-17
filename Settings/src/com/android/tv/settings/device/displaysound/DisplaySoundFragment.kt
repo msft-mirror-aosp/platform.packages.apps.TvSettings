@@ -61,6 +61,7 @@ class DisplaySoundFragment : SettingsPreferenceFragment(), DisplayManager.Displa
         mAudioManager = context.getSystemService(AudioManager::class.java) as AudioManager
         mHdmiControlManager =
                 context.getSystemService(HdmiControlManager::class.java) as HdmiControlManager
+        mDisplayManager = displayManager
         super.onAttach(context)
     }
 
@@ -79,7 +80,6 @@ class DisplaySoundFragment : SettingsPreferenceFragment(), DisplayManager.Displa
                               savedInstanceState: Bundle?): View {
         findPreference<TwoStatePreference>(KEY_SOUND_EFFECTS)?.isChecked = soundEffectsEnabled
         updateCecPreference()
-        mDisplayManager = displayManager
         val display = mDisplayManager.getDisplay(Display.DEFAULT_DISPLAY)
         if (display.systemPreferredDisplayMode != null) {
             mDisplayManager.registerDisplayListener(this, null)
@@ -105,7 +105,9 @@ class DisplaySoundFragment : SettingsPreferenceFragment(), DisplayManager.Displa
 
     override fun onDestroy() {
         super.onDestroy()
-        mDisplayManager.unregisterDisplayListener(this)
+        if (this::mDisplayManager.isInitialized) {
+            mDisplayManager.unregisterDisplayListener(this)
+        }
     }
 
     override fun onResume() {
