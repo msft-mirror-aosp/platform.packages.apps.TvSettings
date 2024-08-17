@@ -298,7 +298,7 @@
     <string name="system_inputs" msgid="5552840337357572096">"इनपुट"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"इनपुट और डिवाइस"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"होम थिएटर से जुड़े नियंत्रण"</string>
-    <string name="system_developer_options" msgid="8480844257066475479">"डेवलपर विकल्प"</string>
+    <string name="system_developer_options" msgid="8480844257066475479">"डेवलपर के लिए सेटिंग और टूल"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"कोई नहीं"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"इस्तेमाल और निदान"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"कोई भी डिवाइस व्यवस्थापक ऐप्लिकेशन उपलब्ध नहीं है"</string>
@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"सुलभता सुविधा का शॉर्टकट"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"सुलभता सुविधा का शॉर्टकट चालू करें"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"शॉर्टकट सेवा"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"शॉर्टकट इस्तेमाल करने के दौरान, आप \'वापस जाएं\' और \'नीचे जाएं\' बटन को एक साथ 3 सेकंड तक दबा के, सुलभता सुविधा शुरू कर सकते हैं."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"कार्रवाई करने के लिए समय"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"कार्रवाई करने का समय (सुलभता टाइम आउट)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"समय"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"समय की यह सेटिंग सभी ऐप के लिए उपलब्ध नहीं है."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"कैप्शन"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"वीडियो पर बंद अनुशीर्षक देने वाले लेख ओवरले की सेटिंग"</string>
     <string name="captions_display" msgid="2598662495450633375">"प्रदर्शन"</string>
@@ -1150,6 +1158,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"आपके Google TV पर एक ऐसा बटन होता है जिसे दबाने से रिमोट पर 30 सेकंड के लिए आवाज़ चलाई जा सकती है. ऐसा सिर्फ़ उन Google TV के रिमोट कंट्रोल पर किया जा सकता है जिन पर यह सुविधा काम करती है.\n\nसाउंड बंद करने के लिए, रिमोट के किसी भी बटन को दबाएं."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"सेटिंग चालू होने पर, अपने डिवाइस पर मौजूद बटन को दबाकर एक साउंड चलाया जा सकेगा, ताकि टीवी के रिमोट को ढूंढा जा सके. सेटिंग बंद होने पर यह बटन काम नहीं करेगा. हालांकि, \'मेरा रिमोट ढूंढो\' सुविधा का इस्तेमाल अन्य तरीकों से अब भी किया जा सकेगा."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"साउंड चलाएं"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"बैकलाइट मोड"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"रिमोट कंट्रोल में मौजूद बटन को हर बार दबाने पर बैकलाइट जलती है."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Google TV के जिन रिमोट पर यह सुविधा काम करती है उन पर बटन दबाने से बैकलाइट जलती है."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s आवाज़"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s स्पीकर पर Assistant की आवाज़ को कंट्रोल किया जा सकता है"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"इससे सिर्फ़ %1$s डिवाइस की आवाज़ पर असर पड़ता है , टीवी पर नहीं"</string>
