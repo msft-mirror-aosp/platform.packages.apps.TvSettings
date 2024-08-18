@@ -72,6 +72,10 @@
     <string name="hotwording_title">\"OK Google\" detection</string>
     <!-- Summary for main screen preference for hotwording [CHAR LIMIT=50] -->
     <string name="hotwording_summary">Talk to Google Assistant anytime</string>
+    <!-- Talkback Screen reader service title [CHAR LIMIT=50] -->
+    <string name="screen_reader_service_title">Talkback\u0020(Screen reader)</string>
+    <!-- Summary for Talkback Screen reader service [CHAR LIMIT=NONE] -->
+    <string name="screen_reader_summary">TalkBack is a screen reader accessibility feature that assists visually impaired users by reading aloud on-screen text, menu items and other elements. It can also be set up to use with Accessibility Shortcut.</string>
 
     <!-- Header title for device [CHAR LIMIT=50] -->
     <string name="header_category_device">Device</string>
@@ -1776,16 +1780,20 @@
     <string name="accessibility_shortcut_enable">Enable accessibility shortcut</string>
     <!-- Title for accessibility shortcut service choice preference [CHAR LIMIT=50}-->
     <string name="accessibility_shortcut_service">Shortcut service</string>
+    <!-- Title for Keyboard Accessibility [CHAR LIMIT=100] -->
+    <string name="keyboard_accessibility">Keyboard accessibility</string>
     <!-- Description for the accessibility shortcut [CHAR LIMIT=NONE] -->
     <string name="accessibility_shortcut_description">When the shortcut is on, you can press both the back and down buttons for 3 seconds to start an accessibility feature.</string>
-    <!-- Title for accessibility timeout [CHAR LIMIT=50] -->
-    <string name="accessibility_timeout">Time to take action</string>
-    <!-- Title for accessibility timeout [CHAR LIMIT=50] -->
-    <string name="accessibility_timeout_detailed">Time to take action (Accessibility timeout)</string>
+    <!-- Title for accessibility timeout [CHAR LIMIT=100] -->
+    <string name="accessibility_timeout">Time to take action (accessibility timeout)</string>
+    <!-- Summary for accessibility timeout [CHAR LIMIT=NONE] -->
+    <string name="accessibility_timeout_summary">Adjust duration of messages that require action</string>
+    <!-- Summary for accessibility timeout [CHAR LIMIT=NONE] -->
+    <string name="accessibility_timeout_detailed">Choose how long to show temporary messages that asks you to take action</string>
     <!-- Title for accessibility timeout info [CHAR LIMIT=50] -->
-    <string name="accessibility_timeout_info_title">Timing</string>
+    <string name="accessibility_timeout_info_title">Timing : 2\u20133 seconds</string>
     <!-- Description for accessibility timeout info [CHAR LIMIT=50] -->
-    <string name="accessibility_timeout_info_description">This timing preference isn\'t supported by all apps.</string>
+    <string name="accessibility_timeout_info_description">Sets default amount of time to respond to on\u2013screen actions (2\u20133 seconds)</string>
     <!-- Title and description for accessibility captions setting [CHAR LIMIT=50] -->
     <string name="accessibility_captions">Captions</string>
     <!-- Title and description for accessibility captions description [CHAR LIMIT=NONE] -->
