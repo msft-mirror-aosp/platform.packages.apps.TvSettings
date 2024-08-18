@@ -72,6 +72,10 @@
     <string name="hotwording_title">\"OK Google\" detection</string>
     <!-- Summary for main screen preference for hotwording [CHAR LIMIT=50] -->
     <string name="hotwording_summary">Talk to Google Assistant anytime</string>
+    <!-- Talkback Screen reader service title [CHAR LIMIT=50] -->
+    <string name="screen_reader_service_title">Talkback\u0020(Screen reader)</string>
+    <!-- Summary for Talkback Screen reader service [CHAR LIMIT=NONE] -->
+    <string name="screen_reader_summary">TalkBack is a screen reader accessibility feature that assists visually impaired users by reading aloud on-screen text, menu items and other elements. It can also be set up to use with Accessibility Shortcut.</string>
 
     <!-- Header title for device [CHAR LIMIT=50] -->
     <string name="header_category_device">Device</string>

@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0.5"</item>
     <item msgid="4571900814286671092">"0.8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"なし"</item>
+    <item msgid="3256715108348109595">"標準"</item>
+    <item msgid="5517658202197894866">"スケジュール設定済み"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"押してもバックライトは点灯しません。"</item>
+    <item msgid="62911590277354399">"押すたびにバックライトが点灯します。一度点灯したバックライトは 5 秒後に消えます。"</item>
+    <item msgid="5334296639506784894">"夜間（午後 6 時～午前 6 時）は押すたびにバックライトが点灯します。一度点灯したバックライトは 5 秒後に消えます。"</item>
+  </string-array>
 </resources>
