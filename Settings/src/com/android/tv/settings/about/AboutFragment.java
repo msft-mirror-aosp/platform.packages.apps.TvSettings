@@ -405,7 +405,7 @@ public class AboutFragment extends SettingsPreferenceFragment {
                 logEntrySelected(TvSettingsEnums.SYSTEM_ABOUT_SYSTEM_UPDATE);
                 CarrierConfigManager configManager = (CarrierConfigManager)
                         getActivity().getSystemService(Context.CARRIER_CONFIG_SERVICE);
-                PersistableBundle b = configManager.getConfig();
+                PersistableBundle b = configManager != null ? configManager.getConfig() : null;
                 if (b != null &&
                         b.getBoolean(CarrierConfigManager.KEY_CI_ACTION_ON_SYS_UPDATE_BOOL)) {
                     ciActionOnSysUpdate(b);
@@ -416,6 +416,7 @@ public class AboutFragment extends SettingsPreferenceFragment {
                 logEntrySelected(TvSettingsEnums.SYSTEM_ABOUT_DEVICE_NAME);
                 break;
             case KEY_DEVICE_MODE:
+                break;
             case KEY_RESET:
                 logEntrySelected(TvSettingsEnums.SYSTEM_ABOUT_FACTORY_RESET);
                 Intent factoryResetIntent = new Intent();

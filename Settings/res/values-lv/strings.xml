@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Pieejamības īsinājumtaustiņš"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Iespējot pieejamības īsinājumtaustiņu"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Īsinājumtaustiņa pakalpojums"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kad īsinājumtaustiņš ir ieslēgts, varat uz 3 sekundēm nospiest pogu Atpakaļ un skaļuma samazināšanas pogu, lai aktivizētu pieejamības funkciju."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Laiks veikt darbību"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Laiks veikt darbību (pieejamības noildze)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Ilgums"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Ne visas lietotnes atbalsta šo laika preferenci."</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Subtitri"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Videoklipa subtitru teksta pārklājuma iestatījumi"</string>
     <string name="captions_display" msgid="2598662495450633375">"Rādīt"</string>
@@ -805,6 +813,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Profila grafiskā procesora atveide"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Iespējot trases"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"Nesaglabāt darbības"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"Fona procesu ierobežojums"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"Rādīt visus ANR"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"Atspējo miega režīmu."</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"Izmantot tikai DRM saturam"</string>
@@ -1147,8 +1156,11 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Tālvadības ierīces atrašana"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Atskaņojiet signālu, lai atrastu savu Google TV tālvadības ierīci, ja tā ir pazudusi."</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Uz jūsu Google TV ierīces ir poga, ko varat nospiest, lai savā tālvadības ierīcē 30 sekundes atskaņotu signālu. Tas darbojas tikai atbalstītās Google TV tālvadības ierīcēs.\n\nLai apturētu signāla atskaņošanu, nospiediet jebkuru tālvadības ierīces pogu."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kad ir iespējota funkcija “Atrast tālvadības ierīci”, varat atskaņot signālu, lai atrastu savu Google TV tālvadības ierīci, ja tā ir pazudusi."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Kad šis iestatījums ir ieslēgts, varat izmantot savas ierīces pogu, lai atskaņotu signālu un tādējādi atrastu savu tālvadības ierīci. Kad šis iestatījums ir izslēgts, šī poga nedarbosies. Jūs joprojām varēsiet izmantot tālvadības ierīces atrašanas funkciju citos veidos."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Atskaņot signālu"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Fona apgaismojuma režīms"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Katru reizi nospiežot tālvadības ierīces pogu, tiek aktivizēts pogu izgaismojums."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Atbalstītām Google TV tālvadības ierīcēm, nospiežot tālvadības ierīces pogu, tiek aktivizēts fona apgaismojums."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s: skaļums"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Varat kontrolēt Asistenta skaļumu šajā skaļrunī: %1$s"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Attiecas uz skaļumu tikai tālāk norādītajā ierīcē, bet ne televizorā: %1$s"</string>

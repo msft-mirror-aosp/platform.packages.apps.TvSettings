@@ -72,6 +72,10 @@
     <string name="hotwording_title">\"OK Google\" detection</string>
     <!-- Summary for main screen preference for hotwording [CHAR LIMIT=50] -->
     <string name="hotwording_summary">Talk to Google Assistant anytime</string>
+    <!-- Talkback Screen reader service title [CHAR LIMIT=50] -->
+    <string name="screen_reader_service_title">Talkback\u0020(Screen reader)</string>
+    <!-- Summary for Talkback Screen reader service [CHAR LIMIT=NONE] -->
+    <string name="screen_reader_summary">TalkBack is a screen reader accessibility feature that assists visually impaired users by reading aloud on-screen text, menu items and other elements. It can also be set up to use with Accessibility Shortcut.</string>
 
     <!-- Header title for device [CHAR LIMIT=50] -->
     <string name="header_category_device">Device</string>
@@ -119,6 +123,8 @@
     <string name="display_and_sound_category_title">Display &amp; Sound</string>
     <!-- Title for main screen preference for help and feedback [CHAR LIMIT=50] -->
     <string name="help_and_feedback_category_title">Help &amp; Feedback</string>
+    <!-- Optional slice URI to replace built in Help & Feedback -->
+    <string name="help_and_feedback_slice_uri" translatable="false"/>
     <!-- Title for main screen preference for privacy settings [CHAR LIMIT=50] -->
     <string name="privacy_category_title">Privacy</string>
     <!-- Title for device-related privacy settings category [CHAR LIMIT=50] -->
@@ -1774,16 +1780,20 @@
     <string name="accessibility_shortcut_enable">Enable accessibility shortcut</string>
     <!-- Title for accessibility shortcut service choice preference [CHAR LIMIT=50}-->
     <string name="accessibility_shortcut_service">Shortcut service</string>
+    <!-- Title for Keyboard Accessibility [CHAR LIMIT=100] -->
+    <string name="keyboard_accessibility">Keyboard accessibility</string>
     <!-- Description for the accessibility shortcut [CHAR LIMIT=NONE] -->
     <string name="accessibility_shortcut_description">When the shortcut is on, you can press both the back and down buttons for 3 seconds to start an accessibility feature.</string>
-    <!-- Title for accessibility timeout [CHAR LIMIT=50] -->
-    <string name="accessibility_timeout">Time to take action</string>
-    <!-- Title for accessibility timeout [CHAR LIMIT=50] -->
-    <string name="accessibility_timeout_detailed">Time to take action (Accessibility timeout)</string>
+    <!-- Title for accessibility timeout [CHAR LIMIT=100] -->
+    <string name="accessibility_timeout">Time to take action (accessibility timeout)</string>
+    <!-- Summary for accessibility timeout [CHAR LIMIT=NONE] -->
+    <string name="accessibility_timeout_summary">Adjust duration of messages that require action</string>
+    <!-- Summary for accessibility timeout [CHAR LIMIT=NONE] -->
+    <string name="accessibility_timeout_detailed">Choose how long to show temporary messages that asks you to take action</string>
     <!-- Title for accessibility timeout info [CHAR LIMIT=50] -->
-    <string name="accessibility_timeout_info_title">Timing</string>
+    <string name="accessibility_timeout_info_title">Timing : 2\u20133 seconds</string>
     <!-- Description for accessibility timeout info [CHAR LIMIT=50] -->
-    <string name="accessibility_timeout_info_description">This timing preference isn\'t supported by all apps.</string>
+    <string name="accessibility_timeout_info_description">Sets default amount of time to respond to on\u2013screen actions (2\u20133 seconds)</string>
     <!-- Title and description for accessibility captions setting [CHAR LIMIT=50] -->
     <string name="accessibility_captions">Captions</string>
     <!-- Title and description for accessibility captions description [CHAR LIMIT=NONE] -->
@@ -2900,8 +2910,15 @@
     <string name="settings_find_my_remote_description">Play a sound to locate your Google TV remote if it\'s misplaced</string>
     <string name="find_my_remote_slice_description">There is a button on your Google TV that you can push to play a sound on your remote for 30 seconds. This only works with supported Google TV remote controls.\n\nTo stop the sound, press any button on your remote.</string>
     <string name="find_my_remote_integration_title" translatable="false">@string/settings_find_my_remote_title</string>
-    <string name="find_my_remote_integration_hint">When Find my remote is enabled, you can play a sound to locate your Google TV remote if it\'s misplaced.</string>
+    <string name="find_my_remote_integration_hint">When on, you can use the button on your device to play a sound to locate your remote. When off, this button won\'t work. You\'ll still be able to use Find my remote via other methods.</string>
     <string name="find_my_remote_play_sound">Play sound</string>
+
+    <!-- Title for backlight preference [CHAR LIMIT=NONE] -->
+    <string name="settings_backlight_title">Backlight Mode</string>
+    <!-- Description for backlight preference -->
+    <string name="settings_backlight_description">Illumination of the buttons on the remote control upon each press.</string>
+    <string name="backlight_slice_description">On supported Google TV remotes, pressing the button on the remotes activates backlight illumination.</string>
+    <string name="backlight_integration_title" translatable="false">@string/settings_backlight_title</string>
 
     <!-- Title for preference which when clicked lets the user configure volume change -->
     <string name="volume_change_settings_title">%1$s volume</string>

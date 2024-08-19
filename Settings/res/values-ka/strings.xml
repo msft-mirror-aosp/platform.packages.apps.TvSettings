@@ -709,11 +709,19 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"მარტივი წვდომის მალსახმობი"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"მარტივი წვდომის მალსახმობის ჩართვა"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"მალსახმობი სერვისი"</string>
+    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
+    <skip />
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"მალსახმობის ჩართვის შემდეგ მარტივი წვდომის ფუნქციის გაშვებას შეძლებთ ღილაკებზე „უკან“ და „ქვემოთ“ 3 წამის განმავლობაში ერთდროულად დაჭერით."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"მოქმედების დრო"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"მოქმედების დრო (მისაწვდომობის ლოდინის დრო)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"დროების დაყენება"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"დროის ამ პარამეტრს არ აქვს ყველა აპის მხარდაჭერა"</string>
+    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <skip />
+    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"სუბტიტრები"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"დახურული ტიტრების ტექსტის ვიდეოზე გადაფარვის პარამეტრები"</string>
     <string name="captions_display" msgid="2598662495450633375">"ეკრანი"</string>
@@ -805,6 +813,7 @@
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"GPU რენდერის პროფილი"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"კვალის ჩართვა"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"მოქმედებები არ გაგრძელდეს"</string>
+    <string name="system_background_process_limit" msgid="1985373407150771045">"ფონური პროცესების ლიმიტი"</string>
     <string name="system_show_all_anrs" msgid="5353216640638263217">"ყველა ANR-ის ჩვენება"</string>
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"ძილის გამორთვა"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"გამოყენება მხოლოდ DRM კონტენტისთვის"</string>
@@ -1147,8 +1156,11 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"იპოვეთ ჩემი დისტანციური მართვის პულტი"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"დაუკარით ხმა Google TV-ის დისტანციური მართვის პულტის მოსაძებნად, თუ ის დაკარგეთ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"თქვენს Google TV-ზე არის ღილაკი, რომლის დაჭერითაც შეგიძლიათ თქვენს დისტანციური მართვის პულტზე ხმოვანი სიგნალის დაკვრა 30 წამით. ეს ფუნქცია მუშაობს მხოლოდ Google TV-ის მხარდაჭერილი დისტანციური მართვის პულტის მეშვეობით.\n\nხმოვანი სიგნალის შესაჩერებლად დააჭირეთ ნებისმიერ ღილაკს თქვენს დისტანციურ მართვის პულტზე."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"როდესაც ჩართულია „ჩემი დისტანციური მართვის პულტის პოვნა”, შეგიძლიათ დაუკრათ ხმა თქვენი Google TV დისტანციური მართვის პულტის მდებარეობის დასადგენად, თუ კი მას ვერ პოულობთ."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"როდესაც ჩართულია, შეგიძლიათ გამოიყენოთ თქვენს მოწყობილობაზე არსებული ღილაკი ხმის დასაკრავად, რათა იპოვოთ თქვენი დისტანციური მართვის პულტი. გამორთულ მდგომარეობაში ეს ღილაკი არ იმუშავებს. თქვენ კვლავ შეგეძლებათ პულტის პოვნის ფუნქციის გამოყენება სხვა მეთოდებით."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ხმის დაკვრა"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"შენათების რეჟიმი"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"ღილაკების განათება დისტანციური მართვის პულტზე ყოველი დაჭერისას."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Google TV-ის მხარდაჭერილ დისტანციური მართვის პულტებზე ღილაკის დაჭერა ააქტიურებს შენათებას."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ხმა"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"შეგიძლიათ მართოთ ასისტენტის ხმა %1$s დინამიკზე"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"გავლენას ახდენს ხმაზე მხოლოდ %1$s მოწყობილობაზე და არა ტელევიზორზე"</string>
