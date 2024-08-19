@@ -268,7 +268,7 @@
     <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"ଟିଭି, ରିସିଭର୍ ଏବଂ ସାଉଣ୍ଡବାରଗୁଡ଼ିକରେ ଭଲ୍ୟୁମ୍, ପାୱାର, ଇନପୁଟକୁ ନିୟନ୍ତ୍ରଣ କରନ୍ତୁ"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"ସଂଯୋଗ କରନ୍ତୁ"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s ସହ ସଂଯୋଗ କରନ୍ତୁ"</string>
-    <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"ବିଚ୍ଛିନ୍ନ କରନ୍ତୁ"</string>
+    <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"ଡିସକନେକ୍ଟ କରନ୍ତୁ"</string>
     <string name="bluetooth_disconnect_confirm" msgid="1445977623973613581">"%1$sରୁ ବିଚ୍ଛିନ୍ନ କରନ୍ତୁ"</string>
     <string name="bluetooth_rename_action_title" msgid="4200419902722729907">"ଆଉ ଗୋଟିଏ ନାମ ଦିଅନ୍ତୁ"</string>
     <string name="bluetooth_rename" msgid="7791922876280337194">"ଆପଣଙ୍କ ସଂଯୁକ୍ତ ଡିଭାଇସର ଆଉ ଏକ ନାମ ଦିଅନ୍ତୁ"</string>
