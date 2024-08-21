@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"सुझाव खारेज गर्नुहोस्"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"\"Ok Google\" को पहिचान गर्ने सुविधा"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Google सहायकसँग जुनसुकै बेला कुराकानी गर्नुहोस्"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"Talkback (स्क्रिन रिडर)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack भनेको स्क्रिनमा भएका टेक्स्ट, मेनुका वस्तु र अन्य कुराहरू ठुलो स्वरमा पढेर कमजोर दृष्टि भएका वा दृष्टिविहीन प्रयोगकर्ताहरूलाई सहायता प्रदान गर्ने स्क्रिन रिडरसम्बन्धी सर्वसुलभता कायम गर्ने सुविधा हो। यसलाई सेटअप गरेर एक्सेसिबिलिटीको सर्टकटमार्फत पनि प्रयोग गर्न सकिन्छ।"</string>
     <string name="header_category_device" msgid="3023893663454705969">"उपकरण"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"प्राथमिकताहरू"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"रिमोट र एसेसोरिज"</string>
@@ -709,19 +711,13 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"पहुँचको सर्टकट"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"पहुँचको सर्टकटलाई सक्षम पार्नुहोस्"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"सर्टकट सम्बन्धी सेवा"</string>
-    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
-    <skip />
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"किबोर्ड एक्सेसिबिलिटी"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"सर्टकट सक्रिय हुँदा, तपाईं पहुँचसम्बन्धी कुनै सुविधा सुरु गर्न पछाडि र तल नामक दुवै बटनहरूलाई ३ सेकेन्डसम्म थिची राख्न सक्नुहुन्छ।"</string>
-    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
-    <skip />
+    <string name="accessibility_timeout" msgid="6238669374985731114">"कारबाही गर्ने समय (एक्सेसिबिलिटी टाइम आउट)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"कारबाही गर्नु पर्ने म्यासेजहरू देखाउने समय तय गर्नुहोस्"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"तपाईंलाई कारबाही गर्न अनुरोध गर्ने अस्थायी म्यासेजहरू कति समयसम्म देखाउने भन्ने कुरा छनौट गर्नुहोस्"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"समय : २–३ सेकेन्ड"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"स्क्रिनमा देखाइएका कारबाहीहरूका सम्बन्धमा प्रतिक्रिया जनाउन लाग्ने डिफल्ट समय (२–३ सेकेन्ड) सेट गर्छ"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"क्याप्सन"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"भिडियोमा मिलेका क्याप्सन पाठ ओभरलेका लागि सेटिङ्"</string>
     <string name="captions_display" msgid="2598662495450633375">"प्रदर्शन गर्नुहोस्"</string>

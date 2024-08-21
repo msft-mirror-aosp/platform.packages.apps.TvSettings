@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Відхилити пропозицію"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Розпізнавання команди \"Ok Google\""</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Розмовляйте з Google Асистентом будь-коли"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (програма зчитування з екрана)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack – це програма зчитування з екрана, яка допомагає користувачам із вадами зору, озвучуючи текст на екрані, пункти меню й інші елементи. Для неї можна налаштувати активацію засобами швидкого ввімкнення функцій доступності."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Пристрій"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Налаштування"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Дистанційне керування й аксесуари"</string>
@@ -709,19 +711,13 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Швидке ввімкнення"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Швидке ввімкнення"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Швидке ввімкнення сервісу"</string>
-    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
-    <skip />
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Функції доступності клавіатури"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Якщо цю комбінацію кнопок увімкнено, ви можете активувати спеціальні можливості, утримуючи кнопки \"Назад\" і \"Униз\" протягом 3 секунд."</string>
-    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
-    <skip />
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Час очікування для функцій доступності"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Налаштуйте тривалість показу повідомлень, які потребують виконання дії"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Виберіть, як довго показувати тимчасові повідомлення із закликом до дії"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Час: 2–3 секунди"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Визначає час відгуку на дії на екрані за умовчанням (2–3 секунди)"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Субтитри"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Параметри накладання тексту прихованих субтитрів на відео"</string>
     <string name="captions_display" msgid="2598662495450633375">"Показ"</string>

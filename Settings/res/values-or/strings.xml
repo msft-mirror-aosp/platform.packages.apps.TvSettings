@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"ପରାମର୍ଶକୁ ଅଗ୍ରାହ୍ୟ କରନ୍ତୁ"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"\"OK Google\"ର ଚିହ୍ନଟ"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"ଯେକୌଣସି ସମୟରେ Google Assistant ସହ କଥା ହୁଅନ୍ତୁ"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (ସ୍କ୍ରିନ ରିଡର)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack ହେଉଛି ଏକ ସ୍କ୍ରିନ ରିଡର ଆକ୍ସେସିବିଲିଟୀ ଫିଚର ଯାହା ଅନ-ସ୍କ୍ରିନ ଟେକ୍ସଟ, ମେନୁ ଆଇଟମ ଏବଂ ଅନ୍ୟ ଏଲିମେଣ୍ଟଗୁଡ଼ିକୁ ଉଚ୍ଚ ସ୍ୱରରେ ପଢ଼ି ଦୃଷ୍ଟିଶକ୍ତିହୀନ ୟୁଜରମାନଙ୍କୁ ସାହାଯ୍ୟ କରେ। ଆକ୍ସେସିବିଲିଟୀ ସର୍ଟକଟ ସହ ବ୍ୟବହାର କରିବା ପାଇଁ ଏହାକୁ ସେଟ ଅପ ମଧ୍ୟ କରାଯାଇପାରିବ।"</string>
     <string name="header_category_device" msgid="3023893663454705969">"ଡିଭାଇସ୍"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"ପସନ୍ଦ"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"ରିମୋଟ୍ ଓ ଆସେସୋରୀଗୁଡ଼ିକ"</string>
@@ -270,7 +272,7 @@
     <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"ଟିଭି, ରିସିଭର୍ ଏବଂ ସାଉଣ୍ଡବାରଗୁଡ଼ିକରେ ଭଲ୍ୟୁମ୍, ପାୱାର, ଇନପୁଟକୁ ନିୟନ୍ତ୍ରଣ କରନ୍ତୁ"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"ସଂଯୋଗ କରନ୍ତୁ"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"%1$s ସହ ସଂଯୋଗ କରନ୍ତୁ"</string>
-    <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"ବିଚ୍ଛିନ୍ନ କରନ୍ତୁ"</string>
+    <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"ଡିସକନେକ୍ଟ କରନ୍ତୁ"</string>
     <string name="bluetooth_disconnect_confirm" msgid="1445977623973613581">"%1$sରୁ ବିଚ୍ଛିନ୍ନ କରନ୍ତୁ"</string>
     <string name="bluetooth_rename_action_title" msgid="4200419902722729907">"ଆଉ ଗୋଟିଏ ନାମ ଦିଅନ୍ତୁ"</string>
     <string name="bluetooth_rename" msgid="7791922876280337194">"ଆପଣଙ୍କ ସଂଯୁକ୍ତ ଡିଭାଇସର ଆଉ ଏକ ନାମ ଦିଅନ୍ତୁ"</string>
@@ -709,19 +711,13 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"ଆକ୍ସେସିବିଲିଟୀ ସର୍ଟକଟ୍‌"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ଆକ୍ସେସବିଲିଟୀ ସର୍ଟକଟ୍‍ ସକ୍ଷମ କରନ୍ତୁ"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ସର୍ଟକଟ୍‌ ସେବା"</string>
-    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
-    <skip />
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"କୀବୋର୍ଡ ଆକ୍ସେସିବିଲିଟୀ"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"ସର୍ଟକଟ୍‌ ଚାଲୁ ଥିବା ବେଳେ, ଆକ୍ସେସିବିଲିଟୀ ଫିଚର୍ ଆରମ୍ଭ କରିବାକୁ ଆପଣ 3 ସେକେଣ୍ଡ ପାଇଁ ଉଭୟ ବ୍ୟାକ୍‌ ଏବଂ ଡାଉନ୍‌ ବଟନ୍‌ ଦବାଇ ପାରିବେ।"</string>
-    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
-    <skip />
+    <string name="accessibility_timeout" msgid="6238669374985731114">"ପଦକ୍ଷେପ ନେବାର ସମୟ (ଆକ୍ସେସିବିଲିଟୀ ସମୟ ସମାପ୍ତି)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"ପଦକ୍ଷେପ ଆବଶ୍ୟକ କରୁଥିବା ମେସେଜଗୁଡ଼ିକର ଅବଧି ଆଡଜଷ୍ଟ କରନ୍ତୁ"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"ଆପଣଙ୍କୁ ପଦକ୍ଷେପ ନେବା ପାଇଁ କହୁଥିବା ଅସ୍ଥାୟୀ ମେସେଜଗୁଡ଼ିକ କେତେ ସମୟ ଦେଖାଯିବ ତାହା ବାଛନ୍ତୁ"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"ସମୟ : 2–3 ସେକେଣ୍ଡ"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"ଅନ-ସ୍କ୍ରିନ ପଦକ୍ଷେପ ପାଇଁ ଡିଫଲ୍ଟ ଉତ୍ତର ଦେବା ସମୟ ସେଟ କରେ (2–3 ସେକେଣ୍ଡ)"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"କ୍ୟାପସନ୍‌"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ଭିଡିଓରେ ବନ୍ଦ ହୋଇଥିବା କ୍ୟାପସନ ଟେକ୍ସଟ ଓଭରଲେ ପାଇଁ ସେଟିଂସ"</string>
     <string name="captions_display" msgid="2598662495450633375">"ଡିସ୍‌ପ୍ଲେ"</string>
