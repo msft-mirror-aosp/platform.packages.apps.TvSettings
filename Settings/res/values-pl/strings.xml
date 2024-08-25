@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Odrzuć sugestię"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Wykrywanie „OK Google”"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"W dowolnej chwili porozmawiaj z Asystentem Google"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (czytnik ekranu)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack to funkcja ułatwień dostępu, która pomaga osobom z wadami wzroku w obsłudze czytnika ekranu, czytając na głos tekst na ekranie, pozycje menu i inne elementy. Możesz też skonfigurować obsługiwanie jej za pomocą skrótu ułatwień dostępu."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Urządzenie"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Ustawienia"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Pilot i akcesoria"</string>
@@ -709,19 +711,13 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Skrót ułatwień dostępu"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Włącz skrót ułatwień dostępu"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Usługa skrótu"</string>
-    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
-    <skip />
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Ułatwienia dostępu z klawiatury"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Gdy skrót jest włączony, możesz przytrzymać naciśnięte przyciski wstecz i w dół przez trzy sekundy, by uruchomić funkcję ułatwień dostępu."</string>
-    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
-    <skip />
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Czas na działanie (limit czasu ułatwień dostępu)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Dostosuj czas wyświetlania komunikatów wymagających działania"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Wybierz, jak długo mają być pokazywane komunikaty z prośbą o wykonanie jakiegoś działania"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Czas: 2–3 sekundy"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Ustawia domyślny czas reakcji na działania na ekranie (2–3 s)"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Napisy"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Ustawienia napisów nałożonych na film"</string>
     <string name="captions_display" msgid="2598662495450633375">"Wyświetlanie"</string>
