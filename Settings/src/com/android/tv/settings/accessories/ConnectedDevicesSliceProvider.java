@@ -582,9 +582,6 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
 
     private void updateBacklight(PreferenceSliceBuilder psb) {
         Context context = getContext();
-        if (!context.getResources().getBoolean(R.bool.config_backlight_integration_enabled)) {
-            return;
-        }
 
         List<ResolveInfo> receivers = getContext().getPackageManager().queryBroadcastReceivers(
                 new Intent(ACTION_BACKLIGHT), 0);
@@ -741,36 +738,35 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
     private Slice createBacklightSlice(Uri sliceUri) {
         Context context = getContext();
         final PreferenceSliceBuilder psb = new PreferenceSliceBuilder(context, sliceUri);
-        if (context.getResources().getBoolean(R.bool.config_backlight_integration_enabled)) {
-            psb.addScreenTitle(new RowBuilder()
-                    .setTitle(getString(R.string.settings_backlight_title))
-                    .setSubtitle(getString(R.string.backlight_slice_description)));
+        psb.addScreenTitle(new RowBuilder()
+                .setTitle(getString(R.string.settings_backlight_title))
+                .setSubtitle(getString(R.string.backlight_slice_description)));
 
-            final String[] backlightModes =
-                    context.getResources().getStringArray(R.array.backlight_modes);
-            final String[] backlightKeys =
-                    context.getResources().getStringArray(R.array.backlight_keys);
-            final String[] backlightHints =
-                    context.getResources().getStringArray(R.array.backlight_hints);
+        final String[] backlightModes =
+                context.getResources().getStringArray(R.array.backlight_modes);
+        final String[] backlightKeys =
+                context.getResources().getStringArray(R.array.backlight_keys);
+        final String[] backlightHints =
+                context.getResources().getStringArray(R.array.backlight_hints);
 
-            for (int i = 0; i < backlightModes.length; i++) {
-                final boolean isChecked = getBacklightMode(context) == i;
+        for (int i = 0; i < backlightModes.length; i++) {
+            final boolean isChecked = getBacklightMode(context) == i;
 
-                final RowBuilder backlightModeRow =
-                        new RowBuilder()
-                                .setKey(backlightKeys[i])
-                                .setTitle(backlightModes[i])
-                                .setInfoTitleIcon(IconCompat.createWithResource(
-                                        context, R.drawable.ic_play_arrow))
-                                .setInfoTitle(backlightModes[i])
-                                .setInfoSummary(backlightHints[i])
-                                .setRadioGroup(KEY_BACKLIGHT_RADIO_GROUP)
-                                .addRadioButton(
-                                        getBacklightModeIntent(context, sliceUri, backlightKeys[i]),
-                                        isChecked);
-                psb.addPreference(backlightModeRow);
-            }
+            final RowBuilder backlightModeRow =
+                    new RowBuilder()
+                            .setKey(backlightKeys[i])
+                            .setTitle(backlightModes[i])
+                            .setInfoTitleIcon(IconCompat.createWithResource(
+                                    context, R.drawable.ic_play_arrow))
+                            .setInfoTitle(backlightModes[i])
+                            .setInfoSummary(backlightHints[i])
+                            .setRadioGroup(KEY_BACKLIGHT_RADIO_GROUP)
+                            .addRadioButton(
+                                    getBacklightModeIntent(context, sliceUri, backlightKeys[i]),
+                                    isChecked);
+            psb.addPreference(backlightModeRow);
         }
+
         return psb.build();
     }
 }
