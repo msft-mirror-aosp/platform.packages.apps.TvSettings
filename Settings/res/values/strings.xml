@@ -2702,6 +2702,9 @@
     <!-- Slice uri for "Channels & Inputs" -->
     <string name="channels_and_inputs_slice_uri" translatable="false"/>
 
+    <!-- Slice uri for "Channels & Inputs" (fallback if not overridden) -->
+    <string name="channels_and_inputs_fallback_slice_uri" translatable="false"/>
+
     <!-- Slice uri for "Connected devices" -->
     <string name="connected_devices_slice_uri" translatable="false"/>
     <string name="cec_settings_slice_uri" translatable="false"/>
