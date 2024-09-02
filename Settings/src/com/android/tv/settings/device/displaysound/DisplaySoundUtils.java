@@ -17,7 +17,6 @@
 package com.android.tv.settings.device.displaysound;
 
 import static android.view.Display.HdrCapabilities.HDR_TYPE_DOLBY_VISION;
-import static android.view.Display.HdrCapabilities.HDR_TYPE_INVALID;
 
 import android.annotation.Nullable;
 import android.app.AlertDialog;
@@ -133,24 +132,16 @@ public class DisplaySoundUtils {
                 .create();
     }
 
-    static void enableHdrType(DisplayManager displayManager,
-            @Display.HdrCapabilities.HdrType int hdrType) {
+    static void enableHdrType(DisplayManager displayManager, int hdrType) {
         Set<Integer> disabledHdrTypes = toSet(displayManager.getUserDisabledHdrTypes());
         disabledHdrTypes.remove(hdrType);
         displayManager.setUserDisabledHdrTypes(toArray(disabledHdrTypes));
     }
 
-    static void disableHdrType(DisplayManager displayManager,
-            @Display.HdrCapabilities.HdrType int hdrType) {
+    static void disableHdrType(DisplayManager displayManager, int hdrType) {
         Set<Integer> disabledHdrTypes = toSet(displayManager.getUserDisabledHdrTypes());
         disabledHdrTypes.add(hdrType);
         displayManager.setUserDisabledHdrTypes(toArray(disabledHdrTypes));
-    }
-
-    /** Returns true when Preferred Dynamic Range is set to Force SDR */
-    static boolean isForceSdr(DisplayManager displayManager) {
-        return displayManager.getHdrConversionModeSetting().equals(new HdrConversionMode(
-                HdrConversionMode.HDR_CONVERSION_FORCE, HDR_TYPE_INVALID));
     }
 
     /** Converts set to int array */
