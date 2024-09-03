@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Respinge sugestia"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Detectare „Ok Google”"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Vorbește oricând cu Asistentul Google"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (Cititor de ecran)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack este o funcție de accesibilitate pentru cititorul de ecran care ajută utilizatorii cu deficiențe de vedere, citind cu voce tare textul de pe ecran, elementele de meniu și alte elemente. Poate fi configurată și pentru a o folosi cu Comanda rapidă de accesibilitate."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Dispozitiv"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Preferințe"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Telecomandă și accesorii"</string>
@@ -709,11 +711,13 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Comandă rapidă pentru accesibilitate"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Activează comanda rapidă pentru accesibilitate"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Serviciul comenzii rapide"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Accesibilitatea tastaturii"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Când comanda rapidă este activată, dacă apeși ambele butoane înapoi și în jos timp de 3 secunde, vei lansa o funcție de accesibilitate."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Timp de reacție"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Timp de reacție (timp limită de accesibilitate)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Timp"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Această preferință pentru durată nu e acceptată de toate aplicațiile"</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Timp de reacție (timp limită de accesibilitate)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Ajustează durata mesajelor care necesită acțiune"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Alege durata de afișare a mesajelor temporare care îți cer să acționezi"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Timp: 2 – 3 secunde"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Setează intervalul prestabilit de timp pentru a răspunde la acțiunile de pe ecran (2 – 3 secunde)"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Subtitrări"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Setări pentru suprapunerea textului subtitrării pe videoclip"</string>
     <string name="captions_display" msgid="2598662495450633375">"Afișare"</string>
@@ -1150,6 +1154,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Există un buton pe Google TV pe care îl poți apăsa ca să redai un sunet pe telecomandă timp de 30 de secunde. Opțiunea funcționează numai pentru telecomenzile Google TV acceptate.\n\nCa să oprești sunetul, apasă orice buton de pe telecomandă."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Când opțiunea este activată, poți folosi butonul dispozitivului ca să redai un sunet pentru a găsi telecomanda. Când opțiunea este dezactivată, butonul nu va funcționa. Vei putea în continuare să folosești funcția Găsește-mi telecomanda prin alte metode."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Redă sunetul"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Modul Iluminare din spate"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Iluminarea butoanelor de pe telecomandă la fiecare apăsare."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"La telecomenzile Google TV compatibile, apăsarea butonului de pe telecomandă activează iluminarea din spate."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Volumul pentru %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Poți controla volumul Asistentului la difuzorul %1$s"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Afectează numai volumul dispozitivului %1$s, nu și al televizorului"</string>
