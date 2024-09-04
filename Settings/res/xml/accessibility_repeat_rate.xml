@@ -16,17 +16,12 @@
   -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:custom="http://schemas.android.com/apk/res-auto"
-    android:key="accessibility_keyboard_screen"
-    android:title="@string/keyboard_accessibility">
+    android:title="@string/accessibility_repeat_rate"
+    android:summary="@string/accessibility_repeat_rate_summary">
     <Preference
-        android:key="accessibility_timeout"
-        android:title="@string/accessibility_timeout"
-        android:summary="@string/accessibility_timeout_summary"
-        android:fragment="com.android.tv.settings.accessibility.AccessibilityTimeoutFragment" />
-    <Preference
-        android:key="accessibility_key_repeat"
-        android:title="@string/accessibility_key_repeat_delay"
-        android:summary="@string/accessibility_key_repeat_delay_summary"
-        android:fragment="com.android.tv.settings.accessibility.AccessibilityKeyRepeatFragment" />
+        android:key="accessibility_repeat_rate_subtitle"
+        android:title="@string/accessibility_repeat_rate_summary"
+        android:selectable="false"
+        />
+
 </PreferenceScreen>
