@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‎‏‏‏‏‏‏‎‎‎‎‏‎‏‎‎‏‏‎‎‎‎‏‎‎‏‏‏‎‏‏‎‏‏‏‎‏‏‎‎‎‎‏‎‎‎‎‏‏‎‎‎‎‎‏‎‏‎‏‏‏‎0.5‎‏‎‎‏‎"</item>
     <item msgid="4571900814286671092">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‏‏‏‏‏‎‏‏‏‎‎‏‎‏‎‏‎‎‏‏‏‏‎‎‏‎‎‎‏‎‏‎‎‏‏‏‏‏‏‏‎‎‎‎‎‎‏‎‎‏‏‎‎‏‏‏‏‎‏‎‎‎0.8‎‏‎‎‏‎"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‎‏‏‎‏‏‎‏‎‎‏‎‏‏‏‏‎‎‏‎‎‏‏‏‏‏‏‏‏‎‏‎‏‏‎‏‎‏‎‏‏‎‎‏‏‎‎‎‎‎‎‎‏‏‏‎‏‎‎‎‎‎Never‎‏‎‎‏‎"</item>
+    <item msgid="3256715108348109595">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‎‏‎‏‏‎‏‎‎‏‏‎‎‏‎‎‎‏‎‏‏‎‏‎‎‏‎‎‎‏‎‏‏‎‏‏‏‏‏‏‎‏‏‏‏‎‎‏‎‏‎‎‎‏‏‎‎‎‏‏‎‏‏‎Standard‎‏‎‎‏‎"</item>
+    <item msgid="5517658202197894866">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‎‏‏‎‎‏‎‎‏‎‎‏‎‏‎‏‎‏‎‎‎‏‏‏‎‎‏‏‎‏‎‏‎‏‏‏‎‎‎‎‎‎‏‏‎‏‎‏‎‎‏‏‎‏‏‎‏‎‎‏‎‎Scheduled‎‏‎‎‏‎"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‏‏‏‎‎‏‏‎‏‎‎‏‏‎‏‏‏‎‎‏‎‎‎‏‎‏‎‏‎‏‎‎‏‎‏‎‎‎‎‏‎‎‎‏‏‎‏‎‏‎‏‏‎‏‎‎‏‎‎‏‏‎‎The backlight will not illuminate with each press.‎‏‎‎‏‎"</item>
+    <item msgid="62911590277354399">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‎‎‎‏‏‎‏‏‏‏‏‏‎‎‎‎‎‎‏‏‏‎‎‎‎‏‎‎‎‎‎‏‏‏‎‏‎‏‏‏‏‎‎‏‎‎‏‎‎‏‏‏‎‎‏‏‏‏‏‎The backlight will illuminate with each press. The illumination will last for 5 seconds each time it is activated.‎‏‎‎‏‎"</item>
+    <item msgid="5334296639506784894">"‎‏‎‎‎‎‎‏‎‏‏‏‎‎‎‎‎‏‏‏‏‎‏‎‎‏‎‏‏‏‏‏‏‏‎‎‏‎‏‎‎‎‎‎‎‏‏‏‎‎‏‏‏‎‏‎‏‎‎‎‏‎‎‎‎‎‎‎‎‏‎‎‎‏‎‏‏‏‎‎‏‎‏‎‎‎‏‎‎‏‏‏‏‏‏‎‎The backlight will illuminate with each press only during nighttime hours(6pm~6am). The illumination will last for 5 seconds each time it is activated.‎‏‎‎‏‎"</item>
+  </string-array>
 </resources>

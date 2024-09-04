@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Одбаците предлог"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Откривање фразе „Oк Google“"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Разговарајте са Google помоћником у било ком трен."</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (читач екрана)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack је функција приступачности читача екрана која помаже корисницима са оштећењем вида тако што наглас чита текст на екрану, ставке менија и друге елементе. Може да се подеси и тако да се користи са пречицом за приступачност."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Уређај"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Подешавања"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Даљински управљач и додатна опрема"</string>
@@ -709,11 +711,13 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Пречица за приступачност"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Омогући пречицу за приступачност"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Услуга пречице"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Приступачност тастатуре"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Када је пречица укључена, можете да притиснете дугме Назад и дугме са стрелицом надоле и да их задржите 3 секунде да бисте покренули функцију приступачности."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Време за реаговање"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Период за реаговање (ограничење за приступачност)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Време"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Неке апликације не подржавају подешавања времена"</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Период за реаговање (временско ограничење за приступачност)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Прилагодите трајање порука на које треба да се реагује"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Одаберите колико дуго ће се приказивати поруке које траже да реагујете"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Време: 2–3 секунде"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Подешава подразумевано време за реаговање на радње на екрану (2–3 секунде)"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Титл"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Подешавања за постављање текста опционалног титла преко видео снимка"</string>
     <string name="captions_display" msgid="2598662495450633375">"Екран"</string>
@@ -1150,6 +1154,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"На Google TV-у постоји дугме које можете да притиснете како бисте на даљинском пустили звук у трајању од 30 секунди. То функционише само на подржаним даљинским управљачима за Google TV.\n\nДа бисте зауставили овај звук, притисните било које дугме на даљинском."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Када је ова опција укључена, помоћу дугмета на уређају можете да пустите звук како бисте пронашли даљински. Када је искључена, ово дугме не функционише. Ипак ћете моћи да користите функцију Нађи даљински помоћу других метода."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Пусти звук"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Режим позадинског осветљења"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Дугмад на даљинском управљачу светли за сваки притисак."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"На подржаним даљинским управљачима за Google TV, притискање дугмета на даљинском активира позадинско осветљење."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Јачина звука: %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Можете да контролишете јачину звука за Помоћник на %1$s звучнику"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Утиче на звук само на %1$s уређају, не на ТВ-у"</string>

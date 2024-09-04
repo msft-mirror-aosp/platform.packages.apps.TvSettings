@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Odmietnuť návrh"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Rozpoznanie výrazu „Ok Google“"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Oslovte Asistenta Google kedykoľvek"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"Talkback (čítačka obrazovky)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack je čítačka obrazovky v rámci funkcie dostupnosti, ktorá pomáha zrakovo postihnutým používateľom tak, že číta nahlas text, položky ponuky a ďalšie prvky na obrazovke. Dá sa nastaviť aj na používanie so skratkou dostupnosti."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Zariadenie"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Predvoľby"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Diaľkové ovládanie a príslušenstvo"</string>
@@ -709,11 +711,13 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Skratka dostupnosti"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Povoliť skratku dostupnosti"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Služba ovládaná skratkou"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Dostupnosť klávesnice"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Keď je skratka zapnutá, funkciu dostupnosti môžete spustiť tým, že na tri sekundy podržíte tlačidlá späť a nadol."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Čas na reakciu"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Čas na reakciu (časový limit dostupnosti)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Čas"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Túto predvoľbu podporujú len niektoré aplikácie."</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Čas na reakciu (časový limit dostupnosti)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Upravte trvanie správ vyžadujúcich akciu"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Vyberte, ako dlho sa majú zobrazovať dočasné správy s výzvami na akciu"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Časovanie: 2 – 3 sekundy"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Nastavte predvolený čas reakcie na akcie na obrazovke (2 – 3 sekundy)"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Titulky"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Nastavenia textového prekrytia videa skrytými titulkami"</string>
     <string name="captions_display" msgid="2598662495450633375">"Zobrazovať"</string>
@@ -750,7 +754,7 @@
     <string name="color_blue" msgid="7681690245150985958">"Modrá"</string>
     <string name="color_cyan" msgid="3172130225116530998">"Azúrová"</string>
     <string name="color_yellow" msgid="3519470952904560404">"Žltá"</string>
-    <string name="color_magenta" msgid="2377854703399624607">"Purpurová"</string>
+    <string name="color_magenta" msgid="2377854703399624607">"Magentová"</string>
     <string name="accessibility_toggle_audio_description_preference_title" msgid="933923296129403548">"Zvukový opis"</string>
     <string name="accessibility_audio_description_summary" msgid="2027813223650517036">"Vypočujte si opis toho, čo sa deje na obrazovke v podporovaných filmoch a reláciách"</string>
     <string name="system_accessibility_status" msgid="8504842254080682515">"Zapnúť"</string>
@@ -1150,6 +1154,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na zariadení so službou Google TV je tlačidlo, ktorého stlačením prehráte 30‑sekundový zvuk v diaľkovom ovládaní. Funguje to len s podporovanými diaľkovými ovládaniami Google TV.\n\nAk chcete zvuk zastaviť, stlačte ľubovoľné tlačidlo na diaľkovom ovládaní."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Keď je táto možnosť zapnutá, pomocou príslušného tlačidla na zariadení môžete prehrať zvuk a nájsť tak svoje diaľkové ovládanie. Keď je vypnutá, toto tlačidlo nefunguje. Funkciu nájdenia ovládania budete môcť stále používať inými spôsobmi."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Prehrávanie zvuku"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Režim podsvietenia"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Aktivácia podsvietenia tlačidiel diaľkového ovládania po každom stlačení."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Po stlačení tlačidla na podporovaných diaľkových ovládaniach zariadení Google TV sa rozsvieti podsvietenie."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Hlasitosť na úrovni %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Pomocou Asistenta môžete ovládať hlasitosť reproduktora %1$s"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Ovplyvní iba hlasitosť zariadenia %1$s, nie televízora"</string>
