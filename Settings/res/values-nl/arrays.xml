@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Nooit"</item>
+    <item msgid="3256715108348109595">"Standaard"</item>
+    <item msgid="5517658202197894866">"Gepland"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"De achtergrondverlichting gaat niet elke keer aan als op de knop wordt ingedrukt."</item>
+    <item msgid="62911590277354399">"De achtergrondverlichting gaat elke keer aan als op de knop wordt ingedrukt. De verlichting gaat telkens 5 seconden aan."</item>
+    <item msgid="5334296639506784894">"De achtergrondverlichting gaat alleen elke keer aan als op de knop wordt gedrukt in de avond en nacht (18:00 - 06:00 uur). De verlichting gaat telkens 5 seconden aan."</item>
+  </string-array>
 </resources>
