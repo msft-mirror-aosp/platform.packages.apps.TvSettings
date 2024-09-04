@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Inoiz ez"</item>
+    <item msgid="3256715108348109595">"Arrunta"</item>
+    <item msgid="5517658202197894866">"Programatuta"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"Hondoko argia ez da piztuko sakatze duzun aldiro."</item>
+    <item msgid="62911590277354399">"Sakatzen duzun aldiro piztuko da hondoko argia. Argiztapenak 5 segundo iraungo ditu aktibatzen den bakoitzean."</item>
+    <item msgid="5334296639506784894">"Sakatzen duzun aldiro piztuko da hondoko argia, gaueko orduetan soilik (18:00-06:00). Argiztapenak 5 segundo iraungo ditu aktibatzen den bakoitzean."</item>
+  </string-array>
 </resources>

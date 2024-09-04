@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Ignora il suggerimento"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Rilevamento di \"Ok Google\""</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Parla con l\'Assistente Google quando vuoi"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (screen reader)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack è una funzione di accessibilità dello screen reader che aiuta gli utenti con disabilità visiva leggendo ad alta voce testi, voci di menu e altri elementi visualizzati sullo schermo. Può essere configurata anche per l\'utilizzo con la scorciatoia di accessibilità."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Dispositivo"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Preferenze"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Telecomando e accessori"</string>
@@ -709,11 +711,13 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Scorciatoia Accessibilità"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Abilita scorciatoia Accessibilità"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Servizio scorciatoia"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Accessibilità della tastiera"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Quando è attiva la scorciatoia, premi i pulsanti indietro e giù per 3 secondi per avviare una funzione di accessibilità."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Tempo per agire"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Tempo per agire (timeout Accessibilità)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Durata"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Preferenza di tempo non supportata da ogni app."</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Tempo per compiere un\'azione (timeout accessibilità)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Regola la durata dei messaggi che richiedono un\'azione"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Scegli per quanto tempo mostrare i messaggi temporanei che ti chiedono di compiere un\'azione"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Durata: 2-3 secondi"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Imposta il tempo predefinito per rispondere alle azioni sullo schermo (2-3 secondi)"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Sottotitoli"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Impostazioni per la sovrapposizione del testo dei sottotitoli sul video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Visualizzazione"</string>
@@ -1150,6 +1154,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Puoi premere un pulsante su Google TV che farà emettere un suono al telecomando per 30 secondi. Questa opzione è disponibile solo sui telecomandi di Google TV supportati.\n\nPer interrompere il suono, premi qualsiasi tasto del telecomando."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Se l\'impostazione è attivata, potrai usare il pulsante sul dispositivo per riprodurre un suono che ti aiuterà a trovare il telecomando. Se è disattivata, il pulsante non funzionerà. Potrai comunque usare Trova il telecomando con altri metodi."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Riproduci suono"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Modalità di retroilluminazione"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Illuminazione dei tasti del telecomando a ogni pressione."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Sui telecomandi Google TV supportati, premendo il pulsante sul telecomando si attiva la retroilluminazione."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume: %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Puoi controllare il volume dell\'assistente su %1$s speaker"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Influisce sul volume solo su %1$s dispositivo, non sulla TV"</string>
