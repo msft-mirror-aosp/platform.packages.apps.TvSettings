@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Ignorera det här förslaget"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Identifiering av ”Ok Google”"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Prata med Google-assistenten när som helst"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (skärmläsare)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack är en tillgänglighetsfunktion i form av en skärmläsare som hjälper synskadade användare genom att läsa upp text, menyalternativ och andra element på skärmen. Den kan också konfigureras så att den kan användas med genväg till tillgänglighetsfunktioner."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Enhet"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Inställningar"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Fjärrkontroll och tillbehör"</string>
@@ -709,11 +711,13 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Aktivera tillgänglighet snabbt"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Använd Aktivera tillgänglighet snabbt"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Tjänst för kortkommando"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Tangentbordsåtkomst"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"När kortkommandot är aktiverat kan du starta en tillgänglighetsfunktion genom att hålla tillbaka- och nedåtknapparna nedtryckta samtidigt i tre sekunder."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Väntetid för åtgärd"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Väntetid för åtgärd (tillgänglighetstidsgräns)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Tid"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Tidsinställningen stöds inte i alla appar."</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Väntetid för åtgärd (tillgänglighetstidsgräns)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Justera hur länge meddelanden som kräver åtgärd ska visas"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Välj hur länge tillfälliga meddelanden som ber dig att vidta en åtgärd ska visas"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Tidsgräns: 2–3 sekunder"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Ställer in standardtiden för svar för skärmåtgärder (2–3 sek)"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Textning"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Inställningar för textning i video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Visa"</string>
@@ -1150,6 +1154,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Det finns en knapp på din Google TV som du kan trycka på för att spela upp ett ljud på fjärrkontrollen under 30 sekunder. Detta fungerar bara med Google TV-fjärrkontroller som stöds.\n\nStäng av ljudet genom att trycka på valfri knapp på fjärrkontrollen."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"När funktionen är aktiverad kan du trycka på knappen på enheten för att spela upp ett ljud så du kan hitta fjärrkontrollen. Knappen fungerar inte om funktionen är inaktiverad. Du kan fortfarande använda Hitta min fjärrkontroll på andra sätt."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spela upp ljud"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Läge med bakgrundsbelysning"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Knapparna på fjärrkontrollen lyser vid varje tryckning."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Bakgrundsbelysningen aktiveras vid tryck på knappen på Google TV-fjärrkontroller som stöds."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volym"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Du kan styra volymen för assistenten på %1$s högtalare"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Påverkar bara volymen på %1$s enhet, inte på tv:n"</string>
