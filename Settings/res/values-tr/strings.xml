@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Öneriyi kapat"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"\"Ok Google\" algılaması"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"İstediğiniz zaman Google Asistan\'la konuşun"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (Ekran okuyucu)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack; ekrandaki metinleri, menü öğelerini ve diğer öğeleri sesli okuyarak görme engelli kullanıcılara yardımcı olan bir ekran okuyucu erişilebilirlik özelliğidir. Ayrıca, erişilebilirlik kısayoluyla kullanılacak şekilde ayarlanabilir."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Cihaz"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Tercihler"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Uzaktan Kumanda ve Aksesuarlar"</string>
@@ -709,11 +711,13 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Erişilebilirlik kısayolu"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Erişilebilirlik kısayolunu etkinleştir"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Kısayol hizmeti"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Klavye erişilebilirliği"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kısayol açıkken erişilebilirlik özelliğini başlatabilmek için geri ve aşağı düğmelerine 3 saniye süreyle basabilirsiniz."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"İşlem yapma süresi"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"İşlem yapma süresi (Erişilebilirlik zaman aşımı)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Zamanlama"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Bu zamanlama tercihi bazı uygulamalarda desteklenmez."</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"İşlem yapma süresi (erişilebilirlik zaman aşımı)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"İşlem gerektiren mesajların süresini ayarlayın"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"İşlem yapmanızı isteyen ancak geçici olarak görüntülenen mesajların ne kadar süre gösterileceğini seçin"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Süre: 2-3 saniye"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Ekrandaki işlemlere yanıt vermek için varsayılan süreyi ayarlar (2-3 saniye)"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Altyazılar"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Video üzerinde altyazı metni yer paylaşımı için ayarlar"</string>
     <string name="captions_display" msgid="2598662495450633375">"Görüntüleme"</string>
@@ -1150,6 +1154,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV\'nizde, uzaktan kumandanızda 30 saniye boyunca ses çalmak için basabileceğiniz bir düğme mevcuttur. Bu işlem yalnızca desteklenen Google TV uzaktan kumandalarında çalışır.\n\nSes çalmayı durdurmak için uzaktan kumandanızda herhangi bir düğmeye basın."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Etkinleştirildiğinde ses çalarak uzaktan kumandanızı bulmak için cihazınızdaki düğmeyi kullanabilirsiniz. Devre dışı bırakıldığında bu düğme çalışmaz. Uzaktan kumandamı bul özelliğini başka yöntemlerle kullanmaya devam edebilirsiniz."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Ses çaldır"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Arka Işık Modu"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Uzaktan kumandadaki düğmelerin her basıldığında yanması."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Desteklenen Google TV uzaktan kumandalarında düğmeye basıldığında arka ışık aydınlatması etkinleşir."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ses düzeyi"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s hoparlöründe Asistan\'ın ses düzeyin kontrol edebilirsiniz"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Yalnızca %1$s cihazının ses düzeyini etkiler, TV\'nin sesini etkilemez"</string>

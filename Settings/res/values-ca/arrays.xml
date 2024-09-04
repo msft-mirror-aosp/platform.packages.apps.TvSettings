@@ -101,4 +101,14 @@
     <item msgid="3441480529755779159">"0,5"</item>
     <item msgid="4571900814286671092">"0,8"</item>
   </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"Mai"</item>
+    <item msgid="3256715108348109595">"Estàndard"</item>
+    <item msgid="5517658202197894866">"Programat"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"La retroil·luminació no s\'il·luminarà amb cada pulsació."</item>
+    <item msgid="62911590277354399">"La retroil·luminació s\'il·luminarà amb cada pulsació. La il·luminació durarà 5 segons cada vegada que s\'activi."</item>
+    <item msgid="5334296639506784894">"La retroil·luminació s\'il·luminarà amb cada pulsació només durant la nit (18:00-6:00). La il·luminació durarà 5 segons cada vegada que s\'activi."</item>
+  </string-array>
 </resources>
