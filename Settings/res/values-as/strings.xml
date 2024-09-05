@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"পৰামৰ্শ বাতিল কৰক"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"\"OK Google\" চিনাক্তকৰণ"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"যিকোনো সময়তে Google Assistantৰ সৈতে কথা পাতক"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"Talkback (স্ক্ৰীন ৰীডাৰ)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack হৈছে এটা স্ক্ৰীন ৰীডাৰ সাধ্য সুবিধা যিয়ে দৃষ্টিগতভাৱে দিব্যাংগ ব্যৱহাৰকাৰীক স্ক্ৰীনৰ পাঠ, মেনুত থকা বস্তু আৰু অন্য উপাদান ডাঙৰকৈ পঢ়ি দি সহায় কৰে। এইটোক সাধ্য সুবিধাৰ শ্বৰ্টকাটৰ সৈতে ব্যৱহাৰ কৰিবলৈও ছেট আপ কৰিব পাৰি।"</string>
     <string name="header_category_device" msgid="3023893663454705969">"ডিভাইচ"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"অগ্ৰাধিকাৰসমূহ"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"ৰিম’ট আৰু আনুষংগিক সামগ্ৰী"</string>
@@ -709,19 +711,13 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"সাধ্য সুবিধাসমূহৰ শ্বৰ্টকাট"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"সাধ্য সুবিধাৰ শ্বৰ্টকাট সক্ষম কৰক"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"শ্বৰ্টকাট সেৱা"</string>
-    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
-    <skip />
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"কীব’ৰ্ডৰ সাধ্য সুবিধা"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"শ্বৰ্টকাট অন হৈ থকাৰ সময়ত, আপুনি সাধ্য় সুবিধাসমূহ আৰম্ভ কৰিবলৈ বেক আৰু ডাউন দুয়োটা বুটাম ৩ ছেকেণ্ডৰ বাবে হেঁচি ৰাখিব পাৰে৷"</string>
-    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
-    <skip />
-    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
-    <skip />
+    <string name="accessibility_timeout" msgid="6238669374985731114">"কাৰ্যব্যৱস্থা গ্ৰহণ কৰাৰ সময় (সাধ্য সুবিধাৰ সময় উকলা)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"কাৰ্যব্যৱস্থা গ্ৰহণ কৰিব লগা বার্তাৰ সময় অৱধি মিলাওক"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"আপোনাক কোনো কাৰ্যব্যৱস্থা গ্ৰহণ কৰিবলৈ কোৱা অস্থায়ী বাৰ্তা কিমান সময় প্ৰদৰ্শন কৰিব খোজে সেয়া বাছনি কৰক"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"সময় : ২–৩ ছেকেণ্ড"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"স্ক্ৰীনৰ কার্যৰ প্ৰতি সঁহাৰি জনাবলৈ ডিফ\'ল্ট সময়ৰ পৰিমাণ ছেট কৰে (২–৩ ছেকেণ্ড)"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"কেপশ্বনসমূহ"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ভিডিঅ\'ত ক্ল\'জ্ড কেপশ্বনিং পাঠ অভাৰলে\'ৰ ছেটিংসমূহ"</string>
     <string name="captions_display" msgid="2598662495450633375">"ডিছপ্লে’"</string>
