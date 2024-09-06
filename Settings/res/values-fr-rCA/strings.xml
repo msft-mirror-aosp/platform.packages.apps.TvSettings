@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Ignorer la suggestion"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Détection du mot clé « Ok Google »"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Parler à l\'Assistant Google en tout temps"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (lecteur d\'écran)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack est une fonctionnalité d\'accessibilité de lecteur d\'écran qui aide les utilisateurs ayant une déficience visuelle en lisant à voix haute le texte à l\'écran, les éléments de menu et d\'autres éléments. Elle peut également être configurée pour être utilisée avec le raccourci d\'accessibilité."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Appareil"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Préférences"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Télécommande et accessoires"</string>
@@ -709,18 +711,34 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Raccourci d\'accessibilité"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Activer le raccourci d\'accessibilité"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Service de raccourcis"</string>
-    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
-    <skip />
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Accessibilité du clavier"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Lorsque le raccourci est activé, appuyez simultanément sur les boutons Arrière et Bas pour démarrer une fonction d\'accessibilité de votre choix."</string>
-    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Temps pour effectuer une action (accessibilité)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Ajuster la durée des messages qui nécessitent une action"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Choisissez la durée d\'affichage des messages temporaires qui vous demandent d\'effectuer une action"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Durée : 2 à 3 secondes"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Définit le délai par défaut pour répon. aux actions à l\'écr. (2 à 3 sec.)"</string>
+    <!-- no translation found for accessibility_key_repeat_delay (3705218700730796163) -->
     <skip />
-    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <!-- no translation found for accessibility_key_repeat_delay_detailed (839875964245948920) -->
     <skip />
-    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <!-- no translation found for accessibility_key_repeat_delay_summary (1285871520625842138) -->
     <skip />
-    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <!-- no translation found for accessibility_key_repeat (2883843620765652931) -->
     <skip />
-    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <!-- no translation found for accessibility_delay_before_repeat (2090040450091150466) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_summary (7889272629294523770) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_detailed (5855212602097866850) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate (7021902189827133568) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_summary (3583246887327117521) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_info (6966835128389755237) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_info_summary (6481063957245411995) -->
     <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Sous-titres"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Paramètres de superposition du texte des sous-titres sur la vidéo"</string>

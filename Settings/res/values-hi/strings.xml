@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"सुझाव खारिज करें"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"\"OK Google\" के ज़रिए पता लगाना"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Google Assistant से कभी भी बात करें"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (स्क्रीन रीडर)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack, स्क्रीन रीडर की सुलभता सुविधा है. यह स्क्रीन पर दिख रहे टेक्स्ट, मेन्यू आइटम, और अन्य एलिमेंट को तेज़ आवाज़ में सुनाने की सुविधा का इस्तेमाल करके दृष्टिबाधित उपयोगकर्ताओं की मदद करती है. इसे सुलभता सुविधा के शॉर्टकट के साथ इस्तेमाल करने के लिए भी सेट अप किया जा सकता है."</string>
     <string name="header_category_device" msgid="3023893663454705969">"डिवाइस"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"प्राथमिकताएं"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"रिमोट और ऐक्सेसरी"</string>
@@ -709,18 +711,34 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"सुलभता सुविधा का शॉर्टकट"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"सुलभता सुविधा का शॉर्टकट चालू करें"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"शॉर्टकट सेवा"</string>
-    <!-- no translation found for keyboard_accessibility (7849649126112178029) -->
-    <skip />
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"कीबोर्ड की सुलभता सुविधा"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"शॉर्टकट इस्तेमाल करने के दौरान, आप \'वापस जाएं\' और \'नीचे जाएं\' बटन को एक साथ 3 सेकंड तक दबा के, सुलभता सुविधा शुरू कर सकते हैं."</string>
-    <!-- no translation found for accessibility_timeout (6238669374985731114) -->
+    <string name="accessibility_timeout" msgid="6238669374985731114">"कार्रवाई करने का समय (सुलभता टाइम आउट)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"जिन मैसेज के लिए कार्रवाई करने की ज़रूरत है उनके दिखने का समय तय करें"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"चुनें कि कार्रवाई करने का मैसेज देने वाले प्रॉम्प्ट कितनी देर तक दिखें"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"समय : 2 से 3 सेकंड"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"इससे कार्रवाई वाले मैसेज का जवाब देने के लिए डिफ़ॉल्ट समय सेट होता है (2 से 3 सेकंड)"</string>
+    <!-- no translation found for accessibility_key_repeat_delay (3705218700730796163) -->
     <skip />
-    <!-- no translation found for accessibility_timeout_summary (5365359228570110804) -->
+    <!-- no translation found for accessibility_key_repeat_delay_detailed (839875964245948920) -->
     <skip />
-    <!-- no translation found for accessibility_timeout_detailed (8456883531647489988) -->
+    <!-- no translation found for accessibility_key_repeat_delay_summary (1285871520625842138) -->
     <skip />
-    <!-- no translation found for accessibility_timeout_info_title (4940515076094949892) -->
+    <!-- no translation found for accessibility_key_repeat (2883843620765652931) -->
     <skip />
-    <!-- no translation found for accessibility_timeout_info_description (8821082019984052271) -->
+    <!-- no translation found for accessibility_delay_before_repeat (2090040450091150466) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_summary (7889272629294523770) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_detailed (5855212602097866850) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate (7021902189827133568) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_summary (3583246887327117521) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_info (6966835128389755237) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_info_summary (6481063957245411995) -->
     <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"कैप्शन"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"वीडियो पर बंद अनुशीर्षक देने वाले लेख ओवरले की सेटिंग"</string>
