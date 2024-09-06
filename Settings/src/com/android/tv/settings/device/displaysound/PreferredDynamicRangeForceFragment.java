@@ -25,6 +25,7 @@ import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.crea
 import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.doesCurrentModeNotSupportDvBecauseLimitedTo4k30;
 import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.enableHdrType;
 import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.findMode1080p60;
+import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.sendHdrSettingsChangedBroadcast;
 import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_CLASSIC;
 
 import android.content.Context;
@@ -136,6 +137,7 @@ public class PreferredDynamicRangeForceFragment extends SettingsPreferenceFragme
                 }
             }
         }
+        sendHdrSettingsChangedBroadcast(getContext());
         return super.onPreferenceTreeClick(preference);
     }
 
@@ -195,6 +197,7 @@ public class PreferredDynamicRangeForceFragment extends SettingsPreferenceFragme
                     HdrConversionMode.HDR_CONVERSION_FORCE, HDR_TYPE_DOLBY_VISION));
             selectRadioPreference(preference);
             enableHdrType(mDisplayManager, HDR_TYPE_DOLBY_VISION);
+            sendHdrSettingsChangedBroadcast(getContext());
             dialog.dismiss();
         };
 

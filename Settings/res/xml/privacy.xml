@@ -21,6 +21,13 @@
 
     <PreferenceCategory android:title="@string/privacy_device_settings_category" />
 
+    <com.android.tv.twopanelsettings.slices.SlicePreference
+        android:key="deviceLock"
+        android:title="@string/privacy_device_lock_settings_title"
+        android:fragment="com.android.tv.twopanelsettings.slices.SliceFragment"
+        custom:isPreferenceVisible="false"
+        custom:uri="@string/privacy_device_lock_slice_uri" />
+
     <Preference
         android:key="location"
         android:title="@string/system_location"

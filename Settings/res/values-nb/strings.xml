@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personlig"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Koble til nettverk"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Legg til kontoer"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Kontoer og pålogging"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Kontoer og profiler"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Ingen kontoer"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# konto}other{# kontoer}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Medietjenester, assistent, betalinger"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Personvern"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Enhetsinnstillinger"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Kontoinnstillinger"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Enhetslås"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistent"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Betaling og kjøp"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Appinnstillinger"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet er tilkoblet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Ingen nettverk er tilkoblet"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wifi er slått av"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Du må koble fra ethernet for å bruke wifi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Skanning er alltid tilgjengelig"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Tillat at Googles posisjonstjeneste og andre apper skanner etter nettverk, selv når Wifi er slått av"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Skanning er alltid tilgjengelig, Tillater at Googles posisjonstjeneste og andre apper skanner etter nettverk, selv når Wifi er slått av"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Hvis du slår på dette alternativet, bytter systemet mellom ulike formater for dynamisk omfang for å matche innholdet. Dette kan føre til at skjermen blir svart når formatet byttes.\n\nKlikk på Avanserte skjerminnstillinger for å se flere alternativer for dynamisk omfang."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Foretrukket dynamisk omfang"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Systemforetrukket konvertering"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"La systemet administrere formatkonverteringen"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Lar systemet administrere formatkonverteringen"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Når dette alternativet er valgt, fastslår systemet et egnet dynamisk område som sendes til skjermen, og konverterer innhold til dette dynamiske området etter behov."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Matcher alltid formatet til innholdet"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Tving konvertering"</string>
@@ -646,7 +648,7 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Kameratilgang er blokkert"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"For å oppheve blokkeringen, sett personvernbryteren på enheten til kamera på-posisjonen for å gi kameratilgang."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Mikrofontilgang: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Når den er slått på, har alle apper og tjenester som har tillatelse til å bruke mikrofonen, tilgang til den.\n\nNår den er slått av, har ingen apper eller tjenester tilgang til mikrofonen. Det kan likevel hende du fortsatt kan snakke til Google-assistenten ved å trykke på Assistent-knappen på fjernkontrollen.\n\nDet er ikke sikkert at denne innstillingen har noen innvirkning på lydenheter som bruker tilpassede protokoller for å kommunisere med TV-en."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Når den er slått på, har alle apper og tjenester med tillatelse til å bruke mikrofonen, tilgang til den.\n\nNår den er slått av, har ingen apper eller tjenester tilgang. Det kan likevel hende du fortsatt kan snakke til Google-assistenten ved å trykke på Assistent-knappen på fjernkontrollen.\n\nDet er ikke sikkert at denne innstillingen har noen innvirkning på lydenheter som bruker tilpassede protokoller for å kommunisere med TV-en."</string>
     <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Mikrofonen er aktivert på fjernkontrollen"</string>
     <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google-assistenten har tilgang til mikrofonen på fjernkontrollen. Du kan snakke til assistenten ved å trykke på Google Assistent-knappen på fjernkontrollen."</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Mikrofonen er deaktivert på fjernkontrollen"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Slå på tilgjengelighetssnarveien"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Snarveitjeneste"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Når snarveien er på, kan du trykke på både tilbake- og ned-knappen i tre sekunder for å starte en tilgjengelighetsfunksjon."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Tid for å gjøre noe"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Tid for å gjøre noe (tidsavbrudd)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Tid"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Ikke alle apper støtter denne tidsinnstillingen."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Teksting"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Innstillinger for å legge over teksting på videoer"</string>
     <string name="captions_display" msgid="2598662495450633375">"Visning"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Velg <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> for å fortsette."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Ferdig"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Koblet til"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Allerede tilkoblet"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Lagret"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versjon <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Åpne"</string>
@@ -1086,7 +1093,7 @@
     <string name="disabled_by_policy_title_outgoing_calls" msgid="8642280178608881544">"Ringing er ikke tillatt"</string>
     <string name="disabled_by_policy_title_sms" msgid="5721045390560951358">"SMS er ikke tillatt"</string>
     <string name="disabled_by_policy_title_camera" msgid="6576557964422257426">"Kameraet er ikke tillatt"</string>
-    <string name="disabled_by_policy_title_screen_capture" msgid="5774035841010091253">"Skjermdump er ikke tillatt"</string>
+    <string name="disabled_by_policy_title_screen_capture" msgid="5774035841010091253">"Skjermbilde er ikke tillatt"</string>
     <string name="disabled_by_policy_title_suspend_packages" msgid="6500185610058872758">"Kan ikke åpne denne appen"</string>
     <string name="default_admin_support_msg" msgid="7913455019068370350">"Hvis du lurer på noe, kan du kontakte IT-administratoren din"</string>
     <string name="admin_support_more_info" msgid="9053232166115098434">"Mer informasjon"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Kraft og energi"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Funksjonalitet ved oppstart"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Tilbakestill"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"TV"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Tilkoblingskode for Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Strømmoduser"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Disse innstillingene påvirker enheten når den ikke er i bruk"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Finn fjernkontrollen min"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Spill av en lyd for å finne Google TV-fjernkontrollen hvis du ikke finner den"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV har en knapp du kan trykke på for å spille av en lyd på fjernkontrollen i 30 sekunder. Dette fungerer bare med støttede Google TV-fjernkontroller.\n\nFor å stoppe lyden, trykk på en knapp på fjernkontrollen."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Når Finn fjernkontrollen min er slått på, kan du spille av en lyd for å finne Google TV-fjernkontrollen din hvis du ikke finner den."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Når funksjonen er på, kan du bruke knappen på enheten til å spille av en lyd for å finne fjernkontrollen. Når funksjonen er av, fungerer ikke denne knappen. Du kan fortsatt bruke finn fjernkontrollen via andre metoder."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spill av lyd"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volum"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Du kan kontrollere Assistent-volumet på %1$s-høyttaleren"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Påvirker bare volumet på %1$s-enheten, ikke på TV-en"</string>
 </resources>

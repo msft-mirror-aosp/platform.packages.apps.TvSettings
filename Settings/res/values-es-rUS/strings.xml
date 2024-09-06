@@ -37,7 +37,7 @@
     <string name="header_category_quick_settings" msgid="3785334008768367890">"Configuración rápida"</string>
     <string name="header_category_general_settings" msgid="3897615781153506434">"Configuración general"</string>
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Descartar sugerencia"</string>
-    <string name="hotwording_title" msgid="2606899304616599026">"Detección de \"Ok Google\""</string>
+    <string name="hotwording_title" msgid="2606899304616599026">"Detección de \"Hey Google\""</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Habla con el Asistente de Google cuando quieras"</string>
     <string name="header_category_device" msgid="3023893663454705969">"Dispositivo"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Preferencias"</string>
@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personal"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Conectarse a una red"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Agregar una cuenta"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Cuentas y acceso"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Cuentas y perfiles"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"No se accedió con ninguna cuenta"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# cuenta}other{# cuentas}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Servicios multimedia, Asistente, Pagos"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privacidad"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Configuración del dispositivo"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Configuración de la cuenta"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Bloqueo del dispositivo"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Asistente de Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Pago y compras"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Configuración de apps"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Se estableció la conexión a Ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"No se estableció conexión con ninguna red"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"La conexión Wi-Fi está desactivada"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Desconecta el Ethernet para usar Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Búsqueda siempre disponible"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Permite que los servicios de ubicación y otras apps de Google busquen redes aunque la conexión Wi-Fi esté desactivada."</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Búsqueda siempre disponible: Permite que los servicios de ubicación y otras apps de Google busquen redes, incluso si la conexión Wi-Fi está desactivada."</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Si se habilita esta opción, el sistema cambiará entre los diferentes formatos de rango dinámico para coincidir con el contenido. Esto puede provocar que aparezca una pantalla negra durante el cambio de formato.\n\nHaz clic en Configuración avanzada de pantalla para ver más opciones de rango dinámico."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Rango dinámico preferido"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversión preferida por el sistema"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Deja que el sistema se ocupe de la conversión del formato"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Deja que el sistema se ocupe de la conversión del formato"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Cuando está opción está seleccionada, el sistema determina un intervalo dinámico apropiado para enviar a tu pantalla y convierte el contenido a este rango dinámico según sea necesario."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Siempre hacer coincidir con el formato del contenido"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forzar la conversión"</string>
@@ -378,7 +380,7 @@
     <string name="ads_description" msgid="8081069475265061074">"Cambia ajustes de anuncios, como restablecer tu ID de publicidad."</string>
     <string name="ads_content_description" msgid="1006489792324920289">"Google Ads: Cambia la configuración de anuncios, como restablecer tu ID de publicidad."</string>
     <string name="show_dev_on" msgid="612741433124106067">"¡Ya eres programador!"</string>
-    <string name="show_dev_already" msgid="1522591284776449818">"No es necesario, ya eres programador."</string>
+    <string name="show_dev_already" msgid="1522591284776449818">"No es necesario, ya eres desarrollador."</string>
     <string name="device_info_default" msgid="2374506935205518448">"Desconocido"</string>
     <string name="selinux_status" msgid="1146662734953021410">"Estado de SELinux"</string>
     <string name="selinux_status_disabled" msgid="4027105362332795142">"Inhabilitado"</string>
@@ -646,7 +648,7 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Acceso a la cámara bloqueado"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Para desbloquearlo, mueve el interruptor de privacidad del dispositivo a la posición de cámara activada para permitir el acceso a la cámara."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Acceso al micrófono: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Cuando esté activado, todas las apps y servicios que puedan utilizar el micrófono podrán acceder a él.\n\nSi se desactiva, las apps y los servicios no podrán acceder al micrófono. Sin embargo, es posible que puedas seguir hablando con Asistente de Google si presionas el botón del Asistente en el control remoto.\n\nLos dispositivos de audio que utilizan protocolos personalizados para comunicarse con la TV pueden no verse afectados por esta configuración."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Cuando esté activado, las apps y servicios que pueden usar el micrófono podrán acceder a él.\n\nSi se desactiva, las apps y los servicios no podrán acceder al micrófono. Pero podrías seguir hablando con Asistente de Google si presionas el botón del Asistente en el control remoto.\n\nEsta configuración no afecta los dispositivos de audio que usan protocolos personalizados para comunicarse con la TV."</string>
     <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Se habilitó el micrófono en el control remoto"</string>
     <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"El Asistente de Google puede acceder al micrófono en el control remoto. Si presionas el botón del Asistente de Google en el control remoto, podrás hablar con el Asistente."</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"El micrófono está inhabilitado en el control remoto"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Habilitar combinación de teclas de accesibilidad"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Servicio de combinación de teclas"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Si activas la combinación de teclas, puedes presionar los botones hacia atrás y hacia abajo durante 3 segundos para iniciar una función de accesibilidad."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Tiempo de acción"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Tiempo de espera para realizar acción"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Tiempos"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"La preferencia no es compatible con todas las apps"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Subtítulos"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Configuración del texto de subtítulos opcionales superpuestos en el video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Mostrar"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Selecciona <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> para continuar."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Listo"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Se conectó correctamente"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Ya está conectado"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Se guardó correctamente"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versión: <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Abrir"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Encendido y energía"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Comportamiento cuando se enciende la TV"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Restablecimiento"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televisión"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Código de vinculación de Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Modos de energía"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Estos parámetros de configuración afectan al dispositivo cuando no está en uso"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Buscar mi control remoto"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Reproduce un sonido para ubicar el control remoto de Google TV si se pierde"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"En tu Google TV, puedes encontrar un botón y usarlo para reproducir un sonido en el control remoto por 30 segundos. Esta acción solo funciona en controles remotos de Google TV compatibles.\n\nPara detener el sonido, presiona cualquier botón del control remoto."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Si habilitas Buscar mi control remoto, podrás reproducir un sonido para ubicar el control remoto de Google TV."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Cuando se activa la función, puedes usar el botón de tu dispositivo para reproducir un sonido y ubicar el control remoto. Cuando esté desactivada, este botón no funcionará. Podrás seguir usando Encontrar mi control remoto con otros métodos."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reproducir sonido"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volumen %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Puedes controlar el volumen de Asistente en la bocina %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Solo se modificará el volumen del dispositivo %1$s; no se cambiará el de la TV"</string>
 </resources>

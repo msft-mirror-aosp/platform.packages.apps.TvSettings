@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Osobno"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Povezivanje s mrežom"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Dodavanje računa"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Računi i prijava"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Računi i profili"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Nema računa"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# račun}one{# račun}few{# računa}other{# računa}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Medijske usluge, Asistent, Payments"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privatnost"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Postavke uređaja"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Postavke računa"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Zaključavanje uređaja"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google asistent"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Plaćanje i kupnje"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Postavke aplikacije"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet je povezan"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Nije povezana nijedna mreža"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi je isključen"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Iskopčajte ethernet da biste koristili Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Pretraživanje uvijek dostupno"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Neka Googleova usluga lokacije i druge aplikacije traže mreže, čak i kada je Wi-Fi isključen"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Pretraživanje uvijek dostupno, Neka Googleova usluga lokacije i druge aplikacije traže mreže, čak i kada je Wi-Fi isključen"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Kad je ova opcija omogućena, sustav će se prebacivati između različitih formata dinamičkog raspona kako bi se podudarao sa sadržajem. Tijekom promjene formata može se pojaviti crni zaslon.\n\nKliknite postavke naprednog prikaza da biste vidjeli više opcija dinamičkog raspona."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Preferirani dinamički raspon"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Pretvaranje koje preferira sustav"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Omogućuje sustavu da upravlja pretvaranjem formata"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Omogućuje sustavu da upravlja pretvaranjem formata"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Kada se odabere ta opcija, sustav će odrediti prikladan dinamički raspon koji će se poslati na vaš zaslon i prema potrebi konvertirati sadržaj u taj dinamički raspon."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Uvijek se podudara s formatom sadržaja"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Nametanje pretvaranja"</string>
@@ -641,7 +643,7 @@
     <string name="microphone_physical_privacy_enabled_title" msgid="6135130916399886772">"Blokiran je pristup mikrofonu"</string>
     <string name="microphone_physical_privacy_enabled_text" msgid="401238365312924088">"Da biste deblokirali pristup, uključite mikrofon pomoću prekidača privatnosti na uređaju, čime se dopušta pristup mikrofonu."</string>
     <string name="camera" msgid="1226671478936288283">"Fotoaparat"</string>
-    <string name="camera_toggle_title" msgid="5566469574224956142">"Pristup fotoaparatu"</string>
+    <string name="camera_toggle_title" msgid="5566469574224956142">"Pristup kameri"</string>
     <string name="open_camera_permissions" msgid="301360297337141591">"Pristup aplikacije fotoaparatu"</string>
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Blokiran je pristup kameri"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Da biste deblokirali pristup, uključite kameru pomoću prekidača privatnosti na uređaju, čime se dopušta pristup kameri."</string>
@@ -651,7 +653,7 @@
     <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"Google asistent može pristupiti mikrofonu na vašem daljinskom upravljaču. Moći ćete razgovarati s Asistentom pritiskom na gumb Google asistenta na daljinskom upravljaču."</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Mikrofon je onemogućen na daljinskom upravljaču"</string>
     <string name="mic_remote_toggle_off_info_content" msgid="8062526350553191004">"Nećete moći razgovarati s Google asistentom pomoću daljinskog upravljača. Da biste mogli upotrebljavati gumb Google asistenta, omogućite pristup mikrofonu."</string>
-    <string name="camera_toggle_info_title" msgid="3871317082313736088">"Pristup fotoaparatu: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
+    <string name="camera_toggle_info_title" msgid="3871317082313736088">"Pristup kameri: <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
     <string name="camera_toggle_info_content" msgid="2999965953853204003">"Kad je ta opcija uključena, sve aplikacije i usluge s dopuštenjem mogu pristupati svim kamerama na ovom uređaju.\n\nTa postavka neće utjecati na periferne uređaje kamera s prilagođenim protokolom."</string>
     <string name="sensor_toggle_info_on" msgid="4568111889147132257">"Uključeno"</string>
     <string name="sensor_toggle_info_off" msgid="7546772458177469821">"Isključeno"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Omogući prečac pristupačnosti"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Usluga prečaca"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kada je taj prečac uključen, možete pritisnuti tipke za natrag i dolje na 3 sekunde da biste pokrenuli značajku pristupačnosti."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Vrijeme za radnju"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Vrijeme za radnju (vrijeme čekanja pristupačnosti)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Vrijeme"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Ta preferencija nije podržana u svim aplikacijama."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Titlovi"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Postavke za preklapanje teksta titlova u videozapisu"</string>
     <string name="captions_display" msgid="2598662495450633375">"Zaslon"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Odaberite <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> za nastavak"</string>
     <string name="label_done_key" msgid="8576286462300373440">"Gotovo"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Povezivanje je uspjelo"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Već povezano"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Spremanje je uspjelo"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Verzija <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Otvori"</string>
@@ -1052,7 +1059,7 @@
     <string name="write_settings_on" msgid="71675710746513956">"Da"</string>
     <string name="write_settings_off" msgid="6730113471695092167">"Ne"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Pristup svim datotekama"</string>
-    <string name="permit_manage_external_storage" msgid="1776899171934627417">"Dopusti pristup za upravljanje svim datot."</string>
+    <string name="permit_manage_external_storage" msgid="1776899171934627417">"Dopusti pristup za upravljanje svim datotekama"</string>
     <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Dopustite toj aplikaciji čitanje, izmjenu i brisanje svih datoteka na ovom uređaju ili drugim povezanim uređajima za pohranu. Ako date to dopuštenje, aplikacija može pristupati datotekama bez vašeg znanja."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Slika u slici"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Dopusti sliku u slici"</string>
@@ -1061,7 +1068,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Aplikacijama omogućuje da postavljaju alarme i zakazuju vremenski osjetljive radnje. To aplikacijama omogućuje da se izvode u pozadini, pa je moguće dodatno trošenje baterije.\n\nAko je to dopuštenje isključeno, postojeći alarmi i događaji temeljeni na vremenu koji su zakazani putem aplikacije neće funkcionirati."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Uključivanje zaslona"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Dopusti uključivanje zaslona"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Dopustite aplikaciji da uključuje zaslon. Ako date to dopuštenje, aplikacija može uključiti zaslon u bilo kojem trenutku bez vaše izričite namjere."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Dopušta aplikaciji da uključuje zaslon. Ako date to dopuštenje, aplikacija može uključiti zaslon u bilo kojem trenutku bez vaše izričite namjere."</string>
     <string name="special_access" msgid="21806055758289916">"Poseban pristup za aplikacije"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Zvuk"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Napajanje i energija"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Ponašanje prilikom uključivanja"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Poništi"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televizija"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Kôd za uparivanje etherneta"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Energetski načini"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Te postavke utječu na uređaj kada se ne upotrebljava"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Pronađi moj daljinski upravljač"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Reproducirajte zvuk da biste locirali daljinski upravljač za Google TV ako ste ga zametnuli"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na Google TV-u se nalazi gumb koji možete pritisnuti da biste reproducirali zvuk na daljinskom upravljaču u trajanju od 30 sekundi. To funkcionira samo s podržanim daljinskim upravljačima Google TV-a.\n\nDa biste isključili zvuk, pritisnite bilo koji gumb na daljinskom upravljaču."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kada je omogućena značajka Pronađi moj daljinski upravljač, možete reproducirati zvuk da biste locirali daljinski upravljač za Google TV ako ste ga zametnuli."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Kada je ta opcija uključena, možete upotrebljavati gumb na uređaju da biste reproducirali zvuk kako biste pronašli svoj daljinski upravljač. Kada je ta opcija isključena, gumb neće raditi. I dalje ćete moći upotrebljavati značajku Pronađi moj daljinski putem drugih metoda."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reproduciraj zvuk"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s – glasnoća"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Glasnoćom Asistenta možete upravljati na zvučniku uređaja %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Utječe samo na zvuk na uređaju %1$s, ne na TV-u"</string>
 </resources>

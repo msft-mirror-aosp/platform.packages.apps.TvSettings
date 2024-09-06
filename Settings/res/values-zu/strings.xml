@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Okomuntu siqu"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Xhuma kunethiwekhi"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Yengeza i-akhawunti"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Ama-akhawunti nokungena ngemvume"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Ama-akhawunti Namaphrofayela"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Awekho ama-akhawunti"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{i-akhawunti engu-#}one{ama-akhawunti angu-#}other{ama-akhawunti angu-#}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Amasevisi emediya, Umsizi, Izinkokhelo"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Ubumfihlo"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Amasethingi Edivayisi"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Amasethingi e-Akhawunti"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Ukukhiya Kwedivayisi"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Umsizi we-Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Izinkokhelo Nezintengo"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Amasethingi Ohlelo Lokusebenza"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"I-ethernet ixhunyiwe"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Ayikho inethiwekhi exhunyiwe"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"I-Wi-Fi ivaliwe"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Khipha i-Ethernet ukuze usebenzise i-Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Ukuskena kuhlala kutholakala"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Vumela isevisi yendawo ye-Google nezinye izinhlelo zokusebenza ukuthi ziskenele amanethiwekhi, noma ngabe i-Wi-Fi ivaliwe"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Ukuskena kutholakala njalo, Vumela isevisi yendawo ye-Google nezinye izinhlelo zokusebenza kuskene amanethiwekhi, ngisho noma lapho i-Wi-Fi ivaliwe"</string>
@@ -101,7 +103,7 @@
     <string name="all_apps_installed" msgid="8217778476185598971">"Izinhlelo zokusebenza ezifakiwe"</string>
     <string name="all_apps_other" msgid="4420174882983813158">"Uhlelo lokusebenza lwesistimu"</string>
     <string name="all_apps_disabled" msgid="2776041242863791053">"Izinhlelo zokusebenza ezikhutshaziwe"</string>
-    <string name="device_daydream" msgid="2631191946958113220">"Isigcini sihenqo"</string>
+    <string name="device_daydream" msgid="2631191946958113220">"Isigciniskrini"</string>
     <string name="device_display" msgid="244634591698925025">"Ukubukeka"</string>
     <string name="device_display_sound" msgid="7399153506435649193">"Isibonisi Nomsindo"</string>
     <string name="device_sound" msgid="8616320533559404963">"Umsindo"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Uma unika amandla lokhu okukhethwa kukho, isistimu izoshintsha phakathi kwamafomethi ebanga aguqukayo ahlukahlukene ukuze ifane nokuqukethwe. Lokhu kungase kubangele isikrini esimnyama ngesikhathi sokushintshwa kwefomethi.\n\nChofoza amasethingi okubonisa okuthuthukile ukuze uthole okukhethwa kukho okuningi kwebanga eliguqukayo."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Ibanga eliguqukayo elikhethwayo"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Ukuguqulwa okukhethwa yisistimu"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Ake siphathe uhlelo lokuguqulwa kwefomethi"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Vumela isistimu ukuphatha uhlelo lokuguqulwa kwefomethi"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Lapho le ndlela ikhethiwe, uhlelo luzonquma uhla olushukumisayo oluzothunyelwa kwisibonisi sakho bese uguqula okuqukethwe kuleli banga elinamandla njengoba kudingeka."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Ihlala ihambelana nefomethi yokuqukethwe"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Ukuphoqelela ukuguqulwa"</string>
@@ -467,14 +469,14 @@
     <string name="title_wifi_proxy_hostname" msgid="1242297002220870385">"Igama lomethuleli wommeleli:"</string>
     <string name="title_wifi_proxy_port" msgid="566244407030390328">"Imbobo yommeleli:"</string>
     <string name="title_wifi_proxy_bypass" msgid="8752756240663231435">"Dlula ummeleli we-:"</string>
-    <string name="title_wifi_ip_settings" msgid="296029383749112888">"Izilungiselelo ze-IP"</string>
+    <string name="title_wifi_ip_settings" msgid="296029383749112888">"Amasethingi e-IP"</string>
     <string name="title_wifi_ip_address" msgid="5505806431042689276">"Ikheli lasesizindeni se-intanethi:"</string>
     <string name="title_wifi_gateway" msgid="4496416267930824360">"Umasango:"</string>
     <string name="title_wifi_network_prefix_length" msgid="3200370297772096824">"Ubude begama eliqalayo lenethiwekhi:"</string>
     <string name="title_wifi_dns1" msgid="1585965227665007553">"I-DNS 1:"</string>
     <string name="title_wifi_dns2" msgid="4563319371301555072">"I-DNS 2:"</string>
     <string name="title_wifi_proxy_settings_invalid" msgid="7698883245005941665">"Izilungiselelo zommeleli azisebenzi"</string>
-    <string name="title_wifi_ip_settings_invalid" msgid="7283801973512992014">"Izilungiselelo ze-IP azisebenzi"</string>
+    <string name="title_wifi_ip_settings_invalid" msgid="7283801973512992014">"Amasethingi e-IP akasebenzi"</string>
     <string name="title_wifi_known_network" msgid="6162483884727898697">"I-<xliff:g id="SSID">%1$s</xliff:g> inethiwekhi elondoloziwe"</string>
     <string name="title_wifi_scan_qr_code" msgid="7485605625055717874">"Skena ikhodi ye-QR ukuze ujoyine"</string>
     <string name="wifi_action_try_again" msgid="8920677153891141148">"Zama futhi"</string>
@@ -672,8 +674,8 @@
     <string name="third_party_location_services_title" msgid="2826218400381676508">"Amasevisi wendawo wezinkampani zangaphandle"</string>
     <string name="location_reporting" msgid="3552501333650895634">"Ukubikwa kwendawo"</string>
     <string name="location_history" msgid="4055660203090513120">"Umlando wendawo"</string>
-    <string name="location_reporting_desc" msgid="1580018652781674608">"I-Google isebenzisa lesi sici emikhiqizweni njenge-Google Now ne-Google Amamephu. Ukuvula ukubikwa kwendawo kuvumela noma yimuphi umkhiqizo we-Google esebenzisa lesi sici igcina futhi isebenzise idatha yakho yendawo yakamuva yedivayisi ngokuxhumana ne-Akhawunti yakho ye-Google."</string>
-    <string name="location_history_desc" msgid="926674012916014270">"Uma umlando wedawo uvuliwe kule akhawunti, i-Google ingagcina idatha yakho yendawo yedivayisi ukuze usetshenziswe izinhlelo zakho zokusebenza.\n\nIsibonelo, i-Google Amamephu ikunika izinkombhandlela, futhi i-Google Now ingakwazisa mayelana nethrafikhi yokuhamba.\n\nUngavala umlando wendawo noma kunini, kodwa ukwenza kanjalo akuyisusi. Ukuze ubuke futhi uphathe umlando wendawo yakho, vakashela ku-maps.google.com/locationhistory."</string>
+    <string name="location_reporting_desc" msgid="1580018652781674608">"I-Google isebenzisa lesi sici emikhiqizweni njenge-Google Now ne-Amamephu eGoogle. Ukuvula ukubikwa kwendawo kuvumela noma yimuphi umkhiqizo we-Google esebenzisa lesi sici igcina futhi isebenzise idatha yakho yendawo yakamuva yedivayisi ngokuxhumana ne-Akhawunti yakho ye-Google."</string>
+    <string name="location_history_desc" msgid="926674012916014270">"Uma umlando wedawo uvuliwe kule akhawunti, i-Google ingagcina idatha yakho yendawo yedivayisi ukuze usetshenziswe izinhlelo zakho zokusebenza.\n\nIsibonelo, Amamephu eGoogle ikunika izinkombhandlela, futhi i-Google Now ingakwazisa mayelana nethrafikhi yokuhamba.\n\nUngavala umlando wendawo noma kunini, kodwa ukwenza kanjalo akuyisusi. Ukuze ubuke futhi uphathe umlando wendawo yakho, vakashela ku-maps.google.com/locationhistory."</string>
     <string name="delete_location_history_title" msgid="707559064715633152">"Susa umlando wendawo"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"Lokhu kuzosusa wonke umlando wendawo obekwe kusuka kule divayisi yale-akhawunti ye-Google. Awukwazi ukuhlehlisa lokhu kususwa. Ezinye izinhlelo zokusebenza, okufaka phakathi i-Google Now, kuzomisa ukusebenza."</string>
     <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Izifundi Zesikrini"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Nika amandla isinqamuleli sokufinyelela"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Isevisi yesinqamuleli"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Uma isinqamuleli sivuliwe, ungacindezela zombili izinkinobho ezingemuva neziphansi ngamasekhondi angu-3 ukuze uqale isici sokufinyelela."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Isikhathi sokwenza isenzo"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Isikhathi sokwenza okuthile (Ukuphelelwa isikhathi kokufinyelela)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Isikhathi"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Lokhu okuncanyelwayo akusekelwe yiwo wonke ama-app."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Amazwibela"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Izilungiselelo zombhalo wamazwibela avaliwe kuzimbondela ezikuvidiyo"</string>
     <string name="captions_display" msgid="2598662495450633375">"Isibonisi"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Faka i-<xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ukuze uqhubeke."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Kwenziwe"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Ixhumeke ngempumelelo"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Isivele ixhunyiwe"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Ilondolozwe ngempumelelo"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Inguqulo <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Vula"</string>
@@ -962,7 +969,7 @@
     <string name="settings_on" msgid="7734010120323404333">"Vuliwe"</string>
     <string name="settings_off" msgid="4060451657850476369">"Valiwe"</string>
     <string name="device_daydreams_none" msgid="3405655350757277348">"Vala isikrini"</string>
-    <string name="device_daydreams_select" msgid="7203264446482623438">"Isigcini sihenqo"</string>
+    <string name="device_daydreams_select" msgid="7203264446482623438">"Isigciniskrini"</string>
     <string name="device_daydreams_test" msgid="7828275397550076567">"Qala manje"</string>
     <string name="device_daydreams_sleep" msgid="6847770718407377357">"Uma iqala"</string>
     <string name="device_daydreams_sleep_description" msgid="6237610484915504587">"Isilondolozi sesikrini siqala ngemuva kwalesi sikhathi sokungasebenzi. Uma singekho isilondolozi sesikrini esikhethiwe, isibonisi siyacisha."</string>
@@ -988,7 +995,7 @@
     <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"Ukuvumela uxhumo lenethiwekhi ekulindeni kuzokhuphula amandla okusebenzisa asekulindeni."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Ayikho i-akhawunti okwamanje elondoloza idatha eyenziwe isipele"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
-    <string name="backup_erase_dialog_message" msgid="222169533402624861">"Yeka ukwenza isipele amaphasiwedi wakho we-Wi-Fi, amabhukhimakhi, ezinye izilungiselelo, kanye nedatha yohlelo lokusebenza,futhi ususe wonke amakhophi kumaseva we-Google?"</string>
+    <string name="backup_erase_dialog_message" msgid="222169533402624861">"Yeka ukwenza isipele amaphasiwedi wakho weWi-Fi, amabhukhimakhi, amanye amasethingi, kanye nedatha ye-app, futhi ususe wonke amakhophi kumaseva weGoogle?"</string>
     <string name="privacy_backup_data" msgid="3604057980102997914">"Yenza isipele sedatha yami"</string>
     <string name="privacy_backup_account" msgid="4527813051841860610">"Yenza isipele i-akhawunti"</string>
     <string name="privacy_automatic_restore" msgid="7117805818589418118">"Ukubuyisela esimweni okuzenzakalelayo"</string>
@@ -1029,7 +1036,7 @@
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Kuvumelekile"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Akuvunyelwe"</string>
     <string name="usage_access" msgid="8402350645248312782">"Ukufinyelela ukusetshenziswa"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"Ukufinyelela kokusebenzisa kuvumela uhlelo lokusebenza ukuthi lulandelele ukuthi yiziphi ezinye izinhlelo zokusebenza ozisebenzisayo nokuthi kaningi kangakanani, kanye nenkampani yakho yenethiwekhi, izilungiselelo zolimi neminye imininingwane."</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"Ukufinyelela kokusebenzisa kuvumela i-app ilandelele ukuthi ngamaphi ama-app owasebenzisayo nokuthi maningi kangakanani, kanye nenkampani yakho yenethiwekhi, amasethingi olimi neminye imininingwane."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Ukulungiselelwa kwamandla"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Lungiselela ukusetshenziswa kwamandla kwezinhlelo zokusebenza"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"Azikho izinhlelo zokusebenza ezidinga ukulungiselelwa"</string>
@@ -1053,7 +1060,7 @@
     <string name="write_settings_off" msgid="6730113471695092167">"Cha"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Ukufinyelela kuwo wonke amafayela"</string>
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"Vumela ukufinyelela ukuze kuphathwe wonke amafayela"</string>
-    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Vumela lolu hlelo lokusebenza ukuthi lufunde, lulungise luphinde lususe wonke amafayela kule divayisi noma kwamanye amavolumu axhunyiwe esitoreji. Uma linikeziwe, uhlelo lokusebenza lungafinyelela kumafayela ngaphandle kokwazi kwakho okusobala."</string>
+    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Vumela i-app ifunde, ilungise futhi isuse wonke amafayela kule divayisi noma kwamanye amavolumu axhunyiwe esitoreji. Uma igunyaziwe, i-app ingafinyelela kumafayela ngaphandle kokwazi kwakho okusobala."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Isithombe-phakathi-kwesithombe"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Vumela isithombe phakathi kwesithombe"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Azikho izinhlelo zokusebenza ezifakiwe ezisekela isithombe phakathi kwesithombe"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Amandla Namandla"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Ukuziphatha kokuvulwa"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Setha kabusha"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Ithelevishini"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ikhodi yokubhangqa ye-Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Amamodi Amandla"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Lawa masethingi athinta idivayisi uma ingasetshenziswa"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Thola irimothi yami"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Dlala umsindo ukuze uthole irimothi yakho ye-Google TV uma ibekwe kabi"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Kunenkinobho ku-Google TV yakho ongayicindezela ukuze udlale umsindo kurimothi yakho imizuzwana engu-30. Lokhu kusebenza kuphela ngezilawuli-kude ezisekelwayo ze-Google TV.\n\nUkuze umise umsindo, cindezela noma iyiphi inkinobho kurimothi yakho."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Uma okuthi Thola irimothi yami kunikwe amandla, ungadlala umsindo ukuze uthole irimothi yakho ye-Google TV uma ibekwe kabi."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Uma ivuliwe, ungasebenzisa inkinobho esedivayisini yakho ukuze udlale umsindo ukuze uthole irimothi yakho. Uma icishiwe, le nkinobho ngeke isebenze. Usazokwazi ukusebenzisa okuthi Thola irimothi yami ngezinye izindlela."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Dlala umsindo"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ivolumu"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Ungalawula ivolumu yomsizi kusipikha se-%1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Ithinta kuphela ivolumu kudivayisi ye-%1$s, hhayi ku-TV"</string>
 </resources>
