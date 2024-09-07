@@ -47,7 +47,6 @@ import com.android.tv.settings.device.util.DeviceUtils;
 import com.android.tv.settings.overlay.FlavorUtils;
 import com.android.tv.settings.util.ResolutionSelectionUtils;
 import com.android.tv.settings.util.SliceUtils;
-import com.android.tv.settings.util.SliceUtilsKt;
 import com.android.tv.twopanelsettings.slices.SlicePreference;
 
 import java.util.Objects;
@@ -208,7 +207,7 @@ public class DisplaySoundFragment extends SettingsPreferenceFragment implements
             defaultAudioOutputSlicePref.setVisible(
                     SliceUtils.isSliceProviderValid(getContext(),
                         defaultAudioOutputSlicePref.getUri())
-                    && SliceUtilsKt.isSettingsSliceEnabledSync(getContext(),
+                    && SliceUtils.isSettingsSliceEnabled(getContext(),
                         defaultAudioOutputSlicePref.getUri(), null));
         }
     }
