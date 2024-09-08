@@ -207,7 +207,9 @@ public class MainFragment extends PreferenceControllerFragment implements
         updateBasicModeSuggestion();
 
         SlicePreference sliceInputsPreference = findPreference(KEY_CHANNELS_AND_INPUTS_SLICE);
-        if (!SliceUtils.isSliceProviderValid(requireContext(), sliceInputsPreference.getUri())) {
+        if (sliceInputsPreference != null
+                && !SliceUtils.isSliceProviderValid(
+                        requireContext(), sliceInputsPreference.getUri())) {
             sliceInputsPreference.setUri(
                     getString(R.string.channels_and_inputs_fallback_slice_uri));
         }
