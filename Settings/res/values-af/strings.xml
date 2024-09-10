@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Maak die voorstel toe"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"\"Ok Google\"-bespeuring"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Praat enige tyd met Google Assistent"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (skermleser)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack is ’n toeganklikheidskenmerk vir ’n skermleser wat visueel gestremde gebruikers help deur teks op die skerm, kieslysitems en ander elemente hardop te lees. Dit kan ook opgestel word om met Toeganklikheidkortpad te gebruik."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Toestel"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Voorkeure"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Afstandbeheer en toebehore"</string>
@@ -709,11 +711,35 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Toeganklikheid-kortpad"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Aktiveer toeganklikheidskortpad"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Kortpaddiens"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Sleutelbordtoeganklikheid"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Wanneer die kortpad aan is, kan jy beide die terug- en afknoppie vir 3 sekondes lank druk om \'n toeganklikheidskenmerk te begin."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Tyd om iets te doen"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Tyd om iets te doen (toeganklikheid het uitgetel)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Tydsberekening"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Nie alle apps steun hierdie voorkeur vir tydsberekening nie."</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Tyd om iets te doen (toeganklikheid het uitgetel)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Verstel tydsduur van boodskappe wat ’n handeling vereis"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Kies hoe lank om tydelike boodskappe te wys wat jou vra om iets te doen"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Tydsberekening : 2-3 sekondes"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Stel verstektyd vir reaksie op handelinge op die skerm (2-3 sek.)"</string>
+    <!-- no translation found for accessibility_key_repeat_delay (3705218700730796163) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_delay_detailed (839875964245948920) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_delay_summary (1285871520625842138) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat (2883843620765652931) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat (2090040450091150466) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_summary (7889272629294523770) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_detailed (5855212602097866850) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate (7021902189827133568) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_summary (3583246887327117521) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_info (6966835128389755237) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_info_summary (6481063957245411995) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Onderskrifte"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Instellings vir geslote onderskrifteks-oorlegging op video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Vertoon"</string>
@@ -1150,6 +1176,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Daar is ’n knoppie op jou Google TV wat jy kan druk om vir 30 sekondes ’n klank op jou afstandbeheerder te speel. Dit werk net met ondersteunde Google TV-afstandbeheerders.\n\nDruk enige knoppie op jou afstandbeheerder om die klank te stop."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Wanneer dit aan is, kan jy die knoppie op jou toestel gebruik om ’n klank te speel om jou afstandbeheerder op te spoor. Wanneer dit af is, sal hierdie knoppie nie werk nie. Jy sal nog altyd Kry my afstandbeheerder deur ander metodes kan gebruik."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Speel klank"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Agterligmodus"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Verligting van die knoppies op die afstandbeheerder met elke druk."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Op gesteunde Google TV-afstandbeheerders sal die agterligverligting aktiveer wanneer jy die knoppie op die afstandbeheerders druk."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volume"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Jy kan die Assistent volume op die %1$s-luidspreker beheer."</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Beïnvloed slegs die volume op die %1$s-toestel, nie op TV nie"</string>

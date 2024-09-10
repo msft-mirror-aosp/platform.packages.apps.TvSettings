@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"ច្រានចោល​ការណែនាំ"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"ការ​ចាប់​សំឡេង \"OK Google\""</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"និយាយ​ទៅកាន់ Google ជំនួយការ​បាន​គ្រប់ពេល"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"Talkback (កម្មវិធី​អាន​អេក្រង់)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack គឺជាមុខងារភាពងាយស្រួលសម្រាប់កម្មវិធី​អាន​អេក្រង់ ដែលជួយអ្នកប្រើប្រាស់ពិបាកក្នុងការមើលឃើញ តាមរយៈការអានឮៗនូវអក្សរនៅលើអេក្រង់ ធាតុម៉ឺនុយ និងធាតុផ្សេងៗទៀត។ ក៏អាចរៀបចំមុខងារនេះ ដើម្បីប្រើជាមួយផ្លូវកាត់​ភាពងាយស្រួលផងដែរ។"</string>
     <string name="header_category_device" msgid="3023893663454705969">"ឧបករណ៍"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"ចំណូលចិត្ត"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"ឧបករណ៍បញ្ជាពីចម្ងាយ និងគ្រឿងបន្ថែម"</string>
@@ -61,7 +63,7 @@
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ការកំណត់​ឧបករណ៍"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"ការ​កំណត់​គណនី"</string>
     <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ការចាក់សោ​ឧបករណ៍"</string>
-    <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google ជំនួយការ"</string>
+    <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ការបង់ប្រាក់ និង​ការទិញ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ការ​កំណត់​កម្មវិធី​"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"ទីតាំង ការប្រើប្រាស់ និង​ការវិភាគ ការផ្សាយ​ពាណិជ្ជកម្ម"</string>
@@ -709,11 +711,35 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"ផ្លូវកាត់​ភាព​ងាយ​ស្រួល"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"បើកផ្លូវកាត់​ភាព​ងាយស្រួល"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"សេវាកម្មផ្លូវកាត់"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"ភាពងាយស្រួល​របស់​ក្ដារចុច"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"នៅពេលដែលផ្លូវកាត់នេះបើក អ្នកអាច​ចុចទាំងប៊ូតុង​ថយក្រោយ និងប៊ូតុងចុះក្រោមឱ្យបាន 3 វិនាទី ដើម្បី​ចាប់ផ្តើម​មុខងារភាពងាយប្រើ។"</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"ដល់​ពេលធ្វើ​សកម្មភាព​ហើយ"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"ដល់ពេលធ្វើសកម្មភាព (មុខងារភាពងាយស្រួលអស់ម៉ោង)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"ការកំណត់​ពេល"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"កម្មវិធីទាំងអស់មិនអាចប្រើចំណូលចិត្តនៃការកំណត់ពេលនេះបានទេ។"</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"ដល់ពេល​ធ្វើសកម្មភាព (មុខងារ​ភាពងាយស្រួល​អស់ម៉ោង)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"កែតម្រូវ​រយៈពេល​របស់សារ​ដែលត្រូវការ​ឱ្យធ្វើ​សកម្មភាព"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"ជ្រើសរើស​រយៈពេល​បង្ហាញ​សារបណ្ដោះអាសន្ន ដែលស្នើសុំ​ឱ្យអ្នក​ធ្វើសកម្មភាព"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"ការកំណត់​ពេល៖ 2–3 វិនាទី"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"កំណត់រយៈពេលលំនាំដើម ដើម្បីឆ្លើយតបទៅសកម្មភាពនៅលើអេក្រង់ (2–3 វិនាទី)"</string>
+    <!-- no translation found for accessibility_key_repeat_delay (3705218700730796163) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_delay_detailed (839875964245948920) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_delay_summary (1285871520625842138) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat (2883843620765652931) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat (2090040450091150466) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_summary (7889272629294523770) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_detailed (5855212602097866850) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate (7021902189827133568) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_summary (3583246887327117521) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_info (6966835128389755237) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_info_summary (6481063957245411995) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"អក្សររត់"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ការ​កំណត់​សម្រាប់​អត្ថបទ​ដែល​មាន​ចំណងជើង​បិទ​​គ្រប់​ពី​លើ​វីដេអូ"</string>
     <string name="captions_display" msgid="2598662495450633375">"បង្ហាញ"</string>
@@ -1150,6 +1176,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"មានប៊ូតុង​នៅលើ Google TV របស់អ្នក​ដែលអ្នកអាច​ចុចដើម្បីចាក់​សំឡេង​នៅលើ​ឧបករណ៍​បញ្ជាពីចម្ងាយ​របស់អ្នក​រយៈពេល 30 វិនាទី។ សកម្មភាពនេះដំណើរការតែជាមួយនឹងឧបករណ៍​​បញ្ជា​ Google TV ពី​ចម្ងាយដែលអាចប្រើបានប៉ុណ្ណោះ។\n\nដើម្បីបញ្ឈប់សំឡេង សូមចុចប៊ូតុងណាមួយលើឧបករណ៍​បញ្ជាពីចម្ងាយរបស់អ្នក។"</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"នៅពេលបើក អ្នកអាចប្រើប៊ូតុងនៅលើឧបករណ៍របស់អ្នកសម្រាប់ចាក់សំឡេង ដើម្បីកំណត់ទីតាំងឧបករណ៍​បញ្ជាពីចម្ងាយរបស់អ្នក។ នៅពេលបិទ ប៊ូតុងនេះនឹងមិនដំណើរការទេ។ អ្នកនឹងនៅតែអាចប្រើ \"រកឧបករណ៍បញ្ជារបស់ខ្ញុំ\" តាមរយៈវិធីផ្សេងទៀត។"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ចាក់​សំឡេង"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"មុខងារពន្លឺក្រោយ"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"ពន្លឺនៃប៊ូតុងនៅលើឧបករណ៍​​បញ្ជា​ពី​ចម្ងាយនៅពេលចុចម្ដងៗ។"</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"នៅលើឧបករណ៍​បញ្ជាពីចម្ងាយ Google TV ដែលអាចប្រើបាន ការចុចប៊ូតុងនៅលើឧបករណ៍​បញ្ជាពីចម្ងាយបើកដំណើរការពន្លឺក្រោយ។"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"កម្រិតសំឡេង %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"អ្នកអាចគ្រប់គ្រងកម្រិតសំឡេង Google Assistant នៅលើឧបករណ៍បំពងសំឡេង %1$s"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"ប៉ះពាល់តែកម្រិតសំឡេងនៅលើឧបករណ៍ %1$s មិនមែននៅលើទូរទស្សន៍ទេ"</string>

@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"I-dismiss ang suhestyon"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Pagtukoy ng \"OK Google\""</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Makipag-usap sa Google Assistant anumang oras"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"Talkback (Screen reader)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"Ang TalkBack ay isang feature ng accessibility ng screen reader na tumutulong sa mga user na may problema sa paningin sa pamamagitan ng pagbabasa nang malakas sa text sa screen, mga item sa menu, at iba pang elemento. Puwede rin itong ma-set up para magamit kasama ng Shortcut sa Accessibility."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Device"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Mga Kagustuhan"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Remote at Mga Accessory"</string>
@@ -709,11 +711,35 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Shortcut sa pagiging accessible"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"I-enable ang shortcut sa pagiging accessible"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Serbisyo ng shortcut"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Accessibility ng keyboard"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kapag naka-on ang shortcut, puwede mong pindutin nang 3 segundo ang parehong button na bumalik at button na pababa nang 3 segundo para magsimula ng feature ng pagiging accessible."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Tagal ng pag-aksyon"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Tagal ng pag-aksyon (Timeout ng accessibility)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Timing"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Wala sa lahat ng app ang timing preference na ito."</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Tagal ng pag-aksyon (timeout ng accessibility)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"I-adjust ang tagal ng mga mensaheng nangangailangan ng aksyon"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Piliin kung gaano katagal ipapakita ang mga pansamantalang mensaheng humihiling na umaksyon ka"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Timing : 2–3 segundo"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Default na tagal ng pagtugon on-screen (2–3 seg)"</string>
+    <!-- no translation found for accessibility_key_repeat_delay (3705218700730796163) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_delay_detailed (839875964245948920) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_delay_summary (1285871520625842138) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat (2883843620765652931) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat (2090040450091150466) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_summary (7889272629294523770) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_detailed (5855212602097866850) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate (7021902189827133568) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_summary (3583246887327117521) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_info (6966835128389755237) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_info_summary (6481063957245411995) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"Mga Caption"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Mga setting para sa text overlay para sa paglalagay ng mga nakasarang caption sa video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Display"</string>
@@ -1150,6 +1176,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"May button sa iyong Google TV na mapipindot mo para mag-play ng tunog sa iyong remote nang 30 segundo. Gumagana lang ito sa mga sinusuportahang remote control ng Google TV.\n\nPara itigil ang tunog, pumindot ng kahit anong button sa iyong remote."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Kapag naka-on, puwede mong gamitin ang button sa iyong device para magpatugtog ng tunog para mahanap ang remote mo. Kapag naka-off, hindi gagana ang button na ito. Magagamit mo pa rin ang Hanapin ang aking remote sa pamamagitan ng iba pang paraan."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"I-play ang tunog"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Backlight Mode"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Pag-ilaw ng mga button sa remote control sa bawat pagpindot."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Sa mga sinusuportahang remote ng Google TV, iilaw ang backlight kapag pumindot sa button sa mga remote."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volume"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Puwede mong kontrolin ang volume ng Assistant sa %1$s speaker"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Naaapektuhan lang ang volume sa %1$s device , hindi sa TV"</string>

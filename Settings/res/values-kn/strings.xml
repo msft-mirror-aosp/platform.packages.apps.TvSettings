@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"ಸಲಹೆಯನ್ನು ವಜಾಗೊಳಿಸಿ"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"\"Ok Google\" ಪತ್ತೆಹಚ್ಚುವಿಕೆ"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"ಯಾವುದೇ ಸಮಯದಲ್ಲಿ Google Assistant ಜೊತೆಗೆ ಮಾತನಾಡಿ"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (ಸ್ಕ್ರೀನ್ ರೀಡರ್)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack ಎಂಬುದು ಸ್ಕ್ರೀನ್ ರೀಡರ್ ಆ್ಯಕ್ಸೆಸಿಬಿಲಿಟಿ ಫೀಚರ್ ಆಗಿದ್ದು, ಅದು ಆನ್-ಸ್ಕ್ರೀನ್ ಪಠ್ಯ, ಮೆನು ಐಟಂಗಳು ಮತ್ತು ಇತರ ಎಲಿಮೆಂಟ್‌ಗಳನ್ನು ಗಟ್ಟಿಯಾಗಿ ಓದುವ ಮೂಲಕ ದೃಷ್ಟಿ ವಿಕಲಚೇತನ ಬಳಕೆದಾರರಿಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ. ಆ್ಯಕ್ಸೆಸಿಬಿಲಿಟಿ ಶಾರ್ಟ್‌ಕಟ್ ಜೊತೆ ಬಳಸಲು ಸಹ ಅದನ್ನು ಸೆಟಪ್ ಮಾಡಬಹುದು."</string>
     <string name="header_category_device" msgid="3023893663454705969">"ಸಾಧನ"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"ಪ್ರಾಶಸ್ತ್ಯಗಳು"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"ರಿಮೋಟ್ ಮತ್ತು ಆ್ಯಕ್ಸೆಸರಿಗಳು"</string>
@@ -235,7 +237,7 @@
     <string name="accessory_state_error" msgid="8353621828816824428">"ಜೋಡಿ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ"</string>
     <string name="accessory_state_canceled" msgid="4794837663402063770">"ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ"</string>
     <string name="accessory_state_paired" msgid="3296695242499532000">"ಜೋಡಿ ಮಾಡಲಾಗಿದೆ"</string>
-    <string name="accessory_options" msgid="774592782382321681">"ಪರಿಕರ"</string>
+    <string name="accessory_options" msgid="774592782382321681">"ಆ್ಯಕ್ಸೆಸರಿ"</string>
     <string name="accessory_unpair" msgid="2473411128146068804">"ಜೋಡಣೆ ರದ್ದುಗೊಳಿಸು"</string>
     <string name="accessory_battery" msgid="2283700366184703548">"ಬ್ಯಾಟರಿ <xliff:g id="PERCENTAGE">%1$d</xliff:g>%%"</string>
     <string name="accessory_unpairing" msgid="2529195578082286563">"ಸಾಧನದ ಜೋಡಣೆ ರದ್ದುಗೊಳಿಸಲಾಗುತ್ತಿದೆ…"</string>
@@ -706,14 +708,38 @@
     <string name="palette_color_blue" msgid="8836682634988540630">"ನೀಲಿ"</string>
     <string name="palette_color_purple" msgid="2123828754639683555">"ನೇರಳೆ"</string>
     <string name="palette_color_gray" msgid="4014534773994261194">"ಬೂದು"</string>
-    <string name="accessibility_shortcut" msgid="5856158637840030531">"ಪ್ರವೇಶ ಶಾರ್ಟ್‌ಕಟ್‌"</string>
+    <string name="accessibility_shortcut" msgid="5856158637840030531">"ಆ್ಯಕ್ಸೆಸ್ಸಿಬಿಲಿಟಿ ಶಾರ್ಟ್‌ಕಟ್‌"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ಆ್ಯಕ್ಸೆಸಿಬಿಲಿಟಿ ಶಾರ್ಟ್‌ಕಟ್‌ ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ಶಾರ್ಟ್‌ಕಟ್ ಸೇವೆ"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"ಕೀಬೋರ್ಡ್ ಆ್ಯಕ್ಸೆಸಿಬಿಲಿಟಿ"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"ಶಾರ್ಟ್‌ಕಟ್ ಆನ್ ಆಗಿರುವಾಗ, 3 ಸೆಕೆಂಡ್‌ಗಳ ಕಾಲ ಹಿಂದಿನ ಮತ್ತು ಕೆಳಗಿನ ಬಟನ್‌ಗಳನ್ನು ಒತ್ತುವುದು ಆ್ಯಕ್ಸೆಸ್ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಆರಂಭಿಸುತ್ತದೆ."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಸಮಯ"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಸಮಯ (ಆ್ಯಕ್ಸೆಸಿಬಿಲಿಟಿ ಅವಧಿ ಮೀರಿದೆ)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"ಟೈಮಿಂಗ್"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"ಈ ಸಮಯದ ಆದ್ಯತೆಯನ್ನು ಎಲ್ಲಾ ಆ್ಯಪ್ಸ್ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ."</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"ಕ್ರಮ ತೆಗೆದುಕೊಳ್ಳುವ ಸಮಯ (ಆ್ಯಕ್ಸೆಸಿಬಿಲಿಟಿಯ ಅವಧಿ ಮೀರಿದೆ)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"ಕ್ರಿಯೆಯ ಅಗತ್ಯವಿರುವ ಸಂದೇಶಗಳ ಅವಧಿಯನ್ನು ಅಡ್ಜಸ್ಟ್‌ ಮಾಡಿ"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"ನೀವು ಕ್ರಮ ಕೈಗೊಳ್ಳಬೇಕೆಂದು ನಿಮಗೆ ಹೇಳುವ ಸಂದೇಶಗಳನ್ನು ಎಷ್ಟು ಸಮಯದವರೆಗೆ ತೋರಿಸಬೇಕು ಎಂಬುದನ್ನು ಆಯ್ಕೆಮಾಡಿ"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"ಸಮಯ : 2-3 ಸೆಕೆಂಡುಗಳು"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"ಆನ್-ಸ್ಕ್ರೀನ್ ಕ್ರಿಯೆಗಳಿಗೆ ಪ್ರತಿಕ್ರಿಯಿಸಲು ಡೀಫಾಲ್ಟ್ ಸಮಯವನ್ನು ಸೆಟ್‌ ಮಾಡುತ್ತದೆ (2-3 ಸೆಕೆಂಡುಗಳು)"</string>
+    <!-- no translation found for accessibility_key_repeat_delay (3705218700730796163) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_delay_detailed (839875964245948920) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_delay_summary (1285871520625842138) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat (2883843620765652931) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat (2090040450091150466) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_summary (7889272629294523770) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_detailed (5855212602097866850) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate (7021902189827133568) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_summary (3583246887327117521) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_info (6966835128389755237) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_info_summary (6481063957245411995) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"ಶೀರ್ಷಿಕೆಗಳು"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ವೀಡಿಯೊದಲ್ಲಿ ಮುಚ್ಚಿದ ಶೀರ್ಷಿಕೆ ಪಠ್ಯದ ಓವರ್‌ಲೇಗಾಗಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
     <string name="captions_display" msgid="2598662495450633375">"ಪ್ರದರ್ಶನ"</string>
@@ -1076,7 +1102,7 @@
     <string name="record_audio_summary_on" msgid="8724494646461335090">"ಆಡಿಯೋ ರೆಕರ್ಡಿಂಗ್ ನಿಲ್ಲಿಸಲು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="record_audio_summary_off" msgid="1392440365091422816">"ಆಡಿಯೋ ರೆಕಾರ್ಡಿಂಗ್ ತಕ್ಷಣವೇ ಪ್ರಾರಂಭಿಸಲು ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="play_recorded_audio_title" msgid="4627717067151602729">"ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಪ್ಲೇ ಮಾಡಿ"</string>
-    <string name="save_recorded_audio_title" msgid="378003351782124651">"ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಉಳಿಸಿ"</string>
+    <string name="save_recorded_audio_title" msgid="378003351782124651">"ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಸೇವ್ ಮಾಡಿ"</string>
     <string name="time_to_start_read_title" msgid="6565449163802837806">"ರೆಕಾರ್ಡಿಂಗ್ ಓದುವುದನ್ನು ಪ್ರಾರಂಭಿಸುವ ಮೊದಲಿನ ಅವಧಿ"</string>
     <string name="time_to_valid_audio_title" msgid="7246101824813414348">"ರೆಕಾರ್ಡ್ ಮಾಡುವ ಮೊದಲಿನ ಆಡಿಯೋ ಡೇಟಾದ ಅವಧಿ"</string>
     <string name="empty_audio_duration_title" msgid="9024377320171450683">"ಖಾಲಿ ಇರುವ ಆಡಿಯೋ ಅವಧಿ"</string>
@@ -1150,6 +1176,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ನಿಮ್ಮ Google TV ಯಲ್ಲಿ 30 ಸೆಕೆಂಡ್‌ಗಳ ಕಾಲ ನಿಮ್ಮ ರಿಮೋಟ್‌ನಲ್ಲಿ ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಲು ನೀವು ಪುಶ್ ಮಾಡಬಹುದಾದ ಬಟನ್ ಇದೆ. ಇದು ಬೆಂಬಲಿತ Google TV ರಿಮೋಟ್ ಕಂಟ್ರೋಲ್‌ಗಳಲ್ಲಿ ಮಾತ್ರ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.\n\nಸೌಂಡ್ ಅನ್ನು ನಿಲ್ಲಿಸಲು, ನಿಮ್ಮ ರಿಮೋಟ್‌ನಲ್ಲಿರುವ ಯಾವುದೇ ಬಟನ್ ಅನ್ನು ಒತ್ತಿ."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ಆನ್ ಆಗಿರುವಾಗ, ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡುವ ಮೂಲಕ ರಿಮೋಟ್ ಅನ್ನು ಪತ್ತೆಹಚ್ಚಲು ನೀವು ಸಾಧನದಲ್ಲಿನ ಬಟನ್ ಅನ್ನು ಬಳಸಬಹುದು. ಆಫ್ ಆಗಿರುವಾಗ, ಈ ಬಟನ್ ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ. ನೀವು ಈಗಲೂ ಇತರ ವಿಧಾನಗಳನ್ನು ಬಳಸಿ ನನ್ನ ರಿಮೋಟ್ ಹುಡುಕಿ ಫೀಚರ್‌ ಅನ್ನು ಬಳಸಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಿ"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"ಬ್ಯಾಕ್‌ಲೈಟ್ ಮೋಡ್"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"ಪ್ರತಿ ಬಾರಿ ಒತ್ತಿದಾಗ ರಿಮೋಟ್ ನಿಯಂತ್ರಣದಲ್ಲಿರುವ ಬಟನ್‌ಗಳ ಬೆಳಗುವಿಕೆ."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"ಬೆಂಬಲಿತ Google TV ರಿಮೋಟ್‌ಗಳಲ್ಲಿ, ರಿಮೋಟ್‌ಗಳಲ್ಲಿನ ಬಟನ್ ಅನ್ನು ಒತ್ತುವುದರಿಂದ ಬ್ಯಾಕ್‌ಲೈಟ್ ಬೆಳಗುವಿಕೆ ಸಕ್ರಿಯಗೊಳ್ಳುತ್ತದೆ."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ವಾಲ್ಯೂಮ್"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ನೀವು %1$s ಸ್ಪೀಕರ್‌ನಲ್ಲಿ Assistant ವಾಲ್ಯೂಮ್ ಅನ್ನು ನಿಯಂತ್ರಿಸಬಹುದು"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"%1$s ಸಾಧನದಲ್ಲಿನ ವಾಲ್ಯೂಮ್ ಅನ್ನು ಪ್ರಭಾವಿಸುತ್ತದೆ, TV ವಾಲ್ಯೂಮ್ ಅನ್ನು ಅಲ್ಲ"</string>
