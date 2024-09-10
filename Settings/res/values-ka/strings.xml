@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"ამ შეთავაზების იგნორირება"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"„OK Google“-ის ამოცნობა"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"ესაუბრეთ Google ასისტენტს ნებისმიერ დროს"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"Talkback (ეკრანის წამკითხველი)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack წარმოადგენს ეკრანის წამკითხველის მარტივი წვდომის ფუნქციას, რომელიც მხედველობადაქვეითებულ მომხმარებლებს ეკრანზე გამოტანილი ტექსტის, მენიუს ერთეულებისა და სხვა ელემენტების ხმამაღლა წაკითხვით ეხმარება. ამ ფუნქციის დაყენება მისაწვდომობის მალსახმობითაც შეიძლება."</string>
     <string name="header_category_device" msgid="3023893663454705969">"მოწყობილობა"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"პარამეტრები"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"დისტანციური და აქსესუარები"</string>
@@ -709,11 +711,35 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"მარტივი წვდომის მალსახმობი"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"მარტივი წვდომის მალსახმობის ჩართვა"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"მალსახმობი სერვისი"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"მარტივი წვდომა კლავიატურაზე"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"მალსახმობის ჩართვის შემდეგ მარტივი წვდომის ფუნქციის გაშვებას შეძლებთ ღილაკებზე „უკან“ და „ქვემოთ“ 3 წამის განმავლობაში ერთდროულად დაჭერით."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"მოქმედების დრო"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"მოქმედების დრო (მისაწვდომობის ლოდინის დრო)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"დროების დაყენება"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"დროის ამ პარამეტრს არ აქვს ყველა აპის მხარდაჭერა"</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"მოქმედების დრო (მარტივი წვდომის ლოდინის დრო)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"იმ შეტყობინებების ხანგრძლივობის კორექტირება, რომლებიც საჭიროებს მოქმედებას"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"აირჩიეთ, თუ რა დროის განმავლობაში გამოჩნდეს დროებითი შეტყობინებები, რომლებიც გთხოვთ მოქმედების შესრულებას"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"დრო: 2-3 წამი"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"აყენებს ეკრანზე გამოსახულ მოქმედებებზე პასუხის ნაგულისხმევ დროს (2-3 წამი)"</string>
+    <!-- no translation found for accessibility_key_repeat_delay (3705218700730796163) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_delay_detailed (839875964245948920) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_delay_summary (1285871520625842138) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat (2883843620765652931) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat (2090040450091150466) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_summary (7889272629294523770) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_detailed (5855212602097866850) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate (7021902189827133568) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_summary (3583246887327117521) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_info (6966835128389755237) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_info_summary (6481063957245411995) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"სუბტიტრები"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"დახურული ტიტრების ტექსტის ვიდეოზე გადაფარვის პარამეტრები"</string>
     <string name="captions_display" msgid="2598662495450633375">"ეკრანი"</string>
@@ -1150,6 +1176,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"თქვენს Google TV-ზე არის ღილაკი, რომლის დაჭერითაც შეგიძლიათ თქვენს დისტანციური მართვის პულტზე ხმოვანი სიგნალის დაკვრა 30 წამით. ეს ფუნქცია მუშაობს მხოლოდ Google TV-ის მხარდაჭერილი დისტანციური მართვის პულტის მეშვეობით.\n\nხმოვანი სიგნალის შესაჩერებლად დააჭირეთ ნებისმიერ ღილაკს თქვენს დისტანციურ მართვის პულტზე."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"როდესაც ჩართულია, შეგიძლიათ გამოიყენოთ თქვენს მოწყობილობაზე არსებული ღილაკი ხმის დასაკრავად, რათა იპოვოთ თქვენი დისტანციური მართვის პულტი. გამორთულ მდგომარეობაში ეს ღილაკი არ იმუშავებს. თქვენ კვლავ შეგეძლებათ პულტის პოვნის ფუნქციის გამოყენება სხვა მეთოდებით."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ხმის დაკვრა"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"შენათების რეჟიმი"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"ღილაკების განათება დისტანციური მართვის პულტზე ყოველი დაჭერისას."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Google TV-ის მხარდაჭერილ დისტანციური მართვის პულტებზე ღილაკის დაჭერა ააქტიურებს შენათებას."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ხმა"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"შეგიძლიათ მართოთ ასისტენტის ხმა %1$s დინამიკზე"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"გავლენას ახდენს ხმაზე მხოლოდ %1$s მოწყობილობაზე და არა ტელევიზორზე"</string>

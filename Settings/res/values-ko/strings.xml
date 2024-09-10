@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"추천 닫기"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"\'Ok Google\' 감지"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"언제든지 Google 어시스턴트에게 문의하세요"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack(스크린 리더)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack은 스크린 리더 접근성 기능으로, 시각 장애인을 위해 화면 텍스트, 메뉴 항목, 기타 요소를 소리 내어 읽어 줍니다. 또한 TalkBack은 접근성 바로가기와 함께 사용하도록 설정할 수 있습니다."</string>
     <string name="header_category_device" msgid="3023893663454705969">"기기"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"환경설정"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"리모컨 및 액세서리"</string>
@@ -709,11 +711,35 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"접근성 단축키"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"접근성 단축키 사용"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"단축키 서비스"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"키보드 접근성"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"단축키가 사용 설정되어 있다면 뒤로 버튼과 아래 버튼을 3초 동안 동시에 눌러 접근성 기능을 실행할 수 있습니다."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"조치를 취할 시간"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"조치를 취할 시간(접근성 기능 시간 제한)"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"타이밍"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"시간 환경설정은 앱에 따라 지원되지 않을 수도 있습니다."</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"조치를 취할 시간(접근성 기능 시간 제한)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"조치가 필요한 메시지의 지속 시간 조정"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"사용자에게 조치를 취하도록 요청하는 메시지가 표시되는 시간을 선택합니다."</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"타이밍: 2~3초"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"화면상의 작업에 응답하는 데 걸리는 기본 시간(2~3초)을 설정합니다."</string>
+    <!-- no translation found for accessibility_key_repeat_delay (3705218700730796163) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_delay_detailed (839875964245948920) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_delay_summary (1285871520625842138) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat (2883843620765652931) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat (2090040450091150466) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_summary (7889272629294523770) -->
+    <skip />
+    <!-- no translation found for accessibility_delay_before_repeat_detailed (5855212602097866850) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate (7021902189827133568) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_summary (3583246887327117521) -->
+    <skip />
+    <!-- no translation found for accessibility_key_repeat_info (6966835128389755237) -->
+    <skip />
+    <!-- no translation found for accessibility_repeat_rate_info_summary (6481063957245411995) -->
+    <skip />
     <string name="accessibility_captions" msgid="3411554568812306549">"자막"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"동영상 캡션 텍스트 오버레이 설정"</string>
     <string name="captions_display" msgid="2598662495450633375">"표시"</string>
@@ -1150,6 +1176,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV에 있는 버튼을 누르면 리모컨에서 30초 동안 소리가 울립니다. 이 기능은 지원되는 Google TV 리모컨에서만 작동합니다.\n\n소리 재생을 중지하려면 리모컨의 아무 버튼이나 누르세요."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"켜져 있으면 기기의 버튼으로 소리를 재생하여 리모컨을 찾을 수 있습니다. 꺼져 있으면 버튼이 작동하지 않습니다. 다른 방법으로도 \'리모컨 찾기\'를 사용할 수 있습니다."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"소리 재생"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"백라이트 모드"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"리모컨에 있는 조명 버튼을 누를 때마다 조명이 들어옵니다."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"지원되는 Google TV 리모컨에서 리모컨에 있는 조명 버튼을 누르면 백라이트 조명이 활성화됩니다."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s 볼륨"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s 스피커의 어시스턴트 볼륨을 제어할 수 있습니다"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"TV가 아닌 %1$s 기기 볼륨에만 영향을 줍니다"</string>

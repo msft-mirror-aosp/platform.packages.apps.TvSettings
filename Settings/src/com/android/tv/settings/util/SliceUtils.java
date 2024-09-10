@@ -23,6 +23,12 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Log;
 
+import androidx.annotation.Nullable;
+import androidx.preference.Preference;
+
+import com.android.tv.settings.overlay.FlavorUtils;
+import com.android.tv.twopanelsettings.slices.SlicePreference;
+
 import java.util.Collection;
 
 import kotlin.coroutines.Continuation;
@@ -52,43 +58,20 @@ public final class SliceUtils {
         return true;
     }
 
-    /**
-     * Checks if the slice is enabled
-     *
-     * @param context                  Current context of the app
-     * @param uri                      Settings slice uri
-     * @param topLevelSettingsSliceUri Top level settings slice uri, if null, use provided uri to
-     *                                 deduce top level settings slice uri.
-     * @return returns true if slice is enabled, false otherwise
-     * @deprecated use {@link SliceUtilsKt#isSettingsSliceEnabled} instead.
-     */
-    @Deprecated
-    public static boolean isSettingsSliceEnabled(Context context, String uri,
-            String topLevelSettingsSliceUri) {
-        if (uri == null) {
-            return false;
+    public static boolean maybeUseSlice(@Nullable Preference preference,
+                                        @Nullable SlicePreference slicePreference) {
+        boolean usingSlice = slicePreference != null
+                && FlavorUtils.isTwoPanel(slicePreference.getContext())
+                && SliceUtilsKt.isSettingsSliceEnabledSync(slicePreference.getContext(),
+                    slicePreference.getUri(), /* topLevelSettingsSliceUri = */ null);
+        if (slicePreference != null) {
+            slicePreference.setVisible(usingSlice);
         }
-        final SliceManager sliceManager = context.getSystemService(SliceManager.class);
-        if (sliceManager == null) {
-            return false;
+
+        if (preference != null) {
+            preference.setVisible(!usingSlice);
         }
-        try {
-            Uri topLevelSettingsSlice = topLevelSettingsSliceUri == null
-                    ? Uri.parse(uri).buildUpon().path("/").build()
-                    : Uri.parse(ResourcesUtil.getString(context, topLevelSettingsSliceUri));
-            final Collection<Uri> enabledSlicesUri = sliceManager
-                    .getSliceDescendants(topLevelSettingsSlice);
-            if (enabledSlicesUri != null) {
-                for (final Uri sliceUri : enabledSlicesUri) {
-                    Log.i(TAG, "Enabled slice: " + sliceUri);
-                    if (sliceUri.toString().equals(uri)) {
-                        return true;
-                    }
-                }
-            }
-        } catch (NullPointerException nullPointerException) {
-            Log.e(TAG, "Unable to get slice descendants", nullPointerException);
-        }
-        return false;
+
+        return usingSlice;
     }
 }

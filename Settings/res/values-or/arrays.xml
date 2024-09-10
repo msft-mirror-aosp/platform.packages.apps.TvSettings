@@ -89,6 +89,12 @@
     <item msgid="3665868694672130423">"MSCHAPV2"</item>
     <item msgid="1778635393795831325">"GTC"</item>
   </string-array>
+    <!-- no translation found for a11y_delay_before_repeat_entries:0 (3192011162664254283) -->
+    <!-- no translation found for a11y_delay_before_repeat_entries:1 (7610332375189141638) -->
+    <!-- no translation found for a11y_delay_before_repeat_entries:2 (8884836025164318091) -->
+    <!-- no translation found for a11y_repeat_rate_entries:0 (5784213974557593735) -->
+    <!-- no translation found for a11y_repeat_rate_entries:1 (8131016800415858190) -->
+    <!-- no translation found for a11y_repeat_rate_entries:2 (6031948535453777783) -->
   <string-array name="volume_change_entries">
     <item msgid="8475727172583493318">"ମ୍ୟୁଟ କରନ୍ତୁ"</item>
     <item msgid="2508680062291793288">"କମ (20%)"</item>
@@ -100,5 +106,15 @@
     <item msgid="3948049660167106381">"0.2"</item>
     <item msgid="3441480529755779159">"0.5"</item>
     <item msgid="4571900814286671092">"0.8"</item>
+  </string-array>
+  <string-array name="backlight_modes">
+    <item msgid="7900972906680877520">"କେବେ ବି ନୁହେଁ"</item>
+    <item msgid="3256715108348109595">"ଷ୍ଟାଣ୍ଡାର୍ଡ"</item>
+    <item msgid="5517658202197894866">"ସିଡୁଲ କରାଯାଇଛି"</item>
+  </string-array>
+  <string-array name="backlight_hints">
+    <item msgid="8765944779122322726">"ପ୍ରତ୍ୟେକ ଥର ଦବାଇଲେ ବେକଲାଇଟ ଇଲୁମିନେଟ ହେବ ନାହିଁ।"</item>
+    <item msgid="62911590277354399">"ପ୍ରତ୍ୟେକ ଥର ଦବାଇଲେ ବେକଲାଇଟ ଇଲୁମିନେଟ ହେବ। ପ୍ରତ୍ୟେକ ଥର ଇଲୁମିନେସନ ସକ୍ରିୟ ହେଲେ ଏହା 5 ସେକେଣ୍ଡ ପର୍ଯ୍ୟନ୍ତ ରହିବ।"</item>
+    <item msgid="5334296639506784894">"କେବଳ ରାତ୍ରି ସମୟରେ (6pm~6am) ପ୍ରତ୍ୟେକ ଥର ଦବାଇଲେ ବେକଲାଇଟ ଇଲୁମିନେଟ ହେବ। ପ୍ରତ୍ୟେକ ଥର ଇଲୁମିନେସନ ସକ୍ରିୟ ହେଲେ ଏହା 5 ସେକେଣ୍ଡ ପର୍ଯ୍ୟନ୍ତ ରହିବ।"</item>
   </string-array>
 </resources>
