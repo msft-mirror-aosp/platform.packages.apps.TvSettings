@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Лични"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Поврзете се на мрежа"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Додајте сметка"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Сметки и најавување"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Сметки и профили"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Нема сметки"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# сметка}one{# сметка}other{# сметки}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Аудиовизуелни услуги, „Помошник“, плаќања"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Приватност"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Поставки за уредот"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Поставки за сметката"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Заклучување на уредот"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Помошник на Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Плаќања и купувања"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Поставки за апликацијата"</string>
@@ -85,9 +86,10 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Етернетот е поврзан"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Нема поврзана мрежа"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi е исклучено"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Исклучете го етернетот за да користите Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Скенирањето е секогаш достапно"</string>
-    <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Дозволи услугата за локација на Google и други апликации да скенираат за мрежи, дури и кога Wi-Fi е исклучена"</string>
-    <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Скенирањето е секогаш достапно, дозволете услугата според локација на Google и други апликации да скенираат мрежи, дури и кога Wi-Fi е исклучено"</string>
+    <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Дозволи локациската услуга на Google и други апликации да скенираат за мрежи, дури и кога Wi-Fi е исклучена"</string>
+    <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Скенирањето е секогаш достапно, дозволете локациската услуга на Google и други апликации да скенираат мрежи, дури и кога Wi-Fi е исклучено"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Поврзете се на мрежа"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Дијагностика на мрежа"</string>
@@ -108,7 +110,7 @@
     <string name="device_surround_sound" msgid="1889436002598316470">"Опкружувачки звук"</string>
     <string name="device_sound_effects" msgid="2000295001122684957">"Системски звуци"</string>
     <string name="device_apps" msgid="2134756632245008919">"Апликации"</string>
-    <string name="device_storage" msgid="8540243547121791073">"Капацитет"</string>
+    <string name="device_storage" msgid="8540243547121791073">"Простор"</string>
     <string name="device_reset" msgid="6115282675800077867">"Ресетирање на фабричките поставки"</string>
     <string name="device_backup_restore" msgid="3634531946308269398">"Бекап и враќање"</string>
     <string name="device_factory_reset" msgid="1110189450013225971">"Ресетирање фабрички податоци"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Кога ќе ја овозможите оваа опција, системот ќе се префрлува помеѓу различни формати на динамичкиот опсег за да се усогласи со содржините. При промената на форматот може да се прикаже црн екран.\n\nКликнете на „Напредни поставки за екран“ за повеќе опции за динамичкиот опсег."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Претпочитан динамички опсег"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Конверзија претпочитана од системот"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Дозволува системот да управува со конверзијата на форматот"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Дозволува системот да управува со конверзијата на форматот"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Кога е избрана оваа опција, системот ќе одреди соодветен динамички опсег што треба да се испрати до вашиот екран и ќе ги конвертира содржините во овој динамички опсег по потреба."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Секогаш се совпаѓа со форматот на содржините"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Наметни конверзија"</string>
@@ -235,7 +237,7 @@
     <string name="accessory_state_paired" msgid="3296695242499532000">"Спарено"</string>
     <string name="accessory_options" msgid="774592782382321681">"Додаток"</string>
     <string name="accessory_unpair" msgid="2473411128146068804">"Распари"</string>
-    <string name="accessory_battery" msgid="2283700366184703548">"Батерија <xliff:g id="PERCENTAGE">%1$d</xliff:g>%%"</string>
+    <string name="accessory_battery" msgid="2283700366184703548">"Батерија: <xliff:g id="PERCENTAGE">%1$d</xliff:g> %%"</string>
     <string name="accessory_unpairing" msgid="2529195578082286563">"Распарување на уред…"</string>
     <string name="accessory_connected" msgid="5229574480869175180">"Поврзано"</string>
     <string name="accessory_change_name" msgid="6493717176878500683">"Сменете го името"</string>
@@ -296,7 +298,7 @@
     <string name="system_inputs" msgid="5552840337357572096">"Влезови"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"Влезови и уреди"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"Контрола на домашно кино"</string>
-    <string name="system_developer_options" msgid="8480844257066475479">"Опции на програмер"</string>
+    <string name="system_developer_options" msgid="8480844257066475479">"Програмерски опции"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"Ништо"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"Користење и дијагностика"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"Не се достапни апликации за администраторот на уредот"</string>
@@ -529,7 +531,7 @@
     <string name="wifi_empty_list_user_restricted" msgid="7326314737931342236">"Немате дозвола за промена на Wi-Fi мрежата."</string>
     <string name="title_ok" msgid="6500452958848127145">"Во ред"</string>
     <string name="title_cancel" msgid="2337143367016419016">"Откажи"</string>
-    <string name="storage_title" msgid="6637715914885228193">"Капацитет"</string>
+    <string name="storage_title" msgid="6637715914885228193">"Простор"</string>
     <string name="storage_available" msgid="8860901789290434209">"Достапна"</string>
     <string name="storage_size" msgid="5517261387579171381">"Вкупно простор: <xliff:g id="TOTAL_SPACE">%1$s</xliff:g>"</string>
     <string name="storage_calculating_size" msgid="5716281278843281044">"Пресметување..."</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Овозможи кратенка за пристапност"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Услуга со кратенка"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Кога кратенката е вклучена, може да ги притиснете копчето за назад и за надолу во времетраење од 3 секунди за да стартувате функција за пристапност."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Време за преземање дејство"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Време за преземање дејство (истек на пристапноста)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Тајминг"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Поставкава за тајминг не е поддрж. од сите аплик."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Затворени титлови"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Поставки за затворени слоеви од титлови на видео"</string>
     <string name="captions_display" msgid="2598662495450633375">"Приказ"</string>
@@ -812,7 +818,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"Осветлувај ги хардверските слоеви со зелено кога се ажурираат"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"Од најдобро кон најлошо: сино, зелено, светло црвено, црвено"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"Осветли површини на прозорци при нивно ажурирање"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Осветли екран при долги операции на главна нишка"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Трепкај со екранот при долги операции на главна нишка"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"Мерка прикажување на време во adb shell dumpsys gfxinfo"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"Непознати извори"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Дозволи инсталација на апликации од други извори освен Play Store"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Изберете <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> за да продолжите."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Готово"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Успешно поврзано"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Веќе е поврзано"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Успешно зачувано"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Верзија <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Отвори"</string>
@@ -1028,7 +1035,7 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"Управување со тастатури"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"Со дозвола"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"Без дозвола"</string>
-    <string name="usage_access" msgid="8402350645248312782">"Пристап до подат. за користење"</string>
+    <string name="usage_access" msgid="8402350645248312782">"Пристап до податоци за користењето"</string>
     <string name="usage_access_description" msgid="3276026988575551587">"Пристапот до податоци за користењето овозможува апликацијата да следи кои други апликации ги користите и колку често, како и операторот, поставките за јазик и други детали."</string>
     <string name="high_power_apps" msgid="5841073958519976562">"Оптимизација на енергијата"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"Оптимизирајте ја употребата на енергија на апликациите"</string>
@@ -1052,7 +1059,7 @@
     <string name="write_settings_on" msgid="71675710746513956">"Да"</string>
     <string name="write_settings_off" msgid="6730113471695092167">"Не"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Пристап до сите датотеки"</string>
-    <string name="permit_manage_external_storage" msgid="1776899171934627417">"Дозволи пристап за управување со датотеки"</string>
+    <string name="permit_manage_external_storage" msgid="1776899171934627417">"Дозволи пристап за управување со сите датотеки"</string>
     <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Дозволете апликацијава да ги чита, менува и брише сите датотеки на уредов или на поврзаните мемориски уреди. Ако се дозволи, апликацијата може да пристапува до датотеките без ваше изречно знаење."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Слика во слика"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Дозволи слика во слика"</string>
@@ -1061,7 +1068,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Дозволете им на апликаците да поставуваат аларми и да закажуваат дејства со временски рокови. Ова овозможува апликациите да работат во заднина и така може повеќе да ја трошат батеријата.\n\nАко дозволава е исклучена, нема да функционираат постојните аларми и настаните според време закажани од апликацијата."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Вклучи го екранот"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Дозволи вклучување на екранот"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Дозволете апликација да го вклучи екранот. Ако дозволите, апликацијата може да го вклучи екранот во секое време без ваша намера."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Дозволете одредена апликација да го вклучува екранот. Ако е дозволено, апликацијата ќе може да го вклучува екранот во секое време без ваша намера."</string>
     <string name="special_access" msgid="21806055758289916">"Посебен пристап за апликации"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Аудио"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Напојување и енергија"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Однесување при вклучувањето"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Ресетирај"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Телевизор"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Код за спарување преку Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Енергетски режим"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Поставкиве влијаат на уредот кога не се користи"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Најди го мојот далечински управувач"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Репродуцирајте звук за да го лоцирате далечинскиот управувач на Google TV ако е изгубен"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"На вашата Google TV има копче што може да го притиснете за да се пушти звук на далечинскиот управувач 30 секунди. Ова функционира само со поддржани далечински управувачи на Google TV.\n\nЗа да го сопрете звукот, притиснете некое копче на далечинскиот управувач."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Кога е овозможена „Најди го мојот далечински управувач“, може да репродуцирате звук за да го лоцирате далечинскиот управувач на Google TV ако е изгубен."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Кога е вклучено, може да го користите копчето на вашиот уред за да репродуцирате звук за да го лоцирате далечинското. Кога е исклучено, копчево не функционира. Сè уште ќе може да ја користите „Најди го далечинското“ преку други методи."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Репродуцирај звук"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Јачина на звук: %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Може да ја контролирате јачината на звукот на „Помошникот“ на звучникот на %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Влијае само на јачината на звукот на уред %1$s, не на телевизор"</string>
 </resources>

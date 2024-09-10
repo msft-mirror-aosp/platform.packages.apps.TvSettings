@@ -91,34 +91,9 @@ public final class WifiConfigHelper {
      */
     public static void setConfigKeyManagementBySecurity(
             WifiConfiguration config, int security) {
-        switch (security) {
-            case WifiEntry.SECURITY_NONE:
-                config.setSecurityParams(WifiConfiguration.SECURITY_TYPE_OPEN);
-                break;
-            case WifiEntry.SECURITY_WEP:
-                config.setSecurityParams(WifiConfiguration.SECURITY_TYPE_WEP);
-                break;
-            case WifiEntry.SECURITY_PSK:
-                config.setSecurityParams(WifiConfiguration.SECURITY_TYPE_PSK);
-                break;
-            case WifiEntry.SECURITY_EAP:
-                config.setSecurityParams(WifiConfiguration.SECURITY_TYPE_EAP);
-                break;
-            case WifiEntry.SECURITY_EAP_WPA3_ENTERPRISE:
-                config.setSecurityParams(
-                        WifiConfiguration.SECURITY_TYPE_EAP_WPA3_ENTERPRISE);
-                break;
-            case WifiEntry.SECURITY_EAP_SUITE_B:
-                // allowedSuiteBCiphers will be set according to certificate type
-                config.setSecurityParams(WifiConfiguration.SECURITY_TYPE_EAP_SUITE_B);
-                break;
-            case WifiEntry.SECURITY_SAE:
-                config.setSecurityParams(WifiConfiguration.SECURITY_TYPE_SAE);
-                break;
-            case WifiEntry.SECURITY_OWE:
-                config.setSecurityParams(WifiConfiguration.SECURITY_TYPE_OWE);
-                break;
-        }
+        // WifiInfo and WifiConfiguration constants are the same so we don't need to translate
+        // between them.
+        config.setSecurityParams(security);
     }
 
     /**

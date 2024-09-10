@@ -113,7 +113,7 @@ public class ProxySettingsInvalidState implements State {
                 mAdvancedOptionsFlowInfo.remove(AdvancedOptionsFlowInfo.PROXY_HOSTNAME);
                 mAdvancedOptionsFlowInfo.remove(AdvancedOptionsFlowInfo.PROXY_PORT);
                 mAdvancedOptionsFlowInfo.remove(AdvancedOptionsFlowInfo.PROXY_BYPASS);
-                mStateMachine.getListener().onComplete(StateMachine.CONTINUE);
+                mStateMachine.getListener().onComplete(this, StateMachine.CONTINUE);
             }
         }
     }

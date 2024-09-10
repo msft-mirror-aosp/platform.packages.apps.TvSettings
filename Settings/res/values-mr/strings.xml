@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"वैयक्तिक"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"नेटवर्कशी कनेक्ट करा"</string>
     <string name="add_an_account" msgid="2601275122685226096">"खाते जोडा"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"खाती आणि साइन इन"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"खाती आणि प्रोफाइल"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"कोणतीही खाती नाहीत"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# खाते}other{# खाती}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"मीडियासंबंधित सेवा, Assistant, Payments"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"गोपनीयता"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"डिव्हाइस सेटिंग्ज"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"खाते सेटिंग्ज"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"डिव्हाइस लॉक"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"पेमेंट आणि खरेदी"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ॲप सेटिंग्ज"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"इथरनेट कनेक्ट केले आहे"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"कोणतेही नेटवर्क कनेक्ट केले नाही"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"वाय-फाय बंद केले आहे"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"वाय-फाय वापरण्यासाठी इथरनेट अनप्लग करा"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"स्कॅनिंग नेहमी उपलब्‍ध"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Google ची स्थान सेवा आणि इतर ॲप्सना नेटवर्कसाठी स्कॅन करू द्या, वाय-फाय बंद असतानादेखील."</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"स्कॅनिंग कायम उपलब्ध, वाय-फाय बंद असतानादेखील Google ची स्थान सेवा आणि इतर ॲप्सना नेटवर्कसाठी स्कॅन करू द्या"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"हा पर्याय सुरू करताना, आशयाशी जुळण्यासाठी सिस्टीम वेगवेगळ्या डायनॅमिक रेंज फॉरमॅट दरम्यान स्विच करेल. यामुळे फॉरमॅट स्विचच्या वेळी स्क्रीन काळी होऊ शकते.\n\nआणखी डायनॅमिक रेंज पर्यायांसाठी प्रगत डिस्प्ले सेटिंग्जवर क्लिक करा."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"प्राधान्य असलेली डायनॅमिक रेंज"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"सिस्टीमचे प्राधान्य असलेले रूपांतर"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"सिस्टीमला फॉरमॅट रूपांतराचे व्यवस्थापन करू देते"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"सिस्टीमला फॉरमॅट रूपांतराचे व्यवस्थापन करू देते"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"हा पर्याय निवडला जातो, तेव्हा सिस्टीम तुमच्या डिस्प्लेवर पाठवण्‍यासाठी योग्य डायनॅमिक रेंज निर्धारित करेल आणि आवश्यकतेनुसार या डायनॅमिक रेंजमध्ये आशय रूपांतरित करेल."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"आशयाच्या फॉरमॅटशी नेहमी जुळते"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"सक्तीचे रूपांतर"</string>
@@ -361,7 +363,7 @@
     <string name="system_update_description" msgid="998883510488461766">"यामुळे तुमचे सिस्टम सॉफ्टवेअर सर्वात अलीकडील आवृत्तीवर अपडेट होईल. तुमचे डिव्हाइस रीस्टार्ट होईल."</string>
     <string name="system_update_content_description" msgid="5702888187682876466">"सिस्टम अपडेट, यामुळे तुमचे सिस्टम सॉफ्टवेअर सर्वात अलीकडील आवृत्तीवर अपडेट होईल. तुमचे डिव्हाइस रीस्टार्ट होईल."</string>
     <string name="about_preference" msgid="9112690446998150670">"विषयी"</string>
-    <string name="device_name" msgid="566626587332817733">"डिव्हाइस नाव"</string>
+    <string name="device_name" msgid="566626587332817733">"डिव्हाइसचे नाव"</string>
     <string name="restart_button_label" msgid="911750765086382990">"रीस्टार्ट करा"</string>
     <string name="about_legal_info" msgid="2148797328415559733">"कायदेशीर माहिती"</string>
     <string name="about_legal_license" msgid="4056934178111674054">"तृतीय पक्ष स्रोत"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"प्रवेशयोग्यता शॉर्टकट सक्षम करा"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"शॉर्टकट सेवा"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"शॉर्टकट सुरू असताना प्रवेशसुलभता वैशिष्ट्य सुरू करण्यासाठी तुम्‍ही मागे आणि खाली ही दोन्ही बटणे ३ सेकंदांपर्यंत प्रेस करून ठेवू शकता."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"कृतीसाठी लागणारा वेळ"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"कृतीसाठी लागणारा वेळ (अ‍ॅक्सेसिबिलिटी टाइमआउट)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"वेळ"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"वेळेच्या या प्राधान्याला सर्व ॲप्समध्ये सपोर्ट नाही."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"कॅप्शन"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"व्हिडिओवर उपशीर्षक मजकूर आच्छादनासाठी सेटिंग्ज"</string>
     <string name="captions_display" msgid="2598662495450633375">"प्रदर्शन"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"पुढे सुरू ठेवण्यासाठी <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> निवडा."</string>
     <string name="label_done_key" msgid="8576286462300373440">"पूर्ण झाले"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"यशस्वीरित्या कनेक्ट केले"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"आधीपासून कनेक्ट केलेले आहे"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"यशस्वीरित्या सेव्ह केले"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"आवृत्ती <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"उघडा"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"पॉवर आणि ऊर्जा"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"सुरू असतानाचे वर्तन"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"रीसेट करा"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"टेलीव्हिजन"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"इथरनेट पेअरिंग कोड"</string>
     <string name="energy_modes" msgid="1331693860386361744">"ऊर्जेचे मोड"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"डिव्हाइस वापरात नसताना या सेटिंग्जचा त्यावर परिणाम होतो"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"माझा रिमोट शोधा"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"तुमचा Google TV रिमोट हरवला असल्यास, तो शोधण्यासाठी आवाज प्ले करा"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"तुमच्या Google TV वर एक बटण आहे, जे तुम्ही तुमच्या रिमोटवर ३० सेकंदांसाठी आवाज प्ले करण्यासाठी प्रेस करू शकता. हे फक्त सपोर्ट असलेल्या Google TV रिमोट कंट्रोलसह काम करते.\n\nआवाज थांबवण्यासाठी, तुमच्या रिमोटवरील कोणतेही बटण प्रेस करा."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"माझा रिमोट शोधा सुरू असते, तेव्हा तुमचा Google TV रिमोट हरवला असल्यास, तो शोधण्यासाठी तुम्ही आवाज प्ले करू शकता."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"सुरू केलेले असेल, तेव्हा तुमचा रिमोट शोधण्यासाठी आवाज प्ले करण्याकरिता तुम्ही तुमच्या डिव्हाइसवरील बटण वापरू शकता. बंद केलेले असेल, तेव्हा हे बटण काम करणार नाही. तुम्ही तरीही इतर पद्धतींद्वारे माझा रिमोट शोधा हे वापरू शकाल."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"आवाज प्ले करा"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s व्हॉल्यूम"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"तुम्ही %1$s स्पीकरवरील Assistant चा व्हॉल्यूम नियंत्रित करू शकता"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"फक्त %1$s डिव्हाइसवरील व्हॉल्यूमवर परिणाम करते, टीव्हीवरील नाही"</string>
 </resources>

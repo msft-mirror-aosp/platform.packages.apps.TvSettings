@@ -42,7 +42,7 @@ public class AddStartState implements State {
     public void processForward() {
         mFragment = null;
         mStateMachine.getListener().onComplete(
-                mUserChoiceInfo.getWifiEntry().shouldEditBeforeConnect()
+                this, mUserChoiceInfo.getWifiEntry().shouldEditBeforeConnect()
                         || mUserChoiceInfo.getWifiEntry().needsWifiConfiguration()
                 ? StateMachine.PASSWORD : StateMachine.CONNECT);
     }

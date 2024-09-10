@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"ವೈಯಕ್ತಿಕ"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಿಸಿ"</string>
     <string name="add_an_account" msgid="2601275122685226096">"ಖಾತೆಯನ್ನು ಸೇರಿಸಿ"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"ಖಾತೆಗಳು ಮತ್ತು ಸೈನ್ ಇನ್"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"ಖಾತೆಗಳು &amp; ಪ್ರೊಫೈಲ್‌ಗಳು"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"ಯಾವುದೇ ಖಾತೆಗಳಿಲ್ಲ"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# ಖಾತೆ}one{# ಖಾತೆಗಳು}other{# ಖಾತೆಗಳು}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"ಮಾಧ್ಯಮ ಸೇವೆಗಳು, Assistant, ಪಾವತಿಗಳು"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"ಗೌಪ್ಯತೆ"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ಸಾಧನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"ಖಾತೆ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ಸಾಧನದ ಲಾಕ್"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ಪಾವತಿ &amp; ಖರೀದಿಗಳು"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ಆ್ಯಪ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ಇಥರ್ನೆಟ್ ಸಂಪರ್ಕಗೊಳಿಸಲಾಗಿದೆ"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"ಯಾವುದೇ ನೆಟ್‌ವರ್ಕ್‌ ಸಂಪರ್ಕಗೊಂಡಿಲ್ಲ"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"ವೈ-ಫೈ ಆಫ್ ಮಾಡಲಾಗಿದೆ"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"ವೈ-ಫೈ ಅನ್ನು ಬಳಸಲು ಇಥರ್ನೆಟ್ ಅನ್‌ಪ್ಲಗ್ ಮಾಡಿ"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"ಸ್ಕ್ಯಾನಿಂಗ್‌ ಯಾವಾಗಲೂ ಲಭ್ಯ"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"ವೈ-ಫೈ ಆಫ್‌‌ ಆಗಿದ್ದಾಗಲೂ ಸಹ Google ನ ಸ್ಥಳ ಸೇವೆಗಳು ಮತ್ತು ಇತರ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ನೆಟ್‌ವರ್ಕ್‌ಗಳನ್ನು ಸ್ಕ್ಯಾನ್‌‌ ಮಾಡಲು ಅನುಮತಿಸಿ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ಸ್ಕ್ಯಾನಿಂಗ್ ಯಾವಾಗಲೂ ಲಭ್ಯ, ವೈ-ಫೈ ಆಫ್‌‌ ಆಗಿದ್ದಾಗಲೂ ಸಹ Google ನ ಸ್ಥಳ ಸೇವೆಗಳು ಮತ್ತು ಇತರ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ನೆಟ್‌ವರ್ಕ್‌ಗಳನ್ನು ಸ್ಕ್ಯಾನ್‌‌ ಮಾಡಲು ಅನುಮತಿಸಿ"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"ಈ ಆಯ್ಕೆಯನ್ನು ಸಕ್ರಿಯಗೊಳಿಸುವಾಗ, ಸಿಸ್ಟಂ ವಿಷಯವನ್ನು ಹೊಂದಾಣಿಕೆ ಮಾಡಲು ವಿಭಿನ್ನ ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿಯ ಫಾರ್ಮ್ಯಾಟ್‌ಗಳ ನಡುವೆ ಬದಲಿಸುತ್ತದೆ. ಇದು ಫಾರ್ಮ್ಯಾಟ್ ಬದಲಾವಣೆ ಸಮಯದಲ್ಲಿ ಬ್ಲ್ಯಾಕ್ ಸ್ಕ್ರೀನ್‌ಗೆ ಕಾರಣವಾಗಬಹುದು.\n\nಇನ್ನಷ್ಟು ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿಯ ಆಯ್ಕೆಗಳಿಗಾಗಿ ಸುಧಾರಿತ ಡಿಸ್‌ಪ್ಲೇ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಕ್ಲಿಕ್ ಮಾಡಿ."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"ಆದ್ಯತೆಯ ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿ"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"ಸಿಸ್ಟಂ-ಆದ್ಯತೆಯ ಪರಿವರ್ತನೆ"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"ಫಾರ್ಮ್ಯಾಟ್ ಪರಿವರ್ತನೆಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನಿರ್ವಹಿಸಿ"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"ಫಾರ್ಮ್ಯಾಟ್ ಪರಿವರ್ತನೆಯನ್ನು ನಿರ್ವಹಿಸಲು ಸಿಸ್ಟಂಗೆ ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"ಈ ಆಯ್ಕೆಯನ್ನು ಆರಿಸುವುದರಿಂದ ಡಿಸ್‌ಪ್ಲೇಗೆ ಕಳುಹಿಸಲು ಸೂಕ್ತವಾದ ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿಯನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನಿರ್ಧರಿಸುತ್ತದೆ ಮತ್ತು ಅಗತ್ಯವಿದ್ದರೆ ಆ ಡೈನಾಮಿಕ್ ಶ್ರೇಣಿಗೆ ವಿಷಯವನ್ನು ಪರಿವರ್ತಿಸುತ್ತದೆ."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ಯಾವಾಗಲೂ ವಿಷಯದ ಫಾರ್ಮ್ಯಾಟ್‌ಗೆ ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"ಒತ್ತಾಯದ ಪರಿವರ್ತನೆ"</string>
@@ -303,7 +305,7 @@
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"ನಿರ್ವಾಹಕರು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದ್ದಾರೆ"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"ಲಭ್ಯವಿಲ್ಲ"</string>
     <string name="manage_device_admin" msgid="5714217234035017983">"ಸಾಧನ ನಿರ್ವಹಣಾ ಆ್ಯಪ್‍‍ಗಳು"</string>
-    <string name="number_of_device_admins_none" msgid="2734299122299837459">"ಸಕ್ರಿಯ ಅಪ್ಲಿಕೇಶನ್‌ಗಳಿಲ್ಲ"</string>
+    <string name="number_of_device_admins_none" msgid="2734299122299837459">"ಸಕ್ರಿಯ ಆ್ಯಪ್‌ಗಳಿಲ್ಲ"</string>
     <string name="unlock_set_unlock_disabled_summary" msgid="108190334043671416">"ಅಡ್ಮಿನ್, ಎನ್‍ಕ್ರಿಪ್ಷನ್, ರುಜುವಾತಿನಿಂದಾಗಿ ನಿಷ್ಕ್ರಿಯ"</string>
     <string name="enterprise_privacy_settings" msgid="8226765895133003202">"ನಿರ್ವಹಿಸುವ ಸಾಧನದ ಮಾಹಿತಿ"</string>
     <string name="enterprise_privacy_settings_summary_generic" msgid="5719549523275019419">"ನಿಮ್ಮ ಸಂಸ್ಥೆಯು ನಿರ್ವಹಿಸುವ ಬದಲಾವಣೆಗಳು ಮತ್ತು ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
@@ -319,7 +321,7 @@
     <string name="enterprise_privacy_bug_reports" msgid="2393617117911211486">"ಅತ್ಯಂತ ಇತ್ತೀಚಿನ ಬಗ್ ವರದಿ"</string>
     <string name="enterprise_privacy_security_logs" msgid="2573545327989145361">"ಅತ್ಯಂತ ಇತ್ತೀಚಿನ ಭದ್ರತಾ ಲಾಗ್"</string>
     <string name="enterprise_privacy_none" msgid="6660670916934417519">"ಯಾವುದೂ ಅಲ್ಲ"</string>
-    <string name="enterprise_privacy_enterprise_installed_packages" msgid="7244796629052581085">"ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ಸ್ಥಾಪಿಸಲಾಗಿದೆ"</string>
+    <string name="enterprise_privacy_enterprise_installed_packages" msgid="7244796629052581085">"ಆ್ಯಪ್‌ಗಳನ್ನು ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಲಾಗಿದೆ"</string>
     <string name="enterprise_privacy_apps_count_estimation_info" msgid="3875568975752197381">"ಆ್ಯಪ್‌ಗಳ ಸಂಖ್ಯೆಯನ್ನು ಅಂದಾಜು ಮಾಡಲಾಗಿದೆ. Play ಸ್ಟೋರ್‌ನಲ್ಲಿರುವುದನ್ನು ಹೊರತುಪಡಿಸಿ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿರುವ ಆ್ಯಪ್‌ಗಳು ಇದರಲ್ಲಿ ಒಳಗೊಂಡಿಲ್ಲದೇ ಇರಬಹುದು."</string>
     <string name="enterprise_privacy_number_packages_lower_bound" msgid="4518330667109848939">"{count,plural, =1{ಕನಿಷ್ಠ # ಆ್ಯಪ್}one{ಕನಿಷ್ಠ # ಆ್ಯಪ್‌ಗಳು}other{ಕನಿಷ್ಠ # ಆ್ಯಪ್‌ಗಳು}}"</string>
     <string name="enterprise_privacy_location_access" msgid="8978502415647245748">"ಸ್ಥಳದ ಅನುಮತಿಗಳು"</string>
@@ -436,7 +438,7 @@
     <string name="title_ssid" msgid="255328048344188682">"ವೈ-ಫೈ ನೆಟ್‌ವರ್ಕ್‌ನ ಹೆಸರನ್ನು ನಮೂದಿಸಿ"</string>
     <string name="title_internet_connection" msgid="7502414094881828069">"ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕ"</string>
     <string name="connected" msgid="4981532275162345997">"ಸಂಪರ್ಕಗೊಂಡಿದೆ"</string>
-    <string name="not_connected" msgid="475810896484271663">"ಸಂಪರ್ಕಗೊಂಡಿಲ್ಲ"</string>
+    <string name="not_connected" msgid="475810896484271663">"ಕನೆಕ್ಟ್ ಆಗಿಲ್ಲ"</string>
     <string name="wifi_no_internet" msgid="27421689535934864">"ಇಂಟರ್ನೆಟ್ ಇಲ್ಲ"</string>
     <string name="wifi_saved" msgid="4354792774811431829">"ಸೇವ್ ಮಾಡಲಾಗಿದೆ"</string>
     <string name="wifi_bad_password" msgid="8686375382346768922">"ತಪ್ಪಾದ ಪಾಸ್‌ವರ್ಡ್‌"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ಆ್ಯಕ್ಸೆಸಿಬಿಲಿಟಿ ಶಾರ್ಟ್‌ಕಟ್‌ ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ಶಾರ್ಟ್‌ಕಟ್ ಸೇವೆ"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"ಶಾರ್ಟ್‌ಕಟ್ ಆನ್ ಆಗಿರುವಾಗ, 3 ಸೆಕೆಂಡ್‌ಗಳ ಕಾಲ ಹಿಂದಿನ ಮತ್ತು ಕೆಳಗಿನ ಬಟನ್‌ಗಳನ್ನು ಒತ್ತುವುದು ಆ್ಯಕ್ಸೆಸ್ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಆರಂಭಿಸುತ್ತದೆ."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಸಮಯ"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಸಮಯ (ಆ್ಯಕ್ಸೆಸಿಬಿಲಿಟಿ ಅವಧಿ ಮೀರಿದೆ)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"ಟೈಮಿಂಗ್"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"ಈ ಸಮಯದ ಆದ್ಯತೆಯನ್ನು ಎಲ್ಲಾ ಆ್ಯಪ್ಸ್ ಬೆಂಬಲಿಸುವುದಿಲ್ಲ."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"ಶೀರ್ಷಿಕೆಗಳು"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ವೀಡಿಯೊದಲ್ಲಿ ಮುಚ್ಚಿದ ಶೀರ್ಷಿಕೆ ಪಠ್ಯದ ಓವರ್‌ಲೇಗಾಗಿ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"</string>
     <string name="captions_display" msgid="2598662495450633375">"ಪ್ರದರ್ಶನ"</string>
@@ -812,7 +818,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"ಅವುಗಳನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಿದಾಗ ಹಾರ್ಡ್‌ವೇರ್‌‌ ಲೇಯರ್‌ಗಳು ಹಸಿರು ಫ್ಲ್ಯಾಶ್‌‌ ಆಗುತ್ತದೆ"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"ಉತ್ತಮದಿಂದ ಹಿಡಿದು ಕಳಪೆಯವರೆಗೆ: ನೀಲಿ, ಹಸಿರು, ತಿಳಿಗೆಂಪು, ಕೆಂಪು"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"ಅವುಗಳು ಅಪ್‌ಡೇಟ್ ಆಗುವಾಗ ವಿಂಡೋದ ಸಂಪೂರ್ಣ ಮೇಲ್ಮೈ ಫ್ಲ್ಯಾಶ್ ಮಾಡಿ"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮುಖ್ಯ ಥ್ರೆಡ್‌ನಲ್ಲಿ ದೀರ್ಘ ಕಾರ್ಯಾಚರಣೆ ನಿರ್ವಹಿಸಿದಾಗ ಪರದೆಯನ್ನು ಫ್ಲ್ಯಾಶ್ ಮಾಡು"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"ಆ್ಯಪ್‍ಗಳು ಮುಖ್ಯ ಥ್ರೆಡ್‌ನಲ್ಲಿ ದೀರ್ಘ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ನಿರ್ವಹಿಸಿದಾಗ ಸ್ಕ್ರೀನ್ ಫ್ಲ್ಯಾಶ್ ಆಗಲಿ"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"adb shell dumpsys gfxinfo ನಲ್ಲಿ ಸಲ್ಲಿಸುವಿಕೆ ಸಮಯವನ್ನು ಮಾಪನ ಮಾಡಿ"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"ಅಪರಿಚಿತ ಮೂಲಗಳು"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Play Store ಹೊರಗಿನ ಬೇರೆ ಮೂಲಗಳ ಅಪ್ಲಿಕೇಶನ್‌‌ ಸ್ಥಾಪನೆಯನ್ನು ಅನುಮತಿಸಿ"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ಮುಂದುವರಿಸಲು <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ಆಯ್ಕೆ ಮಾಡಿ."</string>
     <string name="label_done_key" msgid="8576286462300373440">"ಮುಗಿದಿದೆ"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"ಯಶಸ್ವಿಯಾಗಿ ಸಂಪರ್ಕಗೊಳಿಸಲಾಗಿದೆ"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ಈಗಾಗಲೇ ಕನೆಕ್‌ಟ್‌ ಆಗಿದೆ"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"ಯಶಸ್ವಿಯಾಗಿ ಸೇವ್ ಮಾಡಲಾಗಿದೆ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ಆವೃತ್ತಿ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ತೆರೆ"</string>
@@ -1069,7 +1076,7 @@
     <string name="record_audio_summary_on" msgid="8724494646461335090">"ಆಡಿಯೋ ರೆಕರ್ಡಿಂಗ್ ನಿಲ್ಲಿಸಲು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="record_audio_summary_off" msgid="1392440365091422816">"ಆಡಿಯೋ ರೆಕಾರ್ಡಿಂಗ್ ತಕ್ಷಣವೇ ಪ್ರಾರಂಭಿಸಲು ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="play_recorded_audio_title" msgid="4627717067151602729">"ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಪ್ಲೇ ಮಾಡಿ"</string>
-    <string name="save_recorded_audio_title" msgid="378003351782124651">"ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಉಳಿಸಿ"</string>
+    <string name="save_recorded_audio_title" msgid="378003351782124651">"ರೆಕಾರ್ಡ್ ಮಾಡಿದ ಆಡಿಯೋ ಸೇವ್ ಮಾಡಿ"</string>
     <string name="time_to_start_read_title" msgid="6565449163802837806">"ರೆಕಾರ್ಡಿಂಗ್ ಓದುವುದನ್ನು ಪ್ರಾರಂಭಿಸುವ ಮೊದಲಿನ ಅವಧಿ"</string>
     <string name="time_to_valid_audio_title" msgid="7246101824813414348">"ರೆಕಾರ್ಡ್ ಮಾಡುವ ಮೊದಲಿನ ಆಡಿಯೋ ಡೇಟಾದ ಅವಧಿ"</string>
     <string name="empty_audio_duration_title" msgid="9024377320171450683">"ಖಾಲಿ ಇರುವ ಆಡಿಯೋ ಅವಧಿ"</string>
@@ -1094,8 +1101,8 @@
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"ನಿಮ್ಮ ನಿರ್ವಾಹಕರು ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಅನುಮತಿಗಳು, ಕಾರ್ಪೊರೇಟ್‌ ಆ್ಯಕ್ಸೆಸ್, ನೆಟ್‌‌ವರ್ಕ್‌ ಚಟುವಟಿಕೆ ಮತ್ತು ಸಾಧನದ ಸ್ಥಳ ಮಾಹಿತಿಯನ್ನು ಒಳಗೊಂಡಂತೆ ಈ ಬಳಕೆದಾರರಿಗೆ ಸಂಬಂಧಿಸಿದ ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ಡೇಟಾವನ್ನು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದು ಮತ್ತು ನಿರ್ವಹಿಸಬಹುದು."</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"ನಿಮ್ಮ ನಿರ್ವಾಹಕರು ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಅನುಮತಿಗಳು, ಕಾರ್ಪೊರೇಟ್‌ ಆ್ಯಕ್ಸೆಸ್, ನೆಟ್‌ವರ್ಕ್‌ ಚಟುವಟಿಕೆ ಮತ್ತು ಸಾಧನದ ಸ್ಥಳ ಮಾಹಿತಿಯನ್ನು ಒಳಗೊಂಡಂತೆ ಈ ಸಾಧನಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಆ್ಯಪ್‌ಗಳು ಮತ್ತು ಡೇಟಾವನ್ನು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದು ಮತ್ತು ನಿರ್ವಹಿಸಬಹುದು."</string>
     <string name="remove_managed_profile_label" msgid="8950011141359605612">"ಉದ್ಯೋಗ ಪ್ರೊಫೈಲ್‌ ತೆಗೆದುಹಾಕಿ"</string>
-    <string name="active_device_admin_msg" msgid="185537304726228624">"ಸಾಧನ ನಿರ್ವಹಣೆ ಅಪ್ಲಿಕೇಶನ್"</string>
-    <string name="remove_device_admin" msgid="2623866073546295104">"ಈ ಸಾಧನ ನಿರ್ವಹಣಾ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"</string>
+    <string name="active_device_admin_msg" msgid="185537304726228624">"ಸಾಧನ ನಿರ್ವಹಣೆ ಆ್ಯಪ್"</string>
+    <string name="remove_device_admin" msgid="2623866073546295104">"ಈ ಸಾಧನ ನಿರ್ವಹಣಾ ಆ್ಯಪ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"ಅಪ್ಲಿಕೇಶನ್ ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ ಮತ್ತು ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ"</string>
     <string name="select_device_admin_msg" msgid="8475934459999710332">"ಸಾಧನ ನಿರ್ವಹಣಾ ಆ್ಯಪ್‍‍ಗಳು"</string>
@@ -1103,7 +1110,7 @@
     <string name="add_device_admin" msgid="5078281377915844544">"ಈ ಸಾಧನ ನಿರ್ವಹಣೆ ಆ್ಯಪ್ ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"ಈ ನಿರ್ವಹಣಾ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದರೆ, ಈ ಕೆಳಗಿನ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಮಾಡಲು <xliff:g id="APP_NAME">%1$s</xliff:g> ಗೆ ಅನುಮತಿಸಲಾಗುತ್ತದೆ:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"ಈ ಸಾಧನವನ್ನು <xliff:g id="APP_NAME">%1$s</xliff:g> ನಿರ್ವಹಿಸುತ್ತದೆ ಮತ್ತು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡುತ್ತದೆ."</string>
-    <string name="device_admin_status" msgid="5467001937240455367">"ಈ ನಿರ್ವಹಣಾ ಅಪ್ಲಿಕೇಶನ್ ಸಕ್ರಿಯವಾಗಿದೆ ಮತ್ತು ಈ ಕೆಳಗಿನ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಮಾಡಲು <xliff:g id="APP_NAME">%1$s</xliff:g> ಗೆ ಅನುಮತಿ ನೀಡುತ್ತದೆ:"</string>
+    <string name="device_admin_status" msgid="5467001937240455367">"ಈ ಅಡ್ಮಿನ್ ಆ್ಯಪ್ ಸಕ್ರಿಯವಾಗಿದೆ ಮತ್ತು ಈ ಕೆಳಗಿನ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಮಾಡಲು <xliff:g id="APP_NAME">%1$s</xliff:g> ಗೆ ಅನುಮತಿ ನೀಡುತ್ತದೆ:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"ಇದನ್ನು ಮುಂದುವರಿಸಿದರೆ, ನಿಮ್ಮ ಬಳಕೆದಾರರನ್ನು ನಿಮ್ಮ ನಿರ್ವಾಹಕರು ನಿರ್ವಹಿಸುತ್ತಾರೆ ಮತ್ತು ಇದು ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಡೇಟಾ ಮಾತ್ರವಲ್ಲದೆ, ಸಂಬಂಧಿತ ಡೇಟಾವನ್ನೂ ಸಹ ಸಂಗ್ರಹಣೆ ಮಾಡಬಲ್ಲದು.\n\nನಿಮ್ಮ ನಿರ್ವಾಹಕರು ನೆಟ್‌ವರ್ಕ್ ಚಟುವಟಿಕೆ ಮತ್ತು ನಿಮ್ಮ ಸಾಧನದ ಸ್ಥಳ ಮಾಹಿತಿ ಸೇರಿದಂತೆ ಈ ಬಳಕೆದಾರರಿಗೆ ಸಂಬಂಧಿಸಿದ ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮತ್ತು ಡೇಟಾದ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದು ಮತ್ತು ನಿರ್ವಹಿಸಬಹುದು."</string>
     <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"ಬಗ್ ವರದಿಯನ್ನು ಹಂಚುವುದೇ?"</string>
     <string name="share_remote_bugreport_dialog_message_finished" msgid="8515056665416643253">"ಈ ಸಾಧನದ ಸಮಸ್ಯೆ ನಿವಾರಿಸಲು ಸಹಾಯ ಮಾಡಲು ನಿಮ್ಮ IT ನಿರ್ವಾಹಕರು ಬಗ್ ವರದಿಯನ್ನು ವಿನಂತಿಸಿದ್ದಾರೆ. ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮತ್ತು ಡೇಟಾವನ್ನು ಹಂಚಿಕೊಳ್ಳಬಹುದು."</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"ವಿದ್ಯುತ್ ಮತ್ತು ಶಕ್ತಿ"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"ಪವರ್ ಆನ್ ನಡವಳಿಕೆ"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"ಮರುಹೊಂದಿಸಿ"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"ದೂರದರ್ಶನ"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ಇಥರ್ನೆಟ್ ಜೋಡಣೆ ಕೋಡ್‌"</string>
     <string name="energy_modes" msgid="1331693860386361744">"ವಿದ್ಯುತ್ ಮೋಡ್‌ಗಳು"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"ಬಳಕೆಯಲ್ಲಿಲ್ಲದಿದ್ದಾಗ ಈ ಸೆಟ್ಟಿಂಗ್‌ಗಳು ಸಾಧನದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತವೆ"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ನನ್ನ ರಿಮೋಟ್ ಅನ್ನು ಹುಡುಕಿ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ನಿಮ್ಮ Google TV ರಿಮೋಟ್ ಕಳೆದುಹೋದರೆ ಅದನ್ನು ಪತ್ತೆಹಚ್ಚಲು ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಿ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ನಿಮ್ಮ Google TV ಯಲ್ಲಿ 30 ಸೆಕೆಂಡ್‌ಗಳ ಕಾಲ ನಿಮ್ಮ ರಿಮೋಟ್‌ನಲ್ಲಿ ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಲು ನೀವು ಪುಶ್ ಮಾಡಬಹುದಾದ ಬಟನ್ ಇದೆ. ಇದು ಬೆಂಬಲಿತ Google TV ರಿಮೋಟ್ ಕಂಟ್ರೋಲ್‌ಗಳಲ್ಲಿ ಮಾತ್ರ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.\n\nಸೌಂಡ್ ಅನ್ನು ನಿಲ್ಲಿಸಲು, ನಿಮ್ಮ ರಿಮೋಟ್‌ನಲ್ಲಿರುವ ಯಾವುದೇ ಬಟನ್ ಅನ್ನು ಒತ್ತಿ."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"ನನ್ನ ರಿಮೋಟ್ ಅನ್ನು ಹುಡುಕಿ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದಾಗ, ನಿಮ್ಮ Google TV ರಿಮೋಟ್ ಕಳೆದುಹೋದರೆ ಅದನ್ನು ಪತ್ತೆಹಚ್ಚಲು ನೀವು ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಬಹುದು."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ಆನ್ ಆಗಿರುವಾಗ, ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡುವ ಮೂಲಕ ರಿಮೋಟ್ ಅನ್ನು ಪತ್ತೆಹಚ್ಚಲು ನೀವು ಸಾಧನದಲ್ಲಿನ ಬಟನ್ ಅನ್ನು ಬಳಸಬಹುದು. ಆಫ್ ಆಗಿರುವಾಗ, ಈ ಬಟನ್ ಕಾರ್ಯನಿರ್ವಹಿಸುವುದಿಲ್ಲ. ನೀವು ಈಗಲೂ ಇತರ ವಿಧಾನಗಳನ್ನು ಬಳಸಿ ನನ್ನ ರಿಮೋಟ್ ಹುಡುಕಿ ಫೀಚರ್‌ ಅನ್ನು ಬಳಸಲು ಸಾಧ್ಯವಾಗುತ್ತದೆ."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ಸೌಂಡ್ ಅನ್ನು ಪ್ಲೇ ಮಾಡಿ"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ವಾಲ್ಯೂಮ್"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ನೀವು %1$s ಸ್ಪೀಕರ್‌ನಲ್ಲಿ Assistant ವಾಲ್ಯೂಮ್ ಅನ್ನು ನಿಯಂತ್ರಿಸಬಹುದು"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"%1$s ಸಾಧನದಲ್ಲಿನ ವಾಲ್ಯೂಮ್ ಅನ್ನು ಪ್ರಭಾವಿಸುತ್ತದೆ, TV ವಾಲ್ಯೂಮ್ ಅನ್ನು ಅಲ್ಲ"</string>
 </resources>

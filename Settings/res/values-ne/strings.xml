@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"व्यक्तिगत"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"नेटवर्कमा कनेक्ट गर्नुहोस्"</string>
     <string name="add_an_account" msgid="2601275122685226096">"खाता हाल्नुहोस्"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"खाता र साइन इनका गर्ने कार्यहरू"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"खाता तथा प्रोफाइलहरू"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"कुन पनि खाता छैन"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# खाता}other{# वटा खाता}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"मिडिया सेवा, सहायक, भुक्तानी"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"गोपनीयता"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"डिभाइसका सेटिङहरू"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"खाताका सेटिङहरू"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"डिभाइसको लक"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google सहायक"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"भुक्तानी तथा खरिदहरू"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"एपका सेटिङहरू"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"इथरनेट जडान गरियो"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"कुनै पनि नेटवर्क जडान गरिएको छैन"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi निष्क्रिय पारियो"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Wi-Fi प्रयोग गर्न इथरनेट केबल हटाउनुहोस्"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"स्क्यानिङ सधै उपलब्ध छ"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi अफ हुँदा पनि Google को लोकेसन सर्भिस र अन्य एपहरूलाई नेटवर्क खोज्न दिनुहोस्"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"नेटवर्क खोज्ने सुविधा सधैँ उपलब्ध हुन्छ, Google को लोकेसन सर्भिस र अन्य एपहरूलाई Wi-Fi नेटवर्क खोज्न दिनुहोस्। ती सेवाले Wi-Fi अफ भएका बेलामा पनि नेटवर्क खोज्न सक्छन्"</string>
@@ -131,7 +133,7 @@
     <string name="surround_sound_auto_info" msgid="4829346839183591680">"नोट: तपाईंको यन्त्रले प्रयोग गर्न मिल्ने फर्म्याटबारे सही तरिकाले रिपोर्ट नगरेका खण्डमा स्वतः काम गर्ने विकल्पले काम नगर्न सक्छ।"</string>
     <string name="surround_sound_auto_title" msgid="4892922385727913277">"स्वचालित: तपाईंको अडियो आउटपुट यन्त्रमा प्रयोग गर्न मिल्ने फर्म्याटहरू मात्र सक्षम पार्नुहोस् "</string>
     <string name="surround_sound_auto_summary" msgid="7073023654150720285">"यो विकल्प चयन गर्दा, सिस्टमले एपहरूलाई तपाईंको डिभाइसको चेनमा प्रयोग गर्न मिल्ने ध्वनिका सबै फर्म्याट चयन गर्न दिने छ। एपहरूले चयन गर्ने फर्म्याट सबैभन्दा उच्च गुणस्तरको फर्म्याट नहुन सक्छ।"</string>
-    <string name="surround_sound_none_title" msgid="1600095173519889326">"कुनै पनि होइन: कहिले पनि सराउन्ड साउन्ड प्रयोग नगरियोस्"</string>
+    <string name="surround_sound_none_title" msgid="1600095173519889326">"कुनै पनि होइन: कहिले पनि सराउन्ड साउन्ड प्रयोग नगर्नुहोस्"</string>
     <string name="surround_sound_manual_title" msgid="4935447605070985537">"म्यानुअल: तपाईंको अडियो आउटपुट यन्त्रमा प्रयोग गर्न मिले पनि वा नमिले पनि यो डिभाइसमा प्रयोग गर्न मिल्ने सबै फर्म्याट एक एक गरी सक्षम वा असक्षम पार्नुहोस्।"</string>
     <string name="surround_sound_manual_summary" msgid="5155535847461070572">"यो विकल्प चयन गर्दा, तपाईं आफ्नो यन्त्रमा प्रयोग गर्न मिल्ने तर प्लेब्याकमा समस्याहरू उत्पन्न गर्ने ध्वनिका फर्म्याट आफैँ असक्षम पार्न सक्नुहुन्छ। तपाईं आफ्नो यन्त्रमा प्रयोग गर्न नमिल्ने ध्वनिका फर्म्याट सक्षम पार्न सक्नुहुन्छ। केही अवस्थामा एपहरूले चयन गर्ने फर्म्याट सबैभन्दा उच्च गुणस्तरको फर्म्याट नहुन सक्छ।"</string>
     <string name="surround_sound_enable_unsupported_dialog_title" msgid="9155579373370356463">"यन्त्रमा प्रयोग गर्न नमिल्ने साउन्ड फर्म्याट प्रयोग गर्ने हो?"</string>
@@ -152,32 +154,32 @@
     <string name="hdmi_cec_settings_title" msgid="7120729705063868627">"HDMI-CEC"</string>
     <string name="advanced_sound_settings_title" msgid="319921303039469139">"ध्वनिसम्बन्धी उन्नत सेटिङ"</string>
     <string name="game_mode_title" msgid="7280816243531315755">"गेम मोडलाई अनुमति दिनुहोस्"</string>
-    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"सामग्रीको डायनामिक रेन्जसँग मिल्दोजुल्दो बनाइयोस्"</string>
+    <string name="match_content_dynamic_range_title" msgid="2794980556561655838">"सामग्रीको डायनामिक रेन्जसँग मिल्दोजुल्दो बनाउनुहोस्"</string>
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"तपाईंले यो विकल्प अन गर्नुभयो भने सिस्टमले सामग्रीसँग मिल्दाजुल्दा परिणामहरू देखाउने प्रयोजनका लागि डायनामिक रेन्जका विभिन्न फर्म्याटहरू अदलबदल गर्ने छ। तपाईंले यो विकल्प अन गर्नुभएका खण्डमा फर्म्याट अदलबदल गर्ने क्रममा स्क्रिन कालो हुन सक्छ।\n\nडायनामिक रेन्जका थप विकल्पहरू प्राप्त गर्न \"डिस्प्लेसम्बन्धी उन्नत सेटिङ\" मा क्लिक गर्नुहोस्।"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"रोजाइको डायनामिक रेन्ज"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"सिस्टमका अनुसार फर्म्याट बदलियोस्"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"फर्म्याट रूपान्तरण गर्ने काम सिस्टमलाई जिम्मा दिनुहोस्"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"सिस्टमले फर्म्याट रूपान्तरण गर्ने काम गर्छ"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"यो विकल्प चयन गरिएका बेला सिस्टमले तपाईंको डिस्प्लेमा कुन डायनामिक रेन्ज पठाउन उपयुक्त हुन्छ भन्ने कुरा निर्धारण गर्छ र सामग्रीलाई आवश्यकताअनुसार रूपान्तरण गरी उक्त डायनामिक रेन्ज बनाउँछ।"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"सधैँ सामग्रीको फर्म्याटसँग मिल्ने फर्म्याट प्रयोग गर्नुहोस्"</string>
-    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"जबरजस्ती रूपान्तरण गरियोस्"</string>
+    <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"जबरजस्ती रूपान्तरण गर्नुहोस्"</string>
     <string name="preferred_dynamic_range_selection_force_desc" msgid="1418542349290684513">"यसले चाहेको फर्म्याटमा जबरजस्ती रूपान्तरण गर्छ"</string>
-    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"चाहेको फर्म्याटमा जबरजस्ती रूपान्तरण गरियोस्। जबरजस्ती रूपान्तरण गर्दा डिस्प्ले मोड वा HDR फर्म्याटका अन्य सेटिङ प्रभावित हुन सक्छन्।"</string>
-    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"सधैँ SDR मा देखाइयोस्"</string>
-    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"सधैँ <xliff:g id="HDR_TYPE">%s</xliff:g> मा देखाइयोस्"</string>
+    <string name="preferred_dynamic_range_selection_force_summary" msgid="8381058061765216239">"चाहेको फर्म्याटमा जबरजस्ती रूपान्तरण गर्नुहोस्। जबरजस्ती रूपान्तरण गर्दा डिस्प्ले मोड वा HDR फर्म्याटका अन्य सेटिङ प्रभावित हुन सक्छन्।"</string>
+    <string name="preferred_dynamic_range_selection_force_sdr_title" msgid="3135104063034317252">"सधैँ SDR मा देखाउनुहोस्"</string>
+    <string name="preferred_dynamic_range_selection_force_hdr_title" msgid="1032587815433139859">"सधैँ <xliff:g id="HDR_TYPE">%s</xliff:g> मा देखाउनुहोस्"</string>
     <string name="preferred_dynamic_range_force_dialog_title" msgid="6865110024863661702">"तपाईं आउटपुट जबरजस्ती रूपान्तरण गरी HDR बनाउन चाहनुहुन्छ?"</string>
     <string name="preferred_dynamic_range_force_dialog_desc" msgid="7758323258282201656">"आउटपुट जबरजस्ती स्वतः रूपान्तरण गरी <xliff:g id="HDR_TYPE">%s</xliff:g> बनाइने छ।"</string>
     <string name="preferred_dynamic_range_force_dialog_desc_4k30_issue" msgid="4938418395391206131">"तपाईंको डिस्प्ले १०८० पिक्सेल ६० हर्ज रिजोल्युसनमा चल्ने छ। तपाईंको डिस्प्ले ४k ६० हर्ज रिजोल्युसनमा चलिरहेका बेला यो विकल्प प्रयोग गर्न मिल्दैन।"</string>
     <string name="selection_dolby_vision_not_supported_sidebar" msgid="8994591316574824115">"हालको रिजोल्युसनमा Dolby Vision प्रयोग गर्न मिल्दैन। तपाईंले म्यानुअल रूपमा Dolby Vision अन गर्नुभयो भने तपाईंको डिस्प्लेको रिजोल्युसन बदलेर १०८० पिक्सेल ६० हर्ज बनाइने छ"</string>
     <string name="manual_dolby_vision_format_on_4k60_title" msgid="4172263676512376500">"रिजोल्युसन बदलेर १०८० पिक्सेल ६० हर्ज बनाउने हो?"</string>
-    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"HDR फर्म्याटहरू जबरजस्ती रूपान्तरण गरी सधैँ Dolby Vision बनाइयोस्"</string>
+    <string name="dynamic_range_selection_force_dv_title" msgid="8070148109262327094">"HDR फर्म्याटहरू जबरजस्ती रूपान्तरण गरी सधैँ Dolby Vision बनाउनुहोस्"</string>
     <string name="dynamic_range_selection_force_dv_summary" msgid="1052851029985095562">"डिस्प्लेसम्बन्धी उन्नत सेटिङको \"HDR फर्म्याटहरू\" खण्डमा Dolby Vision अफ गरिएको छ भने HDR फर्म्याट जबरजस्ती रूपान्तरण गरी Dolby Vision बनाइँदा यो पुनः अन हुने छ।"</string>
-    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"HDR फर्म्याटहरू जबरजस्ती रूपान्तरण गरी HDR10 बनाइयोस्"</string>
+    <string name="dynamic_range_selection_force_hdr10_title" msgid="1221688206945051384">"HDR फर्म्याटहरू जबरजस्ती रूपान्तरण गरी HDR10 बनाउनुहोस्"</string>
     <string name="dynamic_range_selection_force_hdr10_summary" msgid="7784573527636502784">"डिस्प्लेसम्बन्धी उन्नत सेटिङको \"HDR फर्म्याटहरू\" खण्डमा HDR10 अफ गरिएको छ भने HDR फर्म्याट जबरजस्ती रूपान्तरण गरी HDR10 बनाइँदा यो पुनः अन हुने छ।"</string>
-    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"HDR फर्म्याटहरू जबरजस्ती रूपान्तरण गरी सधैँ HLG बनाइयोस्"</string>
+    <string name="dynamic_range_selection_force_hlg_title" msgid="3976190987768712696">"HDR फर्म्याटहरू जबरजस्ती रूपान्तरण गरी सधैँ HLG बनाउनुहोस्"</string>
     <string name="dynamic_range_selection_force_hlg_summary" msgid="5371949016689544001">"डिस्प्लेसम्बन्धी उन्नत सेटिङको \"HDR फर्म्याटहरू\" खण्डमा HLG अफ गरिएको छ भने HDR फर्म्याट जबरजस्ती रूपान्तरण गरी HLG बनाइँदा यो पुनः अन हुने छ।"</string>
-    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"HDR फर्म्याटहरू जबरजस्ती रूपान्तरण गरी सधैँ HDR10+ बनाइयोस्"</string>
+    <string name="dynamic_range_selection_force_hdr10plus_title" msgid="1305556000063625735">"HDR फर्म्याटहरू जबरजस्ती रूपान्तरण गरी सधैँ HDR10+ बनाउनुहोस्"</string>
     <string name="dynamic_range_selection_force_hdr10plus_summary" msgid="918038386222537401">"डिस्प्लेसम्बन्धी उन्नत सेटिङको \"HDR फर्म्याटहरू\" खण्डमा HDR10+ अफ गरिएको छ भने HDR फर्म्याट जबरजस्ती रूपान्तरण गरी HDR10+ बनाइँदा यो पुनः अन हुने छ।"</string>
-    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"HDR फर्म्याटहरू जबरजस्ती रूपान्तरण गरी सधैँ SDR बनाइयोस्"</string>
+    <string name="dynamic_range_selection_force_sdr_title" msgid="1063579223517652945">"HDR फर्म्याटहरू जबरजस्ती रूपान्तरण गरी सधैँ SDR बनाउनुहोस्"</string>
     <string name="dynamic_range_selection_force_sdr_summary" msgid="2874771365465898941">"HDR फर्म्याट जबरजस्ती रूपान्तरण गरी SDR बनाइयो भने  डिस्प्लेसम्बन्धी उन्नत सेटिङको \"HDR फर्म्याटहरू\" खण्डमा सबै फर्म्याटहरू अफ हुने छन्।"</string>
     <string name="match_content_frame_rate_title" msgid="153291168560947689">"सामग्रीको फ्रेम रेटसँग मिल्दोजुल्दो बनाउनुहोस्"</string>
     <string name="match_content_frame_rate_seamless" msgid="5577846750811067585">"निर्बाध रूपमा मात्र"</string>
@@ -225,7 +227,7 @@
     <string name="resolution_selection_hz" msgid="4425902505388495637">"हर्ज"</string>
     <string name="resolution_display_mode" msgid="6633857172598855480">"<xliff:g id="RESOLUTION">%1$s</xliff:g> (<xliff:g id="REFRESH_RATE">%2$s</xliff:g> हर्ज)"</string>
     <string name="device_storage_clear_cache_title" msgid="14370154552302965">"केस गरिएको डेटा हटाउने हो?"</string>
-    <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"यसले सबै अनुप्रयोगहरूको लागि केस गरिएको डेटा हटाउँछ।"</string>
+    <string name="device_storage_clear_cache_message" msgid="4352802738505831032">"यसले सबै एपहरूको लागि केस गरिएको डेटा हटाउँछ।"</string>
     <string name="default_audio_output_settings_title" msgid="5441937324539531999"></string>
     <string name="accessories_add" msgid="413764175035531452">"अतिरक्त सामानहरू थप्नुहोस्"</string>
     <string name="accessory_state_pairing" msgid="15908899628218319">"कनेक्ट गरिँदै छ..."</string>
@@ -313,7 +315,7 @@
     <string name="enterprise_privacy_exposure_changes_category" msgid="7750498604032318318">"तपाईंको संगठनका प्रशासकले गर्नुभएका परिवर्तनहरू"</string>
     <string name="enterprise_privacy_device_access_category" msgid="7397106369136259850">"तपाईंको यस यन्त्रमाथिको पहुँच"</string>
     <string name="enterprise_privacy_enterprise_data" msgid="8135491104894522008">"इमेल र पात्रो जस्ता तपाईंका कार्य खातासँग सम्बन्धित डेटा"</string>
-    <string name="enterprise_privacy_installed_packages" msgid="5012554762299490994">"तपाईंको डिभाइसमा भएका अनुप्रयोगहरूको सूची"</string>
+    <string name="enterprise_privacy_installed_packages" msgid="5012554762299490994">"तपाईंको डिभाइसमा भएका एपहरूको सूची"</string>
     <string name="enterprise_privacy_usage_stats" msgid="7062422823174345793">"प्रत्येक एपमा खर्च भएको समय र डेटाको परिमाण"</string>
     <string name="enterprise_privacy_network_logs" msgid="305782312671493780">"नेटवर्क ट्राफिकको सबैभन्दा पछिल्लो लग"</string>
     <string name="enterprise_privacy_bug_reports" msgid="2393617117911211486">"सबैभन्दा पछिल्लो बग रिपोर्ट"</string>
@@ -410,9 +412,9 @@
     <string name="status_up_time" msgid="1758102680983108313">"सक्रिय समय"</string>
     <string name="legal_information" msgid="1087445528481370874">"कानूनी जानकारी"</string>
     <string name="copyright_title" msgid="5879660711078649518">"प्रतिलिपि अधिकार"</string>
-    <string name="license_title" msgid="4032466200355435641">"इजाजतपत्र"</string>
+    <string name="license_title" msgid="4032466200355435641">"लाइसेन्स"</string>
     <string name="terms_title" msgid="192888187310800678">"सेवाका सर्तहरू"</string>
-    <string name="webview_license_title" msgid="5370270485188947540">"प्रणाली वेबभ्यु इजाजतपत्र"</string>
+    <string name="webview_license_title" msgid="5370270485188947540">"सिस्टम वेबभ्यु इजाजतपत्र"</string>
     <string name="consumer_information_title" msgid="7729729568416672733">"उपभोक्ताका लागि जानकारी"</string>
     <string name="consumer_information_message" msgid="205236637689468764">"तपाईंले Android TV मा प्राप्त गर्ने सामग्री एपका विकासकर्ता र चलचित्रको स्टुडियो जस्ता तेस्रो पक्षका साथै स्वयं Google ले समेत उपलब्ध गराएका हुन्छन्। थप जानकारीका लागि कृपया "<a href="g.co/tv/androidtvinfo">"g.co/tv/androidtvinfo"</a>" हेर्नुहोस्"</string>
     <string name="consumer_information_button_ok" msgid="6979480064600038080">"ठिक छ"</string>
@@ -427,8 +429,8 @@
     <string name="title_signal_strength" msgid="5047116893338315998">"सिङ्केत क्षमता"</string>
     <string name="title_random_mac_settings" msgid="6685812569356353378">"गोपनीयता"</string>
   <string-array name="random_mac_settings_entries">
-    <item msgid="3457228452595715533">"क्रमरहित MAC प्रयोग गरियोस् (डिफल्ट)"</item>
-    <item msgid="2490415280467390067">"डिभाइसको MAC प्रयोग गरियोस्"</item>
+    <item msgid="3457228452595715533">"क्रमरहित MAC प्रयोग गर्नुहोस् (डिफल्ट)"</item>
+    <item msgid="2490415280467390067">"डिभाइसको MAC प्रयोग गर्नुहोस्"</item>
   </string-array>
     <string name="mac_address_not_available" msgid="2992935344891853369">"उपलब्ध छैन"</string>
     <string name="mac_address_ephemeral_summary" msgid="3284374877361772531">"क्रमरहित MAC"</string>
@@ -687,7 +689,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"उच्च कन्ट्रास्ट पाठ"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"बोल्ड टेक्स्ट"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"कलर करेक्सन"</string>
-    <string name="color_correction_usage" msgid="4160611639548748657">"कलर करेक्सन प्रयोग गरियोस्"</string>
+    <string name="color_correction_usage" msgid="4160611639548748657">"कलर करेक्सन प्रयोग गर्नुहोस्"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"कलर मोड"</string>
     <string name="color_correction_mode_deuteranomaly" msgid="1513793544554228224">"ड्युटेरानोमेली"</string>
     <string name="color_correction_mode_deuteranomaly_summary" msgid="5991561481464520986">"रातो-हरियो"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"पहुँचको सर्टकटलाई सक्षम पार्नुहोस्"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"सर्टकट सम्बन्धी सेवा"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"सर्टकट सक्रिय हुँदा, तपाईं पहुँचसम्बन्धी कुनै सुविधा सुरु गर्न पछाडि र तल नामक दुवै बटनहरूलाई ३ सेकेन्डसम्म थिची राख्न सक्नुहुन्छ।"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"कारबाही गर्ने समय"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"कारबाही गर्ने समय (एक्सेसिबिलिटी टाइम आउट)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"समय"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"सबै एपहरूमा समयावधिसम्बन्धी यो प्राथमिकता लागू गर्न मिल्दैन।"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"क्याप्सन"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"भिडियोमा मिलेका क्याप्सन पाठ ओभरलेका लागि सेटिङ्"</string>
     <string name="captions_display" msgid="2598662495450633375">"प्रदर्शन गर्नुहोस्"</string>
@@ -717,9 +723,9 @@
     <string name="captions_configure" msgid="711991018642931958">"कन्फिगर गर्नुहोस्"</string>
     <string name="captions_language" msgid="5905918439449912646">"भाषा"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"डिफल्ट भाषा"</string>
-    <string name="captions_textsize" msgid="7161136610669343510">"पाठको आकार"</string>
+    <string name="captions_textsize" msgid="7161136610669343510">"टेक्स्टको आकार"</string>
     <string name="captions_captionstyle" msgid="6650139717545516071">"क्याप्सनको शैली"</string>
-    <string name="captions_customoptions" msgid="7691004663572161126">"आफू अनुकूल विकल्प"</string>
+    <string name="captions_customoptions" msgid="7691004663572161126">" कस्टम विकल्प"</string>
     <string name="captions_fontfamily" msgid="1026632786438880997">"फन्ट परिवार"</string>
     <string name="captions_textcolor" msgid="1566679779609140317">"पाठ रङ्ग"</string>
     <string name="captions_edgetype" msgid="4875636291904824401">"छेउको प्रकार"</string>
@@ -736,7 +742,7 @@
     <string name="captions_style_1" msgid="8236052739817535538">"सेतोमा कालो"</string>
     <string name="captions_style_2" msgid="456353889540431910">"कालोमा पहेँलो"</string>
     <string name="captions_style_3" msgid="3860050153620761166">"नीलोमा पहेँलो"</string>
-    <string name="captions_style_custom" msgid="9062905566459387931">"आफू अनुकूल"</string>
+    <string name="captions_style_custom" msgid="9062905566459387931">" कस्टम"</string>
     <string name="color_white" msgid="4188877187457167678">"सेतो"</string>
     <string name="color_black" msgid="2631818627391955149">"कालो"</string>
     <string name="color_red" msgid="1899020130465926495">"रातो"</string>
@@ -781,21 +787,21 @@
     <string name="system_allow_mock_locations" msgid="2483106887711851466">"नक्कली स्थानहरूलाई अनुमति दिन"</string>
     <string name="system_select_debug_app" msgid="6200987902307533721">"डिबग एप चयन गर्नुहोस्"</string>
     <string name="system_wait_for_debugger" msgid="5715878008542589060">"डिबगरलाई पर्खियोस्"</string>
-    <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"USB मा एपको पुष्टि गरियोस्"</string>
-    <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"हानिकारक व्यवहार पत्ता लगाउन ADB/ADT बाट इन्स्टल गरिएका एपको जाँच गरियोस्"</string>
+    <string name="system_verify_apps_over_usb" msgid="7289212844195483932">"USB मा एपको पुष्टि गर्नुहोस्"</string>
+    <string name="system_desc_verify_apps_over_usb" msgid="7737988681480237094">"हानिकारक व्यवहार पत्ता लगाउन ADB/ADT बाट इन्स्टल गरिएका एपको जाँच गर्नुहोस्"</string>
     <string name="system_wifi_verbose_logging" msgid="3097788974146704831">"Wi-Fi भर्वस लगिङ"</string>
     <string name="system_desc_wifi_verbose_logging" msgid="3537578245428327314">"Wi-Fi भर्वस लगिङ सक्षम पार्नुहोस्"</string>
     <string name="system_show_touches" msgid="8244331695139748286">"छुवाइहरू देखाउनुहोस्"</string>
     <string name="system_pointer_location" msgid="8724050865245555084">"पोइन्टरको स्थान"</string>
-    <string name="system_show_layout_bounds" msgid="8803080672553699649">"लेआउटका सीमाहरू देखाइयोस्"</string>
+    <string name="system_show_layout_bounds" msgid="8803080672553699649">"लेआउटका सीमाहरू देखाउनुहोस्"</string>
     <string name="system_show_gpu_view_updates" msgid="1625918928089365222">"GPU दृश्य अद्यावधिक देखाउनुहोस्"</string>
     <string name="system_show_hardware_layer" msgid="5833664339844452290">"हार्डवेयर तह देखाउनुहोस्"</string>
     <string name="system_show_gpu_overdraw" msgid="5073007513540516704">"GPU ओभरड्र देखाउनुहोस्"</string>
-    <string name="system_show_surface_updates" msgid="7680759813613585278">"सर्फेस अपडेट देखाइयोस्"</string>
+    <string name="system_show_surface_updates" msgid="7680759813613585278">"सर्फेस अपडेट देखाउनुहोस्"</string>
     <string name="system_window_animation_scale" msgid="685477540250939659">"विन्डो एनिमेसन स्केल"</string>
     <string name="system_transition_animation_scale" msgid="7266380208347453619">"संक्रमण एनिमेसन स्केल"</string>
     <string name="system_animator_duration_scale" msgid="3829445237130423625">"एनिमेसनको अवधि मापन"</string>
-    <string name="system_strict_mode_enabled" msgid="7392183793064579588">"स्ट्रिक्ट मोड अन गरियोस्"</string>
+    <string name="system_strict_mode_enabled" msgid="7392183793064579588">"स्ट्रिक्ट मोड अन गर्नुहोस्"</string>
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"प्रोफाइल GPU रेन्डर गर्दै"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"ट्रेस सक्षम पार्नुहोस्"</string>
     <string name="system_dont_keep_activities" msgid="4641165963339846161">"गतिविधि नराखियोस्"</string>
@@ -807,15 +813,15 @@
     <string name="system_desc_bt_hci_log" msgid="2592649923221658103">"ब्लुटुथ HCI स्नूप लगइन गर्ने सक्षम पार्नुहोस्"</string>
     <string name="system_desc_usb_debugging" msgid="5672275208185222785">"USB कनेक्ट गरिएको बेलामा डिबग मोड"</string>
     <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"डिबग भएको एप चल्नुअघि डिबगरलाई पर्खिन्छ"</string>
-    <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"क्लिप सीमा, मार्जिन, इत्यादि देखाइयोस्।"</string>
+    <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"क्लिप सीमा, मार्जिन, इत्यादि देखाउनुहोस्।"</string>
     <string name="system_desc_show_gpu_view_updates" msgid="9088343415389734854">"GPU को साथ कोरिएको बेला विन्डोहरू भित्र फ्ल्यास दृश्यहरू"</string>
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"हार्डवेयर लेयर अपडेट हुँदा ती लेयर हरिया देखिऊन्"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"सबभन्दा राम्रादेखि खराबसम्म: निलो, हरियो, हल्का रातो, रातो"</string>
-    <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"अपडेट हुँदा विन्डोका पूरै सतहमा देखाइयोस्"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"एपले मुख्य थ्रेडमा लामा गतिविधि गर्दा स्क्रिन फ्ल्यास गरियोस्"</string>
+    <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"अपडेट हुँदा विन्डोका पूरै सतहमा देखाउनुहोस्"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"एपले मुख्य थ्रेडमा लामा गतिविधि गर्दा स्क्रिन फ्ल्यास गर्नुहोस्"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"adb shell dumpsys gfxinfo मा रेन्डर गर्ने समय मापन गर्नुहोस्"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"अज्ञात स्रोतहरू"</string>
-    <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Play स्टोर भन्दा अन्य स्रोतहरूबाट अनुप्रयोगहरूको स्थापनालाई अनुमति दिनुहोस्"</string>
+    <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Play स्टोर भन्दा अन्य स्रोतहरूबाट एपहरूको स्थापनालाई अनुमति दिनुहोस्"</string>
     <string name="security_unknown_sources_confirm_title" msgid="4600896691987804985">"अज्ञात स्रोतहरूलाई अनुमति दिनुहोस्"</string>
     <string name="security_unknown_sources_confirm_desc" msgid="7883820068140189584">"तपाईंको उपकरण र व्यक्तिगत डेटा अज्ञात स्रोतको एपहरूद्वारा आक्रमण गर्न बढी असुरक्षित छन्। तपाईंको उपकरणमा वा यी एपहरू प्रयोगबाट डेटा हराउन परिणाम वा कुनै पनि नोक्सानीका लागि तपाईं आफैं जिम्मेदार हुनुहुन्छ भन्ने कुरामा सहमत हुनुहुन्छ।"</string>
     <string name="system_hdcp_checking_never" msgid="3251512398865365135">"कहिले पनि होइन"</string>
@@ -906,7 +912,7 @@
     <string name="restricted_profile_configure_apps_title" msgid="2244201859522056827">"अनुमति दिएका एपहरू"</string>
     <string name="restricted_profile_allowed" msgid="970921490464867884">"अनुमति गरिएको"</string>
     <string name="restricted_profile_not_allowed" msgid="8184983064118036268">"अनुमति छैन"</string>
-    <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"प्रतिबन्धहरू आफू अनुकूल गर्नुहोस्"</string>
+    <string name="restricted_profile_customize_restrictions" msgid="4723577877385636704">"प्रतिबन्धहरू  कस्टम गर्नुहोस्"</string>
     <string name="restricted_profile_configure_apps_description_loading" msgid="3293508876131962699">"एकक्षण ..."</string>
     <string name="restricted_profile_change_password_title" msgid="6961384850606763601">"PIN परिवर्तन गर्नुहोस्"</string>
     <string name="restricted_profile_create_preference_screen" msgid="3263536648469645089">"प्रतिबन्धित प्रोफाइल सिर्जना गर्ने हो?"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"जारी राख्न <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> चयन गर्नुहोस्।"</string>
     <string name="label_done_key" msgid="8576286462300373440">"सम्पन्न भयो"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"सफलतापूर्वक जडान गरियो"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"कनेक्ट गरिसकिएको छ"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"सफलतापूर्वक सेभ गरियो"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"संस्करण <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"खोल्नुहोस्"</string>
@@ -981,7 +988,7 @@
     <string name="device_energy_saver_attentive_timeout_dialog_title" msgid="3273988875711109352">"भिडियो हेरिरहेका बेला टिभी स्वतः अफ हुने सेटिङ अन गर्नुहोस्"</string>
     <string name="device_energy_saver_validation_sleep" msgid="7490897287741107840">"\"निष्क्रिय हुँदा\" टाइमरको समय अनिवार्य रूपमा \"हेर्दा\" टाइमरको समयभन्दा कम हुनु पर्छ"</string>
     <string name="device_energy_saver_validation_attentive" msgid="1461105528087097435">"\"हेर्दा\" टाइमरको समय अनिवार्य रूपमा \"निष्क्रिय हुँदा\" टाइमरको समयभन्दा बढी हुनु पर्छ"</string>
-    <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"स्ट्यान्डबाइ मोडमा इन्टरनेटको प्रयोग सीमित प्रयोग गरियोस्"</string>
+    <string name="limit_network_in_standby_toggle_title" msgid="6587185599397355336">"स्ट्यान्डबाइ मोडमा इन्टरनेटको प्रयोग सीमित प्रयोग गर्नुहोस्"</string>
     <string name="limit_network_in_standby_toggle_summary" msgid="9127792748675581174">"स्ट्यान्डबाइ मोडमा कम ऊर्जा प्रयोग हुन्छ"</string>
     <string name="limit_network_in_standby_toggle_info" msgid="566947772381093991">"स्ट्यान्डबाइ मोडमा टिभी इन्टरनेटबाट डिस्कनेक्ट हुने छ तर तपाईं स्वतः प्राप्त हुने अपडेटहरू भने पाइरहनु हुने छ। यसो गरेका बेला तपाईंको टिभीमा कम ऊर्जा प्रयोग हुन सक्छ तर स्ट्यान्डबाइ मोडमा कास्ट गर्ने तथा Google सहायक चलाउने जस्ता सुविधा उपलब्ध नहुन सक्छन्।"</string>
     <string name="limit_network_in_standby_confirm_title" msgid="789232987058850322">"स्ट्यान्डबाइ मोडमा इन्टरनेट प्रयोग गर्ने अनुमति दिनुहोस्"</string>
@@ -1006,8 +1013,8 @@
     <item msgid="6448060889026244632">"पारिवारिक कोठाको टिभी"</item>
     <item msgid="3336274213215419228">"सुत्ने कोठाको टिभी"</item>
   </string-array>
-    <string name="custom_room" msgid="6798144004583173563">"आफू अनुकूल नाम हाल्नुहोस्…"</string>
-    <string name="device_rename_title" msgid="9070021379000499270">"यस <xliff:g id="DEVICEMODEL">%1$s</xliff:g> को पुनः नामाकरण गर्नुहोस्"</string>
+    <string name="custom_room" msgid="6798144004583173563">" कस्टम नाम हाल्नुहोस्…"</string>
+    <string name="device_rename_title" msgid="9070021379000499270">"यस <xliff:g id="DEVICEMODEL">%1$s</xliff:g> को नाम बदल्नुहोस्"</string>
     <string name="device_rename_description" msgid="1973894029492915135">"यो <xliff:g id="DEVICEMODEL">%1$s</xliff:g> को हालको नाम \"<xliff:g id="DEVICENAME">%2$s</xliff:g>\" छ"</string>
     <string name="device_name_suggestion_title" msgid="3986220212759193742">"आफ्नो डिभाइसको नाम सेट गर्नुहोस्"</string>
     <string name="device_name_suggestion_summary" msgid="4582691399302362938">"आफ्नो फोनबाट फोटो, भिडियो र थप कुराहरू cast गर्दा यो नाम प्रयोग गर्नुहोस्"</string>
@@ -1031,37 +1038,37 @@
     <string name="usage_access" msgid="8402350645248312782">"प्रयोग गर्ने अनुमति"</string>
     <string name="usage_access_description" msgid="3276026988575551587">"प्रयोगसम्बन्धी पहुँचले कुनै एपलाई तपाईंका सेवा प्रदायक, भाषाका सेटिङहरू र अन्य विवरणहरू ट्र्याक गर्न दिनुका साथै तपाईंले प्रयोग गरिरहनुभएका अन्य एपहरू र तिनीहरूको प्रयोगबीचको अन्तराल पहिल्याउन दिन्छ।"</string>
     <string name="high_power_apps" msgid="5841073958519976562">"पावरको अप्टिमाइजेसन"</string>
-    <string name="high_power_apps_description" msgid="8651692364795060525">"अनुप्रयोगहरूको पावरको प्रयोगलाई अप्टिमाइज गर्नुहोस्"</string>
+    <string name="high_power_apps_description" msgid="8651692364795060525">"एपहरूको पावरको प्रयोगलाई अप्टिमाइज गर्नुहोस्"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"कुनै पनि एपलाई अप्टिमाइज गर्न आवश्यक छैन"</string>
     <string name="high_power_on" msgid="3120162683093360951">"अप्टिमइज गरिएको छैन"</string>
     <string name="high_power_off" msgid="3588854600942236231">"पावरको प्रयोगलाई अप्टिमाइज गरिँदैछ"</string>
     <string name="high_power_system" msgid="6263052626979462255">"पावरको अप्टिमाइजेसन उपलब्ध छैन"</string>
     <string name="manage_notification_access_title" msgid="8659254371564990084">"सूचनामाथिको पहुँच"</string>
-    <string name="no_notification_listeners" msgid="5119406452675724448">"कुनै स्थापना गरिएको अनुप्रयोगले सूचनामाथिको पहुँचको लागि अनुरोध गरेका छैन।"</string>
+    <string name="no_notification_listeners" msgid="5119406452675724448">"कुनै स्थापना गरिएको एपले सूचनामाथिको पहुँचको लागि अनुरोध गरेका छैन।"</string>
     <string name="notification_listener_security_warning_summary" msgid="8602907284276088658">"यी एपहरूले सम्पर्कको नाम र तपाईंले प्राप्त गर्नुहुने पाठ सन्देशहरूलगायत सबै सूचनाहरू पढ्न सक्नेछन्। तिनीहरू सूचनाहरू खारेज गर्न वा तिनीहरूमा समावेश कारबाही बटनहरू ट्रिगर गर्न पनि सक्नेछन्।"</string>
     <string name="default_notification_access_package_summary" msgid="1354775994781420222">"सिस्टमको सेटिङअनुसार यसो गर्नु अनिवार्य छ"</string>
     <string name="directory_access" msgid="7338555825237012006">"निर्देशिकामाथिको पहुँच"</string>
     <string name="directory_access_description" msgid="3630855858552422012">"यी अनुप्रयोगहरूसँग केही निर्देशिकाहरूमाथि पहुँच राख्ने अनुमति छ।"</string>
     <string name="directory_on_volume" msgid="5628089584970521703">"<xliff:g id="VOLUME">%1$s</xliff:g> (<xliff:g id="DIRECTORY">%2$s</xliff:g>)"</string>
-    <string name="system_alert_window_settings" msgid="5790572489650085051">"अरू एपमाथि देखाइयोस्"</string>
+    <string name="system_alert_window_settings" msgid="5790572489650085051">"अरू एपमाथि देखाउनुहोस्"</string>
     <string name="permit_draw_overlay" msgid="5312730681030266735">"अन्य एपको माथिपट्टि देखिने अनुमति दिनु…"</string>
-    <string name="allow_overlay_description" msgid="5152329837278240259">"कुनै एपलाई आफूले प्रयोग गरिरहेका अन्य एपमाथि देखिन अनुमति दिनुहोस्। यस कार्यले तपाईंले गर्ने ती अनुप्रयोगहरूको प्रयोगमा हस्तक्षेप गर्न वा तिनीहरू देखा पर्ने वा तिनीहरूले काम गर्ने तरिकालाई परिवर्तन गर्न सक्छ।"</string>
+    <string name="allow_overlay_description" msgid="5152329837278240259">"कुनै एपलाई आफूले प्रयोग गरिरहेका अन्य एपमाथि देखिन अनुमति दिनुहोस्। यस कार्यले तपाईंले गर्ने ती एपहरूको प्रयोगमा हस्तक्षेप गर्न वा तिनीहरू देखा पर्ने वा तिनीहरूले काम गर्ने तरिकालाई परिवर्तन गर्न सक्छ।"</string>
     <string name="write_system_settings" msgid="4284654265954461890">"प्रणालीसम्बन्धी सेटिङहरू परिमार्जन गर्नुहोस्"</string>
     <string name="write_settings_title" msgid="2361816483383105754">"प्रणालीसम्बन्धी सेटिङहरू परिमार्जन गर्न सक्छ"</string>
     <string name="write_settings_description" msgid="7382397926674265937">"यस अनुमतिले एपलाई प्रणालीसम्बन्धी सेटिङहरू परिमार्जन गर्न दिन्छ।"</string>
     <string name="write_settings_on" msgid="71675710746513956">"छ"</string>
     <string name="write_settings_off" msgid="6730113471695092167">"छैन"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"सबै फाइल हेर्ने तथा प्रयोग गर्ने अनुमति"</string>
-    <string name="permit_manage_external_storage" msgid="1776899171934627417">"सबै फाइलहरूको व्यवस्थापन गर्ने अनुमति दिइयोस्"</string>
+    <string name="permit_manage_external_storage" msgid="1776899171934627417">"सबै फाइलहरूको व्यवस्थापन गर्ने अनुमति दिनुहोस्"</string>
     <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"यो एपलाई यो डिभाइस वा जोडिएको कुनै भण्डारणमा रहेका सबै फाइलहरू पढ्ने, परिमार्जन गर्ने तथा मेट्ने अनुमति दिनुहोस्। अनुमति दिइएका खण्डमा यो एपले तपाईंको स्पष्ट अनुमतिविनै फाइलहरू प्रयोग गर्नसक्छ।"</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Picture-in-picture"</string>
-    <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Picture-in-picture लाई अनुमति दिइयोस्"</string>
-    <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"स्थापना गरिएको कुनै पनि अनुप्रयोगले Picture-in-picture मोडलाई समर्थन गर्दैन"</string>
+    <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Picture-in-picture लाई अनुमति दिनुहोस्"</string>
+    <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"स्थापना गरिएको कुनै पनि एपले Picture-in-picture मोडलाई समर्थन गर्दैन"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"यो एप खुला रहेको अवस्थामा वा तपाईंले यसलाई छाडेपछि (उदाहरणका लागि, भिडियो हेर्ने कार्य जारी राख्न) यस एपलाई picture-in-picture विन्डो सिर्जना गर्ने अनुमति दिनुहोस्। यो विन्डो तपाईंले प्रयोग गरिरहनुभएका अन्य एपहरूको माथि देखिन्छ।"</string>
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"यी एपहरूलाई अलार्म सेट गर्ने र समयमै पूरा गर्नु पर्ने कारबाहीहरूको रुटिन तय गर्ने अनुमति दिनुहोस्। यो अनुमति दिइएको छ भने यी एप ब्याकग्राउन्डमा चल्छन्। त्यसैले, यी एपले धेरै ब्याट्री खपत गर्न सक्छन्।\n\nयो अनुमति दिइएको छैन भने समय तोकिएका अलार्म र यी एपले तय गरेका समयअनुसार चल्ने कार्यक्रमहरूले काम गर्दैनन्।"</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"स्क्रिन अन गर्नुहोस्"</string>
-    <string name="allow_turn_screen_on" msgid="4903401106871656521">"स्क्रिन अन गर्ने अनुमति दिइयोस्"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"कुनै एपलाई स्क्रिन अन गर्ने अनुमति दिइयोस्। यो अनुमति दिइएका खण्डमा तपाईंले अन गर्न नखोजेका बेलामा पनि एपले जुनसुकै बेला स्क्रिन अन गर्न सक्छ।"</string>
+    <string name="allow_turn_screen_on" msgid="4903401106871656521">"स्क्रिन अन गर्ने अनुमति दिनुहोस्"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"कुनै एपलाई स्क्रिन अन गर्ने अनुमति दिनुहोस्। यो अनुमति दिइएका खण्डमा तपाईंले अन गर्न नखोजेका बेलामा पनि एपले जुनसुकै बेला स्क्रिन अन गर्न सक्छ।"</string>
     <string name="special_access" msgid="21806055758289916">"एपलाई विशेष पहुँच"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"अडियो"</string>
@@ -1103,7 +1110,7 @@
     <string name="add_device_admin" msgid="5078281377915844544">"यो डिभाइसको एड्मिन एप एक्टिभेट गर्नुहोस्"</string>
     <string name="device_admin_warning" msgid="7399916080685200660">"तपाईंले यो एड्मिन एप एक्टिभेट गर्नुभयो भने <xliff:g id="APP_NAME">%1$s</xliff:g> ले निम्न कार्य गर्ने अनुमति पाउने छ:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"<xliff:g id="APP_NAME">%1$s</xliff:g> ले यस डिभाइसको व्यवस्थापन तथा अनुगमन गर्ने छ।"</string>
-    <string name="device_admin_status" msgid="5467001937240455367">"यो एड्मिन एप सक्रिय छ र <xliff:g id="APP_NAME">%1$s</xliff:g> लाई  निम्न कार्यहरू गर्न दिन्छ:"</string>
+    <string name="device_admin_status" msgid="5467001937240455367">"यो एड्मिन एप अन छ र यसले <xliff:g id="APP_NAME">%1$s</xliff:g> लाई निम्न कार्य गर्ने अनुमति दिएको छ:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"अगाडि बढेर, तपाईंको प्रयोगकर्तालाई तपाईंको प्रशासकले व्यवस्थित गर्ने छ, जसले तपाईंको व्यक्तिगत डेटाका साथै सम्बन्धित डेटा समेत भण्डारण गर्न सक्छ।\n\nतपाईंको प्रशासकसँग यो प्रयोगकर्तासँग सम्बन्धित सेटिङ, पहुँच, एप, र डेटाका साथै नेटवर्क गतिविधि र तपाईंको डिभाइसका स्थानसम्बन्धी जानकारीहरूको अनुगमन र व्यवस्थापन गर्ने क्षमता छ।"</string>
     <string name="share_remote_bugreport_dialog_title" msgid="2080017987692459555">"बग रिपोर्टलाई साझेदारी गर्ने हो?"</string>
     <string name="share_remote_bugreport_dialog_message_finished" msgid="8515056665416643253">"तपाईँको IT एडमिनले यस यन्त्रको समस्या निवारण गर्नमा मद्दत गर्न बग रिपोर्टका लागि अनुरोध गर्नुभएको छ। एप र डेटा साझेदारी हुन सक्छ।"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"पावर तथा इनर्जी"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"पावर अन हुँदा देखिने मोड"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"रिसेट गर्नुहोस्"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"टेलिभिजन"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"इथरनेट कनेक्सन कोड"</string>
     <string name="energy_modes" msgid="1331693860386361744">"इनर्जी मोड"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"यी सेटिङ डिभाइस प्रयोग नगरेका बेलामा लागू हुन्छन्"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"मेरो रिमोट भेट्टाइयोस्"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"आफ्नो Google TV रिमोट हराएका खण्डमा उक्त रिमोट भेट्टाउन कुनै साउन्ड प्ले गर्नुहोस्"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"तपाईं आफ्नो रिमोटमा ३० सेकेन्डसम्म साउन्ड बजाउन Google TV मा भएको बटन थिच्न सक्नुहुन्छ। यो Google TV का रिमोट कन्ट्रोलहरू प्रयोग गरी मात्र चलाउन मिल्छ।\n\nयो साउन्ड बन्द गर्न आफ्नो रिमोटको कुनै पनि बटन थिच्नुहोस्।"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\"मेरो रिमोट भेट्टाइयोस्\" अन गरिएका बेला तपाईंको Google TV रिमोट हराएका खण्डमा तपाईं उक्त रिमोट भेट्टाउन कुनै साउन्ड प्ले गर्न सक्नुहुन्छ।"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"यो सेटिङ अन हुँदा तपाईं आफ्नो रिमोटको लोकेसन पत्ता लगाउन आफ्नो डिभाइसको बटन प्रयोग गरेर कुनै साउन्ड प्ले गर्न सक्नुहुन्छ। यो सेटिङ अफ हुँदा यो बटनले काम गर्ने छैन। तपाईं अझै पनि अन्य तरिकामार्फत \"रिमोट खोज्नुहोस्\" सुविधा प्रयोग गर्न सक्नु हुने छ।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"साउन्ड प्ले गर्नुहोस्"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s भोल्युम"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"तपाईं %1$s स्पिकरमा सहायकको भोल्युम नियन्त्रण गर्न सक्नुहुन्छ"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"यसबाट %1$s डिभाइसको भोल्युम मात्र प्रभावित हुन्छ , टिभीको हुँदैन"</string>
 </resources>

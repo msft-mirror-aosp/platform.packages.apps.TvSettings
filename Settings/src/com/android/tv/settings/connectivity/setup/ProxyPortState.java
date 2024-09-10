@@ -18,7 +18,6 @@ package com.android.tv.settings.connectivity.setup;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
@@ -131,7 +130,7 @@ public class ProxyPortState implements State {
             mAdvancedOptionsFlowInfo.put(AdvancedOptionsFlowInfo.PROXY_PORT,
                     action.getTitle());
             if (action.getId() == GuidedAction.ACTION_ID_CONTINUE) {
-                mStateMachine.getListener().onComplete(StateMachine.CONTINUE);
+                mStateMachine.getListener().onComplete(this, StateMachine.CONTINUE);
             }
             return action.getId();
         }

@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"ကိုယ်ပိုင်"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ကွန်ရက်သို့ ချိတ်ဆက်ရန်"</string>
     <string name="add_an_account" msgid="2601275122685226096">"အကောင့်တစ်ခုထည့်ရန်"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"အကောင့်များနှင့် အကောင့်ဝင်ရောက်ခြင်း"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"အကောင့်နှင့် ပရိုဖိုင်များ"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"အကောင့်မရှိ"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{အကောင့် # ခု}other{အကောင့် # ခု}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"မီဒီယာဝန်ဆောင်မှုများ၊ Assistant၊ ပေးချေမှုများ"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"ကန့်သတ်ဆက်တင်"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"စက်ဆက်တင်များ"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"အကောင့်ဆက်တင်များ"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"စက်လော့ခ်ချရန်"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ငွေပေးချေမှုနှင့် ဝယ်ယူမှုများ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"အက်ပ်ဆက်တင်များ"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"အီတာနက် ချိတ်ထားသည်"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"မည်သည့် ကွန်ရက်မျှ ချိတ်ဆက်မထားပါ"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi ကို ပိတ်ထားသည်"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Wi-Fi သုံးရန် အီသာနက်ကို ပလတ်ဖြုတ်ပါ"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"စကင် အမြဲတန်းလုပ်နိုင်ခြင်း"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi ပိတ်ထားစေကာမူ Google ၏ တည်နေရာဝန်ဆောင်မှုနှင့် အခြားအက်ပ်များအား ကွန်ရက်များ ရှာဖွေခွင့်ပေးပါ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ရှာဖွေခြင်းကို အမြဲရရှိနိုင်သည်၊ Wi-Fi ပိတ်ထားသော်လည်း Google ၏ တည်နေရာဝန်ဆောင်မှုနှင့် အခြားအက်ပ်များကို ကွန်ရက်များ ရှာဖွေခွင့်ပြုသည်"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"ဤရွေးစရာကို ဖွင့်ထားသောအခါ စနစ်သည် အကြောင်းအရာနှင့် ကိုက်ညီစေရန် အရောင်အပိုင်းအခြား ဖော်မက်အမျိုးမျိုးကြား ပြောင်းမည်။ ၎င်းက ဖော်မက်ပြောင်းလဲမှုအတွင်း အမည်းရောင်စခရင်ကို ဖြစ်စေနိုင်သည်။\n\nနောက်ထပ် အရောင်အပိုင်းအခြား ရွေးစရာများအတွက် ‘အဆင့်မြင့် ဖန်သားပြင်’ ဆက်တင်များကို နှိပ်ပါ။"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"ဦးစားပေး အရောင်အပိုင်းအခြား"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"စနစ်ဦးစားပေး ပြောင်းလဲမှု"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"စနစ်အား ဖော်မက်ပြောင်းလဲမှုကို စီမံခွင့်ပြုသည်"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"စနစ်အား ဖော်မက်ပြောင်းလဲမှုကို စီမံခွင့်ပြုသည်"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"၎င်းကို ရွေးထားသောအခါ စနစ်သည် သင့်ဖန်သားပြင်သို့ပို့ရန် သင့်တော်သော အရောင်အပိုင်းအခြားကို ဆုံးဖြတ်ပေးပြီး အကြောင်းအရာကို ဤအရောင်အပိုင်းအခြားသို့ လိုသလိုပြောင်းပေးမည်။"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"အကြောင်းအရာ၏ ဖော်မက်ကို အမြဲတမ်း ကိုက်ညီအောင်လုပ်သည်"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"ပြောင်းလဲမှု လုပ်ခိုင်းခြင်း"</string>
@@ -377,8 +379,8 @@
     <string name="about_ads" msgid="7662896442040086522">"ကြော်ငြာများ"</string>
     <string name="ads_description" msgid="8081069475265061074">"သင့်ကြော်ငြာ ID ကို ပြင်ဆင်သတ်မှတ်ခြင်းကဲ့သို့ ကြော်ငြာဆက်တင်များကို စီမံပါ။"</string>
     <string name="ads_content_description" msgid="1006489792324920289">"ကြော်ငြာများ၊ သင့်ကြော်ငြာ ID ကို ပြင်ဆင်သတ်မှတ်ခြင်းကဲ့သို့ ကြော်ငြာဆက်တင်များကို စီမံသည်။"</string>
-    <string name="show_dev_on" msgid="612741433124106067">"သင်သည် ယခု ဆော့ဖ်ဝဲအင်ဂျင်နီယာ တစ်ဦး ဖြစ်နေပါပြီ။"</string>
-    <string name="show_dev_already" msgid="1522591284776449818">"မလိုတော့ပါ၊ သင်သည် ပြုစုသူ တစ်ယောက် ဖြစ်နေပါပြီ။"</string>
+    <string name="show_dev_on" msgid="612741433124106067">"သင်သည် ယခု ဆော့ဖ်ဝဲရေးသူ ဖြစ်နေပါပြီ။"</string>
+    <string name="show_dev_already" msgid="1522591284776449818">"မလိုတော့ပါ။ သင်သည် ဆော့ဖ်ဝဲရေးသူ ဖြစ်ပြီးသားပါ။"</string>
     <string name="device_info_default" msgid="2374506935205518448">"အမည်မသိ"</string>
     <string name="selinux_status" msgid="1146662734953021410">"SELinux အခြေအနေ"</string>
     <string name="selinux_status_disabled" msgid="4027105362332795142">"ပိတ်ထားသည်"</string>
@@ -687,7 +689,7 @@
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"အရောင်ခြားနားချက်မြင့် စာသား"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"စာလုံးထူ စာသား"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"အရောင် အမှန်ပြင်ခြင်း"</string>
-    <string name="color_correction_usage" msgid="4160611639548748657">"အရောင်ပြင်ဆင်မှု သုံးခြင်း"</string>
+    <string name="color_correction_usage" msgid="4160611639548748657">"အရောင် အမှန်ပြင်ခြင်းကို သုံးရန်"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"အရောင်မုဒ်"</string>
     <string name="color_correction_mode_deuteranomaly" msgid="1513793544554228224">"အစိမ်း မမြင်ရခြင်း"</string>
     <string name="color_correction_mode_deuteranomaly_summary" msgid="5991561481464520986">"အနီ-အစိမ်း"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"အများသုံးနိုင်မှု ဖြတ်လမ်းလင့်ခ်ကို ဖွင့်မည်"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ဖြတ်လမ်းလင့်ခ် ဝန်ဆောင်မှု"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"ဖြတ်လမ်းလင့်ခ် ဖွင့်ထားလျှင် အနောက်နှင့် အောက်သို့ ခလုတ်နှစ်ခုစလုံးကို ၃ စက္ကန့်ကြာဖိထားခြင်းဖြင့် အများသုံးနိုင်သည့် ဝန်ဆောင်မှုများ စတင်ပါမည်။"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"လုပ်ရန်အချိန်"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"လုပ်ရန်အချိန် (အများသုံးနိုင်မှု အချိန်ကုန်ခြင်း)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"အချိန်ကိုက်ခြင်း"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"ဤအချိန်ကိုက်ခြင်းသတ်မှတ်ချက်ကို အက်ပ်အားလုံးက ပံ့ပိုးမထားပါ။"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"စာတန်းများ"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ဗီဒီယိုမှာ အပိတ် စာတန်း စာသား အတွက် ဆက်တင်များ"</string>
     <string name="captions_display" msgid="2598662495450633375">"မြင်ကွင်း"</string>
@@ -812,7 +818,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"ဟာ့ဒ်ဝဲ အလွှာများကို မွမ်းမံ ချိန်မှာ အစိမ်းရောင်ဖြင့် လင်းပြရန်"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"အကောင်းဆုံးမှ အဆိုးဆုံးဆီသို့: အပြာ၊ အစိမ်း၊ အနီဖျော့၊ အနီ"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"ဝင်ဒိုး မျက်နှာပြင်များ တစ်ခုလုံးကို မွမ်းမံ နေချိန်မှာ လင်းပြရန်"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"အက်ပ်များက ပင်မ အမျှင်တန်းမှာ ရေရှည် လုပ်ငန်းများ လုပ်ကိုင်နေချိန်မှာ မျက်နှာပြင်ကို လင်းပြရန်"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"အက်ပ်လုပ်ဆောင်မှု ရှည်ကြာလျှင် စကရင်ပြန်စသည်"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"adb အခွံ dumpsys gfxinfo ထဲက တင်ဆက်မှု အချိန်ကို တိုင်းထွာသည်။"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"မသိရသော ရင်းမြစ်များ"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Play စတိုး မဟုတ်သည့် အခြား အရင်းအမြစ်များမှ အက်ပ်များ တပ်ဆင်မှုကို ခွင့်ပြုရန်"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ရှေ့ဆက်ရန် <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ကို ရွေးပါ။"</string>
     <string name="label_done_key" msgid="8576286462300373440">"ပြီးပါပြီ"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"အောင်မြင်စွာ ချိတ်ဆက်ပြီးပါပြီ"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ချိတ်ဆက်ပြီးဖြစ်သည်"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"အောင်မြင်စွာ သိမ်းဆည်းပြီးပါပြီ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ဗားရှင်း <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ဖွင့်ထား"</string>
@@ -1053,7 +1060,7 @@
     <string name="write_settings_off" msgid="6730113471695092167">"No"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"ဖိုင်အားလုံး သုံးခွင့်"</string>
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"ဖိုင်အားလုံးကို စီမံရန် သုံးခွင့်ပေးပါ"</string>
-    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"ဤစက်ပစ္စည်း (သို့) ချိတ်ဆက်ထားသော သိုလှောင်နေရာရှိ ဖိုင်များအားလုံးကို ဖတ်ရန်၊ ပြင်ဆင်ရန်နှင့် ဖျက်ရန် ဤအက်ပ်ကို ခွင့်ပြုပါ။ ခွင့်ပြုပြီးပါက အက်ပ်သည် သင့်အား အသိမပေးဘဲ ဖိုင်များကို အသုံးပြုနိုင်ပါမည်။"</string>
+    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"ဤစက်ပစ္စည်း (သို့) ချိတ်ဆက်ထားသော သိုလှောင်နေရာရှိ ဖိုင်များအားလုံးကို ဖတ်ရန်၊ ပြင်ဆင်ရန်နှင့် ဖျက်ရန် ဤအက်ပ်ကို ခွင့်ပြုသည်။ ခွင့်ပြုပြီးပါက အက်ပ်သည် သင့်အား အသိမပေးဘဲ ဖိုင်များကို အသုံးပြုနိုင်ပါမည်။"</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"နှစ်ခုထပ်၍ကြည့်ခြင်း"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"နှစ်ခုထပ်၍ကြည့်ခြင်း ခွင့်ပြုရန်"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"ထည့်သွင်းထားသည့် အက်ပ်တစ်ခုမျှ နှစ်ခုထပ်၍ကြည့်ခြင်းကို ခွင့်မပြုပါ"</string>
@@ -1131,7 +1138,8 @@
     <string name="power_and_energy" msgid="4638182439670702556">"ပါဝါနှင့် စွမ်းအင်"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"ပါဝါဖွင့်ထားချိန် အပြုအမူ"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"ပြင်ဆင်သတ်မှတ်ခြင်း"</string>
-    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"အီသာနက် အတူတွဲချိတ်ရန် ကုဒ်"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"ရုပ်မြင်သံကြား"</string>
+    <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"အီသာနက် တွဲချိတ်ကုဒ်"</string>
     <string name="energy_modes" msgid="1331693860386361744">"စွမ်းအင်မုဒ်များ"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"စက်ကိုသုံးမနေသောအခါ ဤဆက်တင်များက ၎င်းအပေါ် သက်ရောက်မှုရှိသည်"</string>
     <string name="energy_mode_enables" msgid="357960364751477627">"ဖွင့်ထားသည်များ-"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ကျွန်ုပ်၏ အဝေးထိန်းခလုတ်ရှာခြင်း"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"သင့် Google TV အဝေးထိန်းခလုတ်ကို နေရာမှားထားမိပါက ရှာတွေ့ရန် အသံဖွင့်နိုင်သည်"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"သင့် Google TV တွင် ခလုတ်တစ်ခုရှိပြီး ၎င်းကိုနှိပ်ခြင်းဖြင့် အဝေးထိန်းခလုတ်တွင် စက္ကန့် ၃၀ ကြာ အသံမည်သည်။ ၎င်းသည် ပံ့ပိုးထားသော Google TV အဝေးထိန်းခလုတ်များတွင်သာ အလုပ်လုပ်သည်။\n\nအသံပိတ်ရန် အဝေးထိန်းခလုတ်ပေါ်ရှိ ခလုတ်တစ်ခုခု နှိပ်ပါ။"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"‘ကျွန်ုပ်၏ အဝေးထိန်းခလုတ်ရှာခြင်း’ ဖွင့်ထားသောအခါ သင့် Google TV အဝေးထိန်းခလုတ်ကို နေရာမှားထားမိပါက ရှာတွေ့ရန် အသံဖွင့်နိုင်သည်။"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ဖွင့်ထားပါက သင့်အဝေးထိန်းခလုတ် ရှာဖွေရာတွင် အသံပေးရန်အတွက် သင့်စက်ရှိခလုတ်ကို သုံးနိုင်သည်။ ပိတ်ထားပါက ဤခလုတ် အလုပ်မလုပ်ပါ။ အခြားနည်းလမ်းများဖြင့် ‘အဝေးထိန်းခလုတ် ရှာပါ’ ကို သုံးနိုင်ပါသေးသည်။"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"အသံဖွင့်ရန်"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s အသံအတိုးအကျယ်"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s စပီကာတွင် Assistant အသံအတိုးအကျယ်ကို ထိန်းချုပ်နိုင်သည်"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"%1$s စက်ရှိ အသံအတိုးအကျယ်ကိုသာ သက်ရောက်ပြီး TV တွင် သက်ရောက်မှုမရှိပါ"</string>
 </resources>
