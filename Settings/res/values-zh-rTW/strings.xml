@@ -1145,10 +1145,10 @@
     <string name="energy_mode_enables" msgid="357960364751477627">"啟用以下功能："</string>
     <string name="energy_mode_eco_hint" msgid="5280058011809503514">"視你啟用的電視功能數量而定，耗電量可能會增加。"</string>
     <string name="energy_modes_confirmation_title" msgid="4520280098781914825">"啟用「<xliff:g id="ENERGYMODENAME">%s</xliff:g>」"</string>
-    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"尋找我的遙控器"</string>
+    <string name="settings_find_my_remote_title" msgid="4586368268611622848">"尋找我的聲控器"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"讓忘記放在何處的 Google TV 遙控器發出音效，以便找出裝置"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV 有一個按鈕，按下即可讓遙控器播放音效 30 秒。這項功能僅適用於支援的 Google TV 遙控器。\n\n如要停止播放音效，請按下遙控器上的任一按鈕。"</string>
-    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"如果開啟，你就能使用裝置上的按鈕播放音效，以利找出遙控器。如果關閉，則無法使用這個按鈕，但你仍可透過其他方法使用「尋找我的遙控器」。"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"如果開啟，你就能使用裝置上的按鈕播放音效，以利找出遙控器。如果關閉，則無法使用這個按鈕，但你仍可透過其他方法使用「尋找我的聲控器」。"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"播放音效"</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"「%1$s」的音量"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"你可以控制「%1$s」揚聲器的 Google 助理音量"</string>
