@@ -39,6 +39,8 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Odbaci prijedlog"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Prepoznavanje fraze \"Ok Google\""</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Razgovarajte s Google Asistentom bilo kada"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (čitač ekrana)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack je funkcija pristupačnosti čitača ekrana koja pomaže osobama s oštećenjem vida čitanjem naglas teksta na ekranu, stavki menija i drugih elemenata. Može se postaviti i za korištenje putem prečice za pristupačnost."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Uređaj"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Postavke"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Daljinski upravljač i dodaci"</string>
@@ -709,11 +711,24 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Prečica za pristupačnost"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Omogućavanje prečice za pristupačnost"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Usluga prečice"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Pristupačnost tastature"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kada je uključena prečica, funkciju pristupačnosti možete pokrenuti istovremenim pritiskom i držanjem dugmadi za nazad i dolje u trajanju od 3 sekunde."</string>
-    <string name="accessibility_timeout" msgid="5806441204926407081">"Vrijeme za poduzimanje radnje"</string>
-    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Vrijeme za poduzimanje radnje za pristupačnost"</string>
-    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Vrijeme"</string>
-    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Ovu postavku za vrijeme ne podržavaju sve aplikacije."</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Vrijeme za poduzimanje radnje (istek vremena za pristupačnost)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Podesite trajanje poruka koje zahtijevaju radnju"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Odaberite koliko dugo želite da se prikazuju privremene poruke koje od vas traže da poduzmete radnju"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Vrijeme: 2–3 s"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Postavlja zadano vrijeme za odgovor na radnje na ekranu (2–3 s)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Odgoda ponavljanja unosa tipke"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Konfiguriranje odgode prije nego što se ponovljeni znakovi pojave kada se tipka zadrži"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Podešavanje odgode prije ponavljanja unosa tipke"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Ponavljanje unosa tipke"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Odgoda prije ponavljanja"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Prilagođavanje trajanja zadržavanja dugmeta prije nego što se unos počne ponavljati"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Prilagođavanje trajanja zadržavanja dugmeta nakon čega se unos počinje ponavljati"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Brzina ponavljanja"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Postavljanje brzine ponavljanja znakova nakon unosa kada se tipka zadrži"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Zadano"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Upravljanje brzinom ponavljanja unosa dugmeta nakon prve odgode"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Titlovi"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Postavke za prikaz teksta titla preko videozapisa"</string>
     <string name="captions_display" msgid="2598662495450633375">"Prikaz"</string>
@@ -1150,6 +1165,9 @@
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na Google TV-u se nalazi dugme koje možete pritisnuti da reproducirate zvuk na daljinskom upravljaču u trajanju od 30 sekundi. Ovo funkcionira samo s podržanim daljinskim upravljačima za Google TV.\n\nDa zaustavite zvuk, pritisnite bilo koje dugme na daljinskom upravljaču."</string>
     <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Kada je uključeno, možete koristiti dugme na uređaju da reproducirate zvuk radi pronalaženja daljinskog upravljača. Kada je isključeno, to dugme neće funkcionirati. I dalje ćete moći koristiti pronalaženje daljinskog upravljača na druge načine."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Reproduciraj zvuk"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Način rada s pozadinskim osvjetljenjem"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Osvjetljenje dugmadi na daljinskom upravljaču prilikom svakog pritiska."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Pritisak dugmeta na daljinskom upravljaču aktivira pozadinsko osvjetljenje na podržanim daljinskim upravljačima za Google TV."</string>
     <string name="volume_change_settings_title" msgid="7861540652599113353">"Jačina zvuka uređaja %1$s"</string>
     <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Možete upravljati jačinom zvuka Asistenta na zvučniku %1$s"</string>
     <string name="volume_change_subtitle_select" msgid="357283268411175266">"Utiče samo na jačinu zvuka uređaja %1$s, ali ne i TV-a"</string>
