@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personnel"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Se connecter au réseau"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Ajouter un compte"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Comptes et connexion"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Comptes et profils"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Aucun compte"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# compte}one{# compte}other{# comptes}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Services multimédias, Assistant, paiements"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Confidentialité"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Paramètres de l\'appareil"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Paramètres du compte"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Verrouillage de l\'appareil"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Assistant Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Paiement et achats"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Paramètres des applications"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet connecté"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Vous n\'êtes connecté à aucun réseau"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Le Wi-Fi est désactivé"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Débranchez le câble Ethernet pour utiliser Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Recherche toujours disponible"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Autoriser le service de localisation de Google et les autres applications à rechercher des réseaux, même si le Wi-Fi est désactivé"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Recherche toujours disponible, Autoriser le service de localisation de Google et les autres applications à rechercher des réseaux, même si le Wi-Fi est désactivé"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Lorsque cette option est activée, le système passe d\'un format de plage dynamique à un autre en fonction du contenu. Cela peut entraîner l\'affichage d\'un écran noir pendant un changement de format.\n\nCliquez sur \"Paramètres d\'affichage avancés\" pour obtenir plus d\'options de plage dynamique."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Plage dynamique préférée"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversion choisie par le système"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Laisse le système gérer la conversion du format"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Laisse le système gérer la conversion du format"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Lorsque cette option est sélectionnée, le système détermine une plage dynamique adaptée à envoyer à votre écran et convertit le contenu dans cette plage si besoin."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Respecte toujours le format du contenu"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forcer la conversion"</string>
@@ -646,7 +648,7 @@
     <string name="camera_physical_privacy_enabled_title" msgid="1944155695921165511">"Accès à la caméra bloqué"</string>
     <string name="camera_physical_privacy_enabled_text" msgid="6692088634676282779">"Pour débloquer la caméra et autoriser l\'accès à celle-ci, placez le bouton de désactivation qui se trouve sur votre appareil en position \"caméra activée\"."</string>
     <string name="mic_toggle_info_title" msgid="1086545614315873599">"Accès au micro : <xliff:g id="SENSOR_STATE">%s</xliff:g>"</string>
-    <string name="mic_toggle_info_content" msgid="3187791167208947239">"Lorsqu\'il est activé, toutes les applis et tous les services autorisés à utiliser le micro pourront y accéder.\n\nLorsqu\'il est désactivé, aucune appli et aucun service ne pourra accéder au micro. Néanmoins, il est possible que vous puissiez toujours parler à votre Assistant Google en appuyant sur le bouton Assistant de votre télécommande.\n\nLes appareils audio qui utilisent des protocoles de communication personnalisés avec la TV ne seront peut-être pas affectés par ce paramètre."</string>
+    <string name="mic_toggle_info_content" msgid="3187791167208947239">"En cas d\'activation, les applis et services autorisés à utiliser le micro pourront y accéder.\n\nEn cas de désactivation, aucune appli ni aucun service ne pourra accéder au micro. Vous pourrez cependant parler à l\'Assistant Google en appuyant sur le bouton Assistant de votre télécommande.\n\nLes appareils audio qui utilisent des protocoles de communication personnalisés avec la TV ne seront peut-être pas affectés par ce paramètre."</string>
     <string name="mic_remote_toggle_on_info_title" msgid="8503441878870972046">"Micro activé sur la télécommande"</string>
     <string name="mic_remote_toggle_on_info_content" msgid="2715872916376493679">"L\'Assistant Google a l\'autorisation d\'accéder au micro de votre télécommande. Vous pourrez parler à votre Assistant en appuyant sur le bouton Assistant Google de votre télécommande."</string>
     <string name="mic_remote_toggle_off_info_title" msgid="4902909833546393713">"Microphone désactivé sur la télécommande"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Activer le raccourci d\'accessibilité"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Service associé au raccourci"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Lorsque le raccourci est activé, vous pouvez appuyer sur le bouton Retour et le bouton Bas pendant trois secondes pour lancer une fonctionnalité d\'accessibilité."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Temps pour réagir"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Temps pour réagir (délai d\'accessibilité)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Délai"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Cette préférence de délai ne fonctionne pas avec toutes applis."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Sous-titres"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Paramètres de superposition du texte des sous-titres sur la vidéo"</string>
     <string name="captions_display" msgid="2598662495450633375">"Afficher"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Sélectionnez <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> pour continuer."</string>
     <string name="label_done_key" msgid="8576286462300373440">"OK"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Connexion établie"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Déjà connecté"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Configuration enregistrée."</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Version <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Ouvrir"</string>
@@ -1061,7 +1068,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Autoriser les applis à définir des alarmes et à programmer des actions à certaines heures. Elle s\'exécutera alors en arrière-plan, ce qui peut solliciter davantage la batterie.\n\nSi l\'autorisation est désactivée, les alarmes existantes et les événements programmés par l\'appli ne fonctionneront pas."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Activer l\'écran"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Autoriser l\'activation de l\'écran"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Autoriser une appli à activer l\'écran. Si l\'autorisation est accordée, l\'appli peut activer l\'écran à tout moment sans votre intention explicite."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Vous permet d\'autoriser une appli à activer l\'écran. Si elle y est autorisée, l\'appli pourra activer l\'écran à tout moment sans que vous le lui demandiez."</string>
     <string name="special_access" msgid="21806055758289916">"Accès spéciaux des applis"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Audio"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Alimentation et énergie"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Comportement au démarrage"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Réinitialiser"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Télévision"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Code d\'association Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Modes d\'énergie"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Ces paramètres affectent l\'appareil lorsqu\'il n\'est pas utilisé"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Trouver ma télécommande"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Émettre un son pour localiser votre télécommande Google TV si vous l\'avez égarée"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Votre Google TV comporte un bouton sur lequel appuyer pour que votre télécommande émette un son pendant 30 secondes. Cela ne fonctionne que sur les télécommandes Google TV compatibles.\n\nPour arrêter le son, appuyez sur n\'importe quel bouton de la télécommande."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Lorsque \"Trouver ma télécommande\" est activé, vous pouvez émettre un son pour localiser votre télécommande Google TV si vous l\'avez égarée."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Lorsque cette option est activée, vous pouvez utiliser le bouton situé sur votre appareil pour émettre un son afin de localiser votre télécommande. Lorsque l\'option est désactivée, ce bouton ne fonctionne pas, mais vous pouvez toujours utiliser Trouver ma télécommande via d\'autres méthodes."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Émettre un son"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Vous pouvez contrôler le volume de l\'Assistant sur l\'enceinte %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"N\'affecte que le volume sur l\'appareil %1$s, pas sur la TV"</string>
 </resources>

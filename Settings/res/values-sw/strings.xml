@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Ya Kibinafsi"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Unganisha kwenye mtandao"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Ongeza akaunti"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Akaunti na kuingia katika akaunti"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Akaunti na Wasifu"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Hakuna akaunti"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{Akaunti #}other{Akaunti #}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Huduma za maudhui, Mratibu wa Google, Malipo"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Faragha"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Mipangilio ya Kifaa"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Mipangilio ya Akaunti"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Kufunga Kifaa"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Mratibu wa Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Ununuzi na Malipo"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Mipangilio ya Programu"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethaneti imeunganishwa"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Hakuna mtandao uliounganishwa"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi imezimwa"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Chomoa Ethaneti ili utumie Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Utafutaji wa mitandao hufanyika wakati wote"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Ruhusu huduma ya eneo la Google na programu nyingine kutafuta mitandao, hata wakati Wi-Fi imezimwa"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Utafutaji unapatikana wakati wote, Ruhusu huduma ya mahali ya Google na programu nyingine kutafuta mitandao, hata wakati umezima Wi-Fi"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Unapowasha chaguo hili, mfumo utabadilisha kati ya miundo tofauti ya mfululizo wa ubadilikaji ili kulingansha maudhui. Hali hii inaweza kusababisha skrini nyeusi wakati wa kubadilisha muundo.\n\nBofya mipangilio ya Kina ya Skrini ili upate chaguo zaidi za mfululizo wa ubadilikaji."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Mfululizo wa ubadilikaji unaopendelewa"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Ubadilishaji unaopendelewa na mfumo"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Huruhusu mfumo kudhibiti ubadilishaji wa muundo"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Huruhusu mfumo kudhibiti ubadilishaji wa muundo"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Ukiteua chaguo hili, mfumo utabainisha masafa yanayobadilika yanayofaa kutumwa kwenye skrini yako na kubadilisha maudhui kuwa katika masafa haya yanayobadilika kadiri inavyohitajika."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Hulingana na muundo wa maudhui wakati wote"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Kulazimisha ubadilishaji"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Washa njia ya mkato ya ufikivu"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Huduma ya njia ya mkato"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Ukiwasha njia ya mkato, unaweza kufungua kipengele cha ufikivu kwa kubonyeza kitufe cha \'nyuma\' na \'chini\' pamoja kwa sekunde 3."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Wakati wa kuchukua hatua"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Kuchukua hatua (Muda wa Ufikivu umekwisha)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Kuweka muda"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Mapendeleo ya kuweka muda hayatumiki katika programu zote."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Manukuu"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Mipangilio ya kugaga maandishi ya manukuu kwenye video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Kuonyeshwa"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Chagua <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ili uendelee."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Nimemaliza"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Imeunganishwa"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Tayari imeunganishwa"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Imehifadhiwa"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Toleo la <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Fungua"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Umeme na Nishati"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Mipangilio inayotumika unapowasha"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Weka upya"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televisheni"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Msimbo wa kuoanisha wa ethaneti"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Hali za Nishati"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Mipangilio hii inaathiri kifaa wakati hakitumiki"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Tafuta kidhibiti changu cha mbali"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Cheza sauti ili upate kilipo kidhibiti chako cha mbali cha Google TV ikiwa kimepotea"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Kuna kitufe kwenye Google TV yako unachoweza kukibofya ili kucheza sauti kwenye kidhibiti chako cha mbali kwa sekunde 30. Kipengele hiki kinafanya kazi tu kwenye vidhibiti vya mbali vya Google TV vinavyotumika.\n\nIli uzime sauti, bonyeza kitufe chochote kwenye kidhibiti chako cha mbali."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Ukiwasha huduma ya Tafuta kidhibiti changu cha mbali, unaweza kucheza sauti ili kupata kilipo kidhibiti chako cha mbali cha Google TV kikipotea."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Ukiwasha, unaweza kutumia kitufe kilicho kwenye kifaa chako kucheza sauti ili utambue mahali kilipo kidhibiti chako cha mbali. Ukizima, kitufe hiki hakitafanya kazi. Bado utaweza kutumia kipengele cha Tafuta kidhibiti changu cha mbali kupitia mbinu nyinginezo."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Cheza sauti"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Kiwango cha sauti ya %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Unaweza kudhibiti kiwango cha sauti ya Kiratibu kwenye spika ya %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Huathiri tu kiwango cha sauti kwenye kifaa cha %1$s, si kwenye televisheni"</string>
 </resources>

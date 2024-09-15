@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Asmeniniai"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Prisijungimas prie tinklo"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Paskyros pridėjimas"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Paskyros ir prisijungimas"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Paskyros ir profiliai"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Paskyrų nėra"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# paskyra}one{# paskyra}few{# paskyros}many{# paskyros}other{# paskyrų}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Medijos paslaugos, Padėjėjas, mokėjimai"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privatumas"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Įrenginio nustatymai"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Paskyros nustatymai"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Įrenginio užraktas"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"„Google“ padėjėjas"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Mokėjimas ir pirkiniai"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Programos nustatymai"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Prisijungta prie eterneto"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Neprisijungta prie tinklo"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"„Wi-Fi“ išjungtas"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Atjunkite eterneto laidą, kad gal. naudoti „Wi-Fi“"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Nuskaitymas leidžiamas visada"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Leisti „Google“ vietovių paslaugai ir kitoms programoms nuskaityti tinklus, net kai „Wi-Fi“ išjungtas"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Nuskaitymas leidžiamas visada: „Google“ vietovių paslaugai ir kitoms programoms leidžiama nuskaityti tinklus, net kai „Wi-Fi“ išjungtas"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Įgalinus šią parinktį sistema perjungs skirtingus dinaminio diapazono formatus, kad atitiktų turinį. Todėl perjungiant formatą gali būti rodomas juodas ekranas.\n\nJei reikia daugiau dinaminio diapazono parinkčių, spustelėkite „Išplėstiniai pateikties nustatymai“."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Pageidaujamas dinaminis diapazonas"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Sistemos parinktas konvertavimas"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Formato konvertavimą leidžiama valdyti sistemai"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Formato konvertavimą leidžiama valdyti sistemai"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Kai įjungta ši parinktis, sistema nustatys tinkamą dinaminį diapazoną, kuris bus siunčiamas į jūsų ekraną, ir pagal poreikį konvertuos turinį į tą dinaminį diapazoną."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Visada atitinka turinio formatą"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Priverstinis konvertavimas"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Įgal. spartųjį pritaik. neįgal. funk. klavišą"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Sparčiojo klavišo paslauga"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kai įjungtas spartusis klavišas, galite paspausti abu mygtukus „Atgal“ bei „Žemyn“ ir palaikyti 3 sekundes, kad būtų paleista pritaikymo neįgaliesiems funkcija."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Laikas, skirtas veiksmams atlikti"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Veiksmo laikas (pritaikomumo skirtasis laikas)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Laikas"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Ši skirt. laiko nuostata palaik. ne visose progr."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Subtitrai"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Subtitrų teksto perdangos vaizdo įrašuose nustatymai"</string>
     <string name="captions_display" msgid="2598662495450633375">"Pateiktis"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Jei norite tęsti, pasirinkite <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>"</string>
     <string name="label_done_key" msgid="8576286462300373440">"Atlikta"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Sėkmingai prisijungta"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Jau prisijungta"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Sėkmingai išsaugota"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"<xliff:g id="APP_VERSION">%1$s</xliff:g> versija"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Atidaryta"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Maitinimas ir energija"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Elgsena įjungus maitinimą"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Nustatymas iš naujo"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televizija"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Eterneto susiejimo kodas"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Energijos režimai"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Šie nustatymai turi įtakos nenaudojamam įrenginiui"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Rasti nuotolinio valdymo pultelį"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Garso leidimas norint rasti netinkamoje vietoje padėtą „Google TV“ nuotolinio valdymo pultelį"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"„Google TV“ yra mygtukas, kurį galite paspausti, kad paleistumėte nuotolinio valdymo pultelio garsą trisdešimt sekundžių. Tai veikia tik su palaikomais „Google TV“ nuotolinio valdymo pulteliais.\n\nJei norite sustabdyti garsą, paspauskite bet kurį nuotolinio valdymo pultelio mygtuką."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kai funkcija „Rasti nuotolinio valdymo pultelį“ įgalinta, galite leisti garsą norėdami rasti netinkamoje vietoje padėtą „Google TV“ nuotolinio valdymo pultelį"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Kai įjungta, galite naudoti įrenginio mygtuką norėdami paleisti garsą ir aptikti nuotolinio valdymo pultelį. Kai išjungta, šis mygtukas neveiks. Funkciją „Rasti nuotolinio valdymo pultelį“ vis tiek galėsite naudoti kitais būdais."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Leisti garsą"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s garsumas"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Padėjėjo garsumą galite valdyti garsiakalbyje (%1$s)"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Paveikia garsumą tik įrenginyje (%1$s), o ne televizoriuje"</string>
 </resources>

@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personnel"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Connexion au réseau"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Ajouter un compte"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Comptes et connexion"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Comptes et profils"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Aucun compte"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# compte}one{# compte}other{# comptes}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Services multimédias, Assistant et Payments"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Confidentialité"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Paramètres de l\'appareil"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Paramètres de compte"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Verrouillage de l\'appareil"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Assistant Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Paiement et achats"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Paramètres des applications"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet connecté"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Aucun réseau connecté"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Le Wi-Fi est désactivé"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Débranchez le câble Ethernet pour accéder au Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Recherche de réseaux toujours active"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Autoriser le service de localisation de Google et les autres applications à rechercher des réseaux, même si le Wi-Fi est désactivé"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Recherche de réseaux toujours active : autorisez le service de localisation de Google et les autres applications à rechercher des réseaux, même si la connexion Wi-Fi est désactivée"</string>
@@ -92,7 +94,7 @@
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Connexion au réseau"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Diagnostics du réseau"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"Applications récemment ouvertes"</string>
-    <string name="apps_see_all_apps" msgid="2002886135933443688">"Afficher toutes les applications"</string>
+    <string name="apps_see_all_apps" msgid="2002886135933443688">"Afficher toutes les applis"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Autorisations"</string>
     <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
     <string name="update_slice_title" msgid="6553763903108611747"></string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Lorsque cette option est activée, le système passera d\'une gamme dynamique à une autre pour s\'adapter au contenu. Cela peut engendrer un écran noir lors d\'un changement de format.\n\nCliquez sur Paramètres d\'affichage avancés pour accéder à d\'autres options de gamme dynamique."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Gamme dynamique préférée"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversion préférée par le système"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Permet au système de gérer la conversion du format"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Permet au système de gérer la conversion du format"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Lorsque cette option est sélectionnée, le système déterminera une gamme dynamique appropriée à envoyer à votre écran et convertira le contenu à cette gamme dynamique si nécessaire."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Toujours faire correspondre le format à celui du contenu"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forcer la conversion"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Activer le raccourci d\'accessibilité"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Service de raccourcis"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Lorsque le raccourci est activé, appuyez simultanément sur les boutons Arrière et Bas pour démarrer une fonction d\'accessibilité de votre choix."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Temps pour réagir"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Temps pour réagir (accessibilité)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Durée"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Les applis ne prennent pas en charge cette préfér."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Sous-titres"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Paramètres de superposition du texte des sous-titres sur la vidéo"</string>
     <string name="captions_display" msgid="2598662495450633375">"Afficher"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Sélectionnez <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> pour continuer."</string>
     <string name="label_done_key" msgid="8576286462300373440">"OK"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Vous êtes maintenant connecté"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Déjà connecté"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"L\'enregistrement a été effectué"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Version : <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Disponible"</string>
@@ -1052,7 +1059,7 @@
     <string name="write_settings_on" msgid="71675710746513956">"Oui"</string>
     <string name="write_settings_off" msgid="6730113471695092167">"Non"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Accès à tous les fichiers"</string>
-    <string name="permit_manage_external_storage" msgid="1776899171934627417">"Autorisez l\'accès pour gérer tous les fichiers"</string>
+    <string name="permit_manage_external_storage" msgid="1776899171934627417">"Autoriser l\'accès pour gérer tous les fichiers"</string>
     <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Autoriser cette application à lire, à modifier et à supprimer tous les fichiers qui se trouvent sur cet appareil ou sur des volumes de stockage connectés. Si vous accordez cette autorisation, l\'application pourra accéder à des fichiers sans que vous le sachiez."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Incrustation d\'image"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Autoriser l\'incrustation d\'image"</string>
@@ -1061,7 +1068,7 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Autorisez les applications à créer des alarmes et à programmer des actions urgentes. Cela permet aux applications de s\'exécuter en arrière-plan, ce qui peut demander plus d\'alimentation.\n\nSi cette autorisation est désactivée, les alarmes existantes et les événements en temps réel programmés par l\'application ne fonctionneront pas."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Activation de l\'écran"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Autoriser l\'activation de l\'écran"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Autorisez une application à activer l\'écran. Lorsque vous accordez cette autorisation, l\'application peut activer l\'écran à tout moment sans votre volonté explicite."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Autorisez une appli à activer l\'écran. Lorsque vous accordez cette autorisation, l\'appli peut activer l\'écran à tout moment sans votre volonté explicite."</string>
     <string name="special_access" msgid="21806055758289916">"Accès spécial des applications"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Audio"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Alimentation et énergie"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Comportement lorsque le téléviseur est allumé"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Réinitialiser"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Télévision"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Code d\'association Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Modes de consommation d\'énergie"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Ces paramètres ont une incidence sur l\'appareil lorsqu\'il n\'est pas utilisé"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Localiser ma télécommande"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Faites jouer un son pour localiser votre télécommande Google TV si elle est égarée"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Un bouton sur votre Google TV vous permet d\'émettre un son sur votre télécommande pendant 30 secondes. Cette action ne fonctionne qu\'avec les télécommandes prises en charge par Google TV.\n\nPour couper le son, appuyez sur n\'importe quel bouton de votre télécommande."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Quand la fonctionnalité Localiser ma télécommande est activée, vous pouvez faire jouer un son pour localiser votre télécommande Google TV si elle est égarée."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Lorsque la fonctionnalité est activée, vous pouvez utiliser le bouton de votre appareil pour émettre un son afin de localiser votre télécommande. Lorsqu\'elle est désactivée, ce bouton ne fonctionne pas. Vous pourrez toujours utiliser Rechercher la télécommande par d\'autres méthodes."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Faire jouer un son"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volume"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Vous pouvez contrôler le volume de l\'Assistant sur le haut-parleur %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Ne concerne que le volume sur l\'appareil %1$s, pas sur le téléviseur"</string>
 </resources>

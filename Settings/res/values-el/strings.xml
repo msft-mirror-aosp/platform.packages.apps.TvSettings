@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Προσωπικό"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Σύνδεση σε δίκτυο"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Προσθήκη λογαριασμού"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Λογαριασμοί και σύνδεση"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Λογαριασμοί και προφίλ"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Δεν υπάρχουν λογαριασμοί"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# λογαριασμός}other{# λογαριασμοί}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Υπηρεσίες μέσων, Βοηθός, πληρωμές"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Απόρρητο"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Ρυθμίσεις συσκευής"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Ρυθμίσεις λογαριασμού"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Κλείδωμα συσκευής"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Βοηθός Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Πληρωμή και αγορές"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Ρυθμίσεις εφαρμογής"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Το Ethernet είναι συνδεδεμένο"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Δεν υπάρχει συνδεδεμένο δίκτυο"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Το Wi-Fi είναι απενεργοποιημένο"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Αποσύνδεση Ethernet για να χρησιμοποιήσετε Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Πάντα διαθέσιμη σάρωση"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Θα επιτρέπεται στην υπηρεσία τοποθεσίας της Google και σε άλλες εφαρμογές η σάρωση για δίκτυα, ακόμη κι όταν το Wi-Fi είναι απενεργοποιημένο"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Σάρωση πάντα διαθέσιμη, Να επιτρέπεται στην υπηρεσία τοποθεσίας της Google και σε άλλες εφαρμογές να σαρώνουν για δίκτυα, ακόμη και όταν το Wi-Fi είναι απενεργοποιημένο."</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Όταν ενεργοποιήσετε αυτή την επιλογή, το σύστημα θα κάνει εναλλαγή διάφορων μορφών δυναμικού εύρους για να εντοπίσει εκείνη που αντιστοιχεί στο περιεχόμενο. Ενδέχεται να εμφανιστεί μια κενή οθόνη κατά την εναλλαγή μορφών.\n\nΚάντε κλικ στις Σύνθετες ρυθμίσεις οθόνης για να δείτε περισσότερες επιλογές δυναμικού εύρους."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Προτιμώμενο δυναμικό εύρος"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Μετατροπή που είναι προτιμώμενη από το σύστημα"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Επιτρέπει στο σύστημα να διαχειρίζεται τη μετατροπή μορφής"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Επιτρέπει στο σύστημα να διαχειρίζεται τη μετατροπή μορφής"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Όταν ορίζεται αυτή η επιλογή, το σύστημα προσδιορίζει ένα κατάλληλο δυναμικό εύρος που θα αποστέλλεται στην οθόνη σας και θα μετατρέπει το περιεχόμενο σε αυτό το δυναμικό εύρος, όπως απαιτείται."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Αντιστοιχεί πάντα στη μορφή του περιεχομένου"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Επιβολή μετατροπής"</string>
@@ -547,7 +549,7 @@
     <string name="storage_not_connected" msgid="4327902652748552794">"Δεν συνδέθηκε"</string>
     <string name="storage_migrate" msgid="9137556600192167701">"Μετεγκατ. δεδομένων σε αυτόν το χώρο αποθήκευσης"</string>
     <string name="storage_migrate_away" msgid="7880100961434638430">"Μετεγκατάσταση δεδομένων σε άλλο αποθηκευτικό χώρο"</string>
-    <string name="storage_no_apps" msgid="95566375753627272">"Καμία εφαρμογή για δημιουργία αντιγράφων ασφαλείας"</string>
+    <string name="storage_no_apps" msgid="95566375753627272">"Καμία εφαρμογή για δημιουργία αντιγράφου ασφαλείας"</string>
     <string name="storage_forget" msgid="4671975563260507003">"Διαγραφή αυτού του αποθηκευτικού χώρου συσκευής"</string>
     <string name="storage_forget_wall_of_text" msgid="230454348256179142">"Για να χρησιμοποιήσετε τις εφαρμογές ή τα δεδομένα που περιέχει αυτός ο δίσκος, συνδέστε τον ξανά. Εναλλακτικά, μπορείτε να επιλέξετε να γίνει κατάργηση απομνημόνευσης αυτού του αποθηκευτικού μέσου, εάν ο δίσκος δεν είναι διαθέσιμος.\n\nΕάν επιλέξετε να γίνει κατάργηση απομνημόνευσης, όλα τα δεδομένα που περιέχει ο δίσκος θα χαθούν οριστικά.\n\nΜπορείτε να επανεγκαταστήσετε τις εφαρμογές αργότερα, αλλά τα δεδομένα τους που είναι αποθηκευμένα σε αυτόν το δίσκο θα χαθούν."</string>
     <string name="storage_device_storage_section" msgid="22958375769694027">"Αποθηκευτικός χώρος συσκευής"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Ενεργοποίηση συντόμευσης προσβασιμότητας"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Υπηρεσία συντόμευσης"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Όταν η συντόμευση είναι ενεργοποιημένη, μπορείτε να πατήσετε παρατεταμένα το κουμπί επιστροφής και το κουμπί κάτω βέλους για 3 δευτερόλεπτα, για να ξεκινήσετε μια λειτουργία προσβασιμότητας."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Ώρα για την εκτέλεση ενεργειών"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Ώρα εκτέλεσης ενεργειών (χρονικό όριο προσβασιμ.)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Χρονισμός"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Η προτίμηση δεν υποστηρίζεται από κάθε εφαρμογή."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Υπότιτλοι"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Ρυθμίσεις για την επικάλυψη κειμένου υποτίτλων στο βίντεο"</string>
     <string name="captions_display" msgid="2598662495450633375">"Προβολή"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Επιλέξτε <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> για να συνεχίσετε."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Τέλος"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Επιτυχής σύνδεση"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Έχει ήδη συνδεθεί"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Επιτυχής αποθήκευση"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Έκδοση <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Άνοιγμα"</string>
@@ -988,7 +995,7 @@
     <string name="limit_network_in_standby_confirm_message" msgid="7176699480768019689">"Επιτρέποντας τη σύνδεση δικτύου σε κατάσταση αναμονής, η χρήση ενέργειας στην κατάσταση αναμονής αυξάνεται."</string>
     <string name="backup_configure_account_default_summary" msgid="2170733614341544296">"Κανένας λογαριασμός δεν αποθηκεύει προς το παρόν δεδομένα αντιγράφων ασφαλείας"</string>
     <string name="backup_erase_dialog_title" msgid="6008454053276987100"></string>
-    <string name="backup_erase_dialog_message" msgid="222169533402624861">"Θέλετε να διακοπεί η δημιουργία αντιγράφων ασφαλείας για τους κωδικούς πρόσβασης Wi-Fi, τους σελιδοδείκτες, τις άλλες ρυθμίσεις και τα δεδομένα εφαρμογών, καθώς και να διαγραφούν όλα τα αντίτυπα από τους διακομιστές της Google;"</string>
+    <string name="backup_erase_dialog_message" msgid="222169533402624861">"Θέλετε να διακοπεί η δημιουργία αντιγράφου ασφαλείας για τους κωδικούς πρόσβασης Wi-Fi, τους σελιδοδείκτες, τις άλλες ρυθμίσεις και τα δεδομένα εφαρμογών, καθώς και να διαγραφούν όλα τα αντίτυπα από τους διακομιστές της Google;"</string>
     <string name="privacy_backup_data" msgid="3604057980102997914">"Αντίγραφα ασφαλείας των δεδομένων μου"</string>
     <string name="privacy_backup_account" msgid="4527813051841860610">"Εφεδρικός λογαριασμός"</string>
     <string name="privacy_automatic_restore" msgid="7117805818589418118">"Αυτόματη επαναφορά"</string>
@@ -1053,7 +1060,7 @@
     <string name="write_settings_off" msgid="6730113471695092167">"Όχι"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Πρόσβαση σε όλα τα αρχεία"</string>
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"Να επιτρέπεται η πρόσβαση για τη διαχείριση όλων των αρχείων"</string>
-    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Να επιτρέπεται σε αυτή την εφαρμογή η ανάγνωση, η τροποποίηση και η διαγραφή όλων των αρχείων σε αυτήν τη συσκευή και σε κάθε συνδεδεμένη μονάδα αποθήκευσης. Εάν εκχωρηθούν σχετικά δικαιώματα, η εφαρμογή μπορεί να έχει πρόσβαση σε αρχεία χωρίς να έχετε ενημερωθεί ρητά."</string>
+    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Να επιτρέπεται σε αυτή την εφαρμογή η ανάγνωση, η τροποποίηση και η διαγραφή όλων των αρχείων σε αυτή τη συσκευή και σε κάθε συνδεδεμένη μονάδα αποθήκευσης. Εάν εκχωρηθούν σχετικά δικαιώματα, η εφαρμογή μπορεί να έχει πρόσβαση σε αρχεία χωρίς να έχετε ενημερωθεί ρητά."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Picture-in-picture"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Να επιτρέπεται η λειτουργία picture-in-picture"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Καμία από τις εγκατεστημένες εφαρμογές δεν υποστηρίζει τη λειτουργία picture-in-picture"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Τροφοδοσία και Πηγές ενέργειας"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Συμπεριφορά κατά την ενεργοποίηση"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Επαναφορά"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Τηλεόραση"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Κωδικός σύζευξης Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Λειτουργίες ενέργειας"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Αυτές οι ρυθμίσεις επηρεάζουν τη συσκευή όταν δεν είναι σε χρήση"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Εύρεση τηλεχειριστηρίου"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Αναπαράγετε ήχο για να εντοπίσετε το τηλεχειριστήριο του Google TV, σε περίπτωση που το έχετε χάσει"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Υπάρχει ένα κουμπί στο Google TV που μπορείτε να πατήσετε για την αναπαραγωγή ενός ήχου στο τηλεχειριστήριο για 30 δευτερόλεπτα. Αυτό έχει αποτέλεσμα μόνο σε υποστηριζόμενα τηλεχειριστήρια Google TV.\n\nΓια να διακόψετε τον ήχο, πατήστε ένα κουμπί στο τηλεχειριστήριο."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Όταν είναι ενεργή η Εύρεση τηλεχειριστηρίου, μπορείτε να αναπαράγετε έναν ήχο για να εντοπίσετε το τηλεχειριστήριο του Google TV σε περίπτωση που το έχετε χάσει."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Όταν είναι ενεργό, μπορείτε να χρησιμοποιήσετε το κουμπί στη συσκευή σας για να αναπαράγετε έναν ήχο, έτσι ώστε να εντοπίσετε το τηλεχειριστήριό σας. Όταν είναι ανενεργό, αυτό το κουμπί δεν λειτουργεί. Θα μπορείτε ακόμα να χρησιμοποιείτε την Εύρεση τηλεχειριστηρίου με άλλους τρόπους."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Αναπαραγωγή ήχου"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Ένταση %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Μπορείτε να ελέγξετε την ένταση του Βοηθού στο ηχείο %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Επηρεάζει μόνο την ένταση στη συσκευή %1$s, όχι στην τηλεόραση"</string>
 </resources>

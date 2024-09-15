@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"Personal"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Kumonekta sa network"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Magdagdag ng account"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Mga account at pag-sign in"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Mga Account at Profile"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Walang account"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# account}one{# account}other{# na account}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Mga serbisyo ng media, Assistant, Payments"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privacy"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Mga Setting ng Device"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Mga Setting ng Account"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Lock ng Device"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Pagbabayad at Mga Pagbili"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Mga Setting ng App"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Nakakonekta ang Ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Walang nakakonektang network"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Naka-off ang Wi-Fi"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"I-unplug ang Ethernet para gamitin ang Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Palaging available ang pag-scan"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Payagan ang serbisyo ng lokasyon ng Google at iba pang app na mag-scan ng mga network kahit na naka-off ang Wi-Fi"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Palaging available ang pag-scan, Payagan ang serbisyo ng lokasyon ng Google at iba pang app na mag-scan ng mga network, kahit na naka-off ang Wi-Fi"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Kapag na-enable ang opsyong ito, lilipat ang system sa pagitan ng iba\'t ibang format ng dynamic range para tumugma sa content. Posibleng magdulot ito ng black screen habang lumilipat ng format.\n\nI-click ang mga setting sa Advanced na Display para sa higit pang opsyon sa dynamic range."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Gustong dynamic range"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversion na mas gusto ng system"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Hinahayaan ang system na pamahalaan ang conversion ng format"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Hinahayaan ang system na pamahalaan ang conversion ng format"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Kapag pinili ang opsyong ito, tutukoy ang system ng naaangkop na dynamic na saklaw na ipapadala sa iyong display at iko-convert nito ang content sa dynamic na saklaw na ito gaya ng kinakailangan."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Palaging itugma sa format ng content"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Ipilit ang conversion"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"I-enable ang shortcut sa pagiging accessible"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Serbisyo ng shortcut"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Kapag naka-on ang shortcut, puwede mong pindutin nang 3 segundo ang parehong button na bumalik at button na pababa nang 3 segundo para magsimula ng feature ng pagiging accessible."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"Tagal ng pag-aksyon"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"Tagal ng pag-aksyon (Timeout ng accessibility)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"Timing"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"Wala sa lahat ng app ang timing preference na ito."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Mga Caption"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Mga setting para sa text overlay para sa paglalagay ng mga nakasarang caption sa video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Display"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Piliin ang <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> para magpatuloy."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Tapos na"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Matagumpay na nakakonekta"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Nakakonekta na"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Matagumpay na na-save"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Bersyon <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Buksan"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Power at Kuryente"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Gawi sa pag-on"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"I-reset"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Telebisyon"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Code ng pagpapares ng Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Mga Energy Mode"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Naaapektuhan ng mga setting na ito ang device kapag hindi ginagamit"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Hanapin ang remote ko"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Mag-play ng tunog para mahanap ang remote ng iyong Google TV kung nawawala ito"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"May button sa iyong Google TV na mapipindot mo para mag-play ng tunog sa iyong remote nang 30 segundo. Gumagana lang ito sa mga sinusuportahang remote control ng Google TV.\n\nPara itigil ang tunog, pumindot ng kahit anong button sa iyong remote."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Kapag naka-enable ang Hanapin ang remote ko, puwede kang mag-play ng tunog para mahanap ang iyong Google TV remote kung nawawala ito."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Kapag naka-on, puwede mong gamitin ang button sa iyong device para magpatugtog ng tunog para mahanap ang remote mo. Kapag naka-off, hindi gagana ang button na ito. Magagamit mo pa rin ang Hanapin ang aking remote sa pamamagitan ng iba pang paraan."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"I-play ang tunog"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s volume"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Puwede mong kontrolin ang volume ng Assistant sa %1$s speaker"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Naaapektuhan lang ang volume sa %1$s device , hindi sa TV"</string>
 </resources>

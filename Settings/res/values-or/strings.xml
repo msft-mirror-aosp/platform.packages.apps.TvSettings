@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"ବ୍ୟକ୍ତିଗତ"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ନେଟ୍‌ୱର୍କ ସହ ସଂଯୋଗ କରନ୍ତୁ"</string>
     <string name="add_an_account" msgid="2601275122685226096">"ଗୋଟିଏ ଆକାଉଣ୍ଟ ଯୋଡ଼ନ୍ତୁ"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"ଆକାଉଣ୍ଟଗୁଡ଼ିକ ଏବଂ ସାଇନ୍‌ ଇନ୍"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"ଆକାଉଣ୍ଟ ଏବଂ ପ୍ରୋଫାଇଲଗୁଡ଼ିକ"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"କୌଣସି ଆକାଉଣ୍ଟ ନାହିଁ"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{#ଟି ଆକାଉଣ୍ଟ}other{#ଟି ଆକାଉଣ୍ଟ}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"ମିଡିଆ ସେବାଗୁଡ଼ିକ, Assistant, Payments"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"ଗୋପନୀୟତା"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ଡିଭାଇସ ସେଟିଂସ"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"ଆକାଉଣ୍ଟ ସେଟିଂସ"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ଡିଭାଇସ ଲକ"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ପେମେଣ୍ଟ ଓ କ୍ରୟଗୁଡ଼ିକ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ଆପ ସେଟିଂସ"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ଇଥରନେଟ୍‍ ସଂଯୁକ୍ତ ହୋଇଛି"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"କୌଣସି ନେଟୱର୍କ୍ ‌ନାହିଁ"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"ୱାଇ-ଫାଇ ବନ୍ଦ ଅଛି"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"ୱାଇ-ଫାଇ ବ୍ୟବହାର କରିବାକୁ ଇଥରନେଟ ଅନପ୍ଲଗ କରନ୍ତୁ"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"ସର୍ବଦା ସ୍କାନିଂ ଉପଲବ୍ଧ ଅଛି"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"ୱାଇ-ଫାଇ ବନ୍ଦ ରହିଥିଲେ ମଧ୍ୟ ନେଟୱର୍କ ପାଇଁ Google\'ର ଲୋକେସନ୍‍ ସେବା ଏବଂ ଅନ୍ୟ ଆପ୍‍ ସ୍କାନ୍‍ କରିବାକୁ ଦିଅନ୍ତୁ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ସ୍କାନିଂ ସର୍ବଦା ଉପଲବ୍ଧ ଥାଏ, ୱାଇ-ଫାଇ ବନ୍ଦ ଥିଲେ ମଧ୍ୟ Googleର ଲୋକେସନ୍ ସେବା ଏବଂ ଅନ୍ୟ ଆପଗୁଡ଼ିକୁ ନେଟୱାର୍କ ସ୍କାନ୍ କରିବାକୁ ଦେଇଥାଏ"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"ଏହି ବିକଳ୍ପକୁ ସକ୍ଷମ କରିବା ସମୟରେ ବିଷୟବସ୍ତୁ ମେଳ କରିବା ପାଇଁ ଏହି ସିଷ୍ଟମଟି ବିଭିନ୍ନ ଡାଇନାମିକ ରେଞ୍ଜ ଫର୍ମାଟ ମଧ୍ୟରେ ସ୍ୱିଚ କରିବ। ଏକ ଫର୍ମାଟ ସ୍ୱିଚ ସମୟରେ ଏହା ଯୋଗୁଁ ସ୍କ୍ରିନ କଳା ହୋଇପାରେ।\n\nଅଧିକ ଡାଇନାମିକ ରେଞ୍ଜ ବିକଳ୍ପ ପାଇଁ ଉନ୍ନତ ଡିସପ୍ଲେ ସେଟିଂସରେ କ୍ଲିକ କରନ୍ତୁ।"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"ପସନ୍ଦର ଡାଇନାମିକ ରେଞ୍ଜ"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"ସିଷ୍ଟମ-ପସନ୍ଦର କନଭର୍ସନ"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"ସିଷ୍ଟମକୁ ଫର୍ମାଟ କନଭର୍ସନ ପରିଚାଳନା କରିବାକୁ ଦିଅନ୍ତୁ"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"ସିଷ୍ଟମକୁ ଫର୍ମାଟ କନଭର୍ସନ ପରିଚାଳନା କରିବାକୁ ଦିଅନ୍ତୁ"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"ଯେତେବେଳେ ଏହି ବିକଳ୍ପ ଚୟନ କରାଯାଏ, ଆପଣଙ୍କ ଡିସପ୍ଲେକୁ ପଠାଯିବା ପାଇଁ ସିଷ୍ଟମ ଏକ ଉପଯୁକ୍ତ ଡାଇନାମିକ ରେଞ୍ଜ ସ୍ଥିର କରିବ ଏବଂ ଆବଶ୍ୟକତା ଅନୁସାରେ ଏହି ଡାଇନାମିକ ରେଞ୍ଜକୁ ବିଷୟବସ୍ତୁ କନଭର୍ଟ କରିବ।"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ସର୍ବଦା ବିଷୟବସ୍ତୁର ଫର୍ମାଟ ସହ ମେଳ ହୁଏ"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"କନଭର୍ସନ ଲାଗୁ କରନ୍ତୁ"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ଆକ୍ସେସବିଲିଟୀ ସର୍ଟକଟ୍‍ ସକ୍ଷମ କରନ୍ତୁ"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ସର୍ଟକଟ୍‌ ସେବା"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"ସର୍ଟକଟ୍‌ ଚାଲୁ ଥିବା ବେଳେ, ଆକ୍ସେସିବିଲିଟୀ ଫିଚର୍ ଆରମ୍ଭ କରିବାକୁ ଆପଣ 3 ସେକେଣ୍ଡ ପାଇଁ ଉଭୟ ବ୍ୟାକ୍‌ ଏବଂ ଡାଉନ୍‌ ବଟନ୍‌ ଦବାଇ ପାରିବେ।"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"ପଦକ୍ଷେପ ନେବାର ସମୟ"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"ପଦକ୍ଷେପ ନେବାର ସମୟ (ଆକ୍ସେସିବିଲିଟୀ ସମୟ ସମାପ୍ତ)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"ସମୟ"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"ସମସ୍ତ ଆପ୍ସ ଦ୍ୱାରା ଏହି ଟାଇମିଂ ପସନ୍ଦ ସମର୍ଥିତ ନୁହେଁ।"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"କ୍ୟାପସନ୍‌"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ଭିଡିଓରେ ବନ୍ଦ ହୋଇଥିବା କ୍ୟାପସନ ଟେକ୍ସଟ ଓଭରଲେ ପାଇଁ ସେଟିଂସ"</string>
     <string name="captions_display" msgid="2598662495450633375">"ଡିସ୍‌ପ୍ଲେ"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ଜାରି ରଖିବାକୁ <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ଚୟନ କରନ୍ତୁ।"</string>
     <string name="label_done_key" msgid="8576286462300373440">"ହୋଇଗଲା"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"ସଫଳଭାବରେ କନେକ୍ଟ ହୋଇଛି"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ପୂର୍ବରୁ କନେକ୍ଟ କରାଯାଇଛି"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"ସଫଳ ପୂର୍ବକ ସେଭ୍‌ ହୋଇଛି"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ସଂସ୍କରଣ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ଖୋଲନ୍ତୁ"</string>
@@ -1029,7 +1036,7 @@
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"ଅନୁମତି ଦିଆଯାଇଛି"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"ଅନୁମତି ଦିଆଯାଇନାହିଁ"</string>
     <string name="usage_access" msgid="8402350645248312782">"ବ୍ୟବହାର ଆକସେସ୍‌"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"ଅନ୍ୟ କେଉଁ ଆପ୍ସ ଏବଂ ଏହାକୁ କେତେଥର ବ୍ୟବହାର କରୁଛନ୍ତି, ତଥା ଆପଣଙ୍କ କ୍ୟାରିଅର, ଭାଷା ସେଟିଂସ, ଓ ଅନ୍ୟାନ୍ୟ ବିବରଣୀ ଟ୍ରାକ କରିବା ପାଇଁ ଏକ ଆପକୁ ବ୍ୟବହାର ଆକ୍ସେସ ଅନୁମତି ଦେଇଥାଏ।"</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"ଅନ୍ୟ କେଉଁ ଆପ୍ସ ଏବଂ ଏହାକୁ କେତେଥର ବ୍ୟବହାର କରୁଛନ୍ତି, ତଥା ଆପଣଙ୍କ କେରିଅର, ଭାଷା ସେଟିଂସ ଓ ଅନ୍ୟ ବିବରଣୀ ଟ୍ରାକ କରିବା ପାଇଁ ଏକ ଆପକୁ ବ୍ୟବହାର ଆକ୍ସେସ ଅନୁମତି ଦେଇଥାଏ।"</string>
     <string name="high_power_apps" msgid="5841073958519976562">"ଏନାର୍ଜି ଅପଟିମାଇଜେସନ୍"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"ଆପ୍‌ର ବ୍ୟବହାର ପାଇଁ ଏନାର୍ଜି ଅପଟିମାଇଜ୍ କରନ୍ତୁ"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"କୌଣସି ଆପ୍‌ ଅନୁକୂଳିତ କରିବା ଆବଶ୍ୟକ କରେ ନାହିଁ"</string>
@@ -1053,7 +1060,7 @@
     <string name="write_settings_off" msgid="6730113471695092167">"ନାହିଁ"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"ସମସ୍ତ ଫାଇଲକୁ ଆକ୍ସେସ୍"</string>
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"ସମସ୍ତ ଫାଇଲକୁ ପରିଚାଳନା ପାଇଁ ଆକ୍ସେସ୍ ଦିଅନ୍ତୁ"</string>
-    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"ଏହି ଡିଭାଇସ୍ କିମ୍ବା ଯେ କୌଣସି ସଂଯୁକ୍ତ ଥିବା ଷ୍ଟୋରେଜ୍ ଭଲ୍ୟୁମରେ ଥିବା ସମସ୍ତ ଫାଇଲକୁ ପଢ଼ିବା, ପରିବର୍ତ୍ତନ କରିବା ଏବଂ ଡିଲିଟ୍ କରିବା ପାଇଁ ଏହି ଆପକୁ ଅନୁମତି ଦିଅନ୍ତୁ। ଯଦି ଅନୁମତି ଦିଆଯାଏ, ତେବେ ଆପ୍ ଆପଣଙ୍କୁ ସ୍ପଷ୍ଟ ନକରି ଫାଇଲଗୁଡ଼ିକୁ ଆକ୍ସେସ୍ କରିପାରେ।"</string>
+    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"ଏହି ଡିଭାଇସ କିମ୍ବା ଯେ କୌଣସି କନେକ୍ଟ ଥିବା ଷ୍ଟୋରେଜ ଭଲ୍ୟୁମରେ ଥିବା ସବୁ ଫାଇଲକୁ ପଢ଼ିବା, ପରିବର୍ତ୍ତନ କରିବା ଏବଂ ଡିଲିଟ କରିବା ପାଇଁ ଏହି ଆପକୁ ଅନୁମତି ଦିଅନ୍ତୁ। ଯଦି ଅନୁମତି ଦିଆଯାଏ, ତେବେ ଆପ ଆପଣଙ୍କୁ ସ୍ପଷ୍ଟ ନକରି ଫାଇଲଗୁଡ଼ିକୁ ଆକ୍ସେସ କରିପାରେ।"</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"ପିକଚର୍-ଇନ୍-ପିକଚର୍"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"ପିକଚର-ଇନ-ପିକଚରକୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"ଛବି-ଭିତରେ-ଛବିକୁ ଇନ୍‌ଷ୍ଟଲ୍‌ ହୋଇଥିବା କୌଣସି ଆପ୍‌ ସପୋର୍ଟ କରୁନାହିଁ"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"ପାୱାର ଓ ଏନର୍ଜି"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"ପାୱାର ଚାଲୁ ହେବା ସମୟରେ ବ୍ୟବହାର"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"ରିସେଟ୍ କରନ୍ତୁ"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"ଟେଲିଭିଜନ୍"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ଇଥରନେଟ ପେୟାରିଂ କୋଡ"</string>
     <string name="energy_modes" msgid="1331693860386361744">"ଏନର୍ଜି ମୋଡଗୁଡ଼ିକ"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"ବ୍ୟବହାର କରାଯାଉନଥିବା ସମୟରେ ଏହି ସେଟିଂସ ଡିଭାଇସକୁ ପ୍ରଭାବିତ କରେ"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ମୋ ରିମୋଟ ଖୋଜନ୍ତୁ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ଯଦି ଆପଣଙ୍କ Google TV ରିମୋଟକୁ ଭୁଲ ସ୍ଥାନରେ ରଖାଯାଇଥାଏ ତେବେ ଏହାକୁ ଖୋଜିବା ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରନ୍ତୁ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ଆପଣଙ୍କ Google TVରେ ଏକ ବଟନ ଅଛି ଯାହାକୁ ଆପଣ ଆପଣଙ୍କ ରିମୋଟରେ 30 ସେକେଣ୍ଡ ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରିବା ନିମନ୍ତେ ପୁସ କରିପାରିବେ। ଏହା କେବଳ ସମର୍ଥିତ Google TV ରିମୋଟ କଣ୍ଟ୍ରୋଲଗୁଡ଼ିକରେ କାର୍ଯ୍ୟ କରେ।\n\nସାଉଣ୍ଡ ବନ୍ଦ କରିବାକୁ ଆପଣଙ୍କ ରିମୋଟରେ ଯେ କୌଣସି ବଟନ ଦବାନ୍ତୁ।"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"ଯେତେବେଳେ \'ମୋ ରିମୋଟ ଖୋଜନ୍ତୁ\'କୁ ସକ୍ଷମ କରାଯାଏ, ସେତେବେଳେ ଯଦି ଆପଣଙ୍କ Google TV ରିମୋଟକୁ ଭୁଲ ସ୍ଥାନରେ ରଖାଯାଇଥାଏ ତେବେ ଏହାକୁ ଖୋଜିବା ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରନ୍ତୁ।"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ଚାଲୁ ଥିଲେ ଆପଣ ଆପଣଙ୍କ ରିମୋଟ ଖୋଜିବା ପାଇଁ ଏକ ସାଉଣ୍ଡ ପ୍ଲେ କରବାକୁ ଆପଣଙ୍କ ଡିଭାଇସରେ ଥିବା ବଟନ ବ୍ୟବହାର କରିପାରିବେ। ବନ୍ଦ ଥିଲେ ଏହି ବଟନ କାମ କରିବ ନାହିଁ। ଆପଣ ଏବେ ବି ଅନ୍ୟ ପଦ୍ଧତି ମାଧ୍ୟମରେ ମୋ ରିମୋଟ ଖୋଜନ୍ତୁ ବ୍ୟବହାର କରିବାକୁ ସକ୍ଷମ ହେବେ।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ସାଉଣ୍ଡ ପ୍ଲେ କରନ୍ତୁ"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ଭଲ୍ୟୁମ"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ଆପଣ %1$s ସ୍ପିକରରେ Assistant ଭଲ୍ୟୁମକୁ ନିୟନ୍ତ୍ରଣ କରିପାରିବ"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"କେବଳ %1$s ଡିଭାଇସରେ ଭଲ୍ୟୁମକୁ ପ୍ରଭାବିତ କରେ, ଟିଭିରେ ନୁହେଁ"</string>
 </resources>

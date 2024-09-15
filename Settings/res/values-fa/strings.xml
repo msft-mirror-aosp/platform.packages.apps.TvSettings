@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"شخصی"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"اتصال به شبکه"</string>
     <string name="add_an_account" msgid="2601275122685226096">"افزودن حساب"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"حساب‌ها و ورود به سیستم"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"حساب‌ها و نمایه‌ها"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"هیچ حسابی وجود ندارد"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# حساب}one{# حساب}other{# حساب}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"سرویس‌های رسانه‌ای، «دستیار»، «پرداخت‌ها»"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"حریم خصوصی"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"تنظیمات دستگاه"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"تنظیمات حساب"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"قفل دستگاه"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"دستیار Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"پرداخت و خرید"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"تنظیمات برنامه"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"اترنت متصل است"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"هیچ شبکه‌ای متصل نیست"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi خاموش است"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"برای استفاده از Wi-Fi، اتصال اترنت را قطع کنید"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"اسکن کردن همیشه موجود باشد"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"به سرویس مکان Google و دیگر برنامه‌ها اجازه داده شود حتی زمانی‌که Wi-Fi خاموش است، شبکه‌ها را اسکن کنند"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"اسکن کردن همیشه موجود باشد؛ به سرویس مکان Google و دیگر برنامه‌ها اجازه داده می‌شود حتی زمانی‌که Wi-Fi خاموش است، شبکه‌ها را اسکن کنند"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"هنگام فعال کردن این گزینه، سیستم بین قالب‌های مختلف دامنه پویا جابه‌جا می‌شود تا با محتوا مطابقت پیدا کند. به‌همین دلیل ممکن است درطول تغییر قالب، صفحه سیاهی ببینید.\n\nبرای گزینه‌های دامنه پویای بیشتر، روی «تنظیمات پیشرفته نمایشگر» کلیک کنید."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"دامنه پویای ترجیحی"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"تبدیل ترجیحی سیستم"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"به سیستم اجازه داده می‌شود تبدیل قالب را مدیریت کند"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"به سیستم اجازه داده می‌شود تبدیل قالب را مدیریت کند"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"وقتی این گزینه انتخاب شود، سیستم دامنه پویای مناسبی را برای ارسال به صفحه‌نمایش شما تعیین می‌کند و درصورت نیاز محتوا را به این دامنه پویا تبدیل می‌کند."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"همیشه با قالب محتوا مطابقت دارد"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"تبدیل اجباری"</string>
@@ -427,7 +429,7 @@
     <string name="title_signal_strength" msgid="5047116893338315998">"قدرت سیگنال"</string>
     <string name="title_random_mac_settings" msgid="6685812569356353378">"حریم خصوصی"</string>
   <string-array name="random_mac_settings_entries">
-    <item msgid="3457228452595715533">"استفاده از MAC تصادفی (پیش‌فرض)"</item>
+    <item msgid="3457228452595715533">"استفاده کردن از MAC تصادفی (پیش‌فرض)"</item>
     <item msgid="2490415280467390067">"استفاده از MAC دستگاه"</item>
   </string-array>
     <string name="mac_address_not_available" msgid="2992935344891853369">"موجود نیست"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"فعال کردن میان‌بر دسترس‌پذیری"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"سرویس میان‌بر"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"وقتی میان‌بر روشن است، اگر دکمه‌های برگشت و پایین را با هم فشار دهید و ۳ ثانیه نگه دارید ویژگی دسترس‌پذیری شروع خواهد شد."</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"زمان اقدام کردن"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"زمان اقدام کردن (درنگ دسترس‌پذیری)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"زمانبندی"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"اولویت زمان‌بندی در همه برنامه‌ها پشتیبانی نمی‌شود."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"زیرنویس"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"تنظیمات وضعیت متن زیرنویس روی ویدیو"</string>
     <string name="captions_display" msgid="2598662495450633375">"نمایش"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"برای ادامه، <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> را انتخاب کنید."</string>
     <string name="label_done_key" msgid="8576286462300373440">"تمام"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"با موفقیت متصل شد"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"قبلاً متصل شده است"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"با موفقیت ذخیره شد"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"نسخه <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"باز کردن"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"برق و انرژی"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"عملکرد تلویزیون هنگام روشن بودن"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"بازنشاندن"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"تلویزیون"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"کد مرتبط‌سازی اترنت"</string>
     <string name="energy_modes" msgid="1331693860386361744">"حالت‌های انرژی"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"این تنظیمات، هنگام عدم استفاده از دستگاه، بر آن اعمال می‌شود"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"پیدا کردن کنترل از راه دور"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"اگر کنترل از دور Google TV در جای خودش نباشد، برای پیدا کردن آن، صدایی پخش می‌شود"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"دکمه‌ای روی Google TV قرار دارد که می‌توانید فشار دهید تا صدایی به‌مدت ۳۰ ثانیه در کنترل از دور پخش شود. این روش فقط در کنترل از دورهای پشتیبانی‌شده Google TV کار می‌کند.\n\nبرای متوقف کردن صدا، یکی از دکمه‌های روی کنترل از دور را فشار دهید."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"وقتی «پیدا کردن کنترل از راه دور» فعال باشد، اگر کنترل از راه دور Google TV در جای خودش نباشد، می‌توانید با پخش صدا آن را پیدا کنید."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"وقتی روشن باشد، بااستفاده از این دکمه در دستگاهتان می‌توانید صدایی پخش کنید و کنترل از دور را پیدا کنید. وقتی خاموش باشد، این دکمه کار نمی‌کند. همچنان می‌توانید با روش‌های دیگر از «پیدا کردن کنترل از راه دور» استفاده کنید."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"پخش صدا"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"میزان صدای %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"می‌توانید میزان صدای «دستیار» را در بلندگوی %1$s کنترل کنید"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"فقط بر میزان صدای دستگاه %1$s تأثیر می‌گذارد، نه بر تلویزیون"</string>
 </resources>

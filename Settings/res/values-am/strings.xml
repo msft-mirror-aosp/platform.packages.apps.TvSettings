@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"የግል"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ከአውታረ መረብ ጋር ይገናኙ"</string>
     <string name="add_an_account" msgid="2601275122685226096">"መለያ ያክሉ"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"መለያዎች እና በመለያ መግባት"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"መለያዎች እና መገለጫዎች"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"ምንም መለያዎች የለም"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# መለያ}one{# መለያዎች}other{# መለያዎች}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"የሚዲያ አገልግሎቶች፣ ረዳት፣ ክፍያዎች"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"ግላዊነት"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"የመሣሪያ ቅንብሮች"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"የመለያ ቅንብሮች"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"የመሣሪያ ቁልፍ"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google ረዳት"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ክፍያ እና ግዢዎች"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"የመተግበሪያ ቅንብሮች"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ኢተርኔት ተገናኝቷል"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"ምንም አውታረመረብ አልተገናኘም"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi ጠፍቷል"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Wi-Fi ለመጠቀም ኢተርኔት ይንቀሉ"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"ቅኝት ሁልጊዜ ሊገኝ ይችላል"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"የGoogle የአካባቢ አገልግሎትን እና ሌሎች መተግበሪያዎች አውታረ መረቦችን ለማግኘት እንዲቃኙ ያድርጓቸው፣ Wi-Fi ጠፍቶም ቢሆን እንኳን"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ቅኝት ሁልጊዜም ይገኛል፣ Google የአካባቢ አገልግሎቶች እና ሌሎች መተግበሪያዎች Wi-Fi በጠፋ ጊዜም እንኳ አውታረመረቦችን እንዲቃኙ ያድርጉ።"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"ይህን አማራጭ ሲያነቁ ስርዓቱ ከይዘቱ ጋር ለመመሳሰል በተለያዩ ተለዋዋጭ የክልል ቅርጸቶች መካከል ይቀያየራል። ይህ ቅርጸት በሚቀያየርበት ጊዜ ጥቁር ማያ ገፅ ሊያስከትል ይችላል።\n\nለተጨማሪ ተለዋዋጭ የክልል አማራጮች የላቀ የማሳያ ቅንብሮችን ጠቅ ያድርጉ።"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"ተመራጭ ተለዋዋጭ ክልል"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"በሥርዓቱ-የሚመረጥ ልወጣ"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"ሥርዓቱ የቅርጸት ልወጣውን እንዲያስተዳድር ያስችለዋል"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"ሥርዓቱ የቅርጸት ልወጣውን እንዲያስተዳድር ያስችለዋል"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"ይህ አማራጭ ሲመረጥ ሥርዓቱ ወደ የእርስዎ ማሳያ እንዲላክ እና ይዘትን ወደዚህ ተለዋዋጭ ክልል እንደተፈለገው እንዲለውጥ ተስማሚ ተለዋዋጭ ክልል ይወስናል።"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ሁልጊዜ ከይዘቱ ቅርጸት ጋር ይመሳሰላል"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"ልወጣን አስገድድ"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"የተደራሽነት አቋራጭ ያንቁ"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"የአቋራጭ አገልግሎት"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"አቋራጩ ሲበራ የተደራሽነት ባህሪን ለማስጀመር ሁለቱንም የተመለስ እና የታች አዝራሮች ለ3 ሰከንዶች ተጭነው መያዝ ይችላሉ።"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"እርምጃ መውሰጃ ጊዜ"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"እርምጃ መውሰጃ ጊዜ (ተደራሽነት ጊዜው አብቅቷል)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"ጊዜ"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"ይህ የጊዜ ምርጫ በሁሉም መተግበሪያዎች አይደገፍም።"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"መግለጫ ፅሑፎች"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"በቪዲዮ ላይ ያለ የዝግ ጽሁፍ ተደራቢ ቅንብሮች"</string>
     <string name="captions_display" msgid="2598662495450633375">"ማሳያ"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ለመቀጠል <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>ን ይምረጡ።"</string>
     <string name="label_done_key" msgid="8576286462300373440">"ተከናውኗል"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"በተሳካ ሁኔታ ተገናኝቷል"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ቀድሞውኑ ተገናኝቷል"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"በተሳካ ሁኔታ ተቀምጧል"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ስሪት <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ክፈት"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"ኃይል እና ጉልበት"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"የኃይል ማብራት ባህሪ"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"ዳግም አስጀምር"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"ቴሌቪዥን"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"የኤተርኔት ማጣመሪያ ኮድ"</string>
     <string name="energy_modes" msgid="1331693860386361744">"የኃይል ሁነታዎች"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"እነዚህ ቅንብሮች መሣሪያው ጥቅም ላይ በማይውልበት ጊዜ ተጽዕኖ ያደርጉበታል"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"የእኔን የርቀት መቆጣጠሪያ አግኝ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"የGoogle ቲቪ የርቀት መቆጣጠሪያዎ ያለ ቦታው ተቀምጦ ከሆነ አካባቢውን ለማግኘት ድምፅን ያጫውቱ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"በእርስዎ Google ቲቪ ላይ ለ30 ሰከንዶች በርቀት መቆጣጠሪያዎ ላይ ድምፅን ለማጫወት መግፋት የሚችሉት አዝራር አለ። ይህ የሚሠራው በሚደገፉ የGoogle ቲቪ የርቀት መቆጣጠሪያዎች ብቻ ነው።\n\nድምፁን ለማስቆም በርቀት መቆጣጠሪያዎ ላይ ያለ ማንኛውንም አዝራር ይጫኑ።"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"የእኔን የርቀት መቆጣጠሪያ አግኝ ሲነቃ የGoogle ቲቪ የርቀት መቆጣጠሪያዎ ያለ ቦታው ተቀምጦ ከሆነ ለማግኘት ድምፅን ማጫወት ይችላሉ።"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ሲበራ የርቀት መቆጣጠሪያዎን ለማግኘት ድምፅ ለማጫወት በመሣሪያዎ ላይ ያለውን አዝራር መጠቀም ይችላሉ። ሲጠፋ ይህ አዝራር አይሠራም። አሁንም የርቀት መቆጣጠሪያዬን አግኝን በሌሎች መንገዶች በኩል መጠቀም ይችላሉ።"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ድምፅ አጫውት"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s የድምፅ መጠን"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"%1$s ድምፅ ማውጫ ላይ የረዳት የድምፅ መጠኑን መቆጣጠር ይችላሉ"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"የድምፅ መጠን ላይ ተጽዕኖ የሚያደርገው ቲቪ ላይ ሳይሆን %1$s መሣሪያ ላይ ነው"</string>
 </resources>

@@ -45,7 +45,7 @@
     <string name="header_category_personal" msgid="7880053929985150368">"個人"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"連線至網路"</string>
     <string name="add_an_account" msgid="2601275122685226096">"新增帳戶"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"帳戶與登入"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"帳戶和個人資料"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"沒有任何帳戶"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# 個帳戶}other{# 個帳戶}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"媒體服務、Google 助理、付款功能"</string>
@@ -60,6 +60,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"隱私權"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"裝置設定"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"帳戶設定"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"裝置鎖定"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google 助理"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"付款與購買"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"應用程式設定"</string>
@@ -85,6 +86,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"已連上乙太網路"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"未連上任何網路"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi 已關閉"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"如要使用 Wi-Fi，請拔除乙太網路線"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"一律可以掃描"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"允許 Google 的定位服務和其他應用程式掃描網路 (即使 Wi-Fi 已關閉)"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"一律可以掃描，允許 Google 的定位服務和其他應用程式掃描網路，即使 Wi-Fi 已關閉"</string>
@@ -156,7 +158,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"啟用這個選項後，系統會配合內容切換使用不同的動態範圍格式。請注意，切換格式時螢幕可能會顯示一片黑。\n\n如要查看更多動態範圍選項，請點選「進階顯示設定」。"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"偏好的動態範圍"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"系統自動轉換"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"讓系統管理格式轉換作業"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"讓系統管理格式轉換作業"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"如果選取這個選項，系統會決定要傳送至螢幕的適當動態範圍，並視需要將內容轉換為該動態範圍。"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"一律與內容的格式保持一致"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"強制轉換"</string>
@@ -409,7 +411,7 @@
     <string name="status_bt_address" msgid="7190052214963950844">"藍牙位址"</string>
     <string name="status_up_time" msgid="1758102680983108313">"開機時間"</string>
     <string name="legal_information" msgid="1087445528481370874">"法律資訊"</string>
-    <string name="copyright_title" msgid="5879660711078649518">"版權"</string>
+    <string name="copyright_title" msgid="5879660711078649518">"著作權"</string>
     <string name="license_title" msgid="4032466200355435641">"授權"</string>
     <string name="terms_title" msgid="192888187310800678">"條款及細則"</string>
     <string name="webview_license_title" msgid="5370270485188947540">"System WebView 授權"</string>
@@ -708,6 +710,10 @@
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"啟用無障礙快速鍵"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"快速鍵服務"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"啟用這組快速鍵後，你只需同時按下返回和向下按鈕達 3 秒，就能開啟無障礙功能。"</string>
+    <string name="accessibility_timeout" msgid="5806441204926407081">"提示顯示時間"</string>
+    <string name="accessibility_timeout_detailed" msgid="3671649651457927559">"提示顯示時間 (無障礙功能逾時)"</string>
+    <string name="accessibility_timeout_info_title" msgid="6436020666160017491">"顯示時間"</string>
+    <string name="accessibility_timeout_info_description" msgid="443750173070723088">"部分應用程式不支援這個顯示時間設定值。"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"字幕"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"影片字幕文字重疊設定"</string>
     <string name="captions_display" msgid="2598662495450633375">"顯示"</string>
@@ -755,7 +761,7 @@
     <string name="system_accessibility_service_off_confirm_desc" msgid="3486513644923267157">"如果您選取 [確定]，「<xliff:g id="SERVICE">%1$s</xliff:g>」將停止運作。"</string>
     <string name="system_accessibility_tts_output" msgid="3186078508203212288">"文字轉語音"</string>
     <string name="system_accessibility_tts_engine_config" msgid="4757760652785865532">"引擎設定"</string>
-    <string name="system_speak_passwords" msgid="8556036524146404052">"說出密碼"</string>
+    <string name="system_speak_passwords" msgid="8556036524146404052">"讀出密碼"</string>
     <string name="system_preferred_engine" msgid="3545505072652708443">"偏好的引擎"</string>
     <string name="system_speech_rate" msgid="6553204071403872669">"語音速率"</string>
     <string name="system_play_sample" msgid="3934369914309865584">"播放範例"</string>
@@ -931,6 +937,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"如要繼續，請選取 <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>。"</string>
     <string name="label_done_key" msgid="8576286462300373440">"完成"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"連線成功"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"已經連上該網路"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"儲存成功"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"版本 <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"開啟"</string>
@@ -1028,8 +1035,8 @@
     <string name="manage_keyboards" msgid="7983890675377321912">"管理鍵盤"</string>
     <string name="app_permission_summary_allowed" msgid="5359622119044147500">"允許"</string>
     <string name="app_permission_summary_not_allowed" msgid="5131611341738385303">"不允許"</string>
-    <string name="usage_access" msgid="8402350645248312782">"使用記錄存取權"</string>
-    <string name="usage_access_description" msgid="3276026988575551587">"具有使用記錄存取權的應用程式可以追蹤你使用的其他應用程式與頻率，以及你的電信業者、語言設定和其他詳細資料。"</string>
+    <string name="usage_access" msgid="8402350645248312782">"用量資料存取權"</string>
+    <string name="usage_access_description" msgid="3276026988575551587">"具有使用存取權的應用程式可以追蹤你使用的其他應用程式與頻率，以及你的電信業者、語言設定等詳情。"</string>
     <string name="high_power_apps" msgid="5841073958519976562">"用電量最佳化"</string>
     <string name="high_power_apps_description" msgid="8651692364795060525">"最佳化應用程式用電量"</string>
     <string name="high_power_apps_empty" msgid="3084512758421482051">"沒有任何應用程式需要最佳化"</string>
@@ -1043,8 +1050,8 @@
     <string name="directory_access" msgid="7338555825237012006">"目錄存取權"</string>
     <string name="directory_access_description" msgid="3630855858552422012">"這些應用程式擁有存取特定目錄的權限。"</string>
     <string name="directory_on_volume" msgid="5628089584970521703">"<xliff:g id="VOLUME">%1$s</xliff:g> (<xliff:g id="DIRECTORY">%2$s</xliff:g>)"</string>
-    <string name="system_alert_window_settings" msgid="5790572489650085051">"顯示在其他應用程式上層"</string>
-    <string name="permit_draw_overlay" msgid="5312730681030266735">"允許顯示在其他應用程式上層"</string>
+    <string name="system_alert_window_settings" msgid="5790572489650085051">"重疊顯示於其他應用程式上方"</string>
+    <string name="permit_draw_overlay" msgid="5312730681030266735">"允許重疊顯示於其他應用程式上方"</string>
     <string name="allow_overlay_description" msgid="5152329837278240259">"允許應用程式覆蓋你使用的其他應用程式而顯示在畫面上層。這可能會干擾你使用相關的應用程式，或是影響它們的顯示或運作方式。"</string>
     <string name="write_system_settings" msgid="4284654265954461890">"修改系統設定"</string>
     <string name="write_settings_title" msgid="2361816483383105754">"可以修改系統設定"</string>
@@ -1101,7 +1108,7 @@
     <string name="select_device_admin_msg" msgid="8475934459999710332">"裝置管理員應用程式"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"要啟用裝置管理員應用程式嗎？"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"啟用這個裝置管理員應用程式"</string>
-    <string name="device_admin_warning" msgid="7399916080685200660">"啟用這個管理員應用程式，將允許「<xliff:g id="APP_NAME">%1$s</xliff:g>」應用程式執行以下作業："</string>
+    <string name="device_admin_warning" msgid="7399916080685200660">"如果啟用這個管理員應用程式，將允許「<xliff:g id="APP_NAME">%1$s</xliff:g>」應用程式執行以下作業："</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"這個裝置將由「<xliff:g id="APP_NAME">%1$s</xliff:g>」管理及監控。"</string>
     <string name="device_admin_status" msgid="5467001937240455367">"這個管理員應用程式已啟用，且允許「<xliff:g id="APP_NAME">%1$s</xliff:g>」應用程式執行以下作業："</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"繼續這項動作，你的使用者將由管理員進行管理，該管理員也能儲存相關資料和你的個人資料。\n\n你的管理員可以監控並管理與這個使用者相關聯的設定、存取權、應用程式和資料，包括網路活動和裝置位置資訊。"</string>
@@ -1131,6 +1138,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"開關和電源"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"開機行為"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"重設"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"電視"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"乙太網路配對碼"</string>
     <string name="energy_modes" msgid="1331693860386361744">"耗電模式"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"裝置在未使用時會受到這些設定影響"</string>
@@ -1140,6 +1148,9 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"尋找我的遙控器"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"讓忘記放在何處的 Google TV 遙控器發出音效，以便找出裝置"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Google TV 有一個按鈕，按下即可讓遙控器播放音效 30 秒。這項功能僅適用於支援的 Google TV 遙控器。\n\n如要停止播放音效，請按下遙控器上的任一按鈕。"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"啟用「尋找我的遙控器」後，你可以讓忘記放在何處的 Google TV 遙控器發出音效，以便找出裝置。"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"如果開啟，你就能使用裝置上的按鈕播放音效，以利找出遙控器。如果關閉，則無法使用這個按鈕，但你仍可透過其他方法使用「尋找我的遙控器」。"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"播放音效"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"「%1$s」的音量"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"你可以控制「%1$s」揚聲器的 Google 助理音量"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"只會影響「%1$s」裝置的音量，電視不會受到影響"</string>
 </resources>

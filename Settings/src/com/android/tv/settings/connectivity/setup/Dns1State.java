@@ -18,7 +18,6 @@ package com.android.tv.settings.connectivity.setup;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.view.View;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.fragment.app.Fragment;
@@ -137,7 +136,7 @@ public class Dns1State implements State {
             if (action.getId() == GuidedAction.ACTION_ID_CONTINUE) {
                 mAdvancedOptionsFlowInfo.put(AdvancedOptionsFlowInfo.DNS1,
                         action.getTitle());
-                mStateMachine.getListener().onComplete(StateMachine.CONTINUE);
+                mStateMachine.getListener().onComplete(this, StateMachine.CONTINUE);
             }
             return action.getId();
         }
