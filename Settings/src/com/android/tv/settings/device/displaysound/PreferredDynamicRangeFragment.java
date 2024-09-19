@@ -113,6 +113,8 @@ public class PreferredDynamicRangeFragment  extends SettingsPreferenceFragment {
                     mDisplayManager.setHdrConversionMode(new HdrConversionMode(
                             HdrConversionMode.HDR_CONVERSION_SYSTEM));
                     sendHdrSettingsChangedBroadcast(getContext());
+                    mHdrConversionMode = new HdrConversionMode(
+                            HdrConversionMode.HDR_CONVERSION_SYSTEM);
                     showPreferredDynamicRangeRadioPreference(false);
                     break;
                 }
@@ -131,8 +133,6 @@ public class PreferredDynamicRangeFragment  extends SettingsPreferenceFragment {
                 case KEY_DYNAMIC_RANGE_SELECTION_FORCE: {
                     if (mHdrConversionMode.getConversionMode()
                             != HdrConversionMode.HDR_CONVERSION_FORCE) {
-                        mDisplayManager.setHdrConversionMode(new HdrConversionMode(
-                                HdrConversionMode.HDR_CONVERSION_SYSTEM));
                         selectForceHdrConversion(mDisplayManager);
                         sendHdrSettingsChangedBroadcast(getContext());
                         mHdrConversionMode = mDisplayManager.getHdrConversionModeSetting();
