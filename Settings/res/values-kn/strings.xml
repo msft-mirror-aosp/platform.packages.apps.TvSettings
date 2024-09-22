@@ -235,7 +235,7 @@
     <string name="accessory_state_error" msgid="8353621828816824428">"ಜೋಡಿ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ"</string>
     <string name="accessory_state_canceled" msgid="4794837663402063770">"ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ"</string>
     <string name="accessory_state_paired" msgid="3296695242499532000">"ಜೋಡಿ ಮಾಡಲಾಗಿದೆ"</string>
-    <string name="accessory_options" msgid="774592782382321681">"ಪರಿಕರ"</string>
+    <string name="accessory_options" msgid="774592782382321681">"ಆ್ಯಕ್ಸೆಸರಿ"</string>
     <string name="accessory_unpair" msgid="2473411128146068804">"ಜೋಡಣೆ ರದ್ದುಗೊಳಿಸು"</string>
     <string name="accessory_battery" msgid="2283700366184703548">"ಬ್ಯಾಟರಿ <xliff:g id="PERCENTAGE">%1$d</xliff:g>%%"</string>
     <string name="accessory_unpairing" msgid="2529195578082286563">"ಸಾಧನದ ಜೋಡಣೆ ರದ್ದುಗೊಳಿಸಲಾಗುತ್ತಿದೆ…"</string>
@@ -482,7 +482,7 @@
     <string name="wifi_action_try_again" msgid="8920677153891141148">"ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ"</string>
     <string name="wifi_action_view_available_networks" msgid="609561604257828342">"ಲಭ್ಯವಿರುವ ನೆಟ್‌ವರ್ಕ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿ"</string>
     <string name="wifi_connecting" msgid="4234341255109283018">"<xliff:g id="SSID">%1$s</xliff:g> ಗೆ ಸಂಪರ್ಕಪಡಿಸಲಾಗುತ್ತಿದೆ"</string>
-    <string name="wifi_saving" msgid="320653339670641708">"<xliff:g id="SSID">%1$s</xliff:g> ಗಾಗಿ ಕಾನ್ಫಿಗರೇಶನ್ ಉಳಿಸಲಾಗುತ್ತಿದೆ"</string>
+    <string name="wifi_saving" msgid="320653339670641708">"<xliff:g id="SSID">%1$s</xliff:g> ಗಾಗಿ ಕಾನ್ಫಿಗರೇಶನ್ ಸೇವ್ ಮಾಡಲಾಗುತ್ತಿದೆ"</string>
     <string name="wifi_connect" msgid="2206086690065242121">"ಸಂಪರ್ಕಪಡಿಸು"</string>
     <string name="wifi_forget_network" msgid="4634016112624305571">"ನೆಟ್‌ವರ್ಕ್‌ ಮರೆತುಬಿಡು"</string>
     <string name="wifi_forget_network_description" msgid="4146715475962713899">"ಇದು ಉಳಿಸಲಾಗಿರುವ ಪಾಸ್‌ವರ್ಡ್ ಸೇರಿದಂತೆ, ಈ ನೆಟ್‌ವರ್ಕ್ ಸಂಪರ್ಕಿಸಲು ಬಳಸಲಾಗಿರುವ ಮಾಹಿತಿಯನ್ನು ತೆರವುಗೊಳಿಸುತ್ತದೆ."</string>
@@ -706,7 +706,7 @@
     <string name="palette_color_blue" msgid="8836682634988540630">"ನೀಲಿ"</string>
     <string name="palette_color_purple" msgid="2123828754639683555">"ನೇರಳೆ"</string>
     <string name="palette_color_gray" msgid="4014534773994261194">"ಬೂದು"</string>
-    <string name="accessibility_shortcut" msgid="5856158637840030531">"ಪ್ರವೇಶ ಶಾರ್ಟ್‌ಕಟ್‌"</string>
+    <string name="accessibility_shortcut" msgid="5856158637840030531">"ಆ್ಯಕ್ಸೆಸ್ಸಿಬಿಲಿಟಿ ಶಾರ್ಟ್‌ಕಟ್‌"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ಆ್ಯಕ್ಸೆಸಿಬಿಲಿಟಿ ಶಾರ್ಟ್‌ಕಟ್‌ ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ಶಾರ್ಟ್‌ಕಟ್ ಸೇವೆ"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"ಶಾರ್ಟ್‌ಕಟ್ ಆನ್ ಆಗಿರುವಾಗ, 3 ಸೆಕೆಂಡ್‌ಗಳ ಕಾಲ ಹಿಂದಿನ ಮತ್ತು ಕೆಳಗಿನ ಬಟನ್‌ಗಳನ್ನು ಒತ್ತುವುದು ಆ್ಯಕ್ಸೆಸ್ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಆರಂಭಿಸುತ್ತದೆ."</string>
