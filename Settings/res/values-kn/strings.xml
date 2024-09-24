@@ -352,8 +352,8 @@
     <string name="hdr_capability" msgid="3331021013422460270">"- %1$s"</string>
     <string name="learn_more" msgid="820336467414665686">"ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ"</string>
     <string name="default_camera_app_title" msgid="4573905807226306484">"{count,plural, =1{ಕ್ಯಾಮರಾ ಆ್ಯಪ್}one{ಕ್ಯಾಮರಾ ಆ್ಯಪ್‌ಗಳು}other{ಕ್ಯಾಮರಾ ಆ್ಯಪ್‌ಗಳು}}"</string>
-    <string name="default_calendar_app_title" msgid="1533912443930743532">"ಕ್ಯಾಲೆಂಡರ್ ಅಪ್ಲಿಕೇಶನ್"</string>
-    <string name="default_contacts_app_title" msgid="7792041146751261191">"ಸಂಪರ್ಕಗಳ ಅಪ್ಲಿಕೇಶನ್"</string>
+    <string name="default_calendar_app_title" msgid="1533912443930743532">"ಕ್ಯಾಲೆಂಡರ್ ಆ್ಯಪ್"</string>
+    <string name="default_contacts_app_title" msgid="7792041146751261191">"ಸಂಪರ್ಕಗಳ ಆ್ಯಪ್"</string>
     <string name="default_email_app_title" msgid="3712283056326496555">"{count,plural, =1{ಇಮೇಲ್ ಕ್ಲೈಂಟ್ ಆ್ಯಪ್}one{ಇಮೇಲ್ ಕ್ಲೈಂಟ್ ಆ್ಯಪ್‌ಗಳು}other{ಇಮೇಲ್ ಕ್ಲೈಂಟ್ ಆ್ಯಪ್‌ಗಳು}}"</string>
     <string name="default_map_app_title" msgid="9051013257374474801">"Map ಆ್ಯಪ್‍"</string>
     <string name="default_phone_app_title" msgid="4833449131501871644">"{count,plural, =1{ಫೋನ್ ಆ್ಯಪ್}one{ಫೋನ್ ಆ್ಯಪ್‌ಗಳು}other{ಫೋನ್ ಆ್ಯಪ್‌ಗಳು}}"</string>
@@ -690,6 +690,30 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ಹೆಚ್ಚು ಕಾಂಟ್ರಾಸ್ಟ್‌ನ ಪಠ್ಯ"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"ಬೋಲ್ಡ್ ಪಠ್ಯ"</string>
+    <!-- no translation found for bounce_key_title (8334672581038914983) -->
+    <skip />
+    <!-- no translation found for bounce_key_description (8742025495500915588) -->
+    <skip />
+    <!-- no translation found for bounce_key_detailed (2422246064036507844) -->
+    <skip />
+    <!-- no translation found for bounce_key_description_summary (6753146496890170215) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_default_title (6028993610146552962) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_default_description (145758684535868136) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_half_second_title (8394245870111238967) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_half_second_description (4748780223063740284) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_one_second_title (6735859672558014764) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_one_second_description (8081507577181702545) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_two_second_title (8302518230221066238) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_two_second_description (15724682361848243) -->
+    <skip />
     <string name="accessibility_color_correction" msgid="6765093204922184119">"ಬಣ್ಣದ ತಿದ್ದುಪಡಿ"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"ಬಣ್ಣ ತಿದ್ದುಪಡಿಯನ್ನು ಬಳಸಿ"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"ಬಣ್ಣದ ಮೋಡ್"</string>
@@ -1118,12 +1142,12 @@
     <string name="remove_managed_profile_label" msgid="8950011141359605612">"ಉದ್ಯೋಗ ಪ್ರೊಫೈಲ್‌ ತೆಗೆದುಹಾಕಿ"</string>
     <string name="active_device_admin_msg" msgid="185537304726228624">"ಸಾಧನ ನಿರ್ವಹಣೆ ಆ್ಯಪ್"</string>
     <string name="remove_device_admin" msgid="2623866073546295104">"ಈ ಸಾಧನ ನಿರ್ವಹಣಾ ಆ್ಯಪ್ ಅನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"</string>
-    <string name="uninstall_device_admin" msgid="6301368408620948266">"ಅಪ್ಲಿಕೇಶನ್ ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ"</string>
+    <string name="uninstall_device_admin" msgid="6301368408620948266">"ಆ್ಯಪ್ ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ"</string>
     <string name="remove_and_uninstall_device_admin" msgid="1504351551194915633">"ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ ಮತ್ತು ಅನ್‌ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ"</string>
     <string name="select_device_admin_msg" msgid="8475934459999710332">"ಸಾಧನ ನಿರ್ವಹಣಾ ಆ್ಯಪ್‍‍ಗಳು"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"ಸಾಧನ ನಿರ್ವಹಣೆ ಆ್ಯಪ್ ಸಕ್ರಿಯ ಮಾಡಬೇಕೇ?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"ಈ ಸಾಧನ ನಿರ್ವಹಣೆ ಆ್ಯಪ್ ಸಕ್ರಿಯಗೊಳಿಸಿ"</string>
-    <string name="device_admin_warning" msgid="7399916080685200660">"ಈ ನಿರ್ವಹಣಾ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದರೆ, ಈ ಕೆಳಗಿನ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಮಾಡಲು <xliff:g id="APP_NAME">%1$s</xliff:g> ಗೆ ಅನುಮತಿಸಲಾಗುತ್ತದೆ:"</string>
+    <string name="device_admin_warning" msgid="7399916080685200660">"ಈ ನಿರ್ವಹಣಾ ಆ್ಯಪ್ ಅನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದರೆ, ಈ ಕೆಳಗಿನ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಮಾಡಲು <xliff:g id="APP_NAME">%1$s</xliff:g> ಗೆ ಅನುಮತಿಸಲಾಗುತ್ತದೆ:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"ಈ ಸಾಧನವನ್ನು <xliff:g id="APP_NAME">%1$s</xliff:g> ನಿರ್ವಹಿಸುತ್ತದೆ ಮತ್ತು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡುತ್ತದೆ."</string>
     <string name="device_admin_status" msgid="5467001937240455367">"ಈ ಅಡ್ಮಿನ್ ಆ್ಯಪ್ ಸಕ್ರಿಯವಾಗಿದೆ ಮತ್ತು ಈ ಕೆಳಗಿನ ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಮಾಡಲು <xliff:g id="APP_NAME">%1$s</xliff:g> ಗೆ ಅನುಮತಿ ನೀಡುತ್ತದೆ:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"ಇದನ್ನು ಮುಂದುವರಿಸಿದರೆ, ನಿಮ್ಮ ಬಳಕೆದಾರರನ್ನು ನಿಮ್ಮ ನಿರ್ವಾಹಕರು ನಿರ್ವಹಿಸುತ್ತಾರೆ ಮತ್ತು ಇದು ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ಡೇಟಾ ಮಾತ್ರವಲ್ಲದೆ, ಸಂಬಂಧಿತ ಡೇಟಾವನ್ನೂ ಸಹ ಸಂಗ್ರಹಣೆ ಮಾಡಬಲ್ಲದು.\n\nನಿಮ್ಮ ನಿರ್ವಾಹಕರು ನೆಟ್‌ವರ್ಕ್ ಚಟುವಟಿಕೆ ಮತ್ತು ನಿಮ್ಮ ಸಾಧನದ ಸ್ಥಳ ಮಾಹಿತಿ ಸೇರಿದಂತೆ ಈ ಬಳಕೆದಾರರಿಗೆ ಸಂಬಂಧಿಸಿದ ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮತ್ತು ಡೇಟಾದ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದು ಮತ್ತು ನಿರ್ವಹಿಸಬಹುದು."</string>
