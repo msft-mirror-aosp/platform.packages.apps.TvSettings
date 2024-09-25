@@ -34,6 +34,9 @@
     <item msgid="5034242362688847963">"२४ घण्टा"</item>
     <item msgid="940743686898651116">"कहिल्यै पनि होइन"</item>
   </string-array>
+    <!-- no translation found for bounce_key_timeout_entries:0 (1353936388457765422) -->
+    <!-- no translation found for bounce_key_timeout_entries:1 (5610264235282558145) -->
+    <!-- no translation found for bounce_key_timeout_entries:2 (1560952154506153896) -->
   <string-array name="device_energy_saver_attentive_timeout_entries">
     <item msgid="3361047879614054539">"४ घण्टा"</item>
     <item msgid="680279399507109560">"६ घण्टा"</item>
