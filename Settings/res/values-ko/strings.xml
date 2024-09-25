@@ -24,8 +24,8 @@
     <string name="general_action_no" msgid="674735073031386948">"아니요"</string>
     <string name="action_on_title" msgid="1074972820237738324">"사용"</string>
     <string name="action_off_title" msgid="3598665702863436597">"사용 안함"</string>
-    <string name="action_on_description" msgid="9146557891514835767">"사용"</string>
-    <string name="action_off_description" msgid="1368039592272701910">"사용 안함"</string>
+    <string name="action_on_description" msgid="9146557891514835767">"켜짐"</string>
+    <string name="action_off_description" msgid="1368039592272701910">"꺼짐"</string>
     <string name="agree" msgid="8155497436593889753">"동의"</string>
     <string name="disagree" msgid="7402998517682194430">"동의 안함"</string>
     <string name="enabled" msgid="5127188665060746381">"사용 설정됨"</string>
@@ -690,6 +690,30 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"고대비 텍스트"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"텍스트 굵게 표시"</string>
+    <!-- no translation found for bounce_key_title (8334672581038914983) -->
+    <skip />
+    <!-- no translation found for bounce_key_description (8742025495500915588) -->
+    <skip />
+    <!-- no translation found for bounce_key_detailed (2422246064036507844) -->
+    <skip />
+    <!-- no translation found for bounce_key_description_summary (6753146496890170215) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_default_title (6028993610146552962) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_default_description (145758684535868136) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_half_second_title (8394245870111238967) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_half_second_description (4748780223063740284) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_one_second_title (6735859672558014764) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_one_second_description (8081507577181702545) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_two_second_title (8302518230221066238) -->
+    <skip />
+    <!-- no translation found for bounce_key_timing_two_second_description (15724682361848243) -->
+    <skip />
     <string name="accessibility_color_correction" msgid="6765093204922184119">"색상 보정"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"색상 보정 사용"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"색상 모드"</string>
