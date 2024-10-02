@@ -34,6 +34,11 @@
     <item msgid="5034242362688847963">"24 hours"</item>
     <item msgid="940743686898651116">"Never"</item>
   </string-array>
+  <string-array name="bounce_key_timeout_entries">
+    <item msgid="1353936388457765422">"0.5 seconds"</item>
+    <item msgid="5610264235282558145">"1 second"</item>
+    <item msgid="1560952154506153896">"2 seconds"</item>
+  </string-array>
   <string-array name="device_energy_saver_attentive_timeout_entries">
     <item msgid="3361047879614054539">"4 hours"</item>
     <item msgid="680279399507109560">"6 hours"</item>

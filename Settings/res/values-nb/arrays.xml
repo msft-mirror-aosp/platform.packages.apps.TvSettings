@@ -34,6 +34,11 @@
     <item msgid="5034242362688847963">"24 timer"</item>
     <item msgid="940743686898651116">"Aldri"</item>
   </string-array>
+  <string-array name="bounce_key_timeout_entries">
+    <item msgid="1353936388457765422">"0,5 sekunder"</item>
+    <item msgid="5610264235282558145">"1 sekund"</item>
+    <item msgid="1560952154506153896">"2 sekunder"</item>
+  </string-array>
   <string-array name="device_energy_saver_attentive_timeout_entries">
     <item msgid="3361047879614054539">"4 timer"</item>
     <item msgid="680279399507109560">"6 timer"</item>
