@@ -34,6 +34,11 @@
     <item msgid="5034242362688847963">"২৪ ঘণ্টা"</item>
     <item msgid="940743686898651116">"কখনওই নয়"</item>
   </string-array>
+  <string-array name="bounce_key_timeout_entries">
+    <item msgid="1353936388457765422">"০.৫ সেকেন্ড"</item>
+    <item msgid="5610264235282558145">"১ সেকেন্ড"</item>
+    <item msgid="1560952154506153896">"২ সেকেন্ড"</item>
+  </string-array>
   <string-array name="device_energy_saver_attentive_timeout_entries">
     <item msgid="3361047879614054539">"৪ ঘণ্টা"</item>
     <item msgid="680279399507109560">"৬ ঘণ্টা"</item>
