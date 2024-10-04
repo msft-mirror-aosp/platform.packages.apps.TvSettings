@@ -34,6 +34,11 @@
     <item msgid="5034242362688847963">"පැය 24"</item>
     <item msgid="940743686898651116">"කිසිවිටෙක නොවේ"</item>
   </string-array>
+  <string-array name="bounce_key_timeout_entries">
+    <item msgid="1353936388457765422">"තත්පර 0.5"</item>
+    <item msgid="5610264235282558145">"1 තත්පරයක්"</item>
+    <item msgid="1560952154506153896">"තත්පර 2"</item>
+  </string-array>
   <string-array name="device_energy_saver_attentive_timeout_entries">
     <item msgid="3361047879614054539">"පැය 4"</item>
     <item msgid="680279399507109560">"පැය 6"</item>
