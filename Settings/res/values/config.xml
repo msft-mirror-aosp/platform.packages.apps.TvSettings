@@ -177,12 +177,6 @@
     -->
     <bool name="config_find_my_remote_integration_enabled">false</bool>
 
-    <!--
-    Whether the ATV integrates the Backlight functionality.
-    If it does, the integration should respect the value of user selection.
-    -->
-    <bool name="config_backlight_integration_enabled">false</bool>
-
     <!-- True if the device has a built in speaker. -->
     <bool name="config_volume_change">false</bool>
 

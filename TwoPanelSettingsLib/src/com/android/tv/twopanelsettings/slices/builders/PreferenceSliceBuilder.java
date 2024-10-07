@@ -22,22 +22,22 @@ import static com.android.tv.twopanelsettings.slices.SlicesConstants.RADIO;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.SEEKBAR;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.SWITCH;
 
-import android.app.PendingIntent;
 import android.content.Context;
 import android.net.Uri;
+import android.os.Parcelable;
 import android.view.View;
 
 import androidx.annotation.IntDef;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.annotation.RestrictTo;
 import androidx.core.graphics.drawable.IconCompat;
 import androidx.core.util.Pair;
-import androidx.slice.Slice;
-import androidx.slice.SliceSpecs;
-import androidx.slice.builders.ListBuilder;
-import androidx.slice.builders.SliceAction;
-import androidx.slice.core.SliceHints;
+
+import com.android.tv.twopanelsettings.slices.compat.Slice;
+import com.android.tv.twopanelsettings.slices.compat.SliceSpecs;
+import com.android.tv.twopanelsettings.slices.compat.builders.ListBuilder;
+import com.android.tv.twopanelsettings.slices.compat.builders.SliceAction;
+import com.android.tv.twopanelsettings.slices.compat.core.SliceHints;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -61,7 +61,7 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
     /**
      * @hide
      */
-    @RestrictTo(RestrictTo.Scope.LIBRARY)
+    // @RestrictTo(RestrictTo.Scope.LIBRARY)
     @IntDef({
         View.LAYOUT_DIRECTION_RTL, View.LAYOUT_DIRECTION_LTR, View.LAYOUT_DIRECTION_INHERIT,
         View.LAYOUT_DIRECTION_LOCALE
@@ -122,7 +122,7 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
      */
     @NonNull
     @Override
-    public Slice build() {
+    public Slice buildForSettings() {
         return mImpl.build();
     }
 
@@ -443,7 +443,7 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * The action specified here will be sent when the whole row is clicked.
          * <p>
          * If this is the first row in a {@link ListBuilder} this action will also be used to define
-         * the {@link androidx.slice.widget.SliceView#MODE_SHORTCUT} representation of the slice.
+         * the SliceView#MODE_SHORTCUT representation of the slice.
          */
         @NonNull
         private RowBuilder setPrimaryAction(@NonNull SliceAction action) {
@@ -457,7 +457,7 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @return builder
          */
         @NonNull
-        public RowBuilder setPendingIntent(@NonNull PendingIntent pendingIntent) {
+        public RowBuilder setPendingIntent(@NonNull Parcelable pendingIntent) {
             return setPrimaryAction(new SliceAction(pendingIntent, "", false));
         }
 
@@ -469,7 +469,7 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @return builder
          */
         @NonNull
-        public RowBuilder setFollowupPendingIntent(@NonNull PendingIntent pendingIntent) {
+        public RowBuilder setFollowupPendingIntent(@NonNull Parcelable pendingIntent) {
             mFollowupAction = new SliceAction(pendingIntent, "", false);
             return this;
         }
@@ -611,7 +611,7 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param isChecked Initial state of the radio button
          */
         public RowBuilder addRadioButton(
-                PendingIntent pendingIntent, boolean isChecked) {
+                Parcelable pendingIntent, boolean isChecked) {
             return addButton(pendingIntent, isChecked, RADIO);
         }
 
@@ -622,7 +622,7 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param radioGroup group of the radio
          */
         public RowBuilder addRadioButton(
-                PendingIntent pendingIntent, boolean isChecked, CharSequence radioGroup) {
+                Parcelable pendingIntent, boolean isChecked, CharSequence radioGroup) {
             return addButton(pendingIntent, isChecked, RADIO).setRadioGroup(radioGroup);
         }
 
@@ -632,7 +632,7 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param isChecked Initial state of the check mark.
          */
         public RowBuilder addCheckMark(
-                PendingIntent pendingIntent, boolean isChecked) {
+                Parcelable pendingIntent, boolean isChecked) {
             return addButton(pendingIntent, isChecked, CHECKMARK);
         }
 
@@ -642,12 +642,12 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param isChecked Initial state of the switch.
          */
         public RowBuilder addSwitch(
-                PendingIntent pendingIntent, boolean isChecked) {
+                Parcelable pendingIntent, boolean isChecked) {
             return addButton(pendingIntent, isChecked, SWITCH);
         }
 
         private RowBuilder addButton(
-                PendingIntent pendingIntent, boolean isChecked, @BUTTONSTYLE int style) {
+                Parcelable pendingIntent, boolean isChecked, @BUTTONSTYLE int style) {
             SliceAction switchAction = new SliceAction(pendingIntent, "", isChecked);
             mButtonStyle = style;
             return addEndItem(switchAction);
@@ -662,14 +662,14 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          */
         @NonNull
         public PreferenceSliceBuilder.RowBuilder addSwitch(
-                PendingIntent pendingIntent, @NonNull CharSequence actionTitle, boolean isChecked) {
+                Parcelable pendingIntent, @NonNull CharSequence actionTitle, boolean isChecked) {
             SliceAction switchAction = new SliceAction(pendingIntent, actionTitle, isChecked);
             mButtonStyle = SWITCH;
             return addEndItem(switchAction);
         }
 
         public PreferenceSliceBuilder.RowBuilder addSeekBar(
-                PendingIntent pendingIntent, int min, int max, int value) {
+                Parcelable pendingIntent, int min, int max, int value) {
             SliceAction seekbarAction = new SliceAction(pendingIntent, "", false);
             mButtonStyle = SEEKBAR;
             mSeekbarMin = min;
