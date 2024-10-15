@@ -298,8 +298,9 @@ public abstract class SliceProvider extends ContentProvider {
     public Bundle call(String method, String arg, Bundle extras) {
         if (method.equals(METHOD_SLICE)) {
             Uri uri = validateIncomingUriOrNull(
-                    extras.getParcelable(EXTRA_BIND_URI, android.net.Uri.class));
-            List<SliceSpec> supportedSpecs = extras.getParcelableArrayList(EXTRA_SUPPORTED_SPECS, SliceSpec.class);
+                    BundleCompat.getParcelable(extras, EXTRA_BIND_URI, android.net.Uri.class));
+            List<SliceSpec> supportedSpecs = BundleCompat.getParcelableArrayList(extras,
+                    EXTRA_SUPPORTED_SPECS, SliceSpec.class);
 
             String callingPackage = getCallingPackage();
             int callingUid = Binder.getCallingUid();
@@ -311,10 +312,12 @@ public abstract class SliceProvider extends ContentProvider {
             b.putParcelable(EXTRA_SLICE, s);
             return b;
         } else if (method.equals(METHOD_MAP_INTENT)) {
-            Intent intent = extras.getParcelable(EXTRA_INTENT, android.content.Intent.class);
+            Intent intent = BundleCompat.getParcelable(extras, EXTRA_INTENT,
+                    android.content.Intent.class);
             if (intent == null) return null;
             Uri uri = validateIncomingUriOrNull(onMapIntentToUri(intent));
-            List<SliceSpec> supportedSpecs = extras.getParcelableArrayList(EXTRA_SUPPORTED_SPECS, SliceSpec.class);
+            List<SliceSpec> supportedSpecs = BundleCompat.getParcelableArrayList(extras,
+                    EXTRA_SUPPORTED_SPECS, SliceSpec.class);
             Bundle b = new Bundle();
             if (uri != null) {
                 Parcelable s = handleBindSlice(uri, supportedSpecs, getCallingPackage(),
@@ -325,7 +328,8 @@ public abstract class SliceProvider extends ContentProvider {
             }
             return b;
         } else if (method.equals(METHOD_MAP_ONLY_INTENT)) {
-            Intent intent = extras.getParcelable(EXTRA_INTENT, android.content.Intent.class);
+            Intent intent = BundleCompat.getParcelable(extras, EXTRA_INTENT,
+                    android.content.Intent.class);
             if (intent == null) return null;
             Uri uri = validateIncomingUriOrNull(onMapIntentToUri(intent));
             Bundle b = new Bundle();
@@ -333,15 +337,16 @@ public abstract class SliceProvider extends ContentProvider {
             return b;
         } else if (method.equals(METHOD_PIN)) {
             Uri uri = validateIncomingUriOrNull(
-                    extras.getParcelable(EXTRA_BIND_URI, android.net.Uri.class));
+                    BundleCompat.getParcelable(extras, EXTRA_BIND_URI, android.net.Uri.class));
             handlePinSlice(uri);
         } else if (method.equals(METHOD_UNPIN)) {
             Uri uri = validateIncomingUriOrNull(
-                    extras.getParcelable(EXTRA_BIND_URI, android.net.Uri.class));
+                    BundleCompat.getParcelable(extras, EXTRA_BIND_URI, android.net.Uri.class));
             handleUnpinSlice(uri);
         } else if (method.equals(METHOD_GET_DESCENDANTS)) {
             Uri uri =
-                    validateIncomingUriOrNull(extras.getParcelable(EXTRA_BIND_URI, android.net.Uri.class));
+                    validateIncomingUriOrNull(BundleCompat.getParcelable(extras, EXTRA_BIND_URI,
+                            android.net.Uri.class));
             Bundle b = new Bundle();
             b.putParcelableArrayList(EXTRA_SLICE_DESCENDANTS,
                     new ArrayList<>(handleGetDescendants(uri)));
