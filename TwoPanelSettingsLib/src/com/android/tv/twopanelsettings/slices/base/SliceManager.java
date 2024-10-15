@@ -39,6 +39,7 @@ import androidx.core.util.Preconditions;
 
 import com.android.tv.twopanelsettings.slices.base.impl.SliceManagerService;
 
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
@@ -53,6 +54,14 @@ import java.util.Set;
  * The SliceManager manages permissions and pinned state for slices.
  */
 public class SliceManager {
+    @Nullable
+    private static final Method enforceSlicePermission =
+            getManagerMethod("enforceSlicePermission",
+                    Uri.class, int.class, int.class, String[].class);
+    @Nullable
+    private static final Method grantPermissionFromUser =
+            getManagerMethod("grantPermissionFromUser",
+                    Uri.class, String.class, boolean.class);
     /** Delegate calls except bind to system slice manager */
     private static final boolean DELEGATE_TO_SYSTEM_MANAGER = true;
 
@@ -60,6 +69,16 @@ public class SliceManager {
 
     public static final String ACTION_REQUEST_SLICE_PERMISSION =
             "com.android.intent.action.REQUEST_SLICE_PERMISSION";
+
+    @Nullable
+    private static Method getManagerMethod(String name, Class<?>... args) {
+        try {
+            return android.app.slice.SliceManager.class
+                    .getMethod(name, args);
+        } catch (NoSuchMethodException e) {
+            return null;
+        }
+    }
 
     /**
      * Category used to resolve intents that can be rendered as slices.
@@ -204,7 +223,8 @@ public class SliceManager {
                 extras.putParcelable(SliceProvider.EXTRA_BIND_URI, uri);
                 final Bundle res = provider.call(
                         SliceProvider.METHOD_GET_DESCENDANTS, null, extras);
-                return res.getParcelableArrayList(SliceProvider.EXTRA_SLICE_DESCENDANTS, android.net.Uri.class);
+                return BundleCompat.getParcelableArrayList(res,
+                        SliceProvider.EXTRA_SLICE_DESCENDANTS, android.net.Uri.class);
             }
         } catch (RemoteException e) {
             Log.e(TAG, "Unable to get slice descendants", e);
@@ -246,7 +266,9 @@ public class SliceManager {
      */
     public @Nullable Slice bindSlice(@NonNull Uri uri, @NonNull Set<SliceSpec> supportedSpecs) {
         Bundle result = bindSlice(uri, supportedSpecs, new Bundle());
-        return result != null ? result.getParcelable(SliceProvider.EXTRA_SLICE, Slice.class) : null;
+        return result != null ? BundleCompat.getParcelable(result, SliceProvider.EXTRA_SLICE,
+                Slice.class)
+                : null;
     }
 
     /**
@@ -291,7 +313,8 @@ public class SliceManager {
             if (res == null) {
                 return null;
             }
-            return res.getParcelable(SliceProvider.EXTRA_SLICE, android.net.Uri.class);
+            return BundleCompat.getParcelable(res, SliceProvider.EXTRA_SLICE,
+                    android.net.Uri.class);
         } catch (RemoteException e) {
             // Arbitrary and not worth documenting, as Activity
             // Manager will kill this process shortly anyway.
@@ -381,7 +404,8 @@ public class SliceManager {
     public @Nullable Slice bindSlice(@NonNull Intent intent,
             @NonNull Set<SliceSpec> supportedSpecs) {
         Bundle result = bindSlice(intent, supportedSpecs, new Bundle());
-        return result != null ? result.getParcelable(SliceProvider.EXTRA_SLICE, Slice.class) : null;
+        return result != null ? BundleCompat.getParcelable(result, SliceProvider.EXTRA_SLICE,
+                Slice.class) : null;
     }
 
     /**
@@ -444,8 +468,13 @@ public class SliceManager {
      * Does the permission check to see if a caller has access to a specific slice.
      */
     public void enforceSlicePermission(Uri uri, int pid, int uid, String[] autoGrantPermissions) {
-        if (DELEGATE_TO_SYSTEM_MANAGER) {
-            mSystemManager.enforceSlicePermission(uri, pid, uid, autoGrantPermissions);
+        if (DELEGATE_TO_SYSTEM_MANAGER && enforceSlicePermission != null) {
+            try {
+                enforceSlicePermission.invoke(
+                        mSystemManager, uri, pid, uid, autoGrantPermissions);
+            } catch (Exception e) {
+                throw new SecurityException(e);
+            }
         }
     }
 
@@ -453,8 +482,12 @@ public class SliceManager {
      * Called by SystemUI to grant a slice permission after a dialog is shown.
      */
     public void grantPermissionFromUser(Uri uri, String pkg, boolean allSlices) {
-        if (DELEGATE_TO_SYSTEM_MANAGER) {
-            mSystemManager.grantPermissionFromUser(uri, pkg, allSlices);
+        if (DELEGATE_TO_SYSTEM_MANAGER && grantPermissionFromUser != null) {
+            try {
+                grantPermissionFromUser.invoke(mSystemManager, uri, pkg, allSlices);
+            } catch (Exception e) {
+                throw new SecurityException(e);
+            }
         }
     }
 }
