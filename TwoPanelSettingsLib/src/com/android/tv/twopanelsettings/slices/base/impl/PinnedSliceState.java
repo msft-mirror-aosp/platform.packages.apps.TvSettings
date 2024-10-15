@@ -54,9 +54,7 @@ public class PinnedSliceState {
     }
 
     public SliceSpec[] getSpecs() {
-        synchronized (mLock) {
-            return mSupportedSpecs;
-        }
+        return mSupportedSpecs;
     }
 
     public void mergeSpecs(SliceSpec[] supportedSpecs) {
