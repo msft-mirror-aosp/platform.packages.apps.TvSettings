@@ -460,7 +460,6 @@ public class SliceAction implements com.android.tv.twopanelsettings.slices.compa
      * @return the image mode to use for this action.
      */
     @Override
-    @SuppressWarnings("WrongConstant")
     public @ListBuilder.ImageMode int getImageMode() {
         return mSliceAction.getImageMode();
     }
