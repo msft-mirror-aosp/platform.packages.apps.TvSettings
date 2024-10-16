@@ -40,8 +40,6 @@ import androidx.annotation.RequiresApi;
 import androidx.collection.ArrayMap;
 import androidx.versionedparcelable.ParcelUtils;
 
-import com.android.tv.twopanelsettings.slices.base.BundleCompat;
-
 import java.util.Collection;
 import java.util.Set;
 
@@ -120,7 +118,7 @@ class SliceViewManagerWrapper extends SliceViewManagerBase {
     private com.android.tv.twopanelsettings.slices.compat.Slice toSettingsSlice(
             Bundle bundle) {
         Parcelable parcelable = bundle != null
-                ? BundleCompat.getParcelable(bundle, EXTRA_SLICE, Parcelable.class) : null;
+                ? bundle.getParcelable(EXTRA_SLICE, Parcelable.class) : null;
         if (parcelable == null) {
             return null;
         }

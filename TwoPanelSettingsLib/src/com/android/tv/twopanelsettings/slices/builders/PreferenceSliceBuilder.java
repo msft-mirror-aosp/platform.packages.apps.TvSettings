@@ -39,8 +39,6 @@ import com.android.tv.twopanelsettings.slices.compat.builders.ListBuilder;
 import com.android.tv.twopanelsettings.slices.compat.builders.SliceAction;
 import com.android.tv.twopanelsettings.slices.compat.core.SliceHints;
 
-import com.google.errorprone.annotations.CanIgnoreReturnValue;
-
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.time.Duration;
@@ -298,7 +296,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          *
          * @param icon the image to display.
          */
-        @CanIgnoreReturnValue
         private RowBuilder setTitleItem(@NonNull IconCompat icon) {
             return setTitleItem(icon, false /* isLoading */);
         }
@@ -315,7 +312,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param isLoading whether this content is being loaded in the background.
          */
         @NonNull
-        @CanIgnoreReturnValue
         private RowBuilder setTitleItem(@Nullable IconCompat icon, boolean isLoading) {
             mTitleAction = null;
             mTitleIcon = icon;
@@ -328,7 +324,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * replace any other title items that may have been set.
          */
         @NonNull
-        @CanIgnoreReturnValue
         private RowBuilder setTitleItem(@NonNull SliceAction action) {
             return setTitleItem(action, false /* isLoading */);
         }
@@ -345,7 +340,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * background or not.
          */
         @NonNull
-        @CanIgnoreReturnValue
         private RowBuilder setTitleItem(@NonNull SliceAction action, boolean isLoading) {
             mTitleAction = action;
             mTitleIcon = null;
@@ -362,7 +356,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param icon the image to display.
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setIcon(@NonNull IconCompat icon) {
             mHasEndIcon = false;
             return setTitleItem(icon);
@@ -377,7 +370,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param icon the image to display.
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setEndIcon(@NonNull IconCompat icon) {
             mHasEndIcon = true;
             return setTitleItem(icon);
@@ -388,7 +380,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * The image would be displayed at the top of preview screen.
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setInfoImage(@NonNull IconCompat icon) {
             mInfoImage = icon;
             return this;
@@ -399,7 +390,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * The icon will be displayed to the left of description text title
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setInfoTitleIcon(@NonNull IconCompat icon) {
             mInfoTitleIcon = icon;
             return this;
@@ -410,7 +400,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          */
         @Deprecated
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setInfoText(CharSequence text) {
             mInfoTitle = text;
             return this;
@@ -423,7 +412,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * purposes. Please see setContentDescription() for more details.
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setInfoTitle(CharSequence text) {
             mInfoTitle = text;
             return this;
@@ -436,7 +424,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * purposes. Please see setContentDescription() for more details.
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setInfoSummary(CharSequence text) {
             mInfoSummary = text;
             return this;
@@ -447,7 +434,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * generated based upon the on/off status of the switch.
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setAddInfoStatus(boolean addInfoStatus) {
             mAddInfoStatus = addInfoStatus;
             return this;
@@ -460,7 +446,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * the SliceView#MODE_SHORTCUT representation of the slice.
          */
         @NonNull
-        @CanIgnoreReturnValue
         private RowBuilder setPrimaryAction(@NonNull SliceAction action) {
             mPrimaryAction = action;
             return this;
@@ -472,7 +457,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @return builder
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setPendingIntent(@NonNull Parcelable pendingIntent) {
             return setPrimaryAction(new SliceAction(pendingIntent, "", false));
         }
@@ -485,7 +469,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @return builder
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setFollowupPendingIntent(@NonNull Parcelable pendingIntent) {
             mFollowupAction = new SliceAction(pendingIntent, "", false);
             return this;
@@ -498,7 +481,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param actionId pre-defined ID of an action
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setActionId(int actionId) {
             mActionId = actionId;
             return this;
@@ -511,7 +493,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param pageId pre-defined ID of a page
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setPageId(int pageId) {
             mPageId = pageId;
             return this;
@@ -522,7 +503,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * if too long.
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setTitle(@NonNull CharSequence title) {
             return setTitle(title, false);
         }
@@ -539,7 +519,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * background or not.
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setTitle(@Nullable CharSequence title, boolean isLoading) {
             mTitle = title;
             mTitleLoading = isLoading;
@@ -551,7 +530,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * ellipsized if too long.
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setSubtitle(@NonNull CharSequence subtitle) {
             return setSubtitle(subtitle, false /* isLoading */);
         }
@@ -568,7 +546,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * background or not.
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setSubtitle(@Nullable CharSequence subtitle, boolean isLoading) {
             mSubtitle = subtitle;
             mSubtitleLoading = isLoading;
@@ -581,7 +558,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param icon the image to display.
          */
         @NonNull
-        @CanIgnoreReturnValue
         private RowBuilder addEndItem(@NonNull IconCompat icon) {
             return addEndItem(icon, false /* isLoading */);
         }
@@ -597,7 +573,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param isLoading whether this content is being loaded in the background.
          */
         @NonNull
-        @CanIgnoreReturnValue
         private RowBuilder addEndItem(@Nullable IconCompat icon, boolean isLoading) {
             if (mHasEndActionOrToggle) {
                 throw new IllegalArgumentException("Trying to add an icon to end items when an"
@@ -617,7 +592,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * IllegalArgumentException}.
          */
         @NonNull
-        @CanIgnoreReturnValue
         private RowBuilder addEndItem(@NonNull SliceAction action) {
             return addEndItem(action, false /* isLoading */);
         }
@@ -626,8 +600,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
         /**
          * Add an item to the RowBuilder. Each item would contain title and summary.
          */
-        @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder addInfoItem(String title, String summary) {
             mInfoItems.add(new Pair<>(title, summary));
             return this;
@@ -638,8 +610,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param pendingIntent pendingIntent to launch when radio is clicked.
          * @param isChecked Initial state of the radio button
          */
-        @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder addRadioButton(
                 Parcelable pendingIntent, boolean isChecked) {
             return addButton(pendingIntent, isChecked, RADIO);
@@ -651,8 +621,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param isChecked Initial state of the radio button
          * @param radioGroup group of the radio
          */
-        @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder addRadioButton(
                 Parcelable pendingIntent, boolean isChecked, CharSequence radioGroup) {
             return addButton(pendingIntent, isChecked, RADIO).setRadioGroup(radioGroup);
@@ -663,8 +631,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param pendingIntent pendingIntent to launch when checkmark is clicked.
          * @param isChecked Initial state of the check mark.
          */
-        @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder addCheckMark(
                 Parcelable pendingIntent, boolean isChecked) {
             return addButton(pendingIntent, isChecked, CHECKMARK);
@@ -675,15 +641,11 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param pendingIntent pendingIntent to launch when switch is clicked.
          * @param isChecked Initial state of the switch.
          */
-        @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder addSwitch(
                 Parcelable pendingIntent, boolean isChecked) {
             return addButton(pendingIntent, isChecked, SWITCH);
         }
 
-        @NonNull
-        @CanIgnoreReturnValue
         private RowBuilder addButton(
                 Parcelable pendingIntent, boolean isChecked, @BUTTONSTYLE int style) {
             SliceAction switchAction = new SliceAction(pendingIntent, "", isChecked);
@@ -699,7 +661,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @return
          */
         @NonNull
-        @CanIgnoreReturnValue
         public PreferenceSliceBuilder.RowBuilder addSwitch(
                 Parcelable pendingIntent, @NonNull CharSequence actionTitle, boolean isChecked) {
             SliceAction switchAction = new SliceAction(pendingIntent, actionTitle, isChecked);
@@ -707,8 +668,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
             return addEndItem(switchAction);
         }
 
-        @NonNull
-        @CanIgnoreReturnValue
         public PreferenceSliceBuilder.RowBuilder addSeekBar(
                 Parcelable pendingIntent, int min, int max, int value) {
             SliceAction seekbarAction = new SliceAction(pendingIntent, "", false);
@@ -732,7 +691,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * background or not.
          */
         @NonNull
-        @CanIgnoreReturnValue
         private RowBuilder addEndItem(@NonNull SliceAction action, boolean isLoading) {
             if (mHasEndImage) {
                 throw new IllegalArgumentException("Trying to add an action to end items when an"
@@ -764,7 +722,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * content description if one is not specified.
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setContentDescription(@NonNull CharSequence description) {
             mContentDescription = description;
             return this;
@@ -775,8 +732,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param targetSliceUri indicates the target slice uri when the preference is focused.
          * @return builder
          */
-        @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setTargetSliceUri(@NonNull CharSequence targetSliceUri) {
             mTargetSliceUri = targetSliceUri;
             return this;
@@ -787,8 +742,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param key indicates the key for the preference.
          * @return builder
          */
-        @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setKey(@NonNull CharSequence key) {
             mKey = key;
             return this;
@@ -800,7 +753,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param layoutDirection the layout direction to set.
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setLayoutDirection(@LayoutDirection int layoutDirection) {
             mLayoutDirection = layoutDirection;
             return this;
@@ -813,7 +765,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          */
         @Deprecated
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setCheckmark(boolean isCheckMark) {
             if (isCheckMark) {
                 mButtonStyle = CHECKMARK;
@@ -827,8 +778,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * Set the button style.
          * @param buttonStyle
          */
-        @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setButtonStyle(@BUTTONSTYLE int buttonStyle) {
             mButtonStyle = buttonStyle;
             return this;
@@ -839,7 +788,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param needed if true, TvSettings will add a round border around the given icon
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setIconNeedsToBeProcessed(boolean needed) {
             mIconNeedsToBeProcessed = needed;
             return this;
@@ -849,7 +797,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * Set radio group for radio
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setRadioGroup(CharSequence radioGroup) {
             mRadioGroup = radioGroup;
             return this;
@@ -859,7 +806,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * Set whether this item is enabled.
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setEnabled(boolean enabled) {
             mEnabled = enabled;
             return this;
@@ -870,7 +816,6 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
          * @param selectable
          */
         @NonNull
-        @CanIgnoreReturnValue
         public RowBuilder setSelectable(boolean selectable) {
             mSelectable = selectable;
             return this;
