@@ -92,6 +92,14 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Skeniranje je uvijek dostupno"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Dozvolite Googleovim uslugama lokacije i drugim aplikacijama da skeniraju mreže, čak i kada je WiFi isključen"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Skeniranje je uvijek dostupno, Omogućavanje Googleovoj usluzi lokacije i drugim aplikacijama da skeniraju mreže, čak i kada je WiFi isključen"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Thread mreža"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Thread mreža lokalno povezuje pametne kućne uređaje s omogućenim Threadom i povećava efikasnost i performanse.\n\nKada je ovo uključeno, uređaj će kreirati Thread mrežu ili joj se pridružiti. Akreditivi će se otpremiti privatno u oblak radi lakšeg postavljanja budućih pametnih kućnih uređaja.\n\nKada je ovo isključeno, uređaj više neće moći komunicirati s drugim uređajima na Thread mreži. Određeni pametni kućni uređaji i usluge možda neće raditi kako se očekuje.\n\nSaznajte više na g.co/tv/thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"Isključiti Thread mrežu?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"Ako isključite, određeni pametni kućni uređaji i usluge možda neće raditi kako se očekuje. Želite li nastaviti?"</string>
+    <string name="wifi_settings_thread_network_energy_title" msgid="1975654727631313381">"Želite li uključiti mrežu Thread?"</string>
+    <string name="wifi_settings_thread_network_energy_message" msgid="6579289433006123263">"Mreža Thread zahtijeva način pojačane potrošnje energije. Najprije promijenite način potrošnje energije u Pojačano, a zatim se vratite da biste uključili mrežu Thread."</string>
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"Isključi"</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode" msgid="6535896653472709387">"Promijeni način potrošnje energije"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"WiFi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Poveži se na mrežu"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Dijagnostika mreže"</string>
@@ -545,16 +553,16 @@
     <string name="storage_media_cache_usage" msgid="6397941751551207630">"Keširani podaci"</string>
     <string name="storage_eject" msgid="3268870873944951902">"Izbaci"</string>
     <string name="storage_format" msgid="5360900929128087085">"Potpuno brisanje podataka i formatiranje"</string>
-    <string name="storage_format_as_private" msgid="77945551149326052">"Izbriši i formatiraj kao pohranu uređaja"</string>
+    <string name="storage_format_as_private" msgid="77945551149326052">"Izbriši i formatiraj kao pohranu na uređaju"</string>
     <string name="storage_format_as_public" msgid="6745112917895223463">"Izbriši i formatiraj kao prenosivu pohranu"</string>
-    <string name="storage_format_for_private" msgid="5380138334184923252">"Formatiraj kao pohranu uređaja"</string>
+    <string name="storage_format_for_private" msgid="5380138334184923252">"Formatiraj kao pohranu na uređaju"</string>
     <string name="storage_not_connected" msgid="4327902652748552794">"Nije povezano"</string>
     <string name="storage_migrate" msgid="9137556600192167701">"Migrirajte podatke na ovu pohranu"</string>
     <string name="storage_migrate_away" msgid="7880100961434638430">"Migriraj podatke na drugu pohranu"</string>
     <string name="storage_no_apps" msgid="95566375753627272">"Nema aplikacija za izradu sigurnosne kopije"</string>
-    <string name="storage_forget" msgid="4671975563260507003">"Zaboravi pohranu ovog uređaja"</string>
+    <string name="storage_forget" msgid="4671975563260507003">"Zaboravi pohranu na ovom uređaju"</string>
     <string name="storage_forget_wall_of_text" msgid="230454348256179142">"Da koristite aplikacije ili podatke na ovom disku, ponovo ga priključite. Osim toga, možete odabrati da zaboravite ovu pohranu ako disk nije dostupan.\n\nAko odaberete opciju Zaboravi, svi podaci na disku će se trajno izgubiti.\n\nAplikacije možete ponovo instalirati kasnije, ali podaci pohranjeni na ovom disku će se izgubiti."</string>
-    <string name="storage_device_storage_section" msgid="22958375769694027">"Pohrana uređaja"</string>
+    <string name="storage_device_storage_section" msgid="22958375769694027">"Pohrana na uređaju"</string>
     <string name="storage_removable_storage_section" msgid="280332107650735088">"Uklonjiva pohrana"</string>
     <string name="storage_reset_section" msgid="3896575204828589494">"Vraćanje na zadano"</string>
     <string name="storage_free_up" msgid="5719667150891467122">"Oslobodite prostor u pohrani"</string>
@@ -572,10 +580,10 @@
     <string name="storage_unmount_failure_cant_find" msgid="2890335341404932068">"Nema diska za izbacivanje"</string>
     <string name="storage_format_success" msgid="5599914756144012286">"Uređaj <xliff:g id="NAME">%1$s</xliff:g> je formatiran"</string>
     <string name="storage_format_failure" msgid="5619442934314277332">"Uređaj <xliff:g id="NAME">%1$s</xliff:g> nije formatiran"</string>
-    <string name="storage_wizard_format_as_private_title" msgid="7985715762649933211">"Formatiranje kao uređaj za pohranu"</string>
+    <string name="storage_wizard_format_as_private_title" msgid="7985715762649933211">"Formatiranje kao pohrane na uređaju"</string>
     <string name="storage_wizard_format_as_private_description" msgid="6143406934742456154">"Radi sigurnosti, za ovo je potrebno formatirati USB disk. Nakon sigurnog formatiranja disk će raditi samo s ovim uređajem. Formatiranjem potpuno brišete sve podatke koji su trenutno pohranjeni na njemu. Da izbjegnete gubitak podataka, predlažemo izradu sigurnosne kopije."</string>
     <string name="storage_wizard_format_as_public_title" msgid="3546915348149438389">"Brisanje i formatiranje"</string>
-    <string name="storage_wizard_format_as_public_description" msgid="5849129772499352597">"Nakon formatiranja, ovaj USB disk možete koristiti na drugim uređajima. Svi podaci će se potpuno izbrisati. Predlažemo da prvo napravite sigurnosnu kopiju premještanjem aplikacija u drugu pohranu uređaja."</string>
+    <string name="storage_wizard_format_as_public_description" msgid="5849129772499352597">"Nakon formatiranja, ovaj USB disk možete koristiti na drugim uređajima. Svi podaci će se potpuno izbrisati. Predlažemo da prvo napravite sigurnosnu kopiju premještanjem aplikacija u drugu pohranu na uređaju."</string>
     <string name="storage_wizard_format_progress_title" msgid="3875906251546380271">"Formatiranje USB diska…"</string>
     <string name="storage_wizard_format_progress_description" msgid="292229747129805538">"Ovo će kratko potrajati. Nemojte uklanjati disk."</string>
     <string name="storage_wizard_migrate_choose_title" msgid="8743036821605231654">"Odaberite pohranu na koju ćete migrirati podatke"</string>
@@ -594,18 +602,18 @@
     <string name="storage_wizard_back_up_apps_title" msgid="6225663573896846937">"Aplikacije pohranjene na uređaju <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="storage_wizard_back_up_apps_and_data_title" msgid="7763611380573099978">"Aplikacije i podaci pohranjeni na uređaju <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="storage_wizard_back_up_apps_space_available" msgid="5741521038349239359">"Dostupno je <xliff:g id="SIZE">%1$s</xliff:g>"</string>
-    <string name="storage_wizard_eject_private_title" msgid="1336088625197134497">"Izbacivanje pohrane uređaja"</string>
-    <string name="storage_wizard_eject_private_description" msgid="4341905730016007385">"Aplikacije u pohrani ovog uređaja prestat će raditi kada ga izbacite. Ovaj USB disk je formatiran za rad samo na ovom uređaju i neće raditi na drugim uređajima."</string>
+    <string name="storage_wizard_eject_private_title" msgid="1336088625197134497">"Izbacivanje pohrane na uređaju"</string>
+    <string name="storage_wizard_eject_private_description" msgid="4341905730016007385">"Aplikacije u pohrani na ovom uređaju prestat će raditi kada ga izbacite. Ovaj USB disk je formatiran za rad samo na ovom uređaju i neće raditi na drugim uređajima."</string>
     <string name="storage_wizard_eject_progress_title" msgid="6025569356827683446">"Izbacivanje uređaja <xliff:g id="NAME">%1$s</xliff:g>…"</string>
     <string name="storage_wizard_move_app_title" msgid="6504922588346440942">"Iskorištena memorija"</string>
     <string name="storage_wizard_move_app_progress_title" msgid="7058465372227392453">"Premještanje aplikacije <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="storage_wizard_move_app_progress_description" msgid="7673347796805764888">"Nemojte uklanjati disk za vrijeme premještanja.\nAplikacija <xliff:g id="APPNAME">%1$s</xliff:g> na ovom uređaju neće biti dostupna dok se premještanje ne završi."</string>
-    <string name="storage_wizard_forget_confirm_title" msgid="3709482471888830896">"Zaboraviti pohranu uređaja?"</string>
+    <string name="storage_wizard_forget_confirm_title" msgid="3709482471888830896">"Zaboraviti pohranu na uređaju?"</string>
     <string name="storage_wizard_forget_confirm_description" msgid="5896860042525566767">"Ako odaberete \'Zaboravi\', zauvijek ćete izgubiti sve podatke pohranjene na ovom disku. Želite li nastaviti?"</string>
     <string name="storage_wizard_forget_action" msgid="5609631662522950596">"Zaboravi"</string>
     <string name="storage_new_title" msgid="4768955281180255038">"USB disk je povezan"</string>
     <string name="storage_new_action_browse" msgid="3355241742574072658">"Pregledaj"</string>
-    <string name="storage_new_action_adopt" msgid="6809707961170895964">"Postavi kao pohranu uređaja"</string>
+    <string name="storage_new_action_adopt" msgid="6809707961170895964">"Postavi kao pohranu na uređaju"</string>
     <string name="storage_new_action_format_public" msgid="1964662216574764811">"Postavi kao izmjenjivu pohranu"</string>
     <string name="storage_new_action_eject" msgid="919249291814300000">"Izbaci"</string>
     <string name="storage_missing_title" msgid="9068915586235805818">"Uređaj <xliff:g id="NAME">%1$s</xliff:g> je uklonjen"</string>
@@ -690,6 +698,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Tekst visokog kontrasta"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Podebljani tekst"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Slučajni pritisci na tipke"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Odabir željenog vremena"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Daljinski upravljač zanemaruje ponovljene pritiske na tipke"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Omogućite zanemarivanje slučajnih brzih ponovljenih pritisaka na dugmad. Možete podesiti vremenski interval u kojem će se pritisci zanemarivati"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Vrijeme: zadano"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Omogućite zanemarivanje ponovljenih pritisaka u zadanom intervalu nakon prvog pritiska"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Vrijeme: 0,5 sekundi"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Podesite vremenski interval na 0,5 sekundi u kojem će se ponovljeni pritisci na tipke zanemariti"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Vrijeme: 1 sekunda"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Podesite vremenski interval na 1 sekundu u kojem će se ponovljeni pritisci na tipke zanemariti"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Vrijeme: 2 sekunde"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Podesite vremenski interval na 2 sekunde u kojem će se ponovljeni pritisci na tipke zanemariti"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Ispravka boja"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Koristi ispravku boja"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Način rada boja"</string>
@@ -718,6 +738,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Odaberite koliko dugo želite da se prikazuju privremene poruke koje od vas traže da poduzmete radnju"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Vrijeme: 2–3 s"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Postavlja zadano vrijeme za odgovor na radnje na ekranu (2–3 s)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Odgoda ponavljanja unosa tipke"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Konfiguriranje odgode prije nego što se ponovljeni znakovi pojave kada se tipka zadrži"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Podešavanje odgode prije ponavljanja unosa tipke"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Ponavljanje unosa tipke"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Odgoda prije ponavljanja"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Prilagođavanje trajanja zadržavanja dugmeta prije nego što se unos počne ponavljati"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Prilagođavanje trajanja zadržavanja dugmeta nakon čega se unos počinje ponavljati"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Brzina ponavljanja"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Postavljanje brzine ponavljanja znakova nakon unosa kada se tipka zadrži"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Zadano"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Upravljanje brzinom ponavljanja unosa dugmeta nakon prve odgode"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Titlovi"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Postavke za prikaz teksta titla preko videozapisa"</string>
     <string name="captions_display" msgid="2598662495450633375">"Prikaz"</string>

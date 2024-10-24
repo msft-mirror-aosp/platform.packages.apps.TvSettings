@@ -92,6 +92,14 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Skanowanie zawsze dostępne"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Zezwalaj usłudze lokalizacyjnej Google i innym aplikacjom na skanowanie w poszukiwaniu sieci nawet przy wyłączonym Wi-Fi"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Skanowanie zawsze dostępne, zezwalaj usłudze lokalizacyjnej Google i innym aplikacjom na skanowanie w poszukiwaniu sieci nawet przy wyłączonym Wi-Fi"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Sieć Thread"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Sieć Thread lokalnie łączy inteligentne urządzenia domowe, które ją obsługą, aby działały bardziej wydajnie.\n\nPo włączeniu to urządzenie utworzy sieć Thread lub do niej dołączy. Dane logowania zostaną przesłane do prywatnego folderu w chmurze – ułatwi to konfigurację kolejnych inteligentnych urządzeń domowych.\n\nPo wyłączeniu to urządzenie nie będzie już mogło komunikować się z innymi urządzeniami w sieci Thread. Niektóre usługi i inteligentne urządzenia domowe mogą nie działać zgodnie z oczekiwaniami.\n\nWięcej informacji znajdziesz na g.co/tv/thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"Wyłączyć sieć Thread?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"Jeśli ją wyłączysz, niektóre usługi i inteligentne urządzenia domowe mogą nie działać zgodnie z oczekiwaniami. Czy chcesz kontynuować?"</string>
+    <string name="wifi_settings_thread_network_energy_title" msgid="1975654727631313381">"Włączyć sieć Thread?"</string>
+    <string name="wifi_settings_thread_network_energy_message" msgid="6579289433006123263">"Sieć Thread wymaga trybu zwiększonego zużycia energii. Najpierw zmień tryb zużycia energii na Zwiększony, a potem wróć, aby włączyć sieć Thread."</string>
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"Wyłącz"</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode" msgid="6535896653472709387">"Zmień tryb zużycia energii"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Łączenie z siecią"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Diagnostyka sieci"</string>
@@ -690,6 +698,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Tekst o dużym kontraście"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Pogrubienie tekstu"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Klawisze z filtrem powtórzeń"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Wybierz preferowany czas"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Pilot ignoruje powtarzalne naciśnięcia klawiszy"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Ignoruj przypadkowe, szybkie i powtarzalne naciśnięcia przycisków. Możesz dostosować przedział czasu, w którym naciśnięcia są ignorowane."</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Czas: domyślny"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Ignoruj powtarzalne naciśnięcia w domyślnym przedziale czasu po pierwszym naciśnięciu"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Czas: 0,5 sekundy"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Ustaw czas ignorowania powtarzalnych naciśnięć na 0,5 sekundy"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Czas: 1 sekunda"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Ustaw czas ignorowania powtarzalnych naciśnięć na 1 sekundę"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Czas: 2 sekundy"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Ustaw czas ignorowania powtarzalnych naciśnięć na 2 sekundy"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Korekcja kolorów"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Używaj korekcji kolorów"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Tryb koloru"</string>
@@ -718,6 +738,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Wybierz, jak długo mają być pokazywane komunikaty z prośbą o wykonanie jakiegoś działania"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Czas: 2–3 sekundy"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Ustawia domyślny czas reakcji na działania na ekranie (2–3 s)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Opóźnienie powtarzania znaku"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Skonfiguruj opóźnienie, po którym znaki będą powtarzane w przypadku przytrzymania klawisza"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Dostosuj opóźnienie przed powtórzeniem znaku"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Powtarzanie znaku"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Opóźnienie przed powtarzaniem"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Określ, jak długo możesz przytrzymać przycisk, zanim rozpocznie się powtarzanie znaku"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Dostosuj czas przytrzymania przycisku, po którym rozpocznie się powtarzanie znaku"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Szybkość powtarzania"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Ustaw szybkość powtarzania znaków podczas przytrzymywania klawisza"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Domyślne"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Określ szybkość powtarzania znaku po początkowym opóźnieniu"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Napisy"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Ustawienia napisów nałożonych na film"</string>
     <string name="captions_display" msgid="2598662495450633375">"Wyświetlanie"</string>

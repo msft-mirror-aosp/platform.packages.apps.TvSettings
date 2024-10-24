@@ -92,6 +92,14 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Активно сканиране"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Позволете на услугата на Google за местоположение и на другите приложения да сканират за мрежи дори когато функцията за Wi-Fi е изключена."</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Сканирането винаги е налице – Позволете на услугата на Google за местоположение и на другите приложения да сканират за мрежи дори когато функцията за Wi-Fi е изключена"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Мрежа Thread"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Thread повишава ефективността и производителността чрез локално свързване на устройствата за интелигентен дом, които поддържат мрежата.\n\nКогато настройката е включена, устройството ще създаде мрежа Thread или ще се присъедини към такава. Идентификационните данни ще бъдат качени частно в облака с цел по-лесно настройване на бъдещите ви устройства за интелигентен дом.\n\nКогато настройката е изключена, устройството няма да може да комуникира с другите в мрежата Thread. Някои устройства и услуги за интелигентен дом може да не работят според очакванията.\n\nНаучете повече на адрес g.co/tv/thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"Да се изключи ли мрежата Thread?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"Ако я изключите, някои устройства и услуги за интелигентен дом може да не работят според очакванията. Искате ли да продължите?"</string>
+    <string name="wifi_settings_thread_network_energy_title" msgid="1975654727631313381">"Да се включи ли мрежата Thread?"</string>
+    <string name="wifi_settings_thread_network_energy_message" msgid="6579289433006123263">"За мрежата Thread се изисква енергийният режим „Повишено потребление“. Първо задайте този режим и след това се върнете тук, за да включите мрежата Thread."</string>
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"Изключване"</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode" msgid="6535896653472709387">"Промяна на енергийния режим"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Свързване с мрежа"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Диагностика на мрежата"</string>
@@ -690,6 +698,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Текст с висок контраст"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Удебелен текст"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Игнориране на многократното натискане"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Изберете предпочитан времеви интервал"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Дистанционното управление пренебрегва повтарящите се натискания на клавиши"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Пренебрегване на случайните бързи, повтарящи се натискания на бутони. Можете да коригирате времевия интервал, за който натисканията се игнорират"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Времеви интервал: по подразбиране"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Пренебрегване на повтарящите се натискания за интервала по подразбиране след първоначалното натискане"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Времеви интервал: 0,5 секунди"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Коригиране на времевия интервал, за който повтарящите се натискания на клавиши се игнорират, на 0,5 секунди"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Времеви интервал: 1 секунда"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Коригиране на времевия интервал, за който повтарящите се натискания на клавиши се игнорират, на 1 секунда"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Времеви интервал: 2 секунди"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Коригиране на времевия интервал, за който повтарящите се натискания на клавиши се игнорират, на 2 секунди"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Корекция на цветове"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Използване на корекция на цветовете"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Цветови режим"</string>
@@ -718,6 +738,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Изберете колко дълго да се показват временните съобщения, които изискват да предприемете действие"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Времеви интервал: 2 – 3 секунди"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Задава станд. период от време за отг. на действията на екрана (2 – 3 сек)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Забавяне при повтарянето на клавишите"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Конфигуриране на забавянето, преди да се показват повтарящи се знаци при задържането на даден клавиш"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Коригиране на забавянето преди повтарянето на клавиша"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Повтаряне на клавишите"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Забавяне преди повтаряне"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Персонализирайте колко дълго да се задържа даден бутон, преди да действието му да започне да се повтаря"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Персонализирайте продължителността на задържането на даден бутон, след която действието му ще започне да се повтаря"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Честота на повторение"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Задаване на скоростта, с която да се въвеждат повтарящи се знаци при задържането на даден клавиш"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"По подразбиране"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Контролиране на скоростта, с която да се повтаря действието на бутона след първоначалното забавяне"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Надписи"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Настройки за наслагване на надписи върху видеоклип"</string>
     <string name="captions_display" msgid="2598662495450633375">"Показване"</string>

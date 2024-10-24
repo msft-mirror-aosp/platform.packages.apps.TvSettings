@@ -92,6 +92,14 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Mindig keressen hálózatot"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"A Google helyszolgáltatása és más alkalmazások akkor is kereshetnek hálózatokat, ha a Wi-Fi ki van kapcsolva"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"A keresés mindig rendelkezésre áll, A Google helyszolgáltatása és más alkalmazások akkor is kereshetnek hálózatokat, ha a Wi-Fi ki van kapcsolva."</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Thread-hálózat"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"A Thread-hálózat helyben kapcsolja össze a Thread-kompatibilis okosotthoni eszközöket, javítva a hatékonyságukat és a teljesítményüket.\n\nAmikor be van kapcsolva, ez az eszköz létrehozza a Thread-hálózatot, vagy csatlakozik hozzá. A hitelesítési adatok privát módon fel lesznek töltve a felhőbe, hogy később egyszerűbb legyen beállítani az okosotthoni eszközöket.\n\nAmikor ki van kapcsolva, az eszköz nem tud kommunikálni a Thread-hálózathoz tartozó más eszközökkel. Lehet, hogy az okosotthon egyes eszközei és szolgáltatásai nem fognak a várt módon működni.\n\nTovábbi információ: g.co/tv/thread."</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"Kikapcsolja a Thread-hálózatot?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"Kikapcsolt állapotban előfordulhat, hogy egyes okosotthoni eszközök és szolgáltatások nem fognak a várt módon működni. Szeretné folytatni?"</string>
+    <string name="wifi_settings_thread_network_energy_title" msgid="1975654727631313381">"Bekapcsolja a Thread-hálózatot?"</string>
+    <string name="wifi_settings_thread_network_energy_message" msgid="6579289433006123263">"A Thread-hálózat használatához a Nagyobb energiafelhasználás mód szükséges. Először állítsa az energiafelhasználási módot Nagyobb energiafelhasználás módra, majd térjen vissza ide, és kapcsolja be a Thread-hálózatot."</string>
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"Kikapcsolás"</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode" msgid="6535896653472709387">"Az energiafogyasztási mód módosítása"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Csatlakozás hálózathoz"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Hálózati diagnosztika"</string>
@@ -690,6 +698,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Nagy kontrasztú szöveg"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Félkövér szöveg"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Billentyűblokkolás"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Válassza ki a kívánt időzítést"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"A távirányító figyelmen kívül hagyja az ismétlődő gombnyomásokat"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Beállíthatja a véletlen történő, gyors, ismétlődő gombnyomások figyelmen kívül hagyását. Megadhatja azt az időintervallumot, amelyen belül a rendszer figyelmen kívül hagyja a gombnyomásokat."</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Időzítés: Alapértelmezett"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Ismétlődő gombnyomások figyelmen kívül hagyása az első megnyomás utáni alapértelmezett ideig"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Időzítés: 0,5 másodperc"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Az ismétlődő gombnyomások figyelmen kívül hagyási időtartamának beállítása 0,5 másodpercre"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Időzítés: 1 másodperc"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Az ismétlődő gombnyomások figyelmen kívül hagyási időtartamának beállítása 1 másodpercre"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Időzítés: 2 másodperc"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Az ismétlődő gombnyomások figyelmen kívül hagyási időtartamának beállítása 2 másodpercre"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Színjavítás"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Színjavítás használata"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Színmód"</string>
@@ -718,6 +738,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Beállíthatja, hogy mennyi ideig legyenek láthatók azok az ideiglenes üzenetek, amelyek művelet végrehajtására kérik"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Időzítés: 2–3 másodperc"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"A képernyőn megjelenő műveletekre való reagáláshoz szükséges alapértelmezett időtartam beállítása (2–3 másodperc)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Billentyűismétlés késleltetése"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Beállíthatja, hogy mekkora késleltetés után jelenjenek meg az ismétlődő karakterek egy billentyű lenyomva tartásakor"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"A billentyűismétlés előtti késleltetés beállítása"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Billentyűismétlés"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Ismétlés előtti késleltetés"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Testreszabhatja, hogy mennyi ideig kell nyomva tartani a gombot, mielőtt az ismétlés elindul"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Testreszabhatja a gomb lenyomásának időtartamát, amely után az ismétlés elindul"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Ismétlési sebesség"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Beállíthatja, hogy milyen gyorsan legyenek beírva az ismétlődő karakterek egy billentyű lenyomva tartásakor"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Alapértelmezett"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Beállíthatja, hogy a gomb milyen gyorsan ismétlődjön a kezdeti késleltetés után"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Feliratok"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Mentett feliratok szövegrétegének beállítása videóknál"</string>
     <string name="captions_display" msgid="2598662495450633375">"Megjelenítés"</string>

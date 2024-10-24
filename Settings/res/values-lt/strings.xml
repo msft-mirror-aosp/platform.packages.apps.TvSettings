@@ -92,6 +92,14 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Nuskaitymas leidžiamas visada"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Leisti „Google“ vietovių paslaugai ir kitoms programoms nuskaityti tinklus, net kai „Wi-Fi“ išjungtas"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Nuskaitymas leidžiamas visada: „Google“ vietovių paslaugai ir kitoms programoms leidžiama nuskaityti tinklus, net kai „Wi-Fi“ išjungtas"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"„Thread“ tinklas"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Naudojant „Thread“ tinklą, vietinėje sistemoje sujungiami išmaniųjų namų įrenginiai, kuriuose įgalintas „Thread“ tinklas, padidinant efektyvumą ir našumą.\n\nĮjungus šis įrenginys sukurs „Thread“ tinklą arba prisijungs prie jo. Prisijungimo duomenys bus privačiai įkelti debesyje, kad būtų lengviau nustatyti būsimus išmaniųjų namų įrenginius.\n\nIšjungus šis įrenginys nebegalės užmegzti ryšio su kitais įrenginiais „Thread“ tinkle. Tam tikri išmaniųjų namų įrenginiai ir paslaugos gali neveikti, kaip numatyta.\n\nSužinokite daugiau adresu g.co/tv/thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"Išjungti „Thread“ tinklą?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"Išjungus tam tikri išmaniųjų namų įrenginiai ir paslaugos gali neveikti, kaip numatyta. Ar norite tęsti?"</string>
+    <string name="wifi_settings_thread_network_energy_title" msgid="1975654727631313381">"Įjungti „Thread“ tinklą?"</string>
+    <string name="wifi_settings_thread_network_energy_message" msgid="6579289433006123263">"„Thread“ tinklui reikalingas daugiau energijos vartojantis režimas. Pirmiausia pakeiskite energijos vartojimo režimą į „Padidintas“, tada grįžkite ir įjunkite „Thread“ tinklą."</string>
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"Išjungti"</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode" msgid="6535896653472709387">"Keisti energijos režimą"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Prisijunkite prie tinklo"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Tinklo diagnostika"</string>
@@ -690,6 +698,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Didelio kontrasto tekstas"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Pusjuodis tekstas"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Peradresavimo klavišai"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Pasirinkite pageidaujamą laiką"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Nuotolinio valdymo pultas nepaiso pasikartojančių klavišų paspaudimų"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Nepaisykite atsitiktinių greitų, pasikartojančių mygtuko paspaudimų. Galite koreguoti laiko intervalą, per kurį nepaisoma paspaudimų"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Laikas: numatytasis"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Nepaisyti pasikartojančių paspaudimų pagal numatytąjį intervalą po pirmojo paspaudimo"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Laikas: 0,5 sekundės"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Koreguokite laiko intervalą iki 0,5 sekundės, per kurį nepaisoma pasikartojančių klavišų paspaudimų"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Laikas: 1 sekundė"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Koreguokite laiko intervalą iki vienos sekundės, per kurį nepaisoma pasikartojančių klavišų paspaudimų"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Laikas: 2 sekundės"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Koreguokite laiko intervalą iki dviejų sekundžių, per kurį nepaisoma pasikartojančių klavišų paspaudimų"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Spalvų taisymas"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Naudoti spalvų taisymą"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Spalvos režimas"</string>
@@ -718,6 +738,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Pasirinkite, kiek laiko rodyti laikinus pranešimus, kuriuose prašoma atlikti veiksmus"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Laikas : dvi–trys sekundės"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Nust. numat. laikas, per kurį reikia reag. į ekr. atl. veiksm. (2–3 sek.)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Klavišo kartojimo delsa"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Konfigūruokite delsą, po kurios simboliai kartojami, kai klavišas laikomas paspaustas"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Koreguokite delsą, po kurios vykdomas klavišų kartojimas"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Klavišų kartojimas"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Atidėti iki pakartojimo"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Tinkinkite, kiek laiko galite laikyti mygtuką, kol veiksmas pradedamas kartoti"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Tinkinti mygtuko palaikymo trukmę, po kurios veiksmas pradedamas kartoti"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Kartojimo dažnis"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Nustatykite, kaip greitai kartojami simboliai įvedami, kai klavišas laikomas paspaustas"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Numatytasis"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Valdykite, kaip greitai mygtuko veiksmas kartojamas po pradinės delsos"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Subtitrai"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Subtitrų teksto perdangos vaizdo įrašuose nustatymai"</string>
     <string name="captions_display" msgid="2598662495450633375">"Pateiktis"</string>

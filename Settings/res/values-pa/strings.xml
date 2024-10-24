@@ -92,6 +92,17 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"ਸਕੈਨਿੰਗ ਹਮੇਸ਼ਾਂ ਉਪਲਬਧ"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Google ਦੀ ਟਿਕਾਣਾ ਸੇਵਾ ਅਤੇ ਹੋਰ ਐਪਾਂ ਨੂੰ ਨੈੱਟਵਰਕਾਂ ਲਈ ਸਕੈਨ ਕਰਨ ਦਿਓ, ਭਾਵੇਂ ਵਾਈ-ਫਾਈ ਬੰਦ ਹੀ ਹੋਵੇ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ਸਕੈਨਿੰਗ ਹਮੇਸ਼ਾਂ ਉਪਲਬਧ, Google ਦੀ ਟਿਕਾਣਾ ਸੇਵਾ ਅਤੇ ਹੋਰ ਐਪਾਂ ਨੂੰ ਨੈੱਟਵਰਕਾਂ ਲਈ ਸਕੈਨ ਕਰਨ ਦਿਓ, ਓਦੋਂ ਵੀ ਜਦੋਂ ਵਾਈ-ਫਾਈ ਬੰਦ ਹੋਵੇ"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Thread ਨੈੱਟਵਰਕ"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Thread ਨੈੱਟਵਰਕ ਸਮਰੱਥਾ ਅਤੇ ਕਾਰਗੁਜ਼ਾਰੀ ਨੂੰ ਵਧਾਉਂਦੇ ਹੋਏ, Thread-ਸਮਰਥਿਤ ਸਮਾਰਟ ਹੋਮ ਡੀਵਾਈਸਾਂ ਨੂੰ ਸਥਾਨਕ ਤੌਰ \'ਤੇ ਕਨੈਕਟ ਕਰਦਾ ਹੈ।\n\nਚਾਲੂ ਕਰਨ \'ਤੇ, ਇਹ ਡੀਵਾਈਸ ਤੁਹਾਡੇ Thread ਨੈੱਟਵਰਕ ਨੂੰ ਬਣਾਏਗਾ ਜਾਂ ਉਸ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੇਗਾ। ਤੁਹਾਡੇ ਭਵਿੱਖੀ ਸਮਾਰਟ ਹੋਮ ਡੀਵਾਈਸਾਂ ਦੇ ਆਸਾਨ ਸੈੱਟਅੱਪ ਲਈ, ਕ੍ਰੀਡੈਂਸ਼ੀਅਲਾਂ ਨੂੰ ਨਿੱਜੀ ਤੌਰ \'ਤੇ ਕਲਾਊਡ \'ਤੇ ਅੱਪਲੋਡ ਕੀਤਾ ਜਾਵੇਗਾ।\n\nਬੰਦ ਕਰਨ \'ਤੇ, ਇਹ ਡੀਵਾਈਸ ਤੁਹਾਡੇ Thread ਨੈੱਟਵਰਕ \'ਤੇ ਹੋਰ ਡੀਵਾਈਸਾਂ ਨਾਲ ਸੰਚਾਰ ਨਹੀਂ ਕਰ ਸਕੇਗਾ। ਕੁਝ ਸਮਾਰਟ ਹੋਮ ਡੀਵਾਈਸ ਅਤੇ ਸੇਵਾਵਾਂ ਸ਼ਾਇਦ ਉਮੀਦ ਮੁਤਾਬਕ ਕੰਮ ਨਾ ਕਰਨ।\n\ng.co/tv/thread \'ਤੇ ਹੋਰ ਜਾਣੋ"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"ਕੀ Thread ਨੈੱਟਵਰਕ ਨੂੰ ਬੰਦ ਕਰਨਾ ਹੈ?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"ਬੰਦ ਹੋਣ \'ਤੇ, ਕੁਝ ਸਮਾਰਟ ਹੋਮ ਡੀਵਾਈਸ ਅਤੇ ਸੇਵਾਵਾਂ ਸ਼ਾਇਦ ਉਮੀਦ ਮੁਤਾਬਕ ਕੰਮ ਨਾ ਕਰਨ। ਕੀ ਤੁਸੀਂ ਜਾਰੀ ਰੱਖਣਾ ਚਾਹੁੰਦੇ ਹੋ?"</string>
+    <!-- no translation found for wifi_settings_thread_network_energy_title (1975654727631313381) -->
+    <skip />
+    <!-- no translation found for wifi_settings_thread_network_energy_message (6579289433006123263) -->
+    <skip />
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"ਬੰਦ ਕਰੋ"</string>
+    <!-- no translation found for wifi_settings_thread_network_button_change_energy_mode (6535896653472709387) -->
+    <skip />
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"ਵਾਈ-ਫਾਈ"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕਰੋ"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"ਨੈੱਟਵਰਕ ਤਸ਼ਖੀਸ"</string>
@@ -690,6 +701,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ਉੱਚ ਕੰਟ੍ਰਾਸਟ ਲਿਖਤ"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"ਬੋਲਡ ਲਿਖਤ"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"ਬਾਊਂਸ ਕੁੰਜੀਆਂ"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"ਤਰਜੀਹੀ ਟਾਈਮਿੰਗ ਚੁਣੋ"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"ਰਿਮੋਟ, ਕੁੰਜੀ ਨੂੰ ਵਾਰ-ਵਾਰ ਦਬਾਉਣ ਦੀ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਅਣਡਿੱਠ ਕਰਦਾ ਹੈ"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"ਅਣਜਾਣੇ ਵਿੱਚ ਤੇਜ਼ੀ ਨਾਲ ਅਤੇ ਵਾਰ-ਵਾਰ ਬਟਨ ਦੱਬਣ ਦੀਆਂ ਕਾਰਵਾਈਆਂ ਨੂੰ ਅਣਡਿੱਠ ਕਰੋ। ਤੁਹਾਡੇ ਕੋਲ ਉਸ ਸਮਾਂ ਮਿਆਦ ਨੂੰ ਵਿਵਸਥਿਤ ਕਰਨ ਦਾ ਵਿਕਲਪ ਹੈ ਜਿਸ ਦੌਰਾਨ ਬਟਨ ਦਬਾਉਣ \'ਤੇ ਕੋਈ ਕਾਰਵਾਈ ਨਹੀਂ ਹੁੰਦੀ"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"ਟਾਈਮਿੰਗ : ਪੂਰਵ-ਨਿਰਧਾਰਿਤ"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"ਪਹਿਲੀ ਵਾਰ ਬਟਨ ਦਬਾਉਣ ਤੋਂ ਬਾਅਦ, ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਅੰਤਰਾਲ ਲਈ ਵਾਰ-ਵਾਰ ਦਬਾਉਣ ਦੀ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਅਣਡਿੱਠ ਕਰੋ"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"ਟਾਈਮਿੰਗ : 0.5 ਸਕਿੰਟ"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"ਟਾਈਮਿੰਗ ਅੰਤਰਾਲ ਨੂੰ 0.5 ਸਕਿੰਟ \'ਤੇ ਵਿਵਸਥਿਤ ਕਰੋ, ਤਾਂ ਕਿ ਕੁੰਜੀ ਨੂੰ ਵਾਰ-ਵਾਰ ਦਬਾਉਣ \'ਤੇ ਉਸਨੂੰ ਅਣਡਿੱਠ ਕੀਤਾ ਜਾ ਸਕੇ"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"ਟਾਈਮਿੰਗ : 1 ਸਕਿੰਟ"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"ਟਾਈਮਿੰਗ ਅੰਤਰਾਲ ਨੂੰ 1 ਸਕਿੰਟ \'ਤੇ ਵਿਵਸਥਿਤ ਕਰੋ, ਤਾਂ ਕਿ ਕੁੰਜੀ ਨੂੰ ਵਾਰ-ਵਾਰ ਦਬਾਉਣ \'ਤੇ ਉਸਨੂੰ ਅਣਡਿੱਠ ਕੀਤਾ ਜਾ ਸਕੇ"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"ਟਾਈਮਿੰਗ : 2 ਸਕਿੰਟ"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"ਟਾਈਮਿੰਗ ਅੰਤਰਾਲ ਨੂੰ 2 ਸਕਿੰਟ \'ਤੇ ਵਿਵਸਥਿਤ ਕਰੋ, ਤਾਂ ਕਿ ਕੁੰਜੀ ਨੂੰ ਵਾਰ-ਵਾਰ ਦਬਾਉਣ \'ਤੇ ਉਸਨੂੰ ਅਣਡਿੱਠ ਕੀਤਾ ਜਾ ਸਕੇ"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"ਰੰਗ ਸੁਧਾਈ"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"ਰੰਗ ਸੁਧਾਈ ਵਰਤੋ"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"ਰੰਗ ਵਾਲਾ ਮੋਡ"</string>
@@ -718,6 +741,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"ਚੁਣੋ ਕਿ ਤੁਹਾਨੂੰ ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਕਹਿਣ ਵਾਲੇ ਅਸਥਾਈ ਸੁਨੇਹਿਆਂ ਨੂੰ ਕਿੰਨੀ ਦੇਰ ਤੱਕ ਦਿਖਾਉਣਾ ਹੈ"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"ਸਮਾਂ : 2–3 ਸਕਿੰਟ"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"ਇਸ ਨਾਲ ਸਕ੍ਰੀਨ ਕਾਰਵਾਈਆਂ ਦਾ ਜਵਾਬ ਦੇਣ ਲਈ ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਸਮਾਂ ਸੈੱਟ ਹੁੰਦਾ ਹੈ (2–3 ਸਕਿੰਟ)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"ਕੁੰਜੀ ਦੁਹਰਾਉਣ ਵਿਚਾਲੇ ਲੱਗਣ ਵਾਲਾ ਸਮਾਂ"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"ਇਸ ਚੀਜ਼ ਦਾ ਸੰਰੂਪਣ ਕਰੋ ਕਿ ਕੀ-ਬੋਰਡ ਦੇ ਕਿਸੇ ਬਟਨ ਨੂੰ ਦਬਾ ਕੇ ਰੱਖਣ \'ਤੇ, ਉਸਦੇ ਅੱਖਰ-ਚਿੰਨ੍ਹ ਨੂੰ ਦੁਹਰਾਉਣ ਵਿੱਚ ਕਿੰਨਾ ਸਮਾਂ ਲੱਗੇਗਾ"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"ਕੀ-ਬੋਰਡ ਦੇ ਅੱਖਰ-ਚਿੰਨ੍ਹ ਨੂੰ ਦੁਹਰਾਉਣ ਵਿੱਚ ਲੱਗਣ ਵਾਲੇ ਸਮੇਂ ਨੂੰ ਵਿਵਸਥਿਤ ਕਰੋ"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"ਕੁੰਜੀ ਦੁਹਰਾਉਣਾ"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"ਦੁਹਰਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਦੇਰੀ"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"ਕਿਸੇ ਬਟਨ ਨੂੰ ਦਬਾ ਕੇ ਰੱਖਣ ਦੇ ਉਸ ਸਮੇਂ ਨੂੰ ਵਿਉਂਤਬੱਧ ਕਰੋ ਜਿਸ ਦੌਰਾਨ ਬਟਨ ਨੂੰ ਦਬਾਉਣ \'ਤੇ ਉਹ ਅੱਖਰ-ਚਿੰਨ੍ਹ ਨੂੰ ਦੁਹਰਾਉਣਾ ਸ਼ੁਰੂ ਕਰ ਦਿੰਦਾ ਹੈ"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"ਬਟਨ ਨੂੰ ਦਬਾ ਕੇ ਰੱਖਣ ਦੀ ਉਸ ਮਿਆਦ ਨੂੰ ਵਿਉਂਤਬੱਧ ਕਰੋ ਜਿਸ ਦੌਰਾਨ ਬਟਨ ਨੂੰ ਦਬਾਉਣ \'ਤੇ ਉਹ ਅੱਖਰ-ਚਿੰਨ੍ਹ ਦੁਹਰਾਇਆ ਜਾਵੇਗਾ"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"ਦੁਹਰਾਉਣ ਦੀ ਦਰ"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"ਦੇਖੋ ਕਿ ਕਿਸੇ ਬਟਨ ਨੂੰ ਦਬਾ ਕੇ ਰੱਖਣ ਨਾਲ, ਉਸਦੇ ਅੱਖਰ-ਚਿੰਨ੍ਹ ਨੂੰ ਕਿੰਨੀ ਤੇਜ਼ੀ ਨਾਲ ਦੁਹਰਾਇਆ ਜਾ ਸਕਦਾ ਹੈ"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"ਪੂਰਵ-ਨਿਰਧਾਰਿਤ"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"ਇਸ ਚੀਜ਼ ਨੂੰ ਕੰਟਰੋਲ ਕਰੋ ਕਿ ਸ਼ੁਰੂਆਤੀ ਦੇਰੀ ਤੋਂ ਬਾਅਦ ਬਟਨ ਕਿੰਨੀ ਜਲਦੀ ਅੱਖਰ-ਚਿੰਨ੍ਹ ਨੂੰ ਦੁਹਰਾਉਂਦਾ ਹੈ"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"ਸੁਰਖੀਆਂ"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ਵੀਡੀਓ ਫ਼ਾਈਲ \'ਤੇ ਬੰਦ ਸੁਰਖੀਆਂ ਦੇਣ ਵਾਲੇ ਟੈਕਸਟ ਓਵਰਲੇ ਲਈ ਸੈਟਿੰਗਾਂ"</string>
     <string name="captions_display" msgid="2598662495450633375">"ਡਿਸਪਲੇ"</string>

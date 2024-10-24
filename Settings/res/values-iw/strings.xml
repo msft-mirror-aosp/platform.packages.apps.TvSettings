@@ -92,11 +92,22 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"סריקה זמינה תמיד"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"הענקת רשות לשירות המיקום של Google ולאפליקציות אחרות לסרוק על מנת למצוא רשתות, גם כשה-Wi-Fi כבוי"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"סריקה זמינה תמיד, הענקת רשות לשירות המיקום של Google ולאפליקציות אחרות לסרוק כדי למצוא רשתות, גם כשה-Wi-Fi כבוי"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"רשת של פרוטוקול Thread"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"הרשת של פרוטוקול Thread מתחברת באופן מקומי למכשירים לבית חכם שפועלים עם פרוטוקול Thread כדי לשפר את היעילות והביצועים.\n\nכשהרשת מופעלת, המכשיר ייצור רשת של פרוטוקול Thread או יצטרף לרשת הקיימת שלך. פרטי הכניסה יועלו באופן פרטי לענן כדי להגדיר בקלות את המכשירים העתידיים לבית החכם.\n\nכשהרשת מושבתת, המכשיר כבר לא יוכל לתקשר עם מכשירים אחרים ברשת של פרוטוקול Thread. יכול להיות שמכשירים ושירותים מסוימים לבית חכם לא יפעלו כצפוי.\n\nמידע נוסף זמין בכתובת g.co/tv/thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"להשבית את הרשת של פרוטוקול Thread?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"כשהרשת מושבתת, יכול להיות שמכשירים ושירותים מסוימים לבית חכם לא יפעלו כצפוי. להמשיך?"</string>
+    <!-- no translation found for wifi_settings_thread_network_energy_title (1975654727631313381) -->
+    <skip />
+    <!-- no translation found for wifi_settings_thread_network_energy_message (6579289433006123263) -->
+    <skip />
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"השבתה"</string>
+    <!-- no translation found for wifi_settings_thread_network_button_change_energy_mode (6535896653472709387) -->
+    <skip />
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"התחברות לרשת"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"אבחון רשת"</string>
     <string name="apps_recently_used_category_title" msgid="7877660412428813933">"אפליקציות שנפתחו לאחרונה"</string>
-    <string name="apps_see_all_apps" msgid="2002886135933443688">"הצגת כל האפליקציות"</string>
+    <string name="apps_see_all_apps" msgid="2002886135933443688">"צפייה בכל האפליקציות"</string>
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"הרשאות"</string>
     <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
     <string name="update_slice_title" msgid="6553763903108611747"></string>
@@ -690,6 +701,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"טקסט עם ניגודיות גבוהה"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"טקסט מודגש"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"מקשים חוזרים"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"בחירת התזמון המועדף"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"השלט הרחוק מתעלם מלחיצות חוזרות על מקשים"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"התעלמות מלחיצות חוזרות ומהירות שנעשו בטעות. אפשר לשנות את מרווח הזמן שבמהלכו השלט הרחוק יתעלם מהלחיצות."</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"תזמון: ברירת מחדל"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"התעלמות מלחיצות חוזרות אחרי הלחיצה הראשונית למשך מרווח הזמן שמוגדר כברירת מחדל"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"תזמון: חצי שנייה"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"שינוי של מרווח הזמן לחצי שנייה שבמהלכה השלט יתעלם מלחיצות חוזרות על מקשים"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"תזמון: שנייה אחת"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"שינוי של מרווח הזמן לשנייה אחת שבמהלכה השלט יתעלם מלחיצות חוזרות על מקשים"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"תזמון: 2 שניות"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"שינוי של מרווח הזמן ל-2 שניות שבמהלכן השלט יתעלם מלחיצות חוזרות על מקשים"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"תיקון צבע"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"שימוש בתיקון צבע"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"מצב הצבעים"</string>
@@ -718,6 +741,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"בוחרים את משך הזמן שבו יוצגו הודעות זמניות עם בקשה לביצוע פעולה"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"תזמון : 2-3 שניות"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"הגדרת משך הזמן הראשוני לתגובה לפעולות במסך (2-3 שניות)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"השהיה לפני החזרה על מקש"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"הגדרת משך ההשהיה מתחילת הלחיצה הארוכה על מקש ועד שיופיעו תווים חוזרים"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"כוונון ההשהיה לפני החזרה על המקש"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"חזרה על מקש"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"השהיה לפני חזרה"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"התאמה אישית של משך הזמן שבו אפשר ללחוץ על לחצן לפני שהוא יתחיל לחזור על עצמו"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"התאמה אישית של משך הזמן שבו לוחצים לחיצה ארוכה על לחצן כדי שהוא יתחיל לחזור על עצמו"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"קצב החזרה"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"הגדרת קצב החזרה על תווים שמוזנים במהלך לחיצה ארוכה על מקש"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"ברירת המחדל"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"שליטה בקצב החזרה על לחצן בסיום ההשהיה הראשונית"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"כתוביות"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"הגדרות עבור שכבת-על של טקסט כתוביות בסרטון"</string>
     <string name="captions_display" msgid="2598662495450633375">"תצוגה"</string>

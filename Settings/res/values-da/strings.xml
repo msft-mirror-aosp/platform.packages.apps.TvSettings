@@ -92,6 +92,17 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Scanning altid tilgængelig"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Lad Googles lokationstjeneste og andre apps scanne efter netværk, selv når Wi-Fi er slået fra"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Scanning altid tilgængelig, lad Googles lokationstjeneste og andre apps scanne efter netværk, selv når Wi-Fi er slået fra"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Thread-netværk"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Thread-netværket forbinder Thread-kompatible smartenheder i hjemmet lokalt, hvilket øger effektiviteten og ydeevnen.\n\nNår det er aktiveret, forbindes eller føjes din enhed til Thread-netværket. Loginoplysninger uploades privat til skyen, så dine fremtidige smartenheder til hjemmet nemmere kan konfigureres.\n\nNår det er deaktiveret, kan denne enhed ikke længere kommunikere med andre enheder på dit Thread-netværk. Visse tjenester og smartenheder til hjemmet fungerer muligvis ikke efter hensigten.\n\nFå flere oplysninger på g.co/tv/thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"Vil du deaktivere Thread-netværket?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"Hvis du deaktiverer det, vil visse tjenester og smartenheder til hjemmet muligvis ikke fungere efter hensigten. Vil du fortsætte?"</string>
+    <!-- no translation found for wifi_settings_thread_network_energy_title (1975654727631313381) -->
+    <skip />
+    <!-- no translation found for wifi_settings_thread_network_energy_message (6579289433006123263) -->
+    <skip />
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"Deaktiver"</string>
+    <!-- no translation found for wifi_settings_thread_network_button_change_energy_mode (6535896653472709387) -->
+    <skip />
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Opret forbindelse til netværk"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Netværksdiagnostik"</string>
@@ -395,7 +406,7 @@
     <string name="device_status" msgid="8266002761193692207">"Status"</string>
     <string name="device_status_summary" msgid="3270932829412434985">"Netværk, serienumre og andre oplysninger"</string>
     <string name="manual" msgid="5683935624321864999">"Brugervejledning"</string>
-    <string name="regulatory_information" msgid="9107675969694713391">"Oplysninger om lovgivning"</string>
+    <string name="regulatory_information" msgid="9107675969694713391">"Regulatoriske oplysninger"</string>
     <string name="device_feedback" msgid="4871903271442960465">"Send feedback om denne enhed"</string>
     <string name="oem_unlock_enable_disabled_summary_bootloader_unlocked" msgid="4641790432171693921">"Bootloaderen er allerede låst op"</string>
     <string name="oem_unlock_enable_disabled_summary_connectivity" msgid="2979556699380115576">"Du skal først oprette forbindelse til internettet"</string>
@@ -690,6 +701,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Tekst med høj kontrast"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Fed tekst"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Elastiktaster"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Vælg foretrukket tidsinterval"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Fjernbetjeningen ignorerer gentagne tastetryk"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Ignorer utilsigtede, hurtige og gentagne tryk på knapper. Du kan justere det tidsinterval, inden for hvilket tryk ignoreres"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Tidsinterval: Standard"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Ignorer gentagne tryk i standardintervallet efter det første tryk"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Tidsinterval: 0,5 sekunder"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Juster tidsintervallet for ignorering af tastetryk til 0,5 sekunder"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Tidsinterval: 1 sekund"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Juster tidsintervallet for ignorering af tastetryk til 1 sekund"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Tidsinterval: 2 sekunder"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Juster tidsintervallet for ignorering af tastetryk til 2 sekunder"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Farvekorrigering"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Brug farvekorrigering"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Farvetilstand"</string>
@@ -718,6 +741,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Vælg, hvor længe der skal vises midlertidige meddelelser, som beder dig om at foretage en handling"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Tidsindstilling: 2-3 sekunder"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Angiver standardventetid for reaktion på skærmhandlinger (2-3 sekunder)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Forsinkelse ved tastegentagelse"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Konfigurer forsinkelsen, inden gentagne tegn vises, når du holder fingeren på en tast"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Juster forsinkelsen inden tastegentagelse"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Tastegentagelse"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Forsinkelse før gentagelse"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Tilpas, hvor længe du kan holde fingeren på en knap, før den gentages"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Tilpas varigheden af, hvor længe du skal holde fingeren på en knap, før den gentages"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Gentagelseshastighed"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Angiv, hvor hurtigt gentagne tegn indtastes, når du holder fingeren på en tast"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Standard"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Styr, hvor hurtigt knappen gentages efter den indledende forsinkelse"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Undertekster"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Indstillinger for tekstoverlejring af undertekster på video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Vis undertekster"</string>

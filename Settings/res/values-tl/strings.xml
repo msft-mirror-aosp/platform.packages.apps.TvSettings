@@ -92,6 +92,14 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Palaging available ang pag-scan"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Payagan ang serbisyo ng lokasyon ng Google at iba pang app na mag-scan ng mga network kahit na naka-off ang Wi-Fi"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Palaging available ang pag-scan, Payagan ang serbisyo ng lokasyon ng Google at iba pang app na mag-scan ng mga network, kahit na naka-off ang Wi-Fi"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Thread network"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Lokal na kinokonekta ng Thread network ang mga Thread-enabled na device para sa smart na tahanan para mapahusay ang efficiency at performance.\n\nKapag naka-on, gagawin o sasalihan ng device na ito ang iyong Thread network. Pribadong ia-upload sa cloud ang mga kredensyal para sa mas madaling pag-set up ng mga device mo para sa smart na tahanan sa hinaharap.\n\nKapag naka-off, hindi na magagawang makipag-ugnayan ng device na ito sa iba pang device na nasa Thread network mo. Posibleng hindi gumana gaya ng inaasahan ang ilang partikular na device at serbisyo para sa smart na tahanan.\n\nMatuto pa sa g.co/tv/thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"I-off ang Thread Network?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"Kung io-off, posibleng hindi gumana gaya ng inaasahan ang ilang partikular na device at serbisyo para sa smart na tahanan. Gusto mo bang magpatuloy?"</string>
+    <string name="wifi_settings_thread_network_energy_title" msgid="1975654727631313381">"I-on ang Thread Network?"</string>
+    <string name="wifi_settings_thread_network_energy_message" msgid="6579289433006123263">"Kinakailangan ng Thread network na Mas Mataas ang energy mode. Baguhin muna ang energy mode sa Mas Mataas, at bumalik para i-on ang Thread network."</string>
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"I-off"</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode" msgid="6535896653472709387">"Baguhin ang energy mode"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Kumonekta sa network"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Diagnostics ng network"</string>
@@ -690,6 +698,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Text na high contrast"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Bold text"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Mga bounce key"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Pumili ng gustong timing"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Binabalewala ng remote ang paulit-ulit na pagpindot sa key"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Balewalain ang hindi sinasadyang mabilis at paulit-ulit na pagpindot sa button. Puwede mong i-adjust ang agwat ng oras kung saan binabalewala ang mga pagpindot"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Timing : Default"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Balewalain ang mga paulit-ulit na pagpindot para sa default na agwat pagkatapos ng unang pagpindot"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Timing : 0.5 segundo"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"I-adjust ang agwat ng timing sa 0.5 segundo kung saan binabalewala ang paulit-ulit na pagpindot sa key"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Timing : 1 segundo"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"I-adjust ang agwat ng timing sa 1 segundo kung saan binabalewala ang mga paulit-ulit na pagpindot sa key"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Timing : 2 segundo"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"I-adjust ang agwat ng timing sa 2 segundo kung saan binabalewala ang paulit-ulit na pagpindot sa key"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Pagtatama ng kulay"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Gumamit ng pagtatama ng kulay"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Color Mode"</string>
@@ -718,6 +738,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Piliin kung gaano katagal ipapakita ang mga pansamantalang mensaheng humihiling na umaksyon ka"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Timing : 2–3 segundo"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Default na tagal ng pagtugon on-screen (2–3 seg)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Pagkaantala ng pag-uulit ng key"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"I-configure ang pagkaantala bago lumabas ang mga umuulit na character kapag pinipindot nang matagal ang isang key"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"I-adjust ang pagkaantala bago umulit ang key"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Pag-uulit ng key"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Pagkaantala bago umulit"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"I-customize kung gaano mo katagal puwedeng i-hold ang isang button bago ito magsimulang umulit"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"I-customize ang tagal ng pag-hold sa button bago ito magsimulang umulit"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Rate ng pag-uulit"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Itakda kung gaano kabilis maglalagay ng mga umuulit na character kapag pinipindot nang matagal ang isang key"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Default"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Kontrolin kung gaano kabilis uulit ang button pagkatapos ng paunang pagkaantala"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Mga Caption"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Mga setting para sa text overlay para sa paglalagay ng mga nakasarang caption sa video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Display"</string>

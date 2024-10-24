@@ -92,6 +92,14 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"स्क्यानिङ सधै उपलब्ध छ"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi अफ हुँदा पनि Google को लोकेसन सर्भिस र अन्य एपहरूलाई नेटवर्क खोज्न दिनुहोस्"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"नेटवर्क खोज्ने सुविधा सधैँ उपलब्ध हुन्छ, Google को लोकेसन सर्भिस र अन्य एपहरूलाई Wi-Fi नेटवर्क खोज्न दिनुहोस्। ती सेवाले Wi-Fi अफ भएका बेलामा पनि नेटवर्क खोज्न सक्छन्"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"थ्रेड नेटवर्क"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"थ्रेड अन गरिएका स्मार्ट होम डिभाइसहरूको प्रभावकारिता र पर्फर्मेन्स बढाउने प्रयोजनका लागि थ्रेड नेटवर्कले ती डिभाइसहरू स्थानीय रूपमा कनेक्ट गर्छ।\n\nथ्रेड नेटवर्क अन गरिएका बेला यो डिभाइसले थ्रेड नेटवर्क बनाउने छ वा यो डिभाइस तपाईंको थ्रेड नेटवर्कमा सामेल हुने छ। तपाईं भविष्यमा आफ्ना स्मार्ट होम डिभाइसहरू सजिलै सेटअप गर्न सक्नुहोस् भन्नाका लागि क्रिडेन्सियलहरू क्लाउडमा गोप्य रूपमा अपलोड गरिने छन्।\n\nथ्रेड नेटवर्क अफ गरिएका बेला यो डिभाइसले तपाईंको थ्रेड नेटवर्कमा सामेल भएका अन्य डिभाइससँग कनेक्ट गर्न सक्ने छैन। निश्चित स्मार्ट होम डिभाइस र सेवाहरूले अपेक्षा गरेअनुसार काम नगर्न सक्छन्।\n\ng.co/tv/thread मा गई थप जान्नुहोस्"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"थ्रेड नेटवर्क अफ गर्ने हो?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"थ्रेड नेटवर्क अफ गरिएका खण्डमा निश्चित स्मार्ट होम डिभाइस र सेवाहरूले अपेक्षा गरेअनुसार काम नगर्न सक्छन्। तपाईं अघि बढ्न चाहनुहुन्छ?"</string>
+    <string name="wifi_settings_thread_network_energy_title" msgid="1975654727631313381">"थ्रेड नेटवर्क अन गर्ने हो?"</string>
+    <string name="wifi_settings_thread_network_energy_message" msgid="6579289433006123263">"थ्रेड नेटवर्क प्रयोग गर्ने बढी ऊर्जा खपत गर्ने मोड चाहिन्छ। ऊर्जा खपत गर्ने मोड बदलेर बढी ऊर्जा खपत गर्ने मोड बनाउनुहोस् अनि थ्रेड नेटवर्क अन गर्न फिर्ता आउनुहोस्।"</string>
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"अफ गर्नुहोस्"</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode" msgid="6535896653472709387">"ऊर्जा खपत गर्ने मोड परिवर्तन गर्नुहोस्"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"नेटवर्कमा कनेक्ट गर्नुहोस्"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"नेटवर्कका निदानहरू"</string>
@@ -291,7 +299,7 @@
     <string name="language_empty_list_user_restricted" msgid="5430199913998605436">"तपाईंसँग उक्त यन्त्रको भाषा परिवर्तन गर्ने अनुमति छैन।"</string>
     <string name="system_keyboard" msgid="1514460705385401872">"किबोर्ड"</string>
     <string name="system_keyboard_autofill" msgid="8530944165814838255">"किबोर्ड तथा अटोफिल सेवा"</string>
-    <string name="system_autofill" msgid="6983989261108020046">"स्वतः भरण"</string>
+    <string name="system_autofill" msgid="6983989261108020046">"अटोफिल"</string>
     <string name="system_home" msgid="2149349845791104094">"होम स्क्रिन"</string>
     <string name="system_search" msgid="3170169128257586925">"खोजी गर्नुहोस्"</string>
     <string name="system_google" msgid="945985164023885276">"Google"</string>
@@ -690,6 +698,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"उच्च कन्ट्रास्ट पाठ"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"बोल्ड टेक्स्ट"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"बाउन्स की"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"आफ्नो रोजाइको समय चयन गर्नुहोस्"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"बारम्बार की थिचिएका खण्डमा रिमोटले त्यसलाई वेवास्ता गर्छ"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"भुलवश बारम्बार तीव्र गतिमा बटन थिचिएका खण्डमा उक्त कारबाही वेवास्ता गर्नुहोस्। तपाईं कति समयको अन्तरालमा बटन थिच्दा त्यसलाई वेवास्ता गर्ने भन्ने कुरा समायोजन गर्न सक्नुहुन्छ"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"समय : डिफल्ट"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"एक पटक की थिचेपछि डिफल्ट अवधिसम्म उक्त की फेरि थिचेका खण्डमा त्यसलाई वेवास्ता गर्नुहोस्"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"समय : ०.५ सेकेन्ड"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"कुनै की थिचेको ०.५ सेकेन्डभित्र उक्त की फेरि थिचेका खण्डमा त्यसलाई वेवास्ता गर्नुहोस्"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"समय : १ सेकेन्ड"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"कुनै की थिचेको १ सेकेन्डभित्र उक्त की फेरि थिचेका खण्डमा त्यसलाई वेवास्ता गर्नुहोस्"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"समय : २ सेकेन्ड"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"कुनै की थिचेको २ सेकेन्डभित्र उक्त की फेरि थिचेका खण्डमा त्यसलाई वेवास्ता गर्नुहोस्"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"कलर करेक्सन"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"कलर करेक्सन प्रयोग गर्नुहोस्"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"कलर मोड"</string>
@@ -718,6 +738,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"तपाईंलाई कारबाही गर्न अनुरोध गर्ने अस्थायी म्यासेजहरू कति समयसम्म देखाउने भन्ने कुरा छनौट गर्नुहोस्"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"समय : २–३ सेकेन्ड"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"स्क्रिनमा देखाइएका कारबाहीहरूका सम्बन्धमा प्रतिक्रिया जनाउन लाग्ने डिफल्ट समय (२–३ सेकेन्ड) सेट गर्छ"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"वर्ण दोहोरिन लाग्ने समय"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"वर्ण दोहोरिनुअघि सम्बन्धित कि कति बेरसम्म थिचिराख्न सकिन्छ भन्ने कुरा कन्फिगर गर्नुहोस्"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"वर्ण दोहोरिनुअघि सम्बन्धित कि कति बेरसम्म थिचिराख्न सकिन्छ भन्ने कुराको सेटिङ मिलाउनुहोस्"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"वर्ण दोहोर्‍याउने सुविधा"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"वर्ण दोहोरिनुअघि सम्बन्धित कि कति बेरसम्म थिच्न सकिन्छ"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"कुनै वर्ण दोहोरिनुअघि सम्बन्धित बटन कति बेरसम्म थिच्न सकिन्छ भन्ने कुरा कस्टमाइज गर्नुहोस्"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"कुनै वर्ण दोहोर्‍याउन सम्बन्धित बटन कति बेरसम्म थिच्नु पर्छ भन्ने कुरा कस्टमाइज गर्नुहोस्"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"दोहोरिने दर"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"कुनै कि थिचिराख्दा वर्णहरू कुन गतिमा दोहोरिन्छन् भन्ने कुरा तय गर्नुहोस्"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"डिफल्ट"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"कि थिचिराख्दा सम्बन्धित वर्ण पहिलो पटक दोहोरिएपछि सो वर्ण फेरि दोहोरिन कति समय लाग्छ भन्ने कुरा नियन्त्रण गर्नुहोस्"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"क्याप्सन"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"भिडियोमा मिलेका क्याप्सन पाठ ओभरलेका लागि सेटिङ्"</string>
     <string name="captions_display" msgid="2598662495450633375">"प्रदर्शन गर्नुहोस्"</string>

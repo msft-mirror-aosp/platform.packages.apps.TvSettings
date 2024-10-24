@@ -92,6 +92,14 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"สแกนอยู่เสมอ"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"ให้บริการตำแหน่งของ Google และแอปอื่นๆ สแกนหาเครือข่ายได้ แม้ในขณะที่ Wi-Fi ปิดอยู่"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ใช้การสแกนได้เสมอ ให้บริการตำแหน่งของ Google และแอปอื่นๆ สแกนหาเครือข่ายได้ แม้ในขณะที่ Wi-Fi ปิดอยู่"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"เครือข่าย Thread"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"เครือข่าย Thread จะเชื่อมต่ออุปกรณ์สมาร์ทโฮมที่เปิดใช้งาน Thread เข้าด้วยกันเป็นการภายในเพื่อเพิ่มประสิทธิภาพการทำงาน\n\nเมื่อเปิดไว้ อุปกรณ์นี้จะสร้างหรือเข้าร่วมเครือข่าย Thread ระบบจะอัปโหลดข้อมูลเข้าสู่ระบบแบบเป็นส่วนตัวไปยังระบบคลาวด์เพื่อให้ตั้งค่าอุปกรณ์สมาร์ทโฮมในอนาคตได้ง่ายขึ้น\n\nเมื่อปิดใช้ อุปกรณ์นี้จะสื่อสารกับอุปกรณ์อื่นๆ ในเครือข่าย Thread ไม่ได้อีกต่อไป อุปกรณ์สมาร์ทโฮมและบริการบางอย่างอาจไม่ทำงานตามที่คาดหวัง\n\nดูข้อมูลเพิ่มเติมที่ g.co/tv/thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"ปิดเครือข่าย Thread ใช่ไหม"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"หากปิดไว้ อุปกรณ์สมาร์ทโฮมและบริการบางอย่างอาจไม่ทำงานตามที่คาดหวัง ต้องการดำเนินการต่อไหม"</string>
+    <string name="wifi_settings_thread_network_energy_title" msgid="1975654727631313381">"เปิดเครือข่าย Thread ใช่ไหม"</string>
+    <string name="wifi_settings_thread_network_energy_message" msgid="6579289433006123263">"เครือข่าย Thread ต้องใช้โหมดใช้พลังงาน \"เพิ่มขึ้น\" เปลี่ยนโหมดการใช้พลังงานเป็น \"เพิ่มขึ้น\" ก่อนแล้วจึงกลับมาเปิดเครือข่าย Thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"ปิด"</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode" msgid="6535896653472709387">"เปลี่ยนโหมดพลังงาน"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"เชื่อมต่อกับเครือข่าย"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"การวินิจฉัยเครือข่าย"</string>
@@ -690,6 +698,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ข้อความคอนทราสต์สูง"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"การทำข้อความเป็นตัวหนา"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Bounce Keys"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"เลือกระยะเวลาที่ต้องการ"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"รีโมตไม่สนใจการกดปุ่มซ้ำๆ"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"ไม่สนใจการกดปุ่มที่กดซ้ำๆ เร็วๆ โดยไม่ได้ตั้งใจ คุณสามารถปรับช่วงเวลาได้ว่าจะให้ระบบไม่ต้องสนใจการกดใด"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"ระยะเวลา : ค่าเริ่มต้น"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"ไม่สนใจการกดปุ่มซ้ำๆ สำหรับช่วงเวลาเริ่มต้นหลังจากกดครั้งแรก"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"ระยะเวลา : 0.5 วินาที"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"ปรับระยะห่างของเวลาเป็น 0.5 วินาทีสำหรับการกดปุ่มซ้ำๆ ที่ระบบไม่ต้องสนใจ"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"ระยะเวลา : 1 วินาที"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"ปรับระยะห่างของเวลาเป็น 1 วินาทีสำหรับการกดปุ่มซ้ำๆ ที่ระบบไม่ต้องสนใจ"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"ระยะเวลา : 2 วินาที"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"ปรับระยะห่างของเวลาเป็น 2 วินาทีสำหรับการกดปุ่มซ้ำๆ ที่ระบบไม่ต้องสนใจ"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"การแก้สี"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"ใช้การแก้สี"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"โหมดสี"</string>
@@ -718,6 +738,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"เลือกระยะเวลาแสดงข้อความชั่วคราวที่ขอให้คุณดำเนินการ"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"ระยะเวลา : 2-3 วินาที"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"กำหนดเวลาเริ่มต้นในการตอบสนองต่อการดำเนินการบนหน้าจอ (2-3 วินาที)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"หน่วงเวลาการกดแป้นซ้ำ"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"กำหนดค่าความหน่วงเวลาก่อนที่อักขระซ้ำจะปรากฏขึ้นเมื่อกดแป้นค้างไว้"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"ปรับความหน่วงเวลาก่อนกดแป้นซ้ำ"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"การกดแป้นซ้ำ"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"หน่วงเวลาก่อนพิมพ์ซ้ำ"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"ปรับระยะเวลาที่คุณสามารถกดปุ่มค้างไว้ก่อนที่จะเริ่มพิมพ์ซ้ำ"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"ปรับระยะเวลาในการกดปุ่มค้างไว้ก่อนที่จะเริ่มพิมพ์ซ้ำ"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"อัตราการพิมพ์ซ้ำ"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"กำหนดความเร็วในการป้อนอักขระซ้ำเมื่อกดแป้นค้างไว้"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"ค่าเริ่มต้น"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"ควบคุมความเร็วในการกดปุ่มซ้ำหลังจากการหน่วงเวลาเริ่มต้น"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"คำบรรยายแทนเสียง"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"การตั้งค่าการวางซ้อนข้อความคำบรรยายในวิดีโอ"</string>
     <string name="captions_display" msgid="2598662495450633375">"จอแสดงผล"</string>

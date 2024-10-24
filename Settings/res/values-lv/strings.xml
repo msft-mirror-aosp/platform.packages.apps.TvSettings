@@ -92,6 +92,14 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Meklēšana vienmēr pieejama"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Atļaut Google atrašanās vietas pakalpojumam un citām lietotnēm meklēt tīklus, pat ja Wi-Fi savienojums ir izslēgts"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Meklēšana vienmēr pieejama: atļaujiet Google atrašanās vietas pakalpojumam un citām lietotnēm meklēt tīklus, pat ja Wi-Fi savienojums ir izslēgts."</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Thread tīkls"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Thread tīklā ir lokāli savienotas ar Thread saderīgās mājas viedierīces, tādējādi uzlabojot efektivitāti un veiktspēju.\n\nJa iestatījums būs ieslēgts, šī ierīce izveidos Thread tīklu vai savienojumu ar to. Akreditācijas dati tiks konfidenciāli augšupielādēti mākonī, lai turpmāk atvieglotu mājas viedierīču iestatīšanu.\n\nJa iestatījums būs izslēgts, šī ierīce vairs nevarēs sazināties ar citām ierīcēm jūsu Thread tīklā. Noteiktas mājas viedierīces un pakalpojumi var nedarboties, kā paredzēts.\n\nUzziniet vairāk vietnē g.co/tv/thread."</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"Vai izslēgt Thread tīklu?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"Ja tīkls būs izslēgts, noteiktas mājas viedierīces un pakalpojumi var nedarboties, kā paredzēts. Vai vēlaties turpināt?"</string>
+    <string name="wifi_settings_thread_network_energy_title" msgid="1975654727631313381">"Vai ieslēgt Thread tīklu?"</string>
+    <string name="wifi_settings_thread_network_energy_message" msgid="6579289433006123263">"Lai izmantotu Thread tīklu, ir nepieciešams enerģijas patēriņa režīms “Palielināts”. Vispirms mainiet enerģijas patēriņa režīmu uz “Palielināts” un pēc tam atgriezieties šeit, lai ieslēgtu Thread tīklu."</string>
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"Izslēgt"</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode" msgid="6535896653472709387">"Mainīt enerģijas patēriņa režīmu"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Izveidojiet savienojumu ar tīklu"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Tīkla diagnostika"</string>
@@ -690,6 +698,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Liela kontrasta teksts"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Teksts treknrakstā"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Atlēcienu taustiņi"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Izvēlieties vēlamo laiku"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Tālvadības ierīce ignorē atkārtotu taustiņu nospiešanu"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Ignorē nejaušu ātru, atkārtotu pogas nospiešanu. Varat pielāgot laika intervālu, kurā atkārtota nospiešana tiek ignorēta."</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Laiks: noklusējums"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Noklusējuma laika intervālā ignorē atkārtotu nospiešanu, kas tiek veikta pēc pirmās nospiešanas"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Ilgums: 0,5 sekundes"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Pielāgojiet laika intervālu uz 0,5 sekundēm, pēc kura tiek ignorēta atkārtota taustiņa nospiešana"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Ilgums: 1 sekunde"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Pielāgojiet laika intervālu līdz 1 sekundei, pēc kura tiek ignorēta atkārtota taustiņa nospiešana"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Ilgums: 2 sekundes"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Pielāgojiet laika intervālu līdz 2 sekundēm, pēc kura tiek ignorēta atkārtota taustiņa nospiešana"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Krāsu korekcija"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Izmantot krāsu korekciju"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Krāsu režīms"</string>
@@ -718,6 +738,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Izvēlieties, cik ilgi rādīt īslaicīgus ziņojumus, kuros ir aicinājums uz darbību."</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Ilgums: 2–3 sekundes"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Iestata noklusējuma laiku atbildei uz ekrānā redzamajām darbībām (2–3 s)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Taustiņa atkārtošanas noildze"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Konfigurējiet aizkavi pirms atkārtotu rakstzīmju parādīšanas, kad taustiņš tiek turēts nospiests."</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Pielāgojiet aizkavi pirms taustiņa atkārtošanas."</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Taustiņa atkārtošana"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Aizkave pirms atkārtošanas"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Pielāgojiet laiku, cik ilgi varat turēt pogu, pirms tiek sākta atkārtošana."</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Pielāgojiet laiku, cik ilgi jātur poga, lai sāktu atkārtošanu."</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Atkārtošanas ātrums"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Iestatiet, cik ātri tiek ievadītas atkārtotas rakstzīmes, kad taustiņš tiek turēts nospiests."</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Noklusējums"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Kontrolējiet, cik ātri poga tiek atkārtoti nospiesta pēc sākotnējās aizkaves."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Subtitri"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Videoklipa subtitru teksta pārklājuma iestatījumi"</string>
     <string name="captions_display" msgid="2598662495450633375">"Rādīt"</string>

@@ -24,8 +24,8 @@
     <string name="general_action_no" msgid="674735073031386948">"아니요"</string>
     <string name="action_on_title" msgid="1074972820237738324">"사용"</string>
     <string name="action_off_title" msgid="3598665702863436597">"사용 안함"</string>
-    <string name="action_on_description" msgid="9146557891514835767">"사용"</string>
-    <string name="action_off_description" msgid="1368039592272701910">"사용 안함"</string>
+    <string name="action_on_description" msgid="9146557891514835767">"켜짐"</string>
+    <string name="action_off_description" msgid="1368039592272701910">"꺼짐"</string>
     <string name="agree" msgid="8155497436593889753">"동의"</string>
     <string name="disagree" msgid="7402998517682194430">"동의 안함"</string>
     <string name="enabled" msgid="5127188665060746381">"사용 설정됨"</string>
@@ -92,6 +92,17 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"항상 검색"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi가 꺼져 있을 때에도 Google의 위치 서비스 및 기타 앱이 네트워크를 검색하도록 합니다."</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"네트워크 항상 검색, Wi-Fi가 꺼져 있을 때도 Google의 위치 서비스 및 기타 앱이 네트워크를 검색하도록 허용합니다."</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"스레드 네트워크"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"스레드 네트워크는 스레드 지원 스마트 홈 기기를 로컬에서 연결하여 효율성과 성능을 개선합니다.\n\n사용 설정하면 이 기기에서 스레드 네트워크를 만들거나 스레드 네트워크에 연결합니다. 사용자 인증 정보는 향후 스마트 홈 기기를 쉽게 설정할 수 있도록 클라우드에 비공개로 업로드됩니다.\n\n사용 중지하면 이 기기에서 더 이상 스레드 네트워크의 다른 기기와 통신할 수 없습니다. 특정 스마트 홈 기기 및 서비스는 제대로 작동하지 않을 수도 있습니다.\n\n자세한 내용은 g.co/tv/thread를 참고하세요."</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"스레드 네트워크를 사용 중지하시겠습니까?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"사용 중지하면 특정 스마트 홈 기기 및 서비스가 제대로 작동하지 않을 수 있습니다. 계속하시겠습니까?"</string>
+    <!-- no translation found for wifi_settings_thread_network_energy_title (1975654727631313381) -->
+    <skip />
+    <!-- no translation found for wifi_settings_thread_network_energy_message (6579289433006123263) -->
+    <skip />
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"사용 중지"</string>
+    <!-- no translation found for wifi_settings_thread_network_button_change_energy_mode (6535896653472709387) -->
+    <skip />
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"네트워크에 연결"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"네트워크 진단"</string>
@@ -690,6 +701,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"고대비 텍스트"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"텍스트 굵게 표시"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"바운스 키"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"원하는 시간 선택"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"반복된 키누르기를 무시합니다"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"실수로 버튼을 빠르게 반복적으로 눌렀을 때 이를 무시합니다. 눌렀을 때 무시되는 시간 간격을 조정할 수 있습니다."</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"타이밍: 기본값"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"처음 누른 다음 기본 간격 이후 발생한 반복된 누르기를 무시합니다."</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"타이밍: 0.5초"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"반복 키 입력을 무시하는 타이밍 간격을 0.5초로 조정합니다."</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"타이밍: 1초"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"반복 키 입력을 무시하는 타이밍 간격을 1초로 조정합니다."</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"타이밍: 2초"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"반복 키 입력을 무시하는 타이밍 간격을 2초로 조정합니다."</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"색상 보정"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"색상 보정 사용"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"색상 모드"</string>
@@ -718,6 +741,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"사용자에게 조치를 취하도록 요청하는 메시지가 표시되는 시간을 선택합니다."</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"타이밍: 2~3초"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"화면상의 작업에 응답하는 데 걸리는 기본 시간(2~3초)을 설정합니다."</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"키 반복 지연"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"키를 길게 누를 때 반복 문자가 표시되기까지의 지연 시간을 구성합니다."</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"키 반복 전 지연 시간 조정"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"키 반복"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"반복 전 지연"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"반복을 시작하기 전에 버튼을 얼마나 길게 누르고 있어야 하는지 맞춤설정합니다."</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"반복을 시작하기 전에 버튼을 길게 누르는 시간을 맞춤설정합니다."</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"반복 속도"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"키를 길게 누를 때 반복 문자가 입력되는 속도를 설정합니다."</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"기본"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"초기 지연 후 버튼이 얼마나 빨리 반복되는지 제어합니다."</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"자막"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"동영상 캡션 텍스트 오버레이 설정"</string>
     <string name="captions_display" msgid="2598662495450633375">"표시"</string>

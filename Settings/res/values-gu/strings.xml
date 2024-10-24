@@ -92,6 +92,17 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"સ્કૅનિંગ હંમેશાં ઉપલબ્ધ છે"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Google ની સ્થાન સેવા અને અન્ય ઍપ્લિકેશનોને નેટવર્ક માટે સ્કૅન કરવા દો, Wi‑Fi બંધ હોય ત્યારે પણ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"સ્કૅનિંગ હંમેશાં ઉપલબ્ધ, Googleની સ્થાન સેવા અને અન્ય ઍપને નેટવર્ક માટે સ્કૅન કરવા દો, વાઇ-ફાઇ બંધ હોય ત્યારે પણ"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Thread નેટવર્ક"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"કાર્યક્ષમતા અને પર્ફોર્મન્સ બૂસ્ટ કરતી વખતે Thread નેટવર્ક Thread-ચાલુ કરેલા સ્માર્ટ ઘરના સ્માર્ટ ડિવાઇસને સ્થાનિક રીતે કનેક્ટ કરે છે.\n\nજ્યારે ચાલુ હોય, ત્યારે આ ડિવાઇસ તમારું Thread નેટવર્ક બનાવશે અથવા તેમાં જોડાશે. તમારા ભવિષ્યના સ્માર્ટ ઘરના સ્માર્ટ ડિવાઇસના વધુ સરળ સેટઅપ માટેની લૉગ ઇન વિગત ખાનગી રીતે ક્લાઉડ પર અપલોડ કરવામાં આવશે.\n\nજયારે બંધ હોય, ત્યારે આ ડિવાઇસ હવે તમારા Thread નેટવર્ક પરના અન્ય ડિવાઇસ સાથે વાતચીત કરી શકશે નહીં. સ્માર્ટ ઘરના અમુક સ્માર્ટ ડિવાઇસ અને સેવાઓ અપેક્ષા મુજબ કામ કરી શકશે નહીં.\n\ng.co/tv/thread પર વધુ જાણો"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"Thread નેટવર્ક બંધ કરીએ?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"જો બંધ હોય, તો સ્માર્ટ ઘરના અમુક સ્માર્ટ ડિવાઇસ અને સેવાઓ અપેક્ષા મુજબ કામ કરી શકશે નહીં. શું તમે આગળ ચાલુ રાખવા માગો છો?"</string>
+    <!-- no translation found for wifi_settings_thread_network_energy_title (1975654727631313381) -->
+    <skip />
+    <!-- no translation found for wifi_settings_thread_network_energy_message (6579289433006123263) -->
+    <skip />
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"બંધ કરો"</string>
+    <!-- no translation found for wifi_settings_thread_network_button_change_energy_mode (6535896653472709387) -->
+    <skip />
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"વાઇ-ફાઇ"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"નેટવર્ક સાથે કનેક્ટ કરો"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"નેટવર્કના નિદાન"</string>
@@ -690,6 +701,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ઉચ્ચ કોન્ટ્રાસ્ટ ટેક્સ્ટ"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"બોલ્ડ ટેક્સ્ટ"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"બાઉન્સ કી"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"પસંદગીનો સમય પસંદ કરો"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"રિમોટ વારંવાર કી દબાવવાની ક્રિયા અવગણે છે"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"આકસ્મિક રીતે ઝડપથી, વારંવાર બટન દબાવવાનું અવગણો. તમે સમયનો અંતરાલ ગોઠવી શકો છો જેની અંદર દબાવવાનું અવગણવામાં આવે છે"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"સમય : ડિફૉલ્ટ"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"શરૂઆતમાં દબાવ્યા પછી ડિફૉલ્ટ અંતરાલ માટે વારંવાર દબાવવાનું અવગણો"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"સમય : 0.5 સેકન્ડ"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"સમય અંતરાલને 0.5 સેકન્ડ પર ગોઠવો, જે માટે વારંવાર કી દબાવવાનું અવગણવામાં આવે છે"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"સમય : 1 સેકન્ડ"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"સમય અંતરાલને 1 સેકન્ડ પર ગોઠવો, જે માટે વારંવાર કી દબાવવાનું અવગણવામાં આવે છે"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"સમય : 2 સેકન્ડ"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"સમય અંતરાલને 2 સેકન્ડ પર ગોઠવો, જે માટે વારંવાર કી દબાવવાનું અવગણવામાં આવે છે"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"રંગ સુધારણા"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"રંગ સુધારણાનો ઉપયોગ કરો"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"રંગ મોડ"</string>
@@ -718,6 +741,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"તમને પગલું લેવાનું કહેતા હોય, તેવા હંગામી રીતે દેખાતા મેસેજને કેટલા સમય સુધી બતાવવા તે પસંદ કરો"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"સમય : 2–3 સેકન્ડ"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"સ્ક્રીન પરની ક્રિયાઓનો જવાબ આપવામાં લાગતા ડિફૉલ્ટ સમયને સેટ કરે છે (2–3 સેકન્ડ)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"કી રિપીટ થવા પહેલાંનો વિલંબ"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"જ્યારે કોઈ કીને દબાવી રાખવામાં આવે, ત્યારે રિપીટ થતા અક્ષરો દેખાય એ પહેલાંના વિલંબની અવધિને ગોઠવો"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"કી રિપીટ થાય એ પહેલાંના વિલંબની અવધિને ગોઠવો"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"કી રિપીટ"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"રિપીટ થવા પહેલાંનો વિલંબ"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"કોઈ બટન રિપીટ થવાનું શરૂ કરે એ પહેલાં તમે તેને કેટલા લાંબા સમય સુધી દબાવી રાખી શકશો, તે અવધિ કસ્ટમાઇઝ કરો"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"કોઈ બટનને દબાવી રાખ્યા બાદ તે ક્યારે રિપીટ થવાનું શરૂ થશે, તે અવધિ કસ્ટમાઇઝ કરો"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"રિપીટ થવાનો રેટ"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"જ્યારે કી દબાવવામાં આવી હોય ત્યારે રિપીટ થતા અક્ષરો કેટલી ઝડપથી દાખલ થાય, તે અવધિ સેટ કરો"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"ડિફૉલ્ટ"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"પ્રારંભિક વિલંબ બાદ બટન કેટલી ઝડપથી રિપીટ થાય, તે અવધિ નિયંત્રિત કરો"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"કૅપ્શન"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"વીડિયો પર ઉપશીર્ષક ટેક્સ્ટ ઓવરલે માટે સેટિંગ"</string>
     <string name="captions_display" msgid="2598662495450633375">"પ્રદર્શન"</string>

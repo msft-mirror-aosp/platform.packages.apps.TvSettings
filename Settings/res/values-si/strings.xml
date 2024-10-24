@@ -92,6 +92,17 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"පරිලෝකනය සැමවිට ලබාගත හැක"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Wi-Fi ක්‍රියාවිරහිත විට පවා, Google හි පිහිටීම් සේවාව සහ වෙනත් යෙදුම්වලට ජාල සඳහා ස්කෑන් කිරීමට ඉඩ දෙන්න"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ස්කෑන් කිරීම සැම විට ලබා ගත හැකිය, Wi-Fi ක්‍රියාවිරහිත විට පවා, Google හි ස්ථාන සේවාවට සහ වෙනත් යෙදුම්වලට ජාල සඳහා ස්කෑන් කිරීමට ඉඩ දෙන්න"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"පොට ජාලය"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"පොට ජාලය දේශීයව පොට-සක්‍රීය ස්මාර්ට් නිවාස උපාංග සම්බන්ධ කරයි, කාර්යක්ෂමතාව සහ කාර්ය සාධනය ඉහළ නංවයි.\n\nක්‍රියාත්මක කළ විට, ඔබේ පොට ජාලය සෑදෙනු ඇත නැතහොත් මෙම උපාංගය සම්බන්ධ වනු ඇත. පහසුවෙන් ඔබේ අනාගත ස්මාර්ට් නිවෙස් උපාංග සැකසීම සඳහා ක්ලවුඩ් වෙත පුද්ගලිකව අක්තපත්‍ර උඩුගත කෙරේ.\n\nක්‍රියාවිරහිත කළ විට, මෙම උපාංගයට තවදුරටත් ඔබේ පොට ජාලයේ වෙනත් උපාංග සමග සන්නිවේදනය කිරීමට නොහැකි වනු ඇත. ඇතැම් ස්මාර්ට් නිවාස උපාංග සහ සේවා බලාපොරොත්තු වන පරිදි ක්‍රියා නොකරනු ඇත.\n\ng.co/tv/thread හි දී තව දැන ගන්න"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"පොට ජාලය ක්‍රියාවිරහිත කරන්න ද?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"ක්‍රියාවිරහිත කළහොත්, ඇතැම් ස්මාර්ට් නිවෙස් උපාංග සහ සේවා බලාපොරොත්තු වන පරිදි ක්‍රියා නොකරනු ඇත. ඔබ ඉදිරියට යාමට කැමති ද?"</string>
+    <!-- no translation found for wifi_settings_thread_network_energy_title (1975654727631313381) -->
+    <skip />
+    <!-- no translation found for wifi_settings_thread_network_energy_message (6579289433006123263) -->
+    <skip />
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"ක්‍රියාවිරහිත කරන්න"</string>
+    <!-- no translation found for wifi_settings_thread_network_button_change_energy_mode (6535896653472709387) -->
+    <skip />
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"WiFi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"ජාලයට සබැඳීම"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"ජාල දෝෂ නිර්ණ"</string>
@@ -690,6 +701,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ඉහළම විභේදනයක් ඇති පෙළ"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"තදකුරු පෙළ"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"පනින යතුරු"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"කැමති කාල නියාමනය තෝරා ගන්න"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"දුරස්ථ පාලකය නැවත නැවතත් යතුරු එබීම නොසලකා හරියි"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"වැරදීමකින් වේගවත්, නැවත නැවතත් බොත්තම් එබීම නොසලකා හරින්න. එබිම් නොසලකා හරින ලද කාල පරතරය ඔබට සකස් කළ හැක"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"කාල නියාමනය : පෙරනිමිය"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"ආරම්භක එබීමෙන් පසු පෙරනිමි කාලාන්තරය සඳහා නැවත නැවතත් එබීම නොසලකා හරින්න"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"කාල නියාමනය : තත්පර 0.5"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"නැවත නැවතත් යතුරු එබීම නොසලකා හරින ලද කාල පරතරය තත්පර 0.5 දක්වා සකසන්න"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"කාල නියාමනය : තත්පර 1"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"නැවත නැවතත් යතුරු එබීම නොසලකා හරින ලද කාල පරතරය තත්පර 1කට සකසන්න"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"කාල නියාමනය : තත්පර 2"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"නැවත නැවතත් යතුරු එබීම නොසලකා හරින ලද කාල පරතරය තත්පර 2කට සකසන්න"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"වර්ණ නිවැරදි කිරීම"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"වර්ණ නිවැරදි කිරීම භාවිතා කරන්න"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"වර්ණ ප්‍රකාරය"</string>
@@ -718,6 +741,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"ක්‍රියාමාර්ග ගැනීමට ඔබෙන් ඉල්ලන තාවකාලික පණිවිඩ කොපමණ කාලයක් පෙන්විය යුතු ද යන්න තෝරා ගන්න"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"කාල නියාමනය: තත්පර 2–3"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"තිරය–මත ක්‍රියාවන්ට ප්‍රතිචාර දැක්වීමට පෙරනිමි කාලය සකසයි (තත්පර 2–3)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"යතුරු පුනරාවර්තන පමාව"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"යතුරක් ඔබා ඇති විට නැවත නැවතත් අනුලකුණු දිස් වීමට පෙර ප්‍රමාදය වින්‍යාස කරන්න"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"යතුර නැවත කිරීමට පෙර ප්‍රමාදය සකසන්න"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"යතුරු පුනරාවර්තනය"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"පුනරාවර්තනයට පෙර ප්‍රමාදය"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"බොත්තමක් පුනරාවර්තනය වීමට පෙර ඔබට කොපමණ වේලාවක් ඔබා සිටිය හැකි ද යන්න අභිරුචිකරණය කරන්න"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"බොත්තමක් ඔබාගෙන සිටීමේ කාලය අභිරුචිකරණය කරන්න, ඉන්පසු එය නැවත නැවතත් කිරීම ආරම්භ වේ"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"පුනරාවර්තන අනුපාතය"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"යතුරක් ඔබා ඇති විට කොපමණ වේගයෙන් පුනරාවර්තන අනුලකුණු ඇතුළු වේ ද යන්න සකසන්න"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"පෙරනිමි"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"ආරම්භක ප්‍රමාදයෙන් පසු බොත්තම කෙතරම් ඉක්මනින් පුනරාවර්තනය වේ ද යන්න පාලනය කරන්න"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"සිරස්තල"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"වීඩියෝව මත යටි ලියමන කළ පෙළ වාසාලිම වැසීම සඳහා සැකසීම්"</string>
     <string name="captions_display" msgid="2598662495450633375">"දර්ශනය"</string>

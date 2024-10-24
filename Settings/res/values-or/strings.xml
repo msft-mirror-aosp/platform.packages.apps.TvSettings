@@ -92,6 +92,17 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"ସର୍ବଦା ସ୍କାନିଂ ଉପଲବ୍ଧ ଅଛି"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"ୱାଇ-ଫାଇ ବନ୍ଦ ରହିଥିଲେ ମଧ୍ୟ ନେଟୱର୍କ ପାଇଁ Google\'ର ଲୋକେସନ୍‍ ସେବା ଏବଂ ଅନ୍ୟ ଆପ୍‍ ସ୍କାନ୍‍ କରିବାକୁ ଦିଅନ୍ତୁ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ସ୍କାନିଂ ସର୍ବଦା ଉପଲବ୍ଧ ଥାଏ, ୱାଇ-ଫାଇ ବନ୍ଦ ଥିଲେ ମଧ୍ୟ Googleର ଲୋକେସନ୍ ସେବା ଏବଂ ଅନ୍ୟ ଆପଗୁଡ଼ିକୁ ନେଟୱାର୍କ ସ୍କାନ୍ କରିବାକୁ ଦେଇଥାଏ"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"ଥ୍ରେଡ ନେଟୱାର୍କ"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"ଥ୍ରେଡ ନେଟୱାର୍କ ସ୍ଥାନୀୟ ଭାବେ ଥ୍ରେଡ-ସକ୍ଷମ ହୋଇଥିବା ସ୍ମାର୍ଟ ହୋମ ଡିଭାଇସଗୁଡ଼ିକୁ କନେକ୍ଟ କରେ, ଯାହା ଦକ୍ଷତା ଓ ପରଫରମାନ୍ସକୁ ବୁଷ୍ଟ କରେ।\n\nଚାଲୁ ଥିଲେ, ଏହି ଡିଭାଇସ ଆପଣଙ୍କ ଥ୍ରେଡ ନେଟୱାର୍କ ତିଆରି କରିବ କିମ୍ବା ସେଥିରେ ଯୋଗ ଦେବ। ଆପଣଙ୍କ ଭବିଷ୍ୟତର ସ୍ମାର୍ଟ ହୋମ ଡିଭାଇସଗୁଡ଼ିକର ସହଜ ସେଟଅପ ପାଇଁ କ୍ରେଡେନସିଆଲଗୁଡ଼ିକୁ କ୍ଲାଉଡରେ ପ୍ରାଇଭେଟ ଭାବେ ଅପଲୋଡ କରାଯିବ।\n\nବନ୍ଦ ଥିଲେ, ଏହି ଡିଭାଇସ ଆପଣଙ୍କ ଥ୍ରେଡ ନେଟୱାର୍କରେ ଅନ୍ୟ ଡିଭାଇସଗୁଡ଼ିକ ସହ କମ୍ୟୁନିକେଟ କରିବାକୁ ଆଉ ସକ୍ଷମ ହେବ ନାହିଁ। କିଛି ନିର୍ଦ୍ଦିଷ୍ଟ ସ୍ମାର୍ଟ ହୋମ ଡିଭାଇସ ଓ ସେବା ଆଶା କରାଯାଉଥିବା ପରି କାମ କରିନପାରେ।\n\ng.co/tv/threadରେ ଅଧିକ ଜାଣନ୍ତୁ"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"ଥ୍ରେଡ ନେଟୱାର୍କକୁ ବନ୍ଦ କରିବେ?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"ଯଦି ବନ୍ଦ କରାଯାଏ, ତେବେ କିଛି ନିର୍ଦ୍ଦିଷ୍ଟ ସ୍ମାର୍ଟ ହୋମ ଡିଭାଇସ ଓ ସେବା ଆଶା କରାଯାଉଥିବା ପରି କାମ କରିନପାରେ। ଆପଣ ଆଗକୁ ବଢ଼ିବା ପାଇଁ ଚାହିଁବେ?"</string>
+    <!-- no translation found for wifi_settings_thread_network_energy_title (1975654727631313381) -->
+    <skip />
+    <!-- no translation found for wifi_settings_thread_network_energy_message (6579289433006123263) -->
+    <skip />
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"ବନ୍ଦ କରନ୍ତୁ"</string>
+    <!-- no translation found for wifi_settings_thread_network_button_change_energy_mode (6535896653472709387) -->
+    <skip />
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"ୱାଇ-ଫାଇ"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"ନେଟ୍‌ୱର୍କ ସହ ସଂଯୋଗ କରନ୍ତୁ"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"ନେଟୱାର୍କ ଡାଏଗ୍ନୋଷ୍ଟିକ୍ସ"</string>
@@ -690,6 +701,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ଉଚ୍ଚ କଣ୍ଟ୍ରାଷ୍ଟଯୁକ୍ତ ଟେକ୍ସଟ"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"ବୋଲ୍ଡ ଟେକ୍ସଟ"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"ବାଉନ୍ସ କୀ"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"ପସନ୍ଦର ସମୟ ବାଛନ୍ତୁ"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"ରିମୋଟ ବାରମ୍ବାର କୀ ଦବାଇବାକୁ ଅଣଦେଖା କରେ"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"ବଟନକୁ ଭୁଲବଶତଃ ଦ୍ରୁତ, ବାରମ୍ବାର ଦବାଯାଇଥିବାକୁ ଅଣଦେଖା କରନ୍ତୁ। ଯେଉଁ ସମୟ ବ୍ୟବଧାନ ମଧ୍ୟରେ ଦବାଯିବାକୁ ଅଣଦେଖା କରାଯାଏ ସେହି ସମୟକୁ ଆପଣ ଆଡଜଷ୍ଟ କରିପାରିବେ"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"ସମୟ : ଡିଫଲ୍ଟ"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"ଆରମ୍ଭରେ ଦବାଯିବା ପରେ ଡିଫଲ୍ଟ ବ୍ୟବଧାନ ପାଇଁ ବାରମ୍ବାର ଦବାଇବାକୁ ଅଣଦେଖା କରନ୍ତୁ"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"ସମୟ : 0.5 ସେକେଣ୍ଡ"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"ସମୟ ବ୍ୟବଧାନକୁ 0.5 ସେକେଣ୍ଡରେ ଆଡଜଷ୍ଟ କରନ୍ତୁ ଯେଉଁଥିରେ ବାରମ୍ବାର କୀ ଦବାଇବାକୁ ଅଣଦେଖା କରାଯାଏ"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"ସମୟ : 1 ସେକେଣ୍ଡ"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"ସମୟ ବ୍ୟବଧାନକୁ 1 ସେକେଣ୍ଡରେ ଆଡଜଷ୍ଟ କରନ୍ତୁ ଯେଉଁଥିରେ ବାରମ୍ବାର କୀ ଦବାଇବାକୁ ଅଣଦେଖା କରାଯାଏ"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"ସମୟ : 2 ସେକେଣ୍ଡ"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"ସମୟ ବ୍ୟବଧାନକୁ 2 ସେକେଣ୍ଡରେ ଆଡଜଷ୍ଟ କରନ୍ତୁ ଯେଉଁଥିରେ ବାରମ୍ବାର କୀ ଦବାଇବାକୁ ଅଣଦେଖା କରାଯାଏ"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"ରଙ୍ଗ ସଂଶୋଧନ"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"ରଙ୍ଗ ସଂଶୋଧନ ବ୍ୟବହାର କରନ୍ତୁ"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"କଲର ମୋଡ"</string>
@@ -718,6 +741,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"ଆପଣଙ୍କୁ ପଦକ୍ଷେପ ନେବା ପାଇଁ କହୁଥିବା ଅସ୍ଥାୟୀ ମେସେଜଗୁଡ଼ିକ କେତେ ସମୟ ଦେଖାଯିବ ତାହା ବାଛନ୍ତୁ"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"ସମୟ : 2–3 ସେକେଣ୍ଡ"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"ଅନ-ସ୍କ୍ରିନ ପଦକ୍ଷେପ ପାଇଁ ଡିଫଲ୍ଟ ଉତ୍ତର ଦେବା ସମୟ ସେଟ କରେ (2–3 ସେକେଣ୍ଡ)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"କୀ ରିପିଟରେ ବିଳମ୍ବ"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"ଏକ କୀ\'କୁ ଦାବି ରଖାଯାଇଥିବା ସମୟରେ ରିପିଟ ହେଉଥିବା କେରେକ୍ଟର ଦେଖାଯିବା ପୂର୍ବର ବିଳମ୍ବକୁ କନଫିଗର କରନ୍ତୁ"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"କୀ ରିପିଟ ହେବା ପୂର୍ବର ବିଳମ୍ବକୁ ଆଡଜଷ୍ଟ କରନ୍ତୁ"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"କୀ ରିପିଟ"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"ରିପିଟ ପୂର୍ବରୁ ହେବା ବିଳମ୍ବ"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"ଏକ ବଟନ ରିପିଟ ହେବା ଆରମ୍ଭ କରିବା ପୂର୍ବରୁ ଆପଣ କେତେ ସମୟ ଏହାକୁ ଧରି ରଖିପାରିବେ ତାହା କଷ୍ଟମାଇଜ କରନ୍ତୁ"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"ଏକ ବଟନକୁ ଧରି ରଖିବାର ଅବଧିକୁ କଷ୍ଟମାଇଜ କରନ୍ତୁ, ଯାହା ପରେ ଏହା ରିପିଟ ହେବା ଆରମ୍ଭ କରେ"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"ରିପିଟ ରେଟ"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"ଏକ କୀ\'କୁ ଦାବି ରଖାଯାଇଥିବା ବେଳେ କେତେ ଦ୍ରୁତ ଗତିରେ ରିପିଟ ହେଉଥିବା କେରେକ୍ଟରକୁ ଲେଖାଯାଏ ତାହା ସେଟ କରନ୍ତୁ"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"ଡିଫଲ୍ଟ"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"ପ୍ରାରମ୍ଭିକ ବିଳମ୍ବ ପରେ ବଟନଟି କେତେ ଶୀଘ୍ର ରିପିଟ ହୁଏ ତାହା ନିୟନ୍ତ୍ରଣ କରନ୍ତୁ"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"କ୍ୟାପସନ୍‌"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ଭିଡିଓରେ ବନ୍ଦ ହୋଇଥିବା କ୍ୟାପସନ ଟେକ୍ସଟ ଓଭରଲେ ପାଇଁ ସେଟିଂସ"</string>
     <string name="captions_display" msgid="2598662495450633375">"ଡିସ୍‌ପ୍ଲେ"</string>

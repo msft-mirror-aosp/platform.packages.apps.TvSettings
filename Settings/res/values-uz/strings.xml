@@ -92,6 +92,14 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Tarmoqlarni doim qidirish"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Google va boshqa geolokatsiya xizmatlariga Wi-Fi yoniq emasligida ham tarmoqlarni qidirish uchun ruxsat"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Doim tarmoqlarni qidirish, Wi-Fi oʻchiq boʻlsa ham Google va boshqa geolokatsiya xizmatlariga tarmoqlarni qidirish uchun ruxsat berish"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Thread tarmogʻi"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Thread tarmogʻi Thread bilan ishlaydigan smart uy qurilmalarini lokal doirada ulab, samaradorlik va unumdorlikni oshiradi.\n\nBu qurilma yoqilganida Thread tarmogʻini yaratadi yoki unga kiradi. Kelgusi smart uy qurilmalarini oson sozlash uchun hisob maʼlumotlari yopiq tarzda bulutga yuklanadi.\n\nOʻchirilsa, bu qurilma Thread tarmogʻidagi qurilmalarga ulana olmaydi. Ayrim smart uy qurilmalari va xizmatlari kutilganidek ishlamasligi mumkin.\n\nBatafsil: g.co/tv/thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"Thread tarmogʻi faolsizlantirilsinmi?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"Faolsizlantirilsa, ayrim smart uy qurilmalari va xizmatlari kutilganidek ishlamasligi mumkin. Davom etasizmi?"</string>
+    <string name="wifi_settings_thread_network_energy_title" msgid="1975654727631313381">"Thread tarmoq yoqilsinmi?"</string>
+    <string name="wifi_settings_thread_network_energy_message" msgid="6579289433006123263">"Thread tarmogʻi Yuqori energiya rejimini talab qiladi. Avval quvvat rejimini Yuqori rejimga oʻzgartiring, keyin Thread tarmogʻini yoqish uchun qayting."</string>
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"Faolsizlantirish"</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode" msgid="6535896653472709387">"Quvvat rejimini almashtirish"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Tarmoqqa ulanish"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Tarmoq diagnostikasi"</string>
@@ -690,6 +698,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Yuqori kontrastli matn"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Qalin matn"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Qayta bosishni nazorat qilish"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Kerakli vaqtlarni tanlang"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Pult takroriy tugmalarni bosishni eʼtiborsiz qoldiradi"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Tasodifiy tez, takroriy tugmalar bosilishini eʼtiborsiz qoldiring. Bosishlar eʼtiborsiz qoldiriladigan vaqt oraligʻini sozlashingiz mumkin."</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Vaqtlar : Birlamchi"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Dastlabki bosishdan keyin belgilangan vaqt oraligʻida takroriy bosishlar eʼtiborga olinmasin"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Vaqtlar : 0,5 soniya"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Takroriy tugmalar bosilishini eʼtiborga olmaslik uchun vaqt oralig‘ini 0,5 soniya qilib sozlang"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Vaqtlar : 1 soniya"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Takroriy tugmalar bosilishini eʼtiborga olmaslik uchun vaqt oralig‘ini 1 soniya qilib sozlang"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Vaqtlar : 2 soniya"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Takroriy tugmalar bosilishini eʼtiborga olmaslik uchun vaqt oralig‘ini 2 soniya qilib sozlang"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Ranglarni tuzatish"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Ranglarni tuzatish"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Rangli rejim"</string>
@@ -718,6 +738,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Amal bajarishni talab qiladigan vaqtinchalik xabarlar qancha vaqt chiqishi kerakligini tanlang."</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Vaqtlar : 2–3 soniya"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Ekrandagi amallarni bajarish uchun birlamchi vaqtni sozlaydi (2–3 soniya)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Tugma takrorlanishidan oldingi kechikish"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Tayinlangan belgi takrorlanishidan oldingi tugma kechikishini moslang"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Tugma qayta bosilishidan avvalgi kechikishni moslang"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Tugma takrorlanishi"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Qaytarishdan avvalgi kechiktirish vaqti"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Tayinlangan amal takrorlanishidan oldingi kechikishni moslang"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Tayinlangan amal takrorlanishidan avvalgi oldingi moslang"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Takrorlash tezligi"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Tugma kechikkanda belgilar qanchalik tez takror kiritilishini sozlang"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Birlamchi"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Tugma ilk kechikishdan keyin qanchalik tez takrorlanishini boshqaring"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Sarlavhalar"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Yopiq sarlavhalar matni uchun sozlanmalar video ustiga qo‘yilgan"</string>
     <string name="captions_display" msgid="2598662495450633375">"Ekran"</string>

@@ -92,6 +92,17 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Скенирање је увек доступно"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Дозволите Google-овој услузи лоцирања и другим апликацијама да траже мреже, чак и када је WiFi искључен"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Скенирање је увек доступно, Дозволите Google услугама локације и другим апликацијама да траже мреже, чак и када је WiFi искључен"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Мрежа Thread"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Мрежа Thread локално повезује паметне кућне уређаје који подржавају Thread, чиме побољшава ефикасност и перформансе.\n\nКада је укључите, овај уређај ће направити мрежу Thread или ће јој се придружити. Акредитиви се приватно отпремају у клауд ради лакшег подешавања будућих паметних кућних уређаја.\n\nКада је искључите, овај уређај више неће моћи да комуницира са другим уређајима у мрежи Thread. Одређени паметни кућни уређаји и услуге можда неће радити на очекивани начин.\n\nСазнајте више на g.co/tv/thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"Желите да искључите мрежу Thread?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"Ако је искључите, одређени паметни кућни уређаји и услуге можда неће радити на очекивани начин. Желите да наставите?"</string>
+    <!-- no translation found for wifi_settings_thread_network_energy_title (1975654727631313381) -->
+    <skip />
+    <!-- no translation found for wifi_settings_thread_network_energy_message (6579289433006123263) -->
+    <skip />
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"Искључи"</string>
+    <!-- no translation found for wifi_settings_thread_network_button_change_energy_mode (6535896653472709387) -->
+    <skip />
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"WiFi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Повежите се са мрежом"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Дијагностика мреже"</string>
@@ -690,6 +701,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Текст високог контраста"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Подебљани текст"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Дужи одзив тастера"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Одаберите жељено време"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Даљински игнорише поновљено притискање тастера"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Игноришите случајно брзо и поновљено притискање дугмета. Можете да прилагодите временски интервал током ког се притискање дугмета игнорише"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Време: Подразумевано"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Игноришите поновљено притискање током подразумеваног интервала после првог притиска"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Време: 0,5 секунди"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Прилагодите временски интервал током ког се игноришу понављани притисци тастера на 0,5 секунди"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Време: 1 секунда"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Прилагодите временски интервал током ког се игноришу понављани притисци тастера на 1 секунду"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Време: 2 секунде"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Прилагодите временски интервал током ког се игноришу понављани притисци тастера на 2 секунде"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Корекција боја"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Користи корекцију боја"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Режим боја"</string>
@@ -718,6 +741,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Одаберите колико дуго ће се приказивати поруке које траже да реагујете"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Време: 2–3 секунде"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Подешава подразумевано време за реаговање на радње на екрану (2–3 секунде)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Одлагање понављања тастера"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Конфигуришите одлагање пре појављивања поновљених знакова када се тастер притисне и задржи"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Прилагодите одлагање пре понављања тастера"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Понављање тастера"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Одлагање пре понављања"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Прилагодите колико дуго можете да задржите дугме пре него што почне понављање"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Прилагодите трајање задржавања дугмета после ког почиње понављање"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Брзина понављања"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Подесите брзину уноса поновљених знакова када се тастер притисне и задржи"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Подразумевано"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Контролишите брзину понављања дугмета после почетног одлагања"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Титл"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Подешавања за постављање текста опционалног титла преко видео снимка"</string>
     <string name="captions_display" msgid="2598662495450633375">"Екран"</string>

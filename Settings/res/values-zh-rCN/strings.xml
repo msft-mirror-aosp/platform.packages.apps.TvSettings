@@ -92,6 +92,14 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"随时都可扫描"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"允许 Google 的位置信息服务和其他应用扫描网络（即使 WLAN 已关闭）"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"随时都可扫描，允许 Google 的位置信息服务和其他应用扫描网络，即使 WLAN 已关闭"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Thread 网络"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Thread 网络会在本地连接支持 Thread 的智能家居设备，从而提升效率和性能。\n\n此设置处于开启状态时，这部设备将创建或加入 Thread 网络。凭据将以不公开方式上传到云端，方便您日后更轻松地设置智能家居设备。\n\n此设置处于关闭状态时，这部设备将无法再与 Thread 网络中的其他设备通信。某些智能家居设备和服务可能无法按预期运行。\n\n您可前往 g.co/tv/thread 了解详情"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"要关闭 Thread 网络吗？"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"如果关闭此设置，某些智能家居设备和服务可能无法按预期运行。要继续吗？"</string>
+    <string name="wifi_settings_thread_network_energy_title" msgid="1975654727631313381">"要开启 Thread 网络吗？"</string>
+    <string name="wifi_settings_thread_network_energy_message" msgid="6579289433006123263">"Thread 网络需要使用“高”能耗模式。因此，请先将能耗模式更改为“高”，然后再返回此处开启 Thread 网络。"</string>
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"关闭"</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode" msgid="6535896653472709387">"请更改能耗模式"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"WLAN"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"连接到网络"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"网络诊断"</string>
@@ -690,6 +698,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"高对比度文字"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"粗体文字"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"防抖键"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"选择首选时间间隔"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"遥控器会忽略重复的按键操作"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"忽略意外的快速重复按键操作。您可以调整时间间隔，指定间隔多长时间内的按键操作将会被忽略"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"时间间隔：默认"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"在初次按键后，忽略默认时间间隔内的重复按键操作"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"时间间隔：0.5 秒"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"将时间间隔调整为 0.5 秒，时间间隔短于 0.5 秒的重复按键操作将会被忽略"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"时间间隔：1 秒"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"将时间间隔调整为 1 秒，时间间隔短于 1 秒的重复按键操作将会被忽略"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"时间间隔：2 秒"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"将时间间隔调整为 2 秒，时间间隔短于 2 秒的重复按键操作将会被忽略"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"色彩校正"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"使用色彩校正"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"颜色模式"</string>
@@ -718,6 +738,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"选择系统提示您采取操作的临时消息显示时长"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"时长：2-3 秒"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"设置响应屏幕上操作的默认时长（2-3 秒）"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"按键重复延迟时间"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"配置按下按键后到重复字符出现前之间的延迟时间"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"调整按键重复前的延迟时间"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"按键重复"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"触发重复前的延迟时间"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"自定义按住按钮多久后才会触发重复"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"自定义按住按钮到触发重复之间的时长"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"重复速率"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"设置在按下按键时重复输入字符的速度"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"默认"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"控制首次延迟后按钮的重复速率"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"字幕"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"视频字幕的文字叠加层设置"</string>
     <string name="captions_display" msgid="2598662495450633375">"显示"</string>

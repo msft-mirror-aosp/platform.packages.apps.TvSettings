@@ -92,6 +92,14 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Luôn quét"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Cho phép dịch vụ định vị và các ứng dụng khác của Google quét tìm mạng, ngay cả khi Wi-Fi bị tắt"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Luôn quét, Cho phép dịch vụ vị trí và các ứng dụng khác của Google quét tìm mạng, ngay cả khi Wi-Fi đang tắt"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Mạng Thread"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Mạng Thread kết nối cục bộ các thiết bị nhà thông minh có hỗ trợ giao thức Thread, giúp tăng cường hiệu quả và hiệu suất.\n\nKhi ở trạng thái bật, thiết bị này sẽ tạo hoặc kết nối với mạng Thread của bạn. Thông tin đăng nhập sẽ được tải lên đám mây ở chế độ riêng tư để sau này bạn dễ dàng thiết lập các thiết bị nhà thông minh.\n\nKhi ở trạng thái tắt, thiết bị này sẽ không thể giao tiếp với các thiết bị khác trên mạng Thread của bạn nữa. Một số dịch vụ và thiết bị nhà thông minh có thể không hoạt động như dự kiến.\n\nHãy tìm hiểu thêm tại g.co/tv/thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"Bạn muốn tắt mạng Thread?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"Ở trạng thái tắt, một số dịch vụ và thiết bị nhà thông minh có thể không hoạt động như dự kiến. Bạn có muốn tiếp tục không?"</string>
+    <string name="wifi_settings_thread_network_energy_title" msgid="1975654727631313381">"Bạn muốn bật mạng Thread?"</string>
+    <string name="wifi_settings_thread_network_energy_message" msgid="6579289433006123263">"Mạng Thread yêu cầu chế độ Tăng mức sử dụng năng lượng. Trước tiên, hãy chuyển chế độ sử dụng năng lượng sang Tăng cường, sau đó quay lại để bật mạng Thread."</string>
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"Tắt"</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode" msgid="6535896653472709387">"Thay đổi chế độ sử dụng năng lượng"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Kết nối mạng"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Chẩn đoán mạng"</string>
@@ -681,7 +689,7 @@
     <string name="delete_location_history_title" msgid="707559064715633152">"Xóa nhật ký vị trí"</string>
     <string name="delete_location_history_desc" msgid="4035229731487113147">"Thao tác này sẽ xóa tất cả Lịch sử Vị trí đã được lưu trữ từ thiết bị này cho tài khoản Google này. Bạn không thể hoàn tác việc xóa này. Một số ứng dụng, kể cả Google Hiện hành, sẽ ngừng hoạt động."</string>
     <string name="accessibility_screen_readers_category_title" msgid="7742526514873922018">"Trình đọc màn hình"</string>
-    <string name="accessibility_display_category_title" msgid="593444602101558017">"Chế độ hiển thị"</string>
+    <string name="accessibility_display_category_title" msgid="593444602101558017">"Hiển thị"</string>
     <string name="accessibility_interaction_controls_category_title" msgid="5290687835178852745">"Kiểm soát tương tác"</string>
     <string name="accessibility_audio_and_onscreen_text_category_title" msgid="113841605896486212">"Âm thanh và văn bản trên màn hình"</string>
     <string name="accessibility_experimental_category_title" msgid="3401773834179170206">"Thử nghiệm"</string>
@@ -690,6 +698,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Văn bản có độ tương phản cao"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Văn bản in đậm"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Phím nảy"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Chọn thời gian bạn muốn"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Điều khiển từ xa bỏ qua các lần nhấn phím lặp lại"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Bỏ qua các lần vô tình nhấn nút nhanh và lặp lại. Bạn có thể điều chỉnh khoảng thời gian bỏ qua các lượt nhấn"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Thời gian: Mặc định"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Bỏ qua các lần nhấn lặp lại trong khoảng thời gian mặc định sau lần nhấn đầu tiên"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Thời gian: 0,5 giây"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Điều chỉnh khoảng thời gian bỏ qua các lần nhấn phím lặp lại thành 0,5 giây"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Thời gian: 1 giây"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Điều chỉnh khoảng thời gian bỏ qua các lần nhấn phím lặp lại thành 1 giây"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Thời gian: 2 giây"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Điều chỉnh khoảng thời gian bỏ qua các lần nhấn phím lặp lại thành 2 giây"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Chỉnh màu"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Sử dụng tính năng chỉnh màu"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Chế độ màu"</string>
@@ -718,6 +738,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Chọn thời gian hiện thông báo tạm thời yêu cầu bạn hành động"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Thời gian : 2 – 3 giây"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Đặt thời gian mặc định để phản hồi hành động trên màn hình (2 – 3 giây)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Độ trễ để lặp lại phím"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Định cấu hình độ trễ để các ký tự lặp lại hiện ra khi bạn nhấn và giữ một phím"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Điều chỉnh độ trễ trước khi lặp lại phím"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Lặp lại phím"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Độ trễ trước khi lặp lại"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Tuỳ chỉnh thời gian bạn có thể giữ nút trước khi phím bắt đầu lặp lại"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Tuỳ chỉnh thời gian giữ nút để phím bắt đầu lặp lại"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Tốc độ lặp lại"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Đặt tốc độ nhập ký tự lặp lại khi bạn nhấn và giữ một phím"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Mặc định"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Kiểm soát tốc độ lặp lại của nút sau độ trễ ban đầu"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Phụ đề"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Cài đặt cho lớp phủ văn bản phụ đề đóng trên video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Hiển thị"</string>

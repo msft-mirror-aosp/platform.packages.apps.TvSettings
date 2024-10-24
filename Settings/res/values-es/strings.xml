@@ -92,6 +92,17 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Búsqueda siempre disponible"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Permite que el servicio de ubicación de Google y otras aplicaciones busquen redes aunque la conexión Wi-Fi esté desactivada"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Búsqueda siempre disponible, Permite que el servicio de ubicación de Google y otras aplicaciones busquen redes aunque la conexión Wi-Fi esté desactivada"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Red Thread"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"La red Thread conecta de forma local los dispositivos domésticos inteligentes compatibles con Thread para mejorar la eficiencia y el rendimiento.\n\nCuando esté activada, este dispositivo creará una red Thread o se unirá a una que ya tengas. Las credenciales se subirán de forma privada a la nube para que te sea más fácil configurar los dispositivos domésticos inteligentes en un futuro.\n\nCuando esté desactivada, este dispositivo ya no podrá comunicarse con otros dispositivos de tu red Thread. Puede que algunos servicios y dispositivos domésticos inteligentes no funcionen según lo previsto.\n\nMás información en g.co/tv/thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"¿Desactivar la red Thread?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"Si se desactiva, puede que algunos servicios y dispositivos domésticos inteligentes no funcionen según lo previsto. ¿Quieres continuar?"</string>
+    <!-- no translation found for wifi_settings_thread_network_energy_title (1975654727631313381) -->
+    <skip />
+    <!-- no translation found for wifi_settings_thread_network_energy_message (6579289433006123263) -->
+    <skip />
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"Desactivar"</string>
+    <!-- no translation found for wifi_settings_thread_network_button_change_energy_mode (6535896653472709387) -->
+    <skip />
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Conectarse a una red"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Diagnóstico de red"</string>
@@ -690,6 +701,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Texto de alto contraste"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Texto en negrita"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Pulsaciones repetidas de teclas"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Elige el tiempo que prefieras"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"El mando a distancia ignora las pulsaciones repetidas de teclas"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Ignora pulsaciones de botones repetidas, rápidas y accidentales. Puedes ajustar el intervalo de tiempo durante el cual se ignoran las pulsaciones."</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Tiempo: predeterminado"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Ignora pulsaciones repetidas durante el intervalo predeterminado tras la primera pulsación"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Tiempo: 0,5 segundos"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Ajusta el intervalo a 0,5 segundos para que se ignoren las pulsaciones repetidas de teclas"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Tiempo: 1 segundo"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Ajusta el intervalo de tiempo a 1 segundo para que se ignoren las pulsaciones repetidas de teclas"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Tiempo: 2 segundos"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Ajusta el intervalo de tiempo a 2 segundos para que se ignoren las pulsaciones repetidas de teclas"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Corrección de color"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Usar Corrección de color"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Modo de color"</string>
@@ -718,6 +741,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Elige durante cuánto tiempo quieres que se muestren los mensajes temporales que te piden que lleves a cabo una acción"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Tiempo: 2-3 segundos"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Tiempo predeterminado para responder a acciones en pantalla (2-3 segundos)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Tiempo hasta la repetición de teclas"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Configura el tiempo de espera antes de que aparezcan caracteres repetidos al mantener pulsada una tecla"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Ajusta el tiempo de espera hasta la repetición de teclas"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Repetición de teclas"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Tiempo hasta la repetición"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Personaliza cuánto tiempo puedes mantener pulsado un botón antes de que su acción empiece a repetirse"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Personaliza cuánto tiempo se debe pulsar un botón para que su acción empiece a repetirse"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Frecuencia de repetición"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Configura la velocidad a la que se introducen caracteres repetidos cuando se mantiene pulsada una tecla"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Predeterminada"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Controla la rapidez con la que se repite la acción de un botón tras el tiempo de espera inicial"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Subtítulos"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Ajustes para la superposición de texto de subtítulos en vídeo"</string>
     <string name="captions_display" msgid="2598662495450633375">"Mostrar"</string>

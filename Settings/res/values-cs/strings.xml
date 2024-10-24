@@ -92,6 +92,14 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Vyhledávání je vždy k dispozici"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Povolit službě určování polohy Google a ostatním aplikacím hledat sítě, i když je síť Wi-Fi vypnutá"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Vždy aktivní vyhledávání: Povolit službě určování polohy Google a ostatním aplikacím hledat sítě, i když je síť Wi-Fi vypnutá"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Síť Thread"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Síť Thread lokálně propojuje zařízení pro chytrou domácnost s podporou protokolu Thread a zlepšuje tak efektivitu a výkon.\n\nKdyž tuto možnost zapnete, vytvoří toto zařízení síť Thread nebo se k ní připojí. Přihlašovací údaje budou soukromě nahrány do cloudu pro snazší nastavení budoucích zařízení pro chytrou domácnost.\n\nKdyž tuto možnost vypnete, toto zařízení již nebude moci komunikovat s ostatními zařízeními v síti Thread. Některá zařízení a služby pro chytrou domácnost nemusí fungovat správně.\n\nDalší informace: g.co/tv/thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"Vypnout síť Thread?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"Pokud tuto funkci vypnete, některá zařízení a služby pro chytrou domácnost nemusí fungovat správně. Chcete pokračovat?"</string>
+    <string name="wifi_settings_thread_network_energy_title" msgid="1975654727631313381">"Zapnout síť Thread?"</string>
+    <string name="wifi_settings_thread_network_energy_message" msgid="6579289433006123263">"Síť Thread vyžaduje režim zvýšené spotřeby energie. Nejprve změňte režim a pak se vraťte a zapněte síť Thread."</string>
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"Vypnout"</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode" msgid="6535896653472709387">"Změnit energetický režim"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Připojení k síti"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Diagnostika sítě"</string>
@@ -690,6 +698,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Text s vysokým kontrastem"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Tučný text"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Ignorovat opakovaná stisknutí"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Zvolte upřednostňovaný čas"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Dálkové ovládání bude opakovaná stisknutí tlačítek ignorovat"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Ignorovat náhodná rychlá, opakovaná stisknutí tlačítek. Časový interval, ve kterém budou stisknutí ignorována, můžete upravit"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Čas: výchozí"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Ignorovat opakovaná stisknutí ve výchozím intervalu po prvním stisknutí"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Čas: 0,5 s"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Upravit časový interval na 0,5 sekundy, ve kterých bude opakované stisknutí tlačítek ignorováno"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Čas: 1 sekunda"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Upravit časový interval na 1 sekundu, ve které bude opakované stisknutí tlačítek ignorováno"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Čas: 2 sekundy"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Upravit časový interval na 2 sekundy, ve kterých bude opakované stisknutí tlačítek ignorováno"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Korekce barev"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Používat korekci barev"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Režim barvy"</string>
@@ -718,6 +738,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Vyberte, jak dlouho se mají zobrazovat dočasné zprávy s výzvami k akci"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Čas: 2–3 s"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Určuje výchozí čas na odpověď na akce (2–3 s)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Prodleva opakování klávesy"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Nakonfigurujte prodlevu, než se při podržení klávesy začnou zobrazovat opakované znaky"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Úprava prodlevy před opakováním klávesy"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Opakování klávesy"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Prodleva před opakováním"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Přizpůsobte délku podržení tlačítka, než se začne akce opakovat"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Přizpůsobte délku podržení tlačítka, po kterém se začne akce opakovat"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Rychlost opakování"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Nastavte, jak rychle se budou zadávat znaky při podržení klávesy"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Výchozí"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Nastavte, jak rychle se tlačítko začne opakovat po počáteční prodlevě"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Titulky"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Nastavení překryvné vrstvy s textem skrytých titulků ve videu"</string>
     <string name="captions_display" msgid="2598662495450633375">"Zobrazení"</string>

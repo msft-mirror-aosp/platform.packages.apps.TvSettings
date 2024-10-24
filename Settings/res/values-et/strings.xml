@@ -92,6 +92,17 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Otsimine on alati saadaval"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Lubage Google\'i asukohateenusel ja muudel rakendustel võrke skannida ka juhul, kui WiFi on välja lülitatud"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Skannimine on alati saadaval: lubage Google\'i asukohateenusel ja muudel rakendustel võrke skannida ka juhul, kui WiFi on välja lülitatud."</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Thread-võrk"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Thread-võrk ühendab kohalikult Thread-võrguga ühilduvad nuti-koduseadmed, suurendades tõhusust ja jõudlust.\n\nKui seade on sisse lülitatud, loob see teie Thread-võrgu või liitub sellega. Mandaat laaditakse privaatselt pilve üles, et teie tulevasi nuti-koduseadmeid oleks lihtsam seadistada.\n\nKui seade on välja lülitatud, ei saa see enam suhelda teiste Thread-võrgus olevate seadmetega. Teatud nuti-koduseadmed ja teenused ei pruugi ootuspäraselt toimida.\n\nLisateave: g.co/tv/thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"Kas lülitada Thread-võrk välja?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"Kui see on välja lülitatud, ei pruugi teatud nuti-koduseadmed ja teenused ootuspäraselt toimida. Kas soovite jätkata?"</string>
+    <!-- no translation found for wifi_settings_thread_network_energy_title (1975654727631313381) -->
+    <skip />
+    <!-- no translation found for wifi_settings_thread_network_energy_message (6579289433006123263) -->
+    <skip />
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"Lülita välja"</string>
+    <!-- no translation found for wifi_settings_thread_network_button_change_energy_mode (6535896653472709387) -->
+    <skip />
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"WiFi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Ühendage võrguga"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Võrgudiagnostika"</string>
@@ -690,6 +701,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Suure kontrastsusega tekst"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Paks tekst"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Põrkeklahvid"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Valige eelistatud ajastus"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Pult ignoreerib korduvaid klahvivajutusi"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Ignoreerige kogemata tehtud kiireid ja korduvaid nupuvajutusi. Saate reguleerida ajavahemikku, mille jooksul vajutusi ignoreeritakse"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Ajastus: vaikeseade"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Pärast esialgset vajutamist vaikevahemiku korduvate vajutuste ignoreerimine"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Ajastus: 0,5 sekundit"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Ajavahemiku reguleerimine 0,5 sekundile, mille jooksul korduvaid klahvivajutusi ignoreeritakse"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Ajastus: 1 sekund"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Ajavahemiku reguleerimine 1 sekundile, mille jooksul korduvaid klahvivajutusi ignoreeritakse"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Ajastus: 2 sekundit"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Ajavahemiku reguleerimine 2 sekundile, mille jooksul korduvaid klahvivajutusi ignoreeritakse"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Värvide korrigeerimine"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Kasuta värvide korrigeerimist"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Värvirežiim"</string>
@@ -718,6 +741,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Valige, kui kaua kuvatakse ajutisi sõnumeid, milles teil palutakse midagi teha"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Ajalõpp: 2–3 sekundit"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Määrab vaikeaja ekraanil kuvatavatele toimingutele reageerimiseks (2–3 s)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Klahvi korduse viivitus"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Kohandage viivitust, mille järel korduvad tähemärgid pärast klahvi allhoidmist kuvatakse"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Kohandage klahvi kordumisele eelnevat viivitust"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Klahvi kordus"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Viivitus enne kordamist"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Kohandage seda, kui kaua peate nuppu all hoidma, enne kui see korduma hakkab"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Kohandage nupu hoidmise kestust, pärast mida hakkab toiming korduma"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Kordusmäär"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Määrake, kui kiiresti korduvad tähemärgid klahvi allhoidmisel sisestatakse"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Vaikeseade"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Juhtige, kui kiiresti nupp pärast esialgset viivitust kordub"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Subtiitrid"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Video subtiitrite teksti ülekatte seaded"</string>
     <string name="captions_display" msgid="2598662495450633375">"Kuvamine"</string>
@@ -1028,7 +1062,7 @@
     <string name="device_apps_permissions" msgid="8421323706003063878">"Rakenduste load"</string>
     <string name="app_permissions_group_summary" msgid="6818210080117761117">"<xliff:g id="COUNT_0">%1$d</xliff:g> <xliff:g id="COUNT_1">%2$d</xliff:g>-st rakendusest on lubatud"</string>
     <string name="bluetooth_permission_request" msgid="7788089036741496993">"Bluetoothi loa taotlus"</string>
-    <string name="security_patch" msgid="8924741264829495392">"Android TV OS-i turvapaiga tase"</string>
+    <string name="security_patch" msgid="8924741264829495392">"Android TV OS-i turbepaiga tase"</string>
     <string name="choose_application" msgid="2375936782103669988">"Rakenduse valimine"</string>
     <string name="experimental_preference" msgid="3982593252210557436">"(Katseline)"</string>
     <string name="reboot_safemode_action" msgid="2862127510492131128">"Taaskäivita ohutusrežiimis"</string>

@@ -92,6 +92,14 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Scanning always available"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Let Google\'s location service and other apps scan for networks, even when Wi-Fi is off"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Scanning always available, Let Google\'s location service and other apps scan for networks, even when Wi-Fi is off"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"Thread network"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"Thread network connects Thread-enabled smart home devices locally, boosting efficiency and performance.\n\nWhen turned on, this device will create or join your Thread network. Credentials will be uploaded to the cloud privately for easier setup of your future smart home devices.\n\nWhen turned off, this device will no longer be able to communicate with other devices on your Thread network. Certain smart home devices and services may not work as expected.\n\nLearn more at g.co/tv/thread"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"Turn off Thread network?"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"If turned off, certain smart home devices and services may not work as expected. Would you like to proceed?"</string>
+    <string name="wifi_settings_thread_network_energy_title" msgid="1975654727631313381">"Turn on the Thread network?"</string>
+    <string name="wifi_settings_thread_network_energy_message" msgid="6579289433006123263">"Thread network requires Increased energy mode. Change energy mode to Increased first and then come back to turn on the Thread network."</string>
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"Turn off"</string>
+    <string name="wifi_settings_thread_network_button_change_energy_mode" msgid="6535896653472709387">"Change energy mode"</string>
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"Connect to network"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"Network diagnostics"</string>
@@ -690,6 +698,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"High-contrast text"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Bold text"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Bounce keys"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Choose preferred timing"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Remote ignores repeated key presses"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Ignore accidental rapid, repeated button presses. You can adjust the time interval within which presses are ignored"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Timing : Default"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Ignore repeated presses for default interval after initial press"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Timing : 0.5 seconds"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Adjust the timing interval below which repeated key presses are ignored to 0.5 seconds"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Timing : 1 second"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Adjust the timing interval below which repeated key presses are ignored to one second"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Timing : 2 seconds"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Adjust the timing interval below which repeated key presses are ignored to two seconds"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Colour correction"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Use colour correction"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Colour mode"</string>
@@ -718,6 +738,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Choose how long to show temporary messages that ask you to take action"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Timing: 2–3 seconds"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Sets default amount of time to respond to on-screen actions (2–3 seconds)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Key repeat delay"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Configure the delay before repeated characters appear when a key is held down"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Adjust the delay before key repeat"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Key repeat"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Delay before repeat"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Customise how long you can hold a button before it starts repeating"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Customise duration of hold a button after which it starts repeating"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Repeat rate"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Set how fast repeated characters are entered when a key is held down"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Default"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Control how quickly button repeats after initial delay"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Captions"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Settings for closed captioning text overlay on video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Display"</string>

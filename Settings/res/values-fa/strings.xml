@@ -76,7 +76,7 @@
     <string name="last_synced" msgid="8371967816955123864">"‫زمان آخرین همگام‌سازی <xliff:g id="TIME">%1$s</xliff:g>"</string>
     <string name="sync_disabled" msgid="6652778349371079140">"غیرفعال"</string>
     <string name="account_remove" msgid="8456848988853890155">"حذف کردن حساب"</string>
-    <string name="account_remove_failed" msgid="5654411101098531690">"حذف حساب ممکن نیست"</string>
+    <string name="account_remove_failed" msgid="5654411101098531690">"برداشتن حساب ممکن نیست"</string>
     <!-- no translation found for sync_item_title (5884138264243772176) -->
     <skip />
     <string name="sync_one_time_sync" msgid="1665961083810584134">"همگام‌سازی در این لحظه<xliff:g id="LAST_SYNC_TIME">
@@ -92,6 +92,17 @@
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"اسکن کردن همیشه موجود باشد"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"به سرویس مکان Google و دیگر برنامه‌ها اجازه داده شود حتی زمانی‌که Wi-Fi خاموش است، شبکه‌ها را اسکن کنند"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"اسکن کردن همیشه موجود باشد؛ به سرویس مکان Google و دیگر برنامه‌ها اجازه داده می‌شود حتی زمانی‌که Wi-Fi خاموش است، شبکه‌ها را اسکن کنند"</string>
+    <string name="wifi_setting_thread_network" msgid="4625818815606838765">"شبکه Thread"</string>
+    <string name="wifi_setting_thread_network_context" msgid="4923925562131564561">"شبکه Thread به‌طور محلی به دستگاه‌های سازگار با Thread در خانه هوشمند متصل می‌شود و بازده و عملکرد را تقویت می‌کند.\n\nهنگام روشن بودن، این دستگاه شبکه Thread ایجاد می‌کند یا به آن می‌پیوندد. برای راه‌اندازی آسان‌تر دستگاه‌های بعدی در خانه هوشمند، اطلاعات اعتباری به‌طور محرمانه در فضای ابری بارگذاری خواهد شد.\n\nهنگام خاموش بودن، این دستگاه دیگر نمی‌تواند با سایر دستگاه‌ها در شبکه Thread ارتباط برقرار کند. برخی‌از سرویس‌ها و دستگاه‌های خانه هوشمند ممکن است عملکرد موردنظر را نداشته باشند.\n\nدر g.co/tv/thread اطلاعات بیشتری کسب کنید"</string>
+    <string name="wifi_settings_thread_network_confirmation_title" msgid="887749419272239361">"شبکه Thread خاموش شود؟"</string>
+    <string name="wifi_settings_thread_network_confirmation_message" msgid="6306673413406344419">"هنگام خاموش بودن، برخی‌از سرویس‌ها و دستگاه‌های خانه هوشمند ممکن است عملکرد موردنظر را نداشته باشند. مایلید ادامه دهید؟"</string>
+    <!-- no translation found for wifi_settings_thread_network_energy_title (1975654727631313381) -->
+    <skip />
+    <!-- no translation found for wifi_settings_thread_network_energy_message (6579289433006123263) -->
+    <skip />
+    <string name="wifi_settings_thread_network_confirmation_button_confirm" msgid="416625941953731814">"خاموش کردن"</string>
+    <!-- no translation found for wifi_settings_thread_network_button_change_energy_mode (6535896653472709387) -->
+    <skip />
     <string name="wifi_setting_enable_wifi" msgid="5276730445393952969">"Wi-Fi"</string>
     <string name="connectivity_hint_message" msgid="5638304246522516583">"اتصال به شبکه"</string>
     <string name="connectivity_network_diagnostics" msgid="4396132865849151854">"عیب‌یابی شبکه"</string>
@@ -300,10 +311,10 @@
     <string name="system_inputs" msgid="5552840337357572096">"ورودی‌ها"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"ورودی‌ها و دستگاه‌ها"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"کنترل سینمای خانگی"</string>
-    <string name="system_developer_options" msgid="8480844257066475479">"گزینه‌های برنامه‌نویسان"</string>
+    <string name="system_developer_options" msgid="8480844257066475479">"گزینه‌های توسعه‌دهندگان"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"خالی"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"میزان استفاده و عیب‌یابی"</string>
-    <string name="no_device_admins" msgid="4628974717150185625">"هیچ‌یک از برنامه‌‌های سرپرست دستگاه در دسترس نیستند"</string>
+    <string name="no_device_admins" msgid="4628974717150185625">"هیچ برنامه‌ سرپرست دستگاهی دردسترس نیست"</string>
     <string name="security_enable_widgets_disabled_summary" msgid="7678529948487939871">"توسط سرپرست غیرفعال شده"</string>
     <string name="disabled_by_administrator_summary" msgid="3420979957115426764">"دردسترس نیست"</string>
     <string name="manage_device_admin" msgid="5714217234035017983">"برنامه‌های سرپرست دستگاه"</string>
@@ -690,6 +701,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"نوشتار با کنتراست بالا"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"نوشتار پررنگ"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"نوسان کلیدها"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"زمان موردنظر را انتخاب کنید"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"کنترل از دور فشارهای تکراری کلید را نادیده می‌گیرد"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"فشارهای تصادفی سریع و تکراری دکمه نادیده گرفته می‌شود. می‌توانید فاصله زمانی مدنظر را که درطول آن فشارها نادیده گرفته می‌شود تنظیم کنید"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"زمان: پیش‌فرض"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"پس‌از فشار اولیه، فشارهای تکراری تا سپری شدن فاصله زمانی پیش‌فرض نادیده گرفته می‌شود"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"زمان : ۰٫۵ ثانیه"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"فاصله زمانی روی ۰٫۵ ثانیه تنظیم می‌شود تا فشارهای تکراری کلید در این فاصله نادیده گرفته شود"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"زمان : ۱ ثانیه"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"فاصله زمانی روی ۱ ثانیه تنظیم می‌شود تا فشارهای تکراری کلید در این فاصله نادیده گرفته شود"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"زمان : ۲ ثانیه"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"فاصله زمانی روی ۲ ثانیه تنظیم می‌شود تا فشارهای تکراری کلید در این فاصله نادیده گرفته شود"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"تصحیح رنگ"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"استفاده از تصحیح رنگ"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"حالت رنگی"</string>
@@ -718,6 +741,17 @@
     <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"انتخاب کنید پیام‌های موقتی که از شما می‌خواهند اقدام کنید چه‌مدت نمایش داده شوند"</string>
     <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"زمان : ۲ تا ۳ ثانیه"</string>
     <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"مدت‌زمان پیش‌فرض را برای پاسخ به کنش‌های روی صفحه تنظیم می‌کند (۲ تا ۳ ثانیه)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"تأخیر در تکرار کردن کلید"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"پیکربندی کردن تأخیر پیش‌از ظاهر شدن نویسه‌های تکراری هنگام پایین نگه داشتن کلید"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"تنظیم کردن میزان تأخیر قبل‌از تکرار شدن کلید"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"تکرار کردن کلید"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"تأخیر پیش‌از تکرار"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"سفارشی‌سازی کردن مدت زمان نگه داشتن دکمه پیش‌از شروع شدن تکرار"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"سفارشی‌سازی کردن مدت زمان نگه داشتن دکمه که تکرار پس‌از آن شروع می‌شود"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"سرعت تکرار"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"تنظیم کردن سرعت وارد شدن نویسه‌های تکراری هنگام پایین نگه داشتن کلید"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"پیش‌فرض"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"کنترل کردن سرعت تکرار شدن دکمه بعداز تأخیر اولیه"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"زیرنویس"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"تنظیمات وضعیت متن زیرنویس روی ویدیو"</string>
     <string name="captions_display" msgid="2598662495450633375">"نمایش"</string>
@@ -804,7 +838,7 @@
     <string name="system_show_surface_updates" msgid="7680759813613585278">"نمایش به‌روزرسانی سطح"</string>
     <string name="system_window_animation_scale" msgid="685477540250939659">"مقیاس پویانمایی پنجره"</string>
     <string name="system_transition_animation_scale" msgid="7266380208347453619">"مقیاس پویانمایی انتقالی"</string>
-    <string name="system_animator_duration_scale" msgid="3829445237130423625">"مقیاس طول مدت انیماتور"</string>
+    <string name="system_animator_duration_scale" msgid="3829445237130423625">"مقیاس مدت پویانماساز"</string>
     <string name="system_strict_mode_enabled" msgid="7392183793064579588">"حالت شدید فعال شد"</string>
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"پردازش GPU نمایه"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"فعال کردن ردیابی"</string>
@@ -961,7 +995,7 @@
     <string name="device_apps_app_management_clear_default" msgid="4566187319647111484">"پاک کردن پیش‌فرض‌ها"</string>
     <string name="device_apps_app_management_clear_default_set" msgid="1649974109123107390">"راه‌اندازی این برنامه برای برخی کنش‌ها"</string>
     <string name="device_apps_app_management_clear_default_none" msgid="5935252537185381597">"پیش‌فرضی تنظیم نشده است"</string>
-    <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"پاک کردن حافظه پنهان"</string>
+    <string name="device_apps_app_management_clear_cache" msgid="2678301483598915479">"پاک کردن حافظه نهان"</string>
     <string name="device_apps_app_management_notifications" msgid="1687529279264810317">"اعلان‌ها"</string>
     <string name="device_apps_app_management_licenses" msgid="4809737266551899869">"منبع شخص ثالث"</string>
     <string name="device_apps_app_management_permissions" msgid="4951820230491375037">"اجازه‌ها"</string>
@@ -1104,7 +1138,7 @@
     <string name="admin_profile_owner_message" msgid="5729169873349157622">"سرپرستتان می‌تواند بر برنامه‌ها و داده‌های مرتبط با این نمایه کاری (ازجمله تنظیمات، اجازه‌ها، دسترسی شرکتی، فعالیت شبکه و اطلاعات مکان دستگاه) نظارت داشته باشد و آن‌ها را مدیریت کنید."</string>
     <string name="admin_profile_owner_user_message" msgid="6431405126322617268">"سرپرستتان می‌تواند بر برنامه‌ها و داده‌های مرتبط با این کاربر (ازجمله تنظیمات، اجازه‌ها، دسترسی شرکتی، فعالیت شبکه و اطلاعات مکان دستگاه) نظارت داشته باشد و آن‌ها را مدیریت کنید."</string>
     <string name="admin_device_owner_message" msgid="1935507216776040907">"سرپرستتان می‌تواند بر برنامه‌ها و داده‌های مرتبط با این دستگاه (ازجمله تنظیمات، اجازه‌ها، دسترسی شرکتی، فعالیت شبکه و اطلاعات مکان دستگاه) نظارت داشته باشد و آن‌ها را مدیریت کنید."</string>
-    <string name="remove_managed_profile_label" msgid="8950011141359605612">"حذف نمایه کار"</string>
+    <string name="remove_managed_profile_label" msgid="8950011141359605612">"حذف نمایه کاری"</string>
     <string name="active_device_admin_msg" msgid="185537304726228624">"برنامه سرپرست دستگاه"</string>
     <string name="remove_device_admin" msgid="2623866073546295104">"غیرفعال کردن این برنامه سرپرست دستگاه"</string>
     <string name="uninstall_device_admin" msgid="6301368408620948266">"حذف نصب برنامه"</string>
