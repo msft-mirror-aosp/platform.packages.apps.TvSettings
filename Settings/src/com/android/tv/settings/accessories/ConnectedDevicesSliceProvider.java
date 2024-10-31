@@ -62,8 +62,8 @@ import android.util.Log;
 
 import androidx.annotation.IntegerRes;
 import androidx.core.graphics.drawable.IconCompat;
-import androidx.slice.Slice;
-import androidx.slice.SliceProvider;
+import com.android.tv.twopanelsettings.slices.compat.Slice;
+import com.android.tv.twopanelsettings.slices.compat.SliceProvider;
 
 import com.android.settingslib.RestrictedLockUtils;
 import com.android.settingslib.RestrictedLockUtilsInternal;
@@ -183,9 +183,6 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
         if (DEBUG) {
             Log.d(TAG, "onBindSlice: " + sliceUri);
         }
-        if (getBluetoothDevices().isEmpty()) {
-            sliceUri = ConnectedDevicesSliceUtils.GENERAL_SLICE_URI;
-        }
         StrictMode.ThreadPolicy oldPolicy = StrictMode.getThreadPolicy();
         try {
             // Prevent StrictMode from throwing on access to shared preferences.
@@ -250,7 +247,7 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
         updateOfficialRemoteSettings(psb);
         updateFmr(psb);
         updateBacklight(psb);
-        return psb.build();
+        return psb.buildForSettings();
     }
 
     // The slice page that shows detail information of a particular device.
@@ -288,17 +285,13 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
             intent.putExtra(EXTRA_TOGGLE_STATE, !isActive);
             intent.putExtra(KEY_EXTRAS_DEVICE, device);
 
-            PendingIntent pendingIntent = PendingIntent.getBroadcast(context,
-                    ACTIVE_AUDIO_OUTPUT_INTENT_REQUEST_CODE, intent,
-                    PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT);
-
             // Update set/unset active audio output preference
             RowBuilder activeAudioOutputPref = new RowBuilder()
                     .setKey(KEY_TOGGLE_ACTIVE_AUDIO_OUTPUT)
                     .setTitle(getString(R.string.bluetooth_toggle_active_audio_output_title))
                     .setActionId(
                             TvSettingsEnums.CONNECTED_SLICE_DEVICE_ENTRY_TOGGLE_ACTIVE_AUDIO_OUTPUT)
-                    .addSwitch(pendingIntent,
+                    .addSwitch(intent,
                             context.getText(R.string.bluetooth_toggle_active_audio_output_title),
                             isActive);
 
@@ -332,17 +325,11 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
                 );
                 i.putExtras(extras);
                 i.putExtra(KEY_EXTRAS_DEVICE, device);
-                PendingIntent pendingIntent = PendingIntent.getActivity(
-                        context, 3, i,
-                        PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT);
                 Intent followUpIntent =
                         new Intent(context, ConnectedDevicesSliceBroadcastReceiver.class);
                 followUpIntent.putExtra(EXTRAS_SLICE_URI, sliceUri.toString());
-                PendingIntent followupIntent = PendingIntent.getBroadcast(
-                        context, 4, followUpIntent,
-                        PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT);
-                connectionActionPref.setPendingIntent(pendingIntent);
-                connectionActionPref.setFollowupPendingIntent(followupIntent);
+                connectionActionPref.setPendingIntent(i);
+                connectionActionPref.setFollowupPendingIntent(followUpIntent);
                 psb.addPreference(connectionActionPref);
             }
         }
@@ -366,16 +353,11 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
         i = new Intent(context, BluetoothActionActivity.class);
         i.putExtra(KEY_EXTRAS_DEVICE, device);
         i.putExtras(extras);
-        PendingIntent renamePendingIntent = PendingIntent.getActivity(
-                context, 5, i, PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT);
 
         Intent followUpIntent = new Intent(context, ConnectedDevicesSliceBroadcastReceiver.class);
         followUpIntent.putExtra(EXTRAS_SLICE_URI, sliceUri.toString());
-        PendingIntent renameFollowupIntent = PendingIntent.getBroadcast(
-                context, 6, followUpIntent,
-                PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT);
-        renamePref.setFollowupPendingIntent(renameFollowupIntent);
-        renamePref.setPendingIntent(renamePendingIntent);
+        renamePref.setFollowupPendingIntent(followUpIntent);
+        renamePref.setPendingIntent(i);
         psb.addPreference(renamePref);
 
         // Update "forget preference".
@@ -397,16 +379,11 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
         );
         i.putExtras(extras);
         i.putExtra(KEY_EXTRAS_DEVICE, device);
-        PendingIntent disconnectPendingIntent = PendingIntent.getActivity(
-                context, 7, i, PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT);
         followUpIntent = new Intent(context, ConnectedDevicesSliceBroadcastReceiver.class);
         followUpIntent.putExtra(EXTRAS_SLICE_URI, sliceUri.toString());
         followUpIntent.putExtra(EXTRAS_DIRECTION, DIRECTION_BACK);
-        PendingIntent forgetFollowupIntent = PendingIntent.getBroadcast(
-                context, 8, followUpIntent,
-                PendingIntent.FLAG_IMMUTABLE | PendingIntent.FLAG_UPDATE_CURRENT);
-        forgetPref.setPendingIntent(disconnectPendingIntent);
-        forgetPref.setFollowupPendingIntent(forgetFollowupIntent);
+        forgetPref.setPendingIntent(i);
+        forgetPref.setFollowupPendingIntent(followUpIntent);
         psb.addPreference(forgetPref);
 
         // Update "bluetooth device info preference".
@@ -416,7 +393,7 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
 
         infoPref.addInfoItem(getString(R.string.bluetooth_serial_number_label), deviceAddr);
         psb.addPreference(infoPref);
-        return psb.build();
+        return psb.buildForSettings();
     }
 
     private void updateBluetoothToggle(PreferenceSliceBuilder psb) {
@@ -450,13 +427,7 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
                             .setIconNeedsToBeProcessed(true)
                             .setTitle(getString(R.string.bluetooth_toggle_title))
                             .addSwitch(
-                                    AccessoryUtils.isBluetoothEnabled()
-                                            ? PendingIntent.getActivity(
-                                                    getContext(), 1, bluetoothToggleIntent,
-                                                    PendingIntent.FLAG_IMMUTABLE)
-                                            : PendingIntent.getBroadcast(
-                                                    getContext(), 2, bluetoothToggleIntent,
-                                                    PendingIntent.FLAG_IMMUTABLE),
+                                    bluetoothToggleIntent,
                                     AccessoryUtils.isBluetoothEnabled())
             );
         }
@@ -467,18 +438,14 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
                 RestrictedLockUtilsInternal.checkIfRestrictionEnforced(getContext(),
                         UserManager.DISALLOW_CONFIG_BLUETOOTH, UserHandle.myUserId());
         if (AccessoryUtils.isBluetoothEnabled()) {
-            PendingIntent pendingIntent;
+            Intent action;
             if (admin == null) {
-                Intent i = new Intent(ACTION_CONNECT_INPUT).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                pendingIntent = PendingIntent
-                        .getActivity(getContext(), 3, i, PendingIntent.FLAG_IMMUTABLE);
+                action = new Intent(ACTION_CONNECT_INPUT).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
             } else {
-                Intent intent = RestrictedLockUtils.getShowAdminSupportDetailsIntent(getContext(),
+                action = RestrictedLockUtils.getShowAdminSupportDetailsIntent(getContext(),
                         admin);
-                intent.putExtra(DevicePolicyManager.EXTRA_RESTRICTION,
+                action.putExtra(DevicePolicyManager.EXTRA_RESTRICTION,
                         UserManager.DISALLOW_CONFIG_BLUETOOTH);
-                pendingIntent = PendingIntent.getActivity(getContext(), 0, intent,
-                        PendingIntent.FLAG_IMMUTABLE);
             }
             psb.addPreference(new RowBuilder()
                     .setKey(KEY_PAIR_REMOTE)
@@ -487,7 +454,7 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
                     .setIcon(IconCompat.createWithResource(getContext(),
                             R.drawable.ic_baseline_add_24dp))
                     .setIconNeedsToBeProcessed(true)
-                    .setPendingIntent(pendingIntent)
+                    .setPendingIntent(action)
             );
         }
     }
@@ -642,8 +609,7 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
                     admin);
             intent.putExtra(DevicePolicyManager.EXTRA_RESTRICTION,
                     UserManager.DISALLOW_CONFIG_BLUETOOTH);
-            pref.setPendingIntent(PendingIntent.getActivity(getContext(), 0, intent,
-                    PendingIntent.FLAG_IMMUTABLE));
+            pref.setPendingIntent(intent);
         }
         return pref;
     }
@@ -707,26 +673,20 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
                     .setKey(FIND_MY_REMOTE_PHYSICAL_BUTTON_ENABLED_SETTING)
                     .setTitle(getString(R.string.find_my_remote_integration_title))
                     .setSubtitle(getString(R.string.find_my_remote_integration_hint))
-                    .addSwitch(
-                            PendingIntent.getBroadcast(
-                                    context, 0, intent, FLAG_IMMUTABLE | FLAG_UPDATE_CURRENT),
-                            !isButtonEnabled));
+                    .addSwitch(intent, !isButtonEnabled));
         }
 
-        PendingIntent pendingIntent = PendingIntent.getBroadcast(
-                context, 0,
-                new Intent(context, ConnectedDevicesSliceBroadcastReceiver.class)
+        Intent action = new Intent(context, ConnectedDevicesSliceBroadcastReceiver.class)
                         .setAction(ACTION_FIND_MY_REMOTE)
-                        .setFlags(FLAG_RECEIVER_FOREGROUND),
-                FLAG_IMMUTABLE | FLAG_UPDATE_CURRENT);
+                        .setFlags(FLAG_RECEIVER_FOREGROUND);
 
         psb.addPreference(new RowBuilder()
                 .setKey(ACTION_FIND_MY_REMOTE)
                 .setTitle(getString(R.string.find_my_remote_play_sound))
-                .setPendingIntent(pendingIntent)
+                .setPendingIntent(action)
                 .setIcon(IconCompat.createWithResource(context, R.drawable.ic_play_arrow))
                 .setIconNeedsToBeProcessed(true));
-        return psb.build();
+        return psb.buildForSettings();
     }
 
     /**
@@ -767,6 +727,6 @@ public class ConnectedDevicesSliceProvider extends SliceProvider implements
             psb.addPreference(backlightModeRow);
         }
 
-        return psb.build();
+        return psb.buildForSettings();
     }
 }
