@@ -452,14 +452,9 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
             if (restrictedPref == null) {
                 pref = new TvAccessPointPreference(accessPoint, themedContext, mUserBadgeCache,
                         false);
-                List<String> userRestrictions = new ArrayList<>();
-                userRestrictions.add(UserManager.DISALLOW_CONFIG_WIFI);
-                userRestrictions.add(UserManager.DISALLOW_ADD_WIFI_CONFIG);
                 restrictedPref = new RestrictedPreferenceAdapter(themedContext, pref,
-                        userRestrictions);
-                restrictedPref.setApSaved(accessPoint.isSaved());
+                        UserManager.DISALLOW_CONFIG_WIFI);
             } else {
-                restrictedPref.setApSaved(accessPoint.isSaved());
                 toRemove.remove(restrictedPref.getPreference());
                 pref = restrictedPref.getOriginalPreference();
             }
@@ -487,8 +482,7 @@ public class NetworkFragment extends SettingsPreferenceFragment implements
                             return false;
                         });
             }
-            pref.setVisible(!restrictedPref.isRestricted(UserManager.DISALLOW_CONFIG_WIFI)
-                    || accessPoint.isSaved());
+            pref.setVisible(!restrictedPref.isRestricted() || accessPoint.isSaved());
             pref.setOrder(index++);
             pref.setSummary(WifiUtils.getConnectionStatus(accessPoint.getWifiEntry()));
             restrictedPref.updatePreference();
