@@ -34,6 +34,11 @@
     <item msgid="5034242362688847963">"amahora 24"</item>
     <item msgid="940743686898651116">"Akusoze"</item>
   </string-array>
+  <string-array name="bounce_key_timeout_entries">
+    <item msgid="1353936388457765422">"Imizuzwana engu-0.5"</item>
+    <item msgid="5610264235282558145">"Umzuzwana o-1"</item>
+    <item msgid="1560952154506153896">"Imizuzwana emi-2"</item>
+  </string-array>
   <string-array name="device_energy_saver_attentive_timeout_entries">
     <item msgid="3361047879614054539">"amahora 4"</item>
     <item msgid="680279399507109560">"amahora 6"</item>
