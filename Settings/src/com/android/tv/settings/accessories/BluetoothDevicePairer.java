@@ -27,6 +27,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
 import android.hardware.input.InputManager;
+import android.media.tv.flags.Flags;
 import android.os.Handler;
 import android.os.Message;
 import android.os.SystemClock;
@@ -713,11 +714,28 @@ public class BluetoothDevicePairer {
                 return new BluetoothInputDeviceConnector(
                     mContext, mTarget, mHandler, mOpenConnectionCallback);
             case BluetoothClass.Device.Major.AUDIO_VIDEO:
-                return new BluetoothA2dpConnector(mContext, mTarget, mOpenConnectionCallback);
+                if (Flags.enableLeAudioUnicastUi() && isLeAudioDevice(mTarget)) {
+                    return new BluetoothLeAudioConnector(
+                      mContext, mTarget, mOpenConnectionCallback);
+                } else {
+                    return new BluetoothA2dpConnector(
+                      mContext, mTarget, mOpenConnectionCallback);
+                }
             default:
                 Log.d(TAG, "Unhandle device class: " + majorDeviceClass);
                 break;
         }
         return null;
+    }
+
+    /** Returns true if the BluetoothDevice is an LE Audio device, false otherwise. */
+    public boolean isLeAudioDevice(BluetoothDevice device) {
+        if (device != null) {
+            final BluetoothAdapter btAdapter = BluetoothAdapter.getDefaultAdapter();
+            if (btAdapter != null) {
+                return btAdapter.getActiveDevices(BluetoothProfile.LE_AUDIO).contains(device);
+            }
+        }
+        return false;
     }
 }
