@@ -505,6 +505,9 @@ public class BluetoothDevicePairer {
             }
         }
 
+        // cancel here to avoid rmt request and createBond at the same time
+        stopScanning();
+
         mNextStageTimestamp = SystemClock.elapsedRealtime() + delay;
         mHandler.sendEmptyMessageDelayed(MSG_PAIR, delay);
 
@@ -611,7 +614,6 @@ public class BluetoothDevicePairer {
     }
 
     private void startBonding() {
-        stopScanning();
         setStatus(STATUS_PAIRING);
         if (mTarget.getBondState() != BluetoothDevice.BOND_BONDED) {
             registerLinkStatusReceiver();
