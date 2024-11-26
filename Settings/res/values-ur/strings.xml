@@ -688,7 +688,7 @@
     <string name="accessibility_services_category_title" msgid="8813843874978910442">"سروسز"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"سروس کی ترتیبات"</string>
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
-    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"اعلی تناسب امتزاج والا ٹیکسٹ"</string>
+    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"زیادہ کنٹراسٹ والا ٹیکسٹ"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"بولڈ ٹیکسٹ"</string>
     <string name="bounce_key_title" msgid="8334672581038914983">"باؤنس کلیدیں"</string>
     <string name="bounce_key_description" msgid="8742025495500915588">"ترجیحی وقت کا انتخاب کریں"</string>

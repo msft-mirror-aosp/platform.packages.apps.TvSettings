@@ -588,7 +588,7 @@
     <string name="storage_wizard_migrate_progress_title" msgid="2623480667090826800">"Premještanje podataka na uređaj <xliff:g id="NAME">%1$s</xliff:g>…"</string>
     <string name="storage_wizard_migrate_progress_description" msgid="4023358325977284145">"Ovo može potrajati kratko. Nemojte uklanjati disk.\nNeke aplikacije neće ispravno raditi tokom premještanja."</string>
     <string name="storage_wizard_format_slow_title" msgid="7640229918512394316">"Čini se da je ovaj disk spor."</string>
-    <string name="storage_wizard_format_slow_summary" msgid="3674023258060474037">"Možete nastaviti, ali aplikacije premještene na ovu lokaciju mogu zastajkivati i prijenosi podataka mogu dugo trajati. Koristite brži disk za bolje performanse."</string>
+    <string name="storage_wizard_format_slow_summary" msgid="3674023258060474037">"Možete nastaviti, ali aplikacije premještene na ovu lokaciju mogu zastajkivati i prenosi podataka mogu dugo trajati. Koristite brži disk za bolje performanse."</string>
     <string name="storage_wizard_format_action" msgid="3275676687226857170">"Formatiraj"</string>
     <string name="storage_wizard_backup_apps_action" msgid="1402199004931596519">"Napravi sigurnosnu kopiju aplikacija"</string>
     <string name="storage_wizard_back_up_apps_title" msgid="6225663573896846937">"Aplikacije pohranjene na uređaju <xliff:g id="NAME">%1$s</xliff:g>"</string>
@@ -631,7 +631,7 @@
   </string-array>
   <string-array name="auto_date_time_ts_entries">
     <item msgid="1010003447137304123">"Koristi vrijeme koje definira mreža"</item>
-    <item msgid="5645263357181875427">"Koristi vrijeme koje definira prijenos"</item>
+    <item msgid="5645263357181875427">"Koristi vrijeme koje definira prenos"</item>
     <item msgid="5501503537181350884">"Isključeno"</item>
   </string-array>
     <string name="sensor_toggle_description" msgid="7415801459994303159">"Za sve aplikacije i usluge"</string>

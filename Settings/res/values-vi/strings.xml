@@ -693,7 +693,7 @@
     <string name="bounce_key_title" msgid="8334672581038914983">"Phím nảy"</string>
     <string name="bounce_key_description" msgid="8742025495500915588">"Chọn thời gian bạn muốn"</string>
     <string name="bounce_key_detailed" msgid="2422246064036507844">"Điều khiển từ xa bỏ qua các lần nhấn phím lặp lại"</string>
-    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Bỏ qua các lần vô tình nhấn nút nhanh và lặp lại. Bạn có thể điều chỉnh khoảng thời gian bỏ qua các lần nhấn"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Bỏ qua các lần vô tình nhấn nút nhanh và lặp lại. Bạn có thể điều chỉnh khoảng thời gian bỏ qua các lượt nhấn"</string>
     <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Thời gian: Mặc định"</string>
     <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Bỏ qua các lần nhấn lặp lại trong khoảng thời gian mặc định sau lần nhấn đầu tiên"</string>
     <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Thời gian: 0,5 giây"</string>
