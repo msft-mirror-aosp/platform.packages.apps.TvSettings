@@ -447,7 +447,7 @@
     <string name="wifi_short_password" msgid="7658809378390032385">"Zaporka Wi-Fi mreže je prekratka"</string>
     <string name="wifi_captive_portal" msgid="8262150024660339529">"Potrebna je prijava"</string>
     <string name="wifi_setting_header_other_options" msgid="217382325707026836">"Ostale opcije"</string>
-    <string name="wifi_setting_see_all" msgid="5048103047976316675">"Pokaži sve"</string>
+    <string name="wifi_setting_see_all" msgid="5048103047976316675">"Prikaži sve"</string>
     <string name="wifi_setting_see_fewer" msgid="8585364493300703467">"Prikaži manje"</string>
     <string name="wifi_setting_available_networks" msgid="2096957819727319750">"Dostupne mreže"</string>
     <string name="wifi_setting_other_options_add_network" msgid="6490215784178866978">"Dodajte novu mrežu"</string>
@@ -827,7 +827,7 @@
     <string name="system_show_surface_updates" msgid="7680759813613585278">"Prikazivanje ažuriranja površine"</string>
     <string name="system_window_animation_scale" msgid="685477540250939659">"Brzina animacija prozora"</string>
     <string name="system_transition_animation_scale" msgid="7266380208347453619">"Brzina animacija prijelaza"</string>
-    <string name="system_animator_duration_scale" msgid="3829445237130423625">"Trajanje animatora"</string>
+    <string name="system_animator_duration_scale" msgid="3829445237130423625">"Brzina generiranja animacija"</string>
     <string name="system_strict_mode_enabled" msgid="7392183793064579588">"Omogućen strogi način"</string>
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"Profil GPU prikazivanja"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"Omogući tragove"</string>

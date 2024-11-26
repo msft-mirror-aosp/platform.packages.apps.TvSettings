@@ -244,9 +244,9 @@
     <string name="accessory_connected" msgid="5229574480869175180">"जोडिएको"</string>
     <string name="accessory_change_name" msgid="6493717176878500683">"नाम परिवर्तन गर्नुहोस्"</string>
     <string name="accessory_change_name_title" msgid="451188562035392238">"यस सहायक उपकरणको कुनै नयाँ नाम हाल्नुहोस्"</string>
-    <string name="accessories_add_accessibility_title" msgid="1300294413423909579">"ब्लुटुथबाट सहायक उपकरणसँग जोडा बनाउने प्रक्रिया।"</string>
+    <string name="accessories_add_accessibility_title" msgid="1300294413423909579">"ब्लुटुथबाट सहायक उपकरणसँग कनेक्ट गर्ने प्रक्रिया।"</string>
     <string name="accessories_add_title" msgid="7704824893011194433">"चीजहरूको लागि खोजिँदै छ..."</string>
-    <string name="accessories_add_bluetooth_inst" msgid="2508151218328384366">"ब्लुटुथ चल्ने यन्त्रहरूसँग जोडा बनाउनुअघि ती यन्त्रहरूमा जोडा बनाउने मोड अन गरिएको छ भन्ने कुरा सुनिश्चित गर्नुहोस्।"</string>
+    <string name="accessories_add_bluetooth_inst" msgid="2508151218328384366">"ब्लुटुथ चल्ने यन्त्रहरूसँग जोडा बनाउनुअघि ती यन्त्रहरूमा कनेक्ट गर्ने मोड अन गरिएको छ भन्ने कुरा सुनिश्चित गर्नुहोस्।"</string>
     <string name="accessories_autopair_msg" msgid="2501824457418285019">"उपकरण फेला परेको थिएन र स्वचालित रूपमा <xliff:g id="COUNTDOWN">%1$s</xliff:g> सेकेन्डमा पेयर हुने छ"</string>
     <string name="error_action_not_supported" msgid="5377532621386080296">"यो कार्य समर्थित छैन"</string>
     <string name="bluetooth_pairing_request" msgid="6120176967230348092">"ब्लुटुथ जोडा बाँध्ने अनुरोध"</string>

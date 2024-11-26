@@ -261,7 +261,7 @@
     <string name="bluetooth_device_connected_toast" msgid="1896195197089204806">"%1$s u lidh"</string>
     <string name="bluetooth_device_disconnected_toast" msgid="7459239447363156499">"%1$s u shkëput"</string>
     <string name="connected_devices_slice_pref_title" msgid="6761921505544005991">"Telekomandat dhe aksesorët"</string>
-    <string name="bluetooth_toggle_title" msgid="3808904783456336104">"Bluetooth"</string>
+    <string name="bluetooth_toggle_title" msgid="3808904783456336104">"Bluetooth-i"</string>
     <string name="bluetooth_toggle_confirmation_dialog_title" msgid="3906746631391295717">"Çaktivizo Bluetooth-in"</string>
     <string name="bluetooth_toggle_confirmation_dialog_summary" msgid="9017044450625172698">"Nuk do të mund të qasesh tek \"Asistenti i Google\" nga telekomanda jote ndërkohë që Bluetooth-i është joaktiv."</string>
     <string name="bluetooth_pair_accessory" msgid="5508750142754420984">"Çifto aksesorin"</string>
