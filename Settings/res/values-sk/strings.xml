@@ -254,7 +254,7 @@
     <string name="bluetooth_enter_pin_msg" msgid="8905524093007140634">"Párovanie so zariadením: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;Zadajte požadovaný kód PIN zariadenia:"</string>
     <string name="bluetooth_enter_passkey_msg" msgid="889584097447402492">"Párovanie so zariadením: &lt;b&gt;<xliff:g id="DEVICE_NAME">%1$s</xliff:g>&lt;/b&gt;, &lt;br&gt;Zadajte požadovaný prístupový kľúč zariadenia:"</string>
     <string name="bluetooth_pin_values_hint" msgid="6237371515577342950">"Obvykle 0000 alebo 1234"</string>
-    <string name="bluetooth_pair" msgid="2410285813728786067">"Párovať"</string>
+    <string name="bluetooth_pair" msgid="2410285813728786067">"Spárovať"</string>
     <string name="bluetooth_cancel" msgid="4415185529332987034">"Zrušiť"</string>
     <string name="bluetooth_device_connected_toast" msgid="1896195197089204806">"%1$s – pripojené"</string>
     <string name="bluetooth_device_disconnected_toast" msgid="7459239447363156499">"%1$s – odpojené"</string>
