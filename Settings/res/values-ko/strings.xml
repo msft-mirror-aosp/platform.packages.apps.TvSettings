@@ -24,8 +24,8 @@
     <string name="general_action_no" msgid="674735073031386948">"아니요"</string>
     <string name="action_on_title" msgid="1074972820237738324">"사용"</string>
     <string name="action_off_title" msgid="3598665702863436597">"사용 안함"</string>
-    <string name="action_on_description" msgid="9146557891514835767">"사용"</string>
-    <string name="action_off_description" msgid="1368039592272701910">"사용 안함"</string>
+    <string name="action_on_description" msgid="9146557891514835767">"켜짐"</string>
+    <string name="action_off_description" msgid="1368039592272701910">"꺼짐"</string>
     <string name="agree" msgid="8155497436593889753">"동의"</string>
     <string name="disagree" msgid="7402998517682194430">"동의 안함"</string>
     <string name="enabled" msgid="5127188665060746381">"사용 설정됨"</string>
