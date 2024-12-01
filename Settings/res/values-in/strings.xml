@@ -270,7 +270,7 @@
     <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Mengontrol volume, daya, input di TV, penerima, dan soundbar"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Hubungkan"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Hubungkan ke %1$s"</string>
-    <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Putuskan koneksi"</string>
+    <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Berhenti hubungkan"</string>
     <string name="bluetooth_disconnect_confirm" msgid="1445977623973613581">"Putuskan hubungan dari %1$s"</string>
     <string name="bluetooth_rename_action_title" msgid="4200419902722729907">"Ganti nama"</string>
     <string name="bluetooth_rename" msgid="7791922876280337194">"Mengganti nama perangkat yang terhubung"</string>
@@ -278,7 +278,7 @@
     <string name="bluetooth_forget_confirm" msgid="5175414848391021666">"Lupakan %1$s"</string>
     <string name="bluetooth_serial_number_label" msgid="6639294603220209971">"Alamat Bluetooth"</string>
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Terhubung"</string>
-    <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Terputus"</string>
+    <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Tidak terhubung"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Anda tidak memiliki izin untuk mengubah setelan Bluetooth."</string>
     <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Gunakan untuk audio TV"</string>
     <string name="send_feedback" msgid="936698637869795473">"Kirim masukan"</string>

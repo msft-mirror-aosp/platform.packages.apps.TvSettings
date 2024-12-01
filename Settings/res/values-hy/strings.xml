@@ -102,7 +102,7 @@
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Ցուցադրել համակարգի հավելվածները"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Տեղադրված հավելվածներ"</string>
     <string name="all_apps_other" msgid="4420174882983813158">"Համակարգի հավելվածներ"</string>
-    <string name="all_apps_disabled" msgid="2776041242863791053">"Անջատած հավելվածներ"</string>
+    <string name="all_apps_disabled" msgid="2776041242863791053">"Անջատված հավելվածներ"</string>
     <string name="device_daydream" msgid="2631191946958113220">"Էկրանապահ"</string>
     <string name="device_display" msgid="244634591698925025">"Էկրան"</string>
     <string name="device_display_sound" msgid="7399153506435649193">"Էկրան և ձայն"</string>
