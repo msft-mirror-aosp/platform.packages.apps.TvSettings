@@ -29,9 +29,11 @@ import static android.app.slice.Slice.HINT_TITLE;
 import static android.app.slice.Slice.HINT_TTL;
 import static android.app.slice.Slice.SUBTYPE_CONTENT_DESCRIPTION;
 import static android.app.slice.Slice.SUBTYPE_LAYOUT_DIRECTION;
+import static android.app.slice.SliceItem.FORMAT_BUNDLE;
 import static android.app.slice.SliceItem.FORMAT_IMAGE;
 import static android.app.slice.SliceItem.FORMAT_INT;
 import static android.app.slice.SliceItem.FORMAT_TEXT;
+
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.BUTTONSTYLE;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_ACTION_ID;
 import static com.android.tv.twopanelsettings.slices.SlicesConstants.EXTRA_ADD_INFO_STATUS;
@@ -48,11 +50,14 @@ import static com.android.tv.twopanelsettings.slices.compat.builders.ListBuilder
 import static com.android.tv.twopanelsettings.slices.compat.core.SliceHints.SUBTYPE_MILLIS;
 
 import android.net.Uri;
+import android.os.Bundle;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
 import androidx.core.graphics.drawable.IconCompat;
 import androidx.core.util.Pair;
+
 import com.android.tv.twopanelsettings.slices.builders.PreferenceSliceBuilder.RowBuilder;
 import com.android.tv.twopanelsettings.slices.compat.Clock;
 import com.android.tv.twopanelsettings.slices.compat.Slice;
@@ -60,6 +65,7 @@ import com.android.tv.twopanelsettings.slices.compat.SliceItem;
 import com.android.tv.twopanelsettings.slices.compat.SliceSpec;
 import com.android.tv.twopanelsettings.slices.compat.SystemClock;
 import com.android.tv.twopanelsettings.slices.compat.builders.SliceAction;
+
 import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
@@ -90,6 +96,9 @@ public class PreferenceSliceBuilderImpl extends TemplateBuilderImpl {
   public static final String SUBTYPE_SEEKBAR_MIN = "SUBTYPE_SEEKBAR_MIN";
   public static final String SUBTYPE_SEEKBAR_MAX = "SUBTYPE_SEEKBAR_MAX";
   public static final String SUBTYPE_SEEKBAR_VALUE = "SUBTYPE_SEEKBAR_VALUE";
+  public static final String SUBTYPE_CLASSNAME = "SUBTYPE_CLASSNAME";
+  public static final String SUBTYPE_PROPERTIES = "SUBTYPE_PROPERTIES";
+
 
   /** */
   public PreferenceSliceBuilderImpl(Slice.Builder b, SliceSpec spec) {
@@ -235,6 +244,8 @@ public class PreferenceSliceBuilderImpl extends TemplateBuilderImpl {
     private SliceItem mInfoTitleIconItem;
     private SliceItem mInfoSummaryItem;
     private SliceItem mHasEndIconItem;
+    private SliceItem mClassNameItem;
+    private SliceItem mPropertiesItem;
 
     /** */
     public RowBuilderImpl(@NonNull PreferenceSliceBuilderImpl parent) {
@@ -338,6 +349,13 @@ public class PreferenceSliceBuilderImpl extends TemplateBuilderImpl {
       for (int i = 0; i < infoItems.size(); i++) {
         addInfoItem(infoItems.get(i).first, infoItems.get(i).second);
       }
+
+      for (RowBuilder childPreference : builder.getPreferences()) {
+        addPreference(childPreference);
+      }
+
+      setClassName(builder.getClassName());
+      setProperties(builder.getProperties());
     }
 
     /** */
@@ -568,6 +586,26 @@ public class PreferenceSliceBuilderImpl extends TemplateBuilderImpl {
       mContentDescr = description;
     }
 
+    public void setClassName(@Nullable String className) {
+      mClassNameItem = className != null
+              ? new SliceItem(className, FORMAT_TEXT, SUBTYPE_CLASSNAME, new String[0])
+              : null;
+    }
+
+    public void setProperties(@Nullable Bundle properties) {
+      mPropertiesItem = properties != null
+              ? new SliceItem(properties, FORMAT_BUNDLE, SUBTYPE_PROPERTIES, new String[0])
+              : null;
+    }
+
+    public void addPreference(RowBuilder childPreference) {
+      Slice.Builder sb = new Slice.Builder(getBuilder());
+      RowBuilderImpl impl = new RowBuilderImpl(sb);
+      impl.fillFrom(childPreference);
+      impl.getBuilder().addHints(HINT_LIST_ITEM);
+      getBuilder().addSubSlice(impl.build(), TYPE_PREFERENCE);
+    }
+
     /** */
     @Override
     public void apply(Slice.Builder b) {
@@ -652,6 +690,14 @@ public class PreferenceSliceBuilderImpl extends TemplateBuilderImpl {
       if (mFollowupAction != null) {
         Slice.Builder sb = new Slice.Builder(getBuilder()).addHints(HINT_TITLE, HINT_SHORTCUT);
         b.addSubSlice(mFollowupAction.buildSlice(sb), SUBTYPE_FOLLOWUP_INTENT);
+      }
+
+      if (mClassNameItem != null) {
+        b.addItem(mClassNameItem);
+      }
+
+      if (mPropertiesItem != null) {
+        b.addItem(mPropertiesItem);
       }
     }
   }
