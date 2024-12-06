@@ -24,10 +24,11 @@ import android.view.ContextThemeWrapper;
 
 import androidx.lifecycle.Observer;
 import androidx.preference.Preference;
-import androidx.slice.Slice;
-import androidx.slice.SliceItem;
-import androidx.slice.widget.ListContent;
-import androidx.slice.widget.SliceContent;
+
+import com.android.tv.twopanelsettings.slices.compat.Slice;
+import com.android.tv.twopanelsettings.slices.compat.SliceItem;
+import com.android.tv.twopanelsettings.slices.compat.widget.ListContent;
+import com.android.tv.twopanelsettings.slices.compat.widget.SliceContent;
 
 import java.util.List;
 
@@ -91,7 +92,7 @@ public class EmbeddedSlicePreferenceHelper implements Observer<Slice> {
         //  FlavorUtils
         // For now, put true here so IconNeedsToBeProcessed will be respected.
         mNewPref = SlicePreferencesUtil.getPreference(embeddedItem,
-                (ContextThemeWrapper) mContext, null, true);
+                (ContextThemeWrapper) mContext, null, true, null);
         if (mNewPref == null) {
             updateVisibility(false);
             return;
