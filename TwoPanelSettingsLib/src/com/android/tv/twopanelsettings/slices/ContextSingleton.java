@@ -16,13 +16,16 @@
 
 package com.android.tv.twopanelsettings.slices;
 
-import android.app.slice.SliceManager;
 import android.content.Context;
 import android.net.Uri;
 import android.util.ArrayMap;
 import android.util.Log;
 
+import androidx.lifecycle.Observer;
+
 import com.android.tv.twopanelsettings.slices.PreferenceSliceLiveData.SliceLiveDataImpl;
+import com.android.tv.twopanelsettings.slices.base.SliceManager;
+import com.android.tv.twopanelsettings.slices.compat.Slice;
 
 
 /**
@@ -61,6 +64,20 @@ public class ContextSingleton {
     }
 
     /**
+     * Register slice live data observer directly.
+     */
+    public void addSliceObserver(Context context, Uri uri, Observer<Slice> observer) {
+        getSliceLiveData(context, uri).observeForever(observer);
+    }
+
+    /**
+     * Unregister slice live data observer directly.
+     */
+    public void removeSliceObserver(Context context, Uri uri, Observer<Slice> observer) {
+        getSliceLiveData(context, uri).removeObserver(observer);
+    }
+
+    /**
      *  Grant full access to current package.
      */
     public void grantFullAccess(Context ctx, Uri uri) {
@@ -68,7 +85,7 @@ public class ContextSingleton {
             String currentPackageName = ctx.getApplicationContext().getPackageName();
             // Uri cannot be null here as SliceManagerService calls notifyChange(uri, null) in
             // grantPermissionFromUser.
-            ctx.getSystemService(SliceManager.class).grantPermissionFromUser(
+            SliceManager.from(ctx).grantPermissionFromUser(
                     uri, currentPackageName, true);
             mGivenFullSliceAccess = true;
         }
@@ -79,7 +96,7 @@ public class ContextSingleton {
      */
     public void grantFullAccess(Context ctx, String uri, String packageName) {
         try {
-            ctx.getSystemService(SliceManager.class).grantPermissionFromUser(
+            SliceManager.from(ctx).grantPermissionFromUser(
                     Uri.parse(uri), packageName, true);
         } catch (Exception e) {
             Log.e(TAG, "Cannot grant full access to " + packageName + " " + e);
