@@ -438,6 +438,18 @@ public class AppRestrictionsFragment extends SettingsPreferenceFragment implemen
         for (AppRestrictionsHelper.SelectableAppInfo app : mHelper.getVisibleApps()) {
             String packageName = app.packageName;
             if (packageName == null) continue;
+            try {
+                int enabledState = pm.getApplicationEnabledSetting(packageName);
+                if (enabledState == PackageManager.COMPONENT_ENABLED_STATE_DISABLED ||
+                        enabledState == PackageManager.COMPONENT_ENABLED_STATE_DISABLED_USER) {
+                    mHelper.setPackageSelected(packageName, false);
+                    continue;
+                }
+            } catch(IllegalArgumentException e) {
+                Log.e(TAG, "Package " + packageName + " is not found");
+                continue;
+            }
+
             final boolean isSettingsApp = packageName.equals(context.getPackageName());
             AppRestrictionsPreference p =
                     new AppRestrictionsPreference(getPreferenceManager().getContext());

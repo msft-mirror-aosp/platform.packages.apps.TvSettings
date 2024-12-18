@@ -47,6 +47,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.animation.AnimationUtils;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.HorizontalScrollView;
 import android.widget.TextView;
 
@@ -123,6 +124,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
     private Preference mFocusedPreference;
     private boolean mIsWaitingForUpdatingPreview = false;
     private AudioManager mAudioManager;
+    private InputMethodManager mInputMethodManager;
 
     private static final String DELAY_MS = "delay_ms";
     private static final String CHECK_SCROLL_STATE = "check_scroll_state";
@@ -192,6 +194,7 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
 
         updatePreviewPanelCreationDelayForLowRamDevice();
         mAudioManager = (AudioManager) getContext().getSystemService(Context.AUDIO_SERVICE);
+        mInputMethodManager = getContext().getSystemService(InputMethodManager.class);
     }
 
     private void updatePreviewPanelCreationDelayForLowRamDevice() {
@@ -271,9 +274,10 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
             }
         } else {
             // If there is no corresponding slice provider, thus the corresponding fragment is not
-            // created, return false to check the intent of the SlicePreference.
+            // created, return true so it won't be handled by onPreferenceTreeClick in
+            // PreferenceFragment, but instead onPreferenceFocused will handle it.
             if (pref instanceof SlicePreference) {
-                return false;
+                return true;
             }
             try {
                 Fragment fragment = Fragment.instantiate(getActivity(), pref.getFragment(),
@@ -757,6 +761,12 @@ public abstract class TwoPanelSettingsFragment extends Fragment implements
                     return false;
                 }
                 return back(true);
+            }
+
+            if (mInputMethodManager != null && mInputMethodManager.isAcceptingText()) {
+                // pass DPAD_LEFT/RIGHT events to the current editing widget. See b/315992084.
+                Log.d(TAG, "IME is active, event:" + event);
+                return false;
             }
 
             if (event.getAction() == KeyEvent.ACTION_DOWN

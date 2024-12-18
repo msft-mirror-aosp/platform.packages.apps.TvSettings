@@ -39,13 +39,15 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Dispensar sugestão"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Detecção de \"Ok Google\""</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Fale com o Google Assistente a qualquer momento"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (leitor de tela)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"O TalkBack é um recurso de acessibilidade de leitor de tela que ajuda pessoas com deficiência visual lendo em voz alta textos na tela, itens de menu e outros elementos. Ele também pode ser configurado para uso com o atalho de acessibilidade."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Dispositivo"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Preferências"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Controle remoto e acessórios"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"Pessoal"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Conectar à rede"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Adicionar uma conta"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Contas e login"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Contas e perfis"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Nenhuma conta"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# conta}one{# conta}other{# contas}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Serviços de mídia, Assistente, pagamentos"</string>
@@ -60,6 +62,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privacidade"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Configurações do dispositivo"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Configurações da conta"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Bloqueio do dispositivo"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistente"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Pagamento e compras"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Configurações do app"</string>
@@ -85,6 +88,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet conectada"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Nenhuma rede conectada"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"O Wi-Fi está desativado"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Desconecte a Ethernet para usar o Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Busca sempre ativada"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Permitir que o serviço de localização do Google e outros apps procurem redes, mesmo que o Wi-Fi esteja desligado"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Verificação sempre disponível: permitir que o Serviço de localização do Google e outros apps procurem redes, mesmo que o Wi-Fi esteja desativado"</string>
@@ -156,7 +160,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Ao ativar essa opção, o sistema vai alternar entre diferentes formatos de alcance dinâmico para usar o mesmo do conteúdo. Isso pode causar uma tela preta durante a troca de formato.\n\nClique em \"Configurações avançadas de tela\" para mais opções de alcance dinâmico."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Alcance dinâmico principal"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Conversão preferencial do sistema"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Deixar que o sistema gerencie a conversão de formato"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Deixar que o sistema gerencie a conversão de formato"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Quando essa opção for selecionada, o sistema vai determinar um alcance dinâmico adequado para a tela e converter o conteúdo a esse alcance conforme necessário."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Sempre corresponder ao formato do conteúdo"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Forçar a conversão"</string>
@@ -686,6 +690,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Texto em alto contraste"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Negrito"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Teclas de filtragem"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Escolha o intervalo de tempo de sua preferência"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"O controle remoto ignora pressionamentos repetidos de botões"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Ignora pressionamentos acidentais rápidos e repetidos de botões. Você pode ajustar o intervalo de tempo em que os pressionamentos são ignorados"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Tempo: padrão"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Ignora pressionamentos repetidos para o intervalo padrão após o pressionamento inicial"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Tempo: 0,5 segundo"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Ajuste o intervalo de tempo para 0,5 segundo, para que os pressionamentos repetidos do mesmo botão sejam ignorados"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Tempo: 1 segundo"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Ajuste o intervalo de tempo para 1 segundo, para que os pressionamentos repetidos do mesmo botão sejam ignorados"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Tempo: 2 segundos"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Ajuste o intervalo de tempo para 2 segundos, para que os pressionamentos repetidos do mesmo botão sejam ignorados"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Correção de cor"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Usar correção de cor"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Modo de cor"</string>
@@ -707,7 +723,24 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Atalho de acessibilidade"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Ativar o atalho de acessibilidade"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Serviço do atalho"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Acessibilidade do teclado"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Quando o atalho estiver ativado, pressione ao mesmo tempo o botão para voltar e o botão para baixo, por três segundos, para iniciar um recurso de acessibilidade."</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Tempo para agir (tempo limite de acessibilidade)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Ajuste a duração das mensagens que exigem uma ação"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Escolha por quanto tempo mostrar mensagens temporárias que solicitam uma ação"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Tempo: de 2 a 3 segundos"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Define o tempo padrão para responder a ações na tela (de 2 a 3 segundos)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Espera da repetição de teclas"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Configurar o tempo de espera para que os caracteres repetidos apareçam quando uma tecla é pressionada"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Ajuste a espera antes da repetição de uma tecla"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Repetição de teclas"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Atraso antes da repetição"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Personalize o tempo que um botão precisa ser pressionado antes de começar a repetir a ação"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Personalize a duração do ato de pressionar um botão até que a ação comece a se repetir"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Taxa de repetição"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Defina a velocidade de entrada de caracteres repetidos quando uma tecla é pressionada"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Padrão"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Controle a rapidez com que o botão se repete depois da espera inicial"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Legendas"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Configurações para sobreposição de texto de legenda no vídeo"</string>
     <string name="captions_display" msgid="2598662495450633375">"Exibir legendas"</string>
@@ -830,10 +863,10 @@
     <string name="enable_opengl_traces_none" msgid="4718084947494592040">"Nenhuma"</string>
   <string-array name="animation_scale_entries">
     <item msgid="5408992662476056082">"Animação desativada"</item>
-    <item msgid="6818290063799857019">"Escala da animação 0,5 x"</item>
-    <item msgid="8257959452691080724">"Escala da animação 1x"</item>
+    <item msgid="6818290063799857019">"Escala de animação 0,5 x"</item>
+    <item msgid="8257959452691080724">"Escala de animação 1x"</item>
     <item msgid="4781052272686018414">"Escala de animação 1,5 x"</item>
-    <item msgid="2272016945160227610">"Escala da animação 2x"</item>
+    <item msgid="2272016945160227610">"Escala de animação 2x"</item>
     <item msgid="5015441793276576312">"Escala de animação 5 x"</item>
     <item msgid="1290233583371556415">"Escala de animação 10 x"</item>
   </string-array>
@@ -931,6 +964,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Selecione \"<xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>\" para continuar."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Concluído"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Conectado"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Já conectada"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Salva"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versão <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Abrir"</string>
@@ -1131,6 +1165,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Energia"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Comportamento ao ligar"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Reiniciar"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televisão"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Código de pareamento Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Modos de energia"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Essas configurações afetam o dispositivo quando ele não está em uso"</string>
@@ -1140,6 +1175,12 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Encontrar meu controle remoto"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Toque um som para localizar o controle remoto do Google TV caso ele esteja perdido"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Há um botão no Google TV que você pode pressionar para tocar um som no controle remoto por 30 segundos. Isso só funciona com controles remotos do Google TV compatíveis.\n\nPara interromper o som, pressione qualquer botão no controle."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Quando o recurso Encontrar meu controle remoto estiver ativado, você poderá tocar um som para localizar o controle remoto do Google TV se ele estiver perdido."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Quando ativado, você pode usar o botão no seu dispositivo para tocar um som e encontrar o controle remoto. Quando desativado, o botão não vai funcionar. Você ainda poderá usar o recurso \"encontrar meu controle remoto\" por outros métodos."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Tocar som"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Modo luz de fundo"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Iluminação dos botões do controle remoto a cada pressionamento."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Em controles remotos do Google TV compatíveis, pressionar o botão ativa a luz de fundo."</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume do %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Você pode controlar o volume do Google Assistente no alto-falante %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Afeta apenas o volume no dispositivo %1$s, não na TV"</string>
 </resources>

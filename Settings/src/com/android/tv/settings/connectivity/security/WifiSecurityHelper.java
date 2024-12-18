@@ -18,6 +18,7 @@ package com.android.tv.settings.connectivity.security;
 
 import android.content.Context;
 import android.net.wifi.WifiConfiguration;
+import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 
 import androidx.fragment.app.FragmentActivity;
@@ -99,7 +100,7 @@ public class WifiSecurityHelper {
 
         if (passwordLength > 0)  {
             switch (getSecurity(context)) {
-                case WifiEntry.SECURITY_WEP:
+                case WifiInfo.SECURITY_TYPE_WEP:
                     // WEP-40, WEP-104, and 256-bit WEP (WEP-232?)
                     if ((passwordLength == 10 || passwordLength == 26 || passwordLength == 58)
                             && password.matches("[0-9A-Fa-f]*")) {
@@ -108,14 +109,14 @@ public class WifiSecurityHelper {
                         config.wepKeys[0] = '"' + password + '"';
                     }
                     break;
-                case WifiEntry.SECURITY_PSK:
+                case WifiInfo.SECURITY_TYPE_PSK:
                     if (password.matches("[0-9A-Fa-f]{64}")) {
                         config.preSharedKey = password;
                     } else {
                         config.preSharedKey = '"' + password + '"';
                     }
                     break;
-                case WifiEntry.SECURITY_SAE:
+                case WifiInfo.SECURITY_TYPE_SAE:
                     config.preSharedKey = '"' + password + '"';
                     break;
             }

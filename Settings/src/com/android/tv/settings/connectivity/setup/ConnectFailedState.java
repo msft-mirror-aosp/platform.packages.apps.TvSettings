@@ -110,10 +110,10 @@ public class ConnectFailedState implements State {
         public void onGuidedActionClicked(GuidedAction action) {
             if (action.getId() == ACTION_ID_TRY_AGAIN) {
                 mStateMachine.getListener()
-                        .onComplete(StateMachine.TRY_AGAIN);
+                        .onComplete(this, StateMachine.TRY_AGAIN);
             } else if (action.getId() == ACTION_ID_VIEW_AVAILABLE_NETWORK) {
                 mStateMachine.getListener()
-                        .onComplete(StateMachine.SELECT_WIFI);
+                        .onComplete(this, StateMachine.SELECT_WIFI);
             }
         }
 

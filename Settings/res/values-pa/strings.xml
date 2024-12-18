@@ -39,13 +39,15 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"ਸੁਝਾਅ ਖਾਰਜ ਕਰੋ"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"\"OK Google\" ਦੀ ਪਛਾਣ"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"ਕਿਸੇ ਵੇਲੇ ਵੀ ਆਪਣੀ Google Assistant ਨਾਲ ਗੱਲ ਕਰੋ"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"Talkback (ਸਕ੍ਰੀਨ ਰੀਡਰ)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack ਇੱਕ ਸਕ੍ਰੀਨ ਰੀਡਰ ਪਹੁੰਚਯੋਗਤਾ ਵਿਸ਼ੇਸ਼ਤਾ ਹੈ ਜੋ ਸਕ੍ਰੀਨ \'ਤੇ ਮੌਜੂਦ ਲਿਖਤ, ਮੀਨੂ ਆਈਟਮਾਂ ਅਤੇ ਹੋਰ ਤੱਤਾਂ ਨੂੰ ਉੱਚੀ ਅਵਾਜ਼ ਵਿੱਚ ਪੜ੍ਹ ਕੇ ਦ੍ਰਿਸ਼ਟੀ ਸੰਬੰਧੀ ਵਿਕਾਰ ਵਾਲੇ ਵਰਤੋਂਕਾਰਾਂ ਦੀ ਸਹਾਇਤਾ ਕਰਦੀ ਹੈ। ਪਹੁੰਚਯੋਗਤਾ ਸ਼ਾਰਟਕੱਟ ਨਾਲ ਵਰਤਣ ਲਈ ਵੀ ਇਸਦਾ ਸੈੱਟਅੱਪ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ।"</string>
     <string name="header_category_device" msgid="3023893663454705969">"ਡੀਵਾਈਸ"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"ਤਰਜੀਹਾਂ"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"ਰਿਮੋਟ ਅਤੇ ਐਕਸੈਸਰੀ"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"ਨਿੱਜੀ"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ਨੈੱਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕਰੋ"</string>
     <string name="add_an_account" msgid="2601275122685226096">"ਇੱਕ ਖਾਤਾ ਸ਼ਾਮਲ ਕਰੋ"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"ਖਾਤੇ ਅਤੇ ਸਾਈਨ-ਇਨ"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"ਖਾਤੇ ਅਤੇ ਪ੍ਰੋਫਾਈਲ"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"ਕੋਈ ਖਾਤੇ ਨਹੀਂ"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# ਖਾਤਾ}one{# ਖਾਤਾ}other{# ਖਾਤੇ}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"ਮੀਡੀਆ ਸੇਵਾਵਾਂ, Assistant, ਭੁਗਤਾਨ"</string>
@@ -60,6 +62,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"ਪਰਦੇਦਾਰੀ"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ਡੀਵਾਈਸ ਸੈਟਿੰਗਾਂ"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"ਖਾਤਾ ਸੈਟਿੰਗਾਂ"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ਡੀਵਾਈਸ ਲਾਕ"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ਭੁਗਤਾਨ ਅਤੇ ਖਰੀਦਾਂ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ਐਪ ਸੈਟਿੰਗਾਂ"</string>
@@ -85,6 +88,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"ਈਥਰਨੈੱਟ ਕਨੈਕਟ ਕੀਤਾ ਹੋਇਆ ਹੈ"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"ਕੋਈ ਨੈੱਟਵਰਕ ਕਨੈਕਟ ਨਹੀਂ ਕੀਤਾ ਹੋਇਆ ਹੈ"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"ਵਾਈ-ਫਾਈ ਬੰਦ ਹੈ"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"ਵਾਈ-ਫਾਈ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਈਥਰਨੈੱਟ ਦਾ ਪਲੱਗ ਕੱਢੋ"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"ਸਕੈਨਿੰਗ ਹਮੇਸ਼ਾਂ ਉਪਲਬਧ"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Google ਦੀ ਟਿਕਾਣਾ ਸੇਵਾ ਅਤੇ ਹੋਰ ਐਪਾਂ ਨੂੰ ਨੈੱਟਵਰਕਾਂ ਲਈ ਸਕੈਨ ਕਰਨ ਦਿਓ, ਭਾਵੇਂ ਵਾਈ-ਫਾਈ ਬੰਦ ਹੀ ਹੋਵੇ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"ਸਕੈਨਿੰਗ ਹਮੇਸ਼ਾਂ ਉਪਲਬਧ, Google ਦੀ ਟਿਕਾਣਾ ਸੇਵਾ ਅਤੇ ਹੋਰ ਐਪਾਂ ਨੂੰ ਨੈੱਟਵਰਕਾਂ ਲਈ ਸਕੈਨ ਕਰਨ ਦਿਓ, ਓਦੋਂ ਵੀ ਜਦੋਂ ਵਾਈ-ਫਾਈ ਬੰਦ ਹੋਵੇ"</string>
@@ -156,7 +160,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"ਇਹ ਵਿਕਲਪ ਚਾਲੂ ਹੋਣ \'ਤੇ, ਸਿਸਟਮ ਸਮੱਗਰੀ ਨਾਲ ਮੇਲ ਖਾਉਣ ਲਈ ਪਰਿਵਰਤਨਸ਼ੀਲ ਰੇਂਜ ਵਾਲੇ ਵੱਖ-ਵੱਖ ਫਾਰਮੈਟਾਂ ਵਿਚਾਲੇ ਸਵਿੱਚ ਕਰੇਗਾ। ਇਸ ਨਾਲ ਫਾਰਮੈਟ ਸਵਿੱਚ ਦੌਰਾਨ ਸਕ੍ਰੀਨ ਕਾਲੀ ਹੋ ਸਕਦੀ ਹੈ।\n\nਪਰਿਵਰਤਨਸ਼ੀਲ ਰੇਂਜ ਵਾਲੇ ਹੋਰ ਵਿਕਲਪਾਂ ਲਈ ਅਡਵਾਂਸ ਡਿਸਪਲੇ ਸੈਟਿੰਗਾਂ \'ਤੇ ਕਲਿੱਕ ਕਰੋ।"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"ਤਰਜੀਹੀ ਪਰਿਵਰਤਨਸ਼ੀਲ ਰੇਂਜ"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"ਸਿਸਟਮ-ਤਰਜੀਹੀ ਰੂਪਾਂਤਰਨ"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"ਸਿਸਟਮ ਨੂੰ ਫਾਰਮੈਟ ਰੂਪਾਂਤਰਨ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ ਦਿਓ"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"ਸਿਸਟਮ ਨੂੰ ਫਾਰਮੈਟ ਰੂਪਾਂਤਰਨ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰਨ ਦਿਓ"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"ਇਹ ਵਿਕਲਪ ਚੁਣਨ \'ਤੇ ਸਿਸਟਮ ਤੁਹਾਡੀ ਡਿਸਪਲੇ \'ਤੇ ਭੇਜੇ ਜਾਣ ਲਈ ਢੁਕਵੀਂ ਗਤੀਸ਼ੀਲ ਦਰ ਨਿਰਧਾਰਿਤ ਕਰੇਗਾ ਅਤੇ ਲੋੜ ਮੁਤਾਬਕ ਸਮੱਗਰੀ ਨੂੰ ਇਸ ਗਤੀਸ਼ੀਲ ਦਰ ਵਿੱਚ ਬਦਲੇਗਾ।"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ਸਮੱਗਰੀ ਦੇ ਫਾਰਮੈਟ ਨਾਲ ਹਮੇਸ਼ਾਂ ਮੇਲ ਖਾਂਦਾ ਹੈ"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"ਜ਼ਬਰਦਸਤੀ ਰੂਪਾਂਤਰਨ"</string>
@@ -296,7 +300,7 @@
     <string name="system_inputs" msgid="5552840337357572096">"ਇਨਪੁੱਟ"</string>
     <string name="system_inputs_devices" msgid="2158421111699829399">"ਇਨਪੁੱਟ ਅਤੇ ਡੀਵਾਈਸਾਂ"</string>
     <string name="system_home_theater_control" msgid="6228949628173590310">"ਹੋਮ ਥੀਏਟਰ ਕੰਟਰੋਲ"</string>
-    <string name="system_developer_options" msgid="8480844257066475479">"ਵਿਕਾਸਕਾਰ ਚੋਣਾਂ"</string>
+    <string name="system_developer_options" msgid="8480844257066475479">"ਵਿਕਾਸਕਾਰ ਵਿਕਲਪ"</string>
     <string name="accessibility_none" msgid="6355646833528306702">"ਕੋਈ ਨਹੀਂ"</string>
     <string name="system_diagnostic" msgid="1654842813331919958">"ਵਰਤੋਂ ਅਤੇ ਤਸ਼ਖੀਸ"</string>
     <string name="no_device_admins" msgid="4628974717150185625">"ਕੋਈ ਵੀ ਡੀਵਾਈਸ ਪ੍ਰਸ਼ਾਸਕ ਐਪਾਂ ਉਪਲਬਧ ਨਹੀਂ ਹਨ"</string>
@@ -686,6 +690,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"ਉੱਚ ਕੰਟ੍ਰਾਸਟ ਲਿਖਤ"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"ਬੋਲਡ ਲਿਖਤ"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"ਬਾਊਂਸ ਕੁੰਜੀਆਂ"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"ਤਰਜੀਹੀ ਟਾਈਮਿੰਗ ਚੁਣੋ"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"ਰਿਮੋਟ, ਕੁੰਜੀ ਨੂੰ ਵਾਰ-ਵਾਰ ਦਬਾਉਣ ਦੀ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਅਣਡਿੱਠ ਕਰਦਾ ਹੈ"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"ਅਣਜਾਣੇ ਵਿੱਚ ਤੇਜ਼ੀ ਨਾਲ ਅਤੇ ਵਾਰ-ਵਾਰ ਬਟਨ ਦੱਬਣ ਦੀਆਂ ਕਾਰਵਾਈਆਂ ਨੂੰ ਅਣਡਿੱਠ ਕਰੋ। ਤੁਹਾਡੇ ਕੋਲ ਉਸ ਸਮਾਂ ਮਿਆਦ ਨੂੰ ਵਿਵਸਥਿਤ ਕਰਨ ਦਾ ਵਿਕਲਪ ਹੈ ਜਿਸ ਦੌਰਾਨ ਬਟਨ ਦਬਾਉਣ \'ਤੇ ਕੋਈ ਕਾਰਵਾਈ ਨਹੀਂ ਹੁੰਦੀ"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"ਟਾਈਮਿੰਗ : ਪੂਰਵ-ਨਿਰਧਾਰਿਤ"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"ਪਹਿਲੀ ਵਾਰ ਬਟਨ ਦਬਾਉਣ ਤੋਂ ਬਾਅਦ, ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਅੰਤਰਾਲ ਲਈ ਵਾਰ-ਵਾਰ ਦਬਾਉਣ ਦੀ ਪ੍ਰਕਿਰਿਆ ਨੂੰ ਅਣਡਿੱਠ ਕਰੋ"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"ਟਾਈਮਿੰਗ : 0.5 ਸਕਿੰਟ"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"ਟਾਈਮਿੰਗ ਅੰਤਰਾਲ ਨੂੰ 0.5 ਸਕਿੰਟ \'ਤੇ ਵਿਵਸਥਿਤ ਕਰੋ, ਤਾਂ ਕਿ ਕੁੰਜੀ ਨੂੰ ਵਾਰ-ਵਾਰ ਦਬਾਉਣ \'ਤੇ ਉਸਨੂੰ ਅਣਡਿੱਠ ਕੀਤਾ ਜਾ ਸਕੇ"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"ਟਾਈਮਿੰਗ : 1 ਸਕਿੰਟ"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"ਟਾਈਮਿੰਗ ਅੰਤਰਾਲ ਨੂੰ 1 ਸਕਿੰਟ \'ਤੇ ਵਿਵਸਥਿਤ ਕਰੋ, ਤਾਂ ਕਿ ਕੁੰਜੀ ਨੂੰ ਵਾਰ-ਵਾਰ ਦਬਾਉਣ \'ਤੇ ਉਸਨੂੰ ਅਣਡਿੱਠ ਕੀਤਾ ਜਾ ਸਕੇ"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"ਟਾਈਮਿੰਗ : 2 ਸਕਿੰਟ"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"ਟਾਈਮਿੰਗ ਅੰਤਰਾਲ ਨੂੰ 2 ਸਕਿੰਟ \'ਤੇ ਵਿਵਸਥਿਤ ਕਰੋ, ਤਾਂ ਕਿ ਕੁੰਜੀ ਨੂੰ ਵਾਰ-ਵਾਰ ਦਬਾਉਣ \'ਤੇ ਉਸਨੂੰ ਅਣਡਿੱਠ ਕੀਤਾ ਜਾ ਸਕੇ"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"ਰੰਗ ਸੁਧਾਈ"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"ਰੰਗ ਸੁਧਾਈ ਵਰਤੋ"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"ਰੰਗ ਵਾਲਾ ਮੋਡ"</string>
@@ -707,7 +723,24 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"ਪਹੁੰਚਯੋਗਤਾ ਸ਼ਾਰਟਕੱਟ"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"ਪਹੁੰਚਯੋਗਤਾ ਸ਼ਾਰਟਕੱਟ ਨੂੰ ਯੋਗ ਬਣਾਓ"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"ਸ਼ਾਰਟਕੱਟ ਸੇਵਾ"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"ਕੀ-ਬੋਰਡ ਪਹੁੰਚਯੋਗਤਾ"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"ਸ਼ਾਰਟਕੱਟ ਚਾਲੂ ਹੋਣ \'ਤੇ, ਤੁਸੀਂ ਕੋਈ ਪਹੁੰਚਯੋਗਤਾ ਵਿਸ਼ੇਸ਼ਤਾ ਸ਼ੁਰੂ ਕਰਨ ਲਈ \'ਪਿੱਛੇ\' ਅਤੇ \'ਹੇਠਾਂ\' ਦੋਵਾਂ ਬਟਨਾਂ ਨੂੰ 3 ਸਕਿੰਟ ਤੱਕ ਦੱਬ ਸਕਦੇ ਹੋ।"</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"ਕਾਰਵਾਈ ਕਰਨ ਦਾ ਸਮਾਂ (ਪਹੁੰਚਯੋਗਤਾ ਦਾ ਸਮਾਂ ਸਮਾਪਤ)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"ਕਾਰਵਾਈ ਦੀ ਲੋੜ ਵਾਲੇ ਸੁਨੇਹਿਆਂ ਦੀ ਮਿਆਦ ਨੂੰ ਵਿਵਸਥਿਤ ਕਰੋ"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"ਚੁਣੋ ਕਿ ਤੁਹਾਨੂੰ ਕਾਰਵਾਈ ਕਰਨ ਲਈ ਕਹਿਣ ਵਾਲੇ ਅਸਥਾਈ ਸੁਨੇਹਿਆਂ ਨੂੰ ਕਿੰਨੀ ਦੇਰ ਤੱਕ ਦਿਖਾਉਣਾ ਹੈ"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"ਸਮਾਂ : 2–3 ਸਕਿੰਟ"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"ਇਸ ਨਾਲ ਸਕ੍ਰੀਨ ਕਾਰਵਾਈਆਂ ਦਾ ਜਵਾਬ ਦੇਣ ਲਈ ਪੂਰਵ-ਨਿਰਧਾਰਿਤ ਸਮਾਂ ਸੈੱਟ ਹੁੰਦਾ ਹੈ (2–3 ਸਕਿੰਟ)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"ਕੁੰਜੀ ਦੁਹਰਾਉਣ ਵਿਚਾਲੇ ਲੱਗਣ ਵਾਲਾ ਸਮਾਂ"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"ਇਸ ਚੀਜ਼ ਦਾ ਸੰਰੂਪਣ ਕਰੋ ਕਿ ਕੀ-ਬੋਰਡ ਦੇ ਕਿਸੇ ਬਟਨ ਨੂੰ ਦਬਾ ਕੇ ਰੱਖਣ \'ਤੇ, ਉਸਦੇ ਅੱਖਰ-ਚਿੰਨ੍ਹ ਨੂੰ ਦੁਹਰਾਉਣ ਵਿੱਚ ਕਿੰਨਾ ਸਮਾਂ ਲੱਗੇਗਾ"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"ਕੀ-ਬੋਰਡ ਦੇ ਅੱਖਰ-ਚਿੰਨ੍ਹ ਨੂੰ ਦੁਹਰਾਉਣ ਵਿੱਚ ਲੱਗਣ ਵਾਲੇ ਸਮੇਂ ਨੂੰ ਵਿਵਸਥਿਤ ਕਰੋ"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"ਕੁੰਜੀ ਦੁਹਰਾਉਣਾ"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"ਦੁਹਰਾਉਣ ਤੋਂ ਪਹਿਲਾਂ ਦੇਰੀ"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"ਕਿਸੇ ਬਟਨ ਨੂੰ ਦਬਾ ਕੇ ਰੱਖਣ ਦੇ ਉਸ ਸਮੇਂ ਨੂੰ ਵਿਉਂਤਬੱਧ ਕਰੋ ਜਿਸ ਦੌਰਾਨ ਬਟਨ ਨੂੰ ਦਬਾਉਣ \'ਤੇ ਉਹ ਅੱਖਰ-ਚਿੰਨ੍ਹ ਨੂੰ ਦੁਹਰਾਉਣਾ ਸ਼ੁਰੂ ਕਰ ਦਿੰਦਾ ਹੈ"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"ਬਟਨ ਨੂੰ ਦਬਾ ਕੇ ਰੱਖਣ ਦੀ ਉਸ ਮਿਆਦ ਨੂੰ ਵਿਉਂਤਬੱਧ ਕਰੋ ਜਿਸ ਦੌਰਾਨ ਬਟਨ ਨੂੰ ਦਬਾਉਣ \'ਤੇ ਉਹ ਅੱਖਰ-ਚਿੰਨ੍ਹ ਦੁਹਰਾਇਆ ਜਾਵੇਗਾ"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"ਦੁਹਰਾਉਣ ਦੀ ਦਰ"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"ਦੇਖੋ ਕਿ ਕਿਸੇ ਬਟਨ ਨੂੰ ਦਬਾ ਕੇ ਰੱਖਣ ਨਾਲ, ਉਸਦੇ ਅੱਖਰ-ਚਿੰਨ੍ਹ ਨੂੰ ਕਿੰਨੀ ਤੇਜ਼ੀ ਨਾਲ ਦੁਹਰਾਇਆ ਜਾ ਸਕਦਾ ਹੈ"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"ਪੂਰਵ-ਨਿਰਧਾਰਿਤ"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"ਇਸ ਚੀਜ਼ ਨੂੰ ਕੰਟਰੋਲ ਕਰੋ ਕਿ ਸ਼ੁਰੂਆਤੀ ਦੇਰੀ ਤੋਂ ਬਾਅਦ ਬਟਨ ਕਿੰਨੀ ਜਲਦੀ ਅੱਖਰ-ਚਿੰਨ੍ਹ ਨੂੰ ਦੁਹਰਾਉਂਦਾ ਹੈ"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"ਸੁਰਖੀਆਂ"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ਵੀਡੀਓ ਫ਼ਾਈਲ \'ਤੇ ਬੰਦ ਸੁਰਖੀਆਂ ਦੇਣ ਵਾਲੇ ਟੈਕਸਟ ਓਵਰਲੇ ਲਈ ਸੈਟਿੰਗਾਂ"</string>
     <string name="captions_display" msgid="2598662495450633375">"ਡਿਸਪਲੇ"</string>
@@ -931,6 +964,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ਜਾਰੀ ਰੱਖਣ ਲਈ <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ਨੂੰ ਚੁਣੋ।"</string>
     <string name="label_done_key" msgid="8576286462300373440">"ਹੋ ਗਿਆ"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"ਸਫਲਤਾਪੂਰਵਕ ਕਨੈਕਟ ਹੋਇਆ"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"ਪਹਿਲਾਂ ਤੋਂ ਕਨੈਕਟ ਹੈ"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"ਸਫਲਤਾਪੂਰਵਕ ਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"ਰੂਪ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"ਖੋਲ੍ਹੋ"</string>
@@ -1131,6 +1165,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"ਪਾਵਰ ਅਤੇ ਊਰਜਾ"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"ਪਾਵਰ ਚਾਲੂ ਹੋਣ \'ਤੇ ਵਰਤਾਅ"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"ਰੀਸੈੱਟ ਕਰੋ"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"ਟੈਲੀਵਿਜ਼ਨ"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"ਈਥਰਨੈੱਟ ਜੋੜਾਬੱਧਕਰਨ ਕੋਡ"</string>
     <string name="energy_modes" msgid="1331693860386361744">"ਊਰਜਾ ਮੋਡ"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"ਡੀਵਾਈਸ ਵਰਤੋਂ ਵਿੱਚ ਨਾ ਹੋਣ \'ਤੇ ਇਹ ਸੈਟਿੰਗਾਂ ਪ੍ਰਭਾਵਿਤ ਕਰਦੀਆਂ ਹਨ"</string>
@@ -1140,6 +1175,12 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ਮੇਰਾ ਰਿਮੋਟ ਲੱਭੋ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ਜੇ ਤੁਹਾਡੇ Google TV ਦਾ ਰਿਮੋਟ ਗੁਆਚ ਗਿਆ ਹੈ, ਤਾਂ ਇਸਨੂੰ ਲੱਭਣ ਲਈ ਕੋਈ ਧੁਨੀ ਵਜਾਓ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"ਤੁਹਾਡੇ Google TV \'ਤੇ ਇੱਕ ਅਜਿਹਾ ਬਟਨ ਹੁੰਦਾ ਹੈ, ਜਿਸਨੂੰ ਦਬਾ ਕੇ ਤੁਸੀਂ ਆਪਣੇ ਰਿਮੋਟ \'ਤੇ 30 ਸਕਿੰਟਾਂ ਲਈ ਧੁਨੀ ਚਲਾ ਸਕਦੇ ਹੋ। ਇਹ ਸਿਰਫ਼ ਸਮਰਥਿਤ Google TV ਰਿਮੋਟ ਕੰਟਰੋਲਾਂ ਨਾਲ ਕੰਮ ਕਰਦੀ ਹੈ।\n\nਧੁਨੀ ਨੂੰ ਰੋਕਣ ਲਈ, ਆਪਣੇ ਰਿਮੋਟ \'ਤੇ ਕਿਸੇ ਵੀ ਬਟਨ ਨੂੰ ਦਬਾਓ।"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"\'ਮੇਰਾ ਰਿਮੋਟ ਲੱਭੋ\' ਸੁਵਿਧਾ ਚਾਲੂ ਹੋਣ \'ਤੇ, ਜੇ ਤੁਹਾਡੇ Google TV ਦਾ ਰਿਮੋਟ ਗੁਆਚ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਤੁਸੀਂ ਆਪਣੇ ਰਿਮੋਟ ਨੂੰ ਲੱਭਣ ਲਈ ਇੱਕ ਧੁਨੀ ਵਜਾ ਸਕਦੇ ਹੋ।"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"ਚਾਲੂ ਹੋਣ \'ਤੇ, ਤੁਸੀਂ ਆਪਣਾ ਰਿਮੋਟ ਲੱਭਣ ਲਈ ਕੋਈ ਧੁਨੀ ਵਜਾਉਣ ਵਾਸਤੇ ਆਪਣੇ ਡੀਵਾਈਸ \'ਤੇ ਦਿੱਤੇ ਬਟਨ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹੋ। ਬੰਦ ਹੋਣ \'ਤੇ, ਇਹ ਬਟਨ ਕੰਮ ਨਹੀਂ ਕਰੇਗਾ। ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਹੋਰ ਵਿਧੀਆਂ ਰਾਹੀਂ \'ਮੇਰਾ ਰਿਮੋਟ ਲੱਭੋ\' ਵਿਸ਼ੇਸ਼ਤਾ ਦੀ ਵਰਤੋਂ ਕਰ ਸਕੋਗੇ।"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ਧੁਨੀ ਵਜਾਓ"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"ਬੈਕਲਾਈਟ ਮੋਡ"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"ਰਿਮੋਟ ਕੰਟਰੋਲ \'ਤੇ ਮੌਜੂਦ ਬਟਨਾਂ ਨੂੰ ਦਬਾਉਣ \'ਤੇ, ਹਰ ਵਾਰ ਬੈਕਲਾਈਟ ਪ੍ਰਕਾਸ਼ਮਾਨ ਹੋ ਜਾਂਦੀ ਹੈ।"</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"ਸਮਰਥਿਤ Google TV ਰਿਮੋਟ \'ਤੇ, ਰਿਮੋਟ \'ਤੇ ਬਟਨ ਦਬਾਉਣ ਨਾਲ ਬੈਕਲਾਈਟ ਰੋਸ਼ਨੀ ਕਿਰਿਆਸ਼ੀਲ ਹੋ ਜਾਂਦੀ ਹੈ।"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s ਅਵਾਜ਼"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"ਤੁਸੀਂ %1$s ਸਪੀਕਰ \'ਤੇ Assistant ਦੀ ਅਵਾਜ਼ ਨੂੰ ਕੰਟਰੋਲ ਕਰ ਸਕਦੇ ਹੋ"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"ਇਸ ਨਾਲ ਸਿਰਫ਼ %1$s ਡੀਵਾਈਸ ਦੀ ਅਵਾਜ਼ \'ਤੇ ਪ੍ਰਭਾਵ ਪੈਂਦਾ ਹੈ, ਟੀਵੀ \'ਤੇ ਨਹੀਂ"</string>
 </resources>

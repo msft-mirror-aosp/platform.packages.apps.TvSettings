@@ -39,13 +39,15 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Hunsa tillöguna"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Greining „Ok Google“"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Talaðu við Google hjálparann hvenær sem er"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (skjálesari)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack er aðgengiseiginleiki sem les texta, valmyndaratriði og aðra hluti á skjánum upphátt og aðstoðar þannig notendur með sjónskerðingu. Einnig er hægt að setja hann upp til notkunar með flýtileið aðgengisstillingar."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Tæki"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Kjörstillingar"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Fjarstýring og fylgihlutir"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"Persónulegt"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Tengjast neti"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Bæta reikningi við"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Reikningar og innskráning"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Reikningar og prófílar"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Engir reikningar"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# reikningur}one{# reikningur}other{# reikningar}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Spilunarþjónusta, hjálpari, greiðslur"</string>
@@ -60,6 +62,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Persónuvernd"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Stillingar tækis"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Reikningsstillingar"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Tækjalás"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google-hjálpari"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Greiðsla og kaup"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Forritsstillingar"</string>
@@ -85,6 +88,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet tengt"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Ekkert net er tengt"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Slökkt er á Wi-Fi"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Taktu ethernet úr sambandi til að nota Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Leit alltaf í boði"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Leyfa staðsetningarþjónustu Google og öðrum forritum að leita að Wi-Fi neti, jafnvel þegar slökkt er á Wi-Fi"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Leit alltaf í boði, leyfa staðsetningarþjónustu Google og öðrum forritum að leita að Wi-Fi neti, jafnvel þegar slökkt er á Wi-Fi"</string>
@@ -156,7 +160,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Þegar kveikt er á þessum valkosti skiptir kerfið á milli mismunandi styrkleikasviðssniða í takt við efnið. Þetta getur orðið til þess að skjárinn verði svartur þegar skipt er á milli sniða.\n\nSmelltu á „Ítarlegar skjástillingar“ til að sjá fleiri valkosti fyrir styrkleikasvið."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Valið styrkleikasvið"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Kerfisvalin umbreyting"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Leyfir kerfinu að stjórna umbreytingu sniðs"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Leyfir kerfinu að stjórna umbreytingu sniðs"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Þegar þessi valkostur er valinn ákvarðar kerfið styrkleikasvið sem hentar til að senda á skjáinn og umbreyta efninu í viðkomandi styrkleikasvið eftir þörfum."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Passar alltaf við snið efnisins"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Þvinga umbreytingu"</string>
@@ -686,6 +690,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Texti með miklum birtuskilum"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Feitletra texta"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Endurkastslyklar"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Veldu tíma"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Fjarstýrð hunsun þegar ýtt er endurtekið á lykil"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Stilltu hunsun þegar ýtt er hratt og endurtekið á hnapp fyrir slysni. Þú getur breytt tímanum sem þú vilt að ýtingar á hnapp séu hunsaðar á"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Tími: sjálfgefinn"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Stilltu hunsun þegar ýtt er endurtekið á sjálfgefnum tíma eftir fyrsta skipti"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Tími: 0,5 sekúndur"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Breytir tímanum sem endurteknar ýtingar á lykil eru hunsaðar í 0,5 sekúndur"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Tími: 1 sekúnda"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Breytir tímanum sem endurteknar ýtingar á lykil eru hunsaðar í 1 sekúndu"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Tími: 2 sekúndur"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Breytir tímanum sem endurteknar ýtingar á lykil eru hunsaðar í 2 sekúndur"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Litaleiðrétting"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Nota litaleiðréttingu"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Litastilling"</string>
@@ -707,7 +723,24 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Flýtileið aðgengisstillingar"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Virkja flýtileið aðgengisstillingar"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Flýtileiðarþjónusta"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Aðgengi að lyklaborði"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Þegar kveikt er á flýtileiðinni geturðu ýtt bæði á bakkhnappinn og hnappinn til að fara niður í þrjár sekúndur til að opna aðgengiseiginleika."</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Tími til að grípa til aðgerða (tímalokun aðgengis)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Stilla lengd skilaboða þar sem aðgerða er krafist"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Veldu hversu lengi tímabundin skilaboð sem biðja þig um að grípa til aðgerða eiga að birtast"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Tímasetning : 2–3 sekúndur"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Stillir sjálfgefinn tíma til að svara aðgerðum á skjánum (2–3 sek.)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Töf fyrir endurtekningu lykla"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Stilltu töfina áður en stafir birtast endurtekið þegar þú heldur lykli inni"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Breyttu töfinni áður en lykill er endurtekinn"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Endurtekning lykla"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Töf fyrir endurtekningu"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Sérsníddu hversu lengi þú getur haldið hnappi inni áður en hann er endurtekinn"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Sérsníddu hversu lengi þú getur haldið hnappi inni áður en hann er endurtekinn"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Tíðni endurtekninga"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Stilltu hversu hratt stafir eru endurteknir þegar lykli er haldið inni"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Sjálfgefið"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Stjórnaðu því hversu fljótt hnappur er endurtekinn eftir fyrstu töf"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Skjátextar"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Stillingar skjátexta á myndefni"</string>
     <string name="captions_display" msgid="2598662495450633375">"Skjár"</string>
@@ -931,6 +964,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Veldu <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> til að halda áfram."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Lokið"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Tengingu komið á"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Þegar tengt"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Vistað"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Útgáfa <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Opna"</string>
@@ -1131,6 +1165,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Afl og orka"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Hegðun þegar kveikt er"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Endurstilla"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Sjónvarp"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Ethernet-pörunarkóði"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Orkustillingar"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Þessar stillingar hafa áhrif á tækið þegar það er ekki í notkun"</string>
@@ -1140,6 +1175,12 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Finna fjarstýringuna mína"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Spilaðu hljóð til að finna Google TV-fjarstýringuna ef hún týnist"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Það er hnappur á Google TV sem þú getur ýtt á til að spila hljóð á fjarstýringunni þinni í 30 sekúndur. Þetta virkar aðeins í studdum Google TV-fjarstýringum.\n\nÝttu á hvaða hnapp sem er á fjarstýringunni til að stöðva hljóðið."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Þegar kveikt er á „Finna fjarstýringuna mína“ geturðu spilað hljóð til að finna Google TV-fjarstýringuna ef hún týnist."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Þegar kveikt er á þessu geturðu notað hnappinn í tækinu til að spila hljóð til að finna fjarstýringuna. Þegar slökkt er á þessu virkar hnappurinn ekki. Þú getur áfram notað Finna fjarstýringuna mína með öðrum aðferðum."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Spila hljóð"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Baklýsingarstilling"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Baklýsing á hnöppum fjarstýringar í hvert sinn sem þú ýtir."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Ef þú ýtir á fjarstýringahnapp á studdum Google TV-fjarstýringum kviknar á baklýsingunni."</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s hljóðstyrkur"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Þú getur stjórnað hljóðstyrk Hjálpara í %1$s-hátalara"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Hefur aðeins áhrif á hljóðstyrk í %1$s-tæki, ekki í sjónvarpi"</string>
 </resources>

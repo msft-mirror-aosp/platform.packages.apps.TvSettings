@@ -39,7 +39,7 @@ public class AdvancedFlowCompleteState implements State {
     @Override
     public void processForward() {
         mFragment = null;
-        mStateMachine.getListener().onComplete(StateMachine.EXIT_ADVANCED_FLOW);
+        mStateMachine.getListener().onComplete(this, StateMachine.EXIT_ADVANCED_FLOW);
     }
 
     @Override

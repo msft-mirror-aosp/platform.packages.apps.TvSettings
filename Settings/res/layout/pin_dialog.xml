@@ -79,6 +79,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/pin_dialog_pin_number_spacing" />
+
+            <EditText
+                android:id="@+id/accessible_pin"
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:inputType="numberPassword"
+                android:maxLength="4"
+                android:textAlignment="center" />
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>

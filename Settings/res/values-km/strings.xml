@@ -39,13 +39,15 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"ច្រានចោល​ការណែនាំ"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"ការ​ចាប់​សំឡេង \"OK Google\""</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"និយាយ​ទៅកាន់ Google ជំនួយការ​បាន​គ្រប់ពេល"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"Talkback (កម្មវិធី​អាន​អេក្រង់)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack គឺជាមុខងារភាពងាយស្រួលសម្រាប់កម្មវិធី​អាន​អេក្រង់ ដែលជួយអ្នកប្រើប្រាស់ពិបាកក្នុងការមើលឃើញ តាមរយៈការអានឮៗនូវអក្សរនៅលើអេក្រង់ ធាតុម៉ឺនុយ និងធាតុផ្សេងៗទៀត។ ក៏អាចរៀបចំមុខងារនេះ ដើម្បីប្រើជាមួយផ្លូវកាត់​ភាពងាយស្រួលផងដែរ។"</string>
     <string name="header_category_device" msgid="3023893663454705969">"ឧបករណ៍"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"ចំណូលចិត្ត"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"ឧបករណ៍បញ្ជាពីចម្ងាយ និងគ្រឿងបន្ថែម"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"ផ្ទាល់ខ្លួន"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"ភ្ជាប់ទៅបណ្តាញ"</string>
     <string name="add_an_account" msgid="2601275122685226096">"បញ្ចូល​គណនី"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"គណនី និង​ការចូលគណនី"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"គណនី និងកម្រងព័ត៌មាន"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"គ្មានគណនីទេ"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{គណនី #}other{គណនី #}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"សេវាកម្ម​មេឌៀ ជំនួយការ ការបង់ប្រាក់"</string>
@@ -60,7 +62,8 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"ឯកជនភាព"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"ការកំណត់​ឧបករណ៍"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"ការ​កំណត់​គណនី"</string>
-    <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google ជំនួយការ"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"ការចាក់សោ​ឧបករណ៍"</string>
+    <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Assistant"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"ការបង់ប្រាក់ និង​ការទិញ"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"ការ​កំណត់​កម្មវិធី​"</string>
     <string name="privacy_category_summary" msgid="3534434883380511043">"ទីតាំង ការប្រើប្រាស់ និង​ការវិភាគ ការផ្សាយ​ពាណិជ្ជកម្ម"</string>
@@ -85,6 +88,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"បាន​ភ្ជាប់​អ៊ីសឺរណិត"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"មិន​មាន​ការ​ភ្ជាប់​បណ្តាញ​ទេ"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"បានបិទ Wi-Fi"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"ដកឌុយអ៊ីសឺរណិត ដើម្បីប្រើ Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"ការស្កេនតែងតែមានជានិច្ច"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"អនុញ្ញាតឲ្យសេវាកម្ម Google និងកម្មវិធីផ្សេងៗស្កេនរកបណ្ដាញ បើទោះបីជា Wi-Fi បិទក៏ដោយ"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"អាចប្រើ​ការស្កេនបានជានិច្ច អនុញ្ញាតឱ្យសេវាកម្មទីតាំង​របស់ Google និងកម្មវិធី​ផ្សេងទៀតស្កេនរកបណ្ដាញ ទោះបីជានៅពេលបិទ Wi-Fi ក៏ដោយ"</string>
@@ -156,7 +160,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"នៅពេលបើក​ជម្រើសនេះ ប្រព័ន្ធនឹងប្ដូររវាង​ទម្រង់កម្រិត​ឌីណាមិកផ្សេងៗ ដើម្បីឱ្យត្រូវគ្នានឹង​ខ្លឹមសារ។ ការធ្វើបែបនេះ​អាចបណ្ដាលឱ្យ​អេក្រង់ពណ៌ខ្មៅ ក្នុងអំឡុងពេល​ប្ដូរទម្រង់។\n\nចុច​ការកំណត់​ផ្ទាំងអេក្រង់កម្រិតខ្ពស់ ដើម្បីទទួលបាន​ជម្រើសកម្រិតឌីណាមិក​ច្រើនទៀត។"</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"កម្រិតឌីណាមិក​ដែលចង់បាន"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"ការបំប្លែងតាមការចង់បានរបស់ប្រព័ន្ធ"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"សូមឱ្យប្រព័ន្ធគ្រប់គ្រងការបំប្លែងទម្រង់"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"អនុញ្ញាតឱ្យប្រព័ន្ធគ្រប់គ្រងការបំប្លែងទម្រង់"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"នៅពេលជម្រើសនេះត្រូវបានជ្រើសរើស ប្រព័ន្ធនឹងកំណត់ចន្លោះឌីណាមិកសមរម្យមួយដែលត្រូវបានផ្ញើទៅកាន់ផ្ទាំងអេក្រង់របស់អ្នក ហើយបំប្លែងខ្លឹមសារទៅជា​ចន្លោះឌីណាមិកនេះតាមតម្រូវការ។"</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"ត្រូវគ្នានឹងទម្រង់ខ្លឹមសារជានិច្ច"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"បង្ខំការបំប្លែង"</string>
@@ -400,7 +404,7 @@
     <string name="oem_lock_info_message" msgid="2165887409937351689">"សូមចាប់ផ្ដើមឧបករណ៍ឡើងវិញ ដើម្បីបើកមុខងារការពារឧបករណ៍។"</string>
     <string name="automatic_storage_manager_freed_bytes" msgid="1654574152815129396">"សរុប <xliff:g id="SIZE">%1$s</xliff:g> អាចប្រើបាន\n\nដំណើរការចុងក្រោយនៅថ្ងៃ <xliff:g id="DATE">%2$s</xliff:g>"</string>
     <string name="fcc_equipment_id" msgid="6731077083927000108">"លេខសម្គាល់បរិក្ខារ"</string>
-    <string name="baseband_version" msgid="5618116741093274294">"កំណែមូលដ្ឋាន៖"</string>
+    <string name="baseband_version" msgid="5618116741093274294">"កំណែបេសប៊េន៖"</string>
     <string name="kernel_version" msgid="7265509054070001542">"កំណែខឺណែល"</string>
     <string name="status_unavailable" msgid="2033933928980193334">"មិនមានទេ"</string>
     <string name="device_status_title" msgid="9051569510258883673">"ស្ថានភាព"</string>
@@ -684,8 +688,20 @@
     <string name="accessibility_services_category_title" msgid="8813843874978910442">"សេវាកម្ម"</string>
     <string name="accessibility_service_settings" msgid="3251334786870932423">"ការ​កំណត់​សេវាកម្ម"</string>
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
-    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"អត្ថបទមានកម្រិតភាពដិតខ្ពស់"</string>
+    <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"អក្សររំលេចពណ៌ខ្លាំង"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"អក្សរ​ដិត"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"គ្រាប់ចុចលោត"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"ជ្រើសរើសការកំណត់ពេលដែលចង់បាន"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"ឧបករណ៍​បញ្ជាពីចម្ងាយមិនអើពើការចុចគ្រាប់ចុចច្រំដែលនោះទេ"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"កុំអើពើការចុចប៊ូតុងលឿន និងច្រំដែលដោយចែដន្យ។ អ្នកអាចកែតម្រូវចន្លោះពេលដែលការចុចមិនត្រូវបានអើពើ"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"ការកំណត់ពេល៖ លំនាំដើម"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"កុំអើពើការចុចច្រំដែលក្នុងចន្លោះពេលលំនាំដើម បន្ទាប់ពីការចុចដំបូង"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"ការកំណត់​ពេល៖ 0.5 វិនាទី"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"កែតម្រូវចន្លោះពេលកំណត់ទៅ 0.5 វិនាទីដែលការចុចគ្រាប់ចុចច្រំដែលមិនត្រូវបានអើពើ"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"ការកំណត់ពេល៖ 1 វិនាទី"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"កែតម្រូវចន្លោះពេលកំណត់ទៅ 1 វិនាទីដែលការចុចគ្រាប់ចុចច្រំដែលមិនត្រូវបានអើពើ"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"ការកំណត់​ពេល៖ 2 វិនាទី"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"កែតម្រូវចន្លោះពេលកំណត់ទៅ 2 វិនាទីដែលការចុចគ្រាប់ចុចច្រំដែលមិនត្រូវបានអើពើ"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"ការ​កែ​តម្រូវ​ពណ៌"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"ប្រើ​ការ​កែតម្រូវពណ៌"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"មុខងារពណ៌"</string>
@@ -707,7 +723,24 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"ផ្លូវកាត់​ភាព​ងាយ​ស្រួល"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"បើកផ្លូវកាត់​ភាព​ងាយស្រួល"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"សេវាកម្មផ្លូវកាត់"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"ភាពងាយស្រួល​របស់​ក្ដារចុច"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"នៅពេលដែលផ្លូវកាត់នេះបើក អ្នកអាច​ចុចទាំងប៊ូតុង​ថយក្រោយ និងប៊ូតុងចុះក្រោមឱ្យបាន 3 វិនាទី ដើម្បី​ចាប់ផ្តើម​មុខងារភាពងាយប្រើ។"</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"ដល់ពេល​ធ្វើសកម្មភាព (មុខងារ​ភាពងាយស្រួល​អស់ម៉ោង)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"កែតម្រូវ​រយៈពេល​របស់សារ​ដែលត្រូវការ​ឱ្យធ្វើ​សកម្មភាព"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"ជ្រើសរើស​រយៈពេល​បង្ហាញ​សារបណ្ដោះអាសន្ន ដែលស្នើសុំ​ឱ្យអ្នក​ធ្វើសកម្មភាព"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"ការកំណត់​ពេល៖ 2–3 វិនាទី"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"កំណត់រយៈពេលលំនាំដើម ដើម្បីឆ្លើយតបទៅសកម្មភាពនៅលើអេក្រង់ (2–3 វិនាទី)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"ការពន្យារពេលការចុចគ្រាប់ចុចឡើងវិញ"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"កំណត់រចនាសម្ព័ន្ធការពន្យារពេល មុនពេលតួអក្សរដែលបានចុចឡើងវិញបង្ហាញ នៅពេលគ្រាប់ចុចត្រូវបានសង្កត់ចុះក្រោម"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"កែតម្រូវការពន្យារពេល មុនពេលការចុចគ្រាប់ចុចឡើងវិញ"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"ការចុចគ្រាប់ចុចឡើងវិញ"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"ពន្យារពេលមុនការចុចឡើងវិញ"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"ប្ដូរតាមបំណងនូវរយៈពេលដែលអ្នកអាចចុចប៊ូតុងឱ្យជាប់ មុនពេលដែលវាចាប់ផ្ដើមការចុចឡើងវិញ"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"ប្ដូរតាមបំណងនូវរយៈពេលនៃការចុចប៊ូតុងឱ្យជាប់ បន្ទាប់ពីពេលដែលវាចាប់ផ្ដើមការចុចឡើងវិញ"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"អត្រា​ចុច​ឡើងវិញ"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"កំណត់ល្បឿនបញ្ចូលតួអក្សរដែលបានចុចឡើងវិញ នៅពេលគ្រាប់ចុចណាមួយត្រូវបានសង្កត់ចុះក្រោម"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"លំនាំដើម"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"គ្រប់គ្រងថាតើការចុចប៊ូតុងឡើងវិញលឿនកម្រិតណា បន្ទាប់ពីការពន្យារពេលដំបូង"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"អក្សររត់"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"ការ​កំណត់​សម្រាប់​អត្ថបទ​ដែល​មាន​ចំណងជើង​បិទ​​គ្រប់​ពី​លើ​វីដេអូ"</string>
     <string name="captions_display" msgid="2598662495450633375">"បង្ហាញ"</string>
@@ -718,7 +751,7 @@
     <string name="captions_language" msgid="5905918439449912646">"ភាសា"</string>
     <string name="captions_language_default" msgid="3894192926725192528">"លំនាំដើម"</string>
     <string name="captions_textsize" msgid="7161136610669343510">"ទំហំ​អត្ថបទ"</string>
-    <string name="captions_captionstyle" msgid="6650139717545516071">"រចនាប័ទ្ម​អក្សររត់"</string>
+    <string name="captions_captionstyle" msgid="6650139717545516071">"រចនាបថអក្សររត់"</string>
     <string name="captions_customoptions" msgid="7691004663572161126">"ជម្រើស​តាម​តម្រូវ​ការ"</string>
     <string name="captions_fontfamily" msgid="1026632786438880997">"ក្រុម​ពុម្ពអក្សរ"</string>
     <string name="captions_textcolor" msgid="1566679779609140317">"ពណ៌​អត្ថបទ"</string>
@@ -793,8 +826,8 @@
     <string name="system_show_gpu_overdraw" msgid="5073007513540516704">"បង្ហាញ​ចំនួន​លើស GPU"</string>
     <string name="system_show_surface_updates" msgid="7680759813613585278">"បង្ហាញ​បច្ចុប្បន្នភាព​ផ្ទៃមុខ​កម្មវិធី"</string>
     <string name="system_window_animation_scale" msgid="685477540250939659">"មាត្រដ្ឋាន​ចលនា​បង្អួច"</string>
-    <string name="system_transition_animation_scale" msgid="7266380208347453619">"មាត្រដ្ឋាន​ចលនា​​ផ្លាស់ប្ដូរ"</string>
-    <string name="system_animator_duration_scale" msgid="3829445237130423625">"មាត្រដ្ឋាន​​ថិរវេលា​កម្មវិធី​ចលនា"</string>
+    <string name="system_transition_animation_scale" msgid="7266380208347453619">"មាត្រដ្ឋាន​ចលនាបែបផែនឆ្លង"</string>
+    <string name="system_animator_duration_scale" msgid="3829445237130423625">"មាត្រដ្ឋាន​​រយៈពេល​ចលនា"</string>
     <string name="system_strict_mode_enabled" msgid="7392183793064579588">"បាន​បើក​ដំណើរការ​របៀប​តឹងរ៉ឹង"</string>
     <string name="system_profile_gpu_rendering" msgid="1113416260742329348">"បង្ហាញ​ប្រវត្តិ​ការ​ធ្វើ​ឲ្យ​សម GPU"</string>
     <string name="system_enable_traces" msgid="108745519968154528">"បើក​ដាន"</string>
@@ -804,7 +837,7 @@
     <string name="system_desc_stay_awake" msgid="8485868071929937500">"បិទ​​ការ​ដេក"</string>
     <string name="system_desc_hdcp_checking" msgid="1664068008848077241">"ប្រើ​សម្រាប់​​តែ​មាតិកា DRM ប៉ុណ្ណោះ"</string>
     <string name="system_desc_hdmi_optimization" msgid="5695603795556335912">"ធ្វើ​ឲ្យ​ការ​បង្ហាញ​ប្រសើរ​សម្រាប់​គុណភាព​បង្ហាញ​ខ្ពស់​បំផុត ឬ​អត្រា​ស៊ុម​ទាប​បំផុត។ វា​ប៉ះពាល់​តែ​ការ​បង្ហាញ Ultra HD ប៉ុណ្ណោះ។ ការ​ប្ដូរ​ការ​កំណត់​នេះ​នឹង​ចាប់ផ្ដើម​ឧបករណ៍​របស់​អ្នក​ឡើង​វិញ។"</string>
-    <string name="system_desc_bt_hci_log" msgid="2592649923221658103">"បើក​ដំណើរការ​​កំណត់​ហេតុ​ការ​ជ្រៀតចូល HCI តាម​ប្ល៊ូធូស"</string>
+    <string name="system_desc_bt_hci_log" msgid="2592649923221658103">"បើក​ដំណើរការ​​ការធ្វើកំណត់ហេតុ HCI ប៊្លូធូស"</string>
     <string name="system_desc_usb_debugging" msgid="5672275208185222785">"មុខងារជួសជុល នៅពេលភ្ជាប់ USB"</string>
     <string name="system_desc_wait_for_debugger" msgid="7213496668606417691">"កម្មវិធី​ដែលត្រូវបានជួសជុល​រង់ចាំ​ឲ្យ​កម្មវិធីជួសជុលភ្ជាប់សិន មុន​នឹង​អនុវត្ត"</string>
     <string name="system_desc_show_layout_bounds" msgid="5275008598296135852">"បង្ហាញ​​ព្រំដែន​ក្លិប, រឹម ។ល។"</string>
@@ -931,6 +964,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"ជ្រើសរើស <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> ដើម្បីបន្ត។"</string>
     <string name="label_done_key" msgid="8576286462300373440">"រួចរាល់"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"បានភ្ជាប់ដោយជោគជ័យ"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"បានភ្ជាប់រួចហើយ"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"បានរក្សាទុកដោយជោគជ័យ"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"កំណែ <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"បើក"</string>
@@ -1131,6 +1165,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"កម្លាំង និង​ថាមពល"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"សកម្មភាព​នៅពេល​បើក"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"កំណត់​ឡើងវិញ"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"ទូរទស្សន៍"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"កូដផ្គូផ្គងអ៊ីសឺរណិត"</string>
     <string name="energy_modes" msgid="1331693860386361744">"មុខងារថាមពល"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"ការកំណត់​ទាំងនេះ​ប៉ះពាល់ដល់​ឧបករណ៍ នៅពេល​ដែលមិន​ស្ថិតក្នុងការ​ប្រើប្រាស់"</string>
@@ -1140,6 +1175,12 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"ស្វែងរកឧបករណ៍​បញ្ជាពីចម្ងាយរបស់ខ្ញុំ"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"ចាក់សំឡេងណាមួយ ដើម្បីកំណត់ទីតាំងឧបករណ៍​បញ្ជាពីចម្ងាយសម្រាប់ Google TV របស់អ្នក ប្រសិនបើបាត់ឧបករណ៍នោះ"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"មានប៊ូតុង​នៅលើ Google TV របស់អ្នក​ដែលអ្នកអាច​ចុចដើម្បីចាក់​សំឡេង​នៅលើ​ឧបករណ៍​បញ្ជាពីចម្ងាយ​របស់អ្នក​រយៈពេល 30 វិនាទី។ សកម្មភាពនេះដំណើរការតែជាមួយនឹងឧបករណ៍​​បញ្ជា​ Google TV ពី​ចម្ងាយដែលអាចប្រើបានប៉ុណ្ណោះ។\n\nដើម្បីបញ្ឈប់សំឡេង សូមចុចប៊ូតុងណាមួយលើឧបករណ៍​បញ្ជាពីចម្ងាយរបស់អ្នក។"</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"នៅពេលបើក \"រកឧបករណ៍​បញ្ជាពីចម្ងាយរបស់ខ្ញុំ\" អ្នកអាចចាក់សំឡេងណាមួយ ដើម្បីកំណត់ទីតាំងឧបករណ៍​បញ្ជាពីចម្ងាយសម្រាប់ Google TV របស់អ្នក ប្រសិនបើបាត់ឧបករណ៍នោះ។"</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"នៅពេលបើក អ្នកអាចប្រើប៊ូតុងនៅលើឧបករណ៍របស់អ្នកសម្រាប់ចាក់សំឡេង ដើម្បីកំណត់ទីតាំងឧបករណ៍​បញ្ជាពីចម្ងាយរបស់អ្នក។ នៅពេលបិទ ប៊ូតុងនេះនឹងមិនដំណើរការទេ។ អ្នកនឹងនៅតែអាចប្រើ \"រកឧបករណ៍បញ្ជារបស់ខ្ញុំ\" តាមរយៈវិធីផ្សេងទៀត។"</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"ចាក់​សំឡេង"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"មុខងារពន្លឺក្រោយ"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"ពន្លឺនៃប៊ូតុងនៅលើឧបករណ៍​​បញ្ជា​ពី​ចម្ងាយនៅពេលចុចម្ដងៗ។"</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"នៅលើឧបករណ៍​បញ្ជាពីចម្ងាយ Google TV ដែលអាចប្រើបាន ការចុចប៊ូតុងនៅលើឧបករណ៍​បញ្ជាពីចម្ងាយបើកដំណើរការពន្លឺក្រោយ។"</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"កម្រិតសំឡេង %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"អ្នកអាចគ្រប់គ្រងកម្រិតសំឡេង Google Assistant នៅលើឧបករណ៍បំពងសំឡេង %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"ប៉ះពាល់តែកម្រិតសំឡេងនៅលើឧបករណ៍ %1$s មិនមែននៅលើទូរទស្សន៍ទេ"</string>
 </resources>

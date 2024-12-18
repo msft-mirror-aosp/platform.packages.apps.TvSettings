@@ -168,7 +168,7 @@ public class EasyConnectQRState implements State {
                     }
                 }
 
-                mStateMachine.getListener().onComplete(StateMachine.CONNECT);
+                mStateMachine.getListener().onComplete(QRCodeFragment.this, StateMachine.CONNECT);
             }
 
             @Override
@@ -176,7 +176,8 @@ public class EasyConnectQRState implements State {
                 if (DEBUG) Log.d(TAG, "onFailure: code = " + code);
                 mUserChoiceInfo.setConnectionFailedStatus(
                         UserChoiceInfo.ConnectionFailedStatus.EASY_CONNECT_FAILURE);
-                mStateMachine.getListener().onComplete(StateMachine.RESULT_FAILURE);
+                mStateMachine.getListener().onComplete(QRCodeFragment.this,
+                        StateMachine.RESULT_FAILURE);
             }
 
             @Override
@@ -194,7 +195,8 @@ public class EasyConnectQRState implements State {
                 } catch (Exception e) {
                     if (DEBUG) Log.d(TAG, "encodeQrCode error: " + e.getMessage());
                     // TODO: Set error code?
-                    mStateMachine.getListener().onComplete(StateMachine.RESULT_FAILURE);
+                    mStateMachine.getListener().onComplete(QRCodeFragment.this,
+                            StateMachine.RESULT_FAILURE);
                 }
             }
 

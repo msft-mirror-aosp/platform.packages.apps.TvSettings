@@ -150,10 +150,15 @@ public class AccessibilityFragment extends SettingsPreferenceFragment {
                 getContext().getContentResolver(),
                 Settings.Secure.FONT_WEIGHT_ADJUSTMENT, 0) == BOLD_TEXT_ADJUSTMENT);
 
-        Preference colorCorrectionPreferenceToSetVisible = FlavorUtils.isTwoPanel(getContext())
-                ? (Preference) findPreference(COLOR_CORRECTION_TWOPANEL_KEY)
-                : (Preference) findPreference(COLOR_CORRECTION_CLASSIC_KEY);
-        colorCorrectionPreferenceToSetVisible.setVisible(true);
+        if (getContext()
+                .getResources()
+                .getBoolean(R.bool.config_showAccessibilityColorCorrection)) {
+            Preference colorCorrectionPreferenceToSetVisible =
+                    FlavorUtils.isTwoPanel(getContext())
+                            ? (Preference) findPreference(COLOR_CORRECTION_TWOPANEL_KEY)
+                            : (Preference) findPreference(COLOR_CORRECTION_CLASSIC_KEY);
+            colorCorrectionPreferenceToSetVisible.setVisible(true);
+        }
 
         mServicesPrefCategory = findPreference(AccessibilityCategory.SERVICES.getKey());
         mControlsPrefCategory = findPreference(AccessibilityCategory.INTERACTION_CONTROLS.getKey());
@@ -240,7 +245,7 @@ public class AccessibilityFragment extends SettingsPreferenceFragment {
             final boolean serviceAllowed = permittedServices == null
                     || permittedServices.contains(serviceInfo.packageName);
 
-            final String title = accInfo.getResolveInfo()
+            String title = accInfo.getResolveInfo()
                     .loadLabel(getActivity().getPackageManager()).toString();
 
             final String key = "ServicePref:" + componentName.flattenToString();
@@ -248,6 +253,14 @@ public class AccessibilityFragment extends SettingsPreferenceFragment {
             if (servicePref == null) {
                 servicePref = new RestrictedPreference(getContext());
                 servicePref.setKey(key);
+            }
+            if (componentName
+                .flattenToString()
+                .equals(
+                    getResources()
+                        .getString(R.string.
+                                       accessibility_screen_reader_flattened_component_name))) {
+                title = getResources().getString(R.string.screen_reader_service_title);
             }
             servicePref.setTitle(title);
             servicePref.setSummary(serviceEnabled ? R.string.settings_on : R.string.settings_off);

@@ -20,6 +20,7 @@ import static android.hardware.display.HdrConversionMode.HDR_CONVERSION_FORCE;
 import static android.view.Display.HdrCapabilities.HDR_TYPE_INVALID;
 
 import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.isHdrFormatSupported;
+import static com.android.tv.settings.device.displaysound.DisplaySoundUtils.sendHdrSettingsChangedBroadcast;
 import static com.android.tv.settings.overlay.FlavorUtils.FLAVOR_CLASSIC;
 
 import android.content.Context;
@@ -109,7 +110,9 @@ public class PreferredDynamicRangeFragment  extends SettingsPreferenceFragment {
             // is done because when SDR is chosen, we disable all HDR types.
             switch (key) {
                 case KEY_DYNAMIC_RANGE_SELECTION_SYSTEM: {
-                    selectSystemPreferredConversion();
+                    mDisplayManager.setHdrConversionMode(new HdrConversionMode(
+                            HdrConversionMode.HDR_CONVERSION_SYSTEM));
+                    sendHdrSettingsChangedBroadcast(getContext());
                     showPreferredDynamicRangeRadioPreference(false);
                     break;
                 }
@@ -121,14 +124,17 @@ public class PreferredDynamicRangeFragment  extends SettingsPreferenceFragment {
                     mHdrConversionMode =
                             new HdrConversionMode(HdrConversionMode.HDR_CONVERSION_PASSTHROUGH);
                     mDisplayManager.setHdrConversionMode(mHdrConversionMode);
+                    sendHdrSettingsChangedBroadcast(getContext());
                     showPreferredDynamicRangeRadioPreference(false);
                     break;
                 }
                 case KEY_DYNAMIC_RANGE_SELECTION_FORCE: {
                     if (mHdrConversionMode.getConversionMode()
                             != HdrConversionMode.HDR_CONVERSION_FORCE) {
-                        selectSystemPreferredConversion();
+                        mDisplayManager.setHdrConversionMode(new HdrConversionMode(
+                                HdrConversionMode.HDR_CONVERSION_SYSTEM));
                         selectForceHdrConversion(mDisplayManager);
+                        sendHdrSettingsChangedBroadcast(getContext());
                         mHdrConversionMode = mDisplayManager.getHdrConversionModeSetting();
                         showPreferredDynamicRangeRadioPreference(true);
                     }
@@ -140,16 +146,6 @@ public class PreferredDynamicRangeFragment  extends SettingsPreferenceFragment {
             }
         }
         return super.onPreferenceTreeClick(preference);
-    }
-
-    private void selectSystemPreferredConversion() {
-        if (mDisplayManager.getHdrConversionModeSetting().equals(new HdrConversionMode(
-                HdrConversionMode.HDR_CONVERSION_FORCE, HDR_TYPE_INVALID))) {
-            mDisplayManager.setAreUserDisabledHdrTypesAllowed(true);
-        }
-        mHdrConversionMode = new HdrConversionMode(
-                HdrConversionMode.HDR_CONVERSION_SYSTEM);
-        mDisplayManager.setHdrConversionMode(mHdrConversionMode);
     }
 
     @VisibleForTesting

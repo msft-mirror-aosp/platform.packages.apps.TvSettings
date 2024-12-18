@@ -106,7 +106,7 @@ public class SummaryNotConnectedState implements State {
             if (action.getId() == ACTION_OK) {
                 mUserChoiceInfo.removePageSummary(UserChoiceInfo.SELECT_WIFI);
                 mStateMachine.getListener()
-                        .onComplete(StateMachine.SELECT_WIFI);
+                        .onComplete(this, StateMachine.SELECT_WIFI);
             }
         }
     }

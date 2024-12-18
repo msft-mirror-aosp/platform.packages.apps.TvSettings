@@ -19,6 +19,7 @@ package com.android.tv.settings.accessories;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothClass;
 import android.bluetooth.BluetoothDevice;
+import android.bluetooth.BluetoothProfile;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
@@ -32,8 +33,8 @@ import android.os.SystemClock;
 import android.util.Log;
 import android.view.InputDevice;
 
-import com.android.tv.settings.util.bluetooth.BluetoothDeviceCriteria;
-import com.android.tv.settings.util.bluetooth.BluetoothScanner;
+import com.android.tv.settings.accessories.util.bluetooth.BluetoothDeviceCriteria;
+import com.android.tv.settings.accessories.util.bluetooth.BluetoothScanner;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -321,20 +322,17 @@ public class BluetoothDevicePairer {
     }
 
     private void addBluetoothDeviceCriteria() {
+        List<Integer> supportedList =
+                BluetoothAdapter.getDefaultAdapter().getSupportedProfiles();
+
         // Input is supported by all devices.
         mInputDeviceCriteria = new InputDeviceCriteria();
         mBluetoothDeviceCriteria.add(mInputDeviceCriteria);
 
-        // Add Bluetooth a2dp on if the service is running and the
-        // setting profile_supported_a2dp is set to true.
-        Intent intent = new Intent("android.bluetooth.IBluetoothA2dp");
-        ComponentName comp = intent.resolveSystemService(mContext.getPackageManager(), 0);
-        if (comp != null) {
-            int enabledState = mContext.getPackageManager().getComponentEnabledSetting(comp);
-            if (enabledState != PackageManager.COMPONENT_ENABLED_STATE_DISABLED) {
-                Log.d(TAG, "Adding A2dp device criteria for pairing");
-                mBluetoothDeviceCriteria.add(new A2dpDeviceCriteria());
-            }
+        // Add Bluetooth A2DP if the profile is supported.
+        if (supportedList.contains(BluetoothProfile.A2DP)) {
+            Log.d(TAG, "Adding A2DP device criteria for pairing");
+            mBluetoothDeviceCriteria.add(new A2dpDeviceCriteria());
         }
     }
 
@@ -507,6 +505,9 @@ public class BluetoothDevicePairer {
             }
         }
 
+        // cancel here to avoid rmt request and createBond at the same time
+        stopScanning();
+
         mNextStageTimestamp = SystemClock.elapsedRealtime() + delay;
         mHandler.sendEmptyMessageDelayed(MSG_PAIR, delay);
 
@@ -613,7 +614,6 @@ public class BluetoothDevicePairer {
     }
 
     private void startBonding() {
-        stopScanning();
         setStatus(STATUS_PAIRING);
         if (mTarget.getBondState() != BluetoothDevice.BOND_BONDED) {
             registerLinkStatusReceiver();

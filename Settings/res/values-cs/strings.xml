@@ -39,13 +39,15 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Zavřít návrh"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Zjišťování příkazu „Ok Google“"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Oslovte Asistenta Google kdykoli"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"Talkback (čtečka obrazovky)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack je funkce usnadnění přístupu a čtečka obrazovky, která čte nahlas text na obrazovce, položky nabídek a další prvky, a pomáhá tak uživatelům se zrakovým postižením Lze ji nastavit k použití se zkratkou přístupnosti."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Zařízení"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Nastavení"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Dálkové ovládání a příslušenství"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"Osobní"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Připojení k síti"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Přidání účtu"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Účty a přihlašování"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Účty a profily"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Žádné účty"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# účet}few{# účty}many{# účtu}other{# účtů}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Mediální služby, Asistent, platby"</string>
@@ -60,6 +62,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Ochrana soukromí"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Nastavení zařízení"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Nastavení účtu"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Zámek zařízení"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Asistent Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Platby a nákupy"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Nastavení aplikací"</string>
@@ -85,6 +88,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Připojeno přes ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Žádné připojení k síti"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi je vypnuta"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Pokud chcete použít Wi-Fi, odpojte Ethernet"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Vyhledávání je vždy k dispozici"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Povolit službě určování polohy Google a ostatním aplikacím hledat sítě, i když je síť Wi-Fi vypnutá"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Vždy aktivní vyhledávání: Povolit službě určování polohy Google a ostatním aplikacím hledat sítě, i když je síť Wi-Fi vypnutá"</string>
@@ -156,7 +160,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Když povolíte tuto možnost, systém bude přepínat mezi různými formáty dynamického rozsahu podle obsahu. Při přepínání formátu může obrazovka zčernat.\n\nDalší možnosti dynamického rozsahu najdete v sekci Rozšířená nastavení obrazu."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Preferovaný dynamický rozsah"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Převod preferovaný systémem"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Nechá správu převodu formátu na systému"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Nechá správu převodu formátu na systému"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Když je vybrána tato možnost, určí systém vhodný dynamický rozsah k odeslání na váš displej, a podle potřeby obsah převede do tohoto dynamického rozsahu."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Vždy odpovídá formátu obsahu"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Vynutit převod"</string>
@@ -428,7 +432,7 @@
     <string name="title_random_mac_settings" msgid="6685812569356353378">"Soukromí"</string>
   <string-array name="random_mac_settings_entries">
     <item msgid="3457228452595715533">"Používat náhodnou adresu MAC (výchozí nastavení)"</item>
-    <item msgid="2490415280467390067">"Používat adresu MAC zařízení"</item>
+    <item msgid="2490415280467390067">"Používat MAC adresu zařízení"</item>
   </string-array>
     <string name="mac_address_not_available" msgid="2992935344891853369">"Nedostupné"</string>
     <string name="mac_address_ephemeral_summary" msgid="3284374877361772531">"Náhodná adresa MAC"</string>
@@ -686,6 +690,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Text s vysokým kontrastem"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Tučný text"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Ignorovat opakovaná stisknutí"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Zvolte upřednostňovaný čas"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Dálkové ovládání bude opakovaná stisknutí tlačítek ignorovat"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Ignorovat náhodná rychlá, opakovaná stisknutí tlačítek. Časový interval, ve kterém budou stisknutí ignorována, můžete upravit"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Čas: výchozí"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Ignorovat opakovaná stisknutí ve výchozím intervalu po prvním stisknutí"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Čas: 0,5 s"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Upravit časový interval na 0,5 sekundy, ve kterých bude opakované stisknutí tlačítek ignorováno"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Čas: 1 sekunda"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Upravit časový interval na 1 sekundu, ve které bude opakované stisknutí tlačítek ignorováno"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Čas: 2 sekundy"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Upravit časový interval na 2 sekundy, ve kterých bude opakované stisknutí tlačítek ignorováno"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Korekce barev"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Používat korekci barev"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Režim barvy"</string>
@@ -707,7 +723,24 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Zkratka usnadnění"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Aktivovat zkratku přístupnosti"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Služba ovládaná zkratkou"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Usnadnění přístupu na klávesnici"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Když je tato zkratka zapnutá, můžete funkci přístupnosti spustit tím, že na tři sekundy podržíte tlačítko zpět a dolů."</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Čas na provedení akce (vypršení platnosti)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Upravit dobu zobrazení zpráv vyžadujících akcí"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Vyberte, jak dlouho se mají zobrazovat dočasné zprávy s výzvami k akci"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Čas: 2–3 s"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Určuje výchozí čas na odpověď na akce (2–3 s)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Prodleva opakování klávesy"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Nakonfigurujte prodlevu, než se při podržení klávesy začnou zobrazovat opakované znaky"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Úprava prodlevy před opakováním klávesy"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Opakování klávesy"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Prodleva před opakováním"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Přizpůsobte délku podržení tlačítka, než se začne akce opakovat"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Přizpůsobte délku podržení tlačítka, po kterém se začne akce opakovat"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Rychlost opakování"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Nastavte, jak rychle se budou zadávat znaky při podržení klávesy"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Výchozí"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Nastavte, jak rychle se tlačítko začne opakovat po počáteční prodlevě"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Titulky"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Nastavení překryvné vrstvy s textem skrytých titulků ve videu"</string>
     <string name="captions_display" msgid="2598662495450633375">"Zobrazení"</string>
@@ -931,6 +964,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Pokračujte výběrem sítě <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Hotovo"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Úspěšně připojeno"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Již připojeno"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Úspěšně uloženo"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Verze <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Otevřít"</string>
@@ -1003,7 +1037,7 @@
   <string-array name="rooms">
     <item msgid="6590829789532602097">"Android TV"</item>
     <item msgid="1140506340411482365">"Televize v obýváku"</item>
-    <item msgid="6448060889026244632">"Televize v dětském pokoji"</item>
+    <item msgid="6448060889026244632">"Televize ve společné místnosti"</item>
     <item msgid="3336274213215419228">"Televize v ložnici"</item>
   </string-array>
     <string name="custom_room" msgid="6798144004583173563">"Zadat vlastní název…"</string>
@@ -1061,8 +1095,8 @@
     <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Povolte aplikacím nastavovat budíky a plánovat akce závislé na čase. Aplikace poběží na pozadí, což může vést k vyšší spotřebě energie.\n\nPokud je toto oprávnění vypnuté, stávající budíky a události závislé na čase naplánované aplikací nebudou fungovat."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Zapnout obrazovku"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Povolit zapínání obrazovky"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Povolte aplikaci zapínat obrazovku. Pokud aplikace bude mít toto oprávnění, může kdykoli zapnout obrazovku bez požadavku uživatele."</string>
-    <string name="special_access" msgid="21806055758289916">"Zvláštní přístup aplikací"</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Aplikaci můžete povolit zapínat obrazovku. Pokud bude mít toto oprávnění, může kdykoli zapnout obrazovku bez požadavku uživatele."</string>
+    <string name="special_access" msgid="21806055758289916">"Speciální přístup aplikací"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Zvuk"</string>
     <string name="record_audio" msgid="5035689290259575229">"Nahrát zvuk"</string>
@@ -1131,6 +1165,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Výkon a energie"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Chování po zapnutí"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Obnovit"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televize"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Párovací kód pro ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Energetické režimy"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Tato nastavení ovlivňují zařízení, když ho nikdo nepoužívá"</string>
@@ -1140,6 +1175,12 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Vyhledání dálkového ovládání"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Pokud někam založíte dálkové ovládání ke Google TV, najděte ho podle zvuku"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Na televizi Google TV je tlačítko, po jehož stisknutí se bude na dálkovém ovládání 30 sekund přehrávat zvuk. Funguje to jen s podporovaným dálkovým ovládáním Google TV.\n\nZvuk vypnete stisknutím libovolného tlačítka na dálkovém ovládání."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Pokud je aktivováno vyhledávání dálkového ovládání, můžete si nechat přehrát zvuk, abyste našli dálkové ovládání Google TV, když nevíte, kde je."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Když bude možnost zapnutá, můžete pomocí tlačítka na zařízení přehrát zvuk, podle kterého najdete dálkové ovládání. Když bude možnost vypnutá, tlačítko nebude fungovat. Ovladač bude nadále možné najít jinými způsoby."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Přehrát zvuk"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Režim podsvícení"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Podsvícení tlačítek na dálkovém ovládání při každém stisknutí tlačítka."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Na podporovaných dálkových ovládáních Google TV se stisknutím tlačítka aktivuje podsvícení."</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"%1$s hlasitost"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Hlasitost Asistenta můžete ovládat na reproduktoru %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Ovlivňuje jen hlasitost zařízení %1$s, ne televize"</string>
 </resources>

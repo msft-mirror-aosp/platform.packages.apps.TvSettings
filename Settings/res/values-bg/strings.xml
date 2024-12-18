@@ -39,13 +39,15 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Отхвърляне на предложението"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Откриване на „Ok Google“"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Разговаряйте с Google Асистент по всяко време"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (екранен четец)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack е функция за достъпност за екранни четци, която помага на потребителите със зрителни увреждания, като чете на глас текст на екрана, елементи от менюто и други елементи. Можете също да я настроите да се използва с прекия път за достъпност."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Устройство"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Предпочитания"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Дистанционно управление и аксесоари"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"Лични"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Свързване с мрежа"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Добавяне на профил"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Профили и вход"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Профили и потребителски профили"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Няма профили"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# профил}other{# профила}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Медийни услуги, Асистент, Google Payments"</string>
@@ -60,6 +62,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Поверителност"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Настройки на устройството"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Настройки на профила"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Заключване на устройството"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google Асистент"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Плащания и покупки"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Настройки за приложението"</string>
@@ -85,6 +88,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Установена е връзка с Ethernet"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Няма установена връзка с мрежа"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Функцията за Wi-Fi е изключена"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Изключете Ethernet, за да използвате Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Активно сканиране"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Позволете на услугата на Google за местоположение и на другите приложения да сканират за мрежи дори когато функцията за Wi-Fi е изключена."</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Сканирането винаги е налице – Позволете на услугата на Google за местоположение и на другите приложения да сканират за мрежи дори когато функцията за Wi-Fi е изключена"</string>
@@ -156,7 +160,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Когато активирате тази опция, системата ще премине през различните формати за динамичен обхват, за да намери съответствие за съдържанието. По време на превключването екранът може да стане черен.\n\nЗа още опции за динамичен обхват кликнете върху разширените настройки за дисплея."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Предпочитан динамичен обхват"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Предпочитано от системата преобразуване"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Преобразуването на формата да се управлява от системата"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Преобразуването на формата да се управлява от системата"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Когато е избрана тази опция, системата ще определя подходящ динамичен обхват за сигнала към екрана ви и при необходимост ще преобразува съдържанието към този динамичен обхват."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Винаги съответства на формата на съдържанието"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Принудително преобразуване"</string>
@@ -686,6 +690,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Текст с висок контраст"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Удебелен текст"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Игнориране на многократното натискане"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Изберете предпочитан времеви интервал"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Дистанционното управление пренебрегва повтарящите се натискания на клавиши"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Пренебрегване на случайните бързи, повтарящи се натискания на бутони. Можете да коригирате времевия интервал, за който натисканията се игнорират"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Времеви интервал: по подразбиране"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Пренебрегване на повтарящите се натискания за интервала по подразбиране след първоначалното натискане"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Времеви интервал: 0,5 секунди"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Коригиране на времевия интервал, за който повтарящите се натискания на клавиши се игнорират, на 0,5 секунди"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Времеви интервал: 1 секунда"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Коригиране на времевия интервал, за който повтарящите се натискания на клавиши се игнорират, на 1 секунда"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Времеви интервал: 2 секунди"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Коригиране на времевия интервал, за който повтарящите се натискания на клавиши се игнорират, на 2 секунди"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Корекция на цветове"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Използване на корекция на цветовете"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Цветови режим"</string>
@@ -707,7 +723,24 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Пряк път към функцията за достъпност"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Активиране на пряк път към функцията за достъпност"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Услуга за прекия път"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Достъпност на клавиатурата"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Когато прекият път е включен, можете да стартирате дадена функция за достъпност, като натиснете бутоните за назад и за надолу и ги задържите за 3 секунди."</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Време за изчакване на действие"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Коригиране на продължителността на съобщенията, които изискват действие"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Изберете колко дълго да се показват временните съобщения, които изискват да предприемете действие"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Времеви интервал: 2 – 3 секунди"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Задава станд. период от време за отг. на действията на екрана (2 – 3 сек)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Забавяне при повтарянето на клавишите"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Конфигуриране на забавянето, преди да се показват повтарящи се знаци при задържането на даден клавиш"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Коригиране на забавянето преди повтарянето на клавиша"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Повтаряне на клавишите"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Забавяне преди повтаряне"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Персонализирайте колко дълго да се задържа даден бутон, преди да действието му да започне да се повтаря"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Персонализирайте продължителността на задържането на даден бутон, след която действието му ще започне да се повтаря"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Честота на повторение"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Задаване на скоростта, с която да се въвеждат повтарящи се знаци при задържането на даден клавиш"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"По подразбиране"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Контролиране на скоростта, с която да се повтаря действието на бутона след първоначалното забавяне"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Надписи"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Настройки за наслагване на надписи върху видеоклип"</string>
     <string name="captions_display" msgid="2598662495450633375">"Показване"</string>
@@ -931,6 +964,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Изберете <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g>, за да продължите."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Готово"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Успешно е установена връзка"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Вече е установена връзка"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Запазването е успешно"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Версия <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Отваряне"</string>
@@ -1131,6 +1165,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Включване и захранване"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Поведение при включване"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Нулиране"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Телевизия"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Код за сдвояване с Ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Енергийни режими"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Тези настройки засягат устройството, когато не се използва"</string>
@@ -1140,6 +1175,12 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Намиране на дистанционното ми управление"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Възпроизвеждане на звук, чрез който да намерите дистанционното си управление за Google TV"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Устройството ви с Google TV има бутон, който можете да натиснете, за да се възпроизвежда звук на дистанционното ви управление в продължение на 30 секунди. Това работи само с поддържани дистанционни управления за Google TV.\n\nЗа да спрете звука, натиснете произволен бутон на дистанционното си управление."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Когато функцията „Намиране на дистанционното ми управление“ е активирана, може да се възпроизведе звук, за да откриете дистанционното управление на Google TV, ако не можете да го намерите."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Когато тази функция е включена, можете чрез бутона на устройството си да пускате звук, който да послужи за намиране на дистанционното ви управление. Ако е изключена, този бутон няма да работи. Пак ще можете да използвате „Намери дистанционното ми“ чрез други методи."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Пускане на звук"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Режим за фоново осветление"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Осветяване на бутоните на дистанционното управление при всяко натискане"</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"На поддържани дистанционни управления на Google TV при натискането на бутона ще се активира осветяването от фоновото осветление."</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Сила на звука: %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Можете да управлявате силата на звука за Асистент на високоговорителя (%1$s)"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Засяга само силата на звука на устройството (%1$s), но не и на телевизора"</string>
 </resources>

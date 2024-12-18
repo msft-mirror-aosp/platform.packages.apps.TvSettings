@@ -39,13 +39,15 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Одбаците предлог"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Откривање фразе „Oк Google“"</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Разговарајте са Google помоћником у било ком трен."</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (читач екрана)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack је функција приступачности читача екрана која помаже корисницима са оштећењем вида тако што наглас чита текст на екрану, ставке менија и друге елементе. Може да се подеси и тако да се користи са пречицом за приступачност."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Уређај"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Подешавања"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Даљински управљач и додатна опрема"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"Лично"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Повежите се са мрежом"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Додајте налог"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Налози и пријављивање"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Налози и профили"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Нема налога"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# налог}one{# налог}few{# налога}other{# налога}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Медијске услуге, Помоћник, Плаћања"</string>
@@ -60,6 +62,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Приватност"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Подешавања уређаја"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Подешавања налога"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Закључавање уређаја"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Google помоћник"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Плаћање и куповине"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Подешавања апликације"</string>
@@ -85,6 +88,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Етернет је повезан"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Ниједна мрежа није повезана"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"WiFi је искључен"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Искључите етернет да бисте користили WiFi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Скенирање је увек доступно"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Дозволите Google-овој услузи лоцирања и другим апликацијама да траже мреже, чак и када је WiFi искључен"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Скенирање је увек доступно, Дозволите Google услугама локације и другим апликацијама да траже мреже, чак и када је WiFi искључен"</string>
@@ -156,7 +160,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Када омогућите ову опцију, систем ће мењати формат динамичког опсега ради подударања са садржајем. То може да изазове црни екран током промене формата.\n\nКликните на Напредна подешавања екрана за више опција динамичког опсега."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Жељени динамички опсег"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Системска конверзија"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Омогућава систему да управља конверзијом формата"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Омогућава систему да управља конверзијом формата"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Када је ова опција изабрана, систем одређује одговарајући динамички опсег који ће послати на екран и према потреби ће конвертовати садржај у тај динамички опсег."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Увек се подудара с форматом садржаја"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Наметни конверзију"</string>
@@ -535,7 +539,7 @@
     <string name="storage_calculating_size" msgid="5716281278843281044">"Прорачунавање..."</string>
     <string name="storage_apps_usage" msgid="8659915575274468924">"Апликације"</string>
     <string name="storage_downloads_usage" msgid="8429196848359517158">"Преузимања"</string>
-    <string name="storage_dcim_usage" msgid="1890098882753254745">"Слике и видео снимци"</string>
+    <string name="storage_dcim_usage" msgid="1890098882753254745">"Слике и видеи"</string>
     <string name="storage_music_usage" msgid="5362871290115089474">"Аудио"</string>
     <string name="storage_media_misc_usage" msgid="3404230292054880339">"Разно"</string>
     <string name="storage_media_cache_usage" msgid="6397941751551207630">"Кеширани подаци"</string>
@@ -685,7 +689,19 @@
     <string name="accessibility_service_settings" msgid="3251334786870932423">"Подешавања услуге"</string>
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Текст високог контраста"</string>
-    <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Подебљани текст"</string>
+    <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Подебљан текст"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Дужи одзив тастера"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Одаберите жељено време"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Даљински игнорише поновљено притискање тастера"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Игноришите случајно брзо и поновљено притискање дугмета. Можете да прилагодите временски интервал током ког се притискање дугмета игнорише"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Време: Подразумевано"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Игноришите поновљено притискање током подразумеваног интервала после првог притиска"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Време: 0,5 секунди"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Прилагодите временски интервал током ког се игноришу понављани притисци тастера на 0,5 секунди"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Време: 1 секунда"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Прилагодите временски интервал током ког се игноришу понављани притисци тастера на 1 секунду"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Време: 2 секунде"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Прилагодите временски интервал током ког се игноришу понављани притисци тастера на 2 секунде"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Корекција боја"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Користи корекцију боја"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Режим боја"</string>
@@ -707,7 +723,24 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Пречица за приступачност"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Омогући пречицу за приступачност"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Услуга пречице"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Приступачност тастатуре"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Када је пречица укључена, можете да притиснете дугме Назад и дугме са стрелицом надоле и да их задржите 3 секунде да бисте покренули функцију приступачности."</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Период за реаговање (временско ограничење за приступачност)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Прилагодите трајање порука на које треба да се реагује"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Одаберите колико дуго ће се приказивати поруке које траже да реагујете"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Време: 2–3 секунде"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Подешава подразумевано време за реаговање на радње на екрану (2–3 секунде)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Одлагање понављања тастера"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Конфигуришите одлагање пре појављивања поновљених знакова када се тастер притисне и задржи"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Прилагодите одлагање пре понављања тастера"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Понављање тастера"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Одлагање пре понављања"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Прилагодите колико дуго можете да задржите дугме пре него што почне понављање"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Прилагодите трајање задржавања дугмета после ког почиње понављање"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Брзина понављања"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Подесите брзину уноса поновљених знакова када се тастер притисне и задржи"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Подразумевано"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Контролишите брзину понављања дугмета после почетног одлагања"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Титл"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Подешавања за постављање текста опционалног титла преко видео снимка"</string>
     <string name="captions_display" msgid="2598662495450633375">"Екран"</string>
@@ -931,6 +964,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Изаберите <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> да бисте наставили."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Готово"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Веза је успостављена"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Већ је повезано"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Сачувано је"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Верзија <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Отворено"</string>
@@ -1131,6 +1165,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Напајање и енергија"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Понашање при укључивању"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Ресетуј"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Телевизија"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Кôд за упаривање за етернет"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Режими потрошње енергије"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Ова подешавања утичу на уређај када се не користи"</string>
@@ -1140,6 +1175,12 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Пронађи мој даљински"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Пустите звук да бисте лоцирали даљински за Google TV ако сте га затурили"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"На Google TV-у постоји дугме које можете да притиснете како бисте на даљинском пустили звук у трајању од 30 секунди. То функционише само на подржаним даљинским управљачима за Google TV.\n\nДа бисте зауставили овај звук, притисните било које дугме на даљинском."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Када је омогућена функција Пронађи мој даљински, можете да пустите звук да бисте лоцирали даљински управљач за Google TV ако сте га затурили."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Када је ова опција укључена, помоћу дугмета на уређају можете да пустите звук како бисте пронашли даљински. Када је искључена, ово дугме не функционише. Ипак ћете моћи да користите функцију Нађи даљински помоћу других метода."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Пусти звук"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Режим позадинског осветљења"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Дугмад на даљинском управљачу светли за сваки притисак."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"На подржаним даљинским управљачима за Google TV, притискање дугмета на даљинском активира позадинско осветљење."</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Јачина звука: %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Можете да контролишете јачину звука за Помоћник на %1$s звучнику"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Утиче на звук само на %1$s уређају, не на ТВ-у"</string>
 </resources>

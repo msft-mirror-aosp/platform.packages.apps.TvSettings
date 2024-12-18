@@ -17,6 +17,7 @@
 package com.android.tv.settings.connectivity;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -44,7 +45,6 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.VisibleForTesting;
-import androidx.appcompat.app.AlertDialog;
 
 import com.android.settingslib.Utils;
 import com.android.settingslib.core.lifecycle.Lifecycle;
@@ -117,7 +117,8 @@ public class NetworkRequestDialogFragment extends ObservableDialogFragment imple
         mDialogAdapter = new AccessPointAdapter(context,
                 R.layout.preference_access_point, getAccessPointList());
 
-        final AlertDialog.Builder builder = new AlertDialog.Builder(context)
+        final AlertDialog.Builder builder = new AlertDialog.Builder(context,
+                    android.R.style.Theme_DeviceDefault_Dialog_Alert)
                 .setCustomTitle(customTitle)
                 .setAdapter(mDialogAdapter, this)
                 .setNegativeButton(R.string.cancel, (dialog, which) -> onCancel(dialog))
@@ -479,7 +480,7 @@ public class NetworkRequestDialogFragment extends ObservableDialogFragment imple
          */
         public void updateKeys(List<ScanResult> scanResults) {
             for (ScanResult scanResult : scanResults) {
-                final String key = AccessPoint.getKey(mContext, scanResult);
+                final String key = AccessPoint.getKey(scanResult);
                 if (!mAccessPointKeys.contains(key)) {
                     mAccessPointKeys.add(key);
                 }

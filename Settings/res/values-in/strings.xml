@@ -39,13 +39,15 @@
     <string name="dismiss_suggestion" msgid="6200814545590126814">"Tutup saran"</string>
     <string name="hotwording_title" msgid="2606899304616599026">"Deteksi \"OK Google\""</string>
     <string name="hotwording_summary" msgid="2170375928302175449">"Bicaralah dengan Asisten Google kapan saja"</string>
+    <string name="screen_reader_service_title" msgid="2793165860447969975">"TalkBack (Pembaca layar)"</string>
+    <string name="screen_reader_summary" msgid="515373097115748618">"TalkBack adalah fitur aksesibilitas pembaca layar yang membantu pengguna penyandang disabilitas netra dengan membacakan teks di layar, item menu, dan elemen lainnya secara lisan. Fitur ini juga dapat disiapkan untuk digunakan dengan Pintasan Aksesibilitas."</string>
     <string name="header_category_device" msgid="3023893663454705969">"Perangkat"</string>
     <string name="header_category_preferences" msgid="3738388885555798797">"Preferensi"</string>
     <string name="header_category_accessories" msgid="6479803330480847199">"Remote &amp; Aksesori"</string>
     <string name="header_category_personal" msgid="7880053929985150368">"Pribadi"</string>
     <string name="connect_to_network" msgid="4133686359319492392">"Hubungkan ke jaringan"</string>
     <string name="add_an_account" msgid="2601275122685226096">"Tambahkan akun"</string>
-    <string name="accounts_category_title" msgid="7286858931427579845">"Akun &amp; login"</string>
+    <string name="accounts_category_title" msgid="6645304075809033585">"Akun &amp; Profil"</string>
     <string name="accounts_category_summary_no_account" msgid="3053606166993074648">"Tidak ada akun"</string>
     <string name="accounts_category_summary" msgid="7617932110389860822">"{count,plural, =1{# akun}other{# akun}}"</string>
     <string name="accounts_slice_summary" msgid="1571012157154521119">"Layanan media, Asisten, Pembayaran"</string>
@@ -60,6 +62,7 @@
     <string name="privacy_category_title" msgid="8552430590908463601">"Privasi"</string>
     <string name="privacy_device_settings_category" msgid="5018334603278648524">"Setelan Perangkat"</string>
     <string name="privacy_account_settings_category" msgid="5786591549945777400">"Setelan Akun"</string>
+    <string name="privacy_device_lock_settings_title" msgid="2859882209591786575">"Kunci Perangkat"</string>
     <string name="privacy_assistant_settings_title" msgid="4524957824712623680">"Asisten Google"</string>
     <string name="privacy_purchases_settings_title" msgid="6490965297061569673">"Pembayaran &amp; Pembelian"</string>
     <string name="privacy_app_settings_category" msgid="858250971978879266">"Setelan Aplikasi"</string>
@@ -85,6 +88,7 @@
     <string name="connectivity_summary_ethernet_connected" msgid="2612843587731520061">"Ethernet terhubung"</string>
     <string name="connectivity_summary_no_network_connected" msgid="6111160695454212460">"Tidak ada jaringan yang terhubung"</string>
     <string name="connectivity_summary_wifi_disabled" msgid="7819225159680467324">"Wi-Fi dinonaktifkan"</string>
+    <string name="unplug_ethernet_to_use_wifi" msgid="5078499991407069670">"Cabut kabel Ethernet untuk menggunakan Wi-Fi"</string>
     <string name="wifi_setting_always_scan" msgid="431846292711998602">"Selalu aktifkan pemindaian Wi-Fi"</string>
     <string name="wifi_setting_always_scan_context" msgid="1092998659666221222">"Izinkan layanan lokasi Google dan aplikasi lain memindai jaringan, bahkan saat Wi-Fi nonaktif"</string>
     <string name="wifi_setting_always_scan_content_description" msgid="484630053450137332">"Pemindaian selalu tersedia, Izinkan layanan lokasi Google dan aplikasi lain memindai jaringan, bahkan saat Wi-Fi nonaktif"</string>
@@ -156,7 +160,7 @@
     <string name="match_content_dynamic_range_summary" msgid="2255683926227355398">"Saat mengaktifkan opsi ini, sistem akan beralih antara format rentang dinamis yang berbeda untuk menyesuaikan konten. Hal ini dapat menyebabkan layar hitam selama peralihan format.\n\nKlik setelan Tampilan Lanjutan untuk melihat opsi rentang dinamis lainnya."</string>
     <string name="preferred_dynamic_range_title" msgid="5064883672337010588">"Rentang dinamis pilihan"</string>
     <string name="preferred_dynamic_range_selection_system_title" msgid="4505030483876080996">"Konversi pilihan sistem"</string>
-    <string name="preferred_dynamic_range_selection_system_desc" msgid="5712920601553613576">"Memungkinkan sistem mengelola konversi format"</string>
+    <string name="preferred_dynamic_range_selection_system_desc" msgid="2765115460108291217">"Memungkinkan sistem mengelola konversi format"</string>
     <string name="preferred_dynamic_range_selection_system_summary" msgid="4509062596428781094">"Saat opsi ini dipilih, sistem akan menentukan rentang dinamis yang sesuai untuk ditampilkan di layar Anda dan mengonversi konten ke rentang dinamis ini sesuai kebutuhan."</string>
     <string name="preferred_dynamic_range_selection_passthrough_desc" msgid="4831260397179583737">"Selalu sesuaikan format konten"</string>
     <string name="preferred_dynamic_range_selection_force_title" msgid="4448836594133973103">"Paksa konversi"</string>
@@ -268,7 +272,7 @@
     <string name="bluetooth_ir_entry_subtitle" msgid="4606207128353416151">"Mengontrol volume, daya, input di TV, penerima, dan soundbar"</string>
     <string name="bluetooth_connect_action_title" msgid="7715342395313781643">"Hubungkan"</string>
     <string name="bluetooth_connect_confirm" msgid="4769958536295137386">"Hubungkan ke %1$s"</string>
-    <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Putuskan koneksi"</string>
+    <string name="bluetooth_disconnect_action_title" msgid="1135513009197728480">"Berhenti hubungkan"</string>
     <string name="bluetooth_disconnect_confirm" msgid="1445977623973613581">"Putuskan hubungan dari %1$s"</string>
     <string name="bluetooth_rename_action_title" msgid="4200419902722729907">"Ganti nama"</string>
     <string name="bluetooth_rename" msgid="7791922876280337194">"Mengganti nama perangkat yang terhubung"</string>
@@ -276,7 +280,7 @@
     <string name="bluetooth_forget_confirm" msgid="5175414848391021666">"Lupakan %1$s"</string>
     <string name="bluetooth_serial_number_label" msgid="6639294603220209971">"Alamat Bluetooth"</string>
     <string name="bluetooth_connected_status" msgid="8629393539370085418">"Terhubung"</string>
-    <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Terputus"</string>
+    <string name="bluetooth_disconnected_status" msgid="7617866963193224775">"Tidak terhubung"</string>
     <string name="bluetooth_empty_list_user_restricted" msgid="1610743588460010736">"Anda tidak memiliki izin untuk mengubah setelan Bluetooth."</string>
     <string name="bluetooth_toggle_active_audio_output_title" msgid="3715722506642793944">"Gunakan untuk audio TV"</string>
     <string name="send_feedback" msgid="936698637869795473">"Kirim masukan"</string>
@@ -377,8 +381,8 @@
     <string name="about_ads" msgid="7662896442040086522">"Iklan"</string>
     <string name="ads_description" msgid="8081069475265061074">"Kelola setelan iklan, seperti mereset ID iklan."</string>
     <string name="ads_content_description" msgid="1006489792324920289">"Iklan, Kelola setelan iklan, seperti mereset ID iklan."</string>
-    <string name="show_dev_on" msgid="612741433124106067">"Sekarang Anda adalah seorang pengembang!"</string>
-    <string name="show_dev_already" msgid="1522591284776449818">"Tidak perlu, Anda sudah menjadi pengembang"</string>
+    <string name="show_dev_on" msgid="612741433124106067">"Anda sekarang berada di mode developer!"</string>
+    <string name="show_dev_already" msgid="1522591284776449818">"Tidak perlu, Anda sudah berada di mode developer"</string>
     <string name="device_info_default" msgid="2374506935205518448">"Tidak diketahui"</string>
     <string name="selinux_status" msgid="1146662734953021410">"Status SELinux"</string>
     <string name="selinux_status_disabled" msgid="4027105362332795142">"Nonaktif"</string>
@@ -686,6 +690,18 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Teks kontras tinggi"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Teks tebal"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Tombol pantul"</string>
+    <string name="bounce_key_description" msgid="8742025495500915588">"Pilih waktu yang diinginkan"</string>
+    <string name="bounce_key_detailed" msgid="2422246064036507844">"Remote mengabaikan penekanan tombol berulang"</string>
+    <string name="bounce_key_description_summary" msgid="6753146496890170215">"Mengabaikan penekanan tombol cepat dan berulang yang tidak sengaja. Anda dapat menyesuaikan interval waktu saat penekanan tombol diabaikan"</string>
+    <string name="bounce_key_timing_default_title" msgid="6028993610146552962">"Waktu : Default"</string>
+    <string name="bounce_key_timing_default_description" msgid="145758684535868136">"Mengabaikan penekanan berulang untuk interval default setelah penekanan awal"</string>
+    <string name="bounce_key_timing_half_second_title" msgid="8394245870111238967">"Waktu : 0,5 detik"</string>
+    <string name="bounce_key_timing_half_second_description" msgid="4748780223063740284">"Menyesuaikan interval waktu ke 0,5 detik saat penekanan tombol berulang diabaikan"</string>
+    <string name="bounce_key_timing_one_second_title" msgid="6735859672558014764">"Waktu : 1 detik"</string>
+    <string name="bounce_key_timing_one_second_description" msgid="8081507577181702545">"Menyesuaikan interval waktu ke 1 detik saat penekanan tombol berulang diabaikan"</string>
+    <string name="bounce_key_timing_two_second_title" msgid="8302518230221066238">"Waktu : 2 detik"</string>
+    <string name="bounce_key_timing_two_second_description" msgid="15724682361848243">"Menyesuaikan interval waktu ke 2 detik saat penekanan tombol berulang diabaikan"</string>
     <string name="accessibility_color_correction" msgid="6765093204922184119">"Koreksi warna"</string>
     <string name="color_correction_usage" msgid="4160611639548748657">"Gunakan koreksi warna"</string>
     <string name="color_correction_color_mode" msgid="5081377780734779169">"Mode Warna"</string>
@@ -707,7 +723,24 @@
     <string name="accessibility_shortcut" msgid="5856158637840030531">"Pintasan aksesibilitas"</string>
     <string name="accessibility_shortcut_enable" msgid="6603542432267329986">"Aktifkan pintasan aksesibilitas"</string>
     <string name="accessibility_shortcut_service" msgid="2053250146891420311">"Layanan pintasan"</string>
+    <string name="keyboard_accessibility" msgid="7849649126112178029">"Aksesibilitas keyboard"</string>
     <string name="accessibility_shortcut_description" msgid="2050424178481510046">"Jika pintasan aktif, Anda dapat menekan tombol kembali dan panah bawah selama 3 detik untuk memulai fitur aksesibilitas."</string>
+    <string name="accessibility_timeout" msgid="6238669374985731114">"Waktu ambil tindakan (waktu tunggu aksesibilitas)"</string>
+    <string name="accessibility_timeout_summary" msgid="5365359228570110804">"Sesuaikan durasi pesan yang memerlukan tindakan"</string>
+    <string name="accessibility_timeout_detailed" msgid="8456883531647489988">"Pilih durasi tampilan pesan sementara yang meminta Anda mengambil tindakan"</string>
+    <string name="accessibility_timeout_info_title" msgid="4940515076094949892">"Waktu : 2–3 detik"</string>
+    <string name="accessibility_timeout_info_description" msgid="8821082019984052271">"Menyetel jumlah waktu default untuk merespons tindakan di layar (2–3 detik)"</string>
+    <string name="accessibility_key_repeat_delay" msgid="3705218700730796163">"Penundaan pengulangan tombol"</string>
+    <string name="accessibility_key_repeat_delay_detailed" msgid="839875964245948920">"Mengonfigurasi penundaan sebelum karakter berulang muncul saat tombol ditahan"</string>
+    <string name="accessibility_key_repeat_delay_summary" msgid="1285871520625842138">"Sesuaikan jeda sebelum pengulangan tombol"</string>
+    <string name="accessibility_key_repeat" msgid="2883843620765652931">"Pengulangan tombol"</string>
+    <string name="accessibility_delay_before_repeat" msgid="2090040450091150466">"Tunda sebelum mengulangi"</string>
+    <string name="accessibility_delay_before_repeat_summary" msgid="7889272629294523770">"Sesuaikan durasi Anda dapat menahan tombol sebelum tombol tersebut mulai mengulang"</string>
+    <string name="accessibility_delay_before_repeat_detailed" msgid="5855212602097866850">"Sesuaikan durasi penahanan tombol setelah tombol tersebut mulai mengulang"</string>
+    <string name="accessibility_repeat_rate" msgid="7021902189827133568">"Rasio pengulangan"</string>
+    <string name="accessibility_repeat_rate_summary" msgid="3583246887327117521">"Menyetel kecepatan pengulangan karakter dimasukkan saat tombol ditahan"</string>
+    <string name="accessibility_key_repeat_info" msgid="6966835128389755237">"Default"</string>
+    <string name="accessibility_repeat_rate_info_summary" msgid="6481063957245411995">"Kontrol kecepatan pengulangan tombol setelah penundaan awal"</string>
     <string name="accessibility_captions" msgid="3411554568812306549">"Teks"</string>
     <string name="accessibility_captions_description" msgid="3827820027578548160">"Setelan overlay teks di video"</string>
     <string name="captions_display" msgid="2598662495450633375">"Tampilan"</string>
@@ -812,7 +845,7 @@
     <string name="system_desc_show_hardware_layer" msgid="3483713991865249527">"Buat lapisan hardware berkedip hijau saat update"</string>
     <string name="system_desc_show_gpu_overdraw" msgid="74019834911598588">"Terbaik-terburuk: biru, hijau, merah terang, merah"</string>
     <string name="system_desc_show_surface_updates" msgid="4018685547515133353">"Buat seluruh permukaan jendela berkedip saat diperbarui"</string>
-    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Buat layar berkedip saat aplikasi berjalan lama di thread utama"</string>
+    <string name="system_desc_strict_mode_enabled" msgid="1974896408481676324">"Buat layar berkedip saat aplikasi berlama-lama menjalankan operasi di thread utama"</string>
     <string name="system_desc_profile_gpu_rendering" msgid="1594070211030991">"Mengukur waktu rendering di adb shell dumpsys gfxinfo"</string>
     <string name="security_unknown_sources_title" msgid="2012801664240314305">"Sumber tidak dikenal"</string>
     <string name="security_unknown_sources_desc" msgid="7196715598352173267">"Izinkan penginstalan aplikasi dari sumber selain Google Play Store"</string>
@@ -931,6 +964,7 @@
     <string name="wifi_setup_description" msgid="6843574399437584520">"Pilih <xliff:g id="WIFI_SUBMIT_ICON">%1$s</xliff:g> untuk melanjutkan."</string>
     <string name="label_done_key" msgid="8576286462300373440">"Selesai"</string>
     <string name="wifi_setup_connection_success" msgid="3301901673876973474">"Berhasil terhubung"</string>
+    <string name="wifi_setup_already_connected" msgid="2135251990280273625">"Sudah terhubung"</string>
     <string name="wifi_setup_save_success" msgid="6862510218032734919">"Berhasil tersimpan"</string>
     <string name="device_apps_app_management_version" msgid="2119174719194899740">"Versi <xliff:g id="APP_VERSION">%1$s</xliff:g>"</string>
     <string name="device_apps_app_management_open" msgid="4249743535677261897">"Buka"</string>
@@ -1053,15 +1087,15 @@
     <string name="write_settings_off" msgid="6730113471695092167">"Tidak"</string>
     <string name="manage_external_storage_title" msgid="8139593207533811077">"Akses semua file"</string>
     <string name="permit_manage_external_storage" msgid="1776899171934627417">"Izinkan akses untuk mengelola semua file"</string>
-    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Mengizinkan aplikasi ini untuk membaca, mengubah, dan menghapus semua file di perangkat ini atau media penyimpanan yang terpasang. Jika diberikan, aplikasi dapat mengakses file tanpa sepengetahuan Anda."</string>
+    <string name="allow_manage_external_storage_description" msgid="4288250228151617611">"Mengizinkan aplikasi ini membaca, mengubah, dan menghapus semua file di perangkat ini atau media penyimpanan yang terpasang. Jika diizinkan, aplikasi dapat mengakses file tanpa sepengetahuan Anda."</string>
     <string name="picture_in_picture_title" msgid="2636935591386702348">"Picture-in-picture"</string>
     <string name="picture_in_picture_app_detail_switch" msgid="3688997906817583854">"Izinkan picture-in-picture"</string>
     <string name="picture_in_picture_empty_text" msgid="4370198922852736600">"Tidak ada aplikasi terinstal yang mendukung Picture-in-picture"</string>
     <string name="picture_in_picture_app_detail_summary" msgid="3296649114939705896">"Mengizinkan aplikasi membuat jendela picture-in-picture saat aplikasi terbuka atau setelah Anda membiarkannya terbuka (misalnya, untuk melanjutkan aktivitas menonton video). Jendela ini ditampilkan di atas aplikasi lain yang sedang digunakan."</string>
-    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Izinkan aplikasi menyetel alarm dan menjadwalkan tindakan berjangka waktu. Hal ini memungkinkan aplikasi berjalan di latar belakang, yang dapat menggunakan lebih banyak daya.\n\nJika izin ini nonaktif, alarm dan acara berbasis waktu yang dijadwalkan oleh aplikasi tidak akan berfungsi."</string>
+    <string name="alarms_and_reminders_description" msgid="4063972350154624500">"Mengizinkan aplikasi menyetel alarm dan menjadwalkan tindakan berjangka waktu. Hal ini memungkinkan aplikasi berjalan di latar belakang, yang dapat menggunakan lebih banyak daya.\n\nJika izin ini nonaktif, alarm dan acara berbasis waktu yang dijadwalkan oleh aplikasi tidak akan berfungsi."</string>
     <string name="turn_screen_on_title" msgid="5293798529284629011">"Pengaktifan layar"</string>
     <string name="allow_turn_screen_on" msgid="4903401106871656521">"Izinkan pengaktifan layar"</string>
-    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Mengizinkan aplikasi mengaktifkan layar. Jika diizinkan, aplikasi dapat mengaktifkan layar kapan saja tanpa izin eksplisit dari Anda."</string>
+    <string name="allow_turn_screen_on_description" msgid="7521761625343889415">"Mengizinkan aplikasi mengaktifkan layar. Jika diizinkan, aplikasi dapat mengaktifkan layar kapan saja tanpa izin Anda."</string>
     <string name="special_access" msgid="21806055758289916">"Akses aplikasi khusus"</string>
     <string name="string_concat" msgid="5213870180216051497">"<xliff:g id="PART1">%1$s</xliff:g>, <xliff:g id="PART2">%2$s</xliff:g>"</string>
     <string name="audio_category" msgid="6143623109624947993">"Audio"</string>
@@ -1101,7 +1135,7 @@
     <string name="select_device_admin_msg" msgid="8475934459999710332">"Aplikasi admin perangkat"</string>
     <string name="add_device_admin_msg" msgid="5390773166682603421">"Aktifkan aplikasi admin perangkat?"</string>
     <string name="add_device_admin" msgid="5078281377915844544">"Aktifkan aplikasi admin perangkat ini"</string>
-    <string name="device_admin_warning" msgid="7399916080685200660">"Mengaktifkan aplikasi admin ini akan mengizinkan aplikasi <xliff:g id="APP_NAME">%1$s</xliff:g> menjalankan operasi berikut:"</string>
+    <string name="device_admin_warning" msgid="7399916080685200660">"Jika aplikasi admin ini diaktifkan, aplikasi <xliff:g id="APP_NAME">%1$s</xliff:g> akan menjalankan operasi berikut:"</string>
     <string name="device_admin_warning_simplified" msgid="3310965971422346950">"Perangkat ini akan dikelola dan dipantau oleh <xliff:g id="APP_NAME">%1$s</xliff:g>."</string>
     <string name="device_admin_status" msgid="5467001937240455367">"Aplikasi admin ini aktif dan mengizinkan aplikasi <xliff:g id="APP_NAME">%1$s</xliff:g> menjalankan operasi berikut:"</string>
     <string name="adding_profile_owner_warning" msgid="3888867082224127564">"Dengan melanjutkan, pengguna Anda akan dikelola oleh admin yang juga dapat menyimpan data terkait, selain data pribadi Anda.\n\nAdmin dapat memantau serta mengelola setelan, akses, aplikasi, dan data terkait pengguna, termasuk aktivitas jaringan dan informasi lokasi perangkat."</string>
@@ -1131,6 +1165,7 @@
     <string name="power_and_energy" msgid="4638182439670702556">"Daya &amp; Energi"</string>
     <string name="power_on_behavior" msgid="927607372303160716">"Tampilan saat menyala"</string>
     <string name="reset_options_title" msgid="7632580482285108955">"Reset"</string>
+    <string name="system_tv_title" msgid="2800695543185187197">"Televisi"</string>
     <string name="adb_pairing_device_dialog_ethernet_pairing_code_label" msgid="7551782499828944838">"Kode penyambungan ethernet"</string>
     <string name="energy_modes" msgid="1331693860386361744">"Mode Energi"</string>
     <string name="energy_modes_summary" msgid="2324906343309484649">"Setelan ini memengaruhi perangkat saat tidak digunakan"</string>
@@ -1140,6 +1175,12 @@
     <string name="settings_find_my_remote_title" msgid="4586368268611622848">"Temukan remote saya"</string>
     <string name="settings_find_my_remote_description" msgid="6606011378441585154">"Memutar suara untuk menemukan lokasi remote Google TV jika Anda lupa tempat menaruhnya"</string>
     <string name="find_my_remote_slice_description" msgid="313598681990933215">"Terdapat tombol di Google TV yang dapat Anda tekan untuk memutar suara di remote Anda selama 30 detik. Fitur ini hanya berfungsi pada remote control Google TV yang didukung.\n\nUntuk mematikan suara, tekan tombol apa pun di remote."</string>
-    <string name="find_my_remote_integration_hint" msgid="7560895390042161430">"Saat Temukan remote saya diaktifkan, Anda dapat memutar suara untuk menemukan lokasi remote Google TV jika Anda lupa tempat menaruhnya."</string>
+    <string name="find_my_remote_integration_hint" msgid="1505908080631286111">"Saat aktif, Anda dapat menggunakan tombol ini di perangkat untuk memainkan suara guna menemukan lokasi remote Anda. Saat nonaktif, tombol ini tidak akan berfungsi. Anda masih tetap dapat menggunakan Temukan remote saya melalui metode lainnya."</string>
     <string name="find_my_remote_play_sound" msgid="3364983972397728084">"Putar suara"</string>
+    <string name="settings_backlight_title" msgid="3427298593084740948">"Mode Lampu Latar"</string>
+    <string name="settings_backlight_description" msgid="7017662329873546994">"Cahaya tombol di remote control saat setiap kali ditekan."</string>
+    <string name="backlight_slice_description" msgid="6201435407391858605">"Menekan tombol di remote akan mengaktifkan lampu latar di remote Google TV yang didukung."</string>
+    <string name="volume_change_settings_title" msgid="7861540652599113353">"Volume %1$s"</string>
+    <string name="volume_change_subtitle_unselect" msgid="7419217244526249839">"Anda dapat mengontrol volume Asisten di speaker %1$s"</string>
+    <string name="volume_change_subtitle_select" msgid="357283268411175266">"Hanya memengaruhi volume di perangkat %1$s, bukan di TV"</string>
 </resources>
