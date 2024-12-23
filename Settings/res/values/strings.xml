@@ -95,6 +95,8 @@
 
     <!-- Main Fragment General Settings Preferences -->
     <skip />
+    <!-- Slice URI for main fragment settings updates. -->
+    <string name="main_fragment_slice_uri" translatable="false" />
     <!-- Title for main screen preference for accounts on device [CHAR LIMIT=50] -->
     <string name="accounts_category_title">Accounts &amp; Profiles</string>
     <!-- Summary for main screen preference for accounts on device indicates no account is signed in[CHAR LIMIT=50] -->
