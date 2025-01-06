@@ -24,19 +24,24 @@ import static com.android.tv.twopanelsettings.slices.SlicesConstants.SWITCH;
 
 import android.content.Context;
 import android.net.Uri;
+import android.os.Bundle;
 import android.os.Parcelable;
 import android.view.View;
+
 import androidx.annotation.IntDef;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.core.graphics.drawable.IconCompat;
 import androidx.core.util.Pair;
+
 import com.android.tv.twopanelsettings.slices.compat.Slice;
 import com.android.tv.twopanelsettings.slices.compat.SliceSpecs;
 import com.android.tv.twopanelsettings.slices.compat.builders.ListBuilder;
 import com.android.tv.twopanelsettings.slices.compat.builders.SliceAction;
 import com.android.tv.twopanelsettings.slices.compat.core.SliceHints;
+
 import com.google.errorprone.annotations.CanIgnoreReturnValue;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.time.Duration;
@@ -228,6 +233,10 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
     private boolean mSelectable;
     private boolean mAddInfoStatus;
     private CharSequence mRedirectSliceUri;
+    private String mClassName;
+    private Bundle mProperties;
+
+    private List<RowBuilder> mChildPreferences = new ArrayList<>();
 
     public static final int TYPE_ICON = 1;
     public static final int TYPE_ACTION = 2;
@@ -730,6 +739,19 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
       return this;
     }
 
+    /** Adds a child preference to preference category. */
+    @NonNull
+    @CanIgnoreReturnValue
+    public RowBuilder addPreference(RowBuilder childPreference) {
+      mChildPreferences.add(childPreference);
+      return this;
+    }
+
+    /** */
+    public List<RowBuilder> getPreferences() {
+      return mChildPreferences;
+    }
+
     /**
      * Sets the content description for the row.
      *
@@ -853,6 +875,19 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
     @CanIgnoreReturnValue
     public RowBuilder setSelectable(boolean selectable) {
       mSelectable = selectable;
+      return this;
+    }
+
+    @Nullable
+    public String getClassName() {
+      return mClassName;
+    }
+
+    /**  */
+    @NonNull
+    @CanIgnoreReturnValue
+    public RowBuilder setClassName(@Nullable String className) {
+      mClassName = className;
       return this;
     }
 
@@ -1022,6 +1057,19 @@ public class PreferenceSliceBuilder extends TemplateSliceBuilder {
 
     public boolean isTitleActionLoading() {
       return mTitleActionLoading;
+    }
+
+    @Nullable
+    public Bundle getProperties() {
+      return mProperties;
+    }
+
+    /**  */
+    @NonNull
+    @CanIgnoreReturnValue
+    public RowBuilder setProperties(@Nullable Bundle properties) {
+      mProperties = properties;
+      return this;
     }
   }
 }
