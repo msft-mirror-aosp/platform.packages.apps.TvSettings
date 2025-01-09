@@ -175,6 +175,9 @@ open class MainFragment : PreferenceControllerFragment(),
         super.onViewCreated(view, savedInstanceState)
     }
 
+    private val shouldHideChannelsAndInputs: Boolean
+        get() = context!!.resources.getBoolean(R.bool.config_hide_channels_and_inputs)
+
     private fun updateConnectivityType(activeNetworkProvider: ActiveNetworkProvider) {
         val networkPref = findPreference<Preference>(KEY_NETWORK)
             ?: return
@@ -260,15 +263,25 @@ open class MainFragment : PreferenceControllerFragment(),
         val sliceInputsPreference = findPreference<SlicePreference>(
             KEY_CHANNELS_AND_INPUTS_SLICE
         )
-        if (sliceInputsPreference != null
-            && !SliceUtils.isSliceProviderValid(
-                requireContext(), sliceInputsPreference.uri
-            )
-        ) {
-            sliceInputsPreference.uri = getString(R.string.channels_and_inputs_fallback_slice_uri)
+        val channelsAndInputsPreference = findPreference<Preference>(KEY_CHANNELS_AND_INPUTS)
+        if (shouldHideChannelsAndInputs) {
+            if (sliceInputsPreference != null) {
+                sliceInputsPreference.setVisible(false)
+            }
+            if (channelsAndInputsPreference != null) {
+                channelsAndInputsPreference.setVisible(false)
+            }
+        } else {
+            if (sliceInputsPreference != null
+                && !SliceUtils.isSliceProviderValid(
+                    requireContext(), sliceInputsPreference.uri
+                )
+            ) {
+                sliceInputsPreference.uri = getString(R.string.channels_and_inputs_fallback_slice_uri)
+            }
+            SliceUtils.maybeUseSlice(findPreference(KEY_CHANNELS_AND_INPUTS), sliceInputsPreference)
         }
 
-        SliceUtils.maybeUseSlice(findPreference(KEY_CHANNELS_AND_INPUTS), sliceInputsPreference)
         SliceUtils.maybeUseSlice(
             findPreference(KEY_HELP_AND_FEEDBACK),
             findPreference(KEY_HELP_AND_FEEDBACK_SLICE)
