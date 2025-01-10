@@ -253,6 +253,10 @@
     <string name="overlay_security_slice_title"/>
     <!-- An item title on the privacy and apps screen. If clicked, the user is taken to screen listing Update options. [CHAR_LIMIT=50]-->
     <string name="update_slice_title"/>
+    <!-- Title of the preference to add more apps [CHAR LIMIT=60] -->
+    <string name="add_apps_title">Add more apps</string>
+    <!-- Serialized intent of the preference to add more apps. -->
+    <string name="add_apps_intent" translatable="false" />
 
     <!-- All application preferences -->
     <skip />
