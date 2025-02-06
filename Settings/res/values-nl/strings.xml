@@ -108,6 +108,7 @@
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Rechten"</string>
     <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
     <string name="update_slice_title" msgid="6553763903108611747"></string>
+    <string name="add_apps_title" msgid="5644022756289850710">"Meer apps toevoegen"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Alle apps"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Systeem-apps tonen"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Geïnstalleerde apps"</string>
@@ -702,7 +703,7 @@
     <string name="accessibility_screen_reader_flattened_component_name" msgid="6834614827111101213">"com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"</string>
     <string name="accessibility_toggle_high_text_contrast_preference_title" msgid="9200419191468995574">"Tekst met hoog contrast"</string>
     <string name="accessibility_toggle_bold_text_preference_title" msgid="3328992531170432669">"Vetgedrukte tekst"</string>
-    <string name="bounce_key_title" msgid="8334672581038914983">"Bouncetoetsen"</string>
+    <string name="bounce_key_title" msgid="8334672581038914983">"Stuitertoetsen"</string>
     <string name="bounce_key_description" msgid="8742025495500915588">"Kies de gewenste timing"</string>
     <string name="bounce_key_detailed" msgid="2422246064036507844">"Afstandsbediening negeert herhaald indrukken van toetsen"</string>
     <string name="bounce_key_description_summary" msgid="6753146496890170215">"Negeer onbedoeld snel en herhaald indrukken van knoppen. Je kunt het tijdsinterval aanpassen waarbinnen drukken worden genegeerd."</string>

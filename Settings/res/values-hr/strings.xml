@@ -108,6 +108,7 @@
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Dopuštenja"</string>
     <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
     <string name="update_slice_title" msgid="6553763903108611747"></string>
+    <string name="add_apps_title" msgid="5644022756289850710">"Dodajte još aplikacija"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Sve aplikacije"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Prikaz aplikacija sustava"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Instalirane aplikacije"</string>
@@ -631,7 +632,7 @@
     <string name="system_date" msgid="2503462662633178207">"Datum"</string>
     <string name="system_time" msgid="8434726081412227535">"Vrijeme"</string>
     <string name="system_set_date" msgid="5815123588301469720">"Postavljanje datuma"</string>
-    <string name="system_set_time" msgid="7179243042276057341">"Postavljanje vremena"</string>
+    <string name="system_set_time" msgid="7179243042276057341">"Postavite vrijeme"</string>
     <string name="system_set_time_zone" msgid="6471564469883225195">"Postavljanje vremenske zone"</string>
     <string name="desc_set_time_zone" msgid="4926392006501180047">"<xliff:g id="OFFSET">%1$s</xliff:g>, <xliff:g id="NAME">%2$s</xliff:g>"</string>
     <string name="system_set_time_format" msgid="902518158066450918">"Upotreba 24-satnog formata"</string>

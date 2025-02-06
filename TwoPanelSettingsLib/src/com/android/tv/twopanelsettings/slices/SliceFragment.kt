@@ -32,6 +32,7 @@ import androidx.preference.Preference
 import androidx.preference.PreferenceManager
 import com.android.tv.twopanelsettings.R
 import com.android.tv.twopanelsettings.TwoPanelSettingsFragment.SliceFragmentCallback
+import com.android.tv.twopanelsettings.slices.compat.Slice
 
 /**
  * A screen presenting a slice in TV settings.
@@ -164,6 +165,8 @@ open class SliceFragment : SettingsPreferenceFragment(),
         }
     }
 
+    override fun onSlice(slice: Slice?) {}
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?
     ): View {
@@ -178,14 +181,11 @@ open class SliceFragment : SettingsPreferenceFragment(),
 
         if (newTitleContainer != null) {
             newTitleContainer.outlineProvider = null
-            newTitleContainer.setBackgroundResource(R.color.tp_preference_panel_background_color)
         }
 
         val newContainer =
-            themedInflater.inflate(R.layout.slice_progress_bar, container, false)
-        if (newContainer != null) {
-            (newContainer as ViewGroup).addView(view)
-        }
+            themedInflater.inflate(R.layout.tv_settings_progress_bar, container, false)
+        (newContainer as ViewGroup).addView(view)
         return newContainer
     }
 

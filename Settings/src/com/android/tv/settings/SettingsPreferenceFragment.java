@@ -33,6 +33,7 @@ import android.graphics.Rect;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.KeyEvent;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -43,6 +44,7 @@ import android.view.accessibility.AccessibilityEvent;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.leanback.preference.LeanbackPreferenceFragmentCompat;
 import androidx.lifecycle.LifecycleOwner;
 import androidx.lifecycle.ViewModelProvider;
@@ -70,6 +72,7 @@ import java.util.Collections;
 public abstract class SettingsPreferenceFragment extends InstrumentedPreferenceFragment
         implements LifecycleOwner,
         TwoPanelSettingsFragment.PreviewableComponentCallback {
+    private static final int PROGRESS_BAR_DELAY_MS=500;
     private final Lifecycle mLifecycle = new Lifecycle(this);
 
     // Rename getLifecycle() to getSettingsLifecycle() as androidx Fragment has already implemented
@@ -101,6 +104,35 @@ public abstract class SettingsPreferenceFragment extends InstrumentedPreferenceF
         }
     }
 
+    @NonNull
+    @Override
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
+            Bundle savedInstanceState) {
+        View view = super.onCreateView(inflater, container, savedInstanceState);
+        LayoutInflater themedInflater = LayoutInflater.from(view.getContext());
+        ViewGroup newContainer = (ViewGroup)  themedInflater.inflate(
+                R.layout.tv_settings_progress_bar, container, false);
+        newContainer.addView(view);
+        return newContainer;
+    }
+
+    public void showProgressBar(boolean toShow) {
+        if (getView() == null) {
+            return;
+        }
+
+        View progressBar = requireView().requireViewById(R.id.progress_bar);
+        if (toShow) {
+            progressBar.bringToFront();
+            progressBar.setAlpha(0f);
+            progressBar.setVisibility(View.VISIBLE);
+            progressBar.animate().alpha(1f).setStartDelay(PROGRESS_BAR_DELAY_MS)
+                    .setDuration(getResources().getInteger(android.R.integer.config_shortAnimTime));
+        } else {
+            progressBar.setVisibility(View.GONE);
+        }
+    }
+
     // While the default of relying on text language to determine gravity works well in general,
     // some page titles (e.g., SSID as Wifi details page title) are dynamic and can be in different
     // languages. This can cause some complex gravity issues. For example, Wifi details page in RTL
@@ -124,10 +156,6 @@ public abstract class SettingsPreferenceFragment extends InstrumentedPreferenceF
                 ViewGroup decor = view.findViewById(R.id.decor_title_container);
                 if (decor != null) {
                     decor.setOutlineProvider(null);
-                    if (getCallbackFragment() == null ||
-                            !(getCallbackFragment() instanceof TwoPanelSettingsFragment)) {
-                        decor.setBackgroundResource(R.color.tp_preference_panel_background_color);
-                    }
                 }
             } else {
                 // We only want to set the title in this location for one-panel settings.
@@ -148,7 +176,10 @@ public abstract class SettingsPreferenceFragment extends InstrumentedPreferenceF
                 });
 
             }
-            removeAnimationClipping(view);
+            // For Two Panel Settings determine clipping per-view
+            if (!FlavorUtils.isTwoPanel(getContext())) {
+                removeAnimationClipping(view);
+            }
         }
         SettingsViewModel settingsViewModel = new ViewModelProvider(this.getActivity(),
                 ViewModelProvider.AndroidViewModelFactory.getInstance(

@@ -108,6 +108,7 @@
     <string name="apps_permissions_category_title" msgid="8099660060701465267">"Autorizações"</string>
     <string name="overlay_security_slice_title" msgid="4895032817538300187"></string>
     <string name="update_slice_title" msgid="6553763903108611747"></string>
+    <string name="add_apps_title" msgid="5644022756289850710">"Adicionar mais apps"</string>
     <string name="all_apps_title" msgid="3717294436135280133">"Todas as apps"</string>
     <string name="all_apps_show_system_apps" msgid="1260688031005374302">"Mostrar aplicações do sistema"</string>
     <string name="all_apps_installed" msgid="8217778476185598971">"Apps instaladas"</string>
@@ -407,7 +408,7 @@
     <string name="device_status" msgid="8266002761193692207">"Estado"</string>
     <string name="device_status_summary" msgid="3270932829412434985">"Rede, números de série e outras informações"</string>
     <string name="manual" msgid="5683935624321864999">"Manual"</string>
-    <string name="regulatory_information" msgid="9107675969694713391">"Informações regulamentares"</string>
+    <string name="regulatory_information" msgid="9107675969694713391">"Informações de regulamentação"</string>
     <string name="device_feedback" msgid="4871903271442960465">"Enviar feedback do dispositivo"</string>
     <string name="oem_unlock_enable_disabled_summary_bootloader_unlocked" msgid="4641790432171693921">"O carregador de arranque já está desbloqueado"</string>
     <string name="oem_unlock_enable_disabled_summary_connectivity" msgid="2979556699380115576">"Ligar à Internet primeiro"</string>
